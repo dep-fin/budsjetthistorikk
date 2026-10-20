@@ -64,6 +64,16 @@ To faktiske sesjonshentinger viste bare ulike responstidspunkter. Beløpsrettels
 
 Bevar derfor beløpslinje og kilde selv om katalogoppslaget feiler. Opprett synlig kontrollbehov og et sporbarhetsgrunnlag for katalogutvidelse. Manglende førbeløp er ikke i seg selv bevis på nullstart. [Endelig vedtak](https://www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40034443&p=102001) og [versjonsfestet kildeprøve](https://github.com/depmartin/budsjetthistorikk/blob/100a591ea10209f8cc85b2e190cbb5e1af482bb2/docs/research/issue-2/ny-katalogpost.json).
 
+## Sluttsaldo og hele hendelseskjeden krever ulike kontroller
+
+**Kontrollert 20. oktober 2026:** Hele 2024-materialet er avstemt. Alle 1 625 felles DFØ-/statsregnskapsposter stemmer eksakt for årets bevilgning. Alle 43 nøkkelforskjeller er forklart: 30 regnskapsrader med null bevilgning og 13 bevilgninger som er reversert til null. Alle 1 574 Blå bok-poster stemmer mot de opprinnelige vedtakene.
+
+Dette gjør ikke hele hendelseskjeden automatisk korrekt. To publiserte vedtak gjentar samme endring for 1860/01 og 4860/01, og 5999/90 har motstrid mellom forrige saldo og senere førbeløp. Sluttsaldo er kontrollert, men hendelsesrollene undersøkes fortsatt. Bevar kildenes observasjoner og synlige konflikter; ikke fjern like beløp eller opprett en endring bare for å få summen til å stemme. [Versjonsfestet årsavstemming med inventar og avviksledgere](https://github.com/depmartin/budsjetthistorikk/blob/a3a9b90e50e170855b51d87d86fd1d4fe89a02ab/docs/research/issue-2/aar/README.md).
+
+Årsprøven viser dessuten to bevilgningstabeller uten standardinnledning om statsbudsjettet. Kun søk på denne innledningen ville mistet 76 posthendelser. Kandidatinnlesning må bevare alle vedtak og kombinere innhold, tabellstruktur og saksreferanser.
+
+DFØs rå inntektsfortegn er motsatt vedtakets fortegn i hele den kontrollerte 2024-årgangen. Dette er en kildeavhengig normalisering, ikke en endring av regelen om inntekt/utgift etter kapittel. Overføring mellom år er egne felt og holdes utenfor årets bevilgningsendringer.
+
 ## Vedlikehold
 
 Oppdater eksisterende funn når nye prøver presiserer det. Bevar skillet mellom observert kildeinnhold, en designanbefaling og et åpent spørsmål. Vesentlige nye funn skal få en kort inngang fra AGENTS.md eller relevant fag-/arbeidsdokument, slik at neste økt finner dem uten chatloggen.
