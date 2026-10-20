@@ -1,0 +1,3685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stortingsvedtak_oversikt xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://data.stortinget.no">
+  <respons_dato_tid>2026-10-20T13:36:10.2847284+02:00</respons_dato_tid>
+  <versjon>1.6</versjon>
+  <sesjon_id>2024-2025</sesjon_id>
+  <stortingsvedtak_liste>
+    <stortingsvedtak>
+      <id>40034064</id>
+      <sak_id>100898</sak_id>
+      <sak_lenke_url>//www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=100898</sak_lenke_url>
+      <stortingsvedtak_dato_tid>2024-12-17T00:00:00</stortingsvedtak_dato_tid>
+      <stortingsvedtak_lenke_url>//www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40034064&amp;p=100898</stortingsvedtak_lenke_url>
+      <stortingsvedtak_nummer>221</stortingsvedtak_nummer>
+      <stortingsvedtak_tekst>&lt;div class='strtngt_vedtaks'&gt;
+  &lt;div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='i'&gt;
+    &lt;p class='strtngt_a type_innrykk'&gt;
+      I statsbudsjettet for 2024 blir det gjort følgande
+endringar:
+    &lt;/p&gt;
+    &lt;div class='strtngt_tbl'&gt;
+      &lt;table class='strtngt_table'&gt;
+        &lt;thead class='strtngt_thead'&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_head align_right'&gt;
+                &lt;span class='strtngt_uth type_halvfet'&gt;Kap.&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_head align_right'&gt;
+                &lt;span class='strtngt_uth type_halvfet'&gt;Post&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_head align_left'&gt;
+                &lt;span class='strtngt_uth type_halvfet'&gt;Formål&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_head align_right'&gt;
+                &lt;span class='strtngt_uth type_halvfet'&gt;Kroner&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody class='strtngt_tbody'&gt;
+          &lt;tr&gt;
+            &lt;td colspan='5'&gt;
+              &lt;p class='strtngt_a type_innrykk align_center'&gt;
+                &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;Utgifter&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                600
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Arbeids-
+og inkluderingsdepartementet:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Driftsutgifter, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                5 776 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 286 755 000 til kr 292 531 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                601
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Utgreiingsverksemd,
+forsking m.m.:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                70
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Tilskot, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                6 500 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 57 515 000 til kr 51 015 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                71
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Tilskot
+til bransjeprogram under IA-avtalen m.m.&lt;span class='strtngt_uth type_kursiv'&gt;, kan
+overførast&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med
+	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                9 127 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 71 495 000 til kr 62 368 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                73
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Tilskot
+til trygderettsleg/EØS-rettsleg forsking og kompetanseutvikling, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1 579 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 5 625 000 til kr 4 046 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                604
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Utviklingstiltak
+i arbeids- og velferdsforvaltninga:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                21
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Spesielle
+driftsutgifter&lt;span class='strtngt_uth type_kursiv'&gt;, kan overførast, kan nyttast
+under 
+post 45&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                30 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 166 930 000 til kr 136 930 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                45
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Større
+utstyrsanskaffingar og vedlikehald&lt;span class='strtngt_uth type_kursiv'&gt;, kan overførast, 
+kan nyttast under post 21&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med
+	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                145 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 262 149 000 til kr 117 149 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                605
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Arbeids-
+og velferdsetaten:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Driftsutgifter, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                270 937 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 13 898 450 000 til kr 14 169 387 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                45
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Større
+utstyrsanskaffingar og vedlikehald&lt;span class='strtngt_uth type_kursiv'&gt;, kan overførast&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;
+blir redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                19 100 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 362 255 000 til kr 343 155 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                606
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Trygderetten:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Driftsutgifter, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2 380 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 119 530 000 til kr 121 910 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                612
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Tilskot
+til Statens pensjonskasse:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Driftsutgifter&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir
+redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1 491 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 9 609 000 000 til kr 8 118 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                70
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                For
+andre medlemer av Statens pensjonskasse&lt;span class='strtngt_uth type_kursiv'&gt;, 
+overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med
+	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                7 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 84 000 000 til kr 91 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                634
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Arbeidsmarknadstiltak:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Driftsutgifter, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                12 473 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 586 970 000 til kr 599 443 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                21
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Forsøk
+med tilrettelagd vidaregåande opplæring&lt;span class='strtngt_uth type_kursiv'&gt;, kan
+overførast&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med
+	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                6 124 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 50 000 000 til kr 43 876 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                76
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Tiltak
+for arbeidssøkarar&lt;span class='strtngt_uth type_kursiv'&gt;, kan overførast&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                95 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 7 742 805 000 til kr 7 837 805 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                635
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Ventelønn:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Driftsutgifter&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir
+auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                300 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 400 000 til kr 700 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                640
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Arbeidstilsynet:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Driftsutgifter, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                12 941 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 859 900 000 til kr 872 841 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                21
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Spesielle
+driftsutgifter, regionale verneombod, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir 
+redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1 080 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 18 410 000 til kr 17 330 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                648
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Arbeidsretten,
+Riksmeklaren m.m.:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Driftsutgifter, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                7 055 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 28 745 000 til kr 35 800 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                21
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Spesielle
+driftsutgifter&lt;span class='strtngt_uth type_kursiv'&gt;, kan overførast, kan nyttast
+under post 1&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med
+	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                570 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 570 000 til kr 0
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                660
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Krigspensjon:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                71
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Tilskot,
+sivile&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 75 000 000 til kr 74 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                666
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Avtalefesta
+pensjon (AFP):
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                70
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Tilskot&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir
+auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                10 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 4 020 000 000 til kr 4 030 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                667
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Supplerande
+stønad:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                70
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Tilskot
+til personar over 67 år med kort butid&lt;span class='strtngt_uth type_kursiv'&gt;, 
+overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med
+	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                5 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 385 000 000 til kr 390 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                71
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Tilskot
+til uføre flyktningar med kort butid&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka &lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                8 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 188 000 000 til kr 196 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1565
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Bustadlånsordninga
+i Statens pensjonskasse:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Driftsutgifter, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med …	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                11 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 57 000 000 til kr 68 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk'&gt;
+                90
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Utlån, &lt;span class='strtngt_uth type_kursiv'&gt;overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk'&gt;
+                10 100 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå kr 22 200 000 000 til
+kr 32 300 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1860
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Havindustritilsynet:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Driftsutgifter,&lt;span class='strtngt_uth type_kursiv'&gt; kan nyttast under post 21&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                10 988 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 349 324 000 til kr 360 312 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2470
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Statens
+pensjonskasse:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                24
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Driftsresultat:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                1.
+Driftsinntekter, &lt;span class='strtngt_uth type_kursiv'&gt;overslagsløyving&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                -745 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                2.
+Driftsutgifter, &lt;span class='strtngt_uth type_kursiv'&gt;overslagsløyving&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                608 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                3.
+Avskrivingar
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                90 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                4.
+Renter av statens kapital
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                5.
+Til investeringsføremål
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                55 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                6.
+Til reguleringsfond
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                -25 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                -15 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2541
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Dagpengar:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                70
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Dagpengar&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir
+auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                680 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 12 210 400 000 til kr 12 890 400 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2542
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Statsgaranti
+for lønnskrav ved konkurs m.m.:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                70
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Statsgaranti
+for lønnskrav ved konkurs m.m.&lt;span class='strtngt_uth type_kursiv'&gt;, 
+overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med
+	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                85 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 900 000 000 til kr 985 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2620
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Stønad
+til einsleg mor eller far:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                72
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Stønad
+til barnetilsyn til einsleg mor eller far i arbeid&lt;span class='strtngt_uth type_kursiv'&gt;,
+overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med
+	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                3 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 83 000 000 til kr 80 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2650
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Sjukepengar:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                70
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Sjukepengar
+for arbeidstakarar m.m.&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                3 180 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 57 390 000 000 til kr 60 570 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                71
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Sjukepengar
+for sjølvstendige&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                110 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 1 800 000 000 til kr 1 910 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                72
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Pleie-,
+opplærings- og omsorgspengar m.m.&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                270 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 2 910 000 000 til kr 3 180 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                75
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Feriepengar
+av sjukepengar&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                180 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 3 390 000 000 til kr 3 210 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2651
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Arbeidsavklaringspengar:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                70
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Arbeidsavklaringspengar&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir 
+auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                740 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 45 750 000 000 til kr 46 490 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                71
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Tilleggsstønad&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir
+redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 132 000 000 til kr 130 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2655
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Uførleik:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                70
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Uføretrygd&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir
+auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                140 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 124 800 000 000 til kr 124 940 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                75
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Meinerstatning
+ved yrkesskade&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                5 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 78 000 000 til kr 73 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2661
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Grunn-
+og hjelpestønad, hjelpemiddel m.m.:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                70
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Grunnstønad&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir
+auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                10 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 1 790 000 000 til kr 1 800 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                71
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Hjelpestønad&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir
+auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                80 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 2 210 000 000 til kr 2 290 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                73
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Hjelpemiddel
+m.m. under arbeid og utdanning, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med
+	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                14 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 135 000 000 til kr 121 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                74
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Tilskot
+til bilar, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                65 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 810 000 000 til kr 875 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                75
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Betring
+av funksjonsevna, hjelpemiddel, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med
+	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                140 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 4 810 000 000 til kr 4 950 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                77
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Ortopediske
+hjelpemiddel, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                70 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 2 530 000 000 til kr 2 600 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                78
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Høyreapparat, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                20 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 1 010 000 000 til kr 1 030 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2670
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Alderdom:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                70
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Grunnpensjon&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir
+redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                70 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 93 610 000 000 til kr 93 540 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                71
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Tilleggspensjon&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir
+redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                370 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 189 710 000 000 til kr 189 340 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                72
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Inntektspensjon&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir
+redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                220 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 24 400 000 000 til kr 24 180 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                73
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Særtillegg,
+pensjonstillegg m.m.&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                60 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 9 200 000 000 til kr 9 140 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2680
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Etterlatne:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                71
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Barnepensjon&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir
+auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                10 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 1 630 000 000 til kr 1 640 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                74
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Tilleggsstønader
+og stønad til skolepengar&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                100 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 200 000 til kr 100 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                75
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Stønad
+til barnetilsyn til attlevande i arbeid&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                800 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 2 400 000 til kr 1 600 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2686
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Stønad
+ved gravferd:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                70
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Stønad
+ved gravferd&lt;span class='strtngt_uth type_kursiv'&gt;, overslagsløyving&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                80 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 305 000 000 til kr 385 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td colspan='5'&gt;
+              &lt;p class='strtngt_a type_innrykk align_center'&gt;
+                &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;Inntekter&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                3634
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Arbeidsmarknadstiltak:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                85
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Innfordring
+av feilutbetaling, arbeidsmarknadstiltak, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir
+redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                5 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 5 000 000 til kr 0
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                3635
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Ventelønn
+m.m.:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Refusjon
+statleg verksemd m.m., &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med
+	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                300 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 400 000 til kr 700 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                3640
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Arbeidstilsynet:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                6
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Refusjonar, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                641 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 3 759 000 til kr 4 400 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                7
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Byggesaksbehandling,
+gebyr, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                3 738 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 24 738 000 til kr 21 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                8
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Refusjon
+utgifter regionale verneombod, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir 
+redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1 080 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 18 698 000 til kr 17 618 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                85
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Tvangsmulkt, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                8 825 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 7 175 000 til kr 16 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                86
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Gebyr
+for brot på arbeidsmiljøregelverket, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir 
+auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                35 500 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 29 450 000 til kr 64 950 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                4565
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Bustadlånsordninga
+i Statens pensjonskasse:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Gebyrinntekter,
+lån, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                11 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 52 000 000 til kr 63 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                90
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Tilbakebetaling
+av lån, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                3 200 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 10 600 000 000 til kr 13 800 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                4860
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Havindustritilsynet:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Gebyrinntekter, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2 400 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 85 800 000 til kr 83 400 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                5607
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Renter
+av bustadlånsordninga i Statens pensjonskasse:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                80
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Renter, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                472 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 3 587 000 000 til kr 4 059 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                5701
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Diverse
+inntekter:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                71
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Refusjon
+ved yrkesskade, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                19 904 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 846 000 000 til kr 865 904 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                80
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Renter, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 1 000 000 til kr 2 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                86
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Innkrevjing
+feilutbetalingar, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                13 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 1 507 000 000 til kr 1 520 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                88
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Hjelpemiddelsentralar
+m.m., &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                10 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 95 000 000 til kr 105 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                5704
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Statsgaranti
+for lønnskrav ved konkurs:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                70
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Dividende, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                75 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 215 000 000 til kr 290 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                5705
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Refusjon
+av dagpengar:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                72
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Innkrevjing
+av forskotterte dagpengar, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med
+	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                15 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 140 000 000 til kr 155 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</stortingsvedtak_tekst>
+      <stortingsvedtak_tittel>Endringar i statsbudsjettet 2024 under Arbeids- og inkluderingsdepartementet</stortingsvedtak_tittel>
+      <stortingsvedtak_type>
+        <id>ANNET</id>
+        <navn>Allminnelige vedtak</navn>
+      </stortingsvedtak_type>
+    </stortingsvedtak>
+  </stortingsvedtak_liste>
+</stortingsvedtak_oversikt>

@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stortingsvedtak_oversikt xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://data.stortinget.no">
+  <respons_dato_tid>2026-10-20T13:36:10.2847284+02:00</respons_dato_tid>
+  <versjon>1.6</versjon>
+  <sesjon_id>2024-2025</sesjon_id>
+  <stortingsvedtak_liste>
+    <stortingsvedtak>
+      <id>40034226</id>
+      <sak_id>100894</sak_id>
+      <sak_lenke_url>//www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=100894</sak_lenke_url>
+      <stortingsvedtak_dato_tid>2024-12-18T00:00:00</stortingsvedtak_dato_tid>
+      <stortingsvedtak_lenke_url>//www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40034226&amp;p=100894</stortingsvedtak_lenke_url>
+      <stortingsvedtak_nummer>365</stortingsvedtak_nummer>
+      <stortingsvedtak_tekst>&lt;div class='strtngt_vedtaks'&gt;
+  &lt;div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='i'&gt;
+    &lt;p class='strtngt_a type_innrykk'&gt;
+      I statsbudsjettet for 2024 blir det gjort følgjande
+endringar:
+    &lt;/p&gt;
+    &lt;div class='strtngt_tbl'&gt;
+      &lt;table class='strtngt_table'&gt;
+        &lt;thead class='strtngt_thead'&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                &lt;span class='strtngt_uth type_halvfet'&gt;Kap.&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                &lt;span class='strtngt_uth type_halvfet'&gt;Post&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_head align_left'&gt;
+                &lt;span class='strtngt_uth type_halvfet'&gt;Formål&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                &lt;span class='strtngt_uth type_halvfet'&gt;Kroner&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                &lt;span class='strtngt_uth type_halvfet'&gt;Kroner&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody class='strtngt_tbody'&gt;
+          &lt;tr&gt;
+            &lt;td colspan='5'&gt;
+              &lt;p class='strtngt_a type_innrykk align_center'&gt;
+                &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;Utgifter&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1800
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Energidepartementet:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Driftsutgifter, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                5 203 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 246 100 000 til kr 251 303 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                21
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Spesielle
+driftsutgifter, &lt;span class='strtngt_uth type_kursiv'&gt;kan overførast, kan nyttast
+under 
+postane 50, 71 og 72&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med
+	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                5 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 33 000 000 til kr 28 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1810
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Sokkeldirektoratet:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Driftsutgifter, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                6 100 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 346 800 000 til kr 352 900 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                21
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Spesielle
+driftsutgifter, &lt;span class='strtngt_uth type_kursiv'&gt;kan overførast&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                15 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 102 100 000 til kr 87 100 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1820
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Noregs
+vassdrags- og energidirektorat:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Driftsutgifter, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                17 525 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 899 000 000 til kr 916 525 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                21
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Spesielle
+driftsutgifter, &lt;span class='strtngt_uth type_kursiv'&gt;kan overførast&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                18 500 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 91 000 000 til kr 109 500 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                26
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Reguleringsmyndigheita
+for energi, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2 030 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 81 200 000 til kr 83 230 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                76
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Stønad
+til hushaldningskundar av nærvarmeanlegg, &lt;span class='strtngt_uth type_kursiv'&gt;kan overførast&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 10 000 000 til kr 8 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1850
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Klima,
+industri og teknologi:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                70
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Gassnova
+SF, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                12 500 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 106 800 000 til kr 94 300 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                71
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Teknologisenter
+Mongstad, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                24 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 90 000 000 til kr 66 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                72
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Langskip
+– fangst og lagring av CO&lt;sub&gt;2&lt;/sub&gt;, &lt;span class='strtngt_uth type_kursiv'&gt;kan
+overførast&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med
+	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                300 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 1 700 000 000 til kr 1 400 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                75
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Norwegian
+Energy Partners, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2 500 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 26 400 000 til kr 28 900 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1860
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Havindustritilsynet:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Driftsutgifter, &lt;span class='strtngt_uth type_kursiv'&gt;kan nyttast under post 21&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                10 988 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 349 324 000 til kr 360 312 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2440
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Statens
+direkte engasjement i petroleumsverksemda
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                30
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Investeringar, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                5 900 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 30 100 000 000 til kr 36 000 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                (NY) 31
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Kjøp
+av eigardelar, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir løyvd&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                11 900 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td colspan='5'&gt;
+              &lt;p class='strtngt_a type_innrykk align_center'&gt;
+                &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;Inntekter&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                4810
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Sokkeldirektoratet:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Gebyrinntekter, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                4 200 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 30 700 000 til kr 26 500 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                4860
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Havindustritilsynet:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Gebyrinntekter, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir redusert&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                2 400 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 85 800 000 til kr 83 400 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                5440
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Statens
+direkte økonomiske engasjement i petroleumsverksemda
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                24
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Driftsresultat
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                1
+Driftsinntekter
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                311 200 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                2
+Driftsutgifter
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                -42 200 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                3
+Leite- og feltutviklingsutgifter
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                -2 500 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                4
+Avskrivingar
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                -29 400 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                5
+Renter av statens kapital
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                -3 800 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                233 300 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                30
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Avskrivingar, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med 	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                1 400 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 28 000 000 000 til kr 29 400 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                5582
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Sektoravgifter
+under Energidepartementet:
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                75
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                Sektoravgifter
+under Havindustritilsynet, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;blir auka&lt;/span&gt; med
+	
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;
+                5 067 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_left'&gt;
+                frå
+kr 134 933 000 til kr 140 000 000
+              &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</stortingsvedtak_tekst>
+      <stortingsvedtak_tittel>Endringar i statsbudsjettet 2024 under Energidepartementet</stortingsvedtak_tittel>
+      <stortingsvedtak_type>
+        <id>ANNET</id>
+        <navn>Allminnelige vedtak</navn>
+      </stortingsvedtak_type>
+    </stortingsvedtak>
+  </stortingsvedtak_liste>
+</stortingsvedtak_oversikt>

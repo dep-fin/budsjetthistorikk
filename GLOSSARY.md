@@ -89,3 +89,6 @@ En samlet opplysning om flere ledd eller en periode, uten at opplysningen i seg 
 **Beregnet bevilgning**:
 Et avledet nivå fra et uttrykkelig valgt inngående grunnlag og senere vedtatte endringer.
 _Unngå_: Observert kildetall som synonym.
+
+**Avstemt utvalg**:
+En beregning der det uttrykkelig valgte inngående nivået og enkeltendringene består de dokumenterte lokale og kronologiske regnekontrollene. Det sier ikke at utvalget dekker hele budsjettåret eller har faglig godkjenning.

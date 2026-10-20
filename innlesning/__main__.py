@@ -8,12 +8,27 @@ from pathlib import Path
 
 from . import fetch_session, import_saved, read_report, read_sync, resume_sync, stage_sync
 from .ingestion import MAX_BYTES, START_SESSION, session_url
+from .observations import Interpretation, extract_revision
 from .sync import SyncReport
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     commands = parser.add_subparsers(dest="command", required=True)
+    interpretation_command = commands.add_parser(
+        "tolk", help="B3: tolk én valgt B2-revisjon offline"
+    )
+    interpretation_command.add_argument("--database", type=Path, required=True)
+    interpretation_command.add_argument("--revisjon", required=True)
+    interpretation_command.add_argument(
+        "--tolkning", required=True, help="Adapterversjon, storting-belop-v1"
+    )
+    interpretation_command.add_argument(
+        "--runde", choices=["opprinnelig", "rnb", "nysaldering", "ovrig", "uavklart"]
+    )
+    interpretation_command.add_argument(
+        "--rundegrunnlag", help="Kildebevis for eksplisitt rundevalg"
+    )
     for name in ("hent", "synkroniser"):
         command = commands.add_parser(
             name,
@@ -52,6 +67,28 @@ def main() -> int:
     arguments = parser.parse_args()
     job_id: str | None = None
     try:
+        if arguments.command == "tolk":
+            interpretation = Interpretation(
+                adapter_version=arguments.tolkning,
+                round=arguments.runde,
+                round_evidence=arguments.rundegrunnlag,
+            )
+            extraction = extract_revision(
+                arguments.database, arguments.revisjon, interpretation=interpretation
+            )
+            print(
+                json.dumps(
+                    {
+                        "status": "tolket",
+                        "belopsuttrekk": extraction.id,
+                        "tolkning": interpretation.id,
+                        "observasjoner": len(extraction.observations),
+                        "avvik": [asdict(issue) for issue in extraction.anomalies],
+                        "dekningsgrense": "Bare valgt revisjon; ingen sesjonsgaranti",
+                    }
+                )
+            )
+            return 0
         if arguments.command in ("gjenoppta", "rapport"):
             job_id = str(arguments.kjoring)
             if arguments.command == "gjenoppta":

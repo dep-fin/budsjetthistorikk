@@ -1,0 +1,13 @@
+# ADR 0004: Additive beløpsobservasjoner og versjonsvalgt beregning
+
+Valgt for B3/#6, 20. oktober 2026. [Observasjon-1](../observasjonsformat.md) er det faglige grunnlaget. B1/B2 har allerede varige, uforanderlige resultater med en smal originalbudsjettparser. Å utvide denne parseren under samme versjon ville gitt forskjellige resultater for samme B2-revisjon. Å bruke B1-kjøringer som hendelsesregister ville dessuten videreført kjøringsdubletter.
+
+Vi beholder B1/B2 og legger en egen, versjonert Storting-adapter over uttrykkelig valgte B2-revisjoner. Den generiske lagringsgrensen har kildeuavhengige, immutable dataklasser. Den krever verken API-ID eller dato og har plass til råverdi, enhet, underpost, organisasjon, dokumentreferanser og relasjoner. Full Excel-adapter følger #13. Originalene på historikkbranchen integreres ikke.
+
+SQLite versjon 3 legger til `amount_extractions`, `amount_observations` og `history_calculations`. Kildebyte bruker eksisterende `sources`. Originaltabeller, B2-revisjoner, fingeravtrykk og parseridentitet beholdes. B2 initialiserer fortsatt en ny database til versjon 2, men bevarer versjon 3 etter B3-skriving. Lesing av gamle rapporter krever ingen migrering. B3-skriving initialiserer i en eksplisitt transaksjon og berører ingen ventende B2-jobber.
+
+Beløpsobservasjonens ID bygger på datasett, kildesystem, revisjon, lokator, beløpsfelt, tolkning og format. Uttrekks-ID bygger på revisjon/tolkning. Samme grunnlag gjenbrukes; motstridende innhold under samme ID avvises. Ny kildeversjon eller tolkning bevarer forgjengeren. JSON bevarer kontraktens feltgrupper uten å innføre nye beløpskolonner for hvert stadium. Dokumentrelasjonene inngår i hver kildeforankret observasjon, ikke i en ny finansiell hendelse.
+
+Analysen velger uttreks-ID-er, datasett, konto, år, detaljeringsnivå og kontroll-/registergrunnlag. Ett opprinnelig nivå pluss dokumenterte enkeltendringer beregnes med egen regelversjon og ID. Før/etter og andre talltyper forblir kildeopplysninger. Det lagrede beregningsresultatet omfatter inn-observasjoner, kildekontekst, dekningsgrense og avvik. Aktuell ferskhet beregnes separat ved lesing; en ny innholdsovergang endrer grunnlaget også ved A → B → A. Et historisk resultat overskrives aldri av latest.
+
+Alternativet med bare en dynamisk SQL-sum ville mistet det valgte grunnlaget og gjort historiske uttrekk vanskelige å reprodusere. Alternativet med full manuell vurderingsimport, historisk Excel-innlesning og samlet sesjonsanalyse ville gått ut over #6. Disse grensene er beholdt. `avstemt_utvalg` er en teknisk kontroll av et begrenset utvalg, ikke faglig godkjenning eller dokumentert årsdekning.

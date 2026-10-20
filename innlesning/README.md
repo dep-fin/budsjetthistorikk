@@ -27,3 +27,9 @@ Den autentiske prøven er opprinnelig vedtak 40033944 fra 2024–2025, med alle 
 `read_sync` gir kjørerapport. `read_revision` gir valgt revisjon og separat ferskhetskontekst. `record_control_reference` bevarer en begrunnet henvisning uten å endre analysetall. Nye kildeversjoner gjør gamle henvisninger utdaterte, også ved A → B → A. Filimport og faglig kontrollvirkning kommer i B5.
 
 Se [kommandoer og prøver](../README.md#kjør-b2-lokalt), [B2-kontrakten](../docs/datakontrakt.md#b2--kildeinventar-observasjoner-og-revisjoner) og [ADR 0002](../docs/adr/0002-kildeobservasjoner.md). Alle typer bevares, men B1-parserbredden består. B2 er ikke B6s samlede sesjonseksport.
+
+## Separat beløpstolkning i B3
+
+`innlesning.observations` gir immutable, kildeuavhengige beløpsobservasjoner og en avgrenset Storting-adapter. `extract_revision` leser én eksplisitt valgt B2-revisjon, bevarer første rågrunnlag og gjenbruker identiteter ved ny lesing. Før/endring/etter er egne observasjoner i samme ledd. Råverdier, enhet, akser, lokator og proveniens bevares; B1s `structure_node`, parseridentitet og resultater endres ikke.
+
+`save_extraction` og `read_extraction` er den generiske lagringsgrensen. API-ID og dato kan mangle med nullgrunn; underpost, historisk organisasjon og flere dokumentreferanser kan representeres. Dette er ingen historisk Excel-adapter. Additiv skjemaversjon 3 beholder B1/B2 og ventende jobber. Se [B3-kontrakten](../docs/datakontrakt.md#b3--beløpsobservasjoner-og-valgt-historikk) og [CLI-eksempelet](../README.md#kjør-b3-lokalt).

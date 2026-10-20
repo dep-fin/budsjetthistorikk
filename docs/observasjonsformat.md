@@ -1,6 +1,6 @@
 # Felles observasjonsformat, versjon 1
 
-Status: besluttet spesifikasjon 20. oktober 2026 etter prosjekteierens mandat om å presisere formatet før #6. Dette dokumentet er den faglige kontrakten for videre bygging. Det er ikke et implementert API, et databaseskjema eller en migrering. [B1/B2-kontrakten](datakontrakt.md) beskriver fortsatt dagens kjørbare løsning.
+Status: besluttet spesifikasjon 20. oktober 2026 etter prosjekteierens mandat om å presisere formatet før #6. Dette dokumentet er den faglige kontrakten. Det avgrensede B3-snittet, konkret API og additiv lagring beskrives nå i [datakontrakten](datakontrakt.md#b3--beløpsobservasjoner-og-valgt-historikk) og [ADR 0004](adr/0004-b3-lagring-og-utvalg.md). Full historisk Excel-adapter og senere kilder er fortsatt egne leveranser.
 
 ## Formål og avgrensning
 
@@ -103,4 +103,4 @@ I #6 skal kilde → lagring → Excel fortsatt være testgrensen. Kontraktprøve
 
 `innlesning/` eier adaptere, råkilder, observasjoner og sporbar normalisering. `analyse/` eier eksplisitte utvalg, avledede kjeder og visning. Analysegrensen bruker formatet og krever ikke at kilden er et Storting-API-objekt. [Ansvarsdelingen](ansvarsdeling.md) består.
 
-B1/B2s offentlige funksjoner, kildebyte, kontrollstatus og ID-er beholdes. En adapter kan mappe deres resultater til denne kontrakten; gamle rapporter blir ikke automatisk en godkjent samlet historikk. Ingen ny SQLite-tabell, omhashing, adopsjon eller endring av offentlig API følger av dette dokumentet. Konkret lagring og additiv migrering med regresjonsbevis velges i byggeticketen. #6 eller #13 er ikke implementert ved at denne spesifikasjonen er flettet. Plattform og mottakersystem forblir åpne.
+B1/B2s offentlige funksjoner, kildebyte, kontrollstatus og ID-er beholdes. En separat B3-adapter tolker uttrykkelig valgte revisjoner; gamle rapporter blir ikke automatisk en godkjent samlet historikk. Konkret lagring og additiv migrering med regresjonsbevis er beskrevet i [B3-kontrakten](datakontrakt.md#b3--beløpsobservasjoner-og-valgt-historikk). Den opprinnelige spesifikasjonsleveransen var ingen implementering av #6 eller #13; #13 er fortsatt utenfor B3. Plattform og mottakersystem forblir åpne.

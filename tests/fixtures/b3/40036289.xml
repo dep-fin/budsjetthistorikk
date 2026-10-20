@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stortingsvedtak_oversikt xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://data.stortinget.no">
+  <respons_dato_tid>2026-10-20T14:21:14.2335015+02:00</respons_dato_tid>
+  <versjon>1.6</versjon>
+  <sesjon_id>2025-2026</sesjon_id>
+  <stortingsvedtak_liste>
+    <stortingsvedtak>
+      <id>40036289</id>
+      <sak_id>107811</sak_id>
+      <sak_lenke_url>//www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=107811</sak_lenke_url>
+      <stortingsvedtak_dato_tid>2026-03-26T00:00:00</stortingsvedtak_dato_tid>
+      <stortingsvedtak_lenke_url>//www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40036289&amp;p=107811</stortingsvedtak_lenke_url>
+      <stortingsvedtak_nummer>599</stortingsvedtak_nummer>
+      <stortingsvedtak_tekst>&lt;div class='strtngt_vedtaks'&gt;
+  &lt;p class='strtngt_a type_uinnrykk'&gt;
+    I stortingsvedtak om veibruksavgift på drivstoff
+for 2026 gjøres følgende endringer fra 1. april, eller dersom strengt
+nødvendig fra den tid regjeringen bestemmer, men ikke senere enn
+1. mai, til 1. september 2026:
+  &lt;/p&gt;
+  &lt;p class='strtngt_a type_blanklinje'&gt;
+    § 1 første ledd skal lyde:
+  &lt;/p&gt;
+  &lt;p class='strtngt_a type_innrykk'&gt;
+    Fra 1. april, eller dersom strengt nødvendig
+fra den tid regjeringen bestemmer, men ikke senere enn 1. mai, til
+1. september 2026 skal det i henhold til lov 19. mai 1933 nr. 11
+om særavgifter betales veibruksavgift til statskassen for innførsel
+og innenlandsk produksjon av følgende drivstoff:
+  &lt;/p&gt;
+  &lt;ol class='strtngt_liste krnl_list_lower-alpha type_alpha'&gt;
+    &lt;li class='strtngt_pkt'&gt;
+      &lt;p class='strtngt_a type_innrykk'&gt;
+        bensin per liter:
+kr &lt;span class='strtngt_uth type_kursiv'&gt;0&lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li class='strtngt_pkt'&gt;
+      &lt;p class='strtngt_a type_innrykk'&gt;
+        mineralolje til fremdrift av motorvogn
+(autodiesel) per liter: kr &lt;span class='strtngt_uth type_kursiv'&gt;0&lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li class='strtngt_pkt'&gt;
+      &lt;p class='strtngt_a type_innrykk'&gt;
+        naturgass per Sm&lt;sup&gt;3&lt;/sup&gt;: kr &lt;span class='strtngt_uth type_kursiv'&gt;0&lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li class='strtngt_pkt'&gt;
+      &lt;p class='strtngt_a type_innrykk'&gt;
+        LPG per kg: kr &lt;span class='strtngt_uth type_kursiv'&gt;0&lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li class='strtngt_pkt'&gt;
+      &lt;p class='strtngt_a type_innrykk'&gt;
+        bioetanol per liter: kr &lt;span class='strtngt_uth type_kursiv'&gt;0&lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li class='strtngt_pkt'&gt;
+      &lt;p class='strtngt_a type_innrykk'&gt;
+        biodiesel per liter: kr &lt;span class='strtngt_uth type_kursiv'&gt;0&lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+  &lt;p class='strtngt_a type_innrykk'&gt;
+    I statsbudsjettet for 2026 gjøres følgende endringer:
+  &lt;/p&gt;
+  &lt;div class='strtngt_tbl'&gt;
+    &lt;table class='strtngt_table'&gt;
+      &lt;thead class='strtngt_thead'&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_right'&gt;
+              &lt;span class='strtngt_uth type_halvfet'&gt;Kap.&lt;/span&gt;
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_right'&gt;
+              &lt;span class='strtngt_uth type_halvfet'&gt;Post&lt;/span&gt;
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk'&gt;
+              &lt;span class='strtngt_uth type_halvfet'&gt;Formål&lt;/span&gt;
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_right'&gt;
+              &lt;span class='strtngt_uth type_halvfet'&gt;Kroner&lt;/span&gt;
+            &lt;/p&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody class='strtngt_tbody'&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_right'&gt;
+              5538
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_left'&gt;
+              Veibruksavgift på drivstoff
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk'&gt;
+              70
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_left'&gt;
+              Veibruksavgift
+på bensin, &lt;span class='strtngt_uth type_kursiv'&gt;reduseres&lt;/span&gt; med 	
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk'&gt;
+              1 154 167 000
+            &lt;/p&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_left'&gt;
+              fra kr 2 770 000 000 til
+kr I 615 833 
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk'&gt;
+              71
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_left'&gt;
+              Veibruksavgift på autodiesel, &lt;span class='strtngt_uth type_kursiv'&gt;reduseres&lt;/span&gt; med 	
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk'&gt;
+              2 175 000 000
+            &lt;/p&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_left'&gt;
+              fra kr 5 220 000 000 til
+kr 3 045 000 000
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk'&gt;
+              72
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_left'&gt;
+              Veibruksavgift på naturgass
+og LPG, &lt;span class='strtngt_uth type_kursiv'&gt;reduseres&lt;/span&gt; med ... 
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk'&gt;
+              1 250 000
+            &lt;/p&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_left'&gt;
+              fra kr 3 000 000 til kr 1
+750 000
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</stortingsvedtak_tekst>
+      <stortingsvedtak_tittel>Representantforslag om midlertidig suspensjon av veibruksavgift på drivstoff</stortingsvedtak_tittel>
+      <stortingsvedtak_type>
+        <id>ANNET</id>
+        <navn>Allminnelige vedtak</navn>
+      </stortingsvedtak_type>
+    </stortingsvedtak>
+  </stortingsvedtak_liste>
+</stortingsvedtak_oversikt>

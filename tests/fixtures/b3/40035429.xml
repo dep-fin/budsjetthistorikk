@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stortingsvedtak_oversikt xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://data.stortinget.no">
+  <respons_dato_tid>2026-10-20T13:36:10.2847284+02:00</respons_dato_tid>
+  <versjon>1.6</versjon>
+  <sesjon_id>2024-2025</sesjon_id>
+  <stortingsvedtak_liste>
+    <stortingsvedtak>
+      <id>40035429</id>
+      <sak_id>103529</sak_id>
+      <sak_lenke_url>//www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=103529</sak_lenke_url>
+      <stortingsvedtak_dato_tid>2025-06-20T00:00:00</stortingsvedtak_dato_tid>
+      <stortingsvedtak_lenke_url>//www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40035429&amp;p=103529</stortingsvedtak_lenke_url>
+      <stortingsvedtak_nummer>1156</stortingsvedtak_nummer>
+      <stortingsvedtak_tekst>&lt;div class='strtngt_vedtaks'&gt;
+  &lt;div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='viii'&gt;
+    &lt;div class='strtngt_undertittel'&gt;
+      Forprosjekt rehabilitering av Stortingets
+tilbygg
+    &lt;/div&gt;
+    &lt;p class='strtngt_a type_innrykk'&gt;
+      Stortinget samtykker i at det i 2025, i forbindelse med
+forprosjekt for rehabilitering av Stortingets tilbygg mot Akersgata,
+kan pådras forpliktelser utover gitt bevilgning under kap. 41 Stortinget,
+post 45 Større utstyrsanskaffelser og vedlikehold, med samlet ramme
+for nye forpliktelser og gammelt ansvar på inntil 72 mill. kroner.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</stortingsvedtak_tekst>
+      <stortingsvedtak_tittel>Revidert nasjonalbudsjett 2025</stortingsvedtak_tittel>
+      <stortingsvedtak_type>
+        <id>ANNET</id>
+        <navn>Allminnelige vedtak</navn>
+      </stortingsvedtak_type>
+    </stortingsvedtak>
+  </stortingsvedtak_liste>
+</stortingsvedtak_oversikt>
