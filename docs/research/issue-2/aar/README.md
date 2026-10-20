@@ -8,6 +8,10 @@ Denne rapporten gjengir den fullførte årsundersøkelsen. CSV-ledgere, de oppri
 
 [Sluttposter](post_ledger.csv) · [Kilde/post-ledger](source_ledger.csv) · [Hele API-inventaret](session_inventory.csv) · [API-hendelser](api_events.csv) · [Før/etter-kjeder](chain_ledger.csv) · [Alle DFØ-rader for 2024](dfo2024.csv) · [Regnskapsavstemming](statsregnskap_ledger.csv) · [43 omfangsforskjeller](scope_residual_ledger.json) · [Seks hendelsesavvik](residual_ledger.json) · [Kontrollutfall](verification.json)
 
+## Senere kildeavklaring av residualene
+
+Etter denne årsrapporten er de tre kjedene undersøkt mot fulle innstillinger, voteringsforslag og referater. Se [1860/01 og 4860/01](../dobling/README.md) og [5999/90](../finansiering/README.md). Gjentakelsen og finansieringskonflikten finnes i selve de publiserte behandlingskildene. Rapportens rå avvikstall nedenfor er beholdt. Det er ikke gjort en stilltiende etterjustering av kjeden for å få totalsamsvar. Ingen kilde er funnet som opphever de aktuelle radene; en uavklart formell kjede holdes utenfor automatisk godkjente historikksummer.
+
 ## Konklusjon og avgrenset godkjenning
 
 **DFØs sluttbevilgning for hele 2024 er avstemt mot hele bevilgningskolonnen i Statsrekneskapen 2024. Denne sluttavstemmingen er godkjennbar. En fullstendig, sammenhengende kjede av stortingsvedtak er fortsatt ikke godkjennbar for tre poster.** Kildekonfliktene gjelder 1860/01, 4860/01 og 5999/90. De er avgrenset og tallfestet nedenfor. Kontrollen er utvidet fra fire prøveposter til alle årgangens rader og poster.

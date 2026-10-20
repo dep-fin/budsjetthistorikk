@@ -11,6 +11,7 @@ DFØs bevilgningshistorikk kan brukes som en egen kontrollkilde. Fire 2024-poste
 ## Videre kildeavklaringer
 
 - [Vedtak 599: direktebehandling uten komitéinnstilling og faktisk tallavvik](vedtak599/README.md)
+- [Finansieringspost 5999/90: bekreftet kildekonflikt og sperret additiv kjede](finansiering/README.md)
 - [Gjentatte overganger på 1860/01 og 4860/01](dobling/README.md)
 - [Full årsavstemming 2024 med eksplisitte kildekonflikter](aar/README.md)
 - [Selvstendig bevilgning uten proposisjonsgrunnlag i undersøkt kildekjede](selvstendig-bevilgning.md)
@@ -34,7 +35,7 @@ Originale råfiler er mellomlagret lokalt. Kilde-URL-er, hentestatus og SHA-256 
 
 ## Status og gjenstående arbeid
 
-API-prøvene omfatter 24 vedtak i 2026–2027 og 1 260 i 2024–2025. Vedtakstekst finnes i sesjonsoversikten. I de fire undersøkte voteringsvedtak-svarene hadde alle 54 elementer nil-tekst. Sak, sesjon og vedtaksnummer ga en entydig kobling i utvalget, ikke en generell unikhetsgaranti. Gjentatte sesjonssvar var like etter normalisering av responstid; faktisk kilderettelse er ikke observert. Vedtak 249/40005719 fra 2003 gir nå en autentisk positiv prøve på en selvstendig bevilgning uten funnet proposisjonsgrunnlag i relevant undersøkt kildekjede. Hele 2024 er nå avstemt: alle 1 625 felles DFØ-/regnskapsposter stemmer eksakt, og alle 43 nøkkelforskjeller er forklart. Alle 1 574 Blå bok-poster stemmer mot opprinnelige vedtak. Hendelseskjeden har fortsatt tre kildekonflikter som undersøkes nærmere; produksjonsparserens dekning er ikke testet. Originalt rågrunnlag for kontrolltabellene er nå sikret. #2 holdes åpen til akseptansekriteriene er dokumentert eller konkrete gjenstående punkter er avklart.
+API-prøvene omfatter 24 vedtak i 2026–2027 og 1 260 i 2024–2025. Vedtakstekst finnes i sesjonsoversikten. I de fire undersøkte voteringsvedtak-svarene hadde alle 54 elementer nil-tekst. Sak, sesjon og vedtaksnummer ga en entydig kobling i utvalget, ikke en generell unikhetsgaranti. Gjentatte sesjonssvar var like etter normalisering av responstid; faktisk kilderettelse er ikke observert. Vedtak 249/40005719 fra 2003 gir nå en autentisk positiv prøve på en selvstendig bevilgning uten funnet proposisjonsgrunnlag i relevant undersøkt kildekjede. Hele 2024 er nå avstemt: alle 1 625 felles DFØ-/regnskapsposter stemmer eksakt, og alle 43 nøkkelforskjeller er forklart. Alle 1 574 Blå bok-poster stemmer mot opprinnelige vedtak. Hendelseskjeden har tre tverrdokumenterte kildekonflikter. De er undersøkt mot innstillinger, voteringsforslag og referater. Konfliktene kan ikke fjernes som en enkel API-/parserfeil; produksjonsparserens dekning er ikke testet. Originalt rågrunnlag for kontrolltabellene er nå sikret. Kildeundersøkelsen må skilles fra godkjenning av en komplett additiv historikk; konkrete kildekonflikter skal ha synlig status og sperre i godkjente historikksummer.
 
 ## Kandidatgrunnlag for byggetickets
 
