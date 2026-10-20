@@ -109,8 +109,16 @@ class Interpretation:
     round: str | None = None
     round_evidence: str | None = None
     reason: str = "Avgrenset tabellmønster for opprinnelig vedtak og enkeltendringer"
+    register_snapshot: str | None = None
 
     def __post_init__(self) -> None:
+        if self.adapter_version == "storting-belop-v2":
+            from .organization_register import REGISTER_SNAPSHOT
+
+            if self.register_snapshot is None:
+                object.__setattr__(self, "register_snapshot", REGISTER_SNAPSHOT)
+        elif self.register_snapshot is not None:
+            raise ValueError("Registersnapshot krever storting-belop-v2")
         if self.round is not None and (
             self.round not in {"opprinnelig", "rnb", "nysaldering", "ovrig", "uavklart"}
             or not self.round_evidence
@@ -119,7 +127,15 @@ class Interpretation:
 
     @property
     def id(self) -> str:
-        return identity(FORMAT_VERSION, asdict(self))
+        return identity(FORMAT_VERSION, interpretation_dict(self))
+
+
+def interpretation_dict(value: Interpretation) -> dict[str, Any]:
+    """Frys B3s opprinnelige JSON og identitet, også for generiske adaptere."""
+    result = asdict(value)
+    if value.register_snapshot is None:
+        result.pop("register_snapshot")
+    return result
 
 
 @dataclass(frozen=True, kw_only=True)
@@ -224,6 +240,12 @@ class AmountObservation:
             self.format_version,
         )
 
+    @property
+    def budget_side(self) -> str:
+        from .organization_register import classify_chapter
+
+        return classify_chapter(self.chapter)
+
 
 @dataclass(frozen=True)
 class Extraction:
@@ -295,6 +317,91 @@ def _extraction_from_dict(data: dict[str, Any]) -> Extraction:
     return Extraction(**data)
 
 
+def validate_component_relations(
+    observations: tuple[AmountObservation, ...],
+) -> dict[str, list[AmountObservation]]:
+    """Kildeuavhengig integritet for begge representasjonene av komponent_av."""
+    by_id = {o.id: o for o in observations}
+    groups: dict[str, list[AmountObservation]] = {}
+    for child in observations:
+        relations = [
+            (target, evidence)
+            for role, target, evidence in child.relations
+            if role == "komponent_av"
+        ]
+        if child.component_of is None and not relations:
+            continue
+        if (
+            child.component_of is None
+            or len(relations) != 1
+            or relations[0][0] != child.component_of
+            or not relations[0][1].strip()
+        ):
+            raise ValueError("Komponenthierarki krever én samsvarende dokumentert relasjon")
+        parent = by_id.get(child.component_of)
+        if (
+            parent is None
+            or parent.id == child.id
+            or parent.detail_level != "post"
+            or parent.subpost is not None
+            or child.detail_level != "underpost"
+            or (
+                child.dataset,
+                child.source_system,
+                child.source_unit_id,
+                child.source_revision_id,
+                child.interpretation_id,
+                child.step_id,
+                child.chapter,
+                child.post,
+                child.budget_year,
+                child.meaning,
+            )
+            != (
+                parent.dataset,
+                parent.source_system,
+                parent.source_unit_id,
+                parent.source_revision_id,
+                parent.interpretation_id,
+                parent.step_id,
+                parent.chapter,
+                parent.post,
+                parent.budget_year,
+                parent.meaning,
+            )
+        ):
+            raise ValueError(
+                "Brutt komponenthierarki: forelder mangler eller har feil konto/ledd/grunnlag"
+            )
+        groups.setdefault(parent.id, []).append(child)
+    return groups
+
+
+def component_anomalies(observations: tuple[AmountObservation, ...]) -> tuple[Anomaly, ...]:
+    """Kontroller relasjoner og eksakt sum uten å anta kildens komponentnummerering."""
+    by_id = {o.id: o for o in observations}
+    issues: list[Anomaly] = []
+    for parent_id, children in validate_component_relations(observations).items():
+        parent = by_id[parent_id]
+        if parent.amount_kr is None or any(c.amount_kr is None for c in children):
+            code = "uavklart_komponentsum"
+        elif sum(c.amount_kr for c in children if c.amount_kr is not None) != parent.amount_kr:
+            code = "komponentsum_avvik"
+        else:
+            continue
+        issues.append(
+            Anomaly(
+                code,
+                "Komponenter og observert total stemmer ikke eksakt",
+                evidence=parent.id,
+                chapter=parent.chapter,
+                post=parent.post,
+                budget_year=parent.budget_year,
+            )
+        )
+    return tuple(issues)
+
+
 def save_extraction(database: Path, extraction: Extraction, raw: bytes) -> str:
     """Generisk, atomisk grense. Identisk kilde/tolkning gjenbrukes; ingen overskriving."""
     if (
@@ -321,6 +428,15 @@ def save_extraction(database: Path, extraction: Extraction, raw: bytes) -> str:
         ) or item.id in seen:
             raise ValueError("Observasjonen har feil grunnlag eller duplisert identitet")
         seen.add(item.id)
+    if any(o.component_of is not None or o.relations for o in extraction.observations):
+        hierarchy_issues = component_anomalies(extraction.observations)
+        if extraction.interpretation.adapter_version == "storting-belop-v2":
+            from .storting_v2 import numbering_anomalies
+
+            hierarchy_issues += numbering_anomalies(extraction.observations)
+        recorded_issues = set(extraction.anomalies)
+        if any(issue not in recorded_issues for issue in hierarchy_issues):
+            raise ValueError("Komponenthierarki har avvik som mangler i kontrollgrunnlaget")
     database.parent.mkdir(parents=True, exist_ok=True)
     with sqlite3.connect(database) as connection:
         connection.execute("PRAGMA foreign_keys = ON")
@@ -330,7 +446,9 @@ def save_extraction(database: Path, extraction: Extraction, raw: bytes) -> str:
             "SELECT content_json FROM amount_extractions WHERE extraction_id=?",
             (extraction.id,),
         ).fetchone()
-        content = encode(asdict(extraction))
+        payload = asdict(extraction)
+        payload["interpretation"] = interpretation_dict(extraction.interpretation)
+        content = encode(payload)
         if existing:
             if existing[0] != content:
                 raise ValueError("Uforanderlig tolkning er allerede lagret med annet resultat")
@@ -388,6 +506,10 @@ def extract_revision(
 ) -> Extraction:
     """Ny adapter over valgt B2-revisjon. B1s parser/resultat/versjon beholdes."""
     interpretation = interpretation or Interpretation()
+    if interpretation.adapter_version == "storting-belop-v2":
+        from .storting_v2 import extract_v2
+
+        return extract_v2(database, revision_id, interpretation)
     if interpretation.adapter_version != ADAPTER_VERSION:
         raise ValueError("Ukjent Storting-adapterversjon")
     revision = read_revision(database, revision_id)

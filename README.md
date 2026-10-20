@@ -134,4 +134,19 @@ python -m analyse --database budsjett.sqlite --beregning <lagret beregnings-ID> 
 
 Excel viser `Historikk`, `Beløpsobservasjoner` og `Grunnlag og kontroll`. Før/delta/etter, rå og normaliserte verdier, separate beregnede saldoer, kilde-/tolkningsidentitet, avvik og ferskhet følger med. Manglende start, ukjent ledd, uklar rekkefølge og lokale/kronologiske konflikter sperrer avstemt saldo. Like beløp fjernes aldri automatisk. Bevarte sluttkildetall vises også ved sperret kjede.
 
-`avstemt_utvalg` gjelder bare det eksplisitte utvalget; det er ingen faglig godkjenning eller erklæring om komplett sesjon/budsjettår. En ny kilderevisjon kan gjøre beregningen utdatert, også etter A → B → A. Den gamle beregningen og dens rågrunnlag bevares. Full historisk Excel-import, generelt underpost-/nettoresultatuttrekk, registre, manuell avklaring og sesjonsdekning følger egne tickets. Se [kontrakten](docs/datakontrakt.md#b3--beløpsobservasjoner-og-valgt-historikk).
+`avstemt_utvalg` gjelder bare det eksplisitte utvalget; det er ingen faglig godkjenning eller erklæring om komplett sesjon/budsjettår. En ny kilderevisjon kan gjøre beregningen utdatert, også etter A → B → A. Den gamle beregningen og dens rågrunnlag bevares. Full historisk Excel-import, registervedlikehold, manuell avklaring og sesjonsdekning følger egne tickets. V1s avgrensning består; B4-utvidelsen velges separat nedenfor. Se [kontrakten](docs/datakontrakt.md#b3--beløpsobservasjoner-og-valgt-historikk).
+
+## Kjør B4 lokalt
+
+Tolk ønsket B2-revisjon med v2 og eksporter hele uttrekket, også for rene tekstvedtak:
+
+```powershell
+python -m innlesning tolk --database budsjett.sqlite --revisjon <revisjons-ID> --tolkning storting-belop-v2
+python -m analyse --database budsjett.sqlite --belopsuttrekk <beløpsuttrekks-ID> --excel kontroll.xlsx
+```
+
+V2 bevarer post 24, nummererte komponenter, negative nettoresultater, kildens navn og stikkord. Posttotal og komponenter har egne cellepekere og hierarkirelasjoner. For en historikk på underpost velges for eksempel `"detail_level": "underpost", "subpost": "1"` i utvalgsfilen; uten dette brukes posttotalen alene. Senere nivåoppstillinger uten uttrykkelig delta vises som etterbeløp og sperrer additiv saldo med `mangler_delta`.
+
+Inntekt/utgift følger kapittel. Kapitalregnskapskonti holdes utenfor bevilgningssaldoen; 90-poster under kapittel 6000 er bevilgninger. Organisasjonsgrunnlaget har bare ni dokumenterte kapitteloppslag for **2027**, med separate fdep-/gdep-koder og registerhash i tolkningsidentiteten. Ukjent oppslag bevarer beløpet og gir avvik. En regneavstemming godkjenner ingen organisasjonskobling.
+
+Uttrekkseksporten viser alle observasjoner, hierarki, organisasjon, avvik og hele B2-vedtaksteksten. Tekstfullmakter, anmodninger og uavklart tekst kan kontrolleres uten bevilgningskjede. Ingen fullmaktsramme normaliseres til additiv årsbevilgning. Historikkeksporten har også fulltekst for valgte revisjoner, med videreføring av lange felt. V1-ID-er, lagrede tolkninger og B1/B2-resultater består. Se [B4-kontrakten](docs/datakontrakt.md#b4--særtilfeller-med-eksplisitt-tolkning-v2) og [prøvenes proveniens](tests/fixtures/b4/README.md).

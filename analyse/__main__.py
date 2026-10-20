@@ -5,7 +5,7 @@ import json
 import sqlite3
 from pathlib import Path
 
-from . import export_excel, export_revision_excel
+from . import export_excel, export_extraction_excel, export_revision_excel
 from .history import HistorySelection, calculate_history, read_history
 from .history_excel import export_history_excel
 
@@ -18,6 +18,7 @@ def main() -> int:
     selection.add_argument("--revisjon", help="Eksakt lagret B2-innholdsrevisjon")
     selection.add_argument("--utvalg", type=Path, help="JSON med eksplisitt B3-utvalg")
     selection.add_argument("--beregning", help="Eksakt lagret B3-beregning")
+    selection.add_argument("--belopsuttrekk", help="Hele valgte beløpsuttrekk, også uten beløp")
     parser.add_argument("--excel", type=Path, required=True)
     arguments = parser.parse_args()
     try:
@@ -43,6 +44,8 @@ def main() -> int:
             export_history_excel(arguments.database, calculation_id, arguments.excel)
         elif arguments.revisjon:
             export_revision_excel(arguments.database, arguments.revisjon, arguments.excel)
+        elif arguments.belopsuttrekk:
+            export_extraction_excel(arguments.database, arguments.belopsuttrekk, arguments.excel)
         else:
             export_excel(arguments.database, arguments.kjoring, arguments.excel)
     except (OSError, ValueError, TypeError, sqlite3.Error) as error:

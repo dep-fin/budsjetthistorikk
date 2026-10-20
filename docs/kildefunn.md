@@ -113,6 +113,44 @@ Forsknings-CSV-ens `row` er nullbasert og må ikke kopieres direkte til HTML-lok
 
 De autentiske Havtil-overgangene i 40034064/40034226 og 5999/90 i 40033025/40033719/40034287 er regresjonsprøver som **skal sperre den additive kjeden**. Begge Havtil-identiteter, RNBs observerte null og nysalderingens observerte sluttbeløp bevares. 40036289s rå `I 615 833` normaliseres ikke. B3 har ingen generell beløpsdeduplisering, I→1-regel, nullpåfylling eller kunstig mellomendring. Disse kontrollene avklarer ikke de historiske konfliktene faglig.
 
+## B4-prøver: post-24-komponenter og observerte nye nivåer
+
+**Kontrollert 20. oktober 2026:** Komplette vedtaksobjekter er hentet ut byteidentisk fra de allerede bevarte, offentlige sesjonsresponsene. Foreldrehash/byteantall ble kontrollert før avledning. Nye prøver og reproduksjon finnes i [B4-fixturene](../tests/fixtures/b4/README.md); eksisterende B3-fixturer er uendret. Alle lokatorer nedenfor er **1-baserte**. Forsknings-CSV-enes `row` er nullbasert.
+
+| Vedtak / kapittel-post | Hode og komponenter i table[1] | Observert totalcelle | Kroner |
+| --- | --- | --- | ---: |
+| 40032763, 2445/24, original 2024 | tr[75], tr[76–79]/td[4] | tr[79]/td[5] | −334 642 000 |
+| 40032791, 2460/24, original 2024 | tr[99], tr[100–101]/td[4] | tr[101]/td[5] | 102 500 000 |
+| 40032850, 2470/24, original 2024 | tr[81], tr[82–87]/td[4] | tr[87]/td[5] | −15 000 000 |
+| 40032976, 5440/24, original 2024 | tr[57], tr[58–62]/td[4] | tr[62]/td[5] | 295 900 000 000 |
+| 40033719, 5440/24, senere oppstilling | tr[1367], tr[1368–1372]/td[4] | tr[1373]/td[4], Sum: | 191 800 000 000 |
+| 40034064, 2470/24, senere oppstilling | tr[71], tr[72–77]/td[4] | tr[78]/td[4], tomt formål | −15 000 000 |
+| 40034226, 5440/24, senere oppstilling | tr[46], tr[47–51]/td[4] | tr[52]/td[4], tomt formål | 233 300 000 000 |
+
+2470s seks originalkomponenter er −730 000 000, +594 000 000, +90 000 000, +1 000 000, +55 000 000 og −25 000 000 kroner. De summerer eksakt til den **separat observerte** totalcellen. Kildens komponentnummer står i formålsteksten; navnene beholdes, også når SDØEs oppstilling bruker andre navn enn forvaltningsbedriftene. Negative nettoresultater og «Driftsinntekter» på en komponent endrer ikke kapittelets utgiftsside.
+
+De senere oppstillingene er nye **nivåer**, uten kildeobservert delta i disse post-24-blokkene. Forskningsmaterialets −104 100 000 000 og +41 500 000 000 er beregnede differanser, ikke egne kildebeløpsceller. B4 bevarer derfor etterbeløpet og komponentene, med sperret additiv saldo (`mangler_delta`). Dette gjelder også 2445/24-oppstillingen i 40035422 (2025), −369 642 000 med Sum-rad; ingen automatisk −5 mill.-endring konstrueres.
+
+Post-90-prøven 40033025 bevarer blant annet 2410/90 `tr[17]/td[4]` 39 751 273 000 med «overslagsbevilgning», 5310/90 `tr[45]` 13 970 169 000, 5310/93 `tr[46]` 8 287 563 000, 1651/98 `tr[13]` 68 000 000 000 og 5999/90 `tr[62]` 101 874 353 000 kroner. Disse er budsjettkapitler selv om postene gjelder finansielle transaksjoner. 40034287s nye 2800/96 `tr[65]` bevarer 42 800 640 000 uten oppdiktet nullstart. Eksisterende ANNET-, Havtil-, finansierings- og rå-I-prøver består uendret som kontrollgrunnlag.
+
+Fullmaktsprøven 40035429 har 72 mill. kroner i forpliktelsesramme i `/html/body/div/div/p` (første p under første indre div), ikke en årsbevilgning. 40034385s `/html/body/div/p` er initiativ til senere bevilgning. Begge gir null beløpsobservasjoner og kan eksporteres selvstendig med fulltekst og separat tekstklassifikasjon. Årsøkningen 41/45 på 9 700 000 i 40035422 er en egen bevilgningsobservasjon. Ingen generell fullmaktsparser eller manuell kontrollavgjørelse er innført.
+
+### Register og kapitalgrense: bevisets begrensning
+
+B4 bruker de ni tidligere dokumenterte oppslagene i [departementsregisteret](departementsregister.md) som avgrenset datagrunnlag for **bare 2027**, med artefakthash `952757a9964f92a7e2cb1972fcfb6b82b426d4973de641a29fef5ea66d6c1adb`. Originalarbeidsboken ble ikke gjenfunnet og cellene er **ikke kontrollert på nytt i B4**. Kode 23 bevares som Ymse, fdep og gdep holdes separate, og ingen +3000-/intervallkobling er bekreftet ved implementering. 5531 FIN mot 2531 BFD er tidligere dokumentert negativt bevis mot automatisk −3000, ikke en ny cellekontroll. Historiske 2024/2025-prøver får ingen 2027-organisasjon. Regnekontroll er separat fra organisasjonens kontrollstatus.
+
+Kapitalgrensen bygger på dokumentert R-101/2024 (vedleggshash `813b9b0f8dc24f2414387cf32bc1ce4ba16a9e42855ccc4c0ed60d96b0592f92`), tabellen på side 2 og forklaringen på side 3, jf. [faggrunnlaget](faggrunnlag.md). 1–2999 er utgift, 3000–5999 inntekt og 6000–9999 kapitalregnskapskonti. Ingen autentisk 6000+-rad ble funnet i de undersøkte bevilgningskildene. Grensekontrollene er derfor uttrykkelig **syntetiske**, ikke nye kildefunn om bevilgninger på kapitalregnskapskonti.
+
+Prøvene gjelder støttede mønstre og kontrollavvik, uten generell årsdekning, organisasjonsgodkjenning eller løsning av de tre historiske kjedekonfliktene. B3-historikkeksportens rå rad-HTML var ikke hele vedtakets fulltekst; B4 legger hele den valgte B2-fullteksten til begge eksportformene med tegnbevarende videreføring.
+
+### Syntetiske kontrollgrenser etter B4-review
+
+**Kontrollert 20. oktober 2026:** Separate syntetiske mutasjoner viser at et utvidet `rowspan`/`colspan` i tabellhodet og flerleddede komponentkoder som `1.25` må sperre v2s beløpstolkning/avstemming gjennom lagring og Excel. Dette er robusthetsprøver, ingen nye funn om feil i Stortingets historiske kilder. Den frosne v1-parseren endres ikke under samme identitet; ny konservativ tolkning krever uttrykkelig v2. Kildeuavhengige kontraktprøver bevarer dokumenterte underpostkoder `0`, `10` og `25` uten Storting-spesifikke nummereringsavvik. Et [syntetisk arkiv fra den leverte B3-basen](../tests/fixtures/synthetic-history-v1.md) kontrollerer samme v1-identitet og sperrede saldo både ved ny beregning og med et resultat allerede lagret.
+
+Komponenttilknytningen behandler bare indeksene i aktuell blokk. En manuell prøve gjennom offentlig `extract_revision` over 800/1 600/3 200 syntetiske blokker (114 560/228 960/457 760 HTML-tegn) brukte henholdsvis 2,163/7,979/30,994 sekunder før rettingen og 0,396/0,799/1,617 sekunder etter, målt i samme lokale Python-miljø. Målingen gjelder v2-kallet med kilde/B2 allerede lagret, inklusive lagring av nytt uttrekk. Den demonstrerer tilnærmet lineær vekst for denne prøven og er ingen generell tidsgrense for maksimal kildestørrelse. CI har en deterministisk prøve med 160 blokker, begge totalplasseringer, separate komponentforeldre og Excel, uten veggklokkekrav. Autentiske kildefixtures er uendret.
+
+En egen kontroll med ugyldige blokker (komponent 7, observert total 8) avdekket også kvadratisk medlemskontroll av hierarkiavvik ved lagring. Et midlertidig sett bygges nå én gang for oppslag; den opprinnelige avvikstuppelens rekkefølge og gjentakelser bevares. Samme lokale prøve gjennom offentlig v2-kall over 3 200/6 400/12 800 blokker (457 761/915 361/1 830 561 HTML-byte), med B2 allerede lagret, brukte 2,583/7,195/22,624 sekunder før og 1,599/3,204/6,725 sekunder etter. Gyldige blokker beholdt tilnærmet lineær vekst: 1,572/3,223/6,579 sekunder etter. CI kontrollerer funksjonelt 320 ugyldige blokker med alle avvik og kildeceller gjennom gjenåpning og Excel, sperret saldo, bevarte gjentakelser og avvisning av skjult siste avvik. Tidsmåling og instrumentering av likhetssammenligninger ligger utenfor testsuiten; dette er ingen generell tidsgrense for 32 MiB-kildegrensen.
+
 ## Vedlikehold av funn
 
 Oppdater eksisterende funn når nye prøver presiserer det. Bevar skillet mellom observert kildeinnhold, en designanbefaling og et åpent spørsmål. Vesentlige nye funn skal få en kort inngang fra AGENTS.md eller relevant fag-/arbeidsdokument, slik at neste økt finner dem uten chatloggen.

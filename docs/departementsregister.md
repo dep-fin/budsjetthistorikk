@@ -65,3 +65,7 @@ Inntektskapittel er som hovedregel utgiftskapittel +3000. Dette gir ikke en sikk
 - En 2027-katalog er ikke alene et autoritativt register for alle 2026-vedtak eller fremtidige år.
 
 Første leveranse bruker manuelt redigerbare Excel-/CSV-filer som arbeidsflate for registervedlikehold. Import av endringer skal valideres og være sporbar. Et eget administrasjonsgrensesnitt kommer eventuelt senere.
+
+## Avgrenset B4-grunnlag
+
+B4 bruker bare de ni eksplisitte oppslagene ovenfor, med gyldighet **2027–2027**, i en immutable datatabell med versjon og deterministisk innholdshash. Tolkningsidentiteten bevarer registersnapshotet. Kildeartefaktens SHA-256 er `952757a9964f92a7e2cb1972fcfb6b82b426d4973de641a29fef5ea66d6c1adb`, jf. faggrunnlagets tidligere filkontroll. Originalfilen ble ikke gjenfunnet ved B4-implementeringen; dette er bruk av tidligere kildebelagte oppslag, uten nye påstander om cellekontroll eller filens øvrige kapitler. Intervaller og +3000 brukes ikke som bekreftede koblinger. Registervedlikehold/import og brukerens endringer følger B5.

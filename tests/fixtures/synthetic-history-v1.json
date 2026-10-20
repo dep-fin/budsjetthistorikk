@@ -1,0 +1,77 @@
+{
+  "anomalies": [
+    {
+      "affected_fields": [],
+      "budget_year": 2013,
+      "chapter": "1",
+      "code": "mangler_organisasjonsoppslag",
+      "evidence": null,
+      "post": "1",
+      "reason": "Unresolved mapping",
+      "resolution": null
+    }
+  ],
+  "assessed_utc": null,
+  "calculated_balance": null,
+  "contexts": [
+    {
+      "controls_json": "[]",
+      "current_revision_id": null,
+      "extraction_id": "20ce924566c8ac05a9fc79d3e48e355475d94b57918e8f8ce0620a733fdff293",
+      "fingerprint": null,
+      "fingerprint_version": null,
+      "generation": null,
+      "latest_attempt_status": null,
+      "latest_observation_id": null,
+      "latest_source_sha256": null,
+      "observation_status": null,
+      "revision_id": "4d03b056d1dd54623f620e33073fd0b46960237c62d2ee28d17946644e1efceb",
+      "source_sha256": "e99a2e32e2b834734f371d120db50c29e70c36d9bd49364e771db0887b3464dd",
+      "source_system": "excel"
+    }
+  ],
+  "coverage": "Bare uttrykkelig valgte revisjoner/tolkninger, konto og budsjettår. Ingen garanti om komplett sesjon eller år. Avstemt utvalg er ikke faglig godkjenning.",
+  "created_utc": "2026-10-20T16:59:30.997795+00:00",
+  "current_contexts": [],
+  "freshness": "samme kildegrunnlag",
+  "id": "ad24cc3a988e38f2612e692f1cb2ff6fd17a3e6822f5786af86b9a50a195fc09",
+  "input_observation_ids": [
+    "3b59fb890ce47960c1d02512c516a285295e4366591a9949725b6ca6bfaaec3b"
+  ],
+  "rule_version": "vedtatt-kjede-v1",
+  "selection": {
+    "budget_year": 2013,
+    "chapter": "1",
+    "control_basis": "Automatiske lokale og kronologiske kontroller; ingen manuell godkjenning",
+    "dataset": "historisk",
+    "detail_level": "post",
+    "extraction_ids": [
+      "20ce924566c8ac05a9fc79d3e48e355475d94b57918e8f8ce0620a733fdff293"
+    ],
+    "order_evidence": null,
+    "post": "1",
+    "register_basis": "Ingen registerkobling brukt",
+    "step_order": [],
+    "subpost": null
+  },
+  "status": "ufullstendig",
+  "steps": [
+    {
+      "after": null,
+      "anomalies": [],
+      "balance": null,
+      "before": null,
+      "decision_date": "2013-01-01",
+      "delta": null,
+      "observation_ids": [
+        "3b59fb890ce47960c1d02512c516a285295e4366591a9949725b6ca6bfaaec3b"
+      ],
+      "original": 10032000,
+      "round": "opprinnelig",
+      "source_revision_id": "4d03b056d1dd54623f620e33073fd0b46960237c62d2ee28d17946644e1efceb",
+      "source_unit_id": "excel:e99a2e32e2b834734f371d120db50c29e70c36d9bd49364e771db0887b3464dd:H2",
+      "status": "til_kontroll",
+      "step_id": "975f0cef7b73d5cc4eebe4edef6c22238b644f59099768aa24a27312d37a2dfd"
+    }
+  ]
+}

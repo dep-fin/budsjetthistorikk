@@ -13,6 +13,7 @@ from openpyxl.utils import get_column_letter
 from innlesning.observations import read_extraction
 
 from .excel import put
+from .extraction_excel import add_source_text
 from .history import read_history
 
 
@@ -214,6 +215,7 @@ def export_history_excel(database: Path, calculation_id: str, output: Path) -> N
     for row in observation_sheet.iter_rows(min_row=2, min_col=23, max_col=23):
         row[0].number_format = "# ##0;[Red]-# ##0;0"
     output.parent.mkdir(parents=True, exist_ok=True)
+    add_source_text(workbook, database, result.selection.extraction_ids)
     temporary: Path | None = None
     try:
         with NamedTemporaryFile(dir=output.parent, suffix=".xlsx", delete=False) as handle:
