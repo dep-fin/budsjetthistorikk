@@ -8,6 +8,8 @@ Senere innlesning av regjeringsforslag, komitéforslag og manuelle kilder skal h
 
 ## Felles datakontrakt
 
+[Observasjonsformat versjon 1](observasjonsformat.md) er den felles faglige spesifikasjonen fra #6, jf. [ADR 0003](adr/0003-felles-belopsobservasjoner.md). Separate adaptere bevarer råkilder og normaliserer til beløpsobservasjoner med proveniens; analysen velger observasjoner og beregner avledede kjeder. Den [implementerte B1/B2-grensen](datakontrakt.md) beholdes under videre bygging.
+
 Datakontrakten skal skille mellom endelig vedtak, regjeringsforslag og komitéforslag. Den skal beskrive sesjon, budsjettår, kapittel, post, beløp, beløpets betydning, kildedokument, dokumentnummer, versjon og kontrollstatus.
 
 Departementstilknytning skal kunne vedlikeholdes manuelt med gyldighetsperiode. Bruk administrativ departementskode og særskilt Gul bok-gruppering som adskilte opplysninger, jf. [registergrunnlaget](departementsregister.md). Historikken skal skille forslag, bevilgningsvedtak, kilderettelser, fullmaktsrammer og regnskap. Underposter bevares som underliggende spesifikasjon og holdes adskilt fra posttotaler. Python og SQLite er godkjent for lokal B1-innlesning; openpyxl brukes til Excel. Den implementerte grensen er beskrevet i [datakontrakt v1](datakontrakt.md) og [ADR 0001](adr/0001-lokal-innlesning.md).

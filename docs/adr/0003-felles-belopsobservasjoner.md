@@ -1,0 +1,5 @@
+# ADR 0003: Felles beløpsobservasjoner med separate kildeadaptere
+
+Besluttet 20. oktober 2026 etter prosjekteierens mandat: historiske Excel-data og Storting-kilder skal levere et langt, kildeforankret observasjonsformat med separate akser for talltype, behandlingsrunde, beløpsbetydning og omfang. Vi velger dette fremfor å kopiere Excel-kolonnene til et fast databaseskjema eller tvinge historiske rader inn i B1s obligatoriske vedtaksmetadata; begge alternativer ville blandet kildens utforming med den felles faglige modellen og gjort senere kilder og stadier kostbare å innføre.
+
+En kildeobservasjon av et beløp er ikke automatisk en selvstendig økonomisk hendelse. Dokumentkoblinger, underposthierarki, beregnede saldoer og kontrollavgjørelser bevares som egne sammenhenger med proveniens. B1/B2 består som kompatible innganger, mens [observasjonsformat versjon 1](../observasjonsformat.md) spesifiserer videre modellering. Databaseskjema, historisk import og migrering er ikke implementert eller valgt her; første smale implementering følger #6 og historisk adapter følger #13.

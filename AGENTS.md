@@ -30,4 +30,4 @@ Før endringer i synkronisering, kontrollhenvisninger eller versjonseksport: les
 
 ## Historisk Excel og felles historikkmodell
 
-Før historisk Excel-import eller utvidelse av den felles historikkmodellen: les [filkontrollen 2013–2025](docs/research/historisk-excel/modellvurdering.md). Den skiller verifiserte kildefunn fra foreslåtte modellutvidelser og åpne tolkninger.
+Før #6, historisk Excel-import eller utvidelse av den felles historikkmodellen: les [observasjonsformatet](docs/observasjonsformat.md) og [filkontrollen 2013–2025](docs/research/historisk-excel/modellvurdering.md). Formatet er besluttet som spesifikasjon; kildeundersøkelsens åpne tolkninger er fortsatt åpne.

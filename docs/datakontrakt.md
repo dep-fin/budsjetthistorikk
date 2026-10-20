@@ -1,5 +1,7 @@
 # Datakontrakt – B1-resultat og B2-kildeversjoner
 
+Dette dokumentet beskriver implementert B1/B2. [Felles observasjonsformat versjon 1](observasjonsformat.md) er den besluttede spesifikasjonen for videre modellering fra #6, med historisk Excel-kompatibilitet. Formatet endrer ikke dagens API eller databaseskjema; se [ADR 0003](adr/0003-felles-belopsobservasjoner.md).
+
 Kontrakten ligger i `innlesning/model.py`. Innlesningens offentlige grense er `import_saved(database, raw_response, metadata, decision_id, historical_sample=False)`, `read_report(database, run_id)` og `read_source(database, sha256)`. Nettadapteren `fetch_session(session, timeout=30)` leverer råbyte og hentemetadata. Eksportgrensen er `analyse.export_excel(database, run_id, output)`.
 
 ## Kilde, identitet og struktur
