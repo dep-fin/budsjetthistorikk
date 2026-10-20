@@ -1,5 +1,9 @@
 # Kilder og behov for dataprøver
 
+## Viktige funn før kildevalg
+
+Les [varige kildefunn](kildefunn.md) før innlesning og dekningskontroll. Der er bevisene og kontrollkravene for bevilgningsendringer av typen ANNET samlet.
+
 ## Dokumenterte kilder
 
 - [Vedtak](https://data.stortinget.no/dokumentasjon-og-hjelp/vedtak/): sesjonsvis oversikt med ID, sak, dato, type og tekst. Budsjettvedtak har egen type. Teksten er ofte HTML; separate felt for kapittel, post og beløp er ikke dokumentert.

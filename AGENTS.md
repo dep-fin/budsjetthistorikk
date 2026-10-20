@@ -17,3 +17,9 @@ Prosjektet har én felles begrepsliste. Før faglig modellering eller kodeendrin
 ## Ansvarsdeling
 
 Ved endringer i innlesning, analyse eller felles datakontrakt: les [ansvarsdelingen](docs/ansvarsdeling.md). Dokumentasjon og issues skrives på norsk.
+
+## Varige kildefunn
+
+Ved innlesning, kildevalg eller dekningskontroll: les [kildefunnene](docs/kildefunn.md). Bevilgningsendringer finnes også som ANNET; BUDSJETT alene er et utilstrekkelig filter.
+
+Før økten avsluttes: lagre nye varige funn med kildebevis og praktisk konsekvens etter [reglene for kunnskapsoverføring](docs/arbeidsflyt.md#kunnskap-mellom-agentøkter).
