@@ -1,0 +1,39 @@
+name: Pakk ut historiske Excel-kilder
+on:
+  push:
+    branches: [feature/historisk-excel-2013-2025]
+    paths:
+      - '.github/workflows/pakk-ut-historisk.yml'
+permissions:
+  contents: write
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Pakk ut og kontroller originalfiler
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import zipfile
+          archive=Path("data/historisk/budsjetthistorikk_originaldata_2013_2025.zip")
+          with zipfile.ZipFile(archive) as z:
+              names=z.namelist()
+              expected={f"data/historisk/original/{year}_samlet_inputdata.xlsx" for year in range(2013,2026)}
+              expected.add("data/historisk/kilderegister.csv")
+              assert set(names)==expected, f"Uventet arkivinnhold: {set(names)^expected}"
+              for name in names:
+                  target=Path(name)
+                  target.parent.mkdir(parents=True,exist_ok=True)
+                  target.write_bytes(z.read(name))
+          archive.unlink()
+          PY
+      - name: Commit originalfiler uten ZIP
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/historisk
+          git commit -m "data: pakk ut historiske Excel-originaler 2013-2025"
+          git push
