@@ -1,0 +1,125 @@
+{
+  "kind": "authentic_source_fixture_not_production_import",
+  "observed_date": "2026-10-20",
+  "session": "2025-2026",
+  "decision_date": "2026-03-26",
+  "case_id": "107811",
+  "api_type": "ANNET",
+  "document_group": "representantforslag",
+  "origin_document": "Dokument 8:222 S (2025-2026)",
+  "origin_export_id": "dok8-202526-222s",
+  "proposition_links": [],
+  "committee_recommendation_links": [],
+  "absence_scope": "Relevant case API metadata, original representative proposal and direct-treatment/voting records inspected; no committee recommendation or government proposition for this event. Not a claim about all historic fiscal foundations.",
+  "treatment": {
+    "procedure": "forretningsorden § 39 annet ledd bokstav c",
+    "committee_treatment": false,
+    "decision_on_treatment": "2026-03-25",
+    "treatment_votes_for": 52,
+    "treatment_votes_against": 49,
+    "adopted_proposal_number": 23,
+    "proposal_id": "40084930",
+    "vote_id": "27169",
+    "vote_time_source": "2026-03-26T19:04:17.233",
+    "vote_timezone_source": "unspecified",
+    "votes_for": 52,
+    "votes_against": 49,
+    "original_proposal_1_2_replaced": true
+  },
+  "appropriation_changes": [
+    {
+      "budget_year": 2026,
+      "chapter": "5538",
+      "post": "70",
+      "account_side": "income",
+      "currency": "NOK",
+      "unit_multiplier": 1,
+      "operation": "decrease",
+      "before_nok": 2770000000,
+      "change_nok": -1154167000,
+      "after_nok": 1615833000,
+      "after_value_status": "source_conflict_reconciled_against_voting_record",
+      "decision_id": "40036289",
+      "decision_number": 599
+    },
+    {
+      "budget_year": 2026,
+      "chapter": "5538",
+      "post": "71",
+      "account_side": "income",
+      "currency": "NOK",
+      "unit_multiplier": 1,
+      "operation": "decrease",
+      "before_nok": 5220000000,
+      "change_nok": -2175000000,
+      "after_nok": 3045000000,
+      "after_value_status": "consistent",
+      "decision_id": "40036289",
+      "decision_number": 599
+    },
+    {
+      "budget_year": 2026,
+      "chapter": "5538",
+      "post": "72",
+      "account_side": "income",
+      "currency": "NOK",
+      "unit_multiplier": 1,
+      "operation": "decrease",
+      "before_nok": 3000000,
+      "change_nok": -1250000,
+      "after_nok": 1750000,
+      "after_value_status": "consistent",
+      "decision_id": "40036289",
+      "decision_number": 599
+    }
+  ],
+  "change_total_nok": -3330417000,
+  "source_conflicts": [
+    {
+      "field": "5538/70.after_nok",
+      "raw_web_and_decision_api": "I 615 833",
+      "raw_proposal_api": "I 615 833",
+      "voting_record_web_and_xml": "1 615 833 000",
+      "reconciled_value": 1615833000,
+      "basis": "Voting record for adopted proposal 23 plus 2770000000-1154167000=1615833000",
+      "required_behavior": "retain raw, flag malformed/conflicting field, no silent correction; accepted reconciliation must cite source versions"
+    }
+  ],
+  "negative_controls": [
+    {
+      "id": "six_zero_rates_inside_599",
+      "expected_budget_rows": 0,
+      "reason": "per-litre/per-kg/per-Sm3 tax rates, not annual amounts; preserve operative text and effective period"
+    },
+    {
+      "id": "original_dok8_proposal_2",
+      "expected_budget_rows": 0,
+      "reason": "request for later RNB appropriation proposals; replaced by proposal 23, not an enacted additional event"
+    },
+    {
+      "id": "40036290",
+      "number": 600,
+      "api_type": "ANNET",
+      "expected_budget_rows": 0,
+      "reason": "request for RNB measures, no chapter/post amount"
+    },
+    {
+      "id": "40036281-40036287",
+      "numbers": "591-597",
+      "expected_budget_rows": 0,
+      "reason": "tax rates; not appropriation amounts"
+    },
+    {
+      "id": "40036288",
+      "number": 598,
+      "expected_budget_rows_in_599": 0,
+      "separate_event": {
+        "chapter": "5543",
+        "post": "70",
+        "change_nok": -3000000000
+      },
+      "reason": "same case, separate adopted decision; never fold into 599"
+    }
+  ],
+  "coverage_limit": "Source test before implementation; earlier than first production session 2026-2027; no proof of full annual coverage."
+}

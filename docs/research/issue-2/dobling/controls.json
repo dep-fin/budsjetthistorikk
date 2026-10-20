@@ -1,0 +1,322 @@
+{
+  "created_utc": "2026-10-20T12:23:18.661905+00:00",
+  "scope": [
+    "186001",
+    "486001"
+  ],
+  "votes": [
+    {
+      "sak_id": "100898",
+      "votering_id": "23879",
+      "votering_tema": "Forslag nr. 1 på vegne av H.",
+      "vedtatt": "false",
+      "votering_resultat_type": "ikke_spesifisert",
+      "votering_tid": "2024-12-17T19:26:41.817",
+      "antall_for": "25",
+      "antall_mot": "72"
+    },
+    {
+      "sak_id": "100898",
+      "votering_id": "23880",
+      "votering_tema": "romertallene I, II og III.",
+      "vedtatt": "true",
+      "votering_resultat_type": "enstemmig_vedtatt",
+      "votering_tid": "2024-12-17T19:26:56.237",
+      "antall_for": "-1",
+      "antall_mot": "-1"
+    },
+    {
+      "sak_id": "100894",
+      "votering_id": "23975",
+      "votering_tema": "Romertall II.",
+      "vedtatt": "true",
+      "votering_resultat_type": "manuell",
+      "votering_tid": "2024-12-18T20:26:00",
+      "antall_for": "86",
+      "antall_mot": "11"
+    },
+    {
+      "sak_id": "100894",
+      "votering_id": "23976",
+      "votering_tema": "romertallene I og III.",
+      "vedtatt": "true",
+      "votering_resultat_type": "enstemmig_vedtatt",
+      "votering_tid": "2024-12-18T20:26:00",
+      "antall_for": "-1",
+      "antall_mot": "-1"
+    }
+  ],
+  "proposals": [
+    {
+      "vote": "23880",
+      "id": "40077095",
+      "title": "Komiteens tilråding romertall I. ",
+      "excerpts": {
+        "1860": "1860 Havindustritilsynet: 1 Driftsutgifter, kan nyttast under post 21 , blir auka med 10 988 000 frå kr 349 324 000 til kr 360 312 000 2470 Statens pensjonskasse: 24 Driftsresultat: 1. Driftsinntekter",
+        "4860": "4860 Havindustritilsynet: 1 Gebyrinntekter, blir redusert med 2 400 000 frå kr 85 800 000 til kr 83 400 000 5607 Renter av bustadlånsordninga i Statens pensjonskasse: 80 Renter, blir auka med 472 000 "
+      }
+    },
+    {
+      "vote": "23880",
+      "id": "40077096",
+      "title": "Komiteens tilråding romertall II. ",
+      "excerpts": {}
+    },
+    {
+      "vote": "23880",
+      "id": "40077097",
+      "title": "Komiteens tilråding romertall III. ",
+      "excerpts": {}
+    },
+    {
+      "vote": "23976",
+      "id": "40077047",
+      "title": "Komiteens tilråding romertall I. ",
+      "excerpts": {
+        "1860": "1860 Havindustritilsynet: 1 Driftsutgifter, kan nyttast under post 21 , blir auka med 10 988 000 frå kr 349 324 000 til kr 360 312 000 2440 Statens direkte engasjement i petroleumsverksemda 30 Investe",
+        "4860": "4860 Havindustritilsynet: 1 Gebyrinntekter, blir redusert med 2 400 000 frå kr 85 800 000 til kr 83 400 000 5440 Statens direkte økonomiske engasjement i petroleumsverksemda 24 Driftsresultat 1 Drifts"
+      }
+    },
+    {
+      "vote": "23976",
+      "id": "40077049",
+      "title": "Komiteens tilråding romertall III. ",
+      "excerpts": {}
+    }
+  ],
+  "inherited": [
+    {
+      "path": "work\\issue2\\fortsettelse\\aar\\web-40034064.html",
+      "bytes": 349450,
+      "sha256": "b0c02a2deda99ea0d1bdd8bd1a808d6a76290fdacb74fb01ed30e08a935bee79"
+    },
+    {
+      "path": "work\\issue2\\fortsettelse\\aar\\web-40034226.html",
+      "bytes": 155553,
+      "sha256": "4dd3027adee4a1b615166f8cf6325fb8d76330be3bbef5b2a2c4d56462fa5d7b"
+    },
+    {
+      "path": "work\\issue2\\fortsettelse\\aar\\api_events_derived.json",
+      "bytes": 1826183,
+      "sha256": "c8332a6484d4d8b24b900548dd7410533f3fe23f6e616ea1d143257720ce84c7"
+    },
+    {
+      "path": "work\\issue2\\fortsettelse\\aar\\post_ledger.json",
+      "bytes": 696241,
+      "sha256": "974988add7955dfa8fb87343a9314cb70e49f1d8a600f13aed189c2f7b455d32"
+    },
+    {
+      "path": "work\\issue2\\fortsettelse\\aar\\source_ledger.json",
+      "bytes": 976140,
+      "sha256": "10a3b02aa1539cf541de2e9d94f8d10b2813ad957e50f61facbe90b7273c92e1"
+    },
+    {
+      "path": "work\\issue2\\fortsettelse\\aar\\statsregnskap_ledger.json",
+      "bytes": 1040263,
+      "sha256": "a5d8d764d5b08d4adfeed22748533849c4b3d014881c25a0b74049dce3044a5d"
+    }
+  ],
+  "arithmetic": [
+    {
+      "post": "186001",
+      "before": 349324000,
+      "delta": 10988000,
+      "after_once": 360312000,
+      "after_twice": 371300000,
+      "double_count_difference": 10988000,
+      "local_arithmetic_valid": true
+    },
+    {
+      "post": "486001",
+      "before": 85800000,
+      "delta": -2400000,
+      "after_once": 83400000,
+      "after_twice": 81000000,
+      "double_count_difference": -2400000,
+      "local_arithmetic_valid": true
+    }
+  ],
+  "api_observations": [
+    {
+      "id": "40034064",
+      "session": "2024-2025",
+      "date": "2024-12-17",
+      "number": "221",
+      "case": "100898",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40034064&p=100898",
+      "api_type": "ANNET",
+      "kind": "change",
+      "post": "186001",
+      "amount": 10988000,
+      "row": 67,
+      "source_row": [
+        "",
+        "1",
+        "Driftsutgifter, kan nyttast under post 21 , blir auka med",
+        "",
+        "10 988 000"
+      ],
+      "before": 349324000,
+      "after": 360312000,
+      "components": [],
+      "round": "late",
+      "source_group": "i99/24-25"
+    },
+    {
+      "id": "40034064",
+      "session": "2024-2025",
+      "date": "2024-12-17",
+      "number": "221",
+      "case": "100898",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40034064&p=100898",
+      "api_type": "ANNET",
+      "kind": "change",
+      "post": "486001",
+      "amount": -2400000,
+      "row": 164,
+      "source_row": [
+        "",
+        "1",
+        "Gebyrinntekter, blir redusert med",
+        "",
+        "2 400 000"
+      ],
+      "before": 85800000,
+      "after": 83400000,
+      "components": [],
+      "round": "late",
+      "source_group": "i99/24-25"
+    },
+    {
+      "id": "40034226",
+      "session": "2024-2025",
+      "date": "2024-12-18",
+      "number": "365",
+      "case": "100894",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40034226&p=100894",
+      "api_type": "ANNET",
+      "kind": "change",
+      "post": "186001",
+      "amount": 10988000,
+      "row": 31,
+      "source_row": [
+        "",
+        "1",
+        "Driftsutgifter, kan nyttast under post 21 , blir auka med",
+        "",
+        "10 988 000"
+      ],
+      "before": 349324000,
+      "after": 360312000,
+      "components": [],
+      "round": "late",
+      "source_group": "i93/24-25"
+    },
+    {
+      "id": "40034226",
+      "session": "2024-2025",
+      "date": "2024-12-18",
+      "number": "365",
+      "case": "100894",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40034226&p=100894",
+      "api_type": "ANNET",
+      "kind": "change",
+      "post": "486001",
+      "amount": -2400000,
+      "row": 42,
+      "source_row": [
+        "",
+        "1",
+        "Gebyrinntekter, blir redusert med",
+        "",
+        "2 400 000"
+      ],
+      "before": 85800000,
+      "after": 83400000,
+      "components": [],
+      "round": "late",
+      "source_group": "i93/24-25"
+    }
+  ],
+  "post_controls": [
+    {
+      "post": "186001",
+      "type": "expense",
+      "dfo_rows": [
+        42990,
+        45142,
+        52377,
+        52378,
+        52379
+      ],
+      "dfo_original": 349324000,
+      "dfo_changes": 10988000,
+      "dfo_annual": 360312000,
+      "transfer_from_2023": 17163000,
+      "transfer_to_2025": 24654000,
+      "api_original": 349324000,
+      "api_change": 21976000,
+      "api_annual": 371300000,
+      "residual": -10988000,
+      "status": "difference",
+      "chain_alerts": [
+        {
+          "id": "40034226",
+          "status": "before_conflict"
+        }
+      ]
+    },
+    {
+      "post": "486001",
+      "type": "income",
+      "dfo_rows": [
+        38608,
+        38609
+      ],
+      "dfo_original": 85800000,
+      "dfo_changes": -2400000,
+      "dfo_annual": 83400000,
+      "transfer_from_2023": 0,
+      "transfer_to_2025": 0,
+      "api_original": 85800000,
+      "api_change": -4800000,
+      "api_annual": 81000000,
+      "residual": 2400000,
+      "status": "difference",
+      "chain_alerts": [
+        {
+          "id": "40034226",
+          "status": "before_conflict"
+        }
+      ]
+    }
+  ],
+  "pdf_metadata": {
+    "inns-093": {
+      "pages": 8,
+      "metadata": {
+        "/Author": "Stortinget",
+        "/CreationDate": "D:20241210164104Z",
+        "/Creator": "FrameMaker 17.0.1",
+        "/CreatorTool": "FrameMaker 17.0.1",
+        "/ModDate": "D:20241219145720+01'00'",
+        "/Producer": "Adobe PDF Library 17.0",
+        "/Title": "Innstilling",
+        "/Trapped": "/False"
+      }
+    },
+    "inns-099": {
+      "pages": 8,
+      "metadata": {
+        "/Author": "Stortinget",
+        "/CreationDate": "D:20241210153734Z",
+        "/Creator": "FrameMaker 17.0.1",
+        "/CreatorTool": "FrameMaker 17.0.1",
+        "/ModDate": "D:20241212105642+01'00'",
+        "/Producer": "Adobe PDF Library 17.0",
+        "/Title": "Innstilling",
+        "/Trapped": "/False"
+      }
+    }
+  }
+}

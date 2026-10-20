@@ -1,0 +1,194 @@
+[
+  {
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40036289&p=107811",
+    "retrieved_utc": "2026-10-20T12:21:09.059087+00:00",
+    "file": "raw/vedtak599.html",
+    "status": 200,
+    "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40036289&p=107811",
+    "bytes": 81265,
+    "sha256": "7fb9ac19c0a81495af1e7048a1c4cc74c5fc6c4e562c9d108ccec21373e9939d",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Tue, 20 Oct 2026 12:21:09 GMT"
+    }
+  },
+  {
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=107811",
+    "retrieved_utc": "2026-10-20T12:21:10.314750+00:00",
+    "file": "raw/sak107811.html",
+    "status": 200,
+    "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=107811",
+    "bytes": 83426,
+    "sha256": "4a1dbb11c7eaa3d449d59f8ef60dde2124aa9953b06e2c3dbf1fa40e1e41b5b5",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "last-modified": "Tue, 20 Oct 2026 12:21:11 GMT",
+      "etag": "\"v1-8197b00f5c8e94364a98792e\"",
+      "date": "Tue, 20 Oct 2026 12:21:12 GMT"
+    }
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/sak?sakid=107811",
+    "retrieved_utc": "2026-10-20T12:21:13.174394+00:00",
+    "file": "raw/sak107811.xml",
+    "status": 200,
+    "final_url": "https://data.stortinget.no/eksport/sak?sakid=107811",
+    "bytes": 12157,
+    "sha256": "9ba31203ff86494da243ad4992cb50147fb33a7f9d5a9cee1dbf18f53fd8842e",
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:21:12 GMT"
+    }
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2025-2026",
+    "retrieved_utc": "2026-10-20T12:21:14.180591+00:00",
+    "file": "raw/vedtak2025-2026.xml",
+    "status": 200,
+    "final_url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2025-2026",
+    "bytes": 7387302,
+    "sha256": "795afc4202c51a13c4360f1374f3a603aa5d8e803c57195ec48effb60c6aebf6",
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:21:14 GMT"
+    }
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/voteringer?sakid=107811",
+    "retrieved_utc": "2026-10-20T12:21:25.689340+00:00",
+    "file": "raw/voteringer107811.xml",
+    "status": 200,
+    "final_url": "https://data.stortinget.no/eksport/voteringer?sakid=107811",
+    "bytes": 37185,
+    "sha256": "22aebf352a3d878089e6862f3ea7f6249f7ab47dc90e2329b00a610587f33162",
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:21:24 GMT"
+    }
+  },
+  {
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2025-2026/refs-202526-03-25/referatsaker/",
+    "retrieved_utc": "2026-10-20T12:21:26.796673+00:00",
+    "file": "raw/referat0325.html",
+    "status": 200,
+    "final_url": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2025-2026/refs-202526-03-25/?m=3",
+    "bytes": 254663,
+    "sha256": "57b5d775f3baa699ef439d2bf87c58f2699dd3f3c3215d8d5228eb774fe8ed5c",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "last-modified": "Tue, 20 Oct 2026 12:21:28 GMT",
+      "etag": "\"v1-d0639e93b6b9fad61073237b\"",
+      "date": "Tue, 20 Oct 2026 12:21:27 GMT"
+    }
+  },
+  {
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2025-2026/refs-202526-03-26/voteringer",
+    "retrieved_utc": "2026-10-20T12:21:28.907639+00:00",
+    "file": "raw/referat0326.html",
+    "status": 200,
+    "final_url": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2025-2026/refs-202526-03-26/?m=10",
+    "bytes": 547178,
+    "sha256": "b54c7b339089b44e7df89b5424580439205190e89dfc3db65240d4d634751eeb",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "last-modified": "Tue, 20 Oct 2026 12:21:31 GMT",
+      "etag": "\"v1-bf310496482ddbaf619496fc\"",
+      "date": "Tue, 20 Oct 2026 12:21:31 GMT"
+    }
+  },
+  {
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Representantforslag/2025-2026/dok8-202526-222s/",
+    "retrieved_utc": "2026-10-20T12:21:32.233375+00:00",
+    "file": "raw/dok8-222.html",
+    "status": 200,
+    "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Representantforslag/2025-2026/dok8-202526-222s/",
+    "bytes": 87821,
+    "sha256": "0a5cece62fe1cf78381e9e785a3303de8df721d6853dfa7e24090fdeec260050",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "last-modified": "Tue, 20 Oct 2026 12:21:33 GMT",
+      "etag": "\"v1-1d2cec24ecc60462f4e6b559\"",
+      "date": "Tue, 20 Oct 2026 12:21:32 GMT"
+    }
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/publikasjon?publikasjonid=refs-202526-03-26",
+    "retrieved_utc": "2026-10-20T12:21:33.020266+00:00",
+    "file": "raw/publikasjon0326.xml",
+    "status": 200,
+    "final_url": "https://data.stortinget.no/eksport/publikasjon?publikasjonid=refs-202526-03-26",
+    "bytes": 595225,
+    "sha256": "4eed3a96b705a6bc80f9f7776efbde1c3dab07f36b898ed4722617ff59ea5b56",
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:21:31 GMT"
+    }
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/publikasjon?publikasjonid=refs-202526-03-25",
+    "retrieved_utc": "2026-10-20T12:21:35.164640+00:00",
+    "file": "raw/publikasjon0325.xml",
+    "status": 200,
+    "final_url": "https://data.stortinget.no/eksport/publikasjon?publikasjonid=refs-202526-03-25",
+    "bytes": 234054,
+    "sha256": "fafd115c98928022d1099b5bd2472b07587890fb3bf5aff8fb604ae5e34db060",
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:21:34 GMT"
+    }
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/voteringsvedtak?voteringid=27169",
+    "retrieved_utc": "2026-10-20T12:22:44.628387+00:00",
+    "file": "raw/voteringsvedtak27169.xml",
+    "status": 200,
+    "final_url": "https://data.stortinget.no/eksport/voteringsvedtak?voteringid=27169",
+    "bytes": 762,
+    "sha256": "ae9f6860a6bf5555651b5507fa62a122551a59ef655017a6dad85f6aa7dc0add",
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:22:44 GMT"
+    }
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/voteringsforslag?voteringid=27169",
+    "retrieved_utc": "2026-10-20T12:22:47.035306+00:00",
+    "file": "raw/voteringsforslag27169.xml",
+    "status": 200,
+    "final_url": "https://data.stortinget.no/eksport/voteringsforslag?voteringid=27169",
+    "bytes": 8751,
+    "sha256": "6ed6cd3b1956333799eaa1b459e2c162ac09dad4160e04ce026c6ec9f372a75d",
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:22:46 GMT"
+    }
+  },
+  {
+    "url": "https://www.stortinget.no/no/Stortinget-og-demokratiet/Lover-og-instrukser/forretningsorden/",
+    "retrieved_utc": "2026-10-20T12:22:49.486156+00:00",
+    "file": "raw/forretningsorden.html",
+    "status": 200,
+    "final_url": "https://www.stortinget.no/no/Stortinget-og-demokratiet/Lover-og-instrukser/forretningsorden/",
+    "bytes": 2059882,
+    "sha256": "13a1470da0b1de1d41040d0c6107bcdd9b0e55e1d6bd45da6f17b66fdc677853",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "last-modified": "Tue, 20 Oct 2026 12:22:50 GMT",
+      "etag": "\"v1-5c743ef511747be4d205b94e\"",
+      "date": "Tue, 20 Oct 2026 12:22:51 GMT"
+    }
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/publikasjon?publikasjonid=dok8-202526-222s",
+    "retrieved_utc": "2026-10-20T12:23:04.452135+00:00",
+    "file": "raw/publikasjon-dok8-222.xml",
+    "status": 200,
+    "final_url": "https://data.stortinget.no/eksport/publikasjon?publikasjonid=dok8-202526-222s",
+    "bytes": 4368,
+    "sha256": "6abb31e36f19c92a96896754e1cd71c1cda9680249542fc69139ed0f002f322a",
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:23:04 GMT"
+    }
+  }
+]

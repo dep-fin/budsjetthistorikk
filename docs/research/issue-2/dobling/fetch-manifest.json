@@ -1,0 +1,158 @@
+[
+  {
+    "file": "raw/inns-093.html",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-093s/?all=true",
+    "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-093s/?all=true",
+    "retrieved_utc": "2026-10-20T12:18:16.212778+00:00",
+    "status": 200,
+    "bytes": 216361,
+    "sha256": "6a70ed7dbdda6a8633d04ba7ec68eb218917e23d850c68529f6cf7d2291199f3"
+  },
+  {
+    "file": "raw/inns-093.pdf",
+    "url": "https://www.stortinget.no/globalassets/pdf/innstillinger/stortinget/2024-2025/inns-202425-093s.pdf",
+    "final_url": "https://www.stortinget.no/globalassets/pdf/innstillinger/stortinget/2024-2025/inns-202425-093s.pdf",
+    "retrieved_utc": "2026-10-20T12:18:16.212778+00:00",
+    "status": 200,
+    "bytes": 583314,
+    "sha256": "d1d414ee95142bfd0e4390134bbcfcba052015f341b9f792ceb7408517ebf978"
+  },
+  {
+    "file": "raw/inns-099.html",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-099s/?all=true",
+    "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-099s/?all=true",
+    "retrieved_utc": "2026-10-20T12:18:16.212778+00:00",
+    "status": 200,
+    "bytes": 464094,
+    "sha256": "2981e1f18e1eb81ae264ae76855c14e10edb2a0147e678e6a31b7c2267b3207e"
+  },
+  {
+    "file": "raw/inns-099.pdf",
+    "url": "https://www.stortinget.no/globalassets/pdf/innstillinger/stortinget/2024-2025/inns-202425-099s.pdf",
+    "final_url": "https://www.stortinget.no/globalassets/pdf/innstillinger/stortinget/2024-2025/inns-202425-099s.pdf",
+    "retrieved_utc": "2026-10-20T12:18:16.216061+00:00",
+    "status": 200,
+    "bytes": 429473,
+    "sha256": "8418baf1baa92454195ac145578b5af867066e2183a16cad3071339209bdd43b"
+  },
+  {
+    "file": "raw/ref-1218.html",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-18/?all=true",
+    "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-18/?all=true",
+    "retrieved_utc": "2026-10-20T12:18:17.141463+00:00",
+    "status": 200,
+    "bytes": 6391298,
+    "sha256": "30c3b9d3d1fb09980702bc526b4dcc97afb5b7b6819c1d2add6e800f275e28f2"
+  },
+  {
+    "file": "raw/ref-1217.html",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-17/?all=true",
+    "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-17/?all=true",
+    "retrieved_utc": "2026-10-20T12:18:17.268064+00:00",
+    "status": 200,
+    "bytes": 4197844,
+    "sha256": "61cc7b0a3ac67bd9c1e3637d843ebabe2e4dbc9d7ac78a224dcacea70fac8696"
+  },
+  {
+    "file": "raw/sak-100894.html",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=100894",
+    "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=100894",
+    "retrieved_utc": "2026-10-20T12:18:17.279829+00:00",
+    "status": 200,
+    "bytes": 88002,
+    "sha256": "f5380765ca93252006ad68f99876da9890f2d400a87200ef7fb110b693666742"
+  },
+  {
+    "file": "raw/sak-100929.html",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=100929",
+    "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=100929",
+    "retrieved_utc": "2026-10-20T12:18:17.359689+00:00",
+    "status": 200,
+    "bytes": 86490,
+    "sha256": "241173e126520e33babf3c7e53806dbc0e5b066d5e22c8c911bdf17f758a2dfe"
+  },
+  {
+    "file": "raw/sak-100898.html",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=100898",
+    "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=100898",
+    "retrieved_utc": "2026-10-20T12:18:19.152402+00:00",
+    "status": 200,
+    "bytes": 90148,
+    "sha256": "3a86d5f814a78d930fa069f898f4e07ef37c191f8667b6eb94a543d919a73b95"
+  },
+  {
+    "file": "havtil-tildeling-20241219.pdf",
+    "url": "https://www.regjeringen.no/contentassets/7734a4d009ed4df9be8e055862c7a3e2/supplerende-tildelingsbrev-til-havindustritilsynet-for-2024-1640841.pdf",
+    "retrieved_utc": "2026-10-20T12:21:43.472348+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "raw/voteringer-100894.xml",
+    "url": "https://data.stortinget.no/eksport/voteringer?sakid=100894",
+    "final_url": "https://data.stortinget.no/eksport/voteringer?sakid=100894",
+    "retrieved_utc": "2026-10-20T12:21:43.473336+00:00",
+    "status": 200,
+    "bytes": 4309,
+    "sha256": "de7448e69f942f0d8f7a02224017654049463e28a155231967134500143ef82b"
+  },
+  {
+    "file": "raw/voteringer-100898.xml",
+    "url": "https://data.stortinget.no/eksport/voteringer?sakid=100898",
+    "final_url": "https://data.stortinget.no/eksport/voteringer?sakid=100898",
+    "retrieved_utc": "2026-10-20T12:21:43.473336+00:00",
+    "status": 200,
+    "bytes": 4274,
+    "sha256": "24a2b8b8626c482e497878c6d5f89d6a5ac0646325d67fb8dc3ddf61c5d16e83"
+  },
+  {
+    "file": "raw/voteringsoversikt-100894.html",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/Voteringsoversikt/?p=100894&dnid=1",
+    "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/Voteringsoversikt/?p=100894&dnid=1",
+    "retrieved_utc": "2026-10-20T12:21:43.473336+00:00",
+    "status": 200,
+    "bytes": 77233,
+    "sha256": "cf89334b633be8a2c8d90ac2824c508239b9ff6d4c063cd9b48d44389fc2f974"
+  },
+  {
+    "file": "raw/voteringsoversikt-100898.html",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/Voteringsoversikt/?p=100898&dnid=1",
+    "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/Voteringsoversikt/?p=100898&dnid=1",
+    "retrieved_utc": "2026-10-20T12:21:43.561510+00:00",
+    "status": 200,
+    "bytes": 77357,
+    "sha256": "9ae445a95d06d63e6190eef806f955aed46ac4d86095db49b8521d627779c6e0"
+  },
+  {
+    "file": "raw/ref-1218.pdf",
+    "url": "https://www.stortinget.no/globalassets/pdf/referater/hoeringer/2024-2025/refs-202425-12-18.pdf",
+    "final_url": "https://www.stortinget.no/globalassets/pdf/referater/hoeringer/2024-2025/refs-202425-12-18.pdf",
+    "retrieved_utc": "2026-10-20T12:21:43.610700+00:00",
+    "status": 200,
+    "bytes": 3139847,
+    "sha256": "81dc43c8146464c448b4e6ddcd9200d9157a56f7e35fe16d948967685d1b4cfd"
+  },
+  {
+    "file": "ref-1217.pdf",
+    "url": "https://www.stortinget.no/globalassets/pdf/referater/hoeringer/2024-2025/refs-202425-12-17.pdf",
+    "retrieved_utc": "2026-10-20T12:21:43.692548+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "raw/voteringsforslag-23880.xml",
+    "url": "https://data.stortinget.no/eksport/voteringsforslag?voteringid=23880",
+    "final_url": "https://data.stortinget.no/eksport/voteringsforslag?voteringid=23880",
+    "retrieved_utc": "2026-10-20T12:22:22.767154+00:00",
+    "status": 200,
+    "bytes": 143310,
+    "sha256": "842d4b207627e3f1d3ba8a05b35666c3f2371fd55e09071f3ab2370824992405"
+  },
+  {
+    "file": "raw/voteringsforslag-23976.xml",
+    "url": "https://data.stortinget.no/eksport/voteringsforslag?voteringid=23976",
+    "final_url": "https://data.stortinget.no/eksport/voteringsforslag?voteringid=23976",
+    "retrieved_utc": "2026-10-20T12:22:23.219482+00:00",
+    "status": 200,
+    "bytes": 46271,
+    "sha256": "bb3ed0f40f3943152fe8eb9504459b593cc96bb76da8dafa4c70323c9096a810"
+  }
+]

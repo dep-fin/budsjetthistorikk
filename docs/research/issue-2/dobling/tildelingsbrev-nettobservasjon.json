@@ -1,0 +1,23 @@
+{
+  "observation_date": "2026-10-20",
+  "original_url": "https://www.regjeringen.no/contentassets/7734a4d009ed4df9be8e055862c7a3e2/supplerende-tildelingsbrev-til-havindustritilsynet-for-2024-1640841.pdf",
+  "original_sha256": null,
+  "original_download_status": 403,
+  "original_bytes_preserved": false,
+  "observation_method": "web.search_query returned indexed text from the official PDF URL before the direct download was attempted; not original PDF bytes",
+  "queries": [
+    "site.stortinget.no \"1860\" \"4860\" \"93 S\" rettelse",
+    "site.stortinget.no \"1860\" \"4860\" \"93 S\" beriktiget"
+  ],
+  "document_title": "Supplerende tildelingsbrev 2 til Havindustritilsynet for 2024",
+  "document_date": "2024-12-19",
+  "issuer": "Energidepartementet",
+  "short_verbatim_excerpt": "Stortinget har 17. og 18. desember 2024 fattet vedtak i samsvar med Innst. 99 S",
+  "observed_context_paraphrase": "The immediately following text also references Innst. 93 S (2024-2025) and Prop. 17 S (2024-2025), and introduces the resulting changes in the allocations to Havindustritilsynet.",
+  "observed_table_values_nok": [
+    {"chapter": "1860", "post": "01", "before_allocation": 366487000, "change_allocation": 10988000, "after_allocation": 377475000},
+    {"chapter": "4860", "post": "01", "before_allocation": 85800000, "change_allocation": -2400000, "after_allocation": 83400000}
+  ],
+  "interpretation": "The ministry references the two parliamentary dates and recommendations together and records one change per scoped post. Allocation on 1860/01 includes carried-forward funds and is not identical to annual appropriation.",
+  "limitation": "No original-byte hash can be supplied. No alternative request to the PDF was attempted after HTTP 403. This sidecar's hash, if listed in derived-manifest.json, identifies this observation only."
+}

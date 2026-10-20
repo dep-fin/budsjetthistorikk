@@ -10,6 +10,8 @@ DFØs bevilgningshistorikk kan brukes som en egen kontrollkilde. Fire 2024-poste
 
 ## Videre kildeavklaringer
 
+- [Vedtak 599: direktebehandling uten komitéinnstilling og faktisk tallavvik](vedtak599/README.md)
+- [Gjentatte overganger på 1860/01 og 4860/01](dobling/README.md)
 - [Full årsavstemming 2024 med eksplisitte kildekonflikter](aar/README.md)
 - [Selvstendig bevilgning uten proposisjonsgrunnlag i undersøkt kildekjede](selvstendig-bevilgning.md)
 - [Stortingsinitiativ, bevilgning, fullmakt og negative prøver](stortingsinitiativ.md)
