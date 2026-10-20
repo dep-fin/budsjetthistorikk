@@ -770,6 +770,7 @@ def synthetic_html(database: Path, identifier: str, content: str) -> Extraction:
     [
         "<td>90O</td><td></td><td>Ny uavklart kapittelkode</td><td></td>",
         "<td colspan='2'>900</td><td>Ukjent kapitteloppsett</td><td></td>",
+        "<td></td><td colspan='2'>900</td><td>Uavklart kapitteloppsett</td><td></td>",
     ],
 )
 def test_unknown_chapter_does_not_hide_affected_post_behind_previous_post_filter(
@@ -808,6 +809,143 @@ def test_unknown_chapter_does_not_hide_affected_post_behind_previous_post_filter
     assert_blocked_excel(
         database, result.id, "uavklart_konto", tmp_path / "unknown-chapter-filter.xlsx"
     )
+
+
+@pytest.mark.parametrize(
+    "unknown_row",
+    [
+        "<td></td><td>32</td><td colspan='2'>Post økes med 2</td>",
+        "<td></td><td rowspan='2'>32</td><td>Post økes med</td><td>2</td>",
+        "<td></td><td>32</td><td>Post økes med</td><td>2</td><td></td>",
+    ],
+)
+@pytest.mark.parametrize("chapter", ["800", "900"])
+def test_unknown_cell_layout_cannot_be_filtered_as_previous_account(
+    tmp_path: Path, unknown_row: str, chapter: str
+) -> None:
+    from innlesning import read_revision
+
+    database = tmp_path / "unknown-layout.sqlite"
+    header = "<tr><td>Kap.</td><td>Post</td><td>Formål</td><td>Kroner</td></tr>"
+    original = synthetic_html(
+        database,
+        "40032850",
+        "<div>På statsbudsjettet for 2024 bevilges under:<table>"
+        + header
+        + f"<tr><td>{chapter}</td><td></td><td>Kapittel</td><td></td></tr>"
+        + "<tr><td></td><td>32</td><td>Post</td><td>10</td></tr></table></div>",
+    )
+    content = (
+        "<div>I statsbudsjettet for 2024 gjøres endringer:<table>"
+        + header
+        + "<tr><td>800</td><td></td><td>Forrige kapittel</td><td></td></tr>"
+        + "<tr><td></td><td>1</td><td>Post økes med</td><td>1</td></tr>"
+        + "<tr>"
+        + unknown_row
+        + "</tr></table></div>"
+    )
+    change = synthetic_html(database, "40033805", content)
+    result = calculate_history(
+        database, HistorySelection("prove", (original.id, change.id), 2024, chapter, "32")
+    )
+    assert result.approved_balance is None
+    assert result.status == "ufullstendig" and result.calculated_balance is None
+    issue = next(issue for issue in result.anomalies if issue.code == "ukjent_rad")
+    assert issue.chapter is None and issue.post is None
+    assert issue.evidence == "table[1]/tr[4]"
+    assert read_extraction(database, change.id) == change
+    assert read_revision(database, change.source_revision_id).report.decision.html == content
+    assert_blocked_excel(database, result.id, "ukjent_rad", tmp_path / "unknown-layout.xlsx")
+
+
+@pytest.mark.parametrize(
+    "unknown_row",
+    [
+        "<td></td><td>32?</td><td>Post økes med</td><td>2</td>",
+        "<td></td><td>?</td><td>Uavklart post</td><td>2</td>",
+    ],
+)
+def test_unclassified_post_does_not_inherit_previous_post(tmp_path: Path, unknown_row: str) -> None:
+    from innlesning import read_revision
+
+    database = tmp_path / "unclassified-boundary.sqlite"
+    header = "<tr><td>Kap.</td><td>Post</td><td>Formål</td><td>Kroner</td></tr>"
+    original = synthetic_html(
+        database,
+        "40032850",
+        "<div>På statsbudsjettet for 2024 bevilges under:<table>"
+        + header
+        + "<tr><td>800</td><td></td><td>Kapittel</td><td></td></tr>"
+        + "<tr><td></td><td>32</td><td>Post</td><td>10</td></tr></table></div>",
+    )
+    change = synthetic_html(
+        database,
+        "40033805",
+        "<div>I statsbudsjettet for 2024 gjøres endringer:<table>"
+        + header
+        + "<tr><td>800</td><td></td><td>Forrige kapittel</td><td></td></tr>"
+        + "<tr><td></td><td>1</td><td>Post økes med</td><td>1</td></tr>"
+        + "<tr>"
+        + unknown_row
+        + "</tr>"
+        + "<tr><td></td><td>32</td><td>Post økes med</td><td>3</td></tr>"
+        + "<tr><td>700</td><td></td><td>Sikkert kapittel</td><td></td></tr>"
+        + "<tr><td></td><td>32</td><td>Post økes med</td><td>4</td></tr></table></div>",
+    )
+    result = calculate_history(
+        database, HistorySelection("prove", (original.id, change.id), 2024, "800", "32")
+    )
+    assert result.approved_balance is None
+    previous, following, recovered = change.observations
+    assert (previous.chapter, previous.post, previous.amount_kr) == ("800", "1", 1)
+    assert (following.chapter, following.post, following.amount_kr) == ("800", "32", 3)
+    assert (recovered.chapter, recovered.post, recovered.amount_kr) == ("700", "32", 4)
+    assert following.id in result.input_observation_ids
+    assert recovered.id not in result.input_observation_ids
+    issue = next(issue for issue in result.anomalies if issue.code == "uklassifisert_rad")
+    assert issue.chapter == "800" and issue.post is None
+    assert unknown_row in read_revision(database, change.source_revision_id).report.decision.html
+    assert_blocked_excel(
+        database, result.id, "uklassifisert_rad", tmp_path / "unclassified-boundary.xlsx"
+    )
+
+
+@pytest.mark.parametrize(
+    "previous_rows",
+    [
+        "",
+        "<tr><td></td><td>1</td><td>Post økes med</td><td>1</td></tr>",
+        "<tr><td></td><td>1</td><td>Post økes med</td><td>1</td></tr>"
+        "<tr><td></td><td></td><td>fra kr 10 til kr 11</td><td></td></tr>",
+    ],
+)
+def test_unknown_layout_clears_context_until_an_explicit_chapter_row(
+    tmp_path: Path, previous_rows: str
+) -> None:
+    database = tmp_path / "layout-account-boundaries.sqlite"
+    extraction = synthetic_html(
+        database,
+        "40033805",
+        "<div>I statsbudsjettet for 2024 gjøres endringer:<table>"
+        "<tr><td>Kap.</td><td>Post</td><td>Formål</td><td>Kroner</td></tr>"
+        "<tr><td>800</td><td></td><td>Forrige kapittel</td><td></td></tr>"
+        + previous_rows
+        + "<tr><td></td><td colspan='2'>900</td><td>Uavklart kapittel</td><td></td></tr>"
+        "<tr><td></td><td></td><td>fra kr 1 til kr 3</td><td></td></tr>"
+        "<tr><td></td><td>32</td><td>Post økes med</td><td>2</td></tr>"
+        "<tr><td>700</td><td></td><td>Sikkert kapittel</td><td></td></tr>"
+        "<tr><td></td><td>32</td><td>Post økes med</td><td>4</td></tr></table></div>",
+    )
+    following = next(o for o in extraction.observations if o.amount_kr == 2)
+    recovered = next(o for o in extraction.observations if o.amount_kr == 4)
+    assert (following.chapter, following.post) == (None, "32")
+    assert (recovered.chapter, recovered.post) == ("700", "32")
+    assert all(
+        o.amount_text not in {"1", "3"}
+        for o in extraction.observations
+        if o.meaning in {"for_belop", "etter_belop"}
+    )
+    assert read_extraction(database, extraction.id) == extraction
 
 
 @pytest.mark.parametrize(

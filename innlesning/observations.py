@@ -579,19 +579,16 @@ def extract_revision(
             if len(values) != len(headers) or any(
                 cell.get("rowspan") or cell.get("colspan", "1") != "1" for cell in row
             ):
-                if values and values[0]:
-                    chapter, chapter_name, last = "", "", None
+                # Ukjent celleplassering dokumenterer verken kapittel eller forrige post.
+                chapter, chapter_name, last = "", "", None
                 anomalies.append(
                     Anomaly(
                         "ukjent_rad",
                         "Ukjent celleoppsett",
                         evidence=locator,
-                        chapter=str(int(chapter)) if chapter else None,
-                        post=str(int(last[2])) if last else None,
                         budget_year=year,
                     )
                 )
-                last = None
                 continue
             cap, post, purpose, *amount_cells = values
             if cap.isascii() and cap.isdigit() and not post and purpose and not any(amount_cells):
@@ -687,7 +684,7 @@ def extract_revision(
             if purpose in {"Utgifter", "Inntekter", "Totale utgifter", "Totale inntekter"}:
                 last = None
                 continue
-            if last:
+            if last and not post:
                 step, last_chapter, last_post, last_purpose = last
                 observe(
                     locator,
@@ -708,6 +705,9 @@ def extract_revision(
                         ),
                     ),
                 )
+            if post:
+                # Postfeltet er fylt: raden kan ikke avgrenses til forrige post.
+                last = None
             anomalies.append(
                 Anomaly(
                     "uklassifisert_rad",
