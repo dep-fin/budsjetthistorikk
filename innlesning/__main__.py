@@ -21,7 +21,9 @@ def main() -> int:
     interpretation_command.add_argument("--database", type=Path, required=True)
     interpretation_command.add_argument("--revisjon", required=True)
     interpretation_command.add_argument(
-        "--tolkning", required=True, help="Adapterversjon, storting-belop-v1"
+        "--tolkning",
+        required=True,
+        help="Adapterversjon: storting-belop-v1 eller storting-belop-v2",
     )
     interpretation_command.add_argument(
         "--runde", choices=["opprinnelig", "rnb", "nysaldering", "ovrig", "uavklart"]

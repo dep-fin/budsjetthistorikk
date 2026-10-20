@@ -196,6 +196,11 @@ def _value(by_meaning: dict[str, list[AmountObservation]], meaning: str) -> int 
 def calculate_history(database: Path, selection: HistorySelection) -> HistoryCalculation:
     """Beregn og bevar ett reproduserbart utvalg; ingen latest eller automatisk import."""
     extractions = tuple(read_extraction(database, id) for id in sorted(selection.extraction_ids))
+    rule_version = (
+        "vedtatt-kjede-v2"
+        if any(e.interpretation.adapter_version == "storting-belop-v2" for e in extractions)
+        else RULE_VERSION
+    )
     if any(extraction.dataset != selection.dataset for extraction in extractions):
         raise ValueError("Datasett kan ikke blandes i en beregning")
     contexts = tuple(_context(database, extraction) for extraction in extractions)
@@ -208,6 +213,11 @@ def calculate_history(database: Path, selection: HistorySelection) -> HistoryCal
             (extraction.source_revision_id, extraction.interpretation.id)
         )
         for anomaly in extraction.anomalies:
+            if (
+                anomaly.code == "mangler_organisasjonsoppslag"
+                and extraction.interpretation.adapter_version == "storting-belop-v2"
+            ):
+                continue  # Organisasjonskontroll er separat fra kjedens regnekontroll.
             if anomaly.code == "ingen_bevilgningstabell":
                 continue
             if (
@@ -440,11 +450,11 @@ def calculate_history(database: Path, selection: HistorySelection) -> HistoryCal
             )
         )
     input_ids = tuple(sorted(o.id for o in observations))
-    calculation_id = identity(RULE_VERSION, asdict(selection), input_ids, _basis(contexts))
+    calculation_id = identity(rule_version, asdict(selection), input_ids, _basis(contexts))
     result = HistoryCalculation(
         calculation_id,
         selection,
-        RULE_VERSION,
+        rule_version,
         datetime.now(UTC).isoformat(),
         input_ids,
         tuple(steps),

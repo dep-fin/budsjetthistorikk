@@ -33,3 +33,7 @@ Se [kommandoer og prøver](../README.md#kjør-b2-lokalt), [B2-kontrakten](../doc
 `innlesning.observations` gir immutable, kildeuavhengige beløpsobservasjoner og en avgrenset Storting-adapter. `extract_revision` leser én eksplisitt valgt B2-revisjon, bevarer første rågrunnlag og gjenbruker identiteter ved ny lesing. Før/endring/etter er egne observasjoner i samme ledd. Råverdier, enhet, akser, lokator og proveniens bevares; B1s `structure_node`, parseridentitet og resultater endres ikke.
 
 `save_extraction` og `read_extraction` er den generiske lagringsgrensen. API-ID og dato kan mangle med nullgrunn; underpost, historisk organisasjon og flere dokumentreferanser kan representeres. Dette er ingen historisk Excel-adapter. Additiv skjemaversjon 3 beholder B1/B2 og ventende jobber. Se [B3-kontrakten](../docs/datakontrakt.md#b3--beløpsobservasjoner-og-valgt-historikk) og [CLI-eksempelet](../README.md#kjør-b3-lokalt).
+
+## Eksplisitt B4-tolkning
+
+`Interpretation(adapter_version="storting-belop-v2")` velger nummererte post-24-spesifikasjoner og observerte totalceller, med eksakt komponentkontroll og registersnapshot. V1 forblir standard og uendret. Nye nivåoppstillinger uten delta gir etterbeløp. Kontoklassifikasjon følger kapittel, mens organisasjonen bygger på ni eksplisitte oppslag med gyldighet bare 2027. Ukjent oppslag beholder beløpet. Se [B4-kontrakten](../docs/datakontrakt.md#b4--særtilfeller-med-eksplisitt-tolkning-v2).
