@@ -53,3 +53,11 @@ Les [AGENTS.md](../AGENTS.md). Oppgi issue-nummeret og om økten gjelder avklari
 Det er et skille mellom denne versjonsfestede metoden og lokalt installerte plugins. I oppsettsøkten var pluginversjon 1.3.1 tilgjengelig med blant annet grilling, TDD, code review, PR og domain modeling. To spec, to tickets, implement og setup var ikke eksponert som kjørbare skills.
 
 Ingen skills er installert eller oppgradert som del av dette arbeidet. Ved senere gjennomføring skal agenten kontrollere faktisk skilltilgjengelighet, bruke denne dokumenterte metoden og opplyse om eventuelle mangler. Ulike versjoner skal ikke blandes eller omtales som kjørt uten faktisk gjennomføring.
+
+## Kunnskap mellom agentøkter
+
+Før en økt avsluttes, vurder hvilke nye funn som påvirker senere arbeid. Lagre varige kildefunn med observasjonsdato, kilde-ID eller URL, begrensning og konsekvens i [kildefunnene](kildefunn.md). Bruk en kort, oppgavespesifikk inngang fra AGENTS.md når funnet må leses før en bestemt type arbeid.
+
+Begreper hører hjemme i GLOSSARY.md. Krav og avklarte produktvalg oppdateres i kravgrunnlaget og spesifikasjonen. Vesentlige arkitekturvalg dokumenteres som ADR når kriteriene i begrepsreglene er oppfylt. Gjennomføringsstatus og uavklarte punkter oppdateres i issuet.
+
+Et viktig funn som allerede er dokumentert og kontrollert, skal være tilgjengelig fra hovedbranchens faste kontekst selv om den bredere undersøkelsen fortsatt er en utkast-PR. Lenke til en bestemt rapportrevisjon bevarer kildebevisene. En chatmelding eller lenke til en umerget PR alene er ikke tilstrekkelig kunnskapsoverføring.

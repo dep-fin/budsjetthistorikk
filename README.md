@@ -30,11 +30,11 @@ Historikken skal vise hvert forslag, vedtak og endring gjennom året, frem til r
 - [Kilder og behov for dataprøver](docs/kilder.md)
 - [Departementsregister og kapitteltilknytning](docs/departementsregister.md)
 - [Faglige funn fra vedleggene](docs/faggrunnlag.md)
-- [Foreslått leveranseplan](docs/leveranseplan.md)
+- [Godkjent leveranseplan](docs/leveranseplan.md)
 - [Fast arbeidsflyt med issues](docs/arbeidsflyt.md)
 - [Innlesningsdelen](innlesning/README.md)
 - [Analysedelen](analyse/README.md)
 
 ## Status
 
-Avklaringer og planlegging pågår i issues #1–#3. Ingen produksjonskode eller daglig kjøring er implementert. Teknologistakk og mottakersystem er åpne. Azure er en mulig driftsplattform; valget skal tas opp igjen før det blir styrende for løsningen.
+Spesifikasjonen og oppdelingen er godkjent. Byggetickets #4–#10 er publisert, avklaringsissue #3 er lukket, og kildeundersøkelsen #2 pågår. Ingen produksjonskode eller daglig kjøring er implementert. Teknologistakk og mottakersystem er åpne. Azure er en mulig driftsplattform; valget skal tas opp igjen før det blir styrende for løsningen.
