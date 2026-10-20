@@ -412,8 +412,20 @@ def extract_revision(
         len(raw),
         encode(report.source_metadata),
     )
-    document = html.fromstring(decision.html, parser=html.HTMLParser(no_network=True))
-    all_text = text(document)
+    parser = html.HTMLParser(no_network=True, recover=False)
+    html_errors: list[str] = []
+    try:
+        document = html.fromstring(decision.html, parser=parser)
+    except etree.LxmlError as error:
+        document = None
+        html_errors.append(str(error))
+    html_errors.extend(
+        str(error) for error in parser.error_log if error.level_name in {"ERROR", "FATAL"}
+    )
+    if html_errors:
+        # Parserens sikkerhetsgrenser kan ha fjernet resten av dokumentet.
+        document = None
+    all_text = text(document) if document is not None else ""
     year_matches = set(re.findall(r"statsbudsjettet for (20\d{2})", all_text, re.I))
     year_evidence = "Uttrykkelig budsjettår i vedtaksteksten"
     if not year_matches:
@@ -433,6 +445,15 @@ def extract_revision(
         round_, round_evidence = "uavklart", None
     observations: list[AmountObservation] = []
     anomalies: list[Anomaly] = []
+    if html_errors:
+        anomalies.append(
+            Anomaly(
+                "ugyldig_html",
+                "HTML-behandlingen feilet; ingen delresultater brukes som beløpsgrunnlag",
+                evidence="\n".join(dict.fromkeys(html_errors)),
+                budget_year=year,
+            )
+        )
     unit_id = f"storting:{decision.session}:{decision.id}"
     reference = DocumentReference(
         decision.number,
@@ -521,7 +542,7 @@ def extract_revision(
             )
         )
 
-    tables = document.findall(".//table")
+    tables = document.findall(".//table") if document is not None else []
     if len(tables) > 1:
         anomalies.append(
             Anomaly("flere_tabeller", "Flere tabeller krever særskilt tolkning", budget_year=year)
@@ -558,6 +579,8 @@ def extract_revision(
             if len(values) != len(headers) or any(
                 cell.get("rowspan") or cell.get("colspan", "1") != "1" for cell in row
             ):
+                if values and values[0]:
+                    chapter, chapter_name, last = "", "", None
                 anomalies.append(
                     Anomaly(
                         "ukjent_rad",
@@ -573,6 +596,19 @@ def extract_revision(
             cap, post, purpose, *amount_cells = values
             if cap.isascii() and cap.isdigit() and not post and purpose and not any(amount_cells):
                 chapter, chapter_name, last = cap, purpose, None
+                continue
+            if cap:
+                # En mulig ny kapittelrad kan ikke arve forrige kapittel eller post.
+                chapter, chapter_name, last = "", "", None
+                anomalies.append(
+                    Anomaly(
+                        "uavklart_konto",
+                        "Mulig kapittelrad uten entydig kapittel-/posttolkning",
+                        ("chapter", "post"),
+                        evidence=locator,
+                        budget_year=year,
+                    )
+                )
                 continue
             if not cap and post.isascii() and post.isdigit() and purpose:
                 step = identity(unit_id, revision_id, locator)

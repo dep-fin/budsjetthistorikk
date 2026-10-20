@@ -286,6 +286,19 @@ def calculate_history(database: Path, selection: HistorySelection) -> HistoryCal
             continue
         groups[observation.step_id].append(observation)
     dates = {id: {o.decision_date for o in group} for id, group in groups.items()}
+    known_step_dates = {
+        id: {value for value in values if value is not None} for id, values in dates.items()
+    }
+    for step_id, values in known_step_dates.items():
+        if len(values) > 1:
+            issues.append(
+                Anomaly(
+                    "motstrid_dato",
+                    "Observasjoner i samme ledd har motstridende vedtaksdatoer",
+                    ("decision_date",),
+                    evidence=step_id,
+                )
+            )
     order: list[str]
     if selection.step_order:
         if len(set(selection.step_order)) != len(selection.step_order) or set(
@@ -294,9 +307,7 @@ def calculate_history(database: Path, selection: HistorySelection) -> HistoryCal
             raise ValueError("Eksplisitt rekkefølge må inneholde hvert valgt ledd nøyaktig én gang")
         order = list(selection.step_order)
         known_dates = [
-            str(next(iter(dates[id])))
-            for id in order
-            if len(dates[id]) == 1 and None not in dates[id]
+            next(iter(known_step_dates[id])) for id in order if len(known_step_dates[id]) == 1
         ]
         if known_dates != sorted(known_dates):
             issues.append(
@@ -354,7 +365,16 @@ def calculate_history(database: Path, selection: HistorySelection) -> HistoryCal
             ):
                 step_issues.append("uavklart_normalisering")
             step_issues.extend(anomaly.code for anomaly in observation.anomalies)
-            if observation.meaning == "uavklart" or observation.professional_status == "avvist":
+            if (
+                observation.meaning
+                not in {
+                    "nivaa",
+                    "endring",
+                    "for_belop",
+                    "etter_belop",
+                }
+                or observation.professional_status == "avvist"
+            ):
                 step_issues.append("ukjent_ledd")
         if any(len(values) != 1 for values in by_meaning.values()):
             step_issues.append("gjentatt_belopsrolle")
@@ -366,6 +386,8 @@ def calculate_history(database: Path, selection: HistorySelection) -> HistoryCal
         if "nivaa" in by_meaning:
             if index != 0 or first.round != "opprinnelig" or "endring" in by_meaning:
                 step_issues.append("ukjent_startledd")
+            if original is not None and after is not None and original != after:
+                step_issues.append("etter_konflikt")
             if original is not None and not broken and not step_issues:
                 balance = original
         elif "endring" not in by_meaning:

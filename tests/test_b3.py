@@ -6,6 +6,7 @@ from dataclasses import replace
 from pathlib import Path
 
 import pytest
+from lxml import etree
 from openpyxl import load_workbook
 
 from analyse.history import HistorySelection, calculate_history, read_history
@@ -666,3 +667,259 @@ def test_unclassified_selected_source_is_not_dropped_by_account_filter(
     assert result.approved_balance is None
     assert observation.id in result.input_observation_ids
     assert "uavklart_kontoutvalg" in {issue.code for issue in result.anomalies}
+
+
+def assert_blocked_excel(database: Path, calculation_id: str, code: str, output: Path) -> None:
+    export_history_excel(database, calculation_id, output)
+    workbook = load_workbook(output)
+    notes = list(workbook["Grunnlag og kontroll"].values)
+    assert dict(notes)["Avstemt saldo med samme grunnlag"] is None
+    assert dict(notes)["Beregnet saldo i bevart utvalg"] is None
+    assert any(label == "Beregningsavvik" and code in str(value) for label, value in notes)
+    history = workbook["Historikk"]
+    if history.max_row > 1:
+        assert history.cell(history.max_row, 10).value is None
+    workbook.close()
+
+
+@pytest.mark.parametrize("meaning", ["nivaa", "endring"])
+def test_unknown_amount_role_blocks_otherwise_valid_step_and_excel(
+    tmp_path: Path, meaning: str
+) -> None:
+    database = tmp_path / "unknown-role.sqlite"
+    original = generic(database, date="2013-01-01", value=100)
+    target = (
+        original
+        if meaning == "nivaa"
+        else generic(
+            database,
+            marker="I2",
+            date="2013-02-01",
+            meaning="endring",
+            round="ovrig",
+            value=1,
+        )
+    )
+    known = target.observations[0]
+    interpretation = replace(target.interpretation, reason="Syntetisk ukjent beløpsrolle")
+    unknown = replace(
+        known,
+        interpretation_id=interpretation.id,
+        pointer=replace(known.pointer, amount_field="ny_ukjent_rolle"),
+        meaning="ny_ukjent_rolle",
+        raw_value="999",
+        amount_text="999",
+        amount_kr=999,
+    )
+    modified = replace(
+        target,
+        interpretation=interpretation,
+        observations=(replace(known, interpretation_id=interpretation.id), unknown),
+    )
+    save_extraction(database, modified, b"synthetic generic artifact; not an actual workbook")
+    ids = (modified.id,) if meaning == "nivaa" else (original.id, modified.id)
+    result = calculate_history(
+        database, HistorySelection("historisk", ids, 2013, "1", "1", "1", "underpost")
+    )
+    assert result.approved_balance is None
+    assert "ukjent_ledd" in {issue.code for issue in result.anomalies}
+    assert read_extraction(database, modified.id).observations[-1] == unknown
+    assert_blocked_excel(database, result.id, "ukjent_ledd", tmp_path / "unknown-role.xlsx")
+
+
+def test_unknown_chapter_in_synthetic_rnb_cannot_inherit_previous_account(tmp_path: Path) -> None:
+    database = tmp_path / "unknown-chapter.sqlite"
+    original = ingest(database, "40032850")
+    changed = mutate(database, "40033719", b"2541", b"2541?")
+    extraction = read_extraction(database, changed)
+    result = calculate_history(
+        database, HistorySelection("prove", (original, changed), 2024, "2541", "70")
+    )
+    assert result.approved_balance is None
+    assert "uavklart_konto" in {issue.code for issue in result.anomalies}
+    reduction = next(o for o in extraction.observations if o.amount_kr == -608_000_000)
+    assert reduction.chapter is None and reduction.post == "70"
+    assert reduction.id in result.input_observation_ids
+    assert_blocked_excel(database, result.id, "uavklart_konto", tmp_path / "unknown-chapter.xlsx")
+
+
+def synthetic_html(database: Path, identifier: str, content: str) -> Extraction:
+    """Syntetisk fulltekst i en bevart XML-konvolutt, alltid med ny hash og prøvemerking."""
+    node = etree.fromstring((FIXTURES / f"{identifier}.xml").read_bytes())
+    ns = "{http://data.stortinget.no}"
+    html_node = node.find(f".//{ns}stortingsvedtak_tekst")
+    title_node = node.find(f".//{ns}stortingsvedtak_tittel")
+    assert html_node is not None and title_node is not None
+    html_node.text = content
+    title_node.text = "Syntetisk kontrollprøve for statsbudsjettet 2024"
+    raw = etree.tostring(node, encoding="utf-8", xml_declaration=True)
+    metadata = json.loads((FIXTURES / f"{identifier}.json").read_text(encoding="utf-8"))
+    metadata.update(
+        fixture_kind="synthetic_test",
+        sha256=hashlib.sha256(raw).hexdigest(),
+        bytes=len(raw),
+        retrieved_utc="2026-10-20T15:00:00+00:00",
+    )
+    job = sync_saved(database, raw, metadata, historical_sample=True, decision_id=identifier)
+    revision = read_sync(database, job).entries[0].revision_id
+    return extract_revision(database, revision)
+
+
+@pytest.mark.parametrize(
+    "chapter_row",
+    [
+        "<td>90O</td><td></td><td>Ny uavklart kapittelkode</td><td></td>",
+        "<td colspan='2'>900</td><td>Ukjent kapitteloppsett</td><td></td>",
+    ],
+)
+def test_unknown_chapter_does_not_hide_affected_post_behind_previous_post_filter(
+    tmp_path: Path, chapter_row: str
+) -> None:
+    database = tmp_path / "unknown-chapter-filter.sqlite"
+    header = "<tr><td>Kap.</td><td>Post</td><td>Formål</td><td>Kroner</td></tr>"
+    original = synthetic_html(
+        database,
+        "40032850",
+        "<div>På statsbudsjettet for 2024 bevilges under:<table>"
+        + header
+        + "<tr><td>900</td><td></td><td>Originalt kapittel</td><td></td></tr>"
+        + "<tr><td></td><td>32</td><td>Post</td><td>10</td></tr></table></div>",
+    )
+    change = synthetic_html(
+        database,
+        "40033805",
+        "<div>I statsbudsjettet for 2024 gjøres endringer:<table>"
+        + header
+        + "<tr><td>800</td><td></td><td>Forrige kapittel</td><td></td></tr>"
+        + "<tr><td></td><td>1</td><td>Post økes med</td><td>1</td></tr>"
+        + "<tr>"
+        + chapter_row
+        + "</tr>"
+        + "<tr><td></td><td>32</td><td>Post økes med</td><td>2</td></tr></table></div>",
+    )
+    result = calculate_history(
+        database, HistorySelection("prove", (original.id, change.id), 2024, "900", "32")
+    )
+    assert result.approved_balance is None
+    uncertain = next(o for o in change.observations if o.amount_kr == 2)
+    assert uncertain.chapter is None and uncertain.post == "32"
+    assert uncertain.id in result.input_observation_ids
+    assert any(issue.chapter is None and issue.post is None for issue in change.anomalies)
+    assert_blocked_excel(
+        database, result.id, "uavklart_konto", tmp_path / "unknown-chapter-filter.xlsx"
+    )
+
+
+@pytest.mark.parametrize(
+    "delta_date,before_date,code",
+    [
+        ("2013-02-01", "2012-01-01", "motstrid_dato"),
+        ("2012-01-01", None, "motstrid_rekkefolge"),
+    ],
+)
+def test_explicit_order_cannot_override_known_dates_within_a_step(
+    tmp_path: Path, delta_date: str, before_date: str | None, code: str
+) -> None:
+    database = tmp_path / "conflicting-step-dates.sqlite"
+    original = generic(database, date="2013-01-01")
+    change = generic(
+        database, marker="I2", date=delta_date, meaning="endring", round="ovrig", value=1
+    )
+    delta = change.observations[0]
+    interpretation = replace(change.interpretation, reason="Syntetisk motstridende ledddatoer")
+    before = replace(
+        delta,
+        interpretation_id=interpretation.id,
+        pointer=replace(delta.pointer, amount_field="for_belop"),
+        meaning="for_belop",
+        amount_kr=10_032_000,
+        decision_date=before_date,
+    )
+    after = replace(
+        delta,
+        interpretation_id=interpretation.id,
+        pointer=replace(delta.pointer, amount_field="etter_belop"),
+        meaning="etter_belop",
+        amount_kr=10_032_001,
+    )
+    modified = replace(
+        change,
+        interpretation=interpretation,
+        observations=(replace(delta, interpretation_id=interpretation.id), before, after),
+    )
+    save_extraction(database, modified, b"synthetic generic artifact; not an actual workbook")
+    result = calculate_history(
+        database,
+        HistorySelection(
+            "historisk",
+            (original.id, modified.id),
+            2013,
+            "1",
+            "1",
+            "1",
+            "underpost",
+            step_order=(original.observations[0].step_id, delta.step_id),
+            order_evidence="Syntetisk eksplisitt original før endring",
+        ),
+    )
+    assert result.approved_balance is None
+    assert code in {issue.code for issue in result.anomalies}
+    assert read_extraction(database, modified.id).observations[1].decision_date == before_date
+    assert_blocked_excel(database, result.id, code, tmp_path / "conflicting-dates.xlsx")
+
+
+def test_html_depth_failure_cannot_publish_a_valid_looking_partial_table(tmp_path: Path) -> None:
+    from innlesning import read_revision
+
+    database = tmp_path / "html-depth.sqlite"
+    table = (
+        "<table><tr><td>Kap.</td><td>Post</td><td>Formål</td><td>Kroner</td></tr>"
+        "<tr><td>900</td><td></td><td>Kapittel</td><td></td></tr>"
+        "<tr><td></td><td>32</td><td>Post</td><td>10</td></tr></table>"
+    )
+    content = (
+        "<div>På statsbudsjettet for 2024 bevilges under:"
+        + table
+        + "<div>" * 260
+        + table
+        + "</div>" * 260
+        + "</div>"
+    )
+    extraction = synthetic_html(database, "40032850", content)
+    assert read_revision(database, extraction.source_revision_id).report.decision.html == content
+    result = calculate_history(
+        database, HistorySelection("prove", (extraction.id,), 2024, "900", "32")
+    )
+    assert result.approved_balance is None
+    assert "ugyldig_html" in {issue.code for issue in result.anomalies}
+    assert extraction.observations == ()
+    assert_blocked_excel(database, result.id, "ugyldig_html", tmp_path / "html-depth.xlsx")
+
+
+def test_original_level_conflicting_with_observed_after_blocks_chain_and_excel(
+    tmp_path: Path,
+) -> None:
+    database = tmp_path / "original-after-conflict.sqlite"
+    extraction = synthetic_html(
+        database,
+        "40032850",
+        "<div>På statsbudsjettet for 2024 bevilges under:"
+        "<table><tr><td>Kap.</td><td>Post</td><td>Formål</td><td>Kroner</td></tr>"
+        "<tr><td>900</td><td></td><td>Kapittel</td><td></td></tr>"
+        "<tr><td></td><td>32</td><td>Post</td><td>10</td></tr>"
+        "<tr><td></td><td></td><td>fra kr 9 til kr 11</td><td></td></tr></table></div>",
+    )
+    result = calculate_history(
+        database, HistorySelection("prove", (extraction.id,), 2024, "900", "32")
+    )
+    assert result.approved_balance is None
+    assert "etter_konflikt" in {issue.code for issue in result.anomalies}
+    assert [
+        (o.meaning, o.amount_kr) for o in read_extraction(database, extraction.id).observations
+    ] == [
+        ("nivaa", 10),
+        ("for_belop", 9),
+        ("etter_belop", 11),
+    ]
+    assert (result.steps[0].original, result.steps[0].before, result.steps[0].after) == (10, 9, 11)
+    assert_blocked_excel(database, result.id, "etter_konflikt", tmp_path / "original-after.xlsx")
