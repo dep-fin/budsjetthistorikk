@@ -88,6 +88,14 @@ De to Havtil-postene har dokumentasjon på én økonomisk gjennomføring i depar
 
 For **5999/90** er brutto finansieringsbehov dokumentert som postens økonomiske rolle, men det forklarer ikke motstriden mellom RNB-null og nysalderingens førbeløp. Bevar kontrollert sluttbeløp **120 371 709 000 kroner** separat fra den sperrede additive historikken. En differanse på **101 874 353 000 kroner** skal ikke bli en oppdiktet mellomliggende økning. [Supplerende kildeundersøkelse og fasit](https://github.com/depmartin/budsjetthistorikk/blob/a03a53aea87360169faa8ee4de212daeb413d625/docs/research/issue-2/finansiering/README.md).
 
+## Historiske Excel-filer krever skille mellom observasjon, stadium og hendelse
+
+**Kontrollert 20. oktober 2026:** Alle 13 arbeidsbøker for 2013–2025 på historikkbranchen er lest ved revisjon `da720e9dd4ebfff31d88c14488c5f3217d045786`. SHA-256 og byteantall samsvarer med kilderegisteret før og etter lesingen. Originalene er uendret. [Filkontroll og modellvurdering](research/historisk-excel/modellvurdering.md) har festede kildelenker, inventar og konkrete celler.
+
+Rådata og dokumentarket har ulike detaljeringsgrader og flere dokumentrader per post. En kapittel-/postkobling kan doble dokumentbeløp; dokumentreferanser er ikke automatisk selvstendige beløpshendelser. Hele f150-kolonnen i 2015 er numerisk null og krever særskilt kontrollmarkering. En konkret sammenligning mot vedtak 74 for 2013 støtter millioner kroner i rådata og motsier antakelsen om tusen kroner i dette tilfellet; bred enhets- og stadieavstemming gjenstår. Regnskapskolonne og egen vedtaksdato finnes ikke i de undersøkte arkene.
+
+Konsekvens: bruk filene som konkrete prøver ved videre modellering. Bevar kildeverdier, enhet, underpost, budsjettstadium, beløpsbetydning og dokumentkoblinger før eventuell normalisering. Foreslått felles observasjonskontrakt i rapporten er et modellråd, ikke en vedtatt migrering eller godkjenning av historiske summer. B1/B2s Storting-identitet og prøvedatasett skal ikke brukes som erstatning for en historisk kildeadapter.
+
 ## Vedlikehold
 
 Oppdater eksisterende funn når nye prøver presiserer det. Bevar skillet mellom observert kildeinnhold, en designanbefaling og et åpent spørsmål. Vesentlige nye funn skal få en kort inngang fra AGENTS.md eller relevant fag-/arbeidsdokument, slik at neste økt finner dem uten chatloggen.

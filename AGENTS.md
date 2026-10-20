@@ -27,3 +27,7 @@ Før økten avsluttes: lagre nye varige funn med kildebevis og praktisk konsekve
 ## Kildeversjoner og gjenopptak
 
 Før endringer i synkronisering, kontrollhenvisninger eller versjonseksport: les [B2-kontrakten](docs/datakontrakt.md#b2--kildeinventar-observasjoner-og-revisjoner) og [lagringsvalget](docs/adr/0002-kildeobservasjoner.md). B1-kjøringer er et historisk prøvearkiv og adopteres ikke automatisk som B2s vedtaksregister.
+
+## Historisk Excel og felles historikkmodell
+
+Før historisk Excel-import eller utvidelse av den felles historikkmodellen: les [filkontrollen 2013–2025](docs/research/historisk-excel/modellvurdering.md). Den skiller verifiserte kildefunn fra foreslåtte modellutvidelser og åpne tolkninger.
