@@ -26,7 +26,7 @@ Undersøkelsesissues er egne avgrensede kunnskapsleveranser. De skal ikke gi inn
 
 Les hele ticketen, kommentarer, spesifikasjonen og relevante begreper før start. Velg bare arbeid med avklarte blokkeringer og mandat. Bruk TDD innenfor avtalte testgrenser: test observerbar atferd og gjennomfør små test-/implementeringssteg. Kjør relevante tester og statiske kontroller. Dokumenter konkrete begrensninger.
 
-For innlesningen bør kontrollene blant annet dekke klassifikasjon av kapittel, kildehenvisninger, beløpstolkning, gjentatt kjøring og tvetydige uttrekk. Testopplegget fastsettes i spesifikasjonen; det er ikke implementert nå. [Implement](https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/implement/SKILL.md), [TDD](https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/tdd/SKILL.md)
+For innlesningen bør kontrollene blant annet dekke klassifikasjon av kapittel, kildehenvisninger, beløpstolkning, gjentatt kjøring og tvetydige uttrekk. Testgrensene er godkjent i #1. B1 implementerer den smale grensen kilde → lagring → Excel; øvrige kontroller følger ticketoppdelingen. [Implement](https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/implement/SKILL.md), [TDD](https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/tdd/SKILL.md)
 
 ## 5 Gjennomgå samlet
 
@@ -53,6 +53,8 @@ Les [AGENTS.md](../AGENTS.md). Oppgi issue-nummeret og om økten gjelder avklari
 Det er et skille mellom denne versjonsfestede metoden og lokalt installerte plugins. I oppsettsøkten var pluginversjon 1.3.1 tilgjengelig med blant annet grilling, TDD, code review, PR og domain modeling. To spec, to tickets, implement og setup var ikke eksponert som kjørbare skills.
 
 Ingen skills er installert eller oppgradert som del av dette arbeidet. Ved senere gjennomføring skal agenten kontrollere faktisk skilltilgjengelighet, bruke denne dokumenterte metoden og opplyse om eventuelle mangler. Ulike versjoner skal ikke blandes eller omtales som kjørt uten faktisk gjennomføring.
+
+Ved B1-start 20. oktober 2026 ble filene for implement, to-spec og to-tickets funnet ved eksplisitt søk i den lokale pluginpakken 1.3.1. De vises fortsatt ikke i den aktive skillkatalogen. Filinstruksjonene kan leses og følges; dette er ingen påstand om en Skill-verktøyinvokasjon. B1 følger implement- og TDD-filene ved de allerede godkjente testgrensene. Det versjonsfestede prosessgrunnlaget ovenfor er bevart, og ingen skills er installert eller oppgradert.
 
 ## Kunnskap mellom agentøkter
 

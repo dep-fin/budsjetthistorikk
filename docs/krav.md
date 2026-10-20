@@ -60,7 +60,7 @@ Kildeinventar og uavhengige kontrollsummer skal brukes sammen. Blå bok kan vær
 
 ## Drift og mottakersystem
 
-Mottakersystem og teknologistakk er åpne. Azure er en mulig plattform. Plattformvalget skal tas opp med brukeren igjen før det blir styrende for arkitektur eller driftssetting. Ingen skyressurser er opprettet.
+Python, SQLite og openpyxl er godkjent for lokal innlesning og Excel-uttrekk, og byggemandat er gitt for B1 (#4) 20. oktober 2026. Valget er dokumentert i [ADR 0001](adr/0001-lokal-innlesning.md). Mottakersystem og driftsplattform er fortsatt åpne. Azure tas opp med brukeren igjen før plattformvalget blir styrende. Ingen skyressurser er opprettet.
 
 ## Manuelt vedlikehold og varsling
 
@@ -70,10 +70,10 @@ Ved innlesningsfeil eller uttrekk som krever kontroll opprettes en GitHub-issue.
 
 ## Gjenstående bekreftelser
 
-Samlet spesifikasjon, testgrenser og ticketoppdeling er godkjent av prosjekteieren 20. oktober 2026. Byggetickets er publisert som #4–#10, og kildeundersøkelsen #2 er påbegynt.
+Samlet spesifikasjon, testgrenser og ticketoppdeling er godkjent av prosjekteieren 20. oktober 2026. Byggetickets er publisert som #4–#10. Kildeundersøkelsen #2 er levert i PR #11. Teknologiforslaget og byggemandatet for det smale B1-snittet er godkjent med «Gjør som du foreslår».
 
 Gjenstående tekniske avklaringer:
 - Konkret kilde- og fullstendighetskontroll etter kildeprøvene.
-- Teknologistakk før bygging og Azure-valg før plattformen blir styrende.
+- Mottakersystem og driftsplattform; Azure tas opp før plattformen blir styrende.
 
 Tekniske fakta undersøkes av agenten. Brukeren avgjør behov, prioriteringer og faglig aksept.
