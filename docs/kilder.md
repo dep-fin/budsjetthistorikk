@@ -18,7 +18,13 @@ Tre vedlegg er lest og analysert: R-101/2024, Statlig budsjettarbeid fra juni 20
 
 Gul bok-filen har 1 595 utfylte kapittel-/postrader og 579 kapitler. Den kan brukes som strukturert katalog- og forslagskilde. Den er ikke en vedtakskilde eller fasit for vedtatte beløp.
 
-## Undersøkelser før valg av løsning
+## Resultat av kildeundersøkelsen #2
+
+[Kildepakken](research/issue-2/README.md) og [overleveringen med akseptmatrise](research/issue-2/byggestart.md) dokumenterer faktiske API-prøver, direktebehandlet vedtak 599, hele årsavstemmingen for 2024 og regler for kildeversjoner, katalogutvidelser og kildekonflikter. Tre historiske additive kjeder er sperret; kontrollerte sluttbeløp har egen status. Ingen produksjonsparser er bygget.
+
+Nedenfor er undersøkelsespunktene som ligger til grunn. Prøvenes omfang og begrensninger fremgår i overleveringen. Senere kildevalg skal bruke dette grunnlaget og oppdatere varige funn ved nye observasjoner.
+
+## Undersøkelsespunkter
 
 1. Kontroller at sesjonsoversikten dekker relevante vedtak, også bevilgningsendringer i sammensatte saker.
 2. Undersøk som et avgrenset tillegg om regjeringsforslag har en enkel, tilgjengelig kildevei. Første leveranse skal kunne gjennomføres uten denne kilden. Omfattende uthenting fra regjeringen.no og manuell import planlegges som egne senere leveranser dersom det blir nødvendig.

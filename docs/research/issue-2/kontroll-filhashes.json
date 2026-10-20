@@ -1,0 +1,137 @@
+[
+  {
+    "path": "avstemming-dfo.json",
+    "bytes": 17664,
+    "sha256": "8a4aa169cea8e001348ee2b1c05773138bf582f62b977656e6ab82f2dd0622e5"
+  },
+  {
+    "path": "avstemmingsvedtak.json",
+    "bytes": 88748,
+    "sha256": "1e7335fa134ce93cce32a24f1ace1aff4858627ef7e575d29f11df44ab810946"
+  },
+  {
+    "path": "blaabok-side9.png",
+    "bytes": 18242,
+    "sha256": "ba41694be8dae2a1295a6b782656d8ea97e34eaefea36eb882596571d0174376"
+  },
+  {
+    "path": "blaabok-side9.txt",
+    "bytes": 3575,
+    "sha256": "b134c1c3716c34753c688dd75322765275a0e4a0cc42673e1eb42964c57319aa"
+  },
+  {
+    "path": "dfo-utvalg2024.csv",
+    "bytes": 9084,
+    "sha256": "ce5307853f1d137207e7e73cf1c790171c95054a1cfaa50303107ace0cc9f5f6"
+  },
+  {
+    "path": "kontrollvedtak-2023-2024.json",
+    "bytes": 38462,
+    "sha256": "e2093ff7f29d77fb9650e161eb5cf50965a758fdd2a2c0002158df35a9eb2c9a"
+  },
+  {
+    "path": "kontrollvedtak-2024-2025.json",
+    "bytes": 121539,
+    "sha256": "787fa90269533ad49a60e93e053367c66e0df1fc021c284686c55933bedbe40d"
+  },
+  {
+    "path": "raw\\bevilgninger_full_historikk.csv",
+    "bytes": 16022138,
+    "sha256": "c69c59d9a94417f6f24a6e59f0defbe2549366d76a9cde06c41c3d80c1a713b1"
+  },
+  {
+    "path": "raw\\bevilgninger_full_historikk.zip",
+    "bytes": 1238069,
+    "sha256": "8ac148291d0215b0a3d053fc4ca9ac5dcc27e18cecb93927209b9cef015a8439"
+  },
+  {
+    "path": "raw\\bevilgninger_kolonner.csv",
+    "bytes": 1185,
+    "sha256": "d335692dd8a1aa703538d2ca2f23f250195d57a6e4e3ae0eaf963c3923ef03cf"
+  },
+  {
+    "path": "raw\\blaabok_2024.pdf",
+    "bytes": 3842617,
+    "sha256": "7204477be2b1ed089ae2d2eca1307a96d5929d04ea5a0d874ca32eeae1a53bf8"
+  },
+  {
+    "path": "raw\\dfo-last-ned.html",
+    "bytes": 90560,
+    "sha256": "f7178906ac2ab75bee9467ad273d43a857b0856d3e09e0e0a7069b2584033902"
+  },
+  {
+    "path": "raw\\manifest-downloads.json",
+    "bytes": 1325,
+    "sha256": "5023a5837b0674be70aba7cc11b23cb79251a55df6e6a86d731dfcb4bcfbd9ae"
+  },
+  {
+    "path": "raw\\manifest-downloads2.json",
+    "bytes": 1511,
+    "sha256": "388ee8a9d7dc547bdb3def4a52b9ea42ccfc27fed603e57ebd2f58544076cb9e"
+  },
+  {
+    "path": "raw\\manifest-downloads3.json",
+    "bytes": 1190,
+    "sha256": "c85db5b204d4d1c2ad277f19739cd8dea5322617d87c74337b36ea1f48609993"
+  },
+  {
+    "path": "raw\\manifest-downloads4.json",
+    "bytes": 1217,
+    "sha256": "ef54cfd2ba949f20fcec49876b992613eeadef6c07dbfa83f1a0023c6e0a0b03"
+  },
+  {
+    "path": "raw\\manifest.json",
+    "bytes": 176,
+    "sha256": "792c9dc41ca76b32a186cf8c35b07c150d096116cdde507158eb494457f915d5"
+  },
+  {
+    "path": "raw\\nyhetsoversikt.html",
+    "bytes": 47893,
+    "sha256": "3af33c6e06e37d7a0374be57ef2cb071a66d715fc355cbe61f2d812de35a03c6"
+  },
+  {
+    "path": "raw\\om-datatjenesten.html",
+    "bytes": 36541,
+    "sha256": "a93d5f7da2dbb0b112027fdb793301eb79e685726078d0ee785dfe89880b38e4"
+  },
+  {
+    "path": "raw\\stortinget-2024.html",
+    "bytes": 121429,
+    "sha256": "05ac0560e3d0bef9a7fa71a26dd7e33ecc418a0739eb7fd000da1684f10e85f6"
+  },
+  {
+    "path": "raw\\vedtak-2023-2024.xml",
+    "bytes": 6816165,
+    "sha256": "554e9960c3e90932594106463cca9c285abb53e9272c1ae391d6fb8093baf0bf"
+  },
+  {
+    "path": "raw\\vedtak-2024-2025.xml",
+    "bytes": 7479943,
+    "sha256": "9cfeaef59510a54ff8b2a695e0be368e67cfbab574f8d3f466c0c2f0c3c92680"
+  },
+  {
+    "path": "raw\\vedtak-dokumentasjon.html",
+    "bytes": 42172,
+    "sha256": "d3aef50795614777c939fd7b71197aebb856927a625e851de20ddd013d5f831d"
+  },
+  {
+    "path": "raw\\vedtak193.html",
+    "bytes": 239647,
+    "sha256": "da756181419ac6a3187febbd042389e215b45de9f981bb1f8f80010f3cda2435"
+  },
+  {
+    "path": "raw\\vedtak428.html",
+    "bytes": 423543,
+    "sha256": "4fc843dc0a6da1baec69e1decc4d060644927509ce19052c33b43bca69d32115"
+  },
+  {
+    "path": "raw\\vedtak857.html",
+    "bytes": 2674686,
+    "sha256": "2d93e5ca2d7e729095b4a0c176c4c881c90da5aac45926d210e77d49920d416f"
+  },
+  {
+    "path": "sluttrapport.md",
+    "bytes": 15960,
+    "sha256": "29c1ba2a6ab82a92a20eb3715a07d4d84b48d7e7d168f506b4c29b5e55e0b715"
+  }
+]

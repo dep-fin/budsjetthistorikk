@@ -1,0 +1,124 @@
+{
+  "2024-2025": {
+    "count": 1260,
+    "unique_ids": 1260,
+    "unique_cases": 472,
+    "type_counts": {
+      "ANMOD": 485,
+      "ANNET": 517,
+      "BUDSJETT": 257,
+      "RO": 1
+    },
+    "empty_texts": 0,
+    "html_tables": 154,
+    "same_raw": false,
+    "same_except_response_time": true,
+    "normalized_sha256": "69c6c91f1501ff709f970fd32ac82832bc330ea8a081d589239d19c50003bcfa"
+  },
+  "2026-2027": {
+    "count": 24,
+    "unique_ids": 24,
+    "unique_cases": 3,
+    "type_counts": {
+      "ANMOD": 18,
+      "ANNET": 6
+    },
+    "empty_texts": 0,
+    "html_tables": 1,
+    "same_raw": false,
+    "same_except_response_time": true,
+    "normalized_sha256": "6c3f8378461ad8b9c82efc2d86622bbcce1f3090bc63a8d45654f09e9edfbed4"
+  },
+  "text_comparison": {
+    "publikasjon-inns-202425-025s": true,
+    "publikasjon-refs-202425-11-05": true
+  },
+  "arithmetic": {
+    "B1": true,
+    "RNB_kap20post1": true,
+    "nysaldering_kap20post1": true,
+    "Statsbygg_original_sum": -364642000,
+    "Statsbygg_RNB_sum": -369642000,
+    "SDOE_original_sum": 218710000000
+  },
+  "voteringsvedtak": {
+    "23520": {
+      "count": 1,
+      "numbers": [
+        "14"
+      ],
+      "nil_texts": 1
+    },
+    "23798": {
+      "count": 2,
+      "numbers": [
+        "113",
+        "114"
+      ],
+      "nil_texts": 2
+    },
+    "26265": {
+      "count": 49,
+      "numbers": [
+        "1149",
+        "1150",
+        "1151",
+        "1152",
+        "1153",
+        "1154",
+        "1155",
+        "1156",
+        "1157",
+        "1158",
+        "1159",
+        "1160",
+        "1161",
+        "1162",
+        "1163",
+        "1164",
+        "1165",
+        "1166",
+        "1167",
+        "1168",
+        "1169",
+        "1170",
+        "1171",
+        "1172",
+        "1173",
+        "1174",
+        "1175",
+        "1176",
+        "1177",
+        "1178",
+        "1179",
+        "1180",
+        "1181",
+        "1182",
+        "1183",
+        "1184",
+        "1185",
+        "1186",
+        "1187",
+        "1188",
+        "1189",
+        "1190",
+        "1191",
+        "1192",
+        "1193",
+        "1194",
+        "1195",
+        "1196",
+        "1197"
+      ],
+      "nil_texts": 49
+    },
+    "26266": {
+      "count": 2,
+      "numbers": [
+        "1198",
+        "1199"
+      ],
+      "nil_texts": 2
+    }
+  }
+}

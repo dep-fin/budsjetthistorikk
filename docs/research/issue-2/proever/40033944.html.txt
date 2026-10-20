@@ -1,0 +1,387 @@
+<div class='strtngt_vedtaks'>
+  <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='i'>
+    <p class='strtngt_a type_innrykk'>
+      På statsbudsjettet for 2025 bevilges under:
+    </p>
+    <div class='strtngt_tbl'>
+      <table class='strtngt_table'>
+        <thead class='strtngt_thead'>
+          <tr>
+            <td>
+              <p class='strtngt_a type_head align_right'>
+                <span class='strtngt_uth type_halvfet'>Kap.</span>
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_head align_right'>
+                <span class='strtngt_uth type_halvfet'>Post</span>
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk'>
+                <span class='strtngt_uth type_halvfet'>Formål</span>
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_head align_right'>
+                <span class='strtngt_uth type_halvfet'>Kroner</span>
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_head align_right'>
+                <span class='strtngt_uth type_halvfet'>Kroner</span>
+              </p>
+            </td>
+          </tr>
+        </thead>
+        <tbody class='strtngt_tbody'>
+          <tr>
+            <td colspan='5'>
+              <p class='strtngt_a type_innrykk align_center'>
+                <span class='strtngt_uth krnl_wide_letterspacing type_sperret'>Utgifter</span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                42
+              </p>
+            </td>
+            <td></td>
+            <td>
+              <p class='strtngt_a type_innrykk align_left'>
+                Stortingets
+ombudsnemnd for Forsvaret
+              </p>
+            </td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                1
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_left'>
+                Driftsutgifter	
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                10 478 000
+              </p>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                75
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_left'>
+                Internasjonale
+organisasjoner og nettverk	
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                250 000
+              </p>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                43
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_left'>
+                Stortingets
+ombud for kontroll med forvaltningen
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                1
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_left'>
+                Driftsutgifter	
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                118 311 000
+              </p>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                44
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_left'>
+                Stortingets
+kontrollutvalg for etterretnings-, overvåkings- og sikkerhetstjeneste
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                1
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_left'>
+                Driftsutgifter	
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                49 986 000
+              </p>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                45
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_left'>
+                Norges
+institusjon for menneskerettigheter
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                1
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_left'>
+                Driftsutgifter	
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                31 322 000
+              </p>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                51
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_left'>
+                Riksrevisjonen
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                1
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_left'>
+                Driftsutgifter	
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                669 959 000
+              </p>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                75
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_left'>
+                Internasjonale organisasjoner
+og nettverk	
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                29 791 000
+              </p>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_left'>
+                <span class='strtngt_uth type_halvfet'>Totale
+utgifter</span>
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                <span class='strtngt_uth type_halvfet'>910 097 000</span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan='5'>
+              <p class='strtngt_a type_innrykk align_center'>
+                <span class='strtngt_uth krnl_wide_letterspacing type_sperret'>Inntekter</span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                3051
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_left'>
+                Riksrevisjonen
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                2
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_left'>
+                Refusjon utland	
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                300 000
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_left'>
+                <span class='strtngt_uth type_halvfet'>Totale inntekter</span>
+              </p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'></p>
+            </td>
+            <td>
+              <p class='strtngt_a type_innrykk align_right'>
+                <span class='strtngt_uth type_halvfet'>300 000</span>
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

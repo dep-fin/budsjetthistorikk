@@ -1,0 +1,15 @@
+{
+  "url": "https://www.regjeringen.no/contentassets/1d45fede74ff4ef18ce06bbd6163c723/nn-no/pdfs/stm202420250003000dddpdfs.pdf",
+  "requested_utc": "2026-10-20T11:55:23.257301+00:00",
+  "status": 200,
+  "final_url": "https://www.regjeringen.no/contentassets/1d45fede74ff4ef18ce06bbd6163c723/nn-no/pdfs/stm202420250003000dddpdfs.pdf",
+  "bytes": 6491743,
+  "sha256": "f46e7c3613176e064b2d87b07c66608f38c4bd88d980795e51ada42bb52ba9fb",
+  "source_headers": {
+    "Date": "Tue, 20 Oct 2026 11:55:24 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "6491743",
+    "etag": "\"1dbb4417ba6d25f\"",
+    "Last-Modified": "Wed, 23 Apr 2025 11:18:48 GMT"
+  }
+}

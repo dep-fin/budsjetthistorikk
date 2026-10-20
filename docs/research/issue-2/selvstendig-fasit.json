@@ -1,0 +1,42 @@
+{
+  "historical_positive": {
+    "session": "2002-2003",
+    "budget_year": 2003,
+    "case_id": "26250",
+    "decision_number": 249,
+    "decision_date": "2003-02-06",
+    "decision_api_id": "40005719",
+    "chapter": 41,
+    "chapter_title": "Stortinget",
+    "post": 21,
+    "post_new": true,
+    "post_title": "Spesielle driftsutgifter, Granskingskommisjonen for Mehamn-ulykken",
+    "side": "expenditure",
+    "operation": "bevilges med",
+    "amount_nok": 7000000,
+    "keyword": "kan overføres",
+    "authority": "final Stortinget decision page, decision API and adopted voting text",
+    "proposition_in_relevant_inspected_chain": false,
+    "chain_limit": "Contemporary explicit initiative and parallel law chain; not a universal absence claim about every historical document."
+  },
+  "checks": {
+    "final_heading_249": true,
+    "final_budget_year_2003": true,
+    "final_chapter_41": true,
+    "final_post_21_new": true,
+    "final_amount_7000000": true,
+    "final_appropriation_operator": true,
+    "final_overfoerbar": true,
+    "voting_adopted_unanimously": true,
+    "main_metadata_no_prop": true,
+    "api_identity": true,
+    "api_budget_type": true,
+    "api_date": true,
+    "api_amount": true,
+    "dok8-200203-027_no_proposition_reference": true,
+    "inns-200203-074_no_proposition_reference": true,
+    "inns-200203-114_no_proposition_reference": true,
+    "inno-200203-061_no_proposition_reference": true
+  },
+  "all_checks_passed": true
+}

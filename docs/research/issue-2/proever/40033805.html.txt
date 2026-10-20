@@ -1,0 +1,107 @@
+<div class='strtngt_vedtaks'>
+  <p class='strtngt_a type_innrykk'>
+    I statsbudsjettet for 2024 blir det gjort følgende
+endring:
+  </p>
+  <div class='strtngt_tbl'>
+    <table class='strtngt_table'>
+      <thead class='strtngt_thead'>
+        <tr>
+          <td>
+            <p class='strtngt_a type_head align_right'>
+              <span class='strtngt_uth type_halvfet'>Kap.</span>
+            </p>
+          </td>
+          <td>
+            <p class='strtngt_a type_head align_right'>
+              <span class='strtngt_uth type_halvfet'>Post</span>
+            </p>
+          </td>
+          <td>
+            <p class='strtngt_a type_head align_left'>
+              <span class='strtngt_uth type_halvfet'>Formål</span>
+            </p>
+          </td>
+          <td>
+            <p class='strtngt_a type_head align_right'>
+              <span class='strtngt_uth type_halvfet'>Kroner</span>
+            </p>
+          </td>
+        </tr>
+      </thead>
+      <tbody class='strtngt_tbody'>
+        <tr>
+          <td>
+            <p class='strtngt_a type_head align_right'></p>
+          </td>
+          <td>
+            <p class='strtngt_a type_innrykk'></p>
+          </td>
+          <td>
+            <p class='strtngt_a type_head align_center'>
+              <span class='strtngt_uth krnl_wide_letterspacing type_sperret'>Utgifter</span>
+            </p>
+          </td>
+          <td>
+            <p class='strtngt_a type_head align_right'></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p class='strtngt_a type_innrykk align_right'>
+              2541
+            </p>
+          </td>
+          <td>
+            <p class='strtngt_a type_head align_right'></p>
+          </td>
+          <td>
+            <p class='strtngt_a type_innrykk align_left'>
+              Dagpenger
+            </p>
+          </td>
+          <td>
+            <p class='strtngt_a type_head align_right'></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p class='strtngt_a type_innrykk align_right'></p>
+          </td>
+          <td>
+            <p class='strtngt_a type_innrykk align_right'>
+              70
+            </p>
+          </td>
+          <td>
+            <p class='strtngt_a type_innrykk align_left'>
+              Dagpenger, <span class='strtngt_uth type_kursiv'>overslagsbevilgning</span>, <span class='strtngt_uth krnl_wide_letterspacing type_sperret'>økes</span> med	
+            </p>
+          </td>
+          <td>
+            <p class='strtngt_a type_innrykk align_right'>
+              400 000
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p class='strtngt_a type_innrykk align_right'></p>
+          </td>
+          <td>
+            <p class='strtngt_a type_innrykk align_right'></p>
+          </td>
+          <td>
+            <p class='strtngt_a type_innrykk align_left'>
+              fra
+kr 12 210 000 000 til kr 12 210 400 000
+            </p>
+          </td>
+          <td>
+            <p class='strtngt_a type_innrykk align_right'></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,223 @@
+{
+  "budget_year": 2025,
+  "chapter": "0900",
+  "post": "32",
+  "decision": {
+    "id": "40034443",
+    "sak_id": "102001",
+    "sak_lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=102001",
+    "stortingsvedtak_dato_tid": "2025-03-25T00:00:00",
+    "stortingsvedtak_lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40034443&p=102001",
+    "stortingsvedtak_nummer": "526",
+    "stortingsvedtak_tekst": "<div class='strtngt_vedtaks'>\n  <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='i'>\n    <div class='strtngt_tbl'>\n      <table class='strtngt_table'>\n        <thead class='strtngt_thead'>\n          <tr>\n            <td>\n              <p class='strtngt_a type_head align_right'>\n                <span class='strtngt_uth type_halvfet'>Kap.</span>\n              </p>\n            </td>\n            <td>\n              <p class='strtngt_a type_head align_right'>\n                <span class='strtngt_uth type_halvfet'>Post</span>\n              </p>\n            </td>\n            <td>\n              <p class='strtngt_a type_head align_left'>\n                <span class='strtngt_uth type_halvfet'>Formål</span>\n              </p>\n            </td>\n            <td>\n              <p class='strtngt_a type_head align_right'>\n                <span class='strtngt_uth type_halvfet'>Kroner</span>\n              </p>\n            </td>\n          </tr>\n        </thead>\n        <tbody class='strtngt_tbody'>\n          <tr>\n            <td colspan='4'>\n              <p class='strtngt_a type_innrykk align_center'>\n                <span class='strtngt_uth krnl_wide_letterspacing type_sperret'>Utgifter</span>\n              </p>\n            </td>\n          </tr>\n          <tr>\n            <td>\n              <p class='strtngt_a type_innrykk align_right'>\n                900\n              </p>\n            </td>\n            <td>\n              <p class='strtngt_a type_innrykk align_right'></p>\n            </td>\n            <td>\n              <p class='strtngt_a type_innrykk align_left'>\n                Nærings-\nog fiskeridepartementet\n              </p>\n            </td>\n            <td>\n              <p class='strtngt_a type_innrykk align_right'></p>\n            </td>\n          </tr>\n          <tr>\n            <td>\n              <p class='strtngt_a type_innrykk align_right'></p>\n            </td>\n            <td>\n              <p class='strtngt_a type_innrykk align_right'>\n                32\n              </p>\n            </td>\n            <td>\n              <p class='strtngt_a type_innrykk align_left'>\n                (Ny)\nNytt sjøfibersamband til Svalbard og Jan Mayen, <span class='strtngt_uth type_kursiv'>kan\noverføres</span>, <span class='strtngt_uth krnl_wide_letterspacing type_sperret'>\nbevilges</span> med \t\n              </p>\n            </td>\n            <td>\n              <p class='strtngt_a type_innrykk align_right'>\n                454 000 000\n              </p>\n            </td>\n          </tr>\n          <tr>\n            <td>\n              <p class='strtngt_a type_innrykk align_right'>\n                1760\n              </p>\n            </td>\n            <td>\n              <p class='strtngt_a type_innrykk align_right'></p>\n            </td>\n            <td>\n              <p class='strtngt_a type_innrykk align_left'>\n                Forsvarsmateriell\nog større anskaffelser og vedlikehold\n              </p>\n            </td>\n            <td>\n              <p class='strtngt_a type_innrykk align_right'></p>\n            </td>\n          </tr>\n          <tr>\n            <td>\n              <p class='strtngt_a type_innrykk align_right'></p>\n            </td>\n            <td>\n              <p class='strtngt_a type_innrykk align_right'>\n                45\n              </p>\n            </td>\n            <td>\n              <p class='strtngt_a type_innrykk align_left'>\n                Større\nutstyrsanskaffelser og vedlikehold, <span class='strtngt_uth type_kursiv'>kan overføres</span>, <span class='strtngt_uth krnl_wide_letterspacing type_sperret'>reduseres</span> med \t\n              </p>\n            </td>\n            <td>\n              <p class='strtngt_a type_innrykk align_right'>\n                227 000 000\n              </p>\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n  </div>\n</div>",
+    "stortingsvedtak_tittel": "Endringer i statsbudsjettet 2025 under Nærings- og fiskeridepartementet og Forsvarsdepartementet (nytt sjøfibersamband til Svalbard og Jan Mayen)",
+    "stortingsvedtak_type": {
+      "id": "ANNET",
+      "navn": "Allminnelige vedtak"
+    }
+  },
+  "original2025_chapter900_rows": [
+    {
+      "decision_id": "40034137",
+      "row": [
+        "900",
+        "",
+        "Nærings- og fiskeridepartementet",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "decision_id": "40034137",
+      "row": [
+        "",
+        "1",
+        "Driftsutgifter",
+        "",
+        "528 060 000",
+        ""
+      ]
+    },
+    {
+      "decision_id": "40034137",
+      "row": [
+        "",
+        "21",
+        "Spesielle driftsutgifter, kan overføres",
+        "",
+        "67 120 000",
+        ""
+      ]
+    },
+    {
+      "decision_id": "40034137",
+      "row": [
+        "",
+        "22",
+        "Nukleære utredninger og prosjektledelse, kan overføres",
+        "",
+        "7 328 000",
+        ""
+      ]
+    },
+    {
+      "decision_id": "40034137",
+      "row": [
+        "",
+        "23",
+        "Spesielle driftsutgifter til administrasjon av statlig garantiordning for lån til små og mellomstore bedrifter",
+        "",
+        "4 150 000",
+        ""
+      ]
+    },
+    {
+      "decision_id": "40034137",
+      "row": [
+        "",
+        "25",
+        "Drift og forvaltning av kompensasjonsordninger",
+        "",
+        "11 800 000",
+        ""
+      ]
+    },
+    {
+      "decision_id": "40034137",
+      "row": [
+        "",
+        "26",
+        "Forvaltning av grunneiendom på Svalbard, kan overføres",
+        "",
+        "10 772 000",
+        ""
+      ]
+    },
+    {
+      "decision_id": "40034137",
+      "row": [
+        "",
+        "27",
+        "Etablering av støtteregister",
+        "",
+        "14 300 000",
+        ""
+      ]
+    },
+    {
+      "decision_id": "40034137",
+      "row": [
+        "",
+        "51",
+        "Tilskudd til Senter for hav og Arktis",
+        "",
+        "6 100 000",
+        ""
+      ]
+    },
+    {
+      "decision_id": "40034137",
+      "row": [
+        "",
+        "70",
+        "Tilskudd til internasjonale organisasjoner",
+        "",
+        "59 355 000",
+        ""
+      ]
+    },
+    {
+      "decision_id": "40034137",
+      "row": [
+        "",
+        "71",
+        "Miljøtiltak Raufoss",
+        "",
+        "9 000 000",
+        ""
+      ]
+    },
+    {
+      "decision_id": "40034137",
+      "row": [
+        "",
+        "72",
+        "Tilskudd til skipsfartsberedskap",
+        "",
+        "4 200 000",
+        ""
+      ]
+    },
+    {
+      "decision_id": "40034137",
+      "row": [
+        "",
+        "73",
+        "Tilskudd til entreprenørskapsfremmende aktiviteter for ungdom",
+        "",
+        "35 200 000",
+        ""
+      ]
+    },
+    {
+      "decision_id": "40034137",
+      "row": [
+        "",
+        "74",
+        "Tilskudd til Visit Svalbard AS",
+        "",
+        "3 600 000",
+        ""
+      ]
+    },
+    {
+      "decision_id": "40034137",
+      "row": [
+        "",
+        "75",
+        "Tilskudd til særskilte prosjekter, kan overføres",
+        "",
+        "21 310 000",
+        ""
+      ]
+    },
+    {
+      "decision_id": "40034137",
+      "row": [
+        "",
+        "76",
+        "Tilskudd til Standard Norge",
+        "",
+        "48 800 000",
+        ""
+      ]
+    },
+    {
+      "decision_id": "40034137",
+      "row": [
+        "",
+        "77",
+        "Tilskudd til tiltak for økt sjømatkonsum, kan overføres",
+        "",
+        "3 420 000",
+        ""
+      ]
+    },
+    {
+      "decision_id": "40034137",
+      "row": [
+        "",
+        "81",
+        "Tilskudd til Leverandørutviklingsprogrammet",
+        "",
+        "10 300 000",
+        ""
+      ]
+    }
+  ],
+  "catalog_has_chapter900": true,
+  "catalog_has_post90032": false,
+  "expected_handling": "retain amount and source, open new catalog key with first-observed decision, mark unreviewed new key until reconciled; never silently discard or mislabel zero",
+  "rule": "economic section + budget year + chapter(4 digits) + post(2 digits), independently versioned from initial catalog"
+}

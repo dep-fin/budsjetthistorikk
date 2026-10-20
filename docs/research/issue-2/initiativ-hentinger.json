@@ -1,0 +1,164 @@
+[
+  {
+    "url": "https://www.regjeringen.no/no/dokumenter/prop.-146-s-20242025/id3100917/?ch=2",
+    "retrieved_utc": "2026-10-20T11:58:43.907009+00:00",
+    "status": 200,
+    "sha256": "780fc907e9a8ee1932072807456d869e8079ed646fda1b3cf182fb4d2763f92f",
+    "bytes": 940733,
+    "path": "work\\issue2\\fortsettelse\\utenprop\\prop146-ch2.raw"
+  },
+  {
+    "url": "https://www.regjeringen.no/id/PRP202420250146000DDDEPIS",
+    "retrieved_utc": "2026-10-20T11:58:23.555610+00:00",
+    "status": 200,
+    "sha256": "684e0d2df68f631401364c6f831d46ed41c131c60d0da5b42f30944332197e53",
+    "bytes": 56248,
+    "path": "work\\issue2\\fortsettelse\\utenprop\\prop146-html.raw"
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/publikasjon?publikasjonid=inns-201920-197s",
+    "retrieved_utc": "2026-10-20T11:57:35.832225+00:00",
+    "status": 200,
+    "sha256": "af1606e6b9725a91c0173ded58d0e3dfaa51d1288a9e443fb3437d9792a43845",
+    "bytes": 166784,
+    "path": "work\\issue2\\fortsettelse\\utenprop\\pub-inns-201920-197s.raw"
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/publikasjon?publikasjonid=inns-202425-131s",
+    "retrieved_utc": "2026-10-20T11:56:40.522096+00:00",
+    "status": 200,
+    "sha256": "d8ecf596dad107dd0778d013da460c665484e7faeb0e4844aa882254936d6fce",
+    "bytes": 26330,
+    "path": "work\\issue2\\fortsettelse\\utenprop\\pub-inns-202425-131s.raw"
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/publikasjon?publikasjonid=inns-202425-536s",
+    "retrieved_utc": "2026-10-20T11:56:42.651607+00:00",
+    "status": 200,
+    "sha256": "ddeb9e4f8c7a87dea4350754acc720b2629ed99b305eedb49080b8dc7f96bbff",
+    "bytes": 33224,
+    "path": "work\\issue2\\fortsettelse\\utenprop\\pub-inns-202425-536s.raw"
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/publikasjon?publikasjonid=inns-202425-540s",
+    "retrieved_utc": "2026-10-20T11:57:20.626689+00:00",
+    "status": 200,
+    "sha256": "551218050e4a5f33c8baa8e8733997bf38875b8b9533feaeca9ea44148bd7456",
+    "bytes": 9952983,
+    "path": "work\\issue2\\fortsettelse\\utenprop\\pub-inns-202425-540s.raw"
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/sak?sakid=101938",
+    "retrieved_utc": "2026-10-20T11:55:59.313034+00:00",
+    "status": 200,
+    "sha256": "8962ca2841b45f8c3b111b3cb682d27f1526fd70cd3076bdb6a26dcb60ee5e28",
+    "bytes": 7238,
+    "path": "work\\issue2\\fortsettelse\\utenprop\\sak-101938.raw"
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/sak?sakid=103087",
+    "retrieved_utc": "2026-10-20T11:56:01.788197+00:00",
+    "status": 200,
+    "sha256": "1eca46406d5a2a56a424f67fa5de120909e19e542f66ac8cd751b992e4099b86",
+    "bytes": 22876,
+    "path": "work\\issue2\\fortsettelse\\utenprop\\sak-103087.raw"
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/sak?sakid=103284",
+    "retrieved_utc": "2026-10-20T11:56:04.296139+00:00",
+    "status": 200,
+    "sha256": "9751ba786c9853135089553ab26439eabc2ea0a3164e4cc6d2ac228217ea5827",
+    "bytes": 6985,
+    "path": "work\\issue2\\fortsettelse\\utenprop\\sak-103284.raw"
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/sak?sakid=103528",
+    "retrieved_utc": "2026-10-20T11:56:47.168264+00:00",
+    "status": 200,
+    "sha256": "f8f43199ab3504193affeeb07b172d8cd5b55cbeb39d6e77425a5d5ad3632b89",
+    "bytes": 13146,
+    "path": "work\\issue2\\fortsettelse\\utenprop\\sak-103528.raw"
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/sak?sakid=104059",
+    "retrieved_utc": "2026-10-20T11:56:44.862194+00:00",
+    "status": 200,
+    "sha256": "de98aaa65582fbe094b74dc292458d6116373fa1cc088b1385b57454a7991a52",
+    "bytes": 8713,
+    "path": "work\\issue2\\fortsettelse\\utenprop\\sak-104059.raw"
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/sak?sakid=98915",
+    "retrieved_utc": "2026-10-20T11:56:07.068093+00:00",
+    "status": 200,
+    "sha256": "a2a9b2e3b88286e206f9a3b471273cc70829ec5aefaf9263f89d0963c80d0c41",
+    "bytes": 27922,
+    "path": "work\\issue2\\fortsettelse\\utenprop\\sak-98915.raw"
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/sak?sakid=98919",
+    "retrieved_utc": "2026-10-20T11:56:49.237170+00:00",
+    "status": 200,
+    "sha256": "dae5937812c99c5bedb0752dab83d5e81d0c1aeed9b90c95412a61f83d5f03e1",
+    "bytes": 13572,
+    "path": "work\\issue2\\fortsettelse\\utenprop\\sak-98919.raw"
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/saker?sesjonid=2023-2024",
+    "retrieved_utc": "2026-10-20T11:55:53.084447+00:00",
+    "status": 200,
+    "sha256": "876498e4caf6b48d2708f54a096b1e065fc472645ba0decac3904bcb13826eb7",
+    "bytes": 3485620,
+    "path": "work\\issue2\\fortsettelse\\utenprop\\saker-2023-2024.raw"
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2024-2025",
+    "retrieved_utc": "2026-10-20T11:34:46.321003+00:00",
+    "status": 200,
+    "sha256": "6d7859369de69105c957cb8dbc520a077355b4c9d4452f1605f7954deccea2ac",
+    "bytes": 7479943,
+    "path": "work\\issue2\\api\\stortingsvedtak-2024-2025.raw"
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/saker?sesjonid=2024-2025",
+    "retrieved_utc": "2026-10-20T11:36:44.270014+00:00",
+    "status": 200,
+    "sha256": "97b3c7fad5b7d4546d1efd7349ce2d7ff980ad475c5babd78e0a69a416c95234",
+    "bytes": 3816113,
+    "path": "work\\issue2\\api\\saker-2024-2025.raw"
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/sak?sakid=103529",
+    "retrieved_utc": "2026-10-20T11:36:03.256497+00:00",
+    "status": 200,
+    "sha256": "9c2aee1df5a5aff2d78c50a2b0a45711bd850ea21f9ec912ac11a00a530cc77c",
+    "bytes": 13111,
+    "path": "work\\issue2\\api\\sak-103529.raw"
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/sak?sakid=103526",
+    "retrieved_utc": "2026-10-20T11:37:59.103599+00:00",
+    "status": 200,
+    "sha256": "c737d33b4b777e8420a5c44a124cf9a6591ea728241ad1d06d107ef6cdc3cbec",
+    "bytes": 13752,
+    "path": "work\\issue2\\api\\sak-103526.raw"
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/sak?sakid=103527",
+    "retrieved_utc": "2026-10-20T11:38:01.918230+00:00",
+    "status": 200,
+    "sha256": "b7bb203eba140c10c4f6439fe4c6e440c8c3af1bf34ae1bef0419c10193cedbc",
+    "bytes": 24000,
+    "path": "work\\issue2\\api\\sak-103527.raw"
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2023-2024",
+    "time_utc": "2026-10-20T11:35:51.910747+00:00",
+    "status": 200,
+    "path": "work\\issue2\\kontroll\\raw\\vedtak-2023-2024.xml",
+    "bytes": 6816165,
+    "sha256": "554e9960c3e90932594106463cca9c285abb53e9272c1ae391d6fb8093baf0bf",
+    "content_type": "text/xml; charset=utf-8",
+    "retrieved_utc": "2026-10-20T11:35:51.910747+00:00"
+  }
+]

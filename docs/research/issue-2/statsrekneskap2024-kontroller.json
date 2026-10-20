@@ -1,0 +1,3687 @@
+{
+  "post_counts": {
+    "utgift": 1196,
+    "inntekt": 459
+  },
+  "post_anchor_counts": {
+    "utgift": 1196,
+    "inntekt": 459
+  },
+  "unique_keys": 1655,
+  "unresolved_numeric_lines": [],
+  "chapter_counts": {
+    "inntekt": 230,
+    "utgift": 364
+  },
+  "grand_totals": {
+    "utgift": {
+      "post_sum_1000kr": [
+        20803386,
+        2951906811,
+        2972710197,
+        2952250621,
+        20459577,
+        22821878
+      ],
+      "printed_total_1000kr": [
+        20803386,
+        2951906811,
+        2972710197,
+        2952250638,
+        20459559,
+        22821878
+      ],
+      "difference_1000kr": [
+        0,
+        0,
+        0,
+        -17,
+        18,
+        0
+      ]
+    },
+    "inntekt": {
+      "post_sum_1000kr": [
+        2951906811,
+        2952250640,
+        343827
+      ],
+      "printed_total_1000kr": [
+        2951906811,
+        2952250638,
+        343827
+      ],
+      "difference_1000kr": [
+        0,
+        2,
+        0
+      ]
+    }
+  },
+  "chapter_loyving": [
+    {
+      "section": "inntekt",
+      "kapittel": "3024",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3041",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3045",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3051",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3061",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3100",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3140",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3200",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3220",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3222",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3223",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3225",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3230",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3242",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3256",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3271",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3275",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3288",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3300",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3320",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3322",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3323",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3325",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3326",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3327",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3329",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3334",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3335",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3339",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3350",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3400",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3410",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3411",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3430",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3432",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3433",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3440",
+      "post_count": 7,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3442",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3444",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3451",
+      "post_count": 8,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3454",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3455",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3457",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3470",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3473",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3481",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3490",
+      "post_count": 7,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3563",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3571",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3585",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3587",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3595",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3605",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3635",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3640",
+      "post_count": 6,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3671",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3672",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3700",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3704",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3710",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3714",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3732",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3740",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3741",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3742",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3745",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3746",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3747",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3748",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3841",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3842",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3847",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3853",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3855",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3856",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3858",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3868",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3883",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3900",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3902",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3903",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3904",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3905",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3906",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3908",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3909",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3910",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3911",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3912",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3916",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3917",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3923",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3926",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3935",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3936",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3940",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3950",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3951",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3952",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "3955",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4100",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4115",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4136",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4141",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4142",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4150",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4162",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4300",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4312",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4313",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4320",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4330",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4352",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4354",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4400",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4420",
+      "post_count": 8,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4423",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4429",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4471",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4481",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4510",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4520",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4531",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4533",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4540",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4542",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4543",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4550",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4565",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4566",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4567",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4600",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4602",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4605",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4610",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4618",
+      "post_count": 10,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4620",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4634",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4645",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4700",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4710",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4720",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4760",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4791",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4799",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4800",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4810",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4820",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "4860",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5309",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5310",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5312",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5325",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5326",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5329",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5341",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5351",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5440",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5460",
+      "post_count": 8,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5470",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5491",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5501",
+      "post_count": 7,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5502",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5506",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5507",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5508",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5509",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5511",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5521",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5526",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5531",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5536",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5538",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5540",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5541",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5542",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5543",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5546",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5547",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5548",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5549",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5550",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5551",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5552",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5553",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5554",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5557",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5559",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5561",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5565",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5568",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5572",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5574",
+      "post_count": 7,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5576",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5578",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5579",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5580",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5582",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5583",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5584",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5603",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5605",
+      "post_count": 6,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5607",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5609",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5611",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5612",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5613",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5614",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5615",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5616",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5617",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5619",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5625",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5628",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5629",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5631",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5635",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5652",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5656",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5680",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5685",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5692",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5693",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5700",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5701",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5704",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5705",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5706",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5800",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "inntekt",
+      "kapittel": "5999",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0001",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0002",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0020",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0021",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0024",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0041",
+      "post_count": 6,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0042",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0043",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0044",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0045",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0051",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0061",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0100",
+      "post_count": 7,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0103",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0104",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0115",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0116",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0117",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0118",
+      "post_count": 8,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0140",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0141",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0144",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0150",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0151",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0152",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0153",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0159",
+      "post_count": 7,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0160",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0161",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0162",
+      "post_count": 9,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0163",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0164",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0170",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0171",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0172",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0179",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0200",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0201",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0220",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0221",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0222",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0223",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0224",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0225",
+      "post_count": 13,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0226",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0227",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0228",
+      "post_count": 16,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0229",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0230",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0231",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0240",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0241",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0242",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0253",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0254",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0256",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0257",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0258",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0260",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0270",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0271",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0272",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0273",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0274",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0275",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0284",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0285",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0287",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0288",
+      "post_count": 6,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0289",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0300",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0315",
+      "post_count": 9,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0320",
+      "post_count": 8,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0322",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0323",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0325",
+      "post_count": 9,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0326",
+      "post_count": 7,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0327",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0328",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0329",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0334",
+      "post_count": 7,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0335",
+      "post_count": 7,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0337",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0339",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0350",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0351",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0352",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0353",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0400",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0410",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0411",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0414",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0430",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0431",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0432",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0433",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0440",
+      "post_count": 10,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0441",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0442",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0443",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0444",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0445",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0446",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0448",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0451",
+      "post_count": 6,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0452",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0453",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0454",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0455",
+      "post_count": 6,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0457",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0460",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0466",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0467",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0468",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0470",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0471",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0473",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0475",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0480",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0481",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0490",
+      "post_count": 14,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0491",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0500",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0553",
+      "post_count": 11,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0554",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0560",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0563",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0567",
+      "post_count": 6,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0571",
+      "post_count": 8,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0572",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0573",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0575",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0577",
+      "post_count": 6,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0578",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0581",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0585",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0587",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0590",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0595",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0600",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0601",
+      "post_count": 8,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0604",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0605",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0606",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0611",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0612",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0613",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0621",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0634",
+      "post_count": 6,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0635",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0640",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0643",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0646",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0648",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0660",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0664",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0666",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0667",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0670",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0671",
+      "post_count": 8,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0672",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0700",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0701",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0702",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0703",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0704",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0709",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0710",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0712",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0714",
+      "post_count": 6,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0717",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0732",
+      "post_count": 15,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0733",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0734",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0737",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0740",
+      "post_count": 7,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0741",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0742",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0745",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0746",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0747",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0748",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0749",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0761",
+      "post_count": 13,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0762",
+      "post_count": 7,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0765",
+      "post_count": 8,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0770",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0780",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0781",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0783",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0800",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0840",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0841",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0842",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0843",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0844",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0845",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0846",
+      "post_count": 6,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0847",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0848",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0853",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0854",
+      "post_count": 8,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0855",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0856",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0858",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0860",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0862",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0865",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0868",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0880",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0881",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0882",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0883",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0900",
+      "post_count": 19,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0902",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0903",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0904",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0905",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0906",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0907",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0908",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0909",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0910",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0911",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0912",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0913",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0915",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0916",
+      "post_count": 8,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0917",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0919",
+      "post_count": 8,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0920",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0922",
+      "post_count": 9,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0923",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0924",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0926",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0928",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0930",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0935",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0936",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0940",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0950",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0951",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0952",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "0954",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1100",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1112",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1115",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1136",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1137",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1138",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1139",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1140",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1141",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1142",
+      "post_count": 14,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1148",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1149",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1150",
+      "post_count": 8,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1151",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1152",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1161",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1300",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1301",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1310",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1313",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1314",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1315",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1320",
+      "post_count": 11,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1321",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1323",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1330",
+      "post_count": 6,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1332",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1352",
+      "post_count": 9,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1354",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1370",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1400",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1410",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1411",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1412",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1420",
+      "post_count": 29,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1422",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1423",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1425",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1428",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1429",
+      "post_count": 12,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1432",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1471",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1472",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1473",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1474",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1481",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1482",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1500",
+      "post_count": 6,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1510",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1511",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1512",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1520",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1530",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1531",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1533",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1540",
+      "post_count": 9,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1541",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1542",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1543",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1550",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1551",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1560",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1565",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1566",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1567",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1600",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1602",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1605",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1610",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1618",
+      "post_count": 6,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1619",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1620",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1632",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1633",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1635",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1650",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1651",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1700",
+      "post_count": 12,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1710",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1716",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1720",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1735",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1760",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1791",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1800",
+      "post_count": 6,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1810",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1820",
+      "post_count": 15,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1825",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1850",
+      "post_count": 6,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "1860",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2309",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2410",
+      "post_count": 9,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2412",
+      "post_count": 6,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2421",
+      "post_count": 8,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2426",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2429",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2440",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2445",
+      "post_count": 9,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2460",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2470",
+      "post_count": 2,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2530",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2531",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2540",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2541",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2542",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2620",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2650",
+      "post_count": 5,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2651",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2655",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2661",
+      "post_count": 10,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2670",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2680",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2686",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2711",
+      "post_count": 4,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2751",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2752",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2755",
+      "post_count": 6,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2756",
+      "post_count": 3,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2790",
+      "post_count": 1,
+      "difference_1000kr": 0
+    },
+    {
+      "section": "utgift",
+      "kapittel": "2800",
+      "post_count": 2,
+      "difference_1000kr": 0
+    }
+  ],
+  "column_arithmetic": {
+    "utgift": {
+      "0": 1196
+    },
+    "inntekt": {
+      "0": 457,
+      "1": 2
+    }
+  },
+  "dfo_key_coverage": {
+    "pdf_keys": 1655,
+    "dfo2024_keys": 1638,
+    "pdf_missing_dfo": [
+      "010089",
+      "014089",
+      "074061",
+      "074070",
+      "074071",
+      "074072",
+      "074073",
+      "306103",
+      "310089",
+      "314089",
+      "320002",
+      "332003",
+      "345140",
+      "345501",
+      "357190",
+      "385301",
+      "410040",
+      "431302",
+      "452002",
+      "453101",
+      "454004",
+      "455085",
+      "480010",
+      "482003",
+      "482010",
+      "486010",
+      "530996",
+      "534191",
+      "544085",
+      "560381"
+    ],
+    "dfo_missing_pdf": [
+      "032571",
+      "064821",
+      "164523",
+      "246058",
+      "246090",
+      "340002",
+      "363485",
+      "440002",
+      "463486",
+      "557274",
+      "560589",
+      "561481",
+      "567285"
+    ]
+  }
+}

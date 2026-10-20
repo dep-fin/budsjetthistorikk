@@ -1,0 +1,32 @@
+[
+  {
+    "id": "40034064",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40034064&p=100898",
+    "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40034064&p=100898",
+    "retrieved_utc": "2026-10-20T12:03:06.225101+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 349450,
+    "sha256": "b0c02a2deda99ea0d1bdd8bd1a808d6a76290fdacb74fb01ed30e08a935bee79"
+  },
+  {
+    "id": "40034226",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40034226&p=100894",
+    "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40034226&p=100894",
+    "retrieved_utc": "2026-10-20T12:03:06.588968+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 155553,
+    "sha256": "4dd3027adee4a1b615166f8cf6325fb8d76330be3bbef5b2a2c4d56462fa5d7b"
+  },
+  {
+    "id": "40034287",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40034287&p=100289",
+    "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40034287&p=100289",
+    "retrieved_utc": "2026-10-20T12:03:06.840295+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 423607,
+    "sha256": "5b5d1adf6f4dad54ea2aaf33a34ec09df0ccd09a4839078384d9e42764a1bf77"
+  }
+]

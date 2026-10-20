@@ -1,0 +1,77 @@
+{
+  "key": {
+    "budget_year": 2024,
+    "chapter": "5999",
+    "post": "90",
+    "currency": "NOK",
+    "unit": 1
+  },
+  "original": {
+    "decision_id": "40033025",
+    "number": "426",
+    "date": "2023-12-20",
+    "amount": 101874353000
+  },
+  "rnb": {
+    "decision_id": "40033719",
+    "number": "857",
+    "date": "2024-06-21",
+    "published_before": 101874353000,
+    "published_delta": -101874353000,
+    "published_after": 0,
+    "recommendation_pdf_page": 361,
+    "referat_pdf_page": 336,
+    "adoption_pdf_page": 343,
+    "vote_for": 55,
+    "vote_against": 46,
+    "vote_time": "14:30:00"
+  },
+  "nysaldering": {
+    "decision_id": "40034287",
+    "number": "428",
+    "date": "2024-12-19",
+    "published_before": 101874353000,
+    "published_delta": 18497356000,
+    "published_after": 120371709000,
+    "recommendation_pdf_page": 19,
+    "vote_rest_of_I": "unanimously_adopted"
+  },
+  "dfo": {
+    "row": 41250,
+    "raw_amount": "-120371709000,000",
+    "normalized_amount": 120371709000,
+    "source_measure": "annual_final_amount",
+    "raw_description": "2024.12.19 Prp: p36/24-25 i90/24-25"
+  },
+  "statsregnskap": {
+    "column": "Loyving",
+    "annual_amount": 120371709000,
+    "pdf_page": 199,
+    "note": "No claim that accounting actuals column equals appropriation."
+  },
+  "checks": {
+    "rnb_local_arithmetic": true,
+    "nysald_local_arithmetic": true,
+    "literal_chain_end": 18497356000,
+    "verified_final_amount": 120371709000,
+    "chain_gap": 101874353000,
+    "rnb_zero_in_complete_innstilling": true,
+    "rnb_zero_in_voting_record": true,
+    "api_only_error_explanation_rejected": true,
+    "rnb_financing_need_was_zero_explanation_rejected": true,
+    "documented_correction_of_5999_found": false,
+    "documented_intermediate_restoration_found": false,
+    "financing_role_documented": true,
+    "source_role_explains_zero_without_conflict": false
+  },
+  "gate": {
+    "research_complete_with_confirmed_conflict": true,
+    "final_amount_verified": true,
+    "chronological_chain_verified": false,
+    "conflict": "published_before_after_contradiction",
+    "synthetic_events": [],
+    "approved_effective_delta": null,
+    "allowed": "source_observations_and_verified_final_amount_with_explicit_conflict",
+    "blocked": "claim_of_complete_additive_decision_chain_for_2024_5999_90"
+  }
+}

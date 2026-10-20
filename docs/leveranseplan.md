@@ -1,6 +1,6 @@
 # Godkjent første leveranse og ticketoppdeling
 
-Spesifikasjonen, testgrensene og oppdelingen ble godkjent av prosjekteieren 20. oktober 2026. Byggetickets er publisert som #4–#10. Kildeundersøkelsen #2 er påbegynt. Implementering av byggeticketene er ikke startet. Se [arbeidsflyten](arbeidsflyt.md).
+Spesifikasjonen, testgrensene og oppdelingen ble godkjent av prosjekteieren 20. oktober 2026. Byggetickets er publisert som #4–#10. Kildeundersøkelsen #2 er levert i PR #11 med [akseptmatrise og byggegrense](research/issue-2/byggestart.md). De tre historiske kildekonfliktene gir ikke godkjent additiv historikk, men er avgrenset og har eksplisitte kontrollkrav. Implementering av byggeticketene er ikke startet. Se [arbeidsflyten](arbeidsflyt.md).
 
 ## Første leveranse
 

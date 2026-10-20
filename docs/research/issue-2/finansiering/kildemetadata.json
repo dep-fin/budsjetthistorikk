@@ -1,0 +1,186 @@
+{
+  "checked_date": "2026-10-20",
+  "scope": "5999/90, budget year 2024",
+  "new_complete_raw_files_saved": false,
+  "ordinary_downloads": [
+    {
+      "name": "Innst. 447 S (2023-2024), complete PDF",
+      "url": "https://www.stortinget.no/globalassets/pdf/innstillinger/stortinget/2023-2024/inns-202324-447s.pdf",
+      "retrieved_utc": "2026-10-20T12:18:53.151100+00:00",
+      "http_status": 200,
+      "bytes": 20867377,
+      "sha256": "653e159fc2ad9596afc078b25917b3797e0541cd493ee13163983e7f26beef94",
+      "pdf_pages": 372,
+      "relevant_pdf_pages": [
+        86,
+        119,
+        152,
+        188,
+        221,
+        255,
+        291,
+        326,
+        361
+      ],
+      "adopted_recommendation_pdf_page": 361,
+      "printed_page": 357
+    },
+    {
+      "name": "Innst. 90 S (2024-2025), complete PDF",
+      "url": "https://www.stortinget.no/globalassets/pdf/innstillinger/stortinget/2024-2025/inns-202425-090s.pdf",
+      "retrieved_utc": "2026-10-20T12:22:49.067602+00:00",
+      "http_status": 200,
+      "bytes": 903754,
+      "sha256": "6d24e8f10550c9c5f23cc634361ff39a0139993dd0f8b819a2222af5d620a979",
+      "pdf_pages": 20,
+      "relevant_pdf_pages": [
+        13,
+        19
+      ]
+    },
+    {
+      "name": "RNB complete meeting HTML, first retained metadata",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-21/?all=true",
+      "retrieved_utc": "2026-10-20T12:21:31.991106+00:00",
+      "http_status": 200,
+      "bytes": 26214873,
+      "sha256": "3252df38a5ad251c5e0213484c5dd983f1525471c2dc03201b29061a98ba3ba4",
+      "term_counts": {
+        "beriktig": 0,
+        "rettelse": 0
+      }
+    },
+    {
+      "name": "RNB complete meeting HTML, ordinary repeat",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-21/?all=true",
+      "retrieved_utc": "2026-10-20T12:23:14.075430+00:00",
+      "http_status": 200,
+      "bytes": 26214768,
+      "sha256": "27e86671c784e1c0ff7b631ec320d6987b1096bcd96665cc0a7f7c45b8eeed99",
+      "note": "Dynamic wrapper differs; relevant 5999 text matches."
+    },
+    {
+      "name": "Nysaldering voting HTML",
+      "url": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2024-2025/refs-202425-12-19/?m=6",
+      "retrieved_utc": "2026-10-20T12:22:57.925023+00:00",
+      "http_status": 200,
+      "bytes": 1856976,
+      "sha256": "cf9d964ef31ef318a2a1b1739b3dc8d3aa629ca312c5cfa32804a245393eed01"
+    },
+    {
+      "name": "RNB case page linking exact voting URL",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=98919",
+      "retrieved_utc": "2026-10-20T12:23:19.282642+00:00",
+      "http_status": 200,
+      "bytes": 86069,
+      "sha256": "5f6212880849d54900d5af4e786e5ae06f652bbc20523a9f9a362378123e884c"
+    }
+  ],
+  "web_read_primary_sources_without_raw_hash": [
+    {
+      "url": "https://www.stortinget.no/globalassets/pdf/referater/stortinget/2023-2024/refs-202324-06-21.pdf",
+      "location": "PDF page 336 / printed 5096 (5999); PDF page 343 / printed 5103 (A and B adopted 55-46 at 14.30.00)",
+      "pdf_pages": 352
+    },
+    {
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-21/voteringer",
+      "location": "Last 5999 occurrence is committee recommendation; complete voting part read through ordinary HTTP200 request. Raw metadata not included because exact result was truncated in tool output."
+    },
+    {
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-104-s-20232024/id3039096/?ch=1",
+      "location": "Section 1.3, table 1.3: gross financing need RNB 116620 million NOK; financing need vs actual borrowing distinction"
+    },
+    {
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-104-s-20232024/id3039096/?ch=2",
+      "location": "Full chapter searched for 5999: no match"
+    },
+    {
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-104-s-20232024/id3039096/?ch=5",
+      "location": "Full proposal searched for 5999: no match"
+    },
+    {
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-106-s-20232024/id3043986/?ch=1",
+      "location": "Introduction: corrections to Prop104 and changed assumptions"
+    },
+    {
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-106-s-20232024/id3043986/?ch=2",
+      "location": "Explanation of proposed changes"
+    },
+    {
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-106-s-20232024/id3043986/?ch=4",
+      "location": "All four proposal rows read; no 5999"
+    },
+    {
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-36-s-20242025/id3076783/?ch=1",
+      "location": "Table1.5 and explanation: gross financing need101874+15415+3083=120372 million NOK (rounded columns)"
+    },
+    {
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-36-s-20242025/id3076783/?ch=3",
+      "location": "5999/90: financing balance, gross financing need120.4 billion NOK, increase18.5 from101.9"
+    },
+    {
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-36-s-20242025/id3076783/?ch=7",
+      "location": "Formal proposed changes"
+    },
+    {
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2023-2024/inns-202324-447s/",
+      "location": "Title expressly says BERIKTIGET"
+    }
+  ],
+  "direct_http_403_no_bypass": [
+    "https://www.regjeringen.no/no/dokumenter/prop.-36-s-20242025/id3076783/?ch=3",
+    "https://www.regjeringen.no/no/dokumenter/prop.-104-s-20232024/id3039096/?ch=5"
+  ],
+  "inherited_local_inputs": [
+    {
+      "path": "work/issue2/fortsettelse/aar/sluttrapport.md",
+      "bytes": 30226,
+      "sha256": "be07cbf2864fd1de4052270b3a3ff5ecdab74c3f0865ba88487e864ae9dd7cf8"
+    },
+    {
+      "path": "work/issue2/fortsettelse/aar/dfo2024.json",
+      "bytes": 3587274,
+      "sha256": "ed2a64aaef5756f56135a6c354720c5f5e69b744176f5ad7c4ab9dcc757ae182"
+    },
+    {
+      "path": "work/issue2/fortsettelse/aar/api_all.json",
+      "bytes": 15303054,
+      "sha256": "10b326b9c265297e338ff872deafd4886a7bee36800e0eabd7e6e281f53d2df3"
+    },
+    {
+      "path": "work/issue2/fortsettelse/aar/statsregnskap_ledger.json",
+      "bytes": 1040263,
+      "sha256": "a5d8d764d5b08d4adfeed22748533849c4b3d014881c25a0b74049dce3044a5d"
+    },
+    {
+      "path": "work/issue2/kontroll/raw/vedtak857.html",
+      "bytes": 2674686,
+      "sha256": "2d93e5ca2d7e729095b4a0c176c4c881c90da5aac45926d210e77d49920d416f"
+    },
+    {
+      "path": "work/issue2/kontroll/raw/vedtak428.html",
+      "bytes": 423543,
+      "sha256": "4fc843dc0a6da1baec69e1decc4d060644927509ce19052c33b43bca69d32115"
+    },
+    {
+      "path": "work/issue2/kontroll/raw/vedtak-2023-2024.xml",
+      "bytes": 6816165,
+      "sha256": "554e9960c3e90932594106463cca9c285abb53e9272c1ae391d6fb8093baf0bf"
+    },
+    {
+      "path": "work/issue2/kontroll/raw/vedtak-2024-2025.xml",
+      "bytes": 7479943,
+      "sha256": "9cfeaef59510a54ff8b2a695e0be368e67cfbab574f8d3f466c0c2f0c3c92680"
+    },
+    {
+      "path": "work/issue2/kontroll/raw/bevilgninger_full_historikk.csv",
+      "bytes": 16022138,
+      "sha256": "c69c59d9a94417f6f24a6e59f0defbe2549366d76a9cde06c41c3d80c1a713b1"
+    },
+    {
+      "path": "work/issue2/kontroll/raw/blaabok_2024.pdf",
+      "bytes": 3842617,
+      "sha256": "7204477be2b1ed089ae2d2eca1307a96d5929d04ea5a0d874ca32eeae1a53bf8"
+    }
+  ]
+}

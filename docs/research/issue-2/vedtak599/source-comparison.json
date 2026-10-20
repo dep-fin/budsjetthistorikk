@@ -1,0 +1,262 @@
+{
+  "vedtak_web": [
+    [
+      [
+        "Kap.",
+        "Post",
+        "Formål",
+        "Kroner"
+      ],
+      [
+        "5538",
+        "",
+        "Veibruksavgift på drivstoff",
+        ""
+      ],
+      [
+        "",
+        "70",
+        "Veibruksavgift på bensin, reduseres med",
+        "1 154 167 000"
+      ],
+      [
+        "",
+        "",
+        "fra kr 2 770 000 000 til kr I 615 833",
+        ""
+      ],
+      [
+        "",
+        "71",
+        "Veibruksavgift på autodiesel, reduseres med",
+        "2 175 000 000"
+      ],
+      [
+        "",
+        "",
+        "fra kr 5 220 000 000 til kr 3 045 000 000",
+        ""
+      ],
+      [
+        "",
+        "72",
+        "Veibruksavgift på naturgass og LPG, reduseres med ...",
+        "1 250 000"
+      ],
+      [
+        "",
+        "",
+        "fra kr 3 000 000 til kr 1 750 000",
+        ""
+      ]
+    ]
+  ],
+  "vedtak_api": [
+    [
+      [
+        "Kap.",
+        "Post",
+        "Formål",
+        "Kroner"
+      ],
+      [
+        "5538",
+        "",
+        "Veibruksavgift på drivstoff",
+        ""
+      ],
+      [
+        "",
+        "70",
+        "Veibruksavgift på bensin, reduseres med",
+        "1 154 167 000"
+      ],
+      [
+        "",
+        "",
+        "fra kr 2 770 000 000 til kr I 615 833",
+        ""
+      ],
+      [
+        "",
+        "71",
+        "Veibruksavgift på autodiesel, reduseres med",
+        "2 175 000 000"
+      ],
+      [
+        "",
+        "",
+        "fra kr 5 220 000 000 til kr 3 045 000 000",
+        ""
+      ],
+      [
+        "",
+        "72",
+        "Veibruksavgift på naturgass og LPG, reduseres med ...",
+        "1 250 000"
+      ],
+      [
+        "",
+        "",
+        "fra kr 3 000 000 til kr 1 750 000",
+        ""
+      ]
+    ]
+  ],
+  "referat_web": [
+    [
+      [
+        "Kap.",
+        "Post",
+        "Formål",
+        "Kroner"
+      ],
+      [
+        "5538",
+        "",
+        "Veibruksavgift på drivstoff",
+        ""
+      ],
+      [
+        "",
+        "70",
+        "Veibruksavgift på bensin, reduseres med …",
+        "1 154 167 000"
+      ],
+      [
+        "",
+        "",
+        "fra kr 2 770 000 000 til kr 1 615 833 000",
+        ""
+      ],
+      [
+        "",
+        "71",
+        "Veibruksavgift på autodiesel, reduseres med …",
+        "2 175 000 000"
+      ],
+      [
+        "",
+        "",
+        "fra kr 5 220 000 000 til kr 3 045 000 000",
+        ""
+      ],
+      [
+        "",
+        "72",
+        "Veibruksavgift på naturgass og LPG, reduseres med …",
+        "1 250 000"
+      ],
+      [
+        "",
+        "",
+        "fra kr 3 000 000 til kr 1 750 000»",
+        ""
+      ]
+    ]
+  ],
+  "proposal_api": [
+    [
+      [
+        "Kap.",
+        "Post",
+        "Formål",
+        "Kroner"
+      ],
+      [
+        "5538",
+        "",
+        "Veibruksavgift på drivstoff",
+        ""
+      ],
+      [
+        "",
+        "70",
+        "Veibruksavgift på bensin, reduseres med",
+        "1 154 167 000"
+      ],
+      [
+        "",
+        "",
+        "fra kr 2 770 000 000 til kr I 615 833",
+        ""
+      ],
+      [
+        "",
+        "71",
+        "Veibruksavgift på autodiesel, reduseres med",
+        "2 175 000 000"
+      ],
+      [
+        "",
+        "",
+        "fra kr 5 220 000 000 til kr 3 045 000 000",
+        ""
+      ],
+      [
+        "",
+        "72",
+        "Veibruksavgift på naturgass og LPG, reduseres med ...",
+        "1 250 000"
+      ],
+      [
+        "",
+        "",
+        "fra kr 3 000 000 til kr 1 750 000",
+        ""
+      ]
+    ]
+  ],
+  "referat_xml": [
+    [
+      [
+        "Kap.",
+        "Post",
+        "Formål",
+        "Kroner"
+      ],
+      [
+        "5538",
+        "",
+        "Veibruksavgift på drivstoff",
+        ""
+      ],
+      [
+        "",
+        "70",
+        "Veibruksavgift på bensin, reduseres med …",
+        "1 154 167 000"
+      ],
+      [
+        "",
+        "",
+        "fra kr 2 770 000 000 til kr 1 615 833 000",
+        ""
+      ],
+      [
+        "",
+        "71",
+        "Veibruksavgift på autodiesel, reduseres med …",
+        "2 175 000 000"
+      ],
+      [
+        "",
+        "",
+        "fra kr 5 220 000 000 til kr 3 045 000 000",
+        ""
+      ],
+      [
+        "",
+        "72",
+        "Veibruksavgift på naturgass og LPG, reduseres med …",
+        "1 250 000"
+      ],
+      [
+        "",
+        "",
+        "fra kr 3 000 000 til kr 1 750 000»",
+        ""
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "all_representations_have_one_5538_table": true,
+  "decision_web_api_same_rows": true,
+  "proposal_api_same_rows": true,
+  "referat_web_post70_correct": true,
+  "referat_xml_post70_correct": true,
+  "three_rows_arithmetic_valid": true,
+  "sum_nok": -3330417000
+}

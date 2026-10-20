@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-10-20T12:06:59.196182+00:00",
+  "dfo_rows": 4268,
+  "dfo_posts": 1638,
+  "annual_rows": 3165,
+  "annual_posts": 1630,
+  "api_decisions": 50,
+  "api_events": 2935,
+  "source_status": {
+    "exact": 2930,
+    "zero_without_event": 1,
+    "api_only": 4,
+    "difference": 1
+  },
+  "exact_physical_rows": 3163,
+  "post_status": {
+    "exact": 1627,
+    "transfer_only": 8,
+    "difference": 3
+  },
+  "annual_dfo_expense": 2951906811000,
+  "annual_dfo_income": 2951906811000,
+  "annual_api_expense": 2951917799000,
+  "annual_api_income": 2850030058000,
+  "source_exact_api_events": 2930,
+  "source_exact_abs_dfo_amount": 6794851289000,
+  "annual_abs_dfo_amount": 6915222998000,
+  "statsregnskap": {
+    "union_keys": 1668,
+    "common_keys": 1625,
+    "common_annual_difference": 0,
+    "pdf_only_zero_annual_keys": 30,
+    "dfo_only_closed_zero_keys": 13,
+    "nonzero_annual_posts_each_source": 1614,
+    "transfer_in": 20803386000,
+    "transfer_out": 22821878000,
+    "available_expense": 2972710197000
+  }
+}
