@@ -23,3 +23,7 @@ Ved endringer i innlesning, analyse eller felles datakontrakt: les [ansvarsdelin
 Ved innlesning, kildevalg eller dekningskontroll: les [kildefunnene](docs/kildefunn.md). Bevilgningsendringer finnes også som ANNET; BUDSJETT alene er et utilstrekkelig filter.
 
 Før økten avsluttes: lagre nye varige funn med kildebevis og praktisk konsekvens etter [reglene for kunnskapsoverføring](docs/arbeidsflyt.md#kunnskap-mellom-agentøkter).
+
+## Kildeversjoner og gjenopptak
+
+Før endringer i synkronisering, kontrollhenvisninger eller versjonseksport: les [B2-kontrakten](docs/datakontrakt.md#b2--kildeinventar-observasjoner-og-revisjoner) og [lagringsvalget](docs/adr/0002-kildeobservasjoner.md). B1-kjøringer er et historisk prøvearkiv og adopteres ikke automatisk som B2s vedtaksregister.

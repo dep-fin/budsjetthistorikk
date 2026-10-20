@@ -16,4 +16,14 @@ HTTP-adapteren bruker bare det faste offentlige sesjonsendepunktet, validerer se
 
 lxml er pinnet til [6.1.3](https://pypi.org/project/lxml/6.1.3/), som retter standardbehandlingen av eksterne parameterentiteter. Innlesningen beholder i tillegg eksplisitt `resolve_entities=False`, `no_network=True` og `load_dtd=False`, og avviser alle DOCTYPE-er.
 
-Den autentiske prøven er opprinnelig vedtak 40033944 fra 2024–2025, med alle åtte postlinjene. Dette er en uttrykkelig historisk demonstrasjon. Ukjente mønstre og tvetydige beløp bevares med synlig kontrollbehov. Daglig kjøring, generell parserbredde, rettelser, registervedlikehold og full sesjonsdekning gjenstår i senere tickets.
+Den autentiske prøven er opprinnelig vedtak 40033944 fra 2024–2025, med alle åtte postlinjene. Dette er en uttrykkelig historisk demonstrasjon. Ukjente mønstre og tvetydige beløp bevares med synlig kontrollbehov. Daglig kjøring, generell parserbredde, registervedlikehold og full faglig sesjonsdekning gjenstår i senere tickets.
+
+## Implementert grense i B2
+
+`synkroniser` bevarer råbyte og sammenligner alle ID-er i full sesjon, med immutable vedtaksrevisjoner og én atomisk publisering. En ny ID er et eget vedtak også ved gammel dato eller like beløp. Nytt innhold under samme ID er en rettelse. Bare ny responstid gir ny kildeobservasjon med samme revisjon og samme postrader. Fravær gir avvik, ikke sletting.
+
+`stage_sync`/`--forbered` bevarer en ventende jobb og returnerer ID før publisering. `resume_sync`/`gjenoppta` trenger bare den ID-en og databasen; feil ved publisering rulles tilbake. Én ventende jobb per datasett/sesjon og kontroll av kilde-/hentetid hindrer at eldre arbeid overstyrer nyere vellykket observasjon. Den lokale rekkefølgen er ingen utgivergaranti om ferskhet.
+
+`read_sync` gir kjørerapport. `read_revision` gir valgt revisjon og separat ferskhetskontekst. `record_control_reference` bevarer en begrunnet henvisning uten å endre analysetall. Nye kildeversjoner gjør gamle henvisninger utdaterte, også ved A → B → A. Filimport og faglig kontrollvirkning kommer i B5.
+
+Se [kommandoer og prøver](../README.md#kjør-b2-lokalt), [B2-kontrakten](../docs/datakontrakt.md#b2--kildeinventar-observasjoner-og-revisjoner) og [ADR 0002](../docs/adr/0002-kildeobservasjoner.md). Alle typer bevares, men B1-parserbredden består. B2 er ikke B6s samlede sesjonseksport.

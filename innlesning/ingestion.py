@@ -31,6 +31,12 @@ def text(element: etree._Element) -> str:
 
 
 def field(element: etree._Element, name: str) -> str:
+    node = element.find(NS + name)
+    if node is not None and node.get("{http://www.w3.org/2001/XMLSchema-instance}nil") in (
+        "true",
+        "1",
+    ):
+        raise ValueError(f"Nil i påkrevd XML-felt: {name}")
     value = element.findtext(NS + name)
     if value is None or not value.strip():
         raise ValueError(f"Manglende XML-felt: {name}")
@@ -145,15 +151,8 @@ def extract(report: Report) -> None:
             report.controls.append(f"{direction}: manglende eller avvikende kilde-total")
 
 
-def import_saved(
-    database: Path,
-    raw_response: bytes,
-    metadata: dict[str, object],
-    decision_id: str,
-    *,
-    historical_sample: bool = False,
-) -> str:
-    """Valider proveniens, bevar faktisk input, og strukturer ett valgt vedtak."""
+def validate_source(raw_response: bytes, metadata: dict[str, object]) -> str:
+    """Kontroller transportproveniens før råbyte aksepteres."""
     if len(raw_response) > MAX_BYTES:
         raise ValueError("Kilderespons overskrider 32 MiB")
     digest = hashlib.sha256(raw_response).hexdigest()
@@ -171,6 +170,46 @@ def import_saved(
         raise ValueError("Ugyldig kilde-URL i hentemetadata") from error
     if source_url != expected_url:
         raise ValueError("Krever Stortingets kanoniske sesjons-URL i hentemetadata")
+    return source_url.rsplit("=", 1)[-1]
+
+
+def structure_node(report: Report, node: etree._Element, session: str) -> None:
+    """Bygg B1-resultatet uten I/O; kilden og publiseringen eies av kalleren."""
+    source_date = field(node, "stortingsvedtak_dato_tid")
+    date = datetime.fromisoformat(source_date).date().isoformat()
+    raw_url = field(node, "stortingsvedtak_lenke_url")
+    report.decision = Decision(
+        field(node, "id"),
+        field(node, "stortingsvedtak_nummer"),
+        session,
+        date,
+        source_date,
+        field(node, "sak_id"),
+        field(node, "stortingsvedtak_type/" + NS + "id"),
+        field(node, "stortingsvedtak_tittel"),
+        "https:" + raw_url if raw_url.startswith("//") else raw_url,
+        raw_url,
+        field(node, "stortingsvedtak_tekst"),
+    )
+    try:
+        extract(report)
+    except (ValueError, etree.ParserError) as error:
+        report.controls.append(str(error))
+    if report.controls:
+        report.status = "til kontroll"
+
+
+def import_saved(
+    database: Path,
+    raw_response: bytes,
+    metadata: dict[str, object],
+    decision_id: str,
+    *,
+    historical_sample: bool = False,
+) -> str:
+    """Valider proveniens, bevar faktisk input, og strukturer ett valgt vedtak."""
+    validate_source(raw_response, metadata)
+    digest = hashlib.sha256(raw_response).hexdigest()
     report = Report(str(uuid4()), digest, dict(metadata), historical_sample)
     try:
         root = etree.fromstring(
@@ -193,32 +232,9 @@ def import_saved(
         ]
         if len(matches) != 1:
             raise ValueError("Valgt vedtaks-ID mangler eller forekommer flere ganger")
-        node = matches[0]
-        source_date = field(node, "stortingsvedtak_dato_tid")
-        date = datetime.fromisoformat(source_date).date().isoformat()
-        raw_url = field(node, "stortingsvedtak_lenke_url")
-        report.decision = Decision(
-            decision_id,
-            field(node, "stortingsvedtak_nummer"),
-            session,
-            date,
-            source_date,
-            field(node, "sak_id"),
-            field(node, "stortingsvedtak_type/" + NS + "id"),
-            field(node, "stortingsvedtak_tittel"),
-            "https:" + raw_url if raw_url.startswith("//") else raw_url,
-            raw_url,
-            field(node, "stortingsvedtak_tekst"),
-        )
+        structure_node(report, matches[0], session)
     except (ValueError, etree.XMLSyntaxError) as error:
         report.status = "innlesningsfeil"
         report.controls.append(str(error))
-    if report.decision is not None:
-        try:
-            extract(report)
-        except (ValueError, etree.ParserError) as error:
-            report.controls.append(str(error))
-        if report.controls:
-            report.status = "til kontroll"
     save_report(database, raw_response, report)
     return report.run_id

@@ -29,38 +29,108 @@ CREATE TABLE IF NOT EXISTS allocations (
 """
 
 
+SCHEMA_VERSION = 2
+
+
+def check_schema(connection: sqlite3.Connection) -> None:
+    version = connection.execute("PRAGMA user_version").fetchone()[0]
+    if version not in (0, SCHEMA_VERSION):
+        raise ValueError(f"Ukjent databaseskjema: {version}")
+
+
+def initialize(connection: sqlite3.Connection) -> None:
+    """Additiv initialisering i kallerens transaksjon; ingen skjulte commits."""
+    check_schema(connection)
+    expected = {
+        "sources": ["sha256", "raw_response"],
+        "runs": [
+            "run_id",
+            "source_sha256",
+            "source_metadata",
+            "historical_sample",
+            "status",
+            "contract_version",
+            "decision_json",
+            "source_totals_json",
+            "controls_json",
+        ],
+        "allocations": [
+            "run_id",
+            "ordinal",
+            "locator",
+            "chapter",
+            "chapter_name",
+            "post",
+            "purpose",
+            "amount_text",
+            "amount_kr",
+            "direction",
+            "raw_html",
+            "meaning",
+            "status",
+            "control_reason",
+        ],
+    }
+    tables = {
+        row[0]
+        for row in connection.execute("SELECT name FROM sqlite_master WHERE type='table'")
+        if row[0] != "sqlite_sequence"
+    }
+    if tables and not expected.keys() <= tables:
+        raise ValueError("Ukjent eller ufullstendig databaseskjema; B1-tabeller mangler")
+    for table, columns in expected.items():
+        actual = [row[1] for row in connection.execute(f"PRAGMA table_info({table})")]
+        if actual and actual != columns:
+            raise ValueError(f"Ukjent tabellskjema: {table}")
+    for statement in SCHEMA.split(";"):
+        if statement.strip():
+            connection.execute(statement)
+
+
+def save_report_in(connection: sqlite3.Connection, raw: bytes, report: Report) -> None:
+    connection.execute(
+        "INSERT OR IGNORE INTO sources (sha256, raw_response) VALUES (?, ?)",
+        (report.source_sha256, raw),
+    )
+    connection.execute(
+        "INSERT INTO runs (run_id, source_sha256, source_metadata, historical_sample, status, "
+        "contract_version, decision_json, source_totals_json, controls_json) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        (
+            report.run_id,
+            report.source_sha256,
+            json.dumps(report.source_metadata),
+            report.historical_sample,
+            report.status,
+            report.contract_version,
+            json.dumps(asdict(report.decision)) if report.decision else None,
+            json.dumps(report.source_totals),
+            json.dumps(report.controls),
+        ),
+    )
+    for ordinal, line in enumerate(report.lines):
+        connection.execute(
+            "INSERT INTO allocations (run_id, ordinal, locator, chapter, chapter_name, post, "
+            "purpose, amount_text, amount_kr, direction, raw_html, meaning, status, "
+            "control_reason) "
+            "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            (report.run_id, ordinal, *asdict(line).values()),
+        )
+
+
 def save_report(database: Path, raw: bytes, report: Report) -> None:
     database.parent.mkdir(parents=True, exist_ok=True)
     with sqlite3.connect(database) as connection:
         connection.execute("PRAGMA foreign_keys = ON")
-        connection.executescript(SCHEMA)
-        connection.execute(
-            "INSERT OR IGNORE INTO sources VALUES (?, ?)", (report.source_sha256, raw)
-        )
-        connection.execute(
-            "INSERT INTO runs VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
-            (
-                report.run_id,
-                report.source_sha256,
-                json.dumps(report.source_metadata),
-                report.historical_sample,
-                report.status,
-                report.contract_version,
-                json.dumps(asdict(report.decision)) if report.decision else None,
-                json.dumps(report.source_totals),
-                json.dumps(report.controls),
-            ),
-        )
-        for ordinal, line in enumerate(report.lines):
-            connection.execute(
-                "INSERT INTO allocations VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
-                (report.run_id, ordinal, *asdict(line).values()),
-            )
+        connection.execute("BEGIN IMMEDIATE")
+        initialize(connection)
+        save_report_in(connection, raw, report)
 
 
 def read_report(database: Path, run_id: str) -> Report:
     """Les ett lagret uttrekk; API-et summerer aldri flere importkjøringer."""
     with sqlite3.connect(f"{database.resolve().as_uri()}?mode=ro", uri=True) as connection:
+        check_schema(connection)
         connection.row_factory = sqlite3.Row
         row = connection.execute("SELECT * FROM runs WHERE run_id = ?", (run_id,)).fetchone()
         if row is None:
@@ -92,6 +162,7 @@ def read_report(database: Path, run_id: str) -> Report:
 
 def read_source(database: Path, sha256: str) -> bytes:
     with sqlite3.connect(f"{database.resolve().as_uri()}?mode=ro", uri=True) as connection:
+        check_schema(connection)
         row = connection.execute(
             "SELECT raw_response FROM sources WHERE sha256 = ?", (sha256,)
         ).fetchone()

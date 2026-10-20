@@ -13,7 +13,9 @@ from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.hyperlink import Hyperlink
 from openpyxl.worksheet.properties import PageSetupProperties
 
-from innlesning import read_report
+from innlesning import read_report, read_revision, read_revision_for_run
+from innlesning.model import Report
+from innlesning.sync import RevisionReport
 
 HEADERS = [
     "Kapittel",
@@ -56,6 +58,18 @@ def export_excel(database: Path, run_id: str, output: Path) -> None:
     if database.resolve() == output.resolve():
         raise ValueError("Excel-filen må ha en annen bane enn databasen")
     report = read_report(database, run_id)
+    _export_report(report, output, revision=read_revision_for_run(database, run_id))
+
+
+def export_revision_excel(database: Path, revision_id: str, output: Path) -> None:
+    """Eksporter nøyaktig valgt innholdsrevisjon med separat ferskhetskontekst."""
+    if database.resolve() == output.resolve():
+        raise ValueError("Excel-filen må ha en annen bane enn databasen")
+    revision = read_revision(database, revision_id)
+    _export_report(revision.report, output, revision=revision)
+
+
+def _export_report(report: Report, output: Path, *, revision: RevisionReport | None = None) -> None:
     workbook = Workbook()
     sheet = workbook.active
     assert sheet is not None
@@ -64,7 +78,8 @@ def export_excel(database: Path, run_id: str, output: Path) -> None:
     sheet.cell(2, 1).font = Font(name="Arial", size=14, bold=True, color="181C62")
     put(
         sheet.cell(3, 1),
-        f"Strukturering: {report.status}. Bare valgt vedtak; ingen sesjonsgaranti.",
+        f"Strukturering: {report.status}. Bare valgt vedtak; ingen sesjonsgaranti."
+        + (f" {revision.freshness}; {revision.observation_status}." if revision else ""),
     )
     put(sheet.cell(4, 1), "Strukturerte utgifter (kroner)")
     put(sheet.cell(4, 6), report.approved_totals["utgift"])
@@ -181,6 +196,63 @@ def export_excel(database: Path, run_id: str, output: Path) -> None:
         ("Utgifter i kilden (kroner)", report.source_totals.get("utgift")),
         ("Inntekter i kilden (kroner)", report.source_totals.get("inntekt")),
     ]
+    if revision is not None:
+        rows.extend(
+            [
+                ("Synkroniseringskontrakt", "2"),
+                ("Vedtaksrevisjon", revision.revision_id),
+                ("Innholdsfingeravtrykk", revision.fingerprint),
+                ("Fingeravtrykksmetode", revision.fingerprint_version),
+                ("Struktureringsversjon", revision.parser_version),
+                ("Datasett", revision.dataset),
+                ("Versjonsstatus", revision.freshness),
+                ("Vurdert UTC", revision.assessed_utc),
+                ("Nåværende observert revisjon", revision.current_revision_id),
+                ("Nyere/siste observasjon", revision.current_observation_id),
+                ("Siste observerte råhash", revision.current_source_sha256),
+                ("Siste forsøk", revision.latest_attempt_id),
+                ("Siste forsøksstatus", revision.latest_attempt_status),
+                ("Siste forsøks råhash", revision.latest_attempt_source_sha256),
+                ("Observasjonsstatus", revision.observation_status),
+                ("Kontrollgrense", "Henvisninger endrer eller godkjenner ingen analysetall"),
+            ]
+        )
+        rows.extend(("Feil i siste forsøk", error) for error in revision.latest_attempt_errors)
+        control_sheet = workbook.create_sheet("Kontrollhenvisninger")
+        control_rows = [
+            [
+                "Kontroll-ID",
+                "Grunnlagsrevisjon",
+                "Observasjon",
+                "Kilderad",
+                "Valg/referanse",
+                "Begrunnelse",
+                "Registrert UTC",
+                "Status",
+            ]
+        ]
+        control_rows.extend(
+            [
+                [
+                    choice.control_id,
+                    choice.revision_id,
+                    choice.observation_id,
+                    choice.locator or "",
+                    choice.reference,
+                    choice.reason,
+                    choice.registered_utc,
+                    choice.status,
+                ]
+                for choice in revision.controls
+            ]
+        )
+        for row_index, control_values in enumerate(control_rows, 1):
+            for column, value in enumerate(control_values, 1):
+                put(control_sheet.cell(row_index, column), value)
+                control_sheet.column_dimensions[get_column_letter(column)].width = 40
+        control_sheet.freeze_panes = "A2"
+    else:
+        rows.append(("Versjonsgrunnlag", "B1-prøvearkiv; ingen valgt B2-revisjonsregistrering"))
     rows.extend(("Kontrollbehov", reason) for reason in report.controls)
     metadata_text = json.dumps(report.source_metadata, ensure_ascii=False, indent=2)
     for start in range(0, len(metadata_text), 30000):
