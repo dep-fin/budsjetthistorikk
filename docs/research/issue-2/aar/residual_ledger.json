@@ -1,0 +1,96 @@
+[
+  {
+    "source_group": "i447/23-24",
+    "post": "015170",
+    "status": "zero_without_event",
+    "dfo_amount": 0,
+    "api_amount": 0,
+    "residual": 0,
+    "dfo_rows": [
+      44784
+    ],
+    "api_events": []
+  },
+  {
+    "source_group": "i447/23-24",
+    "post": "599990",
+    "status": "api_only",
+    "dfo_amount": 0,
+    "api_amount": -101874353000,
+    "residual": 101874353000,
+    "dfo_rows": [],
+    "api_events": [
+      {
+        "id": "40033719",
+        "row": 1486,
+        "amount": -101874353000
+      }
+    ]
+  },
+  {
+    "source_group": "i90/24-25",
+    "post": "599990",
+    "status": "difference",
+    "dfo_amount": 120371709000,
+    "api_amount": 18497356000,
+    "residual": 101874353000,
+    "dfo_rows": [
+      41250
+    ],
+    "api_events": [
+      {
+        "id": "40034287",
+        "row": 237,
+        "amount": 18497356000
+      }
+    ]
+  },
+  {
+    "source_group": "i93/24-25",
+    "post": "186001",
+    "status": "api_only",
+    "dfo_amount": 0,
+    "api_amount": 10988000,
+    "residual": -10988000,
+    "dfo_rows": [],
+    "api_events": [
+      {
+        "id": "40034226",
+        "row": 31,
+        "amount": 10988000
+      }
+    ]
+  },
+  {
+    "source_group": "i93/24-25",
+    "post": "486001",
+    "status": "api_only",
+    "dfo_amount": 0,
+    "api_amount": -2400000,
+    "residual": 2400000,
+    "dfo_rows": [],
+    "api_events": [
+      {
+        "id": "40034226",
+        "row": 42,
+        "amount": -2400000
+      }
+    ]
+  },
+  {
+    "source_group": "saldert",
+    "post": "599990",
+    "status": "api_only",
+    "dfo_amount": 0,
+    "api_amount": 101874353000,
+    "residual": -101874353000,
+    "dfo_rows": [],
+    "api_events": [
+      {
+        "id": "40033025",
+        "row": 61,
+        "amount": 101874353000
+      }
+    ]
+  }
+]

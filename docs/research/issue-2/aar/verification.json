@@ -1,0 +1,16 @@
+{
+  "dfo_4268_unique_rows": true,
+  "description_41": true,
+  "api_2935_events_50_decisions": true,
+  "source_all_rows_once": true,
+  "source_all_api_events_once": true,
+  "source_2930_exact": true,
+  "final_three_residuals": true,
+  "pdf_union_1668_common1625_scope43": true,
+  "all_common_exact_columns": true,
+  "pdf_only_all_zero": true,
+  "dfo_only_all_closed_zero": true,
+  "blaabok_all_1574_exact": true,
+  "seven_component_controls_pass": true,
+  "all_input_hashes_valid": true
+}
