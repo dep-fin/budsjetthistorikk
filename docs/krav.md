@@ -18,6 +18,8 @@ Finansavdelingen i Finansdepartementet skal kunne analysere og hente ut historis
 
 ## Historikk og beløp
 
+Prosjekteieren bestilte 20. oktober 2026 presisering av det felles formatet før #6. [Observasjonsformat versjon 1](observasjonsformat.md) og [ADR 0003](adr/0003-felles-belopsobservasjoner.md) fastsetter separate beløpsobservasjoner, dokumentrelasjoner og beregnede verdier, med kompatible kildeadaptere for Excel og Stortinget. Dette er et modellgrunnlag for de eksisterende leveransene; historisk import, forslag, regnskap og omtale er fortsatt egne leveranser. Ingen historisk enhet eller kolonnetolkning er godkjent generelt.
+
 Hvert opprinnelige vedtak og hver senere vedtatte endring skal kunne følges separat på kapittel og post. Bevar endringsbeløp og eventuelle fra-/til-beløp som kilden gir, og skill disse fra beregnet gjeldende bevilgning.
 
 Forslag, vedtak og regnskap er forskjellige talltyper. RNB og nysaldering er behandlingsrunder som kan omfatte flere dokumenter og vedtak. Oppsummeringer av tidligere vedtak skal ikke leses som nye bevilgningsendringer.

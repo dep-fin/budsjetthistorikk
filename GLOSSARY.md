@@ -69,3 +69,23 @@ Det som faktisk ble sett i en kilde ved en bestemt henting. En observasjon dokum
 
 **Kontrollhenvisning**:
 Et begrunnet valg eller en ekstern kontrollreferanse knyttet til en bestemt observert vedtaksrevisjon og eventuelt en kilderad. Henvisningen er ikke i seg selv en godkjenning av analysetall.
+
+**Beløpsobservasjon**:
+En beløpsopplysning slik den finnes på et bestemt sted i en bestemt kilde, med sin faglige betydning og sitt kontrollgrunnlag.
+_Unngå_: Bevilgningsendring som synonym.
+
+**Talltype**:
+Hvilket behandlingsledd et beløp tilhører: regjeringsforslag, komitéforslag, stortingsvedtak eller regnskap, eventuelt uavklart.
+
+**Behandlingsrunde**:
+Den delen av budsjettbehandlingen et forslag eller vedtak hører til, som opprinnelig budsjett, RNB eller nysaldering.
+
+**Beløpsbetydning**:
+Hva beløpet uttrykker: et nivå, en endring, et førbeløp eller et etterbeløp, eventuelt uavklart.
+
+**Budsjettaggregat**:
+En samlet opplysning om flere ledd eller en periode, uten at opplysningen i seg selv er en ny bevilgningshendelse.
+
+**Beregnet bevilgning**:
+Et avledet nivå fra et uttrykkelig valgt inngående grunnlag og senere vedtatte endringer.
+_Unngå_: Observert kildetall som synonym.
