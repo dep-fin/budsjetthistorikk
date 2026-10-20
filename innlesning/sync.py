@@ -671,7 +671,9 @@ def record_control_reference(
 ) -> str:
     """Bevar en revisjonsbundet henvisning; endrer eller godkjenner ingen beløp."""
     for name, value in (
-        ("valg/referanse", reference), ("begrunnelse", reason), ("kilderad", locator)
+        ("valg/referanse", reference),
+        ("begrunnelse", reason),
+        ("kilderad", locator),
     ):
         if value is not None and len(value) > MAX_CONTROL_TEXT:
             raise ValueError(f"Kontrollhenvisningens {name} overskrider {MAX_CONTROL_TEXT} tegn")
