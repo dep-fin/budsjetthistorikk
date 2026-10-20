@@ -107,6 +107,42 @@ def test_amount_correction_keeps_historical_export_and_expires_control_on_return
     assert a.report.approved_totals == {"utgift": 910_097_000, "inntekt": 300_000}
 
 
+@pytest.mark.parametrize("field", ["reference", "reason", "locator"])
+def test_control_text_limit_rejects_before_registration_and_excel_keeps_limit(
+    tmp_path: Path, field: str
+) -> None:
+    from openpyxl import load_workbook
+
+    from analyse import export_revision_excel
+    from innlesning import record_control_reference
+
+    database = tmp_path / "b2.sqlite"
+    first = read_sync(database, synchronize(database))
+    revision_id = first.entries[0].revision_id
+    values = {"reference": "Kontroll", "reason": "Kontrollert", "locator": "table[1]/tr[4]"}
+    values[field] = "X" * 32768
+    with pytest.raises(ValueError, match="32767"):
+        record_control_reference(database, revision_id, **values)
+    assert read_revision(database, revision_id).controls == []
+    reference = "R" * 32760 + "ENDMARK"
+    reason = "B" * 32760 + "BEGRUNN"
+    control_id = record_control_reference(
+        database, revision_id, reference, reason, locator="table[1]/tr[4]"
+    )
+    controls = read_revision(database, revision_id).controls
+    assert len(controls) == 1
+    assert controls[0].control_id == control_id
+    assert controls[0].reference == reference
+    assert controls[0].reason == reason
+    output = tmp_path / "kontrollgrense.xlsx"
+    export_revision_excel(database, revision_id, output)
+    workbook = load_workbook(output)
+    assert workbook["Kontrollhenvisninger"]["E2"].value == reference
+    assert workbook["Kontrollhenvisninger"]["F2"].value == reason
+    assert workbook["Kontrollhenvisninger"]["D2"].value == "table[1]/tr[4]"
+    workbook.close()
+
+
 def variant(*, extra: bool = False, empty: bool = False) -> bytes:
     root = etree.fromstring(RAW)
     ns = "{http://data.stortinget.no}"
@@ -253,6 +289,45 @@ def test_invalid_full_snapshot_preserves_error_source_and_last_good_state(
     revision = read_revision(database, a.entries[0].revision_id)
     assert revision.current_revision_id == a.entries[0].revision_id
     assert revision.observation_status == "siste forsøk ikke fullført"
+
+
+@pytest.mark.parametrize("timestamp", ["0001-01-01T00:00:00+14:00", "9999-12-31T23:59:59-14:00"])
+@pytest.mark.parametrize("location", ["source", "metadata"])
+@pytest.mark.parametrize("has_previous", [False, True])
+def test_unrepresentable_utc_time_is_a_saved_failure_and_releases_pending_job(
+    tmp_path: Path, timestamp: str, location: str, has_previous: bool
+) -> None:
+    from innlesning import resume_sync, stage_sync
+
+    database = tmp_path / "b2.sqlite"
+    previous = read_sync(database, synchronize(database)) if has_previous else None
+    root = etree.fromstring(RAW)
+    if location == "source":
+        root.find("{http://data.stortinget.no}respons_dato_tid").text = timestamp
+    raw = etree.tostring(root)
+    source_metadata = metadata(raw, tick=1)
+    if location == "metadata":
+        source_metadata["retrieved_utc"] = timestamp
+    job_id = stage_sync(database, raw, source_metadata, historical_sample=True)
+    assert read_sync(database, job_id).status == "venter"
+    assert resume_sync(database, job_id) == job_id
+    failed = read_sync(database, job_id)
+    assert failed.status == "feilet"
+    assert failed.completed_utc is not None
+    assert failed.errors and "UTC" in failed.errors[0]
+    assert failed.entries == []
+    assert failed.source_metadata == source_metadata
+    assert read_source(database, failed.source_sha256) == raw
+    assert resume_sync(database, job_id) == job_id
+    assert read_sync(database, job_id) == failed
+    if previous is not None:
+        revision_id = previous.entries[0].revision_id
+        revision = read_revision(database, revision_id)
+        assert revision.current_revision_id == revision_id
+        assert revision.observation_status == "siste forsøk ikke fullført"
+    valid = read_sync(database, synchronize(database, tick=2))
+    assert valid.status == "fullfort"
+    assert valid.counts["uendret" if has_previous else "ny"] == 1
 
 
 def test_unknown_database_is_not_silently_adopted(tmp_path: Path) -> None:
@@ -410,6 +485,93 @@ def test_formatting_and_prefix_changes_preserve_revision_but_unknown_nil_is_cont
     )
     assert a.counts["rettelse"] == b.counts["rettelse"] == 1
     assert a.entries[0].revision_id != b.entries[0].revision_id
+
+
+@pytest.mark.parametrize(
+    ("root_space", "list_space", "object_space", "field_space", "classification"),
+    [
+        ("preserve", None, None, None, "rettelse"),
+        (None, "preserve", None, None, "rettelse"),
+        ("preserve", "default", None, None, "uendret"),
+        ("default", "preserve", None, None, "rettelse"),
+        (None, "preserve", "default", None, "uendret"),
+        (None, "preserve", None, "default", "uendret"),
+    ],
+)
+def test_inherited_xml_space_and_local_default_control_separator_revisions(
+    tmp_path: Path,
+    root_space: str | None,
+    list_space: str | None,
+    object_space: str | None,
+    field_space: str | None,
+    classification: str,
+) -> None:
+    from innlesning import record_control_reference
+
+    database = tmp_path / "b2.sqlite"
+    root = etree.fromstring(RAW)
+    ns = "{http://data.stortinget.no}"
+    listing = root.find(ns + "stortingsvedtak_liste")
+    node = listing[0]
+    unknown = etree.SubElement(node, ns + "ukjent")
+    etree.SubElement(unknown, ns + "barn").tail = " "
+    etree.SubElement(unknown, ns + "barn")
+    for element, space in (
+        (root, root_space),
+        (listing, list_space),
+        (node, object_space),
+        (unknown, field_space),
+    ):
+        if space is not None:
+            element.set("{http://www.w3.org/XML/1998/namespace}space", space)
+    first = read_sync(database, synchronize(database, etree.tostring(root)))
+    revision_id = first.entries[0].revision_id
+    record_control_reference(database, revision_id, "Kontroll", "Før endret separator")
+    unknown[0].tail = "  "
+    second = read_sync(database, synchronize(database, etree.tostring(root), tick=1))
+    assert second.status == "fullfort"
+    assert second.counts[classification] == 1
+    assert (second.entries[0].revision_id == revision_id) == (classification == "uendret")
+    assert read_revision(database, revision_id).controls[0].status == (
+        "gjeldende henvisning" if classification == "uendret" else "utdatert"
+    )
+
+
+@pytest.mark.parametrize("ignored", [b"<!--note-->", b"<?note ignored?>"])
+@pytest.mark.parametrize(
+    ("before", "after", "classification"),
+    [
+        (b"prefix{ignored}A", b"prefix{ignored}B", "rettelse"),
+        (b"<barn/>A{ignored}B", b"<barn/>A{ignored}C", "rettelse"),
+        (b" <barn/>{ignored}A", b"  <barn/>{ignored}A", "rettelse"),
+        (b"prefixAB", b"prefixA{ignored}B", "uendret"),
+        (b"<barn/>AB", b"<barn/>A{ignored}B", "uendret"),
+        (b" <barn/> ", b" <barn/>{ignored} ", "uendret"),
+    ],
+)
+def test_ignored_xml_nodes_preserve_character_data_and_mixed_text(
+    tmp_path: Path, ignored: bytes, before: bytes, after: bytes, classification: str
+) -> None:
+    from innlesning import record_control_reference
+
+    database = tmp_path / "b2.sqlite"
+
+    def raw(content: bytes) -> bytes:
+        return RAW.replace(
+            b"</stortingsvedtak>",
+            b"<ukjent>" + content.replace(b"{ignored}", ignored) + b"</ukjent></stortingsvedtak>",
+        )
+
+    first = read_sync(database, synchronize(database, raw(before)))
+    revision_id = first.entries[0].revision_id
+    record_control_reference(database, revision_id, "Kontroll", "Før endret tegninnhold")
+    second = read_sync(database, synchronize(database, raw(after), tick=1))
+    assert second.status == "fullfort"
+    assert second.counts[classification] == 1
+    assert (second.entries[0].revision_id == revision_id) == (classification == "uendret")
+    assert read_revision(database, revision_id).controls[0].status == (
+        "gjeldende henvisning" if classification == "uendret" else "utdatert"
+    )
 
 
 def test_duplicates_and_corrupted_empty_list_are_failures_not_absence(tmp_path: Path) -> None:

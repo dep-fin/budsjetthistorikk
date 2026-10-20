@@ -20,6 +20,7 @@ from .storage import SCHEMA_VERSION, check_schema, initialize, read_report, save
 
 FINGERPRINT_VERSION = "xml-object-v1"
 PARSER_VERSION = "b1-original-v1"
+MAX_CONTROL_TEXT = 32_767
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS sync_jobs (
@@ -146,7 +147,10 @@ def _time(value: object) -> datetime:
     result = datetime.fromisoformat(str(value))
     if result.tzinfo is None:
         raise ValueError("Kildetid krever tidssone")
-    return result.astimezone(UTC)
+    try:
+        return result.astimezone(UTC)
+    except OverflowError as error:
+        raise ValueError("Kildetid utenfor støttet UTC-område") from error
 
 
 @contextmanager
@@ -257,15 +261,33 @@ def sync_saved(
         raise
 
 
-def _object_value(node: etree._Element, *, preserve: bool = False) -> list[Any]:
+def _object_value(node: etree._Element, *, preserve: bool | None = None) -> list[Any]:
     # Utvidede navn gjør prefiksendring irrelevant. Kun innrykk mellom
     # XML-barn fjernes; HTML og alle løvverdier bevares nøyaktig.
-    children = [child for child in node if isinstance(child.tag, str)]
-    mixed = any(value and value.strip() for value in [node.text, *(c.tail for c in children)])
+    if preserve is None:
+        preserve = False
+        for ancestor in node.iterancestors():
+            space = ancestor.get("{http://www.w3.org/XML/1998/namespace}space")
+            if space is not None:
+                preserve = space == "preserve"
+                break
+    value = node.text
+    children: list[tuple[etree._Element, str | None]] = []
+    for child in node:
+        if isinstance(child.tag, str):
+            children.append((child, child.tail))
+        elif child.tail is not None:
+            # Kommentar/PI er ikke innhold, men halen er vanlig tegninnhold.
+            # Slå den sammen med forrige tekstsegment før blandet tekst vurderes.
+            if children:
+                previous, tail = children[-1]
+                children[-1] = (previous, (tail or "") + child.tail)
+            else:
+                value = (value or "") + child.tail
+    mixed = any(part and part.strip() for part in [value, *(tail for _, tail in children)])
     space = node.get("{http://www.w3.org/XML/1998/namespace}space")
     if space is not None:
         preserve = space == "preserve"
-    value = node.text
     if children and not mixed and not preserve and value is not None and not value.strip():
         value = None
     return [
@@ -275,9 +297,9 @@ def _object_value(node: etree._Element, *, preserve: bool = False) -> list[Any]:
         [
             [
                 _object_value(child, preserve=preserve),
-                child.tail if mixed or preserve or (child.tail and child.tail.strip()) else None,
+                tail if mixed or preserve or (tail and tail.strip()) else None,
             ]
-            for child in children
+            for child, tail in children
         ],
     ]
 
@@ -379,6 +401,7 @@ def resume_sync(database: Path, job_id: str) -> str:
         response_time: str | None = None
         try:
             validate_source(raw, metadata)
+            retrieved_time = _time(metadata["retrieved_utc"])
             nodes, response_time = _inventory(raw, job)
             previous = connection.execute(
                 "SELECT * FROM sync_jobs WHERE dataset=? AND session=? AND status='fullfort' "
@@ -388,8 +411,7 @@ def resume_sync(database: Path, job_id: str) -> str:
             if previous and (
                 previous["sequence"] > job["sequence"]
                 or _time(response_time) < _time(previous["response_time"])
-                or _time(metadata["retrieved_utc"])
-                < _time(json.loads(previous["metadata_json"])["retrieved_utc"])
+                or retrieved_time < _time(json.loads(previous["metadata_json"])["retrieved_utc"])
             ):
                 raise ValueError("Eldre kildeobservasjon kan ikke overstyre nyere publisert kilde")
             reports: list[tuple[etree._Element, Report]] = []
@@ -648,6 +670,11 @@ def record_control_reference(
     locator: str | None = None,
 ) -> str:
     """Bevar en revisjonsbundet henvisning; endrer eller godkjenner ingen beløp."""
+    for name, value in (
+        ("valg/referanse", reference), ("begrunnelse", reason), ("kilderad", locator)
+    ):
+        if value is not None and len(value) > MAX_CONTROL_TEXT:
+            raise ValueError(f"Kontrollhenvisningens {name} overskrider {MAX_CONTROL_TEXT} tegn")
     if not reference.strip() or not reason.strip():
         raise ValueError("Kontrollhenvisning krever valg/referanse og begrunnelse")
     selected = read_revision(database, revision_id)
