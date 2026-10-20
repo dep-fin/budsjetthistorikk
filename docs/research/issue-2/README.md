@@ -1,6 +1,8 @@
 # Kildeundersøkelse for bevilgningsvedtak
 
-Del av #2 og spesifikasjon #1. Undersøkelsen er påbegynt etter brukerens godkjenning 20. oktober 2026. Dokumentasjonen er under arbeid og innebærer ikke fullført produksjonsinnlesning.
+Del av #2 og spesifikasjon #1. Undersøkelsen er gjennomført etter brukerens godkjenning 20. oktober 2026. Kildeleveransen omfatter representative prøver, hele 2024-avstemmingen og eksplisitte grenser for godkjent historikk. Produksjonsinnlesning er ikke bygget.
+
+Les [overleveringen med akseptmatrise og byggegrense](byggestart.md) før byggeticketene. Tre historiske formelle kildekonflikter er bekreftet og skal sperre automatisk godkjent additiv historikk; forskningsleveransen erklærer dem ikke løst.
 
 ## Første kontrollerte funn
 
@@ -33,7 +35,7 @@ Den offisielle PDF-en for Statsrekneskapen 2024 er hentet med HTTP 200. Alle 1 6
 
 Originale råfiler er mellomlagret lokalt. Kilde-URL-er, hentestatus og SHA-256 er dokumentert. Den første HTML-hentingen ga HTTP 403. Senere ble den uttrykkelig tilbudte offisielle PDF-en hentet normalt med HTTP 200 og bevart lokalt. Versjonerte postrader og hentemanifest følger den videre undersøkelsen.
 
-## Status og gjenstående arbeid
+## Resultat og begrensninger
 
 API-prøvene omfatter 24 vedtak i 2026–2027 og 1 260 i 2024–2025. Vedtakstekst finnes i sesjonsoversikten. I de fire undersøkte voteringsvedtak-svarene hadde alle 54 elementer nil-tekst. Sak, sesjon og vedtaksnummer ga en entydig kobling i utvalget, ikke en generell unikhetsgaranti. Gjentatte sesjonssvar var like etter normalisering av responstid; faktisk kilderettelse er ikke observert. Vedtak 249/40005719 fra 2003 gir nå en autentisk positiv prøve på en selvstendig bevilgning uten funnet proposisjonsgrunnlag i relevant undersøkt kildekjede. Hele 2024 er nå avstemt: alle 1 625 felles DFØ-/regnskapsposter stemmer eksakt, og alle 43 nøkkelforskjeller er forklart. Alle 1 574 Blå bok-poster stemmer mot opprinnelige vedtak. Hendelseskjeden har tre tverrdokumenterte kildekonflikter. De er undersøkt mot innstillinger, voteringsforslag og referater. Konfliktene kan ikke fjernes som en enkel API-/parserfeil; produksjonsparserens dekning er ikke testet. Originalt rågrunnlag for kontrolltabellene er nå sikret. Kildeundersøkelsen må skilles fra godkjenning av en komplett additiv historikk; konkrete kildekonflikter skal ha synlig status og sperre i godkjente historikksummer.
 
