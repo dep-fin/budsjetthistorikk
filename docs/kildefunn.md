@@ -40,6 +40,28 @@ Kildebevis: [endelig bevilgning](https://www.stortinget.no/no/Saker-og-publikasj
 
 Begrensning: Den avgrensede undersøkelsen fant ingen sikker positiv prøve på en endelig kapittel-/postbevilgning der hele det relevante sakskomplekset var uten proposisjonsgrunnlag. Det er ikke dokumentasjon på at slike vedtak ikke finnes. En konstruert test med manglende Prop.-metadata skal merkes som robusthetstest, ikke historisk kildebevis.
 
+## Statsregnskapets bevilgningskolonne har et hentbart originalgrunnlag
+
+**Kontrollert 20. oktober 2026:** Den offentlig tilbudte [PDF-en for Statsrekneskapen 2024](https://www.regjeringen.no/contentassets/1d45fede74ff4ef18ce06bbd6163c723/nn-no/pdfs/stm202420250003000dddpdfs.pdf) ga HTTP 200, selv om en tidligere direkte HTML-forespørsel ga 403. Bruk en uttrykkelig publisert alternativ representasjon når den er tilgjengelig; dette betyr ikke at alle adresser eller årganger er hentbare.
+
+PDF-ens tabell 2.1 og 2.2 har enhet 1 000 kroner. Alle 1 655 uttrukne postrader har Løyving som stemmer eksakt mot 594 kapittelsummer og begge totalsummer. Løyving er årets bevilgning; Samla løyving inkluderer overføring, og Rekneskap er utfall. Sumkontroll mot PDF-en validerer uttrekket, ikke hele vedtakskjeden.
+
+[Versjonsfestet rapport, kildehash og kontrollgrunnlag](https://github.com/depmartin/budsjetthistorikk/blob/100a591ea10209f8cc85b2e190cbb5e1af482bb2/docs/research/issue-2/varig-kildegrunnlag.md). Bevar kildepresisjonen og skill mellom manglende kolonne og nullbeløp.
+
+## Sesjon og kilderettelser krever full sammenligning
+
+**Kontrollert 20. oktober 2026:** Virkelige vedtak om budsjettåret 2024 ligger i to sesjoner. Sakens opprinnelige sesjon kan dessuten være forskjellig fra vedtakets sesjon. En datomarkør alene er ikke tilstrekkelig for å oppdage etterslep eller rettelser.
+
+Kilden viser siste versjon og dokumenterer ikke en rettelseslogg eller en bindende tidsgrense for gamle rettelser. Bevar gode råversjoner og sammenlign vedtaksobjekter per ID. Endret responstid alene er transportmetadata. Endret innhold med samme ID krever ny kildeversjon og ny vurdering av berørte kjeder; en manglende ID i ett svar er et avvik, ikke automatisk sletting.
+
+To faktiske sesjonshentinger viste bare ulike responstidspunkter. Beløpsrettelse, sen innkomst og midlertidig fravær ble prøvd som tydelig merkede syntetiske kontrolltilfeller. De er ikke observasjoner av en reell historisk rettelse. [Versjonsfestede prøver og begrensninger](https://github.com/depmartin/budsjetthistorikk/blob/100a591ea10209f8cc85b2e190cbb5e1af482bb2/docs/research/issue-2/varig-kildegrunnlag.md).
+
+## En katalog er ikke en uttømmende liste over senere poster
+
+**Kontrollert 20. oktober 2026:** Vedtak 526, ID 40034443, 25. mars 2025, bevilger 454 000 000 kroner på ny post 32 under eksisterende kapittel 900. Kombinasjonen 0900/32 finnes ikke i den undersøkte opprinnelige kapittel 900-tabellen for 2025.
+
+Bevar derfor beløpslinje og kilde selv om katalogoppslaget feiler. Opprett synlig kontrollbehov og et sporbarhetsgrunnlag for katalogutvidelse. Manglende førbeløp er ikke i seg selv bevis på nullstart. [Endelig vedtak](https://www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40034443&p=102001) og [versjonsfestet kildeprøve](https://github.com/depmartin/budsjetthistorikk/blob/100a591ea10209f8cc85b2e190cbb5e1af482bb2/docs/research/issue-2/ny-katalogpost.json).
+
 ## Vedlikehold
 
 Oppdater eksisterende funn når nye prøver presiserer det. Bevar skillet mellom observert kildeinnhold, en designanbefaling og et åpent spørsmål. Vesentlige nye funn skal få en kort inngang fra AGENTS.md eller relevant fag-/arbeidsdokument, slik at neste økt finner dem uten chatloggen.
