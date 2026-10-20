@@ -1,0 +1,89 @@
+{
+  "tests": [
+    {
+      "id": "time_only",
+      "basis": "observed real repeat of full session",
+      "expected": "same record hashes despite changing response timestamp",
+      "actual": true,
+      "passed": true
+    },
+    {
+      "id": "source_correction",
+      "basis": "synthetic derivative of real ID 40033805",
+      "expected": "same ID/date, changed record hash, replace version and rebuild affected chain",
+      "actual": {
+        "same_id": true,
+        "same_date": true,
+        "hash_changed": true
+      },
+      "passed": true
+    },
+    {
+      "id": "late_arrival",
+      "basis": "synthetic omission followed by real complete session",
+      "expected": "import old-dated newly visible ID; decision-date cursor would miss it",
+      "actual": {
+        "added_ids": [
+          "40033805"
+        ],
+        "new_record_date": "2024-11-05T00:00:00",
+        "previous_max_date": "2025-06-20T00:00:00"
+      },
+      "passed": true
+    },
+    {
+      "id": "missing_once",
+      "basis": "synthetic omission of ID from latest complete session",
+      "expected": "record absence separately; one absent observation does not justify deletion",
+      "actual": {
+        "absent_ids": [
+          "40033805"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "session_switch",
+      "basis": "observed original 2024, RNB 2024, and nysaldering 2024 in two real sessions",
+      "expected": "union contains all three; neither session alone does",
+      "actual": {
+        "2023-2024": [
+          "40032763",
+          "40033719"
+        ],
+        "2024-2025": [
+          "40034287"
+        ],
+        "union": [
+          "40032763",
+          "40033719",
+          "40034287"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "case_session_not_decision_session",
+      "basis": "observed case 100001 and ID 40033805",
+      "expected": "preserve 2023-2024 case session independently of 2024-2025 decision session",
+      "actual": {
+        "case_session": "2023-2024",
+        "decision_session": "2024-2025"
+      },
+      "passed": true
+    },
+    {
+      "id": "new_catalog_post",
+      "basis": "observed original API tables and observed ID 40034443",
+      "expected": "900/32 absent in original, new appropriation 454000000 kroner retained",
+      "actual": {
+        "original_catalog_key_count": 1601,
+        "has_90032": false,
+        "new_decision_id": "40034443"
+      },
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "warning": "Local assertions test the proposed detection rules, not an existing production implementation or observed future correction."
+}

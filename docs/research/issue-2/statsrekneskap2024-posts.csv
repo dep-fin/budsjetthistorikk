@@ -1,0 +1,1656 @@
+﻿section,kapittel,post,description,source_pdf_pages,overfort_fra_2023_1000kr,loyving_1000kr,samla_loyving_1000kr,rekneskap_1000kr,avvik_1000kr,overfort_til_2025_1000kr
+utgift,0001,01,Apanasje.....................................,92,0,14768,14768,14768,0,0
+utgift,0001,50,Det kongelige hoff....................,92,0,258482,258482,258482,0,0
+utgift,0001,51,Særskilte prosjekter ved Det kongelige hoff....................,92,0,6000,6000,6000,0,0
+utgift,0002,01,Apanasje.....................................,92,0,12292,12292,12292,0,0
+utgift,0020,01,Driftsutgifter..............................,92,3406,109677,113083,108793,4290,4290
+utgift,0021,01,Driftsutgifter..............................,92,6980,201399,208379,201777,6602,6602
+utgift,0024,01,Driftsutgifter..............................,92,3693,125665,129358,122251,7107,7107
+utgift,0024,21,Spesielle driftsutgifter..............,92,797,16553,17350,11682,5668,828
+utgift,0041,01,Driftsutgifter..............................,92,52027,1154600,1206627,1129062,77565,64855
+utgift,0041,21,"Spesielle driftsutgifter, kan overføres",92,619,1413,2032,1037,995,1
+utgift,0041,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",92,133068,167700,300768,195306,105462,105462
+utgift,0041,70,Tilskudd til partigruppene.......,93,0,242700,242700,241550,1150,0
+utgift,0041,73,"Kontingenter, internasjonale delegasjoner..............................",93,0,18100,18100,17708,392,0
+utgift,0041,74,Reisetilskudd til skoler.............,93,0,6300,6300,6334,-34,0
+utgift,0042,01,Driftsutgifter..............................,93,233,10000,10233,9508,725,586
+utgift,0043,01,Driftsutgifter..............................,93,787,111424,112211,108066,4145,4145
+utgift,0044,01,Driftsutgifter..............................,93,2113,47600,49713,47760,1953,1953
+utgift,0045,01,Driftsutgifter..............................,93,0,30068,30068,28182,1886,1886
+utgift,0051,01,Driftsutgifter..............................,93,6266,642439,648705,610100,38605,38605
+utgift,0051,75,Internasjonale organisasjoner og nettverk.................................,93,0,28700,28700,28700,0,0
+utgift,0061,01,"Driftsutgifter, kan nyttes under kap. 410, post 1 og kap. 411, post 1",93,4259,143450,147709,141354,6355,6605
+utgift,0100,01,"Driftsutgifter, kan nyttes under kap. 140, post 1",93,11709,2855248,2866957,2739687,127270,145628
+utgift,0100,21,"Spesielle driftsutgifter, kan overføres",93,45865,34368,80233,18693,61540,61540
+utgift,0100,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",93,35525,43717,79242,44178,35064,35064
+utgift,0100,70,Erstatning av skader på utenlandske ambassader..........,93,0,1298,1298,0,1298,0
+utgift,0100,71,Hjelp til norske borgere i utlandet....................................,94,0,150,150,58,92,0
+utgift,0100,89,Valutatap (disagio) ...................,94,0,0,0,17267,-17267,0
+utgift,0100,90,Lån til norske borgere i utlandet,94,0,2350,2350,2183,167,0
+utgift,0103,01,Driftsutgifter..............................,94,1717,58800,60517,59676,841,841
+utgift,0104,01,Driftsutgifter..............................,94,299,5255,5554,3070,2484,263
+utgift,0115,21,"Spesielle driftsutgifter - kultur- fremme, kan overføres, kan nyttes under post 70",94,0,10606,10606,9597,1009,1009
+utgift,0115,22,"Spesielle driftsutgifter - næringsfremme, kan overføres, kan nyttes under post 71",94,0,14658,14658,16749,-2091,0
+utgift,0115,70,"Kultur- og informasjonsformål, kan overføres, kan nyttes under post 21",94,782,44637,45419,42724,2695,2695
+utgift,0115,71,"Næringsfremme, kan overføres, kan nyttes under post 22",94,5866,13282,19148,14597,4551,2460
+utgift,0116,70,Pliktige bidrag...........................,94,0,1497640,1497640,1480054,17586,0
+utgift,0117,77,"EØS-finansieringsordningen 2014-2021, kan overføres",94,53124,1584500,1637624,1637156,468,468
+utgift,0117,78,"Den norske finansierings- ordningen 2014-2021, kan overføres",94,16094,2018000,2034094,2034089,5,5
+utgift,0118,21,"Spesielle driftsutgifter, kan overføres, kan nyttes under post 70, 71, 72 og 73",94,0,114736,114736,117413,-2677,0
+utgift,0118,50,Norges forskningsråd - utenriksområdet........................,94,0,51798,51798,51798,0,0
+utgift,0118,70,"Nordområdene, Russland og atomsikkerhet, kan overføres, kan nyttes under post 21",95,159361,79634,238995,153508,85487,84757
+utgift,0118,71,"Globale sikkerhetsspørsmål, kan overføres, kan nyttes under post 21",95,8783,7300,16083,9496,6587,5340
+utgift,0118,72,"Nedrustning, ikke-spredning og kjernefysisk sikkerhet mv., kan overføres, kan nyttes under post 21",95,9091,24390,33481,24625,8856,8856
+utgift,0118,73,"Klima, miljøtiltak og hav mv., kan overføres, kan nyttes under post 21",95,12671,10943,23614,15147,8467,7767
+utgift,0118,74,"Forskning, dialog og menneskerettigheter mv. ........",95,0,32161,32161,32088,73,0
+utgift,0118,75,Ny søknadsbasert tilskudds- ordning for norske organisa- sjoner som driver informasjons- og påvirkningsarbeid for fred og folkerett......................................,95,0,10000,10000,7499,2501,0
+utgift,0140,01,"Driftsutgifter, kan nyttes under kap. 100, post 1",95,88649,1978808,2067457,1905118,162339,115293
+utgift,0140,21,"Spesielle driftsutgifter, kan overføres",95,51854,75448,127302,77213,50089,50089
+utgift,0140,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",95,49561,52779,102340,10806,91534,91534
+utgift,0140,89,Valutatap (disagio) ...................,95,0,0,0,7600,-7600,0
+utgift,0141,01,Driftsutgifter..............................,95,13801,394276,408077,383361,24716,24716
+utgift,0141,21,"Spesielle driftsutgifter, kan overføres",95,11832,38325,50157,42574,7583,7583
+utgift,0144,01,Driftsutgifter..............................,95,787,62997,63784,62636,1148,1148
+utgift,0144,70,"Utvekslingsordninger, kan overføres",95,339,133477,133816,132813,1003,1003
+utgift,0144,71,"Rekruttering til internasjonale organisasjoner, kan overføres",95,267,50000,50267,50066,201,201
+utgift,0150,70,"Nødhjelp og humanitær bistand, kan overføres",96,15778,4616289,4632067,4615074,16993,16993
+utgift,0150,71,"Verdens matvareprogram (WFP), kan overføres",96,0,430000,430000,430000,0,0
+utgift,0151,70,"Fred og forsoning, kan overføres",96,6455,415260,421715,417508,4207,4207
+utgift,0151,71,"Globale sikkerhetsspørsmål og nedrustning, kan overføres",96,11996,142860,154856,151993,2863,2863
+utgift,0151,73,"FN og globale utfordringer, kan overføres",96,2000,298138,300138,300137,1,1
+utgift,0151,74,"Pliktige bidrag til FN-organisa- sjoner mv., kan overføres",96,223,389562,389785,388970,815,815
+utgift,0152,70,"Menneskerettigheter, kan overføres",96,1754,741117,742871,731892,10979,10979
+utgift,0152,71,"FNs høykommissær for menneskerettigheter (OHCHR), kan overføres",96,0,197000,197000,197000,0,0
+utgift,0153,70,"Flyktninger og internt fordrevne, kan overføres",96,365,1320000,1320365,1320364,1,1
+utgift,0153,71,"FNs høykommissær for flykt- ninger (UNHCR), kan overføres",96,0,630000,630000,630000,0,0
+utgift,0153,72,"Bærekraftige løsninger og vertssamfunn, kan overføres",96,49933,719504,769437,758775,10662,10662
+utgift,0159,70,"Midtøsten, kan overføres",96,13340,621311,634651,618014,16637,16637
+utgift,0159,71,"Europa og Sentral-Asia, kan overføres",96,86455,381634,468089,444613,23476,23476
+utgift,0159,72,"Afghanistan, kan overføres",96,1417,401241,402658,400535,2123,2123
+utgift,0159,73,"Ukraina og naboland, kan overføres",96,12149,9698200,9710349,9698245,12104,12104
+utgift,0159,75,"Afrika, kan overføres",96,5891,2517022,2522913,2519143,3770,3770
+utgift,0159,76,"Asia, kan overføres",96,11835,488503,500338,492735,7603,7603
+utgift,0159,77,"Latin-Amerika og Karibia, kan overføres",96,399,188132,188531,184234,4297,4297
+utgift,0160,70,"Helse, kan overføres",97,4,3695797,3695801,3695800,1,1
+utgift,0160,71,"Verdens helseorganisasjon (WHO), kan overføres",97,0,235500,235500,235500,0,0
+utgift,0160,72,"FNs aidsprogram (UNAIDS), kan overføres",97,0,20000,20000,20000,0,0
+utgift,0161,50,Norges forskningsråd - utviklingsområdet.....................,97,0,192150,192150,192150,0,0
+utgift,0161,70,"Utdanning, kan overføres",97,5,1021798,1021803,1014744,7059,7059
+utgift,0161,71,"Forskning, kan overføres",97,996,67196,68192,68192,0,0
+utgift,0161,73,"Styresett og offentlige institusjoner, kan overføres",97,271,526423,526694,524479,2215,2215
+utgift,0162,70,"Bærekraftig jobbskaping, næringsutvikling og handel, kan overføres",97,2,229536,229538,229305,233,233
+utgift,0162,71,"Matsikkerhet, fisk og landbruk, kan overføres",97,0,1823849,1823849,1819542,4307,4307
+utgift,0162,72,"Fornybar energi, kan overføres",97,449,744358,744807,744806,1,1
+utgift,0162,75,Norfund - risikokapital.............,97,0,438288,438288,438288,0,0
+utgift,0162,76,Norfund klimainvesteringsfond - risikokapital.............................,97,0,250000,250000,250000,0,0
+utgift,0162,77,Norfund - Ukraina risikokapital,97,0,125000,125000,125000,0,0
+utgift,0162,95,Norfund - grunnfondskapital ved investeringer i utviklings- land.............................................,97,0,1239864,1239864,1239864,0,0
+utgift,0162,96,Norfund klimainvesteringsfond - kapitalinnskudd.......................,97,0,750000,750000,750000,0,0
+utgift,0162,97,Norfund - Ukraina kapital- innskudd....................................,97,0,125000,125000,125000,0,0
+utgift,0163,70,"Miljø og klima, kan overføres",97,268029,1780571,2048600,2048224,376,376
+utgift,0163,71,"Bærekraftige hav og tiltak mot marin forsøpling, kan overføres",97,2989,282100,285089,279661,5428,5428
+utgift,0164,70,"Likestilling, kan overføres",97,3,203319,203322,203322,0,0
+utgift,0164,71,"FNs organisasjon for kvinners rettigheter og likestilling (UN Women), kan overføres",97,0,100300,100300,100300,0,0
+utgift,0164,72,FNs befolkningsfond (UNFPA),98,0,589600,589600,589600,0,0
+utgift,0170,70,"Sivilt samfunn, kan overføres",98,0,2505665,2505665,2502672,2993,2993
+utgift,0171,70,FNs utviklingsprogram (UNDP),98,0,454400,454400,454116,284,0
+utgift,0171,71,FNs barnefond (UNICEF) ......,98,0,480600,480600,480600,0,0
+utgift,0171,73,"FN og multilateralt samarbeid, kan overføres",98,69,7499,7568,7362,206,206
+utgift,0172,70,"Verdensbanken, kan overføres",98,18,1166700,1166718,1166684,34,34
+utgift,0172,71,"Regionale banker og fond, kan overføres",98,0,1008515,1008515,1008514,1,1
+utgift,0172,72,"Strategisk samarbeid, kan overføres",98,4,43300,43304,43300,4,4
+utgift,0172,73,"Gjeldslette, kan overføres",98,0,396480,396480,396468,12,12
+utgift,0179,21,Spesielle driftsutgifter..............,98,0,4012247,4012247,4012247,0,0
+utgift,0200,01,Driftsutgifter..............................,98,19456,405241,424697,398912,25785,25959
+utgift,0200,21,Spesielle driftsutgifter..............,98,494,12652,13146,13064,82,82
+utgift,0200,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",98,5431,3498,8929,1672,7257,7257
+utgift,0201,21,Spesielle driftsutgifter..............,98,14277,41073,55350,52506,2844,2054
+utgift,0201,50,Norges forskningsråd - forskning om utdanning og forskning....................................,98,0,230600,230600,230600,0,0
+utgift,0220,01,Driftsutgifter..............................,99,2673,416396,419069,410699,8370,8370
+utgift,0220,21,"Spesielle driftsutgifter, kan nyttes under post 70",99,0,215733,215733,207405,8328,8191
+utgift,0220,70,"Tilskudd til læremidler mv., kan overføres, kan nyttes under post 21",99,5,86731,86736,86736,0,0
+utgift,0221,01,Driftsutgifter..............................,99,755,17271,18026,16213,1813,1110
+utgift,0222,01,Driftsutgifter..............................,99,0,159772,159772,159455,317,2391
+utgift,0222,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",99,0,2400,2400,2399,1,0
+utgift,0223,01,Driftsutgifter..............................,99,1407,29111,30518,29929,589,596
+utgift,0223,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",99,429,380,809,0,809,744
+utgift,0224,70,Freds- og menneskerettighets- sentre.........................................,99,0,141776,141776,141776,0,0
+utgift,0224,71,Det europeiske Wergeland- senteret......................................,99,0,13247,13247,13247,0,0
+utgift,0225,01,Driftsutgifter..............................,99,0,29078,29078,27683,1395,0
+utgift,0225,21,Spesielle driftsutgifter..............,99,1368,135961,137329,127970,9359,0
+utgift,0225,60,Tilskudd til landslinjer..............,99,0,271989,271989,271989,0,0
+utgift,0225,61,Rentekompensasjon for investe- ringer i læringsarenaer og større utstyr som bidrar til mer praktisk og variert opplæring..,99,0,3000,3000,536,2464,0
+utgift,0225,63,"Tilskudd til samisk i grunn- opplæringen, kan overføres",99,6881,154332,161213,152396,8817,0
+utgift,0225,64,Tilskudd til opplæring av barn og unge som søker opphold i Norge.......................................,99,0,282473,282473,278549,3924,0
+utgift,0225,65,"Rentekompensasjon for skole- og svømmeanlegg, kan overføres",99,1755,389245,391000,389325,1675,1675
+utgift,0225,66,Tilskudd til skoleturer i forbindelse med handlings- plan mot antisemittisme...........,100,0,16935,16935,16694,241,0
+utgift,0225,67,Tilskudd til opplæring i kvensk eller finsk....................,100,0,8678,8678,8531,147,0
+utgift,0225,68,Tilskudd til opplæring i kriminalomsorgen..................,100,0,341241,341241,340677,564,0
+utgift,0225,69,Tiltak for fullføring og kvalifisering i videregående opplæring...................................,100,0,888117,888117,888117,0,0
+utgift,0225,74,Prosjekttilskudd........................,100,0,6960,6960,6959,1,0
+utgift,0225,75,Grunntilskudd...........................,100,0,108701,108701,108700,1,0
+utgift,0226,21,"Spesielle driftsutgifter, kan overføres",100,88197,1634839,1723036,1624294,98742,98742
+utgift,0226,22,Videreutdanning for lærere og skoleledere................................,100,3000,1648270,1651270,1647923,3347,3347
+utgift,0226,61,Tilskuddsordning til veiledning for nyutdannede nytilsatte lærere.........................................,100,0,67748,67748,67729,19,0
+utgift,0226,71,Tilskudd til vitensentre............,100,0,115585,115585,115585,0,0
+utgift,0227,63,Tilskudd til kommuner og fylkeskommuner.......................,100,0,44569,44569,44529,40,0
+utgift,0227,78,Tilskudd.....................................,100,0,199609,199609,199609,0,0
+utgift,0228,70,"Private grunnskoler, overslagsbevilgning",100,0,3978263,3978263,3978222,41,0
+utgift,0228,71,"Private videregående skoler, overslagsbevilgning",100,0,2151239,2151239,2150952,287,0
+utgift,0228,72,"Diverse skoler som gir yrkesrettet opplæring, overslagsbevilgning",100,0,155529,155529,155529,0,0
+utgift,0228,73,"Private grunnskoler i utlandet, overslagsbevilgning",100,0,153705,153705,154576,-871,0
+utgift,0228,74,"Private videregående skoler i utlandet, overslagsbevilgning",100,0,25692,25692,23050,2642,0
+utgift,0228,75,"Private skoler for funksjons- hemmede elever, overslagsbevilgning",100,0,571965,571965,571053,913,0
+utgift,0228,76,"Andre private skoler, overslagsbevilgning",100,0,70406,70406,70406,0,0
+utgift,0228,77,"Den tysk-norske skolen i Oslo, overslagsbevilgning",101,0,50654,50654,50654,0,0
+utgift,0228,78,Kompletterende undervisning.,101,0,26517,26517,26097,420,0
+utgift,0228,79,Toppidrett..................................,101,0,82868,82868,82868,0,0
+utgift,0228,80,Distriktstilskudd til private grunnskoler...............................,101,0,3110,3110,2990,120,0
+utgift,0228,81,Elevutveksling til utlandet.......,101,0,428,428,428,0,0
+utgift,0228,82,Kapital- og husleietilskudd til private skoler.............................,101,0,77433,77433,77311,122,0
+utgift,0228,83,"Særtilskudd til Møbelsnekker- skolen, Plus-skolen og Hjerleid Handverksskole........................",101,0,5000,5000,5000,0,0
+utgift,0228,84,Redusert foreldrebetaling i skolefritidsordningen ved private skoler.............................,101,0,93346,93346,83703,9643,0
+utgift,0228,85,Særtilskudd til private kombinerte grunnskoler..........,101,0,30000,30000,29983,17,0
+utgift,0229,01,Driftsutgifter..............................,101,1135,24083,25218,23766,1452,1452
+utgift,0229,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres, kan nyttes under post 1",101,32748,27249,59997,19984,40013,40013
+utgift,0230,01,Driftsutgifter..............................,101,29032,635465,664497,633834,30663,30680
+utgift,0230,21,Spesielle driftsutgifter..............,101,0,27200,27200,28779,-1579,0
+utgift,0230,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",101,8284,10936,19220,6492,12728,12728
+utgift,0231,21,"Spesielle driftsutgifter, kan overføres",101,49129,935421,984550,950611,33939,33939
+utgift,0231,63,Tilskudd til tiltak for å styrke språkutviklingen blant minoritetsspråklige barn i barnehage................................,101,0,217765,217765,217765,0,0
+utgift,0231,66,Tilskudd til økt barnehage- deltakelse for minoritets- språklige barn...........................,101,0,23460,23460,23460,0,0
+utgift,0231,70,Tilskudd til svømming i barnehagene............................,102,0,74889,74889,74634,255,0
+utgift,0240,60,Driftstilskudd til fagskoler.......,102,0,1384174,1384174,1381220,2954,0
+utgift,0240,61,"Utviklingsmidler til fagskoler, kan overføres",102,14880,85148,100028,70407,29621,29621
+utgift,0241,21,"Spesielle driftsutgifter, kan overføres",102,11159,26148,37307,18285,19022,19022
+utgift,0242,01,Driftsutgifter..............................,102,24,34584,34608,35903,-1295,779
+utgift,0242,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",102,163,1476,1639,1202,437,437
+utgift,0253,70,Tilskudd til folkehøyskoler......,102,0,1102649,1102649,1103288,-639,0
+utgift,0253,71,Tilskudd til Folkehøgskolerådet,102,0,6055,6055,6055,0,0
+utgift,0253,72,Tilskudd til Nordiska folkhögskolan............................,102,0,795,795,795,0,0
+utgift,0254,70,Tilskudd til studieforbund.......,102,0,73312,73312,73312,0,0
+utgift,0254,73,Tilskudd til voksenopplærings- organisasjoner...........................,102,0,1871,1871,1871,0,0
+utgift,0256,01,Driftsutgifter..............................,102,22524,476777,499301,468770,30531,32103
+utgift,0256,21,Spesielle driftsutgifter..............,102,959,19157,20116,15933,4183,958
+utgift,0257,21,Spesielle driftsutgifter..............,102,380,7898,8278,4832,3446,395
+utgift,0257,70,"Tilskudd, kan overføres",102,160742,157910,318652,183037,135615,135615
+utgift,0258,21,"Spesielle driftsutgifter, kan overføres",103,61837,55934,117771,89588,28183,28183
+utgift,0260,50,"Statlige universiteter og høy- skoler, kan nyttes under post 70",103,0,43128462,43128462,43128462,0,0
+utgift,0260,70,"Private høyskoler, kan nyttes under post 50",103,0,2308426,2308426,2308426,0,0
+utgift,0270,74,Tilskudd til velferdsarbeid mv.,103,0,89705,89705,89705,0,0
+utgift,0270,75,"Tilskudd til bygging av student- boliger, kan overføres",103,65548,862917,928465,672141,256324,256324
+utgift,0271,01,Driftsutgifter..............................,103,0,123347,123347,120467,2880,2455
+utgift,0271,21,Spesielle driftsutgifter..............,103,87,4352,4439,8250,-3811,0
+utgift,0272,51,"Tiltak for internasjonalisering, kan overføres, kan nyttes under post 71",103,4305,103425,107730,107730,0,0
+utgift,0272,52,"Tiltak for høyere utdanning, kan overføres, kan nyttes under post 72",103,3244,163276,166520,166518,2,2
+utgift,0272,71,"Tilskudd til tiltak for internasjo- nalisering, kan overføres, kan nyttes under post 51",103,54230,80366,134596,101639,32957,32957
+utgift,0272,72,"Tilskudd til tiltak for høyere utdanning, kan overføres, kan nyttes under post 52",103,33818,52105,85923,62464,23459,23459
+utgift,0273,50,Virksomhetskostnader.............,103,0,417948,417948,417948,0,0
+utgift,0274,70,Tilskudd til Universitetssenteret på Svalbard................................,103,0,178386,178386,178386,0,0
+utgift,0275,21,"Spesielle driftsutgifter, kan overføres, kan nyttes under post 70",104,29062,58722,87784,52176,35608,35318
+utgift,0275,70,"Tilskudd, kan nyttes under post 21",104,0,71038,71038,71318,-280,0
+utgift,0275,96,Aksjekapital...............................,104,0,3067,3067,3039,28,0
+utgift,0284,01,Driftsutgifter..............................,104,1045,21550,22595,21432,1163,1163
+utgift,0285,51,Strategiske forsknings- prioriteringer.............................,104,0,3013973,3013973,3013973,0,0
+utgift,0285,52,"Langsiktig, grunnleggende forskning....................................",104,0,1769145,1769145,1769145,0,0
+utgift,0285,55,"Virksomhetskostnader, kan overføres",104,0,780273,780273,624387,155886,155886
+utgift,0287,70,Grunnbevilgning til samfunns- vitenskapelige forsknings- institutter...................................,104,0,245303,245303,245303,0,0
+utgift,0288,21,Spesielle driftsutgifter..............,104,2462,10322,12784,11996,788,516
+utgift,0288,72,Internasjonale grunnforsknings- organisasjoner...........................,104,0,382655,382655,382660,-5,0
+utgift,0288,73,EUs rammeprogram for forskning og innovasjon...........,104,0,4790714,4790714,4790713,1,0
+utgift,0288,74,"EUs program for utdanning, opplæring, ungdom og idrett...",104,0,1541716,1541716,1542306,-590,0
+utgift,0288,75,UNESCO-kontingent................,104,0,24302,24302,24302,0,0
+utgift,0288,76,UNESCO-formål.......................,104,0,4778,4778,4778,0,0
+utgift,0289,51,Holbergprisen...........................,104,0,18633,18633,18633,0,0
+utgift,0289,71,Abelprisen..................................,104,0,18093,18093,18093,0,0
+utgift,0289,72,Kavliprisen.................................,104,0,12375,12375,12375,0,0
+utgift,0300,01,Driftsutgifter..............................,105,8708,200247,208955,195533,13422,13322
+utgift,0300,21,Spesielle driftsutgifter..............,105,60,1210,1270,994,276,61
+utgift,0300,78,Tilskudd til priser og konkurranser m.m. ..................,105,0,12230,12230,12202,28,0
+utgift,0300,79,Til disposisjon...........................,105,0,18290,18290,17560,730,0
+utgift,0315,21,"Forskning, utredning og spesielle driftsutgifter, kan overføres",105,318,11850,12168,9695,2473,2473
+utgift,0315,60,Tilskudd til frivilligsentraler,105,0,259250,259250,259250,0,0
+utgift,0315,70,"Merverdiavgiftskompensasjon til frivillige organisasjoner, kan overføres",105,0,2770000,2770000,2728260,41740,0
+utgift,0315,71,"Strømstøtteordning for frivillige organisasjoner, kan overføres",105,40872,56500,97372,61981,35391,35391
+utgift,0315,73,Tilskudd til studieforbund m.m.,105,0,191000,191000,191000,0,0
+utgift,0315,75,Aktivitetsstøtta..........................,105,0,5378,5378,5378,0,0
+utgift,0315,78,Frivillighetstiltak.......................,105,0,158050,158050,158050,0,0
+utgift,0315,82,Merverdiavgiftskompensasjon ved bygging av idrettsanlegg...,105,0,308913,308913,308912,1,0
+utgift,0315,86,Idrettstiltak................................,105,0,63000,63000,62950,50,0
+utgift,0320,01,Driftsutgifter..............................,105,10335,214286,224621,222362,2259,8438
+utgift,0320,51,Fond for lyd og bilde................,105,0,52240,52240,52240,0,0
+utgift,0320,55,Norsk kulturfond......................,105,0,1003160,1003160,1003160,0,0
+utgift,0320,71,Statsstipend...............................,105,0,6482,6482,5391,1091,0
+utgift,0320,72,"Kunstnerstipend m.m., kan overføres",105,10045,301170,311215,295368,15847,15847
+utgift,0320,73,"Garantiinntekter og langvarige stipend, overslagsbevilgning",105,0,180530,180530,175882,4648,0
+utgift,0320,74,Tilskudd til organisasjoner og kompetansesentre m.m. ..........,105,0,378495,378495,378495,0,0
+utgift,0320,75,"Tilskudd til litteraturhus, kunst- scener og kompanier m.m. .....",106,0,314955,314955,314955,0,0
+utgift,0322,01,Driftsutgifter..............................,106,1374,26511,27885,25887,1998,1742
+utgift,0322,21,"Spesielle driftsutgifter, kan overføres",106,11656,43610,55266,69621,-14355,11936
+utgift,0322,50,Kunst i offentlige rom...............,106,0,12500,12500,12500,0,0
+utgift,0322,70,"Nasjonale kulturbygg, kan overføres",106,402223,398300,800523,700500,100023,100023
+utgift,0323,01,Driftsutgifter..............................,106,1619,107395,109014,105964,3050,3179
+utgift,0323,21,"Spesielle driftsutgifter, kan overføres",106,8611,72000,80611,81559,-948,5166
+utgift,0323,22,Forsvarets musikk....................,106,1172,56230,57402,56200,1202,1202
+utgift,0323,60,Landsdelsmusikerordningen i Nord-Norge.............................,106,0,25400,25400,25400,0,0
+utgift,0323,70,Musikk- og scenekunst- institusjoner...............................,106,0,2862013,2862013,2862013,0,0
+utgift,0325,01,Driftsutgifter..............................,106,1875,73068,74943,72182,2761,1718
+utgift,0325,21,"Forskning, utredning og spesielle driftsutgifter, kan overføres",106,21190,31500,52690,24491,28199,28199
+utgift,0325,52,Norges forskningsråd..............,106,0,30510,30510,30510,0,0
+utgift,0325,72,Kultursamarbeid i nord- områdene...................................,106,0,13530,13530,13530,0,0
+utgift,0325,73,Bodø - Europeisk kultur- hovedstad 2024..........................,106,0,32270,32270,32210,60,0
+utgift,0325,75,"EUs program for kultur og audiovisuell sektor m.m., kan overføres",106,319,140160,140479,126617,13862,13862
+utgift,0325,78,Barne- og ungdomstiltak..........,106,0,33940,33940,33940,0,0
+utgift,0325,82,Nobels Fredssenter..................,106,0,37500,37500,37500,0,0
+utgift,0325,86,Talentutvikling..........................,106,0,55000,55000,55000,0,0
+utgift,0326,01,Driftsutgifter..............................,106,14343,841219,855562,818280,37282,39762
+utgift,0326,21,"Spesielle driftsutgifter, kan overføres",106,11345,18235,29580,31013,-1433,17797
+utgift,0326,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",107,41261,52400,93661,48767,44894,44894
+utgift,0326,73,Språktiltak..................................,107,0,38550,38550,38550,0,0
+utgift,0326,74,Det Norske Samlaget...............,107,0,23475,23475,23475,0,0
+utgift,0326,75,Tilskudd til ordboksarbeid......,107,0,14650,14650,14650,0,0
+utgift,0326,80,Bibliotek- og litteraturtiltak......,107,0,102750,102750,102746,4,0
+utgift,0327,01,Driftsutgifter..............................,107,0,83890,83890,94549,-10659,1158
+utgift,0327,21,Spesielle driftsutgifter..............,107,50,4680,4730,3389,1341,234
+utgift,0327,70,Utenlandske krigsgraver i Norge.......................................,107,0,4320,4320,4317,3,0
+utgift,0327,71,Tilskudd til regionale pilegrimssentre.........................,107,0,9180,9180,9180,0,0
+utgift,0328,70,Det nasjonale museumsnettverket..................,107,0,2531800,2531800,2531800,0,0
+utgift,0328,78,Andre museums- og kulturverntiltak.........................,107,0,93305,93305,92093,1212,0
+utgift,0329,01,Driftsutgifter..............................,107,10058,457968,468026,451249,16777,16937
+utgift,0329,21,"Spesielle driftsutgifter, kan overføres",107,473,3270,3743,2134,1609,78
+utgift,0329,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",107,85510,19500,105010,47360,57650,57650
+utgift,0329,78,Arkivtiltak..................................,107,0,10210,10210,10210,0,0
+utgift,0334,01,Driftsutgifter..............................,107,0,139403,139403,135577,3826,3418
+utgift,0334,21,"Spesielle driftsutgifter, kan overføres",107,0,9320,9320,9797,-477,0
+utgift,0334,50,Filmfondet.................................,107,0,652000,652000,655000,-3000,0
+utgift,0334,72,"Insentivordningen for film- og serieproduksjoner, kan overføres",107,78106,42000,120106,67352,52754,52754
+utgift,0334,73,"Regionale filmvirksomheter, kan overføres",107,0,144000,144000,143980,20,20
+utgift,0334,75,"Internasjonale film- og medie- avtaler, kan overføres",107,4341,24330,28671,22763,5908,5908
+utgift,0334,78,Film- og dataspilltiltak..............,108,0,39265,39265,39265,0,0
+utgift,0335,01,Driftsutgifter..............................,108,1625,62474,64099,61017,3082,3082
+utgift,0335,21,Spesielle driftsutgifter..............,108,0,3980,3980,4531,-551,0
+utgift,0335,70,Kompensasjon til kommersiell allmennkringkasting.................,108,0,150000,150000,150000,0,0
+utgift,0335,71,Mediestøtte................................,108,0,490030,490030,490028,2,0
+utgift,0335,73,Medietiltak................................,108,0,15420,15420,15418,2,0
+utgift,0335,74,"Tilskudd til lokale lyd- og bilde- medier, kan overføres",108,16027,23000,39027,20948,18079,18079
+utgift,0335,79,Norsk rikskringkasting AS - NRK............................................,108,0,7216454,7216454,7216454,0,0
+utgift,0337,70,Kompensasjon for kopiering til privat bruk.................................,108,0,58090,58090,58090,0,0
+utgift,0337,71,"Vederlagsordninger mv., kan overføres",108,4919,299850,304769,295130,9639,9639
+utgift,0339,01,Driftsutgifter..............................,108,1619,103383,105002,109305,-4303,3412
+utgift,0339,21,"Spesielle driftsutgifter, kan overføres",108,2,6695,6697,16187,-9490,400
+utgift,0350,01,Driftsutgifter..............................,108,1375,33171,34546,32888,1658,1658
+utgift,0351,21,"Forskning, utredning og spesielle driftsutgifter, kan overføres, kan nyttes under post 70",108,5435,33940,39375,28102,11273,6043
+utgift,0351,70,Tilskudd til likestilling..............,108,0,63030,63030,68260,-5230,0
+utgift,0351,72,Kjønns- og seksualitetsmangfold................,108,0,38155,38155,38095,60,0
+utgift,0351,73,Likestillingssentre....................,108,0,27470,27470,27470,0,0
+utgift,0352,21,"Forskning, utredning og spesielle driftsutgifter, kan overføres, kan nyttes under post 71",109,5069,25280,30349,17639,12710,3085
+utgift,0352,70,Funksjonshemmedes organisasjoner...........................,109,0,269940,269940,269940,0,0
+utgift,0352,71,Universell utforming og økt tilgjengelighet...........................,109,0,23000,23000,32625,-9625,0
+utgift,0352,72,Funksjonshemmedes levekår og livskvalitet.............................,109,0,27600,27600,27600,0,0
+utgift,0353,50,Basisbevilgning.........................,109,0,53380,53380,53380,0,0
+utgift,0400,01,Driftsutgifter..............................,109,3768,522894,526662,513326,13336,13805
+utgift,0400,23,"Spesielle driftsutgifter, forskning, evaluering og kunnskapsinnhenting, kan overføres",109,3359,32809,36168,32767,3401,3401
+utgift,0400,50,Norges forskningsråd..............,109,0,69092,69092,69091,1,0
+utgift,0400,70,Overføringer til private.............,109,0,9914,9914,8841,1073,0
+utgift,0400,71,Tilskudd til internasjonale organisasjoner...........................,109,0,22299,22299,22123,176,0
+utgift,0410,01,"Driftsutgifter, kan nyttes under kap. 61, post 1 og kap. 411, post 1",109,56060,3331532,3387592,3294584,93008,103219
+utgift,0410,21,Spesielle driftsutgifter..............,109,5176,105000,110176,104896,5280,5250
+utgift,0410,22,"Vernesaker/sideutgifter, jord- skiftedomstoler, kan overføres",109,2107,1500,3607,1786,1821,1841
+utgift,0411,01,"Driftsutgifter, kan nyttes under kap. 61, post 1 og kap. 410, post 1",110,415,91496,91911,89938,1973,2147
+utgift,0414,01,Driftsutgifter..............................,110,16832,360754,377586,353418,24168,22091
+utgift,0414,21,Spesielle driftsutgifter..............,110,2140,44949,47089,39533,7556,2247
+utgift,0430,01,"Driftsutgifter, kan nyttes under kap. 431, post 1",110,27173,5721131,5748304,5648031,100273,105232
+utgift,0430,21,"Spesielle driftsutgifter, kan overføres, kan nyttes under kap. 430, post 1",110,5004,120631,125635,141052,-15417,2524
+utgift,0430,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",110,42634,119051,161685,81096,80589,80589
+utgift,0430,60,"Refusjoner til kommunene, forvaringsdømte mv., kan overføres",110,10805,114220,125025,110939,14086,14086
+utgift,0430,70,Tilskudd.....................................,110,0,43385,43385,43385,0,0
+utgift,0431,01,"Driftsutgifter, kan nyttes under kap. 430, post 1",110,459,164693,165152,164976,176,2713
+utgift,0432,01,Driftsutgifter..............................,110,109,253278,253387,251106,2281,4887
+utgift,0433,01,Driftsutgifter..............................,110,3949,165371,169320,160990,8330,8341
+utgift,0433,60,"Tilskudd til kommuner, kan overføres",110,0,11208,11208,11208,0,0
+utgift,0433,70,Tilskudd.....................................,110,0,26553,26553,26553,0,0
+utgift,0440,01,"Driftsutgifter, kan nyttes under kap. 441, post 1 og kap. 443, post 1",111,159071,23369345,23528416,22369358,1159058,1104986
+utgift,0440,22,"Søk etter antatt omkomne, kan overføres",111,0,5000,5000,3833,1167,0
+utgift,0440,23,Sideutgifter i forbindelse med sivile gjøremål...........................,111,0,28053,28053,27556,497,0
+utgift,0440,25,"Variable utgifter ved ankomst, mottak og retur i politiets utlendingsforvaltning...............",111,12626,210958,223584,199567,24017,10548
+utgift,0440,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",111,28912,23617,52529,29097,23432,23432
+utgift,0440,46,"Investeringer i Schengen IT- systemer, kan overføres",111,87570,96014,183584,171383,12201,12201
+utgift,0440,48,"Tildeling fra EUs grense- og visumfinansieringsordninger, kan overføres",111,818,165577,166395,127321,39074,39074
+utgift,0440,70,Tilskudd.....................................,111,0,53853,53853,53769,84,0
+utgift,0440,73,"Internasjonale forpliktelser, mv., kan overføres",111,87321,1045041,1132362,1063759,68603,68603
+utgift,0440,74,Midlertidig destruksjonspant for enkelte typer halvautomatiske rifler...............,111,0,4000,4000,2492,1508,0
+utgift,0441,01,"Driftsutgifter, kan nyttes under kap. 440, post 1",111,118,386794,386912,376802,10110,10110
+utgift,0442,01,Driftsutgifter..............................,111,5800,711331,717131,685634,31497,34780
+utgift,0443,01,"Driftsutgifter, kan nyttes under kap. 440, post 1",111,0,1630588,1630588,1589773,40815,40815
+utgift,0444,01,Driftsutgifter..............................,111,30421,1679136,1709557,1623907,85650,85022
+utgift,0444,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",111,28711,61890,90601,38596,52005,48805
+utgift,0445,01,Driftsutgifter..............................,112,605,395406,396011,377016,18995,18995
+utgift,0446,01,Driftsutgifter..............................,112,0,5609,5609,5594,15,95
+utgift,0448,01,Driftsutgifter..............................,112,0,7313,7313,7313,0,68
+utgift,0451,01,Driftsutgifter..............................,112,25331,1569891,1595222,1518046,77176,76666
+utgift,0451,21,Spesielle driftsutgifter..............,112,1559,26463,28022,16144,11878,1323
+utgift,0451,22,"Spesielle driftsutgifter - Nødnett, kan overføres",112,78695,601410,680105,595319,84786,117574
+utgift,0451,23,Variable utgifter EUs ordning for sivil beredskap.....................,112,0,60000,60000,51207,8793,3000
+utgift,0451,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",112,122538,247221,369759,223765,145994,137019
+utgift,0451,70,Overføringer til private.............,112,0,7743,7743,7743,0,0
+utgift,0452,01,Driftsutgifter..............................,112,167,29892,30059,29545,514,514
+utgift,0453,01,Driftsutgifter..............................,112,1989,62123,64112,60322,3790,3790
+utgift,0454,01,Driftsutgifter..............................,112,46210,986626,1032836,924792,108044,55151
+utgift,0454,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",112,4141,1303224,1307365,924564,382801,0
+utgift,0455,01,Driftsutgifter..............................,112,0,158700,158700,157184,1516,2830
+utgift,0455,21,Spesielle driftsutgifter..............,112,0,31755,31755,41577,-9822,0
+utgift,0455,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",112,905,7056,7961,6718,1243,1243
+utgift,0455,71,Tilskudd til frivillige organisasjoner i rednings- tjenesten.....................................,112,0,89450,89450,89449,1,0
+utgift,0455,72,Tilskudd til nød- og sikkerhetstjenester...................,113,0,135953,135953,135370,583,0
+utgift,0455,73,Tilskudd til Redningsselskapet,113,0,140098,140098,140098,0,0
+utgift,0457,01,Driftsutgifter..............................,113,1384,548629,550013,537427,12586,14928
+utgift,0457,21,Spesielle driftsutgifter..............,113,52747,0,52747,52740,7,0
+utgift,0457,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",113,13557,25943,39500,13132,26368,26368
+utgift,0460,01,Driftsutgifter..............................,113,0,72481,72481,68222,4259,4259
+utgift,0466,01,Driftsutgifter..............................,113,0,1533162,1533162,1642680,-109518,2162
+utgift,0467,01,Driftsutgifter..............................,113,0,9050,9050,7233,1817,0
+utgift,0468,01,Driftsutgifter..............................,113,694,28150,28844,27779,1065,1065
+utgift,0470,01,Driftsutgifter..............................,113,0,852068,852068,652449,199619,42603
+utgift,0470,72,Tilskudd til spesielle rettshjelptiltak...........................,113,0,74295,74295,74295,0,0
+utgift,0471,71,"Erstatningsansvar m.m., overslagsbevilgning",113,0,250000,250000,272480,-22480,0
+utgift,0471,72,"Erstatning i anledning av straffeforfølging, overslagsbevilgning",113,0,120000,120000,85955,34045,0
+utgift,0471,73,Stortingets rettferds- vederlagsordning......................,114,0,35000,35000,31830,3170,0
+utgift,0473,01,Driftsutgifter..............................,114,2851,149014,151865,142901,8964,9235
+utgift,0473,21,Spesielle driftsutgifter..............,114,3145,98883,102028,87158,14870,4944
+utgift,0473,70,"Erstatning til voldsofre, overslagsbevilgning",114,0,560000,560000,520430,39570,0
+utgift,0475,01,"Driftsutgifter, overslagsbevilgning",114,0,133176,133176,149836,-16660,0
+utgift,0475,21,"Spesielle driftsutgifter, kan overføres",114,68,8924,8992,9561,-569,0
+utgift,0480,50,Tilskudd.....................................,114,0,576048,576048,554692,21356,0
+utgift,0481,01,Driftsutgifter..............................,114,3000,61920,64920,59892,5028,3804
+utgift,0490,01,Driftsutgifter..............................,114,5429,1325486,1330915,1298716,32199,32767
+utgift,0490,21,"Spesielle driftsutgifter, asylmottak.................................",114,0,3015258,3015258,3008681,6577,0
+utgift,0490,22,"Spesielle driftsutgifter, tolk og oversettelse................................",114,0,21542,21542,16116,5426,0
+utgift,0490,23,"Spesielle driftsutgifter, kunnskapsutvikling, kan overføres",114,3004,7079,10083,5768,4315,4315
+utgift,0490,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",114,8094,45416,53510,46837,6673,6673
+utgift,0490,46,"Investeringer i Schengen IT-systemer, kan overføres",114,80385,68520,148905,82667,66238,66238
+utgift,0490,60,Tilskudd til vertskommuner for asylmottak.................................,114,0,412659,412659,407109,5550,0
+utgift,0490,70,Stønader til beboere i asylmottak...............................,114,0,669210,669210,662108,7102,0
+utgift,0490,71,"Tilskudd til aktivitetstilbud for barn i asylmottak, og veiledning for au pairer...............................",115,0,9202,9202,9124,78,0
+utgift,0490,72,"Assistert retur og reintegrering i hjemlandet, kan overføres",115,1600,49912,51512,52603,-1091,0
+utgift,0490,73,"Beskyttelse til flyktninger utenfor Norge mv., støttetiltak",115,0,14325,14325,14300,25,0
+utgift,0490,74,"Internasjonale forpliktelser, kontingenter mv., kan overføres",115,0,66897,66897,66897,0,0
+utgift,0490,75,"Reiseutgifter for flyktninger fra utlandet, kan overføres",115,17441,14429,31870,29847,2023,2023
+utgift,0490,76,"Internasjonalt migrasjons- arbeid, kan overføres",115,2044,27220,29264,17273,11991,11991
+utgift,0491,01,"Driftsutgifter, kan nyttes under post 21",115,12113,291804,303917,292077,11840,11840
+utgift,0491,21,"Spesielle driftsutgifter, nemndbehandling mv., kan nyttes under post 1",115,0,8682,8682,8673,9,9
+utgift,0500,01,Driftsutgifter..............................,115,11877,302201,314078,298031,16047,16047
+utgift,0500,21,"Spesielle driftsutgifter, kan overføres, kan nyttes under post 70",115,14613,53844,68457,58480,9977,9977
+utgift,0500,50,Forskningsmidler til Norges forskningsråd m.m. .................,115,0,72741,72741,72741,0,0
+utgift,0500,70,"Diverse formål, kan overføres, kan nyttes under post 21",115,1859,2293,4152,1875,2277,2277
+utgift,0553,60,Kompetanse og arbeidskraft i distriktene................................,115,0,62940,62940,62940,0,0
+utgift,0553,61,Mobiliserende og kvalifiserende næringsutvikling.......................,115,0,802091,802091,802091,0,0
+utgift,0553,63,"Interreg, Arktis 2030 og det norske Barentssekretariatet....",116,0,145403,145403,145403,0,0
+utgift,0553,64,"Pilot nærtjenestesentre, kan overføres",116,10000,5000,15000,0,15000,15000
+utgift,0553,65,Omstilling og utvikling i områder med særlige distriktsutfordringer.................,116,0,120559,120559,120559,0,0
+utgift,0553,66,"Bygdevekstavtaler, kan overføres",116,32539,74731,107270,49404,57866,57866
+utgift,0553,67,Utviklingstiltak i Andøy kommune...................................,116,0,170000,170000,170000,0,0
+utgift,0553,69,Mobilisering til forskningsbasert innovasjon....,116,0,66332,66332,66332,0,0
+utgift,0553,71,Investeringstilskudd for store grønne investeringer................,116,0,101528,101528,101528,0,0
+utgift,0553,74,Klynger og innovasjon..............,116,0,28322,28322,28322,0,0
+utgift,0553,76,"Nordisk og europeisk samarbeid, kan overføres",116,11,18659,18670,17580,1090,1090
+utgift,0554,01,Driftsutgifter..............................,116,49,36303,36352,34375,1977,1977
+utgift,0554,73,"Merkur, kan overføres",116,40925,69531,110456,73549,36907,36907
+utgift,0560,50,"Samisk språk, kultur og samfunnsliv................................",116,0,666721,666721,666721,0,0
+utgift,0560,51,Divvun........................................,116,0,12919,12919,12919,0,0
+utgift,0560,55,Samisk høgskole.......................,116,0,8150,8150,8150,0,0
+utgift,0563,01,Driftsutgifter..............................,116,217,6740,6957,6729,228,228
+utgift,0563,21,"Spesielle driftsutgifter, kan overføres",116,0,3141,3141,6375,-3234,0
+utgift,0567,60,"Romer, kan overføres",116,1309,6937,8246,7960,286,286
+utgift,0567,70,"Nasjonale minoriteter, kan overføres",116,488,10117,10605,9558,1047,1047
+utgift,0567,72,Jødiske samfunn i Norge.........,117,0,14806,14806,14806,0,0
+utgift,0567,73,"Kvensk språk og kvensk/ norskfinsk kultur, kan overføres",117,1367,17679,19046,15664,3382,3382
+utgift,0567,74,Kultur- og ressurssenter for norske romer.............................,117,0,18266,18266,18266,0,0
+utgift,0567,75,"Romanifolket/taterne, kan overføres",117,17367,5825,23192,6029,17163,17163
+utgift,0571,21,"Spesielle driftsutgifter, kan overføres",117,2527,23165,25692,22617,3075,3075
+utgift,0571,60,Innbyggertilskudd....................,117,0,175083156,175083156,175083156,0,0
+utgift,0571,61,Distriktstilskudd Sør-Norge....,117,0,874619,874619,874619,0,0
+utgift,0571,62,Distriktstilskudd Nord-Norge.,117,0,2429852,2429852,2429852,0,0
+utgift,0571,64,"Skjønnstilskudd, kan overføres",117,1133439,825000,1958439,1805945,152494,152494
+utgift,0571,65,Regionsentertilskudd...............,117,0,221555,221555,221555,0,0
+utgift,0571,66,Veksttilskudd............................,117,0,282395,282395,282395,0,0
+utgift,0571,67,Storbytilskudd...........................,117,0,671333,671333,671333,0,0
+utgift,0572,60,Innbyggertilskudd....................,117,0,48741308,48741308,48741308,0,0
+utgift,0572,62,Nord-Norge-tilskudd................,117,0,773174,773174,773174,0,0
+utgift,0573,62,Delingskostnader......................,117,0,213674,213674,213700,-26,0
+utgift,0575,60,"Toppfinansieringsordning, overslagsbevilgning",117,0,13504511,13504511,13504511,0,0
+utgift,0575,61,Tilleggskompensasjon..............,117,0,88409,88409,88409,0,0
+utgift,0577,01,Driftsutgifter..............................,117,383,5891,6274,5489,785,295
+utgift,0577,70,Sentrale organisasjoner............,117,0,364019,364019,363505,514,0
+utgift,0577,71,Kommunale organisasjoner.....,117,0,39201,39201,38788,413,0
+utgift,0577,73,Fylkesorganisasjoner...............,117,0,85668,85668,85321,347,0
+utgift,0577,75,Fylkesungdomsorganisasjoner,117,0,31036,31036,28702,2334,0
+utgift,0577,76,Sentrale ungdoms- organisasjoner...........................,118,0,12349,12349,12185,164,0
+utgift,0578,01,Driftsutgifter..............................,118,5479,64220,69699,69542,157,955
+utgift,0581,70,"Bostøtte, overslagsbevilgning",118,0,4394000,4394000,4349956,44044,0
+utgift,0581,76,"Utleieboliger og forsøk med nye boligmodeller, kan overføres",118,31601,177816,209417,180708,28709,28709
+utgift,0581,78,"Boligtiltak, kan overføres",118,8400,26799,35199,14135,21064,18900
+utgift,0581,79,"Heis og tilstandsvurdering, kan overføres",118,30000,27810,57810,2607,55203,36000
+utgift,0585,01,Driftsutgifter..............................,118,1962,40963,42925,39658,3267,2821
+utgift,0587,01,Driftsutgifter..............................,118,3620,128718,132338,124118,8220,8782
+utgift,0587,22,"Kunnskapsutvikling og informasjonsformidling, kan overføres",118,4958,36370,41328,38303,3025,3025
+utgift,0590,65,"Områdesatsing i byer, kan overføres",118,0,152650,152650,152650,0,0
+utgift,0590,71,DOGA.........................................,118,0,43813,43813,43813,0,0
+utgift,0590,72,"Bolig- og områdeutvikling i byer, kan overføres",118,1221,20870,22091,18909,3182,3182
+utgift,0590,81,"Kompetansetiltak, kan overføres",118,105,6714,6819,6701,118,118
+utgift,0595,01,"Driftsutgifter, kan nyttes under post 21 og 45",118,0,1059934,1059934,1035502,24432,20796
+utgift,0595,21,"Spesielle driftsutgifter, kan overføres, kan nyttes under post 1 og 45",118,11272,359736,371008,321438,49570,24589
+utgift,0595,30,"Geodesiobservatoriet, kan overføres",119,2600,31500,34100,25922,8178,8178
+utgift,0600,01,Driftsutgifter..............................,119,5335,292531,297866,287908,9958,9958
+utgift,0601,21,"Spesielle driftsutgifter, kan overføres",119,24339,115130,139469,127249,12220,12220
+utgift,0601,22,"Kunnskapsutvikling i IA-avtalen mv., kan overføres",119,23339,28200,51539,21732,29807,29807
+utgift,0601,23,Tiltak for redusert deltid og økt heltidsandel.........................,119,2091,15090,17181,15694,1487,755
+utgift,0601,50,Norges forskningsråd..............,119,0,165150,165150,165150,0,0
+utgift,0601,70,Tilskudd.....................................,119,0,51015,51015,50389,626,0
+utgift,0601,71,"Tilskudd til bransje- programmer under IA-avtalen mv., kan overføres",119,0,62368,62368,62368,0,0
+utgift,0601,72,Tilskudd til Senter for seniorpolitikk............................,119,0,18830,18830,18830,0,0
+utgift,0601,73,Tilskudd til trygderettslig/EØS- rettslig forskning og kompetanseutvikling................,119,0,4046,4046,4046,0,0
+utgift,0604,21,"Spesielle driftsutgifter, kan overføres, kan nyttes under post 45",119,31504,136930,168434,144498,23936,23936
+utgift,0604,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres, kan nyttes under post 21",119,15605,117149,132754,127231,5523,5523
+utgift,0605,01,Driftsutgifter..............................,119,160473,14169387,14329860,13942814,387046,388577
+utgift,0605,22,"Forsknings- og utrednings- aktiviteter, kan overføres",119,10281,67435,77716,57951,19765,19765
+utgift,0605,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",120,24118,343155,367273,332177,35096,35096
+utgift,0606,01,Driftsutgifter..............................,120,2415,121910,124325,118223,6102,6102
+utgift,0611,01,"Driftsutgifter, overslagsbevilgning",120,0,18300,18300,17749,551,0
+utgift,0612,01,"Driftsutgifter, overslagsbevilgning",120,0,8118000,8118000,7696119,421881,0
+utgift,0612,70,"For andre medlemmer av Statens pensjonskasse, overslagsbevilgning",120,0,91000,91000,65924,25076,0
+utgift,0613,01,"Driftsutgifter, overslagsbevilgning",120,0,1000,1000,1000,0,0
+utgift,0621,21,Spesielle driftsutgifter..............,120,4621,103505,108126,101709,6417,5175
+utgift,0621,63,"Sosiale tjenester og tiltak for vanskeligstilte, kan overføres",120,38682,174790,213472,207663,5809,5809
+utgift,0621,70,"Frivillig arbeid, kan overføres",120,4639,108230,112869,111042,1827,1827
+utgift,0621,74,Tilskudd til pensjonistenes organisasjoner mv. ...................,120,0,15885,15885,15885,0,0
+utgift,0634,01,Driftsutgifter..............................,120,0,599443,599443,575555,23888,12473
+utgift,0634,21,"Forsøk med tilrettelagt videre- gående opplæring, kan overføres",120,8000,43876,51876,34404,17472,12000
+utgift,0634,76,"Tiltak for arbeidssøkere, kan overføres",121,158441,7837805,7996246,8311577,-315331,0
+utgift,0634,77,"Varig tilrettelagt arbeid, kan overføres",121,47400,2072020,2119420,2053053,66367,0
+utgift,0634,78,Tilskudd til arbeids- og utdanningsreiser.......................,121,0,106720,106720,108508,-1788,0
+utgift,0634,79,"Funksjonsassistanse i arbeidslivet, kan overføres",121,7394,124110,131504,124640,6864,0
+utgift,0635,01,"Driftsutgifter, overslagsbevilgning",121,0,700,700,687,13,0
+utgift,0640,01,Driftsutgifter..............................,121,10348,872841,883189,839500,43689,45389
+utgift,0640,21,"Spesielle driftsutgifter, regionale verneombud.............",121,0,17330,17330,17555,-225,0
+utgift,0643,50,Statstilskudd..............................,121,0,173450,173450,173450,0,0
+utgift,0646,71,"Oppreisning, kan overføres",121,264,0,264,0,264,264
+utgift,0646,72,"Tilskudd, kan overføres",121,101,1625,1726,1625,101,0
+utgift,0648,01,Driftsutgifter..............................,121,0,35800,35800,34815,985,985
+utgift,0648,70,Tilskudd til faglig utvikling......,121,0,2130,2130,2130,0,0
+utgift,0660,70,"Tilskudd, militære, overslagsbevilgning",121,0,23000,23000,21521,1479,0
+utgift,0660,71,"Tilskudd, sivile, overslagsbevilgning",121,0,74000,74000,75498,-1498,0
+utgift,0664,70,Tilskudd.....................................,122,0,21000,21000,21000,0,0
+utgift,0666,70,"Tilskudd, overslagsbevilgning",122,0,4030000,4030000,4036066,-6066,0
+utgift,0667,70,"Tilskudd til personer over 67 år med kort botid, overslagsbevilgning",122,0,390000,390000,385181,4819,0
+utgift,0667,71,"Tilskudd til uføre flyktninger med kort botid, overslagsbevilgning",122,0,196000,196000,198827,-2827,0
+utgift,0670,01,Driftsutgifter..............................,122,17002,383646,400648,388810,11838,11838
+utgift,0671,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",122,12501,48940,61441,51962,9479,9479
+utgift,0671,60,"Integreringstilskudd, kan overføres",122,0,21995974,21995974,21504529,491445,0
+utgift,0671,61,"Særskilt tilskudd ved bosetting av enslige, mindreårige flyktninger, overslagsbevilgning",122,0,1802566,1802566,1622179,180387,0
+utgift,0671,62,Kommunale integreringstiltak,122,0,278651,278651,268833,9818,0
+utgift,0671,70,"Bosettingsordningen og integreringstilskudd, oppfølging",122,0,2645,2645,2645,0,0
+utgift,0671,71,Tilskudd til integreringsarbeid i regi av sivilsamfunn og frivillige organisasjoner............,122,0,217493,217493,215219,2274,0
+utgift,0671,72,Kvalifiseringsordninger for tolker....................................,122,0,21513,21513,21480,33,0
+utgift,0671,73,Tilskudd.....................................,122,0,20150,20150,19968,182,0
+utgift,0672,21,"Spesielle driftsutgifter, kan overføres",122,39753,95665,135418,115019,20399,20399
+utgift,0672,22,Prøver i norsk og samfunns- kunnskap for voksne innvandrere...............................,122,1922,34225,36147,35396,751,0
+utgift,0672,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",123,6100,12000,18100,18100,0,0
+utgift,0672,60,Tilskudd til opplæring i norsk og samfunnskunnskap for voksne innvandrere..................,123,0,2105801,2105801,2122754,-16953,0
+utgift,0672,61,Kompetansekartlegging i mottak før bosetting...............,123,0,1066,1066,732,334,0
+utgift,0700,01,Driftsutgifter..............................,123,14371,310675,325046,304141,20905,20905
+utgift,0701,21,"Spesielle driftsutgifter, kan overføres, kan nyttes under post 70",123,96993,388751,485744,379703,106041,91541
+utgift,0701,60,Tilskudd til helseteknologi i kommunal helse- og omsorgstjeneste........................,123,0,56700,56700,71200,-14500,0
+utgift,0701,70,Norsk Helsenett SF..................,123,0,72244,72244,72244,0,0
+utgift,0701,73,"Tilskudd til innføring av helse- teknologi i kommunal sektor, kan overføres",123,0,43225,43225,43225,0,0
+utgift,0702,21,"Spesielle driftsutgifter, kan overføres, kan nyttes under post 70",123,3049,36073,39122,32790,6332,6332
+utgift,0702,22,"Beredskapslagring legemidler, kan overføres, kan nyttes under post 71",123,99962,-10000,89962,34330,55632,0
+utgift,0702,70,"Tilskudd, kan overføres, kan nyttes under post 21",123,0,4635,4635,4635,0,0
+utgift,0702,72,Kompensasjon til legemiddel- grossister...................................,123,0,74892,74892,74836,56,0
+utgift,0703,21,"Spesielle driftsutgifter, kan overføres",123,0,12813,12813,9066,3747,3747
+utgift,0703,71,Internasjonale organisasjoner.,123,0,339783,339783,339054,729,0
+utgift,0703,72,Tilskudd til Verdens helse- organisasjon (WHO) ...............,124,0,22453,22453,15646,6807,0
+utgift,0704,01,Driftsutgifter..............................,124,86,71935,72021,71090,931,1011
+utgift,0704,21,"Spesielle driftsutgifter, kan overføres",124,465,9498,9963,10543,-580,106
+utgift,0709,01,Driftsutgifter..............................,124,2230,88601,90831,84058,6773,5768
+utgift,0710,21,"Spesielle driftsutgifter, kan overføres",124,10000,223402,233402,241022,-7620,0
+utgift,0710,22,"Salgs- og beredskapsprodukter m.m., kan overføres",124,0,258009,258009,253541,4468,36047
+utgift,0710,23,"Vaksiner og vaksinasjon mot covid-19, kan overføres",124,597000,0,597000,289789,307211,307211
+utgift,0712,01,Driftsutgifter..............................,124,692,14238,14930,13696,1234,948
+utgift,0714,21,"Spesielle driftsutgifter, kan overføres, kan nyttes under postene 70, 74 og 79",124,0,128962,128962,113779,15183,15183
+utgift,0714,22,Gebyrfinansierte ordninger.....,124,0,20241,20241,19995,246,501
+utgift,0714,60,"Kommunale tiltak, kan overføres, kan nyttes under post 21",124,0,95118,95118,93388,1730,1730
+utgift,0714,70,"Rusmiddeltiltak mv., kan overføres, kan nyttes under post 21",124,2500,193004,195504,195342,162,162
+utgift,0714,74,"Skolefrukt mv., kan overføres, kan nyttes under post 21",124,0,22880,22880,20660,2220,2220
+utgift,0714,79,"Andre tilskudd, kan overføres, kan nyttes under post 21",124,12860,61472,74332,64958,9374,9374
+utgift,0717,21,"Spesielle driftsutgifter, kan overføres",125,681,9854,10535,10200,335,335
+utgift,0717,70,Tilskudd.....................................,125,0,72300,72300,72305,-5,0
+utgift,0732,21,"Spesielle driftsutgifter, kan overføres",125,0,70731,70731,67362,3369,3369
+utgift,0732,70,"Særskilte tilskudd, kan overføres, kan nyttes under postene 72, 73, 74 og 75",125,0,4009629,4009629,4009629,0,0
+utgift,0732,71,"Resultatbasert finansiering, kan overføres",125,0,646145,646145,646145,0,0
+utgift,0732,72,"Basisbevilgning Helse Sør-Øst RHF, kan overføres",125,0,78014868,78014868,78014868,0,0
+utgift,0732,73,"Basisbevilgning Helse Vest RHF, kan overføres",125,0,27539909,27539909,27539909,0,0
+utgift,0732,74,"Basisbevilgning Helse Midt- Norge RHF, kan overføres",125,0,20442124,20442124,20442124,0,0
+utgift,0732,75,"Basisbevilgning Helse Nord RHF, kan overføres",125,0,17651877,17651877,17651877,0,0
+utgift,0732,76,"Innsatsstyrt finansiering, overslagsbevilgning",125,0,39118664,39118664,39118664,0,0
+utgift,0732,77,"Laboratorie- og radiologiske undersøkelser, overslagsbevilgning",125,0,4499644,4499644,4660799,-161155,0
+utgift,0732,78,"Forskning og nasjonale kompetansetjenester, kan overføres",125,0,1492468,1492468,1492468,0,0
+utgift,0732,80,"Kompensasjon for merverdi- avgift, overslagsbevilgning",125,0,10149658,10149658,10162285,-12627,0
+utgift,0732,81,"Protonsenter, kan overføres",125,0,212563,212563,212563,0,0
+utgift,0732,82,"Investeringslån, kan overføres",125,0,9711108,9711108,9711108,0,0
+utgift,0732,83,"Byggelånsrenter, overslagsbevilgning",125,0,1782000,1782000,1773889,8111,0
+utgift,0732,86,Driftskreditter...........................,125,0,1813000,1813000,1813000,0,0
+utgift,0733,21,"Spesielle driftsutgifter, kan nyttes under post 79",125,0,3832,3832,4765,-933,0
+utgift,0733,70,Behandlingsreiser til utlandet.,125,0,116949,116949,116949,0,0
+utgift,0733,79,"Andre tilskudd, kan nyttes under post 21",125,0,3716,3716,1328,2388,0
+utgift,0734,01,Driftsutgifter..............................,126,0,107642,107642,119018,-11376,2053
+utgift,0734,21,Spesielle driftsutgifter..............,126,735,15942,16677,13423,3254,797
+utgift,0734,70,Hjemhenting ved alvorlig psykisk lidelse mv. ...................,126,0,3327,3327,1806,1521,0
+utgift,0734,71,Tvungen omsorg for psykisk utviklingshemmede..................,126,0,425000,425000,422177,2823,0
+utgift,0734,72,Utviklingsområder innen psykisk helsevern og rus.........,126,0,14618,14618,14618,0,0
+utgift,0737,70,"Tilskudd, overslagsbevilgning",126,0,130011,130011,83518,46493,0
+utgift,0740,01,Driftsutgifter..............................,126,1074,1545663,1546737,1523373,23364,28465
+utgift,0740,21,"Spesielle driftsutgifter, kan overføres",126,26431,143091,169522,131752,37770,37770
+utgift,0740,61,Oppgjørsordning for covid-19 vaksinering................................,126,0,0,0,-7495,7495,0
+utgift,0740,70,Oppgjørsordning helsetjenester i annet EØS-land.......................,126,0,0,0,-52,52,0
+utgift,0740,71,Oppgjørsordningen h-reseptlegemidler....................,126,0,0,0,2388,-2388,0
+utgift,0740,72,Oppgjørsordningen fritt behandlingsvalg........................,126,0,0,0,6822,-6822,0
+utgift,0740,73,Oppgjørsordning Statens pensjonskasse...........................,126,0,0,0,14,-14,0
+utgift,0741,01,Driftsutgifter..............................,126,0,253928,253928,289580,-35652,3556
+utgift,0741,70,Advokatutgifter.........................,126,0,54780,54780,50057,4723,0
+utgift,0741,71,Særskilte tilskudd.....................,126,0,34931,34931,36003,-1072,0
+utgift,0742,01,Driftsutgifter..............................,126,3678,192123,195801,198655,-2854,6745
+utgift,0742,21,"Spesielle driftsutgifter, kan overføres",126,3893,16907,20800,25177,-4377,0
+utgift,0745,01,Driftsutgifter..............................,127,39414,1517128,1556542,1515452,41090,82090
+utgift,0745,21,"Spesielle driftsutgifter, kan overføres",127,34981,277457,312438,385603,-73165,41198
+utgift,0745,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",127,8658,14856,23514,20243,3271,3271
+utgift,0746,01,Driftsutgifter..............................,127,1289,451536,452825,492451,-39626,8648
+utgift,0746,21,"Spesielle driftsutgifter, kan overføres",127,0,44434,44434,35846,8588,8588
+utgift,0747,01,Driftsutgifter..............................,127,0,178910,178910,176090,2820,3274
+utgift,0747,21,"Spesielle driftsutgifter, kan overføres",127,0,14908,14908,6273,8635,0
+utgift,0747,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",127,4507,5350,9857,7681,2176,2176
+utgift,0748,01,Driftsutgifter..............................,127,49,187422,187471,181511,5960,5916
+utgift,0749,01,Driftsutgifter..............................,127,536,44960,45496,43305,2191,2191
+utgift,0761,21,"Spesielle driftsutgifter, kan nyttes under post 79",127,6000,144871,150871,142196,8675,7244
+utgift,0761,60,"Kommunale kompetansetiltak, kan overføres",127,0,10410,10410,10410,0,0
+utgift,0761,61,Vertskommuner........................,127,0,807853,807853,807853,0,0
+utgift,0761,63,"Investeringstilskudd - rehabilitering, kan overføres, kan nyttes under post 69",127,1900000,1957235,3857235,1815292,2041943,1500000
+utgift,0761,64,Kompensasjon for renter og avdrag.........................................,127,0,975000,975000,972920,2080,0
+utgift,0761,67,Utviklingstiltak..........................,127,0,90767,90767,90131,636,0
+utgift,0761,68,Kompetanse og innovasjon......,127,0,445640,445640,444634,1006,0
+utgift,0761,69,"Investeringstilskudd - netto tilvekst, kan overføres",127,0,479530,479530,791785,-312255,0
+utgift,0761,71,Frivillig arbeid mv. ...................,127,0,29784,29784,29784,0,0
+utgift,0761,72,Landsbystiftelsen......................,128,0,96365,96365,96365,0,0
+utgift,0761,73,Særlige omsorgsbehov.............,128,0,47359,47359,46687,672,0
+utgift,0761,75,Andre kompetansetiltak...........,128,0,15586,15586,15586,0,0
+utgift,0761,79,"Andre tilskudd, kan nyttes under post 21",128,0,160868,160868,156314,4554,0
+utgift,0762,21,"Spesielle driftsutgifter, kan nyttes under post 70",128,10500,216111,226611,181829,44782,10806
+utgift,0762,60,Forebyggende helsetjenester..,128,0,481355,481355,481221,134,0
+utgift,0762,61,Vertskommunetilskudd - Tjenester til innsatte og internerte...................................,128,0,211802,211802,211802,0,0
+utgift,0762,63,Allmennlegetjenester...............,128,0,692802,692802,691142,1660,0
+utgift,0762,70,"Tilskudd, kan nyttes under post 21",128,0,114169,114169,119087,-4918,0
+utgift,0762,73,"Seksuell helse, kan overføres",128,0,62267,62267,63209,-942,0
+utgift,0762,74,Stiftelsen Amathea....................,128,0,20779,20779,20779,0,0
+utgift,0765,21,"Spesielle driftsutgifter, kan overføres, kan nyttes under post 72",128,31600,193511,225111,187743,37368,17000
+utgift,0765,60,"Kommunale tjenester, kan overføres",128,0,363697,363697,363961,-264,0
+utgift,0765,62,"Rusarbeid, kan overføres",128,0,469953,469953,470250,-297,0
+utgift,0765,71,"Brukere og pårørende, kan overføres",128,0,168931,168931,168898,33,0
+utgift,0765,72,"Frivillig arbeid mv., kan overføres, kan nyttes under post 21",128,0,582957,582957,582942,15,0
+utgift,0765,73,Utviklingstiltak mv. ..................,128,0,140430,140430,139961,469,0
+utgift,0765,74,"Kompetansesentre, kan overføres",128,0,394119,394119,392802,1317,0
+utgift,0765,75,"Vold og traumatisk stress, kan overføres",128,0,299829,299829,288764,11065,0
+utgift,0770,21,"Spesielle driftsutgifter, kan overføres, kan nyttes under post 70",129,2024,36321,38345,36360,1985,0
+utgift,0770,70,"Tilskudd, kan overføres, kan nyttes under post 21",129,0,419105,419105,410132,8973,0
+utgift,0780,50,Norges forskningsråd mv. ......,129,0,413114,413114,413114,0,0
+utgift,0781,21,"Spesielle driftsutgifter, kan overføres, kan nyttes under post 79",129,0,16953,16953,19114,-2161,0
+utgift,0781,79,"Tilskudd, kan nyttes under post 21",129,0,56819,56819,54321,2498,0
+utgift,0783,21,"Spesielle driftsutgifter, kan nyttes under post 79",129,0,35049,35049,48929,-13880,0
+utgift,0783,61,Tilskudd til kommuner.............,129,0,243714,243714,243656,58,0
+utgift,0783,79,"Andre tilskudd, kan nyttes under post 21",129,0,33795,33795,19046,14749,0
+utgift,0800,01,Driftsutgifter..............................,129,8277,170892,179169,169400,9769,9769
+utgift,0800,21,Spesielle driftsutgifter..............,129,533,10882,11415,10834,581,544
+utgift,0800,50,Norges forskningsråd..............,129,0,52821,52821,52821,0,0
+utgift,0840,21,"Spesielle driftsutgifter, kan nyttes under post 70 og kap. 846, post 62",130,0,24074,24074,19008,5066,1204
+utgift,0840,61,"Tilskudd til incest- og voldtekts- sentre, overslagsbevilgning",130,0,121950,121950,122026,-76,0
+utgift,0840,70,"Tilskudd til voldsforebyggende tiltak mv., kan nyttes under post 21 og post 61 og kap. 858, post 1",130,0,157720,157720,158742,-1022,0
+utgift,0840,73,"Tilskudd til senter for volds- utsatte barn, kan overføres",130,0,39232,39232,39232,0,0
+utgift,0841,21,"Spesielle driftsutgifter, meklingsgodtgjørelse, overslagsbevilgning",130,0,16016,16016,15999,17,0
+utgift,0841,22,"Opplæring, forskning, utvikling mv. .............................................",130,370,6698,7068,5782,1286,335
+utgift,0841,23,"Refusjon av utgifter til DNA-analyser, overslagsbevilgning",130,0,6001,6001,4717,1284,0
+utgift,0842,01,"Driftsutgifter, kan nyttes under post 70",130,0,413438,413438,411934,1504,7674
+utgift,0842,21,"Spesielle driftsutgifter, kan overføres",130,2750,23909,26659,22008,4651,4651
+utgift,0842,70,"Tilskudd til kirkens familievern- tjeneste mv., kan nyttes under post 1",130,0,265392,265392,252653,12739,0
+utgift,0843,70,"Tilskudd til foreldre som adopterer barn fra utlandet, overslagsbevilgning",130,0,4000,4000,3563,437,0
+utgift,0844,70,"Tilskudd, overslagsbevilgning",130,0,990000,990000,1005514,-15514,0
+utgift,0845,70,"Tilskudd, overslagsbevilgning",130,0,25600000,25600000,25628748,-28748,0
+utgift,0846,21,"Spesielle driftsutgifter, kan overføres, kan nyttes under post 61, post 62 og post 71",131,9640,54781,64421,49202,15219,14619
+utgift,0846,61,"Tilskudd til inkludering av barn og unge, kan nyttes under post 71",131,0,758299,758299,204068,554231,0
+utgift,0846,62,Utvikling i kommunene............,131,0,62740,62740,118206,-55466,0
+utgift,0846,70,Barne- og ungdoms- organisasjoner...........................,131,0,201318,201318,201318,0,0
+utgift,0846,71,"Utviklings- og opplysnings- arbeid mv., kan nyttes under post 21 og post 62",131,0,77016,77016,575493,-498477,0
+utgift,0846,79,"Tilskudd til internasjonalt ungdomssamarbeid mv., kan overføres",131,6,11340,11346,11154,192,192
+utgift,0847,01,"Driftsutgifter, kan overføres",131,1425,17265,18690,17487,1203,2491
+utgift,0848,01,Driftsutgifter..............................,131,1067,24831,25898,24458,1440,1440
+utgift,0853,01,Driftsutgifter..............................,131,2576,265249,267825,263869,3956,4276
+utgift,0854,21,Spesielle driftsutgifter..............,131,2810,54276,57086,51105,5981,2714
+utgift,0854,22,Barnesakkyndig kommisjon....,131,331,13855,14186,13755,431,431
+utgift,0854,23,"Kompetansehevingstiltak i barnevernet, kan nyttes under post 72",131,2546,56629,59175,50936,8239,2831
+utgift,0854,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",131,2252,2164,4416,2180,2236,2236
+utgift,0854,61,Utvikling i kommunene............,131,0,69973,69973,68125,1848,0
+utgift,0854,62,"Tilskudd til barnevernsfaglig videreutdanning, kan nyttes under post 23",131,0,29230,29230,28364,866,0
+utgift,0854,71,Utvikling og opplysningsarbeid mv. ............,131,0,41612,41612,41613,-1,0
+utgift,0854,72,"Tilskudd til forskning og kompetanseutvikling i barne- vernet, kan overføres, kan nyttes under post 23",132,0,132945,132945,131280,1665,1665
+utgift,0855,01,"Driftsutgifter, kan nyttes under post 22",132,6906,4618637,4625543,4600963,24580,93765
+utgift,0855,21,"Spesielle driftsutgifter, kan overføres",132,6047,28248,34295,26514,7781,7781
+utgift,0855,22,"Kjøp av private barneverns- tjenester, kan nyttes under post 1",132,0,4176857,4176857,4244695,-67838,0
+utgift,0856,01,"Driftsutgifter, kan nyttes under post 22",132,17124,150971,168095,172869,-4774,1229
+utgift,0856,22,"Kjøp av plasser i private omsorgssentre, kan nyttes under post 1",132,0,340467,340467,362784,-22317,0
+utgift,0858,01,Driftsutgifter..............................,132,6168,662278,668446,658324,10122,19335
+utgift,0858,21,Spesielle driftsutgifter..............,132,198,21846,22044,19793,2251,1092
+utgift,0860,50,Basisbevilgning.........................,132,0,92340,92340,92340,0,0
+utgift,0860,51,Markedsportaler.......................,132,0,32199,32199,32199,0,0
+utgift,0862,70,Driftstilskudd............................,132,0,16580,16580,16580,0,0
+utgift,0865,21,"Spesielle driftsutgifter, kan overføres, kan nyttes under post 50",132,1972,3129,5101,2332,2769,2769
+utgift,0865,50,"Forskning og undervisning, kan nyttes under post 21",132,0,8541,8541,8533,8,0
+utgift,0865,70,"Tilskudd, kan nyttes under post 21",132,0,1840,1840,1840,0,0
+utgift,0865,79,"EUs rammeprogram for forbrukerpolitikk, kan overføres",132,4902,7547,12449,8033,4416,4416
+utgift,0868,01,Driftsutgifter..............................,133,3622,139120,142742,134374,8368,9043
+utgift,0880,70,Rammetilskudd til Den norske kirke...........................................,133,0,2567435,2567435,2567435,0,0
+utgift,0880,71,Tilskudd til Sjømannskirken - Norsk kirke i utlandet..............,133,0,120143,120143,120143,0,0
+utgift,0881,21,Spesielle driftsutgifter..............,133,398,1601,1999,1915,84,80
+utgift,0881,70,"Tilskudd til tros- og livssyns- samfunn, overslagsbevilgning",133,0,1101231,1101231,1079972,21259,0
+utgift,0881,77,Nasjonaljubileet 2030................,133,0,9479,9479,9479,0,0
+utgift,0881,78,Ymse faste tiltak........................,133,0,19461,19461,19323,138,0
+utgift,0882,60,"Rentekompensasjon - kirkebygg, kan overføres",133,3982,125018,129000,128311,689,689
+utgift,0882,61,"Tilskudd til fredete og verneverdige kirkebygg, kan overføres",133,59676,0,59676,32961,26715,26715
+utgift,0882,70,Tilskudd til sentrale tiltak for kirkebygg og gravplasser........,133,0,14327,14327,14150,177,0
+utgift,0883,01,Driftsutgifter..............................,133,0,12171,12171,8919,3252,832
+utgift,0883,60,"Tilskudd til kulturhistorisk verdifulle kirkebygg, kan overføres",133,0,90000,90000,71831,18169,18169
+utgift,0883,70,Driftstilskudd bevaringsstrategi......................,133,0,5000,5000,5000,0,0
+utgift,0900,01,Driftsutgifter..............................,134,24838,511348,536186,508835,27351,28185
+utgift,0900,21,"Spesielle driftsutgifter, kan overføres",134,94598,80155,174753,64657,110096,110096
+utgift,0900,22,"Nukleære utredninger og prosjektledelse, kan overføres",134,5731,0,5731,2392,3339,231
+utgift,0900,23,Spesielle driftsutgifter til administrasjon av statlig garantiordning for lån til små og mellomstore bedrifter...............,134,0,5310,5310,5310,0,0
+utgift,0900,25,Drift og forvaltning av kompensasjonsordninger.........,134,804,12042,12846,6556,6290,0
+utgift,0900,26,"Forvaltning av grunneiendom på Svalbard, kan overføres",134,25056,9515,34571,12639,21932,21571
+utgift,0900,27,Etablering av støtteregister.....,134,5973,12700,18673,15353,3320,0
+utgift,0900,31,"Miljøtiltak Svea og Lunckefjell, kan overføres",134,0,34150,34150,34150,0,0
+utgift,0900,51,Tilskudd til Senter for hav og Arktis....................................,134,0,5961,5961,5961,0,0
+utgift,0900,70,Tilskudd til internasjonale organisasjoner...........................,134,0,65000,65000,62844,2156,0
+utgift,0900,71,Miljøtiltak Raufoss....................,134,0,7100,7100,7479,-379,0
+utgift,0900,72,Tilskudd til skipsfartsberedskap,134,0,4158,4158,4158,0,0
+utgift,0900,73,Tilskudd til entreprenørskaps- fremmende aktiviteter for ungdom......................................,134,0,34472,34472,34269,203,0
+utgift,0900,74,Tilskudd til Visit Svalbard AS..,134,0,3512,3512,3512,0,0
+utgift,0900,75,"Tilskudd til særskilte prosjekter, kan overføres",134,13117,17534,30651,21112,9539,9539
+utgift,0900,76,Tilskudd til Standard Norge....,134,0,47132,47132,47132,0,0
+utgift,0900,77,"Tilskudd til tiltak for økt sjømatkonsum, kan overføres",134,3166,3298,6464,4881,1583,1583
+utgift,0900,81,Tilskudd til Leverandør- utviklingsprogrammet..............,134,0,10020,10020,10020,0,0
+utgift,0900,85,"Midlertidig kompensasjons- ordning for foretak med stort omsetningsfall som følge av koronapandemien, overslagsbevilgning",134,0,5000,5000,2657,2343,0
+utgift,0902,01,Driftsutgifter..............................,135,6899,144113,151012,145722,5290,9308
+utgift,0902,21,Spesielle driftsutgifter..............,135,5,105,110,49,61,0
+utgift,0902,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",135,17585,10603,28188,6304,21884,20739
+utgift,0903,01,Driftsutgifter..............................,135,977,71949,72926,74019,-1093,899
+utgift,0904,01,Driftsutgifter..............................,135,15395,520278,535673,537015,-1342,6778
+utgift,0904,21,"Spesielle driftsutgifter, kan overføres",135,2724,91971,94695,73863,20832,20832
+utgift,0904,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",135,22478,170963,193441,174370,19071,19071
+utgift,0905,01,Driftsutgifter..............................,135,11001,227508,238509,223979,14530,14530
+utgift,0905,21,"Spesielle driftsutgifter, kan overføres",135,11638,78031,89669,66327,23342,19866
+utgift,0905,80,Geoparker..................................,135,0,4000,4000,4000,0,0
+utgift,0906,01,Driftsutgifter..............................,135,2258,71250,73508,70607,2901,2901
+utgift,0906,30,"Sikrings- og miljøtiltak, kan overføres",135,664,3009,3673,2523,1150,1150
+utgift,0906,31,"Miljøtiltak Løkken, kan overføres",135,2042,4838,6880,6349,531,531
+utgift,0906,32,"Miljøtiltak Folldal, kan overføres",135,6482,11240,17722,18025,-303,0
+utgift,0907,01,"Driftsutgifter, kan nyttes under kap. 908, post 70",135,5569,158315,163884,156003,7881,7881
+utgift,0907,21,"Spesielle driftsutgifter, kan overføres",135,87978,314200,402178,330629,71549,71549
+utgift,0907,30,Opprydding Søve......................,135,0,20000,20000,6094,13906,0
+utgift,0907,60,Tilskudd til kommuner.............,135,0,5400,5400,2979,2421,0
+utgift,0907,70,Tilskudd til organisasjoner......,135,0,1600,1600,1306,294,0
+utgift,0908,70,Tilskudd til drift av atomanlegg................................,136,0,420395,420395,420395,0,0
+utgift,0908,71,Tilskudd til sikring av atomanlegg................................,136,0,57259,57259,57259,0,0
+utgift,0908,72,Lån til flytting av laboratorier og infrastruktur.........................,136,0,14000,14000,14000,0,0
+utgift,0909,73,"Tilskudd til sysselsetting av sjøfolk, overslagsbevilgning",136,0,2366000,2366000,2393448,-27448,0
+utgift,0910,01,Driftsutgifter..............................,136,15357,492233,507590,495771,11819,12438
+utgift,0911,01,Driftsutgifter..............................,136,3708,139284,142992,140374,2618,2684
+utgift,0911,70,"Tilskudd til konkurransefaglig forskning, kan overføres",136,3576,2233,5809,2513,3296,3296
+utgift,0912,01,Driftsutgifter..............................,136,1879,38889,40768,38255,2513,2466
+utgift,0912,21,Spesielle driftsutgifter..............,136,0,24400,24400,12740,11660,1220
+utgift,0913,01,Driftsutgifter..............................,136,514,10608,11122,9919,1203,681
+utgift,0915,01,Driftsutgifter..............................,136,593,12258,12851,11393,1458,858
+utgift,0916,01,"Driftsutgifter, kan nyttes under post 45",136,0,1233442,1233442,1208275,25167,33129
+utgift,0916,21,"Spesielle driftsutgifter, kan overføres",136,0,46100,46100,22761,23339,11135
+utgift,0916,22,"Driftsutgifter brukerfinansierte tjenester, kan overføres, kan nyttes under post 46",136,0,1154584,1154584,1154147,437,0
+utgift,0916,30,"Nyanlegg og større vedlikehold, kan overføres",136,463438,852778,1316216,700627,615589,618892
+utgift,0916,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres, kan nyttes under post 1",136,44075,201279,245354,134621,110733,110733
+utgift,0916,46,"Større utstyrsanskaffelser og brukerfinansierte tjenester, kan overføres, kan nyttes under post 22",137,0,21329,21329,4388,16941,13292
+utgift,0916,60,"Tilskudd til fiskerihavneanlegg, kan overføres",137,1038,77492,78530,31235,47295,47295
+utgift,0916,71,"Tilskudd til effektive og miljø- vennlige havner, kan overføres",137,135764,123950,259714,58193,201521,201521
+utgift,0917,01,Driftsutgifter..............................,137,19311,513908,533219,514855,18364,16421
+utgift,0917,22,"Fiskeriforskning og -overvåking, kan overføres",137,55767,134500,190267,134213,56054,68264
+utgift,0917,23,Prisråd for havbruk...................,137,0,12000,12000,12000,0,0
+utgift,0919,60,"Tilskudd til kommuner og fylkeskommuner, kan overføres",137,0,4695403,4695403,4695403,0,0
+utgift,0919,61,Tilskudd til kommunale ungdomsfiskeprosjekt..............,137,0,2131,2131,1655,476,0
+utgift,0919,71,Tilskudd til velferdsstasjoner..,137,0,2659,2659,2659,0,0
+utgift,0919,73,Tilskudd til kompensasjon for CO -avgift,137,0,346800,346800,346800,0,0
+utgift,0919,74,"Erstatninger, kan overføres",137,1900,1896,3796,3879,-83,0
+utgift,0919,75,"Tilskudd til næringstiltak i fiskeriene, kan overføres",137,26281,40105,66386,53988,12398,12398
+utgift,0919,76,"Tilskudd til fiskeriforskning, kan overføres",137,9158,7700,16858,9065,7793,8491
+utgift,0919,77,Tilskudd til kystrekeflåten.......,137,0,22343,22343,22343,0,0
+utgift,0920,50,Tilskudd til næringsrettet forskning og grunnbevilgning til teknisk-industrielle institutter mv. ...........................,137,0,1644800,1644800,1644800,0,0
+utgift,0920,51,Tilskudd til marin og maritim forskning og grunn- bevilgning til primærnærings- institutter mv. ...........................,137,0,608700,608700,608700,0,0
+utgift,0922,50,Norsk Romsenter......................,138,0,99000,99000,99000,0,0
+utgift,0922,51,"Egenkapital Andøya Space, kan overføres",138,102600,0,102600,0,102600,102600
+utgift,0922,70,Kontingent i European Space Agency (ESA) ...........................,138,0,267330,267330,267330,0,0
+utgift,0922,71,Internasjonal romvirksomhet..,138,0,501392,501392,501392,0,0
+utgift,0922,72,"Nasjonale følgemidler, kan overføres",138,0,23059,23059,23059,0,0
+utgift,0922,73,EUs romprogrammer...............,138,0,851495,851495,851495,0,0
+utgift,0922,74,"Nasjonal infrastruktur og tekniske aktiviteter, kan overføres",138,0,128221,128221,128221,0,0
+utgift,0922,75,"Tilskuddsordning tilknyttet nasjonalt senter for jordobservasjon i Tromsø, kan overføres",138,0,5000,5000,0,5000,5000
+utgift,0922,76,"Tilskudd Andøya Space, kan overføres",138,26500,0,26500,0,26500,26500
+utgift,0923,01,"Driftsutgifter, kan nyttes under post 21",138,0,652138,652138,611199,40939,27500
+utgift,0923,21,"Spesielle driftsutgifter, kan overføres",138,0,457492,457492,500571,-43079,0
+utgift,0923,22,"Fiskeriforskning og -overvåking, kan overføres",138,8991,242000,250991,237732,13259,35238
+utgift,0923,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",138,20878,20763,41641,18663,22978,22978
+utgift,0924,70,Tilskudd.....................................,138,0,356100,356100,356070,30,0
+utgift,0926,01,Driftsutgifter..............................,138,0,216388,216388,211265,5123,3243
+utgift,0926,21,"Spesielle driftsutgifter, kan overføres",138,0,203683,203683,267445,-63762,0
+utgift,0926,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",138,0,4100,4100,0,4100,4100
+utgift,0928,21,"Spesielle driftsutgifter, kan overføres",139,502,43100,43602,43389,213,213
+utgift,0928,50,Tilskudd til Veterinærinstituttet,139,0,77200,77200,77200,0,0
+utgift,0928,72,Tilskudd til Nofima AS.............,139,0,100500,100500,100500,0,0
+utgift,0930,70,Tilskudd.....................................,139,0,27800,27800,27800,0,0
+utgift,0935,01,Driftsutgifter..............................,139,2343,352893,355236,345575,9661,9661
+utgift,0936,01,Driftsutgifter..............................,139,432,9227,9659,8775,884,630
+utgift,0940,21,"Spesielle driftsutgifter, kan overføres",139,1760,23130,24890,19441,5449,5449
+utgift,0940,70,Eksportfremmetiltak................,139,80697,39800,120497,120500,-3,0
+utgift,0950,21,Spesielle driftsutgifter..............,139,0,33100,33100,30737,2363,0
+utgift,0950,96,"Aksjer, kan overføres",139,0,250000,250000,198000,52000,52000
+utgift,0951,71,Tilskudd til utredninger knyttet til energisystemet i Longyearbyen.........................,139,0,14000,14000,14000,0,0
+utgift,0951,90,Lån..............................................,139,0,130000,130000,130000,0,0
+utgift,0952,50,Risikokapital..............................,139,0,73200,73200,73200,0,0
+utgift,0952,51,Tapsfond såkornkapital............,139,0,182300,182300,182270,30,0
+utgift,0952,70,Forvaltningskostnader for særskilte oppdrag.....................,140,0,8159,8159,8159,0,0
+utgift,0952,95,Kapitalinnskudd........................,140,0,135900,135900,135900,0,0
+utgift,0954,70,Tilskudd til administrasjon......,140,0,399108,399108,399108,0,0
+utgift,1100,01,Driftsutgifter..............................,140,8885,183302,192187,180352,11835,11835
+utgift,1100,21,"Spesielle driftsutgifter, kan overføres",140,4922,17988,22910,11657,11253,11253
+utgift,1100,45,"Større utstyrsanskaffelser og vedlikehold - ordinære forvaltningsorganer, kan overføres, kan nyttes under post 50",140,3553,2928,6481,1792,4689,541
+utgift,1100,50,Større utstyrsanskaffelser og vedlikehold - forvaltnings- organer med særskilte fullmakter..................................,140,0,302,302,8200,-7898,0
+utgift,1112,50,"Kunnskapsutvikling, formidling og beredskap.............................",140,0,113008,113008,113008,0,0
+utgift,1115,01,Driftsutgifter..............................,140,4765,1607345,1612110,1542475,69635,78426
+utgift,1115,22,Reguleringspremie til kommunale og fylkes- kommunale pensjonskasser....,140,642,13986,14628,12236,2392,699
+utgift,1115,71,"Tilskudd til erstatninger, overslagsbevilgning",140,0,4193,4193,3982,211,0
+utgift,1136,50,"Kunnskapsutvikling, formidling og beredskap.............................",141,0,272785,272785,272785,0,0
+utgift,1137,50,Forskningsaktivitet - Norges forskningsråd............................,141,0,184156,184156,184156,0,0
+utgift,1137,51,Grunnbevilgninger til forskningsinstitutt - Norges forskningsråd............................,141,0,207760,207760,207760,0,0
+utgift,1137,54,Næringsrettet matforskning m.m. ..........................................,141,0,242000,242000,235545,6455,0
+utgift,1137,70,"Innovasjonsaktivitet m.m., kan overføres",141,0,2920,2920,2920,0,0
+utgift,1138,70,Støtte til organisasjoner...........,141,0,56462,56462,56462,0,0
+utgift,1138,71,"Internasjonalt skogpolitisk samarbeid - organisasjoner og prosesser, kan overføres",141,403,1415,1818,1350,468,468
+utgift,1138,72,Stiftelsen Norsk senter for økologisk landbruk...................,141,0,9715,9715,9715,0,0
+utgift,1138,73,Nasjonalt senter for fjellandbruk,141,0,4246,4246,4230,16,0
+utgift,1138,74,Opplysningstiltak landbruket..,141,0,1000,1000,1000,0,0
+utgift,1139,21,Spesielle driftsutgifter - Svalbard globale frøhvelv.........,141,575,11934,12509,12488,21,21
+utgift,1139,50,Miljøregistreringer i skog........,141,0,4824,4824,4824,0,0
+utgift,1139,70,"Tilskudd til bevaring og bærekraftig bruk av husdyr-, plante- og skogtregenetiske ressurser, kan overføres",141,0,7457,7457,7436,21,21
+utgift,1139,71,"Tilskudd til genressurs- forvaltning og miljøtiltak, kan overføres",141,1752,9140,10892,10080,812,812
+utgift,1140,01,Driftsutgifter..............................,142,251,13129,13380,13229,151,151
+utgift,1140,21,"Spesielle driftsutgifter, kan overføres",142,1541,25283,26824,26802,22,22
+utgift,1140,71,"Tilskudd til viltformål, kan overføres",142,231,37678,37909,37856,53,53
+utgift,1141,23,"Jegerprøve m.m., kan overføres",142,614,4071,4685,4567,118,533
+utgift,1141,75,Organisasjoner - høstbare viltressurser...............................,142,0,8404,8404,8404,0,0
+utgift,1142,01,Driftsutgifter..............................,142,8883,288426,297309,283212,14097,14097
+utgift,1142,21,Spesielle driftsutgifter - Beredskapslagring av korn......,142,130,63409,63539,60764,2775,2775
+utgift,1142,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",142,1323,12176,13499,12110,1389,1389
+utgift,1142,50,Arealressurskart.......................,142,0,8039,8039,8039,0,0
+utgift,1142,60,Tilskudd til veterinærdekning.,142,0,196392,196392,195638,754,0
+utgift,1142,70,Tilskudd til fjellstuer.................,142,0,862,862,862,0,0
+utgift,1142,71,"Tiltak for bærekraftig reindrift, kan overføres",142,1746,5786,7532,3106,4426,4426
+utgift,1142,72,"Erstatninger ved ekspropria- sjon og leie av rett til reinbeite, overslagsbevilgning",142,0,600,600,590,10,0
+utgift,1142,73,"Tilskudd til erstatninger m.m. etter offentlige pålegg i plante- og husdyrproduksjon, overslagsbevilgning",142,0,55610,55610,25210,30400,0
+utgift,1142,74,Kompensasjon til dyreeiere som blir pålagt beitenekt..................,142,0,1000,1000,0,1000,0
+utgift,1142,75,"Stønad til jordbruks- og vekst- husnæringen for ekstra- ordinære strømutgifter, overslagsbevilgning",142,0,64800,64800,58965,5835,0
+utgift,1142,77,"Tilskudd til kompensasjon ved avvikling av pelsdyrhold, kan overføres",142,1323274,105000,1428274,466014,962260,575011
+utgift,1142,78,"Tilskudd til omstilling ved avvikling av pelsdyrhold, kan overføres",142,15520,34000,49520,11602,37918,34000
+utgift,1142,79,Tilskudd til reindriften for andel av verdiskaping fra vindkraft...,142,0,10000,10000,5879,4121,0
+utgift,1148,71,"Naturskade - erstatninger, overslagsbevilgning",143,0,103300,103300,104515,-1215,0
+utgift,1148,72,"Tilskudd til opprydding av avfall etter flomhendelsene i Sør-Norge høsten 2023, kan overføres",143,10000,0,10000,1216,8784,0
+utgift,1149,51,Tilskudd til Utviklingsfondet for skogbruket...........................,143,0,3571,3571,3571,0,0
+utgift,1149,52,Forsøk fleralderskogbruk........,143,0,5000,5000,5000,0,0
+utgift,1149,71,"Tilskudd til verdiskapingstiltak i skogbruket, kan overføres",143,33,54223,54256,53237,1019,1019
+utgift,1149,73,"Tilskudd til skog-, klima- og energitiltak, kan overføres",143,22620,45852,68472,66453,2019,2019
+utgift,1149,75,"Kurs i fleralderskogbruk, kan overføres",143,0,5000,5000,5000,0,0
+utgift,1150,21,"Spesielle driftsutgifter, kan overføres",143,4938,8673,13611,11710,1901,1901
+utgift,1150,50,Tilskudd til Landbrukets utviklingsfond............................,143,0,2389553,2389553,2389553,0,0
+utgift,1150,70,"Markedstiltak, kan overføres",143,27626,294774,322400,310908,11492,11492
+utgift,1150,71,"Tilskudd ved produksjonssvikt, overslagsbevilgning",143,0,602100,602100,575719,26381,0
+utgift,1150,73,"Pristilskudd, overslagsbevilgning",143,0,5897219,5897219,5676494,220725,0
+utgift,1150,74,"Direkte tilskudd, kan overføres",143,14247,16112053,16126300,16110110,16190,16190
+utgift,1150,77,"Utviklingstiltak, kan overføres",143,2631,355984,358615,339217,19398,19398
+utgift,1150,78,"Velferdsordninger, kan overføres",143,19572,1890561,1910133,1895211,14922,14922
+utgift,1151,51,Tilskudd til Reindriftens utviklingsfond............................,143,0,69250,69250,69250,0,0
+utgift,1151,72,Tilskudd til organisasjonsarbeid,143,0,8100,8100,8100,0,0
+utgift,1151,75,"Kostnadssenkende og direkte tilskudd, kan overføres",143,5954,121184,127138,118933,8205,8205
+utgift,1151,79,"Velferdsordninger, kan overføres",143,834,3466,4300,3683,617,617
+utgift,1152,70,"Tilskudd til bioøkonomi og klimatiltak i jordbruket, kan overføres",144,62026,171184,233210,119959,113251,113251
+utgift,1161,70,Tilskudd til Statskog SFs myndighetsoppgaver og sektorpolitiske oppgaver..........,144,0,15831,15831,15831,0,0
+utgift,1161,75,Tilskudd til oppsyn i statsallmenninger...................,144,0,17969,17969,17969,0,0
+utgift,1300,01,Driftsutgifter..............................,144,6420,193145,199565,190199,9366,9366
+utgift,1300,70,Tilskudd til internasjonale organisasjoner...........................,144,0,41600,41600,41530,70,0
+utgift,1300,71,Tilskudd til trafikksikkerhets- formål mv. .................................,144,0,81800,81800,81719,81,0
+utgift,1301,21,"Utredninger vedrørende miljø, trafikksikkerhet mv. ................",144,372,9900,10272,9709,563,495
+utgift,1301,50,"Norges forskningsråd mv., kan overføres",144,0,143200,143200,143200,0,0
+utgift,1301,70,"Pilotprosjekter for utslippsfrie anleggsplasser, kan overføres",144,26191,30000,56191,46712,9479,9479
+utgift,1310,70,"Kjøp av innenlandske flyruter, kan overføres",144,56789,2006700,2063489,2062976,513,513
+utgift,1313,01,Driftsutgifter..............................,144,7368,311156,318524,319058,-534,5656
+utgift,1314,01,Driftsutgifter..............................,145,0,103748,103748,101504,2244,2244
+utgift,1315,71,"Tilskudd til pålagte oppgaver, kan overføres",145,93956,2366900,2460856,2319724,141132,141132
+utgift,1320,01,Driftsutgifter..............................,145,45413,4653485,4698898,4431146,267752,263912
+utgift,1320,22,"Drift og vedlikehold av riks- veier, kan overføres, kan nyttes under post 29 og post 30",145,0,10361300,10361300,10454051,-92751,0
+utgift,1320,28,"Trafikant- og kjøretøytilsyn, kan overføres",145,81243,2334600,2415843,2338886,76957,116174
+utgift,1320,29,"OPS-prosjekter, kan overføres, kan nyttes under post 22 og post 30",145,157444,4619000,4776444,4721123,55321,55321
+utgift,1320,30,"Riksveiinvesteringer, kan overføres, kan nyttes under post 22 og post 29 og kap. 1332, post 66",145,0,10370100,10370100,9958674,411426,293896
+utgift,1320,61,Rentekompensasjon for transporttiltak i fylkene............,145,0,501300,501300,501300,0,0
+utgift,1320,64,"Utbedring på fylkesveier for tømmertransport, kan overføres",145,11600,17800,29400,14998,14402,12500
+utgift,1320,65,"Tilskudd til fylkesveier, kan overføres",145,23667,510400,534067,521666,12401,10000
+utgift,1320,66,"Tilskudd til tryggere skoleveier og nærmiljøer, kan overføres",145,3700,23600,27300,17158,10142,8500
+utgift,1320,72,"Tilskudd til riksveiferjedriften, kan overføres",145,154774,3216000,3370774,3295116,75658,80500
+utgift,1320,73,Tilskudd for reduserte bompengetakster utenfor byområdene...............................,145,0,740000,740000,740000,0,0
+utgift,1321,70,Tilskudd til Nye Veier AS........,145,0,6507700,6507700,6507700,0,0
+utgift,1323,01,Driftsutgifter..............................,145,801,20728,21529,19811,1718,1348
+utgift,1330,60,"Utvidet TT-ordning for brukere med særskilte behov, kan overføres",146,20000,337400,357400,307246,50154,50000
+utgift,1330,70,Kjøp av sjøtransporttjenester på strekningen Bergen-Kirkenes.,146,0,1240300,1240300,1240260,40,0
+utgift,1330,71,Tilskudd til kommersielle buss- og båtruter som følge av smitteverntiltak.........................,146,0,3700,3700,3138,562,0
+utgift,1330,76,"Reiseplanlegger og elektronisk billettering, kan overføres",146,11017,138100,149117,112888,36229,25200
+utgift,1330,77,Kjøp av tjenester fra Entur AS..,146,0,21300,21300,21300,0,0
+utgift,1330,78,Tettere samarbeid om data......,146,0,32300,32300,32300,0,0
+utgift,1332,63,"Særskilt tilskudd til store kollektivprosjekter, kan overføres",146,263909,2131500,2395409,2033653,361756,361756
+utgift,1332,66,"Tilskudd til byområder, kan overføres",146,224251,3917500,4141751,3847558,294193,294193
+utgift,1352,01,Driftsutgifter..............................,146,4071,392650,396721,373068,23653,24359
+utgift,1352,21,"Spesielle driftsutgifter - utredninger, kan overføres",146,10000,109200,119200,106360,12840,5000
+utgift,1352,70,"Kjøp av persontransport med tog, kan overføres, kan nyttes under post 71",146,227000,5096100,5323100,4877111,445989,170000
+utgift,1352,71,"Kjøp av infrastrukturtjenester - drift og vedlikehold, kan nyttes under post 70",146,0,9330100,9330100,9330100,0,0
+utgift,1352,73,"Kjøp av infrastrukturtjenester - investeringer, kan nyttes under post 74",146,0,16678100,16678100,16622482,55618,0
+utgift,1352,74,"Tilskudd til togmateriell mv., kan overføres",146,0,0,0,55618,-55618,0
+utgift,1352,75,Tilskudd til godsoverføring fra vei til jernbane.....................,146,0,101000,101000,95683,5317,0
+utgift,1352,76,Tilskudd til kulturminner i jernbanesektoren....................,146,0,39400,39400,38191,1209,0
+utgift,1352,77,"Tilskudd til godstogselskaper etter ekstremværet «Hans», kan overføres",147,46694,116200,162894,107725,55169,55169
+utgift,1354,01,Driftsutgifter..............................,147,0,111655,111655,103838,7817,7440
+utgift,1370,70,"Kjøp av posttjenester, kan overføres",147,15791,1756650,1772441,1767629,4812,4812
+utgift,1400,01,Driftsutgifter..............................,147,8492,328753,337245,320716,16529,16529
+utgift,1400,21,Spesielle driftsutgifter..............,147,151,94006,94157,93397,760,760
+utgift,1400,71,Internasjonale organisasjoner.,147,0,112411,112411,111330,1081,0
+utgift,1400,74,"Tilskudd til AMAP, kan overføres",147,0,5796,5796,5796,0,0
+utgift,1400,76,"Støtte til nasjonale og internasjonale miljøtiltak, kan overføres",147,6454,105394,111848,101115,10733,1774
+utgift,1410,21,Miljødata....................................,147,381,439636,440017,433467,6550,6550
+utgift,1410,23,"Mareano, kan overføres",147,8131,68037,76168,53365,22803,22803
+utgift,1410,50,Grunnbevilgninger til miljøinstituttene under Norges forskningsråd............................,147,0,242217,242217,242217,0,0
+utgift,1410,51,Forskningsprogrammer under Norges forskningsråd...,147,0,408877,408877,408877,0,0
+utgift,1410,70,Nasjonale oppgaver ved miljøinstituttene........................,147,0,56643,56643,56643,0,0
+utgift,1411,01,Driftsutgifter..............................,148,1140,41180,42320,40358,1962,1962
+utgift,1411,21,"Spesielle driftsutgifter, kan overføres, kan nyttes under post 70",148,0,11606,11606,12212,-606,0
+utgift,1411,70,"Tilskudd til å styrke kunnskap om og formidling av naturmangfoldet, kan overføres, kan nyttes under post 21",148,3012,32906,35918,24101,11817,11211
+utgift,1412,50,Meteorologisk institutt.............,148,0,387654,387654,387654,0,0
+utgift,1412,70,Internasjonale samarbeids- prosjekter...................................,148,0,139141,139141,139107,34,0
+utgift,1420,01,Driftsutgifter..............................,148,17956,905417,923373,881126,42247,42360
+utgift,1420,21,Spesielle driftsutgifter..............,148,24763,635074,659837,642109,17728,17728
+utgift,1420,23,"Oppdrags- og gebyrrelatert virksomhet, kan overføres",148,5768,225766,231534,220063,11471,2521
+utgift,1420,30,"Statlige erverv, bevaring av viktige friluftslivsområder, kan overføres",148,8390,23054,31444,15798,15646,15655
+utgift,1420,31,"Tiltak i verneområder og naturrestaurering, kan overføres",148,44691,141452,186143,150674,35469,35469
+utgift,1420,32,"Statlige erverv, vern av naturområder, kan overføres",148,15077,1082765,1097842,828773,269069,269069
+utgift,1420,39,"Oppryddingstiltak, kan overføres, kan nyttes under postene 69 og 79",148,11244,8645,19889,16980,2909,2909
+utgift,1420,60,"Tilskudd til ivaretakelse av naturmangfold i kommune- planlegging, kan overføres",148,0,68226,68226,55940,12286,12286
+utgift,1420,61,"Tilskudd til klimatiltak og klimatilpasning, kan overføres",148,39567,150000,189567,153594,35973,35973
+utgift,1420,62,"Tilskudd til grønn skipsfart, kan overføres",148,21883,30625,52508,33674,18834,18834
+utgift,1420,63,Returordning for kasserte fritidsbåter.................................,148,0,340,340,0,340,0
+utgift,1420,64,Skrantesykeprøver fra fallvilt...,148,0,1279,1279,1283,-4,0
+utgift,1420,66,"Tilskudd til kommuner for å bedre tilgangen til strand- sonen langs Oslofjorden, kan overføres",149,0,6399,6399,4362,2037,2037
+utgift,1420,69,"Oppryddingstiltak, kan overføres, kan nyttes under postene 39 og 79",149,52083,97332,149415,80639,68776,35291
+utgift,1420,71,"Marin forsøpling, kan overføres",149,8452,27363,35815,37008,-1193,0
+utgift,1420,72,"Erstatning for beitedyr tatt av rovvilt, overslagsbevilgning",149,0,148878,148878,162657,-13779,0
+utgift,1420,73,"Tilskudd til rovvilttiltak, kan overføres",149,3484,73898,77382,73148,4234,4234
+utgift,1420,74,CO -kompensasjonsordning 2 for industrien,149,0,6218797,6218797,6210273,8524,0
+utgift,1420,75,"Utbetaling for vrakpant til kjøretøy og tilskudd til kassering av fritidsbåter, overslagsbevilgning",149,0,401350,401350,405086,-3736,0
+utgift,1420,76,"Refusjonsordninger, overslagsbevilgning",149,0,247800,247800,220357,27443,0
+utgift,1420,77,Diverse organisasjoner og stiftelser m.m. ...........................,149,0,15276,15276,15276,0,0
+utgift,1420,78,"Friluftslivsformål, kan overføres",149,9325,210896,220221,214684,5537,5537
+utgift,1420,79,"Oppryddingstiltak, kan overføres, kan nyttes under postene 39 og 69",149,482,492,974,272,702,300
+utgift,1420,80,"Tilskudd til tiltak for å ta vare på natur, kan overføres",149,1518,183442,184960,173721,11239,11239
+utgift,1420,81,"Verdiskaping basert på natur- arven, kan overføres",149,1114,13192,14306,12979,1327,1327
+utgift,1420,84,Internasjonalt samarbeid.........,149,0,8753,8753,8694,59,0
+utgift,1420,85,"Besøkssenter for natur og verdensarv, kan overføres",149,1513,112135,113648,110671,2977,2977
+utgift,1420,86,Frivillige klima- og miljø- organisasjoner samt klima- og miljøstiftelser.............................,149,0,62354,62354,62354,0,0
+utgift,1420,87,"Tilskudd til natur og friluftsliv i områder berørt av landbaserte vindkraftverk, kan overføres",149,0,15000,15000,5851,9149,9149
+utgift,1422,21,Spesielle driftsutgifter..............,149,248,9005,9253,9253,0,0
+utgift,1422,70,"Tilskudd til private, kan nyttes under post 21",149,0,39135,39135,39135,0,0
+utgift,1423,01,Driftsutgifter..............................,150,141,40216,40357,40169,188,571
+utgift,1425,21,Spesielle driftsutgifter..............,150,15,300,315,281,34,15
+utgift,1425,70,"Tilskudd til fiskeformål, kan overføres",150,4,16386,16390,16382,8,8
+utgift,1428,50,Overføring til Klima- og energifondet..............................,150,0,7481669,7481669,7518142,-36473,0
+utgift,1429,01,Driftsutgifter..............................,150,6399,166039,172438,167593,4845,4016
+utgift,1429,21,Spesielle driftsutgifter..............,150,1572,31777,33349,33349,0,0
+utgift,1429,22,"Flerårige prosjekter kultur- minneforvaltning, kan overføres",150,10726,29185,39911,33419,6492,6492
+utgift,1429,60,"Kulturminnekompetanse i kommunene, kan overføres",150,0,14406,14406,14406,0,0
+utgift,1429,70,"Tilskudd til automatisk fredete og andre arkeologiske kultur- minner, kan overføres",150,24,43522,43546,42579,967,967
+utgift,1429,71,"Tilskudd til fredete kultur- minner i privat eie, kulturmiljøer og kultur- landskap, kan overføres",150,3671,149889,153560,152530,1030,1030
+utgift,1429,72,"Tilskudd til tekniske og industrielle kulturminner, kan overføres",150,1020,62298,63318,63243,75,75
+utgift,1429,73,"Tilskudd til bygninger og anlegg fra middelalderen og brannsikring, kan overføres",150,22909,57850,80759,57061,23698,23698
+utgift,1429,74,"Tilskudd til fartøyvern, kan overføres",150,5,75120,75125,75034,91,91
+utgift,1429,75,"Tilskudd til fartøyvern- sentrene, kan overføres",150,4237,18552,22789,16064,6725,6725
+utgift,1429,77,"Tilskudd til verdiskapnings- arbeid på kulturminneområdet, kan overføres",150,2253,7986,10239,10080,159,159
+utgift,1429,79,"Tilskudd til verdensarven, kan overføres",150,1223,56785,58008,57983,25,25
+utgift,1432,50,Til disposisjon for kulturminnetiltak......................,151,0,127298,127298,127298,0,0
+utgift,1471,01,Driftsutgifter..............................,151,0,328267,328267,362212,-33945,0
+utgift,1471,21,"Spesielle driftsutgifter, kan overføres",151,425,124106,124531,156656,-32125,1384
+utgift,1471,50,Stipend.......................................,151,0,597,597,597,0,0
+utgift,1472,50,Overføringer til Svalbards miljøvernfond............................,151,0,15000,15000,19083,-4083,0
+utgift,1473,70,Tilskudd.....................................,151,0,79152,79152,79152,0,0
+utgift,1474,01,"Driftsutgifter, kan nyttes under postene 50 og 70",151,0,273,273,242,31,20
+utgift,1474,50,"Tilskudd til statlige mottakere, kan overføres, kan nyttes under post 70",151,0,26633,26633,30763,-4130,0
+utgift,1474,70,"Tilskudd til private mottakere, kan overføres, kan nyttes under post 50",151,920,30856,31776,27575,4201,71
+utgift,1481,01,"Driftsutgifter, kan overføres",151,0,1498,1498,1006,492,0
+utgift,1481,22,"Internasjonalt samarbeid under Parisavtalens artikkel 6, kan overføres",151,9770,100000,109770,53565,56205,56205
+utgift,1482,01,Driftsutgifter..............................,152,1707,70920,72627,69000,3627,3627
+utgift,1482,73,"Klima- og skogsatsingen, kan overføres",152,92912,4038735,4131647,4083419,48228,48228
+utgift,1500,01,Driftsutgifter..............................,152,10418,256383,266801,252060,14741,14741
+utgift,1500,21,"Spesielle driftsutgifter, kan overføres, kan nyttes under post 70",152,18100,33061,51161,36089,15072,15072
+utgift,1500,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",152,2188,0,2188,563,1625,0
+utgift,1500,50,Forskningsmidler til Norges forskningsråd m.m. .................,152,0,101200,101200,101200,0,0
+utgift,1500,51,Gjennomstrømmingsmidler til forskningsinstitutter.................,152,0,48437,48437,48437,0,0
+utgift,1500,70,"Diverse formål, kan overføres, kan nyttes under post 21",152,0,1000,1000,984,16,16
+utgift,1510,01,Driftsutgifter..............................,152,17833,923865,941698,920003,21695,50450
+utgift,1510,21,"Spesielle driftsutgifter, kan overføres",152,69,76066,76135,76110,25,25
+utgift,1510,22,Fellesutgifter.............................,152,11,133291,133302,129026,4276,4276
+utgift,1510,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",152,51859,194696,246555,72509,174046,174046
+utgift,1510,46,"Sikringsanlegg og sperre- systemer, kan overføres",152,2113,12958,15071,11423,3648,3648
+utgift,1511,25,"Prosjektstyring, kan overføres",152,1797,4520,6317,3846,2471,2471
+utgift,1511,30,"Ombygging av Ring 1, kan overføres",152,63874,605000,668874,553668,115206,115206
+utgift,1512,23,Husleie for fellesarealer m.m....,153,6332,129809,136141,124057,12084,6490
+utgift,1512,27,"Sak- og arkivløsning, kan overføres",153,1293,43147,44440,37681,6759,6759
+utgift,1520,01,Driftsutgifter..............................,153,4218,2329120,2333338,2252275,81063,92368
+utgift,1520,21,"Spesielle driftsutgifter, kan overføres",153,13941,89047,102988,49883,53105,9836
+utgift,1530,30,"Prosjektering av bygg, kan overføres",153,11720,10000,21720,8495,13225,10000
+utgift,1530,31,"Igangsetting av bygge- prosjekter, kan overføres",153,0,169000,169000,175814,-6814,0
+utgift,1530,33,"Videreføring av bygge- prosjekter, kan overføres",153,51719,4125000,4176719,4168372,8347,1533
+utgift,1530,36,"Kunstnerisk utsmykking, kan overføres",153,8896,39081,47977,48098,-121,0
+utgift,1530,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",153,133348,1011900,1145248,934757,210491,210491
+utgift,1531,01,Driftsutgifter..............................,153,1556,32058,33614,32781,833,1011
+utgift,1531,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",153,8627,42523,51150,32743,18407,18407
+utgift,1533,01,Driftsutgifter..............................,153,737,28038,28775,26327,2448,1488
+utgift,1533,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",153,40223,45800,86023,32028,53995,45800
+utgift,1540,01,Driftsutgifter..............................,154,0,163399,163399,152726,10673,10873
+utgift,1540,21,"Spesielle driftsutgifter, kan overføres",154,1399,16820,18219,33900,-15681,0
+utgift,1540,22,Bruk av nasjonale felles- løsninger....................................,154,1481,179000,180481,196898,-16417,0
+utgift,1540,23,"Utvikling og forvaltning av nasjonale fellesløsninger, kan overføres",154,4094,530756,534850,486198,48652,67625
+utgift,1540,25,"Medfinansieringsordning for digitaliseringsprosjekter, kan overføres",154,79584,130129,209713,111978,97735,97735
+utgift,1540,26,"Stimulab, kan overføres",154,3316,5202,8518,8129,389,389
+utgift,1540,27,"Tilsyn for universell utforming av ikt, kan overføres",154,0,19133,19133,19433,-300,0
+utgift,1540,29,"Tjenesteeierfinansiert drift av Altinn, kan overføres",154,1894,137500,139394,159296,-19902,0
+utgift,1540,71,IT-tilskudd.................................,154,0,8922,8922,8920,2,0
+utgift,1541,22,"Utvikling, gjennomføring og samordning av IT- og ekompolitikken, kan overføres, kan nyttes under post 70",154,45194,21524,66718,31659,35059,32173
+utgift,1541,60,Bredbåndsutbygging................,154,0,400031,400031,399959,72,0
+utgift,1541,61,"Forebygging og håndtering av digitale hendelser, kan overføres, kan nyttes under post 22",154,10000,0,10000,10000,0,0
+utgift,1541,70,"Forvaltningsutvikling, IT- og ekompolitikk, kan nyttes under post 22",154,0,36473,36473,39359,-2886,0
+utgift,1542,01,Driftsutgifter..............................,154,3,3690,3693,304,3389,270
+utgift,1542,70,"Internasjonale program, kan overføres",154,19998,443995,463993,463995,-2,0
+utgift,1543,01,"Driftsutgifter, kan overføres",154,10779,260852,271631,264123,7508,7508
+utgift,1543,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",154,12090,16886,28976,14314,14662,14662
+utgift,1543,70,"Telesikkerhet og -beredskap, kan overføres",155,130443,237992,368435,207331,161104,161104
+utgift,1543,71,"Funksjonell internettilgang til alle, kan overføres",155,20504,573,21077,0,21077,11077
+utgift,1550,01,Driftsutgifter..............................,155,3433,83884,87317,83146,4171,4171
+utgift,1551,01,"Driftsutgifter, kan overføres",155,133,6658,6791,2669,4122,4122
+utgift,1560,21,"Spesielle driftsutgifter, kan overføres, kan nyttes under post 70",155,205,1000,1205,5088,-3883,0
+utgift,1560,70,"Kompetanseutvikling mv., kan overføres, kan nyttes under post 21",155,9350,1000,10350,-1975,12325,8442
+utgift,1560,71,"Opplæring og utvikling av tillits- valgte, kan overføres",155,0,247300,247300,233100,14200,14200
+utgift,1560,72,Pensjonskostnader tjeneste- mannsorganisasjonene.............,155,0,51500,51500,51026,474,0
+utgift,1565,01,Driftsutgifter..............................,155,0,68000,68000,72644,-4644,0
+utgift,1565,70,Tap/avskrivninger....................,155,0,2000,2000,607,1393,0
+utgift,1565,90,"Utlån, overslagsbevilgning",155,0,32300000,32300000,32838200,-538200,0
+utgift,1566,01,"Driftsutgifter, overslagsbevilgning",155,0,95000,95000,97824,-2824,0
+utgift,1567,01,"Driftsutgifter, overslagsbevilgning",156,0,256000,256000,266663,-10663,0
+utgift,1600,01,Driftsutgifter..............................,156,21698,453777,475475,445951,29524,29499
+utgift,1600,21,"Spesielle driftsutgifter, kan overføres",156,29551,69521,99072,59349,39723,39698
+utgift,1600,50,Forskning og allmennopplysning - Norges forskningsråd............................,156,0,39447,39447,39300,147,0
+utgift,1600,95,Kapitalinnskudd Statens fond i Tromsø.....................................,156,0,15000000,15000000,15000000,0,0
+utgift,1602,01,Driftsutgifter..............................,156,6879,528815,535694,514378,21316,21316
+utgift,1602,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",156,11625,36148,47773,43847,3926,3926
+utgift,1605,01,Driftsutgifter..............................,156,38360,1112849,1151209,1120866,30343,51892
+utgift,1605,22,Opplæringskontoret OK stat...,156,44,12809,12853,13758,-905,0
+utgift,1605,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",156,7620,19366,26986,16830,10156,10156
+utgift,1610,01,Driftsutgifter..............................,156,39309,1985795,2025104,1943964,81140,81165
+utgift,1610,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",156,138736,174292,313028,132439,180589,180589
+utgift,1618,01,Driftsutgifter..............................,156,252775,8087846,8340621,7954549,386072,392972
+utgift,1618,21,Spesielle driftsutgifter..............,156,6738,113000,119738,99603,20135,5650
+utgift,1618,22,"Større IT-prosjekter, kan overføres",156,185012,559961,744973,575786,169187,169187
+utgift,1618,23,"Spesielle driftsutgifter, a-ordningen................................",157,2776,106100,108876,103787,5089,5089
+utgift,1618,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",157,6982,158281,165263,165190,73,73
+utgift,1618,50,Skatte- og avgiftsforskning......,157,0,6124,6124,6102,22,0
+utgift,1619,01,Driftsutgifter..............................,157,1717,84891,86608,82329,4279,4279
+utgift,1620,01,Driftsutgifter..............................,157,9487,775862,785349,759153,26196,26196
+utgift,1620,21,"Spesielle driftsutgifter, kan overføres",157,15611,233625,249236,247825,1411,10193
+utgift,1620,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",157,427,4003,4430,4392,38,38
+utgift,1632,61,"Tilskudd til kommuner og fylkeskommuner, overslagsbevilgning",157,0,33800000,33800000,33472753,327247,0
+utgift,1632,72,"Tilskudd til private og ideelle virksomheter, overslagsbevilgning",157,0,2650000,2650000,2594528,55472,0
+utgift,1633,01,"Driftsutgifter, overslagsbevilgning",157,0,10500000,10500000,11643591,-1143591,0
+utgift,1635,70,"Utbetaling av erstatning, kan overføres",157,0,90000,90000,85000,5000,5000
+utgift,1650,89,"Renter og provisjon mv. på innenlandsk statsgjeld, overslagsbevilgning",158,0,13571900,13571900,13960771,-388871,0
+utgift,1651,98,"Avdrag på innenlandsk statsgjeld, overslagsbevilgning",158,0,63125000,63125000,64795000,-1670000,0
+utgift,1700,01,Driftsutgifter..............................,158,595,817921,818516,782394,36122,42271
+utgift,1700,21,"Spesielle driftsutgifter, overslagsbevilgning",158,0,154550,154550,133347,21203,0
+utgift,1700,22,"IKT-virksomhet, kan overføres",158,56744,789615,846359,856792,-10433,0
+utgift,1700,43,"Til disposisjon for Forsvars- departementet, kan overføres",158,524,1202,1726,0,1726,1726
+utgift,1700,52,Overføringer til statlige forvaltningsorganer..................,158,0,27085,27085,22000,5085,0
+utgift,1700,53,"Risikokapital, NATOs innovasjonsfond........................",158,0,14995,14995,14995,0,0
+utgift,1700,60,Overføringer til kommuner og fylkeskommuner..................,158,0,1906,1906,1906,0,0
+utgift,1700,71,"Overføringer til andre, kan overføres",158,5475,97247,102722,101777,945,945
+utgift,1700,73,"Forskning og utvikling, kan overføres",158,28532,127570,156102,119476,36626,36626
+utgift,1700,78,"Norges tilskudd til NATOs og internasjonale driftsbudsjetter, kan overføres",158,36155,1973830,2009985,1163628,846357,846357
+utgift,1700,79,"Militær støtte til Ukraina, kan overføres, kan nyttes under kap. 1710, post 1 og 47, kap. 1720, post 1 og kap. 1760, post 1 og 45",158,776278,9553876,10330154,9728222,601932,601932
+utgift,1700,90,"Kapitalinnskudd, NATOs innovasjonsfond........................",158,0,27848,27848,27848,0,0
+utgift,1710,01,"Driftsutgifter, kan overføres",159,153691,7174127,7327818,6712195,615623,593211
+utgift,1710,47,"Nybygg og nyanlegg, kan overføres",159,712964,5404901,6117865,5929430,188435,189732
+utgift,1716,51,Tilskudd til Forsvarets forskningsinstitutt.....................,159,0,299157,299157,299157,0,0
+utgift,1720,01,Driftsutgifter..............................,159,636616,43676250,44312866,44062166,250700,798262
+utgift,1720,71,"Overføringer til andre, kan overføres",159,5058,48237,53295,42525,10770,10770
+utgift,1735,21,Spesielle driftsutgifter..............,159,0,3407020,3407020,3407020,0,0
+utgift,1760,01,"Driftsutgifter, kan nyttes under kap. 1760, post 45",159,90197,2650084,2740281,2642065,98216,147250
+utgift,1760,44,"Fellesfinansierte investeringer, nasjonalfinansiert andel, kan overføres",159,41807,180312,222119,216483,5636,5636
+utgift,1760,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",159,356144,31718179,32074323,31766804,307519,866042
+utgift,1760,48,"Fellesfinansierte investeringer, fellesfinansiert andel, kan overføres",159,0,550000,550000,509372,40628,40627
+utgift,1760,75,"Fellesfinansierte investeringer, Norges tilskudd til NATOs investeringsprogram for sikkerhet, kan overføres, kan nyttes under kap. 1760, post 44",159,1,200725,200726,200726,0,0
+utgift,1791,01,Driftsutgifter..............................,159,0,716458,716458,749201,-32743,0
+utgift,1800,01,Driftsutgifter..............................,160,11375,251303,262678,238476,24202,17508
+utgift,1800,21,"Spesielle driftsutgifter, kan overføres, kan nyttes under postene 50, 71 og 72",160,25480,28000,53480,28640,24840,23022
+utgift,1800,50,"Overføring til andre forvaltnings- organer, kan overføres",160,650,1500,2150,2900,-750,0
+utgift,1800,70,Tilskudd til internasjonale organisasjoner mv. ...................,160,0,11700,11700,11356,344,0
+utgift,1800,71,Norsk Oljemuseum..................,160,0,16200,16200,16950,-750,0
+utgift,1800,72,"Tilskudd til petroleums- og energiformål, kan overføres, kan nyttes under post 21",160,0,14000,14000,14390,-390,0
+utgift,1810,01,Driftsutgifter..............................,160,7231,352900,360131,353990,6141,6141
+utgift,1810,21,"Spesielle driftsutgifter, kan overføres",160,38296,87100,125396,99702,25694,25694
+utgift,1810,23,"Oppdrags- og samarbeids- virksomhet, kan overføres",160,0,57500,57500,58308,-808,0
+utgift,1820,01,Driftsutgifter..............................,160,5647,916525,922172,902491,19681,25829
+utgift,1820,21,"Spesielle driftsutgifter, kan overføres",160,24508,109500,134008,99649,34359,34359
+utgift,1820,22,"Flom- og skredforebygging, kan overføres, kan nyttes under postene 45, 60 og 72",160,12209,332000,344209,338226,5983,5983
+utgift,1820,23,"Oppdrags- og samarbeids- virksomhet, kan overføres",160,9076,59000,68076,51375,16701,7234
+utgift,1820,25,"Krise- og hastetiltak i forbindelse med flom- og skredhendelser, kan overføres, kan nyttes under post 61",160,32537,100000,132537,69307,63230,54847
+utgift,1820,26,Reguleringsmyndigheten for energi.........................................,160,3325,83230,86555,80746,5809,5809
+utgift,1820,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres, kan nyttes under post 22",160,9283,29000,38283,20797,17486,17585
+utgift,1820,60,"Tilskudd til flom- og skred- forebygging, kan overføres, kan nyttes under postene 22 og 72",161,84459,105000,189459,33801,155658,155658
+utgift,1820,61,"Tilskudd til krise- og hastetiltak i forbindelse med flom- og skredhendelser, kan overføres, kan nyttes under post 25",161,0,100000,100000,108383,-8383,0
+utgift,1820,62,Tilbakeføring av produksjons- avgift fra landbasert vindkraft..,161,0,278630,278630,278630,0,0
+utgift,1820,72,"Tilskudd til flom- og skred- forebygging, kan overføres, kan nyttes under postene 22 og 60",161,6414,6000,12414,8653,3761,3761
+utgift,1820,73,Tilskudd til utjevning av overføringstariffer.....................,161,0,18000,18000,18000,0,0
+utgift,1820,74,"Tilskudd til museums- og kulturminnetiltak, kan overføres",161,0,7100,7100,7100,0,0
+utgift,1820,75,"Stønad til husholdninger for ekstraordinære strømutgifter, overslagsbevilgning",161,0,4800000,4800000,3688256,1111744,0
+utgift,1820,76,"Stønad til husholdningskunder av nærvarmeanlegg, kan overføres",161,0,8000,8000,3773,4227,1000
+utgift,1825,21,"Spesielle driftsutgifter, kan overføres",161,0,15000,15000,11567,3433,3433
+utgift,1825,50,Overføring til Klima- og energi- fondet til tiltak for mer effektiv energibruk og et mer fleksibelt energisystem.............................,161,0,1130000,1130000,1130000,0,0
+utgift,1825,60,"Tilskudd til energitiltak i kommunale bygg, kan overføres",161,96041,350000,446041,23472,422569,422569
+utgift,1850,21,"Spesielle driftsutgifter, kan overføres",161,0,131000,131000,39648,91352,91352
+utgift,1850,50,Norges forskningsråd og Gassnova - forskning og teknologiutvikling for fremtidens energisystem.........,161,0,988200,988200,988200,0,0
+utgift,1850,70,Gassnova SF..............................,161,0,94300,94300,94300,0,0
+utgift,1850,71,Teknologisenter Mongstad.....,161,0,66000,66000,65924,76,0
+utgift,1850,72,"Langskip - fangst og lagring av CO , kan overføres",162,996525,1400000,2396525,2109225,287300,287300
+utgift,1850,75,Norwegian Energy Partners....,162,0,28900,28900,28900,0,0
+utgift,1860,01,"Driftsutgifter, kan nyttes under post 21",162,17163,360312,377475,353347,24128,24654
+utgift,1860,21,"Spesielle driftsutgifter, kan overføres",162,765,34400,35165,33503,1662,2781
+utgift,2309,01,Driftsutgifter..............................,162,0,50000,50000,0,50000,0
+utgift,2410,01,Driftsutgifter..............................,162,0,448177,448177,430319,17858,17858
+utgift,2410,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres, kan nyttes under post 1",162,15822,35000,50822,39982,10840,10840
+utgift,2410,50,"Avsetning til utdanningsstipend, overslagsbevilgning",162,0,8898641,8898641,8898641,0,0
+utgift,2410,70,"Utdanningsstipend, overslagsbevilgning",162,0,3948162,3948162,4004891,-56729,0
+utgift,2410,71,"Andre stipend, overslagsbevilgning",162,0,558802,558802,554884,3918,0
+utgift,2410,72,"Rentestøtte, overslagsbevilgning",162,0,3602567,3602567,3559199,43368,0
+utgift,2410,73,"Avskrivninger, overslagsbevilgning",162,0,1042155,1042155,1089330,-47175,0
+utgift,2410,74,Tap på utlån...............................,162,0,280500,280500,272917,7583,0
+utgift,2410,90,"Økt lån og rentegjeld, overslagsbevilgning",162,0,40795553,40795553,41252328,-456775,0
+utgift,2412,01,Driftsutgifter..............................,163,13262,396762,410024,390410,19614,19614
+utgift,2412,21,"Spesielle driftsutgifter, kan overføres",163,8482,12431,20913,10037,10876,10876
+utgift,2412,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",163,32071,91730,123801,72778,51023,51023
+utgift,2412,71,Tap på lån...................................,163,0,30100,30100,33147,-3047,0
+utgift,2412,72,Rentestøtte.................................,163,0,400,400,419,-19,0
+utgift,2412,90,"Nye lån, overslagsbevilgning",163,0,24446000,24446000,23088743,1357257,0
+utgift,2421,50,"Tilskudd til etablerere og bedrifter, inkl. tapsavsetninger.........................",163,0,1111800,1111800,1111800,0,0
+utgift,2421,55,Grønn industrifinansiering......,163,0,1750000,1750000,1750000,0,0
+utgift,2421,70,Basiskostnader..........................,163,0,260336,260336,260336,0,0
+utgift,2421,71,"Innovative næringsmiljøer, kan overføres",163,0,161320,161320,117518,43802,43802
+utgift,2421,74,"Reiseliv, profilering og kompetanse, kan overføres",163,66332,576429,642761,566717,76044,76044
+utgift,2421,75,"Grønn plattform, kan overføres, kan nyttes under post 50, 71 og 76",163,46121,245795,291916,131449,160467,160467
+utgift,2421,76,"Miljøteknologi, kan overføres",163,183500,415900,599400,493301,106099,106099
+utgift,2421,90,"Lån fra statskassen til utlånsvirksomhet, overslagsbevilgning",163,0,61890000,61890000,61570000,320000,0
+utgift,2426,70,Tilskudd.....................................,163,0,50063,50063,50063,0,0
+utgift,2426,71,Tilskudd til testfasiliteter.........,163,0,212342,212342,212342,0,0
+utgift,2426,90,"Lån, overslagsbevilgning",163,0,55000,55000,55000,0,0
+utgift,2429,90,Utlån...........................................,163,0,12000000,12000000,12749261,-749261,0
+utgift,2440,30,Investeringer.............................,164,0,36000000,36000000,35397187,602813,0
+utgift,2440,31,Kjøp av eiendeler......................,164,0,11900000,11900000,13128886,-1228886,0
+utgift,2445,24,Driftsresultat: 01 Driftsinntekter...................... 02 Driftsutgifter......................... 03 Avskrivninger....................... 04 Renter av statens kapital..... 06 Til reguleringsfondet........... Underskudd/overskudd (-),164,0,-334642,-334642,-334642,0,0
+utgift,2445,30,"Prosjektering av bygg, kan overføres",164,94902,457000,551902,363479,188423,188423
+utgift,2445,31,"Igangsetting av ordinære byggeprosjekter, kan overføres",164,0,339800,339800,324549,15251,15251
+utgift,2445,32,"Prosjektering og igangsetting av brukerfinansierte bygge- prosjekter, kan overføres",164,0,277000,277000,340676,-63676,0
+utgift,2445,33,"Videreføring av ordinære byggeprosjekter, kan overføres",164,67738,5461140,5528878,5520454,8424,8424
+utgift,2445,34,"Videreføring av bruker- finansierte byggeprosjekter, kan overføres",164,292876,605000,897876,676305,221571,104639
+utgift,2445,39,"Byggelånsrenter, kan overføres",164,8125,705875,714000,707440,6560,6560
+utgift,2445,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",164,174240,182985,357225,292307,64918,64918
+utgift,2445,49,"Kjøp av eiendommer, kan overføres",164,0,21319,21319,74575,-53256,0
+utgift,2460,24,"Driftsresultat: 01 Driftsinntekter...................... 02 Driftsutgifter, overslagsbevilgning 06 Til reguleringsfondet........... Underskudd/overskudd (-)",165,0,102500,102500,81430,21070,0
+utgift,2470,24,"Driftsresultat: 01 Driftsinntekter, overslagsbevilgning 02 Driftsutgifter, overslagsbevilgning 03 Avskrivninger....................... 04 Renter av statens kapital..... 05 Til investeringsformål......... 06 Til reguleringsfond.............. Underskudd/overskudd (-)",165,0,-15000,-15000,-15000,0,0
+utgift,2470,45,"Større utstyrsanskaffelser og vedlikehold, kan overføres",165,2923,202327,205250,217757,-12507,0
+utgift,2530,70,"Foreldrepenger ved fødsel, overslagsbevilgning",165,0,25950000,25950000,25946791,3209,0
+utgift,2530,71,"Engangsstønad ved fødsel og adopsjon, overslagsbevilgning",165,0,690000,690000,710197,-20197,0
+utgift,2530,72,"Feriepenger av foreldrepenger, overslagsbevilgning",165,0,655000,655000,651531,3469,0
+utgift,2530,73,"Foreldrepenger ved adopsjon, overslagsbevilgning",165,0,24000,24000,24987,-987,0
+utgift,2531,70,Forskott til utbetaling...............,165,0,690000,690000,690184,-184,0
+utgift,2540,70,"Tilskudd, overslagsbevilgning",166,0,80000,80000,80000,0,0
+utgift,2541,70,"Dagpenger, overslagsbevilgning",166,0,12890400,12890400,13300249,-409849,0
+utgift,2542,70,"Statsgaranti for lønnskrav ved konkurs mv., overslagsbevilgning",166,0,985000,985000,1036381,-51381,0
+utgift,2620,70,"Overgangsstønad, overslagsbevilgning",166,0,1600000,1600000,1605440,-5440,0
+utgift,2620,72,"Stønad til barnetilsyn til enslig mor eller far i arbeid, overslagsbevilgning",166,0,80000,80000,77003,2997,0
+utgift,2620,73,"Tilleggsstønader og stønad til skolepenger, overslagsbevilgning",166,0,14000,14000,13532,468,0
+utgift,2650,70,"Sykepenger for arbeidstakere mv., overslagsbevilgning",166,0,60570000,60570000,59647458,922542,0
+utgift,2650,71,"Sykepenger for selvstendige, overslagsbevilgning",166,0,1910000,1910000,1887042,22958,0
+utgift,2650,72,"Pleie-, opplærings- og omsorgs- penger mv., overslagsbevilgning",166,0,3180000,3180000,3276706,-96706,0
+utgift,2650,75,"Feriepenger av sykepenger, overslagsbevilgning",166,0,3210000,3210000,3189548,20452,0
+utgift,2650,76,"Tilskudd til ekspertbistand og kompetansetiltak for syk- meldte, kan overføres",166,0,87500,87500,67463,20037,20037
+utgift,2651,70,"Arbeidsavklaringspenger, overslagsbevilgning",167,0,46490000,46490000,46735067,-245067,0
+utgift,2651,71,"Tilleggsstønad, overslagsbevilgning",167,0,130000,130000,137870,-7870,0
+utgift,2651,72,Legeerklæringer.......................,167,0,465000,465000,463345,1655,0
+utgift,2655,70,"Uføretrygd, overslagsbevilgning",167,0,124940000,124940000,125162375,-222375,0
+utgift,2655,75,"Menerstatning ved yrkesskade, overslagsbevilgning",167,0,73000,73000,76001,-3001,0
+utgift,2655,76,"Yrkesskadetrygd gml. lovgivning, overslagsbevilgning",167,0,31000,31000,30992,8,0
+utgift,2661,70,"Grunnstønad, overslagsbevilgning",167,0,1800000,1800000,1798959,1041,0
+utgift,2661,71,"Hjelpestønad, overslagsbevilgning",167,0,2290000,2290000,2320579,-30579,0
+utgift,2661,72,Stønad til servicehund..............,167,2262,9905,12167,6658,5509,0
+utgift,2661,73,Hjelpemidler mv. under arbeid og utdanning.............................,167,0,121000,121000,118294,2706,0
+utgift,2661,74,Tilskudd til biler........................,167,0,875000,875000,1007513,-132513,0
+utgift,2661,75,"Bedring av funksjonsevnen, hjelpemidler...............................",167,0,4950000,4950000,5008654,-58654,0
+utgift,2661,76,"Bedring av funksjonsevnen, hjelpemidler som tjenester......",167,0,430000,430000,431843,-1843,0
+utgift,2661,77,Ortopediske hjelpemidler........,167,0,2600000,2600000,2604646,-4646,0
+utgift,2661,78,Høreapparater...........................,167,0,1030000,1030000,1083823,-53823,0
+utgift,2661,79,Aktivitetshjelpemidler til personer over 26 år...................,167,21932,59945,81877,81908,-31,0
+utgift,2670,70,"Grunnpensjon, overslagsbevilgning",167,0,93540000,93540000,93571942,-31942,0
+utgift,2670,71,"Tilleggspensjon, overslagsbevilgning",167,0,189340000,189340000,189311300,28700,0
+utgift,2670,72,"Inntektspensjon, overslagsbevilgning",167,0,24180000,24180000,24147602,32398,0
+utgift,2670,73,"Særtillegg, pensjonstillegg mv., overslagsbevilgning",167,0,9140000,9140000,9140407,-407,0
+utgift,2680,70,"Omstillingsstønad mv., overslagsbevilgning",168,0,1690000,1690000,1686259,3741,0
+utgift,2680,71,"Barnepensjon, overslagsbevilgning",168,0,1640000,1640000,1649916,-9916,0
+utgift,2680,74,"Tilleggsstønader og stønad til skolepenger, overslagsbevilgning",168,0,100,100,94,6,0
+utgift,2680,75,"Stønad til barnetilsyn til gjenlevende i arbeid, overslagsbevilgning",168,0,1600,1600,1633,-33,0
+utgift,2686,70,"Stønad ved gravferd, overslagsbevilgning",168,0,385000,385000,423152,-38152,0
+utgift,2711,70,Spesialisthjelp............................,168,0,2950000,2950000,2933072,16928,0
+utgift,2711,71,Psykologhjelp............................,168,0,425000,425000,425286,-286,0
+utgift,2711,72,Tannbehandling........................,168,0,2910000,2910000,2889836,20164,0
+utgift,2711,76,Private laboratorier og røntgeninstitutt.........................,168,0,1450000,1450000,1481871,-31871,0
+utgift,2751,70,Legemidler................................,168,0,14560000,14560000,14398869,161131,0
+utgift,2751,71,Legeerklæringer.......................,168,0,21000,21000,22351,-1351,0
+utgift,2751,72,Medisinsk forbruksmateriell...,168,0,2350000,2350000,2339217,10783,0
+utgift,2752,72,Egenandelstak...........................,168,0,8670000,8670000,8584159,85841,0
+utgift,2755,62,"Fastlønnsordning fysioterapeuter, kan nyttes under post 71",168,0,605000,605000,557657,47343,0
+utgift,2755,70,Allmennlegehjelp......................,168,0,7361500,7361500,7371897,-10397,0
+utgift,2755,71,"Fysioterapi, kan nyttes under post 62",168,0,1698500,1698500,1685866,12634,0
+utgift,2755,72,Jordmorhjelp.............................,168,0,94000,94000,94630,-630,0
+utgift,2755,73,Kiropraktorbehandling.............,169,0,145000,145000,138810,6190,0
+utgift,2755,75,Logopedisk og ortoptisk behandling.................................,169,0,355000,355000,350913,4087,0
+utgift,2756,70,Helsetjenester i annet EØS-land....................................,169,0,7000,7000,7228,-228,0
+utgift,2756,71,Helsetjenester i utlandet mv. ..,169,0,750000,750000,584647,165353,0
+utgift,2756,72,Helsetjenester til utenlands- boende mv. ...............................,169,0,385000,385000,372954,12046,0
+utgift,2790,70,Bidrag.........................................,169,0,255000,255000,257719,-2719,0
+utgift,2800,50,Overføring til fondet.................,169,0,701053700,701053700,702159081,-1105381,0
+utgift,2800,96,Finansposter overført til fondet.........................................,169,0,42800640,42800640,42800640,0,0
+inntekt,3024,01,Erstatning for utgifter i rettssaker.....................................,170,,22237,,25311,3074,
+inntekt,3041,01,Salgsinntekter......................................................................,170,,5000,,7227,2227,
+inntekt,3041,03,Leieinntekter........................................................................,170,,2300,,4904,2604,
+inntekt,3045,01,Inntekter fra offentlige foretak...........................................,170,,315,,0,-315,
+inntekt,3045,03,Inntekter fra stiftelser.........................................................,170,,500,,500,0,
+inntekt,3051,02,Refusjon utland....................................................................,170,,300,,947,647,
+inntekt,3061,03,Diverse inntekter.................................................................,170,,0,,250,250,
+inntekt,3100,01,Diverse gebyrer ved utenriksstasjonene..........................,170,,31007,,23461,-7546,
+inntekt,3100,02,Gebyrer for utlendingssaker ved utenriksstasjonene.....,170,,236366,,255286,18920,
+inntekt,3100,05,Refusjon spesialutsendinger mv. ......................................,170,,45040,,63398,18358,
+inntekt,3100,89,Valutagevinst (agio) ...........................................................,170,,0,,16376,16376,
+inntekt,3100,90,Tilbakebetaling av nødlån fra utlandet..............................,170,,2250,,2144,-106,
+inntekt,3140,89,Valutagevinst (agio) ...........................................................,171,,0,,11075,11075,
+inntekt,3200,02,Salgsinntekter mv. .............................................................,171,,0,,174,174,
+inntekt,3200,03,Inntekter fra fremleie..........................................................,171,,3700,,3651,-49,
+inntekt,3220,01,Inntekter ved oppdrag........................................................,171,,882,,745,-137,
+inntekt,3222,02,Salgsinntekter mv. .............................................................,171,,31144,,32022,878,
+inntekt,3223,02,Salgsinntekter mv. .............................................................,171,,715,,721,6,
+inntekt,3225,04,Refusjon av ODA-godkjente utgifter.................................,171,,222920,,222920,0,
+inntekt,3230,01,Inntekter ved oppdrag........................................................,171,,27200,,28779,1579,
+inntekt,3230,02,Salgsinntekter mv. .............................................................,171,,3545,,3562,17,
+inntekt,3242,02,Salgsinntekter mv. .............................................................,171,,7536,,9627,2091,
+inntekt,3242,61,Refusjon fra fylkeskommuner............................................,171,,50,,0,-50,
+inntekt,3256,01,Inntekter ved oppdrag........................................................,171,,9056,,7793,-1263,
+inntekt,3256,02,Inntekter fra refusjoner mv. ..............................................,171,,42545,,44117,1572,
+inntekt,3271,01,Inntekter ved oppdrag........................................................,172,,4301,,8112,3811,
+inntekt,3271,02,Salgsinntekter mv. .............................................................,172,,694,,269,-425,
+inntekt,3275,01,Inntekter ved oppdrag........................................................,172,,10,,0,-10,
+inntekt,3288,04,Refusjon av ODA-godkjente utgifter.................................,172,,18969,,18969,0,
+inntekt,3300,01,Ymse inntekter....................................................................,172,,100,,0,-100,
+inntekt,3320,01,Ymse inntekter....................................................................,172,,4881,,4503,-378,
+inntekt,3320,03,Refusjoner EU-midler.........................................................,172,,0,,6556,6556,
+inntekt,3322,01,Ymse inntekter....................................................................,172,,155,,400,245,
+inntekt,3322,02,Inntekter ved oppdrag........................................................,172,,35853,,62145,26292,
+inntekt,3323,01,Ymse inntekter....................................................................,172,,388,,517,129,
+inntekt,3323,02,Billett- og salgsinntekter m.m. ..........................................,172,,32405,,38519,6114,
+inntekt,3325,01,Ymse inntekter....................................................................,172,,2444,,1402,-1042,
+inntekt,3326,01,Ymse inntekter....................................................................,172,,23672,,26152,2480,
+inntekt,3326,02,Inntekter ved oppdrag........................................................,172,,18336,,37566,19230,
+inntekt,3327,01,Ymse inntekter....................................................................,173,,34589,,43037,8448,
+inntekt,3327,02,Inntekter ved oppdrag........................................................,173,,4620,,3727,-893,
+inntekt,3329,01,Ymse inntekter....................................................................,173,,2444,,2604,160,
+inntekt,3329,02,Inntekter ved oppdrag........................................................,173,,3747,,2216,-1531,
+inntekt,3334,01,Ymse inntekter....................................................................,173,,6723,,7761,1038,
+inntekt,3334,02,Inntekter ved oppdrag........................................................,173,,9638,,10801,1163,
+inntekt,3335,02,Inntekter ved oppdrag........................................................,173,,4101,,4652,551,
+inntekt,3339,02,Gebyr - lotterier...................................................................,173,,8695,,13268,4573,
+inntekt,3339,04,Gebyr - stiftelser..................................................................,173,,220,,845,625,
+inntekt,3339,07,Inntekter ved oppdrag........................................................,173,,7870,,17760,9890,
+inntekt,3350,85,Tvangsmulkt........................................................................,173,,1000,,0,-1000,
+inntekt,3400,01,Diverse inntekter.................................................................,173,,5641,,6110,469,
+inntekt,3410,01,Rettsgebyr............................................................................,173,,212900,,207358,-5542,
+inntekt,3410,02,Saks- og gebyrinntekter jordskiftedomstolene................,173,,23300,,23748,448,
+inntekt,3410,03,Diverse refusjoner...............................................................,173,,1837,,11600,9763,
+inntekt,3410,04,Vernesaker jordskiftedomstolene.....................................,173,,1500,,1520,20,
+inntekt,3411,03,Diverse refusjoner...............................................................,174,,313,,487,174,
+inntekt,3430,02,Arbeidsdriftens inntekter...................................................,174,,118791,,136732,17941,
+inntekt,3430,03,Andre inntekter...................................................................,174,,26182,,33353,7171,
+inntekt,3430,04,Tilskudd...............................................................................,174,,33021,,34430,1409,
+inntekt,3432,03,Andre inntekter...................................................................,174,,1224,,1678,454,
+inntekt,3433,02,Refusjoner............................................................................,174,,135,,146,11,
+inntekt,3440,01,Gebyr - pass og våpen.........................................................,174,,682257,,648722,-33535,
+inntekt,3440,02,Refusjoner mv. ....................................................................,174,,222296,,178479,-43817,
+inntekt,3440,03,Salgsinntekter......................................................................,174,,43201,,33909,-9292,
+inntekt,3440,04,Gebyr - vaktselskap og etterkontroll av deaktiverte skytevåpen...........................................................................,174,,2828,,1865,-963,
+inntekt,3440,06,Gebyr - utlendingssaker.....................................................,174,,330034,,366388,36354,
+inntekt,3440,07,Gebyr - sivile gjøremål........................................................,174,,774850,,795729,20879,
+inntekt,3440,08,Refusjoner fra EUs grense- og visumfinansierings- ordninger.............................................................................,174,,55000,,25096,-29904,
+inntekt,3442,02,Diverse inntekter.................................................................,174,,27187,,30511,3324,
+inntekt,3442,03,Eksterne forskningsmidler................................................,174,,10790,,10749,-41,
+inntekt,3444,02,Refusjoner............................................................................,174,,11004,,10376,-628,
+inntekt,3451,01,Gebyr....................................................................................,174,,125453,,133731,8278,
+inntekt,3451,02,Refusjoner driftsutgifter Nødnett......................................,174,,37370,,25971,-11399,
+inntekt,3451,03,Diverse inntekter.................................................................,174,,31676,,30263,-1413,
+inntekt,3451,04,Refusjoner større utstyrsanskaffelser og vedlikehold Nødnett.................................................................................,174,,155781,,146807,-8974,
+inntekt,3451,05,Abonnementsinntekter og refusjoner Nødnett................,175,,576862,,609651,32789,
+inntekt,3451,06,Refusjoner............................................................................,175,,17751,,27804,10053,
+inntekt,3451,07,Refusjoner fra EU i forbindelse med variable utgifter knyttet til EUs ordning for sivil beredskap.......................,175,,50000,,49137,-863,
+inntekt,3451,40,Salg av eiendom m.m. ........................................................,175,,0,,3000,3000,
+inntekt,3454,01,Refusjoner............................................................................,175,,31287,,31287,0,
+inntekt,3455,01,Refusjoner............................................................................,175,,0,,1314,1314,
+inntekt,3457,01,Inntekter...............................................................................,175,,43893,,46235,2342,
+inntekt,3470,01,Tilkjente saksomkostninger m.m. ....................................,175,,4773,,2572,-2201,
+inntekt,3470,02,"Fri rettshjelp, ODA-godkjente utgifter..............................",175,,5668,,5668,0,
+inntekt,3473,01,Diverse inntekter.................................................................,175,,5,,276,271,
+inntekt,3473,02,"Vergemåls-/representantordning, ODA-godkjente utgifter..................................................................................",175,,6500,,6500,0,
+inntekt,3481,01,Refusjoner og andre inntekter...........................................,175,,7137,,8035,898,
+inntekt,3490,01,"Assistert retur fra Norge for asylsøkere med avslag, ODA-godkjente utgifter......................................................",175,,5906,,5906,0,
+inntekt,3490,03,"Reiseutgifter for flyktninger fra utlandet, ODA-godkjente utgifter......................................................",175,,31699,,31699,0,
+inntekt,3490,04,"Asylmottak, ODA-godkjente utgifter.................................",175,,3111058,,3111058,0,
+inntekt,3490,05,Refusjonsinntekter..............................................................,175,,3985,,4553,568,
+inntekt,3490,06,"Beskyttelse til flyktninger utenfor Norge mv., ODA-godkjente utgifter......................................................",175,,14325,,14325,0,
+inntekt,3490,07,"Tolk og oversettelse, ODA-godkjente utgifter.................",176,,20383,,20383,0,
+inntekt,3490,08,"Internasjonalt migrasjonsarbeid og reintegrering i hjemlandet, ODA-godkjente utgifter...............................",176,,52513,,52513,0,
+inntekt,3563,02,Diverse inntekter.................................................................,176,,3141,,4842,1701,
+inntekt,3571,90,Tilbakeføring av forskudd..................................................,176,,0,,140575,140575,
+inntekt,3585,01,Gebyrer................................................................................,176,,3271,,3836,565,
+inntekt,3587,04,Gebyrer................................................................................,176,,41245,,41881,636,
+inntekt,3587,85,Diverse inntekter.................................................................,176,,115,,45,-70,
+inntekt,3595,01,Gebyrinntekter tinglysing..................................................,176,,425000,,436641,11641,
+inntekt,3595,02,Salg og abonnement m.m. .................................................,176,,181868,,186837,4969,
+inntekt,3595,03,Samfinansiering...................................................................,176,,244265,,210679,-33586,
+inntekt,3605,01,Administrasjonsvederlag....................................................,176,,9261,,9303,42,
+inntekt,3605,04,Tolketjenester......................................................................,176,,4708,,3216,-1492,
+inntekt,3605,05,Oppdragsinntekter mv. ......................................................,176,,20755,,23736,2981,
+inntekt,3635,01,Refusjon statlig virksomhet mv. .......................................,176,,700,,714,14,
+inntekt,3640,04,"Kjemikaliekontroll, gebyrer...............................................",176,,5376,,0,-5376,
+inntekt,3640,06,Refusjoner............................................................................,176,,4400,,4485,85,
+inntekt,3640,07,"Byggesaksbehandling, gebyrer.........................................",177,,21000,,22651,1651,
+inntekt,3640,08,Refusjon utgifter regionale verneombud..........................,177,,17618,,17807,189,
+inntekt,3640,85,Tvangsmulkt........................................................................,177,,16000,,15712,-288,
+inntekt,3640,86,Overtredelsesgebyrer.........................................................,177,,64950,,72189,7239,
+inntekt,3671,04,"Tilskudd til integreringsprosjekter i asylmottak i regi av frivillige organisasjoner, ODA-godkjente utgifter.......",177,,12779,,12779,0,
+inntekt,3672,01,"Norskopplæring i mottak, ODA-godkjente utgifter.........",177,,47641,,47641,0,
+inntekt,3700,03,Refusjon av ODA-godkjente utgifter fra Utenriks- departementet......................................................................,177,,200000,,200000,0,
+inntekt,3704,02,Diverse inntekter.................................................................,177,,3380,,4066,686,
+inntekt,3710,03,Vaksinesalg..........................................................................,177,,258606,,290184,31578,
+inntekt,3714,04,Gebyrinntekter....................................................................,177,,3013,,3268,255,
+inntekt,3732,80,Renter på investeringslån...................................................,177,,405000,,405072,72,
+inntekt,3732,85,Avdrag på investeringslån f.o.m. 2008..............................,177,,793000,,792577,-423,
+inntekt,3732,87,Avdrag på tilskudd til Helseplattformen...........................,177,,163200,,163242,42,
+inntekt,3732,90,Avdrag på investeringslån t.o.m. 2007..............................,177,,549500,,549544,44,
+inntekt,3740,02,Diverse inntekter.................................................................,178,,34244,,32819,-1425,
+inntekt,3740,04,Gebyrinntekter....................................................................,178,,29357,,35883,6526,
+inntekt,3740,05,Helsetjenester til utenlandsboende mv. ...........................,178,,86000,,107101,21101,
+inntekt,3741,02,Diverse inntekter.................................................................,178,,7633,,23797,16164,
+inntekt,3741,50,Premie fra private................................................................,178,,26018,,50045,24027,
+inntekt,3742,50,Premie fra private................................................................,178,,2380,,11979,9599,
+inntekt,3745,02,Diverse inntekter.................................................................,178,,316079,,471442,155363,
+inntekt,3746,02,Diverse inntekter.................................................................,178,,38455,,79322,40867,
+inntekt,3746,04,Registreringsgebyr.............................................................,178,,70098,,74248,4150,
+inntekt,3747,02,Diverse inntekter.................................................................,178,,14476,,6594,-7882,
+inntekt,3747,04,Gebyrinntekter....................................................................,178,,45554,,42354,-3200,
+inntekt,3748,02,Diverse inntekter.................................................................,178,,1044,,1000,-44,
+inntekt,3841,01,Gebyrinntekter for fastsettelse av bidrag.........................,178,,26498,,27693,1195,
+inntekt,3842,01,Diverse inntekter.................................................................,178,,865,,757,-108,
+inntekt,3847,01,Tilskudd fra Europakommisjonen.....................................,178,,5964,,7252,1288,
+inntekt,3853,01,Tilfeldige inntekter..............................................................,179,,0,,320,320,
+inntekt,3855,01,Diverse inntekter.................................................................,179,,3541,,5467,1926,
+inntekt,3855,02,Barnetrygd...........................................................................,179,,3959,,3008,-951,
+inntekt,3855,60,Kommunale egenandeler...................................................,179,,2646496,,2653560,7064,
+inntekt,3856,04,Refusjon av ODA-godkjente utgifter.................................,179,,280855,,280855,0,
+inntekt,3856,60,Kommunale egenandeler...................................................,179,,2700,,263,-2438,
+inntekt,3858,01,Diverse inntekter.................................................................,179,,568,,9781,9213,
+inntekt,3868,01,Gebyrinntekter....................................................................,179,,1000,,932,-68,
+inntekt,3868,02,Tilskudd...............................................................................,179,,2745,,3420,675,
+inntekt,3883,50,Overført fra Kirkebevaringsfondet....................................,179,,90000,,90000,0,
+inntekt,3900,01,Ymse inntekter og refusjoner knyttet til ordinære driftsutgifter.........................................................................,179,,197,,1031,834,
+inntekt,3900,03,Inntekter fra forvaltning av grunneiendom på Svalbard.,179,,9515,,10624,1109,
+inntekt,3902,01,Gebyrinntekter....................................................................,179,,21802,,24613,2811,
+inntekt,3902,03,Inntekter fra salg av tjenester............................................,179,,25352,,27781,2429,
+inntekt,3902,04,Oppdragsinntekter..............................................................,179,,105,,49,-56,
+inntekt,3903,01,Gebyrinntekter og andre inntekter...................................,180,,57506,,58221,715,
+inntekt,3904,01,Gebyrinntekter....................................................................,180,,672465,,669594,-2871,
+inntekt,3904,02,"Refusjoner, oppdragsinntekter og andre inntekter.........",180,,38141,,41073,2932,
+inntekt,3905,03,Oppdragsinntekter og andre inntekter.............................,180,,78274,,74797,-3477,
+inntekt,3906,01,Leie av bergrettigheter og eiendommer...........................,180,,60,,31,-29,
+inntekt,3906,02,Behandlingsgebyrer...........................................................,180,,1435,,1883,448,
+inntekt,3906,86,Overtredelsesgebyr og tvangsmulkt.................................,180,,1000,,1251,251,
+inntekt,3908,80,Renter...................................................................................,180,,1600,,734,-866,
+inntekt,3909,01,Tilbakeføring av tilskudd....................................................,180,,3000,,3354,354,
+inntekt,3910,01,Gebyrer for skip og flyttbare innretninger i NOR...........,180,,233456,,234875,1419,
+inntekt,3910,02,Maritime personellsertifikater...........................................,180,,22065,,23198,1133,
+inntekt,3910,03,Diverse inntekter.................................................................,180,,2272,,2891,619,
+inntekt,3910,04,Gebyrer for skip i NIS.........................................................,180,,74510,,76324,1814,
+inntekt,3910,86,Overtredelsesgebyr og tvangsmulkt.................................,180,,4800,,5764,964,
+inntekt,3911,03,Refusjoner og andre inntekter...........................................,180,,123,,116,-8,
+inntekt,3911,86,Lovbruddsgebyr..................................................................,180,,100,,0,-100,
+inntekt,3912,01,Klagegebyr...........................................................................,181,,1000,,953,-47,
+inntekt,3912,02,Refusjoner og andre inntekter...........................................,181,,500,,461,-39,
+inntekt,3912,87,Overtredelsesgebyr............................................................,181,,12700,,12668,-32,
+inntekt,3916,02,Andre inntekter...................................................................,181,,11107,,22372,11265,
+inntekt,3917,01,Diverse inntekter.................................................................,181,,6153,,4210,-1943,
+inntekt,3917,05,Saksbehandlingsgebyr.......................................................,181,,35049,,29451,-5598,
+inntekt,3917,13,Inntekter fra salg av oppdrettstillatelser...........................,181,,6226492,,6263043,36551,
+inntekt,3917,86,Forvaltningssanksjoner......................................................,181,,2000,,2131,131,
+inntekt,3923,01,Oppdragsinntekter..............................................................,181,,464130,,498224,34094,
+inntekt,3926,01,Oppdragsinntekter..............................................................,181,,203514,,271130,67616,
+inntekt,3926,86,Inntekt fra dagbot................................................................,181,,3000,,6000,3000,
+inntekt,3935,01,Inntekter av informasjonstjenester....................................,181,,4500,,4333,-167,
+inntekt,3935,02,Inntekter knyttet til NPI.....................................................,181,,4900,,4932,32,
+inntekt,3935,03,Gebyrer immaterielle rettigheter......................................,181,,135400,,136133,733,
+inntekt,3936,01,Gebyrer................................................................................,181,,500,,442,-58,
+inntekt,3940,71,Tilbakebetaling av støtte ved kapitalvareeksport............,181,,5478,,5469,-9,
+inntekt,3950,96,Salg av aksjer.......................................................................,181,,6163834,,6163834,0,
+inntekt,3951,90,Avdrag..................................................................................,182,,20400,,20428,28,
+inntekt,3952,50,"Tilbakeført kapital, pre-såkornfond m.m. ........................",182,,76500,,76592,92,
+inntekt,3952,90,"Tilbakeført kapital, såkornfond..........................................",182,,219100,,219114,14,
+inntekt,3955,96,Salg av aksjer.......................................................................,182,,42800640,,42800640,0,
+inntekt,4100,01,Refusjoner m.m. .................................................................,182,,141,,13,-128,
+inntekt,4100,40,Salg av eiendom...................................................................,182,,0,,3750,3750,
+inntekt,4115,01,Gebyr m.m. .........................................................................,182,,205253,,211898,6645,
+inntekt,4115,02,Driftsinntekter og refusjoner m.m. ..................................,182,,6476,,15267,8791,
+inntekt,4115,85,"Gebyr og tvangsmulkt, m.m. .............................................",182,,7000,,13642,6642,
+inntekt,4136,30,Husleie.................................................................................,182,,20935,,20935,0,
+inntekt,4141,01,"Jegerprøve, gebyr m.m. .....................................................",182,,4071,,4486,415,
+inntekt,4142,01,"Driftsinntekter, refusjoner m.m. .......................................",182,,50463,,50463,0,
+inntekt,4150,85,Markedsordningen for korn..............................................,182,,50,,1688,1638,
+inntekt,4162,90,Avdrag på lån.......................................................................,183,,10000,,10000,0,
+inntekt,4300,01,Refusjon fra Utenriksdepartementet.................................,183,,900,,834,-66,
+inntekt,4300,85,Overtredelsesgebyr for utslipp fra nye kjøretøy..............,183,,110000,,114071,4071,
+inntekt,4312,90,Avdrag på lån.......................................................................,183,,305500,,305474,-26,
+inntekt,4313,01,Gebyrinntekter....................................................................,183,,150500,,151858,1358,
+inntekt,4313,02,Refusjon av diverse utgifter................................................,183,,0,,4751,4751,
+inntekt,4320,01,Salgsinntekter m.m. ...........................................................,183,,179900,,215173,35273,
+inntekt,4320,02,Diverse gebyrer...................................................................,183,,469800,,496724,26924,
+inntekt,4320,03,Refusjoner fra forsikringsselskaper..................................,183,,131300,,79701,-51599,
+inntekt,4320,04,Billettinntekter fra riksveiferjedriften...............................,183,,688200,,693043,4843,
+inntekt,4330,01,Gebyrer................................................................................,183,,21300,,21300,0,
+inntekt,4330,70,Tilbakebetaling av kjøp av sjøtransporttjenester på strekningen Bergen-Kirkenes............................................,183,,25800,,25793,-7,
+inntekt,4352,01,Diverse inntekter.................................................................,183,,5900,,6607,707,
+inntekt,4354,01,Gebyrer for tilsyn med tau- og kabelbaner og fornøyelsesinnretninger.....................................................,183,,15000,,16795,1795,
+inntekt,4400,03,Refusjon fra Utenriksdepartementet.................................,184,,37815,,37833,18,
+inntekt,4420,01,Oppdrag og andre diverse inntekter.................................,184,,6721,,8902,2181,
+inntekt,4420,04,"Gebyrer, forurensningsområdet........................................",184,,87814,,80364,-7450,
+inntekt,4420,06,"Gebyrer, statsforvalterembetenes miljøvernavdelinger..",184,,57000,,52940,-4060,
+inntekt,4420,07,"Gebyrer, kvotesystemet.....................................................",184,,6628,,5788,-840,
+inntekt,4420,09,Internasjonale oppdrag.......................................................,184,,52690,,55248,2558,
+inntekt,4420,40,Salg av eiendom og innløsning av festetomter i statlig sikrede friluftslivsområder.................................................,184,,369,,378,9,
+inntekt,4420,50,Overføringer fra andre statlige regnskaper......................,184,,6000,,4755,-1245,
+inntekt,4420,85,Overføringer fra andre........................................................,184,,5600,,4777,-823,
+inntekt,4423,01,"Gebyrer, radioaktiv forurensning......................................",184,,1127,,1510,383,
+inntekt,4429,02,Refusjoner og diverse inntekter.........................................,184,,1404,,1332,-72,
+inntekt,4429,09,Internasjonale oppdrag.......................................................,184,,4200,,3443,-757,
+inntekt,4471,01,Salgs- og utleieinntekter.....................................................,184,,8827,,8368,-459,
+inntekt,4471,03,Inntekter fra diverse tjenesteyting....................................,184,,130000,,166038,36038,
+inntekt,4471,21,"Inntekter, Antarktis.............................................................",184,,16048,,49557,33509,
+inntekt,4481,01,Salgsinntekter......................................................................,184,,2211538,,2230574,19036,
+inntekt,4510,02,Diverse inntekter.................................................................,184,,79293,,86708,7415,
+inntekt,4510,03,Brukerbetaling....................................................................,184,,118446,,139786,21340,
+inntekt,4520,01,Inntekter ved oppdrag........................................................,185,,89047,,45778,-43269,
+inntekt,4520,02,Diverse inntekter.................................................................,185,,0,,11305,11305,
+inntekt,4531,01,Ymse inntekter....................................................................,185,,0,,178,178,
+inntekt,4533,02,Diverse inntekter.................................................................,185,,5366,,5531,165,
+inntekt,4540,03,Diverse inntekter.................................................................,185,,2285,,37139,34854,
+inntekt,4540,04,Tilsyn for universell utforming av IKT..............................,185,,0,,300,300,
+inntekt,4540,05,Bruk av nasjonale fellesløsninger......................................,185,,179000,,159846,-19154,
+inntekt,4540,07,Tjenesteeierfinansiert drift av Altinn.................................,185,,137500,,157338,19838,
+inntekt,4542,01,Refusjon fra Utenriksdepartementet.................................,185,,3541,,3495,-46,
+inntekt,4543,01,Diverse gebyrer...................................................................,185,,322,,294,-28,
+inntekt,4543,70,Inntekter fra gjennomførte frekvensauksjoner................,185,,583600,,583647,47,
+inntekt,4550,85,Overtredelsesgebyr og tvangsmulkt.................................,185,,0,,-82840,-82840,
+inntekt,4565,01,"Gebyrinntekter, lån.............................................................",185,,63000,,66798,3798,
+inntekt,4565,90,Tilbakebetaling av lån.........................................................,185,,13800000,,14441446,641446,
+inntekt,4566,01,Premieinntekter..................................................................,185,,85000,,84718,-282,
+inntekt,4567,01,Premieinntekter..................................................................,185,,143000,,143030,30,
+inntekt,4600,02,Diverse refusjoner...............................................................,186,,50,,0,-50,
+inntekt,4602,03,Saksbehandlingsgebyr.......................................................,186,,16000,,18151,2151,
+inntekt,4602,86,Vinningsavståelse og overtredelsesgebyr mv. ................,186,,30000,,41101,11101,
+inntekt,4605,01,Økonomitjenester og andre driftsinntekter......................,186,,277587,,298683,21096,
+inntekt,4605,02,Opplæringskontoret OK stat..............................................,186,,19345,,20703,1358,
+inntekt,4610,01,Særskilt vederlag for tolltjenester.....................................,186,,6700,,6890,190,
+inntekt,4610,02,Andre inntekter...................................................................,186,,2401,,4230,1829,
+inntekt,4610,04,Diverse refusjoner...............................................................,186,,750,,758,8,
+inntekt,4610,05,Refusjon fra Avinor AS........................................................,186,,30604,,30431,-173,
+inntekt,4610,85,Tvangsmulkt og overtredelsesgebyr................................,186,,10000,,14145,4145,
+inntekt,4618,01,Refunderte utleggs- og tinglysingsgebyr..........................,186,,27000,,26460,-540,
+inntekt,4618,03,Andre inntekter...................................................................,186,,40007,,46907,6900,
+inntekt,4618,05,Gebyr for utleggsforretninger...........................................,186,,110000,,112519,2519,
+inntekt,4618,07,Gebyr for bindende forhåndsuttalelser.............................,186,,5000,,5559,559,
+inntekt,4618,11,Gebyr på kredittdeklarasjoner...........................................,186,,3237,,2353,-884,
+inntekt,4618,85,Inngått på tapsførte lån mv. ...............................................,186,,240000,,252312,12312,
+inntekt,4618,86,"Bøter, inndragninger mv. ..................................................",186,,2000000,,1920347,-79653,
+inntekt,4618,87,Trafikantsanksjoner............................................................,186,,70000,,76486,6486,
+inntekt,4618,88,"Forsinkelsesgebyr, Regnskapsregisteret.........................",186,,450000,,353623,-96377,
+inntekt,4618,89,Overtredelsesgebyr............................................................,186,,15000,,15358,358,
+inntekt,4620,02,Oppdragsinntekter..............................................................,186,,237525,,246307,8782,
+inntekt,4620,85,Tvangsmulkt........................................................................,186,,10000,,12585,2585,
+inntekt,4634,85,Tilskudd til støtteberettigete virksomheter - tilbakebetaling.....................................................................,187,,1000,,1819,819,
+inntekt,4645,50,Tilbakeføring av tapsavsetning for statlig garantiordning for lån til små og mellomstore bedrifter...........................,187,,7000000,,7000000,0,
+inntekt,4700,01,Driftsinntekter.....................................................................,187,,16902,,27141,10239,
+inntekt,4700,02,"IKT-virksomhet, inntekter..................................................",187,,119220,,125563,6343,
+inntekt,4700,85,Aksjeutbytte.........................................................................,187,,25000,,25000,0,
+inntekt,4710,01,Driftsinntekter.....................................................................,187,,5751606,,5729193,-22413,
+inntekt,4710,47,Salg av eiendom...................................................................,187,,385000,,386297,1297,
+inntekt,4720,01,Driftsinntekter.....................................................................,187,,1074465,,1672989,598524,
+inntekt,4760,01,Driftsinntekter.....................................................................,187,,146095,,195129,49034,
+inntekt,4760,45,"Større utstyrsanskaffelser og vedlikehold, inntekter......",187,,1259167,,2456490,1197323,
+inntekt,4760,48,"Fellesfinansierte investeringer, inntekter.........................",187,,910256,,910255,-1,
+inntekt,4791,01,Driftsinntekter.....................................................................,187,,595457,,577237,-18220,
+inntekt,4799,86,Militære bøter......................................................................,187,,500,,604,104,
+inntekt,4800,10,Refusjoner............................................................................,188,,0,,72,72,
+inntekt,4800,70,"Garantiprovisjon, Gassco....................................................",188,,2000,,2224,224,
+inntekt,4810,01,Gebyrinntekter....................................................................,188,,26500,,23527,-2973,
+inntekt,4810,02,Oppdrags- og samarbeidsinntekter...................................,188,,57500,,57314,-186,
+inntekt,4810,03,Salg av undersøkelsesmateriale........................................,188,,59500,,59478,-22,
+inntekt,4810,10,Refusjoner............................................................................,188,,300,,66,-234,
+inntekt,4820,01,Gebyrinntekter....................................................................,188,,10000,,8775,-1225,
+inntekt,4820,02,Oppdrags- og samarbeidsinntekter...................................,188,,59000,,49533,-9467,
+inntekt,4820,03,Salg av utstyr mv. ...............................................................,188,,0,,99,99,
+inntekt,4820,10,Refusjoner............................................................................,188,,0,,6148,6148,
+inntekt,4820,40,Flom- og skredforebygging................................................,188,,38000,,26325,-11675,
+inntekt,4860,01,Gebyrinntekter....................................................................,188,,83400,,83731,331,
+inntekt,4860,02,Oppdrags- og samarbeidsinntekter...................................,188,,8900,,10019,1119,
+inntekt,4860,10,Refusjoner............................................................................,188,,0,,794,794,
+inntekt,5309,29,Ymse.....................................................................................,188,,5176200,,5611683,435483,
+inntekt,5309,96,Salg av aksjer.......................................................................,188,,0,,4,4,
+inntekt,5310,04,Refusjon av ODA-godkjente utgifter.................................,188,,3873,,3873,0,
+inntekt,5310,29,Termingebyrer....................................................................,188,,1801,,1684,-117,
+inntekt,5310,89,Purregebyrer.......................................................................,188,,111340,,113864,2524,
+inntekt,5310,90,Redusert lån og rentegjeld.................................................,188,,12919851,,13042317,122466,
+inntekt,5310,93,Omgjøring av utdanningslån til stipend............................,188,,8065638,,7955635,-110003,
+inntekt,5312,01,Gebyrer m.m. ......................................................................,189,,6890,,6475,-415,
+inntekt,5312,11,Diverse inntekter.................................................................,189,,86652,,64528,-22124,
+inntekt,5312,90,Avdrag..................................................................................,189,,13002000,,11868677,-1133323,
+inntekt,5325,53,Tilbakeføring av ubrukte tiltakspakkemidler...................,189,,203139,,203137,-2,
+inntekt,5325,70,Låneprovisjoner...................................................................,189,,68300,,68327,27,
+inntekt,5325,71,Tilbakeføring av omstillingsmidler...................................,189,,80,,80,0,
+inntekt,5325,90,Avdrag på utestående fordringer.......................................,189,,61800000,,61755000,-45000,
+inntekt,5325,92,Låneordning for pakkereisearrangører - avdrag..............,189,,30500,,30458,-42,
+inntekt,5326,70,Låne- og garantiprovisjoner...............................................,189,,7000,,7000,0,
+inntekt,5326,90,Avdrag på utestående fordringer.......................................,189,,55000,,55000,0,
+inntekt,5329,70,Gebyrer m.m. ......................................................................,189,,25000,,29072,4072,
+inntekt,5329,90,Avdrag på utestående fordringer.......................................,189,,8000000,,7857493,-142507,
+inntekt,5341,91,Alminnelige fordringer.......................................................,189,,0,,45,45,
+inntekt,5341,95,Avdrag på lån til andre stater.............................................,189,,300,,528,228,
+inntekt,5341,98,Avdrag på egenbeholdning statsobligasjoner..................,189,,4000000,,4000000,0,
+inntekt,5351,85,Overføring............................................................................,189,,17604258,,17604258,0,
+inntekt,5440,24,Driftsresultat: 01 Driftsinntekter................................................................ 02 Driftsutgifter................................................................... 03 Lete- og feltutviklingsutgifter........................................ 04 Avskrivninger................................................................. 05 Renter av statens kapital................................................ ,190,,233300000,,234152742,852742,
+inntekt,5440,30,Avskrivninger......................................................................,190,,29400000,,29599681,199681,
+inntekt,5440,80,Renter av statens kapital.....................................................,190,,3800000,,4026080,226080,
+inntekt,5440,85,Renter på mellomregnskapet.............................................,190,,0,,-10516,-10516,
+inntekt,5460,51,Tilbakeføring av tapsavsetning for risikoavlastnings- ordningen for garantier til Reisegarantifondet.................,190,,26680,,26680,0,
+inntekt,5460,52,Tilbakeføring fra Eksfin av tidligere bevilget taps- avsetning..............................................................................,190,,10000000,,10000000,0,
+inntekt,5460,53,Tilbakeføring av tapsavsetning under Luftfartsgaranti- ordningen.............................................................................,190,,49700,,49749,49,
+inntekt,5460,56,Tilbakeføring av tapsavsetning for midlertidig låne- garantiordning for høye strømpriser................................,190,,182200,,182200,0,
+inntekt,5460,71,Tilbakeføring fra avviklede garantiordninger..................,190,,23400,,23400,0,
+inntekt,5460,78,Inntekter fra midlertidig lånegarantiordning ifm. høye strømpriser..........................................................................,190,,100,,0,-100,
+inntekt,5460,89,Garantiprovisjon..................................................................,190,,40000,,38427,-1573,
+inntekt,5460,90,Avdrag på lån knyttet til bruk av trekkfullmakt under Alminnelig garantiordning.................................................,190,,2960000,,2960000,0,
+inntekt,5470,30,Avsetning til investeringsformål........................................,190,,55000,,67507,12507,
+inntekt,5491,30,Avskrivninger......................................................................,191,,1704000,,1873383,169383,
+inntekt,5501,70,Trinnskatt og formuesskatt mv. .......................................,191,,127500000,,125610634,-1889366,
+inntekt,5501,72,Fellesskatt mv. fra personlige skattytere..........................,191,,156900000,,156048095,-851905,
+inntekt,5501,74,Selskapsskatter mv. fra upersonlige skattytere utenom petroleum.............................................................................,191,,134500000,,142917912,8417912,
+inntekt,5501,76,Kildeskatt på utbytte...........................................................,191,,13750000,,13374501,-375499,
+inntekt,5501,77,Kildeskatt på rentebetalinger.............................................,191,,15000,,14854,-146,
+inntekt,5501,78,Kildeskatt på royaltybetalinger..........................................,191,,250,,197,-53,
+inntekt,5501,79,Kildeskatt på leiebetalinger for visse fysiske eiendeler..,191,,15000,,17107,2107,
+inntekt,5502,70,Skatt på lønn........................................................................,191,,2800000,,2808963,8963,
+inntekt,5502,71,Skatt på overskudd..............................................................,191,,2800000,,3736558,936558,
+inntekt,5506,70,Avgift....................................................................................,191,,22000,,29765,7765,
+inntekt,5507,71,Ordinær skatt på formue og inntekt..................................,191,,131800000,,132693480,893480,
+inntekt,5507,72,Særskatt på oljeinntekter....................................................,191,,279700000,,278773956,-926044,
+inntekt,5507,74,Arealavgift mv. ....................................................................,191,,1300000,,1179890,-120110,
+inntekt,5508,70,CO -avgift i petroleumsvirksomheten på kontinental- 2 sokkelen...............................................................................,191,,7700000,,7694703,-5297,
+inntekt,5509,70,Avgift....................................................................................,191,,-3000,,-2624,376,
+inntekt,5511,70,Toll........................................................................................,192,,3600000,,3621600,21600,
+inntekt,5511,71,Auksjonsinntekter fra tollkvoter........................................,192,,310000,,313076,3076,
+inntekt,5521,70,Merverdiavgift.....................................................................,192,,384500000,,387935375,3435375,
+inntekt,5526,70,Avgift på alkohol..................................................................,192,,16400000,,16446431,46431,
+inntekt,5531,70,Avgift på tobakkvarer mv. .................................................,192,,7600000,,7671816,71816,
+inntekt,5536,71,Engangsavgift......................................................................,192,,7900000,,7981697,81697,
+inntekt,5536,72,Trafikkforsikringsavgift......................................................,192,,10750000,,10590706,-159294,
+inntekt,5536,73,Vektårsavgift........................................................................,192,,280000,,281288,1288,
+inntekt,5536,75,Omregistreringsavgift........................................................,192,,1700000,,1756894,56894,
+inntekt,5538,70,Veibruksavgift på bensin....................................................,192,,3500000,,3572847,72847,
+inntekt,5538,71,Veibruksavgift på autodiesel..............................................,192,,6800000,,6768078,-31922,
+inntekt,5538,72,Veibruksavgift på naturgass og LPG.................................,192,,4000,,3352,-648,
+inntekt,5540,70,Avgift på kraftproduksjon...................................................,192,,-159183,,-173858,-14675,
+inntekt,5541,70,Avgift på elektrisk kraft......................................................,192,,9850000,,9719255,-130745,
+inntekt,5542,71,Avgift på smøreolje mv. .....................................................,192,,120000,,117411,-2589,
+inntekt,5543,70,CO -avgift.............................................................................,192,,16200000,,15953845,-246155,
+inntekt,5543,71,Svovelavgift..........................................................................,192,,6000,,3002,-2998,
+inntekt,5546,70,CO -avgift.............................................................................,193,,600000,,598145,-1855,
+inntekt,5547,70,Trikloreten (TRI) ...............................................................,193,,1,,1,0,
+inntekt,5547,71,Tetrakloreten (PER) ..........................................................,193,,186,,186,0,
+inntekt,5548,70,Avgift på hydrofluorkarboner (HFK) og perfluor- karboner (PFK) ..................................................................,193,,370000,,405215,35215,
+inntekt,5548,71,Avgift på SF ........................................................................,193,,100000,,83279,-16721,
+inntekt,5549,70,Avgift på utslipp av NO .....................................................,193,,35000,,35788,788,
+inntekt,5550,70,Miljøavgift på plantevernmidler.........................................,193,,65000,,49790,-15210,
+inntekt,5551,70,Avgift knyttet til andre undersjøiske naturforekomster enn petroleum......................................................................,193,,2533,,2534,1,
+inntekt,5551,71,Årsavgift knyttet til mineraler............................................,193,,18500,,18423,-77,
+inntekt,5552,70,Avgift på produksjon av fisk...............................................,193,,1300000,,1339480,39480,
+inntekt,5553,70,Avgift på viltlevende marine ressurser.............................,193,,130000,,132190,2190,
+inntekt,5554,70,Avgift på landbasert vindkraft............................................,193,,350000,,324243,-25757,
+inntekt,5557,70,Avgift på sukker mv. ..........................................................,193,,200000,,212161,12161,
+inntekt,5559,70,Grunnavgift på engangsemballasje...................................,193,,2850000,,2836731,-13269,
+inntekt,5559,71,Miljøavgift på kartong.........................................................,193,,60000,,58571,-1429,
+inntekt,5559,72,Miljøavgift på plast..............................................................,194,,55000,,48409,-6591,
+inntekt,5559,73,Miljøavgift på metall............................................................,194,,10000,,9287,-713,
+inntekt,5559,74,Miljøavgift på glass.............................................................,194,,5000,,6728,1728,
+inntekt,5561,70,Flypassasjeravgift................................................................,194,,2300000,,2225792,-74208,
+inntekt,5565,70,Dokumentavgift...................................................................,194,,12100000,,12564631,464631,
+inntekt,5568,71,Årsavgift - stiftelser.............................................................,194,,27850,,30367,2517,
+inntekt,5568,73,Refusjon - Norsk Rikstoto og Norsk Tipping AS..............,194,,47100,,47100,0,
+inntekt,5568,75,Kino- og videogramavgift...................................................,194,,30000,,19586,-10414,
+inntekt,5572,70,Legemiddeldetaljistavgift...................................................,194,,68385,,107218,38833,
+inntekt,5572,72,Avgift utsalgssteder utenom apotek..................................,194,,2700,,3601,901,
+inntekt,5572,73,Legemiddelleverandøravgift..............................................,194,,223000,,271341,48341,
+inntekt,5572,75,Sektoravgift tobakk.............................................................,194,,10952,,11186,234,
+inntekt,5574,71,Avgifter immaterielle rettigheter.......................................,194,,202200,,210753,8553,
+inntekt,5574,72,Kontroll- og tilsynsavgift akvakultur.................................,194,,33100,,35281,2181,
+inntekt,5574,73,Årsavgift Merkeregisteret..................................................,194,,3900,,3858,-42,
+inntekt,5574,74,Fiskeriforskningsavgift.......................................................,194,,384200,,419087,34887,
+inntekt,5574,75,Tilsynsavgift Justervesenet................................................,194,,33700,,35893,2193,
+inntekt,5574,76,Kontrollavgift fiskeflåten....................................................,194,,50200,,55933,5733,
+inntekt,5574,77,Sektoravgifter Kystverket..................................................,194,,1128271,,1124186,-4085,
+inntekt,5576,70,Forskningsavgift på landbruksprodukter.........................,194,,242000,,235545,-6455,
+inntekt,5576,72,Jeger- og fellingsavgifter....................................................,194,,86500,,86500,0,
+inntekt,5578,70,Sektoravgifter under Svalbards miljøvernfond................,195,,15012,,19124,4112,
+inntekt,5578,72,Fiskeravgifter.......................................................................,195,,17907,,17907,0,
+inntekt,5578,73,Påslag på nettariffen til Klima- og energifondet...............,195,,690000,,726473,36473,
+inntekt,5579,70,Sektoravgifter Nasjonal kommunikasjonsmyndighet.....,195,,278625,,265931,-12694,
+inntekt,5580,70,"Finanstilsynet, bidrag fra tilsynsenhetene........................",195,,588200,,588898,698,
+inntekt,5582,70,Bidrag til kulturminnevern i regulerte vassdrag.............,195,,6000,,68,-5932,
+inntekt,5582,71,Konsesjonsavgifter fra vannkraftutbygging.....................,195,,196000,,197098,1098,
+inntekt,5582,72,Sektoravgifter under Norges vassdrags- og energi- direktorat..............................................................................,195,,141500,,144116,2616,
+inntekt,5582,75,Sektoravgifter under Havindustritilsynet.........................,195,,140000,,140219,219,
+inntekt,5583,70,Avgift på frekvenser mv. ....................................................,195,,407000,,407070,70,
+inntekt,5584,70,"Utgåtte avgifter, og renter og tvangsmulkt på særavgifter......................................................................",195,,75000,,54316,-20684,
+inntekt,5603,80,Renter av statens faste kapital............................................,195,,2427875,,2363396,-64479,
+inntekt,5603,81,Renter av mellomværende.................................................,195,,0,,-52328,-52328,
+inntekt,5605,80,Av statskassens foliokonto i Norges Bank.......................,195,,14414500,,13818086,-596414,
+inntekt,5605,81,Av verdipapirer og bankinnskudd i utenlandsk valuta....,195,,200,,554,354,
+inntekt,5605,82,Av innenlandske verdipapirer............................................,195,,1419000,,1418233,-767,
+inntekt,5605,83,Av alminnelige fordringer..................................................,195,,60000,,267704,207704,
+inntekt,5605,84,Av driftskreditt til statsbedrifter........................................,196,,2629100,,2594458,-34642,
+inntekt,5605,86,Renter av lån til andre stater..............................................,196,,100,,15,-85,
+inntekt,5607,80,Renter...................................................................................,196,,4059000,,4078392,19392,
+inntekt,5609,80,Renter...................................................................................,196,,96000,,114974,18974,
+inntekt,5611,85,Utbytte..................................................................................,196,,26500,,26500,0,
+inntekt,5612,80,Renter...................................................................................,196,,29400,,29370,-30,
+inntekt,5613,80,Renter...................................................................................,196,,14700,,14706,6,
+inntekt,5614,80,Renter fra lån til Alminnelig garantiordning....................,196,,33500,,33513,13,
+inntekt,5615,80,Renter...................................................................................,196,,7118000,,7317571,199571,
+inntekt,5616,85,Aksjeutbytte.........................................................................,196,,700000,,700000,0,
+inntekt,5617,80,Renter...................................................................................,196,,13571033,,13672304,101271,
+inntekt,5619,80,Renter...................................................................................,196,,4000,,4145,145,
+inntekt,5625,80,Renter på lån fra statskassen.............................................,197,,710000,,688154,-21846,
+inntekt,5625,81,"Rentemargin, innovasjonslåneordningen.........................",197,,28900,,28877,-23,
+inntekt,5625,82,Låneordning for pakkereisearrangører - renter...............,197,,2600,,2622,22,
+inntekt,5625,85,"Utbytte, lavrisikolåneordningen........................................",197,,552200,,552103,-97,
+inntekt,5628,80,Renter fra såkornfond.........................................................,197,,132200,,132168,-32,
+inntekt,5629,80,Renter...................................................................................,197,,940000,,1065466,125466,
+inntekt,5631,85,Statens overskuddsandel....................................................,197,,152000,,151819,-181,
+inntekt,5631,86,Utbytte..................................................................................,197,,2,,0,-2,
+inntekt,5635,85,Utbytte..................................................................................,197,,2389,,2389,0,
+inntekt,5652,80,Renter...................................................................................,197,,16500,,16196,-304,
+inntekt,5652,85,Utbytte..................................................................................,197,,183100,,183100,0,
+inntekt,5656,85,Utbytte..................................................................................,197,,33354400,,33204558,-149842,
+inntekt,5680,85,Utbytte..................................................................................,197,,793000,,793000,0,
+inntekt,5685,85,Utbytte..................................................................................,197,,61956700,,62577763,621063,
+inntekt,5692,85,Utbytte..................................................................................,197,,155000,,158119,3119,
+inntekt,5693,85,Utbytte fra Folketrygdfondet.............................................,198,,1652,,1652,0,
+inntekt,5700,71,Trygdeavgift.........................................................................,198,,188500000,,185985648,-2514352,
+inntekt,5700,72,Arbeidsgiveravgift...............................................................,198,,267000000,,268526247,1526247,
+inntekt,5701,71,Refusjon ved yrkesskade....................................................,198,,865904,,865904,0,
+inntekt,5701,80,Renter...................................................................................,198,,2000,,1866,-134,
+inntekt,5701,86,Innkreving feilutbetalinger.................................................,198,,1520000,,1407505,-112495,
+inntekt,5701,87,Diverse inntekter.................................................................,198,,25334,,22989,-2345,
+inntekt,5701,88,Hjelpemiddelsentraler mv. ................................................,198,,105000,,96623,-8377,
+inntekt,5704,70,Dividende.............................................................................,198,,290000,,300659,10659,
+inntekt,5705,70,"Refusjon av dagpenger, statsgaranti ved konkurs...........",198,,27000,,28705,1705,
+inntekt,5705,71,Refusjon av dagpenger for grensearbeidere mv. bosatt i Norge......................................................................,198,,700,,629,-71,
+inntekt,5705,72,Innkreving av forskutterte dagpenger..............................,198,,155000,,162148,7148,
+inntekt,5706,70,Refusjon fra bidragspliktige...............................................,198,,178000,,176559,-1441,
+inntekt,5800,50,Overføring fra fondet..........................................................,198,,346450703,,346450703,0,
+inntekt,5999,90,Lån........................................................................................,199,,120371709,,107834437,-12537272,

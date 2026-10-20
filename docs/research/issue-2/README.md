@@ -8,6 +8,15 @@ Vedtakstype BUDSJETT alene dekker ikke alle bevilgningsendringer. RNB-vedtak 857
 
 DFØs bevilgningshistorikk kan brukes som en egen kontrollkilde. Fire 2024-poster er avstemt mot opprinnelige vedtak, Blå bok, endringsvedtak og statsregnskapets bevilgningskolonne. Dette er et avgrenset bevis på kildevei og beløpstolkning, ikke en fullstendig sesjonskontroll.
 
+## Videre kildeavklaringer
+
+- [Stortingsinitiativ, bevilgning, fullmakt og negative prøver](stortingsinitiativ.md)
+- [Varig originalkilde, hele regnskapstabellen og endringsregler](varig-kildegrunnlag.md)
+- [Alle 2024-posters bevilgningskolonner](statsrekneskap2024-posts.csv)
+- [Tabellkontroller](statsrekneskap2024-kontroller.json)
+
+Den offisielle PDF-en for Statsrekneskapen 2024 er hentet med HTTP 200. Alle 1 655 postrader har bevilgning som stemmer mot samtlige 594 kapittelsummer og begge totalsummer. Dette validerer bevilgningskolonnens uttrekk, ikke i seg selv hele vedtakshistorikken.
+
 ## Underlag
 
 - [API-prøver, ID-koblinger og tabellvarianter](api.md)
@@ -17,11 +26,11 @@ DFØs bevilgningshistorikk kan brukes som en egen kontrollkilde. Fire 2024-poste
 - [Avledede kontrollrader](kontroll-avstemming.json)
 - [Hasher for lokale mellomfiler](kontroll-filhashes.json)
 
-Originale råfiler er mellomlagret lokalt. Kilde-URL-er, hentestatus og SHA-256 er dokumentert. Regjeringssidens regnskapstabell ble lest gjennom nettverktøyet, men en direkte henting ga HTTP 403; et originalt råsvar fra denne siden er ikke bevart.
+Originale råfiler er mellomlagret lokalt. Kilde-URL-er, hentestatus og SHA-256 er dokumentert. Den første HTML-hentingen ga HTTP 403. Senere ble den uttrykkelig tilbudte offisielle PDF-en hentet normalt med HTTP 200 og bevart lokalt. Versjonerte postrader og hentemanifest følger den videre undersøkelsen.
 
 ## Status og gjenstående arbeid
 
-API-prøvene omfatter 24 vedtak i 2026–2027 og 1 260 i 2024–2025. Vedtakstekst finnes i sesjonsoversikten. I de fire undersøkte voteringsvedtak-svarene hadde alle 54 elementer nil-tekst. Sak, sesjon og vedtaksnummer ga en entydig kobling i utvalget, ikke en generell unikhetsgaranti. Gjentatte sesjonssvar var like etter normalisering av responstid; faktisk kilderettelse er ikke observert. Full årsavstemming, et bevilgningsvedtak uten proposisjonsgrunnlag, alle parservarianter og en varig råkopi av statsregnskapets kontrolltabeller er ikke ferdig verifisert. #2 holdes åpen til akseptansekriteriene er dokumentert eller konkrete gjenstående punkter er avklart.
+API-prøvene omfatter 24 vedtak i 2026–2027 og 1 260 i 2024–2025. Vedtakstekst finnes i sesjonsoversikten. I de fire undersøkte voteringsvedtak-svarene hadde alle 54 elementer nil-tekst. Sak, sesjon og vedtaksnummer ga en entydig kobling i utvalget, ikke en generell unikhetsgaranti. Gjentatte sesjonssvar var like etter normalisering av responstid; faktisk kilderettelse er ikke observert. Full årsavstemming, alle parservarianter og et sikkert helt proposisjonsfritt positivt tilfelle er ikke ferdig verifisert. Originalt rågrunnlag for kontrolltabellene er nå sikret. #2 holdes åpen til akseptansekriteriene er dokumentert eller konkrete gjenstående punkter er avklart.
 
 ## Kandidatgrunnlag for byggetickets
 
