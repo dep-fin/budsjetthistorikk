@@ -11,7 +11,7 @@
 ## Undersøkelser før valg av løsning
 
 1. Kontroller at sesjonsoversikten dekker relevante vedtak, også bevilgningsendringer i sammensatte saker.
-2. Finn kildevei for alle regjeringsproposisjoner med bevilgningsforslag og deres kapittel- og postomtale. Tilgjengelighet gjennom Stortingets publikasjons-API må prøves; nødvendige supplerende offisielle kilder må identifiseres.
+2. Undersøk som et avgrenset tillegg om regjeringsforslag har en enkel, tilgjengelig kildevei. Første leveranse skal kunne gjennomføres uten denne kilden. Omfattende uthenting fra regjeringen.no og manuell import planlegges som egne senere leveranser dersom det blir nødvendig.
 3. Prøv uttrekk på opprinnelig budsjett, revidert budsjett, nysaldering, andre endringsproposisjoner og vedtak uten proposisjon.
 4. Undersøk beløpsenheter, tabellstruktur, fortsettelsesrader, nye totalbeløp, endringsbeløp og romertallsvedtak.
 5. Prøv koblinger mellom sak, proposisjon, innstilling, forslag, votering og endelig vedtak.

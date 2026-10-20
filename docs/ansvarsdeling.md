@@ -1,23 +1,23 @@
 # Ansvarsdeling
 
-## Innlesning
+## Innlesning fra Stortinget
 
-Innlesningsdelen skal håndtere kildeoppdagelse, henting, kildebevaring, identifikasjon av nye og endrede opplysninger og strukturering. Den skal gi sporbarhet fra hvert strukturert element til kilden og kunne kjøres uten analysegrensesnittet.
+Området `innlesning/` skal håndtere oppdagelse, henting, kildebevaring, endringsdeteksjon og strukturering av endelige vedtak. Hvert strukturert element skal kunne spores til originalkilden. Delen skal kunne kjøres uten analysegrensesnittet.
 
-Foreslått plassering er `innlesning/`. Detaljert kodeorganisering avklares når teknologistakken er valgt.
+Senere innlesning av regjeringsforslag, komitéforslag og manuelle kilder skal ha adskilte kildeadaptere. Tilgjengeligheten til en ny kilde skal ikke styre om vedtaksinnlesningen kan kjøres.
 
-## Datagrunnlag
+## Felles datakontrakt
 
-En felles datakontrakt skal beskrive identifikatorer, sesjon, budsjettår, kapittel, post, beløp, beløpets betydning, kilde og forholdet mellom forslag og vedtak. Kontrakten skal skille mellom regjeringens forslag, komitéforslag og endelige vedtak.
+Datakontrakten skal skille mellom endelig vedtak, regjeringsforslag og komitéforslag. Den skal beskrive sesjon, budsjettår, kapittel, post, beløp, beløpets betydning, kildedokument, dokumentnummer, versjon og kontrollstatus.
 
-Valg av database er åpent. Data skal kunne leveres videre uten å binde innlesningen til et bestemt fremtidig mottakersystem.
+Departementstilknytning og endringer gjennom budsjettåret må avklares før kontrakten fastsettes. Database og programmeringsspråk er ikke valgt.
 
 ## Analyse og fremstilling
 
-Analysedelen skal bruke det dokumenterte datagrunnlaget til søk, sammenligning, fremstilling og eksport. Den skal vise kildehenvisninger og opplyse om datakvalitet og dekningsgrad.
+Området `analyse/` skal bruke den dokumenterte kontrakten til søk, sammenligning, visning og eksport. Første prioriterte visning er beskrevet i [kravgrunnlaget](krav.md). Den omfatter utvalg på departement, kapittel og post og sporbare beløp fra forslag, innstilling og vedtak.
 
-Foreslått plassering er `analyse/`. Visuelle grensesnitt og eksportformater avklares ut fra Finansavdelingens arbeidsoppgaver.
+Analysedelen skal gjøre manglende datagrunnlag og uavklarte uttrekk synlige. Hvordan dette vises i første leveranse, avklares før bygging.
 
 ## Endringer på tvers
 
-Endringer i felles datakontrakt skal beskrive konsekvenser for begge deler. Fremtidige byggetickets skal angi hvilke deler de berører. Samlet repo krever ikke samlet driftssetting.
+Tickets skal beskrive konsekvenser for begge deler når datakontrakten endres. Innlesning og analyse skal kunne kjøres og driftssettes hver for seg. Azure er en mulig senere plattform; kildebehandling og faglige regler skal kunne prøves lokalt.

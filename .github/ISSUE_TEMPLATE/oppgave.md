@@ -1,25 +1,31 @@
 ---
-name: Avgrenset oppgave
-about: Beskriv en undersøkelse eller en gjennomførbar leveranse
+name: Avgrenset leveranse
+about: En komplett og etterprøvbar funksjon eller undersøkelse
 title: ""
 labels: ""
 assignees: ""
 ---
 
-## Problem og ønsket resultat
+## Overordnet spesifikasjon
 
-## Overordnede krav
+Del av #...
 
-## Avgrensning og berørte deler
+## Hva skal leveres
 
-## Avhengigheter og åpne beslutninger
+Beskriv observerbar atferd og hvem som får nytte av resultatet.
 
 ## Akseptansekriterier
 
-- [ ] Resultatet kan kontrolleres mot kriteriene.
+- [ ] Resultatet kan demonstreres eller kontrolleres selvstendig.
 
-## Dataprøver og verifikasjon
+## Blokkert av
+
+Ingen / #... Angi bare reelle forutsetninger.
+
+## Avgrensning
+
+## Tester og kontrollgrunnlag
 
 ## Status
 
-Forslag / under avklaring / startklar / pågår / ferdig
+Foreslått / startklar / pågår / ferdig

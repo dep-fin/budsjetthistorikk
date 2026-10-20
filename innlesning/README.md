@@ -1,7 +1,7 @@
-# Innlesning fra Stortinget
+# Innlesning av endelige stortingsvedtak
 
-Denne delen skal oppdage, hente, bevare og strukturere vedtak og relevante dokumenter. Første innlesning starter i sesjonen 2026–2027. Daglig kjøring skal håndtere både nye opplysninger og endringer.
+Første leveranse skal hente, bevare og strukturere endelige vedtak fra sesjonen 2026–2027. Nye og endrede vedtak skal kontrolleres daglig. Bevilgningsendringer på både inntekts- og utgiftskapitler inngår, også når saken ikke bygger på en regjeringsproposisjon.
 
-Delen skal kunne brukes uavhengig av analysegrensesnittet. Teknologistakk og lagring er ikke valgt.
+Innlesningen skal kunne kjøres uavhengig av analysegrensesnittet. Senere forslag og andre kilder får adskilte adaptere. Regjeringsforslag er bare en mulig tidlig utvidelse dersom kildeveien er enkel.
 
 Se [krav](../docs/krav.md), [ansvarsdeling](../docs/ansvarsdeling.md) og [kildeundersøkelser](../docs/kilder.md).

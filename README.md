@@ -2,30 +2,36 @@
 
 Budsjetthistorikk skal gi Finansavdelingen i Finansdepartementet grunnlag for analyser og uttrekk av historiske budsjettforslag og budsjettvedtak.
 
-Prosjektet samles i ett privat repositorium med to adskilte deler:
+Prosjektet har to adskilte deler:
 
-- **Innlesning fra Stortinget:** oppdage, hente, bevare og strukturere vedtak og relevante dokumenter.
+- **Innlesning fra Stortinget:** hente, bevare og strukturere endelige vedtak og deres kilder.
 - **Fremstilling av budsjetthistorikk:** søk, sammenligning, analyse og uttrekk fra det strukturerte datagrunnlaget.
 
-Innlesningen skal kunne kjøres uten at analyseløsningen kjører. Delene skal dele dokumenterte begreper og dataformater. Valg av programmeringsspråk, database og driftsplattform er åpne.
+Innlesningen skal kunne kjøres uten analysegrensesnittet. En dokumentert datakontrakt skal knytte delene sammen.
 
-## Bekreftet omfang
+## Første leveranse
 
-Første utviklingstrinn er daglig innlesning av nye vedtak og strukturerte budsjettall. Startpunktet er stortingssesjonen 2026–2027, herunder Prop. 1 S (2026–2027).
+Første leveranse gjelder endelige stortingsvedtak fra sesjonen 2026–2027, også vedtak om budsjettet som foreslås i Prop. 1 S (2026–2027). Nye og endrede vedtak skal kontrolleres daglig. Budsjettår, kapittel, post og beløp skal struktureres. Både inntekter og utgifter inngår.
 
-Den samlede løsningen skal dekke alle bevilgningsforslag fra regjeringen og alle vedtatte bevilgningsendringer gjennom året, også uten tilknytning til en proposisjon. Dokumenttype alene skal ikke avgrense relevante bevilgningsendringer.
+Alle bevilgningsendringer skal fanges opp, også i saker uten regjeringsproposisjon og i sammensatte lov- og budsjettsaker. Tvetydige uttrekk skal bevares og sendes til kontroll før de inngår i godkjente analysetall.
 
-På sikt skal løsningen også inneholde komitéforslag, kapittel- og postomtale og eldre historikk. Brukeren har eksisterende historiske data som skal kunne innarbeides senere. Rekkefølgen for utvidelsene avklares før implementering.
+Regjeringens forslag og komitéforslag er egne fremtidige kilder. Regjeringsforslag kan tas inn tidlig dersom en enkel kildevei blir dokumentert; dette skal ikke forsinke vedtaksinnlesningen. Manuell innlesning er et mulig senere alternativ.
 
-## Dokumentasjon
+## Fremtidig analyse
+
+Brukeren skal kunne velge departement, kapittel, post og kombinasjoner av disse. Visningen skal sammenstille beløp i regjeringens forslag, komiteens innstilling og endelig vedtak, med dokumentnummer og kildehenvisning for hvert ledd. Første uttrekk skal kunne leveres til Excel.
+
+Eldre sesjoner, eksisterende historiske data og kapittel- og postomtale skal kunne innarbeides senere.
+
+## Dokumentasjon og arbeidsmetode
 
 - [Krav og åpne beslutninger](docs/krav.md)
 - [Ansvarsdeling](docs/ansvarsdeling.md)
 - [Kilder og behov for dataprøver](docs/kilder.md)
-- [Arbeidsflyt med issues](docs/arbeidsflyt.md)
+- [Fast arbeidsflyt med issues](docs/arbeidsflyt.md)
 - [Innlesningsdelen](innlesning/README.md)
 - [Analysedelen](analyse/README.md)
 
 ## Status
 
-Prosjektet er under avklaring. Repositoriet inneholder foreløpig dokumentasjon og planleggingsissues. Det er ikke implementert innlesning, database, analysegrensesnitt eller daglig kjøring.
+Avklaringer og planlegging pågår i issues #1–#3. Ingen produksjonskode eller daglig kjøring er implementert. Teknologistakk og mottakersystem er åpne. Azure er en mulig driftsplattform; valget skal tas opp igjen før det blir styrende for løsningen.
