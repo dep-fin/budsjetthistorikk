@@ -37,7 +37,7 @@ Historikken skal vise hvert forslag, vedtak og endring gjennom året, frem til r
 
 ## Status
 
-Kildeundersøkelsen #2 er levert i PR #11. Python, SQLite og openpyxl er godkjent for lokal innlesning, og byggemandatet gjelder B1 (#4). B1 gir nå et smalt vertikalt snitt fra ett opprinnelig vedtak til bevart kilde, strukturerte SQLite-data og Excel. Daglig kjøring og full sesjonsdekning kommer i senere tickets. Mottakersystem og driftsplattform er åpne; Azure tas opp igjen før valget blir styrende.
+Kildeundersøkelsen #2 er levert i PR #11. Python, SQLite og openpyxl er godkjent for lokal innlesning. B1 (#4) gir ett opprinnelig vedtak fra kilde til SQLite og Excel. B2 (#5) legger til fullstendig kildeinventar, kildeobservasjoner, innholdsrevisjoner og gjenopptak. Dette utvider ikke B1-parserens faglige bredde. Daglig kjøring, generell historikksammenstilling og samlet sesjonseksport kommer i senere tickets. Mottakersystem og driftsplattform er åpne; Azure tas opp igjen før valget blir styrende.
 
 ## Kjør B1 lokalt
 
@@ -72,3 +72,33 @@ python -m analyse --database demo.sqlite --kjoring <kjørings-ID> --excel kontro
 ```
 
 Se [innlesningens grense](innlesning/README.md), [datakontrakt v1](docs/datakontrakt.md), [teknologivalget](docs/adr/0001-lokal-innlesning.md) og [fixtureproveniens](tests/fixtures/README.md).
+
+## Kjør B2 lokalt
+
+Synkroniser hele startsesjonens kildeinventar med den samme HTTP-adapteren:
+
+```powershell
+python -m innlesning synkroniser --database budsjett.sqlite --sesjon 2026-2027
+```
+
+Lagret XML kan brukes med `--response` og `--metadata`. Ingen vedtaksdato eller API-type brukes som filter. JSON-rapporten viser nye/uendrede/rettede/manglende ID-er, konkrete revisjoner, feil og kontrollbehov. Returkode er 0 for fullført uten kontrollbehov (eller forberedt jobb), 2 for fullført med kontrollbehov og 1 for feil. Ukjent tekst bevares til kontroll. Et gyldig kildeinventar er ingen garanti om komplett faglig strukturering.
+
+For å sikre gjenopptaks-ID før publisering, bruk `--forbered`. Denne kommandoen bevarer råbyte og jobb som `venter`; noter JSON-feltet `kjoring`. Gjenopptak og rapportlesing trenger bare database og den ID-en:
+
+```powershell
+python -m innlesning gjenoppta --database budsjett.sqlite --kjoring <jobb-ID>
+python -m innlesning rapport --database budsjett.sqlite --kjoring <jobb-ID>
+```
+
+En ventende jobb blokkerer ny jobb i samme datasett/sesjon. Gjenopptak bruker de lagrede bytene; det trengs ingen opprinnelig kildefil eller nettilgang. Fullført gjenopptak oppretter ingen nye observasjoner, revisjoner eller postrader. Feil ved publisering gir rollback; ingen delvis sesjon blir gjeldende. Eldre kilde-/hentetid enn siste vellykkede observasjon gir bevart feiljobb. Manuelle gamle snapshot skal ikke presenteres som nyere kilde; bruk en separat prøvedatabase for historisk replay.
+
+Den autentiske historiske fixturen er et utdrag og krever uttrykkelig valgt ID. Den brukes derfor med valgt omfang, ikke som full sesjon:
+
+```powershell
+python -m innlesning synkroniser --database b2-proeve.sqlite --sesjon 2024-2025 --historisk-proeve --vedtak-id 40033944 --response tests/fixtures/40033944.derived.xml --metadata tests/fixtures/40033944.metadata.json
+python -m analyse --database b2-proeve.sqlite --revisjon <revision_id fra kjørerapporten> --excel b2-valgt-versjon.xlsx
+```
+
+`--vedtak-id` begrenser **importomfanget**. Full inventering kjøres uten dette flagget; etterpå kan én rapportert `revision_id` eksporteres separat. `--excel` på `synkroniser` krever valgt ID og eksporterer bare dette vedtaket. Samlet sesjonsbevilgning ligger i B6. Historiske/syntetiske prøver er isolert fra produksjonsinventaret, også når samme database brukes.
+
+B1-kommandoene og gamle kjørings-ID-er består. Gamle prøverapporter adopteres ikke automatisk som B2-vedtak. Excel viser valgt råhash og revisjons-ID separat, med historisk/gjeldende status, siste observasjon og revisjonsbundne kontrollhenvisninger. Se [datakontrakten](docs/datakontrakt.md#b2--kildeinventar-observasjoner-og-revisjoner) og [ADR 0002](docs/adr/0002-kildeobservasjoner.md) for normalisering, rekkefølge, migrering og kontrollstatus.

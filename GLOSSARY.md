@@ -56,3 +56,16 @@ En fullmakt eller presisering knyttet til en budsjettpost, for eksempel «kan ov
 
 **Underpost**:
 En spesifikasjon under en budsjettpost. Den skal skilles fra den overordnede postens totalbeløp.
+
+**Kilderettelse**:
+En endring i det publiserte innholdet eller metadataene for samme vedtak.
+_Unngå_: Nytt stortingsvedtak som synonym.
+
+**Vedtaksrevisjon**:
+Ett bestemt innhold i et publisert vedtaksobjekt, med tekst og metadata. Flere observasjoner kan vise samme revisjon.
+
+**Kildeobservasjon**:
+Det som faktisk ble sett i en kilde ved en bestemt henting. En observasjon dokumenterer også at en tidligere kjent ID mangler, uten å fastslå sletting.
+
+**Kontrollhenvisning**:
+Et begrunnet valg eller en ekstern kontrollreferanse knyttet til en bestemt observert vedtaksrevisjon og eventuelt en kilderad. Henvisningen er ikke i seg selv en godkjenning av analysetall.

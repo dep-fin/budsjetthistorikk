@@ -3,28 +3,60 @@
 import argparse
 import json
 import sqlite3
+from dataclasses import asdict
 from pathlib import Path
 
-from . import fetch_session, import_saved, read_report
+from . import fetch_session, import_saved, read_report, read_sync, resume_sync, stage_sync
 from .ingestion import MAX_BYTES, START_SESSION, session_url
+from .sync import SyncReport
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     commands = parser.add_subparsers(dest="command", required=True)
-    command = commands.add_parser("hent", help="Hent eller les én kilde og velg ett vedtak")
-    command.add_argument("--vedtak-id", required=True)
-    command.add_argument("--sesjon", default=START_SESSION)
-    command.add_argument("--historisk-proeve", action="store_true")
-    command.add_argument("--database", type=Path, required=True)
-    command.add_argument("--excel", type=Path)
-    command.add_argument("--response", type=Path, help="Lagret XML-respons, offline")
-    command.add_argument(
-        "--metadata", type=Path, help="Hentemetadata med URL, tid, hash og byteantall"
-    )
-    command.add_argument("--timeout", type=int, default=30, help="HTTP-timeout, 1–120 sekunder")
+    for name in ("hent", "synkroniser"):
+        command = commands.add_parser(
+            name,
+            help=(
+                "B1-prøveimport av ett vedtak"
+                if name == "hent"
+                else "B2: sammenlign alle ID-er, eller ett uttrykkelig valgt vedtak"
+            ),
+        )
+        command.add_argument(
+            "--vedtak-id",
+            required=name == "hent",
+            help="Begrenser importomfanget til dette vedtaket",
+        )
+        command.add_argument("--sesjon", default=START_SESSION)
+        command.add_argument("--historisk-proeve", action="store_true")
+        command.add_argument("--database", type=Path, required=True)
+        command.add_argument(
+            "--excel", type=Path, help="Ett valgt vedtak; synkroniser krever --vedtak-id"
+        )
+        command.add_argument("--response", type=Path, help="Lagret XML-respons, offline")
+        command.add_argument(
+            "--metadata", type=Path, help="Hentemetadata med URL, tid, hash og byteantall"
+        )
+        command.add_argument("--timeout", type=int, default=30, help="HTTP-timeout, 1–120 sekunder")
+        if name == "synkroniser":
+            command.add_argument(
+                "--forbered",
+                action="store_true",
+                help="Bevar råbyte og returner gjenopptaks-ID før publisering",
+            )
+    for name in ("gjenoppta", "rapport"):
+        command = commands.add_parser(name, help="Bruk én lagret B2-jobb, uten nett")
+        command.add_argument("--database", type=Path, required=True)
+        command.add_argument("--kjoring", required=True)
     arguments = parser.parse_args()
+    job_id: str | None = None
     try:
+        if arguments.command in ("gjenoppta", "rapport"):
+            job_id = str(arguments.kjoring)
+            if arguments.command == "gjenoppta":
+                resume_sync(arguments.database, job_id)
+            return show_sync(read_sync(arguments.database, job_id))
         url = session_url(arguments.sesjon)
         if arguments.sesjon < START_SESSION and not arguments.historisk_proeve:
             raise ValueError("Eldre sesjon krever --historisk-proeve")
@@ -42,6 +74,26 @@ def main() -> int:
                 raise ValueError("Hentemetadata må være et objekt med valgt sesjons URL")
         else:
             raw, metadata = fetch_session(arguments.sesjon, timeout=arguments.timeout)
+        if arguments.command == "synkroniser":
+            if arguments.excel and (not arguments.vedtak_id or arguments.forbered):
+                raise ValueError("B2 --excel krever --vedtak-id og fullført publisering")
+            job_id = stage_sync(
+                arguments.database,
+                raw,
+                metadata,
+                historical_sample=arguments.historisk_proeve,
+                decision_id=arguments.vedtak_id,
+            )
+            if not arguments.forbered:
+                resume_sync(arguments.database, job_id)
+            sync = read_sync(arguments.database, job_id)
+            if arguments.excel and sync.status == "fullfort":
+                from analyse import export_revision_excel
+
+                export_revision_excel(
+                    arguments.database, sync.entries[0].revision_id, arguments.excel
+                )
+            return show_sync(sync)
         run_id = import_saved(
             arguments.database,
             raw,
@@ -70,8 +122,50 @@ def main() -> int:
         )
         return {"strukturert": 0, "til kontroll": 2, "innlesningsfeil": 1}[report.status]
     except (OSError, ValueError, sqlite3.Error) as error:
-        print(json.dumps({"status": "innlesningsfeil", "feil": str(error)}))
+        print(json.dumps({"status": "innlesningsfeil", "feil": str(error), "kjoring": job_id}))
         return 1
+    except KeyboardInterrupt:
+        print(
+            json.dumps(
+                {
+                    "status": "avbrutt",
+                    "kjoring": job_id,
+                    "feil": "Gjenoppta lagret jobb; publiseringen er atomisk",
+                }
+            )
+        )
+        return 130
+
+
+def show_sync(report: SyncReport) -> int:
+    print(
+        json.dumps(
+            {
+                "kjoring": report.job_id,
+                "status": report.status,
+                "datakontrakt": report.contract_version,
+                "datasett": report.dataset,
+                "sesjon": report.session,
+                "omfang": report.scope,
+                "kildeversjon": report.source_sha256,
+                "hentemetadata": report.source_metadata,
+                "responstid": report.response_time,
+                "startet_utc": report.started_utc,
+                "fullfort_utc": report.completed_utc,
+                "fingeravtrykksmetode": report.fingerprint_version,
+                "struktureringsversjon": report.parser_version,
+                "antall": report.counts,
+                "kontrollbehov": report.control_count,
+                "feil": report.errors,
+                "vedtak": [asdict(entry) for entry in report.entries],
+                "dekningsgrense": (
+                    "Kildeinventar; ingen garanti om komplett faglig strukturering "
+                    "eller additiv historikk"
+                ),
+            }
+        )
+    )
+    return 1 if report.status == "feilet" else 2 if report.control_count else 0
 
 
 if __name__ == "__main__":
