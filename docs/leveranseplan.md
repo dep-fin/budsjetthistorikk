@@ -1,6 +1,6 @@
 # Godkjent første leveranse og ticketoppdeling
 
-Spesifikasjonen, testgrensene og oppdelingen ble godkjent av prosjekteieren 20. oktober 2026. Byggetickets er publisert som #4–#10. Kildeundersøkelsen #2 er levert i PR #11 med [akseptmatrise og byggegrense](research/issue-2/byggestart.md). De tre historiske kildekonfliktene gir ikke godkjent additiv historikk, men er avgrenset og har eksplisitte kontrollkrav. Implementering av byggeticketene er ikke startet. Se [arbeidsflyten](arbeidsflyt.md).
+Spesifikasjonen, testgrensene og oppdelingen ble godkjent av prosjekteieren 20. oktober 2026. Byggetickets er publisert som #4–#10. Kildeundersøkelsen #2 er levert i PR #11 med [akseptmatrise og byggegrense](research/issue-2/byggestart.md). De tre historiske kildekonfliktene gir ikke godkjent additiv historikk, men er avgrenset og har eksplisitte kontrollkrav. Python, SQLite og openpyxl og byggemandatet for B1 (#4) er godkjent. B1 har et implementert vertikalt snitt for ett opprinnelig vedtak; videre oppstart følger ticketenes avhengigheter og mandat. Se [arbeidsflyten](arbeidsflyt.md).
 
 ## Første leveranse
 
@@ -13,7 +13,7 @@ Regjeringsforslag, komitéforslag, regnskap, eldre sesjonsimport, avansert fullm
 | ID | Leveranse | Blokkert av | Kontrollerbart resultat |
 | --- | --- | --- | --- |
 | U1 / #2 | Kildeprøver og kontrollgrunnlag, eksisterende issue #2 | Ingen; oppstart er bestilt | Reproduserbare vedtaksprøver, beløpsenheter og forslag til avstemming |
-| B1 / #4 | Ett endelig bevilgningsvedtak fra kilde til lagring og Excel | U1 | Original kilde, én representativ strukturert beløpslinje og sporbar eksport fungerer samlet |
+| B1 / #4 | Ett endelig bevilgningsvedtak fra kilde til lagring og Excel | U1 | Original kilde, alle åtte postlinjer i den valgte prøven og sporbar eksport fungerer samlet |
 | B2 / #5 | Nye vedtak og kilderettelser uten dubletter | B1 | Gjentatt og avbrutt kjøring bevarer ID-er, kilderevisjoner og korrekte kjørerapporter |
 | B3 / #6 | Følg postens opprinnelige bevilgning og senere endringer | B1 | Endringsvedtak, fra-/til-beløp og beregnet gjeldende bevilgning kan kontrolleres uten dobbeltelling |
 | B4 / #7 | Særkapitler, inntekt, nettoresultat og underliggende spesifikasjon | B1 | Representative særtilfeller går fra kilde til korrekt klassifikasjon og Excel, også med negativt beløp og post 90–99 |
@@ -52,7 +52,7 @@ Disse testgrensene inngår i den godkjente spesifikasjonen. Konkrete kildeprøve
 
 Excel-/CSV-filer er bekreftet arbeidsflate for manuelt vedlikehold og kontroll. GitHub-issues er bekreftet varslingskanal ved feil og uavklarte uttrekk. Gjentakelser oppdaterer samme issue; vanlige vellykkede kjøringer gir bare rapport.
 
-Teknologistakken velges etter U1. Kildeprøvene skal gi grunnlag for et konkret valg som passer behovet, uten å binde første innlesning til et fremtidig mottakersystem. Materielle endringer i omfang, testaksept eller ticketoppdeling legges frem på nytt før videre bygging. Azure tas opp igjen før plattformvalget blir styrende. Ingen produksjonsressurser eller daglig jobb er opprettet som del av planleggingen.
+Python, SQLite og openpyxl er valgt etter U1 for lokal innlesning og uttrekk, jf. [ADR 0001](adr/0001-lokal-innlesning.md). Mottakersystem og driftsplattform er fortsatt åpne. Materielle endringer i omfang, testaksept eller ticketoppdeling legges frem på nytt før videre bygging. Azure tas opp igjen før plattformvalget blir styrende. Ingen produksjonsressurser eller daglig jobb er opprettet.
 
 ## Relasjoner i GitHub
 

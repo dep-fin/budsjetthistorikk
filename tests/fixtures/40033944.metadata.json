@@ -1,0 +1,33 @@
+{
+  "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2024-2025",
+  "retrieved_utc": "2026-10-20T11:34:46.321003+00:00",
+  "status": 200,
+  "headers": {
+    "Cache-Control": "public",
+    "Content-Type": "text/xml; charset=utf-8",
+    "Expires": "Tue, 20 Oct 2026 11:32:47 GMT",
+    "Server": "Microsoft-IIS/10.0",
+    "Strict-Transport-Security": "max-age=16070400; includeSubDomains",
+    "Access-Control-Allow-Headers": "content-type",
+    "Access-Control-Allow-Origin": "*",
+    "X-Frame-Options": "sameorigin",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Arr-Disable-Session-Affinity": "true",
+    "X-AspNet-Version": "4.0.30319",
+    "Request-Context": "appId=cid-v1:f65c3fc2-55cc-4cb3-a6ec-85c3923903b8",
+    "Access-Control-Expose-Headers": "Request-Context",
+    "Feature-Policy": "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'",
+    "Date": "Tue, 20 Oct 2026 11:34:46 GMT",
+    "Connection": "close",
+    "Content-Length": "7479943"
+  },
+  "sha256": "043012d31683fb98d53f3c94b649af6d05ef738bdf4cd6bce7e6558103600512",
+  "bytes": 15214,
+  "fixture_kind": "derived_excerpt",
+  "source_response_sha256": "6d7859369de69105c957cb8dbc520a077355b4c9d4452f1605f7954deccea2ac",
+  "source_response_bytes": 7479943,
+  "decision_id": "40033944",
+  "session_coverage": "partial",
+  "extraction": "Original byteprefix (317), komplett objektblokk (14842), suffix (55)"
+}
