@@ -1,0 +1,24 @@
+{
+  "decision_id": "40035422",
+  "number": "1149",
+  "case_id": "103529",
+  "budget_year": 2025,
+  "chapter": 41,
+  "item": 45,
+  "unit": "NOK",
+  "delta": 9700000,
+  "before": 175247000,
+  "after": 184947000,
+  "row": "41 Stortinget 45 Større utstyrsanskaffelser og vedlikehold , kan overføres, økes med 9 700 000 fra kr 175 247 000 til kr 184 947 000",
+  "checks": {
+    "arithmetic": true,
+    "row_in_final_decision": true,
+    "row_in_innst540": true,
+    "initiative_reference_in_prop146": true
+  },
+  "separate_authority": {
+    "decision_id": "40035429",
+    "number": 1156,
+    "cap": 72000000
+  }
+}
