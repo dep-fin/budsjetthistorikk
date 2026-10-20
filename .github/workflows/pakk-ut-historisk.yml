@@ -13,9 +13,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
+          fetch-depth: 0
       - name: Gjenopprett arkiv fra tidligere commit og pakk ut
         run: |
-          git show fb56cd8cf49a9668f088ac5299577706a8e6fc79:data/historisk/budsjetthistorikk_originaldata_2013_2025.zip > /tmp/historisk.zip
+          git show 5350e48cd62511f574324cc8f4b49d9100eed9c1:data/historisk/budsjetthistorikk_originaldata_2013_2025.zip > /tmp/historisk.zip
           python - <<'PY'
           from pathlib import Path
           import zipfile
