@@ -42,6 +42,16 @@ Den første avgrensede undersøkelsen av nyere sesjoner fant ikke en sikkert sel
 
 I de historiske saksmetadataene avviker dessuten eksport-ID fra dokumentets forsamling og kanoniske URL (for eksempel inno-200203-114 mot inns-200203-114). Bevar avviket og kontroller publikasjonen mot tittel, URL og innhold; ikke rett råverdien stilltiende. Oppnevning, taushetsplikt og innsynsregler i samme sak er negative bevilgningsprøver. Eldre HTML i denne prøven er et historisk kildebevis og utvider ikke første leveranses startdato.
 
+## Bevilgninger kan vedtas direkte uten komitéinnstilling
+
+**Kontrollert 20. oktober 2026 etter eksempel fra prosjekteieren:** [Vedtak 599 (2025–2026)](https://www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40036289&p=107811), ID **40036289**, 26. mars 2026, er type **ANNET**. Det reduserer inntektsbevilgningene på **5538/70–72** med henholdsvis **1 154 167 000**, **2 175 000 000** og **1 250 000 kroner**. Saken ble etter dokumentert prosedyrevedtak behandlet direkte uten komitéinnstilling; grunnlaget er et representantforslag og et erstattende forslag i salen. Ingen proposisjon inngår i den undersøkte behandlingskjeden. Manglende Prop.- eller Innst.-kobling skal derfor ikke føre til eksklusjon.
+
+Samme sak inneholder både satser, faktiske kapittel-/postendringer og anmodninger. Bevar elementene hver for seg. Vedtak 598 har en separat endring på 5543/70 og skal ha sin egen identitet. Vedtak 591–597 og 600 skal ikke gi ekstra bevilgningslinjer.
+
+Kilden har et faktisk tallavvik: vedtakssiden, sesjons-API-et og forslags-API-et viser til-beløpet for 5538/70 som `I 615 833`. Voteringsreferatets HTML og publikasjons-XML viser **1 615 833 000**, i samsvar med før minus reduksjon. Bevar råavviket og referatet som avklaringskilde. Ingen generell regel skal bytte I med 1, legge til nuller eller stille overskrive tall med beregnet verdi. Dette er motstrid mellom representasjoner, ikke en observert rettelse over tid.
+
+[Versjonsfestet rapport, kildefasit, rå API-objekter og kontrollresultater](https://github.com/depmartin/budsjetthistorikk/blob/131ad9d6bcf62c2e1e6156784fd02d21e0a5876d/docs/research/issue-2/vedtak599/README.md). Prøven er eldre enn produksjonsstarten 2026–2027 og endrer ikke startavgrensningen.
+
 ## Statsregnskapets bevilgningskolonne har et hentbart originalgrunnlag
 
 **Kontrollert 20. oktober 2026:** Den offentlig tilbudte [PDF-en for Statsrekneskapen 2024](https://www.regjeringen.no/contentassets/1d45fede74ff4ef18ce06bbd6163c723/nn-no/pdfs/stm202420250003000dddpdfs.pdf) ga HTTP 200, selv om en tidligere direkte HTML-forespørsel ga 403. Bruk en uttrykkelig publisert alternativ representasjon når den er tilgjengelig; dette betyr ikke at alle adresser eller årganger er hentbare.
