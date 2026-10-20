@@ -10,13 +10,13 @@ Senere innlesning av regjeringsforslag, komitéforslag og manuelle kilder skal h
 
 Datakontrakten skal skille mellom endelig vedtak, regjeringsforslag og komitéforslag. Den skal beskrive sesjon, budsjettår, kapittel, post, beløp, beløpets betydning, kildedokument, dokumentnummer, versjon og kontrollstatus.
 
-Departementstilknytning og endringer gjennom budsjettåret må avklares før kontrakten fastsettes. Database og programmeringsspråk er ikke valgt.
+Departementstilknytning skal kunne vedlikeholdes manuelt med gyldighetsperiode. Bruk administrativ departementskode og særskilt Gul bok-gruppering som adskilte opplysninger, jf. [registergrunnlaget](departementsregister.md). Historikken skal skille forslag, bevilgningsvedtak, kilderettelser, fullmaktsrammer og regnskap. Underposter bevares som underliggende spesifikasjon og holdes adskilt fra posttotaler. Database og programmeringsspråk er ikke valgt.
 
 ## Analyse og fremstilling
 
 Området `analyse/` skal bruke den dokumenterte kontrakten til søk, sammenligning, visning og eksport. Første prioriterte visning er beskrevet i [kravgrunnlaget](krav.md). Den omfatter utvalg på departement, kapittel og post og sporbare beløp fra forslag, innstilling og vedtak.
 
-Analysedelen skal gjøre manglende datagrunnlag og uavklarte uttrekk synlige. Hvordan dette vises i første leveranse, avklares før bygging.
+Analysedelen skal gjøre manglende datagrunnlag og uavklarte uttrekk synlige. Første leveranse gir Excel-uttrekk og synlig kontrollstatus. Et interaktivt grensesnitt og flere kildeintegrasjoner kommer senere.
 
 ## Endringer på tvers
 

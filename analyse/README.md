@@ -6,4 +6,4 @@ Første prioriterte visning skal støtte departement, kapittel, post og kombinas
 
 Excel er bekreftet som et første uttrekksformat. Første innlesningsleveranse fokuserer på endelige vedtak; forslag og innstillinger blir tilgjengelige etter at deres kilder er integrert. Manglende opplysninger skal fremgå i fremstillingen.
 
-Se [krav](../docs/krav.md) og [ansvarsdeling](../docs/ansvarsdeling.md). Omfanget av visuelt grensesnitt i første leveranse gjenstår å avklare.
+Se [krav](../docs/krav.md) og [ansvarsdeling](../docs/ansvarsdeling.md). Første leveranse gir Excel-uttrekk. Det interaktive grensesnittet kommer senere. Historikken skal vise hvert trinn gjennom året, med regnskap som egen talltype.

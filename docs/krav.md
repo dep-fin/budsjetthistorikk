@@ -2,66 +2,71 @@
 
 ## Formål og brukere
 
-Finansavdelingen i Finansdepartementet skal kunne analysere og hente ut historiske budsjettforslag og budsjettvedtak, med sporbarhet fra hvert beløp til kilden.
+Finansavdelingen i Finansdepartementet skal kunne analysere og hente ut historiske budsjettforslag og budsjettvedtak. Hvert beløp skal kunne spores til kilde, dokument og behandlingsledd.
 
 ## Første leveranse
 
-- Kilden er endelige stortingsvedtak fra Stortinget og Stortingets datatjenester.
-- Innlesningen starter i sesjonen 2026–2027, herunder vedtak om budsjettet foreslått i Prop. 1 S (2026–2027). Sesjon og budsjettår er forskjellige begreper.
-- Alle vedtak skal bevares med tekst og kildehenvisninger. Bevilgningsvedtak skal gi strukturerte opplysninger om budsjettår, kapittel, post og beløp.
-- Nye og endrede vedtak skal kontrolleres daglig.
-- Opprinnelig budsjett, revidert budsjett, nysaldering og øvrige bevilgningsendringer gjennom året inngår.
-- Vedtak uten regjeringsproposisjon skal fanges opp. Rene lovforslag kan utelates; bevilgningsendringer i saker som også inneholder lovforslag, skal med.
-- Tilhørende fullmakter og øvrige tekstvedtak inngår. Detaljeringsnivået for strukturering av fullmakter gjenstår å avklare.
-- Excel er bekreftet som et første uttrekksformat. Omfanget av søk og visning i første leveranse gjenstår å avklare.
+- Les inn og bevar endelige stortingsvedtak fra Stortingets kilder. Bevilgningsvedtak gir strukturerte opplysninger om budsjettår, kapittel, post, beløp og kilde.
+- Start med sesjonen 2026–2027. Ta med endringer for inneværende budsjettår og vedtak for neste budsjettår. Viderefør innlesningen til nye sesjoner.
+- Ta med alle bevilgningsendringer: opprinnelig budsjett, RNB, nysaldering og øvrige vedtak, også uten regjeringsproposisjon.
+- Rene lovforslag kan utelates. Bevilgningsendringer i sammensatte lov- og budsjettsaker skal med.
+- Oppdag nye og endrede vedtak daglig. Planlagt tidspunkt er kl. 06.00 i Europe/Oslo, med riktig håndtering av sommer- og vintertid.
+- Gi en kjørerapport som skiller ingen nye vedtak, innlesningsfeil og uttrekk som krever kontroll.
+- Lagre data og lever et kontrollerbart Excel-uttrekk. Interaktivt analysegrensesnitt kommer senere.
+- Bevar fullmakter, stikkord og øvrige tekstvedtak med original struktur og kilde. Full detaljstrukturering av fullmaktsrammer er valgfri og skal ikke forsinke bevilgningsinnlesningen.
+- Bevar underposter og kildehierarki der de forekommer. Posttotal og underliggende spesifikasjon skal ikke dobbeltelles.
 
-## Regler for budsjettall og datakvalitet
+## Historikk og beløp
 
-Brukerens klassifikasjonsregel er:
+Hvert opprinnelige vedtak og hver senere vedtatte endring skal kunne følges separat på kapittel og post. Bevar endringsbeløp og eventuelle fra-/til-beløp som kilden gir, og skill disse fra beregnet gjeldende bevilgning.
 
-- Kapittelnummer under 3000: utgift.
-- Kapittelnummer fra og med 3000: inntekt.
+Forslag, vedtak og regnskap er forskjellige talltyper. RNB og nysaldering er behandlingsrunder som kan omfatte flere dokumenter og vedtak. Oppsummeringer av tidligere vedtak skal ikke leses som nye bevilgningsendringer.
 
-Klassifikasjonen skal utledes fra kapittelnummeret. Et ukjent eller ugyldig kapittel må avklares før klassifikasjon.
+Rettelser i en kilde er versjoner av kildeopplysningen. De skal kunne skilles fra et nytt stortingsvedtak om å endre bevilgningen.
 
-Tvetydige beløpsuttrekk skal bevares med originalkilden og legges til manuell kontroll. De skal holdes utenfor godkjente analysetall. Uavklarte opplysninger og manglende dekning skal være synlige.
+Manglende inngående bevilgning skal gi ufullstendig beregningsgrunnlag, ikke et oppdiktet nullbeløp.
+
+## Kontoplan og departementer
+
+Både utgifter og inntekter inngår. Klassifikasjon følger kapittelnummer, ikke beløpets fortegn. Innenfor budsjettkapitlene er 1–2999 utgifter og 3000–5999 inntekter, jf. vedlagt R-101/2024 side 3. Kapitalregnskapets konti 6000–9999 skal holdes utenfor kapittelklassifikasjonen for bevilgningsvedtak.
+
+Departementsnummer, navn, forkortelse og kapitteltilknytning skal kunne vedlikeholdes manuelt. Opplysninger skal ha gyldighetsperiode og kilde. Brukerens departementsoppsett og 2027-filen er utgangspunkt; eldre veiledere skal ikke overstyre nyere opplysninger.
+
+Departementsnummer 10 og 12 er ledige i brukerens oppsett. Særkapitler og inntektskapitler krever eksplisitte oppslag. Hundretallsserier og +3000 er hjelperegler, ikke uttømmende departementskoblinger. Detaljer finnes i [departementsregisteret](departementsregister.md).
+
+## Datakvalitet
+
+Tvetydige uttrekk skal bevares med originalkilden og sendes til manuell kontroll. De skal holdes utenfor godkjente analysetall til de er avklart. Kjøring og uttrekk skal vise uavklarte opplysninger og manglende dekning.
+
+Negative bevilgningsbeløp kan være gyldige, blant annet ved netto driftsresultat. Post 90–99 og særserier skal inngå i dekningskontrollen.
+
+En ny post eller et nytt kapittel skal bevares selv om det mangler i 2027-katalogen. Uavklart departementstilknytning skal synliggjøres og ikke medføre at vedtaket forsvinner.
 
 ## Senere kilder og analyse
 
-Den samlede løsningen skal inneholde regjeringens bevilgningsforslag, komiteenes forslag og endringer, endelige vedtak og kapittel- og postomtale fra proposisjoner og innstillinger.
+På sikt skal en post kunne følges gjennom regjeringens opprinnelige forslag, eventuelle tilleggsforslag, stortingsforhandlinger og innstilling, opprinnelig vedtak, alle senere endringer, RNB, nysaldering og regnskap.
 
-Første leveranse har vedtaksinnlesning som kjerne. Regjeringsforslag kan inkluderes dersom en enkel kildevei dokumenteres og ikke forsinker dette arbeidet. Brukeren opplyser at automatisk uthenting fra regjeringen.no er krevende; kildevei og tilgjengelighet er ikke kontrollert i prosjektet. Manuell import fra en annen kilde er et alternativ som må avklares ved senere kildeintegrasjon.
+Regjeringsforslag, komitéforslag, kapittel- og postomtale og regnskap inngår som egne kildeintegrasjoner. Regnskapstall skal ikke summeres inn som bevilgningsendringer. Overførte midler, fullmaktsrammer og eventuelle overskridelsessamtykker skal også kunne skilles fra årets vedtatte bevilgning.
 
-Visning 1 skal støtte utvalg på departement, kapittel, post og kombinasjoner av disse. For hvert budsjettgrunnlag skal den vise:
+Visning 1 skal støtte departement, kapittel, post og kombinasjoner av disse. For hvert trinn skal beløp, endring der den kan beregnes, dokumentnummer og kilde fremgå. Manglende kilder skal vises som manglende grunnlag.
 
-- Beløp i regjeringens forslag, proposisjonsnummer og kilde.
-- Beløp i komiteens innstilling, innstillingsnummer og kilde.
-- Vedtatt beløp, identifikasjon av stortingsvedtaket og kilde.
+Vedlagt Gul bok-fil gir en strukturert kilde til regjeringsforslaget og kapittel-/postmetadata. Katalogbruk kan forberedes uten uthenting fra regjeringen.no. Forslagsbeløp skal ha egen kildetype og skal aldri registreres som vedtak. Automatisk uthenting av regjeringsforslag skal ikke blokkere første leveranse. Brukeren har også eldre historiske data for senere import.
 
-Manglende forslag eller innstillinger i første leveranse skal fremgå som manglende datagrunnlag.
+## Fullstendighet og kontroll
 
-Brukerens eksempel med kapittel 100 post 1 og beløpet 4 996 819 000 kroner illustrerer ønsket kobling mellom beløp og proposisjon. Det er ikke et kontrollert kildefunn eller et godkjent testgrunnlag.
+Målet er uttømmende dekning av bevilgningsendringer. Kontrollen må skille mellom funnet kildeinnhold, strukturerte opplysninger og godkjente analysetall. Uavklarte linjer er avvik som skal være synlige; de gir ikke grunnlag for å påstå fullstendig strukturering.
 
-Eldre sesjoner og brukerens eksisterende historiske data skal kunne innarbeides senere.
-
-## Fullstendighet
-
-Målet er uttømmende dekning av bevilgningsendringer. Dekning skal dokumenteres gjennom avstemming mot et uavhengig kontrollgrunnlag. Kontrollgrunnlaget og akseptansekriteriene må avklares. En vellykket API-forespørsel dokumenterer ikke alene fullstendig dekning.
+Kildeinventar og uavhengige kontrollsummer skal brukes sammen. Blå bok kan være et kontrollgrunnlag for opprinnelige vedtak; senere oppsummeringer og statsregnskapets bevilgningskolonner er mulige kontrollkilder som må prøves i kildeundersøkelsen. Regnskapets utfallsbeløp er ikke fasit for vedtatt bevilgning.
 
 ## Drift og mottakersystem
 
-Mottakersystemet er ikke bestemt. Azure er en mulig driftsplattform. Drift er fleksibel fordi innholdet er offentlig. Azure skal vurderes med brukeren på nytt før plattformvalget blir styrende for arkitektur eller driftssetting. Ingen skyressurser skal opprettes som del av planleggingen.
+Mottakersystem og teknologistakk er åpne. Azure er en mulig plattform. Plattformvalget skal tas opp med brukeren igjen før det blir styrende for arkitektur eller driftssetting. Ingen skyressurser er opprettet.
 
-## Beslutninger som gjenstår
+## Gjenstående beslutninger
 
-- Første leveranses grense mellom innlesning, Excel-uttrekk og visuelt grensesnitt.
-- Hvordan visningen skal skille opprinnelig bevilgning, endringsbeløp og gjeldende bevilgning.
-- Hvilke budsjettår som omfattes ved første sesjonsimport, og hvordan innlesningen videreføres over sesjonsskifter.
-- Departementstilknytning ved omorganisering og overføring av kapitler.
-- Strukturering av fullmakter i første leveranse.
-- Manuell kontroll, godkjenning og retting i praksis.
-- Kontrollgrunnlag for fullstendighet.
-- Tidspunkt for kjøring, feilvarsling og senere driftsvalg.
-- Senere import av historiske data.
+- Praktisk arbeidsflate for manuelt registervedlikehold og kontroll av uttrekk.
+- Varslingskanal og hvem som skal motta feil eller uavklarte uttrekk.
+- Akseptansegrunnlag og testgrenser, etter kildeprøvene.
+- Samlet bekreftelse av første leveranse og foreslått ticketoppdeling.
 
-Tekniske fakta undersøkes av agenten. Brukeren avgjør behov, prioriteringer og aksept.
+Tekniske fakta undersøkes av agenten. Brukeren avgjør behov, prioriteringer og faglig aksept.

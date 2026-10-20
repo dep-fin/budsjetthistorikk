@@ -13,7 +13,7 @@ Innlesningen skal kunne kjøres uten analysegrensesnittet. En dokumentert datako
 
 Første leveranse gjelder endelige stortingsvedtak fra sesjonen 2026–2027, også vedtak om budsjettet som foreslås i Prop. 1 S (2026–2027). Nye og endrede vedtak skal kontrolleres daglig. Budsjettår, kapittel, post og beløp skal struktureres. Både inntekter og utgifter inngår.
 
-Alle bevilgningsendringer skal fanges opp, også i saker uten regjeringsproposisjon og i sammensatte lov- og budsjettsaker. Tvetydige uttrekk skal bevares og sendes til kontroll før de inngår i godkjente analysetall.
+Alle bevilgningsendringer skal fanges opp, også i saker uten regjeringsproposisjon og i sammensatte lov- og budsjettsaker. Tvetydige uttrekk skal bevares og sendes til kontroll før de inngår i godkjente analysetall. Første leveranse gir lagring og et kontrollerbart Excel-uttrekk; det interaktive grensesnittet kommer senere. Planlagt daglig kjøring er kl. 06.00 norsk tid.
 
 Regjeringens forslag og komitéforslag er egne fremtidige kilder. Regjeringsforslag kan tas inn tidlig dersom en enkel kildevei blir dokumentert; dette skal ikke forsinke vedtaksinnlesningen. Manuell innlesning er et mulig senere alternativ.
 
@@ -21,13 +21,16 @@ Regjeringens forslag og komitéforslag er egne fremtidige kilder. Regjeringsfors
 
 Brukeren skal kunne velge departement, kapittel, post og kombinasjoner av disse. Visningen skal sammenstille beløp i regjeringens forslag, komiteens innstilling og endelig vedtak, med dokumentnummer og kildehenvisning for hvert ledd. Første uttrekk skal kunne leveres til Excel.
 
-Eldre sesjoner, eksisterende historiske data og kapittel- og postomtale skal kunne innarbeides senere.
+Historikken skal vise hvert forslag, vedtak og endring gjennom året, frem til regnskapstallet. Regnskap og fullmaktsrammer holdes adskilt fra vedtatte bevilgninger. Eldre sesjoner, eksisterende historiske data og kapittel- og postomtale skal kunne innarbeides senere.
 
 ## Dokumentasjon og arbeidsmetode
 
 - [Krav og åpne beslutninger](docs/krav.md)
 - [Ansvarsdeling](docs/ansvarsdeling.md)
 - [Kilder og behov for dataprøver](docs/kilder.md)
+- [Departementsregister og kapitteltilknytning](docs/departementsregister.md)
+- [Faglige funn fra vedleggene](docs/faggrunnlag.md)
+- [Foreslått leveranseplan](docs/leveranseplan.md)
 - [Fast arbeidsflyt med issues](docs/arbeidsflyt.md)
 - [Innlesningsdelen](innlesning/README.md)
 - [Analysedelen](analyse/README.md)
