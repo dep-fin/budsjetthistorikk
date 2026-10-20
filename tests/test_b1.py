@@ -21,6 +21,38 @@ def synthetic_metadata(raw: bytes) -> dict[str, object]:
     return metadata
 
 
+def test_missing_source_url_is_rejected_before_import(tmp_path: Path) -> None:
+    raw = (FIXTURES / "40033944.derived.xml").read_bytes()
+    metadata = json.loads((FIXTURES / "40033944.metadata.json").read_text(encoding="utf-8"))
+    del metadata["url"]
+    database = tmp_path / "budget.sqlite"
+    with pytest.raises(ValueError, match="URL"):
+        import_saved(database, raw, metadata, "40033944", historical_sample=True)
+    assert not database.exists()
+
+
+@pytest.mark.parametrize(
+    "url",
+    [
+        None,
+        123,
+        "",
+        "not-a-url",
+        "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2024-2026",
+        "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2024-2025#fragment",
+        "https://example.com/eksport/stortingsvedtak?sesjonid=2024-2025",
+    ],
+)
+def test_invalid_source_url_is_rejected_before_import(tmp_path: Path, url: object) -> None:
+    raw = (FIXTURES / "40033944.derived.xml").read_bytes()
+    metadata = json.loads((FIXTURES / "40033944.metadata.json").read_text(encoding="utf-8"))
+    metadata["url"] = url
+    database = tmp_path / "budget.sqlite"
+    with pytest.raises(ValueError, match="URL"):
+        import_saved(database, raw, metadata, "40033944", historical_sample=True)
+    assert not database.exists()
+
+
 def test_original_allocation_is_preserved_and_retrievable(tmp_path: Path) -> None:
     """Fasit transkribert fra kildekontrakten, ikke beregnet med parseren."""
     raw = (FIXTURES / "40033944.derived.xml").read_bytes()

@@ -162,6 +162,15 @@ def import_saved(
     retrieved = datetime.fromisoformat(str(metadata.get("retrieved_utc", "")))
     if retrieved.tzinfo is None or metadata.get("status") != 200:
         raise ValueError("Krever hentetid med tidssone og vellykket HTTP-status")
+    source_url = metadata.get("url")
+    if not isinstance(source_url, str):
+        raise ValueError("Krever kilde-URL i hentemetadata")
+    try:
+        expected_url = session_url(source_url.rsplit("=", 1)[-1])
+    except ValueError as error:
+        raise ValueError("Ugyldig kilde-URL i hentemetadata") from error
+    if source_url != expected_url:
+        raise ValueError("Krever Stortingets kanoniske sesjons-URL i hentemetadata")
     report = Report(str(uuid4()), digest, dict(metadata), historical_sample)
     try:
         root = etree.fromstring(

@@ -8,7 +8,7 @@ Dette er et **avledet utdrag**, ikke en komplett HTTP-originalrespons. Sidevogne
 - Hentet: `2026-10-20T11:34:46.321003+00:00`, HTTP 200.
 - Original: 7 479 943 byte, SHA-256 `6d7859369de69105c957cb8dbc520a077355b4c9d4452f1605f7954deccea2ac`.
 - Utdrag: 15 214 byte, SHA-256 `043012d31683fb98d53f3c94b649af6d05ef738bdf4cd6bce7e6558103600512`.
-- Metode: originalt konvoluttprefiks (317 byte), uendret objektblokk (14 842 byte) og originalt suffix (55 byte), med CRLF. `.gitattributes` beskytter fixturebytene mot linjeskiftkonvertering.
+- Metode: originalt konvoluttprefiks (317 byte), uendret objektblokk (14 842 byte) og originalt suffix (55 byte), med CRLF og tabulatorer før enkelte linjeslutt. `.gitattributes` beskytter fixturebytene med `-text` og et avgrenset whitespace-unntak for denne filen. Metadatafilen er vanlig UTF-8-tekst med LF.
 
 Med den opprinnelige råfilen og dens `.meta.json` tilgjengelig kan utdraget gjenskapes med `python tests/create_fixture.py <original.raw>`. Skriptet kontrollerer begge hashverdiene og byteantallet før det skriver. Ingen nett- eller forskningsimport utføres.
 

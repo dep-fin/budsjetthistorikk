@@ -14,4 +14,6 @@ Se [krav](../docs/krav.md), [ansvarsdeling](../docs/ansvarsdeling.md) og [kildeu
 
 HTTP-adapteren bruker bare det faste offentlige sesjonsendepunktet, validerer sesjonsformat, avviser omdirigering, har 1–120 sekunders socket-timeout og grense på 32 MiB. Det gjøres ett kall per eksplisitt oppstart, uten automatisk retry eller parallell innhenting. Lagret respons med hentemetadata kan brukes uten nett. XML-DTD og entitetsoppløsning tillates ikke. HTML tolkes som data og utføres ikke.
 
+lxml er pinnet til [6.1.3](https://pypi.org/project/lxml/6.1.3/), som retter standardbehandlingen av eksterne parameterentiteter. Innlesningen beholder i tillegg eksplisitt `resolve_entities=False`, `no_network=True` og `load_dtd=False`, og avviser alle DOCTYPE-er.
+
 Den autentiske prøven er opprinnelig vedtak 40033944 fra 2024–2025, med alle åtte postlinjene. Dette er en uttrykkelig historisk demonstrasjon. Ukjente mønstre og tvetydige beløp bevares med synlig kontrollbehov. Daglig kjøring, generell parserbredde, rettelser, registervedlikehold og full sesjonsdekning gjenstår i senere tickets.

@@ -1,1 +1,3 @@
-tests/fixtures/*.xml -text
+# Bevar det autentiske utdragets råbyte, inkludert CRLF.
+tests/fixtures/40033944.derived.xml -text whitespace=-blank-at-eol,cr-at-eol
+tests/fixtures/*.metadata.json text eol=lf

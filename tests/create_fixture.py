@@ -41,5 +41,5 @@ metadata.update(
     extraction="Original byteprefix (317), komplett objektblokk (14842), suffix (55)",
 )
 (directory / "40033944.metadata.json").write_text(
-    json.dumps(metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    json.dumps(metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n"
 )
