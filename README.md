@@ -37,9 +37,11 @@ Historikken skal vise hvert forslag, vedtak og endring gjennom året, frem til r
 
 ## Status
 
-Kildeundersøkelsen #2 er levert i PR #11. Python, SQLite og openpyxl er godkjent for lokal innlesning. B1 (#4) gir ett opprinnelig vedtak fra kilde til SQLite og Excel. B2 (#5) legger til fullstendig kildeinventar, kildeobservasjoner, innholdsrevisjoner og gjenopptak. Dette utvider ikke B1-parserens faglige bredde. Daglig kjøring, generell historikksammenstilling og samlet sesjonseksport kommer i senere tickets. Mottakersystem og driftsplattform er åpne; Azure tas opp igjen før valget blir styrende.
+Kildeundersøkelsen #2 er levert i PR #11. Python, SQLite og openpyxl er godkjent for lokal innlesning. B1 (#4) gir ett opprinnelig vedtak fra kilde til SQLite og Excel. B2 (#5) legger til kildeinventar, kildeobservasjoner, innholdsrevisjoner og gjenopptak. B3 (#6) har en egen adapter og beregner historikk for uttrykkelig valgte revisjoner/tolkninger, konto og år. B1/B2s lagrede resultater og parserbredde beholdes. Daglig kjøring og samlet sesjonseksport kommer i senere tickets. Mottakersystem og driftsplattform er åpne; Azure tas opp igjen før valget blir styrende.
 
 ## Kjør B1 lokalt
+
+For B3 brukes fortsatt samme Python-miljø. Se [B3-kontrakten](docs/datakontrakt.md#b3--beløpsobservasjoner-og-valgt-historikk) for avgrensningene og [kildeprøvene](tests/fixtures/b3/README.md) for autentiske og syntetiske tester.
 
 Krever Python 3.12. Kjør fra repoets rot. Bruk et separat virtuelt miljø:
 
@@ -102,3 +104,34 @@ python -m analyse --database b2-proeve.sqlite --revisjon <revision_id fra kjøre
 `--vedtak-id` begrenser **importomfanget**. Full inventering kjøres uten dette flagget; etterpå kan én rapportert `revision_id` eksporteres separat. `--excel` på `synkroniser` krever valgt ID og eksporterer bare dette vedtaket. Samlet sesjonsbevilgning ligger i B6. Historiske/syntetiske prøver er isolert fra produksjonsinventaret, også når samme database brukes.
 
 B1-kommandoene og gamle kjørings-ID-er består. Gamle prøverapporter adopteres ikke automatisk som B2-vedtak. Excel viser valgt råhash og revisjons-ID separat, med historisk/gjeldende status, siste observasjon og revisjonsbundne kontrollhenvisninger. Se [datakontrakten](docs/datakontrakt.md#b2--kildeinventar-observasjoner-og-revisjoner) og [ADR 0002](docs/adr/0002-kildeobservasjoner.md) for normalisering, rekkefølge, migrering og kontrollstatus.
+
+## Kjør B3 lokalt
+
+Synkroniser ønskede kilder med B2 først. Velg hver rapportert revisjon eksplisitt. Tolkningen henter ingen nettdata og endrer ingen B1/B2-resultater:
+
+```powershell
+python -m innlesning tolk --database budsjett.sqlite --revisjon <revisjons-ID> --tolkning storting-belop-v1
+```
+
+Resultatet gir `belopsuttrekk` og tolknings-ID. Runde kan velges med `--runde nysaldering --rundegrunnlag "<konkret dokument/kildebevis>"`; uten sikkert grunnlag forblir runden uavklart. Et datoanslag brukes aldri som rundebevis.
+
+Lagre de ønskede uttreks-ID-ene i en JSON-utvalgsfil, for eksempel `utvalg.json` for den kontrollerte prøven 2541/70 i 2024:
+
+```json
+{
+  "dataset": "prove",
+  "extraction_ids": ["<originalens uttreks-ID>", "<RNBs uttreks-ID>", "<øvrig uttreks-ID>", "<siste endrings uttreks-ID>"],
+  "budget_year": 2024,
+  "chapter": "2541",
+  "post": "70"
+}
+```
+
+```powershell
+python -m analyse --database budsjett.sqlite --utvalg utvalg.json --excel historikk.xlsx
+python -m analyse --database budsjett.sqlite --beregning <lagret beregnings-ID> --excel historikk-igjen.xlsx
+```
+
+Excel viser `Historikk`, `Beløpsobservasjoner` og `Grunnlag og kontroll`. Før/delta/etter, rå og normaliserte verdier, separate beregnede saldoer, kilde-/tolkningsidentitet, avvik og ferskhet følger med. Manglende start, ukjent ledd, uklar rekkefølge og lokale/kronologiske konflikter sperrer avstemt saldo. Like beløp fjernes aldri automatisk. Bevarte sluttkildetall vises også ved sperret kjede.
+
+`avstemt_utvalg` gjelder bare det eksplisitte utvalget; det er ingen faglig godkjenning eller erklæring om komplett sesjon/budsjettår. En ny kilderevisjon kan gjøre beregningen utdatert, også etter A → B → A. Den gamle beregningen og dens rågrunnlag bevares. Full historisk Excel-import, generelt underpost-/nettoresultatuttrekk, registre, manuell avklaring og sesjonsdekning følger egne tickets. Se [kontrakten](docs/datakontrakt.md#b3--beløpsobservasjoner-og-valgt-historikk).

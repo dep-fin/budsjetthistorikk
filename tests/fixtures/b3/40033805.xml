@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stortingsvedtak_oversikt xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://data.stortinget.no">
+  <respons_dato_tid>2026-10-20T13:36:10.2847284+02:00</respons_dato_tid>
+  <versjon>1.6</versjon>
+  <sesjon_id>2024-2025</sesjon_id>
+  <stortingsvedtak_liste>
+    <stortingsvedtak>
+      <id>40033805</id>
+      <sak_id>100001</sak_id>
+      <sak_lenke_url>//www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=100001</sak_lenke_url>
+      <stortingsvedtak_dato_tid>2024-11-05T00:00:00</stortingsvedtak_dato_tid>
+      <stortingsvedtak_lenke_url>//www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40033805&amp;p=100001</stortingsvedtak_lenke_url>
+      <stortingsvedtak_nummer>14</stortingsvedtak_nummer>
+      <stortingsvedtak_tekst>&lt;div class='strtngt_vedtaks'&gt;
+  &lt;p class='strtngt_a type_innrykk'&gt;
+    I statsbudsjettet for 2024 blir det gjort følgende
+endring:
+  &lt;/p&gt;
+  &lt;div class='strtngt_tbl'&gt;
+    &lt;table class='strtngt_table'&gt;
+      &lt;thead class='strtngt_thead'&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_head align_right'&gt;
+              &lt;span class='strtngt_uth type_halvfet'&gt;Kap.&lt;/span&gt;
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_head align_right'&gt;
+              &lt;span class='strtngt_uth type_halvfet'&gt;Post&lt;/span&gt;
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_head align_left'&gt;
+              &lt;span class='strtngt_uth type_halvfet'&gt;Formål&lt;/span&gt;
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_head align_right'&gt;
+              &lt;span class='strtngt_uth type_halvfet'&gt;Kroner&lt;/span&gt;
+            &lt;/p&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody class='strtngt_tbody'&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_head align_right'&gt;&lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk'&gt;&lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_head align_center'&gt;
+              &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;Utgifter&lt;/span&gt;
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_head align_right'&gt;&lt;/p&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_right'&gt;
+              2541
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_head align_right'&gt;&lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_left'&gt;
+              Dagpenger
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_head align_right'&gt;&lt;/p&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_right'&gt;
+              70
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_left'&gt;
+              Dagpenger, &lt;span class='strtngt_uth type_kursiv'&gt;overslagsbevilgning&lt;/span&gt;, &lt;span class='strtngt_uth krnl_wide_letterspacing type_sperret'&gt;økes&lt;/span&gt; med	
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_right'&gt;
+              400 000
+            &lt;/p&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_left'&gt;
+              fra
+kr 12 210 000 000 til kr 12 210 400 000
+            &lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;p class='strtngt_a type_innrykk align_right'&gt;&lt;/p&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</stortingsvedtak_tekst>
+      <stortingsvedtak_tittel>Endringer i statsbudsjettet 2024 under Arbeids- og inkluderingsdepartementet (endringer i permitteringsregelverket for fiskeindustrien)</stortingsvedtak_tittel>
+      <stortingsvedtak_type>
+        <id>ANNET</id>
+        <navn>Allminnelige vedtak</navn>
+      </stortingsvedtak_type>
+    </stortingsvedtak>
+  </stortingsvedtak_liste>
+</stortingsvedtak_oversikt>

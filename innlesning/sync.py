@@ -173,7 +173,8 @@ def _initialize(connection: sqlite3.Connection) -> None:
     for statement in SCHEMA.split(";"):
         if statement.strip():
             connection.execute(statement)
-    connection.execute(f"PRAGMA user_version = {SCHEMA_VERSION}")
+    version = max(SCHEMA_VERSION, connection.execute("PRAGMA user_version").fetchone()[0])
+    connection.execute(f"PRAGMA user_version = {version}")
 
 
 def stage_sync(

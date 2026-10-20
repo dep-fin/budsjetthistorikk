@@ -1,0 +1,17 @@
+{
+  "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2025-2026",
+  "retrieved_utc": "2026-10-20T12:21:14.180591+00:00",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/xml; charset=utf-8"
+  },
+  "fixture_kind": "derived_excerpt",
+  "session_coverage": "partial",
+  "source_response_sha256": "795afc4202c51a13c4360f1374f3a603aa5d8e803c57195ec48effb60c6aebf6",
+  "source_response_bytes": 7387302,
+  "sha256": "4f12ca1d621364892fe3a80b7138bff3342a21869788626d2950703fdf870a74",
+  "bytes": 7921,
+  "decision_id": "40036289",
+  "extraction": "Original byteprefix + én komplett uendret objektblokk + suffix",
+  "provenance": "docs/research/issue-2/vedtak599/fetch-manifest.json"
+}

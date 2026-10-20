@@ -2,6 +2,7 @@
 
 from .http import fetch_session
 from .ingestion import import_saved
+from .observations import extract_revision, read_extraction, save_extraction
 from .storage import read_report, read_source
 from .sync import (
     read_revision,
@@ -25,4 +26,7 @@ __all__ = [
     "read_revision",
     "record_control_reference",
     "read_revision_for_run",
+    "extract_revision",
+    "read_extraction",
+    "save_extraction",
 ]

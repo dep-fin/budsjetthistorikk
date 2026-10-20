@@ -31,3 +31,5 @@ Før endringer i synkronisering, kontrollhenvisninger eller versjonseksport: les
 ## Historisk Excel og felles historikkmodell
 
 Før #6, historisk Excel-import eller utvidelse av den felles historikkmodellen: les [observasjonsformatet](docs/observasjonsformat.md) og [filkontrollen 2013–2025](docs/research/historisk-excel/modellvurdering.md). Formatet er besluttet som spesifikasjon; kildeundersøkelsens åpne tolkninger er fortsatt åpne.
+
+Før endringer i B3: les [B3-kontrakten](docs/datakontrakt.md#b3--beløpsobservasjoner-og-valgt-historikk), [ADR 0004](docs/adr/0004-b3-lagring-og-utvalg.md) og B3-prøvene i [kildefunnene](docs/kildefunn.md#b3-prøver-tabellvariasjon-lokatorer-og-sperrede-kjeder). B1/B2-parser og lagrede resultater er uforanderlige; bruk separat tolkning. Avstemt utvalg er ingen faglig godkjenning eller årsdekning.

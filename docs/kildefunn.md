@@ -96,6 +96,23 @@ Rådata og dokumentarket har ulike detaljeringsgrader og flere dokumentrader per
 
 Konsekvens: bruk filene som konkrete prøver ved videre modellering. Bevar kildeverdier, enhet, underpost, budsjettstadium, beløpsbetydning og dokumentkoblinger før eventuell normalisering. Foreslått felles observasjonskontrakt i rapporten er et modellråd, ikke en vedtatt migrering eller godkjenning av historiske summer. B1/B2s Storting-identitet og prøvedatasett skal ikke brukes som erstatning for en historisk kildeadapter.
 
-## Vedlikehold
+## B3-prøver: tabellvariasjon, lokatorer og sperrede kjeder
+
+**Kontrollert 20. oktober 2026:** Den autentiske 2541/70-kjeden for 2024 er nå prøvd deterministisk fra avledede originalbyte gjennom B2, separat B3-lagring, gjenåpning og Excel. Foreldrehash, henteproveniens og reproduksjonsoppskrift finnes i [B3-fixturene](../tests/fixtures/b3/README.md). Avledede utdrag er merket som delvise prøver; syntetiske mutasjoner er egne negative kontroller.
+
+| Vedtak | Nøyaktig 1-basert kildelokator | Kildebeløp, kroner |
+| --- | --- | ---: |
+| 40032850, nr. 271, 18.12.2023, sak 95779 | `table[1]/tr[92]` | nivå 12 818 000 000 |
+| 40033719, nr. 857, 21.06.2024, sak 98919 | delta `tr[1070]`, før/etter `tr[1071]` | −608 000 000, fra 12 818 000 000 til 12 210 000 000 |
+| 40033805, nr. 14, 05.11.2024, sak 100001 | delta `tr[4]`, før/etter `tr[5]` | +400 000, fra 12 210 000 000 til 12 210 400 000 |
+| 40034064, nr. 221, 17.12.2024, sak 100898 | delta `tr[80]`, før/etter `tr[81]` | +680 000 000, fra 12 210 400 000 til 12 890 400 000 |
+
+Forsknings-CSV-ens `row` er nullbasert og må ikke kopieres direkte til HTML-lokatoren. Originaltabellen 40032850 har seks hodeceller (`Kap., Post, Formål, tom, Kroner, Kroner`), RNB fem, 40033805 fire og 40034064 fem (`Kap., Post, Formål, tom, Kroner`). B1s parserbredde utvides ikke under samme versjon; B3 bruker en separat adapter med disse konservative mønstrene. Underpost-/driftsresultatradene i de samme autentiske vedtakene er fortsatt kontrollbehov i dette snittet. De gir ingen generell underposttolkning eller sesjonsgaranti.
+
+40034443 mangler standardinnledning med år i brødteksten, men tittelen sier uttrykkelig statsbudsjettet 2025. +454 000 000 på 900/32 og −227 000 000 på 1760/45 bevares uten før/etter; «(Ny)» konstruerer ingen nullstart. Rundeetiketter krever tittel eller annet uttrykkelig kildegrunnlag. En desemberdato alene gjør ikke et vedtak til nysaldering.
+
+De autentiske Havtil-overgangene i 40034064/40034226 og 5999/90 i 40033025/40033719/40034287 er regresjonsprøver som **skal sperre den additive kjeden**. Begge Havtil-identiteter, RNBs observerte null og nysalderingens observerte sluttbeløp bevares. 40036289s rå `I 615 833` normaliseres ikke. B3 har ingen generell beløpsdeduplisering, I→1-regel, nullpåfylling eller kunstig mellomendring. Disse kontrollene avklarer ikke de historiske konfliktene faglig.
+
+## Vedlikehold av funn
 
 Oppdater eksisterende funn når nye prøver presiserer det. Bevar skillet mellom observert kildeinnhold, en designanbefaling og et åpent spørsmål. Vesentlige nye funn skal få en kort inngang fra AGENTS.md eller relevant fag-/arbeidsdokument, slik at neste økt finner dem uten chatloggen.
