@@ -1,6 +1,6 @@
-# Foreslått første leveranse og ticketoppdeling
+# Godkjent første leveranse og ticketoppdeling
 
-Dette er et utkast til oppdeling, basert på brukerens avklaringer og vedleggene. Byggetickets er ikke publisert, og implementeringen er ikke startet. Oppdelingen skal gjennomgås med brukeren før publisering, jf. [arbeidsflyten](arbeidsflyt.md).
+Spesifikasjonen, testgrensene og oppdelingen ble godkjent av prosjekteieren 20. oktober 2026. Byggetickets er publisert som #4–#10. Kildeundersøkelsen #2 er påbegynt. Implementering av byggeticketene er ikke startet. Se [arbeidsflyten](arbeidsflyt.md).
 
 ## Første leveranse
 
@@ -8,18 +8,18 @@ Endelige stortingsvedtak fra sesjonen 2026–2027 skal hentes, bevares, struktur
 
 Regjeringsforslag, komitéforslag, regnskap, eldre sesjonsimport, avansert fullmaktsstrukturering og interaktivt grensesnitt er senere utvidelser. Vedlagt Gul bok-fil kan gi katalogmetadata, med tydelig skille fra vedtakstall.
 
-## Foreslåtte leveranser
+## Publiserte leveranser
 
 | ID | Leveranse | Blokkert av | Kontrollerbart resultat |
 | --- | --- | --- | --- |
-| U1 | Kildeprøver og kontrollgrunnlag, eksisterende issue #2 | Ingen; faglig omfang må bekreftes | Reproduserbare vedtaksprøver, beløpsenheter og forslag til avstemming |
-| B1 | Ett endelig bevilgningsvedtak fra kilde til lagring og Excel | U1 | Original kilde, én representativ strukturert beløpslinje og sporbar eksport fungerer samlet |
-| B2 | Nye vedtak og kilderettelser uten dubletter | B1 | Gjentatt og avbrutt kjøring bevarer ID-er, kilderevisjoner og korrekte kjørerapporter |
-| B3 | Følg postens opprinnelige bevilgning og senere endringer | B1 | Endringsvedtak, fra-/til-beløp og beregnet gjeldende bevilgning kan kontrolleres uten dobbeltelling |
-| B4 | Særkapitler, inntekt, nettoresultat og underliggende spesifikasjon | B1 | Representative særtilfeller går fra kilde til korrekt klassifikasjon og Excel, også med negativt beløp og post 90–99 |
-| B5 | Vedlikehold register og behandle uavklarte uttrekk | B1 | Excel-/CSV-endringer og kontrollstatus kan importeres og brukes på nytt med sporbarhet, uten å endre originalkilden |
-| B6 | Samlet sesjonsuttrekk med departementsutvalg og dekningsrapport | B2, B3, B4, B5 | Alle aktuelle vedtak inventeres; eksport viser historikk, kilder og uavklarte/manglende deler, med avstemming |
-| B7 | Daglig kjøring og videreføring over sesjonsskifte | B6 | Kjøring kl. 06.00, tidssone, sesjonsskifte, gjenopptak og GitHub-varsling uten dupliserte feilissues er demonstrert |
+| U1 / #2 | Kildeprøver og kontrollgrunnlag, eksisterende issue #2 | Ingen; oppstart er bestilt | Reproduserbare vedtaksprøver, beløpsenheter og forslag til avstemming |
+| B1 / #4 | Ett endelig bevilgningsvedtak fra kilde til lagring og Excel | U1 | Original kilde, én representativ strukturert beløpslinje og sporbar eksport fungerer samlet |
+| B2 / #5 | Nye vedtak og kilderettelser uten dubletter | B1 | Gjentatt og avbrutt kjøring bevarer ID-er, kilderevisjoner og korrekte kjørerapporter |
+| B3 / #6 | Følg postens opprinnelige bevilgning og senere endringer | B1 | Endringsvedtak, fra-/til-beløp og beregnet gjeldende bevilgning kan kontrolleres uten dobbeltelling |
+| B4 / #7 | Særkapitler, inntekt, nettoresultat og underliggende spesifikasjon | B1 | Representative særtilfeller går fra kilde til korrekt klassifikasjon og Excel, også med negativt beløp og post 90–99 |
+| B5 / #8 | Vedlikehold register og behandle uavklarte uttrekk | B1 | Excel-/CSV-endringer og kontrollstatus kan importeres og brukes på nytt med sporbarhet, uten å endre originalkilden |
+| B6 / #9 | Samlet sesjonsuttrekk med departementsutvalg og dekningsrapport | B2, B3, B4, B5 | Alle aktuelle vedtak inventeres; eksport viser historikk, kilder og uavklarte/manglende deler, med avstemming |
+| B7 / #10 | Daglig kjøring og videreføring over sesjonsskifte | B6 | Kjøring kl. 06.00, tidssone, sesjonsskifte, gjenopptak og GitHub-varsling uten dupliserte feilissues er demonstrert |
 
 Hver byggeticket skal beskrive en smal, komplett funksjon gjennom nødvendige lag. Tabellen er ikke en oppdeling i bare database, parser og grensesnitt. Endelig størrelse vurderes etter U1. En for stor leveranse deles før oppstart.
 
@@ -37,7 +37,7 @@ B1 omfatter bare et representativt første tilfelle. Det ferdige systemet skal h
 - Kjøring kl. 06.00 i Europe/Oslo er demonstrert i avtalt driftsmiljø. Koden alene regnes ikke som produksjonssatt daglig jobb.
 - Kildeinventar og uavhengig avstemming dokumenterer dekningsgraden. Åpne avvik skal være synlige; leveransen kan ikke erklæres uttømmende før relevante mangler er avklart.
 
-## Foreslåtte testgrenser
+## Godkjente testgrenser
 
 - Deterministiske faglige tester på lagrede kildeprøver: beløpsenheter, økes/reduseres, fra/til, nettoresultat, underposter og fullmaktsrammer.
 - Klassifikasjonstester ved inntektsgrensen og eksplisitte oppslag for særserier. Konti 6000–9999 holdes utenfor bevilgningskapitlene.
@@ -46,10 +46,14 @@ B1 omfatter bare et representativt første tilfelle. Det ferdige systemet skal h
 - Excel-uttrekk avstemmes mot godkjente beløpslinjer og viser uavklarte eller ufullstendige beregninger.
 - Sesjonsinventar og uavhengige kontrollkilder prøves før fullstendig dekning erklæres.
 
-Disse testgrensene inngår i forslaget til samlet spesifikasjon. Konkrete kildeprøver og uavhengige kontrollkilder velges i U1 og dokumenteres før byggetickets gjennomføres. Nye produktvalg skal ikke skjules som tekniske testbeslutninger.
+Disse testgrensene inngår i den godkjente spesifikasjonen. Konkrete kildeprøver og uavhengige kontrollkilder velges i U1 og dokumenteres før byggetickets gjennomføres. Nye produktvalg skal ikke skjules som tekniske testbeslutninger.
 
-## Beslutninger før gjennomføring
+## Avklaringer før bygging
 
 Excel-/CSV-filer er bekreftet arbeidsflate for manuelt vedlikehold og kontroll. GitHub-issues er bekreftet varslingskanal ved feil og uavklarte uttrekk. Gjentakelser oppdaterer samme issue; vanlige vellykkede kjøringer gir bare rapport.
 
 Teknologistakken velges etter U1. Kildeprøvene skal gi grunnlag for et konkret valg som passer behovet, uten å binde første innlesning til et fremtidig mottakersystem. Materielle endringer i omfang, testaksept eller ticketoppdeling legges frem på nytt før videre bygging. Azure tas opp igjen før plattformvalget blir styrende. Ingen produksjonsressurser eller daglig jobb er opprettet som del av planleggingen.
+
+## Relasjoner i GitHub
+
+Publiseringsverktøyet støtter ikke skriving av native sub-issue- og avhengighetsrelasjoner. Ticketene har derfor eksplisitte «Del av #1» og «Blokkert av #N» i teksten. Oversikten i #1 samler ticketene. Dette er tekstlige relasjoner, ikke native GitHub-blokkeringer.

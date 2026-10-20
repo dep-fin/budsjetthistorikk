@@ -70,7 +70,9 @@ Ved innlesningsfeil eller uttrekk som krever kontroll opprettes en GitHub-issue.
 
 ## Gjenstående bekreftelser
 
-- Samlet spesifikasjon, foreslåtte testgrenser og ticketoppdeling.
+Samlet spesifikasjon, testgrenser og ticketoppdeling er godkjent av prosjekteieren 20. oktober 2026. Byggetickets er publisert som #4–#10, og kildeundersøkelsen #2 er påbegynt.
+
+Gjenstående tekniske avklaringer:
 - Konkret kilde- og fullstendighetskontroll etter kildeprøvene.
 - Teknologistakk før bygging og Azure-valg før plattformen blir styrende.
 
