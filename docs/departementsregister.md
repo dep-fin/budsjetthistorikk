@@ -64,4 +64,4 @@ Inntektskapittel er som hovedregel utgiftskapittel +3000. Dette gir ikke en sikk
 - Eksplisitt kapittelkobling har forrang fremfor intervall- og offsetforslag.
 - En 2027-katalog er ikke alene et autoritativt register for alle 2026-vedtak eller fremtidige år.
 
-Arbeidsflaten for manuelt vedlikehold avklares før byggeticketen fastsettes.
+Første leveranse bruker manuelt redigerbare Excel-/CSV-filer som arbeidsflate for registervedlikehold. Import av endringer skal valideres og være sporbar. Et eget administrasjonsgrensesnitt kommer eventuelt senere.

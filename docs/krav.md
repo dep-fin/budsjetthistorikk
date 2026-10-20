@@ -62,11 +62,16 @@ Kildeinventar og uavhengige kontrollsummer skal brukes sammen. Blå bok kan vær
 
 Mottakersystem og teknologistakk er åpne. Azure er en mulig plattform. Plattformvalget skal tas opp med brukeren igjen før det blir styrende for arkitektur eller driftssetting. Ingen skyressurser er opprettet.
 
-## Gjenstående beslutninger
+## Manuelt vedlikehold og varsling
 
-- Praktisk arbeidsflate for manuelt registervedlikehold og kontroll av uttrekk.
-- Varslingskanal og hvem som skal motta feil eller uavklarte uttrekk.
-- Akseptansegrunnlag og testgrenser, etter kildeprøvene.
-- Samlet bekreftelse av første leveranse og foreslått ticketoppdeling.
+Første leveranse bruker Excel-/CSV-filer til vedlikehold av departements-/kapittelregisteret og behandling av uavklarte uttrekk. Endringer kobles til stabile identifikatorer og bevarer originalkilde, gyldighetsperiode og begrunnelse. Kilderevisjoner må gjøre utdaterte korreksjoner synlige før de brukes videre.
+
+Ved innlesningsfeil eller uttrekk som krever kontroll opprettes en GitHub-issue. Gjentakelser av samme forhold oppdaterer samme issue. Vellykkede kjøringer uten slike avvik gir bare kjørerapport. GitHubs vanlige abonnementer styrer hvem som mottar varsler; løsningen skal ikke love en bestemt e-postlevering.
+
+## Gjenstående bekreftelser
+
+- Samlet spesifikasjon, foreslåtte testgrenser og ticketoppdeling.
+- Konkret kilde- og fullstendighetskontroll etter kildeprøvene.
+- Teknologistakk før bygging og Azure-valg før plattformen blir styrende.
 
 Tekniske fakta undersøkes av agenten. Brukeren avgjør behov, prioriteringer og faglig aksept.

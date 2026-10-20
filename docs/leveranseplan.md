@@ -17,13 +17,25 @@ Regjeringsforslag, komitéforslag, regnskap, eldre sesjonsimport, avansert fullm
 | B2 | Nye vedtak og kilderettelser uten dubletter | B1 | Gjentatt og avbrutt kjøring bevarer ID-er, kilderevisjoner og korrekte kjørerapporter |
 | B3 | Følg postens opprinnelige bevilgning og senere endringer | B1 | Endringsvedtak, fra-/til-beløp og beregnet gjeldende bevilgning kan kontrolleres uten dobbeltelling |
 | B4 | Særkapitler, inntekt, nettoresultat og underliggende spesifikasjon | B1 | Representative særtilfeller går fra kilde til korrekt klassifikasjon og Excel, også med negativt beløp og post 90–99 |
-| B5 | Vedlikehold register og behandle uavklarte uttrekk | B1 | Manuell korrigering og kontrollstatus kan brukes på nytt med sporbarhet, uten å endre originalkilden |
+| B5 | Vedlikehold register og behandle uavklarte uttrekk | B1 | Excel-/CSV-endringer og kontrollstatus kan importeres og brukes på nytt med sporbarhet, uten å endre originalkilden |
 | B6 | Samlet sesjonsuttrekk med departementsutvalg og dekningsrapport | B2, B3, B4, B5 | Alle aktuelle vedtak inventeres; eksport viser historikk, kilder og uavklarte/manglende deler, med avstemming |
-| B7 | Daglig kjøring og videreføring over sesjonsskifte | B6 | Kjøring kl. 06.00, håndtering av tidssone, sesjonsskifte, gjenopptak og avtalt feilvarsling er demonstrert |
+| B7 | Daglig kjøring og videreføring over sesjonsskifte | B6 | Kjøring kl. 06.00, tidssone, sesjonsskifte, gjenopptak og GitHub-varsling uten dupliserte feilissues er demonstrert |
 
 Hver byggeticket skal beskrive en smal, komplett funksjon gjennom nødvendige lag. Tabellen er ikke en oppdeling i bare database, parser og grensesnitt. Endelig størrelse vurderes etter U1. En for stor leveranse deles før oppstart.
 
 B1 omfatter bare et representativt første tilfelle. Det ferdige systemet skal håndtere alle aktuelle kildelinjer eller gjøre manglene eksplisitte. Godkjente summer skal ikke skjule uavklarte beløp.
+
+## Aksept for første leveranse
+
+- Endelige vedtak fra sesjonen 2026–2027 kan leses inn, lagres og spores til originalkilden; nye sesjoner kan følges videre.
+- Godkjente bevilgningslinjer viser budsjettår, kapittel, post, beløpsbetydning og vedtaksidentitet. Hver opprinnelige bevilgning og senere endring bevares.
+- Gjentatt kjøring og kilderettelser fører ikke til dobbeltelling eller tap av kildehistorikk.
+- Utgifter, inntekter, særkapitler, nettoresultater og underliggende spesifikasjon klassifiseres og telles korrekt. Fullmaktsrammer og regnskap summeres ikke inn som bevilgning.
+- Excel-uttrekk støtter departements-/kapittel-/postutvalg og viser kilder, endringer og synlige mangler. Manglende grunnlag gir ikke en tilsynelatende komplett sum.
+- Excel-/CSV-basert registervedlikehold og manuell kontroll kan gjenbrukes med sporbarhet. Utdaterte korreksjoner oppdages når kilden endres.
+- Kjørerapport og GitHub-issue viser feil og uavklarte uttrekk. Gjentakelser oppdaterer samme issue; vellykkede kjøringer uten avvik gir ingen nye issues.
+- Kjøring kl. 06.00 i Europe/Oslo er demonstrert i avtalt driftsmiljø. Koden alene regnes ikke som produksjonssatt daglig jobb.
+- Kildeinventar og uavhengig avstemming dokumenterer dekningsgraden. Åpne avvik skal være synlige; leveransen kan ikke erklæres uttømmende før relevante mangler er avklart.
 
 ## Foreslåtte testgrenser
 
@@ -34,8 +46,10 @@ B1 omfatter bare et representativt første tilfelle. Det ferdige systemet skal h
 - Excel-uttrekk avstemmes mot godkjente beløpslinjer og viser uavklarte eller ufullstendige beregninger.
 - Sesjonsinventar og uavhengige kontrollkilder prøves før fullstendig dekning erklæres.
 
-Testgrenser og kontrollgrunnlag må inngå i den bekreftede spesifikasjonen før de brukes som leveranseaksept.
+Disse testgrensene inngår i forslaget til samlet spesifikasjon. Konkrete kildeprøver og uavhengige kontrollkilder velges i U1 og dokumenteres før byggetickets gjennomføres. Nye produktvalg skal ikke skjules som tekniske testbeslutninger.
 
 ## Beslutninger før gjennomføring
 
-Arbeidsflaten for manuelt vedlikehold og kontroll, varslingskanal og teknologistakk må fastsettes. Azure tas opp igjen før plattformvalget blir styrende. Ingen produksjonsressurser eller daglig jobb er opprettet som del av planleggingen.
+Excel-/CSV-filer er bekreftet arbeidsflate for manuelt vedlikehold og kontroll. GitHub-issues er bekreftet varslingskanal ved feil og uavklarte uttrekk. Gjentakelser oppdaterer samme issue; vanlige vellykkede kjøringer gir bare rapport.
+
+Teknologistakken velges etter U1. Kildeprøvene skal gi grunnlag for et konkret valg som passer behovet, uten å binde første innlesning til et fremtidig mottakersystem. Materielle endringer i omfang, testaksept eller ticketoppdeling legges frem på nytt før videre bygging. Azure tas opp igjen før plattformvalget blir styrende. Ingen produksjonsressurser eller daglig jobb er opprettet som del av planleggingen.

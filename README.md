@@ -13,7 +13,7 @@ Innlesningen skal kunne kjøres uten analysegrensesnittet. En dokumentert datako
 
 Første leveranse gjelder endelige stortingsvedtak fra sesjonen 2026–2027, også vedtak om budsjettet som foreslås i Prop. 1 S (2026–2027). Nye og endrede vedtak skal kontrolleres daglig. Budsjettår, kapittel, post og beløp skal struktureres. Både inntekter og utgifter inngår.
 
-Alle bevilgningsendringer skal fanges opp, også i saker uten regjeringsproposisjon og i sammensatte lov- og budsjettsaker. Tvetydige uttrekk skal bevares og sendes til kontroll før de inngår i godkjente analysetall. Første leveranse gir lagring og et kontrollerbart Excel-uttrekk; det interaktive grensesnittet kommer senere. Planlagt daglig kjøring er kl. 06.00 norsk tid.
+Alle bevilgningsendringer skal fanges opp, også i saker uten regjeringsproposisjon og i sammensatte lov- og budsjettsaker. Tvetydige uttrekk skal bevares og sendes til kontroll før de inngår i godkjente analysetall. Første leveranse gir lagring og et kontrollerbart Excel-uttrekk; det interaktive grensesnittet kommer senere. Planlagt daglig kjøring er kl. 06.00 norsk tid. Excel-/CSV-filer brukes til manuelt registervedlikehold og kontroll. Feil og uavklarte uttrekk varsles med GitHub-issues; gjentakelser oppdaterer samme issue.
 
 Regjeringens forslag og komitéforslag er egne fremtidige kilder. Regjeringsforslag kan tas inn tidlig dersom en enkel kildevei blir dokumentert; dette skal ikke forsinke vedtaksinnlesningen. Manuell innlesning er et mulig senere alternativ.
 
