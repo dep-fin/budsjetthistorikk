@@ -10,6 +10,7 @@ DFØs bevilgningshistorikk kan brukes som en egen kontrollkilde. Fire 2024-poste
 
 ## Videre kildeavklaringer
 
+- [Selvstendig bevilgning uten proposisjonsgrunnlag i undersøkt kildekjede](selvstendig-bevilgning.md)
 - [Stortingsinitiativ, bevilgning, fullmakt og negative prøver](stortingsinitiativ.md)
 - [Varig originalkilde, hele regnskapstabellen og endringsregler](varig-kildegrunnlag.md)
 - [Alle 2024-posters bevilgningskolonner](statsrekneskap2024-posts.csv)
@@ -30,7 +31,7 @@ Originale råfiler er mellomlagret lokalt. Kilde-URL-er, hentestatus og SHA-256 
 
 ## Status og gjenstående arbeid
 
-API-prøvene omfatter 24 vedtak i 2026–2027 og 1 260 i 2024–2025. Vedtakstekst finnes i sesjonsoversikten. I de fire undersøkte voteringsvedtak-svarene hadde alle 54 elementer nil-tekst. Sak, sesjon og vedtaksnummer ga en entydig kobling i utvalget, ikke en generell unikhetsgaranti. Gjentatte sesjonssvar var like etter normalisering av responstid; faktisk kilderettelse er ikke observert. Full årsavstemming, alle parservarianter og et sikkert helt proposisjonsfritt positivt tilfelle er ikke ferdig verifisert. Originalt rågrunnlag for kontrolltabellene er nå sikret. #2 holdes åpen til akseptansekriteriene er dokumentert eller konkrete gjenstående punkter er avklart.
+API-prøvene omfatter 24 vedtak i 2026–2027 og 1 260 i 2024–2025. Vedtakstekst finnes i sesjonsoversikten. I de fire undersøkte voteringsvedtak-svarene hadde alle 54 elementer nil-tekst. Sak, sesjon og vedtaksnummer ga en entydig kobling i utvalget, ikke en generell unikhetsgaranti. Gjentatte sesjonssvar var like etter normalisering av responstid; faktisk kilderettelse er ikke observert. Vedtak 249/40005719 fra 2003 gir nå en autentisk positiv prøve på en selvstendig bevilgning uten funnet proposisjonsgrunnlag i relevant undersøkt kildekjede. Full årsavstemming og produksjonsparserens dekning er ennå ikke ferdig verifisert. Originalt rågrunnlag for kontrolltabellene er nå sikret. #2 holdes åpen til akseptansekriteriene er dokumentert eller konkrete gjenstående punkter er avklart.
 
 ## Kandidatgrunnlag for byggetickets
 

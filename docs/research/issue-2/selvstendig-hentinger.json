@@ -1,0 +1,205 @@
+[
+  {
+    "url": "https://data.stortinget.no/eksport/publikasjon?publikasjonid=dok8-200203-027",
+    "retrieved_utc": "2026-10-20T12:06:03.788412+00:00",
+    "status": 200,
+    "sha256": "65d9e17d90ef548af88522c72283f3c3cf1a6bef02e1e76c3d5447ac6cca4372",
+    "bytes": 1730,
+    "file": "dok8-200203-027.raw",
+    "hash_verified": true,
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:06:03 GMT"
+    }
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/publikasjon?publikasjonid=inno-200203-061",
+    "retrieved_utc": "2026-10-20T12:05:37.655001+00:00",
+    "status": 200,
+    "sha256": "f60b46c95360b9099ba59786398b40da52c3ee465c807328b2e801bac442668e",
+    "bytes": 10471,
+    "file": "inno-200203-061.raw",
+    "hash_verified": true,
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:05:36 GMT"
+    }
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/publikasjon?publikasjonid=inns-199900-175",
+    "retrieved_utc": "2026-10-20T12:06:03.883581+00:00",
+    "status": 200,
+    "sha256": "8840a6d4aab973ab3efbfa6e329ca90200c91fc6863836fe750c087e3edf79b2",
+    "bytes": 9805,
+    "file": "inns-199900-175.raw",
+    "hash_verified": true,
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:06:03 GMT"
+    }
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/publikasjon?publikasjonid=inns-200203-010",
+    "retrieved_utc": "2026-10-20T12:04:50.328394+00:00",
+    "status": 200,
+    "sha256": "53fd9e8ab1c9e5d7f74951e343a0ba5731b60657eef199a05705c1301e3475cc",
+    "bytes": 13003,
+    "file": "inns-200203-010.raw",
+    "hash_verified": true,
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:04:50 GMT"
+    }
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/publikasjon?publikasjonid=inns-200203-074",
+    "retrieved_utc": "2026-10-20T12:05:37.550829+00:00",
+    "status": 200,
+    "sha256": "2399e3731367f85015d95756ab50afbaafd453156e0648b6aad1bfb124716bc4",
+    "bytes": 6859,
+    "file": "inns-200203-074.raw",
+    "hash_verified": true,
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:05:36 GMT"
+    }
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/publikasjon?publikasjonid=inns-200203-114",
+    "retrieved_utc": "2026-10-20T12:05:22.741603+00:00",
+    "status": 200,
+    "sha256": "4b2ea9cd333267e08880feddab1a0bb5d0448f772e6016cc34b06717f5091e0b",
+    "bytes": 11103,
+    "file": "inns-200203-114.raw",
+    "hash_verified": true,
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:05:21 GMT"
+    }
+  },
+  {
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2002-2003/021112/1/",
+    "retrieved_utc": "2026-10-20T12:05:22.796286+00:00",
+    "status": 200,
+    "sha256": "35da6437dd9782f3997c549968bf9e8bcd3d4e6bc8842b076b8dd5290345393d",
+    "bytes": 78265,
+    "file": "ref-021112-1.raw",
+    "hash_verified": true,
+    "headers": {}
+  },
+  {
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2002-2003/021112/1/Votering-i-sak-nr-1",
+    "retrieved_utc": "2026-10-20T12:05:23.438942+00:00",
+    "status": 200,
+    "sha256": "559e076fc76c622f567751219342db95b2c3da92ba654fe45e4351829b1b8af7",
+    "bytes": 73196,
+    "file": "ref-021112-vot1.raw",
+    "hash_verified": true,
+    "headers": {}
+  },
+  {
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2002-2003/030206/5/",
+    "retrieved_utc": "2026-10-20T12:05:37.092054+00:00",
+    "status": 200,
+    "sha256": "ab03ca5673dce1db1066a6d761b1063893173dbecee06f0a027eeaf48d4825dc",
+    "bytes": 97569,
+    "file": "ref-030206-5.raw",
+    "hash_verified": true,
+    "headers": {}
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/sak?sakid=25502",
+    "retrieved_utc": "2026-10-20T12:04:49.289772+00:00",
+    "status": 200,
+    "sha256": "cb6c5bb508e3bda22cd66d08c931c1f372d5966bfa484dd5d2b513e9c2325a0f",
+    "bytes": 5635,
+    "file": "sak-25502.raw",
+    "hash_verified": true,
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:04:48 GMT"
+    }
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/sak?sakid=25782",
+    "retrieved_utc": "2026-10-20T12:06:34.192529+00:00",
+    "status": 200,
+    "sha256": "5af170224aa6ffdcb38b3bb94a0873110eb2aaa49cd17f1f9b078ce49be2985b",
+    "bytes": 12714,
+    "file": "sak-25782.raw",
+    "hash_verified": true,
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:06:34 GMT"
+    }
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/sak?sakid=26250",
+    "retrieved_utc": "2026-10-20T12:05:36.638404+00:00",
+    "status": 200,
+    "sha256": "318a0c492ef9c509a2c28af401ff51065ff24dc69fb27c880e4ca30d3e80707a",
+    "bytes": 6166,
+    "file": "sak-26250.raw",
+    "hash_verified": true,
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:05:36 GMT"
+    }
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/sak?sakid=26251",
+    "retrieved_utc": "2026-10-20T12:05:37.738568+00:00",
+    "status": 200,
+    "sha256": "cd3c258fdca911e57901432621fcc154b01beac3cce303cdbeef9db2e420892d",
+    "bytes": 8951,
+    "file": "sak-26251.raw",
+    "hash_verified": true,
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:05:37 GMT"
+    }
+  },
+  {
+    "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2002-2003",
+    "retrieved_utc": "2026-10-20T12:08:04.230381+00:00",
+    "status": 200,
+    "sha256": "880656e156f9a7d5df771f23c373c931879a840e1e859ffe787686f7ca9b5e1a",
+    "bytes": 1881991,
+    "file": "stortingsvedtak-2002-2003.raw",
+    "hash_verified": true,
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Date": "Tue, 20 Oct 2026 12:08:03 GMT"
+    }
+  },
+  {
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?p=25502",
+    "retrieved_utc": "2026-10-20T12:04:50.069847+00:00",
+    "status": 200,
+    "sha256": "8c11671be37600c9c0023c23c9729e2249102a0959cc7a81adfd1b7d2cc3f5b7",
+    "bytes": 69662,
+    "file": "vedtak-25502.raw",
+    "hash_verified": true,
+    "headers": {}
+  },
+  {
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?p=25782",
+    "retrieved_utc": "2026-10-20T12:06:34.691855+00:00",
+    "status": 200,
+    "sha256": "0a9e52744432f3941d85b722deebd0379cf526aa115952f20b27232b3520e4c7",
+    "bytes": 69178,
+    "file": "vedtak-25782.raw",
+    "hash_verified": true,
+    "headers": {}
+  },
+  {
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?p=26250",
+    "retrieved_utc": "2026-10-20T12:05:36.900047+00:00",
+    "status": 200,
+    "sha256": "27fab26379af7c22379b695bdfa050e3df4d64ab21e062f5c9649ab51ac37d89",
+    "bytes": 69517,
+    "file": "vedtak-26250.raw",
+    "hash_verified": true,
+    "headers": {}
+  }
+]

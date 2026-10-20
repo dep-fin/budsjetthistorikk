@@ -1,0 +1,147 @@
+{
+  "cases": {
+    "25502": {
+      "document_group": "innstillingssaker",
+      "reference": "Innst. S. nr. 10 (2002-2003)",
+      "committee": "PRES",
+      "relations": [],
+      "publications": [
+        {
+          "eksport_id": "innb-200203-010",
+          "lenke_tekst": "Innst. S. nr. 10 (2002-2003)",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2002-2003/inns-200203-010/",
+          "type": "innstilling",
+          "undertype": "storting"
+        },
+        {
+          "eksport_id": "s021112",
+          "lenke_tekst": "Stortingsreferat 12.11.2002",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2002-2003/021112/1",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      ]
+    },
+    "25782": {
+      "document_group": "representantforslag",
+      "reference": "Dokument nr. 8:27 (2002-2003), Innst. S. nr. 74 (2002-2003)",
+      "committee": "KONTROLL",
+      "relations": [],
+      "publications": [
+        {
+          "eksport_id": "dok8-200203-027",
+          "lenke_tekst": "Dokument nr. 8:27 (2002-2003)",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Representantforslag/2002-2003/dok8-200203-027/",
+          "type": "dok8",
+          "undertype": null
+        },
+        {
+          "eksport_id": "s021128",
+          "lenke_tekst": "Stortingsreferat 28.11.2002",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2002-2003/021128/referatsaker/",
+          "type": "referat",
+          "undertype": "storting"
+        },
+        {
+          "eksport_id": "inno-200203-074",
+          "lenke_tekst": "Innst. S. nr. 74 (2002-2003)",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2002-2003/inns-200203-074/",
+          "type": "innstilling",
+          "undertype": "storting"
+        },
+        {
+          "eksport_id": "s021216",
+          "lenke_tekst": "Stortingsreferat 16.12.2002",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2002-2003/021216/1",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      ]
+    },
+    "26250": {
+      "document_group": "innstillingssaker",
+      "reference": "Innst. S. nr. 114 (2002-2003)",
+      "committee": "PRES",
+      "relations": [],
+      "publications": [
+        {
+          "eksport_id": "inno-200203-114",
+          "lenke_tekst": "Innst. S. nr. 114 (2002-2003)",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2002-2003/inns-200203-114/",
+          "type": "innstilling",
+          "undertype": "storting"
+        },
+        {
+          "eksport_id": "s030206",
+          "lenke_tekst": "Stortingsreferat 06.02.2003",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2002-2003/030206/5",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      ]
+    },
+    "26251": {
+      "document_group": "innstillingssaker",
+      "reference": "Innst. O. nr. 61 (2002-2003), beslutning. O. nr. 61 (2002-2003)",
+      "committee": "PRES",
+      "relations": [],
+      "publications": [
+        {
+          "eksport_id": "inno-200203-061",
+          "lenke_tekst": "Innst. O. nr. 61 (2002-2003)",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Odelstinget/2002-2003/inno-200203-061/",
+          "type": "innstilling",
+          "undertype": "oldelsting"
+        },
+        {
+          "eksport_id": "o030206",
+          "lenke_tekst": "Odelstingsreferat 06.02.2003",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Odelstinget/2002-2003/030206/1",
+          "type": "referat",
+          "undertype": "odelsting"
+        },
+        {
+          "eksport_id": null,
+          "lenke_tekst": "Besl. O. nr. 61 (2002-2003)",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Beslutninger/Odelstinget/2002-2003/beso-200203-061/",
+          "type": "vedtak",
+          "undertype": "odelsting"
+        },
+        {
+          "eksport_id": "l030227",
+          "lenke_tekst": "Lagtingsreferat 27.02.2003",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Lagtinget/2002-2003/030227/3",
+          "type": "referat",
+          "undertype": "lagting"
+        }
+      ]
+    }
+  },
+  "text_edges": [
+    {
+      "from": "inns-200203-114",
+      "to": "inns-200203-074",
+      "kind": "explicit background reference, decision 16.12.2002"
+    },
+    {
+      "from": "inns-200203-114",
+      "to": "inno-200203-061",
+      "kind": "explicit parallel law initiative"
+    },
+    {
+      "from": "inno-200203-061",
+      "to": "inns-200203-074",
+      "kind": "explicit background reference"
+    },
+    {
+      "from": "inno-200203-061",
+      "to": "inns-200203-114",
+      "kind": "explicit parallel appropriation initiative"
+    },
+    {
+      "from": "inns-200203-074",
+      "to": "dok8-200203-027",
+      "kind": "explicit source document"
+    }
+  ]
+}
