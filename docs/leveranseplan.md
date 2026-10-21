@@ -54,6 +54,10 @@ Excel-/CSV-filer er bekreftet arbeidsflate for manuelt vedlikehold og kontroll. 
 
 Python, SQLite og openpyxl er valgt etter U1 for lokal innlesning og uttrekk, jf. [ADR 0001](adr/0001-lokal-innlesning.md). Eieren valgte 21. oktober 2026 en varig Windows-vert med lokal lagring for B7. Konkret vert, driftskonto, datamappe og eksisterende bakgrunnstilgang er utsatt av eieren. Kode og reviewbart oppsett leveres med [driftsmanual](b7-drift.md) og [deterministisk kontrollrapport](research/b7/README.md); faktisk oppgaveinstallasjon og driftsprøve gjenstår. #10 forblir åpen til dette er akseptert. Ingen produksjonsressurser eller daglig jobb er opprettet. Materielle endringer i omfang, testaksept eller ticketoppdeling legges frem på nytt før videre bygging. Endelig mottakersystem for felles bruk er fortsatt åpent.
 
+## Planforslag for historisk Excel under #13
+
+Den [startklare pilotplanen](pilotplan-historisk-excel.md) anbefaler én lokal byggeticket for hele 2024-arbeidsboken fra uendret original til historiske observasjoner, lagring, kontrollpakke og uavhengig sammenligning. Den [utførte tallprøven](research/historisk-excel/pilotkontroll.md) begrunner årvalget med konkrete treff og avvik, uten helårsavstemming eller faglig godkjenning. Planen omfatter verken full import av 2013–2025 eller endring av første leveranses omfang. Nye offisielle tall skal kunne registreres uavhengig av historiske filer. Byggemandat gjenstår; utsatt driftsaksept i #10 er fortsatt åpen og blokkerer ikke den lokale piloten.
+
 ## Relasjoner i GitHub
 
 Publiseringsverktøyet støtter ikke skriving av native sub-issue- og avhengighetsrelasjoner. Ticketene har derfor eksplisitte «Del av #1» og «Blokkert av #N» i teksten. Oversikten i #1 samler ticketene. Dette er tekstlige relasjoner, ikke native GitHub-blokkeringer.
