@@ -1,5 +1,7 @@
 # Fremstilling av budsjetthistorikk
 
+Den [historiske kontrollpakken](../docs/historisk-pilot.md) har egne `export`/`verify`-kommandoer i `python -m analyse.historical_package`. Hele lokalpiloten reproduseres med `python -m analyse.historical_pilot`; det [utførte kontrollomfanget](../docs/research/historisk-excel/pilot2024.md) skiller hele filen fra det avgrensede v2-utvalget.
+
 Analysedelen skal gi Finansavdelingen i Finansdepartementet oversikt over historiske budsjettforslag og budsjettvedtak.
 
 Første prioriterte visning skal støtte departement, kapittel, post og kombinasjoner av disse. For utvalget skal regjeringens forslag, komiteens innstilling og endelig vedtak kunne sammenlignes med beløp, dokumentnummer og kildehenvisninger.

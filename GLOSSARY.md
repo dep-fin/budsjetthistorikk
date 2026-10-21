@@ -124,3 +124,9 @@ En varig registrert hensikt om å hente en kilde, opprettet før HTTP. Råbyte/h
 
 **Varslingsoutbox**:
 Varig kø over konkrete, stabile avviksforhold før ekstern GitHub-levering. Leveringsstatus er adskilt fra kildeinnlesning og faglig kontroll. Tvetydig opprettelse må avstemmes mot eksisterende marker/binding.
+
+**Matematisk kronekandidat**:
+En separat, eksakt desimalberegning fra et bevart kildefelt og en uttrykkelig prøvd enhetsfaktor. Kandidaten kan finnes selv om normalisert kroneverdi er null og faglig tolkning er åpen. Et matematisk treff gir ingen faglig godkjenning.
+
+**Historisk kontrollpakke**:
+Et frosset, versjonert uttrekk av eksplisitt valgte historiske kildeobservasjoner, celleinventar, kandidater, regler, avvik og sammenligningsgrunnlag med JSONL, manifest og faktisk kontrollert Excel. Pakkepublisering er adskilt fra import og faglig godkjenning.

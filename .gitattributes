@@ -7,6 +7,8 @@ tests/fixtures/b5/*.json text eol=lf
 tests/fixtures/b6/*.xml -text whitespace=-blank-at-eol,cr-at-eol
 tests/fixtures/b6/*.json text eol=lf
 tests/fixtures/*.metadata.json text eol=lf
+# Frosset syntetisk v2-arkiv har dokumentert bytehash.
+tests/fixtures/historical-v2.sql -text
 # B6 avstemmer disse bevarte forskningsartefaktene med eksakt SHA-256.
 docs/research/issue-2/aar/dfo2024.csv -text
 docs/research/issue-2/statsrekneskap2024-posts.csv -text
@@ -14,3 +16,11 @@ docs/research/issue-2/aar/blaabok_posts.json -text
 docs/research/issue-2/aar/api_events.csv -text
 docs/research/issue-2/aar/session_inventory.csv -text
 docs/research/issue-2/aar/scope_residual_ledger.json -text
+# P13s begrensede offentlige kontrollavledninger har dokumenterte bytehasher.
+# Nye v2-avledninger skrives med UTF-8/LF; -text bevarer disse eksakte bytene.
+docs/research/historisk-excel/pilot2024/summary.json -text
+docs/research/historisk-excel/pilot2024/proposal-refs.json -text
+# P13s hashfestede CSV-kontrollmetadata leses med fast CRLF på alle plattformer.
+# Git-bloben er tekst med LF; kontrollrapporten identifiserer de faktisk leste bytene.
+docs/research/issue-2/aar/description_inventory.csv text eol=crlf
+docs/research/issue-2/aar/decision_inventory.csv text eol=crlf

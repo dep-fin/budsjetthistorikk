@@ -1,5 +1,7 @@
 # Startklar pilotplan for historisk Excel-import
 
+Oppfølging 21. oktober 2026: prosjekteieren autoriserte pilotbyggingen som #24 under #13. Den [lokale 2024-leveransen og utførte kontrollen](research/historisk-excel/pilot2024.md) og [bruksgrensen](historisk-pilot.md) dokumenteres separat. Planen nedenfor bevarer beslutningsgrunnlaget; omtalen av gjenstående byggemandat gjelder planbestillingen før denne autoriseringen.
+
 Status 21. oktober 2026: **startklar plan for én avgrenset byggeticket under #13**. Planen er en anbefaling til eieren. Bestillingen om å lage planen gir ikke mandat til å implementere, opprette en byggeticket, migrere eksisterende data eller erklære historiske tall godkjent. Faktisk bygging krever et uttrykkelig byggemandat.
 
 ## Anbefalt pilot og resultat

@@ -1,0 +1,154 @@
+{
+  "version": "historisk-pilotkontroll-3",
+  "source_sha256": "870d30d55b4f7f6791fe48ea2a15aa3e98d61946393385d0411e46a0169f60f3",
+  "source_bytes": 257569,
+  "extraction_id": "8efe8b7f75226514d4b713f3259880e8df6c0666715ac2a811dae7a38997bf43",
+  "interpretation_id": "42698ce7aecf7cbd3076ea3c19c42aaf03da643ec37973a07a677bb1fc720390",
+  "adapter_version": "historisk-excel-2024-v3",
+  "inventory_version": "historisk-celler-3",
+  "comparison_version": "historisk-sammenligning-2",
+  "control_date": "2026-10-21",
+  "limits": {
+    "cells": 250000,
+    "exponent": 100,
+    "inflated_bytes": 134217728,
+    "max_bytes": 33554432,
+    "member_bytes": 33554432,
+    "members": 128,
+    "number_chars": 128,
+    "positions": 300000,
+    "resolved_chars": 16777216,
+    "serialized_chars": 268435456,
+    "text_chars": 1000000,
+    "xml_nodes": 1000000
+  },
+  "document_name_mapping": {
+    "chapter_name": "J",
+    "purpose": "H",
+    "keyword_raw_context": "I"
+  },
+  "original_name_fields_checked": 1371,
+  "published_excel_name_fields_checked": 1371,
+  "comparison_id": "185856e3984497f90fb011c647da8df7ec34ad951169095ebd1704466a3fe80d",
+  "spec_id": "aec7c7421578066b1cbe33697b29686776128373b64b2d13fa8f894c39e2994e",
+  "counts": {
+    "absent": 2136,
+    "cells": 46788,
+    "observations": 16339,
+    "physical": 44652
+  },
+  "summary": {
+    "full_H_blaabok": {
+      "fractional_kr": 726,
+      "match": 847,
+      "missing_reference": 120,
+      "missing_excel": 1
+    },
+    "full_D_derived_ledger": {
+      "match": 1354,
+      "missing_reference": 1,
+      "missing_excel": 4
+    },
+    "bounded_H_v2": {
+      "fractional_kr": 103,
+      "match": 271,
+      "missing_excel": 1
+    },
+    "bounded_D_v2": {
+      "match": 854,
+      "missing_reference": 3,
+      "missing_excel": 4
+    },
+    "bounded_components_derived": {
+      "match": 12,
+      "missing_excel": 4
+    },
+    "anchor_J": {
+      "match": 1
+    },
+    "anchor_K": {
+      "match": 1
+    },
+    "anchor_L": {
+      "match": 1
+    },
+    "anchor_G_proposal": {
+      "fractional_kr": 1
+    },
+    "anchor_I_proposal": {
+      "match": 1
+    },
+    "open_M": {
+      "ikke_utfort": 1
+    },
+    "open_N": {
+      "ikke_utfort": 1
+    }
+  },
+  "column_counts": {
+    "Rådata:G": 1871,
+    "Rådata:H": 1871,
+    "Rådata:I": 1871,
+    "Rådata:J": 1871,
+    "Rådata:K": 1871,
+    "Rådata:L": 1871,
+    "Rådata:M": 1871,
+    "Rådata:N": 1871,
+    "Dokumentiltknyntning2024:D": 1371
+  },
+  "package_manifest_sha256": "a7f93975b596ae3afd3e53b7825ff1027bc7a576c78640d02491fb30588714d7",
+  "package_verified": {
+    "verified": true,
+    "extraction_id": "8efe8b7f75226514d4b713f3259880e8df6c0666715ac2a811dae7a38997bf43",
+    "files": 10,
+    "counts": {
+      "observasjoner": 16339,
+      "celler": 46788,
+      "kandidater": 16339,
+      "kolonneregler": 9,
+      "avvik": 51837,
+      "sammenligning": 4312,
+      "metadata": 11,
+      "grunnlag": 1
+    }
+  },
+  "bounded_observations": 2894,
+  "source_references": [
+    {
+      "path": "docs/research/issue-2/aar/api_events.csv",
+      "sha256": "ab9ef8abe7f1b508d54ca17e6f88209d061a6a6e2c8f312d5444894686642e31",
+      "bytes": 854328,
+      "kind": "offentlig forskningsavledning",
+      "parent_manifest": "docs/research/issue-2/aar/input_manifest.json"
+    },
+    {
+      "path": "docs/research/issue-2/aar/blaabok_posts.json",
+      "sha256": "7f85002b543a57b3948170f102dc581f66d5ca1b5c1372198433ecd05b0b337e",
+      "bytes": 227236,
+      "kind": "offentlig forskningsavledning",
+      "parent_manifest": "docs/research/issue-2/aar/input_manifest.json"
+    },
+    {
+      "path": "docs/research/issue-2/aar/description_inventory.csv",
+      "sha256": "3f267dddbd26434febd976c9a5b9940d40362d0fbedb567485857342871be56e",
+      "bytes": 3911,
+      "kind": "offentlig forskningsavledning",
+      "parent_manifest": "docs/research/issue-2/aar/input_manifest.json"
+    },
+    {
+      "path": "docs/research/issue-2/aar/decision_inventory.csv",
+      "sha256": "6e7a1676d372798d37c5877d2ebcc2b7275354e482833ecac4ed83c54c8b820e",
+      "bytes": 11829,
+      "kind": "offentlig forskningsavledning",
+      "parent_manifest": "docs/research/issue-2/aar/input_manifest.json"
+    }
+  ],
+  "blocked_chains": [
+    "1860/1",
+    "4860/1",
+    "5999/90"
+  ],
+  "professional_approval": false,
+  "year_complete": false,
+  "privacy": "Ingen original, fullstendig celleinventar eller kandidater publiseres; bare aggregert kontrollbevis."
+}

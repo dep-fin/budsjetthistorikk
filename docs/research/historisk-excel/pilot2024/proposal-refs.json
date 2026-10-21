@@ -1,0 +1,92 @@
+[
+  {
+    "column": "G",
+    "cells": [
+      "G2"
+    ],
+    "meaning": "nivaa",
+    "references": [
+      {
+        "key": [
+          "1",
+          "1"
+        ],
+        "amount_kr": "14768000",
+        "pointers": [
+          {
+            "source_sha256": "09fca3a509d9b2d342187fee691b5faf378373fe25992538c8f6735cbe194bd8",
+            "xpath": "/html/body/main/div/div[3]/div[3]/div/div[1]/div/div[1]/table/tbody/tr[4]",
+            "short_evidence": "1 Apanasje 14 768 000"
+          }
+        ],
+        "scope": {
+          "budget_year": 2024,
+          "unit": "NOK",
+          "candidate_multiplier": "1",
+          "figure_type": "regjeringsforslag",
+          "stage": "opprinnelig",
+          "meaning": "nivaa",
+          "period": "budsjettåret",
+          "detail_level": "post",
+          "budget_side": "begge",
+          "reference_basis": "observert_kildefelt"
+        },
+        "source_budget_year": 2024
+      }
+    ],
+    "sources": [
+      {
+        "sha256": "09fca3a509d9b2d342187fee691b5faf378373fe25992538c8f6735cbe194bd8",
+        "bytes": 998471,
+        "url": "https://www.regjeringen.no/no/dokumenter/prop.-1-s-gul-bok-20232024/id2998593/?ch=10",
+        "retrieved_date": "2026-10-21",
+        "kind": "offentlig regjeringsforslag; lokalt bevart original HTML"
+      }
+    ]
+  },
+  {
+    "column": "I",
+    "cells": [
+      "I70"
+    ],
+    "meaning": "endring",
+    "references": [
+      {
+        "key": [
+          "151",
+          "70"
+        ],
+        "amount_kr": "-20000000",
+        "pointers": [
+          {
+            "source_sha256": "94cb91928eb173665de6111d13de6562b663fad8a4eddcdd01daab7b7fdf4594",
+            "xpath": "/html/body/main/div/div[3]/div[3]/div[33]/p",
+            "short_evidence": "Bevilgningen på posten foreslås redusert med 20 mill. kroner til inndekning"
+          }
+        ],
+        "scope": {
+          "budget_year": 2024,
+          "unit": "NOK",
+          "candidate_multiplier": "1",
+          "figure_type": "regjeringsforslag",
+          "stage": "rnb",
+          "meaning": "endring",
+          "period": "rnb",
+          "detail_level": "post",
+          "budget_side": "begge",
+          "reference_basis": "observert_kildefelt"
+        },
+        "source_budget_year": 2024
+      }
+    ],
+    "sources": [
+      {
+        "sha256": "94cb91928eb173665de6111d13de6562b663fad8a4eddcdd01daab7b7fdf4594",
+        "bytes": 1014253,
+        "url": "https://www.regjeringen.no/no/dokumenter/prop.-104-s-20232024/id3039096/?ch=2",
+        "retrieved_date": "2026-10-21",
+        "kind": "offentlig regjeringsforslag; lokalt bevart original HTML"
+      }
+    ]
+  }
+]
