@@ -332,6 +332,37 @@ def latest_decision(database: Path, observation_id: str) -> DecisionView | None:
     return read_decision(database, latest.id) if latest else None
 
 
+def read_decisions(database: Path, identifiers: tuple[str, ...]) -> tuple[DecisionView, ...]:
+    """Les eksakte valgte avgjørelser med delt kilde-/aktiveringskontekst.
+
+    Batchlesing velger ingen ny avgjørelse og endrer ingen godkjenning. Nyere
+    avgjørelser sperrer fortsatt den valgte, også når kildeinnholdet vender tilbake.
+    """
+    if len(set(identifiers)) != len(identifiers):
+        raise ValueError("Velg ulike avgjørelses-ID-er")
+    if not identifiers:
+        return ()
+    result: list[DecisionView] = []
+    with reading(database) as connection:
+        contexts: ContextCache = {}
+        for identifier in identifiers:
+            row = connection.execute(
+                "SELECT content FROM professional_decisions WHERE id=?", (identifier,)
+            ).fetchone()
+            if row is None:
+                raise ValueError("Ukjent faglig avgjørelse")
+            decision = ProfessionalDecision(**json.loads(row[0]))
+            freshness, source = _freshness(
+                connection, database, json.loads(decision.target_json), contexts
+            )
+            latest = _latest(connection, decision.observation_id)
+            newer = latest.id if latest and latest.id != identifier else None
+            result.append(
+                DecisionView(decision, "utdatert" if newer else freshness, encode(source), newer)
+            )
+    return tuple(result)
+
+
 def _latest_view(
     connection: sqlite3.Connection, database: Path, observation_id: str, contexts: ContextCache
 ) -> DecisionView | None:

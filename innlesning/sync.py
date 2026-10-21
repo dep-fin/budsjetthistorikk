@@ -139,6 +139,32 @@ class RevisionReport:
     controls: list[ControlReference] = datafield(default_factory=list)
 
 
+@dataclass(frozen=True)
+class InventoryContext:
+    dataset: str
+    session: str
+    decision_id: str
+    selected_revision_ids: tuple[str, ...]
+    selected_job_ids: tuple[str, ...]
+    missing_job_ids: tuple[str, ...]
+    current_revision_id: str
+    generation: int
+    current_observation_id: str
+    latest_attempt_id: str
+    latest_attempt_status: str
+    observation_status: str
+    latest_attempt_errors: tuple[str, ...]
+    latest_attempt_source_sha256: str
+    latest_attempt_scope: str
+
+
+@dataclass(frozen=True)
+class InventorySnapshot:
+    jobs: tuple[SyncReport, ...]
+    contexts: tuple[InventoryContext, ...]
+    assessed_utc: str
+
+
 def _now() -> str:
     return datetime.now(UTC).isoformat()
 
@@ -527,24 +553,28 @@ def read_sync(database: Path, job_id: str) -> SyncReport:
         job = connection.execute("SELECT * FROM sync_jobs WHERE job_id=?", (job_id,)).fetchone()
         if job is None:
             raise ValueError(f"Ukjent synkroniseringsjobb: {job_id}")
-        entries = [
-            SyncEntry(
-                row["decision_id"],
-                row["revision_id"],
-                row["previous_revision_id"],
-                row["classification"],
-                row["extraction_status"],
-                json.loads(row["controls_json"]),
-            )
-            for row in connection.execute(
-                "SELECT decision_id, revision_id, previous_revision_id, classification, "
-                "extraction_status, controls_json "
-                "FROM sync_entries WHERE job_id=? ORDER BY decision_id",
-                (job_id,),
-            )
-        ]
+        return _read_sync_in(connection, job)
+
+
+def _read_sync_in(connection: sqlite3.Connection, job: sqlite3.Row) -> SyncReport:
+    entries = [
+        SyncEntry(
+            row["decision_id"],
+            row["revision_id"],
+            row["previous_revision_id"],
+            row["classification"],
+            row["extraction_status"],
+            json.loads(row["controls_json"]),
+        )
+        for row in connection.execute(
+            "SELECT decision_id, revision_id, previous_revision_id, classification, "
+            "extraction_status, controls_json "
+            "FROM sync_entries WHERE job_id=? ORDER BY decision_id",
+            (job["job_id"],),
+        )
+    ]
     return SyncReport(
-        job_id,
+        job["job_id"],
         job["dataset"],
         job["session"],
         job["scope"],
@@ -559,6 +589,77 @@ def read_sync(database: Path, job_id: str) -> SyncReport:
         fingerprint_version=job["fingerprint_version"],
         parser_version=job["parser_version"],
     )
+
+
+def read_inventory(database: Path, job_ids: tuple[str, ...]) -> InventorySnapshot:
+    """Les valgte inventarer, kjente ID-er og forsøkskontekst i ett SQLite-snapshot.
+
+    Ingen siste jobb velges som inventar. Kjente ID-er utenfor det valgte grunnlaget
+    eksponeres uttrykkelig, også ved valgt, feilet eller ventende inventarjobb.
+    """
+    if not job_ids or len(set(job_ids)) != len(job_ids):
+        raise ValueError("Velg ulike eksplisitte inventarjobber")
+    with _connect(database, readonly=True) as connection:
+        connection.execute("BEGIN")
+        jobs: list[SyncReport] = []
+        for identifier in job_ids:
+            job = connection.execute(
+                "SELECT * FROM sync_jobs WHERE job_id=?", (identifier,)
+            ).fetchone()
+            if job is None:
+                raise ValueError(f"Ukjent synkroniseringsjobb: {identifier}")
+            jobs.append(_read_sync_in(connection, job))
+        contexts: list[InventoryContext] = []
+        for dataset, session in sorted({(j.dataset, j.session) for j in jobs}):
+            latest = connection.execute(
+                "SELECT * FROM sync_jobs WHERE dataset=? AND session=? "
+                "ORDER BY sequence DESC LIMIT 1",
+                (dataset, session),
+            ).fetchone()
+            for head in connection.execute(
+                "SELECT * FROM decision_heads WHERE dataset=? AND session=? ORDER BY decision_id",
+                (dataset, session),
+            ):
+                selected = [
+                    (j, e)
+                    for j in jobs
+                    if (j.dataset, j.session) == (dataset, session)
+                    for e in j.entries
+                    if e.decision_id == head["decision_id"]
+                ]
+                last = connection.execute(
+                    "SELECT classification FROM sync_entries WHERE job_id=? AND decision_id=?",
+                    (latest["job_id"], head["decision_id"]),
+                ).fetchone()
+                observation_status = (
+                    "siste forsøk ikke fullført"
+                    if latest["status"] != "fullfort"
+                    else "ikke omfattet av siste valgte observasjon"
+                    if last is None
+                    else "mangler i siste fulle svar"
+                    if last[0] == "mangler"
+                    else "observert"
+                )
+                contexts.append(
+                    InventoryContext(
+                        dataset,
+                        session,
+                        head["decision_id"],
+                        tuple(sorted({e.revision_id for _, e in selected})),
+                        tuple(j.job_id for j, _ in selected),
+                        tuple(j.job_id for j, e in selected if e.classification == "mangler"),
+                        head["revision_id"],
+                        head["generation"],
+                        head["job_id"],
+                        latest["job_id"],
+                        latest["status"],
+                        observation_status,
+                        tuple(json.loads(latest["result_json"] or "[]")),
+                        latest["source_sha256"],
+                        latest["scope"],
+                    )
+                )
+        return InventorySnapshot(tuple(jobs), tuple(contexts), _now())
 
 
 def read_revision(database: Path, revision_id: str) -> RevisionReport:

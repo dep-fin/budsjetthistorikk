@@ -31,3 +31,9 @@ Eksporten henter aldri nett eller velger en nyere revisjon automatisk. B1-kjøri
 ## B4: selvstendig uttrekk og fulltekst
 
 `export_extraction_excel(database, extraction_id, output)` og `--belopsuttrekk` viser hele uttrekket uten å kreve en bevilgningskjede. Observasjoner, cellepekere, hierarki, organisasjonskilde/gyldighet, avvik og full B2-tekst følger med, også ved null beløpsobservasjoner. Tekstopplysninger klassifiseres til kontroll uten normaliserte beløp. Historikkeksporten inkluderer også fulltekst for alle valgte revisjoner. Lange felt videreføres i 30 000-tegnsbiter. Kildetekst er formelsikret, og lagring er atomisk. Post- og underpostutvalg er fortsatt gjensidig utelukkende. Se [B4-kontrakten](../docs/datakontrakt.md#b4--særtilfeller-med-eksplisitt-tolkning-v2).
+
+## B6: samlet sesjon med global dekning
+
+`python -m analyse --database <SQLite-fil> --sesjonsutvalg <JSON-fil> --excel <ny-fil.xlsx>` sammenstiller valgte lagrede inventarjobber, tolkninger, B5-resultater og eventuelle beregninger uten nye kilder eller godkjenninger. Departement/fdep, kapittel og post kan kombineres; uavklarte treff og hele kildeinventaret forblir synlige. Hovedsesjon og supplerende kilder fra andre sesjoner har egen dekning.
+
+Excel viser kronologisk historikk, rå/korrigerte/historiske effektive/gjeldende godkjente enkeltverdier, B5-bindinger, separate summer, avstemming, kilder og fulltekst. Manglende kontroll vises som ikke utført. Eksporten leser faktiske beløpsceller tilbake og avstemmer dem før atomisk publisering uten å overskrive eksisterende filer. Python-grensene er `SessionSelection`, `build_session_report` og `export_session_excel`. Se [JSON-veiledning og kontrollmodell](../docs/b6-sesjonsuttrekk.md).

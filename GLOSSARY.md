@@ -105,3 +105,13 @@ En monoton registrering av uttrykkelig endring i valgt uttrekk/tolkning, registe
 
 **Effektiv kontrollert verdi**:
 En separat kroneverdi som en gjeldende faglig avgjørelse tillater for angitt bruk. Den kan være den rå normaliserte verdien eller en uttrykkelig kildebegrunnet korreksjon. Råobservasjonen og dens avvik beholdes uendret.
+
+**Sesjonsuttrekk**:
+En datert sammenstilling av uttrykkelig valgte kildeinventarer, tolkninger, faglige kontrollresultater og eventuelle historikkberegninger for en stortingssesjon. Inngående grunnlag fra andre sesjoner er et eksplisitt supplement med separat dekning.
+_Unngå_: Fullstendig budsjettår eller ny faglig godkjenning som synonym.
+
+**Dekningsrapport**:
+En oversikt som skiller bevart kildeinnhold, strukturert innhold og gjeldende faglig godkjente analysetall. Alle inventar-ID-er og avvik inngår selv om et beløpsfilter velges. Full kildebevaring betyr ikke at alle bevilgninger er faglig avklart.
+
+**Avstemmingsomfang**:
+Det uttrykkelige budsjettåret, perioden, beløpsbegrepet, detaljeringsnivået, enheten og kontoutvalget som gjør to beløpsgrunnlag sammenlignbare. Årets bevilgning, samlet tilgjengelig bevilgning og regnskapsutfall er ulike omfang. Manglende rad og observert null er forskjellige opplysninger.

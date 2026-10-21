@@ -5,6 +5,8 @@ from .excel import export_excel, export_revision_excel
 from .extraction_excel import export_extraction_excel
 from .history import HistorySelection, calculate_history, read_history
 from .history_excel import export_history_excel
+from .session import SessionSelection, build_session_report, selection_from_dict
+from .session_excel import export_session_excel
 
 __all__ = [
     "export_excel",
@@ -17,4 +19,8 @@ __all__ = [
     "reprocess_controlled",
     "read_controlled",
     "export_controlled_excel",
+    "SessionSelection",
+    "build_session_report",
+    "selection_from_dict",
+    "export_session_excel",
 ]
