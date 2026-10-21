@@ -37,7 +37,7 @@ Historikken skal vise hvert forslag, vedtak og endring gjennom året, frem til r
 
 ## Status
 
-Kildeundersøkelsen #2 er levert i PR #11. Python, SQLite og openpyxl er godkjent for lokal innlesning. B1 (#4) gir ett opprinnelig vedtak fra kilde til SQLite og Excel. B2 (#5) legger til kildeinventar, kildeobservasjoner, innholdsrevisjoner og gjenopptak. B3 (#6) har en egen adapter og beregner historikk for uttrykkelig valgte revisjoner/tolkninger, konto og år. B1/B2s lagrede resultater og parserbredde beholdes. Daglig kjøring og samlet sesjonseksport kommer i senere tickets. Mottakersystem og driftsplattform er åpne; Azure tas opp igjen før valget blir styrende.
+Kildeundersøkelsen #2 er levert i PR #11. Python, SQLite og openpyxl er godkjent for lokal innlesning. B1 (#4) gir ett opprinnelig vedtak fra kilde til SQLite og Excel. B2 (#5) legger til kildeinventar, kildeobservasjoner, innholdsrevisjoner og gjenopptak. B3 (#6) beregner valgt historikk, B4 (#7) håndterer dokumenterte særtilfeller, og B5 (#8) gir register-/kontrollarbeidsfiler og faglige avgjørelser. B6 (#9) gir [samlet sesjonseksport med filtre og dekningsrapport](docs/b6-sesjonsuttrekk.md). Tidligere API-er, standarder og immutable resultater beholdes. Daglig kjøring gjenstår i B7. Mottakersystem og driftsplattform er åpne; Azure tas opp igjen før valget blir styrende.
 
 ## Kjør B1 lokalt
 

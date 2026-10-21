@@ -4,4 +4,13 @@ tests/fixtures/b3/*.xml -text whitespace=-blank-at-eol,cr-at-eol
 tests/fixtures/b3/*.json text eol=lf
 tests/fixtures/b5/*.xml -text whitespace=-blank-at-eol,cr-at-eol
 tests/fixtures/b5/*.json text eol=lf
+tests/fixtures/b6/*.xml -text whitespace=-blank-at-eol,cr-at-eol
+tests/fixtures/b6/*.json text eol=lf
 tests/fixtures/*.metadata.json text eol=lf
+# B6 avstemmer disse bevarte forskningsartefaktene med eksakt SHA-256.
+docs/research/issue-2/aar/dfo2024.csv -text
+docs/research/issue-2/statsrekneskap2024-posts.csv -text
+docs/research/issue-2/aar/blaabok_posts.json -text
+docs/research/issue-2/aar/api_events.csv -text
+docs/research/issue-2/aar/session_inventory.csv -text
+docs/research/issue-2/aar/scope_residual_ledger.json -text

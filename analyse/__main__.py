@@ -19,11 +19,31 @@ def main() -> int:
     selection.add_argument("--utvalg", type=Path, help="JSON med eksplisitt B3-utvalg")
     selection.add_argument("--beregning", help="Eksakt lagret B3-beregning")
     selection.add_argument("--belopsuttrekk", help="Hele valgte beløpsuttrekk, også uten beløp")
+    selection.add_argument(
+        "--sesjonsutvalg", type=Path, help="JSON med eksplisitt samlet sesjonsutvalg"
+    )
     parser.add_argument("--excel", type=Path, required=True)
     arguments = parser.parse_args()
     try:
         calculation_id: str | None = None
-        if arguments.utvalg:
+        session_result = None
+        if arguments.sesjonsutvalg:
+            from .session import selection_from_dict
+            from .session_excel import export_session_excel
+
+            path = arguments.sesjonsutvalg
+            if path.stat().st_size > 8 * 1024 * 1024:
+                raise ValueError("Sesjonsutvalget overstiger 8 MiB")
+            data = json.loads(path.read_text(encoding="utf-8-sig"))
+            if not isinstance(data, dict):
+                raise ValueError("Sesjonsutvalget må være et JSON-objekt")
+            controls = data.get("preserved_2024_controls")
+            if isinstance(controls, str) and not Path(controls).is_absolute():
+                data["preserved_2024_controls"] = str((path.parent / controls).resolve())
+            session_result = export_session_excel(
+                arguments.database, selection_from_dict(data), arguments.excel, input_path=path
+            )
+        elif arguments.utvalg:
             paths = [
                 arguments.database.resolve(),
                 arguments.excel.resolve(),
@@ -52,6 +72,14 @@ def main() -> int:
         print(json.dumps({"status": "eksportfeil", "feil": str(error)}))
         return 1
     result = {"status": "eksportert", "fil": str(arguments.excel)}
+    if session_result is not None:
+        result.update(
+            sesjonsrapport=session_result.id,
+            inventar=str(len(session_result.inventory)),
+            observasjoner=str(len(session_result.rows)),
+            avstemming="utført" if session_result.reconciliations else "ikke utført",
+            dekningsgrense=session_result.coverage.boundary,
+        )
     if calculation_id is not None:
         calculation = read_history(arguments.database, calculation_id)
         result.update(
