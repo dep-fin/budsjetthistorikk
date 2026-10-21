@@ -79,3 +79,11 @@ Gjenstående tekniske avklaringer:
 - Konkret Windows-vert, driftskonto, lokal lagrings-/rapportbane, eksisterende bakgrunnstilgang og faktisk driftsaksept. Endelig mottakersystem for felles bruk er fortsatt åpent.
 
 Tekniske fakta undersøkes av agenten. Brukeren avgjør behov, prioriteringer og faglig aksept.
+
+## Presisering 21. oktober 2026: nye kilder og historisk pilot
+
+Nye offisielle tall skal kunne oppdages, bevares, tolkes, lagres og eksporteres fra sin egen nye offisielle kilde uten historiske Excel-filer, eldre beløp, Excel-startsaldo, historisk register eller en vellykket historisk import. Manglende historisk inngående grunnlag skal gi et synlig analyseavvik når en beregning trenger dette, og skal ikke blokkere innlesning av det nye vedtaket eller gi en oppdiktet nullstart. Dette skal ha en uttrykkelig regresjonsprøve, også ved fraværende, korrupt eller motstridende historisk kilde.
+
+Den historiske modellen skal bevare kilden og betydningen uten å gjøre arbeidsbøkenes kolonner eller dagens API-form styrende for nye kilder. Et bedre felles format kan foreslås og versjoneres ved dokumentert behov, med uttrykkelig kompatibilitetsbeskrivelse. Dagens besluttede observasjonsformat, leverte API-er, ID-er og standardvalg gjelder frem til en slik utvidelse er besluttet. Eksisterende parser-, format- og skjemaidentiteter skal beholde sin betydning. Ingen migrering eller kodebygging følger av bestillingen om en plan.
+
+[Pilotplanen under #13](pilotplan-historisk-excel.md) anbefaler 2024 som én lokal leveranse fra original til historiske observasjoner, lagring, Excel/avviksrapport og uavhengig sammenligning. Årsvalget støttes av den [utførte, avgrensede Excel-/Storting-prøven](research/historisk-excel/pilotkontroll.md). Full historisk filadapter, pilotimport og årsavstemming gjenstår. Uavklarte enheter, kolonnefortolkninger og organisasjonskoblinger blokkerer faglig bruk av berørte verdier; råbevaring, observasjonslagring og kontrolluttrekk kan bygges med synlige avvik. Konkret byggemandat gjenstår. Utsatt driftsaksept i #10 er fortsatt åpen og blokkerer ikke den lokale historikkpiloten.

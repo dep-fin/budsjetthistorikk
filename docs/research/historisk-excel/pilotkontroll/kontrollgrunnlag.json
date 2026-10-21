@@ -1,0 +1,470 @@
+{
+  "kontrolldato_utc": "2026-10-21T14:42:01.444590+00:00",
+  "kodebase_commit": "ae80c6a594f33bd83d63feea2d1f26a59b341185",
+  "scope": "Avgrenset 2024: fem opprinnelige og sju endringsobjekter. Ingen helårsavstemming Excel–API.",
+  "workbook": {
+    "git_revision": "da720e9dd4ebfff31d88c14488c5f3217d045786",
+    "path": "data/historisk/original/2024_samlet_inputdata.xlsx",
+    "sha256": "870d30d55b4f7f6791fe48ea2a15aa3e98d61946393385d0411e46a0169f60f3",
+    "bytes": 257569,
+    "sheets": {
+      "Rådata": {
+        "rows_excluding_header": 1871,
+        "columns": 14
+      },
+      "Dokumentiltknyntning2024": {
+        "rows_excluding_header": 1371,
+        "columns": 15
+      }
+    },
+    "workbook_modified": false
+  },
+  "adapter": "storting-belop-v2",
+  "adapter_interpretation_id": "0cfb813792c1b5a607981719de27024fe2608fba6504bd9df4f4eb812f87cc4f",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "openpyxl": "3.1.5",
+  "fixture_dataset": "prove (eksisterende B2-krav ved historisk fixture-replay, ikke datasetvalg for Excel-adapter)",
+  "excel_adapter_dataset_required": "historisk",
+  "sources": [
+    {
+      "id": "40032763",
+      "fixture": "tests/fixtures/b4/40032763.xml",
+      "sha256": "4d5bf0b00dfe40dd73c543bb84b2be6a5bb2fe04e0b0bef08f9641902f907ff5",
+      "bytes": 85042,
+      "parent_sha256": "554e9960c3e90932594106463cca9c285abb53e9272c1ae391d6fb8093baf0bf",
+      "parent_bytes": 6816165,
+      "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2023-2024",
+      "retrieved_utc": "2026-10-20T11:35:51+00:00",
+      "revision_id": "714ae2e9-2f82-4596-b3f0-89e2780fc311",
+      "interpretation_id": "0cfb813792c1b5a607981719de27024fe2608fba6504bd9df4f4eb812f87cc4f",
+      "extraction_id": "d6b960f2c90a1c7eae3b279d004e7e7cfe03e9fa260efbd8fb37ecb8be6a7783",
+      "count": 74,
+      "meaning_count": {
+        "nivaa|post": 70,
+        "nivaa|underpost": 4
+      },
+      "anomalies": {
+        "mangler_organisasjonsoppslag": 74
+      },
+      "replay_exact": true
+    },
+    {
+      "id": "40032791",
+      "fixture": "tests/fixtures/b4/40032791.xml",
+      "sha256": "96a287159014126a824b61dd3891eb54d5615fbbe2d5078a7077f79e545cae2a",
+      "bytes": 140459,
+      "parent_sha256": "554e9960c3e90932594106463cca9c285abb53e9272c1ae391d6fb8093baf0bf",
+      "parent_bytes": 6816165,
+      "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2023-2024",
+      "retrieved_utc": "2026-10-20T11:35:51+00:00",
+      "revision_id": "b472e8d5-5952-48ad-9ca6-6ea773cc449f",
+      "interpretation_id": "0cfb813792c1b5a607981719de27024fe2608fba6504bd9df4f4eb812f87cc4f",
+      "extraction_id": "76f7e867a8a15f59f9c0b4cc83c35263c0aef0dd84464ff7ea08f4a3ce560fc3",
+      "count": 114,
+      "meaning_count": {
+        "nivaa|post": 112,
+        "nivaa|underpost": 2
+      },
+      "anomalies": {
+        "mangler_organisasjonsoppslag": 114
+      },
+      "replay_exact": true
+    },
+    {
+      "id": "40032850",
+      "fixture": "tests/fixtures/b3/40032850.xml",
+      "sha256": "e3a67be880410086a86e5bec8a60c7cd1287971c01c2aa8d669db6cc404f9521",
+      "bytes": 152289,
+      "parent_sha256": "554e9960c3e90932594106463cca9c285abb53e9272c1ae391d6fb8093baf0bf",
+      "parent_bytes": 6816165,
+      "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2023-2024",
+      "retrieved_utc": "2026-10-20T11:35:51+00:00",
+      "revision_id": "23e02025-e342-43c3-bc3c-fcaa626fe9d2",
+      "interpretation_id": "0cfb813792c1b5a607981719de27024fe2608fba6504bd9df4f4eb812f87cc4f",
+      "extraction_id": "fe9a9f4e0e8bf00b17d29b2a8f047bbd669cf7b9e0474059503568b67dce4118",
+      "count": 124,
+      "meaning_count": {
+        "nivaa|post": 118,
+        "nivaa|underpost": 6
+      },
+      "anomalies": {
+        "mangler_organisasjonsoppslag": 124
+      },
+      "replay_exact": true
+    },
+    {
+      "id": "40032976",
+      "fixture": "tests/fixtures/b4/40032976.xml",
+      "sha256": "4c41b5647e65330e938d7bca93582900120c91753744892c826b53e57ddb3c0f",
+      "bytes": 54806,
+      "parent_sha256": "554e9960c3e90932594106463cca9c285abb53e9272c1ae391d6fb8093baf0bf",
+      "parent_bytes": 6816165,
+      "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2023-2024",
+      "retrieved_utc": "2026-10-20T11:35:51+00:00",
+      "revision_id": "8c61ca62-2205-48e5-9b1b-65cb6cb8db99",
+      "interpretation_id": "0cfb813792c1b5a607981719de27024fe2608fba6504bd9df4f4eb812f87cc4f",
+      "extraction_id": "12cc7204dfb95f67dd6ac6ea496766b28ec41e7d7c698f259a714bfa168b291a",
+      "count": 49,
+      "meaning_count": {
+        "nivaa|post": 44,
+        "nivaa|underpost": 5
+      },
+      "anomalies": {
+        "mangler_organisasjonsoppslag": 49
+      },
+      "replay_exact": true
+    },
+    {
+      "id": "40033025",
+      "fixture": "tests/fixtures/b3/40033025.xml",
+      "sha256": "601cc054db0f79ce3c2bf8c16c6dde1f1e1edd82bb30a627c3e10e03a898a73f",
+      "bytes": 49870,
+      "parent_sha256": "554e9960c3e90932594106463cca9c285abb53e9272c1ae391d6fb8093baf0bf",
+      "parent_bytes": 6816165,
+      "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2023-2024",
+      "retrieved_utc": "2026-10-20T11:35:51+00:00",
+      "revision_id": "7dfd9031-c2a9-4703-9541-2e86e84bf2ce",
+      "interpretation_id": "0cfb813792c1b5a607981719de27024fe2608fba6504bd9df4f4eb812f87cc4f",
+      "extraction_id": "8d0558d4becc74bb9194bfbd3a5fc0810716bfdc4f460b2f7131ed719209ed6d",
+      "count": 31,
+      "meaning_count": {
+        "nivaa|post": 31
+      },
+      "anomalies": {
+        "mangler_organisasjonsoppslag": 31
+      },
+      "replay_exact": true
+    },
+    {
+      "id": "40033719",
+      "fixture": "tests/fixtures/b3/40033719.xml",
+      "sha256": "4113b987c8f939256d30ef6a4401cda358d9da90b5af19cbbbc37d0ec9d312b0",
+      "bytes": 1265833,
+      "parent_sha256": "554e9960c3e90932594106463cca9c285abb53e9272c1ae391d6fb8093baf0bf",
+      "parent_bytes": 6816165,
+      "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2023-2024",
+      "retrieved_utc": "2026-10-20T11:35:51+00:00",
+      "revision_id": "c47a3fba-5f9d-4dcb-8d99-a855b71645b1",
+      "interpretation_id": "0cfb813792c1b5a607981719de27024fe2608fba6504bd9df4f4eb812f87cc4f",
+      "extraction_id": "a1221598ef83806603d2a4da451c61871b68cecaa20ede1ad60f0f18d8853c87",
+      "count": 1732,
+      "meaning_count": {
+        "endring|post": 601,
+        "for_belop|post": 562,
+        "etter_belop|post": 563,
+        "uavklart|post": 1,
+        "etter_belop|underpost": 5
+      },
+      "anomalies": {
+        "mangler_organisasjonsoppslag": 1732
+      },
+      "replay_exact": true
+    },
+    {
+      "id": "40033805",
+      "fixture": "tests/fixtures/b3/40033805.xml",
+      "sha256": "fabac44b233c1f15f682aab05778e9670f4b39fed459597b9726b222b116c244",
+      "bytes": 5164,
+      "parent_sha256": "9cfeaef59510a54ff8b2a695e0be368e67cfbab574f8d3f466c0c2f0c3c92680",
+      "parent_bytes": 7479943,
+      "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2024-2025",
+      "retrieved_utc": "2026-10-20T11:36:10+00:00",
+      "revision_id": "ab6c9bc6-3c0f-446f-b31d-3a503fea270e",
+      "interpretation_id": "0cfb813792c1b5a607981719de27024fe2608fba6504bd9df4f4eb812f87cc4f",
+      "extraction_id": "b09d646e4bd14e68e4ac8fbce46361cf4aa7ea84055c6fb49efc1d1e7632b416",
+      "count": 3,
+      "meaning_count": {
+        "endring|post": 1,
+        "for_belop|post": 1,
+        "etter_belop|post": 1
+      },
+      "anomalies": {
+        "mangler_organisasjonsoppslag": 3
+      },
+      "replay_exact": true
+    },
+    {
+      "id": "40034064",
+      "fixture": "tests/fixtures/b3/40034064.xml",
+      "sha256": "70c479d20adacb289be68813094b71c9207af42f19daf7d582b681fd23ab77ea",
+      "bytes": 138427,
+      "parent_sha256": "9cfeaef59510a54ff8b2a695e0be368e67cfbab574f8d3f466c0c2f0c3c92680",
+      "parent_bytes": 7479943,
+      "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2024-2025",
+      "retrieved_utc": "2026-10-20T11:36:10+00:00",
+      "revision_id": "9f623ac5-719a-4956-a7e4-4c276e8002af",
+      "interpretation_id": "0cfb813792c1b5a607981719de27024fe2608fba6504bd9df4f4eb812f87cc4f",
+      "extraction_id": "29d5a4cde665d0d5ba1ecf32f39e636a6a03499acf5aa734561a10611e9587a7",
+      "count": 214,
+      "meaning_count": {
+        "endring|post": 69,
+        "for_belop|post": 69,
+        "etter_belop|post": 70,
+        "etter_belop|underpost": 6
+      },
+      "anomalies": {
+        "mangler_organisasjonsoppslag": 214
+      },
+      "replay_exact": true
+    },
+    {
+      "id": "40034226",
+      "fixture": "tests/fixtures/b3/40034226.xml",
+      "sha256": "9308854a2ccb877f04bbbf853f8dd99f1e09d4e476369f7ed24fa03d508c5c83",
+      "bytes": 44074,
+      "parent_sha256": "9cfeaef59510a54ff8b2a695e0be368e67cfbab574f8d3f466c0c2f0c3c92680",
+      "parent_bytes": 7479943,
+      "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2024-2025",
+      "retrieved_utc": "2026-10-20T11:36:10+00:00",
+      "revision_id": "d4a992ae-9ee9-4507-965a-1b0debbc9b2a",
+      "interpretation_id": "0cfb813792c1b5a607981719de27024fe2608fba6504bd9df4f4eb812f87cc4f",
+      "extraction_id": "be980be4345fb41c89b841424aa94c13faac7816ee39f2da949b67b1378a0b1a",
+      "count": 60,
+      "meaning_count": {
+        "endring|post": 18,
+        "for_belop|post": 18,
+        "etter_belop|post": 19,
+        "etter_belop|underpost": 5
+      },
+      "anomalies": {
+        "mangler_organisasjonsoppslag": 60,
+        "uklassifisert_rad": 1
+      },
+      "replay_exact": true
+    },
+    {
+      "id": "40034287",
+      "fixture": "tests/fixtures/b3/40034287.xml",
+      "sha256": "c72e65a2fc79226e6375a79d56712d1bbc61771efc7b2697264aad1206ed7c81",
+      "bytes": 174053,
+      "parent_sha256": "9cfeaef59510a54ff8b2a695e0be368e67cfbab574f8d3f466c0c2f0c3c92680",
+      "parent_bytes": 7479943,
+      "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2024-2025",
+      "retrieved_utc": "2026-10-20T11:36:10+00:00",
+      "revision_id": "5e425b50-5288-4fcc-bd2c-cf024415ca86",
+      "interpretation_id": "0cfb813792c1b5a607981719de27024fe2608fba6504bd9df4f4eb812f87cc4f",
+      "extraction_id": "f0b24e1e4b4eb4033217f87403a16577bc10aa2f2ecefb32b2eca3e663fec8ee",
+      "count": 265,
+      "meaning_count": {
+        "endring|post": 93,
+        "for_belop|post": 86,
+        "etter_belop|post": 86
+      },
+      "anomalies": {
+        "mangler_organisasjonsoppslag": 265
+      },
+      "replay_exact": true
+    },
+    {
+      "id": "40034048",
+      "fixture": "tests/fixtures/b6/40034048.xml",
+      "sha256": "2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850",
+      "bytes": 6058,
+      "parent_sha256": "9cfeaef59510a54ff8b2a695e0be368e67cfbab574f8d3f466c0c2f0c3c92680",
+      "parent_bytes": 7479943,
+      "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2024-2025",
+      "retrieved_utc": "2026-10-20T11:36:10+00:00",
+      "revision_id": "1dc22432-44bd-43d4-b0e9-8344ee12dbeb",
+      "interpretation_id": "0cfb813792c1b5a607981719de27024fe2608fba6504bd9df4f4eb812f87cc4f",
+      "extraction_id": "8d597a03f43803c7756df4a7aaf89d9ce46c13aa17fdb880eb792af2ab060c1a",
+      "count": 6,
+      "meaning_count": {
+        "endring|post": 2,
+        "for_belop|post": 2,
+        "etter_belop|post": 2
+      },
+      "anomalies": {
+        "mangler_organisasjonsoppslag": 6
+      },
+      "replay_exact": true
+    },
+    {
+      "id": "40034229",
+      "fixture": "tests/fixtures/b6/40034229.xml",
+      "sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+      "bytes": 133283,
+      "parent_sha256": "9cfeaef59510a54ff8b2a695e0be368e67cfbab574f8d3f466c0c2f0c3c92680",
+      "parent_bytes": 7479943,
+      "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2024-2025",
+      "retrieved_utc": "2026-10-20T11:36:10+00:00",
+      "revision_id": "b25887bc-c928-4dc4-af3b-01976c74c295",
+      "interpretation_id": "0cfb813792c1b5a607981719de27024fe2608fba6504bd9df4f4eb812f87cc4f",
+      "extraction_id": "97a5386036cf1a5b3b2cd052c7c58a4d911a595b357f982859f1cf4bb5b4dbbd",
+      "count": 222,
+      "meaning_count": {
+        "endring|post": 74,
+        "for_belop|post": 74,
+        "etter_belop|post": 74
+      },
+      "anomalies": {
+        "mangler_organisasjonsoppslag": 222
+      },
+      "replay_exact": true
+    }
+  ],
+  "source_group_mapping": {
+    "40033719": "i447/23-24",
+    "40033805": "i25/24-25",
+    "40034064": "i99/24-25",
+    "40034226": "i93/24-25",
+    "40034287": "i90/24-25",
+    "40034048": "i81/24-25",
+    "40034229": "i94/24-25"
+  },
+  "code_and_research_inputs": [
+    {
+      "path": "innlesning/storting_v2.py",
+      "sha256": "b9c9f3d0993ce66236a591b07bffbed132668b899035c86e09b9f63b7b3821b3",
+      "bytes": 20725
+    },
+    {
+      "path": "innlesning/observations.py",
+      "sha256": "e18a86116fe811a091784a3705f82f4ff74bf884e28b6057f9144486c61390e7",
+      "bytes": 33683
+    },
+    {
+      "path": "innlesning/ingestion.py",
+      "sha256": "7ec8e4352d2ecc8c323ddb1d07cf4faec3ef7517af036cde5a04ddee27b51460",
+      "bytes": 10180
+    },
+    {
+      "path": "docs/research/issue-2/aar/api_events.csv",
+      "sha256": "ab9ef8abe7f1b508d54ca17e6f88209d061a6a6e2c8f312d5444894686642e31",
+      "bytes": 854328
+    },
+    {
+      "path": "docs/research/issue-2/aar/component_ledger.json",
+      "sha256": "3dbbed444d09c2df691bdda2ffdb20586d3cf721bfcc2c0dde4718eee3512dea",
+      "bytes": 4272
+    },
+    {
+      "path": "docs/research/issue-2/aar/description_inventory.csv",
+      "sha256": "3f267dddbd26434febd976c9a5b9940d40362d0fbedb567485857342871be56e",
+      "bytes": 3911
+    }
+  ],
+  "summary": {
+    "original_H": {
+      "api_candidates": 375,
+      "distinct_api_keys": 375,
+      "status_counts": {
+        "fractional_kr": 103,
+        "match": 271,
+        "missing_excel": 1
+      },
+      "multi_raw_rows": 36,
+      "excel_total_keys": 1693,
+      "excel_keys_without_selected_api": 1319
+    },
+    "i447/23-24": {
+      "api_delta_candidates": 601,
+      "excel_post0_candidates": 606,
+      "union_keys": 603,
+      "status_counts": {
+        "match": 600,
+        "missing_api": 2,
+        "missing_excel": 1
+      },
+      "excel_component_candidates": 5,
+      "multiple_excel_keys": 4,
+      "multiple_api_keys": 0
+    },
+    "i25/24-25": {
+      "api_delta_candidates": 1,
+      "excel_post0_candidates": 1,
+      "union_keys": 1,
+      "status_counts": {
+        "match": 1
+      },
+      "excel_component_candidates": 0,
+      "multiple_excel_keys": 0,
+      "multiple_api_keys": 0
+    },
+    "i99/24-25": {
+      "api_delta_candidates": 69,
+      "excel_post0_candidates": 69,
+      "union_keys": 69,
+      "status_counts": {
+        "match": 69
+      },
+      "excel_component_candidates": 3,
+      "multiple_excel_keys": 0,
+      "multiple_api_keys": 0
+    },
+    "i93/24-25": {
+      "api_delta_candidates": 18,
+      "excel_post0_candidates": 17,
+      "union_keys": 19,
+      "status_counts": {
+        "match": 16,
+        "missing_excel": 2,
+        "missing_api": 1
+      },
+      "excel_component_candidates": 4,
+      "multiple_excel_keys": 0,
+      "multiple_api_keys": 0
+    },
+    "i90/24-25": {
+      "api_delta_candidates": 93,
+      "excel_post0_candidates": 92,
+      "union_keys": 93,
+      "status_counts": {
+        "match": 92,
+        "missing_excel": 1
+      },
+      "excel_component_candidates": 0,
+      "multiple_excel_keys": 0,
+      "multiple_api_keys": 0
+    },
+    "i81/24-25": {
+      "api_delta_candidates": 2,
+      "excel_post0_candidates": 2,
+      "union_keys": 2,
+      "status_counts": {
+        "match": 2
+      },
+      "excel_component_candidates": 0,
+      "multiple_excel_keys": 0,
+      "multiple_api_keys": 0
+    },
+    "i94/24-25": {
+      "api_delta_candidates": 74,
+      "excel_post0_candidates": 74,
+      "union_keys": 74,
+      "status_counts": {
+        "match": 74
+      },
+      "excel_component_candidates": 0,
+      "multiple_excel_keys": 0,
+      "multiple_api_keys": 0
+    },
+    "fixture_observations": 2894,
+    "fixture_observation_fields": {
+      "nivaa|post": 375,
+      "nivaa|underpost": 17,
+      "endring|post": 858,
+      "for_belop|post": 812,
+      "etter_belop|post": 815,
+      "uavklart|post": 1,
+      "etter_belop|underpost": 16
+    },
+    "excel_raw_rows": 1871,
+    "excel_doc_rows": 1371,
+    "no_workbook_edit": true,
+    "full_year_excel_api_reconciliation_performed": false
+  },
+  "components": {
+    "match": 12,
+    "post_total_separate": 3,
+    "missing_excel_zero_delta": 4
+  },
+  "original_fractional_kr_max_absolute_distance_to_api": "0.000001",
+  "normalization": "Rå OOXML-<v> til Decimal; faktor 1000000 i H er prøvd, ingen avrunding. Dokument-D faktor 1.",
+  "mapping_not_professionally_approved": true,
+  "known_conflicts_preserved": [
+    "1860/1",
+    "4860/1",
+    "5999/90"
+  ],
+  "result_identity_note": "B2-revisjons-/uttrekks-/observasjons-ID-er er fra denne prøvedatabasen; ny database kan gi nye ID-er. Kildenes hash+vedtaks-ID+lokator er varig kontrollnøkkel."
+}

@@ -167,6 +167,14 @@ Den nye reproduksjonen av #2 beregnet 1 625 eksakte felles DFØ-/Løyving-poster
 
 Nye komplette, byteidentiske prøver for ANNET 40034048 og 40034229 bevarer alle 76 posthendelser uten standardinnledning. Forelderen er SHA-256 `9cfeaef59510a54ff8b2a695e0be368e67cfbab574f8d3f466c0c2f0c3c92680`; utdragenes SHA-256 er henholdsvis `2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850` og `66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9`. Nøyaktige byteposisjoner/proveniens følger [B6-fixturene](../tests/fixtures/b6/README.md). Dette er delvise enkeltvedtaksprøver, ingen fullsesjonsgaranti. Konsekvensen er fortsatt at type/innledningsfrase ikke kan brukes som inngangsfilter, og at uavklarte kilder må synes selv uten beløpsuttrekk.
 
+## Historisk Excel: avgrenset 2024-prøve og adaptergrenser
+
+**Kontrollert 21. oktober 2026:** [Tallprøven](research/historisk-excel/pilotkontroll.md) sammenligner den uendrede 2024-arbeidsboken ved `da720e9` (SHA-256 `870d30d55b4f7f6791fe48ea2a15aa3e98d61946393385d0411e46a0169f60f3`, 257 569 byte) med tolv allerede bevarte, autentiske enkeltvedtak gjennom uendret B2/SQLite og uttrykkelig Storting-v2. Alle 2 894 observasjoner er lest tilbake med identisk innhold; gjentakelse er idempotent. Rapportens manifest identifiserer foreldrebyte, fixtures, adapterhash, kilde-ID-er og lokatorer. Dette er et avgrenset utvalg uten årsdekningspåstand.
+
+Saldertprøvens 375 API-postnivåer gir 271 eksakte hele kronekandidater, 103 rå OOXML-presisjonsspor og manglende Excel-nøkkel 5999/90. Ingen avrunding godkjenner presisjonssporene. Sju senere vedtak gir 854 eksakte postdelta-kontroller og sju rester på unionen av valgte gruppenøkler. Råbeløpet 30 000 000 på 228/85 finnes i 40033719 `table[1]/tr[143]/td[5]`, men v2 klassifiserer det som uavklart. 40034226 `table[1]/tr[37]` har `(NY) 31` og 11 900 000 000 på 2440/31, men v2 lager ingen beløpsobservasjon. Fravær av sikkert delta og fravær av råtall er dermed ulike funn. Seksten avledede komponentdifferanser gir tolv eksakte Excel-treff og fire Excel-fravær ved beregnet 0; de er ingen nye observerte API-deltaer.
+
+**Konsekvens:** [pilotplanen under #13](pilotplan-historisk-excel.md) anbefaler 2024 med disse regresjonsankrene. Råbevaring og kontrolluttrekk kan bygges med uavklarte felt; generell kolonnesemantikk, presisjon og historisk organisasjon krever videre avklaring før faglig bruk. 1860/1, 4860/1 og 5999/90 forblir sperret. Nye offisielle kilder skal kunne leses inn uten historisk Excel eller startsaldo. Prøven implementerer ingen historisk adapter, endrer ingen tidligere parser/ID og lukker verken #13 eller #10.
+
 ## Vedlikehold av funn
 
 ### B7: sesjonsliste, forsøk før HTTP og prøvens grenser
