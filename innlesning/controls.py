@@ -109,6 +109,17 @@ def _basis(extraction: Extraction, register_snapshot: str, control_basis: str) -
     }
 
 
+def read_activation(database: Path, extraction_id: str) -> dict[str, Any] | None:
+    """Les eksplisitt aktivering uten å aktivere, endre eller velge en tolkning."""
+    extraction = read_extraction(database, extraction_id)
+    with reading(database) as connection:
+        if not connection.execute(
+            "SELECT 1 FROM sqlite_master WHERE name='control_activations'"
+        ).fetchone():
+            return None
+        return _active(connection, extraction)
+
+
 def activate_basis(
     database: Path, extraction_ids: tuple[str, ...], register_snapshot: str, control_basis: str
 ) -> tuple[int, ...]:

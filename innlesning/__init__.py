@@ -7,6 +7,7 @@ from .controls import (
     export_controls,
     import_controls,
     latest_decision,
+    read_activation,
     read_decision,
     read_decisions,
     read_evidence,
@@ -26,6 +27,7 @@ from .registers import (
 )
 from .storage import read_report, read_source
 from .sync import (
+    list_sync_jobs,
     read_inventory,
     read_revision,
     read_revision_for_run,
@@ -45,6 +47,7 @@ __all__ = [
     "stage_sync",
     "resume_sync",
     "read_sync",
+    "list_sync_jobs",
     "read_inventory",
     "read_revision",
     "record_control_reference",
@@ -61,6 +64,7 @@ __all__ = [
     "read_import_source",
     "define_control_basis",
     "activate_basis",
+    "read_activation",
     "export_controls",
     "import_controls",
     "read_decision",

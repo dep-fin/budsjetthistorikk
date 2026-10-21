@@ -36,4 +36,6 @@ Se [kommandoer og prøver](../README.md#kjør-b2-lokalt), [B2-kontrakten](../doc
 
 ## Eksplisitt B4-tolkning
 
+B7s [daglige runner](../docs/b7-drift.md) bruker fullt kildeinventar, alle API-typer/ID-er og eksplisitt v2/registersnapshot. Nyere kildeforsøk før staging blir synlige i ferskhetskonteksten. Tidligere v1-standarder og immutable resultater består. Faktisk Windows-installasjon/driftsprøve gjenstår etter eierens avklaring 21. oktober 2026.
+
 `Interpretation(adapter_version="storting-belop-v2")` velger nummererte post-24-spesifikasjoner og observerte totalceller, med eksakt komponentkontroll og registersnapshot. V1 forblir standard og uendret. Nye nivåoppstillinger uten delta gir etterbeløp. Kontoklassifikasjon følger kapittel, mens organisasjonen bygger på ni eksplisitte oppslag med gyldighet bare 2027. Ukjent oppslag beholder beløpet. Se [B4-kontrakten](../docs/datakontrakt.md#b4--særtilfeller-med-eksplisitt-tolkning-v2).

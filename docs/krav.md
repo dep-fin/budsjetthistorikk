@@ -62,7 +62,7 @@ Kildeinventar og uavhengige kontrollsummer skal brukes sammen. Blå bok kan vær
 
 ## Drift og mottakersystem
 
-Python, SQLite og openpyxl er godkjent for lokal innlesning og Excel-uttrekk, og byggemandat er gitt for B1 (#4) 20. oktober 2026. Valget er dokumentert i [ADR 0001](adr/0001-lokal-innlesning.md). Mottakersystem og driftsplattform er fortsatt åpne. Azure tas opp med brukeren igjen før plattformvalget blir styrende. Ingen skyressurser er opprettet.
+Python, SQLite og openpyxl er godkjent for lokal innlesning og Excel-uttrekk, og byggemandat er gitt for B1 (#4) 20. oktober 2026. Valget er dokumentert i [ADR 0001](adr/0001-lokal-innlesning.md). Eieren valgte 21. oktober 2026 en varig Windows-vert med lokal lagring for B7. Vert, driftskonto, datamappe og eksisterende bakgrunnstilgang er utsatt etter eierens beskjed «Dette vet jeg ikke, så det må vi komme tilbake til». Kodeleveransen omfatter runner og reviewbart Windows-oppsett; faktisk installasjon/driftsprøve gjenstår, og #10 forblir åpen. Ingen skyressurser eller credentials er opprettet. Se [driftsveiledningen](b7-drift.md).
 
 ## Manuelt vedlikehold og varsling
 
@@ -76,6 +76,6 @@ Samlet spesifikasjon, testgrenser og ticketoppdeling er godkjent av prosjekteier
 
 Gjenstående tekniske avklaringer:
 - Konkret kilde- og fullstendighetskontroll etter kildeprøvene.
-- Mottakersystem og driftsplattform; Azure tas opp før plattformen blir styrende.
+- Konkret Windows-vert, driftskonto, lokal lagrings-/rapportbane, eksisterende bakgrunnstilgang og faktisk driftsaksept. Endelig mottakersystem for felles bruk er fortsatt åpent.
 
 Tekniske fakta undersøkes av agenten. Brukeren avgjør behov, prioriteringer og faglig aksept.

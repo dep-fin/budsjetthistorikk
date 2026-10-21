@@ -50,7 +50,8 @@ def writing(database: Path) -> Iterator[sqlite3.Connection]:
         for statement in SCHEMA.split(";"):
             if statement.strip():
                 connection.execute(statement)
-        connection.execute("PRAGMA user_version=4")
+        version = connection.execute("PRAGMA user_version").fetchone()[0]
+        connection.execute(f"PRAGMA user_version={max(version, 4)}")
         yield connection
 
 

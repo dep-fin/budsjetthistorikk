@@ -81,8 +81,8 @@ def test_sql4_keeps_pending_b2_resume_and_later_b3_writes_without_downgrade(tmp_
     extract_revision(database, revision)
     with sqlite3.connect(database) as connection:
         assert connection.execute("PRAGMA user_version").fetchone()[0] == 4
-        connection.execute("PRAGMA user_version=5")
-    with pytest.raises(ValueError, match="Ukjent databaseskjema: 5"):
+        connection.execute("PRAGMA user_version=6")
+    with pytest.raises(ValueError, match="Ukjent databaseskjema: 6"):
         seed_register(database)
 
 

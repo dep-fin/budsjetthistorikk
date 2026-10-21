@@ -37,7 +37,19 @@ Historikken skal vise hvert forslag, vedtak og endring gjennom året, frem til r
 
 ## Status
 
-Kildeundersøkelsen #2 er levert i PR #11. Python, SQLite og openpyxl er godkjent for lokal innlesning. B1 (#4) gir ett opprinnelig vedtak fra kilde til SQLite og Excel. B2 (#5) legger til kildeinventar, kildeobservasjoner, innholdsrevisjoner og gjenopptak. B3 (#6) beregner valgt historikk, B4 (#7) håndterer dokumenterte særtilfeller, og B5 (#8) gir register-/kontrollarbeidsfiler og faglige avgjørelser. B6 (#9) gir [samlet sesjonseksport med filtre og dekningsrapport](docs/b6-sesjonsuttrekk.md). Tidligere API-er, standarder og immutable resultater beholdes. Daglig kjøring gjenstår i B7. Mottakersystem og driftsplattform er åpne; Azure tas opp igjen før valget blir styrende.
+Kildeundersøkelsen #2 er levert i PR #11. Python, SQLite og openpyxl er godkjent for lokal innlesning. B1 (#4) gir ett opprinnelig vedtak fra kilde til SQLite og Excel. B2 (#5) legger til kildeinventar, kildeobservasjoner, innholdsrevisjoner og gjenopptak. B3 (#6) beregner valgt historikk, B4 (#7) håndterer dokumenterte særtilfeller, og B5 (#8) gir register-/kontrollarbeidsfiler og faglige avgjørelser. B6 (#9) gir [samlet sesjonseksport med filtre og dekningsrapport](docs/b6-sesjonsuttrekk.md). B7 (#10) gir en [daglig runner med sesjonsvidereføring, frosset rapport og varig GitHub-outbox](docs/b7-drift.md). Tidligere API-er, standarder og immutable resultater beholdes. Eieren valgte 21. oktober 2026 en varig Windows-vert med lokal lagring. Konkret vert, konto, datamappe og bakgrunnstilgang er utsatt; oppgaveinstallasjon og faktisk driftsprøve er ikke utført. #10 forblir åpen til driftsaksepten er demonstrert.
+
+## Kjør B7 med eksplisitt driftsgrunnlag
+
+Kopier og avklar [konfigurasjonen](ops/daily.example.json), og følg [driftsveiledningen](docs/b7-drift.md). Ingen scheduler eller credentials opprettes ved vanlig kjøring.
+
+```powershell
+python -m drift --config C:\avtalt\daily.json --next-due
+python -m drift --config C:\avtalt\daily.json
+python -m drift --config C:\avtalt\daily.json --status
+```
+
+Runneren vurderer lokal kalenderdato kl. 06 i Europe/Oslo, med eksplisitt `tzdata` på Windows. Den gjenopptar lagret grunnlag før ny HTTP, leser alle startede produksjonssesjoner fra 2026–2027 og skiller kilderesultat, faglig kontrollbehov og GitHub-levering. Tidssone-/avbruddsprøver er deterministiske tester; de er ikke bevis på en installert produksjonsjobb.
 
 ## Kjør B1 lokalt
 
