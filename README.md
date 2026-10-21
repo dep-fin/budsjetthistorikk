@@ -34,10 +34,13 @@ Historikken skal vise hvert forslag, vedtak og endring gjennom året, frem til r
 - [Fast arbeidsflyt med issues](docs/arbeidsflyt.md)
 - [Innlesningsdelen](innlesning/README.md)
 - [Analysedelen](analyse/README.md)
+- [Lokal 2024-pilot for historisk Excel](docs/historisk-pilot.md)
 
 ## Status
 
 Kildeundersøkelsen #2 er levert i PR #11. Python, SQLite og openpyxl er godkjent for lokal innlesning. B1 (#4) gir ett opprinnelig vedtak fra kilde til SQLite og Excel. B2 (#5) legger til kildeinventar, kildeobservasjoner, innholdsrevisjoner og gjenopptak. B3 (#6) beregner valgt historikk, B4 (#7) håndterer dokumenterte særtilfeller, og B5 (#8) gir register-/kontrollarbeidsfiler og faglige avgjørelser. B6 (#9) gir [samlet sesjonseksport med filtre og dekningsrapport](docs/b6-sesjonsuttrekk.md). B7 (#10) gir en [daglig runner med sesjonsvidereføring, frosset rapport og varig GitHub-outbox](docs/b7-drift.md). Tidligere API-er, standarder og immutable resultater beholdes. Eieren valgte 21. oktober 2026 en varig Windows-vert med lokal lagring. Konkret vert, konto, datamappe og bakgrunnstilgang er utsatt; oppgaveinstallasjon og faktisk driftsprøve er ikke utført. #10 forblir åpen til driftsaksepten er demonstrert.
+
+Den autoriserte #24-piloten har en separat historisk 2024-adapter, SQLite-lagring, kontrollpakke og uavhengig sammenligning. [Hele lokalprøven](docs/research/historisk-excel/pilot2024.md) dokumenterer 46 788 inventarposisjoner og 16 339 beløpsobservasjoner, med åpne faglige spørsmål. [Pilotveiledningen](docs/historisk-pilot.md) gir kommandoer. Nye offisielle kilder krever ingen historisk fil eller startsaldo.
 
 ## Kjør B7 med eksplisitt driftsgrunnlag
 

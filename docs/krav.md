@@ -82,6 +82,8 @@ Tekniske fakta undersøkes av agenten. Brukeren avgjør behov, prioriteringer og
 
 ## Presisering 21. oktober 2026: nye kilder og historisk pilot
 
+Oppfølging samme dag: byggemandat er gitt som #24. Den separate [2024-adapteren og kontrollpakken](historisk-pilot.md) er implementert og [fullt prøvd lokalt](research/historisk-excel/pilot2024.md). Åpne faglige kolonne-/register-/hierarkispørsmål består; samlet review, sikkerhetsaudit, CI og merge følger leveringsløpet. #13 gjelder fortsatt øvrige år og #10s driftsaksept gjenstår. Planbestillingens tidligere mandatgrense nedenfor er historisk kontekst.
+
 Nye offisielle tall skal kunne oppdages, bevares, tolkes, lagres og eksporteres fra sin egen nye offisielle kilde uten historiske Excel-filer, eldre beløp, Excel-startsaldo, historisk register eller en vellykket historisk import. Manglende historisk inngående grunnlag skal gi et synlig analyseavvik når en beregning trenger dette, og skal ikke blokkere innlesning av det nye vedtaket eller gi en oppdiktet nullstart. Dette skal ha en uttrykkelig regresjonsprøve, også ved fraværende, korrupt eller motstridende historisk kilde.
 
 Den historiske modellen skal bevare kilden og betydningen uten å gjøre arbeidsbøkenes kolonner eller dagens API-form styrende for nye kilder. Et bedre felles format kan foreslås og versjoneres ved dokumentert behov, med uttrykkelig kompatibilitetsbeskrivelse. Dagens besluttede observasjonsformat, leverte API-er, ID-er og standardvalg gjelder frem til en slik utvidelse er besluttet. Eksisterende parser-, format- og skjemaidentiteter skal beholde sin betydning. Ingen migrering eller kodebygging følger av bestillingen om en plan.

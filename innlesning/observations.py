@@ -405,6 +405,16 @@ def component_anomalies(observations: tuple[AmountObservation, ...]) -> tuple[An
 
 def save_extraction(database: Path, extraction: Extraction, raw: bytes) -> str:
     """Generisk, atomisk grense. Identisk kilde/tolkning gjenbrukes; ingen overskriving."""
+    _validate_extraction(extraction, raw)
+    database.parent.mkdir(parents=True, exist_ok=True)
+    with sqlite3.connect(database) as connection:
+        connection.execute("PRAGMA foreign_keys = ON")
+        connection.execute("BEGIN IMMEDIATE")
+        initialize_observations(connection)
+        return save_extraction_in(connection, extraction, raw)
+
+
+def _validate_extraction(extraction: Extraction, raw: bytes) -> None:
     if (
         hashlib.sha256(raw).hexdigest() != extraction.artifact.sha256
         or len(raw) != extraction.artifact.byte_count
@@ -438,45 +448,45 @@ def save_extraction(database: Path, extraction: Extraction, raw: bytes) -> str:
         recorded_issues = set(extraction.anomalies)
         if any(issue not in recorded_issues for issue in hierarchy_issues):
             raise ValueError("Komponenthierarki har avvik som mangler i kontrollgrunnlaget")
-    database.parent.mkdir(parents=True, exist_ok=True)
-    with sqlite3.connect(database) as connection:
-        connection.execute("PRAGMA foreign_keys = ON")
-        connection.execute("BEGIN IMMEDIATE")
-        initialize_observations(connection)
-        existing = connection.execute(
-            "SELECT content_json FROM amount_extractions WHERE extraction_id=?",
-            (extraction.id,),
-        ).fetchone()
-        payload = asdict(extraction)
-        payload["interpretation"] = interpretation_dict(extraction.interpretation)
-        content = encode(payload)
-        if existing:
-            if existing[0] != content:
-                raise ValueError("Uforanderlig tolkning er allerede lagret med annet resultat")
-            return extraction.id
+
+
+def save_extraction_in(connection: sqlite3.Connection, extraction: Extraction, raw: bytes) -> str:
+    """Intern komposisjonsgrense i kallerens transaksjon, uten commit eller migrering."""
+    _validate_extraction(extraction, raw)
+    existing = connection.execute(
+        "SELECT content_json FROM amount_extractions WHERE extraction_id=?",
+        (extraction.id,),
+    ).fetchone()
+    payload = asdict(extraction)
+    payload["interpretation"] = interpretation_dict(extraction.interpretation)
+    content = encode(payload)
+    if existing:
+        if existing[0] != content:
+            raise ValueError("Uforanderlig tolkning er allerede lagret med annet resultat")
+        return extraction.id
+    connection.execute(
+        "INSERT OR IGNORE INTO sources (sha256, raw_response) VALUES (?, ?)",
+        (extraction.artifact.sha256, raw),
+    )
+    connection.execute(
+        "INSERT INTO amount_extractions "
+        "(extraction_id,dataset,source_revision_id,interpretation_id,content_json,created_utc) "
+        "VALUES (?,?,?,?,?,?)",
+        (
+            extraction.id,
+            extraction.dataset,
+            extraction.source_revision_id,
+            extraction.interpretation.id,
+            content,
+            datetime.now(UTC).isoformat(),
+        ),
+    )
+    for item in extraction.observations:
         connection.execute(
-            "INSERT OR IGNORE INTO sources (sha256, raw_response) VALUES (?, ?)",
-            (extraction.artifact.sha256, raw),
+            "INSERT INTO amount_observations "
+            "(observation_id,extraction_id,content_json) VALUES (?,?,?)",
+            (item.id, extraction.id, encode(asdict(item))),
         )
-        connection.execute(
-            "INSERT INTO amount_extractions "
-            "(extraction_id,dataset,source_revision_id,interpretation_id,content_json,created_utc) "
-            "VALUES (?,?,?,?,?,?)",
-            (
-                extraction.id,
-                extraction.dataset,
-                extraction.source_revision_id,
-                extraction.interpretation.id,
-                content,
-                datetime.now(UTC).isoformat(),
-            ),
-        )
-        for item in extraction.observations:
-            connection.execute(
-                "INSERT INTO amount_observations "
-                "(observation_id,extraction_id,content_json) VALUES (?,?,?)",
-                (item.id, extraction.id, encode(asdict(item))),
-            )
     return extraction.id
 
 

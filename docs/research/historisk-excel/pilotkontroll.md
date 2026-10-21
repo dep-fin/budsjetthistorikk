@@ -1,5 +1,7 @@
 # Avgrenset tallprøve og anbefalt pilotår for historisk Excel
 
+Den etterfølgende [hele 2024-piloten](pilot2024.md) er dokumentert separat og reproduserer denne avgrensede prøven. Resultatene og v2-grensene nedenfor er bevart som egne regresjonsankere.
+
 Kontrollert 21. oktober 2026 mot kodegrunnlag `ae80c6a594f33bd83d63feea2d1f26a59b341185`. Dette er forskningsgrunnlag for en startklar plan under [#13](https://github.com/depmartin/budsjetthistorikk/issues/13), ikke produksjonsimport eller faglig godkjenning. #13 og spesifikasjonen [#1](https://github.com/depmartin/budsjetthistorikk/issues/1), begge uten kommentarer ved lesingen, er lest sammen med repoets arbeids-, begreps- og kilderegler. [Observasjonsformatet](../../observasjonsformat.md), [filkontrollen](modellvurdering.md) og [varige kildefunn](../../kildefunn.md) gjelder fortsatt.
 
 ## Anbefaling og faktisk kontrollomfang
