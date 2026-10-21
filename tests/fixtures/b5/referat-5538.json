@@ -1,0 +1,15 @@
+{
+  "fixture_kind": "derived_excerpt",
+  "source_url": "https://data.stortinget.no/eksport/publikasjon?publikasjonid=refs-202526-03-26",
+  "parent_sha256": "4eed3a96b705a6bc80f9f7776efbde1c3dab07f36b898ed4722617ff59ea5b56",
+  "parent_bytes": 595225,
+  "parent_verified_utc": "2026-10-21T07:14:46+00:00",
+  "sha256": "7fa34518b05f948e7ff834995e97513a492262790be8445609bc453c9a09ff51",
+  "bytes": 7148,
+  "parent_byte_offset_zero_based": 578380,
+  "derivation": "Eksakte 7148 sammenhengende byte fra XML-originalen, uten omskriving eller ny serialisering",
+  "parent_locator": "/Forhandlinger/Mote/Hovedseksjon/Saker/VoteringerStart/Voteringer[7]/Sakdel/Presinnlegg[17]/Liste/Pkt[6]/Tbl/table/tgroup/tbody/row[3]/entry[3]/A",
+  "fixture_locator": "/table/tgroup/tbody/row[3]/entry[3]/A",
+  "expected_amount_kr": 1615833000,
+  "limitation": "Kontrollbevis for ett etterbeløp, ingen automatisk godkjenning av andre felter, kjede eller årsdekning"
+}

@@ -34,7 +34,7 @@ SCHEMA_VERSION = 2
 
 def check_schema(connection: sqlite3.Connection) -> None:
     version = connection.execute("PRAGMA user_version").fetchone()[0]
-    if version not in (0, SCHEMA_VERSION, 3):
+    if version not in (0, SCHEMA_VERSION, 3, 4):
         raise ValueError(f"Ukjent databaseskjema: {version}")
 
 

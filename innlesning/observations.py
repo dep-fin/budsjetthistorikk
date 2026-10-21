@@ -288,7 +288,8 @@ def initialize_observations(connection: sqlite3.Connection) -> None:
     for statement in SCHEMA.split(";"):
         if statement.strip():
             connection.execute(statement)
-    connection.execute("PRAGMA user_version = 3")
+    version = connection.execute("PRAGMA user_version").fetchone()[0]
+    connection.execute(f"PRAGMA user_version = {max(version, 3)}")
 
 
 def observation_from_dict(data: dict[str, Any]) -> AmountObservation:

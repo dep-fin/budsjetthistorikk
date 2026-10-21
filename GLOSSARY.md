@@ -92,3 +92,16 @@ _Unngå_: Observert kildetall som synonym.
 
 **Avstemt utvalg**:
 En beregning der det uttrykkelig valgte inngående nivået og enkeltendringene består de dokumenterte lokale og kronologiske regnekontrollene. Det sier ikke at utvalget dekker hele budsjettåret eller har faglig godkjenning.
+
+**Registersnapshot**:
+Et uforanderlig, innholdsidentifisert sett med tidsavgrensede departementer, eksplisitte kapittelkoblinger og separat kapittel/post-katalog. Nytt innhold gir nytt snapshot; tidligere gyldig historikk omskrives ikke.
+
+**Faglig kontrollavgjørelse**:
+En uforanderlig vurdering av en eksakt beløpsobservasjon og dens kilde-, tolknings-, register- og kontrollgrunnlag, med status, godkjente felter/bruk, kontrollør, begrunnelse, bevis og eventuell separat korrigert verdi. En godkjent enkeltverdi er ikke godkjent kjede eller årsdekning.
+_Unngå_: B2-kontrollhenvisning eller teknisk avstemming som synonym.
+
+**Aktiveringsovergang**:
+En monoton registrering av uttrykkelig endring i valgt uttrekk/tolkning, register eller kontrollgrunnlag per datasett og kildeenhet. A → B → A gjenoppliver ikke avgjørelser fra første A. Historisk lesing og eksport er ingen aktivering.
+
+**Effektiv kontrollert verdi**:
+En separat kroneverdi som en gjeldende faglig avgjørelse tillater for angitt bruk. Den kan være den rå normaliserte verdien eller en uttrykkelig kildebegrunnet korreksjon. Råobservasjonen og dens avvik beholdes uendret.

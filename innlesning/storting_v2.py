@@ -59,10 +59,11 @@ def numbering_anomalies(observations: tuple[AmountObservation, ...]) -> tuple[An
 
 
 def extract_v2(database: Path, revision_id: str, interpretation: Interpretation) -> Extraction:
+    register = None
     if interpretation.register_snapshot != REGISTER_SNAPSHOT:
-        raise ValueError(
-            "Ukjent registersnapshot; historiske uttrekk kan fortsatt leses med sin ID"
-        )
+        from .registers import read_register
+
+        register = read_register(database, interpretation.register_snapshot)
     revision = read_revision(database, revision_id)
     extraction_id = identity(revision.dataset, "storting", revision_id, interpretation.id)
     try:
@@ -179,7 +180,11 @@ def extract_v2(database: Path, revision_id: str, interpretation: Interpretation)
                     "Kapittel 1–5999 og post 1–99 kreves for bevilgning",
                 ),
             )
-        organization = lookup(normalized_chapter, year)
+        organization = (
+            register.lookup(normalized_chapter, year)
+            if register is not None
+            else lookup(normalized_chapter, year)
+        )
         if organization.fdep_nr is None:
             issue("mangler_organisasjonsoppslag", organization.null_reason, locator, post)
         item = AmountObservation(

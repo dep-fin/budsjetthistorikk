@@ -131,3 +131,41 @@ V2 knytter bare de ni eksplisitte oppslagene i [registergrunnlaget](departements
 `analyse.export_extraction_excel(database, extraction_id, output)` og CLI `analyse --belopsuttrekk <ID> --excel <fil>` eksporterer hele uttrekket uten å kreve en kjede. Arkene viser beløpsobservasjoner, hierarki, organisasjonsgrunnlag, avvik, tolkning, proveniens, fulltekst og tekstopplysninger. Dette virker også med null observasjoner. Fullmaktsrammer, anmodninger, satser, overførte midler og uavklart tekst kan vises som separate **tekstklassifikasjoner v1 til kontroll**, uten beløpsnormalisering og uten additiv rolle. Dette er ingen generell fullmaktsparser. B2 er fortsatt fulltekstens lagringsgrunnlag.
 
 Historikkeksporten inkluderer nå også `Vedtaksfulltekst` og `Tekstopplysninger` fra de eksplisitt valgte revisjonene; tidligere B3-eksport hadde observasjonenes rå rad-HTML, men ikke hele vedtaksteksten. HTML og lange felt deles i ordnede biter på 30 000 tegn med videreføringspeker. Begge eksportene bruker tekstsikker `put()`, atomisk lagring og banevern. Eksporten erklærer ingen årsdekning eller faglig godkjenning.
+
+## B5 – registervedlikehold og faglige avgjørelser
+
+[ADR 0006](adr/0006-b5-register-og-faglig-kontroll.md) beskriver lagring, aktivering og avgrensning. [Filkontrakten og hele arbeidsflyten](b5-arbeidsfiler.md) dokumenterer kolonner, validering og alle CLI-kommandoer. Excel og CSV bruker samme validator. B2s `record_control_reference` består som en henvisning uten beløpsvirkning; B3/B4s tekniske `approved_balance` består uendret.
+
+### Offentlig registergrense
+
+`seed_register(database)` gir et immutable `RegisterSnapshot` med `DepartmentEntry`, `ChapterEntry` og separat `PostEntry`-katalog. `read_register(database, snapshot_id)` og `read_current_register(database)` leser lagret innhold. `snapshot.id` er en deterministisk hash av sortert faglig innhold, kilde, begrunnelse og gyldighet. Filnavn, radrekkefølge og importtid inngår ikke. `snapshot.lookup(chapter, year)` bruker bare eksplisitte årsgyldige koblinger, og `catalogued(chapter, post, year)` er et adskilt oppslag.
+
+`export_register(database, snapshot_id, output)` lagrer eksportgrunnlaget og skriver `.xlsx` eller `.csv`. `import_register(database, path)` sammenligner eksportens `forventet_base` med gjeldende publisert register i `BEGIN IMMEDIATE`. Hele kandidaten valideres før publisering, med overlappskontroll, kildebevis og full dekning av departementsperioden for hver kapittelkobling. Ukjent gdep forhindrer ikke en dokumentert administrativ avklaring. Identisk innhold gjenbrukes; identisk råfil gir opprinnelig importresultat uten å flytte registerhodet tilbake.
+
+B4s innebygde snapshot er uendret. Et lagret snapshot brukes uttrykkelig i `Interpretation(adapter_version="storting-belop-v2", register_snapshot=snapshot.id)` og `extract_revision`. Nytt snapshot gir nye tolknings-/observasjons-ID-er; gamle JSON-felt og råbyte omskrives ikke. Det nye registeret initialiserer ingen faglige godkjenninger.
+
+### Offentlig kontrollgrense
+
+`define_control_basis(database, description)` lagrer en immutable kontrollgrunnlags-ID. `activate_basis(database, extraction_ids, register_snapshot, control_basis)` velger én tolkning per kildeenhet og bevarer en monoton aktiveringsovergang. Registeret må finnes og stemme med uttrekkets faktiske tolkning. Alternativ tolkning og lesing/eksport aktiverer ingenting. Endret kilde følger dessuten B2s innholdsovergang. Ingen A → B → A-sekvens reaktiverer gamle kontroller.
+
+`store_evidence(database, path, *, version, locator, role, url, parent_sha256=None)` bevarer faktisk lokal fil med egen SHA-256, versjon, lokator og rolle `kontrollkilde`. Et utdrag har egen hash og separat foreldrehash. `read_evidence` og `read_evidence_source` leser metadata og eksakte byte. Arbeidsfiler og bevis får ingen oppdiktede HTTP-metadata.
+
+`export_controls(database, extraction_ids, output, *, register_snapshot, control_basis, observation_ids=None)` eksporterer valgte observasjoner mot allerede aktivert grunnlag. Hver rad binder datasett, kildesystem, kildeenhet, revisjon, uttrekk, beløpsobservasjon, artefakthash, lokator og beløpsfelt, tolknings-ID/format, B2-overgang og kildeobservasjon, register, kontrollgrunnlag, aktivering og forgjenger. Råverdi, råstatus, organisasjon, katalogstatus og avvik følger samme låste eksportbinding.
+
+`import_controls(database, path)` validerer hele filen og revaliderer kilde, aktivt grunnlag og forgjenger i skrivetransaksjonen. En ugyldig fil gir ingen avgjørelser. `ProfessionalDecision` har egen ID, tid, forgjenger, låst `target_json`, faglig status, godkjente felter/bruk, kontrollør, begrunnelse, bevis-ID og separat eventuell `corrected_amount_kr`. Godkjenning av ukjent råbeløp krever uttrykkelig korreksjon. Avvist/til kontroll har ingen godkjent bruk eller korreksjonsvirkning.
+
+`read_decision(database, id)` gir `DecisionView` med separat `freshness`, kildekontekst og eventuell `superseded_by`. `latest_decision` bruker siste avgjørelse for eksakt observasjon, uten reserve til eldre godkjenning. `control_report(database, extraction_ids)` viser råobservasjoner, avgjørelser og siste kildeforsøk, også uten avgjørelse. Ferskhet er `gjeldende`, `utdatert` eller `ikke_vurderbar`; faglig status er separat `til_kontroll`, `godkjent` eller `avvist`.
+
+Begge importfunksjoner returnerer immutable `ImportResult(id, kind, new_ids, reused_ids, errors, snapshot_id)`. `read_import` leser samme resultat og `read_import_source` faktiske innleste byte. Identisk filreplay returnerer opprinnelig resultat uten ny aktivering. Feil inkluderer fysisk ark/rad/felt. Filer over 8 MiB får varig avvisning før byteinnlesning, uten lagret råfil/hash; `read_import_source` avviser disse uttrykkelig. XLSX-formler og feilceller avvises; CSV og XLSX har samme faglige validering og begrensninger.
+
+### Kontrollert ny behandling
+
+`analyse.reprocess_controlled(database, extraction_ids, register_snapshot, control_basis, *, selection=None)` bruker det uttrykkelig aktiverte grunnlaget og siste avgjørelse. `HistorySelection.register_basis/control_basis` er ikke håndhevingsgrunnlag for denne grensen. Et `ControlledResult` har egen identitet `kontrollert-resultat-v1`, råobservasjons-ID-er, faktisk anvendte avgjørelser, kilde-/aktiveringsoverganger og rader med separat rå og effektiv verdi. Oppdatert kilde, tolkning, register, kontrollgrunnlag eller nyere avgjørelse kan ikke gjøre et gammelt resultat gjeldende igjen. Skrivegrunnlaget revalideres før lagring. `read_controlled` leser det bevarte resultatet med separat aktuell ferskhet; det aktiverer ingenting.
+
+`approved_chain_balance` krever eksplisitt kjedeutvalg, teknisk avstemming, kjent organisasjon/katalog og gjeldende godkjenning for `kjedegrunnlag` av alle berørte beløp. En manuell korreksjon vises som eget godkjent enkeltbeløp, uten å reparere B3/B4s råkjede. Før-, endrings- og etterbeløp summeres aldri samlet. Manglende start, uavklarte/avviste beløp og de dokumenterte Havtil-/5999-konfliktene sperrer fortsatt kjedesaldo. Ingen resultatstatus beviser årsdekning.
+
+`export_controlled_excel(database, result_id, output)` viser rå/avklart/gjeldende verdi, avgjørelse, bevis, begrunnelse, ferskhet, godkjent bruk, gjenstående avvik, eksakt kilde-/kontrollbinding og B2-fulltekst. Lange felt har videreføringspeker. Ingen formler evalueres eller genereres.
+
+### Additiv SQLite-versjon 4
+
+Nye tabeller er `register_snapshots`, `register_heads`, `maintenance_exports`, `maintenance_imports`, `control_bases`, `control_activations`, `professional_decisions`, `control_evidence` og `controlled_results`. Publiserte snapshots, avgjørelser og resultater oppdateres aldri; bare registerets administrative hode flyttes. B1–B4-tabeller og observasjonsformatet beholdes. B1–B4-lesing krever ingen skrivemigrering. B3-initialisering bevarer 4 og B2s versjonsmaksimum bevares; ventende B2-jobber kan gjenopptas. Ukjent fremtidig skjemaversjon avvises.
