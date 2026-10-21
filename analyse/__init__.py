@@ -1,5 +1,6 @@
 """Fremstilling av den dokumenterte datakontrakten."""
 
+from .controlled import export_controlled_excel, read_controlled, reprocess_controlled
 from .excel import export_excel, export_revision_excel
 from .extraction_excel import export_extraction_excel
 from .history import HistorySelection, calculate_history, read_history
@@ -13,4 +14,7 @@ __all__ = [
     "read_history",
     "export_history_excel",
     "export_extraction_excel",
+    "reprocess_controlled",
+    "read_controlled",
+    "export_controlled_excel",
 ]

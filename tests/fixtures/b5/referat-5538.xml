@@ -1,0 +1,139 @@
+<table frame="topbot" colsep="0" rowsep="0" tabstyle="Tabell-A">
+                        <tgroup cols="4" colsep="0">
+                          <colspec colnum="1" colname="1" colwidth="0.910in" colsep="0" />
+                          <colspec colnum="2" colname="2" colwidth="0.862in" colsep="0" />
+                          <colspec colnum="3" colname="3" colwidth="3.531in" colsep="0" />
+                          <colspec colnum="4" colname="4" colwidth="1.358in" colsep="0" />
+                          <thead>
+                            <row rowsep="1">
+                              <entry colname="1">
+                                <A>
+                                  <Uth Type="Halvfet">Kap.</Uth>
+                                </A>
+                              </entry>
+                              <entry colname="2">
+                                <A Type="Head" align="right">
+                                  <Uth Type="Halvfet">Post</Uth>
+                                </A>
+                              </entry>
+                              <entry colname="3">
+                                <A Type="Head" align="left">
+                                  <Uth Type="Halvfet">Formål</Uth>
+                                </A>
+                              </entry>
+                              <entry colname="4">
+                                <A Type="Head" align="right">
+                                  <Uth Type="Halvfet">Kroner</Uth>
+                                </A>
+                              </entry>
+                            </row>
+                          </thead>
+                          <tbody>
+                            <row rowsep="0">
+                              <entry colname="1" align="left">
+                                <A align="right">5538</A>
+                              </entry>
+                              <entry colname="2">
+                                <A Type="Head" align="right" />
+                              </entry>
+                              <entry colname="3" align="left">
+                                <A align="left">Veibruksavgift
+på drivstoff</A>
+                              </entry>
+                              <entry colname="4">
+                                <A Type="Head" align="right" />
+                              </entry>
+                            </row>
+                            <row rowsep="0">
+                              <entry colname="1" align="left">
+                                <A align="right" />
+                              </entry>
+                              <entry colname="2" align="left">
+                                <A align="right">70</A>
+                              </entry>
+                              <entry colname="3" align="left">
+                                <A align="left">Veibruksavgift
+på bensin, reduseres med …</A>
+                              </entry>
+                              <entry colname="4" align="left">
+                                <A align="right">1 154 167 000</A>
+                              </entry>
+                            </row>
+                            <row rowsep="0">
+                              <entry colname="1" align="left">
+                                <A align="right" />
+                              </entry>
+                              <entry colname="2" align="left">
+                                <A align="right" />
+                              </entry>
+                              <entry colname="3" align="left">
+                                <A align="left">fra kr 2 770 000 000
+til kr 1 615 833 000 </A>
+                              </entry>
+                              <entry colname="4" align="left">
+                                <A align="right" />
+                              </entry>
+                            </row>
+                            <row rowsep="0">
+                              <entry colname="1" align="left">
+                                <A align="right" />
+                              </entry>
+                              <entry colname="2" align="left">
+                                <A align="right">71</A>
+                              </entry>
+                              <entry colname="3" align="left">
+                                <A align="left">Veibruksavgift
+på autodiesel, reduseres med …</A>
+                              </entry>
+                              <entry colname="4" align="left">
+                                <A align="right">2 175 000 000</A>
+                              </entry>
+                            </row>
+                            <row rowsep="0">
+                              <entry colname="1" align="left">
+                                <A align="right" />
+                              </entry>
+                              <entry colname="2" align="left">
+                                <A align="right" />
+                              </entry>
+                              <entry colname="3" align="left">
+                                <A align="left">fra kr 5 220 000 000
+til kr 3 045 000 000</A>
+                              </entry>
+                              <entry colname="4" align="left">
+                                <A align="right" />
+                              </entry>
+                            </row>
+                            <row rowsep="0">
+                              <entry colname="1" align="left">
+                                <A align="right" />
+                              </entry>
+                              <entry colname="2" align="left">
+                                <A align="right">72</A>
+                              </entry>
+                              <entry colname="3" align="left">
+                                <A align="left">Veibruksavgift
+på naturgass og LPG, reduseres med … </A>
+                              </entry>
+                              <entry colname="4" align="left">
+                                <A align="right">1 250 000</A>
+                              </entry>
+                            </row>
+                            <row rowsep="0">
+                              <entry colname="1" align="left">
+                                <A align="right" />
+                              </entry>
+                              <entry colname="2" align="left">
+                                <A align="right" />
+                              </entry>
+                              <entry colname="3" align="left">
+                                <A align="left">fra kr 3 000 000
+til kr 1 750 000»</A>
+                              </entry>
+                              <entry colname="4" align="left">
+                                <A align="right" />
+                              </entry>
+                            </row>
+                          </tbody>
+                        </tgroup>
+                      </table>

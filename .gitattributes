@@ -2,4 +2,6 @@
 tests/fixtures/40033944.derived.xml -text whitespace=-blank-at-eol,cr-at-eol
 tests/fixtures/b3/*.xml -text whitespace=-blank-at-eol,cr-at-eol
 tests/fixtures/b3/*.json text eol=lf
+tests/fixtures/b5/*.xml -text whitespace=-blank-at-eol,cr-at-eol
+tests/fixtures/b5/*.json text eol=lf
 tests/fixtures/*.metadata.json text eol=lf

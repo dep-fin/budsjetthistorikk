@@ -69,3 +69,11 @@ Første leveranse bruker manuelt redigerbare Excel-/CSV-filer som arbeidsflate f
 ## Avgrenset B4-grunnlag
 
 B4 bruker bare de ni eksplisitte oppslagene ovenfor, med gyldighet **2027–2027**, i en immutable datatabell med versjon og deterministisk innholdshash. Tolkningsidentiteten bevarer registersnapshotet. Kildeartefaktens SHA-256 er `952757a9964f92a7e2cb1972fcfb6b82b426d4973de641a29fef5ea66d6c1adb`, jf. faggrunnlagets tidligere filkontroll. Originalfilen ble ikke gjenfunnet ved B4-implementeringen; dette er bruk av tidligere kildebelagte oppslag, uten nye påstander om cellekontroll eller filens øvrige kapitler. Intervaller og +3000 brukes ikke som bekreftede koblinger. Registervedlikehold/import og brukerens endringer følger B5.
+
+## B5: vedlikeholdbare snapshots
+
+B5s [arbeidsfiler](b5-arbeidsfiler.md) legger til et eget lagret startgrunnlag med de 16 brukeroppgitte departementsnavnene/forkortelsene, separat kildenavn for nummer 3 og særkategori 23. Hele startgrunnlaget har eksplisitt årsgyldighet **2027–2027**. Navnene har brukerens oppsett som proveniens; de ni kapittelkoblingene bruker den tidligere dokumenterte filkontrollen og hashet ovenfor. Original Gul bok-fil er heller ikke gjenfunnet eller cellekontrollert på nytt i B5. Ingen full katalog er importert, og den nye kapittel/post-katalogen starter tom.
+
+Excel-/CSV-importen validerer et komplett kandidatregister med forventet base, gyldighet og kilde/begrunnelse. Ledige numre 10/12 kan tildeles senere. Overlapp for samme nummer eller kapittel avvises; forkortelser kan gjenbrukes i andre perioder. fdep23 bevares uten ordinær `mapped_department_code`, og 2309/gdep23 er fortsatt forskjellig fra 5309/gdep60. Uavklart Gul bok-gruppering kan stå tom med forklaring mens den administrative koblingen avklares.
+
+Registeret skiller uttrykkelig kapitteltilknytning fra godkjent kapittel/post-katalog. For 900/32 i 2025 må en saksbehandler registrere både 2025-grunnlag for departement/kobling og den nye katalogkombinasjonen med kildebevis. 2027-oppslaget brukes aldri bakover. En godkjent katalogutvidelse etablerer ingen inngående nullbevilgning og gir ingen kjedegodkjenning. Tidligere register/tolkninger beholdes; ny bruk krever uttrykkelig valgt snapshot og aktivering, jf. [ADR 0006](adr/0006-b5-register-og-faglig-kontroll.md).

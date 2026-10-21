@@ -150,3 +150,25 @@ V2 bevarer post 24, nummererte komponenter, negative nettoresultater, kildens na
 Inntekt/utgift følger kapittel. Kapitalregnskapskonti holdes utenfor bevilgningssaldoen; 90-poster under kapittel 6000 er bevilgninger. Organisasjonsgrunnlaget har bare ni dokumenterte kapitteloppslag for **2027**, med separate fdep-/gdep-koder og registerhash i tolkningsidentiteten. Ukjent oppslag bevarer beløpet og gir avvik. En regneavstemming godkjenner ingen organisasjonskobling.
 
 Uttrekkseksporten viser alle observasjoner, hierarki, organisasjon, avvik og hele B2-vedtaksteksten. Tekstfullmakter, anmodninger og uavklart tekst kan kontrolleres uten bevilgningskjede. Ingen fullmaktsramme normaliseres til additiv årsbevilgning. Historikkeksporten har også fulltekst for valgte revisjoner, med videreføring av lange felt. V1-ID-er, lagrede tolkninger og B1/B2-resultater består. Se [B4-kontrakten](docs/datakontrakt.md#b4--særtilfeller-med-eksplisitt-tolkning-v2) og [prøvenes proveniens](tests/fixtures/b4/README.md).
+
+## Kjør B5 lokalt
+
+B5 gir registervedlikehold og faglige kontrollavgjørelser gjennom Excel/CSV, med separate godkjente enkeltbeløp og kontrollerte resultater. [Arbeidsflyten og filformatene](docs/b5-arbeidsfiler.md) viser hele rundturen uten kodeendringer; [B5-kontrakten](docs/datakontrakt.md#b5--registervedlikehold-og-faglige-avgjørelser) beskriver API, immutabilitet og SQLite 4.
+
+```powershell
+python -m innlesning.maintenance --database budsjett.sqlite register-seed
+python -m innlesning.maintenance --database budsjett.sqlite register-export --snapshot <snapshot-ID> --output register.xlsx
+# Rediger hele kandidatregisteret med år, kilde og begrunnelse.
+python -m innlesning.maintenance --database budsjett.sqlite register-import --input register.xlsx
+python -m innlesning.maintenance --database budsjett.sqlite reinterpret --revision <B2-revisjons-ID> --register <nytt-snapshot-ID>
+python -m innlesning.maintenance --database budsjett.sqlite basis-define --description "Avgrenset kontroll mot navngitt kildebevis"
+python -m innlesning.maintenance --database budsjett.sqlite basis-activate --extraction <nytt-uttrekks-ID> --register <nytt-snapshot-ID> --control <kontrollgrunnlag-ID>
+python -m innlesning.maintenance --database budsjett.sqlite control-export --extraction <nytt-uttrekks-ID> --register <nytt-snapshot-ID> --control <kontrollgrunnlag-ID> --output kontroll.csv
+# Bevar faktisk bevisfil med evidence-add, og fyll ut avgjørelse/begrunnelse/kontrollør/bevis-ID.
+python -m innlesning.maintenance --database budsjett.sqlite control-import --input kontroll.csv
+python -m innlesning.maintenance --database budsjett.sqlite reprocess --extraction <nytt-uttrekks-ID> --register <nytt-snapshot-ID> --control <kontrollgrunnlag-ID> --output kontrollerte-belop.xlsx
+```
+
+Velg `.xlsx` eller `.csv` for begge arbeidsfiler. Importresultatet har varig ID og ark/rad/felt-diagnostikk; `import-read --id <ID>` leser dette igjen. `register-head` viser gjeldende publisert register. En ny fil kan ikke overskrive en nyere avgjørelse eller feil base. Historisk lesing og ny alternativ tolkning aktiverer ingen kontroller. Kilde-, register-, tolknings- og kontrollgrunnlag har overgangsvern ved A → B → A. Tidligere råbyte, JSON, observasjons-ID-er og tekniske beregninger består.
+
+Startregisteret bruker bare brukerens navn/forkortelser og de ni tidligere dokumenterte 2027-koblingene. Postkatalogen starter tom; original Gul bok-fil er ikke kontrollert på nytt. 900/32 må opprettes med 2025-bevis, og får ingen inngående nullbevilgning. 5538/70 kan få en særskilt signert referatbundet etterbeløpskorreksjon; råteksten `I 615 833` beholdes. Godkjent enkeltbeløp gir ingen årsdekning eller automatisk kjedegodkjenning. Havtil-/5999-konflikter består. Historisk Excel-import og rolleforvaltning inngår ikke.
