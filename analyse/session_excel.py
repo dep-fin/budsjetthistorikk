@@ -27,6 +27,15 @@ def write_rows(book: Workbook, title: str, rows: Sequence[Sequence[Value]]) -> N
 def export_session_excel(
     database: Path, selection: SessionSelection, output: Path, *, input_path: Path | None = None
 ) -> SessionReport:
+    return export_built_session_excel(
+        database, build_session_report(database, selection), output, input_path=input_path
+    )
+
+
+def export_built_session_excel(
+    database: Path, report: SessionReport, output: Path, *, input_path: Path | None = None
+) -> SessionReport:
+    """Publiser en allerede vurdert rapport uten ny ferskhetsvurdering."""
     safe_output(database, output)
     if output.exists():
         raise ValueError(
@@ -38,7 +47,6 @@ def export_session_excel(
         input_path.resolve() == output.resolve() or input_path.resolve() == database.resolve()
     ):
         raise ValueError("Database, Excel og utvalgsfil må ha forskjellige baner")
-    report = build_session_report(database, selection)
     book = Workbook()
     assert book.active is not None
     book.remove(book.active)
@@ -89,6 +97,17 @@ def _verify_export(path: Path, report: SessionReport) -> None:
             raise ValueError("Eksportavstemming: manglende observasjoner")
     finally:
         saved.close()
+
+
+def verify_built_session_excel(path: Path, report: SessionReport) -> None:
+    """Gjenopptak kan avstemme en publisert fil etter tapt filkvittering."""
+    saved = load_workbook(path, read_only=True, data_only=False, keep_links=False)
+    try:
+        if saved["Sesjonsgrunnlag"].cell(2, 2).value != report.id:
+            raise ValueError("Excel har en annen rapport-ID")
+    finally:
+        saved.close()
+    _verify_export(path, report)
 
 
 def _history_rows(report: SessionReport) -> list[list[Value]]:

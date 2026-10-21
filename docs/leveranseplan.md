@@ -52,7 +52,7 @@ Disse testgrensene inngår i den godkjente spesifikasjonen. Konkrete kildeprøve
 
 Excel-/CSV-filer er bekreftet arbeidsflate for manuelt vedlikehold og kontroll. GitHub-issues er bekreftet varslingskanal ved feil og uavklarte uttrekk. Gjentakelser oppdaterer samme issue; vanlige vellykkede kjøringer gir bare rapport.
 
-Python, SQLite og openpyxl er valgt etter U1 for lokal innlesning og uttrekk, jf. [ADR 0001](adr/0001-lokal-innlesning.md). Mottakersystem og driftsplattform er fortsatt åpne. Materielle endringer i omfang, testaksept eller ticketoppdeling legges frem på nytt før videre bygging. Azure tas opp igjen før plattformvalget blir styrende. Ingen produksjonsressurser eller daglig jobb er opprettet.
+Python, SQLite og openpyxl er valgt etter U1 for lokal innlesning og uttrekk, jf. [ADR 0001](adr/0001-lokal-innlesning.md). Eieren valgte 21. oktober 2026 en varig Windows-vert med lokal lagring for B7. Konkret vert, driftskonto, datamappe og eksisterende bakgrunnstilgang er utsatt av eieren. Kode og reviewbart oppsett leveres med [driftsmanual](b7-drift.md) og [deterministisk kontrollrapport](research/b7/README.md); faktisk oppgaveinstallasjon og driftsprøve gjenstår. #10 forblir åpen til dette er akseptert. Ingen produksjonsressurser eller daglig jobb er opprettet. Materielle endringer i omfang, testaksept eller ticketoppdeling legges frem på nytt før videre bygging. Endelig mottakersystem for felles bruk er fortsatt åpent.
 
 ## Relasjoner i GitHub
 

@@ -203,6 +203,11 @@ def _initialize(connection: sqlite3.Connection) -> None:
     connection.execute(f"PRAGMA user_version = {version}")
 
 
+def initialize_sync_storage(connection: sqlite3.Connection) -> None:
+    """Additiv initialisering i kallerens korte lagringstransaksjon."""
+    _initialize(connection)
+
+
 def stage_sync(
     database: Path,
     raw_response: bytes,
@@ -210,6 +215,7 @@ def stage_sync(
     *,
     historical_sample: bool = False,
     decision_id: str | None = None,
+    source_attempt_id: str | None = None,
 ) -> str:
     """Bevar en ventende jobb. Gjenopptaks-ID finnes før publiseringen begynner."""
     session = validate_source(raw_response, metadata)
@@ -262,6 +268,10 @@ def stage_sync(
                 "venter",
             ),
         )
+        if source_attempt_id is not None:
+            from .source_attempts import bind_attempt
+
+            bind_attempt(connection, source_attempt_id, dataset, session, job_id, metadata)
     return job_id
 
 
@@ -556,6 +566,19 @@ def read_sync(database: Path, job_id: str) -> SyncReport:
         return _read_sync_in(connection, job)
 
 
+def list_sync_jobs(
+    database: Path, dataset: str, *, status: str | None = None
+) -> tuple[SyncReport, ...]:
+    """Driftsleser; velger ingen jobb som faglig grunnlag."""
+    with _connect(database, readonly=True) as connection:
+        connection.execute("BEGIN")
+        rows = connection.execute(
+            "SELECT * FROM sync_jobs WHERE dataset=? AND (? IS NULL OR status=?) ORDER BY sequence",
+            (dataset, status, status),
+        ).fetchall()
+        return tuple(_read_sync_in(connection, row) for row in rows)
+
+
 def _read_sync_in(connection: sqlite3.Connection, job: sqlite3.Row) -> SyncReport:
     entries = [
         SyncEntry(
@@ -591,6 +614,41 @@ def _read_sync_in(connection: sqlite3.Connection, job: sqlite3.Row) -> SyncRepor
     )
 
 
+@dataclass(frozen=True)
+class _AttemptContext:
+    identifier: str
+    status: str
+    errors: tuple[str, ...]
+    source_sha256: str
+    scope: str
+    incomplete: bool
+
+    def observation_status(self, classification: str | None) -> str:
+        if self.incomplete:
+            return "siste forsøk ikke fullført"
+        if classification is None:
+            return "ikke omfattet av siste valgte observasjon"
+        if classification == "mangler":
+            return "mangler i siste fulle svar"
+        return "observert"
+
+
+def _latest_attempt_context(connection: sqlite3.Connection, latest: sqlite3.Row) -> _AttemptContext:
+    from .source_attempts import latest_unstaged
+
+    prestage = latest_unstaged(connection, latest["dataset"], latest["session"], latest["sequence"])
+    return _AttemptContext(
+        str(prestage[0]) if prestage else latest["job_id"],
+        str(prestage[1]) if prestage else latest["status"],
+        (str(prestage[2]),)
+        if prestage and prestage[2]
+        else tuple(json.loads(latest["result_json"] or "[]")),
+        str(prestage[3] or "") if prestage else latest["source_sha256"],
+        "full" if prestage else latest["scope"],
+        prestage is not None or latest["status"] != "fullfort",
+    )
+
+
 def read_inventory(database: Path, job_ids: tuple[str, ...]) -> InventorySnapshot:
     """Les valgte inventarer, kjente ID-er og forsøkskontekst i ett SQLite-snapshot.
 
@@ -616,6 +674,7 @@ def read_inventory(database: Path, job_ids: tuple[str, ...]) -> InventorySnapsho
                 "ORDER BY sequence DESC LIMIT 1",
                 (dataset, session),
             ).fetchone()
+            attempt_context = _latest_attempt_context(connection, latest)
             for head in connection.execute(
                 "SELECT * FROM decision_heads WHERE dataset=? AND session=? ORDER BY decision_id",
                 (dataset, session),
@@ -631,15 +690,6 @@ def read_inventory(database: Path, job_ids: tuple[str, ...]) -> InventorySnapsho
                     "SELECT classification FROM sync_entries WHERE job_id=? AND decision_id=?",
                     (latest["job_id"], head["decision_id"]),
                 ).fetchone()
-                observation_status = (
-                    "siste forsøk ikke fullført"
-                    if latest["status"] != "fullfort"
-                    else "ikke omfattet av siste valgte observasjon"
-                    if last is None
-                    else "mangler i siste fulle svar"
-                    if last[0] == "mangler"
-                    else "observert"
-                )
                 contexts.append(
                     InventoryContext(
                         dataset,
@@ -651,12 +701,12 @@ def read_inventory(database: Path, job_ids: tuple[str, ...]) -> InventorySnapsho
                         head["revision_id"],
                         head["generation"],
                         head["job_id"],
-                        latest["job_id"],
-                        latest["status"],
-                        observation_status,
-                        tuple(json.loads(latest["result_json"] or "[]")),
-                        latest["source_sha256"],
-                        latest["scope"],
+                        attempt_context.identifier,
+                        attempt_context.status,
+                        attempt_context.observation_status(last[0] if last else None),
+                        attempt_context.errors,
+                        attempt_context.source_sha256,
+                        attempt_context.scope,
                     )
                 )
         return InventorySnapshot(tuple(jobs), tuple(contexts), _now())
@@ -684,6 +734,7 @@ def read_revision(database: Path, revision_id: str) -> RevisionReport:
             "SELECT * FROM sync_jobs WHERE dataset=? AND session=? ORDER BY sequence DESC LIMIT 1",
             (revision["dataset"], revision["session"]),
         ).fetchone()
+        attempt_context = _latest_attempt_context(connection, latest)
         head_source = connection.execute(
             "SELECT source_sha256 FROM sync_jobs WHERE job_id=?",
             (head["job_id"],),
@@ -692,14 +743,8 @@ def read_revision(database: Path, revision_id: str) -> RevisionReport:
             "SELECT classification FROM sync_entries WHERE job_id=? AND decision_id=?",
             (latest["job_id"], revision["decision_id"]),
         ).fetchone()
-        observation_status = (
-            "siste forsøk ikke fullført"
-            if latest["status"] != "fullfort"
-            else "mangler i siste fulle svar"
-            if latest_entry and latest_entry[0] == "mangler"
-            else "ikke omfattet av siste valgte observasjon"
-            if latest_entry is None
-            else "observert"
+        observation_status = attempt_context.observation_status(
+            latest_entry[0] if latest_entry else None
         )
         choices: list[ControlReference] = []
         for row in connection.execute(
@@ -741,11 +786,11 @@ def read_revision(database: Path, revision_id: str) -> RevisionReport:
         freshness,
         _now(),
         head_source,
-        latest["job_id"],
-        latest["status"],
+        attempt_context.identifier,
+        attempt_context.status,
         observation_status,
-        latest["source_sha256"],
-        json.loads(latest["result_json"] or "[]"),
+        attempt_context.source_sha256,
+        list(attempt_context.errors),
         choices,
     )
 

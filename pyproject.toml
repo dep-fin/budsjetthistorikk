@@ -5,7 +5,7 @@ pythonpath = ["."]
 [tool.mypy]
 python_version = "3.12"
 strict = true
-files = ["innlesning", "analyse"]
+files = ["innlesning", "analyse", "drift"]
 
 [tool.ruff]
 target-version = "py312"

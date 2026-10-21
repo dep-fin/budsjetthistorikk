@@ -115,3 +115,12 @@ En oversikt som skiller bevart kildeinnhold, strukturert innhold og gjeldende fa
 
 **Avstemmingsomfang**:
 Det uttrykkelige budsjettåret, perioden, beløpsbegrepet, detaljeringsnivået, enheten og kontoutvalget som gjør to beløpsgrunnlag sammenlignbare. Årets bevilgning, samlet tilgjengelig bevilgning og regnskapsutfall er ulike omfang. Manglende rad og observert null er forskjellige opplysninger.
+
+**Kildeforsøk**:
+En varig registrert hensikt om å hente en kilde, opprettet før HTTP. Råbyte/hash finnes først når en faktisk respons foreligger. Et nyere feilet/ventende forsøk kan gjøre tidligere faglige verdier ikke vurderbare uten å endre deres historiske resultater.
+
+**Datojobb**:
+Én teknisk jobb per pipeline og lokal kalenderdato i Europe/Oslo. Flere prosessforsøk deler datojobben; uteblitte datoer får ingen rekonstruerte kildeobservasjoner.
+
+**Varslingsoutbox**:
+Varig kø over konkrete, stabile avviksforhold før ekstern GitHub-levering. Leveringsstatus er adskilt fra kildeinnlesning og faglig kontroll. Tvetydig opprettelse må avstemmes mot eksisterende marker/binding.
