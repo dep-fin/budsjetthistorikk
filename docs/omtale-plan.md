@@ -6,6 +6,8 @@ Del av målbildet i [#1](https://github.com/depmartin/budsjetthistorikk/issues/1
 
 Gjeldende overordnet omtalespesifikasjon: [#32](https://github.com/depmartin/budsjetthistorikk/issues/32), del av #1. Les også kommentarene der før videre arbeid.
 
+**O1-oppfølging 22. oktober 2026:** [Kildeundersøkelsen](research/omtale-o1/README.md) har nå bevart og kontrollert originalene, postomtalen og kjeden til vedtak 210. [O2-pilot og to små komplette byggetickets](research/omtale-o1/o2-forslag.md) er foreslått til godkjenning. Ingen omtaleimplementering eller publisering av byggetickets er utført. O1-raden og nyøktprompten nedenfor bevarer planens opprinnelige utgangspunkt; videre arbeid skal bruke O1-resultatet.
+
 ## Problem
 
 Brukeren vil velge et kapittel eller en post, se hvor bevilgningen ble endret i et budsjettår og hente frem den konkrete kapittel- og postomtalen i proposisjon og innstilling som forklarer forslaget og behandlingen. Dokumentnummer alene gir ikke denne forklaringen. Brukeren vil også kunne undersøke endringer på tvers av år med et spørsmål som «hvilke bevilgningsendringer skyldtes tema X?», med etterprøvbare tekstbelegg og synlige grenser for hva materialet faktisk beviser.

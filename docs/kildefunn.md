@@ -2,6 +2,12 @@
 
 Dette er faglige og tekniske funn som skal brukes på tvers av agentøkter. Dokumentet ligger på main og gjelder også før hele forskningsarbeidet i #2 er ferdig. Funn, kildebevis og konsekvens holdes samlet.
 
+## Omtale for vedtak 210: O1-kildebevis
+
+**Kontrollert 22. oktober 2026 under #32:** [O1-rapporten](research/omtale-o1/README.md) bevarer seks offisielle originalrepresentasjoner med HTTP-metadata, SHA-256 og presise HTML-/PDF-lokatorer. Prop. 16 S forklarer 3 mill. kroner fra 1429/22 til egne stillinger på 1429/1, samt et avrundet lønnsanslag på 2,8 mill. Innst. 81 S støtter forslaget fra samlet komité; plenumsreferatet dokumenterer enstemmig vedtakelse. Eksakte vedtaksendringer er +5 796 000 og −3 000 000. Koblingen dokumenteres med postomtale, konkrete forslag/tilråding, votering og 210/40034048, utover felles saksmetadata.
+
+**Konsekvens:** Prøven kan brukes til et komplett omtalesnitt, men gir ingen autentisk komitéendring eller mindretallsrolle. Beregnet rest 2 796 000 er ikke et observert eksakt lønnsbeløp. Post 22s to rånavn og post 60s fullmaktskontekst beholdes; omtale gir ingen nye beløpshendelser eller årsdekning. [To foreslåtte O2-tickets](research/omtale-o1/o2-forslag.md) skal godkjennes før publisering/bygging. Nye vedtak registreres uavhengig av omtale og historisk Excel; #10s driftsaksept står åpen.
+
 ## Historiske 2024-kolonner: P2-kontroll og bruksgrenser
 
 **Kontrollert 22. oktober 2026:** [P2-matrisen](research/historisk-excel/p13-p2/README.md) binder alle ni beløpskolonner til avgrenset kontrollbruk og konkrete kildebevis. Hs faktor 1 000 000 er validert for 1 573 felles kontrollaggregater; 726 leksikalske presisjonsspor beholdes. Et separat binær-/ULP-begrenset heltallsforslag gir eksakt samsvar i dette omfanget, uten aktivering. 120 H-nullrester er klassifisert som 64 offisielle flyttinger, ett uttrykkelig nullomfang og 55 uavklarte fraværsårsaker. Fravær blir ingen nullbevilgning eller ikke-eksistens.

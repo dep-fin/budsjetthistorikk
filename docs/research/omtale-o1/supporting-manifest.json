@@ -1,0 +1,26 @@
+[
+  {
+    "repository_path": "tests/fixtures/b6/40034048.xml",
+    "bytes": 6058,
+    "sha256": "2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850",
+    "origin": "existing repository fixture, not fetched again in O1"
+  },
+  {
+    "repository_path": "tests/fixtures/b6/40034048.json",
+    "bytes": 786,
+    "sha256": "1b43cc3e77fb8b216d3d0bd2d51739c4200b38aabcdac907afcdf47d0218a79b",
+    "origin": "existing repository fixture, not fetched again in O1"
+  },
+  {
+    "repository_path": "tests/fixtures/b8/sak-100927.xml",
+    "bytes": 12383,
+    "sha256": "2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27",
+    "origin": "existing repository fixture, not fetched again in O1"
+  },
+  {
+    "repository_path": "tests/fixtures/b8/sak-100927.json",
+    "bytes": 1560,
+    "sha256": "07b85b79438fa1cfcc8774c36291fc28d0cfdc7d429ca82e1e5810bca89ac895",
+    "origin": "existing repository fixture, not fetched again in O1"
+  }
+]

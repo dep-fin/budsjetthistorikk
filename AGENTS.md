@@ -45,3 +45,5 @@ Før endringer i daglig drift, forsøksferskhet, schema 5 eller GitHub-outbox: l
 Før saksdokumenter, stikkordvisning eller frosset v2: les [B8-veiledningen](docs/b8-saksdokumenter.md), [kildeprøven](docs/research/b8/README.md) og [ADR 0010](docs/adr/0010-saksdokumenter-og-frosset-v2.md). Saksrelasjon er ingen postvis forslagstilknytning. B8 er separat berikelse; gamle observasjoner, B5-bindinger og B7s frosset-v1-standard beholdes.
 
 Før endringer i B8-Excel-visningen: les [B9-veiledningen](docs/b9-historikk.md) og [formatkontrollen](docs/research/b9/README.md). Historikk er en avledet hovedvisning med 13 kolonner; Historikkdetaljer bevarer tidligere felt. Kildenavn, beløpsbetydning, alternative grunnlag og globale avvik skal bevares uten ny faglig tolkning eller endret frosset JSON.
+
+Før omtalestrukturering eller post-/hendelseskobling under #32: les [O1-kildebevisene](docs/research/omtale-o1/README.md) og [O2-forslaget](docs/research/omtale-o1/o2-forslag.md). 210-prøven har samlet komité, avrundet lønnsomtale og to posthendelser. O2-ticketene er forslag uten byggemandat; omtale er et frivillig supplement til uavhengig vedtaksinnlesning.
