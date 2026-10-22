@@ -62,7 +62,7 @@ Python, SQLite og openpyxl er valgt etter U1 for lokal innlesning og uttrekk, jf
 | --- | --- | --- |
 | B8 / #28 – saksdokumenter og stikkord | Levert; se [B8-veiledningen](b8-saksdokumenter.md) og [kildeprøven](research/b8/README.md). | Saksmetadata, dokumentnumre, lenker og stikkord er tilgjengelige. Det er ingen innlest proposisjons-/innstillingstekst eller bevist postvis forslagstilknytning. |
 | B9 / #30 – Historikk som hovedvisning | Levert i [PR #31](https://github.com/depmartin/budsjetthistorikk/pull/31); se [B9-veiledningen](b9-historikk.md). | Historikk er første aktive ark med 13 kolonner, og tidligere felt bevares i Historikkdetaljer. Dette er presentasjon av bevart grunnlag, ikke ny årsaksforklaring. |
-| O1–O5 – omtale og senere temasøk | [Plan og spesifikasjon](omtale-plan.md) samler det bekreftede behovet og testgrensen. Rekkefølge og senere byggetickets er foreslått. | Start med O1: faktiske Prop. 16 S-/Innst. 81 S-passasjer til 210/1429/1 og 22, varig kildebevis og forslag til pilotsnitt/tickets. Deretter foreslås komplett 210-pilot, komitéendring, avgrenset årslinje og temasøk på tvers av år. Ingen funksjonsbygging nå. |
+| O1–O5 – omtale og senere temasøk | [O1-kildegrunnlaget](research/omtale-o1/README.md) er godkjent. O2 er godkjent/publisert som #34 og #35. | #34/O2a har mandat for post 1 og egen omtale-pilot-1-eksport. #35/O2b er oppfølger uten gjennomføringsmandat. O3–O5 krever senere kildevalg og mandat. Se [kontrakten](omtale-pilot.md). |
 
 Omtaleplanen har akseptporter, mandatgrense og en kopierbar nyøktprompt i anbefalt rekkefølge. #10s faktiske driftsaksept og #13s resterende historikkarbeid er separate spor. Fravær av historikk eller omtale skal aldri blokkere innlesning av nye offisielle vedtak.
 

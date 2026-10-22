@@ -1,0 +1,20 @@
+{
+  "scope": "O1 source and documentation verification; no product implementation test",
+  "source_hashes_verified": 6,
+  "supporting_files_verified": 4,
+  "html_blocks_resolved_and_text_matched": 18,
+  "utf8_replacement_characters": 0,
+  "local_markdown_links_checked": 82,
+  "pdf_pages_visually_checked": [
+    "Prop16S:3",
+    "Prop16S:4",
+    "Prop16S:8",
+    "Innst81S:1",
+    "Innst81S:2"
+  ],
+  "python_scripts_syntax_checked": 2,
+  "ruff": "unavailable in bundled runtime; not run",
+  "product_tests": "not run; no product code changed",
+  "staged_original_blobs_sha256_verified": 6,
+  "git_diff_cached_check": "passed; source whitespace preserved by scoped attributes"
+}

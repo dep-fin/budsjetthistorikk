@@ -1,5 +1,7 @@
 # Fremstilling av budsjetthistorikk
 
+O2a/#34 har en egen opt-in-kommando `python -m analyse.omtale` for post 1 i 210. Den bevarer uendret B8/B9 og lager selvforsynt `omtale-pilot-1` med originaler, omtale og kontrollerte relasjonsbelegg. [Kontrakten og kommandoene](../docs/omtale-pilot.md) beskriver også offline gjenlesing. Prøven reproduseres fra reporoten med `python -m ops.omtale_proeve --output work/omtale-post1-leveranse`. Ingen ny faglig godkjenning eller drift følger med.
+
 Den [historiske kontrollpakken](../docs/historisk-pilot.md) har egne `export`/`verify`-kommandoer i `python -m analyse.historical_package`. Hele lokalpiloten reproduseres med `python -m analyse.historical_pilot`; det [utførte kontrollomfanget](../docs/research/historisk-excel/pilot2024.md) skiller hele filen fra det avgrensede v2-utvalget.
 
 Analysedelen skal gi Finansavdelingen i Finansdepartementet oversikt over historiske budsjettforslag og budsjettvedtak.

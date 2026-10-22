@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-22",
+  "issue": 34,
+  "parent": 32,
+  "comparison_base": "d74d2cb",
+  "candidate_parent": "5887e180dcdfa85b16dea4cf8a79b91e7b2bdada",
+  "branch": "codex/34-omtale-post1",
+  "kind": "Lokal retterkontroll over fast review-/auditkandidat; ingen ny review/audit, CI eller merge",
+  "checks": {
+    "focused": "30 passed in 154.54s (0:02:34)",
+    "additional_resource_boundaries": "4 passed, 30 deselected in 13.91s",
+    "compatibility_b6_b8_b9": "128 passed in 49.70s",
+    "full_suite": "Ikke gjentatt; 814 passed, 2 skipped gjelder baseline 5887e18; CI gjenstår",
+    "ruff_check": "passed",
+    "ruff_format": "92 files already formatted",
+    "mypy": "Success: no issues found in 51 source files",
+    "git_diff_check": "passed",
+    "json_and_excel_reopened": true,
+    "offline_reexport_reopened": true,
+    "legacy_b8_json_excel_reopened_without_rewrite": true,
+    "previous_authentic_exports_bytes_and_ids_unchanged": true,
+    "source_bytes_preserved": 10
+  },
+  "runtime": {
+    "pytest": "8.3.5",
+    "mypy": "1.15.0",
+    "ruff": "0.11.0",
+    "openpyxl": "3.1.5",
+    "lxml": "6.1.3",
+    "pypdf": "6.10.0"
+  },
+  "model_mode": "Arvet agentmodell, Default. Eksakt modell-ID er ikke eksponert; ingen modellbytte gjort.",
+  "sources": [
+    {
+      "path": "docs\\research\\omtale-o1\\originals\\inns81s.pdf",
+      "bytes": 331688,
+      "sha256": "5a29d0553991759d8ddc234899647e9e6b5e1f2885bf13edccfb26105a6be496",
+      "match": true
+    },
+    {
+      "path": "docs\\research\\omtale-o1\\originals\\inns81s.html",
+      "bytes": 107925,
+      "sha256": "e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95",
+      "match": true
+    },
+    {
+      "path": "docs\\research\\omtale-o1\\originals\\votering-161224.html",
+      "bytes": 2094710,
+      "sha256": "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5",
+      "match": true
+    },
+    {
+      "path": "docs\\research\\omtale-o1\\originals\\prop16s.pdf",
+      "bytes": 733075,
+      "sha256": "677716056269c07b8ec81bcae91d814b975123791635548281038d9beb3aa5db",
+      "match": true
+    },
+    {
+      "path": "docs\\research\\omtale-o1\\originals\\prop16s-ch2.html",
+      "bytes": 100808,
+      "sha256": "258d26e6d324bde709bf3d1cb660d7eb6f4248f537d4b0c77e095f17697cf8df",
+      "match": true
+    },
+    {
+      "path": "docs\\research\\omtale-o1\\originals\\prop16s-ch4.html",
+      "bytes": 118163,
+      "sha256": "ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e",
+      "match": true
+    },
+    {
+      "path": "tests/fixtures/b6/40034048.xml",
+      "bytes": 6058,
+      "sha256": "2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850",
+      "match": true
+    },
+    {
+      "path": "tests/fixtures/b6/40034048.json",
+      "bytes": 786,
+      "sha256": "1b43cc3e77fb8b216d3d0bd2d51739c4200b38aabcdac907afcdf47d0218a79b",
+      "match": true
+    },
+    {
+      "path": "tests/fixtures/b8/sak-100927.xml",
+      "bytes": 12383,
+      "sha256": "2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27",
+      "match": true
+    },
+    {
+      "path": "tests/fixtures/b8/sak-100927.json",
+      "bytes": 1560,
+      "sha256": "07b85b79438fa1cfcc8774c36291fc28d0cfdc7d429ca82e1e5810bca89ac895",
+      "match": true
+    }
+  ],
+  "legacy_files_sha256": {
+    "legacy-b8.json.gz": "aeb256ea3c382cf8532da9587aa9f090d6658d62ee93b9f060e93f7d8070da62",
+    "legacy-b8.manifest.json": "6903af149f8a4571192addd75ebaeff380329d47b8819656f29aaca4b9e6cf48",
+    "legacy-b8.xlsx": "aff0035fbda3e8ec0ea4b8cc36628c835fed08bf2d0392a17ca5885d66cb597b",
+    "README.md": "f5aaed4ccad5d522704d16a8c6e3c02424ffc35b49a69bf4769988d673a9d287"
+  },
+  "report_id": "6021e1344038b6727f76cb09e77e382b4b5b1a48948acd977df0849eba391eb3",
+  "basis_id": "4fb6187784cfe233a89ce5d7180b4d76b3de669125d70c8eead7d70e9a0986a1",
+  "base_report_id": "5561efcab5b5e03a83dadff10f8c6e46d9b61a0726b713cd96db87e24d44ec64",
+  "observations_unfiltered": 6,
+  "events_unfiltered": 2,
+  "observations_selected": 3,
+  "sections": [
+    "P1_PDF",
+    "P1",
+    "PN",
+    "PT",
+    "K1",
+    "KS",
+    "KT",
+    "V"
+  ],
+  "relations": 6,
+  "relation_statuses": [
+    "kildeverifisert"
+  ],
+  "issues": [
+    "mindretall_kontrollert_fravaerende:Innst.81S"
+  ],
+  "artifacts": [
+    {
+      "path": "work\\omtale-post1-rettet-leveranse\\kontroll.json",
+      "bytes": 2004,
+      "sha256": "def67dd586a231121007b83504b8fa3e76c82fd11320bf0ccde3acdbdcfe4220"
+    },
+    {
+      "path": "work\\omtale-post1-rettet-leveranse\\offline-gjenlest.json",
+      "bytes": 4837383,
+      "sha256": "9b30322a3f2d97cba8b2a63a271750c70863ae2758158c6bd640838e91701fc8"
+    },
+    {
+      "path": "work\\omtale-post1-rettet-leveranse\\offline-gjenlest.xlsx",
+      "bytes": 1392324,
+      "sha256": "f7e4dccd1f97e842c4f5f663664f57eb72993842e86d8c5d063b27b1642760e4"
+    },
+    {
+      "path": "work\\omtale-post1-rettet-leveranse\\omtale-210-post1.json",
+      "bytes": 4837383,
+      "sha256": "9b30322a3f2d97cba8b2a63a271750c70863ae2758158c6bd640838e91701fc8"
+    },
+    {
+      "path": "work\\omtale-post1-rettet-leveranse\\omtale-210-post1.xlsx",
+      "bytes": 1392324,
+      "sha256": "bf07a9b35faf006b20b69f69fccd50f082f2bff20bffae6403f93525456d9040"
+    },
+    {
+      "path": "work\\omtale-post1-rettet-leveranse\\saksutvalg.json",
+      "bytes": 678,
+      "sha256": "d6fa46fe0631f5d3a3c46e93658f8df5605b6f147bfaf0a7130c7758044355f6"
+    },
+    {
+      "path": "work\\omtale-post1-rettet-leveranse\\uendret-b8.json",
+      "bytes": 82083,
+      "sha256": "7795cfd4f6079419fda643fb84d6a38640715046ce8d88b07892cb146eb2354e"
+    },
+    {
+      "path": "work\\omtale-post1-rettet-leveranse\\uendret-b9.xlsx",
+      "bytes": 37473,
+      "sha256": "a0349fad0d42d0ac52113b1a77252bab62434c1b6386d42a8a31941d976d416f"
+    }
+  ],
+  "visual_check": {
+    "engine": "@oai/artifact-tool 2.8.99",
+    "ranges": [
+      "Historikk!A1:M2",
+      "Omtale!F3:K3",
+      "Relasjoner!F1:L3",
+      "Omtalekilder!B1:I3",
+      "Omtaleavvik!A1:A2",
+      "Omtalegrunnlag!A1:B2"
+    ],
+    "native_excel": false,
+    "renderer_limitation": "Dato rendres som serienummer 45642. Faktisk XLSX er datetime 16.12.2024 med dd.mm.yyyy.",
+    "scope": "Tidligere layoutkontroll på 5887e18; ingen ny layoutendring eller ny render hevdet"
+  },
+  "limitations": [
+    "Bare O2a/post 1; #35/O2b krever eget mandat",
+    "#10 står åpen",
+    "Ingen faglig godkjenning eller årsdekning",
+    "Ingen ny HTTP eller live drift",
+    "Gjenlesing av O2a-Excel bruker midlertidig underkatalog ved inputfilen og krever skrivetilgang der",
+    "Samlet review og separat sikkerhetsaudit av rettet kandidat håndteres av orkestratoren"
+  ],
+  "baseline_checks": {
+    "head": "5887e180dcdfa85b16dea4cf8a79b91e7b2bdada",
+    "focused": "16 passed",
+    "full_suite": "814 passed, 2 skipped in 358.06s (0:05:58)",
+    "ruff_check": "passed",
+    "ruff_format": "91 files already formatted",
+    "mypy": "Success: no issues found in 50 source files",
+    "git_diff_check": "passed",
+    "json_and_excel_reopened": true,
+    "offline_reexport_reopened": true,
+    "legacy_b8_json_excel_reopened_without_rewrite": true,
+    "source_bytes_preserved": 10
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "previous_authentic_report_id": "299de472b0c01c64983a7816b178991fa5f76e4737bb33e86fb99d9f1f87de13",
+  "previous_artifacts": [
+    {
+      "path": "work\\omtale-post1-leveranse\\kontroll.json",
+      "bytes": 2004,
+      "sha256": "bf100483ca295d8fd1fdd7b75f2806cc6d0acc9c4aa79a379db780ea185ef309"
+    },
+    {
+      "path": "work\\omtale-post1-leveranse\\offline-gjenlest.json",
+      "bytes": 4837383,
+      "sha256": "dbf45447968895957087f15526cefe9bd394c3d748cdfa8f0b754acbb627d588"
+    },
+    {
+      "path": "work\\omtale-post1-leveranse\\offline-gjenlest.xlsx",
+      "bytes": 1392322,
+      "sha256": "e6d114074597508179a65dfd98a77c7a9aafdf47a43821282c14588e873a133a"
+    },
+    {
+      "path": "work\\omtale-post1-leveranse\\omtale-210-post1.json",
+      "bytes": 4837383,
+      "sha256": "dbf45447968895957087f15526cefe9bd394c3d748cdfa8f0b754acbb627d588"
+    },
+    {
+      "path": "work\\omtale-post1-leveranse\\omtale-210-post1.xlsx",
+      "bytes": 1392325,
+      "sha256": "8a64c7ad8b7b4165ff223cec847013980f05e20822c3e9ee6c0a5e56ecf13098"
+    },
+    {
+      "path": "work\\omtale-post1-leveranse\\saksutvalg.json",
+      "bytes": 678,
+      "sha256": "d442673fb857fb84936af9ba3915dfa1aba65f32b6a685abcf33d47f3392b7ef"
+    },
+    {
+      "path": "work\\omtale-post1-leveranse\\uendret-b8.json",
+      "bytes": 82083,
+      "sha256": "299db6f1becc6a78fad357801f7d636769713130be75485b9d4231ba7ea2f09f"
+    },
+    {
+      "path": "work\\omtale-post1-leveranse\\uendret-b9.xlsx",
+      "bytes": 37469,
+      "sha256": "2634bb449aef3dc7a37d1b6c4e5187938be7c252fb6ca2fcbcd01fc500e366df"
+    }
+  ],
+  "review_audit_fixes": "retting-review-audit.json"
+}
