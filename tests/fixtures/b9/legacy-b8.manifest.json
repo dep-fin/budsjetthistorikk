@@ -1,0 +1,29 @@
+{
+  "fixture_kind": "synthetic_original_b8_writer",
+  "base_commit": "a7fc7d9996733dcaa73589c2fa8a3906059b4413",
+  "writer_source": "analyse/saksdokumenter.py",
+  "writer_source_sha256": "4c1874cc31dee9f2211d1ef5d999d3a4a0cc6f173717148dd15851ebe7d20b1d",
+  "original_writer_and_verifier_passed": true,
+  "source_snapshot": {
+    "bytes": 94551,
+    "sha256": "2d855c97abf6af30e6eb64817bfc50778f5f7ffb7deee56362ff8caf1e908cbe"
+  },
+  "format": "b6-frozen-2",
+  "report_id": "0444f32ef14c71f1cf1eae0ba17c8aa7fff2bf3a402358a4c4fdec82eaef4d7f",
+  "synthetic_raw_record": {
+    "text": "syntetisk raatekst ",
+    "repeat": 2500
+  },
+  "xlsx": {
+    "bytes": 39735,
+    "sha256": "aff0035fbda3e8ec0ea4b8cc36628c835fed08bf2d0392a17ca5885d66cb597b"
+  },
+  "compressed_json": {
+    "bytes": 17098,
+    "sha256": "aeb256ea3c382cf8532da9587aa9f090d6658d62ee93b9f060e93f7d8070da62"
+  },
+  "uncompressed_json": {
+    "bytes": 351294,
+    "sha256": "838aed96d7a4c1a42530e1d788245a838da051c2cdd552acb37d061d404fdd02"
+  }
+}

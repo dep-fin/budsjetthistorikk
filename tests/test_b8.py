@@ -705,6 +705,9 @@ def test_stikkord_checks_text_outside_markers_and_exports_known_words_with_uncer
         assert len(displayed) == 3
         assert all("Uavklart:" in value for value in displayed)
         assert all(all(word in value for word in words) for value in displayed)
+        assert "Uavklart:" in book["Historikk"]["E3"].value
+        assert all(word in book["Historikk"]["E3"].value for word in words)
+        assert "Uavklart stikkord" in book["Historikk"]["M3"].value
     finally:
         book.close()
 
@@ -839,7 +842,7 @@ def test_fullmakt211_is_preserved_without_an_extra_financial_event_and_many_docs
     book = load_workbook(output)
     try:
         assert book["Beløpsobservasjoner"].max_row == 7
-        history = book["Historikk"]
+        history = book["Historikkdetaljer"]
         assert history.max_row == 3
         history_headers = {c.value: c.column for c in history[1]}
         expected = {
@@ -855,7 +858,7 @@ def test_fullmakt211_is_preserved_without_an_extra_financial_event_and_many_docs
                 )
                 == expected[post]
             )
-        assert "Innstilling 2" in [c.value for c in book["Historikk"][1]]
+        assert "Innstilling 2" in [c.value for c in book["Historikkdetaljer"][1]]
         assert any(
             "Stikkordsfullmakt" in str(c.value) for row in book["Vedtaksfulltekst"] for c in row
         )
