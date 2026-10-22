@@ -10,6 +10,7 @@ from lxml import etree, html
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill
 from openpyxl.utils import get_column_letter
+from openpyxl.worksheet.worksheet import Worksheet
 
 from innlesning.ingestion import text
 from innlesning.model import Decision
@@ -51,6 +52,46 @@ def write_rows(workbook: Workbook, title: str, rows: list[list[Value]]) -> None:
         for row_number, values in enumerate(continuation_rows, 1):
             for column, value in enumerate(values, 1):
                 put(continuation.cell(row_number, column), value)
+
+
+def verify_continued_text(
+    sheet: Worksheet, expected: Worksheet, *, stored_pointers: dict[str, str] | None = None
+) -> dict[str, str]:
+    """Kontroller videreføringer mot skriverens oppdeling og gjenbygg hele cellefeltet."""
+    book, expected_book = sheet.parent, expected.parent
+    assert book is not None and expected_book is not None
+    name = f"{sheet.title[:18]} fortsettelse"
+    expected_name = f"{expected.title[:18]} fortsettelse"
+    names = {n for n in book.sheetnames if n.startswith(name)}
+    if names != ({name} if expected_name in expected_book else set()):
+        raise ValueError(f"{sheet.title} har manglende eller uventet videreføringsark")
+    if not names:
+        return {}
+    continued, wanted = book[name], expected_book[expected_name]
+    if (continued.max_row, continued.max_column) != (wanted.max_row, wanted.max_column):
+        raise ValueError(f"{sheet.title} har feil videreføringsrader eller kolonner")
+    texts: dict[str, str] = {}
+    for number, (wanted_row, actual_row) in enumerate(zip(wanted, continued, strict=True), 1):
+        values = [c.value for c in wanted_row]
+        coordinate = str(values[0]).removeprefix(f"{expected.title}!")
+        if number > 1:
+            pointer = f"{sheet.title}!{coordinate}"
+            values[0] = stored_pointers.get(pointer, pointer) if stored_pointers else pointer
+        for value, cell in zip(values, actual_row, strict=True):
+            if (
+                cell.value != value
+                or (isinstance(value, str) and cell.data_type != "s")
+                or (isinstance(value, int) and type(cell.value) is not int)
+            ):
+                raise ValueError(f"{sheet.title} har feil videreført tekst, del eller cellepeker")
+        if number > 1:
+            if coordinate not in texts:
+                origin = sheet[coordinate]
+                if not isinstance(origin.value, str) or origin.data_type != "s":
+                    raise ValueError(f"{sheet.title} mangler videreføringens opprinnelige tekst")
+                texts[coordinate] = origin.value
+            texts[coordinate] += str(actual_row[2].value)
+    return texts
 
 
 @dataclass(frozen=True)

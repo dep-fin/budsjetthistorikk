@@ -6,4 +6,5 @@ __pycache__/
 *.sqlite
 *.sqlite-*
 *.xlsx
+!tests/fixtures/b9/legacy-b8.xlsx
 /work/

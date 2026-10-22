@@ -2,6 +2,7 @@
 
 import json
 import os
+import re
 import sqlite3
 from dataclasses import asdict, dataclass, replace
 from pathlib import Path
@@ -10,7 +11,7 @@ from typing import Any
 
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Alignment, Font, PatternFill
-from openpyxl.utils import get_column_letter
+from openpyxl.utils import column_index_from_string, get_column_letter
 from openpyxl.worksheet.hyperlink import Hyperlink
 from openpyxl.worksheet.worksheet import Worksheet
 
@@ -27,7 +28,8 @@ from innlesning.saksdokumenter import (
 from innlesning.sync import read_revision
 
 from .excel import put
-from .extraction_excel import SourceTextSnapshot, Value
+from .extraction_excel import SourceTextSnapshot, Value, verify_continued_text
+from .saks_history_excel import verify_history_view, write_history_view
 from .session import (
     SessionReport,
     SessionSelection,
@@ -35,7 +37,7 @@ from .session import (
     build_session_report,
     selection_from_dict,
 )
-from .session_excel import _write, write_rows
+from .session_excel import _history_rows, _write, write_rows
 from .session_serialization import MAX_REPORT_BYTES, _constant, _decode, _object
 from .session_serialization import report_from_json as base_from_json
 from .session_serialization import report_to_json as base_to_json
@@ -332,6 +334,7 @@ def _amount_documents(sheet: Worksheet, report: SaksReport) -> None:
     contexts = {c.decision_revision_id: c for c in report.contexts}
     enrichments = {e.id: e for e in report.enrichments}
     headers = {c.value: n for n, c in enumerate(sheet[1], 1)}
+    original_headers = [str(c.value) for c in sheet[1]]
     post_column = headers["Post"]
     sheet.insert_cols(post_column + 1)
     put(sheet.cell(1, post_column + 1), "Stikkord")
@@ -399,6 +402,17 @@ def _amount_documents(sheet: Worksheet, report: SaksReport) -> None:
                 if publication.url:
                     cell.hyperlink = Hyperlink(ref=cell.coordinate, target=publication.url)
                     cell.style = "Hyperlink"
+    # Tekstvidereføringene ble skrevet før B8-kolonnene ble satt inn.
+    continuation_name = f"{sheet.title[:18]} fortsettelse"
+    parent = sheet.parent
+    assert parent is not None
+    if continuation_name in parent:
+        for row in parent[continuation_name].iter_rows(min_row=2):
+            address = re.fullmatch(re.escape(sheet.title) + r"!([A-Z]+)([0-9]+)", str(row[0].value))
+            if address:
+                label = original_headers[column_index_from_string(address[1]) - 1]
+                column = headers["Teknisk API-ID" if label == "Vedtak" else label]
+                put(row[0], f"{sheet.title}!{get_column_letter(column)}{address[2]}")
     _decorate(sheet)
 
 
@@ -565,6 +579,51 @@ def _document_sheets(book: Workbook, report: SaksReport) -> None:
 def verify_saks_excel(path: Path, report: SaksReport) -> None:
     saved = load_workbook(path, read_only=False, data_only=False, keep_links=False)
     try:
+        new_layout = "Historikkdetaljer" in saved
+        if new_layout:
+            verify_history_view(saved, report)
+        reserve_book = Workbook()
+        try:
+            write_rows(reserve_book, "Historikk", _history_rows(report.base))
+            continuation = (
+                reserve_book["Historikk fortsettelse"]
+                if "Historikk fortsettelse" in reserve_book
+                else None
+            )
+            # Original B8 lagret B6-pekerne før dokumentkolonnene ble satt inn.
+            legacy_pointers = (
+                [str(row[0].value) for row in continuation.iter_rows(min_row=2)]
+                if not new_layout and continuation is not None
+                else []
+            )
+            _amount_documents(reserve_book["Historikk"], report)
+            stored_pointers = (
+                {
+                    str(row[0].value): old
+                    for row, old in zip(
+                        continuation.iter_rows(min_row=2), legacy_pointers, strict=True
+                    )
+                }
+                if legacy_pointers and continuation is not None
+                else None
+            )
+            reserve = saved["Historikkdetaljer" if new_layout else "Historikk"]
+            if (reserve.max_row, reserve.max_column) != (
+                reserve_book["Historikk"].max_row,
+                reserve_book["Historikk"].max_column,
+            ):
+                raise ValueError("Historikkdetaljer mangler tidligere rader eller kolonner")
+            for expected_row, actual_row in zip(reserve_book["Historikk"], reserve, strict=True):
+                for wanted, cell in zip(expected_row, actual_row, strict=True):
+                    if cell.value != wanted.value or (
+                        cell.hyperlink.target if cell.hyperlink else None
+                    ) != (wanted.hyperlink.target if wanted.hyperlink else None):
+                        raise ValueError("Historikkdetaljer avviker fra tidligere detaljfelt")
+            verify_continued_text(
+                reserve, reserve_book["Historikk"], stored_pointers=stored_pointers
+            )
+        finally:
+            reserve_book.close()
         sheet = saved["Beløpsobservasjoner"]
         headers = {c.value: n for n, c in enumerate(sheet[1], 1)}
         actual = {str(row[0].value): row for row in sheet.iter_rows(min_row=2)}
@@ -701,6 +760,7 @@ def export_built_saks_excel(
         _decorate(book["Saksgrunnlag"])
         book["Saksgrunnlag"].column_dimensions["A"].width = 52
         book["Saksgrunnlag"].column_dimensions["B"].width = 90
+        write_history_view(book, report)
         output.parent.mkdir(parents=True, exist_ok=True)
         with NamedTemporaryFile(dir=output.parent, suffix=".xlsx", delete=False) as handle:
             temporary = Path(handle.name)

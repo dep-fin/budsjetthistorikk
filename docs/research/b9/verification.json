@@ -1,0 +1,483 @@
+{
+  "checked_date": "2026-10-22",
+  "scope": "B9 lokal kandidat; review, CI, merge og brukerleveranse etter merge er ikke påstått utført",
+  "base_commit": "a7fc7d9996733dcaa73589c2fa8a3906059b4413",
+  "snapshot_id": "d0c677cee11fa8d38677c2afa581c5717145524f25323bc1a334c0a5d831b62c",
+  "snapshot_format": "b6-frozen-2",
+  "frozen_json_byte_identical": true,
+  "previous_actual_b8_excel_verifiable_without_rewrite": true,
+  "offline_export_database_absent_before_and_after": true,
+  "old_input_files_unchanged": {
+    "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\b9-historikk\\tests\\fixtures\\b6\\40034048.xml": {
+      "bytes": 6058,
+      "sha256": "2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850"
+    },
+    "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\b9-historikk\\tests\\fixtures\\b6\\40034048.json": {
+      "bytes": 786,
+      "sha256": "1b43cc3e77fb8b216d3d0bd2d51739c4200b38aabcdac907afcdf47d0218a79b"
+    },
+    "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\b9-historikk\\tests\\fixtures\\b8\\sak-100927.xml": {
+      "bytes": 12383,
+      "sha256": "2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27"
+    },
+    "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\b9-historikk\\tests\\fixtures\\b8\\sak-100927.json": {
+      "bytes": 1560,
+      "sha256": "07b85b79438fa1cfcc8774c36291fc28d0cfdc7d429ca82e1e5810bca89ac895"
+    },
+    "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\outputs\\vedtak-210-2026-10-22\\vedtak-210.xlsx": {
+      "bytes": 37477,
+      "sha256": "64f040412d0d9dabc3c4cec366c918bd8c5442ef5e2cb8f474797d247ec398cb"
+    },
+    "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\outputs\\vedtak-210-2026-10-22\\vedtak-210.json": {
+      "bytes": 94551,
+      "sha256": "2d855c97abf6af30e6eb64817bfc50778f5f7ffb7deee56362ff8caf1e908cbe"
+    },
+    "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\vedtak-210-delivery\\vedtak-210.sqlite": {
+      "bytes": 253952,
+      "sha256": "a79aeb685f860f6b35ad9a2381c83292bb02d61b4b8e18bff0b16246436a7792"
+    }
+  },
+  "qa_excel": {
+    "bytes": 39571,
+    "sha256": "0ce968bfb0bcc5c64060350a7ec16212d077713f9a2d5411a134a7ec9d4bf760"
+  },
+  "qa_json": {
+    "bytes": 94551,
+    "sha256": "2d855c97abf6af30e6eb64817bfc50778f5f7ffb7deee56362ff8caf1e908cbe"
+  },
+  "original_sheet_values_and_hyperlinks_retained": 21,
+  "original_rectangular_cells_compared": 1225,
+  "sheets": [
+    {
+      "name": "Historikk",
+      "rows": 3,
+      "columns": 13
+    },
+    {
+      "name": "Sesjonsgrunnlag",
+      "rows": 8,
+      "columns": 2
+    },
+    {
+      "name": "Kildeinventar",
+      "rows": 2,
+      "columns": 28
+    },
+    {
+      "name": "Inventarjobber",
+      "rows": 2,
+      "columns": 2
+    },
+    {
+      "name": "Dekning",
+      "rows": 2,
+      "columns": 11
+    },
+    {
+      "name": "Beløpsobservasjoner",
+      "rows": 7,
+      "columns": 47
+    },
+    {
+      "name": "Historikkdetaljer",
+      "rows": 3,
+      "columns": 39
+    },
+    {
+      "name": "Summer",
+      "rows": 4,
+      "columns": 12
+    },
+    {
+      "name": "Historikkberegninger",
+      "rows": 1,
+      "columns": 5
+    },
+    {
+      "name": "Kontrollresultater",
+      "rows": 1,
+      "columns": 5
+    },
+    {
+      "name": "Avvik",
+      "rows": 30,
+      "columns": 11
+    },
+    {
+      "name": "Avstemming",
+      "rows": 2,
+      "columns": 13
+    },
+    {
+      "name": "Kildeprøvekontroll",
+      "rows": 2,
+      "columns": 5
+    },
+    {
+      "name": "Eksportavstemming",
+      "rows": 3,
+      "columns": 3
+    },
+    {
+      "name": "Vedtaksfulltekst",
+      "rows": 2,
+      "columns": 5
+    },
+    {
+      "name": "Tekstopplysninger",
+      "rows": 1,
+      "columns": 7
+    },
+    {
+      "name": "Inventarfulltekst",
+      "rows": 1,
+      "columns": 8
+    },
+    {
+      "name": "Saksdokumenter",
+      "rows": 6,
+      "columns": 17
+    },
+    {
+      "name": "Dokumentrelasjoner",
+      "rows": 8,
+      "columns": 7
+    },
+    {
+      "name": "Dokumentavvik",
+      "rows": 1,
+      "columns": 8
+    },
+    {
+      "name": "Stikkordgrunnlag",
+      "rows": 3,
+      "columns": 11
+    },
+    {
+      "name": "Saksgrunnlag",
+      "rows": 12,
+      "columns": 2
+    }
+  ],
+  "main_headers": [
+    "Kapittelnummer",
+    "Postnummer",
+    "Kapittelnavn",
+    "Postnavn",
+    "Stikkord",
+    "Dato",
+    "Vedtaksnummer",
+    "Innstillingsnummer",
+    "Proposisjon",
+    "Beløp før vedtak",
+    "Vedtatt endring",
+    "Beløp etter vedtak",
+    "Kontrollstatus"
+  ],
+  "main_dates": [
+    {
+      "value": "2024-12-16T00:00:00",
+      "type": "d",
+      "number_format": "dd.mm.yyyy"
+    },
+    {
+      "value": "2024-12-16T00:00:00",
+      "type": "d",
+      "number_format": "dd.mm.yyyy"
+    }
+  ],
+  "main_amounts": [
+    [
+      160243000,
+      5796000,
+      166039000
+    ],
+    [
+      32185000,
+      -3000000,
+      29185000
+    ]
+  ],
+  "main_amount_number_format": "#,##0\" kr\"",
+  "main_freeze": "C2",
+  "main_filter": "A1:M3",
+  "all_sheets_visible": true,
+  "formula_cells": 0,
+  "excel_error_cells": 0,
+  "main_document_urls": [
+    [
+      "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-081s/",
+      "https://www.regjeringen.no/id/PRP202420250016000DDDEPIS"
+    ],
+    [
+      "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-081s/",
+      "https://www.regjeringen.no/id/PRP202420250016000DDDEPIS"
+    ]
+  ],
+  "native_excel_checked": false,
+  "live_document_availability_checked": false,
+  "professional_approval_added": false,
+  "issue_10_closed": false,
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "qa_excel_sha256_after_read_only_artifact_render": "0ce968bfb0bcc5c64060350a7ec16212d077713f9a2d5411a134a7ec9d4bf760",
+  "old_input_files_unchanged_after_qa": true,
+  "artifact_tool": {
+    "bundle": "26.1017.31632",
+    "read_only_import_no_xlsx_reexport": true,
+    "rendered_ranges": [
+      {
+        "sheet": "Historikk",
+        "range": "A1:F3"
+      },
+      {
+        "sheet": "Historikk",
+        "range": "G1:M3"
+      },
+      {
+        "sheet": "Historikkdetaljer",
+        "range": "A1:M3"
+      },
+      {
+        "sheet": "Saksdokumenter",
+        "range": "E1:M6"
+      }
+    ],
+    "date_renderer_limitation": "PNG viser 45642 selv om lagret celle er en dato med dd.mm.yyyy; importert computedStyle bevarer dd.mm.yyyy",
+    "numeric_separator_renderer_limitation": "PNG bruker runtime-språk; Excel-celleformatet bruker lokale tusenskiller",
+    "main_text_amounts_link_labels_and_keywords_visually_checked": true
+  },
+  "pending_external_gates": [
+    "samlet Standards-/Spec-review",
+    "separat defensiv sikkerhetsaudit",
+    "CI",
+    "bekreftet merge",
+    "brukerleveranse etter merge"
+  ],
+  "checks_before_continuation_verifier_fix": {
+    "targeted": {
+      "command": "python -m pytest tests/test_b8.py tests/test_b9.py -q --basetemp ../t9focused",
+      "passed": 78,
+      "skipped": 0,
+      "seconds": 24.68
+    },
+    "ruff_check": {
+      "command": "python -m ruff check .",
+      "status": "passed"
+    },
+    "ruff_format": {
+      "command": "python -m ruff format --check .",
+      "status": "passed",
+      "files": 84
+    },
+    "mypy": {
+      "command": "python -m mypy",
+      "status": "passed",
+      "source_files": 48
+    },
+    "git_diff_check": "passed",
+    "full_suite": {
+      "command": "python -m pytest -q --basetemp ../t9complete",
+      "status": "passed",
+      "passed": 765,
+      "skipped": 2,
+      "seconds": 269.97,
+      "skip_scope": "to eksisterende Windows-vertsrettighetsprøver"
+    }
+  },
+  "continuation_verifier_fix": {
+    "candidate_commit": "8d24e70a101e494b2e0143dbbaf3882c348dd049",
+    "state": "uncommitted_fix; no new review, commit, CI or merge claimed",
+    "red_before_fix": {
+      "test": "test_public_verifier_rejects_missing_long_main_text_continuation",
+      "failed": 1,
+      "deselected": 27,
+      "reason": "DID NOT RAISE ValueError after removing Historikk fortsettelse",
+      "seconds": 1.33
+    },
+    "public_boundary": "frozen v2 -> export_built_saks_excel -> saved XLSX -> verify_saks_excel",
+    "full_main_text_reconstructed_and_compared": true,
+    "expected_chunks_reuse_existing_writer": true,
+    "main_and_detail_continuations_share_verification": true,
+    "valid_synthetic_main_text_lengths": [
+      37500,
+      67500
+    ],
+    "damaged_main_variants_rejected": [
+      "missing_sheet",
+      "sheet_name",
+      "header",
+      "origin",
+      "part",
+      "part_order",
+      "text",
+      "missing_row",
+      "extra_row",
+      "extra_column",
+      "extra_sheet",
+      "formula",
+      "main_formula",
+      "main_text"
+    ],
+    "unexpected_continuation_without_long_fields_rejected": true,
+    "formula_looking_source_chunks_remain_text": true,
+    "frozen_json_unchanged_in_valid_long_main_tests": true,
+    "legacy_b8_with_long_details_verifiable_without_rewrite": false,
+    "previous_actual_b8_excel_reverified_without_rewrite": true,
+    "previous_actual_b8_json_sha256": "2d855c97abf6af30e6eb64817bfc50778f5f7ffb7deee56362ff8caf1e908cbe",
+    "previous_actual_b8_excel_sha256": "64f040412d0d9dabc3c4cec366c918bd8c5442ef5e2cb8f474797d247ec398cb",
+    "writer_or_frozen_contract_changed": false,
+    "additional_visual_render_needed": false,
+    "visual_scope": "verification only; workbook views and writer unchanged",
+    "legacy_b8_compatibility_evidence_correction": "The previous long-detail test renamed a B9 file whose pointers were already corrected; it did not prove compatibility with original B8 writer output. See legacy_b8_compatibility_fix."
+  },
+  "checks_before_legacy_b8_compatibility_fix": {
+    "targeted": {
+      "command": "python -m pytest tests/test_b8.py tests/test_b9.py -q --basetemp ../t9fixfocused",
+      "passed": 96,
+      "skipped": 0,
+      "seconds": 37.82
+    },
+    "ruff_check": {
+      "command": "python -m ruff check .",
+      "status": "passed"
+    },
+    "ruff_format": {
+      "command": "python -m ruff format --check .",
+      "status": "passed",
+      "files": 84
+    },
+    "mypy": {
+      "command": "python -m mypy",
+      "status": "passed",
+      "source_files": 48
+    },
+    "git_diff_check": "passed",
+    "changed_markdown_local_links": {
+      "status": "passed",
+      "files": 2,
+      "links": 6
+    },
+    "full_suite": {
+      "command": "python -m pytest -q --basetemp ../t9fixfull",
+      "status": "passed",
+      "passed": 783,
+      "skipped": 2,
+      "seconds": 283.77,
+      "skip_scope": "to eksisterende Windows-vertsrettighetsprøver"
+    }
+  },
+  "legacy_b8_compatibility_fix": {
+    "candidate_commit": "eca8c671418c4b7d3bbc0de6eff2f20866827177",
+    "state": "uncommitted_fix; no new review, commit, CI or merge claimed",
+    "public_boundary": "immutable original-writer XLSX + frozen v2 -> verify_saks_excel",
+    "fixture": {
+      "directory": "tests/fixtures/b9",
+      "fixture_kind": "synthetic_original_b8_writer",
+      "base_commit": "a7fc7d9996733dcaa73589c2fa8a3906059b4413",
+      "writer_source": "analyse/saksdokumenter.py",
+      "writer_source_sha256": "4c1874cc31dee9f2211d1ef5d999d3a4a0cc6f173717148dd15851ebe7d20b1d",
+      "original_writer_and_verifier_passed": true,
+      "source_snapshot": {
+        "bytes": 94551,
+        "sha256": "2d855c97abf6af30e6eb64817bfc50778f5f7ffb7deee56362ff8caf1e908cbe"
+      },
+      "format": "b6-frozen-2",
+      "report_id": "0444f32ef14c71f1cf1eae0ba17c8aa7fff2bf3a402358a4c4fdec82eaef4d7f",
+      "synthetic_raw_record": {
+        "text": "syntetisk raatekst ",
+        "repeat": 2500
+      },
+      "xlsx": {
+        "bytes": 39735,
+        "sha256": "aff0035fbda3e8ec0ea4b8cc36628c835fed08bf2d0392a17ca5885d66cb597b"
+      },
+      "compressed_json": {
+        "bytes": 17098,
+        "sha256": "aeb256ea3c382cf8532da9587aa9f090d6658d62ee93b9f060e93f7d8070da62"
+      },
+      "uncompressed_json": {
+        "bytes": 351294,
+        "sha256": "838aed96d7a4c1a42530e1d788245a838da051c2cdd552acb37d061d404fdd02"
+      }
+    },
+    "fixture_generation": "python -m tests.create_b9_legacy_fixture tests/fixtures/b9/legacy-b8.json.gz work/b8-fixture-reproduction",
+    "original_module_loaded_unmodified_from_git_show": true,
+    "shared_b6_writer_and_continuation_writer_unchanged_from_base": true,
+    "ci_requires_git_network_or_database": false,
+    "red_before_fix": {
+      "test": "test_pre_b9_detailed_excel_layout_is_still_verifiable_without_rewriting_the_input",
+      "failed": 1,
+      "deselected": 43,
+      "seconds": 0.62,
+      "reason": "Historikk har feil videreført tekst, del eller cellepeker"
+    },
+    "legacy_stored_pointer": "Historikk!AB2",
+    "actual_final_source_cell": "Historikk!AH2",
+    "only_legacy_layout_uses_original_pointer_convention": true,
+    "legacy_fixture_verifiable_without_rewrite": true,
+    "b9_detail_rejects_original_b8_pointer_convention": true,
+    "damaged_legacy_variants_rejected": [
+      "text",
+      "part",
+      "pointer",
+      "final_pointer",
+      "missing_sheet",
+      "sheet_name",
+      "header",
+      "part_order",
+      "missing_row",
+      "extra_row",
+      "extra_column",
+      "extra_sheet",
+      "formula",
+      "origin_formula",
+      "pointer_formula"
+    ],
+    "previous_actual_b8_excel_and_json_reverified_without_rewrite": true,
+    "writer_or_frozen_contract_changed": false,
+    "additional_visual_render_needed": false,
+    "regeneration_from_committed_snapshot": {
+      "original_writer_and_verifier_passed": true,
+      "compressed_frozen_json_byte_identical": true,
+      "all_saved_sheet_values_identical": true,
+      "original_user_delivery_needed": false,
+      "xlsx_zip_timestamps_may_differ": true
+    }
+  },
+  "checks": {
+    "targeted": {
+      "command": "python -m pytest tests/test_b8.py tests/test_b9.py -q --basetemp ../t9legacyfocused",
+      "passed": 111,
+      "skipped": 0,
+      "seconds": 41.82
+    },
+    "ruff_check": {
+      "command": "python -m ruff check .",
+      "status": "passed"
+    },
+    "ruff_format": {
+      "command": "python -m ruff format --check .",
+      "status": "passed",
+      "files": 85
+    },
+    "mypy": {
+      "command": "python -m mypy",
+      "status": "passed",
+      "source_files": 48
+    },
+    "git_diff_check": "passed",
+    "changed_markdown_local_links": {
+      "status": "passed",
+      "files": 3,
+      "links": 13
+    },
+    "full_suite": {
+      "command": "python -m pytest -q --basetemp ../t9legacyfull",
+      "status": "passed",
+      "passed": 798,
+      "skipped": 2,
+      "seconds": 289.67,
+      "skip_scope": "to eksisterende Windows-vertsrettighetsprøver"
+    }
+  }
+}
