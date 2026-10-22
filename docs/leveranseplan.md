@@ -1,4 +1,6 @@
-# Godkjent første leveranse og ticketoppdeling
+# Leveranseplan
+
+Oppdatert 22. oktober 2026. Den opprinnelige første leveransen og dens godkjente oppdeling er bevart nedenfor. B8 og B9 er siden levert; neste anbefalte faglige spor er [kildeundersøkelse for postomtale](omtale-plan.md). Godkjent mål og testgrense må skilles fra byggemandat for nye funksjoner.
 
 Spesifikasjonen, testgrensene og oppdelingen ble godkjent av prosjekteieren 20. oktober 2026. Byggetickets er publisert som #4–#10. Kildeundersøkelsen #2 er levert i PR #11 med [akseptmatrise og byggegrense](research/issue-2/byggestart.md). De tre historiske kildekonfliktene gir ikke godkjent additiv historikk, men er avgrenset og har eksplisitte kontrollkrav. Python, SQLite og openpyxl og byggemandatet for B1 (#4) er godkjent. B1 har et implementert vertikalt snitt for ett opprinnelig vedtak; videre oppstart følger ticketenes avhengigheter og mandat. Se [arbeidsflyten](arbeidsflyt.md).
 
@@ -54,9 +56,19 @@ Excel-/CSV-filer er bekreftet arbeidsflate for manuelt vedlikehold og kontroll. 
 
 Python, SQLite og openpyxl er valgt etter U1 for lokal innlesning og uttrekk, jf. [ADR 0001](adr/0001-lokal-innlesning.md). Eieren valgte 21. oktober 2026 en varig Windows-vert med lokal lagring for B7. Konkret vert, driftskonto, datamappe og eksisterende bakgrunnstilgang er utsatt av eieren. Kode og reviewbart oppsett leveres med [driftsmanual](b7-drift.md) og [deterministisk kontrollrapport](research/b7/README.md); faktisk oppgaveinstallasjon og driftsprøve gjenstår. #10 forblir åpen til dette er akseptert. Ingen produksjonsressurser eller daglig jobb er opprettet. Materielle endringer i omfang, testaksept eller ticketoppdeling legges frem på nytt før videre bygging. Endelig mottakersystem for felles bruk er fortsatt åpent.
 
+## Leverte utvidelser og neste prioritet
+
+| Leveranse | Status 22. oktober 2026 | Betydning for neste arbeid |
+| --- | --- | --- |
+| B8 / #28 – saksdokumenter og stikkord | Levert; se [B8-veiledningen](b8-saksdokumenter.md) og [kildeprøven](research/b8/README.md). | Saksmetadata, dokumentnumre, lenker og stikkord er tilgjengelige. Det er ingen innlest proposisjons-/innstillingstekst eller bevist postvis forslagstilknytning. |
+| B9 / #30 – Historikk som hovedvisning | Levert i [PR #31](https://github.com/depmartin/budsjetthistorikk/pull/31); se [B9-veiledningen](b9-historikk.md). | Historikk er første aktive ark med 13 kolonner, og tidligere felt bevares i Historikkdetaljer. Dette er presentasjon av bevart grunnlag, ikke ny årsaksforklaring. |
+| O1–O5 – omtale og senere temasøk | [Plan og spesifikasjon](omtale-plan.md) samler det bekreftede behovet og testgrensen. Rekkefølge og senere byggetickets er foreslått. | Start med O1: faktiske Prop. 16 S-/Innst. 81 S-passasjer til 210/1429/1 og 22, varig kildebevis og forslag til pilotsnitt/tickets. Deretter foreslås komplett 210-pilot, komitéendring, avgrenset årslinje og temasøk på tvers av år. Ingen funksjonsbygging nå. |
+
+Omtaleplanen har akseptporter, mandatgrense og en kopierbar nyøktprompt i anbefalt rekkefølge. #10s faktiske driftsaksept og #13s resterende historikkarbeid er separate spor. Fravær av historikk eller omtale skal aldri blokkere innlesning av nye offisielle vedtak.
+
 ## Planforslag for historisk Excel under #13
 
-Den [startklare pilotplanen](pilotplan-historisk-excel.md) anbefaler én lokal byggeticket for hele 2024-arbeidsboken fra uendret original til historiske observasjoner, lagring, kontrollpakke og uavhengig sammenligning. Den [utførte tallprøven](research/historisk-excel/pilotkontroll.md) begrunner årvalget med konkrete treff og avvik, uten helårsavstemming eller faglig godkjenning. Planen omfatter verken full import av 2013–2025 eller endring av første leveranses omfang. Nye offisielle tall skal kunne registreres uavhengig av historiske filer. Byggemandat gjenstår; utsatt driftsaksept i #10 er fortsatt åpen og blokkerer ikke den lokale piloten.
+Den [opprinnelige pilotplanen](pilotplan-historisk-excel.md) foreslo én lokal byggeticket for hele 2024-arbeidsboken fra uendret original til historiske observasjoner, lagring, kontrollpakke og uavhengig sammenligning. Den [utførte tallprøven](research/historisk-excel/pilotkontroll.md) begrunnet årvalget med konkrete treff og avvik, uten helårsavstemming eller faglig godkjenning. P13-P1/#24 er siden levert med [2024-adapter og kontrollpakke](historisk-pilot.md), og P13-P2/#26 med [kildebelagt kontrollmatrise](research/historisk-excel/p13-p2/README.md). Tidligere omtale av manglende byggemandat gjelder planbestillingens historiske tidspunkt. Videre årganger, åpne faglige kolonne-/register-/hierarkispørsmål, normalisering og historiske kjedekonflikter hører fortsatt til #13. Ingen generell faglig godkjenning eller årsdekning følger av P1/P2. Nye offisielle tall skal kunne registreres uavhengig av historiske filer; #10s utsatte driftsaksept er fortsatt åpen.
 
 ## Relasjoner i GitHub
 
