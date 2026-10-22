@@ -6,6 +6,10 @@ tests/fixtures/b5/*.xml -text whitespace=-blank-at-eol,cr-at-eol
 tests/fixtures/b5/*.json text eol=lf
 tests/fixtures/b6/*.xml -text whitespace=-blank-at-eol,cr-at-eol
 tests/fixtures/b6/*.json text eol=lf
+
+# B8s HTTP-originaler og byteidentiske vedtaksutdrag skal beholde faktiske byte.
+tests/fixtures/b8/*.xml -text whitespace=-blank-at-eol,cr-at-eol
+tests/fixtures/b8/*.json text eol=lf
 tests/fixtures/*.metadata.json text eol=lf
 # Frosset syntetisk v2-arkiv har dokumentert bytehash.
 tests/fixtures/historical-v2.sql -text

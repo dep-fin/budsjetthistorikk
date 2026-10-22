@@ -1,0 +1,426 @@
+{
+  "checked_date": "2026-10-22",
+  "source": "Stortinget, offentlige åpne data",
+  "namespace": "http://data.stortinget.no",
+  "locator_namespace_note": "Elementnavn i lokatorer bruker dette eksakte navnerommet; prefiks er utelatt for lesbarhet.",
+  "cases": [
+    {
+      "case_id": "100927",
+      "bytes": 12383,
+      "sha256": "2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27",
+      "source_response_date_time": "2026-10-22T11:04:47.6066742+02:00",
+      "case_fields": {
+        "id": "100927",
+        "sak_sesjon": "2024-2025",
+        "sak_nummer": "16",
+        "henvisning": "Prop. 16 S (2024-2025), kap. 1429, Innst. 81 S (2024-2025)",
+        "type": "budsjett",
+        "status": "behandlet",
+        "ferdigbehandlet": "true"
+      },
+      "publications": [
+        {
+          "locator": "/detaljert_sak/publikasjon_referanse_liste/publikasjon_referanse[1]",
+          "fields": {
+            "respons_dato_tid": {
+              "text": "2026-10-22T11:04:47.8258267+02:00",
+              "nil": null
+            },
+            "versjon": {
+              "text": "1.6",
+              "nil": null
+            },
+            "eksport_id": {
+              "text": null,
+              "nil": "true"
+            },
+            "lenke_tekst": {
+              "text": "Prop. 16 S (2024-2025)",
+              "nil": null
+            },
+            "lenke_url": {
+              "text": "http://www.regjeringen.no/id/PRP202420250016000DDDEPIS",
+              "nil": null
+            },
+            "type": {
+              "text": "regjering",
+              "nil": null
+            },
+            "undertype": {
+              "text": "proposisjon",
+              "nil": null
+            }
+          }
+        },
+        {
+          "locator": "/detaljert_sak/publikasjon_referanse_liste/publikasjon_referanse[2]",
+          "fields": {
+            "respons_dato_tid": {
+              "text": "2026-10-22T11:04:47.8258267+02:00",
+              "nil": null
+            },
+            "versjon": {
+              "text": "1.6",
+              "nil": null
+            },
+            "eksport_id": {
+              "text": "refs-202425-11-26",
+              "nil": null
+            },
+            "lenke_tekst": {
+              "text": "Stortingsreferat 26.11.2024",
+              "nil": null
+            },
+            "lenke_url": {
+              "text": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-11-26/referatsaker/",
+              "nil": null
+            },
+            "type": {
+              "text": "referat",
+              "nil": null
+            },
+            "undertype": {
+              "text": "storting",
+              "nil": null
+            }
+          }
+        },
+        {
+          "locator": "/detaljert_sak/publikasjon_referanse_liste/publikasjon_referanse[3]",
+          "fields": {
+            "respons_dato_tid": {
+              "text": "2026-10-22T11:04:47.9351146+02:00",
+              "nil": null
+            },
+            "versjon": {
+              "text": "1.6",
+              "nil": null
+            },
+            "eksport_id": {
+              "text": "inns-202425-081s",
+              "nil": null
+            },
+            "lenke_tekst": {
+              "text": "Innst. 81 S (2024-2025)",
+              "nil": null
+            },
+            "lenke_url": {
+              "text": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-081s/",
+              "nil": null
+            },
+            "type": {
+              "text": "innstilling",
+              "nil": null
+            },
+            "undertype": {
+              "text": "storting",
+              "nil": null
+            }
+          }
+        },
+        {
+          "locator": "/detaljert_sak/publikasjon_referanse_liste/publikasjon_referanse[4]",
+          "fields": {
+            "respons_dato_tid": {
+              "text": "2026-10-22T11:04:48.9504386+02:00",
+              "nil": null
+            },
+            "versjon": {
+              "text": "1.6",
+              "nil": null
+            },
+            "eksport_id": {
+              "text": "refs-202425-12-16",
+              "nil": null
+            },
+            "lenke_tekst": {
+              "text": "Stortingsreferat 16.12.2024",
+              "nil": null
+            },
+            "lenke_url": {
+              "text": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-16/25",
+              "nil": null
+            },
+            "type": {
+              "text": "referat",
+              "nil": null
+            },
+            "undertype": {
+              "text": "storting",
+              "nil": null
+            }
+          }
+        },
+        {
+          "locator": "/detaljert_sak/publikasjon_referanse_liste/publikasjon_referanse[5]",
+          "fields": {
+            "respons_dato_tid": {
+              "text": "2026-10-22T11:04:48.9504386+02:00",
+              "nil": null
+            },
+            "versjon": {
+              "text": "1.6",
+              "nil": null
+            },
+            "eksport_id": {
+              "text": "refs-202425-12-16",
+              "nil": null
+            },
+            "lenke_tekst": {
+              "text": "Stortingsreferat 16.12.2024",
+              "nil": null
+            },
+            "lenke_url": {
+              "text": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-16/voteringer#161224-25",
+              "nil": null
+            },
+            "type": {
+              "text": "referat",
+              "nil": null
+            },
+            "undertype": {
+              "text": "storting",
+              "nil": null
+            }
+          }
+        }
+      ],
+      "relations": [
+        {
+          "locator": "/detaljert_sak/sak_relasjon_liste/sak_relasjon[1]",
+          "fields": {
+            "respons_dato_tid": {
+              "text": "2026-10-22T11:04:47.7476409+02:00",
+              "nil": null
+            },
+            "versjon": {
+              "text": "1.6",
+              "nil": null
+            },
+            "relasjon_type": {
+              "text": "sammekilde",
+              "nil": null
+            },
+            "relatert_sak_id": {
+              "text": "100889",
+              "nil": null
+            },
+            "relatert_sak_korttittel": {
+              "text": "Endringer i statsbudsjettet 2024 under Klima- og miljødepartementet",
+              "nil": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "100889",
+      "bytes": 15888,
+      "sha256": "3a8f0918a3fcce90bf2c93f3ce972c3de7277c76e27e5ef563d6c43384cf2af2",
+      "source_response_date_time": "2026-10-22T11:05:44.6588969+02:00",
+      "case_fields": {
+        "id": "100889",
+        "sak_sesjon": "2024-2025",
+        "sak_nummer": "16",
+        "henvisning": "Prop. 16 S (2024-2025), unntatt kap. 1429, Innst. 95 S (2024-2025)",
+        "type": "budsjett",
+        "status": "behandlet",
+        "ferdigbehandlet": "true"
+      },
+      "publications": [
+        {
+          "locator": "/detaljert_sak/publikasjon_referanse_liste/publikasjon_referanse[1]",
+          "fields": {
+            "respons_dato_tid": {
+              "text": "2026-10-22T11:05:44.801872+02:00",
+              "nil": null
+            },
+            "versjon": {
+              "text": "1.6",
+              "nil": null
+            },
+            "eksport_id": {
+              "text": null,
+              "nil": "true"
+            },
+            "lenke_tekst": {
+              "text": "Prop. 16 S (2024-2025)",
+              "nil": null
+            },
+            "lenke_url": {
+              "text": "http://www.regjeringen.no/id/PRP202420250016000DDDEPIS",
+              "nil": null
+            },
+            "type": {
+              "text": "regjering",
+              "nil": null
+            },
+            "undertype": {
+              "text": "proposisjon",
+              "nil": null
+            }
+          }
+        },
+        {
+          "locator": "/detaljert_sak/publikasjon_referanse_liste/publikasjon_referanse[2]",
+          "fields": {
+            "respons_dato_tid": {
+              "text": "2026-10-22T11:05:44.801872+02:00",
+              "nil": null
+            },
+            "versjon": {
+              "text": "1.6",
+              "nil": null
+            },
+            "eksport_id": {
+              "text": "refs-202425-11-26",
+              "nil": null
+            },
+            "lenke_tekst": {
+              "text": "Stortingsreferat 26.11.2024",
+              "nil": null
+            },
+            "lenke_url": {
+              "text": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-11-26/referatsaker/",
+              "nil": null
+            },
+            "type": {
+              "text": "referat",
+              "nil": null
+            },
+            "undertype": {
+              "text": "storting",
+              "nil": null
+            }
+          }
+        },
+        {
+          "locator": "/detaljert_sak/publikasjon_referanse_liste/publikasjon_referanse[3]",
+          "fields": {
+            "respons_dato_tid": {
+              "text": "2026-10-22T11:05:44.801872+02:00",
+              "nil": null
+            },
+            "versjon": {
+              "text": "1.6",
+              "nil": null
+            },
+            "eksport_id": {
+              "text": "inns-202425-095s",
+              "nil": null
+            },
+            "lenke_tekst": {
+              "text": "Innst. 95 S (2024-2025)",
+              "nil": null
+            },
+            "lenke_url": {
+              "text": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-095s/",
+              "nil": null
+            },
+            "type": {
+              "text": "innstilling",
+              "nil": null
+            },
+            "undertype": {
+              "text": "storting",
+              "nil": null
+            }
+          }
+        },
+        {
+          "locator": "/detaljert_sak/publikasjon_referanse_liste/publikasjon_referanse[4]",
+          "fields": {
+            "respons_dato_tid": {
+              "text": "2026-10-22T11:05:44.801872+02:00",
+              "nil": null
+            },
+            "versjon": {
+              "text": "1.6",
+              "nil": null
+            },
+            "eksport_id": {
+              "text": "refs-202425-12-18",
+              "nil": null
+            },
+            "lenke_tekst": {
+              "text": "Stortingsreferat 18.12.2024",
+              "nil": null
+            },
+            "lenke_url": {
+              "text": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-18/13",
+              "nil": null
+            },
+            "type": {
+              "text": "referat",
+              "nil": null
+            },
+            "undertype": {
+              "text": "storting",
+              "nil": null
+            }
+          }
+        },
+        {
+          "locator": "/detaljert_sak/publikasjon_referanse_liste/publikasjon_referanse[5]",
+          "fields": {
+            "respons_dato_tid": {
+              "text": "2026-10-22T11:05:44.801872+02:00",
+              "nil": null
+            },
+            "versjon": {
+              "text": "1.6",
+              "nil": null
+            },
+            "eksport_id": {
+              "text": "refs-202425-12-18",
+              "nil": null
+            },
+            "lenke_tekst": {
+              "text": "Stortingsreferat 18.12.2024",
+              "nil": null
+            },
+            "lenke_url": {
+              "text": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-18/voteringer#181224-13",
+              "nil": null
+            },
+            "type": {
+              "text": "referat",
+              "nil": null
+            },
+            "undertype": {
+              "text": "storting",
+              "nil": null
+            }
+          }
+        }
+      ],
+      "relations": [
+        {
+          "locator": "/detaljert_sak/sak_relasjon_liste/sak_relasjon[1]",
+          "fields": {
+            "respons_dato_tid": {
+              "text": "2026-10-22T11:05:44.7338501+02:00",
+              "nil": null
+            },
+            "versjon": {
+              "text": "1.6",
+              "nil": null
+            },
+            "relasjon_type": {
+              "text": "sammekilde",
+              "nil": null
+            },
+            "relatert_sak_id": {
+              "text": "100927",
+              "nil": null
+            },
+            "relatert_sak_korttittel": {
+              "text": "Endringer i statsbudsjettet 2024 under Klima- og miljødepartementet",
+              "nil": null
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

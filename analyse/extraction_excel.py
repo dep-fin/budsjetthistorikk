@@ -2,7 +2,7 @@
 
 import os
 import re
-from dataclasses import asdict
+from dataclasses import asdict, dataclass
 from pathlib import Path
 from tempfile import NamedTemporaryFile
 
@@ -12,7 +12,8 @@ from openpyxl.styles import Font, PatternFill
 from openpyxl.utils import get_column_letter
 
 from innlesning.ingestion import text
-from innlesning.observations import encode, read_extraction
+from innlesning.model import Decision
+from innlesning.observations import Extraction, encode, read_extraction
 from innlesning.sync import read_revision
 
 from .excel import put
@@ -52,7 +53,19 @@ def write_rows(workbook: Workbook, title: str, rows: list[list[Value]]) -> None:
                 put(continuation.cell(row_number, column), value)
 
 
-def add_source_text(workbook: Workbook, database: Path, extraction_ids: tuple[str, ...]) -> None:
+@dataclass(frozen=True)
+class SourceTextSnapshot:
+    extractions: tuple[Extraction, ...]
+    decisions: tuple[tuple[str, Decision | None], ...]
+
+
+def add_source_text(
+    workbook: Workbook,
+    database: Path,
+    extraction_ids: tuple[str, ...],
+    *,
+    snapshot: SourceTextSnapshot | None = None,
+) -> None:
     rows: list[list[Value]] = [
         ["Beløpsuttrekk", "Revisjon", "Artefakt SHA-256", "Del", "Vedtaksfulltekst (HTML)"]
     ]
@@ -68,7 +81,11 @@ def add_source_text(workbook: Workbook, database: Path, extraction_ids: tuple[st
         ]
     ]
     for extraction_id in extraction_ids:
-        extraction = read_extraction(database, extraction_id)
+        extraction = (
+            next(e for e in snapshot.extractions if e.id == extraction_id)
+            if snapshot is not None
+            else read_extraction(database, extraction_id)
+        )
         if extraction.source_system != "storting":
             information.append(
                 [
@@ -82,7 +99,11 @@ def add_source_text(workbook: Workbook, database: Path, extraction_ids: tuple[st
                 ]
             )
             continue
-        decision = read_revision(database, extraction.source_revision_id).report.decision
+        decision = (
+            dict(snapshot.decisions)[extraction.source_revision_id]
+            if snapshot is not None
+            else read_revision(database, extraction.source_revision_id).report.decision
+        )
         if decision is None:
             continue
         rows.extend(

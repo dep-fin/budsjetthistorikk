@@ -1,0 +1,35 @@
+{
+  "checked_date": "2026-10-22",
+  "scope": "B8/#28 lokale rettinger av fire reviewfunn; ny uavhengig gjennomgang, CI og merge gjenstår; ingen faglig deknings- eller driftsaksept",
+  "checked_worktree": "67fad4eba62859951fb60a23ed35c1ecb8d8f458 med ikke-committede rettinger",
+  "python": "3.12.14",
+  "checks": [
+    {"command": "python -m ruff check .", "result": "passed"},
+    {"command": "python -m ruff format --check .", "result": "passed", "files": 82},
+    {"command": "python -m mypy", "result": "passed", "source_files": 47},
+    {"command": "python -m pytest tests/test_b8.py -q --basetemp ../t8fixall", "passed": 51, "seconds": 10.10, "note": "etter fire reviewrettinger"},
+    {"command": "python -m pytest -q --basetemp ../t8fixfull", "passed": 738, "skipped": 2, "seconds": 253.63}
+  ],
+  "repair_regressions": [
+    {"scope": "etikett mot PRP-/inns-lenkeidentitet", "proof": "motstrid ved annet nummer/sesjon/serie/type; ukjent kode uavklart; autentisk nil eksport-ID fortsatt uten avvik"},
+    {"scope": "stikkord utenfor markører", "proof": "tom markør skjuler ikke umerket uttrykk; kjente ord og uavklart status beholdes ved umerket/ukjent/ufullstendig rest, også i faktisk Excel"},
+    {"scope": "råbyte-/metadatabinding", "proof": "kontrollert SQLite-samtidighet avviser andre byte og endret metadata; avbrudd kan gjenopptas med identisk innhold; publisert hash/metadata/innhold og gjeldende peker henger sammen"},
+    {"scope": "HTTP-feilinnhold", "proof": "OSError/timeout/IncompleteRead/tomt/komplett feilinnhold avsluttes med ID og kjente metadata; respons lukkes; bare tilgjengelige byte får hash; delbyte merkes eksplisitt; berikelse og seks beløpsobservasjoner består"}
+  ],
+  "authentic_case_sources": [
+    {"case_id": "100927", "bytes": 12383, "sha256": "2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27", "publication_references": 5},
+    {"case_id": "100889", "bytes": 15888, "sha256": "3a8f0918a3fcce90bf2c93f3ce972c3de7277c76e27e5ef563d6c43384cf2af2", "publication_references": 5}
+  ],
+  "authentic_decision_example": {
+    "session": "2024-2025", "formal_number": "210", "technical_api_id": "40034048",
+    "case_id": "100927", "observation_count": 6, "post_event_count": 2,
+    "documents": ["Innst. 81 S (2024-2025)", "Prop. 16 S (2024-2025)"],
+    "posts": [
+      {"chapter": "1429", "post": "1", "before_kr": 160243000, "delta_kr": 5796000, "after_kr": 166039000, "keyword_status": "ingen_stikkord_funnet"},
+      {"chapter": "1429", "post": "22", "before_kr": 32185000, "delta_kr": -3000000, "after_kr": 29185000, "keywords": ["kan overføres"], "keyword_locator": "table[1]/tr[5]/td[3]"}
+    ]
+  },
+  "authority_excerpt": {"formal_number": "211", "technical_api_id": "40034049", "bytes": 1692, "sha256": "5f253a556d2ac512570899252b396bc38f068de5f4bd6820178e7de8ce41f3eb", "amount_observations": 0},
+  "actual_file_checks": ["offentlige innlesnings-/analyse-CLI-er", "SQLite-gjenåpning", "Excel-beløp/ID-er/stikkord/dokumentetiketter/hyperlenker", "frosset b6-frozen-2 gjenlesing", "eksport etter utilgjengelig database", "b6-frozen-1 kompatibilitet", "Artifact Tool-import, inspeksjon og PNG-rendering"],
+  "limitations": ["Bare to autentiske saks-API-originaler", "Forslags-/innstillingsfulltekst og forslagssummer er ikke hentet", "Klikkbare lenker er metadata; tilgjengelighet er ikke livekontrollert", "Ingen native Excel-app-kontroll", "Ingen faglig årsdekning eller driftssetting; #10 fortsatt åpen"]
+}

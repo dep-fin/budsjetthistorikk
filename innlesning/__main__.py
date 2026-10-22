@@ -15,6 +15,14 @@ from .sync import SyncReport
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     commands = parser.add_subparsers(dest="command", required=True)
+    documents_command = commands.add_parser(
+        "saksdokumenter", help="B8: berik valgt vedtaksrevisjon med saksmetadata"
+    )
+    documents_command.add_argument("--database", type=Path, required=True)
+    documents_command.add_argument("--revisjon", required=True)
+    documents_command.add_argument("--response", type=Path)
+    documents_command.add_argument("--metadata", type=Path)
+    documents_command.add_argument("--timeout", type=int, default=30)
     interpretation_command = commands.add_parser(
         "tolk", help="B3: tolk én valgt B2-revisjon offline"
     )
@@ -69,6 +77,57 @@ def main() -> int:
     arguments = parser.parse_args()
     job_id: str | None = None
     try:
+        if arguments.command == "saksdokumenter":
+            from .saksdokumenter import enrich_revision, fetch_case_attempt, import_case_response
+            from .sync import read_revision
+
+            revision = read_revision(arguments.database, arguments.revisjon)
+            decision = revision.report.decision
+            if decision is None:
+                raise ValueError("Saksberikelse krever bevart vedtak")
+            if bool(arguments.response) != bool(arguments.metadata):
+                raise ValueError("--response og --metadata må gis sammen")
+            paths = [arguments.database, arguments.response, arguments.metadata]
+            resolved = [p.resolve() for p in paths if p is not None]
+            if len(set(resolved)) != len(resolved):
+                raise ValueError("Database og kildefiler må ha forskjellige baner")
+            if arguments.response:
+                with arguments.response.open("rb") as handle:
+                    raw = handle.read(MAX_BYTES + 1)
+                if arguments.metadata.stat().st_size > 1024 * 1024:
+                    raise ValueError("Hentemetadata overstiger 1 MiB")
+                metadata = json.loads(arguments.metadata.read_text(encoding="utf-8-sig"))
+                if not isinstance(metadata, dict):
+                    raise ValueError("Hentemetadata må være et JSON-objekt")
+                attempt = import_case_response(
+                    arguments.database,
+                    decision.case_id,
+                    raw,
+                    metadata,
+                    dataset=revision.dataset,
+                    session=decision.session,
+                )
+            else:
+                attempt = fetch_case_attempt(
+                    arguments.database,
+                    decision.case_id,
+                    dataset=revision.dataset,
+                    session=decision.session,
+                    timeout=arguments.timeout,
+                )
+            enrichment = enrich_revision(arguments.database, arguments.revisjon, attempt.id)
+            print(
+                json.dumps(
+                    {
+                        "status": attempt.status,
+                        "saksforsok": attempt.id,
+                        "saksberikelse": enrichment.id,
+                        "avvik": enrichment.issues,
+                        "feil": attempt.reason,
+                    }
+                )
+            )
+            return 0 if attempt.status == "observert" else 2
         if arguments.command == "tolk":
             interpretation = Interpretation(
                 adapter_version=arguments.tolkning,
