@@ -13,7 +13,7 @@ from innlesning.observations import encode
 from innlesning.sync import read_revision
 from innlesning.workfiles import safe_output
 
-from .extraction_excel import Value, add_source_text
+from .extraction_excel import SourceTextSnapshot, Value, add_source_text
 from .extraction_excel import write_rows as _write_rows
 from .session import SessionReport, SessionRow, SessionSelection, build_session_report
 
@@ -199,7 +199,13 @@ def _history_rows(report: SessionReport) -> list[list[Value]]:
     return result
 
 
-def _write(book: Workbook, database: Path, report: SessionReport) -> None:
+def _write(
+    book: Workbook,
+    database: Path,
+    report: SessionReport,
+    *,
+    source_snapshot: SourceTextSnapshot | None = None,
+) -> None:
     write_rows(
         book,
         "Sesjonsgrunnlag",
@@ -605,14 +611,18 @@ def _write(book: Workbook, database: Path, report: SessionReport) -> None:
                 for r in control.residuals
             ],
         )
-    add_source_text(book, database, report.selection.extraction_ids)
+    add_source_text(book, database, report.selection.extraction_ids, snapshot=source_snapshot)
     fulltext: list[list[Value]] = [
         ["Sesjon", "Vedtak", "Revisjon", "SHA-256", "Del", "Vedtaksfulltekst (HTML)", "Grense"]
     ]
     for r in report.inventory:
         if r.extraction_ids:
             continue
-        decision = read_revision(database, r.revision_id).report.decision
+        decision = (
+            dict(source_snapshot.decisions)[r.revision_id]
+            if source_snapshot is not None
+            else read_revision(database, r.revision_id).report.decision
+        )
         if decision:
             fulltext.extend(
                 [

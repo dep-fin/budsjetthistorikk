@@ -1,0 +1,65 @@
+{
+  "url": "https://data.stortinget.no/eksport/sak?sakid=100927",
+  "retrieved_utc": "2026-10-22T09:04:48.0511379+00:00",
+  "timestamp_basis": "request_start_recorded_before_HTTP",
+  "status": 200,
+  "headers": {
+    "Cache-Control": [
+      "public"
+    ],
+    "Vary": [
+      "Accept-encoding"
+    ],
+    "Server": [
+      "Microsoft-IIS/10.0"
+    ],
+    "Strict-Transport-Security": [
+      "max-age=16070400; includeSubDomains"
+    ],
+    "Access-Control-Allow-Headers": [
+      "content-type"
+    ],
+    "Access-Control-Allow-Origin": [
+      "*"
+    ],
+    "X-Frame-Options": [
+      "sameorigin",
+      "sameorigin"
+    ],
+    "X-Content-Type-Options": [
+      "nosniff",
+      "nosniff"
+    ],
+    "Referrer-Policy": [
+      "no-referrer-when-downgrade",
+      "no-referrer"
+    ],
+    "Arr-Disable-Session-Affinity": [
+      "true"
+    ],
+    "X-AspNet-Version": [
+      "4.0.30319"
+    ],
+    "Request-Context": [
+      "appId=cid-v1:f65c3fc2-55cc-4cb3-a6ec-85c3923903b8"
+    ],
+    "Access-Control-Expose-Headers": [
+      "Request-Context"
+    ],
+    "Feature-Policy": [
+      "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
+    ],
+    "Date": [
+      "Thu, 22 Oct 2026 09:04:48 GMT"
+    ],
+    "Content-Type": [
+      "text/xml; charset=utf-8"
+    ],
+    "Expires": [
+      "Thu, 22 Oct 2026 09:02:48 GMT"
+    ]
+  },
+  "bytes": 12383,
+  "sha256": "2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27",
+  "fixture_kind": "http_original"
+}

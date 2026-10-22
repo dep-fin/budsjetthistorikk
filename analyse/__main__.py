@@ -22,9 +22,59 @@ def main() -> int:
     selection.add_argument(
         "--sesjonsutvalg", type=Path, help="JSON med eksplisitt samlet sesjonsutvalg"
     )
+    selection.add_argument(
+        "--saksutvalg", type=Path, help="B8: JSON med base og eksplisitte saksberikelser"
+    )
     parser.add_argument("--excel", type=Path, required=True)
+    parser.add_argument("--json", type=Path, help="B8: frosset b6-frozen-2 til nytt filnavn")
     arguments = parser.parse_args()
     try:
+        if arguments.saksutvalg:
+            from .saksdokumenter import (
+                _output,
+                build_saks_report,
+                export_built_saks_excel,
+                export_saks_json,
+                saks_selection_from_dict,
+            )
+
+            path = arguments.saksutvalg
+            if path.stat().st_size > 8 * 1024 * 1024:
+                raise ValueError("Saksutvalget overstiger 8 MiB")
+            data = json.loads(path.read_text(encoding="utf-8-sig"))
+            if not isinstance(data, dict):
+                raise ValueError("Saksutvalget må være et JSON-objekt")
+            base = data.get("base")
+            if isinstance(base, dict):
+                controls = base.get("preserved_2024_controls")
+                if isinstance(controls, str) and not Path(controls).is_absolute():
+                    base["preserved_2024_controls"] = str((path.parent / controls).resolve())
+            _output(arguments.database, arguments.excel, path, ".xlsx")
+            if arguments.json:
+                _output(arguments.database, arguments.json, path, ".json")
+                if arguments.json.resolve() == arguments.excel.resolve():
+                    raise ValueError("Excel og JSON må ha forskjellige baner")
+            report = build_saks_report(arguments.database, saks_selection_from_dict(data))
+            export_built_saks_excel(arguments.database, report, arguments.excel, input_path=path)
+            if arguments.json:
+                export_saks_json(
+                    report, arguments.json, database=arguments.database, input_path=path
+                )
+            print(
+                json.dumps(
+                    {
+                        "status": "eksportert",
+                        "saksrapport": report.id,
+                        "excel": str(arguments.excel),
+                        "json": str(arguments.json) if arguments.json else None,
+                        "format": "b6-frozen-2",
+                        "dokumentavvik": report.issues,
+                    }
+                )
+            )
+            return 0
+        if arguments.json:
+            raise ValueError("--json krever --saksutvalg")
         calculation_id: str | None = None
         session_result = None
         if arguments.sesjonsutvalg:

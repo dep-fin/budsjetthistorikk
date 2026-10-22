@@ -130,3 +130,7 @@ En separat, eksakt desimalberegning fra et bevart kildefelt og en uttrykkelig pr
 
 **Historisk kontrollpakke**:
 Et frosset, versjonert uttrekk av eksplisitt valgte historiske kildeobservasjoner, celleinventar, kandidater, regler, avvik og sammenligningsgrunnlag med JSONL, manifest og faktisk kontrollert Excel. Pakkepublisering er adskilt fra import og faglig godkjenning.
+
+**Saksberikelse**:
+Et kildeforankret sett av dokumenthenvisninger og saksrelasjoner til et bestemt vedtak. Tilknytning til samme sak beviser ikke at hvert dokument gjelder hver enkelt budsjettpost.
+_Unngå_: Postvis forslagstilknytning eller innlest forslagsbeløp som synonym.
