@@ -34,6 +34,8 @@ Før #6, historisk Excel-import eller utvidelse av den felles historikkmodellen:
 
 Ved videre historisk import eller pakkeendringer: les [pilotgrensen](docs/historisk-pilot.md), [ADR 0009](docs/adr/0009-historisk-pilotpakke.md) og [hele 2024-kontrollen](docs/research/historisk-excel/pilot2024.md). Bruk implement/TDD og regnearkskill ved eksportendringer. Fullt råinventar og kandidater beholdes lokalt; ny offisiell innlesning er uavhengig av historikken.
 
+Før kontrollmatrise, presisjonsregel eller faglig bruk av historiske 2024-kolonner: les [P2-matrisens omfang og kildebevis](docs/research/historisk-excel/p13-p2/README.md). Verifisert kildekontroll, foreslått normalisering og faglig godkjenning er separate statuser; matrisen aktiveres ikke i innlesningen.
+
 Før endringer i B3: les [B3-kontrakten](docs/datakontrakt.md#b3--beløpsobservasjoner-og-valgt-historikk), [ADR 0004](docs/adr/0004-b3-lagring-og-utvalg.md) og B3-prøvene i [kildefunnene](docs/kildefunn.md#b3-prøver-tabellvariasjon-lokatorer-og-sperrede-kjeder). B1/B2-parser og lagrede resultater er uforanderlige; bruk separat tolkning. Avstemt utvalg er ingen faglig godkjenning eller årsdekning.
 
 Før endringer i samlet sesjonsuttrekk: les [B6-veiledningen](docs/b6-sesjonsuttrekk.md), [ADR 0007](docs/adr/0007-b6-eksplisitt-sesjonseksport.md), [B5-kontrakten](docs/datakontrakt.md#b5--registervedlikehold-og-faglige-avgjørelser) og [B6-kontrollfunnene](docs/research/b6/README.md). Globalt inventar må ikke skjules av beløpsfiltre. Kildeinnhold, struktur, aktuelle godkjente enkeltverdier og uttømmende faglig dekning er ulike opplysninger. Den dokumenterte 2024-kontrollen må beregnes fra hashfestede kildefelt; tidligere kontrollprosent er ingen utført avstemming av en ny eksport.

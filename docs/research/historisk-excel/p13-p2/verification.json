@@ -1,0 +1,198 @@
+{
+  "version": "p13-p2-verification-1",
+  "date": "2026-10-22",
+  "base_commit": "6b19a5ca7a74aa905e5ac42b7e624dacf81952bc",
+  "scope": "local P2 integration checks; not independent review, CI or merge",
+  "matrix_id": "p13-p2-2024-1",
+  "files": {
+    "control-matrix-2024-v1.json": {
+      "sha256": "8bf8f9395881593d222884744c974ce2c7023099cdca65b92cc6886ebedacdc5",
+      "bytes": 37426
+    },
+    "decisions-evidence.json": {
+      "sha256": "17109908631c41946c2643dbf44180a55a81253badb39d09d914b522031ef867",
+      "bytes": 54068
+    },
+    "precision-summary.json": {
+      "sha256": "4f95298b32227b1ca42ab7e41db2c626c4518ac1a12c821391909d57de1dde3b",
+      "bytes": 10000
+    },
+    "stage-residuals.json": {
+      "sha256": "549b08a9e7ce067920b4e59a8762f57a2f694e1b2778d40788637fdc03045736",
+      "bytes": 15368
+    },
+    "stages-evidence.json": {
+      "sha256": "949fb3e1a883df2ae7bfdecff1d4d4da157c9e5b25dbece97d9f7882d2db5295",
+      "bytes": 21761
+    }
+  },
+  "source_proof": {
+    "status": "passed",
+    "source_hash_checks": 52,
+    "unique_source_hashes": 49,
+    "bounded_additional_primary_locators": 30,
+    "H_numeric_conditions": 1871,
+    "H_control_aggregate_exact": 1573,
+    "preserved_files": 90,
+    "preserved_bytes": 2344908499
+  },
+  "full_source_replays": {
+    "H": {
+      "baseline": {
+        "exact": 847,
+        "fractional": 726,
+        "excel_only": 120,
+        "reference_only": 1
+      },
+      "common_integer_proposal_matches": 1573,
+      "original_H_lexical_and_account_checks": 1871,
+      "primary_PDF_account_keys": 1574,
+      "classification_keys": 120,
+      "classified_counts": [
+        64,
+        1,
+        39,
+        16
+      ],
+      "ledger_sha256": "fdefab468ed78be626f78439d92c4feb89799f9f547116b05104d93fa03917f9",
+      "commands_from_outer_workspace": [
+        "python work/p2-precision/analyze.py",
+        "python work/p2-precision/independent_rule.py",
+        "python work/p2-precision/source_check.py"
+      ],
+      "note": "Source-key PDF scan uses bundled Python with pdfplumber; normal test venv has no pdfplumber. Classification additionally recomputed against original table locators and preserved key set."
+    },
+    "D": {
+      "union": 1359,
+      "exact": 1354,
+      "missing_reference": 1,
+      "missing_excel": 4,
+      "fixtures": 12,
+      "observations": 2894,
+      "fresh_session_objects_equal": 12,
+      "html_locators": 20,
+      "local_before_delta_after": 6,
+      "formal_chain_conflicts_preserved": 3,
+      "commands_from_outer_workspace": [
+        "python work/p2-decisions/reproduce.py",
+        "python work/p2-decisions/build_evidence.py",
+        "python work/p2-decisions/check_evidence.py"
+      ],
+      "full_fresh_v2_replay": false
+    },
+    "stages": {
+      "M_numeric_zeros": 1871,
+      "salary_positive_rows": 165,
+      "salary_positive_sum_nok": "2620361000",
+      "salary_reserve_account": "2309/1",
+      "salary_reserve_nok": "-2620361000",
+      "N_nonzero_keys": 737,
+      "N_common_keys_including_zero_sum_2470_24": 738,
+      "N_exact": 509,
+      "N_precision_residuals": 229,
+      "L_nonzero_anchored": 4,
+      "J_H_K_exact_rows": 1654,
+      "J_H_K_residual_rows": 217,
+      "K_I_different_rows": 71,
+      "material_KLN_D_dispositions": 6,
+      "six_residual_result": "verified proposal/adopted differences; five expense additions sum 600000000 NOK and corresponding fund-transfer addition; residual precision retained",
+      "commands_from_outer_workspace": [
+        "python work/p2-stages/measure.py",
+        "python work/p2-stages/compare_sources.py",
+        "python work/p2-stages/final_counts.py",
+        "python work/p2-stages/doc_identities.py"
+      ]
+    }
+  },
+  "compatibility": {
+    "P1_full_directory_files_unchanged": 90,
+    "P1_full_directory_bytes_checked": 2344908499,
+    "old_v1_v2_v3_results_or_sources_rewritten": false,
+    "v2_parser_sha256": "b9c9f3d0993ce66236a591b07bffbed132668b899035c86e09b9f63b7b3821b3",
+    "matrix_imported_by_ingestion": false,
+    "new_official_ingestion_matrix_states": [
+      "absent",
+      "corrupt"
+    ],
+    "legacy_states": [
+      "absent",
+      "corrupt",
+      "conflicting"
+    ],
+    "new_normalization_or_B5_approval": false
+  },
+  "checks": {
+    "targeted": {
+      "command": "python -m pytest tests/test_control_matrix.py tests/test_historical_controls.py --basetemp work/cli-target -q --tb=short",
+      "passed": 152,
+      "seconds": 18.03,
+      "log_sha256": "c83973a0252edf69a30775be2317bcb7392b7abcba3f36cc19192311c3d9b9f8"
+    },
+    "ruff_check": "passed: python -m ruff check .",
+    "ruff_format": "passed: python -m ruff format --check .; 78 files",
+    "mypy": "passed: python -m mypy; 45 source files",
+    "whitespace": "passed: git diff --check 6b19a5ca7a74aa905e5ac42b7e624dacf81952bc; git ls-files --others --exclude-standard returned no files",
+    "full_suite": {
+      "command": "python -m pytest -q --basetemp work/cli-full --tb=short -rs",
+      "passed": 687,
+      "skipped": 2,
+      "seconds": 243.92,
+      "full_suite_runs_after_final_code_changes": 1,
+      "log_sha256": "69abef2c114a089c99841e92c4c19f8a789608319c092213d0b9b269375dd3c9",
+      "skip_context": "Same two Windows host-rights skips as P1 baseline; symbolic/hard-link creation unavailable."
+    },
+    "matrix_cli": {
+      "commands": [
+        "python -m analyse.control_matrix docs/research/historisk-excel/p13-p2/control-matrix-2024-v1.json",
+        "python -m analyse.control_matrix docs/research/historisk-excel/p13-p2/control-matrix-2024-v1.json --sha256 8bf8f9395881593d222884744c974ce2c7023099cdca65b92cc6886ebedacdc5"
+      ],
+      "status": "valid",
+      "activation": "NONE",
+      "columns": 9
+    }
+  },
+  "limits": [
+    "No professional approval or year coverage.",
+    "No full fresh v2-session replay; fresh raw sessions support field/object comparison only.",
+    "Not all departmental original propositions read individually.",
+    "55 H absence reasons and general export/hierarchy/M semantics remain open.",
+    "Three formal chain conflicts remain blocked; no synthetic bridge events.",
+    "Full raw source snapshots, whole ledgers and historical workbook remain local.",
+    "Independent Standards/Spec review, security audit, CI and merge are orchestrator gates."
+  ],
+  "validation_fix": {
+    "scope": "P2-1/P2-2 validator and CLI validated-byte hash bug fixes; no artifact schema, identity, numeric content or semantic change",
+    "additional_regression_cases": 91,
+    "regressions": [
+      "Closed typed G/I original-reference/source/locator/scope objects, canonical source hash/URL and account/cell/amount bindings; invalid strings, list shapes, unknown or missing keys, duplicates, year/type/meaning/factor and unlinked hashes rejected without expected matrix hash.",
+      "G/I row and subscope evidence resolve the sole matching validated reference; crossed original controls and unrelated valid external evidence rejected.",
+      "Exactly four distinct allowed evidence files with valid metadata before any evidence open; read-spy verifies zero opens for invalid manifests and bounded requests for the normal four.",
+      "Declared-size overrun, per-file and aggregate read-budget checks use small ordinary fixture mutations; no attack/load fixture or new import.",
+      "CLI reuses the SHA-256 of the single bounded decoded/validated matrix read, including after path replacement/removal with and without expected hash; a small read-spy checks the sole bounded matrix read and a read failure produces controlled invalid JSON without a valid result or leaked exception."
+    ],
+    "read_budgets": {
+      "matrix_maximum_payload_bytes": 2097152,
+      "matrix_overrun_sentinel_bytes": 1,
+      "evidence_maximum_single_read_bytes": 2097152,
+      "evidence_maximum_total_read_bytes": 2097152,
+      "evidence_overrun_sentinel_per_file_bytes": 1,
+      "evidence_total_includes_sentinels": true
+    },
+    "source_files": {
+      "analyse/control_matrix.py": {
+        "sha256": "13fe42753e860f3f619717a5529ee44ca3b8e8ed40473fb1c57c690baeff514d",
+        "bytes": 18971
+      },
+      "tests/test_control_matrix.py": {
+        "sha256": "6899b101703b4b4c32910e5e814856e215dd41673dc5f8744877083dc1f93d3a",
+        "bytes": 24038
+      }
+    },
+    "preservation_recheck": {
+      "status": "passed",
+      "preserved_files": 90,
+      "preserved_bytes": 2344908499,
+      "matrix_and_four_evidence_files_unchanged": true
+    }
+  }
+}

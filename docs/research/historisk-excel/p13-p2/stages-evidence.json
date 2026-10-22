@@ -1,0 +1,670 @@
+{
+  "schema": "p13-p2-stages-evidence-1",
+  "research_date": "2026-10-22",
+  "status": "kildeundersokelse; ingen faglig kontrollavgjorelse",
+  "source_workbook": {
+    "git_revision": "da720e9dd4ebfff31d88c14488c5f3217d045786",
+    "sha256": "870d30d55b4f7f6791fe48ea2a15aa3e98d61946393385d0411e46a0169f60f3",
+    "bytes": 257569,
+    "budget_year": 2024,
+    "sheet": "Rådata",
+    "range": "G2:N1872"
+  },
+  "method": {
+    "numeric_type": "Decimal, precision=80; source OOXML v text; no binary float",
+    "multiplier": "1000000",
+    "account_aggregation": "matematisk kontrollsum av radene med samme Kap/Post; ingen godkjent komponentrelasjon",
+    "comparison_status": "utforskende kildeundersokelse; ikke ny pilot-sammenligning eller et etterhandsfrosset akseptgrunnlag",
+    "source_row_selection_K": "innstillingssesjon /23-24 i p36 vedlegg 2 og 3",
+    "source_row_selection_L": "p4/24-25, p34/24-25 og p121/23-24 i p36 vedlegg 2 og 3",
+    "source_row_selection_N_broad": "proposisjonssesjon /24-25 i p36 vedlegg 2 og 3",
+    "source_row_selection_N_candidate": "samme, uten p4/24-25 og p34/24-25; begge ligger i L; avgrensningen er et funn, ikke en forhandsantatt regel",
+    "residual_rule": "all nonzero residuals remain nonzero; >=1 NOK only describes material-stratum count, never acceptance tolerance"
+  },
+  "column_distributions": {
+    "G": {
+      "header": "Gul bok (f90)",
+      "count": 1871,
+      "zero": 136,
+      "nonzero": 1735,
+      "negative": 3,
+      "positive": 1732
+    },
+    "H": {
+      "header": "Saldert (f120)",
+      "count": 1871,
+      "zero": 130,
+      "nonzero": 1741,
+      "negative": 3,
+      "positive": 1738
+    },
+    "I": {
+      "header": "Endring RNB-prop (f148)",
+      "count": 1871,
+      "zero": 1282,
+      "nonzero": 589,
+      "negative": 223,
+      "positive": 366
+    },
+    "J": {
+      "header": "Budsjettets stilling ink. RNB (f150)",
+      "count": 1871,
+      "zero": 96,
+      "nonzero": 1775,
+      "negative": 4,
+      "positive": 1771
+    },
+    "K": {
+      "header": "Tilleggsbevilgninger første halvår (f176)",
+      "count": 1871,
+      "zero": 1246,
+      "nonzero": 625,
+      "negative": 236,
+      "positive": 389
+    },
+    "L": {
+      "header": "Tilleggsbevilgninger etter RNB (f177)",
+      "count": 1871,
+      "zero": 1867,
+      "nonzero": 4,
+      "negative": 0,
+      "positive": 4
+    },
+    "M": {
+      "header": "Lønnsoppgjør (f179)",
+      "count": 1871,
+      "zero": 1871,
+      "nonzero": 0,
+      "negative": 0,
+      "positive": 0
+    },
+    "N": {
+      "header": "Nysald-prop",
+      "count": 1871,
+      "zero": 1108,
+      "nonzero": 763,
+      "negative": 283,
+      "positive": 480
+    }
+  },
+  "identities": {
+    "J_minus_H_minus_K": {
+      "scope": "all 1871 original row triples; exact raw Decimal",
+      "exact": 1654,
+      "nonzero_residuals": 217,
+      "max_abs_raw_residual": "0.0000000000061",
+      "max_abs_nok_residual": "0.0000061",
+      "maximum_at": [
+        "H673",
+        "J673",
+        "K673"
+      ],
+      "maximum_account": [
+        "732",
+        "72",
+        "0"
+      ],
+      "maximum_raw": {
+        "H": "76032.508000000002",
+        "J": "77145.907999999996",
+        "K": "1113.4000000000001"
+      }
+    },
+    "K_minus_I": {
+      "exact": 1800,
+      "residual_count": 71,
+      "max_abs": "840",
+      "sample": [
+        [
+          56,
+          "10"
+        ],
+        [
+          70,
+          "20"
+        ],
+        [
+          74,
+          "60.0"
+        ],
+        [
+          107,
+          "120"
+        ],
+        [
+          179,
+          "100"
+        ],
+        [
+          198,
+          "-10"
+        ],
+        [
+          199,
+          "-5.000000000000000"
+        ],
+        [
+          200,
+          "10.000"
+        ],
+        [
+          203,
+          "15.40000000000000"
+        ],
+        [
+          224,
+          "-181.491999999999990"
+        ],
+        [
+          253,
+          "4"
+        ],
+        [
+          289,
+          "2"
+        ]
+      ]
+    },
+    "KLN_vs_document_D_post0": {
+      "excel_keys": 1693,
+      "document_keys": 987,
+      "union": 1693,
+      "exact": 685,
+      "nonzero_residuals": 302,
+      "excel_zero_without_document_row": 705,
+      "excel_nonzero_without_document_post0": 1,
+      "nonzero_missing_post_account": [
+        "5440",
+        "24"
+      ],
+      "residuals_ge_1_nok": 6,
+      "maximum_abs_residual_nok": "600000000.0000005000000",
+      "scope": "all raw account sums and only document rows with raw Upost 0; document component rows excluded",
+      "interpretation": "source-stage and hierarchy diagnostic, not reconciliation or authorization"
+    }
+  },
+  "comparisons": {
+    "N_all_autumn": {
+      "excel_keys": 1693,
+      "excel_nonzero_keys": 737,
+      "public_keys": 742,
+      "public_rows": 747,
+      "union": 1694,
+      "statuses": {
+        "excel_zero_without_public_row": 952,
+        "nonzero_residual": 232,
+        "exact": 509,
+        "public_only": 1
+      },
+      "max_abs_residual_nok": "458000000",
+      "residuals_ge_1_nok": 3
+    },
+    "N_nysald_candidate": {
+      "excel_keys": 1693,
+      "excel_nonzero_keys": 737,
+      "public_keys": 739,
+      "public_rows": 744,
+      "union": 1694,
+      "statuses": {
+        "excel_zero_without_public_row": 955,
+        "nonzero_residual": 229,
+        "exact": 509,
+        "public_only": 1
+      },
+      "max_abs_residual_nok": "0.00001000000",
+      "residuals_ge_1_nok": 0
+    },
+    "K_spring": {
+      "excel_keys": 1693,
+      "excel_nonzero_keys": 612,
+      "public_keys": 613,
+      "public_rows": 621,
+      "union": 1693,
+      "statuses": {
+        "excel_zero_without_public_row": 1080,
+        "nonzero_residual": 112,
+        "exact": 501
+      },
+      "max_abs_residual_nok": "4.000000E-7",
+      "residuals_ge_1_nok": 0
+    },
+    "L_other": {
+      "excel_keys": 1693,
+      "excel_nonzero_keys": 4,
+      "public_keys": 4,
+      "public_rows": 4,
+      "union": 1693,
+      "statuses": {
+        "excel_zero_without_public_row": 1689,
+        "exact": 4
+      },
+      "max_abs_residual_nok": "0",
+      "residuals_ge_1_nok": 0
+    }
+  },
+  "salary_source": {
+    "source_id": "p36-11",
+    "official_budget_year": 2024,
+    "unit": "NOK",
+    "positive_account_rows": 165,
+    "positive_sum_nok": "2620361000",
+    "negative_account_rows": 1,
+    "negative_key": [
+      "2309",
+      "1"
+    ],
+    "negative_amount_nok": "-2620361000",
+    "signed_sum_nok": "0",
+    "M_cells": 1871,
+    "M_numeric_zero_cells": 1871,
+    "M_nonzero_cells": 0,
+    "conclusion": "M cannot be used as absence of salary compensation; proposal salary allocation appears in N on bounded control 20/1; no M fill rule or general salary classification approved"
+  },
+  "bounded_original_proposal_controls": [
+    {
+      "id": "p36-7-N6",
+      "column": "N",
+      "sheet": "Rådata",
+      "cells": [
+        "N6"
+      ],
+      "account": [
+        "20",
+        "1"
+      ],
+      "excel_raw_decimal": "2.0059999999999998",
+      "candidate_multiplier": "1000000",
+      "public_source_id": "p36-7",
+      "public_source_sha256": "9c6eb474830b2950c9c1d792af88ec969c94d2b9347c58d7b67224366ccf1ded",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[2]",
+      "public_amount": "2006000",
+      "public_unit": "NOK",
+      "meaning": "endring",
+      "figure_type": "regjeringsforslag",
+      "budget_year": 2024,
+      "stage": "nysaldering",
+      "source_scope": "post",
+      "approved_use": null,
+      "source_component": "lonnskompensasjon; jf. p36-11",
+      "excel_scope": "underpost 1; postaggregat N6+N7",
+      "candidate_nok": "2005999.9999999998000000",
+      "residual_nok": "-0.0000000002000000",
+      "classification_status": "talltype/endring lest i originalforslaget; behandlingsrunde er avgrenset kontrollhypotese, ingen eiergodkjenning"
+    },
+    {
+      "id": "p22-3-N1360",
+      "column": "N",
+      "sheet": "Rådata",
+      "cells": [
+        "N1360"
+      ],
+      "account": [
+        "2541",
+        "70"
+      ],
+      "excel_raw_decimal": "680",
+      "candidate_multiplier": "1000000",
+      "public_source_id": "p22-3",
+      "public_source_sha256": "ddc5704d1c29ec10ca6cbaddf1ee0277e71bf88e7e10524c0e8a9dce8ef0b1c2",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[86]",
+      "public_amount": "680000000",
+      "public_unit": "NOK",
+      "meaning": "endring",
+      "figure_type": "regjeringsforslag",
+      "budget_year": 2024,
+      "stage": "nysaldering",
+      "source_scope": "post",
+      "approved_use": null,
+      "candidate_nok": "680000000",
+      "residual_nok": "0",
+      "before_nok": "12210400000",
+      "after_nok": "12890400000",
+      "classification_status": "talltype/endring lest i originalforslaget; behandlingsrunde er avgrenset kontrollhypotese, ingen eiergodkjenning"
+    },
+    {
+      "id": "p27-3-N1730",
+      "column": "N",
+      "sheet": "Rådata",
+      "cells": [
+        "N1730"
+      ],
+      "account": [
+        "5440",
+        "24"
+      ],
+      "excel_raw_decimal": "41500",
+      "candidate_multiplier": "1000000",
+      "public_source_id": "p27-3",
+      "public_source_sha256": "d69bf112a4ffbb6ecfb4d739511cb1aa6e21435f6c7050fb0c8d6df5af9e0052",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div[43]/div[1]/table/tbody/tr[11]",
+      "public_amount": "41500",
+      "public_unit": "millioner NOK",
+      "meaning": "endring",
+      "figure_type": "regjeringsforslag",
+      "budget_year": 2024,
+      "stage": "nysaldering",
+      "source_scope": "post",
+      "approved_use": null,
+      "candidate_nok": "41500000000",
+      "residual_nok": "0",
+      "source_precision": "tabell 3.1: avrundet til nærmeste 100 millioner NOK; tabellrapportert beløp",
+      "before_nok": "191800000000",
+      "after_nok": "233300000000",
+      "classification_status": "talltype/endring lest i originalforslaget; behandlingsrunde er avgrenset kontrollhypotese, ingen eiergodkjenning"
+    },
+    {
+      "id": "p34-5-L1198",
+      "column": "L",
+      "sheet": "Rådata",
+      "cells": [
+        "L1198"
+      ],
+      "account": [
+        "1560",
+        "71"
+      ],
+      "excel_raw_decimal": "14.2",
+      "candidate_multiplier": "1000000",
+      "public_source_id": "p34-5",
+      "public_source_sha256": "f4a6242b7e6177a694eea2c5fa38a87b565cf96e46bf2faf3442d5d8763bdcae",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div/table/tbody/tr[2]",
+      "public_amount": "14200000",
+      "public_unit": "NOK",
+      "meaning": "endring",
+      "figure_type": "regjeringsforslag",
+      "budget_year": 2024,
+      "stage": "ovrig",
+      "source_scope": "post",
+      "approved_use": null,
+      "candidate_nok": "14200000",
+      "residual_nok": "0",
+      "before_nok": "233100000",
+      "after_nok": "247300000",
+      "classification_status": "talltype/endring lest i originalforslaget; behandlingsrunde er avgrenset kontrollhypotese, ingen eiergodkjenning"
+    },
+    {
+      "id": "p4-4-L797",
+      "column": "L",
+      "sheet": "Rådata",
+      "cells": [
+        "L797"
+      ],
+      "account": [
+        "855",
+        "22"
+      ],
+      "excel_raw_decimal": "458",
+      "candidate_multiplier": "1000000",
+      "public_source_id": "p4-4",
+      "public_source_sha256": "f2eacdcb7021d03ff89a697056a679d728bc1c05ff0494858a3043b98404b8bc",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div/div[1]/table/tbody/tr[2]",
+      "public_amount": "458000000",
+      "public_unit": "NOK",
+      "meaning": "endring",
+      "figure_type": "regjeringsforslag",
+      "budget_year": 2024,
+      "stage": "ovrig",
+      "source_scope": "post",
+      "approved_use": null,
+      "candidate_nok": "458000000",
+      "residual_nok": "0",
+      "before_nok": "3718857000",
+      "after_nok": "4176857000",
+      "classification_status": "talltype/endring lest i originalforslaget; behandlingsrunde er avgrenset kontrollhypotese, ingen eiergodkjenning"
+    },
+    {
+      "id": "p4-4-L1562",
+      "column": "L",
+      "sheet": "Rådata",
+      "cells": [
+        "L1562"
+      ],
+      "account": [
+        "3855",
+        "60"
+      ],
+      "excel_raw_decimal": "75",
+      "candidate_multiplier": "1000000",
+      "public_source_id": "p4-4",
+      "public_source_sha256": "f2eacdcb7021d03ff89a697056a679d728bc1c05ff0494858a3043b98404b8bc",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div/div[2]/table/tbody/tr[2]",
+      "public_amount": "75000000",
+      "public_unit": "NOK",
+      "meaning": "endring",
+      "figure_type": "regjeringsforslag",
+      "budget_year": 2024,
+      "stage": "ovrig",
+      "source_scope": "post",
+      "approved_use": null,
+      "candidate_nok": "75000000",
+      "residual_nok": "0",
+      "before_nok": "2571496000",
+      "after_nok": "2646496000",
+      "classification_status": "talltype/endring lest i originalforslaget; behandlingsrunde er avgrenset kontrollhypotese, ingen eiergodkjenning"
+    }
+  ],
+  "sources": [
+    {
+      "id": "p36-main",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-36-s-20242025/id3076783/",
+      "sha256": "f69591a91353ea54a0c07bbed979591dd4ed0e6f43478e28f66521349e6e686e",
+      "bytes": 56375,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "p36-1",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-36-s-20242025/id3076783/?ch=1",
+      "sha256": "f2a89f1afa3d88df7ebdeb27e070a9a983dfef32e3c3af81ab1f5faadada630a",
+      "bytes": 175169,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "p36-5",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-36-s-20242025/id3076783/?ch=5",
+      "sha256": "2fefb086348798aba111dcf96c5bdbdfd36bc8fef71e2cf1f8ebecb40b6a5bce",
+      "bytes": 91572,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "p36-7",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-36-s-20242025/id3076783/?ch=7",
+      "sha256": "9c6eb474830b2950c9c1d792af88ec969c94d2b9347c58d7b67224366ccf1ded",
+      "bytes": 190460,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "p36-9",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-36-s-20242025/id3076783/?ch=9",
+      "sha256": "59661a7ee506209c0cdb5199e6a024aed74cb4516528f5e19c6ef67a5213267f",
+      "bytes": 380682,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "p36-10",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-36-s-20242025/id3076783/?ch=10",
+      "sha256": "deceb4d0905c32a206c4ce618198aa5b779ad32442d5b0a85890d0a415a6c3b9",
+      "bytes": 913548,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "p36-11",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-36-s-20242025/id3076783/?ch=11",
+      "sha256": "5d24d9dfb9aa22861c116f9fc1f3830d9cd8c5da620015cdff28fe0adbf506f5",
+      "bytes": 213614,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "p36-rettebrev",
+      "url": "https://www.regjeringen.no/contentassets/3bd150ac17194379aaa8c0a73e0a765a/no/sved/rettebrev.pdf",
+      "sha256": "a451a52f29124a4537d51f479f8557119792b6f5707f6f7abf91271839478135",
+      "bytes": 57168,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "p22-main",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-22-s-20242025/id3075925/",
+      "sha256": "c17ad6c963080e70564f72a49c043c118fb34f52086dd6b0624fb4b27aae8dd8",
+      "bytes": 54771,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "p22-3",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-22-s-20242025/id3075925/?ch=3",
+      "sha256": "ddc5704d1c29ec10ca6cbaddf1ee0277e71bf88e7e10524c0e8a9dce8ef0b1c2",
+      "bytes": 165396,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "p27-main",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-27-s-20242025/id3075697/",
+      "sha256": "170d8864be96f272e3064824bb7ba3937798019054fa8a6c07407d7a857befb4",
+      "bytes": 55835,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "p27-3",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-27-s-20242025/id3075697/?ch=3",
+      "sha256": "d69bf112a4ffbb6ecfb4d739511cb1aa6e21435f6c7050fb0c8d6df5af9e0052",
+      "bytes": 162840,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "p27-5",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-27-s-20242025/id3075697/?ch=5",
+      "sha256": "271137bc4d55ad3b19572bff293e9f70c95b27f8c1385256cd2b9930cd2526db",
+      "bytes": 189643,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "p34-main",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-34-s-20242025/id3076616/",
+      "sha256": "59046db5b84920905008eefd607505993fc288d8ec2709c099ebced46299b302",
+      "bytes": 56291,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "p34-5",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-34-s-20242025/id3076616/?ch=5",
+      "sha256": "f4a6242b7e6177a694eea2c5fa38a87b565cf96e46bf2faf3442d5d8763bdcae",
+      "bytes": 66274,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "p4-main",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-4-s-20242025/id3065066/",
+      "sha256": "9ad3439085dda9c22778ec7a4bbba1094cf04b0c09b2933a8e40acc246ee5f82",
+      "bytes": 55267,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "p4-4",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-4-s-20242025/id3065066/?ch=4",
+      "sha256": "f2eacdcb7021d03ff89a697056a679d728bc1c05ff0494858a3043b98404b8bc",
+      "bytes": 64080,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "r3-2024",
+      "url": "https://www.regjeringen.no/globalassets/upload/fin/vedlegg/okstyring/rundskriv/arlige/2024/r-3-2024.pdf",
+      "sha256": "57b03ec2f9928dd30dc43c90004951792840bc041d3b362f8fa96c9ea744355c",
+      "bytes": 158394,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "r7-2024",
+      "url": "https://www.regjeringen.no/globalassets/upload/fin/vedlegg/okstyring/rundskriv/arlige/2024/r-7-2024.pdf",
+      "sha256": "d155dc0c8b5740b1c05177d849b50653c5ede3b197cea418dcad4b73b81c0813",
+      "bytes": 159666,
+      "retrieved_date": "2026-10-22"
+    },
+    {
+      "id": "storting-budget2024",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Statsbudsjettet/statsbudsjettet-2024/",
+      "sha256": "414b4f0bbd0feff47c5a2d1aecf339e92eef9af7433a131d5cab55eb4cb63e3d",
+      "bytes": 121483,
+      "retrieved_date": "2026-10-22"
+    }
+  ],
+  "remaining": {
+    "approved_normalization_rule": null,
+    "approved_financial_use": null,
+    "year_coverage": "not_established",
+    "all_department_original_proposals": "not individually reread; broad field check uses contemporary official p36 proposal register; p22/p27/p36 direct controls above",
+    "N_precision": "229 exact nonzero raw Decimal residuals, no tolerance",
+    "hierarchy": "account sums mathematical only; raw underposts preserved",
+    "M_owner_decision": "keep raw zero and explicit unknown/nonseparate salary semantics; any approved mapping must document 2024 inclusion in N",
+    "JKL_owner_decision": "approve exact source-defined scope and doc selection, not date-only additive events",
+    "N_owner_decision": "approve bounded proposal controls/allowed use separately from later decisions; do not classify every N value as decision"
+  },
+  "local_reproduction": {
+    "scripts": [
+      {
+        "file": "measure.py",
+        "sha256": "9917de4a18145cb2b22fd9f9f2fca952e14a5cce4767e2b70f0382b5aa7bf35a"
+      },
+      {
+        "file": "compare_sources.py",
+        "sha256": "7b0ccb4cb383d8ca4dfe0eddb149c9838febae54e26d6937fd9c6a2df60592f3"
+      },
+      {
+        "file": "final_counts.py",
+        "sha256": "316b62ab27397209d5eb302153a062b1e9c42605c90194ce307732dfda2b247d"
+      },
+      {
+        "file": "doc_identities.py",
+        "sha256": "f006cb9013523bcab04fe85a1ac50bb746d4b6d38a98277fffca25ddcde9e81e"
+      }
+    ],
+    "public_raw_republication": false
+  },
+  "bounded_jkl_source_anchors": [
+    {
+      "column": "J",
+      "cell": "J1360",
+      "account": [
+        "2541",
+        "70"
+      ],
+      "source_id": "40033719",
+      "fixture_sha256": "4113b987c8f939256d30ef6a4401cda358d9da90b5af19cbbbc37d0ec9d312b0",
+      "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2023-2024",
+      "locator": "table[1]/tr[1071]/td[3]",
+      "meaning": "etter_belop",
+      "amount_nok": "12210000000",
+      "kind": "original_decision_HTML_field_in_preexisting_bounded_fixture",
+      "source_budget_year": 2024
+    },
+    {
+      "column": "K",
+      "cell": "K1360",
+      "account": [
+        "2541",
+        "70"
+      ],
+      "source_id": "40033719",
+      "fixture_sha256": "4113b987c8f939256d30ef6a4401cda358d9da90b5af19cbbbc37d0ec9d312b0",
+      "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2023-2024",
+      "locator": "table[1]/tr[1070]/td[5]",
+      "meaning": "endring",
+      "amount_nok": "-608000000",
+      "kind": "original_decision_HTML_field_in_preexisting_bounded_fixture",
+      "source_budget_year": 2024
+    },
+    {
+      "column": "L",
+      "cell": "L1360",
+      "account": [
+        "2541",
+        "70"
+      ],
+      "source_id": "40033805",
+      "fixture_sha256": "fabac44b233c1f15f682aab05778e9670f4b39fed459597b9726b222b116c244",
+      "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2024-2025",
+      "locator": "table[1]/tr[4]/td[4]",
+      "meaning": "endring",
+      "amount_nok": "400000",
+      "kind": "original_decision_HTML_field_in_preexisting_bounded_fixture",
+      "source_budget_year": 2024
+    }
+  ]
+}

@@ -253,12 +253,16 @@ def test_component_difference_and_document_delta_keep_separate_bases(tmp_path: P
 
 
 @pytest.mark.parametrize("legacy", ["absent", "corrupt", "conflicting"])
+@pytest.mark.parametrize("matrix_state", ["absent", "corrupt"])
 def test_authentic_new_official_source_needs_no_legacy_start_or_register(
     tmp_path: Path,
     legacy: str,
+    matrix_state: str,
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
     monkeypatch.chdir(tmp_path)
+    if matrix_state == "corrupt":
+        (tmp_path / "control-matrix-2024-v1.json").write_bytes(b"corrupt matrix")
     if legacy != "absent":
         (tmp_path / "legacy.xlsx").write_bytes(
             b"corrupt" if legacy == "corrupt" else workbook_bytes(amount="999999")

@@ -2,6 +2,8 @@
 
 Dette dokumentet beskriver implementert B1/B2. [Felles observasjonsformat versjon 1](observasjonsformat.md) er den besluttede spesifikasjonen for videre modellering fra #6, med historisk Excel-kompatibilitet. Formatet endrer ikke dagens API eller databaseskjema; se [ADR 0003](adr/0003-felles-belopsobservasjoner.md).
 
+P13-P2s [versjonerte kontrollmatrise for 2024](research/historisk-excel/p13-p2/README.md) er et separat, eksplisitt valgt forskningsgrunnlag. `analyse.control_matrix.read_control_matrix(path, expected_sha256=None)` validerer matrisen og bundne bevis; `python -m analyse.control_matrix FIL` leser uten database eller nett. Matrisen skiller råkilde, avgrenset kildekontroll, kontrollhypotese, foreslått normalisering og åpen faglig godkjenning. Ingen av disse statusene endrer B5-avgjørelser, observasjon-1, schema 5, v1-standardvalg eller tidligere kilde-/tolknings-/resultatidentiteter. Ny kildeinnlesning leser ikke matrisen.
+
 Kontrakten ligger i `innlesning/model.py`. Innlesningens offentlige grense er `import_saved(database, raw_response, metadata, decision_id, historical_sample=False)`, `read_report(database, run_id)` og `read_source(database, sha256)`. Nettadapteren `fetch_session(session, timeout=30)` leverer råbyte og hentemetadata. Eksportgrensen er `analyse.export_excel(database, run_id, output)`.
 
 ## Kilde, identitet og struktur

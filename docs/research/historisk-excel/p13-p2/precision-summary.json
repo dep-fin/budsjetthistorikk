@@ -1,0 +1,298 @@
+{
+  "date": "2026-10-22",
+  "original": {
+    "sha256": "870d30d55b4f7f6791fe48ea2a15aa3e98d61946393385d0411e46a0169f60f3",
+    "bytes": 257569
+  },
+  "reference": {
+    "sha256": "7f85002b543a57b3948170f102dc581f66d5ca1b5c1372198433ecd05b0b337e",
+    "bytes": 227236,
+    "kind": "existing derived JSON, not a new PDF parse"
+  },
+  "baseline": {
+    "exact": 847,
+    "excel_only": 120,
+    "fractional": 726,
+    "reference_only": 1
+  },
+  "union": 1694,
+  "h_rows": 1871,
+  "h_keys": 1693,
+  "common": 1573,
+  "reference_grid": {
+    "all_integer_kr": true,
+    "all_multiple_1000": true,
+    "negative": 3,
+    "zero": 0
+  },
+  "fractional": {
+    "keys": 726,
+    "diff_min_kr": "-0.00001000000",
+    "diff_max_kr": "0.00002000000",
+    "abs_min_kr": "1.000000E-13",
+    "abs_max_kr": "0.00002000000",
+    "signs": {
+      "negative": 388,
+      "positive": 338
+    },
+    "abs_histogram": {
+      "0.000001": 6,
+      "0.000002": 4,
+      "0.000003": 4,
+      "0.00001": 1,
+      "0.00002": 1,
+      "1.06E-7": 1,
+      "1.1E-8": 3,
+      "1.2E-7": 1,
+      "1.4E-10": 1,
+      "1.4E-8": 1,
+      "1.4E-9": 2,
+      "1.7E-8": 1,
+      "1.8E-9": 1,
+      "1.9E-9": 1,
+      "1E-10": 42,
+      "1E-11": 11,
+      "1E-13": 2,
+      "1E-7": 27,
+      "1E-8": 106,
+      "1E-9": 127,
+      "2.6E-8": 1,
+      "2E-10": 27,
+      "2E-11": 4,
+      "2E-7": 13,
+      "2E-8": 38,
+      "2E-9": 65,
+      "3E-10": 22,
+      "3E-11": 1,
+      "3E-7": 6,
+      "3E-8": 27,
+      "3E-9": 41,
+      "4E-10": 19,
+      "4E-11": 2,
+      "4E-7": 1,
+      "4E-8": 10,
+      "4E-9": 20,
+      "5E-10": 4,
+      "5E-11": 4,
+      "5E-8": 8,
+      "5E-9": 14,
+      "6.1E-9": 1,
+      "6E-10": 6,
+      "6E-7": 1,
+      "6E-8": 2,
+      "6E-9": 22,
+      "7E-10": 5,
+      "7E-7": 3,
+      "7E-9": 6,
+      "8E-10": 7,
+      "8E-9": 1,
+      "9E-10": 1,
+      "9E-9": 1
+    },
+    "abs_bands": {
+      "0 < abs < 1e-8": 460,
+      "1e-8 <= abs < 1e-7": 197,
+      "1e-7 <= abs < 1e-6": 53,
+      "1e-6 <= abs < 1e-5": 14,
+      "1e-5 <= abs <= 2e-5": 2
+    },
+    "rows_in_fractional_keys": 857,
+    "multirow_fractional_keys": 131
+  },
+  "individual": {
+    "noninteger_cells": 787,
+    "abs_max_round_residual_kr": "0.00002000000",
+    "same_binary_as_rounded": 787,
+    "binary_distance_ulps": {
+      "0.0": 787
+    },
+    "lexical_residual_ulps_max": "0.8796093022208"
+  },
+  "rounding_experiment": {
+    "all_cells": 1871,
+    "candidate_sha256": "787573cfdfb51d3c1351997323ed0844fd02743fa6ecedf8fd5c5bcb29f130d6",
+    "common_aggregate_matches": 1573,
+    "common_keys_tested": 1573,
+    "conditions_passed": 1871,
+    "normalization_approved": false,
+    "reference_amounts_used_in_transformation": false,
+    "rule_sha256": "518c469ad313e58df0498aab78486f80a946608fe37dabb9784b09be334e4180",
+    "version": "H2024-binary-compatible-integer-NOK-proposal-1"
+  },
+  "hierarchy": {
+    "single_keys": 1515,
+    "multi_keys": 178,
+    "multi_rows": 356,
+    "row_count_hist": {
+      "2": 178
+    },
+    "subpost_pattern_hist": {
+      "1,2": 178
+    },
+    "multi_with_zero_code": 0,
+    "common_multi_keys": 170,
+    "common_single_keys": 1403,
+    "all_multi_post_1": true,
+    "single_keys_with_nonzero_subpost_code": 21,
+    "source_component_approval": false
+  },
+  "excel_only": {
+    "keys": 120,
+    "rows": 128,
+    "all_raw_zero": true,
+    "multi_keys": 8
+  },
+  "professional_approval": false,
+  "normalized_values_changed": false,
+  "year_complete": false,
+  "local_provenance": {
+    "ledger.jsonl": {
+      "sha256": "fdefab468ed78be626f78439d92c4feb89799f9f547116b05104d93fa03917f9",
+      "bytes": 1858305
+    },
+    "excel-only.jsonl": {
+      "sha256": "44eddb2c7fb45c8e98be23b7fe2c4a4269b8d07ded62bbac3368d504dab3c557",
+      "bytes": 190237
+    },
+    "hierarchy.jsonl": {
+      "sha256": "1be0c7c5b4241ca682260fd259cc72ba85ffbef4ad66d768da74e39775bf4a8f",
+      "bytes": 302980
+    },
+    "absence-primary.json": {
+      "sha256": "524038f3c92d49de28420814b90607b218ce02924589eaaa5704c07ac0e2bfd4",
+      "bytes": 74751
+    },
+    "classification.json": {
+      "sha256": "f2f2c986ceb6ed39048766ddbe57c8368007dea3e1c8c738293bcae5fa7c0748",
+      "bytes": 118321
+    },
+    "independent-rule.json": {
+      "sha256": "518c469ad313e58df0498aab78486f80a946608fe37dabb9784b09be334e4180",
+      "bytes": 849
+    },
+    "independent-candidates.jsonl": {
+      "sha256": "787573cfdfb51d3c1351997323ed0844fd02743fa6ecedf8fd5c5bcb29f130d6",
+      "bytes": 371203
+    },
+    "analyze.py": {
+      "sha256": "3198291ddec640b87d9b20c0dd2ff4d637eb5bdfbce0ddf481883cc0f6d721ee",
+      "bytes": 8033
+    },
+    "source_check.py": {
+      "sha256": "a3ac44b141ab29927304460bfe43db6501bb53f9151b7986e4ec77bf2f4eb096",
+      "bytes": 3738
+    },
+    "classify.py": {
+      "sha256": "1f6fb82c320e8a89ee5d8bf4ffd071142dbd4f7544058f7414f17e9cccfffa3e",
+      "bytes": 1769
+    },
+    "gul_scan.py": {
+      "sha256": "32ba529e1b05560db8649643831fa7d7222d3e527f7890bb7d74f6d23b8d081a",
+      "bytes": 975
+    },
+    "independent_rule.py": {
+      "sha256": "0767a330deef4a5e16990b71c66495307b0c12533b9efba77ff2359814b66bf2",
+      "bytes": 2764
+    },
+    "finalize.py": {
+      "sha256": "0e11284fe390f92a5cc0b02408e8d20e01396527fc3c2b12468e6ba2918fa71a",
+      "bytes": 5538
+    }
+  },
+  "version": "p13-p2-h-precision-research-1",
+  "rule_proposal": {
+    "conditions": [
+      "finite numeric lexical source, no formula",
+      "source unit and hierarchy must separately be approved",
+      "abs(Decimal(source)-rounded_NOK/1000000)<=Decimal.from_float(math.ulp(float(source)))",
+      "float(source)==float(rounded_NOK/1000000)",
+      "math.ulp(float(source))*1000000<0.5"
+    ],
+    "factor": "1000000",
+    "round": "Decimal ROUND_HALF_EVEN to integer NOK",
+    "source_precision": "integer NOK in official post-level appropriation table; workbook unit not explicitly documented",
+    "source_scope": "870d30d55b4f7f6791fe48ea2a15aa3e98d61946393385d0411e46a0169f60f3;Rådata;H;2024",
+    "status": "proposed, no normalized or controlled value changed",
+    "use": "research candidate only; reference amounts are not transformation inputs",
+    "version": "H2024-binary-compatible-integer-NOK-proposal-1"
+  },
+  "source_unit_status": "factor 1000000 validated for 1573 controlled common aggregates; universal column/year unit and normalization not approved; no original export instruction found",
+  "classification": {
+    "categories": {
+      "post_absent_existing_chapter_unresolved_reason": 39,
+      "official_moved_legacy_account": 64,
+      "chapter_absent_unresolved_reason": 16,
+      "explicit_zero_scope_in_official_transfer_annex": 1
+    },
+    "official_moved_targets_present_in_blue_reference": 64,
+    "all_120_absent_from_primary_post_key_set": true,
+    "primary_scan_kind": "account-key-only scan of PDF pages 11-74, no new reference amount parse",
+    "primary_key_count": 1574,
+    "primary_key_set_equals_preexisting_derived_reference": true,
+    "missing_chapter_keys": 75,
+    "missing_post_in_existing_chapter_keys": 45,
+    "nonexistence_proven": false,
+    "all_120_also_absent_from_original_Gul_bok_main_proposal_table_except_64_moved": true
+  },
+  "cancellation": {
+    "exact_aggregate_keys_with_two_fractional_cells": 2,
+    "noninteger_cells_in_fractional_keys": 783,
+    "noninteger_cells_in_exact_keys": 4,
+    "positive_cell_residuals": 369,
+    "negative_cell_residuals": 418
+  },
+  "sources": [
+    {
+      "id": "blue2024",
+      "url": "https://www.stortinget.no/globalassets/pdf/budsjettsiden/blaabok_2024.pdf",
+      "fetched": "2026-10-22",
+      "sha256": "7204477be2b1ed089ae2d2eca1307a96d5929d04ea5a0d874ca32eeae1a53bf8",
+      "bytes": 3842617,
+      "locators": "PDF pages 11-74 / printed 9-72; p11 headers and 1/1,20/1; p55 2470/24; p69 5440/24; p74 5999/90"
+    },
+    {
+      "id": "transfer-annex",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-1-s-tillegg-2-20232024/id3013673/?ch=6",
+      "fetched": "2026-10-22",
+      "sha256": "db08dd2e55426ced1190d05d844ef4c4516956b6a666bdf1e42335ba157cfee3",
+      "bytes": 100729,
+      "locators": "annex 2 table old KDD account to new DFD account; row 530/30 to1530/30 =0"
+    },
+    {
+      "id": "transfer-description",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-1-s-tillegg-2-20232024/id3013673/?ch=2",
+      "fetched": "2026-10-22",
+      "sha256": "75ff9f4cc1561c634272f790c4d3263581e9bc8ac1e09c7f0761ad582ec77b47",
+      "bytes": 79426,
+      "locators": "section 2.2 paragraph beginning Vedlegg 2; annex includes accounts with no proposed appropriation"
+    },
+    {
+      "id": "gul2024",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-1-s-gul-bok-20232024/id2998593/?ch=10",
+      "fetched": "2026-10-22",
+      "sha256": "57d13cf12ca164bca2d82be82e5ba1902357353b757cd924fe7517c2e027ca06",
+      "bytes": 997103,
+      "locators": "annex 1 main appropriation proposal table; original account-code presence only"
+    }
+  ],
+  "input_package": {
+    "manifest_sha256": "a7f93975b596ae3afd3e53b7825ff1027bc7a576c78640d02491fb30588714d7",
+    "extraction_id": "8efe8b7f75226514d4b713f3259880e8df6c0666715ac2a811dae7a38997bf43",
+    "interpretation": "historisk-excel-2024-v3",
+    "used_file_hashes": {
+      "celler.jsonl": "641eff45b05204e2f6bc35f1e99268cea3a576c7a64d64b83e30acf503410ef9",
+      "observasjoner.jsonl": "1f795eb1d2caf01dd81ff89e085d19b3970b159e08b143166464041756fb95a5",
+      "kandidater.jsonl": "81596fda899d51f7196ced9d775de0c9332c91adca01c66a2110ad79b9ed7e79"
+    },
+    "all_1871_H_values_and_accounts_checked_against_original_XML": true,
+    "normalized_and_controlled_values_remain_null": true
+  },
+  "control_factor_validation": {
+    "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+    "factor": "1000000",
+    "common_control_aggregates": 1573,
+    "with_proposed_numeric_rule_exact": 1573,
+    "original_export_manual_required_for_this_bounded_correspondence": false,
+    "universal_unit_or_normalization_approved": false
+  }
+}

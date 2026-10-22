@@ -1,0 +1,896 @@
+{
+  "schema": "historical-control-matrix-1",
+  "id": "p13-p2-2024-1",
+  "version": 1,
+  "created_date": "2026-10-22",
+  "budget_year": 2024,
+  "scope": "2024 frozen workbook; nine amount columns; bounded research control only",
+  "activation": "NONE",
+  "professional_approval": {
+    "status": "OPEN",
+    "actor": null
+  },
+  "year_coverage": "NOT_ESTABLISHED",
+  "normalized_values_changed": false,
+  "parent": {
+    "issue": 24,
+    "merge_commit": "6b19a5ca7a74aa905e5ac42b7e624dacf81952bc",
+    "interpretation": "historisk-excel-2024-v3",
+    "extraction_id": "8efe8b7f75226514d4b713f3259880e8df6c0666715ac2a811dae7a38997bf43",
+    "manifest_sha256": "a7f93975b596ae3afd3e53b7825ff1027bc7a576c78640d02491fb30588714d7"
+  },
+  "source_input_bindings": {
+    "workbook": {
+      "git_revision": "da720e9dd4ebfff31d88c14488c5f3217d045786",
+      "repository_path": "data/historisk/original/2024_samlet_inputdata.xlsx",
+      "sha256": "870d30d55b4f7f6791fe48ea2a15aa3e98d61946393385d0411e46a0169f60f3",
+      "bytes": 257569
+    },
+    "blue_derived_reference": {
+      "sha256": "7f85002b543a57b3948170f102dc581f66d5ca1b5c1372198433ecd05b0b337e",
+      "bytes": 227236,
+      "kind": "existing derived JSON, not a new PDF parse"
+    },
+    "decision_derived_reference": {
+      "repository_path": "docs/research/issue-2/aar/api_events.csv",
+      "sha256": "ab9ef8abe7f1b508d54ca17e6f88209d061a6a6e2c8f312d5444894686642e31",
+      "bytes": 854328,
+      "kind": "existing derived research ledger"
+    }
+  },
+  "evidence_files": [
+    {
+      "path": "precision-summary.json",
+      "sha256": "4f95298b32227b1ca42ab7e41db2c626c4518ac1a12c821391909d57de1dde3b",
+      "bytes": 10000,
+      "kind": "derived_research_summary_with_primary_locators"
+    },
+    {
+      "path": "decisions-evidence.json",
+      "sha256": "17109908631c41946c2643dbf44180a55a81253badb39d09d914b522031ef867",
+      "bytes": 54068,
+      "kind": "derived_research_summary_with_primary_locators"
+    },
+    {
+      "path": "stages-evidence.json",
+      "sha256": "949fb3e1a883df2ae7bfdecff1d4d4da157c9e5b25dbece97d9f7882d2db5295",
+      "bytes": 21761,
+      "kind": "derived_research_summary_with_primary_locators"
+    },
+    {
+      "path": "stage-residuals.json",
+      "sha256": "549b08a9e7ce067920b4e59a8762f57a2f694e1b2778d40788637fdc03045736",
+      "bytes": 15368,
+      "kind": "derived_research_summary_with_primary_locators"
+    }
+  ],
+  "prior_controls": [
+    {
+      "column": "G",
+      "cells": [
+        "G2"
+      ],
+      "meaning": "nivaa",
+      "references": [
+        {
+          "key": [
+            "1",
+            "1"
+          ],
+          "amount_kr": "14768000",
+          "pointers": [
+            {
+              "source_sha256": "09fca3a509d9b2d342187fee691b5faf378373fe25992538c8f6735cbe194bd8",
+              "xpath": "/html/body/main/div/div[3]/div[3]/div/div[1]/div/div[1]/table/tbody/tr[4]",
+              "short_evidence": "1 Apanasje 14 768 000"
+            }
+          ],
+          "scope": {
+            "budget_year": 2024,
+            "unit": "NOK",
+            "candidate_multiplier": "1",
+            "figure_type": "regjeringsforslag",
+            "stage": "opprinnelig",
+            "meaning": "nivaa",
+            "period": "budsjettåret",
+            "detail_level": "post",
+            "budget_side": "begge",
+            "reference_basis": "observert_kildefelt"
+          },
+          "source_budget_year": 2024
+        }
+      ],
+      "sources": [
+        {
+          "sha256": "09fca3a509d9b2d342187fee691b5faf378373fe25992538c8f6735cbe194bd8",
+          "bytes": 998471,
+          "url": "https://www.regjeringen.no/no/dokumenter/prop.-1-s-gul-bok-20232024/id2998593/?ch=10",
+          "retrieved_date": "2026-10-21",
+          "kind": "offentlig regjeringsforslag; lokalt bevart original HTML"
+        }
+      ]
+    },
+    {
+      "column": "I",
+      "cells": [
+        "I70"
+      ],
+      "meaning": "endring",
+      "references": [
+        {
+          "key": [
+            "151",
+            "70"
+          ],
+          "amount_kr": "-20000000",
+          "pointers": [
+            {
+              "source_sha256": "94cb91928eb173665de6111d13de6562b663fad8a4eddcdd01daab7b7fdf4594",
+              "xpath": "/html/body/main/div/div[3]/div[3]/div[33]/p",
+              "short_evidence": "Bevilgningen på posten foreslås redusert med 20 mill. kroner til inndekning"
+            }
+          ],
+          "scope": {
+            "budget_year": 2024,
+            "unit": "NOK",
+            "candidate_multiplier": "1",
+            "figure_type": "regjeringsforslag",
+            "stage": "rnb",
+            "meaning": "endring",
+            "period": "rnb",
+            "detail_level": "post",
+            "budget_side": "begge",
+            "reference_basis": "observert_kildefelt"
+          },
+          "source_budget_year": 2024
+        }
+      ],
+      "sources": [
+        {
+          "sha256": "94cb91928eb173665de6111d13de6562b663fad8a4eddcdd01daab7b7fdf4594",
+          "bytes": 1014253,
+          "url": "https://www.regjeringen.no/no/dokumenter/prop.-104-s-20232024/id3039096/?ch=2",
+          "retrieved_date": "2026-10-21",
+          "kind": "offentlig regjeringsforslag; lokalt bevart original HTML"
+        }
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "id": "2024-G",
+      "column": "G",
+      "sheet": "Rådata",
+      "budget_year": 2024,
+      "raw_status": "VERIFIED_RAW_SOURCE",
+      "source_correspondence_status": "VERIFIED_SOURCE_CORRESPONDENCE",
+      "source_factor": "1000000",
+      "unit": {
+        "currency": "NOK",
+        "factor_role": "tested_control_hypothesis",
+        "universal_column_year_approval": false,
+        "validation_scope": "G2 mot faktisk Gul bok-forslag 14 768 000 NOK under faktor 1 000 000."
+      },
+      "economic_meaning": "nivaa",
+      "figure_type": "regjeringsforslag",
+      "stage": "opprinnelig",
+      "period_cutoff": "Budsjettåret 2024; kun kontrollfelt 1/1, G2.",
+      "hierarchy": "Ett avgrenset postfelt; ingen universell relasjon for rå underpostkode 2.",
+      "precision": {
+        "status": "UNAPPROVED_NORMALIZATION",
+        "arithmetic": "Exact lexical Decimal; precision 80; no tolerance",
+        "normalization_rule": null
+      },
+      "source_evidence": [
+        {
+          "matrix_pointer": "/prior_controls/0"
+        }
+      ],
+      "control_hypothesis": "G2 mot faktisk Gul bok-forslag 14 768 000 NOK under faktor 1 000 000.",
+      "inference_status": "CONTROL_HYPOTHESIS",
+      "allowed_control_use": [
+        "Vis rå G2, eksakt kandidat og originalt forslagsfelt med synlig presisjonsrest."
+      ],
+      "prohibited_analytic_use": [
+        "Generell G-normalisering; erstatte forslag med vedtak; årsdekning."
+      ],
+      "professional_approval": {
+        "status": "OPEN",
+        "actor": null
+      },
+      "remaining_question": "Generell kildeenhet, øvrige G-felt, råpresisjon og detaljnivå.",
+      "responsible_decision": "Prosjekteieren avgjør eventuell godkjent analysebruk, normaliseringsregel og de berørte hierarkirelasjonene; intet slikt vedtak registreres her.",
+      "next_proof": "Dokumentert eksport-/kolonneforklaring eller avgrenset kilde-/kontrollavgjørelse for dette omfanget.",
+      "subscopes": [
+        {
+          "id": "G-single",
+          "description": "G2, 1/1, faktisk opprinnelig forslag.",
+          "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+          "evidence": [
+            {
+              "matrix_pointer": "/prior_controls/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2024-H",
+      "column": "H",
+      "sheet": "Rådata",
+      "budget_year": 2024,
+      "raw_status": "VERIFIED_RAW_SOURCE",
+      "source_correspondence_status": "VERIFIED_SOURCE_CORRESPONDENCE",
+      "source_factor": "1000000",
+      "unit": {
+        "currency": "NOK",
+        "factor_role": "tested_control_hypothesis",
+        "universal_column_year_approval": false,
+        "validation_scope": "Faktor 1 000 000 er validert som kontrollomregning for 1 573 felles kapittel/post-aggregater. Baseline 847 eksakte og 726 målte presisjonsspor. Dette avgrensede samsvaret krever ingen manglende eksportmanual; generell normalisering og komponentsemantikk er separate spørsmål."
+      },
+      "economic_meaning": "nivaa",
+      "figure_type": "stortingsvedtak",
+      "stage": "opprinnelig",
+      "period_cutoff": "Blå bok-hovedbudsjettet for 2024; senere konti får ikke nullstart.",
+      "hierarchy": "1 403 felles enkeltnøkler og 170 felles to-rads kontrollaggregater. Alle 178 to-radsnøkler er post 1 med kode 1/2. 21 enkeltstående kodede nøkler og post 24 har egne forbehold.",
+      "precision": {
+        "status": "UNAPPROVED_NORMALIZATION",
+        "arithmetic": "Exact lexical Decimal; precision 80; no tolerance",
+        "normalization_rule": null,
+        "proposal": {
+          "conditions": [
+            "finite numeric lexical source, no formula",
+            "source unit and hierarchy must separately be approved",
+            "abs(Decimal(source)-rounded_NOK/1000000)<=Decimal.from_float(math.ulp(float(source)))",
+            "float(source)==float(rounded_NOK/1000000)",
+            "math.ulp(float(source))*1000000<0.5"
+          ],
+          "factor": "1000000",
+          "round": "Decimal ROUND_HALF_EVEN to integer NOK",
+          "source_precision": "integer NOK in official post-level appropriation table; workbook unit not explicitly documented",
+          "source_scope": "870d30d55b4f7f6791fe48ea2a15aa3e98d61946393385d0411e46a0169f60f3;Rådata;H;2024",
+          "status": "proposed, no normalized or controlled value changed",
+          "use": "research candidate only; reference amounts are not transformation inputs",
+          "version": "H2024-binary-compatible-integer-NOK-proposal-1"
+        },
+        "proposal_status": "PROPOSED_NORMALIZATION",
+        "proposal_applied": false
+      },
+      "source_evidence": [
+        {
+          "file": "precision-summary.json",
+          "pointer": "/sources"
+        },
+        {
+          "file": "precision-summary.json",
+          "pointer": "/input_package"
+        }
+      ],
+      "control_hypothesis": "Faktor 1 000 000 er validert som kontrollomregning for 1 573 felles kapittel/post-aggregater. Baseline 847 eksakte og 726 målte presisjonsspor. Dette avgrensede samsvaret krever ingen manglende eksportmanual; generell normalisering og komponentsemantikk er separate spørsmål.",
+      "inference_status": "CONTROL_HYPOTHESIS",
+      "allowed_control_use": [
+        "Eksakt rå kontroll og separat foreslått heltallskandidat innen originalhashen og de 1 573 felles aggregatene.",
+        "Vis alle 120 nullrester med kategori og 5999/90 som Excel-fravær; behold alle cellepekere.",
+        "Kontroller Hs konkrete post-24-total mot kildens total uten å legge til kildekomponentene."
+      ],
+      "prohibited_analytic_use": [
+        "Aktivere avrunding eller fylle normalized_kr/controlled_kr; generell enhet på tvers av kolonner/år.",
+        "Godkjenne alle underpostsummer som posttotaler; tolke 55 ukjente fraværsårsaker som ikke-eksistens eller 0-bevilgning."
+      ],
+      "professional_approval": {
+        "status": "OPEN",
+        "actor": null
+      },
+      "remaining_question": "Faglig normalisering, dokumentert eksportenhet og generelle hierarkirelasjoner; årsak for 55 kontoer uten hovedtabellrad.",
+      "responsible_decision": "Prosjekteieren avgjør eventuell godkjent analysebruk, normaliseringsregel og de berørte hierarkirelasjonene; intet slikt vedtak registreres her.",
+      "next_proof": "Dokumentert eksport-/kolonneforklaring eller avgrenset kilde-/kontrollavgjørelse for dette omfanget.",
+      "subscopes": [
+        {
+          "id": "H-common",
+          "description": "Hele felles kontrollomfanget; 847 baseline eksakte + 726 ikke-heltallige.",
+          "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+          "evidence": [
+            {
+              "file": "precision-summary.json",
+              "pointer": "/sources"
+            },
+            {
+              "file": "precision-summary.json",
+              "pointer": "/input_package"
+            }
+          ],
+          "keys": 1573
+        },
+        {
+          "id": "H-integer-proposal",
+          "description": "Referanseuavhengig kandidat før join; alle 1 871 numeriske vilkår består og 1 573 kontrollsummer treffer eksakt.",
+          "status": "PROPOSED_NORMALIZATION",
+          "evidence": [
+            {
+              "file": "precision-summary.json",
+              "pointer": "/rounding_experiment"
+            },
+            {
+              "file": "precision-summary.json",
+              "pointer": "/rule_proposal"
+            }
+          ],
+          "numeric_conditions_passed": 1871,
+          "matched_control_aggregates": 1573
+        },
+        {
+          "id": "H-absence",
+          "description": "64 dokumenterte flyttinger, 1 uttrykkelig nullomfang, 39 poster og 16 kapitler med ukjent fraværsårsak.",
+          "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+          "evidence": [
+            {
+              "file": "precision-summary.json",
+              "pointer": "/classification"
+            }
+          ],
+          "keys": 120
+        },
+        {
+          "id": "H-missing",
+          "description": "5999/90, 101 874 353 000 NOK i Blå bok PDF-side 74/trykt 72; ingen Excel-rad.",
+          "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+          "evidence": [
+            {
+              "file": "precision-summary.json",
+              "pointer": "/sources"
+            },
+            {
+              "file": "precision-summary.json",
+              "pointer": "/input_package"
+            }
+          ],
+          "keys": 1
+        },
+        {
+          "id": "H-hierarchy",
+          "description": "170 felles komponentkandidatsummer er kun kontrollaggregater; komponentgodkjenning er åpen.",
+          "status": "OPEN_QUESTION",
+          "evidence": [
+            {
+              "file": "precision-summary.json",
+              "pointer": "/hierarchy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2024-I",
+      "column": "I",
+      "sheet": "Rådata",
+      "budget_year": 2024,
+      "raw_status": "VERIFIED_RAW_SOURCE",
+      "source_correspondence_status": "VERIFIED_SOURCE_CORRESPONDENCE",
+      "source_factor": "1000000",
+      "unit": {
+        "currency": "NOK",
+        "factor_role": "tested_control_hypothesis",
+        "universal_column_year_approval": false,
+        "validation_scope": "I70=-20 prøves mot faktisk forslag -20 000 000 NOK; K70=0 og D43=0 er andre behandlingsledd."
+      },
+      "economic_meaning": "endring",
+      "figure_type": "regjeringsforslag",
+      "stage": "rnb",
+      "period_cutoff": "Forslag før Stortingets RNB-behandling; avgrenset 151/70.",
+      "hierarchy": "Avgrenset postfelt; ingen generell komponentkobling.",
+      "precision": {
+        "status": "UNAPPROVED_NORMALIZATION",
+        "arithmetic": "Exact lexical Decimal; precision 80; no tolerance",
+        "normalization_rule": null
+      },
+      "source_evidence": [
+        {
+          "matrix_pointer": "/prior_controls/1"
+        }
+      ],
+      "control_hypothesis": "I70=-20 prøves mot faktisk forslag -20 000 000 NOK; K70=0 og D43=0 er andre behandlingsledd.",
+      "inference_status": "CONTROL_HYPOTHESIS",
+      "allowed_control_use": [
+        "Eksakt forslagssammenligning på I70; vis forskjell fra vedtatt resultat."
+      ],
+      "prohibited_analytic_use": [
+        "Bruke I og K om hverandre; opprette vedtak fra forslaget."
+      ],
+      "professional_approval": {
+        "status": "OPEN",
+        "actor": null
+      },
+      "remaining_question": "Øvrige I-felt og godkjent normalisering.",
+      "responsible_decision": "Prosjekteieren avgjør eventuell godkjent analysebruk, normaliseringsregel og de berørte hierarkirelasjonene; intet slikt vedtak registreres her.",
+      "next_proof": "Dokumentert eksport-/kolonneforklaring eller avgrenset kilde-/kontrollavgjørelse for dette omfanget.",
+      "subscopes": [
+        {
+          "id": "I-single",
+          "description": "151/70, original Prop. 104 S.",
+          "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+          "evidence": [
+            {
+              "matrix_pointer": "/prior_controls/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2024-J",
+      "column": "J",
+      "sheet": "Rådata",
+      "budget_year": 2024,
+      "raw_status": "VERIFIED_RAW_SOURCE",
+      "source_correspondence_status": "VERIFIED_SOURCE_CORRESPONDENCE",
+      "source_factor": "1000000",
+      "unit": {
+        "currency": "NOK",
+        "factor_role": "tested_control_hypothesis",
+        "universal_column_year_approval": false,
+        "validation_scope": "J1360 er 12 210 000 000 NOK etter RNB. Alle 1 871 J-H-K-triplettene gir 1 654 eksakte og 217 råpresisjonsrester."
+      },
+      "economic_meaning": "nivaa",
+      "figure_type": "stortingsvedtak",
+      "stage": "inkludert_rnb",
+      "period_cutoff": "Kandidatnivå etter vårbehandling inklusive RNB; ingen universell kalendergrense.",
+      "hierarchy": "Nivå, ikke en ekstra hendelse. Rå rader kontrolleres med alle H/K-innganger.",
+      "precision": {
+        "status": "UNAPPROVED_NORMALIZATION",
+        "arithmetic": "Exact lexical Decimal; precision 80; no tolerance",
+        "normalization_rule": null
+      },
+      "source_evidence": [
+        {
+          "file": "stages-evidence.json",
+          "pointer": "/identities/J_minus_H_minus_K"
+        },
+        {
+          "file": "decisions-evidence.json",
+          "pointer": "/fixture_replays"
+        },
+        {
+          "file": "stages-evidence.json",
+          "pointer": "/bounded_jkl_source_anchors"
+        }
+      ],
+      "control_hypothesis": "J1360 er 12 210 000 000 NOK etter RNB. Alle 1 871 J-H-K-triplettene gir 1 654 eksakte og 217 råpresisjonsrester.",
+      "inference_status": "CONTROL_HYPOTHESIS",
+      "allowed_control_use": [
+        "Vis nivåankeret på 2541/70 og full intern identitetskontroll med eksakte rester."
+      ],
+      "prohibited_analytic_use": [
+        "Summere J som delta med H/K; skjule 217 rårester; erklære universell råidentitet."
+      ],
+      "professional_approval": {
+        "status": "OPEN",
+        "actor": null
+      },
+      "remaining_question": "Generell definisjon av f150 og kilde-/periodedekning.",
+      "responsible_decision": "Prosjekteieren avgjør eventuell godkjent analysebruk, normaliseringsregel og de berørte hierarkirelasjonene; intet slikt vedtak registreres her.",
+      "next_proof": "Dokumentert eksport-/kolonneforklaring eller avgrenset kilde-/kontrollavgjørelse for dette omfanget.",
+      "subscopes": [
+        {
+          "id": "J-full-row-identity",
+          "description": "1 871 rader; maksimum 0.0000061 NOK rest under kandidatfaktoren.",
+          "status": "CONTROL_HYPOTHESIS",
+          "evidence": [
+            {
+              "file": "stages-evidence.json",
+              "pointer": "/identities/J_minus_H_minus_K"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2024-K",
+      "column": "K",
+      "sheet": "Rådata",
+      "budget_year": 2024,
+      "raw_status": "VERIFIED_RAW_SOURCE",
+      "source_correspondence_status": "VERIFIED_SOURCE_CORRESPONDENCE",
+      "source_factor": "1000000",
+      "unit": {
+        "currency": "NOK",
+        "factor_role": "tested_control_hypothesis",
+        "universal_column_year_approval": false,
+        "validation_scope": "613 offentlige kontonøkler: 501 eksakte og 112 ikke-null råpresisjonsrester; 1 080 Excel-nullnøkler uten rad er ikke treff. K-I er ulik på 71 av 1 871 rader."
+      },
+      "economic_meaning": "endring",
+      "figure_type": "stortingsvedtak",
+      "stage": "forste_halvar_inkludert_rnb",
+      "period_cutoff": "Offisielle registerrader med innstillingssesjon /23-24; ingen datoalene-regel.",
+      "hierarchy": "Kontonøkler er kontrollsummer av rå komponentkandidater, ikke nye hendelser.",
+      "precision": {
+        "status": "UNAPPROVED_NORMALIZATION",
+        "arithmetic": "Exact lexical Decimal; precision 80; no tolerance",
+        "normalization_rule": null
+      },
+      "source_evidence": [
+        {
+          "file": "stages-evidence.json",
+          "pointer": "/comparisons/K_spring"
+        },
+        {
+          "file": "stages-evidence.json",
+          "pointer": "/sources"
+        }
+      ],
+      "control_hypothesis": "613 offentlige kontonøkler: 501 eksakte og 112 ikke-null råpresisjonsrester; 1 080 Excel-nullnøkler uten rad er ikke treff. K-I er ulik på 71 av 1 871 rader.",
+      "inference_status": "CONTROL_HYPOTHESIS",
+      "allowed_control_use": [
+        "Sammenlign det eksplisitte vårregisterutvalget, og behold 112 rårester."
+      ],
+      "prohibited_analytic_use": [
+        "Likestille K og I; kalle alle nullkontoer dokumentert null; bruke hele J som ekstra delta."
+      ],
+      "professional_approval": {
+        "status": "OPEN",
+        "actor": null
+      },
+      "remaining_question": "Dokumentert f176-definisjon og eventuelle øvrige behandlingsledd.",
+      "responsible_decision": "Prosjekteieren avgjør eventuell godkjent analysebruk, normaliseringsregel og de berørte hierarkirelasjonene; intet slikt vedtak registreres her.",
+      "next_proof": "Dokumentert eksport-/kolonneforklaring eller avgrenset kilde-/kontrollavgjørelse for dette omfanget.",
+      "subscopes": [
+        {
+          "id": "K-register",
+          "description": "621 registerrader på 613 kontoer; 612 ikke-null K-kontoer.",
+          "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+          "evidence": [
+            {
+              "file": "stages-evidence.json",
+              "pointer": "/comparisons/K_spring"
+            }
+          ]
+        },
+        {
+          "id": "K-vs-I",
+          "description": "71 ulike råfelter; forslag og vedtatt utfall er adskilt.",
+          "status": "VERIFIED_RAW_SOURCE",
+          "evidence": [
+            {
+              "file": "stages-evidence.json",
+              "pointer": "/identities/K_minus_I"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2024-L",
+      "column": "L",
+      "sheet": "Rådata",
+      "budget_year": 2024,
+      "raw_status": "VERIFIED_RAW_SOURCE",
+      "source_correspondence_status": "VERIFIED_SOURCE_CORRESPONDENCE",
+      "source_factor": "1000000",
+      "unit": {
+        "currency": "NOK",
+        "factor_role": "tested_control_hypothesis",
+        "universal_column_year_approval": false,
+        "validation_scope": "Alle fire ikke-null celler har kildeanker og eksakte registertreff. Tre originale forslagsfelt og ett tidligere vedtaksfelt har forskjellige roller."
+      },
+      "economic_meaning": "endring",
+      "figure_type": "kildeavhengig_forslag_eller_vedtak",
+      "stage": "ovrig_etter_rnb",
+      "period_cutoff": "Dokumentene p121/23-24, p4/24-25 og p34/24-25. p34 og p36 er begge datert 29. november 2024.",
+      "hierarchy": "Fire postfelt; øvrige 1 689 nullkontoer uten offentlig rad er utenfor treffomfanget.",
+      "precision": {
+        "status": "UNAPPROVED_NORMALIZATION",
+        "arithmetic": "Exact lexical Decimal; precision 80; no tolerance",
+        "normalization_rule": null
+      },
+      "source_evidence": [
+        {
+          "file": "stages-evidence.json",
+          "pointer": "/bounded_original_proposal_controls"
+        },
+        {
+          "file": "stages-evidence.json",
+          "pointer": "/comparisons/L_other"
+        }
+      ],
+      "control_hypothesis": "Alle fire ikke-null celler har kildeanker og eksakte registertreff. Tre originale forslagsfelt og ett tidligere vedtaksfelt har forskjellige roller.",
+      "inference_status": "CONTROL_HYPOTHESIS",
+      "allowed_control_use": [
+        "Vis dokumentbundet sammenligning på 2541/70, 855/22, 3855/60 og 1560/71 med kildefeltets talltype."
+      ],
+      "prohibited_analytic_use": [
+        "Universell før-nysaldering-datogrense; likestille forslagsregister med senere vedtak; legge hele høstutvalget i både L og N."
+      ],
+      "professional_approval": {
+        "status": "OPEN",
+        "actor": null
+      },
+      "remaining_question": "Produsentens f177-definisjon, datoavgrensning og godkjent utvalg.",
+      "responsible_decision": "Prosjekteieren avgjør eventuell godkjent analysebruk, normaliseringsregel og de berørte hierarkirelasjonene; intet slikt vedtak registreres her.",
+      "next_proof": "Dokumentert eksport-/kolonneforklaring eller avgrenset kilde-/kontrollavgjørelse for dette omfanget.",
+      "subscopes": [
+        {
+          "id": "L-four",
+          "description": "4 av 4 ikke-null L-felt; 1 689 nullkontoer uten rad blir ikke treff.",
+          "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+          "evidence": [
+            {
+              "file": "stages-evidence.json",
+              "pointer": "/comparisons/L_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2024-M",
+      "column": "M",
+      "sheet": "Rådata",
+      "budget_year": 2024,
+      "raw_status": "VERIFIED_RAW_SOURCE",
+      "source_correspondence_status": "VERIFIED_RAW_SOURCE",
+      "source_factor": "1000000",
+      "unit": {
+        "currency": "NOK",
+        "factor_role": "tested_control_hypothesis",
+        "universal_column_year_approval": false,
+        "validation_scope": "1 871 numeriske nuller. Offentlig lønnsvedlegg har 165 positive tildelinger, 2 620 361 000 NOK, og reserve 2309/1 med motsatt fortegn. Signert sum 0 beviser ingen M-enhet eller lønnsfravær."
+      },
+      "economic_meaning": "uavklart",
+      "figure_type": "uavklart",
+      "stage": "lonn_ikke_separat_avklart",
+      "period_cutoff": "Kilden viser alle M-nullene. Prop. 36 S kapittel 5 og vedlegg 4 beskriver lønn inkludert i høstens forslag.",
+      "hierarchy": "Ikke erstatt rå null med offentlig lønnsfordeling; på 20/1 ville det doble N-kompensasjonen.",
+      "precision": {
+        "status": "UNAPPROVED_NORMALIZATION",
+        "arithmetic": "Exact lexical Decimal; precision 80; no tolerance",
+        "normalization_rule": null
+      },
+      "source_evidence": [
+        {
+          "file": "stages-evidence.json",
+          "pointer": "/salary_source"
+        },
+        {
+          "file": "stages-evidence.json",
+          "pointer": "/sources"
+        }
+      ],
+      "control_hypothesis": "1 871 numeriske nuller. Offentlig lønnsvedlegg har 165 positive tildelinger, 2 620 361 000 NOK, og reserve 2309/1 med motsatt fortegn. Signert sum 0 beviser ingen M-enhet eller lønnsfravær.",
+      "inference_status": "CONTROL_HYPOTHESIS",
+      "allowed_control_use": [
+        "Bevar M-nullene som rå kilde. Vis separat offentlig lønnskilde og overlapp med N på 20/1."
+      ],
+      "prohibited_analytic_use": [
+        "Bruke M=0 som bevis for ingen lønnskompensasjon; bruke total 0 som samsvar; fylle M og legge til uendret N."
+      ],
+      "professional_approval": {
+        "status": "OPEN",
+        "actor": null
+      },
+      "remaining_question": "Produsentens f179-nullsemantikk og eventuell særskilt lønnsfordeling.",
+      "responsible_decision": "Prosjekteieren avgjør eventuell godkjent analysebruk, normaliseringsregel og de berørte hierarkirelasjonene; intet slikt vedtak registreres her.",
+      "next_proof": "Dokumentert eksport-/kolonneforklaring eller avgrenset kilde-/kontrollavgjørelse for dette omfanget.",
+      "subscopes": [
+        {
+          "id": "M-raw",
+          "description": "Alle 1 871 M-celler er fysisk numerisk 0.",
+          "status": "VERIFIED_RAW_SOURCE",
+          "evidence": [
+            {
+              "file": "stages-evidence.json",
+              "pointer": "/column_distributions/M"
+            }
+          ]
+        },
+        {
+          "id": "M-salary",
+          "description": "Faktisk lønnskilde funnet; M kan ikke brukes som bevis for fravær.",
+          "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+          "evidence": [
+            {
+              "file": "stages-evidence.json",
+              "pointer": "/salary_source"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2024-N",
+      "column": "N",
+      "sheet": "Rådata",
+      "budget_year": 2024,
+      "raw_status": "VERIFIED_RAW_SOURCE",
+      "source_correspondence_status": "VERIFIED_SOURCE_CORRESPONDENCE",
+      "source_factor": "1000000",
+      "unit": {
+        "currency": "NOK",
+        "factor_role": "tested_control_hypothesis",
+        "universal_column_year_approval": false,
+        "validation_scope": "737 ikke-null N-kontoer inngår. 738 felles kontoer: 509 eksakte (inkludert 2470/24 med nullsum av kildekomponenter) + 229 ikke-null råpresisjonsrester. 955 Excel-nullkontoer uten rad og 5999/90 bare offentlig kilde."
+      },
+      "economic_meaning": "endring",
+      "figure_type": "regjeringsforslag",
+      "stage": "nysaldering",
+      "period_cutoff": "Samtidig Prop. 36-register, proposisjonssesjon /24-25 uten p4/p34 som ligger i L. Enkelte originale forslag datert 22. november; p36 datert 29. november.",
+      "hierarchy": "Alle rå underposter inngår kun i merkede kontrollaggregater. 5440/24 har kildekomponenter og egen total.",
+      "precision": {
+        "status": "UNAPPROVED_NORMALIZATION",
+        "arithmetic": "Exact lexical Decimal; precision 80; no tolerance",
+        "normalization_rule": null
+      },
+      "source_evidence": [
+        {
+          "file": "stages-evidence.json",
+          "pointer": "/sources"
+        },
+        {
+          "file": "stages-evidence.json",
+          "pointer": "/bounded_original_proposal_controls"
+        },
+        {
+          "file": "stage-residuals.json",
+          "pointer": "/fields"
+        }
+      ],
+      "control_hypothesis": "737 ikke-null N-kontoer inngår. 738 felles kontoer: 509 eksakte (inkludert 2470/24 med nullsum av kildekomponenter) + 229 ikke-null råpresisjonsrester. 955 Excel-nullkontoer uten rad og 5999/90 bare offentlig kilde.",
+      "inference_status": "CONTROL_HYPOTHESIS",
+      "allowed_control_use": [
+        "Vis brede, dokumentavgrensede registerkontroller og direkte originalforslag på 20/1, 2541/70 og 5440/24.",
+        "Behold 5440/24s tabellpresisjon nærmeste 100 mill. NOK og alle 229 rester.",
+        "Vis de seks >=1 NOK diagnostikkrestene som kildeverifiserte forslag/vedtak-forskjeller."
+      ],
+      "prohibited_analytic_use": [
+        "Kalle N vedtak; hevde at alle originale departementsforslag er individuelt avstemt; skjult avrunding eller generell lønnsfordeling."
+      ],
+      "professional_approval": {
+        "status": "OPEN",
+        "actor": null
+      },
+      "remaining_question": "Generell N-enhet, hierarki og full originalproposisjonsdekning; eventuell versjonert normalisering.",
+      "responsible_decision": "Prosjekteieren avgjør eventuell godkjent analysebruk, normaliseringsregel og de berørte hierarkirelasjonene; intet slikt vedtak registreres her.",
+      "next_proof": "Dokumentert eksport-/kolonneforklaring eller avgrenset kilde-/kontrollavgjørelse for dette omfanget.",
+      "subscopes": [
+        {
+          "id": "N-register",
+          "description": "Alle 737 ikke-null postkandidater; 738 felles kontrollkontoer fordi 2470/24 summerer til null.",
+          "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+          "evidence": [
+            {
+              "file": "stages-evidence.json",
+              "pointer": "/comparisons/N_nysald_candidate"
+            }
+          ],
+          "nonzero_excel_keys": 737,
+          "common_keys": 738,
+          "exact": 509,
+          "precision_residuals": 229
+        },
+        {
+          "id": "N-originals",
+          "description": "Tre originale forslagsankre; ikke alle departementsproposisjoner.",
+          "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+          "evidence": [
+            {
+              "file": "stages-evidence.json",
+              "pointer": "/bounded_original_proposal_controls"
+            }
+          ]
+        },
+        {
+          "id": "stage-six",
+          "description": "Seks materialstratum-rester forklart av komitétillegg: utgifter +600 mill. NOK og 5800/50 +600 mill. NOK; rå presisjonsrest beholdes.",
+          "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+          "evidence": [
+            {
+              "file": "stage-residuals.json",
+              "pointer": "/dispositions"
+            }
+          ],
+          "keys": 6
+        }
+      ]
+    },
+    {
+      "id": "2024-docD",
+      "column": "docD",
+      "sheet": "Dokumentiltknyntning2024",
+      "budget_year": 2024,
+      "raw_status": "VERIFIED_RAW_SOURCE",
+      "source_correspondence_status": "VERIFIED_SOURCE_CORRESPONDENCE",
+      "source_factor": "1",
+      "unit": {
+        "currency": "NOK",
+        "factor_role": "tested_control_hypothesis",
+        "universal_column_year_approval": false,
+        "validation_scope": "1 359 postrader gir 1 355 gruppenøkler; mot 1 358 referansenøkler er unionen 1 359: 1 354 eksakte og fem navngitte rester. Faktor 1 validert i kontrollomfanget."
+      },
+      "economic_meaning": "endring",
+      "figure_type": "stortingsvedtak",
+      "stage": "dokumentavhengig",
+      "period_cutoff": "26 innstillingsgrupper; egen sesjon/dato fra originalkilden; ingen hendelsesdato fra radrekkefølge.",
+      "hierarchy": "Kode 0 i postkontroll; 12 komponentrader separat, og avledet differanse holdes adskilt fra posttotal og kildedelta.",
+      "precision": {
+        "status": "UNAPPROVED_NORMALIZATION",
+        "arithmetic": "Exact lexical Decimal; source fields integer NOK; no tolerance",
+        "normalization_rule": null
+      },
+      "source_evidence": [
+        {
+          "file": "decisions-evidence.json",
+          "pointer": "/sources"
+        },
+        {
+          "file": "decisions-evidence.json",
+          "pointer": "/html_controls"
+        }
+      ],
+      "control_hypothesis": "1 359 postrader gir 1 355 gruppenøkler; mot 1 358 referansenøkler er unionen 1 359: 1 354 eksakte og fem navngitte rester. Faktor 1 validert i kontrollomfanget.",
+      "inference_status": "CONTROL_HYPOTHESIS",
+      "allowed_control_use": [
+        "Eksakt kontroll mot forskningsledgeren og avgrensede originalvedtaksfelter; vis fem rester med årsak.",
+        "Bruk D43=0 som dokumentert markering av uendret resultat uten ny nullhendelse.",
+        "Vis 228/85 og 2440/31 som kildefunn og separate fremtidige adapterforventninger."
+      ],
+      "prohibited_analytic_use": [
+        "Fjerne to formelle Havtil-ID-er; konstruere brohendelse på 5999/90; automatisk B5-godkjenning.",
+        "Endre v2-ID-er eller tolke fraværende førfelt som 0; hevde full fersk v2-sesjonsreplay."
+      ],
+      "professional_approval": {
+        "status": "OPEN",
+        "actor": null
+      },
+      "remaining_question": "Tre formelle kjedekonflikter består. Ny adapterversjon for to konkrete tekst-/kontomønstre er utsatt; generell dokument-/komponentsemantikk er åpen.",
+      "responsible_decision": "Prosjekteieren avgjør eventuell godkjent analysebruk, normaliseringsregel og de berørte hierarkirelasjonene; intet slikt vedtak registreres her.",
+      "next_proof": "Dokumentert eksport-/kolonneforklaring eller avgrenset kilde-/kontrollavgjørelse for dette omfanget.",
+      "subscopes": [
+        {
+          "id": "D-union",
+          "description": "Hele unionen mot eksisterende avledet forskningsledger.",
+          "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+          "evidence": [
+            {
+              "file": "decisions-evidence.json",
+              "pointer": "/document_comparison"
+            }
+          ]
+        },
+        {
+          "id": "D-five",
+          "description": "151/70 forklart nullmarkering; to 5999/90-fravær; to Havtil-fravær med gjentatte formelle overganger.",
+          "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+          "evidence": [
+            {
+              "file": "decisions-evidence.json",
+              "pointer": "/rest_classification"
+            }
+          ],
+          "rests": 5
+        },
+        {
+          "id": "D-v2-boundaries",
+          "description": "228/85 uavklart betydning; 2440/31 ingen v2-observasjon. Fremtidige positive deltaer uten før/etter/nullstart er dokumentert, ikke implementert.",
+          "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+          "evidence": [
+            {
+              "file": "decisions-evidence.json",
+              "pointer": "/future_adapter_expectations"
+            }
+          ]
+        },
+        {
+          "id": "D-components",
+          "description": "12 avledede komponenttreff og fire Excel-fravær ved beregnet null er et separat tidligere kontrollomfang.",
+          "status": "CONTROL_HYPOTHESIS",
+          "evidence": [
+            {
+              "file": "decisions-evidence.json",
+              "pointer": "/prior_component_control"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "history_policy": "Explicit version selection only; preserve old bytes and identities; no latest/current activation. New evidence or changed meaning requires a new matrix version.",
+  "new_sources_policy": "Independent registration without matrix, workbook, legacy register or starting balance; no imports into live ingestion."
+}

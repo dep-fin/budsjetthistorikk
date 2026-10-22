@@ -1,0 +1,453 @@
+{
+  "version": "p13-p2-stage-residuals-1",
+  "date": "2026-10-22",
+  "scope": "Seks >=1 NOK rå K+L+N-minus-D(kode0)-rester; ikke en aksepttoleranse",
+  "professional_approval": false,
+  "sources": [
+    {
+      "id": "p25-4",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-25-s-20242025/id3075636/?ch=4",
+      "sha256": "3161d05771f8af92ff976cb2b799951ef3b5c09a6bc0f4a7c94e9bef3d320c74",
+      "bytes": 104417,
+      "date": "2026-10-22",
+      "status": 200
+    },
+    {
+      "id": "p23-4",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-23-s-20242025/id3075465/?ch=4",
+      "sha256": "0bf806116ccc1ee4abe9bdd970032ec32a40c8e2bf458a1222da23eeec53d9eb",
+      "bytes": 162541,
+      "date": "2026-10-22",
+      "status": 200
+    },
+    {
+      "id": "i82",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-082s/?all=true",
+      "sha256": "bd9f825b90ea7bc2ad222492b3d06805711b8e7a0dc2c5a2d056698886373b59",
+      "bytes": 328396,
+      "date": "2026-10-22",
+      "status": 200
+    },
+    {
+      "id": "i95",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-095s/?all=true",
+      "sha256": "1f159a3ca1df3e0bc35617644d0b36f7c92fd5684947f6eca5510595af533a03",
+      "bytes": 283141,
+      "date": "2026-10-22",
+      "status": 200
+    },
+    {
+      "id": "i85",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-085s/?all=true",
+      "sha256": "e3110a76fbd31cd38fcc970e5e4313504c7f404ae3bae8d763762cbb6c052e65",
+      "bytes": 346799,
+      "date": "2026-10-22",
+      "status": 200
+    },
+    {
+      "id": "i94",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-094s/?all=true",
+      "sha256": "c40f4094fa91c88356b0bf3988724349398c87d9c00c28d2127a3edd18b091e1",
+      "bytes": 435659,
+      "date": "2026-10-22",
+      "status": 200
+    },
+    {
+      "id": "p36-7",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-36-s-20242025/id3076783/?ch=7",
+      "sha256": "9c6eb474830b2950c9c1d792af88ec969c94d2b9347c58d7b67224366ccf1ded",
+      "bytes": 190460,
+      "date": "2026-10-22",
+      "status": 200
+    },
+    {
+      "id": "i90",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-090s/?all=true",
+      "sha256": "0ce6a317b3f91b845e19adc154985e361821a9e6e00912984e1abebc3ba1f4fe",
+      "bytes": 1173301,
+      "date": "2026-10-22",
+      "status": 200
+    },
+    {
+      "id": "session24",
+      "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2024-2025",
+      "sha256": "c5f3b90046d23a0e4cacb24f681a01d7e5fd4468ab68fc3d646dc832bb9a4b42",
+      "bytes": 7479943,
+      "date": "2026-10-22",
+      "status": 200
+    }
+  ],
+  "fields": [
+    {
+      "source_id": "p25-4",
+      "account": "315/78",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[13]",
+      "numeric_field": "119 000 000",
+      "role": "proposal"
+    },
+    {
+      "source_id": "p23-4",
+      "account": "732/70",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div[1]/div/div[1]/table/tbody/tr[35]",
+      "numeric_field": "405 000 000",
+      "role": "proposal"
+    },
+    {
+      "source_id": "i82",
+      "account": "118/70",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[4]/div[1]/div[2]/div/div[2]/div[2]/table/tbody/tr[19]",
+      "numeric_field": "5 000 000",
+      "role": "committee_table"
+    },
+    {
+      "source_id": "i82",
+      "account": "150/70",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[4]/div[1]/div[2]/div/div[2]/div[2]/table/tbody/tr[33]",
+      "numeric_field": "215 000 000",
+      "role": "committee_table"
+    },
+    {
+      "source_id": "i82",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[2]/div[1]/p[6]",
+      "numeric_anchor": "til sammen 215 mill.",
+      "role": "committee_explanation"
+    },
+    {
+      "source_id": "i82",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[2]/div[1]/p[7]",
+      "numeric_anchor": "post 70 med 5 mill.",
+      "role": "committee_explanation"
+    },
+    {
+      "source_id": "i95",
+      "account": "1420/32",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[4]/div[1]/div[2]/div/div[2]/div[2]/table/tbody/tr[29]",
+      "numeric_field": "270 000 000",
+      "role": "committee_table"
+    },
+    {
+      "source_id": "i95",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[3]/div[1]/p[8]",
+      "numeric_anchor": "post 32 med 270 mill.",
+      "role": "committee_explanation"
+    },
+    {
+      "source_id": "i85",
+      "account": "315/78",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[54]/div[1]/div/table/tbody/tr[2]",
+      "numeric_field": "129 000 000",
+      "role": "committee_table"
+    },
+    {
+      "source_id": "i85",
+      "account": "315/78",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[55]/div[1]/div[2]/div/div[2]/div[2]/table/tbody/tr[14]",
+      "numeric_field": "129 000 000",
+      "role": "committee_table"
+    },
+    {
+      "source_id": "i85",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[54]/div[1]/p[1]",
+      "numeric_anchor": "post 78 med 10 mill.",
+      "role": "committee_explanation"
+    },
+    {
+      "source_id": "i94",
+      "account": "732/70",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[3]/div[1]/div[2]/div/div[2]/div[2]/table/tbody/tr[36]",
+      "numeric_field": "505 000 000",
+      "role": "committee_table"
+    },
+    {
+      "source_id": "i94",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[2]/div[1]/p[4]",
+      "numeric_anchor": "post 70 med 100 mill.",
+      "role": "committee_explanation"
+    },
+    {
+      "source_id": "p36-7",
+      "account": "5800/50",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[170]",
+      "numeric_field": "9 366 471 000",
+      "role": "proposal"
+    },
+    {
+      "source_id": "i90",
+      "account": "5800/50",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[184]/div[1]/div[1]/table/tbody/tr[2]",
+      "numeric_field": "9 966 471 000",
+      "role": "committee_table"
+    },
+    {
+      "source_id": "i90",
+      "account": "5800/50",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[184]/div[1]/div[2]/table/tbody/tr[2]",
+      "numeric_field": "9 366 471 000",
+      "role": "committee_table"
+    },
+    {
+      "source_id": "i90",
+      "account": "5800/50",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[184]/div[1]/div[3]/table/tbody/tr[2]",
+      "numeric_field": "14 986 471 000",
+      "role": "committee_table"
+    },
+    {
+      "source_id": "i90",
+      "account": "5800/50",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[195]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[2]",
+      "numeric_field": "9 366 471 000",
+      "role": "committee_table"
+    },
+    {
+      "source_id": "i90",
+      "account": "5800/50",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[195]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[2]",
+      "numeric_field": "14 986 471 000",
+      "role": "committee_table"
+    },
+    {
+      "source_id": "i90",
+      "account": "5800/50",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[196]/div[1]/div[2]/div/div[2]/div[2]/table/tbody/tr[234]",
+      "numeric_field": "9 966 471 000",
+      "role": "committee_table"
+    },
+    {
+      "source_id": "i90",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[184]/div[1]/p[6]",
+      "numeric_anchor": "til sammen 600 mill.",
+      "role": "committee_explanation"
+    },
+    {
+      "source_id": "session24",
+      "api_id": "40034045",
+      "account": "315/78",
+      "locator": "stortingsvedtak[id=40034045]/stortingsvedtak_tekst/table[1]/tr[15]",
+      "numeric_field": "129 000 000",
+      "role": "adopted_decision"
+    },
+    {
+      "source_id": "session24",
+      "api_id": "40034211",
+      "account": "118/70",
+      "locator": "stortingsvedtak[id=40034211]/stortingsvedtak_tekst/table[1]/tr[20]",
+      "numeric_field": "5 000 000",
+      "role": "adopted_decision"
+    },
+    {
+      "source_id": "session24",
+      "api_id": "40034211",
+      "account": "150/70",
+      "locator": "stortingsvedtak[id=40034211]/stortingsvedtak_tekst/table[1]/tr[34]",
+      "numeric_field": "215 000 000",
+      "role": "adopted_decision"
+    },
+    {
+      "source_id": "session24",
+      "api_id": "40034220",
+      "account": "1420/32",
+      "locator": "stortingsvedtak[id=40034220]/stortingsvedtak_tekst/table[1]/tr[30]",
+      "numeric_field": "270 000 000",
+      "role": "adopted_decision"
+    },
+    {
+      "source_id": "session24",
+      "api_id": "40034229",
+      "account": "732/70",
+      "locator": "stortingsvedtak[id=40034229]/stortingsvedtak_tekst/table[1]/tr[37]",
+      "numeric_field": "505 000 000",
+      "role": "adopted_decision"
+    },
+    {
+      "source_id": "session24",
+      "api_id": "40034287",
+      "account": "5800/50",
+      "locator": "stortingsvedtak[id=40034287]/stortingsvedtak_tekst/table[1]/tr[235]",
+      "numeric_field": "9 966 471 000",
+      "role": "adopted_decision"
+    }
+  ],
+  "dispositions": [
+    {
+      "key": [
+        "118",
+        "70"
+      ],
+      "excel": "-20000000",
+      "doc": "-15000000",
+      "residual_nok": "-5000000",
+      "raw_rows": [
+        51
+      ],
+      "doc_rows": [
+        30,
+        31
+      ],
+      "classification": "proposal_vs_adopted_committee_addition",
+      "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+      "proposal_adjustment_nok": null,
+      "committee_addition_nok": "5000000",
+      "raw_inputs": [
+        {
+          "K": "-20",
+          "L": "0",
+          "N": "0"
+        }
+      ],
+      "allowed_use": "Vis forslag og vedtatt endring separat; behold eksakt rårest.",
+      "remaining_question": "Eksportens dokumenterte utvalg og kildeversjoner; ingen ny økonomisk feil eller normaliseringsavgjørelse utledes.",
+      "proposal_row_status": "absent_in_controlled_Prop36_register; no source zero invented"
+    },
+    {
+      "key": [
+        "1420",
+        "32"
+      ],
+      "excel": "-2500000.0",
+      "doc": "267500000",
+      "residual_nok": "-270000000.0",
+      "raw_rows": [
+        1082
+      ],
+      "doc_rows": [
+        716,
+        717
+      ],
+      "classification": "proposal_vs_adopted_committee_addition",
+      "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+      "proposal_adjustment_nok": null,
+      "committee_addition_nok": "270000000",
+      "raw_inputs": [
+        {
+          "K": "-2.5",
+          "L": "0",
+          "N": "0"
+        }
+      ],
+      "allowed_use": "Vis forslag og vedtatt endring separat; behold eksakt rårest.",
+      "remaining_question": "Eksportens dokumenterte utvalg og kildeversjoner; ingen ny økonomisk feil eller normaliseringsavgjørelse utledes.",
+      "proposal_row_status": "absent_in_controlled_Prop36_register; no source zero invented"
+    },
+    {
+      "key": [
+        "150",
+        "70"
+      ],
+      "excel": "500000000",
+      "doc": "715000000",
+      "residual_nok": "-215000000",
+      "raw_rows": [
+        68
+      ],
+      "doc_rows": [
+        41,
+        42
+      ],
+      "classification": "proposal_vs_adopted_committee_addition",
+      "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+      "proposal_adjustment_nok": null,
+      "committee_addition_nok": "215000000",
+      "raw_inputs": [
+        {
+          "K": "500",
+          "L": "0",
+          "N": "0"
+        }
+      ],
+      "allowed_use": "Vis forslag og vedtatt endring separat; behold eksakt rårest.",
+      "remaining_question": "Eksportens dokumenterte utvalg og kildeversjoner; ingen ny økonomisk feil eller normaliseringsavgjørelse utledes.",
+      "proposal_row_status": "absent_in_controlled_Prop36_register; no source zero invented"
+    },
+    {
+      "key": [
+        "315",
+        "78"
+      ],
+      "excel": "117000000",
+      "doc": "127000000",
+      "residual_nok": "-10000000",
+      "raw_rows": [
+        242
+      ],
+      "doc_rows": [
+        176,
+        177
+      ],
+      "classification": "proposal_vs_adopted_committee_addition",
+      "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+      "proposal_adjustment_nok": "119000000",
+      "committee_addition_nok": "10000000",
+      "raw_inputs": [
+        {
+          "K": "-2",
+          "L": "0",
+          "N": "119"
+        }
+      ],
+      "allowed_use": "Vis forslag og vedtatt endring separat; behold eksakt rårest.",
+      "remaining_question": "Eksportens dokumenterte utvalg og kildeversjoner; ingen ny økonomisk feil eller normaliseringsavgjørelse utledes."
+    },
+    {
+      "key": [
+        "5800",
+        "50"
+      ],
+      "excel": "9366470999.9999995000000",
+      "doc": "9966471000",
+      "residual_nok": "-600000000.0000005000000",
+      "raw_rows": [
+        1872
+      ],
+      "doc_rows": [
+        1372
+      ],
+      "classification": "proposal_vs_adopted_committee_addition",
+      "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+      "proposal_adjustment_nok": "9366471000",
+      "committee_addition_nok": "600000000",
+      "raw_inputs": [
+        {
+          "K": "0",
+          "L": "0",
+          "N": "9366.4709999999995"
+        }
+      ],
+      "allowed_use": "Vis forslag og vedtatt endring separat; behold eksakt rårest.",
+      "remaining_question": "Eksportens dokumenterte utvalg og kildeversjoner; ingen ny økonomisk feil eller normaliseringsavgjørelse utledes."
+    },
+    {
+      "key": [
+        "732",
+        "70"
+      ],
+      "excel": "1345000000",
+      "doc": "1445000000",
+      "residual_nok": "-100000000",
+      "raw_rows": [
+        671
+      ],
+      "doc_rows": [
+        423,
+        424
+      ],
+      "classification": "proposal_vs_adopted_committee_addition",
+      "status": "VERIFIED_SOURCE_CORRESPONDENCE",
+      "proposal_adjustment_nok": "405000000",
+      "committee_addition_nok": "100000000",
+      "raw_inputs": [
+        {
+          "K": "940",
+          "L": "0",
+          "N": "405"
+        }
+      ],
+      "allowed_use": "Vis forslag og vedtatt endring separat; behold eksakt rårest.",
+      "remaining_question": "Eksportens dokumenterte utvalg og kildeversjoner; ingen ny økonomisk feil eller normaliseringsavgjørelse utledes."
+    }
+  ],
+  "expense_committee_addition_sum_nok": "600000000",
+  "fund_transfer_committee_addition_nok": "600000000",
+  "conclusion": "Alle seks har konkrete originalfelt som forklarer forskjellen mellom forslag og vedtak. 5800/50 beholder i tillegg -0.0000005 NOK leksikalsk presisjonsrest. Ingen råfelt endres.",
+  "limits": "Vedtakstabellenes formelle identitet kontrolleres direkte i full sesjonsrespons. Ingen full ny v2-årsreplay, alle proposisjoner eller voteringsforløp er kontrollert i denne tilleggsprøven."
+}
