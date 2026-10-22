@@ -1,0 +1,1668 @@
+{
+  "version": "p13-p2-decisions-evidence-1",
+  "observed_date": "2026-10-22",
+  "base_commit": "6b19a5ca7a74aa905e5ac42b7e624dacf81952bc",
+  "professional_approval": false,
+  "full_fresh_v2_replay": false,
+  "all_synthetic_bridge_events": [],
+  "sources": [
+    {
+      "file": "raw/inns-090.html",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-090s/?all=true",
+      "fetched_utc": "2026-10-22T07:04:05.503431+00:00",
+      "status": 200,
+      "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-090s/?all=true",
+      "bytes": 1173301,
+      "sha256": "0ce6a317b3f91b845e19adc154985e361821a9e6e00912984e1abebc3ba1f4fe"
+    },
+    {
+      "file": "raw/inns-093.html",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-093s/?all=true",
+      "fetched_utc": "2026-10-22T07:04:03.260568+00:00",
+      "status": 200,
+      "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-093s/?all=true",
+      "bytes": 216395,
+      "sha256": "ad582f42ad36d196c339bbf41da957aae66e5bda8470a6dec1285790c7405705"
+    },
+    {
+      "file": "raw/inns-099.html",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-099s/?all=true",
+      "fetched_utc": "2026-10-22T07:04:03.260568+00:00",
+      "status": 200,
+      "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-099s/?all=true",
+      "bytes": 464076,
+      "sha256": "08ed560531fe07ece606d3bf7fdb539353fafe812638b98ef32c003cdfc069b0"
+    },
+    {
+      "file": "raw/inns-447.html",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2023-2024/inns-202324-447s/?all=true",
+      "fetched_utc": "2026-10-22T07:04:03.260568+00:00",
+      "status": 200,
+      "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2023-2024/inns-202324-447s/?all=true",
+      "bytes": 28647675,
+      "sha256": "be1d2a2cc02d7d9af7fa3b97e59a2183b26511a93c8fadc85f5c428cf6126b41"
+    },
+    {
+      "file": "raw/ref-0621.html",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-21/voteringer",
+      "fetched_utc": "2026-10-22T07:04:07.770930+00:00",
+      "status": 200,
+      "final_url": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2023-2024/refs-202324-06-21/?m=5",
+      "bytes": 25471509,
+      "sha256": "9689e4e9ec7f155da0a5222a4a6ce6c9c8a03b7ea19daf9e92dd044fffbb03c6"
+    },
+    {
+      "file": "raw/ref-1217.html",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-17/voteringer",
+      "fetched_utc": "2026-10-22T07:04:13.642804+00:00",
+      "status": 200,
+      "final_url": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2024-2025/refs-202425-12-17/?m=12",
+      "bytes": 2735400,
+      "sha256": "c4e3cdaa07d7c93675f69b63b1cba67e590313ca4c05727006e70d812245d925"
+    },
+    {
+      "file": "raw/ref-1218.html",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-18/voteringer",
+      "fetched_utc": "2026-10-22T07:04:42.539173+00:00",
+      "status": 200,
+      "final_url": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2024-2025/refs-202425-12-18/?m=17",
+      "bytes": 4800047,
+      "sha256": "2da98a8a21fe684d7cff84018447c94c231d11cf228cdf7d8e9da3a54d0143d5"
+    },
+    {
+      "file": "raw/ref-1219.html",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-19/voteringer",
+      "fetched_utc": "2026-10-22T07:04:50.076535+00:00",
+      "status": 200,
+      "final_url": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2024-2025/refs-202425-12-19/?m=6",
+      "bytes": 1856826,
+      "sha256": "17de005a60f60197ac0ddd2b6114760179e81446d043fcfae0df9154a06f6852"
+    },
+    {
+      "file": "raw/session-2023-2024.xml",
+      "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2023-2024",
+      "fetched_utc": "2026-10-22T07:04:03.260568+00:00",
+      "status": 200,
+      "final_url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2023-2024",
+      "bytes": 6816165,
+      "sha256": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57"
+    },
+    {
+      "file": "raw/session-2024-2025.xml",
+      "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2024-2025",
+      "fetched_utc": "2026-10-22T07:04:03.260568+00:00",
+      "status": 200,
+      "final_url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2024-2025",
+      "bytes": 7479943,
+      "sha256": "c5f3b90046d23a0e4cacb24f681a01d7e5fd4468ab68fc3d646dc832bb9a4b42"
+    },
+    {
+      "file": "raw/voteringer-100289.xml",
+      "url": "https://data.stortinget.no/eksport/voteringer?sakid=100289",
+      "fetched_utc": "2026-10-22T07:05:01.016784+00:00",
+      "status": 200,
+      "final_url": "https://data.stortinget.no/eksport/voteringer?sakid=100289",
+      "bytes": 10096,
+      "sha256": "8e50cb3725c11918baba2191a451aee45d18cc792b9aa8a798e3449a1206cc75"
+    },
+    {
+      "file": "raw/voteringer-100894.xml",
+      "url": "https://data.stortinget.no/eksport/voteringer?sakid=100894",
+      "fetched_utc": "2026-10-22T07:09:06.328271+00:00",
+      "status": 200,
+      "final_url": "https://data.stortinget.no/eksport/voteringer?sakid=100894",
+      "bytes": 4305,
+      "sha256": "c28326eacba7285cd14ffb7fc445a15dfe45bb5f8a29a166c1a1ff2d6d92040c"
+    },
+    {
+      "file": "raw/voteringer-100898.xml",
+      "url": "https://data.stortinget.no/eksport/voteringer?sakid=100898",
+      "fetched_utc": "2026-10-22T07:09:06.328271+00:00",
+      "status": 200,
+      "final_url": "https://data.stortinget.no/eksport/voteringer?sakid=100898",
+      "bytes": 4270,
+      "sha256": "246fbda30fda8da6d49a683ffcf2bfcd9a3b1e9f0110578a6ba6a7291be4224b"
+    },
+    {
+      "file": "raw/voteringer-98919.xml",
+      "url": "https://data.stortinget.no/eksport/voteringer?sakid=98919",
+      "fetched_utc": "2026-10-22T07:04:58.109992+00:00",
+      "status": 200,
+      "final_url": "https://data.stortinget.no/eksport/voteringer?sakid=98919",
+      "bytes": 83773,
+      "sha256": "c31901847f54bbfc2b35e792257924cb963905bfe10f02494d98a0bf316c58e2"
+    },
+    {
+      "file": "raw/voteringsforslag-23457.xml",
+      "url": "https://data.stortinget.no/eksport/voteringsforslag?voteringid=23457",
+      "fetched_utc": "2026-10-22T07:09:06.328271+00:00",
+      "status": 200,
+      "final_url": "https://data.stortinget.no/eksport/voteringsforslag?voteringid=23457",
+      "bytes": 1378840,
+      "sha256": "b2a309ef0753f40c4dc3527e0404ba0ebd225a46263939c01789ffaaa8437de2"
+    },
+    {
+      "file": "raw/voteringsforslag-23880.xml",
+      "url": "https://data.stortinget.no/eksport/voteringsforslag?voteringid=23880",
+      "fetched_utc": "2026-10-22T07:05:02.679508+00:00",
+      "status": 200,
+      "final_url": "https://data.stortinget.no/eksport/voteringsforslag?voteringid=23880",
+      "bytes": 143306,
+      "sha256": "8951ab3b5599bb1f909bfd9a5fa350a0708551d87f61410383de76723ae529d3"
+    },
+    {
+      "file": "raw/voteringsforslag-23945.xml",
+      "url": "https://data.stortinget.no/eksport/voteringsforslag?voteringid=23945",
+      "fetched_utc": "2026-10-22T07:09:06.328271+00:00",
+      "status": 200,
+      "final_url": "https://data.stortinget.no/eksport/voteringsforslag?voteringid=23945",
+      "bytes": 178124,
+      "sha256": "7d24d2603e084bed306fa95ba83749f6c586e1f80d32db7e2641a2de8e402fe9"
+    },
+    {
+      "file": "raw/voteringsforslag-23976.xml",
+      "url": "https://data.stortinget.no/eksport/voteringsforslag?voteringid=23976",
+      "fetched_utc": "2026-10-22T07:05:06.839590+00:00",
+      "status": 200,
+      "final_url": "https://data.stortinget.no/eksport/voteringsforslag?voteringid=23976",
+      "bytes": 46271,
+      "sha256": "c33101fe359c09aef5318a8f51ee1c8b9640f29d73a705049440aa3e52dcd6d7"
+    },
+    {
+      "file": "inherited_local_proposal104",
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-104-s-20232024/id3039096/?ch=2",
+      "fetched_date": "2026-10-21",
+      "rechecked_date": "2026-10-22",
+      "sha256": "94cb91928eb173665de6111d13de6562b663fad8a4eddcdd01daab7b7fdf4594",
+      "bytes": 1014253,
+      "note": "Bevart original fra P1; ny direkte henting fikk 403. Ingen omgåelse."
+    }
+  ],
+  "document_comparison": {
+    "original_sha256": "870d30d55b4f7f6791fe48ea2a15aa3e98d61946393385d0411e46a0169f60f3",
+    "ledger_sha256": "ab9ef8abe7f1b508d54ca17e6f88209d061a6a6e2c8f312d5444894686642e31",
+    "document_union_counts": {
+      "match": 1354,
+      "missing_reference": 1,
+      "missing_excel": 4
+    }
+  },
+  "selected_excel_cells": [
+    {
+      "sheet": "Dokumentiltknyntning2024",
+      "row": 43,
+      "values": [
+        151,
+        70,
+        0,
+        0,
+        "p104/23-24",
+        "i447/23-24",
+        null
+      ],
+      "D_raw": "0"
+    },
+    {
+      "sheet": "Dokumentiltknyntning2024",
+      "row": 124,
+      "values": [
+        228,
+        85,
+        0,
+        30000000,
+        "p104/23-24",
+        "i447/23-24",
+        null
+      ],
+      "D_raw": "30000000"
+    },
+    {
+      "sheet": "Dokumentiltknyntning2024",
+      "row": 881,
+      "values": [
+        1860,
+        1,
+        0,
+        10988000,
+        "p17/24-25",
+        "i99/24-25",
+        null
+      ],
+      "D_raw": "10988000"
+    },
+    {
+      "sheet": "Dokumentiltknyntning2024",
+      "row": 914,
+      "values": [
+        2440,
+        31,
+        0,
+        11900000000,
+        "p27/24-25",
+        "i93/24-25",
+        null
+      ],
+      "D_raw": "11900000000"
+    },
+    {
+      "sheet": "Dokumentiltknyntning2024",
+      "row": 1211,
+      "values": [
+        4860,
+        1,
+        0,
+        -2400000,
+        "p17/24-25",
+        "i99/24-25",
+        null
+      ],
+      "D_raw": "-2400000"
+    }
+  ],
+  "selected_raw_cells": [
+    {
+      "row": 70,
+      "account": [
+        151,
+        70,
+        0
+      ],
+      "raw": {
+        "H": "415.26",
+        "I": "-20",
+        "J": "415.26",
+        "K": "0",
+        "L": "0",
+        "M": "0",
+        "N": "0"
+      }
+    },
+    {
+      "row": 171,
+      "account": [
+        228,
+        85,
+        0
+      ],
+      "raw": {
+        "H": "0",
+        "I": "30",
+        "J": "30",
+        "K": "30",
+        "L": "0",
+        "M": "0",
+        "N": "0"
+      }
+    },
+    {
+      "row": 1305,
+      "account": [
+        1860,
+        1,
+        1
+      ],
+      "raw": {
+        "H": "279.5",
+        "I": "0",
+        "J": "279.5",
+        "K": "0",
+        "L": "0",
+        "M": "0",
+        "N": "10.988"
+      }
+    },
+    {
+      "row": 1306,
+      "account": [
+        1860,
+        1,
+        2
+      ],
+      "raw": {
+        "H": "69.823999999999998",
+        "I": "0",
+        "J": "69.823999999999998",
+        "K": "0",
+        "L": "0",
+        "M": "0",
+        "N": "0"
+      }
+    },
+    {
+      "row": 1339,
+      "account": [
+        2440,
+        31,
+        0
+      ],
+      "raw": {
+        "H": "0",
+        "I": "0",
+        "J": "0",
+        "K": "0",
+        "L": "0",
+        "M": "0",
+        "N": "11900"
+      }
+    },
+    {
+      "row": 1707,
+      "account": [
+        4860,
+        1,
+        0
+      ],
+      "raw": {
+        "H": "85.8",
+        "I": "0",
+        "J": "85.8",
+        "K": "0",
+        "L": "0",
+        "M": "0",
+        "N": "-2.4"
+      }
+    }
+  ],
+  "fixture_replays": [
+    {
+      "api_id": "40032763",
+      "sha256": "4d5bf0b00dfe40dd73c543bb84b2be6a5bb2fe04e0b0bef08f9641902f907ff5",
+      "count": 74,
+      "read_exact": true,
+      "repeat_exact": true
+    },
+    {
+      "api_id": "40032791",
+      "sha256": "96a287159014126a824b61dd3891eb54d5615fbbe2d5078a7077f79e545cae2a",
+      "count": 114,
+      "read_exact": true,
+      "repeat_exact": true
+    },
+    {
+      "api_id": "40032850",
+      "sha256": "e3a67be880410086a86e5bec8a60c7cd1287971c01c2aa8d669db6cc404f9521",
+      "count": 124,
+      "read_exact": true,
+      "repeat_exact": true
+    },
+    {
+      "api_id": "40032976",
+      "sha256": "4c41b5647e65330e938d7bca93582900120c91753744892c826b53e57ddb3c0f",
+      "count": 49,
+      "read_exact": true,
+      "repeat_exact": true
+    },
+    {
+      "api_id": "40033025",
+      "sha256": "601cc054db0f79ce3c2bf8c16c6dde1f1e1edd82bb30a627c3e10e03a898a73f",
+      "count": 31,
+      "read_exact": true,
+      "repeat_exact": true
+    },
+    {
+      "api_id": "40033719",
+      "sha256": "4113b987c8f939256d30ef6a4401cda358d9da90b5af19cbbbc37d0ec9d312b0",
+      "count": 1732,
+      "read_exact": true,
+      "repeat_exact": true
+    },
+    {
+      "api_id": "40033805",
+      "sha256": "fabac44b233c1f15f682aab05778e9670f4b39fed459597b9726b222b116c244",
+      "count": 3,
+      "read_exact": true,
+      "repeat_exact": true
+    },
+    {
+      "api_id": "40034064",
+      "sha256": "70c479d20adacb289be68813094b71c9207af42f19daf7d582b681fd23ab77ea",
+      "count": 214,
+      "read_exact": true,
+      "repeat_exact": true
+    },
+    {
+      "api_id": "40034226",
+      "sha256": "9308854a2ccb877f04bbbf853f8dd99f1e09d4e476369f7ed24fa03d508c5c83",
+      "count": 60,
+      "read_exact": true,
+      "repeat_exact": true
+    },
+    {
+      "api_id": "40034287",
+      "sha256": "c72e65a2fc79226e6375a79d56712d1bbc61771efc7b2697264aad1206ed7c81",
+      "count": 265,
+      "read_exact": true,
+      "repeat_exact": true
+    },
+    {
+      "api_id": "40034048",
+      "sha256": "2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850",
+      "count": 6,
+      "read_exact": true,
+      "repeat_exact": true
+    },
+    {
+      "api_id": "40034229",
+      "sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+      "count": 222,
+      "read_exact": true,
+      "repeat_exact": true
+    }
+  ],
+  "fixture_observation_total": 2894,
+  "official_fields": [
+    {
+      "api_id": "40033025",
+      "session": "2023-2024",
+      "source": "raw/session-2023-2024.xml",
+      "header": [
+        [
+          "Kap.",
+          "Post",
+          "Formål",
+          "Kroner",
+          "Kroner"
+        ]
+      ],
+      "selected_rows": [
+        {
+          "chapter": "5999",
+          "post_raw": "90",
+          "locator": "table[1]/tr[62]",
+          "cells": [
+            "",
+            "90",
+            "Lån",
+            "101 874 353 000",
+            ""
+          ]
+        }
+      ],
+      "account_151_70_rows": 0
+    },
+    {
+      "api_id": "40033719",
+      "session": "2023-2024",
+      "source": "raw/session-2023-2024.xml",
+      "header": [
+        [
+          "Kap.",
+          "Post",
+          "Formål",
+          "Kroner",
+          "Kroner"
+        ]
+      ],
+      "selected_rows": [
+        {
+          "chapter": "228",
+          "post_raw": "85",
+          "locator": "table[1]/tr[143]",
+          "cells": [
+            "",
+            "85",
+            "(Ny) Særtilskudd til private kombinerte grunnskoler , b evilges med",
+            "",
+            "30 000 000"
+          ]
+        },
+        {
+          "chapter": "5999",
+          "post_raw": "90",
+          "locator": "table[1]/tr[1487]",
+          "cells": [
+            "",
+            "90",
+            "Lån , reduseres med",
+            "",
+            "101 874 353 000"
+          ]
+        }
+      ],
+      "account_151_70_rows": 0
+    },
+    {
+      "api_id": "40034064",
+      "session": "2024-2025",
+      "source": "raw/session-2024-2025.xml",
+      "header": [
+        [
+          "Kap.",
+          "Post",
+          "Formål",
+          "",
+          "Kroner"
+        ]
+      ],
+      "selected_rows": [
+        {
+          "chapter": "1860",
+          "post_raw": "1",
+          "locator": "table[1]/tr[68]",
+          "cells": [
+            "",
+            "1",
+            "Driftsutgifter, kan nyttast under post 21 , blir auka med",
+            "",
+            "10 988 000"
+          ]
+        },
+        {
+          "chapter": "4860",
+          "post_raw": "1",
+          "locator": "table[1]/tr[165]",
+          "cells": [
+            "",
+            "1",
+            "Gebyrinntekter, blir redusert med",
+            "",
+            "2 400 000"
+          ]
+        }
+      ],
+      "account_151_70_rows": 0
+    },
+    {
+      "api_id": "40034226",
+      "session": "2024-2025",
+      "source": "raw/session-2024-2025.xml",
+      "header": [
+        [
+          "Kap.",
+          "Post",
+          "Formål",
+          "Kroner",
+          "Kroner"
+        ]
+      ],
+      "selected_rows": [
+        {
+          "chapter": "1860",
+          "post_raw": "1",
+          "locator": "table[1]/tr[32]",
+          "cells": [
+            "",
+            "1",
+            "Driftsutgifter, kan nyttast under post 21 , blir auka med",
+            "",
+            "10 988 000"
+          ]
+        },
+        {
+          "chapter": "2440",
+          "post_raw": "(NY) 31",
+          "locator": "table[1]/tr[37]",
+          "cells": [
+            "",
+            "(NY) 31",
+            "Kjøp av eigardelar, blir løyvd med",
+            "",
+            "11 900 000 000"
+          ]
+        },
+        {
+          "chapter": "4860",
+          "post_raw": "1",
+          "locator": "table[1]/tr[43]",
+          "cells": [
+            "",
+            "1",
+            "Gebyrinntekter, blir redusert med",
+            "",
+            "2 400 000"
+          ]
+        }
+      ],
+      "account_151_70_rows": 0
+    },
+    {
+      "api_id": "40034287",
+      "session": "2024-2025",
+      "source": "raw/session-2024-2025.xml",
+      "header": [
+        [
+          "Kap.",
+          "Post",
+          "Formål",
+          "Kroner"
+        ]
+      ],
+      "selected_rows": [
+        {
+          "chapter": "5999",
+          "post_raw": "90",
+          "locator": "table[1]/tr[238]",
+          "cells": [
+            "",
+            "90",
+            "Lån , økes med",
+            "18 497 356 000"
+          ]
+        }
+      ],
+      "account_151_70_rows": 0
+    },
+    {
+      "voting_id": "23457",
+      "proposal_id": "40076251",
+      "source": "raw/voteringsforslag-23457.xml",
+      "selected_rows": [
+        {
+          "chapter": "228",
+          "post_raw": "85",
+          "locator": "forslag[40076251]/table[1]/tr[143]",
+          "cells": [
+            "",
+            "85",
+            "(Ny) Særtilskudd til private kombinerte grunnskoler , b evilges med",
+            "",
+            "30 000 000"
+          ]
+        },
+        {
+          "chapter": "5999",
+          "post_raw": "90",
+          "locator": "forslag[40076251]/table[1]/tr[1487]",
+          "cells": [
+            "",
+            "90",
+            "Lån , reduseres med",
+            "",
+            "101 874 353 000"
+          ]
+        }
+      ],
+      "account_151_70_rows": 0
+    },
+    {
+      "voting_id": "23945",
+      "proposal_id": "40078385",
+      "source": "raw/voteringsforslag-23945.xml",
+      "selected_rows": [
+        {
+          "chapter": "5999",
+          "post_raw": "90",
+          "locator": "forslag[40078385]/table[1]/tr[238]",
+          "cells": [
+            "",
+            "90",
+            "Lån , økes med",
+            "18 497 356 000"
+          ]
+        }
+      ],
+      "account_151_70_rows": 0
+    },
+    {
+      "voting_id": "23880",
+      "proposal_id": "40077095",
+      "source": "raw/voteringsforslag-23880.xml",
+      "selected_rows": [
+        {
+          "chapter": "1860",
+          "post_raw": "1",
+          "locator": "forslag[40077095]/table[1]/tr[68]",
+          "cells": [
+            "",
+            "1",
+            "Driftsutgifter, kan nyttast under post 21 , blir auka med",
+            "",
+            "10 988 000"
+          ]
+        },
+        {
+          "chapter": "4860",
+          "post_raw": "1",
+          "locator": "forslag[40077095]/table[1]/tr[165]",
+          "cells": [
+            "",
+            "1",
+            "Gebyrinntekter, blir redusert med",
+            "",
+            "2 400 000"
+          ]
+        }
+      ],
+      "account_151_70_rows": 0
+    },
+    {
+      "voting_id": "23976",
+      "proposal_id": "40077047",
+      "source": "raw/voteringsforslag-23976.xml",
+      "selected_rows": [
+        {
+          "chapter": "1860",
+          "post_raw": "1",
+          "locator": "forslag[40077047]/table[1]/tr[32]",
+          "cells": [
+            "",
+            "1",
+            "Driftsutgifter, kan nyttast under post 21 , blir auka med",
+            "",
+            "10 988 000"
+          ]
+        },
+        {
+          "chapter": "2440",
+          "post_raw": "(NY) 31",
+          "locator": "forslag[40077047]/table[1]/tr[37]",
+          "cells": [
+            "",
+            "(NY) 31",
+            "Kjøp av eigardelar, blir løyvd med",
+            "",
+            "11 900 000 000"
+          ]
+        },
+        {
+          "chapter": "4860",
+          "post_raw": "1",
+          "locator": "forslag[40077047]/table[1]/tr[43]",
+          "cells": [
+            "",
+            "1",
+            "Gebyrinntekter, blir redusert med",
+            "",
+            "2 400 000"
+          ]
+        }
+      ],
+      "account_151_70_rows": 0
+    }
+  ],
+  "html_controls": [
+    {
+      "source": "raw/inns-447.html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[2]/div[1]/p[47]",
+      "text": "Flertallet viser til at bevilgningen på kap. 151 post 70 foreslås økt med 20 mill. kroner for å øke støtten til fred- og forsoningsarbeidet."
+    },
+    {
+      "source": "raw/inns-447.html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[142]",
+      "text": "85 (Ny) Særtilskudd til private kombinerte grunnskoler , b evilges med 30 000 000",
+      "following_rows": [
+        {
+          "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[143]",
+          "text": "229 22. juli-senteret"
+        },
+        {
+          "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[144]",
+          "text": "1 Driftsutgifter , økes med 475 000"
+        }
+      ]
+    },
+    {
+      "source": "raw/inns-447.html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[1485]",
+      "text": "5999 Statslånemidler",
+      "following_rows": [
+        {
+          "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[1486]",
+          "text": "90 Lån , reduseres med 101 874 353 000"
+        },
+        {
+          "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[1487]",
+          "text": "fra kr 101 874 353 000 til kr 0"
+        }
+      ]
+    },
+    {
+      "source": "raw/inns-093.html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[2]/div[1]/p",
+      "text": "Ved vedtak i Stortinget 26. november 2024 er Prop. 17 S (2024–2025) sendt til behandling i energi- og miljøkomiteen, foruten kapittel 1860 og 4860, som behandles i arbeids- og sosialkomiteen. Prop. 27 S (2024–2025) kapittel 2240 og 5440 samt romertall V er også sendt til behandling i energi- og miljøkomiteen, mens øvrige kapitler behandles av næringskomiteen."
+    },
+    {
+      "source": "raw/inns-093.html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[4]/div[1]/div[2]/div/div[2]/div[2]/table/tbody/tr[30]",
+      "text": "1860 Havindustritilsynet:",
+      "following_rows": [
+        {
+          "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[4]/div[1]/div[2]/div/div[2]/div[2]/table/tbody/tr[31]",
+          "text": "1 Driftsutgifter, kan nyttast under post 21 , blir auka med 10 988 000"
+        },
+        {
+          "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[4]/div[1]/div[2]/div/div[2]/div[2]/table/tbody/tr[32]",
+          "text": "frå kr 349 324 000 til kr 360 312 000"
+        }
+      ]
+    },
+    {
+      "source": "raw/inns-093.html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[4]/div[1]/div[2]/div/div[2]/div[2]/table/tbody/tr[41]",
+      "text": "4860 Havindustritilsynet:",
+      "following_rows": [
+        {
+          "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[4]/div[1]/div[2]/div/div[2]/div[2]/table/tbody/tr[42]",
+          "text": "1 Gebyrinntekter, blir redusert med 2 400 000"
+        },
+        {
+          "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[4]/div[1]/div[2]/div/div[2]/div[2]/table/tbody/tr[43]",
+          "text": "frå kr 85 800 000 til kr 83 400 000"
+        }
+      ]
+    },
+    {
+      "source": "raw/ref-0621.html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[7]/div[2]/div[2]/div[4]/div[3]/div[1]/p[1]",
+      "text": "Presidenten: Det voteres over A og B samtlige romertall."
+    },
+    {
+      "source": "raw/ref-0621.html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[7]/div[2]/div[2]/div[4]/div[3]/div[2]/p[1]",
+      "text": "Komiteens innstilling ble vedtatt med 55 mot 46 stemmer."
+    },
+    {
+      "source": "raw/ref-0621.html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[7]/div[2]/div[1]/div[2]/div[1]/table/tbody/tr[143]",
+      "text": "85 (Ny) Særtilskudd til private kombinerte grunnskoler , b evilges med 30 000 000",
+      "following_rows": [
+        {
+          "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[7]/div[2]/div[1]/div[2]/div[1]/table/tbody/tr[144]",
+          "text": "229 22. juli-senteret"
+        },
+        {
+          "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[7]/div[2]/div[1]/div[2]/div[1]/table/tbody/tr[145]",
+          "text": "1 Driftsutgifter , økes med 475 000"
+        }
+      ]
+    },
+    {
+      "source": "raw/ref-0621.html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[7]/div[2]/div[1]/div[2]/div[1]/table/tbody/tr[1486]",
+      "text": "5999 Statslånemidler",
+      "following_rows": [
+        {
+          "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[7]/div[2]/div[1]/div[2]/div[1]/table/tbody/tr[1487]",
+          "text": "90 Lån , reduseres med 101 874 353 000"
+        },
+        {
+          "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[7]/div[2]/div[1]/div[2]/div[1]/table/tbody/tr[1488]",
+          "text": "fra kr 101 874 353 000 til kr 0"
+        }
+      ]
+    },
+    {
+      "source": "raw/ref-1217.html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[4]/div[2]/div[3]/div[2]/p",
+      "text": "Tilrådinga frå komiteen blei samrøystes vedteken."
+    },
+    {
+      "source": "raw/ref-1218.html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[15]/div[2]/div[3]/div[5]/p",
+      "text": "Komiteens innstilling ble enstemmig vedtatt."
+    },
+    {
+      "source": "raw/ref-1218.html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[15]/div[2]/div[1]/div/table/tbody/tr[30]",
+      "text": "1860 Havindustritilsynet:",
+      "following_rows": [
+        {
+          "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[15]/div[2]/div[1]/div/table/tbody/tr[31]",
+          "text": "1 Driftsutgifter, kan nyttast under post 21 , blir auka med 10 988 000"
+        },
+        {
+          "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[15]/div[2]/div[1]/div/table/tbody/tr[32]",
+          "text": "frå kr 349 324 000 til kr 360 312 000"
+        }
+      ]
+    },
+    {
+      "source": "raw/ref-1218.html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[15]/div[2]/div[1]/div/table/tbody/tr[41]",
+      "text": "4860 Havindustritilsynet:",
+      "following_rows": [
+        {
+          "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[15]/div[2]/div[1]/div/table/tbody/tr[42]",
+          "text": "1 Gebyrinntekter, blir redusert med 2 400 000"
+        },
+        {
+          "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[15]/div[2]/div[1]/div/table/tbody/tr[43]",
+          "text": "frå kr 85 800 000 til kr 83 400 000"
+        }
+      ]
+    },
+    {
+      "source": "raw/ref-1219.html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[7]/div[2]/div[4]/p",
+      "text": "Presidenten: Det voteres over resten av I samt II, III og IV."
+    },
+    {
+      "source": "raw/ref-1219.html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[7]/div[2]/div[1]/table/tbody/tr[236]",
+      "text": "5999 Statslånemidler",
+      "following_rows": [
+        {
+          "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[7]/div[2]/div[1]/table/tbody/tr[237]",
+          "text": "90 Lån , økes med 18 497 356 000"
+        },
+        {
+          "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[7]/div[2]/div[1]/table/tbody/tr[238]",
+          "text": "fra kr 101 874 353 000 til kr 120 371 709 000"
+        }
+      ]
+    },
+    {
+      "source": "raw/inns-447.html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table",
+      "check": "final_recommendation_table_not_alternative",
+      "account_151_70_rows": 0,
+      "rows_count": 1488,
+      "boundary_rows": [
+        {
+          "chapter": "151",
+          "post_raw": "71",
+          "locator": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[60]",
+          "cells": [
+            "",
+            "71",
+            "Globale sikkerhetsspørsmål og nedrustning , kan overføres, reduseres med",
+            "",
+            "5 200 000"
+          ]
+        },
+        {
+          "chapter": "228",
+          "post_raw": "85",
+          "locator": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[142]",
+          "cells": [
+            "",
+            "85",
+            "(Ny) Særtilskudd til private kombinerte grunnskoler , b evilges med",
+            "",
+            "30 000 000"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "raw/ref-0621.html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[7]/div[2]/div[1]/div[2]/div[1]/table",
+      "check": "final_recommendation_table_not_alternative",
+      "account_151_70_rows": 0,
+      "rows_count": 1488,
+      "boundary_rows": [
+        {
+          "chapter": "151",
+          "post_raw": "71",
+          "locator": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[7]/div[2]/div[1]/div[2]/div[1]/table/tbody/tr[61]",
+          "cells": [
+            "",
+            "71",
+            "Globale sikkerhetsspørsmål og nedrustning , kan overføres, reduseres med",
+            "",
+            "5 200 000"
+          ]
+        },
+        {
+          "chapter": "228",
+          "post_raw": "85",
+          "locator": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[7]/div[2]/div[1]/div[2]/div[1]/table/tbody/tr[143]",
+          "cells": [
+            "",
+            "85",
+            "(Ny) Særtilskudd til private kombinerte grunnskoler , b evilges med",
+            "",
+            "30 000 000"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "inherited_local_proposal104",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div[33]/p",
+      "text": "Bevilgningen på posten foreslås redusert med 20 mill. kroner til inndekning for økte flyktningutgifter i Norge og humanitær bistand til Gaza. Forslaget innebærer redusert støtte til pågående freds- og forsoningsarbeid og prosesser hvor Norge har en formell rolle, samt at planlagte initiativ ikke vil bli igangsatt."
+    },
+    {
+      "source": "inherited_local_proposal104",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div[91]/p",
+      "text": "Det foreslås å opprette et særtilskudd til private kombinerte grunnskoler for å kompensere for tilskuddsreduksjon som følge av ny tilskuddsmodell og beregningspraksis for private kombinerte grunnskoler. Tilskuddet vil gis per elev i de kombinerte skolene i intervallet 46–90 elever. Tilskuddet vil gis til kombinerte skoler som får tilskudd over kap, 228, post 70 (private grunnskoler i Norge) og post 73 (private grunnskoler i utlandet). Det foreslås en bevilgning på 30 mill. kroner på posten."
+    }
+  ],
+  "votes": [
+    {
+      "source": "raw/voteringer-98919.xml",
+      "locator": "sak_votering[votering_id=23457]",
+      "fields": {
+        "antall_for": "55",
+        "antall_mot": "46",
+        "vedtatt": "true",
+        "votering_id": "23457",
+        "votering_resultat_type": "ikke_spesifisert",
+        "votering_tema": "Stor bokstav A og B samtlige romertall",
+        "votering_tid": "2024-06-21T14:30:00.163"
+      }
+    },
+    {
+      "source": "raw/voteringer-100289.xml",
+      "locator": "sak_votering[votering_id=23945]",
+      "fields": {
+        "antall_for": "-1",
+        "antall_mot": "-1",
+        "vedtatt": "true",
+        "votering_id": "23945",
+        "votering_resultat_type": "enstemmig_vedtatt",
+        "votering_tema": "Resten av romertall I samt romertallene II, III og IV.",
+        "votering_tid": "2024-12-19T14:39:29.063"
+      }
+    },
+    {
+      "source": "raw/voteringer-100898.xml",
+      "locator": "sak_votering[votering_id=23880]",
+      "fields": {
+        "antall_for": "-1",
+        "antall_mot": "-1",
+        "vedtatt": "true",
+        "votering_id": "23880",
+        "votering_resultat_type": "enstemmig_vedtatt",
+        "votering_tema": "romertallene I, II og III.",
+        "votering_tid": "2024-12-17T19:26:56.237"
+      }
+    },
+    {
+      "source": "raw/voteringer-100894.xml",
+      "locator": "sak_votering[votering_id=23976]",
+      "fields": {
+        "antall_for": "-1",
+        "antall_mot": "-1",
+        "vedtatt": "true",
+        "votering_id": "23976",
+        "votering_resultat_type": "enstemmig_vedtatt",
+        "votering_tema": "romertallene I og III.",
+        "votering_tid": "2024-12-18T20:26:00"
+      }
+    }
+  ],
+  "fixture_current_object_equality": [
+    {
+      "api_id": "40032763",
+      "all_direct_fields_c14n_equal": true,
+      "mismatch_fields": [],
+      "html_text_sha256": "eaa9c580b420ef9e661b96b016caf8730d7d3de6a7f87a86170453c94056490c",
+      "current_html_equal": true
+    },
+    {
+      "api_id": "40032791",
+      "all_direct_fields_c14n_equal": true,
+      "mismatch_fields": [],
+      "html_text_sha256": "4755e213cb2b176f56e1a0f249ebb4fd528a8a4c3d92d4f688a0b30fb1b81003",
+      "current_html_equal": true
+    },
+    {
+      "api_id": "40032850",
+      "all_direct_fields_c14n_equal": true,
+      "mismatch_fields": [],
+      "html_text_sha256": "124c6a5dee64579a63db709b0fc3eb3a5dd881a543e05138e0e0bc8d46d6c5b8",
+      "current_html_equal": true
+    },
+    {
+      "api_id": "40032976",
+      "all_direct_fields_c14n_equal": true,
+      "mismatch_fields": [],
+      "html_text_sha256": "4ab519838d982a5b0e695544320c36af58fbbaea4be6f4e826a209cba434b85e",
+      "current_html_equal": true
+    },
+    {
+      "api_id": "40033025",
+      "all_direct_fields_c14n_equal": true,
+      "mismatch_fields": [],
+      "html_text_sha256": "2b5604b9d711b29fee6e3d43fbb27630959116a2827272efaa60ea996c44d1ff",
+      "current_html_equal": true
+    },
+    {
+      "api_id": "40033719",
+      "all_direct_fields_c14n_equal": true,
+      "mismatch_fields": [],
+      "html_text_sha256": "41d4804ee1dd7e298385543cee8439f779a712f9aa69d725abbd23a362d063e6",
+      "current_html_equal": true
+    },
+    {
+      "api_id": "40033805",
+      "all_direct_fields_c14n_equal": true,
+      "mismatch_fields": [],
+      "html_text_sha256": "bd759ac61276b1753d46cf14bf5b644e44cbd3175cbce54c06c1077c32d12f9c",
+      "current_html_equal": true
+    },
+    {
+      "api_id": "40034064",
+      "all_direct_fields_c14n_equal": true,
+      "mismatch_fields": [],
+      "html_text_sha256": "1a8ec93305086dcdbb636cad2a72cb2dcda940353c1987d3b492a5259b28c2ae",
+      "current_html_equal": true
+    },
+    {
+      "api_id": "40034226",
+      "all_direct_fields_c14n_equal": true,
+      "mismatch_fields": [],
+      "html_text_sha256": "73e2de786cd4eab72f11c782e93b1fef8626af1f5eff04fc3155b1b88b34ef6a",
+      "current_html_equal": true
+    },
+    {
+      "api_id": "40034287",
+      "all_direct_fields_c14n_equal": true,
+      "mismatch_fields": [],
+      "html_text_sha256": "bb279e5c75932620f92f6cddd63a0653765670d5c6cbd04af360394d50ca5ee3",
+      "current_html_equal": true
+    },
+    {
+      "api_id": "40034048",
+      "all_direct_fields_c14n_equal": true,
+      "mismatch_fields": [],
+      "html_text_sha256": "7b1dedb01e84a8f0a8f64b982f68ec8fd889e1d79016eef59e7bf6ad7da4c6ae",
+      "current_html_equal": true
+    },
+    {
+      "api_id": "40034229",
+      "all_direct_fields_c14n_equal": true,
+      "mismatch_fields": [],
+      "html_text_sha256": "7745747899fa1bcb0822c1cbee7d2af5d9dbc215a39214ec9e51711c30839f66",
+      "current_html_equal": true
+    }
+  ],
+  "target_v2_observations": [
+    {
+      "api_id": "40033719",
+      "chapter": "228",
+      "post": "85",
+      "meaning": "uavklart",
+      "raw_value": "30 000 000",
+      "amount_text": "30 000 000",
+      "amount_kr": 30000000,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "rnb",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[143]/td[5]",
+      "fixture_sha256": "4113b987c8f939256d30ef6a4401cda358d9da90b5af19cbbbc37d0ec9d312b0"
+    },
+    {
+      "api_id": "40033719",
+      "chapter": "5999",
+      "post": "90",
+      "meaning": "endring",
+      "raw_value": "101 874 353 000",
+      "amount_text": "101 874 353 000",
+      "amount_kr": -101874353000,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "rnb",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[1487]/td[5]",
+      "fixture_sha256": "4113b987c8f939256d30ef6a4401cda358d9da90b5af19cbbbc37d0ec9d312b0"
+    },
+    {
+      "api_id": "40033719",
+      "chapter": "5999",
+      "post": "90",
+      "meaning": "for_belop",
+      "raw_value": "101 874 353 000",
+      "amount_text": "101 874 353 000",
+      "amount_kr": 101874353000,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "rnb",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[1488]/td[3]",
+      "fixture_sha256": "4113b987c8f939256d30ef6a4401cda358d9da90b5af19cbbbc37d0ec9d312b0"
+    },
+    {
+      "api_id": "40033719",
+      "chapter": "5999",
+      "post": "90",
+      "meaning": "etter_belop",
+      "raw_value": "0",
+      "amount_text": "0",
+      "amount_kr": 0,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "rnb",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[1488]/td[3]",
+      "fixture_sha256": "4113b987c8f939256d30ef6a4401cda358d9da90b5af19cbbbc37d0ec9d312b0"
+    },
+    {
+      "api_id": "40034064",
+      "chapter": "1860",
+      "post": "1",
+      "meaning": "endring",
+      "raw_value": "10 988 000",
+      "amount_text": "10 988 000",
+      "amount_kr": 10988000,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "uavklart",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[68]/td[5]",
+      "fixture_sha256": "70c479d20adacb289be68813094b71c9207af42f19daf7d582b681fd23ab77ea"
+    },
+    {
+      "api_id": "40034064",
+      "chapter": "1860",
+      "post": "1",
+      "meaning": "for_belop",
+      "raw_value": "349 324 000",
+      "amount_text": "349 324 000",
+      "amount_kr": 349324000,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "uavklart",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[69]/td[3]",
+      "fixture_sha256": "70c479d20adacb289be68813094b71c9207af42f19daf7d582b681fd23ab77ea"
+    },
+    {
+      "api_id": "40034064",
+      "chapter": "1860",
+      "post": "1",
+      "meaning": "etter_belop",
+      "raw_value": "360 312 000",
+      "amount_text": "360 312 000",
+      "amount_kr": 360312000,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "uavklart",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[69]/td[3]",
+      "fixture_sha256": "70c479d20adacb289be68813094b71c9207af42f19daf7d582b681fd23ab77ea"
+    },
+    {
+      "api_id": "40034064",
+      "chapter": "4860",
+      "post": "1",
+      "meaning": "endring",
+      "raw_value": "2 400 000",
+      "amount_text": "2 400 000",
+      "amount_kr": -2400000,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "uavklart",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[165]/td[5]",
+      "fixture_sha256": "70c479d20adacb289be68813094b71c9207af42f19daf7d582b681fd23ab77ea"
+    },
+    {
+      "api_id": "40034064",
+      "chapter": "4860",
+      "post": "1",
+      "meaning": "for_belop",
+      "raw_value": "85 800 000",
+      "amount_text": "85 800 000",
+      "amount_kr": 85800000,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "uavklart",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[166]/td[3]",
+      "fixture_sha256": "70c479d20adacb289be68813094b71c9207af42f19daf7d582b681fd23ab77ea"
+    },
+    {
+      "api_id": "40034064",
+      "chapter": "4860",
+      "post": "1",
+      "meaning": "etter_belop",
+      "raw_value": "83 400 000",
+      "amount_text": "83 400 000",
+      "amount_kr": 83400000,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "uavklart",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[166]/td[3]",
+      "fixture_sha256": "70c479d20adacb289be68813094b71c9207af42f19daf7d582b681fd23ab77ea"
+    },
+    {
+      "api_id": "40034226",
+      "chapter": "1860",
+      "post": "1",
+      "meaning": "endring",
+      "raw_value": "10 988 000",
+      "amount_text": "10 988 000",
+      "amount_kr": 10988000,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "uavklart",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[32]/td[5]",
+      "fixture_sha256": "9308854a2ccb877f04bbbf853f8dd99f1e09d4e476369f7ed24fa03d508c5c83"
+    },
+    {
+      "api_id": "40034226",
+      "chapter": "1860",
+      "post": "1",
+      "meaning": "for_belop",
+      "raw_value": "349 324 000",
+      "amount_text": "349 324 000",
+      "amount_kr": 349324000,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "uavklart",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[33]/td[3]",
+      "fixture_sha256": "9308854a2ccb877f04bbbf853f8dd99f1e09d4e476369f7ed24fa03d508c5c83"
+    },
+    {
+      "api_id": "40034226",
+      "chapter": "1860",
+      "post": "1",
+      "meaning": "etter_belop",
+      "raw_value": "360 312 000",
+      "amount_text": "360 312 000",
+      "amount_kr": 360312000,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "uavklart",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[33]/td[3]",
+      "fixture_sha256": "9308854a2ccb877f04bbbf853f8dd99f1e09d4e476369f7ed24fa03d508c5c83"
+    },
+    {
+      "api_id": "40034226",
+      "chapter": "4860",
+      "post": "1",
+      "meaning": "endring",
+      "raw_value": "2 400 000",
+      "amount_text": "2 400 000",
+      "amount_kr": -2400000,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "uavklart",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[43]/td[5]",
+      "fixture_sha256": "9308854a2ccb877f04bbbf853f8dd99f1e09d4e476369f7ed24fa03d508c5c83"
+    },
+    {
+      "api_id": "40034226",
+      "chapter": "4860",
+      "post": "1",
+      "meaning": "for_belop",
+      "raw_value": "85 800 000",
+      "amount_text": "85 800 000",
+      "amount_kr": 85800000,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "uavklart",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[44]/td[3]",
+      "fixture_sha256": "9308854a2ccb877f04bbbf853f8dd99f1e09d4e476369f7ed24fa03d508c5c83"
+    },
+    {
+      "api_id": "40034226",
+      "chapter": "4860",
+      "post": "1",
+      "meaning": "etter_belop",
+      "raw_value": "83 400 000",
+      "amount_text": "83 400 000",
+      "amount_kr": 83400000,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "uavklart",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[44]/td[3]",
+      "fixture_sha256": "9308854a2ccb877f04bbbf853f8dd99f1e09d4e476369f7ed24fa03d508c5c83"
+    },
+    {
+      "api_id": "40034287",
+      "chapter": "5999",
+      "post": "90",
+      "meaning": "endring",
+      "raw_value": "18 497 356 000",
+      "amount_text": "18 497 356 000",
+      "amount_kr": 18497356000,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "nysaldering",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[238]/td[4]",
+      "fixture_sha256": "c72e65a2fc79226e6375a79d56712d1bbc61771efc7b2697264aad1206ed7c81"
+    },
+    {
+      "api_id": "40034287",
+      "chapter": "5999",
+      "post": "90",
+      "meaning": "for_belop",
+      "raw_value": "101 874 353 000",
+      "amount_text": "101 874 353 000",
+      "amount_kr": 101874353000,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "nysaldering",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[239]/td[3]",
+      "fixture_sha256": "c72e65a2fc79226e6375a79d56712d1bbc61771efc7b2697264aad1206ed7c81"
+    },
+    {
+      "api_id": "40034287",
+      "chapter": "5999",
+      "post": "90",
+      "meaning": "etter_belop",
+      "raw_value": "120 371 709 000",
+      "amount_text": "120 371 709 000",
+      "amount_kr": 120371709000,
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "figure_type": "stortingsvedtak",
+      "round": "nysaldering",
+      "detail_level": "post",
+      "professional_status": "til_kontroll",
+      "locator": "table[1]/tr[239]/td[3]",
+      "fixture_sha256": "c72e65a2fc79226e6375a79d56712d1bbc61771efc7b2697264aad1206ed7c81"
+    }
+  ],
+  "web_only_sources": [
+    {
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-27-s-20242025/id3075697/?ch=5",
+      "read_date": "2026-10-22",
+      "sha256": null,
+      "locator": "Forslag I, Utgifter, 2440/(NY)31; column Kroner",
+      "amount_kr": "11900000000",
+      "meaning": "regjeringsforslag: ny bevilgning",
+      "note": "Offisiell nettlesing; direkte ordinær HTTP 403. Ingen råfilhash påstås."
+    },
+    {
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-27-s-20242025/id3075697/?ch=3",
+      "read_date": "2026-10-22",
+      "sha256": null,
+      "locator": "Tabellen for SDØE: Post 31(ny), i mill. kr: Gjeldande løyving 0, forslag 11900, endring 11900",
+      "note": "Forslagets uttrykkelige 0 holdes adskilt fra vedtakets fraværende førfelt."
+    }
+  ],
+  "rest_classification": [
+    {
+      "key": [
+        "i447/23-24",
+        "151",
+        "70"
+      ],
+      "comparison_status": "missing_reference",
+      "excel_cells": [
+        {
+          "cell": "D43",
+          "raw": "0"
+        }
+      ],
+      "official_delta_kr": [],
+      "classification": "documented_no_change_row_in_adopted_table",
+      "source_verified": true,
+      "professional_approval": false,
+      "chain_allowed": null
+    },
+    {
+      "key": [
+        "i447/23-24",
+        "5999",
+        "90"
+      ],
+      "comparison_status": "missing_excel",
+      "excel_cells": null,
+      "official_delta_kr": [
+        "-101874353000"
+      ],
+      "classification": "excel_missing_and_published_chain_conflict",
+      "source_verified": true,
+      "professional_approval": false,
+      "chain_allowed": false
+    },
+    {
+      "key": [
+        "i90/24-25",
+        "5999",
+        "90"
+      ],
+      "comparison_status": "missing_excel",
+      "excel_cells": null,
+      "official_delta_kr": [
+        "18497356000"
+      ],
+      "classification": "excel_missing_and_published_chain_conflict",
+      "source_verified": true,
+      "professional_approval": false,
+      "chain_allowed": false
+    },
+    {
+      "key": [
+        "i93/24-25",
+        "1860",
+        "1"
+      ],
+      "comparison_status": "missing_excel",
+      "excel_cells": null,
+      "official_delta_kr": [
+        "10988000"
+      ],
+      "classification": "excel_missing_repeated_transition_two_adopted_decision_ids",
+      "source_verified": true,
+      "professional_approval": false,
+      "chain_allowed": false
+    },
+    {
+      "key": [
+        "i93/24-25",
+        "4860",
+        "1"
+      ],
+      "comparison_status": "missing_excel",
+      "excel_cells": null,
+      "official_delta_kr": [
+        "-2400000"
+      ],
+      "classification": "excel_missing_repeated_transition_two_adopted_decision_ids",
+      "source_verified": true,
+      "professional_approval": false,
+      "chain_allowed": false
+    }
+  ],
+  "future_adapter_expectations": [
+    {
+      "api_id": "40033719",
+      "account": [
+        "228",
+        "85"
+      ],
+      "locator": "table[1]/tr[143]/td[5]",
+      "raw_amount": "30 000 000",
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "expected_amount_kr": 30000000,
+      "expected_meaning": "endring",
+      "before_observation": null,
+      "after_observation": null,
+      "source_status": "verified_source_semantics",
+      "v2_expected_meaning": "uavklart",
+      "v2_expected_count_for_account": 1,
+      "new_adapter_required": true,
+      "implemented": false
+    },
+    {
+      "api_id": "40034226",
+      "account": [
+        "2440",
+        "31"
+      ],
+      "post_raw": "(NY) 31",
+      "locator": "table[1]/tr[37]/td[5]",
+      "raw_amount": "11 900 000 000",
+      "unit_raw": "Kroner",
+      "currency": "NOK",
+      "multiplier": "1",
+      "expected_amount_kr": 11900000000,
+      "expected_meaning": "endring",
+      "before_observation": null,
+      "after_observation": null,
+      "source_status": "verified_source_semantics",
+      "v2_expected_count_for_account": 0,
+      "new_adapter_required": true,
+      "implemented": false,
+      "required_changes": [
+        "separate_new_post_marker_from_numeric_post",
+        "recognize_blir_løyvd_med"
+      ],
+      "proposal_before_zero_is_separate_source": true
+    }
+  ],
+  "prior_component_control": {
+    "parent_summary_sha256": "96a6c1821fe7830a9b5d129e85eb004ea193ffdcfad0e4d26644250993414047",
+    "parent_summary_repository_path": "docs/research/historisk-excel/pilot2024/summary.json",
+    "json_pointer": "/summary/bounded_components_derived",
+    "counts": {
+      "match": 12,
+      "missing_excel": 4
+    },
+    "kind": "previous_derived_component_comparison_not_new_decision",
+    "normalization_or_component_approval": false
+  }
+}

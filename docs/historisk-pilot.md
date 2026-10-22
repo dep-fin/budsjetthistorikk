@@ -1,5 +1,7 @@
 # Lokal 2024-pilot
 
+Oppfølging 22. oktober 2026: [P13-P2s faglige kontrollmatrise](research/historisk-excel/p13-p2/README.md) dokumenterer kildefunn og tillatt kontrollbruk for alle ni kolonner. Den leses separat og endrer ingen lagret pilotpakke. [P1-rapporten](research/historisk-excel/pilot2024.md) beholder sine faktisk utførte kontroller og historiske åpne spørsmål.
+
 Piloten i #24 bevarer hele 2024-arbeidsboken, lager sporbare historiske observasjoner og leverer en lokal kontrollpakke med uavhengige sammenligninger. [Kontrollrapporten](research/historisk-excel/pilot2024.md) viser faktisk omfang og åpne spørsmål. Teknisk gjennomføring gir ingen faglig godkjenning eller årsdekning. #13 gjelder også øvrige år; #10s driftsprøve berøres ikke.
 
 ## Import og gjenopptak

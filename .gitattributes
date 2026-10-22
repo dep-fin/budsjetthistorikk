@@ -20,6 +20,8 @@ docs/research/issue-2/aar/scope_residual_ledger.json -text
 # Nye v2-avledninger skrives med UTF-8/LF; -text bevarer disse eksakte bytene.
 docs/research/historisk-excel/pilot2024/summary.json -text
 docs/research/historisk-excel/pilot2024/proposal-refs.json -text
+# P2-matrisen og dens bevis bindes til eksakte UTF-8/LF-byte.
+docs/research/historisk-excel/p13-p2/*.json -text
 # P13s hashfestede CSV-kontrollmetadata leses med fast CRLF på alle plattformer.
 # Git-bloben er tekst med LF; kontrollrapporten identifiserer de faktisk leste bytene.
 docs/research/issue-2/aar/description_inventory.csv text eol=crlf

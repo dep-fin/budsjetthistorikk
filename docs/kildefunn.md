@@ -2,6 +2,14 @@
 
 Dette er faglige og tekniske funn som skal brukes på tvers av agentøkter. Dokumentet ligger på main og gjelder også før hele forskningsarbeidet i #2 er ferdig. Funn, kildebevis og konsekvens holdes samlet.
 
+## Historiske 2024-kolonner: P2-kontroll og bruksgrenser
+
+**Kontrollert 22. oktober 2026:** [P2-matrisen](research/historisk-excel/p13-p2/README.md) binder alle ni beløpskolonner til avgrenset kontrollbruk og konkrete kildebevis. Hs faktor 1 000 000 er validert for 1 573 felles kontrollaggregater; 726 leksikalske presisjonsspor beholdes. Et separat binær-/ULP-begrenset heltallsforslag gir eksakt samsvar i dette omfanget, uten aktivering. 120 H-nullrester er klassifisert som 64 offisielle flyttinger, ett uttrykkelig nullomfang og 55 uavklarte fraværsårsaker. Fravær blir ingen nullbevilgning eller ikke-eksistens.
+
+Faktisk lønnskilde er [Prop. 36 S kapittel 5](https://www.regjeringen.no/no/dokumenter/prop.-36-s-20242025/id3076783/?ch=5) med vedlegg 4, selv om hele M er 0. Lønn er inkludert i N på kontrollkonto 20/1. Offentlig lønnsfordeling summerer med reserve 2309/1 til 0; slik totalsum må ikke brukes som M-bevis. N-kontrollen dekker alle 737 ikke-null postkandidater mot et samtidig register, med tre direkte originalforslagsankre. Dette er ikke individuell avstemming av alle departementsproposisjoner.
+
+Alle fire ikke-null L-felt har dokumentankre. p34 og p36 er datert samme dag, så en generell datoavgrensning «før nysaldering» er utilstrekkelig. Seks materialstratum-rester mellom K+L+N og dokument-D er [kildeforklart som forslag mot vedtak](research/historisk-excel/p13-p2/stage-residuals.json), med komitétillegg på samlet 600 mill. kroner og tilsvarende økning på 5800/50. De tre formelle kjedekonfliktene består. 228/85 og 2440/31 har konkrete fremtidige adapterforventninger, mens eksisterende v2 og 2 894-observasjonsankeret er uendret. Konsekvens: bruk kontrollmatrisens konkrete omfang; ingen generell normalisering, nullstart, komponentgodkjenning eller årsdekning følger av kildefunnene.
+
 ## Bevilgningsendringer finnes også som ANNET
 
 **Observert 20. oktober 2026:** Stortingets API klassifiserer konkrete bevilgningsendringer som `ANNET`. Et uttrekk av bare `stortingsvedtak_type.id = BUDSJETT` mister derfor relevante vedtak.
