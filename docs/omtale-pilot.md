@@ -1,8 +1,20 @@
-# O2a: eksplisitt omtalegrunnlag for 210/1429/1
+# O2: eksplisitt omtalegrunnlag for 210/1429/1 og 22
 
-Kontrakten er fastsatt 22. oktober 2026 før produktkode, innen godkjent #34 under #32. O1s originaler følger kandidaten. #35/O2b er publisert oppfølger uten byggemandat. #10 står åpen.
+Kontrakten er fastsatt 22. oktober 2026 før produktkode, innen godkjent #34 under #32. O1s originaler følger kandidaten. Eier ga 23. oktober eget byggemandat for #35/O2b etter flettet #34 (PR #36, main `6f7145d`). O2b er kandidat under kontroll; merge er en senere port. #10 står åpen.
 
-## Format og identiteter
+## O2b-utvidelse fastsatt før kode 23. oktober 2026
+
+O2a-regelen tillater flere seksjoner og relasjoner med samme feltbetydning. O2b bruker derfor fortsatt `omtale-pilot-1` og `omtale-grunnlag-1`, men velges uttrykkelig med uttrekksversjon `o2b-html-pdf-1`. Et revisjonssuffiks etter `o2b-html-pdf-1-` bruker samme B-algoritme med nye identiteter. Den gamle `o2a-html-pdf-1` og andre tidligere etiketter rekonstruerer nøyaktig A-algoritmen, med tidligere identiteter og innhold. CLI-standardvalget forblir A. Ingen gamle filer omskrives.
+
+B legger til P22, K22 og PT22 med hele kildeblokken og eget hierarki. P1 forblir én seksjon med begge konti. Relasjonens `accounts` angir den enkelte relasjonens omfang; seksjonens `accounts` angir hele tekstens omfang. B har separate relasjoner fra samme P1 til de to eksisterende posthendelsene. Post 22-relasjonens `reason` avgrenser beviset til omdisponeringen fra post 22; lønnsforklaringen gjelder bare post 1. P22/K22s tilbakepeking, lokale PT22/KT/V-tabellgrupper og vedtaksoriginalens post 22-rader kontrolleres separat. Seks observasjoner og to eksisterende `step_id` består. PN er fullmaktskontekst, med tom relasjonsmengde til 210.
+
+Et uttrykkelig relasjonsforslag bruker de samme relasjonsfeltene, med rolle `uavklart_relasjonsforslag`, teknisk status `uavklart`, faglig status `ikke_faglig_godkjent`, ikke-tom begrunnelse og eksisterende belegg-ID-er. Avsender er `forslagsstiller_ukjent`; det er ikke en kildeavsender. Forslaget krever eksplisitt seksjons- og eksisterende hendelses-ID og de tre uendrede observasjons-ID-ene. Konto/beløp alene oppretter ingen relasjon. Forslag bevares som tillegg og kan aldri erstatte, ommerke eller oppgradere den rekonstruerte dokumenterte kjeden. Globale avvik viser hvert uavklart forslag, også ved tomt filter. Denne bruken endrer ingen felt eller tidligere feltbetydning og trenger derfor ingen ny formatkonvolutt.
+
+De avtalte testgrensene i #35 er original → eksplisitt post-/hendelsesbevis → skrevet og faktisk gjenlest JSON/Excel, separate post 1/post 22/begge/tomme utvalg, ekte gamle A-filer uten omskriving og ordinær ny vedtaksinnlesning med alle fire omtale-feiltilstander uten historisk Excel. De to generelle visningene i #37 inngår ikke.
+
+## Fellesformat og bevart A-kontrakt
+
+Beskrivelsen nedenfor bevarer A-kontrakten og dens post 1-avgrensning. For eksplisitte B-uttak gjelder seksjons-/relasjonstillegget ovenfor; feltene og A-rekonstruksjonen er uendret.
 
 `omtale-pilot-1` er et separat lokalt JSON-objekt med nøyaktig `format`, `report`. Rapporten inneholder `id`, `base_json` (den komplette uendrede `b6-frozen-2`-strengen), `basis`, `relations`, `visible_section_ids`, `issues` og `version`. Ingen omtaletabell legges i hovedschema 5. Gamle skrivere, lesere, ID-er, rapporter og CLI-standarder beholdes.
 
@@ -50,6 +62,15 @@ Velg først en uendret B8-rapport, for eksempel et post 1-utvalg fra `--saksutva
 python -m analyse.omtale --base work/sak-post1.json --kilder docs/research/omtale-o1 --stotte tests/fixtures --json work/omtale-post1.json --excel work/omtale-post1.xlsx
 python -m analyse.omtale --frosset work/omtale-post1.json --json work/gjenlest.json --excel work/gjenlest.xlsx
 ```
+
+For B velges et uendret B8-grunnlag med ønsket postfilter og eksplisitt B-versjon:
+
+```powershell
+python -m analyse.omtale --base work/sak-begge.json --kilder docs/research/omtale-o1 --stotte tests/fixtures --uttrekksversjon o2b-html-pdf-1 --json work/omtale-begge.json --excel work/omtale-begge.xlsx
+python -m ops.omtale_begge_proeve --output work/omtale-begge-ny
+```
+
+Reproduksjonskommandoen skriver begge poster, post 1, post 22, tomt filter, et tydelig merket syntetisk uavklart forslag og et offlinepar. Valgfrie `--previous <katalog>` kontrollerer ekte tidligere A-filer uten overskriving. Python-grensen `analyse.omtale_begge.propose_relation` tar eksplisitte seksjons-/hendelses-/belegg-ID-er og begrunnelse; den returnerer en ny rapport med uavklart tilleggsrelasjon. Et slikt forslag skal alltid være tydelig merket syntetisk når det brukes som feil-/akseptprøve.
 
 Første kommando bruker den valgte lokale kildekatalogen og støtteoriginalene; andre kommando bruker bare den frosne filen. Returkode 0 betyr teknisk eksportert kontrollgrunnlag, også når omtalen har avvik; avvikene vises i stdout og eksporten. Returkode 1 er ugyldig input/eksportfeil. Ny versjonsetikett velges eksplisitt med `--uttrekksversjon`; det endrer ingen tidligere fil. Formatet er en avgrenset O2a-adapter, ingen generell dokumentimport.
 

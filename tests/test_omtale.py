@@ -836,8 +836,9 @@ def test_repeat_and_new_extractor_keep_first_frozen_export_and_stable_amount_ids
 
 
 @pytest.mark.parametrize("condition", ["missing", "corrupt", "contradictory", "failed_manifest"])
+@pytest.mark.parametrize("extractor", ["o2a-html-pdf-1", "o2b-html-pdf-1"])
 def test_new_authentic_decision_ingestion_and_export_ignore_bad_omtale_without_historical_excel(
-    tmp_path, condition
+    tmp_path, condition, extractor
 ):
     _, base = source_report(tmp_path, posts=("99",))
     root = tmp_path / "missing"
@@ -850,7 +851,7 @@ def test_new_authentic_decision_ingestion_and_export_ignore_bad_omtale_without_h
             (root / "originals/prop16s-ch2.html").write_bytes(b"synthetic corrupt source")
         else:
             (root / "source-manifest.json").write_text("synthetic invalid JSON", "utf-8")
-    report = build_report(base, import_omtale(root, SUPPORT))
+    report = build_report(base, import_omtale(root, SUPPORT, extractor=extractor))
     frozen, excel = tmp_path / "empty.json", tmp_path / "empty.xlsx"
     export_pair(report, frozen, excel)
     assert read_excel(excel) == read_json(frozen)
@@ -936,7 +937,8 @@ def test_new_authentic_decision_ingestion_and_export_ignore_bad_omtale_without_h
         book.close()
 
 
-def test_explicit_cli_and_frozen_reexport_need_no_original_sources_or_database(tmp_path):
+@pytest.mark.parametrize("extractor", ["o2a-html-pdf-1", "o2b-html-pdf-1"])
+def test_explicit_cli_and_frozen_reexport_need_no_original_sources_or_database(tmp_path, extractor):
     from analyse.saksdokumenter import report_to_json
 
     _, base = source_report(tmp_path, posts=("1",))
@@ -954,6 +956,8 @@ def test_explicit_cli_and_frozen_reexport_need_no_original_sources_or_database(t
             str(SOURCES),
             "--stotte",
             str(SUPPORT),
+            "--uttrekksversjon",
+            extractor,
             "--json",
             str(frozen),
             "--excel",

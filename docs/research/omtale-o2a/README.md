@@ -1,5 +1,7 @@
 # O2a: faktisk original → omtale → JSON/Excel-kontroll
 
+Etterfølgende status 23. oktober 2026: #34 er flettet i PR #36, main `6f7145d`, med grønn full CI (909 tester). Rapportens tidligere kandidatbevis er bevart. #35 fikk eget mandat etter denne leveransen; se [separat B-kontroll](../omtale-o2b/README.md).
+
 Kontrollert 22. oktober 2026 for #34, del av #32. Kandidaten starter på main `d74d2cb` med godkjent O1-kildegrunnlag cherry-picket som `219d1bf`. Rettingen bygger på samlet review/audit av fast kandidat `5887e18`; eksakte portfunn og nye retterbevis står i [rettingsrapporten](retting-review-audit.md). Implement- og TDD-filene er fulgt ved den allerede godkjente høye testgrensen; regnearkskillen brukes med prosjektets uttrykkelig valgte openpyxl-eksport. Orkestratoren håndterer samlet review, separat sikkerhetsaudit, Git, PR, CI og autorisert merge. Retterbyggeren har ikke opprettet commits eller PR og erklærer ingen ny review, audit eller merge.
 
 **Andre lokale retterkontroll:** [Andre etterkontroll av `d45dee7`](retting-etterkontroll2.md) beskriver den videre kilde-/råfeltbindingen og kontroll av Excel-områder før inputinnlasting. [Det maskinlesbare beviset](retting-etterkontroll2.json) bevarer eksakte filhasher, gjenlesing og Python-/avhengighetsstier. De tidligere leveransene og kontrollresultatene nedenfor er beholdt.
@@ -28,4 +30,4 @@ Regnearkets faktiske celleverdier, datotyper, kroneverdier, fulltekst/viderefør
 
 ## Avgrensning
 
-Dette er post 1-snittet i O2a. Full post 22-visning og P22/K22-relasjoner hører til #35 uten gjennomføringsmandat nå. Generell forslagsbeløpsimport, faktisk komitéuenighet, andre saker, søk, årsdekning og drift inngår ikke. Alle relasjoner er `ikke_faglig_godkjent`; historisk start- og organisasjonsgrunnlag kan fortsatt mangle. B9s uendrede Kontrollstatus beskriver fortsatt B8s saksrelasjon; de nye postvise O2a-beleggene finnes separat i Omtale/Relasjoner. #10 står åpen.
+Dette er post 1-snittet i O2a. Full post 22-visning og P22/K22-relasjoner hører til #35, autorisert 23. oktober etter flettet #34; se [separat O2b-kontroll](../omtale-o2b/README.md). Denne A-rapportens bevis og tidligere leveranser bevares. Generell forslagsbeløpsimport, faktisk komitéuenighet, andre saker, søk, årsdekning og drift inngår ikke. Alle relasjoner er `ikke_faglig_godkjent`; historisk start- og organisasjonsgrunnlag kan fortsatt mangle. B9s uendrede Kontrollstatus beskriver fortsatt B8s saksrelasjon; de nye postvise O2a-beleggene finnes separat i Omtale/Relasjoner. #10 står åpen.

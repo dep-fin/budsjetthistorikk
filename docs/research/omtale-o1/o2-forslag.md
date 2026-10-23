@@ -1,6 +1,6 @@
 # Godkjent O2-pilot fra original til gjenlest omtaleuttrekk
 
-Godkjent av prosjekteieren 22. oktober 2026 under #32. **Oppdelingen er publisert som #34/O2a og #35/O2b. O2a har gjennomføringsmandat; O2b krever eget senere mandat etter A.** O1s [rapport og kildepakke](README.md) er grunnlaget. Hver ticket skal levere et komplett snitt gjennom innlesning, analyse og faktiske filer. [O2a-kontrakten](../../omtale-pilot.md) fastsetter konkret format før produktkode. O3–O5 er ikke inkludert.
+Godkjent av prosjekteieren 22. oktober 2026 under #32. **Oppdelingen er publisert som #34/O2a og #35/O2b. O2a er levert i PR #36 (main `6f7145d`); O2b har eget byggemandat 23. oktober 2026.** O1s [rapport og kildepakke](README.md) er grunnlaget. Hver ticket skal levere et komplett snitt gjennom innlesning, analyse og faktiske filer. [O2a-kontrakten](../../omtale-pilot.md) fastsetter konkret format før produktkode. O3–O5 er ikke inkludert.
 
 ## Konkret pilot og observerbar atferd
 
@@ -34,7 +34,7 @@ Den bekreftede testgrensen skal gjennomføres i hver ticket: **bevart original �
 
 **Publisert:** [#34 – O2a: Les 210/1429/1 fra originalomtale til kontrollert JSON og Excel](https://github.com/depmartin/budsjetthistorikk/issues/34).
 
-**Del av:** #32. **Status:** autorisert og under gjennomføring. Ingen gjenstående faglig/teknisk blokkering. O1 er godkjent kildegrunnlag; #32, #10 og #13 behøver ikke lukkes først.
+**Del av:** #32. **Status:** levert og flettet i PR #36 23. oktober 2026. Ingen gjenstående faglig/teknisk blokkering. O1 er godkjent kildegrunnlag; #32, #10 og #13 behøver ikke lukkes først.
 
 **Leveranse:** Ett kjørbart lokalt opt-in snitt for post 1. Bevar originaler, strukturer P1/K1/KS/KT/V og bind dem med PT og eksisterende 210-revisjon. Definer og dokumenter den minste versjonerte pilotkontrakten og ID-regelen. Lever et ekte JSON-/Excel-par som kan kontrolleres fra kildene ved gjenlesing. Fullstendige dokumenter bevares selv om bare denne postens relevante seksjoner struktureres.
 
@@ -52,7 +52,7 @@ Den bekreftede testgrensen skal gjennomføres i hver ticket: **bevart original �
 
 **Publisert:** [#35 – O2b: Gjenles begge 210-postene og felles omtalerelasjoner uten dobbelttelling](https://github.com/depmartin/budsjetthistorikk/issues/35).
 
-**Del av:** #32. **Blokkert av:** A levert og kontrollert, samt eget byggemandat. Har ingen avhengighet til O3, historisk import eller #10.
+**Del av:** #32. **Avhengighet oppfylt:** A er levert, kontrollert og flettet; eget byggemandat for B er gitt 23. oktober. [B-kandidaten](../omtale-o2b/README.md) er under kontroll. Har ingen avhengighet til O3, historisk import eller #10.
 
 **Leveranse:** Utvid samme komplette snitt til P22/K22 og begge postenes relasjoner. Bevar P1 som én seksjon med uttrykkelige omfang/belegg til begge postene; lønnsdelen gjelder bare post 1. Ta med PN/post 60 som autentisk tekst uten beløpsrelasjon til 210. Skriv og gjenles reelle nye JSON-/Excel-filer for begge poster og separate filtre.
 
@@ -66,6 +66,6 @@ Den bekreftede testgrensen skal gjennomføres i hver ticket: **bevart original �
 
 ## Beslutning og etterfølgende arbeid
 
-Prosjekteieren har godkjent **to komplette tickets A → B**, separat omtalegrunnlag og eksplisitt ny piloteksport med uendret fellesgrense. #34 gjennomføres nå; #35 har ikke gjennomføringsmandat. Eksakt lønnsberegning er et synlig kunnskapshull som fortsatt står åpent; den blokkerer ikke dokumentasjon av den vedtatte postendringen.
+Prosjekteieren har godkjent **to komplette tickets A → B**, separat omtalegrunnlag og eksplisitt ny piloteksport med uendret fellesgrense. #34 er levert; #35 har eget mandat og lokal kandidat under kontroll. Eksakt lønnsberegning er et synlig kunnskapshull som fortsatt står åpent; den blokkerer ikke dokumentasjon av den vedtatte postendringen.
 
 O3 skal først undersøke og bevare en faktisk komitéendring med autentiske flertalls-/mindretallsroller. O4 krever eget konto-/årsvalg og kildeinventar; O5 krever eget søkeomfang og regler for kontokontinuitet. Disse er ikke ferdige byggetickets og er ikke gitt et skjult byggemandat her. #10s driftsaksept står fortsatt åpen.
