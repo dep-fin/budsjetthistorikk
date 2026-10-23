@@ -4,6 +4,8 @@
 
 Ved planlegging, ticketarbeid og review: les [arbeidsflyten](docs/arbeidsflyt.md) og følg trinnet oppgaven gjelder. Bekreftede krav og åpne produktbeslutninger finnes i [kravgrunnlaget](docs/krav.md).
 
+Før dokumentvisning, sammenligning av behandlingsledd eller konto-/årsvisning: les [målbildet og akseptkravene for de to inngangene](docs/to-visninger.md).
+
 ## Agent skills
 
 ### Issue tracker

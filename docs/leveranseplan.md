@@ -1,6 +1,6 @@
 # Leveranseplan
 
-Oppdatert 22. oktober 2026. Den opprinnelige første leveransen og dens godkjente oppdeling er bevart nedenfor. B8 og B9 er siden levert; neste anbefalte faglige spor er [kildeundersøkelse for postomtale](omtale-plan.md). Godkjent mål og testgrense må skilles fra byggemandat for nye funksjoner.
+Oppdatert 23. oktober 2026. Den opprinnelige første leveransen og dens godkjente oppdeling er bevart nedenfor. B8/B9 er levert; O1-kildegrunnlaget og O2-oppdelingen er godkjent under [omtalesporet](omtale-plan.md). [Dokumentvisning og konto-/årsvisning](to-visninger.md) samler eierens nye bekreftede mål og aksept. Godkjente mål, pilotens byggemandat og faktisk levert funksjon skal skilles.
 
 Spesifikasjonen, testgrensene og oppdelingen ble godkjent av prosjekteieren 20. oktober 2026. Byggetickets er publisert som #4–#10. Kildeundersøkelsen #2 er levert i PR #11 med [akseptmatrise og byggegrense](research/issue-2/byggestart.md). De tre historiske kildekonfliktene gir ikke godkjent additiv historikk, men er avgrenset og har eksplisitte kontrollkrav. Python, SQLite og openpyxl og byggemandatet for B1 (#4) er godkjent. B1 har et implementert vertikalt snitt for ett opprinnelig vedtak; videre oppstart følger ticketenes avhengigheter og mandat. Se [arbeidsflyten](arbeidsflyt.md).
 
@@ -58,13 +58,17 @@ Python, SQLite og openpyxl er valgt etter U1 for lokal innlesning og uttrekk, jf
 
 ## Leverte utvidelser og neste prioritet
 
-| Leveranse | Status 22. oktober 2026 | Betydning for neste arbeid |
+| Leveranse | Status ved presisering 23. oktober 2026 | Betydning for neste arbeid |
 | --- | --- | --- |
 | B8 / #28 – saksdokumenter og stikkord | Levert; se [B8-veiledningen](b8-saksdokumenter.md) og [kildeprøven](research/b8/README.md). | Saksmetadata, dokumentnumre, lenker og stikkord er tilgjengelige. Det er ingen innlest proposisjons-/innstillingstekst eller bevist postvis forslagstilknytning. |
 | B9 / #30 – Historikk som hovedvisning | Levert i [PR #31](https://github.com/depmartin/budsjetthistorikk/pull/31); se [B9-veiledningen](b9-historikk.md). | Historikk er første aktive ark med 13 kolonner, og tidligere felt bevares i Historikkdetaljer. Dette er presentasjon av bevart grunnlag, ikke ny årsaksforklaring. |
-| O1–O5 – omtale og senere temasøk | [O1-kildegrunnlaget](research/omtale-o1/README.md) er godkjent. O2 er godkjent/publisert som #34 og #35. | #34/O2a har mandat for post 1 og egen omtale-pilot-1-eksport. #35/O2b er oppfølger uten gjennomføringsmandat. O3–O5 krever senere kildevalg og mandat. Se [kontrakten](omtale-pilot.md). |
+| O1 – omtalegrunnlag | Utført og godkjent; [kildegrunnlaget](research/omtale-o1/README.md) følger O2a-kandidaten. | Avgrenset 210-kjede er dokumentert. Ingen faktisk komitéendring, full dokumentstrukturering eller årsdekning er bevist. |
+| O2a / #34 – 210/1429/1 | Autorisert kandidat i [PR #36](https://github.com/depmartin/budsjetthistorikk/pull/36); ikke flettet ved denne presiseringen. | Kan fullføres uendret for godkjent post 1-snitt og egen `omtale-pilot-1`-eksport etter [kontrakten](omtale-pilot.md). Leveringsportene vurderes mot #34. |
+| O2b / #35 – begge 210-postene | Publisert avhengig oppfølger uten eget gjennomføringsmandat. | Krever levert, kontrollert og flettet #34 og eget mandat. Forblir en pilot med to posthendelser; generell dokument-/årsvisning inngår ikke. |
+| To innganger til samme kildegrunnlag | [Autoritativt mål og aksept](to-visninger.md) er bekreftet; [#37](https://github.com/depmartin/budsjetthistorikk/issues/37) er publisert som konkretiserings-/kravissue. Generelle visninger er ikke implementert av O2a/O2b. | #37 skal avklare autentisk dokument-/konto-/årsutvalg, kildebevis, sammenligningsfasit og dekningshull før byggetickets foreslås. |
+| O3–O5 – komitéendring, årslinje og temasøk | Foreslåtte senere spor i [omtaleplanen](omtale-plan.md#anbefalt-rekkefølge-og-porter). | Egne kildevalg, avgrensninger og byggemandater gjenstår; nye visningskrav gir ikke automatisk mandat til funksjonsbygging. |
 
-Omtaleplanen har akseptporter, mandatgrense og en kopierbar nyøktprompt i anbefalt rekkefølge. #10s faktiske driftsaksept og #13s resterende historikkarbeid er separate spor. Fravær av historikk eller omtale skal aldri blokkere innlesning av nye offisielle vedtak.
+Omtaleplanen har pilotens akseptporter og videre rekkefølge. Målbildet for de to inngangene eier deres samlede krav og konkretiseringsgrense. #10s faktiske driftsaksept og #13s resterende historikkarbeid er separate spor. Fravær av historikk eller omtale skal aldri blokkere innlesning av nye offisielle vedtak.
 
 ## Planforslag for historisk Excel under #13
 
