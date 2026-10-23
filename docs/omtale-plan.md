@@ -1,12 +1,14 @@
 # Plan og spesifikasjon for kildeforankret budsjettomtale
 
-Status 23. oktober 2026: Behovet og den samlede testgrensen er bekreftet. O1-kildegrunnlaget og O2-oppdelingen er godkjent; O2a er publisert som #34 med gjennomføringsmandat, og O2b som #35 uten eget byggemandat. O2a-kandidaten ligger i åpen PR #36. O3–O5 er fortsatt foreslåtte spor. Gjeldende leveringsstatus og kommentarer skal leses i GitHub før videre arbeid.
+Status 23. oktober 2026: Behovet og den samlede testgrensen er bekreftet. O1-kildegrunnlaget og O2-oppdelingen er godkjent; O2a er publisert som #34 med gjennomføringsmandat, og O2b som #35 uten eget byggemandat. [O2a-kontrakten](omtale-pilot.md) og [godkjent oppdeling](research/omtale-o1/o2-forslag.md) er gjeldende for piloten. O2a-kandidaten ligger i åpen PR #36. O3–O5 er fortsatt foreslåtte spor. Gjeldende leveringsstatus og kommentarer skal leses i GitHub før videre arbeid.
 
 [Dokumentvisning og konto-/årsvisning](to-visninger.md) er det autoritative målbildet for eierens presisering 23. oktober, med konkretisering i [#37](https://github.com/depmartin/budsjetthistorikk/issues/37). Det samler de to inngangenes krav og aksept og avgrenser dem mot O2a/O2b. Denne omtaleplanen eier fortsatt tekstbelegg og temasøk; planens pilot er ingen implementering av de generelle visningene.
 
 Del av målbildet i [#1](https://github.com/depmartin/budsjetthistorikk/issues/1). Se også [kravgrunnlaget](krav.md), [leveranseplanen](leveranseplan.md), [observasjonsformatet](observasjonsformat.md) og [ansvarsdelingen](ansvarsdeling.md).
 
 Gjeldende overordnet omtalespesifikasjon: [#32](https://github.com/depmartin/budsjetthistorikk/issues/32), del av #1. Les også kommentarene der før videre arbeid.
+
+**O1-oppfølging 22. oktober 2026:** [Kildeundersøkelsen](research/omtale-o1/README.md) har bevart og kontrollert originalene, postomtalen og kjeden til vedtak 210. [O2-piloten og de to komplette byggeticketene](research/omtale-o1/o2-forslag.md) er siden godkjent og publisert som #34/#35. O1-kildebevisene beholdes uendret; O2a-kandidatens faktiske kontroller står i [kandidatrapporten](research/omtale-o2a/README.md).
 
 ## Problem
 
@@ -67,7 +69,7 @@ Dette er beslutninger om mål og rammer. O2a/O2b følger sin godkjente avgrensed
 
 ## Testbeslutninger
 
-Prosjekteieren bekreftet 22. oktober 2026 én samlet, høy testgrense: **bevart original → omtaleseksjon med kildepeker → dokumentert relasjon til vedtak/hendelse og kapittel/post → faktisk gjenlest strukturert eksport**. Dette er ikke bare en test av interne seksjonsobjekter eller av at en fil finnes. Testgrensen gjelder senere implementering; denne planendringen innfører ingen funksjonstester.
+Prosjekteieren bekreftet 22. oktober 2026 én samlet, høy testgrense: **bevart original → omtaleseksjon med kildepeker → dokumentert relasjon til vedtak/hendelse og kapittel/post → faktisk gjenlest strukturert eksport**. Dette er ikke bare en test av interne seksjonsobjekter eller av at en fil finnes. Testgrensen brukes nå i #34/O2a; den opprinnelige planendringen innførte ingen funksjonstester.
 
 - Bruk den eksisterende vertikale kilde–lagring–eksport-grensen som forbilde, med autentiske lagrede kildeprøver i deterministisk CI og separat live kildekontroll. B8/B9 har allerede prøvd frosset JSON og faktisk gjenlest Excel; nye kontroller skal utvide observerbar atferd på samme nivå.
 - Prøv både kildebevaring/strukturering i innlesningen og relasjon/utvalg/eksport i analysen gjennom den samlede grensen. Kontroller hele veien at eksportert tekst peker til rett original, dokumentversjon og lokator, med samme rolle og status etter gjenlesing.
@@ -82,7 +84,7 @@ Prosjekteieren bekreftet 22. oktober 2026 én samlet, høy testgrense: **bevart 
 
 ## Avgrensning
 
-- Denne leveransen endrer dokumentasjon og spesifikasjon. Den implementerer ikke nye kildeadaptere, tekstuttrekk, dataskjema, forslagsbeløp, søk, KI, grensesnitt eller automatisering.
+- Den opprinnelige planleveransen endret dokumentasjon og spesifikasjon. Senere #34/O2a har eget godkjent mandat og en avgrenset kilde-/eksportadapter; øvrige funksjoner følger fortsatt egne porter.
 - Behov og testgrense er bekreftet. O1 er godkjent; #34/O2a har mandat for sitt post 1-snitt, og #35/O2b trenger eget gjennomføringsmandat. O3–O5 og de to generelle visningene har ikke samlet byggemandat. Et `ready-for-agent`-merke gjelder bare spesifikasjonens beskrevne mandat.
 - Videre arbeid følger den konkrete ticketen og dens faktiske kildegrunnlag. Oppfølgingen for de to generelle inngangene er en [egen konkretisering](to-visninger.md#modellkonsekvenser-og-leveransegrense), ikke en utvidelse av pilotens aksept eller forhåndsbestilling av byggetickets.
 - Ingen automatisk faglig godkjenning, komplett årsdekning eller automatisk årsaksbestemmelse loves. Historiske kolonneregler, presisjonsregler og kjedekonflikter løses ikke av en tekstkobling.
@@ -109,3 +111,7 @@ O2 trenger ikke vente på at alle senere kilder er dekket. O3–O5 skal heller i
 ### Start i en ny økt
 
 Les hele den aktuelle ticketen og kommentarene, [AGENTS.md](../AGENTS.md) og dokumentene ticketen peker til. Kontroller gjeldende status for #32/#34/#35 og PR #36. Bruk O1 som bevart kildegrunnlag; den opprinnelige O1-startprompten er erstattet av godkjent oppdeling. Arbeid med dokumentvisning, stadiesammenligning eller konto-/årsvisning skal starte i [det autoritative målbildet](to-visninger.md), med konkretiseringens kilde- og mandatgrense.
+
+### Gjeldende videreføring for O2a
+
+Fortsett den publiserte #34/O2a på eget isolert checkout, med O1s godkjente originalgrunnlag, hele issue/kommentarer og [O2a-kontrakten](omtale-pilot.md). Gjennomfør post 1 fra original til faktisk gjenlest JSON og Excel; bevar post 22s finansieringsutsagn i felles P1 uten å bygge full O2b-visning. Ticket-orchestrator håndterer samlet review, separat sikkerhetsaudit, PR, CI og autorisert merge. #35/O2b krever A levert, kontrollert og flettet og eget senere mandat. #10 står fortsatt åpen.

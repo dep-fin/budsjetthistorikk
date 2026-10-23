@@ -1,0 +1,620 @@
+{
+  "kind": "Andre lokal retterkontroll; ingen ny uavhengig review/audit, CI eller merge",
+  "reviewed_head": "d45dee7d0aea26939ecea6a1187084d4448de3a8",
+  "reviewed_tree": "28ed7c806237f63affd2252e35167ccffb3209bb",
+  "comparison_base": "d74d2cb",
+  "runtime": {
+    "executable": "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "PYTHONPATH": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/o2a/work/spec-verify-deps;C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/o2a",
+    "dependency_target": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\o2a\\work\\spec-verify-deps",
+    "lxml": "6.1.3",
+    "openpyxl": "3.1.5",
+    "pypdf": "6.10.0",
+    "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "pytest": "8.3.5",
+    "mypy": "1.15.0",
+    "ruff": "0.11.0"
+  },
+  "old_attack_replay": [
+    {
+      "path": "work/spec-independent/forged-source-session-correct-locator.json",
+      "bytes": 4837383,
+      "sha256": "66b25950b23737c492c6d3f30f124de218f6fcba9310859ebc8e96f1ed35b63e",
+      "result": "avvist",
+      "error": "Omtalerapport avviker fra gjenleste kilder/relasjonsbelegg"
+    },
+    {
+      "path": "work/spec-independent/forged-source-session-correct-locator.xlsx",
+      "bytes": 1392322,
+      "sha256": "874c96d54fdec144385c6c630427334a07008045f0a79994ec24ea189410372b",
+      "result": "avvist",
+      "error": "Omtalerapport avviker fra gjenleste kilder/relasjonsbelegg"
+    },
+    {
+      "path": "work/spec-independent/forged-raw-account.json",
+      "bytes": 4837383,
+      "sha256": "022e9d6d477e4eb5268d2f840e0f8b6e3df760a8cd1847c994173b2423298bb4",
+      "result": "avvist",
+      "error": "Omtalerapport avviker fra gjenleste kilder/relasjonsbelegg"
+    },
+    {
+      "path": "work/spec-independent/forged-raw-account.xlsx",
+      "bytes": 1392338,
+      "sha256": "b58b915934f6ca8aea11d369f6aa816785ec6a1a7b2843f2eae1c00bc6c4dd03",
+      "result": "avvist",
+      "error": "Omtalerapport avviker fra gjenleste kilder/relasjonsbelegg"
+    },
+    {
+      "path": "work/security-audit-5887e18/forged-event-canonical.json",
+      "bytes": 4836915,
+      "sha256": "0c0087534c5f3e9a48011198bbe8119c0e1822f48f5d7aca6424f3964dc2c3d2",
+      "result": "avvist",
+      "error": "Omtalerapport avviker fra gjenleste kilder/relasjonsbelegg"
+    },
+    {
+      "path": "work/security-audit-5887e18/forged-event-canonical.xlsx",
+      "bytes": 1392132,
+      "sha256": "9dfe26ae2cc155f3cf63f0604dabb42c9c0d0399fac6a26103e4d335cc39950a",
+      "result": "avvist",
+      "error": "Omtalerapport avviker fra gjenleste kilder/relasjonsbelegg"
+    },
+    {
+      "path": "work/security-audit-5887e18/wrong-kt-chapter.json",
+      "bytes": 4837429,
+      "sha256": "6f75c3ebe061bfa67a5c203829a858440204671cfb2c2e5a4b12579746eaa111",
+      "result": "avvist",
+      "error": "Omtalerapport avviker fra gjenleste kilder/relasjonsbelegg"
+    },
+    {
+      "path": "work/security-audit-5887e18/wrong-kt-chapter.xlsx",
+      "bytes": 1392361,
+      "sha256": "31bea1737009db624bb76d7ac26a7190e0514bb6e954348c727140868466b316",
+      "result": "avvist",
+      "error": "Omtalerapport avviker fra gjenleste kilder/relasjonsbelegg"
+    },
+    {
+      "path": "work/security-audit-5887e18/wrong-ks-actor.json",
+      "bytes": 4836379,
+      "sha256": "cfa8d1ea860d26405547dec18e04a04a9fe22349cb0519c5cab8e1130c54455e",
+      "result": "avvist",
+      "error": "Omtalegrunnlaget avviker fra gjenleste originaler/lokatorer/roller"
+    },
+    {
+      "path": "work/security-audit-5887e18/wrong-ks-actor.xlsx",
+      "bytes": 1391823,
+      "sha256": "347aa7ce5df171ceae7516a14bf8e5183ee47f0b789ae7ad804a57379b8a77da",
+      "result": "avvist",
+      "error": "Omtalegrunnlaget avviker fra gjenleste originaler/lokatorer/roller"
+    }
+  ],
+  "rebuilt_synthetic_pairs": [
+    {
+      "kind": "synthetic_mutation",
+      "case": "forged-source-session-correct-locator",
+      "report_id": "960f208edd25dc8fecbac223028e95e32e7942186ecb7060c8825cba8f17ffd2",
+      "issues": [
+        "mindretall_kontrollert_fravaerende:Innst.81S",
+        "vedtaksbinding_motstrid:Frosne vedtaksmetadata avviker fra original",
+        "210_post1_grunnlag_mangler_eller_motstrid"
+      ],
+      "relations": 0,
+      "files": [
+        {
+          "path": "work/omtale-etterkontroll2-retterbevis/forged-source-session-correct-locator-synlig-avvik.json",
+          "bytes": 4829110,
+          "sha256": "4e8a8ebd67192df61398545a033a37a2df1c1b9703d9195d90b4eb0b68c6d6e3"
+        },
+        {
+          "path": "work/omtale-etterkontroll2-retterbevis/forged-source-session-correct-locator-synlig-avvik.xlsx",
+          "bytes": 1389806,
+          "sha256": "dade6294d2f565ed113121c4245ac63f30cad7222a0890fe3c01886de968f8c7"
+        }
+      ]
+    },
+    {
+      "kind": "synthetic_mutation",
+      "case": "forged-raw-account",
+      "report_id": "2daabd465f748268a5856a53f74790e28405deeed9f289cb815ac8f828aef36f",
+      "issues": [
+        "mindretall_kontrollert_fravaerende:Innst.81S",
+        "210_post1_grunnlag_mangler_eller_motstrid"
+      ],
+      "relations": 0,
+      "files": [
+        {
+          "path": "work/omtale-etterkontroll2-retterbevis/forged-raw-account-synlig-avvik.json",
+          "bytes": 4829040,
+          "sha256": "310c441441278ccdff45070d6785cc95a1600f9ed9847991e0ca80d9a9b3f940"
+        },
+        {
+          "path": "work/omtale-etterkontroll2-retterbevis/forged-raw-account-synlig-avvik.xlsx",
+          "bytes": 1389735,
+          "sha256": "e6d05162056121e2e4b24838d154a76a41edbf9a66a0a059aec44bb5d24808d0"
+        }
+      ]
+    }
+  ],
+  "old_authentic_replay": [
+    {
+      "path": "work/omtale-post1-leveranse",
+      "report_id": "299de472b0c01c64983a7816b178991fa5f76e4737bb33e86fb99d9f1f87de13",
+      "basis_id": "4fb6187784cfe233a89ce5d7180b4d76b3de669125d70c8eead7d70e9a0986a1",
+      "relations": 6,
+      "legacy_b8_b9_reopened": true
+    },
+    {
+      "path": "work/omtale-post1-rettet-leveranse",
+      "report_id": "6021e1344038b6727f76cb09e77e382b4b5b1a48948acd977df0849eba391eb3",
+      "basis_id": "4fb6187784cfe233a89ce5d7180b4d76b3de669125d70c8eead7d70e9a0986a1",
+      "relations": 6,
+      "legacy_b8_b9_reopened": true
+    }
+  ],
+  "hyperlink_range_sentinel": {
+    "path": "work/security-verify-d45dee7/hyperlink-range.xlsx",
+    "bytes": 1392329,
+    "sha256": "a84f8c880e8e192be4028a8de9573344d95f4d2affc832cc4d0d4b13859a8db3",
+    "result": "avvist",
+    "error": "Ugyldig Excel-cellepeker",
+    "input_load_workbook_calls": 0,
+    "seconds": 0.0052,
+    "no_range_materialization_performed": true
+  },
+  "sources_preserved": [
+    {
+      "path": "docs/research/omtale-o1/originals/prop16s.pdf",
+      "bytes": 733075,
+      "sha256": "677716056269c07b8ec81bcae91d814b975123791635548281038d9beb3aa5db"
+    },
+    {
+      "path": "docs/research/omtale-o1/originals/prop16s-ch2.html",
+      "bytes": 100808,
+      "sha256": "258d26e6d324bde709bf3d1cb660d7eb6f4248f537d4b0c77e095f17697cf8df"
+    },
+    {
+      "path": "docs/research/omtale-o1/originals/prop16s-ch4.html",
+      "bytes": 118163,
+      "sha256": "ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e"
+    },
+    {
+      "path": "docs/research/omtale-o1/originals/inns81s.pdf",
+      "bytes": 331688,
+      "sha256": "5a29d0553991759d8ddc234899647e9e6b5e1f2885bf13edccfb26105a6be496"
+    },
+    {
+      "path": "docs/research/omtale-o1/originals/inns81s.html",
+      "bytes": 107925,
+      "sha256": "e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95"
+    },
+    {
+      "path": "docs/research/omtale-o1/originals/votering-161224.html",
+      "bytes": 2094710,
+      "sha256": "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5"
+    },
+    {
+      "path": "tests/fixtures/b6/40034048.xml",
+      "bytes": 6058,
+      "sha256": "2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850"
+    },
+    {
+      "path": "tests/fixtures/b6/40034048.json",
+      "bytes": 786,
+      "sha256": "1b43cc3e77fb8b216d3d0bd2d51739c4200b38aabcdac907afcdf47d0218a79b"
+    },
+    {
+      "path": "tests/fixtures/b8/sak-100927.xml",
+      "bytes": 12383,
+      "sha256": "2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27"
+    },
+    {
+      "path": "tests/fixtures/b8/sak-100927.json",
+      "bytes": 1560,
+      "sha256": "07b85b79438fa1cfcc8774c36291fc28d0cfdc7d429ca82e1e5810bca89ac895"
+    }
+  ],
+  "all_previous_artifact_bytes_preserved": [
+    {
+      "path": "work/omtale-post1-leveranse/kontroll.json",
+      "bytes": 2004,
+      "sha256": "bf100483ca295d8fd1fdd7b75f2806cc6d0acc9c4aa79a379db780ea185ef309"
+    },
+    {
+      "path": "work/omtale-post1-leveranse/offline-gjenlest.json",
+      "bytes": 4837383,
+      "sha256": "dbf45447968895957087f15526cefe9bd394c3d748cdfa8f0b754acbb627d588"
+    },
+    {
+      "path": "work/omtale-post1-leveranse/offline-gjenlest.xlsx",
+      "bytes": 1392322,
+      "sha256": "e6d114074597508179a65dfd98a77c7a9aafdf47a43821282c14588e873a133a"
+    },
+    {
+      "path": "work/omtale-post1-leveranse/omtale-210-post1.json",
+      "bytes": 4837383,
+      "sha256": "dbf45447968895957087f15526cefe9bd394c3d748cdfa8f0b754acbb627d588"
+    },
+    {
+      "path": "work/omtale-post1-leveranse/omtale-210-post1.xlsx",
+      "bytes": 1392325,
+      "sha256": "8a64c7ad8b7b4165ff223cec847013980f05e20822c3e9ee6c0a5e56ecf13098"
+    },
+    {
+      "path": "work/omtale-post1-leveranse/saksutvalg.json",
+      "bytes": 678,
+      "sha256": "d442673fb857fb84936af9ba3915dfa1aba65f32b6a685abcf33d47f3392b7ef"
+    },
+    {
+      "path": "work/omtale-post1-leveranse/uendret-b8.json",
+      "bytes": 82083,
+      "sha256": "299db6f1becc6a78fad357801f7d636769713130be75485b9d4231ba7ea2f09f"
+    },
+    {
+      "path": "work/omtale-post1-leveranse/uendret-b9.xlsx",
+      "bytes": 37469,
+      "sha256": "2634bb449aef3dc7a37d1b6c4e5187938be7c252fb6ca2fcbcd01fc500e366df"
+    },
+    {
+      "path": "work/omtale-post1-rettet-leveranse/kontroll.json",
+      "bytes": 2004,
+      "sha256": "def67dd586a231121007b83504b8fa3e76c82fd11320bf0ccde3acdbdcfe4220"
+    },
+    {
+      "path": "work/omtale-post1-rettet-leveranse/offline-gjenlest.json",
+      "bytes": 4837383,
+      "sha256": "9b30322a3f2d97cba8b2a63a271750c70863ae2758158c6bd640838e91701fc8"
+    },
+    {
+      "path": "work/omtale-post1-rettet-leveranse/offline-gjenlest.xlsx",
+      "bytes": 1392324,
+      "sha256": "f7e4dccd1f97e842c4f5f663664f57eb72993842e86d8c5d063b27b1642760e4"
+    },
+    {
+      "path": "work/omtale-post1-rettet-leveranse/omtale-210-post1.json",
+      "bytes": 4837383,
+      "sha256": "9b30322a3f2d97cba8b2a63a271750c70863ae2758158c6bd640838e91701fc8"
+    },
+    {
+      "path": "work/omtale-post1-rettet-leveranse/omtale-210-post1.xlsx",
+      "bytes": 1392324,
+      "sha256": "bf07a9b35faf006b20b69f69fccd50f082f2bff20bffae6403f93525456d9040"
+    },
+    {
+      "path": "work/omtale-post1-rettet-leveranse/saksutvalg.json",
+      "bytes": 678,
+      "sha256": "d6fa46fe0631f5d3a3c46e93658f8df5605b6f147bfaf0a7130c7758044355f6"
+    },
+    {
+      "path": "work/omtale-post1-rettet-leveranse/uendret-b8.json",
+      "bytes": 82083,
+      "sha256": "7795cfd4f6079419fda643fb84d6a38640715046ce8d88b07892cb146eb2354e"
+    },
+    {
+      "path": "work/omtale-post1-rettet-leveranse/uendret-b9.xlsx",
+      "bytes": 37473,
+      "sha256": "a0349fad0d42d0ac52113b1a77252bab62434c1b6386d42a8a31941d976d416f"
+    },
+    {
+      "path": "work/omtale-retterbevis/forged-event-canonical.json",
+      "bytes": 4828800,
+      "sha256": "da949af7e54e54638ec067e29f431e2155e0a0921222a13bea7c263bbdd882bf"
+    },
+    {
+      "path": "work/omtale-retterbevis/forged-event-canonical.xlsx",
+      "bytes": 1389578,
+      "sha256": "603aa0efad3316e4eb6a2dcba606d8281ce1de8c6bb66f830cb69db9385a101b"
+    },
+    {
+      "path": "work/omtale-retterbevis/wrong-ks-actor.json",
+      "bytes": 4836192,
+      "sha256": "39e0f5474dee2de9d6e69f824de55743ccfdfb249b16d7ef4b86cac5354dc2df"
+    },
+    {
+      "path": "work/omtale-retterbevis/wrong-ks-actor.xlsx",
+      "bytes": 1391818,
+      "sha256": "39c21e12c5755c91ec6806f35c1034b77a5afb113c5c7abee707518bf878bb90"
+    },
+    {
+      "path": "work/omtale-retterbevis/wrong-kt-chapter.json",
+      "bytes": 4837265,
+      "sha256": "ad4bd958650247a06a8624a6ee1ea6abfeca6b8b1da64181d30379454721f9cf"
+    },
+    {
+      "path": "work/omtale-retterbevis/wrong-kt-chapter.xlsx",
+      "bytes": 1392369,
+      "sha256": "d957f82b02cb85120422346dc8444b6684165b655a707090f37cd32c19942ee1"
+    },
+    {
+      "path": "work/security-audit-5887e18/forged-event-canonical.json",
+      "bytes": 4836915,
+      "sha256": "0c0087534c5f3e9a48011198bbe8119c0e1822f48f5d7aca6424f3964dc2c3d2"
+    },
+    {
+      "path": "work/security-audit-5887e18/forged-event-canonical.xlsx",
+      "bytes": 1392132,
+      "sha256": "9dfe26ae2cc155f3cf63f0604dabb42c9c0d0399fac6a26103e4d335cc39950a"
+    },
+    {
+      "path": "work/security-audit-5887e18/forged-event.json",
+      "bytes": 4836915,
+      "sha256": "1df032bf8723a4f4d2a210518b9a4ea8401773efa79305f985fd9f3028023ebb"
+    },
+    {
+      "path": "work/security-audit-5887e18/forged-event.xlsx",
+      "bytes": 1392129,
+      "sha256": "025dbd2cf4187c26a4a4c32727f0c480a4eb311101d9b34db8026e9373bbb801"
+    },
+    {
+      "path": "work/security-audit-5887e18/formula.json",
+      "bytes": 4837293,
+      "sha256": "449c31f96b947870b2c552772e2979cfc9308429a8522f5a6f46740a99aab422"
+    },
+    {
+      "path": "work/security-audit-5887e18/formula.xlsx",
+      "bytes": 1392316,
+      "sha256": "bf96360fc62706d1356f07b8ee93252f800cf0559b8474e251a5c91b135866e3"
+    },
+    {
+      "path": "work/security-audit-5887e18/new-v1.xlsx",
+      "bytes": 14255,
+      "sha256": "110d94b91d8bca390a026f7898d44e70553bbd78a8475a68b902b3896ee3fd62"
+    },
+    {
+      "path": "work/security-audit-5887e18/new-v2.xlsx",
+      "bytes": 93852,
+      "sha256": "6a662d0f64f08699b76add30a538481470890118f5d4780b52e418c6817b1a0e"
+    },
+    {
+      "path": "work/security-audit-5887e18/padded-extra-sheet.xlsx",
+      "bytes": 2417126,
+      "sha256": "ddeefb2efb28ec0c8860006fae7d8ff361448a21d3f8ddd9e021cf8ef9fafb31"
+    },
+    {
+      "path": "work/security-audit-5887e18/wrong-ks-actor-reexport.json",
+      "bytes": 4836379,
+      "sha256": "cfa8d1ea860d26405547dec18e04a04a9fe22349cb0519c5cab8e1130c54455e"
+    },
+    {
+      "path": "work/security-audit-5887e18/wrong-ks-actor.json",
+      "bytes": 4836379,
+      "sha256": "cfa8d1ea860d26405547dec18e04a04a9fe22349cb0519c5cab8e1130c54455e"
+    },
+    {
+      "path": "work/security-audit-5887e18/wrong-ks-actor.xlsx",
+      "bytes": 1391823,
+      "sha256": "347aa7ce5df171ceae7516a14bf8e5183ee47f0b789ae7ad804a57379b8a77da"
+    },
+    {
+      "path": "work/security-audit-5887e18/wrong-kt-chapter-reexport.json",
+      "bytes": 4837429,
+      "sha256": "6f75c3ebe061bfa67a5c203829a858440204671cfb2c2e5a4b12579746eaa111"
+    },
+    {
+      "path": "work/security-audit-5887e18/wrong-kt-chapter.json",
+      "bytes": 4837429,
+      "sha256": "6f75c3ebe061bfa67a5c203829a858440204671cfb2c2e5a4b12579746eaa111"
+    },
+    {
+      "path": "work/security-audit-5887e18/wrong-kt-chapter.xlsx",
+      "bytes": 1392361,
+      "sha256": "31bea1737009db624bb76d7ac26a7190e0514bb6e954348c727140868466b316"
+    },
+    {
+      "path": "work/spec-independent/forged-raw-account.json",
+      "bytes": 4837383,
+      "sha256": "022e9d6d477e4eb5268d2f840e0f8b6e3df760a8cd1847c994173b2423298bb4"
+    },
+    {
+      "path": "work/spec-independent/forged-raw-account.xlsx",
+      "bytes": 1392338,
+      "sha256": "b58b915934f6ca8aea11d369f6aa816785ec6a1a7b2843f2eae1c00bc6c4dd03"
+    },
+    {
+      "path": "work/spec-independent/forged-source-session-correct-locator.json",
+      "bytes": 4837383,
+      "sha256": "66b25950b23737c492c6d3f30f124de218f6fcba9310859ebc8e96f1ed35b63e"
+    },
+    {
+      "path": "work/spec-independent/forged-source-session-correct-locator.xlsx",
+      "bytes": 1392322,
+      "sha256": "874c96d54fdec144385c6c630427334a07008045f0a79994ec24ea189410372b"
+    },
+    {
+      "path": "work/spec-independent/forged-source-session.json",
+      "bytes": 4829040,
+      "sha256": "77d24b1be6d5648d4e4c54032b023f7bbfd5a9d1ca94e3874344ef27612223ff"
+    },
+    {
+      "path": "work/spec-independent/forged-source-session.xlsx",
+      "bytes": 1389722,
+      "sha256": "e858858c110e2420404bcc5d1885adf0a1daba58eeae6c8e08ef38adbcccefb6"
+    },
+    {
+      "path": "work/spec-independent/KT-chapter1428.json",
+      "bytes": 4836746,
+      "sha256": "bf5976bed0088153ad4c41aeea68c880f854cdd3f4e9aef37a227df1a97c6cfc"
+    },
+    {
+      "path": "work/spec-independent/KT-chapter1428.xlsx",
+      "bytes": 1392002,
+      "sha256": "3fce9a5dc209f66e7a9a20214c66bba785087eb5ace723b3abd0c98018f732f7"
+    },
+    {
+      "path": "work/spec-independent/read-only-input.xlsx",
+      "bytes": 1392324,
+      "sha256": "bf07a9b35faf006b20b69f69fccd50f082f2bff20bffae6403f93525456d9040"
+    },
+    {
+      "path": "work/spec-independent/step-only.json",
+      "bytes": 4828707,
+      "sha256": "c431c8b953d508975baed980cefc5e96b16cc2728c934271ef9d3c2817601504"
+    },
+    {
+      "path": "work/spec-independent/step-only.xlsx",
+      "bytes": 1389629,
+      "sha256": "04952bd24b6dd04db2ff763a6120d966861df82a8d5cbae6247c51b4a05cbbbc"
+    },
+    {
+      "path": "work/spec-independent/V-chapter1428.json",
+      "bytes": 4844233,
+      "sha256": "f90d29c605a09e4dcfdc6771841f13363286b117454d12ff82d6e3e7007c89b3"
+    },
+    {
+      "path": "work/spec-independent/V-chapter1428.xlsx",
+      "bytes": 1392414,
+      "sha256": "ceaff2aa6b6d37ff2495e03d68ddd8538ff7f0c5a9bdab504acaf4e8ed6ae42e"
+    }
+  ],
+  "candidate_file_sha256": [
+    {
+      "path": "analyse/omtale.py",
+      "bytes": 34233,
+      "sha256": "fe08bad2a369b6961091b7117c5eedbe2548696600cb47772aa80f7c7bee3062"
+    },
+    {
+      "path": "analyse/omtale_excel_guard.py",
+      "bytes": 22115,
+      "sha256": "d2b0a4b495ac91e6491eef16e0cfcefef40ed506d1448f5aaf11e12960f6c45a"
+    },
+    {
+      "path": "innlesning/omtale.py",
+      "bytes": 18872,
+      "sha256": "ab7c58df693122f7fa10b4245ebe6792f6958416b46178b15fc45099998e4b68"
+    },
+    {
+      "path": "tests/test_omtale.py",
+      "bytes": 33492,
+      "sha256": "78ae8f6226b43194530651e3c3d68978298963fe01e1fe8b65af29cdc3ed6089"
+    }
+  ],
+  "new_authentic_delivery": {
+    "kind": "Autentisk lokal O2a-prøve, ikke årsdekning eller faglig godkjenning",
+    "report_id": "22e216820b2b2d17fd43016d8be437a8cbdfaf4cbd8920b871aec0acd55d7143",
+    "basis_id": "4fb6187784cfe233a89ce5d7180b4d76b3de669125d70c8eead7d70e9a0986a1",
+    "base_report_id": "13084306120010a795a15b4e250ab5b230181d963d3cbfcf608f97c0d019f390",
+    "observations_unfiltered": 6,
+    "post_events_unfiltered": 2,
+    "observations_selected": 3,
+    "sections": [
+      "P1_PDF",
+      "P1",
+      "PN",
+      "PT",
+      "K1",
+      "KS",
+      "KT",
+      "V"
+    ],
+    "relations": 6,
+    "relation_statuses": [
+      "kildeverifisert"
+    ],
+    "issues": [
+      "mindretall_kontrollert_fravaerende:Innst.81S"
+    ],
+    "files": [
+      {
+        "file": "210.sqlite.unavailable",
+        "bytes": 253952,
+        "sha256": "9d8759a247abdda3542266a78d87dc395644a001e53a35836ff5642e7b895d8d"
+      },
+      {
+        "file": "offline-gjenlest.json",
+        "bytes": 4837383,
+        "sha256": "bd5666408115ce448a1c3ecf84242cade4c668ef507842e81eb5465c3bca7129"
+      },
+      {
+        "file": "offline-gjenlest.xlsx",
+        "bytes": 1392307,
+        "sha256": "f90cea2b72e62cf61816d3ad6f07a25ec4063a7d244eb2c57fb7713cd23ad5eb"
+      },
+      {
+        "file": "omtale-210-post1.json",
+        "bytes": 4837383,
+        "sha256": "bd5666408115ce448a1c3ecf84242cade4c668ef507842e81eb5465c3bca7129"
+      },
+      {
+        "file": "omtale-210-post1.xlsx",
+        "bytes": 1392306,
+        "sha256": "3fc3f731970dccb47ce773e37a48c42be2c9b10cf7525c82826c6436fc7965e3"
+      },
+      {
+        "file": "saksutvalg.json",
+        "bytes": 678,
+        "sha256": "2643b5718f40337d161238c5d98a789077ac1f0c2159bea83ca8cfb268deb5ac"
+      },
+      {
+        "file": "uendret-b8.json",
+        "bytes": 82083,
+        "sha256": "83b54f8e2aa3a8077d67b32e9e1fca94cb1aec73047e0b2716867fc9a3f7d9dd"
+      },
+      {
+        "file": "uendret-b9.xlsx",
+        "bytes": 37459,
+        "sha256": "fb13bef041fc1e2f60e394fca47b4f94e03e32423d7d5c67d39e2509c93b5249"
+      }
+    ],
+    "path": "work/omtale-post1-etterkontroll2-leveranse"
+  },
+  "replayed_on_final_candidate": true,
+  "local_links": {
+    "result": "passed",
+    "count": 46,
+    "files": 5,
+    "external_links_not_requested_or_checked": true
+  },
+  "checks": {
+    "focused_omtale": "92 passed in 292.22s (0:04:52)",
+    "compatibility_b6_b8_b9": "128 passed in 49.15s",
+    "additional_envelope_compatibility": "3 passed, 89 deselected in 14.53s; actual tool output, final focused suite includes this case",
+    "full_suite": "Ikke gjentatt; final CI gjenstår",
+    "ruff_check": "All checks passed!",
+    "ruff_format": "92 files already formatted",
+    "mypy": "Success: no issues found in 51 source files",
+    "git_diff_check": "passed",
+    "new_authentic_and_offline_json_excel_reopened": true,
+    "old_authentic_and_b8_b9_reopened_without_rewrite": true,
+    "all_previous_artifact_bytes_preserved": 50,
+    "source_bytes_preserved": 10,
+    "input_loads_for_hyperlink_range": 0,
+    "range_probe_never_materialized_input": true
+  },
+  "tdd_saved_red_evidence": [
+    {
+      "case": "source_session",
+      "path": "work/fix2-red-session/test_synthetic_session_relabel0/synthetic-session.json",
+      "sha256": "573f64aceeaf5eeac6367181f7246210d17e66e2c06ab090321fc66ed0df9724",
+      "relations": 6,
+      "relation_statuses_before_fix": [
+        "kildeverifisert"
+      ],
+      "issues_before_fix": [
+        "mindretall_kontrollert_fravaerende:Innst.81S"
+      ]
+    },
+    {
+      "case": "raw_account",
+      "path": "work/fix2-red-raw/test_synthetic_consistent_raw_0/synthetic-raw.json",
+      "sha256": "bcd8ef6599c1c885f47645c0968e50b77d57f0b1084224a82bc4aa0cdfa7a9da",
+      "relations": 6,
+      "relation_statuses_before_fix": [
+        "kildeverifisert"
+      ],
+      "issues_before_fix": [
+        "mindretall_kontrollert_fravaerende:Innst.81S"
+      ]
+    },
+    {
+      "case": "envelope_compatibility",
+      "path": "work/fix2-red-envelope2/test_later_synthetic_envelope_0/later-envelope.json",
+      "sha256": "d3c5f7a4ff19001a4f287c380c6df831bac24a172c7048f9795d9879990630a2",
+      "relations": 6,
+      "relation_statuses_before_fix": [
+        "uavklart"
+      ],
+      "issues_before_fix": [
+        "mindretall_kontrollert_fravaerende:Innst.81S",
+        "vedtaksbinding_motstrid:Vedtaksrevisjonens kildeobservasjon avviker fra original"
+      ]
+    }
+  ]
+}
