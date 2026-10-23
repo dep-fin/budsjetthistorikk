@@ -1,4 +1,4 @@
-"""Separat, selvforsynt O2a-kildegrunnlag. Ingen database- eller nettavhengighet."""
+"""Separat, selvforsynt O2-kildegrunnlag. Ingen database- eller nettavhengighet."""
 
 import base64
 import binascii
@@ -18,6 +18,7 @@ from .observations import encode, identity
 
 VERSION = "omtale-grunnlag-1"
 EXTRACTOR = "o2a-html-pdf-1"
+O2B_EXTRACTOR = "o2b-html-pdf-1"
 MAX_SOURCE_BYTES = 16 * 1024 * 1024
 MAX_METADATA_BYTES = 1024 * 1024
 SOURCE_CATALOG = {
@@ -39,6 +40,11 @@ KS_ACTOR = (
     "Margrethe Haarr og Åslaug Sem-Jacobsen, fra Fremskrittspartiet, Silje Hjemdal, "
     "fra Sosialistisk Venstreparti, Audun Hammer Hovda, og fra Venstre, lederen Grunde Almeland"
 )
+
+
+def is_o2b(extractor: str) -> bool:
+    """Revisjonssuffiks identifiserer et nytt uttak med samme eksplisitte B-algoritme."""
+    return extractor == O2B_EXTRACTOR or extractor.startswith(O2B_EXTRACTOR + "-")
 
 
 @dataclass(frozen=True)
@@ -160,7 +166,7 @@ def _read_manifest(path: Path) -> list[dict[str, Any]]:
 
 
 def import_omtale(root: Path, supporting_root: Path, *, extractor: str = EXTRACTOR) -> OmtaleBasis:
-    """Åpne originalene på nytt, bevar faktiske byte, og strukturer bare post 1."""
+    """Åpne originalene på nytt og bevar faktiske byte ved uttrykkelig A-/B-valg."""
     if not extractor or len(extractor) > 80:
         raise ValueError("Velg en eksplisitt uttrekksversjon på høyst 80 tegn")
     try:
@@ -454,6 +460,73 @@ def structure(sources: tuple[OmtaleSource, ...], extractor: str) -> OmtaleBasis:
                 )
         except (ValueError, IndexError, KeyError, etree.LxmlError, PdfReadError) as error:
             issues.append("strukturfeil:" + source.name + ":" + str(error))
+    # En ny etikett velger B. Tidligere etiketter rekonstruerer fortsatt bare A.
+    if is_o2b(extractor):
+        for source in sources:
+            if source.status != "kildeverifisert":
+                continue
+            specs = {
+                "originals/prop16s-ch2.html": (
+                    "P22",
+                    "//*[@id='kap2_ch7_ch2']",
+                    ("//*[@id='kap2']/h1", "//*[@id='kap2_ch7']/h2", "//*[@id='kap2_ch7_ch2']/h3"),
+                    "regjeringen",
+                    "regjeringsforklaring",
+                ),
+                "originals/prop16s-ch4.html": (
+                    "PT22",
+                    "//tr[td[normalize-space()='1429']]/following-sibling::tr[3]",
+                    (
+                        "//tr[td[normalize-space()='1429']]",
+                        "//tr[td[normalize-space()='1429']]/following-sibling::tr[4]",
+                    ),
+                    "regjeringen",
+                    "eksakt_forslag",
+                ),
+                "originals/inns81s.html": (
+                    "K22",
+                    "//*[@id='m1_1_2']",
+                    (
+                        "//*[@id='m1']//*[self::h1 or self::h2 or self::h3][1]",
+                        "//*[@id='m1_1']//*[self::h2 or self::h3 or self::h4][1]",
+                        "//*[@id='m1_1_2']//*[self::h3 or self::h4 or self::h5][1]",
+                    ),
+                    "komiteen_gjengir_regjeringen",
+                    "gjengivelse_av_regjeringen",
+                ),
+            }
+            if source.name not in specs:
+                continue
+            try:
+                raw = source_bytes(source)
+                assert raw is not None
+                doc = html.fromstring(raw.decode("utf-8"), parser=html.HTMLParser(no_network=True))
+                key, selector, b_headings, actor, role = specs[source.name]
+                section = _section(
+                    source,
+                    doc,
+                    key,
+                    selector,
+                    b_headings,
+                    extractor,
+                    actor,
+                    role,
+                    ("1429/22", "1429/1") if key != "PT22" else ("1429/22",),
+                )
+                if key == "K22" and compact(section.hierarchy[0].text) != "Sammendrag":
+                    section = identified(
+                        "omtale-seksjon-1",
+                        replace(
+                            section,
+                            id="",
+                            actor="ukjent",
+                            role="ukjent_rolle",
+                            status="ukjent_rolle",
+                        ),
+                    )
+                sections.append(section)
+            except (ValueError, IndexError, KeyError, etree.LxmlError) as error:
+                issues.append("strukturfeil:" + source.name + ":" + str(error))
     links: list[RepresentationLink] = []
     by_key = {s.key: s for s in sections}
     if "P1" in by_key and "P1_PDF" in by_key:

@@ -1,10 +1,10 @@
-"""Opt-in O2a: selvforsynt omtale-pilot-1 og faktisk gjenlest Excel."""
+"""Opt-in O2-pilot: selvforsynt omtale-pilot-1 og faktisk gjenlest Excel."""
 
 import argparse
 import json
 import re
 import tempfile
-from dataclasses import asdict, dataclass
+from dataclasses import asdict
 from pathlib import Path
 
 from lxml import etree, html
@@ -29,6 +29,7 @@ from innlesning.omtale import (
     compact,
     identified,
     import_omtale,
+    is_o2b,
     source_bytes,
     validate_basis,
 )
@@ -36,6 +37,9 @@ from innlesning.sync import FINGERPRINT_VERSION, PARSER_VERSION
 
 from .extraction_excel import Value, verify_continued_text
 from .omtale_excel_guard import SheetShape, inspect_excel
+from .omtale_model import FORMAT as FORMAT
+from .omtale_model import OmtaleReport as OmtaleReport
+from .omtale_model import Relation as Relation
 from .saksdokumenter import (
     SaksReport,
     _decorate,
@@ -52,35 +56,6 @@ from .saksdokumenter import (
 from .session import SessionRow
 from .session_excel import write_rows
 from .session_serialization import MAX_REPORT_BYTES, _constant, _decode, _object
-
-FORMAT = "omtale-pilot-1"
-
-
-@dataclass(frozen=True)
-class Relation:
-    id: str
-    section_id: str
-    event_id: str
-    decision_revision_id: str
-    observation_ids: tuple[str, ...]
-    accounts: tuple[str, ...]
-    role: str
-    actor: str
-    evidence_ids: tuple[str, ...]
-    status: str
-    professional_status: str
-    reason: str
-
-
-@dataclass(frozen=True)
-class OmtaleReport:
-    id: str
-    base_json: str
-    basis: OmtaleBasis
-    relations: tuple[Relation, ...]
-    visible_section_ids: tuple[str, ...]
-    issues: tuple[str, ...]
-    version: str = FORMAT
 
 
 def _post1_group(rows: tuple[etree._Element, ...]) -> bool:
@@ -314,7 +289,9 @@ def _chain_issues(base: SaksReport, basis: OmtaleBasis) -> tuple[str, ...]:
     return tuple(issues)
 
 
-def _rows_bound_to_extraction(base: SaksReport, basis: OmtaleBasis, rows: list[SessionRow]) -> bool:
+def _rows_bound_to_extraction(
+    base: SaksReport, basis: OmtaleBasis, rows: list[SessionRow], post: str = "1"
+) -> bool:
     """Et omberegnet snapshot er ikke bevis for en observasjon eller hendelse."""
     if len({r.extraction_id for r in rows}) != 1:
         return False
@@ -329,12 +306,12 @@ def _rows_bound_to_extraction(base: SaksReport, basis: OmtaleBasis, rows: list[S
     expected = [
         o
         for o in extraction.observations
-        if (o.api_id, o.chapter, o.post, o.budget_year) == ("40034048", "1429", "1", 2024)
+        if (o.api_id, o.chapter, o.post, o.budget_year) == ("40034048", "1429", post, 2024)
     ]
     if (
         len(expected) != 3
         or {o.id for o in expected} != {r.observation.id for r in rows}
-        or not _extraction_matches_original(basis, extraction, expected)
+        or not _extraction_matches_original(basis, extraction, expected, post)
     ):
         return False
     by_id = {o.id: o for o in expected}
@@ -348,7 +325,7 @@ def _rows_bound_to_extraction(base: SaksReport, basis: OmtaleBasis, rows: list[S
             r.observation.post,
             r.observation.budget_year,
         )
-        == ("40034048", "1429", "1", 2024)
+        == ("40034048", "1429", post, 2024)
     ]
     return all(
         row.observation == by_id.get(row.observation.id)
@@ -362,7 +339,10 @@ def _rows_bound_to_extraction(base: SaksReport, basis: OmtaleBasis, rows: list[S
 
 
 def _extraction_matches_original(
-    basis: OmtaleBasis, extraction: Extraction, observations: list[AmountObservation]
+    basis: OmtaleBasis,
+    extraction: Extraction,
+    observations: list[AmountObservation],
+    post: str = "1",
 ) -> bool:
     """Kontroller også lokator/råfelt/hendelse hvis uttrekket selv er omberegnet."""
     try:
@@ -376,11 +356,20 @@ def _extraction_matches_original(
     if len(tables) != 1:
         return False
     rows = tables[0].findall(".//tr")
-    groups = [n for n in range(len(rows) - 2) if _post1_group(tuple(rows[n : n + 3]))]
+    if post == "1":
+        groups = [n for n in range(len(rows) - 2) if _post1_group(tuple(rows[n : n + 3]))]
+    else:
+        from .omtale_begge import post22_groups
+
+        groups = post22_groups(rows)
     if len(groups) != 1:
         return False
     start = groups[0]
-    chapter, delta, levels = rows[start : start + 3]
+    chapter, delta, levels = (
+        rows[start : start + 3]
+        if post == "1"
+        else (rows[start - 2], rows[start + 1], rows[start + 2])
+    )
     if [text(cell) for cell in rows[0]] != ["Kap.", "Post", "Formål", "Kroner"]:
         return False
     years = set(re.findall(r"statsbudsjettet for (20\d{2})", text(doc), re.I))
@@ -410,7 +399,7 @@ def _extraction_matches_original(
         "chapter_raw": text(chapter.findall("td")[0]),
         "chapter": "1429",
         "post_raw": text(delta.findall("td")[1]),
-        "post": "1",
+        "post": post,
         "subpost_raw": None,
         "subpost": None,
         "chapter_name": text(chapter.findall("td")[2]),
@@ -441,9 +430,9 @@ def _extraction_matches_original(
         raw_value = (
             text(delta.findall("td")[3])
             if is_delta
-            else "160 243 000"
+            else ("160 243 000" if post == "1" else "32 185 000")
             if observation.meaning == "for_belop"
-            else "166 039 000"
+            else ("166 039 000" if post == "1" else "29 185 000")
         )
         pointer = SourcePointer(
             extraction.artifact.sha256,
@@ -464,6 +453,10 @@ def _extraction_matches_original(
 
 def build_report(base: SaksReport, basis: OmtaleBasis) -> OmtaleReport:
     """Bare uttrykkelig valgt snapshot; ingen joins på bare konto eller beløp."""
+    if is_o2b(basis.extractor):
+        from .omtale_begge import build_both_report
+
+        return build_both_report(base, basis)
     base_json = saks_to_json(base)
     validate_basis(basis)
     chain_issues = _chain_issues(base, basis)
@@ -544,7 +537,17 @@ def report_to_json(report: OmtaleReport) -> str:
 
 def _validate(report: OmtaleReport) -> None:
     base = saks_from_json(report.base_json)
-    if report.version != FORMAT or report != build_report(base, report.basis):
+    if is_o2b(report.basis.extractor):
+        from .omtale_begge import build_both_report
+
+        expected = build_both_report(
+            base,
+            report.basis,
+            proposals=tuple(r for r in report.relations if r.role == "uavklart_relasjonsforslag"),
+        )
+    else:
+        expected = build_report(base, report.basis)
+    if report.version != FORMAT or report != expected:
         raise ValueError("Omtalerapport avviker fra gjenleste kilder/relasjonsbelegg")
 
 
@@ -833,6 +836,9 @@ def export_pair(report: OmtaleReport, json_path: Path, excel_path: Path) -> None
             # Fulltekst får egne brede kolonner og høyde for praktisk lesing.
             book["Omtale"].column_dimensions["K"].width = 100
             book["Omtale"].column_dimensions["L"].width = 100
+            if is_o2b(saved.basis.extractor):
+                # Postvis omfang må være lesbart uten å åpne selve kontrollcellen.
+                book["Relasjoner"].column_dimensions["L"].width = 80
             for n in range(2, book["Omtale"].max_row + 1):
                 book["Omtale"].row_dimensions[n].height = 300
             book.save(excel)

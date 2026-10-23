@@ -1,0 +1,665 @@
+{
+  "kind": "Local O2b builder evidence; no independent review, audit, GitHub mutation, commit or merge",
+  "base": "6f7145d49a91325e9229bc89eee3b540cdced8ce",
+  "branch": "codex/35-omtale-begge-poster",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "lxml": "6.1.3",
+    "lxml_path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\o2a\\work\\spec-verify-deps\\lxml\\__init__.py",
+    "openpyxl": "3.1.5",
+    "openpyxl_path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\o2a\\work\\spec-verify-deps\\openpyxl\\__init__.py",
+    "pypdf": "6.10.0",
+    "pypdf_path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\o2a\\work\\spec-verify-deps\\pypdf\\__init__.py",
+    "pytest": "8.3.5",
+    "artifact_tool": "2.8.99"
+  },
+  "delivery": {
+    "kind": "Autentisk O2b-kildeprøve og særskilt merket syntetisk forslag; ingen faglig godkjenning/årsdekning",
+    "basis_id": "88468300d0caced1230731c509fc0564f50cf67bd8083d0bf598652571f6cccb",
+    "extractor": "o2b-html-pdf-1",
+    "selections": [
+      {
+        "selection": "begge",
+        "report_id": "ef508e79e8f55993893250ff96f9f1ac6b55138dfb58b634fdc3cec51b3b42ab",
+        "observations_selected": 6,
+        "observations_unfiltered": 6,
+        "post_events_unfiltered": 2,
+        "sections": [
+          "P1_PDF",
+          "P1",
+          "PN",
+          "PT",
+          "K1",
+          "KS",
+          "KT",
+          "V",
+          "P22",
+          "PT22",
+          "K22"
+        ],
+        "visible_section_ids": [
+          "9f2a5faca655687d70b220e1777f6bb61bfb20647c6e000a4c1026560caf5bb5",
+          "0de17d658739884ac8c865c8169460c191969f9ed2bf19a659aa6d62a352d5c9",
+          "cd3b8a9d78eb4ca39e54f22b917c97afa3ae35295defd9b4c3e7cbe2166263b4",
+          "99419916a7772d39e95d9498a8fe4f4bd3a728e96794eb89657c1c178a0958e8",
+          "0fd1610d57ab75490925e92cc247b3cc5ced3a28f7127edd06a62c6a4350abf2",
+          "ccbddd9d2123d453af3b1daf4cd6594c11ab673904efe35f407c2abd3e367a7c",
+          "d311467f71bd51af5b6bb5a97b5eeb8adc9242705ed9d785847b7662eeb02702",
+          "bdb131d10b577a9fc3763d5fca6d1a03b33321eb83f2d2cdfeec9eb217d60c7c",
+          "29e007bee57330b75a42b3611fe22bc716bd90739fe88e45072b6e6313ce5eb0",
+          "08e982475b16772dae174a17823a53f0f7b32034a5cf87765c9dc73541ab7bed"
+        ],
+        "relations": 13,
+        "issues": [
+          "mindretall_kontrollert_fravaerende:Innst.81S"
+        ],
+        "files": [
+          {
+            "file": "work\\omtale-o2b-leveranse-2\\begge.json",
+            "bytes": 4866537,
+            "sha256": "96dbe2c089272a661a6c37b4e1eaee5a10d78629720916c55705ba16aff7397d"
+          },
+          {
+            "file": "work\\omtale-o2b-leveranse-2\\begge.xlsx",
+            "bytes": 1398819,
+            "sha256": "34dea0f68eb3a1ec6eb33d5bf56bc7d04c519cb7f0be8a14d22897576a5aec84"
+          }
+        ]
+      },
+      {
+        "selection": "post1",
+        "report_id": "978b86d0701fc4c030e9f5fbf738e1187bcca3c76fff112f366cff8abb043174",
+        "observations_selected": 3,
+        "observations_unfiltered": 6,
+        "post_events_unfiltered": 2,
+        "sections": [
+          "P1_PDF",
+          "P1",
+          "PN",
+          "PT",
+          "K1",
+          "KS",
+          "KT",
+          "V",
+          "P22",
+          "PT22",
+          "K22"
+        ],
+        "visible_section_ids": [
+          "9f2a5faca655687d70b220e1777f6bb61bfb20647c6e000a4c1026560caf5bb5",
+          "0de17d658739884ac8c865c8169460c191969f9ed2bf19a659aa6d62a352d5c9",
+          "cd3b8a9d78eb4ca39e54f22b917c97afa3ae35295defd9b4c3e7cbe2166263b4",
+          "99419916a7772d39e95d9498a8fe4f4bd3a728e96794eb89657c1c178a0958e8",
+          "0fd1610d57ab75490925e92cc247b3cc5ced3a28f7127edd06a62c6a4350abf2",
+          "ccbddd9d2123d453af3b1daf4cd6594c11ab673904efe35f407c2abd3e367a7c",
+          "d311467f71bd51af5b6bb5a97b5eeb8adc9242705ed9d785847b7662eeb02702"
+        ],
+        "relations": 13,
+        "issues": [
+          "mindretall_kontrollert_fravaerende:Innst.81S"
+        ],
+        "files": [
+          {
+            "file": "work\\omtale-o2b-leveranse-2\\post1.json",
+            "bytes": 4852595,
+            "sha256": "0a22ad2c074a86898d6d264db6505b7b6bd6240578aa6846a3e5413d50760f07"
+          },
+          {
+            "file": "work\\omtale-o2b-leveranse-2\\post1.xlsx",
+            "bytes": 1396394,
+            "sha256": "3b97f085ce4db4c909a06ba4f55873b204576ae13aff2ab7ead144471f5e77fc"
+          }
+        ]
+      },
+      {
+        "selection": "post22",
+        "report_id": "51d209382fcb5fa69fc7ac38687a3a965b7754c4d11d44a0b2197e6088c24a22",
+        "observations_selected": 3,
+        "observations_unfiltered": 6,
+        "post_events_unfiltered": 2,
+        "sections": [
+          "P1_PDF",
+          "P1",
+          "PN",
+          "PT",
+          "K1",
+          "KS",
+          "KT",
+          "V",
+          "P22",
+          "PT22",
+          "K22"
+        ],
+        "visible_section_ids": [
+          "9f2a5faca655687d70b220e1777f6bb61bfb20647c6e000a4c1026560caf5bb5",
+          "0de17d658739884ac8c865c8169460c191969f9ed2bf19a659aa6d62a352d5c9",
+          "0fd1610d57ab75490925e92cc247b3cc5ced3a28f7127edd06a62c6a4350abf2",
+          "ccbddd9d2123d453af3b1daf4cd6594c11ab673904efe35f407c2abd3e367a7c",
+          "d311467f71bd51af5b6bb5a97b5eeb8adc9242705ed9d785847b7662eeb02702",
+          "bdb131d10b577a9fc3763d5fca6d1a03b33321eb83f2d2cdfeec9eb217d60c7c",
+          "29e007bee57330b75a42b3611fe22bc716bd90739fe88e45072b6e6313ce5eb0",
+          "08e982475b16772dae174a17823a53f0f7b32034a5cf87765c9dc73541ab7bed"
+        ],
+        "relations": 13,
+        "issues": [
+          "mindretall_kontrollert_fravaerende:Innst.81S"
+        ],
+        "files": [
+          {
+            "file": "work\\omtale-o2b-leveranse-2\\post22.json",
+            "bytes": 4852917,
+            "sha256": "ce913130c81f837eda327ee1e0f008aad82aa029122c9a0a9c6c19690f9a6f9f"
+          },
+          {
+            "file": "work\\omtale-o2b-leveranse-2\\post22.xlsx",
+            "bytes": 1396485,
+            "sha256": "a98a523020099d0d3964a569ccb7ce00fa2dc3a321255db2bd61f9a49317318b"
+          }
+        ]
+      },
+      {
+        "selection": "tomt",
+        "report_id": "17ebed652bfc42eebf8f863706d6de6918fb0422b1cb3f84324a62187e273e87",
+        "observations_selected": 0,
+        "observations_unfiltered": 6,
+        "post_events_unfiltered": 2,
+        "sections": [
+          "P1_PDF",
+          "P1",
+          "PN",
+          "PT",
+          "K1",
+          "KS",
+          "KT",
+          "V",
+          "P22",
+          "PT22",
+          "K22"
+        ],
+        "visible_section_ids": [],
+        "relations": 14,
+        "issues": [
+          "mindretall_kontrollert_fravaerende:Innst.81S",
+          "uavklart_relasjonsforslag:2ac66f967c13a28a5d84f39583e060f7a29b367757cefc1d4279592cfe58f53a:Syntetisk uavklart relasjonsforslag; ingen kildeverifisert egen post 1-forklaring i K22."
+        ],
+        "files": [
+          {
+            "file": "work\\omtale-o2b-leveranse-2\\tomt.json",
+            "bytes": 4838268,
+            "sha256": "fac1b5c180baa57ef7f9114aabe855aafbd1cec1d3e7e1ed8725889c8e9ee84e"
+          },
+          {
+            "file": "work\\omtale-o2b-leveranse-2\\tomt.xlsx",
+            "bytes": 1390380,
+            "sha256": "08e46f0b589d606e2c5ac6cb90e71d1e1076f019d8e1391bf7729d2d58610721"
+          }
+        ]
+      }
+    ],
+    "previous_o2a": [
+      {
+        "report_id": "22e216820b2b2d17fd43016d8be437a8cbdfaf4cbd8920b871aec0acd55d7143",
+        "files": [
+          {
+            "file": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\outputs\\o2a-210-post1-52f0545\\omtale-210-post1.json",
+            "bytes": 4837383,
+            "sha256": "bd5666408115ce448a1c3ecf84242cade4c668ef507842e81eb5465c3bca7129"
+          },
+          {
+            "file": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\outputs\\o2a-210-post1-52f0545\\omtale-210-post1.xlsx",
+            "bytes": 1392306,
+            "sha256": "3fc3f731970dccb47ce773e37a48c42be2c9b10cf7525c82826c6436fc7965e3"
+          }
+        ],
+        "byte_preserved": true
+      },
+      {
+        "report_id": "22e216820b2b2d17fd43016d8be437a8cbdfaf4cbd8920b871aec0acd55d7143",
+        "files": [
+          {
+            "file": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\outputs\\o2a-210-post1-52f0545\\offline-gjenlest.json",
+            "bytes": 4837383,
+            "sha256": "bd5666408115ce448a1c3ecf84242cade4c668ef507842e81eb5465c3bca7129"
+          },
+          {
+            "file": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\outputs\\o2a-210-post1-52f0545\\offline-gjenlest.xlsx",
+            "bytes": 1392307,
+            "sha256": "f90cea2b72e62cf61816d3ad6f07a25ec4063a7d244eb2c57fb7713cd23ad5eb"
+          }
+        ],
+        "byte_preserved": true
+      }
+    ],
+    "files": [
+      {
+        "file": "work\\omtale-o2b-leveranse-2\\210.sqlite.unavailable",
+        "bytes": 253952,
+        "sha256": "52100770ade2a940d0dfbd98e5e8c0da7426650be3142612526208a44fd56aac"
+      },
+      {
+        "file": "work\\omtale-o2b-leveranse-2\\begge.json",
+        "bytes": 4866537,
+        "sha256": "96dbe2c089272a661a6c37b4e1eaee5a10d78629720916c55705ba16aff7397d"
+      },
+      {
+        "file": "work\\omtale-o2b-leveranse-2\\begge.xlsx",
+        "bytes": 1398819,
+        "sha256": "34dea0f68eb3a1ec6eb33d5bf56bc7d04c519cb7f0be8a14d22897576a5aec84"
+      },
+      {
+        "file": "work\\omtale-o2b-leveranse-2\\offline.json",
+        "bytes": 4866537,
+        "sha256": "96dbe2c089272a661a6c37b4e1eaee5a10d78629720916c55705ba16aff7397d"
+      },
+      {
+        "file": "work\\omtale-o2b-leveranse-2\\offline.xlsx",
+        "bytes": 1398819,
+        "sha256": "cc4d5b68d29656d5358e4bc018645fa74ffdd5b62401bd5fb20f6f89e0471a4c"
+      },
+      {
+        "file": "work\\omtale-o2b-leveranse-2\\post1.json",
+        "bytes": 4852595,
+        "sha256": "0a22ad2c074a86898d6d264db6505b7b6bd6240578aa6846a3e5413d50760f07"
+      },
+      {
+        "file": "work\\omtale-o2b-leveranse-2\\post1.xlsx",
+        "bytes": 1396394,
+        "sha256": "3b97f085ce4db4c909a06ba4f55873b204576ae13aff2ab7ead144471f5e77fc"
+      },
+      {
+        "file": "work\\omtale-o2b-leveranse-2\\post22.json",
+        "bytes": 4852917,
+        "sha256": "ce913130c81f837eda327ee1e0f008aad82aa029122c9a0a9c6c19690f9a6f9f"
+      },
+      {
+        "file": "work\\omtale-o2b-leveranse-2\\post22.xlsx",
+        "bytes": 1396485,
+        "sha256": "a98a523020099d0d3964a569ccb7ce00fa2dc3a321255db2bd61f9a49317318b"
+      },
+      {
+        "file": "work\\omtale-o2b-leveranse-2\\syntetisk-forslag.json",
+        "bytes": 4867573,
+        "sha256": "b65ae7e0bf42f4f699f75ee3f74be86e836a32e25b0b2d331603731456db111c"
+      },
+      {
+        "file": "work\\omtale-o2b-leveranse-2\\syntetisk-forslag.xlsx",
+        "bytes": 1399247,
+        "sha256": "440484fc0c3936c6753d40a4476ad5e5777e6a6143d67daa2342af1104132499"
+      },
+      {
+        "file": "work\\omtale-o2b-leveranse-2\\tomt.json",
+        "bytes": 4838268,
+        "sha256": "fac1b5c180baa57ef7f9114aabe855aafbd1cec1d3e7e1ed8725889c8e9ee84e"
+      },
+      {
+        "file": "work\\omtale-o2b-leveranse-2\\tomt.xlsx",
+        "bytes": 1390380,
+        "sha256": "08e46f0b589d606e2c5ac6cb90e71d1e1076f019d8e1391bf7729d2d58610721"
+      },
+      {
+        "file": "work\\omtale-o2b-leveranse-2\\uendret-b8-begge.json",
+        "bytes": 94621,
+        "sha256": "9404fdc2df237d91754d2e25df0ad1e8a8186efbf474168cb5fa1939306a4034"
+      }
+    ]
+  },
+  "fresh_final_readback": [
+    {
+      "selection": "begge",
+      "report_id": "ef508e79e8f55993893250ff96f9f1ac6b55138dfb58b634fdc3cec51b3b42ab",
+      "files": [
+        {
+          "file": "work\\omtale-o2b-leveranse-2\\begge.json",
+          "bytes": 4866537,
+          "sha256": "96dbe2c089272a661a6c37b4e1eaee5a10d78629720916c55705ba16aff7397d"
+        },
+        {
+          "file": "work\\omtale-o2b-leveranse-2\\begge.xlsx",
+          "bytes": 1398819,
+          "sha256": "34dea0f68eb3a1ec6eb33d5bf56bc7d04c519cb7f0be8a14d22897576a5aec84"
+        }
+      ],
+      "readback": true
+    },
+    {
+      "selection": "post1",
+      "report_id": "978b86d0701fc4c030e9f5fbf738e1187bcca3c76fff112f366cff8abb043174",
+      "files": [
+        {
+          "file": "work\\omtale-o2b-leveranse-2\\post1.json",
+          "bytes": 4852595,
+          "sha256": "0a22ad2c074a86898d6d264db6505b7b6bd6240578aa6846a3e5413d50760f07"
+        },
+        {
+          "file": "work\\omtale-o2b-leveranse-2\\post1.xlsx",
+          "bytes": 1396394,
+          "sha256": "3b97f085ce4db4c909a06ba4f55873b204576ae13aff2ab7ead144471f5e77fc"
+        }
+      ],
+      "readback": true
+    },
+    {
+      "selection": "post22",
+      "report_id": "51d209382fcb5fa69fc7ac38687a3a965b7754c4d11d44a0b2197e6088c24a22",
+      "files": [
+        {
+          "file": "work\\omtale-o2b-leveranse-2\\post22.json",
+          "bytes": 4852917,
+          "sha256": "ce913130c81f837eda327ee1e0f008aad82aa029122c9a0a9c6c19690f9a6f9f"
+        },
+        {
+          "file": "work\\omtale-o2b-leveranse-2\\post22.xlsx",
+          "bytes": 1396485,
+          "sha256": "a98a523020099d0d3964a569ccb7ce00fa2dc3a321255db2bd61f9a49317318b"
+        }
+      ],
+      "readback": true
+    },
+    {
+      "selection": "tomt",
+      "report_id": "17ebed652bfc42eebf8f863706d6de6918fb0422b1cb3f84324a62187e273e87",
+      "files": [
+        {
+          "file": "work\\omtale-o2b-leveranse-2\\tomt.json",
+          "bytes": 4838268,
+          "sha256": "fac1b5c180baa57ef7f9114aabe855aafbd1cec1d3e7e1ed8725889c8e9ee84e"
+        },
+        {
+          "file": "work\\omtale-o2b-leveranse-2\\tomt.xlsx",
+          "bytes": 1390380,
+          "sha256": "08e46f0b589d606e2c5ac6cb90e71d1e1076f019d8e1391bf7729d2d58610721"
+        }
+      ],
+      "readback": true
+    },
+    {
+      "selection": "syntetisk-forslag",
+      "report_id": "d8f29ff8f136d5eeb01303ccc8cd5e34c126b809391980f34cbc9f29b5347485",
+      "files": [
+        {
+          "file": "work\\omtale-o2b-leveranse-2\\syntetisk-forslag.json",
+          "bytes": 4867573,
+          "sha256": "b65ae7e0bf42f4f699f75ee3f74be86e836a32e25b0b2d331603731456db111c"
+        },
+        {
+          "file": "work\\omtale-o2b-leveranse-2\\syntetisk-forslag.xlsx",
+          "bytes": 1399247,
+          "sha256": "440484fc0c3936c6753d40a4476ad5e5777e6a6143d67daa2342af1104132499"
+        }
+      ],
+      "readback": true
+    },
+    {
+      "selection": "offline",
+      "report_id": "ef508e79e8f55993893250ff96f9f1ac6b55138dfb58b634fdc3cec51b3b42ab",
+      "files": [
+        {
+          "file": "work\\omtale-o2b-leveranse-2\\offline.json",
+          "bytes": 4866537,
+          "sha256": "96dbe2c089272a661a6c37b4e1eaee5a10d78629720916c55705ba16aff7397d"
+        },
+        {
+          "file": "work\\omtale-o2b-leveranse-2\\offline.xlsx",
+          "bytes": 1398819,
+          "sha256": "cc4d5b68d29656d5358e4bc018645fa74ffdd5b62401bd5fb20f6f89e0471a4c"
+        }
+      ],
+      "readback": true
+    }
+  ],
+  "genuine_o2a_after_shared_model": [
+    {
+      "report_id": "22e216820b2b2d17fd43016d8be437a8cbdfaf4cbd8920b871aec0acd55d7143",
+      "sections": 8,
+      "relations": 6,
+      "files": [
+        {
+          "file": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\outputs\\o2a-210-post1-52f0545\\omtale-210-post1.json",
+          "bytes": 4837383,
+          "sha256": "bd5666408115ce448a1c3ecf84242cade4c668ef507842e81eb5465c3bca7129"
+        },
+        {
+          "file": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\outputs\\o2a-210-post1-52f0545\\omtale-210-post1.xlsx",
+          "bytes": 1392306,
+          "sha256": "3fc3f731970dccb47ce773e37a48c42be2c9b10cf7525c82826c6436fc7965e3"
+        }
+      ],
+      "byte_preserved": true
+    },
+    {
+      "report_id": "22e216820b2b2d17fd43016d8be437a8cbdfaf4cbd8920b871aec0acd55d7143",
+      "sections": 8,
+      "relations": 6,
+      "files": [
+        {
+          "file": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\outputs\\o2a-210-post1-52f0545\\offline-gjenlest.json",
+          "bytes": 4837383,
+          "sha256": "bd5666408115ce448a1c3ecf84242cade4c668ef507842e81eb5465c3bca7129"
+        },
+        {
+          "file": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\outputs\\o2a-210-post1-52f0545\\offline-gjenlest.xlsx",
+          "bytes": 1392307,
+          "sha256": "f90cea2b72e62cf61816d3ad6f07a25ec4063a7d244eb2c57fb7713cd23ad5eb"
+        }
+      ],
+      "byte_preserved": true
+    }
+  ],
+  "unchanged_originals": [
+    {
+      "file": "docs\\research\\omtale-o1\\originals\\inns81s.pdf",
+      "bytes": 331688,
+      "sha256": "5a29d0553991759d8ddc234899647e9e6b5e1f2885bf13edccfb26105a6be496",
+      "unchanged_from_base_git": true
+    },
+    {
+      "file": "docs\\research\\omtale-o1\\originals\\inns81s.html",
+      "bytes": 107925,
+      "sha256": "e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95",
+      "unchanged_from_base_git": true
+    },
+    {
+      "file": "docs\\research\\omtale-o1\\originals\\votering-161224.html",
+      "bytes": 2094710,
+      "sha256": "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5",
+      "unchanged_from_base_git": true
+    },
+    {
+      "file": "docs\\research\\omtale-o1\\originals\\prop16s.pdf",
+      "bytes": 733075,
+      "sha256": "677716056269c07b8ec81bcae91d814b975123791635548281038d9beb3aa5db",
+      "unchanged_from_base_git": true
+    },
+    {
+      "file": "docs\\research\\omtale-o1\\originals\\prop16s-ch2.html",
+      "bytes": 100808,
+      "sha256": "258d26e6d324bde709bf3d1cb660d7eb6f4248f537d4b0c77e095f17697cf8df",
+      "unchanged_from_base_git": true
+    },
+    {
+      "file": "docs\\research\\omtale-o1\\originals\\prop16s-ch4.html",
+      "bytes": 118163,
+      "sha256": "ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e",
+      "unchanged_from_base_git": true
+    },
+    {
+      "file": "tests\\fixtures\\b6\\40034048.xml",
+      "bytes": 6058,
+      "sha256": "2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850",
+      "unchanged_from_base_git": true
+    },
+    {
+      "file": "tests\\fixtures\\b6\\40034048.json",
+      "bytes": 786,
+      "sha256": "1b43cc3e77fb8b216d3d0bd2d51739c4200b38aabcdac907afcdf47d0218a79b",
+      "unchanged_from_base_git": true
+    },
+    {
+      "file": "tests\\fixtures\\b8\\sak-100927.xml",
+      "bytes": 12383,
+      "sha256": "2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27",
+      "unchanged_from_base_git": true
+    },
+    {
+      "file": "tests\\fixtures\\b8\\sak-100927.json",
+      "bytes": 1560,
+      "sha256": "07b85b79438fa1cfcc8774c36291fc28d0cfdc7d429ca82e1e5810bca89ac895",
+      "unchanged_from_base_git": true
+    }
+  ],
+  "tests": [
+    {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "127",
+      "time": "474.603",
+      "timestamp": "2026-10-23T11:13:55.207237+02:00",
+      "hostname": "Lenovo-Legion",
+      "phase": "Before shared model relocation and B reason-column widening; fields/IDs unchanged",
+      "evidence": {
+        "file": "work\\omtale-suite-final.xml",
+        "bytes": 20496,
+        "sha256": "d36bb1efa77c1fb661396aa07902ca012e526403c23e875c8cfd75bec48e6b32"
+      },
+      "independent_ingestion_cases": [
+        "test_new_authentic_decision_ingestion_and_export_ignore_bad_omtale_without_historical_excel[o2a-html-pdf-1-missing]",
+        "test_new_authentic_decision_ingestion_and_export_ignore_bad_omtale_without_historical_excel[o2a-html-pdf-1-corrupt]",
+        "test_new_authentic_decision_ingestion_and_export_ignore_bad_omtale_without_historical_excel[o2a-html-pdf-1-contradictory]",
+        "test_new_authentic_decision_ingestion_and_export_ignore_bad_omtale_without_historical_excel[o2a-html-pdf-1-failed_manifest]",
+        "test_new_authentic_decision_ingestion_and_export_ignore_bad_omtale_without_historical_excel[o2b-html-pdf-1-missing]",
+        "test_new_authentic_decision_ingestion_and_export_ignore_bad_omtale_without_historical_excel[o2b-html-pdf-1-corrupt]",
+        "test_new_authentic_decision_ingestion_and_export_ignore_bad_omtale_without_historical_excel[o2b-html-pdf-1-contradictory]",
+        "test_new_authentic_decision_ingestion_and_export_ignore_bad_omtale_without_historical_excel[o2b-html-pdf-1-failed_manifest]"
+      ]
+    },
+    {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "126",
+      "time": "46.514",
+      "timestamp": "2026-10-23T11:13:55.232239+02:00",
+      "hostname": "Lenovo-Legion",
+      "phase": "Unchanged B6/B8/B9 product code",
+      "evidence": {
+        "file": "work\\b6-b8-b9-final.xml",
+        "bytes": 18831,
+        "sha256": "be4b52127ebab82a8515a65ac0637df104f1b1c3dc7fc4dc771f5e39cfb8a183"
+      },
+      "independent_ingestion_cases": []
+    },
+    {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "16",
+      "time": "95.153",
+      "timestamp": "2026-10-23T11:17:42.790016+02:00",
+      "hostname": "Lenovo-Legion",
+      "phase": "After shared model relocation and B layout; 14 complete B tests plus both CLI/offline variants",
+      "evidence": {
+        "file": "work\\omtale-cli-model-final.xml",
+        "bytes": 2785,
+        "sha256": "e32f4d8f8855294ae63cdab1e353642e3fc994be17935c7ea39f5fd07a80e5b6"
+      },
+      "independent_ingestion_cases": []
+    },
+    {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "17",
+      "time": "99.289",
+      "timestamp": "2026-10-23T11:24:03.702542+02:00",
+      "hostname": "Lenovo-Legion",
+      "phase": "Final 15 complete B tests, including incomplete local table, plus both CLI/offline variants",
+      "evidence": {
+        "file": "work\\o2b-last.xml",
+        "bytes": 2930,
+        "sha256": "edbd94873efc95334fdb596ced7b606f0a828bdd4a5bb12ef917444ecc9e9613"
+      },
+      "independent_ingestion_cases": []
+    }
+  ],
+  "cli_files": [
+    {
+      "file": "work\\omtale-o2b-cli-begge.json",
+      "bytes": 4866537,
+      "sha256": "0ce7339400e9c778b50d9d90ba0656a7734c077a053def72c831e85105ca6b6d"
+    },
+    {
+      "file": "work\\omtale-o2b-cli-begge.xlsx",
+      "bytes": 1398829,
+      "sha256": "02d98faa995327e6965b9bb0f140e16df475320b827fef11b7e732f9b75f6a97"
+    },
+    {
+      "file": "work\\omtale-o2b-cli-offline.json",
+      "bytes": 4866537,
+      "sha256": "0ce7339400e9c778b50d9d90ba0656a7734c077a053def72c831e85105ca6b6d"
+    },
+    {
+      "file": "work\\omtale-o2b-cli-offline.xlsx",
+      "bytes": 1398832,
+      "sha256": "f8067c36aba9d3661bcb40621d182315b18081170a45358699d111d9b754706f"
+    }
+  ],
+  "local_links": {
+    "count": 167,
+    "missing": [],
+    "scope": "All changed Markdown and new O2b README; local targets, no remote HTTP"
+  },
+  "visuals": [
+    {
+      "file": "work\\omtale-o2b-leveranse-2\\avvik.png",
+      "bytes": 6498,
+      "sha256": "c319667f0743174743e26f5c60a2aefc04713a3d8cb856ffe221120b0cfed349"
+    },
+    {
+      "file": "work\\omtale-o2b-leveranse-2\\grunnlag.png",
+      "bytes": 16759,
+      "sha256": "6989a5a84b64c25c52cc4829dc5b0f60054de769a71362786274ed84ee8926ab"
+    },
+    {
+      "file": "work\\omtale-o2b-leveranse-2\\historikk.png",
+      "bytes": 81941,
+      "sha256": "4d668983739c8c1722633dce8af705c8bcd1f6c78daa111e6504ef6539c56299"
+    },
+    {
+      "file": "work\\omtale-o2b-leveranse-2\\k22.png",
+      "bytes": 47669,
+      "sha256": "7174a8a93961b041c30714a885b10fa9608a12121b796dccde4401801d7f191c"
+    },
+    {
+      "file": "work\\omtale-o2b-leveranse-2\\kilder.png",
+      "bytes": 30713,
+      "sha256": "47c42e00c0aed4e61b8385d507ac91734edb51563e120059689fc5c277d1843d"
+    },
+    {
+      "file": "work\\omtale-o2b-leveranse-2\\omdisponering.png",
+      "bytes": 78487,
+      "sha256": "b569b16003dbb1edfe84235df4b191bf3890673a35cf1156a20ecbfe0949b5e5"
+    },
+    {
+      "file": "work\\omtale-o2b-leveranse-2\\p22.png",
+      "bytes": 39302,
+      "sha256": "6940343a0ee34889a39d92284c9a2c17202fa32a871fd452a1060492f9eff4ca"
+    }
+  ],
+  "static_checks": {
+    "ruff_check": "passed",
+    "ruff_format_check": "96 files formatted",
+    "mypy": "53 product modules passed",
+    "git_diff_check": "passed"
+  },
+  "limitations": [
+    "No full suite run locally; final complete CI belongs to orchestrator",
+    "No native Excel engine; artifact renderer displays date as serial, saved date independently checked",
+    "Technical pilot only; no professional approval, annual coverage or production acceptance; issue 10 open"
+  ]
+}
