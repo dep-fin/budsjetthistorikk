@@ -4,6 +4,10 @@
 
 Finansavdelingen i Finansdepartementet skal kunne analysere og hente ut historiske budsjettforslag og budsjettvedtak. Hvert beløp skal kunne spores til kilde, dokument og behandlingsledd.
 
+## To innganger til samme kildegrunnlag
+
+Prosjekteieren bekreftet 23. oktober 2026 både dokumentvisning og konto-/årsvisning som produktkrav. [Det autoritative målbildet](to-visninger.md) samler omfang, stadiesammenligning, dokumentgraf, beløpsbetydning, dekning, eksportaksept og pilotgrense; [#37](https://github.com/depmartin/budsjetthistorikk/issues/37) gjelder konkretiseringen. Dette presiserer ønsket resultat; de generelle visningene er ikke implementert av O2a/O2b og har ikke samlet byggemandat.
+
 ## Første leveranse
 
 - Les inn og bevar endelige stortingsvedtak fra Stortingets kilder. Bevilgningsvedtak gir strukturerte opplysninger om budsjettår, kapittel, post, beløp og kilde.
@@ -50,7 +54,7 @@ På sikt skal en post kunne følges gjennom regjeringens opprinnelige forslag, e
 
 Regjeringsforslag, komitéforslag, kapittel- og postomtale og regnskap inngår som egne kildeintegrasjoner. Regnskapstall skal ikke summeres inn som bevilgningsendringer. Overførte midler, fullmaktsrammer og eventuelle overskridelsessamtykker skal også kunne skilles fra årets vedtatte bevilgning.
 
-Visning 1 skal støtte departement, kapittel, post og kombinasjoner av disse. For hvert trinn skal beløp, endring der den kan beregnes, dokumentnummer og kilde fremgå. Manglende kilder skal vises som manglende grunnlag.
+Kontoutvalg skal støtte departement, kapittel, post og kombinasjoner av disse. Dokument- og konto-/årsvisningens felles sammenlignings- og dekningskrav står i [målbildet](to-visninger.md).
 
 Vedlagt Gul bok-fil gir en strukturert kilde til regjeringsforslaget og kapittel-/postmetadata. Katalogbruk kan forberedes uten uthenting fra regjeringen.no. Forslagsbeløp skal ha egen kildetype og skal aldri registreres som vedtak. Automatisk uthenting av regjeringsforslag skal ikke blokkere første leveranse. Brukeren har også eldre historiske data for senere import.
 
@@ -114,4 +118,4 @@ Originaldokumenter og dokumentversjoner skal bevares. Omtaleseksjoner skal ha st
 
 Prosjekteieren har bekreftet den samlede testgrensen: **bevart original → omtaleseksjon med kildepeker → dokumentert vedtaks-/hendelses- og kapittel/post-relasjon → faktisk gjenlest strukturert eksport**. JSON og Excel skal kunne etterprøves med uendrede kilder, relasjoner og statuser. Ny omtale må bygges additivt og versjonert uten å omskrive gamle ID-er, kontrollavgjørelser eller frosset JSON. Feilet/fraværende omtale og historiske filer må aldri blokkere nye offisielle vedtak.
 
-[Omtaleplanen](omtale-plan.md) samler spesifikasjon, akseptporter og nyøktprompt i rekkefølgen kildeundersøkelse/spec/ticketforslag → komplett 210-pilot → kildebelagt komitéendring → avgrenset årslinje → temasøk på tvers av år. Dette er et bekreftet mål og en foreslått gjennomføring, ikke mandat til å implementere hele forløpet. Neste økt skal undersøke faktiske Prop. 16 S-/Innst. 81 S-passasjer til 210/1429/1 og 22, bevare kildebevis og legge frem en konkret pilotspec og små tickets før bygging. Passasjene er ikke verifisert i planarbeidet. Ingen vektordatabase, sky, modell eller automatisering er valgt. #10 forblir åpen for driftsaksept; #13s resterende historikkarbeid er uavhengig.
+[Omtaleplanen](omtale-plan.md) samler spesifikasjon, akseptporter og gjennomføringsrekkefølge. O1s kildegrunnlag og O2-oppdelingen er siden godkjent; #34/O2a har gjennomføringsmandat og #35/O2b er en avhengig oppfølger uten eget byggemandat. [Presiseringen 23. oktober](to-visninger.md#modellkonsekvenser-og-leveransegrense) avgrenser pilotene mot de to generelle visningene og angir neste konkretisering. Ingen vektordatabase, sky, modell eller automatisering er valgt. #10 forblir åpen for driftsaksept; #13s resterende historikkarbeid er uavhengig.

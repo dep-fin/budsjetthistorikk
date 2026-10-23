@@ -1,6 +1,8 @@
 # Plan og spesifikasjon for kildeforankret budsjettomtale
 
-Status 22. oktober 2026: Behovet og den samlede testgrensen er bekreftet av prosjekteieren. Dette dokumentet samler det godkjente målbildet og foreslår en gjennomføringsrekkefølge. Det er en plan- og spesifikasjonsleveranse, ikke implementering av omtale, søk eller nye forslagsbeløp. O1–O5 nedenfor er lokale planetiketter, ikke publiserte GitHub-tickets. Neste økt skal undersøke kilder og foreslå en avgrenset spesifikasjon og små tickets før bygging.
+Status 23. oktober 2026: Behovet og den samlede testgrensen er bekreftet. O1-kildegrunnlaget og O2-oppdelingen er godkjent; O2a er publisert som #34 med gjennomføringsmandat, og O2b som #35 uten eget byggemandat. O2a-kandidaten ligger i åpen PR #36. O3–O5 er fortsatt foreslåtte spor. Gjeldende leveringsstatus og kommentarer skal leses i GitHub før videre arbeid.
+
+[Dokumentvisning og konto-/årsvisning](to-visninger.md) er det autoritative målbildet for eierens presisering 23. oktober, med konkretisering i [#37](https://github.com/depmartin/budsjetthistorikk/issues/37). Det samler de to inngangenes krav og aksept og avgrenser dem mot O2a/O2b. Denne omtaleplanen eier fortsatt tekstbelegg og temasøk; planens pilot er ingen implementering av de generelle visningene.
 
 Del av målbildet i [#1](https://github.com/depmartin/budsjetthistorikk/issues/1). Se også [kravgrunnlaget](krav.md), [leveranseplanen](leveranseplan.md), [observasjonsformatet](observasjonsformat.md) og [ansvarsdelingen](ansvarsdeling.md).
 
@@ -12,7 +14,7 @@ Brukeren vil velge et kapittel eller en post, se hvor bevilgningen ble endret i 
 
 [B8/#28](b8-saksdokumenter.md) er levert med saksdokumentmetadata, kildehenvisninger og separat stikkordvisning. [B9/#30](b9-historikk.md) er levert i [PR #31](https://github.com/depmartin/budsjetthistorikk/pull/31), og Historikk er aktiv hovedvisning med 13 kolonner. Det er et utgangspunkt for å finne saken, men beviser ikke postvis tilknytning til et forslag eller en begrunnelse. Ingen av leveransene leser proposisjonens og innstillingens fulltekst som strukturert omtale.
 
-De [bevarte 210-prøvene](research/b8/README.md) dokumenterer vedtaksbeløp og saksrelasjonen til Prop. 16 S og Innst. 81 S (2024–2025). De beviser ikke hvilke avsnitt som forklarer 1429/1 og 1429/22. Proposisjonens faktiske innhold var ikke kontrollert i B8. Disse passasjene skal derfor undersøkes i O1; de er ikke allerede verifiserte kontrollfasiter.
+De [bevarte B8-prøvene](research/b8/README.md) dokumenterer vedtaksbeløp og saksrelasjonen til Prop. 16 S og Innst. 81 S (2024–2025). B8 beviste ikke hvilke avsnitt som forklarer 1429/1 og 1429/22. Det godkjente [O1-kildegrunnlaget](https://github.com/depmartin/budsjetthistorikk/blob/417e4fdeb22c8c510a56d038686cbf5ffa740cd2/docs/research/omtale-o1/README.md) har siden dokumentert den avgrensede post-/behandlingskjeden. Det dokumenterer verken komitéendring, full dokumentstrukturering eller årsdekning.
 
 ## Løsning
 
@@ -45,7 +47,7 @@ Omtale og beløp skal kunne eksporteres strukturert til JSON og Excel med identi
 
 ## Implementeringsbeslutninger
 
-Dette er beslutninger om mål og rammer for senere bygging. Konkret adapter, lagringsutvidelse og ticketstørrelse skal først foreslås etter kildeundersøkelsen.
+Dette er beslutninger om mål og rammer. O2a/O2b følger sin godkjente avgrensede oppdeling i #34/#35. Konkrete adaptere, kontraktutvidelser og tickets utover piloten krever eget kildegrunnlag og mandat.
 
 - Offisielle originalkilder er primærgrunnlaget: regjeringens proposisjon, komiteens innstilling og det endelige vedtaket har separate dokumentidentiteter og versjoner. Samme dokument som finnes i flere formater skal ha sporbare representasjonsrelasjoner, ikke antas byteidentisk.
 - Faktisk mottatte originalbyte bevares med kilde-URL, innhentingsmetadata og hash. Manglende respons gir ingen oppfunnet hash. HTML-struktur eller PDF og sidetall må kunne gjenfinnes; en normalisert tekst er avledet materiale, ikke erstatning for originalen.
@@ -69,7 +71,7 @@ Prosjekteieren bekreftet 22. oktober 2026 én samlet, høy testgrense: **bevart 
 
 - Bruk den eksisterende vertikale kilde–lagring–eksport-grensen som forbilde, med autentiske lagrede kildeprøver i deterministisk CI og separat live kildekontroll. B8/B9 har allerede prøvd frosset JSON og faktisk gjenlest Excel; nye kontroller skal utvide observerbar atferd på samme nivå.
 - Prøv både kildebevaring/strukturering i innlesningen og relasjon/utvalg/eksport i analysen gjennom den samlede grensen. Kontroller hele veien at eksportert tekst peker til rett original, dokumentversjon og lokator, med samme rolle og status etter gjenlesing.
-- O1 skal finne og bevare autentiske passasjer før de blir testfasit. Første kandidat er vedtak 210 (2024–2025), kap. 1429 post 1 og 22, med Prop. 16 S og Innst. 81 S. Om en foreslått forklaring ikke finnes, skal resultatet være dokumentert manglende eller uavklart grunnlag, ikke en oppfunnet passasje.
+- O1s bevarte autentiske passasjer og kildebevis for vedtak 210 (2024–2025), kap. 1429 post 1 og 22, er pilotens kontrollgrunnlag. Nye prøvesaker krever tilsvarende kildekontroll før de blir testfasit. En forklaring som ikke finnes, gir dokumentert manglende eller uavklart grunnlag.
 - O2 skal demonstrere hele testgrensen for den avgrensede 210-piloten, inkludert originaler, overskriftshierarki, relasjonsbevis, faktisk JSON- og Excel-gjenlesing og uendret antall beløpshendelser.
 - Senere autentiske prøver skal dekke en kildebelagt komitéendring med flertalls-/mindretallsroller, omtale om flere poster og en passasje uten sikker hendelseskobling. Kildene velges etter faktisk kildeundersøkelse.
 - Merk syntetiske prøver tydelig. De skal blant annet dekke feil dokumentversjon/lokator, endret tekst, gjentatt lesing, kilderettelse, manglende/feilet kilde, ukjent rolle, feilaktig postkobling, mange-til-mange-relasjoner og kontoflytting med ukjent kontinuitet.
@@ -81,8 +83,8 @@ Prosjekteieren bekreftet 22. oktober 2026 én samlet, høy testgrense: **bevart 
 ## Avgrensning
 
 - Denne leveransen endrer dokumentasjon og spesifikasjon. Den implementerer ikke nye kildeadaptere, tekstuttrekk, dataskjema, forslagsbeløp, søk, KI, grensesnitt eller automatisering.
-- Behov og testgrense er bekreftet. O1–O5 er en foreslått oppdeling og rekkefølge; den gir ikke et samlet byggemandat. Et `ready-for-agent`-merke på en spesifikasjon gjelder dens beskrevne mandat og gir ikke automatisk lov til å bygge hele programmet.
-- Neste økt har kildeundersøkelse og forslag til spesifikasjon/tickets som oppgave. Nye byggetickets, teknologivalg og funksjonsbygging skal legges frem etter undersøkelsen, før de settes i gang.
+- Behov og testgrense er bekreftet. O1 er godkjent; #34/O2a har mandat for sitt post 1-snitt, og #35/O2b trenger eget gjennomføringsmandat. O3–O5 og de to generelle visningene har ikke samlet byggemandat. Et `ready-for-agent`-merke gjelder bare spesifikasjonens beskrevne mandat.
+- Videre arbeid følger den konkrete ticketen og dens faktiske kildegrunnlag. Oppfølgingen for de to generelle inngangene er en [egen konkretisering](to-visninger.md#modellkonsekvenser-og-leveransegrense), ikke en utvidelse av pilotens aksept eller forhåndsbestilling av byggetickets.
 - Ingen automatisk faglig godkjenning, komplett årsdekning eller automatisk årsaksbestemmelse loves. Historiske kolonneregler, presisjonsregler og kjedekonflikter løses ikke av en tekstkobling.
 - Ingen full import av alle tidligere år, retting av hele den historiske kjeden eller produksjonsdrift følger med. #13s historikkrest og #10s faktiske driftsaksept er egne spor; ingen av dem må lukkes for å undersøke omtale eller registrere nye offisielle vedtak.
 - Omtale om fullmakter kan bevares, men blir ikke dermed en bevilgningsendring. Den separate fullmakten i vedtak 211 er fortsatt ikke en ekstra beløpshendelse.
@@ -95,26 +97,15 @@ Hver senere byggeticket skal levere et lite, komplett og kontrollerbart snitt. F
 
 | Fase | Resultat og akseptport | Status | Mandat og videre avhengighet |
 | --- | --- | --- | --- |
-| O1 – Kildeundersøkelse og avgrenset spesifikasjon | Undersøk faktiske offisielle Prop. 16 S- og Innst. 81 S-passasjer for 210/1429/1 og 22. Bevar originalgrunnlag og kildebevis, dokumentversjoner, lokatorer/hierarki, avsender og hva som er kjent/uavklart. Lever en varig rapport, forslag til komplett pilotsnitt og små tickets med aksept og kompatibilitetsgrense. | Neste anbefalte oppgave; ikke utført i denne planen. Eksakte omtaleavsnitt er ikke verifisert. | Nyøktprompten nedenfor bestiller undersøkelse og forslag. Ingen funksjonsbygging eller automatisering. Forslaget legges frem før byggemandat. |
-| O2 – Komplett 210-pilot | Bevar originaler, strukturer relevante seksjoner, dokumenter post-/hendelsesrelasjoner, og gjenles faktisk JSON og Excel. Skill de to posthendelsene fra flere beløpsobservasjoner og tekstkoblinger; vis også uavklart kobling. Bestå den samlede testgrensen og kompatibilitetskontrollene. | Foreslått; ikke implementert. | Krever O1-bevis, godkjent konkret spesifikasjon og eget byggemandat. |
+| O1 – Kildeundersøkelse og avgrenset spesifikasjon | Bevarte Prop. 16 S-/Innst. 81 S-passasjer og plenumsbevis dokumenterer 210/1429/1 og 22, med originaler, lokatorer, roller og grenser. | Utført og godkjent som kildegrunnlag 22. oktober; følger O2a-kandidaten. | [O1s opprinnelige O2-forslag](https://github.com/depmartin/budsjetthistorikk/blob/417e4fdeb22c8c510a56d038686cbf5ffa740cd2/docs/research/omtale-o1/o2-forslag.md) er siden godkjent og publisert som #34/#35. |
+| O2a / #34 – post 1 | Komplett opt-in-snitt for 210/1429/1 fra originalomtale og dokumentert relasjon til faktisk gjenlest JSON og Excel. | Autorisert kandidat i [PR #36](https://github.com/depmartin/budsjetthistorikk/pull/36); ikke flettet ved denne presiseringen. | Kan fullføres uendret innen #34. Pilotgrensen står i [målbildet](to-visninger.md#modellkonsekvenser-og-leveransegrense). |
+| O2b / #35 – begge poster | Utvid piloten til post 22 og felles omdisponeringsomtale, fortsatt to posthendelser og seks vedtaksbeløpsobservasjoner. | Publisert avhengig oppfølger; ikke autorisert for gjennomføring. | Krever levert, kontrollert og flettet #34 og eget gjennomføringsmandat. Ingen generell dokument-/årsvisning. |
 | O3 – Komitéendring og mer sammensatt kildebilde | Velg en faktisk kildebelagt sak der komiteens forslag avviker fra regjeringens. Demonstrer korrekt avsender/flertall/mindretall, kobling til vedtatt resultat og mange-til-mange-omtale uten dobbelttelling. | Foreslått; sak er ikke valgt. | Bygger på O2. Kildevalget begrunnes med faktiske bevis; konkret ticket og byggemandat gjenstår. |
 | O4 – Avgrenset årslinje for konto | Velg budsjettår og konto med dokumentert identitet. Vis opprinnelig budsjett, RNB, nysaldering og øvrige relevante vedtak, riktig talltype/behandlingsrekkefølge, omtale og synlig kilde-/beregningsdekning. Manglende ledd er hull, ikke null. | Foreslått; konto/år og dekningsomfang gjenstår. | Bygger på O2/O3s kilde- og relasjonsgrunnlag. Krever avgrenset kildeinventar og eget mandat; #13s fulle historikk er ikke forutsetning. |
 | O5 – Temasøk på tvers av år | Søk i et eksplisitt kilde-/årsutvalg. Returner konkrete passasjer med avsender, kontokontinuitet, evidens, status og skille mellom tematisk relevans og begrunnelse for endringen. Eventuelle antall/summer dokumenterer hendelsesutvalg og overlapp. | Foreslått; ingen modell, indeks eller årsdekning er valgt. | Bygger på kildeforankret struktur og dokumenterte kontokoblinger fra tidligere faser. Konkret søkesnitt, teknologivalg og byggemandat gjenstår. |
 
-O2 trenger ikke vente på at alle senere kilder er dekket. O3–O5 skal heller ikke skjule manglende grunnlag ved å arve en antatt godkjenning fra piloten. Dersom O1 viser at 210 ikke kan gi den ønskede beviskjeden, skal rapporten vise gapet og foreslå en kildebelagt justering før bygging.
+O2 trenger ikke vente på at alle senere kilder er dekket. O3–O5 skal heller ikke arve en antatt faglig godkjenning fra piloten. 210 gir den avgrensede O2-kjeden, men ingen faktisk komitéendring; kildevalget for O3 og konto-/årsgrunnlaget for O4 må fortsatt undersøkes. Kravene til de to generelle inngangene og deres videre konkretisering står samlet i [målbildet](to-visninger.md).
 
-### Kopierbar prompt til neste økt
+### Start i en ny økt
 
-```text
-Fortsett med O1 – kildeundersøkelse og forslag til avgrenset omtalespesifikasjon i depmartin/budsjetthistorikk. Dette er undersøkelse og planlegging; ikke implementer funksjonen eller opprett automatisering.
-
-Les AGENTS.md, docs/arbeidsflyt.md, docs/krav.md, docs/leveranseplan.md, docs/omtale-plan.md, GLOSSARY.md, docs/ansvarsdeling.md, docs/observasjonsformat.md og B8-/B9-veiledningene med kildeprøver og relevant ADR. Les den publiserte omtalespesifikasjonen og relevante kommentarer i GitHub. Kontroller gjeldende status uten å anta at en plan er en byggeticket. #10 står fortsatt åpen for faktisk driftsaksept, og #13s resterende historikkarbeid blokkerer ikke denne undersøkelsen eller ny vedtaksinnlesning.
-
-Undersøk offisielle originaler for Prop. 16 S og Innst. 81 S (2024–2025), knyttet til vedtak 210 og kapittel 1429 post 1 og 22. B8 har bare bevist saksrelasjon og metadata; de forklarende avsnittene er ikke verifisert. Bevar faktiske kildebyte der de kan hentes, URL, hentetid, dokument-/representasjonsversjon og hash. Skill kildefeil og manglende råbyte fra faktisk kontrollert tekst. Dokumenter nøyaktige HTML-ankre/struktur eller PDF-sider, seksjonshierarki og nødvendig kontekst. Skill regjeringens utsagn, komiteens flertall/mindretall, faglig tolkning og hypotese. Ikke tilskriv et mindretalls begrunnelse til vedtatt flertall uten bevis.
-
-Lagre en varig, kildebelagt undersøkelsesrapport etter repoets regler. Rapporter hvilke passasjer som faktisk kan knyttes til hver post og til det dokumenterte behandlingsleddet, hva relasjonen beviser og hva som fortsatt er ukjent. Bevar omtale uten sikker kobling. Foreslå eventuelt en annen prøvesak hvis 210 ikke kan gi ønsket beviskjede; begrunn det med kildene.
-
-Bruk den allerede bekreftede testgrensen: bevart original → omtaleseksjon med kildepeker → dokumentert vedtaks-/hendelses- og kapittel/post-relasjon → faktisk gjenlest strukturert eksport. Foreslå deretter en konkret O2-spesifikasjon og små komplette tickets fra original til JSON og Excel, med akseptkriterier, kildeprøver, avhengigheter, kompatibilitetskrav og reelle åpne beslutninger. Bevar gamle ID-er, kildebyte, kontrollavgjørelser og frosset JSON. Omtalefeil og historisk Excel må aldri bli inngangskrav for nye offisielle vedtak. Ikke velg vektordatabase, skytjeneste eller modell uten et dokumentert behov og eget valg.
-
-Legg undersøkelsesresultatet og den foreslåtte ticketoppdelingen samlet frem før publisering av byggetickets og før funksjonsbygging eller automatisering. Anbefal neste konkrete mandat; denne prompten gir bare mandat til O1-undersøkelsen og spesifikasjons-/ticketforslaget.
-```
+Les hele den aktuelle ticketen og kommentarene, [AGENTS.md](../AGENTS.md) og dokumentene ticketen peker til. Kontroller gjeldende status for #32/#34/#35 og PR #36. Bruk O1 som bevart kildegrunnlag; den opprinnelige O1-startprompten er erstattet av godkjent oppdeling. Arbeid med dokumentvisning, stadiesammenligning eller konto-/årsvisning skal starte i [det autoritative målbildet](to-visninger.md), med konkretiseringens kilde- og mandatgrense.
