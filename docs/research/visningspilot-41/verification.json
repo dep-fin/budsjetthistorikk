@@ -1,0 +1,1248 @@
+{
+  "status": "Rettet etter fullført samlet review/audit av fryst kandidat; ny uavhengig verifikasjon gjenstår. Ingen commit/push/CI/merge fra retteren.",
+  "date": "2026-10-27",
+  "base": "62a54a22ce1d3267c7a0dfbc53bfe23af8cfe5fd",
+  "branch": "codex/41-visningspilot",
+  "reviewed_head": "4cfccb4534b818fb922cd3dac0a713d6c5a2c188",
+  "reviewed_tree": "141be1d7099d7501f886e73cbbaccb7f984e2bd9",
+  "working_tree": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t1-41",
+  "output": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t1-41\\work\\t1-fixed-delivery",
+  "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+  "both_report_id": "4d27c1e83524102cb29ff8b429fb262bb9861d4b024718e1edca90d457c6f17e",
+  "runtime": {
+    "python": "3.12.14",
+    "executable": "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "pytest": "8.3.5",
+    "openpyxl": "3.1.5",
+    "lxml": "6.1.3",
+    "pypdf": "6.10.0",
+    "PYTHONPATH": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/o2a/work/spec-verify-deps"
+  },
+  "tests": {
+    "final_full": {
+      "passed": 1019,
+      "skipped": 2,
+      "seconds": 1020.88,
+      "log": {
+        "file": "work/fixes-full.log",
+        "bytes": 3947,
+        "sha256": "139898d10f47c3d13eaaf5e1cacdc5c71a7cb8d2ab3e1e214667708e0c5e8d7d"
+      }
+    },
+    "final_T1": {
+      "passed": 92,
+      "skipped": 0,
+      "seconds": 237.54,
+      "log": {
+        "file": "work/fixes-t1.log",
+        "bytes": 194,
+        "sha256": "8ea206ccc67c90d7f49840985de45dbed8519fa9277f939a22ec89cf8216ab3c"
+      }
+    }
+  },
+  "full_suite_timing_boundary": "Fullsuite startet etter alle produktrettinger; ingen produktkode endret etter start. Kun dokumentasjon og kontrolljournal er skrevet etterpå.",
+  "skips": [
+    "tests/test_b7_operations.py:169 Windows-konto mangler symlinkrett",
+    "tests/test_historical_cli.py:44 hardlink utilgjengelig i sandbox"
+  ],
+  "static_checks": [
+    {
+      "file": "work/fixes-ruff-final.log",
+      "bytes": 20,
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0"
+    },
+    {
+      "file": "work/fixes-format-final.log",
+      "bytes": 29,
+      "sha256": "66139739beb818f1792a85871a0076e46b5b12f9baa1e575a16ddd187601e230"
+    },
+    {
+      "file": "work/fixes-mypy-final.log",
+      "bytes": 45,
+      "sha256": "7791bcb3359573e6942029a3550f4ac5d7084d3d2dcc242ecbf7c0779d34d76d"
+    },
+    {
+      "file": "work/fixes-diff-check.log",
+      "bytes": 1115,
+      "sha256": "e87051546e61636820a4a8ce77b77f308374fbf20a914222e193ac1ded7517d7"
+    }
+  ],
+  "commands": [
+    "python -m pytest tests/test_visningspilot.py -q --basetemp work/fixes-t1",
+    "python -m pytest -q --durations=20 --basetemp work/fixes-full",
+    "python -m ruff check .",
+    "python -m ruff format --check .",
+    "python -m mypy",
+    "git diff --check",
+    "python -m ops.visningspilot_proeve --previous-root C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk --output work/t1-fixed-delivery --legacy-b6 C:/Users/marti/Documents/Codex/2026-10-20/fortsett-med-6-i-depmartin-budsjetthistorikk/work/b6/work/accept-b6.xlsx",
+    "python -m analyse.visningspilot --o2b C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/outputs/o2b-210-begge-poster-7e70506/begge.json --rot . --aar 2024 --konto 1429/22 --json work/t1-fixed-delivery/cli/post22.json --excel work/t1-fixed-delivery/cli/post22.xlsx",
+    "python -m analyse.visningspilot --frosset work/t1-fixed-delivery/cli/post22.json --rot work/no-originals --json work/t1-fixed-delivery/cli/offline.json --excel work/t1-fixed-delivery/cli/offline.xlsx --originaler work/t1-fixed-delivery/cli/offline-originaler",
+    "python docs/research/visningspilot-41/kontroller-forelder.py",
+    "node work/render-t1-fixed.mjs",
+    "python work/reproduce-t1-fixes.py",
+    "python work/verify-all-t1-hierarchies.py",
+    "python work/finalize-t1-fixes.py"
+  ],
+  "source_parent_recipe": [
+    {
+      "decision_id": "40034048",
+      "object_start_byte_0": 1249812,
+      "object_bytes": 5686,
+      "prefix_bytes": 317,
+      "suffix_bytes": 55,
+      "excerpt_sha256": "2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850",
+      "byteidentical": true
+    },
+    {
+      "decision_id": "40034229",
+      "object_start_byte_0": 2298491,
+      "object_bytes": 132911,
+      "prefix_bytes": 317,
+      "suffix_bytes": 55,
+      "excerpt_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+      "byteidentical": true
+    }
+  ],
+  "compatibility": [
+    {
+      "kind": "ekte_tidligere_O2",
+      "name": "o2b-210-begge-poster-7e70506/begge",
+      "report_id": "ef508e79e8f55993893250ff96f9f1ac6b55138dfb58b634fdc3cec51b3b42ab",
+      "original_hashes": {
+        ".json": "96dbe2c089272a661a6c37b4e1eaee5a10d78629720916c55705ba16aff7397d",
+        ".xlsx": "34dea0f68eb3a1ec6eb33d5bf56bc7d04c519cb7f0be8a14d22897576a5aec84"
+      },
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_O2",
+      "name": "o2b-210-begge-poster-7e70506/post1",
+      "report_id": "978b86d0701fc4c030e9f5fbf738e1187bcca3c76fff112f366cff8abb043174",
+      "original_hashes": {
+        ".json": "0a22ad2c074a86898d6d264db6505b7b6bd6240578aa6846a3e5413d50760f07",
+        ".xlsx": "3b97f085ce4db4c909a06ba4f55873b204576ae13aff2ab7ead144471f5e77fc"
+      },
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_O2",
+      "name": "o2b-210-begge-poster-7e70506/post22",
+      "report_id": "51d209382fcb5fa69fc7ac38687a3a965b7754c4d11d44a0b2197e6088c24a22",
+      "original_hashes": {
+        ".json": "ce913130c81f837eda327ee1e0f008aad82aa029122c9a0a9c6c19690f9a6f9f",
+        ".xlsx": "a98a523020099d0d3964a569ccb7ce00fa2dc3a321255db2bd61f9a49317318b"
+      },
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_O2",
+      "name": "o2b-210-begge-poster-7e70506/tomt",
+      "report_id": "17ebed652bfc42eebf8f863706d6de6918fb0422b1cb3f84324a62187e273e87",
+      "original_hashes": {
+        ".json": "fac1b5c180baa57ef7f9114aabe855aafbd1cec1d3e7e1ed8725889c8e9ee84e",
+        ".xlsx": "08e46f0b589d606e2c5ac6cb90e71d1e1076f019d8e1391bf7729d2d58610721"
+      },
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_O2",
+      "name": "o2b-210-begge-poster-7e70506/offline",
+      "report_id": "ef508e79e8f55993893250ff96f9f1ac6b55138dfb58b634fdc3cec51b3b42ab",
+      "original_hashes": {
+        ".json": "96dbe2c089272a661a6c37b4e1eaee5a10d78629720916c55705ba16aff7397d",
+        ".xlsx": "cc4d5b68d29656d5358e4bc018645fa74ffdd5b62401bd5fb20f6f89e0471a4c"
+      },
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_O2",
+      "name": "o2b-210-begge-poster-7e70506/syntetisk-forslag",
+      "report_id": "d8f29ff8f136d5eeb01303ccc8cd5e34c126b809391980f34cbc9f29b5347485",
+      "original_hashes": {
+        ".json": "b65ae7e0bf42f4f699f75ee3f74be86e836a32e25b0b2d331603731456db111c",
+        ".xlsx": "440484fc0c3936c6753d40a4476ad5e5777e6a6143d67daa2342af1104132499"
+      },
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_O2",
+      "name": "o2a-210-post1-52f0545/omtale-210-post1",
+      "report_id": "22e216820b2b2d17fd43016d8be437a8cbdfaf4cbd8920b871aec0acd55d7143",
+      "original_hashes": {
+        ".json": "bd5666408115ce448a1c3ecf84242cade4c668ef507842e81eb5465c3bca7129",
+        ".xlsx": "3fc3f731970dccb47ce773e37a48c42be2c9b10cf7525c82826c6436fc7965e3"
+      },
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_O2",
+      "name": "o2a-210-post1-52f0545/offline-gjenlest",
+      "report_id": "22e216820b2b2d17fd43016d8be437a8cbdfaf4cbd8920b871aec0acd55d7143",
+      "original_hashes": {
+        ".json": "bd5666408115ce448a1c3ecf84242cade4c668ef507842e81eb5465c3bca7129",
+        ".xlsx": "f90cea2b72e62cf61816d3ad6f07a25ec4063a7d244eb2c57fb7713cd23ad5eb"
+      },
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_B8_B9_med_B6_kjerne",
+      "name": "vedtak-210-2026-10-22",
+      "report_id": "d0c677cee11fa8d38677c2afa581c5717145524f25323bc1a334c0a5d831b62c",
+      "original_hashes": {
+        ".json": "2d855c97abf6af30e6eb64817bfc50778f5f7ffb7deee56362ff8caf1e908cbe",
+        ".xlsx": "64f040412d0d9dabc3c4cec366c918bd8c5442ef5e2cb8f474797d247ec398cb"
+      },
+      "unchanged": true,
+      "standalone_original_B6_delivery": "ikke funnet; innebygd original B6-kjerne kontrollert"
+    },
+    {
+      "kind": "ekte_tidligere_B8_B9_med_B6_kjerne",
+      "name": "vedtak-210-13-kolonner-2026-10-22",
+      "report_id": "0a32261a3771621478d0616ae8733fdbd0085c4792a48f97cd42ea0ed2c79b86",
+      "original_hashes": {
+        ".json": "2aa9f79e1d3f103c2593ab18b171f7d2e3f431658507c14fc7aa603865fec32e",
+        ".xlsx": "88d877f490559a3dd5a1bee77af8c6107acaab55ec3ee8f4d04009ad0b4a456d"
+      },
+      "unchanged": true,
+      "standalone_original_B6_delivery": "ikke funnet; innebygd original B6-kjerne kontrollert"
+    },
+    {
+      "kind": "ekte_eldre_B6_arbeidsbok",
+      "source_path": "C:\\Users\\marti\\Documents\\Codex\\2026-10-20\\fortsett-med-6-i-depmartin-budsjetthistorikk\\work\\b6\\work\\accept-b6.xlsx",
+      "sha256": "8487909b5e7b2b7498c9ab78de9fb88966be926202df89388ef3f31871ac1f39",
+      "bytes": 4648442,
+      "report_id": "3ff5698de68eaad7f200d08fb73d83c150adea56ae49ccc2b1bd2efa305a9cfc",
+      "observations": 5492,
+      "selected_extractions": 50,
+      "extractions_with_amount_rows": 47,
+      "observation_ids_sha256": "79793f1ab60f03f31ce6bbeb2b4997f154e506c1b6e982313bdcd1ecbfdd935c",
+      "actual_cells_and_old_observation_models_checked": true,
+      "unchanged": true,
+      "boundary": "Ekte eldre B6-Excel, ikke omgenerert. Selvstendig gammel frozen-v1-rapport-JSON er ikke funnet. Utvalgs-/bevis-JSON er ikke SessionReport. Eksakt historisk writercommit er ikke fastslått; ingen historisk DB åpnet."
+    }
+  ],
+  "compatibility_counts": {
+    "authentic_old_pairs": 10,
+    "authentic_old_B6_workbooks": 1
+  },
+  "independence": [
+    {
+      "condition": "missing",
+      "pilot_issues": [
+        "mindretall_kontrollert_fravaerende:Innst.81S",
+        "aarsdekning_delvis:opprinnelig_rnb_ovrige_ikke_importert",
+        "kontokontinuitet_ikke_dokumentert:2024_2025",
+        "prop16_delvis_strukturert:35_av_37_tabellgrupper_uten_belopsimport",
+        "inns95_strukturering_ikke_levert:T5_T6",
+        "mangler:tests/fixtures/b8/40034049.xml",
+        "211_forelderbinding_ikke_kontrollert",
+        "210_byteeksakt_rekonstruert_fra_9cfeaef5",
+        "stikkordsfullmaktkjede_innlegg_mangler"
+      ],
+      "ordinary": {
+        "revision": "6051e1e8-e399-4024-bf5c-9d77683c5007",
+        "extraction_id": "e7df98dd62a376db98a7d6afc3178193489207115cde5558990c9c9b67831b45",
+        "observations": 222,
+        "events": 74,
+        "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+        "actual_saved_700_1_trio": [
+          [
+            "endring",
+            6324000
+          ],
+          [
+            "etter_belop",
+            310675000
+          ],
+          [
+            "for_belop",
+            304351000
+          ]
+        ],
+        "raw_preserved": true
+      }
+    },
+    {
+      "condition": "failed",
+      "pilot_issues": [
+        "mindretall_kontrollert_fravaerende:Innst.81S",
+        "aarsdekning_delvis:opprinnelig_rnb_ovrige_ikke_importert",
+        "kontokontinuitet_ikke_dokumentert:2024_2025",
+        "prop16_delvis_strukturert:35_av_37_tabellgrupper_uten_belopsimport",
+        "inns95_strukturering_ikke_levert:T5_T6",
+        "mangler:tests/fixtures/b8/40034049.xml",
+        "211_forelderbinding_ikke_kontrollert",
+        "210_byteeksakt_rekonstruert_fra_9cfeaef5",
+        "stikkordsfullmaktkjede_innlegg_mangler"
+      ],
+      "ordinary": {
+        "revision": "caa93423-d447-4fae-a4b0-3f7af12fc0bf",
+        "extraction_id": "aa3aef50dc7acb38c4b9154f6e9ceca8515123aca660f59667fec5942978c116",
+        "observations": 222,
+        "events": 74,
+        "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+        "actual_saved_700_1_trio": [
+          [
+            "endring",
+            6324000
+          ],
+          [
+            "etter_belop",
+            310675000
+          ],
+          [
+            "for_belop",
+            304351000
+          ]
+        ],
+        "raw_preserved": true
+      }
+    },
+    {
+      "condition": "corrupt",
+      "pilot_issues": [
+        "mindretall_kontrollert_fravaerende:Innst.81S",
+        "aarsdekning_delvis:opprinnelig_rnb_ovrige_ikke_importert",
+        "kontokontinuitet_ikke_dokumentert:2024_2025",
+        "prop16_delvis_strukturert:35_av_37_tabellgrupper_uten_belopsimport",
+        "inns95_strukturering_ikke_levert:T5_T6",
+        "motstrid:tests/fixtures/b8/40034049.xml",
+        "211_forelderbinding_ikke_kontrollert",
+        "210_byteeksakt_rekonstruert_fra_9cfeaef5",
+        "stikkordsfullmaktkjede_innlegg_mangler"
+      ],
+      "ordinary": {
+        "revision": "c2c7ad74-158e-44bf-b493-fd88a29e724e",
+        "extraction_id": "55973a79ca7b5f627072c52a4b2221e62b7cbb0e72b60faa70eb2d237308f195",
+        "observations": 222,
+        "events": 74,
+        "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+        "actual_saved_700_1_trio": [
+          [
+            "endring",
+            6324000
+          ],
+          [
+            "etter_belop",
+            310675000
+          ],
+          [
+            "for_belop",
+            304351000
+          ]
+        ],
+        "raw_preserved": true
+      }
+    },
+    {
+      "condition": "contradictory",
+      "pilot_issues": [
+        "mindretall_kontrollert_fravaerende:Innst.81S",
+        "aarsdekning_delvis:opprinnelig_rnb_ovrige_ikke_importert",
+        "kontokontinuitet_ikke_dokumentert:2024_2025",
+        "prop16_delvis_strukturert:35_av_37_tabellgrupper_uten_belopsimport",
+        "inns95_strukturering_ikke_levert:T5_T6",
+        "motstrid:tests/fixtures/b8/40034049.xml",
+        "211_forelderbinding_ikke_kontrollert",
+        "210_byteeksakt_rekonstruert_fra_9cfeaef5",
+        "stikkordsfullmaktkjede_innlegg_mangler"
+      ],
+      "ordinary": {
+        "revision": "64d12007-677a-4452-a5be-ed4c07209c07",
+        "extraction_id": "264f7859898ea2d31708add2453822351cbf0fb1069618fe9ffd50e4522b0ec2",
+        "observations": 222,
+        "events": 74,
+        "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+        "actual_saved_700_1_trio": [
+          [
+            "endring",
+            6324000
+          ],
+          [
+            "etter_belop",
+            310675000
+          ],
+          [
+            "for_belop",
+            304351000
+          ]
+        ],
+        "raw_preserved": true
+      }
+    }
+  ],
+  "missing_numeric_stage": {
+    "report_id": "eef527953372f56d30f12994fe04dad4dee8380f5ba0a5c84095ff55dfd56d8f",
+    "fields": 6,
+    "comparisons": [
+      {
+        "id": "bc76901b21a96a6f4ca0ff814e6488dc60798982d660044e7aa4c0b3f9938f4f",
+        "meaning": "for_belop",
+        "account": "1429/1",
+        "status": "hull",
+        "reason": "manglende stadium",
+        "rule": "stadieforskjell-1",
+        "left_id": "a66096a14ffb852fed459f4e18b1364dae925aeef8a1a7cf3d9bd66d5de1c9cb",
+        "right_id": null,
+        "null_reason": "manglende stadium",
+        "difference_kr": null
+      },
+      {
+        "id": "d3899a91afc398571d057f2cfd899b57cebe6261d6a21e8dabbf53d49f6785f3",
+        "meaning": "for_belop",
+        "account": "1429/1",
+        "status": "hull",
+        "reason": "manglende stadium",
+        "rule": "stadieforskjell-1",
+        "left_id": null,
+        "right_id": "06c25431aec719ed34478b89ee4e6f17751cce932221cae90e436850d86952b9",
+        "null_reason": "manglende stadium",
+        "difference_kr": null
+      },
+      {
+        "id": "4cb27906005ed52ac96c883a519d7f8b5cfceb56940d24b463301669773d8e6f",
+        "meaning": "endring",
+        "account": "1429/1",
+        "status": "hull",
+        "reason": "manglende stadium",
+        "rule": "stadieforskjell-1",
+        "left_id": "32b1b4a7030cef1eb0865262efe7efc647975d9aed6f46019a071b3b80790a4f",
+        "right_id": null,
+        "null_reason": "manglende stadium",
+        "difference_kr": null
+      },
+      {
+        "id": "ed3eddcbadd0761b69ac2e861d4b061f0db4c5043f8eb283c6316a506aad8b40",
+        "meaning": "endring",
+        "account": "1429/1",
+        "status": "hull",
+        "reason": "manglende stadium",
+        "rule": "stadieforskjell-1",
+        "left_id": null,
+        "right_id": "4ace7b42e5c7c522655ef3d8e18f832290b63d829bf8634810bad37f42b2be96",
+        "null_reason": "manglende stadium",
+        "difference_kr": null
+      },
+      {
+        "id": "9a2175a324850467d9834394d2453d3833b635078297ee1e7a0dbab944c6dd17",
+        "meaning": "etter_belop",
+        "account": "1429/1",
+        "status": "hull",
+        "reason": "manglende stadium",
+        "rule": "stadieforskjell-1",
+        "left_id": "125d6045103116c71b4f52f687ae08b9f008124b16773e82703baf179e293551",
+        "right_id": null,
+        "null_reason": "manglende stadium",
+        "difference_kr": null
+      },
+      {
+        "id": "dff3e872c52796f086afc7bb4ea079f0d18687200ef2d3440627e42be79b70da",
+        "meaning": "etter_belop",
+        "account": "1429/1",
+        "status": "hull",
+        "reason": "manglende stadium",
+        "rule": "stadieforskjell-1",
+        "left_id": null,
+        "right_id": "f22283ad6cdeef6edfc78e01c498d1f56ce9b230a16376eee379a3a0e9d2780a",
+        "null_reason": "manglende stadium",
+        "difference_kr": null
+      }
+    ],
+    "files": [
+      {
+        "file": "syntetisk-manglende-tilraading/hull.json",
+        "bytes": 7553059,
+        "sha256": "dd8d38fa72ade7ba6bd35de2eaebed81d17f5bc56cac2e5e39d8161195c4ac86"
+      },
+      {
+        "file": "syntetisk-manglende-tilraading/hull.xlsx",
+        "bytes": 5447304,
+        "sha256": "1a441713b5d9789ea310c0bd3f57ae88419792a7f9c763353d49fb85a645cf58"
+      }
+    ]
+  },
+  "matrix_ledger": [
+    {
+      "matrix_id": "M01",
+      "status": "passed_for_T1_scope",
+      "evidence": [
+        "gjenfunne-originaler",
+        "dokument-vedtak210",
+        "dokument-vedtak211"
+      ],
+      "boundary": "210/368 gammel 9cfe, 211 separat nyere c5f3; opprinnelige sidevogner uendret"
+    },
+    {
+      "matrix_id": "M02",
+      "status": "passed_for_T1_scope",
+      "evidence": [
+        "dokument-inns81"
+      ],
+      "boundary": "Hele 81; full HTML/PDF, tre kontoer, samlet komite, I/II og sluttunderskrift"
+    },
+    {
+      "matrix_id": "M03",
+      "status": "passed_for_T1_scope",
+      "evidence": [
+        "post1",
+        "post22",
+        "begge",
+        "tomt"
+      ],
+      "boundary": "9/3/1, 9/3/1, 18/6/2, 0/0/0"
+    },
+    {
+      "matrix_id": "M04",
+      "status": "passed_for_T1_scope",
+      "evidence": [
+        "post60",
+        "dokument-vedtak211",
+        "dokument-inns81"
+      ],
+      "boundary": "Fullmakt/tekst/perioder uten ekstra bevilgningshendelse"
+    },
+    {
+      "matrix_id": "M05",
+      "status": "passed_for_T1_scope",
+      "evidence": [
+        "dokument-prop16"
+      ],
+      "boundary": "37 grupper, 45 ulike kontoer; bare 1429-belop strukturert"
+    },
+    {
+      "matrix_id": "M06",
+      "status": "passed_for_T1_scope",
+      "evidence": [
+        "konto-til-dokument",
+        "tilbake-til-konto",
+        "dokument-til-konto",
+        "tilbake-til-dokument"
+      ],
+      "boundary": "Begge retninger, helt dokumentinventar og bevart returutvalg"
+    },
+    {
+      "matrix_id": "M07",
+      "status": "passed_for_T1_scope",
+      "evidence": [
+        "par-uten-kryssprodukt",
+        "kapittel-og-par",
+        "tomt",
+        "2025-kontekst"
+      ],
+      "boundary": "Union av konkrete par/hele kapitler innen separate ar; globale forhold beholdes"
+    },
+    {
+      "matrix_id": "M08",
+      "status": "passed_for_T1_scope",
+      "evidence": [
+        "begge",
+        "syntetisk-manglende-tilraading/hull"
+      ],
+      "boundary": "12 avledede nuller med to felt; 6 hull med null ved manglende tilraading. Positiv 4400/2 utenfor T1"
+    },
+    {
+      "matrix_id": "M09",
+      "status": "passed_for_T1_scope",
+      "evidence": [
+        "begge"
+      ],
+      "boundary": "Gamle round=uavklart og felt/step-ID-er ordrett; separat kildebundet kontekst"
+    },
+    {
+      "matrix_id": "M13",
+      "status": "passed_for_T1_scope",
+      "evidence": [
+        "dokument-prop16",
+        "dokument-inns95",
+        "par-uten-kryssprodukt"
+      ],
+      "boundary": "Grunnvern for begge sakene; ingen positiv helgrenimport T5/T6"
+    },
+    {
+      "matrix_id": "M22",
+      "status": "passed_for_T1_scope",
+      "evidence": [
+        "begge",
+        "offline",
+        "tomt"
+      ],
+      "boundary": "En P1 i uendret O2b-basis; to vedtatte hendelser"
+    },
+    {
+      "matrix_id": "M23",
+      "status": "passed_for_T1_scope",
+      "evidence": [
+        "cli/offline",
+        "offline"
+      ],
+      "boundary": "Faktisk offline-lesing; DB/nett-sentinel og rehashmutasjoner i T1-testene"
+    },
+    {
+      "matrix_id": "M24",
+      "status": "passed_for_T1_scope",
+      "evidence": [
+        "begge",
+        "cli/offline",
+        "render"
+      ],
+      "boundary": "26 nye par faktisk gjenlest; faktiske celler/lenker/fulltekst/stykker og formelvern"
+    },
+    {
+      "matrix_id": "M25",
+      "status": "passed_for_T1_scope",
+      "evidence": [
+        "compatibility"
+      ],
+      "boundary": "10 ekte gamle par + 1 ekte gammel B6-bok; ingen selvstendig gammel SessionReport-JSON funnet"
+    },
+    {
+      "matrix_id": "M26",
+      "status": "passed_for_T1_scope",
+      "evidence": [
+        "syntetisk-missing",
+        "syntetisk-failed",
+        "syntetisk-corrupt",
+        "syntetisk-contradictory"
+      ],
+      "boundary": "Fire ferske DB-er, 222 felt/74 hendelser hver, faktisk raw/lagring/ordinart Excel uten historisk Excel"
+    },
+    {
+      "matrix_id": "M27",
+      "status": "passed_for_T1_scope",
+      "evidence": [
+        "begge",
+        "syntetisk-manglende-tilraading/hull",
+        "tests/test_visningspilot.py"
+      ],
+      "boundary": "11 uforenlige feltvarianter og separate kontekstporter; manipulert frosset grunnlag avvises"
+    }
+  ],
+  "actual_re_read_new_pairs": [
+    {
+      "report_id": "eea52650c8f5af63801593c0af4bec252e401cdb08a4419b27100405727e1414",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 0,
+      "adopted_fields": 0,
+      "adopted_events": 0,
+      "json": {
+        "file": "work/t1-fixed-delivery/2025-kontekst.json",
+        "bytes": 7723549,
+        "sha256": "919e846cbe9cb9f5d24501307ac2d47f609f311d223185e6ea168795cf2cec17"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/2025-kontekst.xlsx",
+        "bytes": 5513693,
+        "sha256": "73093dd8615812fcd8cdf94ebffa0fcc464cce0f4c5db124cf0e759320c320a1"
+      }
+    },
+    {
+      "report_id": "4d27c1e83524102cb29ff8b429fb262bb9861d4b024718e1edca90d457c6f17e",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 18,
+      "adopted_fields": 6,
+      "adopted_events": 2,
+      "json": {
+        "file": "work/t1-fixed-delivery/begge.json",
+        "bytes": 7732250,
+        "sha256": "99e871e0ab780cbb548e15699f3093621d0f25229e3fa06c29cfdb5552803f53"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/begge.xlsx",
+        "bytes": 5523111,
+        "sha256": "d3c076d24e6b2a2247e759d234bb93eb747fcec3d47d2ccb574dca40227f29f4"
+      }
+    },
+    {
+      "report_id": "7c4a1c876f898bb335f0c4065842e222f978cc86a05a08f95109c889a21ec2c7",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 9,
+      "adopted_fields": 3,
+      "adopted_events": 1,
+      "json": {
+        "file": "work/t1-fixed-delivery/cli/offline.json",
+        "bytes": 7728530,
+        "sha256": "017868c86cba1fb2929d761c516eacdd796e8d0df73f17d90b6abc393114a0cd"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/cli/offline.xlsx",
+        "bytes": 5519302,
+        "sha256": "6dbeb90c87aee964bf3ac9c97c0f75784190640ab86e398e3c3f9dbe14872261"
+      }
+    },
+    {
+      "report_id": "7c4a1c876f898bb335f0c4065842e222f978cc86a05a08f95109c889a21ec2c7",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 9,
+      "adopted_fields": 3,
+      "adopted_events": 1,
+      "json": {
+        "file": "work/t1-fixed-delivery/cli/post22.json",
+        "bytes": 7728530,
+        "sha256": "017868c86cba1fb2929d761c516eacdd796e8d0df73f17d90b6abc393114a0cd"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/cli/post22.xlsx",
+        "bytes": 5519300,
+        "sha256": "365e106e7021d16e7f378ea8412e93b27f9f81635d6f31a3c763b9ad6110a658"
+      }
+    },
+    {
+      "report_id": "6552fa3ee900ae0cfd730cf060e2190fe5559dd0f48273eb15fe94a8d91bdcd4",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 6,
+      "adopted_fields": 0,
+      "adopted_events": 0,
+      "json": {
+        "file": "work/t1-fixed-delivery/dokument-inns81.json",
+        "bytes": 7730475,
+        "sha256": "37d05f46d7749a2bf1ea13e5bc8a286dcf0fd27b1f2dbe0f2d3799aa8585bb60"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/dokument-inns81.xlsx",
+        "bytes": 5519745,
+        "sha256": "98f9decee5a8ce8996ce2a2f637efa25c81539a52de3adddf51703fff0801886"
+      }
+    },
+    {
+      "report_id": "76517ae34bde86bf8a1c239fb48994b997a1ba73732f93489cee7a87ba717c61",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 0,
+      "adopted_fields": 0,
+      "adopted_events": 0,
+      "json": {
+        "file": "work/t1-fixed-delivery/dokument-inns95.json",
+        "bytes": 7723795,
+        "sha256": "b5637ee7cc2e47b4140902a51cfd0c0b74ec44a27f29fb46b91d3b3258716e6e"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/dokument-inns95.xlsx",
+        "bytes": 5513628,
+        "sha256": "dd9de78eabc24682d72ade26bbcf3870bb1a694669ff15025a1c3fd79cca65b1"
+      }
+    },
+    {
+      "report_id": "da5e6f3c3e9362acbb5096663eee1c7d332fd9cac6ca0777d01aed690dbf254b",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 6,
+      "adopted_fields": 0,
+      "adopted_events": 0,
+      "json": {
+        "file": "work/t1-fixed-delivery/dokument-prop16.json",
+        "bytes": 7734026,
+        "sha256": "4c2bf8fad9fbd41fcf5dd00784b8b8f1c329a2acac0be3d502951f4219b5f64d"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/dokument-prop16.xlsx",
+        "bytes": 5522276,
+        "sha256": "397d464f9bb718ff502c6b5dc59e09473cd4ebc5517aeb37a570342dc7f85b28"
+      }
+    },
+    {
+      "report_id": "3d7b404ce7ee733cd7d7d162fe6b6227177b8db8e0fe2553114698933a001925",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 0,
+      "adopted_fields": 0,
+      "adopted_events": 0,
+      "json": {
+        "file": "work/t1-fixed-delivery/dokument-til-konto.json",
+        "bytes": 7725157,
+        "sha256": "92f3c01750faea218c2bfa1bfc340525f918991a3200c0be9ebe060d0a4d2e4e"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/dokument-til-konto.xlsx",
+        "bytes": 5514560,
+        "sha256": "0bb7118485a4b9d0849c7b54350f9d1de8b47f3d0bc8f79403eb6f19db5f989d"
+      }
+    },
+    {
+      "report_id": "9761f88d5c31beacf1c3fc1e513a55c344531e0b14e043d14a2b2e71be67e46b",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 6,
+      "adopted_fields": 6,
+      "adopted_events": 2,
+      "json": {
+        "file": "work/t1-fixed-delivery/dokument-vedtak210.json",
+        "bytes": 7729736,
+        "sha256": "be96e9a1ce86c66bf2f560d62d4b86a4c35caafc99aa0c50cb765a0727a44913"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/dokument-vedtak210.xlsx",
+        "bytes": 5519202,
+        "sha256": "2eee76e27f3c5d9c703f8f4c0914ac785842cc44130faf8461d1c2551904616c"
+      }
+    },
+    {
+      "report_id": "22162da049b3524209e44658cb9ff1b9329db5848507f574519586a10d84be95",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 0,
+      "adopted_fields": 0,
+      "adopted_events": 0,
+      "json": {
+        "file": "work/t1-fixed-delivery/dokument-vedtak211.json",
+        "bytes": 7723526,
+        "sha256": "6fafefb5457284b5ccbbbb7f2a25fb2c69d604462860cb814bb1161f2aa10324"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/dokument-vedtak211.xlsx",
+        "bytes": 5513705,
+        "sha256": "54b731042775d7b89ddfdace7791f72f30580d4905c5ab4901513221cfdea471"
+      }
+    },
+    {
+      "report_id": "bb5fdfaf774ef1d82264d3c3c7a60b2200012221be8496043dc38fbaf17b751a",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 9,
+      "adopted_fields": 3,
+      "adopted_events": 1,
+      "json": {
+        "file": "work/t1-fixed-delivery/kapittel-og-par.json",
+        "bytes": 7730405,
+        "sha256": "1e75fab3e2d165b34b5ecce963752a24feea9bc3336f4276d589b79391b04ae6"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/kapittel-og-par.xlsx",
+        "bytes": 5520269,
+        "sha256": "aabf6ba61ebad3aa4567484145307b3365f4b49060ac9884b410cf0c48de5944"
+      }
+    },
+    {
+      "report_id": "c1c2fa3097d70f7fd7fd79859ce3d41a2501a070926e9b21877aee6ffa5dd98b",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 18,
+      "adopted_fields": 6,
+      "adopted_events": 2,
+      "json": {
+        "file": "work/t1-fixed-delivery/kapittel.json",
+        "bytes": 7732900,
+        "sha256": "907be6e89b0058a1d0ccd2b6beee6a84e08ee5e63f1d60b115f9c2137c8b143e"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/kapittel.xlsx",
+        "bytes": 5523511,
+        "sha256": "fc21d7f057400f97ba514673e03838f7227be0f687ff1c58992270a778305b15"
+      }
+    },
+    {
+      "report_id": "2a977725785eee2906e50d398d81bdcd0ac06a721693eca45696e55941b71454",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 6,
+      "adopted_fields": 0,
+      "adopted_events": 0,
+      "json": {
+        "file": "work/t1-fixed-delivery/konto-til-dokument.json",
+        "bytes": 7730564,
+        "sha256": "e4d25063d92397e82c085b7e8fed297c08f2d38f57c8d6a22c8349b061f8c8f5"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/konto-til-dokument.xlsx",
+        "bytes": 5519802,
+        "sha256": "abf35b3e24dd8b7be69c341b33ab3bb077dc395115d7718427cb0e11cb1ed1d7"
+      }
+    },
+    {
+      "report_id": "4d27c1e83524102cb29ff8b429fb262bb9861d4b024718e1edca90d457c6f17e",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 18,
+      "adopted_fields": 6,
+      "adopted_events": 2,
+      "json": {
+        "file": "work/t1-fixed-delivery/offline.json",
+        "bytes": 7732250,
+        "sha256": "99e871e0ab780cbb548e15699f3093621d0f25229e3fa06c29cfdb5552803f53"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/offline.xlsx",
+        "bytes": 5523109,
+        "sha256": "f0e7aba523cfaec506233c21c7d6b08b609c5a03b08059625a58f3e64062f21d"
+      }
+    },
+    {
+      "report_id": "94b884c3192b8193806c246529cc5e8254ed8b2d9c752ffcb3773a5bdbff5b05",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 9,
+      "adopted_fields": 3,
+      "adopted_events": 1,
+      "json": {
+        "file": "work/t1-fixed-delivery/par-uten-kryssprodukt.json",
+        "bytes": 7728537,
+        "sha256": "58ee02c33d2fa251566a4789f3823511dd2cb9b8261551e18caf55f3616968e0"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/par-uten-kryssprodukt.xlsx",
+        "bytes": 5519304,
+        "sha256": "721fc97e1c2ccb834a724ed9086f4a6b29ae7dec2b11ee7bbf82fa9b8761b91b"
+      }
+    },
+    {
+      "report_id": "4a76d6c2e425a2fba369253335f1d73c91415017012d5ef7ca8e76385b690927",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 9,
+      "adopted_fields": 3,
+      "adopted_events": 1,
+      "json": {
+        "file": "work/t1-fixed-delivery/post1.json",
+        "bytes": 7728523,
+        "sha256": "ada5ab8486ce44e916ca30df56eedc08db070c8feee9b8047485301183ace517"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/post1.xlsx",
+        "bytes": 5519283,
+        "sha256": "6b73a775e7ba2116a778d09b1c5e147204b9580f88848e1cb084e31fa5d69366"
+      }
+    },
+    {
+      "report_id": "7c4a1c876f898bb335f0c4065842e222f978cc86a05a08f95109c889a21ec2c7",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 9,
+      "adopted_fields": 3,
+      "adopted_events": 1,
+      "json": {
+        "file": "work/t1-fixed-delivery/post22.json",
+        "bytes": 7728530,
+        "sha256": "017868c86cba1fb2929d761c516eacdd796e8d0df73f17d90b6abc393114a0cd"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/post22.xlsx",
+        "bytes": 5519302,
+        "sha256": "8e31c0da92618d344c13417864cd0667fe90b3436fe1e62577e2172b330af008"
+      }
+    },
+    {
+      "report_id": "bb7a2778a2a8aa8f9b2810841938f9dca6a5dde568df23214e26211f223dc2eb",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 0,
+      "adopted_fields": 0,
+      "adopted_events": 0,
+      "json": {
+        "file": "work/t1-fixed-delivery/post60.json",
+        "bytes": 7725022,
+        "sha256": "ee06c7b250d2729641611835f4bb26f3a3ef45866e5e20b0dbb9bc8405bce8fc"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/post60.xlsx",
+        "bytes": 5514494,
+        "sha256": "0cbb9380962cb94a9d07d3869f6d308bec4c003d92a8392df1375b0e629aff76"
+      }
+    },
+    {
+      "report_id": "64a77ad28bac07dd5c0817823033c76e62b615d1aff19bc08cb59c6bfff7511d",
+      "basis_id": "a006eb2f5afd43aff58166d3f4330f6a6c89239f5f4036cf3446a7d5a80b10e6",
+      "fields": 0,
+      "adopted_fields": 0,
+      "adopted_events": 0,
+      "json": {
+        "file": "work/t1-fixed-delivery/syntetisk-contradictory/tomt.json",
+        "bytes": 7720959,
+        "sha256": "4bc8ee307fd7d1d211c445e7c43ed6b16b7041a568cf9afbc1fca4a6470fd1cb"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/syntetisk-contradictory/tomt.xlsx",
+        "bytes": 5512721,
+        "sha256": "c34b3020e8f381e1f5170bbb590396c3954f0cd8d6f32b9e2057918588cb2b85"
+      }
+    },
+    {
+      "report_id": "6dc57ca433da06ab039a65ff15fd5fe9ec7598780687a63c9e4475c9250b72d8",
+      "basis_id": "0f13fa2736c24ff8d75e7581d2373b1233266fc2e8bcad0ffa4ba576fdacfdab",
+      "fields": 0,
+      "adopted_fields": 0,
+      "adopted_events": 0,
+      "json": {
+        "file": "work/t1-fixed-delivery/syntetisk-corrupt/tomt.json",
+        "bytes": 7718729,
+        "sha256": "44bc3b1f6ccc515181b3ede25a7ba603807f15579b7afe58f1be24c5a17f7a8a"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/syntetisk-corrupt/tomt.xlsx",
+        "bytes": 5511374,
+        "sha256": "12df9bd7eb97c054eabae2b966e3613192a5da68688ed95a652ce822c4789729"
+      }
+    },
+    {
+      "report_id": "ae6f05027b46f8c42469572f05483d0a023aa8c8fd9da615a5c4431b546b768f",
+      "basis_id": "81b03dd2a55eea0613e5d91e0b6cc330ee5e4002a36222804f6d0eaef841ac1a",
+      "fields": 0,
+      "adopted_fields": 0,
+      "adopted_events": 0,
+      "json": {
+        "file": "work/t1-fixed-delivery/syntetisk-failed/tomt.json",
+        "bytes": 7718676,
+        "sha256": "1cf14ee20466905d57fe18fc7a356299216df6d5270b0a525874331c56411993"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/syntetisk-failed/tomt.xlsx",
+        "bytes": 5511288,
+        "sha256": "bccb861023809f32882acfb9e40fc6b2708f9ca6677daeb88e2f31086199b35d"
+      }
+    },
+    {
+      "report_id": "eef527953372f56d30f12994fe04dad4dee8380f5ba0a5c84095ff55dfd56d8f",
+      "basis_id": "f5a30505857cf0765f6d7341ce782fb5e0006cb0c2d5ffe6bed6bc55bf31959d",
+      "fields": 6,
+      "adopted_fields": 3,
+      "adopted_events": 1,
+      "json": {
+        "file": "work/t1-fixed-delivery/syntetisk-manglende-tilraading/hull.json",
+        "bytes": 7553059,
+        "sha256": "dd8d38fa72ade7ba6bd35de2eaebed81d17f5bc56cac2e5e39d8161195c4ac86"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/syntetisk-manglende-tilraading/hull.xlsx",
+        "bytes": 5447304,
+        "sha256": "1a441713b5d9789ea310c0bd3f57ae88419792a7f9c763353d49fb85a645cf58"
+      }
+    },
+    {
+      "report_id": "fd200125a6955641cd73b804cbd8c98b13ebb4a4a4e86daedfe910a706fa88e5",
+      "basis_id": "d6ce8d885fa903fc2509d585f80c93d39d50593cbd57cbb8af090c1eb51657bf",
+      "fields": 0,
+      "adopted_fields": 0,
+      "adopted_events": 0,
+      "json": {
+        "file": "work/t1-fixed-delivery/syntetisk-missing/tomt.json",
+        "bytes": 7718678,
+        "sha256": "d6528e3dec63a80f135730ac7e0fb3a229767cf1d4a1f535e40e032fbac6676c"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/syntetisk-missing/tomt.xlsx",
+        "bytes": 5511326,
+        "sha256": "26f702ccf798e54594eb7579b7e23a93dafbf6a6ff1be55ad3c4fc3b81e0bda4"
+      }
+    },
+    {
+      "report_id": "22162da049b3524209e44658cb9ff1b9329db5848507f574519586a10d84be95",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 0,
+      "adopted_fields": 0,
+      "adopted_events": 0,
+      "json": {
+        "file": "work/t1-fixed-delivery/tilbake-til-dokument.json",
+        "bytes": 7723526,
+        "sha256": "6fafefb5457284b5ccbbbb7f2a25fb2c69d604462860cb814bb1161f2aa10324"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/tilbake-til-dokument.xlsx",
+        "bytes": 5513705,
+        "sha256": "b6830078dc14381c8c112a1315f211b3a4d8cfceb6a4e0a8dfb06d0f6f5605c0"
+      }
+    },
+    {
+      "report_id": "4a76d6c2e425a2fba369253335f1d73c91415017012d5ef7ca8e76385b690927",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 9,
+      "adopted_fields": 3,
+      "adopted_events": 1,
+      "json": {
+        "file": "work/t1-fixed-delivery/tilbake-til-konto.json",
+        "bytes": 7728523,
+        "sha256": "ada5ab8486ce44e916ca30df56eedc08db070c8feee9b8047485301183ace517"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/tilbake-til-konto.xlsx",
+        "bytes": 5519286,
+        "sha256": "27fef8642af1d8b8825ce1c9c71620012732aded2efae21c791bc10017ca088d"
+      }
+    },
+    {
+      "report_id": "96eb76cadbcb55cae213919a81a9164fd17e518ff6733cc0648151c5a62842e1",
+      "basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+      "fields": 0,
+      "adopted_fields": 0,
+      "adopted_events": 0,
+      "json": {
+        "file": "work/t1-fixed-delivery/tomt.json",
+        "bytes": 7723270,
+        "sha256": "c0e9f200f124c8a2f2073a0a0958eb375d4ab6ae9de479227cf2d5c9fa3861ea"
+      },
+      "excel": {
+        "file": "work/t1-fixed-delivery/tomt.xlsx",
+        "bytes": 5513521,
+        "sha256": "6b6a64cdd909c96c25988ff74250accb82500319672a8c57714058bd79dd0370"
+      }
+    }
+  ],
+  "review_fixes": {
+    "Standards_P2": "Analyse leser gamle konvolutter til PilotInput; adapteren kjører med alle analyseimporter blokkert og beholder råkilde-/observasjonskontroll.",
+    "Spec_P2": "Nye utsagn bruker logiske Storting-seksjoner og kildens romertalls-/fullmaktsoverskrifter. Gamle O2-seksjoner/hierarki/ID-er er uendret.",
+    "Audit_P1": "Alle seks overførte vedtaksobjekter gjenskapes fra original, kjent v2-tolkning og bundet revisjon/uttrekk. Gamle advarselsrapporter kan leses som før, men motstrid avvises i separat T1-grense.",
+    "Audit_P2": "Tallformat, effektive cellestiler, ark-/arbeidsbokvisning, rad-/kolonnedimensjoner og filter-/fletteoppsett sammenholdes med egen forventet bok. Gammelt guard er uendret.",
+    "publishing": ".gitattributes har målrettet -text whitespace=cr-at-eol for hashfestet verification.json; originaler omskrives ikke.",
+    "evidence": {
+      "file": "work/t1-fixed-delivery/review-probes/results.json",
+      "bytes": 4523,
+      "sha256": "efa2e602f3b8d85f1c2be670b8622217415000978c833d27e58a82f86f8f2e6e"
+    },
+    "all_20_new_html_hierarchies": {
+      "file": "work/t1-fixed-delivery/review-probes/hierarchy-all.json",
+      "bytes": 9070,
+      "sha256": "9892eef6771096564e01f2aef95d34ac1b8e87788849d38fddcadc5949128e6f"
+    },
+    "negative_test_cases": {
+      "adopted_fields": 30,
+      "display": 17,
+      "saved_adopted_pairs": 1,
+      "rebound_interpretations": 2
+    },
+    "red_logs": [
+      {
+        "file": "work/fixes-red-boundary.log",
+        "bytes": 1257,
+        "sha256": "5f81258f479ed13cf83792def99107848dd9eea5f227a9b7219e223bcb559917"
+      },
+      {
+        "file": "work/fixes-red-hierarchy.log",
+        "bytes": 3277,
+        "sha256": "e53e1c46e2bf0ab3c274037c25c2bbf49fa95c38601dbe0992557197cc5232d9"
+      },
+      {
+        "file": "work/fixes-red-adopted.log",
+        "bytes": 7434,
+        "sha256": "e1ad378bf5f4fd20b59c8346ee887d503243e7323d32ab6713b0976fcf746710"
+      },
+      {
+        "file": "work/fixes-red-display.log",
+        "bytes": 3972,
+        "sha256": "dd35be48d709c79c1244723ccf40861ce702e9fa5142d4bf1bb3533661f53abc"
+      }
+    ]
+  },
+  "render": {
+    "saved_workbook": {
+      "file": "work/t1-fixed-delivery/begge.xlsx",
+      "bytes": 5523111,
+      "sha256": "d3c076d24e6b2a2247e759d234bb93eb747fcec3d47d2ccb574dca40227f29f4"
+    },
+    "tool": "bundled @oai/artifact-tool importXlsx/render; no workbook rewriting",
+    "all_12_sheets_visually_inspected": true,
+    "files": [
+      {
+        "file": "work/t1-fixed-delivery/render/Beløpsgrunnlag.png",
+        "bytes": 73759,
+        "sha256": "d7e194e84e9415453c10f0d3cc1ac57078415e54855e295dedfc1453ac5d9cfa"
+      },
+      {
+        "file": "work/t1-fixed-delivery/render/Dekning.png",
+        "bytes": 49939,
+        "sha256": "f6665ab1bd3b3866f447bc35a253e73a656a95535fb4a96b9e433f0243771c6e"
+      },
+      {
+        "file": "work/t1-fixed-delivery/render/Dokumenter.png",
+        "bytes": 79742,
+        "sha256": "702abc90d7d19bdf30c49f66ee958d86b0e8294f1fe5d13da81b508ca2dd94ee"
+      },
+      {
+        "file": "work/t1-fixed-delivery/render/Forløp.png",
+        "bytes": 230686,
+        "sha256": "d37bcfd1e3bb5fc2cb09261c875cf49a84bd81656e79ab9f4cd1a953284e8f3a"
+      },
+      {
+        "file": "work/t1-fixed-delivery/render/Fulltekst.png",
+        "bytes": 57934,
+        "sha256": "290fb034876f8ddf3032809e4545b3f98b729846691d0601823bcb552585dd84"
+      },
+      {
+        "file": "work/t1-fixed-delivery/render/Inventar.png",
+        "bytes": 100772,
+        "sha256": "9c0ab901f2ac5fc88145cbdb047505795917ce05ccd390660a7bea103128541a"
+      },
+      {
+        "file": "work/t1-fixed-delivery/render/Kontoer.png",
+        "bytes": 121834,
+        "sha256": "f1587761806e118a96b91689ca3a1a7c8fb29e20d13068d4fd8069a3b96994c4"
+      },
+      {
+        "file": "work/t1-fixed-delivery/render/Originaler.png",
+        "bytes": 65036,
+        "sha256": "1be46e4dd4b8a9ad050369873896c1bc984027363818078eae88afb01e98c6f9"
+      },
+      {
+        "file": "work/t1-fixed-delivery/render/Relasjoner.png",
+        "bytes": 90752,
+        "sha256": "492e70d732e6de1196ca62f6a6d8f943d7bcb40b73863324b02717b64e1526a2"
+      },
+      {
+        "file": "work/t1-fixed-delivery/render/Sammenligninger.png",
+        "bytes": 97094,
+        "sha256": "081528d7485c08e16f5b782d3df619535796001ce94f38b3675b8cb0250590ce"
+      },
+      {
+        "file": "work/t1-fixed-delivery/render/Utvalg.png",
+        "bytes": 58740,
+        "sha256": "e7c954396ad1dd6d4a1234aea95c483b85c008015dbbfa5e9200cf3406aa2999"
+      },
+      {
+        "file": "work/t1-fixed-delivery/render/Visningsgrunnlag.png",
+        "bytes": 17032,
+        "sha256": "c0305663d761616c0aab7fd4ded2d06e7878f6243f55c0d87cbef78ca29cbd5a"
+      }
+    ],
+    "boundary": "Tekniske fulltekst-/HTML-/ID-/base64-celler apnes for hele innholdet; ingen trykksatt gjengivelse eller native Excel-test"
+  },
+  "delivery_manifest": {
+    "file": "work/t1-fixed-delivery/kontroll.json",
+    "bytes": 74240,
+    "sha256": "1b2f1884c7b3b51f76cc1ada8a5cef2e63be8c062430e10b8a12350ddd00ec41"
+  },
+  "manifest_file_hashes_rechecked": 225,
+  "prior_candidate_verification_preserved": {
+    "file": "work/t1-fixed-delivery/prior-candidate-verification.json",
+    "bytes": 45572,
+    "sha256": "80edc5083e6c8ac0aa04f0ce10a9933dc97d112694b8e39730f8e59728bae55b"
+  },
+  "prior_candidate_manifest_hashes_rechecked": 201,
+  "candidate_code_files": [
+    {
+      "file": "analyse/visningspilot.py",
+      "bytes": 17463,
+      "sha256": "64c64e234961c011f49567295e5e2f340b82bc66d3f2a9a2a6d0d9872b1e76ab",
+      "git_normalized_blob_sha1": "efbf678899c7e6e4eba15bcd1e296b6cbe0e15ce"
+    },
+    {
+      "file": "analyse/visningspilot_excel.py",
+      "bytes": 22263,
+      "sha256": "93ad350bbd6dd877ec7dc0dfeaf2aed15ce2b71586adbbe1a83826e107f0141b",
+      "git_normalized_blob_sha1": "40db862eeab26ac2b3854f11207de598062c495a"
+    },
+    {
+      "file": "analyse/omtale_excel_guard.py",
+      "bytes": 22907,
+      "sha256": "ac3ef5ede1025d194f06775507794f2b3780aa98383a839d26e0d1b11654f37c",
+      "git_normalized_blob_sha1": "7306b2780269e7f1654175cf0913bb5e4b4fad65"
+    },
+    {
+      "file": "innlesning/visningspilot.py",
+      "bytes": 44250,
+      "sha256": "3c465201778fd3805b7423eed9b9262595b1aef9f3f175843e82729907597a64",
+      "git_normalized_blob_sha1": "b533049abaf4de7cd84ff1b9cc7771cf4898c225"
+    },
+    {
+      "file": "innlesning/visningspilot_model.py",
+      "bytes": 3453,
+      "sha256": "0875bc447a3328ba426cab9a9f9d9139d593204d4b2b8a71b37f3f3b108f962b",
+      "git_normalized_blob_sha1": "568fd3725b825cd3e7132d152644341d970a318d"
+    },
+    {
+      "file": "innlesning/visningspilot_vedtak.py",
+      "bytes": 6632,
+      "sha256": "5455e5eecf97cac86d0e761917c1dd83d1beb4f9fb792902d9f0b1f732db1418",
+      "git_normalized_blob_sha1": "3b0b5cb0a0d20df66bb020b4b483ad074783a61c"
+    },
+    {
+      "file": "ops/visningspilot_proeve.py",
+      "bytes": 19045,
+      "sha256": "7c73deb62dc3d6cb03c896b9ab412861d2630dc286d8e600f0ddf70d98be1888",
+      "git_normalized_blob_sha1": "54cef89f52e37f245341629c5ea19024222ebe15"
+    },
+    {
+      "file": "tests/test_visningspilot.py",
+      "bytes": 37553,
+      "sha256": "ef977cb163371398179a632ddcf83b7eda2502aa000c9a567c40d2047c6a7a5e",
+      "git_normalized_blob_sha1": "cb84405a21d21ae8229198a5139c5fd783b07f88"
+    }
+  ],
+  "limits": [
+    "Selvstendig gammel frozen-v1-rapport-JSON er ikke funnet; ekte gammel innebygd B6-kjerne kontrollert. Eldre Excel prøves med --legacy-b6.",
+    "Native Excel ikke prøvd; lagrede celler/lenker/fulltekst og rendering kontrolleres separat",
+    "T2-T6 og K1-K3 ikke levert; #10 åpen"
+  ]
+}

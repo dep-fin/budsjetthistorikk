@@ -259,7 +259,9 @@ def _workbook_ranges(archive: ZipFile, paths: dict[str, str]) -> int:
     return len(views)
 
 
-def _sheet_reference_attributes(element: etree._Element, styles: int, views: int) -> None:
+def _sheet_reference_attributes(
+    element: etree._Element, styles: int, views: int, sheet_names: frozenset[str]
+) -> None:
     """Kontroller alle indekser/områder i den smale eksportgrammatikken."""
     name = etree.QName(element).localname
     if set(element.attrib) - WORKSHEET_ATTRIBUTES[name]:
@@ -272,7 +274,7 @@ def _sheet_reference_attributes(element: etree._Element, styles: int, views: int
             match = re.fullmatch(
                 r"'([^']+)'!([A-Z]{1,3}[1-9][0-9]{0,6})", element.attrib["location"]
             )
-            if match is None or match[1] not in BASE_SHEETS:
+            if match is None or match[1] not in sheet_names:
                 raise ValueError("Excel har uventet intern lenke")
             _coordinate(match[2])
     elif name == "selection":
@@ -296,7 +298,9 @@ def _sheet_reference_attributes(element: etree._Element, styles: int, views: int
             raise ValueError("Excel har uventet celletype")
 
 
-def _sheet_paths(archive: ZipFile) -> dict[str, str]:
+def _sheet_paths(
+    archive: ZipFile, sheet_names: frozenset[str], snapshot_name: str
+) -> dict[str, str]:
     book = _metadata(archive, "xl/workbook.xml")
     rels = _metadata(archive, "xl/_rels/workbook.xml.rels")
     targets = {}
@@ -310,7 +314,7 @@ def _sheet_paths(archive: ZipFile) -> dict[str, str]:
     sheets = book.find(S + "sheets")
     if sheets is None or not 1 <= len(sheets) <= MAX_SHEETS:
         raise ValueError("Excel har feil antall ark")
-    allowed = BASE_SHEETS | {f"{name[:18]} fortsettelse" for name in BASE_SHEETS}
+    allowed = sheet_names | {f"{name[:18]} fortsettelse" for name in sheet_names}
     for sheet in sheets:
         name = sheet.get("name", "")
         path, kind = targets.get(sheet.get(R + "id"), ("", ""))
@@ -325,12 +329,18 @@ def _sheet_paths(archive: ZipFile) -> dict[str, str]:
         _index(sheet.get("sheetId", ""), MAX_SHEETS, minimum=1)
         result[name] = path
     physical = {n for n in archive.namelist() if re.fullmatch(r"xl/worksheets/sheet\d+\.xml", n)}
-    if set(result.values()) != physical or "Omtalegrunnlag" not in result:
+    if set(result.values()) != physical or snapshot_name not in result:
         raise ValueError("Excel har ubundne eller manglende ark")
     return result
 
 
-def inspect_excel(path: Path) -> tuple[str, dict[str, SheetShape]]:
+def inspect_excel(
+    path: Path,
+    *,
+    sheet_names: frozenset[str] = frozenset(BASE_SHEETS),
+    snapshot_name: str = "Omtalegrunnlag",
+    max_expanded_bytes: int = MAX_EXPANDED_BYTES,
+) -> tuple[str, dict[str, SheetShape]]:
     """Strøm bare avgrenset XML; returner frosset tekst og faktiske arkdimensjoner."""
     if path.stat().st_size > MAX_REPORT_BYTES:
         raise ValueError("Excel-arkiv overstiger 128 MiB")
@@ -340,7 +350,7 @@ def inspect_excel(path: Path) -> tuple[str, dict[str, SheetShape]]:
             if (
                 len(members) > MAX_ARCHIVE_MEMBERS
                 or len({m.filename for m in members}) != len(members)
-                or sum(m.file_size for m in members) > MAX_EXPANDED_BYTES
+                or sum(m.file_size for m in members) > max_expanded_bytes
             ):
                 raise ValueError("Excel-arkiv overstiger ressursgrense eller har duplikater")
             for member in members:
@@ -359,7 +369,7 @@ def inspect_excel(path: Path) -> tuple[str, dict[str, SheetShape]]:
                     raise ValueError("Excel-arkiv har uventet innhold eller kompresjonsgrense")
                 if not re.fullmatch(r"xl/worksheets/sheet[1-9][0-9]*\.xml", member.filename):
                     _metadata(archive, member.filename)
-            paths = _sheet_paths(archive)
+            paths = _sheet_paths(archive, sheet_names, snapshot_name)
             styles = _style_count(archive)
             views = _workbook_ranges(archive, paths)
             snapshot: list[str] = []
@@ -390,7 +400,7 @@ def inspect_excel(path: Path) -> tuple[str, dict[str, SheetShape]]:
                                 raise ValueError(
                                     "Excel-ark har ubundet XML-innhold eller ressursgrense"
                                 )
-                            _sheet_reference_attributes(element, styles, views)
+                            _sheet_reference_attributes(element, styles, views, sheet_names)
                             if element.tag in {S + "dimension", S + "autoFilter"}:
                                 if element.tag in declared_ranges:
                                     raise ValueError("Excel har dupliserte celleområder")
@@ -444,7 +454,7 @@ def inspect_excel(path: Path) -> tuple[str, dict[str, SheetShape]]:
                             column_index = column
                             cell_coordinates.add((number, column))
                             last_column = max(last_column, column)
-                            if name == "Omtalegrunnlag" and number > 1:
+                            if name == snapshot_name and number > 1:
                                 if element.find(S + "f") is not None:
                                     raise ValueError("Formel i frosset Excel-grunnlag")
                                 if column == 1:
@@ -486,7 +496,7 @@ def inspect_excel(path: Path) -> tuple[str, dict[str, SheetShape]]:
                     )
                 ):
                     raise ValueError("Excel har ubundne lenker eller celleområder")
-                if name == "Omtalegrunnlag":
+                if name == snapshot_name:
                     snapshot = parts
             if not snapshot:
                 raise ValueError("Excel mangler innebygd omtalegrunnlag")
