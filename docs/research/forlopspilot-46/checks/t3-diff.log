@@ -1,0 +1,4 @@
+warning: in the working copy of '.gitattributes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/datakontrakt.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/kildefunn.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/krav.md', LF will be replaced by CRLF the next time Git touches it

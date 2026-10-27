@@ -133,3 +133,15 @@ dokumenterer kildebevis og faktiske filer; publiserings-/review-/CI-status følg
 #44/tilhørende PR. Gamle standardvalg, schema5, B5 og uavhengig vedtaksinnlesning
 består. T3–T6/K1–K3 og generell endring av eldre faner har ikke nytt mandat.
 #10, #32 og #37 står åpne.
+
+
+## T3-mandat – 27. oktober 2026
+
+Eieren har bestilt [#46](https://github.com/depmartin/budsjetthistorikk/issues/46)
+under #37, med publisering, bygging, grønn CI og merge: valgt 341→857→210-forløp
+for 1429/1 og /22 i 2024. [Kontrakten](forlopspilot.md) og
+[kilde-/filkontrollen](research/forlopspilot-46/README.md) fastsetter fem nye
+felt, én uendret validert T1-kapsel, faktisk JSON-/Excel-gjenlesing og avgrenset
+lokal regning. Dette gir ingen årsbalansegodkjenning, fullårsdekning eller
+positiv kontinuitet. Tidligere formater/schema5/B5 og uavhengig ny
+vedtaksinnlesning består. T4–T6/K1–K3 krever egne mandater; #10/#32/#37 er åpne.

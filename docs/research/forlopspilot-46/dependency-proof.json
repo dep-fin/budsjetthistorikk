@@ -1,0 +1,45 @@
+{
+  "kind": "Dependency probe: valid complete T3 using T3-only source root and one immutable T1 capsule",
+  "basis_id": "4cc64b8360692b29a530f00c747b3b3ea0489cbf984bffc70b2e5e187b54c709",
+  "report_id": "1fb67c9f1ea6b16803864dc882a73c6185e282558a5905cb5a4a1aead784f532",
+  "source_files": [
+    {
+      "file": "work/t3-delivery/20261027-builder-04/t3-only-source-root/docs/research/to-visninger-37/originals/aar/manifest.json",
+      "bytes": 8831,
+      "sha256": "1f8a76b53c3e31b389561f95e01a009b29ccdf2eabc902bed6fd22ee4accee9d"
+    },
+    {
+      "file": "work/t3-delivery/20261027-builder-04/t3-only-source-root/docs/research/to-visninger-37/originals/aar/session-2023-2024.meta.json",
+      "bytes": 381,
+      "sha256": "56372509ffb4d04a7a265b969932327872b54d0279e43dfb762ef76f24b0f743"
+    },
+    {
+      "file": "work/t3-delivery/20261027-builder-04/t3-only-source-root/docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+      "bytes": 342281,
+      "sha256": "d083055643de38008fa373e54ea556cb06f5348f5d7d4978a323bba25e3f303f"
+    },
+    {
+      "file": "work/t3-delivery/20261027-builder-04/t3-only-source-root/tests/fixtures/b3/40033719.json",
+      "bytes": 714,
+      "sha256": "88da1ed5332372eba1a861111cf374da55133de1419aaa58d8c7e7b66afd502f"
+    },
+    {
+      "file": "work/t3-delivery/20261027-builder-04/t3-only-source-root/tests/fixtures/b3/40033719.xml",
+      "bytes": 1265833,
+      "sha256": "4113b987c8f939256d30ef6a4401cda358d9da90b5af19cbbbc37d0ec9d312b0"
+    }
+  ],
+  "t2_315_data_present": false,
+  "database_input": null,
+  "historical_excel_input": null,
+  "same_basis_and_report_as_actual_saved_pair": true,
+  "tabular_fields": 23,
+  "adopted_fields": 11,
+  "events": 5,
+  "reproduction_steps": [
+    "Create a fresh source root and copy exactly the five CATALOG files from innlesning.forlopspilot, preserving relative names and bytes.",
+    "Read one immutable T1 capsule from tests/fixtures/t2/authentic-t1.json.gz with gzip.decompress.",
+    "Call analyse.forlopspilot.import_basis(new_root, t1_json=old_raw.decode(\"utf8\")), then build_report for 1429/1 + 1429/22 in 2024.",
+    "Assert basis_id/report_id equal the recorded values; no T2 source directory, DB or historical Excel is passed."
+  ]
+}

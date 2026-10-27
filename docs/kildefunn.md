@@ -322,3 +322,22 @@ før tekst, HTML, lokatorer og ID-er beregnes. Originalbyte og gamle ID-er skal
 beholdes; løsere sammenligning eller rehash av historiske filer er ikke løsningen.
 [CI-bevis, retting og kontrollgrenser](research/komitepilot-44/ci-newlines.md)
 skiller lokale regresjonsbevis fra full Linux-CI på ny head.
+
+
+## T3: eksakte foreldre og inventargrenser – 27. oktober 2026
+
+Ny bytekontroll under #46 bekrefter 341s 153 og 857s 1488 tabellrader.
+T3 får egen begrenset inventargrense 4096; T1/T2s 512-grense beholdes.
+341 gjelder budsjett 2024 selv om datoen er 19.12.2023. 857s komplette
+1429-blokk tr822–830 har ingen /22-beløpsrad før 1432 i tr831: bare dette
+fraværet er kontrollert; det gir ingen nullhendelse eller helårsbevis.
+
+Den gamle 857-fixturen har konvolutt-SHA `4113b987c8f939256d30ef6a4401cda358d9da90b5af19cbbbc37d0ec9d312b0`
+og oppgitt forelder 554e, som mangler i det bevarte grunnlaget. Samme komplette
+objektbyte finnes i den bevarte 66aa-forelderen ved `[2552391:3817852]`.
+T3 velger en uttrykkelig ny konvolutt med SHA
+`252544da8756b038d54f6e935323fb33227b7ef16ee4c540a1badb7c5245517f`.
+Kontrollfixturen/sidevognen er uendret og gir ingen ekstra hendelse. Ingen
+påstand om gjenlest 554e eller ny HTTP følger. 210 beholder 9cfe-proveniens
+og gamle felt i den autentiske T1-kapselen. [Kontrakt](forlopspilot.md),
+[varig kildegrunnlag og produktkontroll](research/forlopspilot-46/README.md).
