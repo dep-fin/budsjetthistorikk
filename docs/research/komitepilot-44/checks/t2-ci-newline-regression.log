@@ -1,0 +1,18 @@
+........................................................................ [ 26%]
+........................................................................ [ 52%]
+........................................................................ [ 79%]
+.........................................................                [100%]
+============================ slowest 12 durations =============================
+177.06s call     tests/test_komitepilot.py::test_union_selection_navigation_offline_and_legacy_objects
+18.50s call     tests/test_visningspilot.py::test_union_has_no_cross_product_years_stay_separate_and_offline_repeat_is_stable
+18.05s call     tests/test_visningspilot.py::test_new_statement_hierarchies_follow_original_sections_in_both_saved_views
+14.15s call     tests/test_komitepilot.py::test_new_authentic_368_is_independent_of_bad_t2_enrichment[failed]
+13.96s call     tests/test_komitepilot.py::test_new_authentic_368_is_independent_of_bad_t2_enrichment[missing]
+13.58s call     tests/test_komitepilot.py::test_new_authentic_368_is_independent_of_bad_t2_enrichment[contradictory]
+13.04s call     tests/test_komitepilot.py::test_new_authentic_368_is_independent_of_bad_t2_enrichment[corrupt]
+12.23s call     tests/test_visningspilot.py::test_new_authentic_decision_is_independent_of_four_bad_pilot_sources[missing]
+12.21s call     tests/test_visningspilot.py::test_new_authentic_decision_is_independent_of_four_bad_pilot_sources[failed]
+11.77s call     tests/test_omtale.py::test_explicit_cli_and_frozen_reexport_need_no_original_sources_or_database[o2b-html-pdf-1]
+11.74s call     tests/test_visningspilot.py::test_new_authentic_decision_is_independent_of_four_bad_pilot_sources[corrupt]
+11.73s call     tests/test_visningspilot.py::test_new_authentic_decision_is_independent_of_four_bad_pilot_sources[contradictory]
+273 passed in 1058.32s (0:17:38)

@@ -116,5 +116,9 @@ Et [autentisk uendret T1-testarkiv](../../../tests/fixtures/t2/README.md) gjør 
 reproduserbar fra GitHub uten gamle lokale outputs. Standalone bruker bare
 repoets originale T2-kilder og har ingen T1-/O2b-/Excel-/databasekrav.
 
+[CI-rettingen av historiske HTML-linjeskift](ci-newlines.md) dokumenterer den
+etterfølgende Linux-feilen, avgrenset parserretting, ferske regresjonsbevis og
+bevisgrensen frem til full CI på ny head. Tidligere journaler er bevart.
+
 Ingen faglig godkjenning, helårsdekning, kontinuitet eller drift følger.
 T3–T6/K1–K3 og #43s generelle oppfølginger har ikke byggemandat her.

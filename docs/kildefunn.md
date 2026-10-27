@@ -311,3 +311,14 @@ men bevarer ulike HTTP-observasjoner og representasjoner med egne identiteter.
 T1s arvede kapselkopier rapporteres separat. Konsekvens: ingen sammenligning
 ut fra samme beløp alene, ingen oppfunnet mindretallstrio og ingen fullmaktsramme
 som 315-bevilgning. K1s positive alternativport og #10s driftsaksept er åpne.
+
+## Historisk HTML: linjeskift ved O2/T1-gjenlesing
+
+**Kontrollert 27. oktober 2026 under T2s CI-løkke:** samme lxml 6.1.3 kan bruke
+ulike libxml2-versjoner på Windows og Linux. Rå CR/CRLF-normalisering avviker
+fra teksten i den autentiske gamle T1/O2b-kapselen. Streng rekonstruksjon må
+derfor bevare den historiske CR-betydningen ved de gamle parserinngangene,
+før tekst, HTML, lokatorer og ID-er beregnes. Originalbyte og gamle ID-er skal
+beholdes; løsere sammenligning eller rehash av historiske filer er ikke løsningen.
+[CI-bevis, retting og kontrollgrenser](research/komitepilot-44/ci-newlines.md)
+skiller lokale regresjonsbevis fra full Linux-CI på ny head.

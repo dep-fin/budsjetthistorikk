@@ -1,0 +1,156 @@
+{
+  "kind": "T2 #44 CI newline correction; local uncommitted candidate",
+  "local_base_head": "83b659c114cd1456718c28e12b6544e104e47c8c",
+  "published_base_head": "1898ef3fbd6a5e9da119ce72a002a06b41b2ef6a",
+  "base_tree": "6c2b35a5d561208758814fba20b56bbcbb523ef1",
+  "python": "3.12.14",
+  "lxml": [
+    6,
+    1,
+    3,
+    0
+  ],
+  "libxml2_runtime": [
+    2,
+    11,
+    9
+  ],
+  "libxml2_compiled": [
+    2,
+    11,
+    9
+  ],
+  "candidate_files": [
+    {
+      "file": ".github/workflows/check.yml",
+      "bytes": 750,
+      "sha256": "38d5ed102e6bdd1740f69be632b1fc4201a615b1e12d28ea6db2a7a0d4e919c2"
+    },
+    {
+      "file": "innlesning/legacy_html.py",
+      "bytes": 1639,
+      "sha256": "1bbb122cb8033eaf2466723432b59e846ea97351f906f685eb1dd4257f43efd9"
+    },
+    {
+      "file": "innlesning/omtale.py",
+      "bytes": 22557,
+      "sha256": "dc2e423dc41ae28f4585bf54d3bd11fd24209da8d02edac9e5e272ee04ef3ce1"
+    },
+    {
+      "file": "innlesning/visningspilot.py",
+      "bytes": 45382,
+      "sha256": "e6a698d3f2e4ffe275c1c7c4f6e97c95023b0971bbe4a3b2403b51ac4a198e12"
+    },
+    {
+      "file": "tests/test_legacy_html_newlines.py",
+      "bytes": 2759,
+      "sha256": "450647228b18ce9ff17e49eb98855589df032b73fa27b30944e15fac35c607a6"
+    }
+  ],
+  "authentic_t1_archive": {
+    "file": "tests/fixtures/t2/authentic-t1.json.gz",
+    "bytes": 2650562,
+    "sha256": "629c3561cca6f0ab2a5644958c7ae6590dd70775d688f40e134bda449e8982a6"
+  },
+  "authentic_t1_raw": {
+    "bytes": 7732250,
+    "sha256": "99e871e0ab780cbb548e15699f3093621d0f25229e3fa06c29cfdb5552803f53"
+  },
+  "final_candidate_checks": [
+    {
+      "kind": "fresh-process historical reader with native/normalized parser input; marker-like source text saved JSON/Excel",
+      "result": "3 passed",
+      "seconds": 11.27,
+      "log": "checks/t2-ci-newline-final.log"
+    },
+    {
+      "kind": "fresh-process whole T2 offline union/navigation plus rehashed T1/O2b file negatives",
+      "result": "14 passed",
+      "seconds": 206.0,
+      "union_call_seconds": 171.11,
+      "log": "checks/t2-ci-newline-final-union.log"
+    },
+    {
+      "kind": "all five distinct old HTML DOM serializations and locators vs native historical runtime",
+      "result": "5 identical",
+      "log": "checks/t2-ci-html-originals.log"
+    },
+    {
+      "kind": "ruff check/format, mypy and git diff check",
+      "result": "PASS; 112 formatted files, 63 typechecked source files",
+      "log": "checks/t2-ci-newline-static.log"
+    }
+  ],
+  "incremental_checks": [
+    {
+      "kind": "O2a/O2b/T1/T2 public file/independence/negative regression",
+      "result": "273 passed",
+      "seconds": 1058.32,
+      "log": "checks/t2-ci-newline-regression.log",
+      "boundary": "Started before the bounded reserve-marker choice and before the last synthetic test; not a whole final-candidate suite claim"
+    },
+    {
+      "kind": "authentic old O2a/O2b/B8/B9/T1/T2 JSON/Excel compatibility",
+      "result": "13 pairs read, 26 original files unchanged",
+      "log": "checks/t2-ci-old-compatibility.log",
+      "details": "ci-old-compatibility.json",
+      "boundary": "Read before the reserve-marker bound; final historical byte/field/DOM checks are recorded separately"
+    }
+  ],
+  "original_failed_ci": {
+    "run": 40518317553,
+    "job": 122237867165,
+    "result": "1070 passed, 1 error",
+    "seconds": 1149.47,
+    "kind": "ValueError in authentic old O2b reconstruction, not timeout",
+    "log": "checks/t2-ci-original-failure.log"
+  },
+  "limitations": [
+    "No final full Windows suite in this CI correction",
+    "No Linux/WSL execution locally; actual full Linux CI on the new published head is required",
+    "No commit, push, review, security audit or merge by this implementer",
+    "No changed original payloads, authentic archive pins, schema 5, IDs, comparison requirements or source interpretation; issue #10 remains open"
+  ],
+  "evidence_files": [
+    {
+      "file": "docs/research/komitepilot-44/checks/t2-ci-html-originals.log",
+      "bytes": 793,
+      "sha256": "9e99e211a3f0c535e30dccdf9e2766b094bebe19a705709c7004f2fdb190cfbc"
+    },
+    {
+      "file": "docs/research/komitepilot-44/checks/t2-ci-newline-final-union.log",
+      "bytes": 703,
+      "sha256": "2ee02fdf8385aad8b0b181e2ccbb3283c1b72c84439264f8089d065f8739160b"
+    },
+    {
+      "file": "docs/research/komitepilot-44/checks/t2-ci-newline-final.log",
+      "bytes": 556,
+      "sha256": "bf82c7678710a20783caed28aa2ca6b55735e0e243d561ac5a7a749c5bc822b3"
+    },
+    {
+      "file": "docs/research/komitepilot-44/checks/t2-ci-newline-regression.log",
+      "bytes": 1876,
+      "sha256": "8b0190e2d3c3800acc71f7e41fdac438e0cab7ef6546a8727fdeb4bd69fa97bf"
+    },
+    {
+      "file": "docs/research/komitepilot-44/checks/t2-ci-newline-static.log",
+      "bytes": 403,
+      "sha256": "622d60fd379268fd960ad91ba88596b901367e051410aff54b23b62110d7182b"
+    },
+    {
+      "file": "docs/research/komitepilot-44/checks/t2-ci-old-compatibility.log",
+      "bytes": 318,
+      "sha256": "c6750b6d6bcebb1c4d9f2f407257290ededceb7cd25dd733427e7f82bc84af56"
+    },
+    {
+      "file": "docs/research/komitepilot-44/checks/t2-ci-original-failure.log",
+      "bytes": 793,
+      "sha256": "e63cbc05fec9a078a7a72747a89580a21ce33bb001a08a9e7018060e4a407398"
+    },
+    {
+      "file": "docs/research/komitepilot-44/ci-old-compatibility.json",
+      "bytes": 5423,
+      "sha256": "af3d3a6b859e90b257f33643a24ca9e76abbd73e93d040f3e05639ca8e0d9746"
+    }
+  ]
+}

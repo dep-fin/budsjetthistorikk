@@ -1,0 +1,134 @@
+[
+  {
+    "kind": "ekte_tidligere_O2",
+    "name": "o2b-210-begge-poster-7e70506/begge",
+    "report_id": "ef508e79e8f55993893250ff96f9f1ac6b55138dfb58b634fdc3cec51b3b42ab",
+    "original_hashes": {
+      ".json": "96dbe2c089272a661a6c37b4e1eaee5a10d78629720916c55705ba16aff7397d",
+      ".xlsx": "34dea0f68eb3a1ec6eb33d5bf56bc7d04c519cb7f0be8a14d22897576a5aec84"
+    },
+    "unchanged": true
+  },
+  {
+    "kind": "ekte_tidligere_O2",
+    "name": "o2b-210-begge-poster-7e70506/post1",
+    "report_id": "978b86d0701fc4c030e9f5fbf738e1187bcca3c76fff112f366cff8abb043174",
+    "original_hashes": {
+      ".json": "0a22ad2c074a86898d6d264db6505b7b6bd6240578aa6846a3e5413d50760f07",
+      ".xlsx": "3b97f085ce4db4c909a06ba4f55873b204576ae13aff2ab7ead144471f5e77fc"
+    },
+    "unchanged": true
+  },
+  {
+    "kind": "ekte_tidligere_O2",
+    "name": "o2b-210-begge-poster-7e70506/post22",
+    "report_id": "51d209382fcb5fa69fc7ac38687a3a965b7754c4d11d44a0b2197e6088c24a22",
+    "original_hashes": {
+      ".json": "ce913130c81f837eda327ee1e0f008aad82aa029122c9a0a9c6c19690f9a6f9f",
+      ".xlsx": "a98a523020099d0d3964a569ccb7ce00fa2dc3a321255db2bd61f9a49317318b"
+    },
+    "unchanged": true
+  },
+  {
+    "kind": "ekte_tidligere_O2",
+    "name": "o2b-210-begge-poster-7e70506/tomt",
+    "report_id": "17ebed652bfc42eebf8f863706d6de6918fb0422b1cb3f84324a62187e273e87",
+    "original_hashes": {
+      ".json": "fac1b5c180baa57ef7f9114aabe855aafbd1cec1d3e7e1ed8725889c8e9ee84e",
+      ".xlsx": "08e46f0b589d606e2c5ac6cb90e71d1e1076f019d8e1391bf7729d2d58610721"
+    },
+    "unchanged": true
+  },
+  {
+    "kind": "ekte_tidligere_O2",
+    "name": "o2b-210-begge-poster-7e70506/offline",
+    "report_id": "ef508e79e8f55993893250ff96f9f1ac6b55138dfb58b634fdc3cec51b3b42ab",
+    "original_hashes": {
+      ".json": "96dbe2c089272a661a6c37b4e1eaee5a10d78629720916c55705ba16aff7397d",
+      ".xlsx": "cc4d5b68d29656d5358e4bc018645fa74ffdd5b62401bd5fb20f6f89e0471a4c"
+    },
+    "unchanged": true
+  },
+  {
+    "kind": "ekte_tidligere_O2",
+    "name": "o2b-210-begge-poster-7e70506/syntetisk-forslag",
+    "report_id": "d8f29ff8f136d5eeb01303ccc8cd5e34c126b809391980f34cbc9f29b5347485",
+    "original_hashes": {
+      ".json": "b65ae7e0bf42f4f699f75ee3f74be86e836a32e25b0b2d331603731456db111c",
+      ".xlsx": "440484fc0c3936c6753d40a4476ad5e5777e6a6143d67daa2342af1104132499"
+    },
+    "unchanged": true
+  },
+  {
+    "kind": "ekte_tidligere_O2",
+    "name": "o2a-210-post1-52f0545/omtale-210-post1",
+    "report_id": "22e216820b2b2d17fd43016d8be437a8cbdfaf4cbd8920b871aec0acd55d7143",
+    "original_hashes": {
+      ".json": "bd5666408115ce448a1c3ecf84242cade4c668ef507842e81eb5465c3bca7129",
+      ".xlsx": "3fc3f731970dccb47ce773e37a48c42be2c9b10cf7525c82826c6436fc7965e3"
+    },
+    "unchanged": true
+  },
+  {
+    "kind": "ekte_tidligere_O2",
+    "name": "o2a-210-post1-52f0545/offline-gjenlest",
+    "report_id": "22e216820b2b2d17fd43016d8be437a8cbdfaf4cbd8920b871aec0acd55d7143",
+    "original_hashes": {
+      ".json": "bd5666408115ce448a1c3ecf84242cade4c668ef507842e81eb5465c3bca7129",
+      ".xlsx": "f90cea2b72e62cf61816d3ad6f07a25ec4063a7d244eb2c57fb7713cd23ad5eb"
+    },
+    "unchanged": true
+  },
+  {
+    "kind": "ekte_tidligere_B8_B9_med_B6_kjerne",
+    "name": "vedtak-210-2026-10-22",
+    "report_id": "d0c677cee11fa8d38677c2afa581c5717145524f25323bc1a334c0a5d831b62c",
+    "original_hashes": {
+      ".json": "2d855c97abf6af30e6eb64817bfc50778f5f7ffb7deee56362ff8caf1e908cbe",
+      ".xlsx": "64f040412d0d9dabc3c4cec366c918bd8c5442ef5e2cb8f474797d247ec398cb"
+    },
+    "unchanged": true,
+    "standalone_original_B6_delivery": "ikke funnet; innebygd original B6-kjerne kontrollert"
+  },
+  {
+    "kind": "ekte_tidligere_B8_B9_med_B6_kjerne",
+    "name": "vedtak-210-13-kolonner-2026-10-22",
+    "report_id": "0a32261a3771621478d0616ae8733fdbd0085c4792a48f97cd42ea0ed2c79b86",
+    "original_hashes": {
+      ".json": "2aa9f79e1d3f103c2593ab18b171f7d2e3f431658507c14fc7aa603865fec32e",
+      ".xlsx": "88d877f490559a3dd5a1bee77af8c6107acaab55ec3ee8f4d04009ad0b4a456d"
+    },
+    "unchanged": true,
+    "standalone_original_B6_delivery": "ikke funnet; innebygd original B6-kjerne kontrollert"
+  },
+  {
+    "kind": "t1-41-608895f",
+    "name": "begge",
+    "report_id": "4d27c1e83524102cb29ff8b429fb262bb9861d4b024718e1edca90d457c6f17e",
+    "original_hashes": {
+      ".json": "99e871e0ab780cbb548e15699f3093621d0f25229e3fa06c29cfdb5552803f53",
+      ".xlsx": "d3c076d24e6b2a2247e759d234bb93eb747fcec3d47d2ccb574dca40227f29f4"
+    },
+    "unchanged": true
+  },
+  {
+    "kind": "t2-44-1898ef3",
+    "name": "standalone",
+    "report_id": "8a21b5a4c2bd0988fa32a6761538dd9bbc6faca1445af78d61427a901d134ef7",
+    "original_hashes": {
+      ".json": "9bd4b55ac227c8d6a016f438f116914d072a76bced95f8338dddecabb73b6469",
+      ".xlsx": "2ff60edbdaa5841f38cfc25d3ae315f15133573964b18cca4a17787706ffa913"
+    },
+    "unchanged": true
+  },
+  {
+    "kind": "t2-44-1898ef3",
+    "name": "union",
+    "report_id": "724ecfd8b9a54c03ba836a5bef1196d98ef73701dc48cc3bb3eff6f6482734f1",
+    "original_hashes": {
+      ".json": "595080f388c49486c568d0de9462062e950067fd236c72c990f9fe97649f0ca5",
+      ".xlsx": "3b276cb473e622c8ed2a995f2e38c41dd9877cc452522fd3099eec658b2bb4ac"
+    },
+    "unchanged": true
+  }
+]
