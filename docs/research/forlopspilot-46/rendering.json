@@ -1,0 +1,112 @@
+{
+  "engine": "Bundled Artifact Tool via Node; read-only importXlsx/render of actual XLSX",
+  "rendered_views": 16,
+  "artifacts": [
+    {
+      "render_set": "both",
+      "file": "docs/research/forlopspilot-46/previews/both/dekning.png",
+      "bytes": 136236,
+      "sha256": "7fffc7ee2ff1883bfbb78973707bdcf69ecc21119177ee19aac221b970e01097"
+    },
+    {
+      "render_set": "both",
+      "file": "docs/research/forlopspilot-46/previews/both/dokumenter.png",
+      "bytes": 100824,
+      "sha256": "bcb3fd6054909cfb729b822147a322bf3d82ce222c745ea02e4d048baa17b027"
+    },
+    {
+      "render_set": "both",
+      "file": "docs/research/forlopspilot-46/previews/both/forlop.png",
+      "bytes": 111062,
+      "sha256": "5a7446f6880d64acdefc4e04c163b338b0f6d16e281c9efc6a1d5fb98822a939"
+    },
+    {
+      "render_set": "both",
+      "file": "docs/research/forlopspilot-46/previews/both/kontroll.png",
+      "bytes": 85224,
+      "sha256": "51a1b0e6ecc8bd471c91893c5e86d7417c895cab5c8caa5d26d20027d734c912"
+    },
+    {
+      "render_set": "both",
+      "file": "docs/research/forlopspilot-46/previews/both/lange-felt.png",
+      "bytes": 25285,
+      "sha256": "ba7b71e66921a664427b79996b45f289e3b73fd2b90da012e666b07f7ef59bd5"
+    },
+    {
+      "render_set": "both",
+      "file": "docs/research/forlopspilot-46/previews/both/offline.png",
+      "bytes": 20653,
+      "sha256": "59bf3ec2940fd6363f6a1d1c6033668d12e827cbd24a5e742552ccc725e6140d"
+    },
+    {
+      "render_set": "both",
+      "file": "docs/research/forlopspilot-46/previews/both/omtale.png",
+      "bytes": 63630,
+      "sha256": "8e58817613355170568422326bb4bee2d56a8b997c7ffc6b945e0fbd9267ef46"
+    },
+    {
+      "render_set": "both",
+      "file": "docs/research/forlopspilot-46/previews/both/rnb-1429-hele-blokken.png",
+      "bytes": 184424,
+      "sha256": "a58a0dc791662040cff511ad0c35df00a4e5cf00a9aef245b8f849bea5ddfce1"
+    },
+    {
+      "render_set": "both",
+      "file": "docs/research/forlopspilot-46/previews/both/sammenligninger.png",
+      "bytes": 181042,
+      "sha256": "819e837c4927c3f0dccc960da2ab8191e969bab440b54e14b0fea29e84f58329"
+    },
+    {
+      "render_set": "empty",
+      "file": "docs/research/forlopspilot-46/previews/empty/dekning.png",
+      "bytes": 134204,
+      "sha256": "163e8d08efb8e6544c33eee5a1b30c9cd608b578ec549576f58348170878503f"
+    },
+    {
+      "render_set": "empty",
+      "file": "docs/research/forlopspilot-46/previews/empty/dokumenter.png",
+      "bytes": 100824,
+      "sha256": "bcb3fd6054909cfb729b822147a322bf3d82ce222c745ea02e4d048baa17b027"
+    },
+    {
+      "render_set": "empty",
+      "file": "docs/research/forlopspilot-46/previews/empty/forlop.png",
+      "bytes": 10918,
+      "sha256": "89bd2ef3e004271ca91d904679196d3169f0f767c096c4fdd8522ad6f3381ad4"
+    },
+    {
+      "render_set": "empty",
+      "file": "docs/research/forlopspilot-46/previews/empty/kontroll.png",
+      "bytes": 85224,
+      "sha256": "51a1b0e6ecc8bd471c91893c5e86d7417c895cab5c8caa5d26d20027d734c912"
+    },
+    {
+      "render_set": "empty",
+      "file": "docs/research/forlopspilot-46/previews/empty/offline.png",
+      "bytes": 20653,
+      "sha256": "59bf3ec2940fd6363f6a1d1c6033668d12e827cbd24a5e742552ccc725e6140d"
+    },
+    {
+      "render_set": "empty",
+      "file": "docs/research/forlopspilot-46/previews/empty/omtale.png",
+      "bytes": 63630,
+      "sha256": "8e58817613355170568422326bb4bee2d56a8b997c7ffc6b945e0fbd9267ef46"
+    },
+    {
+      "render_set": "empty",
+      "file": "docs/research/forlopspilot-46/previews/empty/sammenligninger.png",
+      "bytes": 10626,
+      "sha256": "cce4ffa08cad6b2f58fdf83aedd1475ac3da1a3b4a9283c57b32ad9b37a73deb"
+    }
+  ],
+  "visual_review": {
+    "Forløp": "Datoer 19.12.2023, 21.06.2024 og nysaldering; nivå/før/delta/etter og fortegn lesbare",
+    "Dokumenter": "153/1488 rader bevart; RNB-1429-blokk/kapittelgrense og delvis strukturering synlig",
+    "Omtale": "Nummererte lange kildetekst/HTML-felt; kildeindrykk/linjeskift beholdt; åpne celle for fulltekst",
+    "Sammenligninger": "12 nysalderingspar og to avgrensede regninger uten årsbalansegodkjenning",
+    "Dekning og avvik": "Null treff bevarer globalt inventar/avvik; gamle T1-hull har egen kapselmerking",
+    "Kontroll": "Tilgjengelig kilde-/payload-/observasjons-/kontekst-/relasjons-/regneregister",
+    "Offlinegrunnlag": "Én ordnet kanonisk snapshot; ingen ekstra råbase64-fane"
+  },
+  "native_excel_run": false
+}

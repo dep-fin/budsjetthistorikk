@@ -1,0 +1,479 @@
+{
+  "schema": "forlopspilot-46-verification-1",
+  "candidate": {
+    "candidate": "Uncommitted worktree on codex/t3-2024-forlop",
+    "base_commit": "c1cb156d50fb986794e2af8b20a131209e4707a7",
+    "base_tree": "ae70d77b07662bb0e01276237c8d802d98e00117",
+    "meaning": "Raw SHA-256 hashes actual Windows file bytes; LF SHA-256 and Git blob SHA-1 are separate",
+    "files": [
+      {
+        "file": "innlesning/forlopspilot_model.py",
+        "bytes": 1393,
+        "raw_sha256": "65fcf449fce0c7ebc048fd26e4f36496de4c011b8552359273cd915fe8e48209",
+        "lf_normalized_sha256": "65fcf449fce0c7ebc048fd26e4f36496de4c011b8552359273cd915fe8e48209",
+        "crlf_count": 0,
+        "git_clean_blob_sha1": "0cb468c7eb95131d043acd6b96f1886869379718",
+        "raw_blob_sha1": "0cb468c7eb95131d043acd6b96f1886869379718"
+      },
+      {
+        "file": "innlesning/forlopspilot.py",
+        "bytes": 25134,
+        "raw_sha256": "2a66def366ea59e24c0a35171b423e8265e1f17374bf1861f23ce44db9e17dd2",
+        "lf_normalized_sha256": "2a66def366ea59e24c0a35171b423e8265e1f17374bf1861f23ce44db9e17dd2",
+        "crlf_count": 0,
+        "git_clean_blob_sha1": "84d8ff8e7386b28ab01463451d64d82cdeb46290",
+        "raw_blob_sha1": "84d8ff8e7386b28ab01463451d64d82cdeb46290"
+      },
+      {
+        "file": "analyse/forlopspilot.py",
+        "bytes": 13562,
+        "raw_sha256": "35c107e641cbf359c3d29f37ee97945d9b448540ec7eb9beab22c0fd48577d7e",
+        "lf_normalized_sha256": "35c107e641cbf359c3d29f37ee97945d9b448540ec7eb9beab22c0fd48577d7e",
+        "crlf_count": 0,
+        "git_clean_blob_sha1": "e5cbad1b0278bea5088faac46348fb62c4d434b3",
+        "raw_blob_sha1": "e5cbad1b0278bea5088faac46348fb62c4d434b3"
+      },
+      {
+        "file": "analyse/forlopspilot_excel.py",
+        "bytes": 26948,
+        "raw_sha256": "56f8711b3eb60b98c1d695ac4a050ade7419bdfae451e63f9290aa5db9f14302",
+        "lf_normalized_sha256": "56f8711b3eb60b98c1d695ac4a050ade7419bdfae451e63f9290aa5db9f14302",
+        "crlf_count": 0,
+        "git_clean_blob_sha1": "8a161cc2f4c0d93dd8495bac35a704660e69faac",
+        "raw_blob_sha1": "8a161cc2f4c0d93dd8495bac35a704660e69faac"
+      },
+      {
+        "file": "tests/test_forlopspilot.py",
+        "bytes": 18311,
+        "raw_sha256": "5d8ed1b9027d1b6ae218d9b226eda97d0bab35cb3fa873c210bbf4a845d5b481",
+        "lf_normalized_sha256": "5d8ed1b9027d1b6ae218d9b226eda97d0bab35cb3fa873c210bbf4a845d5b481",
+        "crlf_count": 0,
+        "git_clean_blob_sha1": "b75291503f7ae019b1322f63ae3173230ed77cd0",
+        "raw_blob_sha1": "b75291503f7ae019b1322f63ae3173230ed77cd0"
+      },
+      {
+        "file": "ops/forlopspilot_proeve.py",
+        "bytes": 20900,
+        "raw_sha256": "9914b8f7b7836ceeff58b2842cc8ba3c56308fb99072a312a9bdb5d196333d2f",
+        "lf_normalized_sha256": "9914b8f7b7836ceeff58b2842cc8ba3c56308fb99072a312a9bdb5d196333d2f",
+        "crlf_count": 0,
+        "git_clean_blob_sha1": "6b76d0d2c44b9f782922ce38d2ede91210f802ef",
+        "raw_blob_sha1": "6b76d0d2c44b9f782922ce38d2ede91210f802ef"
+      },
+      {
+        "file": "ops/render_forlopspilot.mjs",
+        "bytes": 2149,
+        "raw_sha256": "39c7282f2a424ad1504c20b59ae0427c95a45e6d52ac863c9669b7f7a55c9aad",
+        "lf_normalized_sha256": "39c7282f2a424ad1504c20b59ae0427c95a45e6d52ac863c9669b7f7a55c9aad",
+        "crlf_count": 0,
+        "git_clean_blob_sha1": "c2c5dd0efc8c4098f4c368a3ed3f459feedfcb8e",
+        "raw_blob_sha1": "c2c5dd0efc8c4098f4c368a3ed3f459feedfcb8e"
+      }
+    ]
+  },
+  "delivery_root": "work/t3-delivery/20261027-builder-04",
+  "manifest": {
+    "file": "docs/research/forlopspilot-46/delivery-manifest.json",
+    "bytes": 221980,
+    "sha256": "40230e7125c92e07355e1134f4e1e1cae84be47957b8826c50f4b2932b33f7a5"
+  },
+  "source_audit": {
+    "file": "docs/research/forlopspilot-46/source-audit.json",
+    "bytes": 3318,
+    "sha256": "27d4c9b51a4836ffa318c68d31ef46b34298af5590cc68ab91f70edd20f29406"
+  },
+  "rendering": {
+    "file": "docs/research/forlopspilot-46/rendering.json",
+    "bytes": 4468,
+    "sha256": "269511fab7697d1e1e25368c561d6b28a204379b4daa97b2c42e453141bed738"
+  },
+  "artifact_run": {
+    "command": "python -m ops.forlopspilot_proeve --output work/t3-delivery/20261027-builder-04 --previous-root C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk --legacy-b6 C:/Users/marti/Documents/Codex/2026-10-20/fortsett-med-6-i-depmartin-budsjetthistorikk/work/b6/work/accept-b6.xlsx",
+    "exit_code": 0,
+    "seconds": 421.579,
+    "manifest_files": 225,
+    "selection_pairs": 20,
+    "public_cli_offline_pair": true,
+    "four_independence_empty_pairs": 4,
+    "positive_new_pairs_total": 25,
+    "rehashed_negative_pairs": 14,
+    "negative_presentation_books": 4,
+    "compatibility_pairs": 27,
+    "separate_legacy_b6_book": 1
+  },
+  "checks": [
+    {
+      "command": "python -m ruff check .",
+      "exit_code": 0,
+      "evidence": {
+        "file": "docs/research/forlopspilot-46/checks/t3-ruff.log",
+        "bytes": 20,
+        "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0"
+      }
+    },
+    {
+      "command": "python -m ruff format --check .",
+      "exit_code": 0,
+      "python_files": 118,
+      "evidence": {
+        "file": "docs/research/forlopspilot-46/checks/t3-format.log",
+        "bytes": 29,
+        "sha256": "06f2af46de0501838a138d689fc2583da4e1f7991e6ccad07c5bd163de5d6038"
+      }
+    },
+    {
+      "command": "python -m mypy",
+      "exit_code": 0,
+      "source_files": 67,
+      "evidence": {
+        "file": "docs/research/forlopspilot-46/checks/t3-mypy.log",
+        "bytes": 45,
+        "sha256": "bbb056d74047c9da539a491357402c09020761ff6911e560d1fc89951f972115"
+      }
+    },
+    {
+      "kind": "all_225_manifest_files_rehashed",
+      "unchanged": true
+    },
+    {
+      "kind": "local_markdown_links",
+      "checked_files": 11,
+      "missing": []
+    },
+    {
+      "kind": "valid_complete_T3_from_only_five_T3_source_files_and_one_T1_capsule",
+      "t2_315_data_present": false,
+      "database_input": null,
+      "historical_excel_input": null,
+      "evidence": "docs/research/forlopspilot-46/dependency-proof.json"
+    },
+    {
+      "kind": "seven_code_test_ops_files_unchanged_after_full_suite",
+      "unchanged": true
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "evidence": {
+        "file": "docs/research/forlopspilot-46/checks/t3-diff.log",
+        "bytes": 439,
+        "sha256": "c6719e0012100acea97b753965051b9e8e9c1b8d93af12e39f7c37214715a437"
+      }
+    },
+    {
+      "kind": "after_fullsuite_integrity",
+      "manifest_files": 225,
+      "old_originals": 55,
+      "dependency_files": 5,
+      "preview_images": 16,
+      "code_files": 7,
+      "all_unchanged": true
+    },
+    {
+      "kind": "final_local_document_links_and_JSON",
+      "markdown_files": 11,
+      "missing_links": [],
+      "json_decoding": "passed",
+      "unexpected_unicode_replacement_characters": 0
+    },
+    {
+      "kind": "git_state",
+      "branch": "codex/t3-2024-forlop",
+      "head": "c1cb156d50fb986794e2af8b20a131209e4707a7",
+      "index_empty": true,
+      "builder_committed_or_pushed": false
+    }
+  ],
+  "fullsuite": {
+    "status": "passed",
+    "exit_code": 0,
+    "command": "python -m pytest -vv --durations=20 --basetemp work/t3-full-final-20261027 --junitxml work/t3-delivery/20261027-builder-04/full-tests.xml",
+    "tests": 1120,
+    "passed": 1118,
+    "skipped": 2,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 1512.221,
+    "pytest_log_seconds": 1512.57,
+    "pytest_timestamp_as_recorded": "2026-10-27T17:47:50.166929+01:00",
+    "T3_tests": 46,
+    "T3_passed": 46,
+    "T3_seconds_including_fixtures": 153.345,
+    "skips": [
+      {
+        "test": "tests.test_b7_operations::test_symbolic_database_path_uses_same_os_lock_as_canonical_file",
+        "message": "Windows-kontoen har ikke rett til å opprette symbolske lenker"
+      },
+      {
+        "test": "tests.test_historical_cli::test_public_runner_protects_control_reference_aliases[hardlink]",
+        "message": "Hardlink er utilgjengelig på verten: [WinError 5] Access is denied: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t3-forlop\\\\work\\\\t3-full-final-20261027\\\\test_public_runner_protects_co1\\\\out\\\\summary.json' -> 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t3-forlop\\\\work\\\\t3-full-final-20261027\\\\test_public_runner_protects_co1\\\\reference.json'"
+      }
+    ],
+    "log": {
+      "file": "docs/research/forlopspilot-46/checks/t3-full-final.log",
+      "bytes": 164394,
+      "sha256": "96f0b4d307611d826357c17626e304199b0a19dcce034d303956d2cdcc05bf58"
+    },
+    "junit": {
+      "file": "work/t3-delivery/20261027-builder-04/full-tests.xml",
+      "bytes": 192453,
+      "sha256": "dbfe13e6b59dda523096a44084064e45d963176b59401c63de53940b69e4c4ce"
+    },
+    "linux_ci_run": false,
+    "workflow_timeout_minutes_unchanged": 30
+  },
+  "serialized_objects": {
+    "new": {
+      "serialized_observation_objects": 5,
+      "unique_observations": 5,
+      "observation_occurrences": {
+        "b72cf60b786b39a92f55566c74b0ad06cf1d9065ebbe321292f5feeb0134454a": 1,
+        "e85aba023baaffb585fb243a2be1964c53c6fe4403962de03bdc18ee83b7b665": 1,
+        "859ccc59fbad7878b915d937f94bccc24d7f92cfaefa356f7ba10c301c054ab2": 1,
+        "efd48101f96d1d941e3191c9287cbd92c50bf1f4854554ad62b523acbe14bff2": 1,
+        "35450ec1615a27fb9e9cc6b2da935f01883e45ecc4df121b7888ad9248bb17a3": 1
+      },
+      "payload_occurrences": {
+        "d083055643de38008fa373e54ea556cb06f5348f5d7d4978a323bba25e3f303f": 1,
+        "56372509ffb4d04a7a265b969932327872b54d0279e43dfb762ef76f24b0f743": 1,
+        "1f8a76b53c3e31b389561f95e01a009b29ccdf2eabc902bed6fd22ee4accee9d": 1,
+        "4113b987c8f939256d30ef6a4401cda358d9da90b5af19cbbbc37d0ec9d312b0": 1,
+        "88da1ed5332372eba1a861111cf374da55133de1419aaa58d8c7e7b66afd502f": 1
+      },
+      "serialized_raw_payloads": 5,
+      "unique_raw_hashes": 5
+    },
+    "legacy": {
+      "serialized_observation_objects": 36,
+      "unique_observations": 18,
+      "observation_occurrences": {
+        "4ace7b42e5c7c522655ef3d8e18f832290b63d829bf8634810bad37f42b2be96": 4,
+        "f22283ad6cdeef6edfc78e01c498d1f56ce9b230a16376eee379a3a0e9d2780a": 4,
+        "06c25431aec719ed34478b89ee4e6f17751cce932221cae90e436850d86952b9": 4,
+        "d736250e6b842c25f8ad55e52dd5f82fd7be491d4e84bb7d63cddf413c10a2dd": 4,
+        "8f2ff2a8ca4818c8b0aae65019058dcdffa943764b480fa71f1401b095de81b7": 4,
+        "e3fb685f7c234609c5451b89ef0901ca27b7b6228f9c6d9f9f7adf1c37a08da6": 4,
+        "a66096a14ffb852fed459f4e18b1364dae925aeef8a1a7cf3d9bd66d5de1c9cb": 1,
+        "32b1b4a7030cef1eb0865262efe7efc647975d9aed6f46019a071b3b80790a4f": 1,
+        "125d6045103116c71b4f52f687ae08b9f008124b16773e82703baf179e293551": 1,
+        "6e3ffd3f5c5428fe9955b06692a52b48ab81362fe0a55c812a32c2a5a5a14d34": 1,
+        "9b6cc7ffbbfa07ec95ae8c39fee8bd5ee28e67c14f266a58ea1db3d18c0b7c37": 1,
+        "f490d3fd88b9c4c09ed11d254c5dc5685de9b7eb57d5bb1f7f585ead490d5eb0": 1,
+        "2d1a026f342a8ac9caabbb19da3721fa3001ef21b07c493f3c70c150197f1343": 1,
+        "71607b517070a7ca0484ddb05a1748b20ff817e07f915a459ad62c4eefe57b91": 1,
+        "d4238704f5617e9cd4e7cc19ffac654e39915011e048e0721f04343bf591cddb": 1,
+        "399a2d8531346dfb3494ec2b7781ed6c1aa2921193bab258aae34ae26d4ca620": 1,
+        "48bc2a5e1de11b119b81ad7ad2172a52bb7b66034c3e9eb1b0326c6d9f43c32a": 1,
+        "64e5d32aaa7fb65100252d8357c2832c49cdf20685e77a7cfeb76ccd40b45c1d": 1
+      },
+      "payload_occurrences": {
+        "677716056269c07b8ec81bcae91d814b975123791635548281038d9beb3aa5db": 1,
+        "258d26e6d324bde709bf3d1cb660d7eb6f4248f537d4b0c77e095f17697cf8df": 1,
+        "ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e": 2,
+        "5a29d0553991759d8ddc234899647e9e6b5e1f2885bf13edccfb26105a6be496": 1,
+        "e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95": 2,
+        "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+        "2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850": 1,
+        "1b43cc3e77fb8b216d3d0bd2d51739c4200b38aabcdac907afcdf47d0218a79b": 1,
+        "2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27": 1,
+        "07b85b79438fa1cfcc8774c36291fc28d0cfdc7d429ca82e1e5810bca89ac895": 1,
+        "7502f2f565048f1b0954cb4cb132183d0bc5ec362ba74e14de877df36003a7d4": 1,
+        "cf9397ad44be04796cf3ed95765cddb165b0193fe071b4e1a6b629566aa82363": 1,
+        "5f253a556d2ac512570899252b396bc38f068de5f4bd6820178e7de8ce41f3eb": 1,
+        "6e0e37551b00da15c262e8ba2e40e8b21abba96d3b47acc57e41b908024d9def": 1,
+        "3a8f0918a3fcce90bf2c93f3ce972c3de7277c76e27e5ef563d6c43384cf2af2": 1,
+        "67033cce596b33ccb7f2cd459a6df7af98d44836292f0675d308797a888ba04c": 1,
+        "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+        "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1,
+        "ae61227fa83adf04fb45956b1bd714a75592bbc1d6c70da300e554afef806aa6": 1,
+        "7a78167c7eafc500938e4ac39d8ed9febec1f6e7e6ce337acc4b7a58d0d14635": 1,
+        "6b2dd282d4c1bffff15063907bc6c3d5948279c7898f7caf7291d7a140de6816": 1
+      },
+      "serialized_raw_payloads": 23,
+      "unique_raw_hashes": 21
+    }
+  },
+  "limitations": [
+    "Ingen fullårsdekning, godkjent årsbalanse, kontinuitet eller drift; #10 åpen",
+    "Gamle T1-kapselkopier er uendret og telt separat",
+    "857s opprinnelige 554e-fullrespons mangler; kontrollobjekt er bevart",
+    "Selvstendig gammel frozen-v1-rapport-JSON ikke funnet",
+    "Ingen native Excel-prøve; Artifact Tool-rendering gjøres separat"
+  ],
+  "publication": {
+    "builder_committed": false,
+    "builder_pushed": false,
+    "builder_reviewed_or_security_audited": false,
+    "linux_ci_run": false,
+    "merge_done_by_builder": false,
+    "owner_authorized_orchestrator_publication_and_merge": true
+  },
+  "status": "Local implementation and all builder checks complete; independent review/audit and Linux CI/merge remain with orchestrator",
+  "durable_evidence": [
+    {
+      "file": "docs/research/forlopspilot-46/aksept.md",
+      "bytes": 5054,
+      "sha256": "e6051d21cb9e48afd1ce2fb2725bbd3c67c68487a3537bb6fc69c663bd5be742"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/candidate-code.json",
+      "bytes": 3302,
+      "sha256": "9337440ae8ba3cc6c1234618a76fc202316ef51d9027a555357dfcc739990e80"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/checks/t3-diff.log",
+      "bytes": 439,
+      "sha256": "c6719e0012100acea97b753965051b9e8e9c1b8d93af12e39f7c37214715a437"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/checks/t3-format.log",
+      "bytes": 29,
+      "sha256": "06f2af46de0501838a138d689fc2583da4e1f7991e6ccad07c5bd163de5d6038"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/checks/t3-full-final.log",
+      "bytes": 164394,
+      "sha256": "96f0b4d307611d826357c17626e304199b0a19dcce034d303956d2cdcc05bf58"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/checks/t3-mypy.log",
+      "bytes": 45,
+      "sha256": "bbb056d74047c9da539a491357402c09020761ff6911e560d1fc89951f972115"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/checks/t3-ruff.log",
+      "bytes": 20,
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/delivery-manifest.json",
+      "bytes": 221980,
+      "sha256": "40230e7125c92e07355e1134f4e1e1cae84be47957b8826c50f4b2932b33f7a5"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/dependency-proof.json",
+      "bytes": 2256,
+      "sha256": "604ba66ddb57311d1ece5b9eeafe5d4ddc3f1d579f199de19ba33e34f8901f2b"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/OVERLEVERING.md",
+      "bytes": 6970,
+      "sha256": "3d871f31083769267b1b270315845583aaa6b40ae8f1bdd8c63f21e8aa79f232"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/previews/both/dekning.png",
+      "bytes": 136236,
+      "sha256": "7fffc7ee2ff1883bfbb78973707bdcf69ecc21119177ee19aac221b970e01097"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/previews/both/dokumenter.png",
+      "bytes": 100824,
+      "sha256": "bcb3fd6054909cfb729b822147a322bf3d82ce222c745ea02e4d048baa17b027"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/previews/both/forlop.png",
+      "bytes": 111062,
+      "sha256": "5a7446f6880d64acdefc4e04c163b338b0f6d16e281c9efc6a1d5fb98822a939"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/previews/both/kontroll.png",
+      "bytes": 85224,
+      "sha256": "51a1b0e6ecc8bd471c91893c5e86d7417c895cab5c8caa5d26d20027d734c912"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/previews/both/lange-felt.png",
+      "bytes": 25285,
+      "sha256": "ba7b71e66921a664427b79996b45f289e3b73fd2b90da012e666b07f7ef59bd5"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/previews/both/offline.png",
+      "bytes": 20653,
+      "sha256": "59bf3ec2940fd6363f6a1d1c6033668d12e827cbd24a5e742552ccc725e6140d"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/previews/both/omtale.png",
+      "bytes": 63630,
+      "sha256": "8e58817613355170568422326bb4bee2d56a8b997c7ffc6b945e0fbd9267ef46"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/previews/both/rnb-1429-hele-blokken.png",
+      "bytes": 184424,
+      "sha256": "a58a0dc791662040cff511ad0c35df00a4e5cf00a9aef245b8f849bea5ddfce1"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/previews/both/sammenligninger.png",
+      "bytes": 181042,
+      "sha256": "819e837c4927c3f0dccc960da2ab8191e969bab440b54e14b0fea29e84f58329"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/previews/empty/dekning.png",
+      "bytes": 134204,
+      "sha256": "163e8d08efb8e6544c33eee5a1b30c9cd608b578ec549576f58348170878503f"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/previews/empty/dokumenter.png",
+      "bytes": 100824,
+      "sha256": "bcb3fd6054909cfb729b822147a322bf3d82ce222c745ea02e4d048baa17b027"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/previews/empty/forlop.png",
+      "bytes": 10918,
+      "sha256": "89bd2ef3e004271ca91d904679196d3169f0f767c096c4fdd8522ad6f3381ad4"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/previews/empty/kontroll.png",
+      "bytes": 85224,
+      "sha256": "51a1b0e6ecc8bd471c91893c5e86d7417c895cab5c8caa5d26d20027d734c912"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/previews/empty/offline.png",
+      "bytes": 20653,
+      "sha256": "59bf3ec2940fd6363f6a1d1c6033668d12e827cbd24a5e742552ccc725e6140d"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/previews/empty/omtale.png",
+      "bytes": 63630,
+      "sha256": "8e58817613355170568422326bb4bee2d56a8b997c7ffc6b945e0fbd9267ef46"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/previews/empty/sammenligninger.png",
+      "bytes": 10626,
+      "sha256": "cce4ffa08cad6b2f58fdf83aedd1475ac3da1a3b4a9283c57b32ad9b37a73deb"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/README.md",
+      "bytes": 7768,
+      "sha256": "c954c51200976f52688c5e7435ff87f00fe38dcaa2c38d6ee7830ac6677452d1"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/render-both.json",
+      "bytes": 4380,
+      "sha256": "b5fa3edd47cb591ae5f0d8995ba360d767a9e854e4c27fa27530bd8cf93709e0"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/render-empty.json",
+      "bytes": 2978,
+      "sha256": "2640f5bccae5463ac0b8dd999ec24fcb14ba20236031545cc2a87186dcaf11f2"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/rendering.json",
+      "bytes": 4468,
+      "sha256": "269511fab7697d1e1e25368c561d6b28a204379b4daa97b2c42e453141bed738"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/source-audit.json",
+      "bytes": 3318,
+      "sha256": "27d4c9b51a4836ffa318c68d31ef46b34298af5590cc68ab91f70edd20f29406"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/source-findings.md",
+      "bytes": 14235,
+      "sha256": "9f7a2213ad8e6a7da72b9cbf09ba1eb45e38b5aa7d4110986d2e974313fb1da6"
+    },
+    {
+      "file": "docs/research/forlopspilot-46/tdd-journal.md",
+      "bytes": 4585,
+      "sha256": "96078be494a79516f4a71f019b1a37b325e318209e529bd134671d3c45fbe78d"
+    }
+  ]
+}

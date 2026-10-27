@@ -250,3 +250,14 @@ Hovedvisningen grupperer bare kompatible observasjoner fra samme eksakte kilde-/
 [#34-kontrakten](omtale-pilot.md) ble dokumentert før produktkode. `innlesning.omtale.import_omtale(root, supporting_root, extractor=...)` bevarer seks komplette O1-originaler og fire støttefiler, strukturerer P1/K1/KS/KT/V/PT med kildehash, lokator, fulltekst og hierarki og lager et selvforsynt `OmtaleBasis`. Ingen hoveddatabase åpnes eller endres. `analyse.omtale.build_report` binder det til en uendret frosset B8-rapport og de eksakte eksisterende post 1-observasjonene/`step_id`. Før/endring/etter er fortsatt tre observasjoner av én hendelse.
 
 `omtale-pilot-1` har egne strenge lesere og separat opt-in-CLI. Frosset JSON og faktisk Excel gjenleses mot originalbyte, lokatorer, hierarki, roller og relasjonsbelegg. Hele inventaret og globale avvik består før filtre. B9s Historikk har fortsatt 13 kolonner; B6/B7/B8-formater, gamle ID-er, schema 5 og ordinær vedtaksinnlesning er uendret. Teknisk kildeverifisert relasjon gir ingen faglig godkjenning eller årsdekning. #35/O2b krever eget videre mandat; #10 står åpen.
+
+
+## T3 – separat konto-/årsforløp
+
+[#46](https://github.com/depmartin/budsjetthistorikk/issues/46) har egen
+[visningspilot-3-kontrakt](forlopspilot.md), fastsatt før produktkode.
+Fem nye 341-/857-felt og én validert uendret T1-kapsel gir det avgrensede
+2024-forløpet, med separate beregningsobjekter og streng offline JSON-/Excel-leser.
+Ingen hoveddatabase, gammelt format, ID, parserbetydning, B5 eller standardvalg
+endres. [Kilde-/filkontrollen](research/forlopspilot-46/README.md) avgrenser
+utførte bevis fra generell årsdekning og orkestratorens leveringsporter.

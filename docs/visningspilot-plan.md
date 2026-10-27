@@ -9,6 +9,12 @@ og T2/#44 med grønn CI og merge. T2s [separate kontrakt](komitepilot.md) og
 T1-union. Resten av denne planen er historisk forslag; T3–T6/K1–K3 og generell
 faneopprydding har ikke byggemandat. #10 er fortsatt åpen.
 
+Eieren har senere 27. oktober bestilt det avgrensede T3-snittet som [#46](https://github.com/depmartin/budsjetthistorikk/issues/46),
+med publisering, CI til grønt og merge. [T3-kontrakten](forlopspilot.md) fastsetter
+før-kode-grensen; [kontroll og overlevering](research/forlopspilot-46/README.md)
+skiller lokal aksept fra orkestratorens review-/CI-/mergeporter. T4–T6/K1–K3
+og generell faneopprydding krever fortsatt egne mandater.
+
 ## Problemet som første snitt løser
 
 Brukeren skal kunne åpne et helt dokument og gå videre til en berørt konto, eller velge konto og år og gå videre til dokumentene. Begge veier skal vise de samme kildeopplysningene og bevare hele dokumentets inventar. Dagens postomtale kan ikke brukes som om den allerede importerte alle forslagstall eller hele dokumentet.

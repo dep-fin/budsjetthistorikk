@@ -10,6 +10,8 @@ Ved videre arbeid med T1/#41: les [den separate visningspilotkontrakten](docs/vi
 
 Før T2/315/78, kildegjenbruk eller lesing av visningspilot-2: les [T2-kontrakten](docs/komitepilot.md) og [kilde-/filkontrollen](docs/research/komitepilot-44/README.md). Standalone krever ingen T1-data; valgfri T1-union bevarer én gammel kapsel og gjenbruker ID-er/payloadreferanser.
 
+Før 341→857→210, lokal 2024-regning eller visningspilot-3: les [T3-kontrakten](docs/forlopspilot.md) og [kilde-/filkontrollen](docs/research/forlopspilot-46/README.md). 857s nye 66aa-avledning og gamle 554e-kontroll er separate representasjoner. Avgrenset regning er ingen årsdekning eller årsbalansegodkjenning.
+
 ## Agent skills
 
 ### Issue tracker

@@ -1,0 +1,45 @@
+{
+  "input": "work/t3-delivery/20261027-builder-04/empty.xlsx",
+  "mode": "empty",
+  "readOnly": true,
+  "views": [
+    {
+      "sheetName": "Forløp",
+      "range": "A1:K3",
+      "file": "work\\t3-delivery\\20261027-builder-04\\render-empty\\forlop.png"
+    },
+    {
+      "sheetName": "Dokumenter",
+      "range": "A1:L8",
+      "file": "work\\t3-delivery\\20261027-builder-04\\render-empty\\dokumenter.png"
+    },
+    {
+      "sheetName": "Omtale",
+      "range": "B1:I6",
+      "file": "work\\t3-delivery\\20261027-builder-04\\render-empty\\omtale.png"
+    },
+    {
+      "sheetName": "Sammenligninger",
+      "range": "A1:J3",
+      "file": "work\\t3-delivery\\20261027-builder-04\\render-empty\\sammenligninger.png"
+    },
+    {
+      "sheetName": "Dekning og avvik",
+      "range": "A1:B30",
+      "file": "work\\t3-delivery\\20261027-builder-04\\render-empty\\dekning.png"
+    },
+    {
+      "sheetName": "Kontroll",
+      "range": "A1:K8",
+      "file": "work\\t3-delivery\\20261027-builder-04\\render-empty\\kontroll.png"
+    },
+    {
+      "sheetName": "Offlinegrunnlag",
+      "range": "A1:B3",
+      "file": "work\\t3-delivery\\20261027-builder-04\\render-empty\\offline.png"
+    }
+  ],
+  "inspection": "{\"kind\":\"sheet\",\"id\":\"ws/bl2hxu\",\"name\":\"Forløp\",\"index\":0,\"range\":\"A1:N1\",\"address\":\"A1:N1\"}\n{\"kind\":\"sheet\",\"id\":\"ws/4gyt2b\",\"name\":\"Dokumenter\",\"index\":1,\"range\":\"A1:Q1706\",\"address\":\"A1:Q1706\"}\n{\"kind\":\"sheet\",\"id\":\"ws/mkwlfb\",\"name\":\"Omtale\",\"index\":2,\"range\":\"A1:N98\",\"address\":\"A1:N98\"}\n{\"kind\":\"sheet\",\"id\":\"ws/m09bqs\",\"name\":\"Sammenligninger\",\"index\":3,\"range\":\"A1:N1\",\"address\":\"A1:N1\"}\n{\"kind\":\"sheet\",\"id\":\"ws/m1j9el\",\"name\":\"Dekning og avvik\",\"index\":4,\"range\":\"A1:B33\",\"address\":\"A1:B33\"}\n{\"kind\":\"sheet\",\"id\":\"ws/3k7i2i\",\"name\":\"Kontroll\",\"index\":5,\"range\":\"A1:K80\",\"address\":\"A1:K80\"}\n{\"kind\":\"sheet\",\"id\":\"ws/wgrnhe\",\"name\":\"Offlinegrunnlag\",\"index\":6,\"range\":\"A1:B435\",\"address\":\"A1:B435\"}",
+  "amountInspection": "{\"kind\":\"table\",\"sheet\":\"Forløp\",\"address\":\"A1:K10\",\"rows\":10,\"cols\":11,\"values\":[[\"Konto\",\"Budsjettår\",\"Dokument\",\"Dato\",\"Runde / stadium\",\"Avsender\",\"Nivå kr\",\"Før kr\",\"Endring kr\",\"Etter kr\",\"Status\"],[null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null]]}",
+  "source_render_json_sha256": "5e32ecd8bcb41bfe754f823f6bee931ecd01402c515e2ddca525bd4e97a7be63"
+}

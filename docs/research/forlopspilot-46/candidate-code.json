@@ -1,0 +1,71 @@
+{
+  "candidate": "Uncommitted worktree on codex/t3-2024-forlop",
+  "base_commit": "c1cb156d50fb986794e2af8b20a131209e4707a7",
+  "base_tree": "ae70d77b07662bb0e01276237c8d802d98e00117",
+  "meaning": "Raw SHA-256 hashes actual Windows file bytes; LF SHA-256 and Git blob SHA-1 are separate",
+  "files": [
+    {
+      "file": "innlesning/forlopspilot_model.py",
+      "bytes": 1393,
+      "raw_sha256": "65fcf449fce0c7ebc048fd26e4f36496de4c011b8552359273cd915fe8e48209",
+      "lf_normalized_sha256": "65fcf449fce0c7ebc048fd26e4f36496de4c011b8552359273cd915fe8e48209",
+      "crlf_count": 0,
+      "git_clean_blob_sha1": "0cb468c7eb95131d043acd6b96f1886869379718",
+      "raw_blob_sha1": "0cb468c7eb95131d043acd6b96f1886869379718"
+    },
+    {
+      "file": "innlesning/forlopspilot.py",
+      "bytes": 25134,
+      "raw_sha256": "2a66def366ea59e24c0a35171b423e8265e1f17374bf1861f23ce44db9e17dd2",
+      "lf_normalized_sha256": "2a66def366ea59e24c0a35171b423e8265e1f17374bf1861f23ce44db9e17dd2",
+      "crlf_count": 0,
+      "git_clean_blob_sha1": "84d8ff8e7386b28ab01463451d64d82cdeb46290",
+      "raw_blob_sha1": "84d8ff8e7386b28ab01463451d64d82cdeb46290"
+    },
+    {
+      "file": "analyse/forlopspilot.py",
+      "bytes": 13562,
+      "raw_sha256": "35c107e641cbf359c3d29f37ee97945d9b448540ec7eb9beab22c0fd48577d7e",
+      "lf_normalized_sha256": "35c107e641cbf359c3d29f37ee97945d9b448540ec7eb9beab22c0fd48577d7e",
+      "crlf_count": 0,
+      "git_clean_blob_sha1": "e5cbad1b0278bea5088faac46348fb62c4d434b3",
+      "raw_blob_sha1": "e5cbad1b0278bea5088faac46348fb62c4d434b3"
+    },
+    {
+      "file": "analyse/forlopspilot_excel.py",
+      "bytes": 26948,
+      "raw_sha256": "56f8711b3eb60b98c1d695ac4a050ade7419bdfae451e63f9290aa5db9f14302",
+      "lf_normalized_sha256": "56f8711b3eb60b98c1d695ac4a050ade7419bdfae451e63f9290aa5db9f14302",
+      "crlf_count": 0,
+      "git_clean_blob_sha1": "8a161cc2f4c0d93dd8495bac35a704660e69faac",
+      "raw_blob_sha1": "8a161cc2f4c0d93dd8495bac35a704660e69faac"
+    },
+    {
+      "file": "tests/test_forlopspilot.py",
+      "bytes": 18311,
+      "raw_sha256": "5d8ed1b9027d1b6ae218d9b226eda97d0bab35cb3fa873c210bbf4a845d5b481",
+      "lf_normalized_sha256": "5d8ed1b9027d1b6ae218d9b226eda97d0bab35cb3fa873c210bbf4a845d5b481",
+      "crlf_count": 0,
+      "git_clean_blob_sha1": "b75291503f7ae019b1322f63ae3173230ed77cd0",
+      "raw_blob_sha1": "b75291503f7ae019b1322f63ae3173230ed77cd0"
+    },
+    {
+      "file": "ops/forlopspilot_proeve.py",
+      "bytes": 20900,
+      "raw_sha256": "9914b8f7b7836ceeff58b2842cc8ba3c56308fb99072a312a9bdb5d196333d2f",
+      "lf_normalized_sha256": "9914b8f7b7836ceeff58b2842cc8ba3c56308fb99072a312a9bdb5d196333d2f",
+      "crlf_count": 0,
+      "git_clean_blob_sha1": "6b76d0d2c44b9f782922ce38d2ede91210f802ef",
+      "raw_blob_sha1": "6b76d0d2c44b9f782922ce38d2ede91210f802ef"
+    },
+    {
+      "file": "ops/render_forlopspilot.mjs",
+      "bytes": 2149,
+      "raw_sha256": "39c7282f2a424ad1504c20b59ae0427c95a45e6d52ac863c9669b7f7a55c9aad",
+      "lf_normalized_sha256": "39c7282f2a424ad1504c20b59ae0427c95a45e6d52ac863c9669b7f7a55c9aad",
+      "crlf_count": 0,
+      "git_clean_blob_sha1": "c2c5dd0efc8c4098f4c368a3ed3f459feedfcb8e",
+      "raw_blob_sha1": "c2c5dd0efc8c4098f4c368a3ed3f459feedfcb8e"
+    }
+  ]
+}

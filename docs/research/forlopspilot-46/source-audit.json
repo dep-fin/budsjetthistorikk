@@ -1,0 +1,81 @@
+{
+  "parent_gzip": {
+    "file": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+    "bytes": 342281,
+    "sha256": "d083055643de38008fa373e54ea556cb06f5348f5d7d4978a323bba25e3f303f"
+  },
+  "parent_bytes": 6816165,
+  "parent_sha256": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+  "derived": {
+    "40032928": {
+      "bytes": 117054,
+      "sha256": "73bbcdc1d83a539ab4f3c2fad7b2b2972e003e742a5391a003d19c38149b6e71",
+      "object_start": 6092492,
+      "object_end": 6209173,
+      "object_sha256": "5c753687510813c4f4241705670764b4e9903e87343d61ee71e55c872ae53857",
+      "separator_hex": "0a"
+    },
+    "40033719": {
+      "bytes": 1265833,
+      "sha256": "252544da8756b038d54f6e935323fb33227b7ef16ee4c540a1badb7c5245517f",
+      "object_start": 2552391,
+      "object_end": 3817852,
+      "object_sha256": "a22a2fe3ae4e26f57d1570b27a0f962ddfda9937944b1204262cf8759ef4f392",
+      "separator_hex": ""
+    }
+  },
+  "old_857_fixture": {
+    "file": "tests/fixtures/b3/40033719.xml",
+    "bytes": 1265833,
+    "sha256": "4113b987c8f939256d30ef6a4401cda358d9da90b5af19cbbbc37d0ec9d312b0"
+  },
+  "old_857_sidecar": {
+    "url": "https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2023-2024",
+    "retrieved_utc": "2026-10-20T11:35:51+00:00",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8"
+    },
+    "fixture_kind": "derived_excerpt",
+    "session_coverage": "partial",
+    "source_response_sha256": "554e9960c3e90932594106463cca9c285abb53e9272c1ae391d6fb8093baf0bf",
+    "source_response_bytes": 6816165,
+    "sha256": "4113b987c8f939256d30ef6a4401cda358d9da90b5af19cbbbc37d0ec9d312b0",
+    "bytes": 1265833,
+    "decision_id": "40033719",
+    "extraction": "Original byteprefix + én komplett uendret objektblokk + suffix",
+    "provenance": "docs/research/issue-2/kontrollkilder.md; aar/input_manifest.json"
+  },
+  "old_object_byteidentical": true,
+  "old_554e_parent_present": false,
+  "old_554e_boundary": "opprinnelig oppgitt respons mangler; 66aa er separat representasjon",
+  "authentic_t1_gzip_sha256": "629c3561cca6f0ab2a5644958c7ae6590dd70775d688f40e134bda449e8982a6",
+  "authentic_t1_unpacked_sha256": "99e871e0ab780cbb548e15699f3093621d0f25229e3fa06c29cfdb5552803f53",
+  "source_files": [
+    {
+      "file": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+      "bytes": 342281,
+      "sha256": "d083055643de38008fa373e54ea556cb06f5348f5d7d4978a323bba25e3f303f"
+    },
+    {
+      "file": "docs/research/to-visninger-37/originals/aar/session-2023-2024.meta.json",
+      "bytes": 381,
+      "sha256": "56372509ffb4d04a7a265b969932327872b54d0279e43dfb762ef76f24b0f743"
+    },
+    {
+      "file": "docs/research/to-visninger-37/originals/aar/manifest.json",
+      "bytes": 8831,
+      "sha256": "1f8a76b53c3e31b389561f95e01a009b29ccdf2eabc902bed6fd22ee4accee9d"
+    },
+    {
+      "file": "tests/fixtures/b3/40033719.xml",
+      "bytes": 1265833,
+      "sha256": "4113b987c8f939256d30ef6a4401cda358d9da90b5af19cbbbc37d0ec9d312b0"
+    },
+    {
+      "file": "tests/fixtures/b3/40033719.json",
+      "bytes": 714,
+      "sha256": "88da1ed5332372eba1a861111cf374da55133de1419aaa58d8c7e7b66afd502f"
+    }
+  ]
+}

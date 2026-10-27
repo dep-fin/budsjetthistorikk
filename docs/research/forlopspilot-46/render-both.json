@@ -1,0 +1,55 @@
+{
+  "input": "work/t3-delivery/20261027-builder-04/both.xlsx",
+  "mode": "both",
+  "readOnly": true,
+  "views": [
+    {
+      "sheetName": "Forløp",
+      "range": "A1:K10",
+      "file": "work\\t3-delivery\\20261027-builder-04\\render-both\\forlop.png"
+    },
+    {
+      "sheetName": "Dokumenter",
+      "range": "A1:L8",
+      "file": "work\\t3-delivery\\20261027-builder-04\\render-both\\dokumenter.png"
+    },
+    {
+      "sheetName": "Omtale",
+      "range": "B1:I6",
+      "file": "work\\t3-delivery\\20261027-builder-04\\render-both\\omtale.png"
+    },
+    {
+      "sheetName": "Sammenligninger",
+      "range": "A1:J15",
+      "file": "work\\t3-delivery\\20261027-builder-04\\render-both\\sammenligninger.png"
+    },
+    {
+      "sheetName": "Dekning og avvik",
+      "range": "A1:B30",
+      "file": "work\\t3-delivery\\20261027-builder-04\\render-both\\dekning.png"
+    },
+    {
+      "sheetName": "Kontroll",
+      "range": "A1:K8",
+      "file": "work\\t3-delivery\\20261027-builder-04\\render-both\\kontroll.png"
+    },
+    {
+      "sheetName": "Offlinegrunnlag",
+      "range": "A1:B3",
+      "file": "work\\t3-delivery\\20261027-builder-04\\render-both\\offline.png"
+    },
+    {
+      "sheetName": "Dokumenter",
+      "range": "C974:Q987",
+      "file": "work\\t3-delivery\\20261027-builder-04\\render-both\\rnb-1429-hele-blokken.png"
+    },
+    {
+      "sheetName": "Omtale",
+      "range": "H3:J8",
+      "file": "work\\t3-delivery\\20261027-builder-04\\render-both\\lange-felt.png"
+    }
+  ],
+  "inspection": "{\"kind\":\"sheet\",\"id\":\"ws/dj5clh\",\"name\":\"Forløp\",\"index\":0,\"range\":\"A1:N10\",\"address\":\"A1:N10\"}\n{\"kind\":\"sheet\",\"id\":\"ws/vus29s\",\"name\":\"Dokumenter\",\"index\":1,\"range\":\"A1:Q1706\",\"address\":\"A1:Q1706\"}\n{\"kind\":\"sheet\",\"id\":\"ws/u4t0pp\",\"name\":\"Omtale\",\"index\":2,\"range\":\"A1:N98\",\"address\":\"A1:N98\"}\n{\"kind\":\"sheet\",\"id\":\"ws/i78tvs\",\"name\":\"Sammenligninger\",\"index\":3,\"range\":\"A1:N15\",\"address\":\"A1:N15\"}\n{\"kind\":\"sheet\",\"id\":\"ws/4k5dqm\",\"name\":\"Dekning og avvik\",\"index\":4,\"range\":\"A1:B33\",\"address\":\"A1:B33\"}\n{\"kind\":\"sheet\",\"id\":\"ws/g98ck3\",\"name\":\"Kontroll\",\"index\":5,\"range\":\"A1:K82\",\"address\":\"A1:K82\"}\n{\"kind\":\"sheet\",\"id\":\"ws/g0d1rj\",\"name\":\"Offlinegrunnlag\",\"index\":6,\"range\":\"A1:B436\",\"address\":\"A1:B436\"}",
+  "amountInspection": "{\"kind\":\"table\",\"sheet\":\"Forløp\",\"address\":\"A1:K10\",\"rows\":10,\"cols\":11,\"values\":[[\"Konto\",\"Budsjettår\",\"Dokument\",\"Dato\",\"Runde / stadium\",\"Avsender\",\"Nivå kr\",\"Før kr\",\"Endring kr\",\"Etter kr\",\"Status\"],[\"1429/1\",2024,\"Vedtak 341: Statsbudsjettet 2024 (kapitler fordelt til familie- og kulturkomiteen)\",45279,\"opprinnelig / vedtak\",\"stortinget\",161243000,null,null,null,\"kildeverifisert; ikke_faglig_godkjent\"],[\"1429/22\",2024,\"Vedtak 341: Statsbudsjettet 2024 (kapitler fordelt til familie- og kulturkomiteen)\",45279,\"opprinnelig / vedtak\",\"stortinget\",32185000,null,null,null,\"kildeverifisert; ikke_faglig_godkjent\"],[\"1429/1\",2024,\"Vedtak 857: Revidert nasjonalbudsjett 2024\",45464,\"rnb / vedtak\",\"stortinget\",null,161243000,-1000000,160243000,\"kildeverifisert; ikke_faglig_godkjent\"],[\"1429/1\",2024,\"Prop. 16 S (2024–2025)\",45618,\"nysaldering / regjering\",\"regjeringen\",null,160243000,5796000,166039000,\"kildeverifisert; til_kontroll\"],[\"1429/22\",2024,\"Prop. 16 S (2024–2025)\",45618,\"nysaldering / regjering\",\"regjeringen\",null,32185000,-3000000,29185000,\"kildeverifisert; til_kontroll\"],[\"1429/1\",2024,\"Innst. 81 S (2024–2025)\",45635,\"nysaldering / tilraading\",\"samlet_komite\",null,160243000,5796000,166039000,\"kildeverifisert; til_kontroll\"],[\"1429/22\",2024,\"Innst. 81 S (2024–2025)\",45635,\"nysaldering / tilraading\",\"samlet_komite\",null,32185000,-3000000,29185000,\"kildeverifisert; til_kontroll\"],[\"1429/1\",2024,\"Vedtak 210 (2024–2025)\",45642,\"nysaldering / vedtak\",\"stortinget\",null,160243000,5796000,166039000,\"kildeverifisert; til_kontroll\"],[\"1429/22\",2024,\"Vedtak 210 (2024–2025)\",45642,\"nysaldering / vedtak\",\"stortinget\",null,32185000,-3000000,29185000,\"kildeverifisert; til_kontroll\"]]}",
+  "source_render_json_sha256": "624c86301d56b9f2bc9ca576ee134a50fbce1259126dc14c25b0119be156aaaf"
+}
