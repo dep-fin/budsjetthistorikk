@@ -1,0 +1,3757 @@
+{
+  "status": "Lokal T2-bygging og kontroll ferdig; orkestratorens uavhengige porter, PR/CI og autorisert merge gjenstår.",
+  "date": "2026-10-27",
+  "base_main": "3d7667762ed1eb00223827761831fdf4dbc309d5",
+  "checkout": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t2-komite",
+  "head_before_root_freeze": "99e282a3e42a2682696d56af3b994c4b67ffe97e",
+  "branch": "codex/t2-komiteendring",
+  "python_executable": "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "source_files": [
+    {
+      "file": "innlesning/komitepilot.py",
+      "bytes": 34515,
+      "sha256": "d1b2e0d19b688de2021819d77c5a96a16a173e34cb7e5f4997dfc93686afa4ca"
+    },
+    {
+      "file": "innlesning/komitepilot_model.py",
+      "bytes": 1404,
+      "sha256": "f30aeef426655e4666171fb0aabba3298951f54997bf0b6003b14da7fb95ebeb"
+    },
+    {
+      "file": "analyse/komitepilot.py",
+      "bytes": 14577,
+      "sha256": "3e7f9d07d72db69d69067dc185b39e98115d19e6fef425f119ee2dfc944005da"
+    },
+    {
+      "file": "analyse/komitepilot_excel.py",
+      "bytes": 24874,
+      "sha256": "8d565aa9c8e5fc8ddf6cf635be6a63baddc6408a8e688a0e5a84c0252aed219e"
+    },
+    {
+      "file": "ops/komitepilot_proeve.py",
+      "bytes": 15735,
+      "sha256": "b8e2489a8053b1bbd496ba0ccf4304fdbbe2021c7d976062f935c37a7eb1859b"
+    },
+    {
+      "file": "ops/render_komitepilot.mjs",
+      "bytes": 1827,
+      "sha256": "823e41ce0262ef31df8dfdd80c3be41caa9eff0cc7842bf769f15e2296548413"
+    },
+    {
+      "file": "tests/test_komitepilot.py",
+      "bytes": 22577,
+      "sha256": "03522cbec1783862d7466e7b0cc175b39daf8e569180ed9546a42d92d55e9e94"
+    }
+  ],
+  "checks": {
+    "full_suite": {
+      "passed": 1069,
+      "skipped": 2,
+      "seconds": 1283.4,
+      "log": {
+        "file": "docs/research/komitepilot-44/checks/t2-resume-full.log",
+        "bytes": 3808,
+        "sha256": "0dc4a0ececd504f3bcfc0a2f6ddb5ed7675f937bdac9f7f0d6cf432a9f2570ff"
+      }
+    },
+    "final_adapter_pathfix": {
+      "passed": 1,
+      "skipped": 0,
+      "seconds": 2.79,
+      "log": {
+        "file": "docs/research/komitepilot-44/checks/t2-resume-pathfix.log",
+        "bytes": 100,
+        "sha256": "c23cd40f9182f5538b856edfd5ccd09c086342053fc71f800a32ee59c348df68"
+      }
+    },
+    "static": [
+      {
+        "file": "docs/research/komitepilot-44/checks/t2-resume-ruff.log",
+        "bytes": 20,
+        "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0"
+      },
+      {
+        "file": "docs/research/komitepilot-44/checks/t2-resume-format.log",
+        "bytes": 29,
+        "sha256": "d76199cd6e65736dca474f2b8d8a296ab076d89bcfab218ab5d0029cbece4f71"
+      },
+      {
+        "file": "docs/research/komitepilot-44/checks/t2-resume-mypy.log",
+        "bytes": 45,
+        "sha256": "1ae1a89d54d420cace381d4367eb85674ac10663afe0766641917ac6d36ebbd0"
+      }
+    ]
+  },
+  "test_timing_boundary": "Resumed full suite completed after the only test startup fix. All six product/control source files, frozen artifacts and original sources remained unchanged. Original completed full suite and interim checks retained separately.",
+  "skips": [
+    "tests/test_b7_operations.py:169 Windows-konto mangler symlinkrett",
+    "tests/test_historical_cli.py:44 hardlink utilgjengelig i sandbox"
+  ],
+  "delivery_manifest": {
+    "file": "work/t2-delivery-readable/manifest.json",
+    "bytes": 129611,
+    "sha256": "9d952e4470c7fce2f510f9876922e44da6fd5c125fd701d305cac6b712d79bb3"
+  },
+  "delivery": {
+    "kind": "T2 #44: autentiske positive prøver og separat merkede syntetiske feil",
+    "python": "3.12.14",
+    "basis_id": "3816b5cc326f356500ca4f37445bf0e974593287c9f142636ca5505c5448b5b5",
+    "union_basis_id": "6e34de17053e8489b6e81015679eba453e38aeb1e98083ee5f686c4a61807e70",
+    "source_ids": [
+      "4f0b45d9d24499632d6a5743d3e3c4482d44a6dc34cba7b2e7f5c8c7dd2ca902",
+      "0d4b187e433208f2fb74f56a47137d621aa9b644896afdf6c33a6385316be928",
+      "ae75ef45fc19e0eea45a834b44601b0736711c88b55a26b8e0557b6a495a6ee7",
+      "865b0e81abb6a8481d7d142cf023c14864c24ac228d80b9b6d73b2b689ac7f4f",
+      "de29b1cb7d7ba7f238f9726f86e16d4cff91b0ad7a98f2c42f3e511286748992",
+      "58d45d62ba2e2d2a3c38a2671dba7b184417c88007a57e70cfaf2284747b0b96",
+      "8aa17e38c2b79947c008cf6ed94d656090128f0765afeae2011c5569ac286d46",
+      "b663f7a6f5ea69bcaca87cbcfcfc6e419693c64e2df647c9eabe88ba8c7a9743",
+      "bc883dc78a9960f5ba52ed5840a791207c7826c85d027ce6815a9ff4b566924b",
+      "ac8d523290c9ae50e26bcd103ad3a42ede17231c2c4130df3ae52d34f8a81a75",
+      "13d688292b4952f609ccae0257c7dea415d242d0a34df025595b3c6c63836097",
+      "e67c71a274c42281f6fae46eff1e2c3f2ca4a7907154655dfbcc089b808a1c41",
+      "192153571371b86fbae5086d1c7b6faf6e6b30c6c02b19a01c824cdcefa76104",
+      "ca8d9915414963889bfa771529618b32383fbf24d8e1f48dc976704336b255f3"
+    ],
+    "observation_ids": [
+      "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a",
+      "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4",
+      "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91",
+      "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf",
+      "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea",
+      "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39",
+      "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f",
+      "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905",
+      "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c"
+    ],
+    "selections": [
+      {
+        "name": "standalone",
+        "report_id": "8a21b5a4c2bd0988fa32a6761538dd9bbc6faca1445af78d61427a901d134ef7",
+        "basis_id": "3816b5cc326f356500ca4f37445bf0e974593287c9f142636ca5505c5448b5b5",
+        "selection": {
+          "mode": "accounts",
+          "document_id": null,
+          "years": [
+            2024
+          ],
+          "chapters": [],
+          "accounts": [
+            [
+              "315",
+              "78"
+            ]
+          ]
+        },
+        "actual": {
+          "fields": 9,
+          "adopted_fields": 3,
+          "events": 1,
+          "visible_treatment_rows": 3
+        },
+        "files": [
+          {
+            "file": "standalone.json",
+            "bytes": 6866458,
+            "sha256": "9bd4b55ac227c8d6a016f438f116914d072a76bced95f8338dddecabb73b6469"
+          },
+          {
+            "file": "standalone.xlsx",
+            "bytes": 2118748,
+            "sha256": "2ff60edbdaa5841f38cfc25d3ae315f15133573964b18cca4a17787706ffa913"
+          }
+        ],
+        "shapes": {
+          "Forløp": {
+            "rows": 4,
+            "columns": 13
+          },
+          "Dokumenter": {
+            "rows": 97,
+            "columns": 17
+          },
+          "Omtale": {
+            "rows": 116,
+            "columns": 14
+          },
+          "Sammenligninger": {
+            "rows": 7,
+            "columns": 14
+          },
+          "Dekning og avvik": {
+            "rows": 19,
+            "columns": 2
+          },
+          "Kontroll": {
+            "rows": 49,
+            "columns": 11
+          },
+          "Offlinegrunnlag": {
+            "rows": 230,
+            "columns": 2
+          }
+        },
+        "serialized_counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1
+            },
+            "serialized_raw_payloads": 12,
+            "unique_raw_hashes": 12
+          },
+          "legacy": {
+            "serialized_observation_objects": 0,
+            "unique_observations": 0,
+            "observation_occurrences": {},
+            "payload_occurrences": {},
+            "serialized_raw_payloads": 0,
+            "unique_raw_hashes": 0
+          }
+        },
+        "expected": {
+          "fields": 9,
+          "adopted_fields": 3,
+          "events": 1
+        }
+      },
+      {
+        "name": "union",
+        "report_id": "724ecfd8b9a54c03ba836a5bef1196d98ef73701dc48cc3bb3eff6f6482734f1",
+        "basis_id": "6e34de17053e8489b6e81015679eba453e38aeb1e98083ee5f686c4a61807e70",
+        "selection": {
+          "mode": "accounts",
+          "document_id": null,
+          "years": [
+            2024
+          ],
+          "chapters": [],
+          "accounts": [
+            [
+              "315",
+              "78"
+            ],
+            [
+              "1429",
+              "1"
+            ]
+          ]
+        },
+        "actual": {
+          "fields": 18,
+          "adopted_fields": 6,
+          "events": 2,
+          "visible_treatment_rows": 6
+        },
+        "files": [
+          {
+            "file": "union.json",
+            "bytes": 11374758,
+            "sha256": "595080f388c49486c568d0de9462062e950067fd236c72c990f9fe97649f0ca5"
+          },
+          {
+            "file": "union.xlsx",
+            "bytes": 4299411,
+            "sha256": "3b276cb473e622c8ed2a995f2e38c41dd9877cc452522fd3099eec658b2bb4ac"
+          }
+        ],
+        "shapes": {
+          "Forløp": {
+            "rows": 7,
+            "columns": 13
+          },
+          "Dokumenter": {
+            "rows": 159,
+            "columns": 17
+          },
+          "Omtale": {
+            "rows": 173,
+            "columns": 14
+          },
+          "Sammenligninger": {
+            "rows": 13,
+            "columns": 14
+          },
+          "Dekning og avvik": {
+            "rows": 26,
+            "columns": 2
+          },
+          "Kontroll": {
+            "rows": 103,
+            "columns": 11
+          },
+          "Offlinegrunnlag": {
+            "rows": 380,
+            "columns": 2
+          }
+        },
+        "serialized_counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1
+            },
+            "serialized_raw_payloads": 9,
+            "unique_raw_hashes": 9
+          },
+          "legacy": {
+            "serialized_observation_objects": 36,
+            "unique_observations": 18,
+            "observation_occurrences": {
+              "4ace7b42e5c7c522655ef3d8e18f832290b63d829bf8634810bad37f42b2be96": 4,
+              "f22283ad6cdeef6edfc78e01c498d1f56ce9b230a16376eee379a3a0e9d2780a": 4,
+              "06c25431aec719ed34478b89ee4e6f17751cce932221cae90e436850d86952b9": 4,
+              "d736250e6b842c25f8ad55e52dd5f82fd7be491d4e84bb7d63cddf413c10a2dd": 4,
+              "8f2ff2a8ca4818c8b0aae65019058dcdffa943764b480fa71f1401b095de81b7": 4,
+              "e3fb685f7c234609c5451b89ef0901ca27b7b6228f9c6d9f9f7adf1c37a08da6": 4,
+              "a66096a14ffb852fed459f4e18b1364dae925aeef8a1a7cf3d9bd66d5de1c9cb": 1,
+              "32b1b4a7030cef1eb0865262efe7efc647975d9aed6f46019a071b3b80790a4f": 1,
+              "125d6045103116c71b4f52f687ae08b9f008124b16773e82703baf179e293551": 1,
+              "6e3ffd3f5c5428fe9955b06692a52b48ab81362fe0a55c812a32c2a5a5a14d34": 1,
+              "9b6cc7ffbbfa07ec95ae8c39fee8bd5ee28e67c14f266a58ea1db3d18c0b7c37": 1,
+              "f490d3fd88b9c4c09ed11d254c5dc5685de9b7eb57d5bb1f7f585ead490d5eb0": 1,
+              "2d1a026f342a8ac9caabbb19da3721fa3001ef21b07c493f3c70c150197f1343": 1,
+              "71607b517070a7ca0484ddb05a1748b20ff817e07f915a459ad62c4eefe57b91": 1,
+              "d4238704f5617e9cd4e7cc19ffac654e39915011e048e0721f04343bf591cddb": 1,
+              "399a2d8531346dfb3494ec2b7781ed6c1aa2921193bab258aae34ae26d4ca620": 1,
+              "48bc2a5e1de11b119b81ad7ad2172a52bb7b66034c3e9eb1b0326c6d9f43c32a": 1,
+              "64e5d32aaa7fb65100252d8357c2832c49cdf20685e77a7cfeb76ccd40b45c1d": 1
+            },
+            "payload_occurrences": {
+              "677716056269c07b8ec81bcae91d814b975123791635548281038d9beb3aa5db": 1,
+              "258d26e6d324bde709bf3d1cb660d7eb6f4248f537d4b0c77e095f17697cf8df": 1,
+              "ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e": 2,
+              "5a29d0553991759d8ddc234899647e9e6b5e1f2885bf13edccfb26105a6be496": 1,
+              "e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95": 2,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850": 1,
+              "1b43cc3e77fb8b216d3d0bd2d51739c4200b38aabcdac907afcdf47d0218a79b": 1,
+              "2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27": 1,
+              "07b85b79438fa1cfcc8774c36291fc28d0cfdc7d429ca82e1e5810bca89ac895": 1,
+              "7502f2f565048f1b0954cb4cb132183d0bc5ec362ba74e14de877df36003a7d4": 1,
+              "cf9397ad44be04796cf3ed95765cddb165b0193fe071b4e1a6b629566aa82363": 1,
+              "5f253a556d2ac512570899252b396bc38f068de5f4bd6820178e7de8ce41f3eb": 1,
+              "6e0e37551b00da15c262e8ba2e40e8b21abba96d3b47acc57e41b908024d9def": 1,
+              "3a8f0918a3fcce90bf2c93f3ce972c3de7277c76e27e5ef563d6c43384cf2af2": 1,
+              "67033cce596b33ccb7f2cd459a6df7af98d44836292f0675d308797a888ba04c": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1,
+              "ae61227fa83adf04fb45956b1bd714a75592bbc1d6c70da300e554afef806aa6": 1,
+              "7a78167c7eafc500938e4ac39d8ed9febec1f6e7e6ce337acc4b7a58d0d14635": 1,
+              "6b2dd282d4c1bffff15063907bc6c3d5948279c7898f7caf7291d7a140de6816": 1
+            },
+            "serialized_raw_payloads": 23,
+            "unique_raw_hashes": 21
+          }
+        },
+        "expected": {
+          "fields": 18,
+          "adopted_fields": 6,
+          "events": 2
+        }
+      },
+      {
+        "name": "empty",
+        "report_id": "b28c3e17f78251c1002d52362fc4dad5b09f39e8bc30b8749ddf8bcf9c6ce125",
+        "basis_id": "3816b5cc326f356500ca4f37445bf0e974593287c9f142636ca5505c5448b5b5",
+        "selection": {
+          "mode": "accounts",
+          "document_id": null,
+          "years": [],
+          "chapters": [],
+          "accounts": []
+        },
+        "actual": {
+          "fields": 0,
+          "adopted_fields": 0,
+          "events": 0,
+          "visible_treatment_rows": 0
+        },
+        "files": [
+          {
+            "file": "empty.json",
+            "bytes": 6862035,
+            "sha256": "19bb540b2e54450eed098846a670c96f8f7de4d7f52a3cc76b1838397fcd79f1"
+          },
+          {
+            "file": "empty.xlsx",
+            "bytes": 2114685,
+            "sha256": "723b608d9c2213ed26b8d15e62806b2d93170d1fc921b9f062a846acace93652"
+          }
+        ],
+        "shapes": {
+          "Forløp": {
+            "rows": 1,
+            "columns": 13
+          },
+          "Dokumenter": {
+            "rows": 97,
+            "columns": 17
+          },
+          "Omtale": {
+            "rows": 116,
+            "columns": 14
+          },
+          "Sammenligninger": {
+            "rows": 1,
+            "columns": 14
+          },
+          "Dekning og avvik": {
+            "rows": 19,
+            "columns": 2
+          },
+          "Kontroll": {
+            "rows": 49,
+            "columns": 11
+          },
+          "Offlinegrunnlag": {
+            "rows": 230,
+            "columns": 2
+          }
+        },
+        "serialized_counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1
+            },
+            "serialized_raw_payloads": 12,
+            "unique_raw_hashes": 12
+          },
+          "legacy": {
+            "serialized_observation_objects": 0,
+            "unique_observations": 0,
+            "observation_occurrences": {},
+            "payload_occurrences": {},
+            "serialized_raw_payloads": 0,
+            "unique_raw_hashes": 0
+          }
+        },
+        "expected": {
+          "fields": 0,
+          "adopted_fields": 0,
+          "events": 0
+        }
+      },
+      {
+        "name": "chapter",
+        "report_id": "77c4ae62de12882b84e034dec9a827e7ce541d27eb661e3ad698e9e2fa06c952",
+        "basis_id": "3816b5cc326f356500ca4f37445bf0e974593287c9f142636ca5505c5448b5b5",
+        "selection": {
+          "mode": "accounts",
+          "document_id": null,
+          "years": [
+            2024
+          ],
+          "chapters": [
+            "315"
+          ],
+          "accounts": []
+        },
+        "actual": {
+          "fields": 9,
+          "adopted_fields": 3,
+          "events": 1,
+          "visible_treatment_rows": 3
+        },
+        "files": [
+          {
+            "file": "chapter.json",
+            "bytes": 6867456,
+            "sha256": "a4565cebebac03f1ffef207350cc3a9180cb1fe6dcf9fb21a64f327f36b70595"
+          },
+          {
+            "file": "chapter.xlsx",
+            "bytes": 2119423,
+            "sha256": "ef03e70e37e6d4d6b8dadaac0c3c6362c72ab1e304f4e5193f276e4971d86bbe"
+          }
+        ],
+        "shapes": {
+          "Forløp": {
+            "rows": 4,
+            "columns": 13
+          },
+          "Dokumenter": {
+            "rows": 97,
+            "columns": 17
+          },
+          "Omtale": {
+            "rows": 116,
+            "columns": 14
+          },
+          "Sammenligninger": {
+            "rows": 7,
+            "columns": 14
+          },
+          "Dekning og avvik": {
+            "rows": 19,
+            "columns": 2
+          },
+          "Kontroll": {
+            "rows": 49,
+            "columns": 11
+          },
+          "Offlinegrunnlag": {
+            "rows": 230,
+            "columns": 2
+          }
+        },
+        "serialized_counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1
+            },
+            "serialized_raw_payloads": 12,
+            "unique_raw_hashes": 12
+          },
+          "legacy": {
+            "serialized_observation_objects": 0,
+            "unique_observations": 0,
+            "observation_occurrences": {},
+            "payload_occurrences": {},
+            "serialized_raw_payloads": 0,
+            "unique_raw_hashes": 0
+          }
+        },
+        "expected": {
+          "fields": 9,
+          "adopted_fields": 3,
+          "events": 1
+        }
+      },
+      {
+        "name": "years",
+        "report_id": "31187390a144447d06f369c495307c26694a14652e871b96fe993e1524f02ebc",
+        "basis_id": "6e34de17053e8489b6e81015679eba453e38aeb1e98083ee5f686c4a61807e70",
+        "selection": {
+          "mode": "accounts",
+          "document_id": null,
+          "years": [
+            2024,
+            2025
+          ],
+          "chapters": [],
+          "accounts": [
+            [
+              "315",
+              "78"
+            ],
+            [
+              "1429",
+              "1"
+            ]
+          ]
+        },
+        "actual": {
+          "fields": 18,
+          "adopted_fields": 6,
+          "events": 2,
+          "visible_treatment_rows": 6
+        },
+        "files": [
+          {
+            "file": "years.json",
+            "bytes": 11374763,
+            "sha256": "c3f694912f5b92c7a1580a6781ca9491f910386c48c29f35a2c5d972bb1b0b11"
+          },
+          {
+            "file": "years.xlsx",
+            "bytes": 4299410,
+            "sha256": "87403f9ea4b350815a826fded4cdf4022089856a7bc241dc25dc377d323ae727"
+          }
+        ],
+        "shapes": {
+          "Forløp": {
+            "rows": 7,
+            "columns": 13
+          },
+          "Dokumenter": {
+            "rows": 159,
+            "columns": 17
+          },
+          "Omtale": {
+            "rows": 173,
+            "columns": 14
+          },
+          "Sammenligninger": {
+            "rows": 13,
+            "columns": 14
+          },
+          "Dekning og avvik": {
+            "rows": 26,
+            "columns": 2
+          },
+          "Kontroll": {
+            "rows": 103,
+            "columns": 11
+          },
+          "Offlinegrunnlag": {
+            "rows": 380,
+            "columns": 2
+          }
+        },
+        "serialized_counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1
+            },
+            "serialized_raw_payloads": 9,
+            "unique_raw_hashes": 9
+          },
+          "legacy": {
+            "serialized_observation_objects": 36,
+            "unique_observations": 18,
+            "observation_occurrences": {
+              "4ace7b42e5c7c522655ef3d8e18f832290b63d829bf8634810bad37f42b2be96": 4,
+              "f22283ad6cdeef6edfc78e01c498d1f56ce9b230a16376eee379a3a0e9d2780a": 4,
+              "06c25431aec719ed34478b89ee4e6f17751cce932221cae90e436850d86952b9": 4,
+              "d736250e6b842c25f8ad55e52dd5f82fd7be491d4e84bb7d63cddf413c10a2dd": 4,
+              "8f2ff2a8ca4818c8b0aae65019058dcdffa943764b480fa71f1401b095de81b7": 4,
+              "e3fb685f7c234609c5451b89ef0901ca27b7b6228f9c6d9f9f7adf1c37a08da6": 4,
+              "a66096a14ffb852fed459f4e18b1364dae925aeef8a1a7cf3d9bd66d5de1c9cb": 1,
+              "32b1b4a7030cef1eb0865262efe7efc647975d9aed6f46019a071b3b80790a4f": 1,
+              "125d6045103116c71b4f52f687ae08b9f008124b16773e82703baf179e293551": 1,
+              "6e3ffd3f5c5428fe9955b06692a52b48ab81362fe0a55c812a32c2a5a5a14d34": 1,
+              "9b6cc7ffbbfa07ec95ae8c39fee8bd5ee28e67c14f266a58ea1db3d18c0b7c37": 1,
+              "f490d3fd88b9c4c09ed11d254c5dc5685de9b7eb57d5bb1f7f585ead490d5eb0": 1,
+              "2d1a026f342a8ac9caabbb19da3721fa3001ef21b07c493f3c70c150197f1343": 1,
+              "71607b517070a7ca0484ddb05a1748b20ff817e07f915a459ad62c4eefe57b91": 1,
+              "d4238704f5617e9cd4e7cc19ffac654e39915011e048e0721f04343bf591cddb": 1,
+              "399a2d8531346dfb3494ec2b7781ed6c1aa2921193bab258aae34ae26d4ca620": 1,
+              "48bc2a5e1de11b119b81ad7ad2172a52bb7b66034c3e9eb1b0326c6d9f43c32a": 1,
+              "64e5d32aaa7fb65100252d8357c2832c49cdf20685e77a7cfeb76ccd40b45c1d": 1
+            },
+            "payload_occurrences": {
+              "677716056269c07b8ec81bcae91d814b975123791635548281038d9beb3aa5db": 1,
+              "258d26e6d324bde709bf3d1cb660d7eb6f4248f537d4b0c77e095f17697cf8df": 1,
+              "ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e": 2,
+              "5a29d0553991759d8ddc234899647e9e6b5e1f2885bf13edccfb26105a6be496": 1,
+              "e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95": 2,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850": 1,
+              "1b43cc3e77fb8b216d3d0bd2d51739c4200b38aabcdac907afcdf47d0218a79b": 1,
+              "2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27": 1,
+              "07b85b79438fa1cfcc8774c36291fc28d0cfdc7d429ca82e1e5810bca89ac895": 1,
+              "7502f2f565048f1b0954cb4cb132183d0bc5ec362ba74e14de877df36003a7d4": 1,
+              "cf9397ad44be04796cf3ed95765cddb165b0193fe071b4e1a6b629566aa82363": 1,
+              "5f253a556d2ac512570899252b396bc38f068de5f4bd6820178e7de8ce41f3eb": 1,
+              "6e0e37551b00da15c262e8ba2e40e8b21abba96d3b47acc57e41b908024d9def": 1,
+              "3a8f0918a3fcce90bf2c93f3ce972c3de7277c76e27e5ef563d6c43384cf2af2": 1,
+              "67033cce596b33ccb7f2cd459a6df7af98d44836292f0675d308797a888ba04c": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1,
+              "ae61227fa83adf04fb45956b1bd714a75592bbc1d6c70da300e554afef806aa6": 1,
+              "7a78167c7eafc500938e4ac39d8ed9febec1f6e7e6ce337acc4b7a58d0d14635": 1,
+              "6b2dd282d4c1bffff15063907bc6c3d5948279c7898f7caf7291d7a140de6816": 1
+            },
+            "serialized_raw_payloads": 23,
+            "unique_raw_hashes": 21
+          }
+        },
+        "expected": {
+          "fields": 18,
+          "adopted_fields": 6,
+          "events": 2
+        }
+      },
+      {
+        "name": "document-prop25",
+        "report_id": "c059a1851994a107a44464582903bd8dadde7e162759bbd6a2873f6d22975836",
+        "basis_id": "3816b5cc326f356500ca4f37445bf0e974593287c9f142636ca5505c5448b5b5",
+        "selection": {
+          "mode": "document",
+          "document_id": "1a5034b709774611f9321adf75f11d3d72b877327592ef3df93f86ee5a629112",
+          "years": [],
+          "chapters": [],
+          "accounts": []
+        },
+        "actual": {
+          "fields": 3,
+          "adopted_fields": 0,
+          "events": 0,
+          "visible_treatment_rows": 1
+        },
+        "files": [
+          {
+            "file": "document-prop25.json",
+            "bytes": 6869945,
+            "sha256": "58e449d3b6723d2eb510c9d8c82681e04f1be2fc20677920923598e428138f22"
+          },
+          {
+            "file": "document-prop25.xlsx",
+            "bytes": 2120794,
+            "sha256": "c852ce12c698ab370a025648b83da4822bb0e05ba17be03b1c68cb42e9333421"
+          }
+        ],
+        "shapes": {
+          "Forløp": {
+            "rows": 2,
+            "columns": 13
+          },
+          "Dokumenter": {
+            "rows": 97,
+            "columns": 17
+          },
+          "Omtale": {
+            "rows": 116,
+            "columns": 14
+          },
+          "Sammenligninger": {
+            "rows": 7,
+            "columns": 14
+          },
+          "Dekning og avvik": {
+            "rows": 19,
+            "columns": 2
+          },
+          "Kontroll": {
+            "rows": 49,
+            "columns": 11
+          },
+          "Offlinegrunnlag": {
+            "rows": 230,
+            "columns": 2
+          }
+        },
+        "serialized_counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1
+            },
+            "serialized_raw_payloads": 12,
+            "unique_raw_hashes": 12
+          },
+          "legacy": {
+            "serialized_observation_objects": 0,
+            "unique_observations": 0,
+            "observation_occurrences": {},
+            "payload_occurrences": {},
+            "serialized_raw_payloads": 0,
+            "unique_raw_hashes": 0
+          }
+        },
+        "expected": {
+          "fields": 3,
+          "adopted_fields": 0,
+          "events": 0
+        }
+      },
+      {
+        "name": "document-inns85",
+        "report_id": "66b6b851d40b76fc17a9efe5a7b523f5f3b5af48c7020bcd40f58deadbdc87c7",
+        "basis_id": "3816b5cc326f356500ca4f37445bf0e974593287c9f142636ca5505c5448b5b5",
+        "selection": {
+          "mode": "document",
+          "document_id": "07e4c70cd7e4e58d1f9e7e497e6b3bf801d9c1b5ee41f0e6ad7e73b09a0d8820",
+          "years": [],
+          "chapters": [],
+          "accounts": []
+        },
+        "actual": {
+          "fields": 3,
+          "adopted_fields": 0,
+          "events": 0,
+          "visible_treatment_rows": 1
+        },
+        "files": [
+          {
+            "file": "document-inns85.json",
+            "bytes": 6871687,
+            "sha256": "2711fa7dafde6e8f67d8f276e34a2fe9781b846a7ff336821145ee3342864ca9"
+          },
+          {
+            "file": "document-inns85.xlsx",
+            "bytes": 2121906,
+            "sha256": "b7bff57fa33ecf95111ab7393527a739f699514e3d2073db4fb905c68194c33f"
+          }
+        ],
+        "shapes": {
+          "Forløp": {
+            "rows": 2,
+            "columns": 13
+          },
+          "Dokumenter": {
+            "rows": 97,
+            "columns": 17
+          },
+          "Omtale": {
+            "rows": 116,
+            "columns": 14
+          },
+          "Sammenligninger": {
+            "rows": 7,
+            "columns": 14
+          },
+          "Dekning og avvik": {
+            "rows": 19,
+            "columns": 2
+          },
+          "Kontroll": {
+            "rows": 49,
+            "columns": 11
+          },
+          "Offlinegrunnlag": {
+            "rows": 230,
+            "columns": 2
+          }
+        },
+        "serialized_counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1
+            },
+            "serialized_raw_payloads": 12,
+            "unique_raw_hashes": 12
+          },
+          "legacy": {
+            "serialized_observation_objects": 0,
+            "unique_observations": 0,
+            "observation_occurrences": {},
+            "payload_occurrences": {},
+            "serialized_raw_payloads": 0,
+            "unique_raw_hashes": 0
+          }
+        },
+        "expected": {
+          "fields": 3,
+          "adopted_fields": 0,
+          "events": 0
+        }
+      },
+      {
+        "name": "document-vedtak208",
+        "report_id": "aa908c409a1932c6683fef8b25e899b833eee8b70b0ae425fce951e84b1e2746",
+        "basis_id": "3816b5cc326f356500ca4f37445bf0e974593287c9f142636ca5505c5448b5b5",
+        "selection": {
+          "mode": "document",
+          "document_id": "684a00abe816fd4021f2e7421b0b04159117904601ef26d5877cd7e00c84b517",
+          "years": [],
+          "chapters": [],
+          "accounts": []
+        },
+        "actual": {
+          "fields": 3,
+          "adopted_fields": 3,
+          "events": 1,
+          "visible_treatment_rows": 1
+        },
+        "files": [
+          {
+            "file": "document-vedtak208.json",
+            "bytes": 6867732,
+            "sha256": "86d31642259cd94a35eca8f977d78a6f887c0b0079617c78f5dd6bc14d340036"
+          },
+          {
+            "file": "document-vedtak208.xlsx",
+            "bytes": 2119204,
+            "sha256": "3887f04f9cdacffda26b46c001e5b32dcbd1ae277187b0095883006fc51f735e"
+          }
+        ],
+        "shapes": {
+          "Forløp": {
+            "rows": 2,
+            "columns": 13
+          },
+          "Dokumenter": {
+            "rows": 97,
+            "columns": 17
+          },
+          "Omtale": {
+            "rows": 116,
+            "columns": 14
+          },
+          "Sammenligninger": {
+            "rows": 7,
+            "columns": 14
+          },
+          "Dekning og avvik": {
+            "rows": 19,
+            "columns": 2
+          },
+          "Kontroll": {
+            "rows": 49,
+            "columns": 11
+          },
+          "Offlinegrunnlag": {
+            "rows": 230,
+            "columns": 2
+          }
+        },
+        "serialized_counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1
+            },
+            "serialized_raw_payloads": 12,
+            "unique_raw_hashes": 12
+          },
+          "legacy": {
+            "serialized_observation_objects": 0,
+            "unique_observations": 0,
+            "observation_occurrences": {},
+            "payload_occurrences": {},
+            "serialized_raw_payloads": 0,
+            "unique_raw_hashes": 0
+          }
+        },
+        "expected": {
+          "fields": 3,
+          "adopted_fields": 3,
+          "events": 1
+        }
+      },
+      {
+        "name": "document-vedtak209",
+        "report_id": "1da7eeb7446b19330b78091b0e4f9df4876224f63f1b970b85737eb83343cf7f",
+        "basis_id": "3816b5cc326f356500ca4f37445bf0e974593287c9f142636ca5505c5448b5b5",
+        "selection": {
+          "mode": "document",
+          "document_id": "0bd92d633d862d7f5ca4605a14c9c4c040ec2bf9ef05596808d10ad8d6e4e526",
+          "years": [],
+          "chapters": [],
+          "accounts": []
+        },
+        "actual": {
+          "fields": 0,
+          "adopted_fields": 0,
+          "events": 0,
+          "visible_treatment_rows": 0
+        },
+        "files": [
+          {
+            "file": "document-vedtak209.json",
+            "bytes": 6862318,
+            "sha256": "416212790fd290ff0070a20c74d704a3cf88d8ed805206d6afb719d4370cc628"
+          },
+          {
+            "file": "document-vedtak209.xlsx",
+            "bytes": 2114895,
+            "sha256": "641fd4bfa4a8a8be30f16dca27547a48b0f1dfcf648d3d3d648203c739ff1704"
+          }
+        ],
+        "shapes": {
+          "Forløp": {
+            "rows": 1,
+            "columns": 13
+          },
+          "Dokumenter": {
+            "rows": 97,
+            "columns": 17
+          },
+          "Omtale": {
+            "rows": 116,
+            "columns": 14
+          },
+          "Sammenligninger": {
+            "rows": 1,
+            "columns": 14
+          },
+          "Dekning og avvik": {
+            "rows": 19,
+            "columns": 2
+          },
+          "Kontroll": {
+            "rows": 49,
+            "columns": 11
+          },
+          "Offlinegrunnlag": {
+            "rows": 230,
+            "columns": 2
+          }
+        },
+        "serialized_counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1
+            },
+            "serialized_raw_payloads": 12,
+            "unique_raw_hashes": 12
+          },
+          "legacy": {
+            "serialized_observation_objects": 0,
+            "unique_observations": 0,
+            "observation_occurrences": {},
+            "payload_occurrences": {},
+            "serialized_raw_payloads": 0,
+            "unique_raw_hashes": 0
+          }
+        },
+        "expected": {
+          "fields": 0,
+          "adopted_fields": 0,
+          "events": 0
+        }
+      },
+      {
+        "name": "document-plenum24",
+        "report_id": "d3f2d5b475a5fcad2794b6fc2a5becac3d1f3b65a47b68b29e56f102fc55ec95",
+        "basis_id": "3816b5cc326f356500ca4f37445bf0e974593287c9f142636ca5505c5448b5b5",
+        "selection": {
+          "mode": "document",
+          "document_id": "505442c1080b8388f9f7a5c584ff8efa6ae10b6d1d458b6b8776c8ef851528ff",
+          "years": [],
+          "chapters": [],
+          "accounts": []
+        },
+        "actual": {
+          "fields": 0,
+          "adopted_fields": 0,
+          "events": 0,
+          "visible_treatment_rows": 0
+        },
+        "files": [
+          {
+            "file": "document-plenum24.json",
+            "bytes": 6862318,
+            "sha256": "2005518276a675a9eacd3d1d68f6fd6d3c7e7b3934b14e6a31e5d8b6ea19bfc2"
+          },
+          {
+            "file": "document-plenum24.xlsx",
+            "bytes": 2114893,
+            "sha256": "056b5fa62a2e10051c1f9f0b4918fe5e54fa739841825414e134c70f9125b58b"
+          }
+        ],
+        "shapes": {
+          "Forløp": {
+            "rows": 1,
+            "columns": 13
+          },
+          "Dokumenter": {
+            "rows": 97,
+            "columns": 17
+          },
+          "Omtale": {
+            "rows": 116,
+            "columns": 14
+          },
+          "Sammenligninger": {
+            "rows": 1,
+            "columns": 14
+          },
+          "Dekning og avvik": {
+            "rows": 19,
+            "columns": 2
+          },
+          "Kontroll": {
+            "rows": 49,
+            "columns": 11
+          },
+          "Offlinegrunnlag": {
+            "rows": 230,
+            "columns": 2
+          }
+        },
+        "serialized_counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1
+            },
+            "serialized_raw_payloads": 12,
+            "unique_raw_hashes": 12
+          },
+          "legacy": {
+            "serialized_observation_objects": 0,
+            "unique_observations": 0,
+            "observation_occurrences": {},
+            "payload_occurrences": {},
+            "serialized_raw_payloads": 0,
+            "unique_raw_hashes": 0
+          }
+        },
+        "expected": {
+          "fields": 0,
+          "adopted_fields": 0,
+          "events": 0
+        }
+      },
+      {
+        "name": "document-sak100887",
+        "report_id": "522ba62ad7ebf5e061ecf41b12accb4d235377a1fbc70b31b8d46f227be1f6aa",
+        "basis_id": "3816b5cc326f356500ca4f37445bf0e974593287c9f142636ca5505c5448b5b5",
+        "selection": {
+          "mode": "document",
+          "document_id": "ed767a3c491497d632f84beae87ec8974bce7b37348e324fadeb68939511b56d",
+          "years": [],
+          "chapters": [],
+          "accounts": []
+        },
+        "actual": {
+          "fields": 0,
+          "adopted_fields": 0,
+          "events": 0,
+          "visible_treatment_rows": 0
+        },
+        "files": [
+          {
+            "file": "document-sak100887.json",
+            "bytes": 6862318,
+            "sha256": "75fd281bc55648ee18fcfe31316a4faf30d9267da8bbadca9840d8f332d85c8a"
+          },
+          {
+            "file": "document-sak100887.xlsx",
+            "bytes": 2114800,
+            "sha256": "e9436efc38fc32bf538a915a30c5c43d69c818ece9565e6dc7e4de3c7c2ac6e5"
+          }
+        ],
+        "shapes": {
+          "Forløp": {
+            "rows": 1,
+            "columns": 13
+          },
+          "Dokumenter": {
+            "rows": 97,
+            "columns": 17
+          },
+          "Omtale": {
+            "rows": 116,
+            "columns": 14
+          },
+          "Sammenligninger": {
+            "rows": 1,
+            "columns": 14
+          },
+          "Dekning og avvik": {
+            "rows": 19,
+            "columns": 2
+          },
+          "Kontroll": {
+            "rows": 49,
+            "columns": 11
+          },
+          "Offlinegrunnlag": {
+            "rows": 230,
+            "columns": 2
+          }
+        },
+        "serialized_counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1
+            },
+            "serialized_raw_payloads": 12,
+            "unique_raw_hashes": 12
+          },
+          "legacy": {
+            "serialized_observation_objects": 0,
+            "unique_observations": 0,
+            "observation_occurrences": {},
+            "payload_occurrences": {},
+            "serialized_raw_payloads": 0,
+            "unique_raw_hashes": 0
+          }
+        },
+        "expected": {
+          "fields": 0,
+          "adopted_fields": 0,
+          "events": 0
+        }
+      },
+      {
+        "name": "account-to-document",
+        "report_id": "66b6b851d40b76fc17a9efe5a7b523f5f3b5af48c7020bcd40f58deadbdc87c7",
+        "basis_id": "3816b5cc326f356500ca4f37445bf0e974593287c9f142636ca5505c5448b5b5",
+        "selection": {
+          "mode": "document",
+          "document_id": "07e4c70cd7e4e58d1f9e7e497e6b3bf801d9c1b5ee41f0e6ad7e73b09a0d8820",
+          "years": [],
+          "chapters": [],
+          "accounts": []
+        },
+        "actual": {
+          "fields": 3,
+          "adopted_fields": 0,
+          "events": 0,
+          "visible_treatment_rows": 1
+        },
+        "files": [
+          {
+            "file": "account-to-document.json",
+            "bytes": 6871687,
+            "sha256": "2711fa7dafde6e8f67d8f276e34a2fe9781b846a7ff336821145ee3342864ca9"
+          },
+          {
+            "file": "account-to-document.xlsx",
+            "bytes": 2121906,
+            "sha256": "73101fac3068fd10271df656dfd7bec70856b7a5dcb4fb38fc100c07d14aac06"
+          }
+        ],
+        "shapes": {
+          "Forløp": {
+            "rows": 2,
+            "columns": 13
+          },
+          "Dokumenter": {
+            "rows": 97,
+            "columns": 17
+          },
+          "Omtale": {
+            "rows": 116,
+            "columns": 14
+          },
+          "Sammenligninger": {
+            "rows": 7,
+            "columns": 14
+          },
+          "Dekning og avvik": {
+            "rows": 19,
+            "columns": 2
+          },
+          "Kontroll": {
+            "rows": 49,
+            "columns": 11
+          },
+          "Offlinegrunnlag": {
+            "rows": 230,
+            "columns": 2
+          }
+        },
+        "serialized_counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1
+            },
+            "serialized_raw_payloads": 12,
+            "unique_raw_hashes": 12
+          },
+          "legacy": {
+            "serialized_observation_objects": 0,
+            "unique_observations": 0,
+            "observation_occurrences": {},
+            "payload_occurrences": {},
+            "serialized_raw_payloads": 0,
+            "unique_raw_hashes": 0
+          }
+        },
+        "expected": {
+          "fields": 3,
+          "adopted_fields": 0,
+          "events": 0
+        }
+      },
+      {
+        "name": "return-account",
+        "report_id": "8a21b5a4c2bd0988fa32a6761538dd9bbc6faca1445af78d61427a901d134ef7",
+        "basis_id": "3816b5cc326f356500ca4f37445bf0e974593287c9f142636ca5505c5448b5b5",
+        "selection": {
+          "mode": "accounts",
+          "document_id": null,
+          "years": [
+            2024
+          ],
+          "chapters": [],
+          "accounts": [
+            [
+              "315",
+              "78"
+            ]
+          ]
+        },
+        "actual": {
+          "fields": 9,
+          "adopted_fields": 3,
+          "events": 1,
+          "visible_treatment_rows": 3
+        },
+        "files": [
+          {
+            "file": "return-account.json",
+            "bytes": 6866458,
+            "sha256": "9bd4b55ac227c8d6a016f438f116914d072a76bced95f8338dddecabb73b6469"
+          },
+          {
+            "file": "return-account.xlsx",
+            "bytes": 2118745,
+            "sha256": "e878da46d395378fdf91a13cc46b029c26bd32273ad9ba9f458779ae8709f559"
+          }
+        ],
+        "shapes": {
+          "Forløp": {
+            "rows": 4,
+            "columns": 13
+          },
+          "Dokumenter": {
+            "rows": 97,
+            "columns": 17
+          },
+          "Omtale": {
+            "rows": 116,
+            "columns": 14
+          },
+          "Sammenligninger": {
+            "rows": 7,
+            "columns": 14
+          },
+          "Dekning og avvik": {
+            "rows": 19,
+            "columns": 2
+          },
+          "Kontroll": {
+            "rows": 49,
+            "columns": 11
+          },
+          "Offlinegrunnlag": {
+            "rows": 230,
+            "columns": 2
+          }
+        },
+        "serialized_counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1
+            },
+            "serialized_raw_payloads": 12,
+            "unique_raw_hashes": 12
+          },
+          "legacy": {
+            "serialized_observation_objects": 0,
+            "unique_observations": 0,
+            "observation_occurrences": {},
+            "payload_occurrences": {},
+            "serialized_raw_payloads": 0,
+            "unique_raw_hashes": 0
+          }
+        },
+        "expected": {
+          "fields": 9,
+          "adopted_fields": 3,
+          "events": 1
+        }
+      },
+      {
+        "name": "document-to-account",
+        "report_id": "888a2da32ed4a2a6446d50621e5473ddced5d78a1dfe1e5b5161f8021a5ae0db",
+        "basis_id": "3816b5cc326f356500ca4f37445bf0e974593287c9f142636ca5505c5448b5b5",
+        "selection": {
+          "mode": "accounts",
+          "document_id": null,
+          "years": [
+            2024
+          ],
+          "chapters": [],
+          "accounts": [
+            [
+              "315",
+              "78"
+            ]
+          ]
+        },
+        "actual": {
+          "fields": 9,
+          "adopted_fields": 3,
+          "events": 1,
+          "visible_treatment_rows": 3
+        },
+        "files": [
+          {
+            "file": "document-to-account.json",
+            "bytes": 6866593,
+            "sha256": "0a4acece47c19402a1e30f61ec3afb506663b7a4104a948457b58ec80d74de03"
+          },
+          {
+            "file": "document-to-account.xlsx",
+            "bytes": 2118810,
+            "sha256": "f6257c5c07baab00acfb2b92f1a51bbbd4da46e42720b137d5620b5f3347d240"
+          }
+        ],
+        "shapes": {
+          "Forløp": {
+            "rows": 4,
+            "columns": 13
+          },
+          "Dokumenter": {
+            "rows": 97,
+            "columns": 17
+          },
+          "Omtale": {
+            "rows": 116,
+            "columns": 14
+          },
+          "Sammenligninger": {
+            "rows": 7,
+            "columns": 14
+          },
+          "Dekning og avvik": {
+            "rows": 19,
+            "columns": 2
+          },
+          "Kontroll": {
+            "rows": 49,
+            "columns": 11
+          },
+          "Offlinegrunnlag": {
+            "rows": 230,
+            "columns": 2
+          }
+        },
+        "serialized_counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1
+            },
+            "serialized_raw_payloads": 12,
+            "unique_raw_hashes": 12
+          },
+          "legacy": {
+            "serialized_observation_objects": 0,
+            "unique_observations": 0,
+            "observation_occurrences": {},
+            "payload_occurrences": {},
+            "serialized_raw_payloads": 0,
+            "unique_raw_hashes": 0
+          }
+        },
+        "expected": {
+          "fields": 9,
+          "adopted_fields": 3,
+          "events": 1
+        }
+      },
+      {
+        "name": "return-document",
+        "report_id": "4fb6508a14519ae5f1860f78f0fab7d2cc87b243d555d46b44f9e50557b8efd1",
+        "basis_id": "3816b5cc326f356500ca4f37445bf0e974593287c9f142636ca5505c5448b5b5",
+        "selection": {
+          "mode": "document",
+          "document_id": "07e4c70cd7e4e58d1f9e7e497e6b3bf801d9c1b5ee41f0e6ad7e73b09a0d8820",
+          "years": [],
+          "chapters": [],
+          "accounts": []
+        },
+        "actual": {
+          "fields": 3,
+          "adopted_fields": 0,
+          "events": 0,
+          "visible_treatment_rows": 1
+        },
+        "files": [
+          {
+            "file": "return-document.json",
+            "bytes": 6871598,
+            "sha256": "3d6387a48a0f73157fd2007edd78a945547b5ed7a3aaf9036583fcb1afb579bd"
+          },
+          {
+            "file": "return-document.xlsx",
+            "bytes": 2121853,
+            "sha256": "2a1713f727da0aac51db94705b2cef9614b45f74d346073406350eb88d2b8284"
+          }
+        ],
+        "shapes": {
+          "Forløp": {
+            "rows": 2,
+            "columns": 13
+          },
+          "Dokumenter": {
+            "rows": 97,
+            "columns": 17
+          },
+          "Omtale": {
+            "rows": 116,
+            "columns": 14
+          },
+          "Sammenligninger": {
+            "rows": 7,
+            "columns": 14
+          },
+          "Dekning og avvik": {
+            "rows": 19,
+            "columns": 2
+          },
+          "Kontroll": {
+            "rows": 49,
+            "columns": 11
+          },
+          "Offlinegrunnlag": {
+            "rows": 230,
+            "columns": 2
+          }
+        },
+        "serialized_counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1
+            },
+            "serialized_raw_payloads": 12,
+            "unique_raw_hashes": 12
+          },
+          "legacy": {
+            "serialized_observation_objects": 0,
+            "unique_observations": 0,
+            "observation_occurrences": {},
+            "payload_occurrences": {},
+            "serialized_raw_payloads": 0,
+            "unique_raw_hashes": 0
+          }
+        },
+        "expected": {
+          "fields": 3,
+          "adopted_fields": 0,
+          "events": 0
+        }
+      },
+      {
+        "name": "offline",
+        "report_id": "8a21b5a4c2bd0988fa32a6761538dd9bbc6faca1445af78d61427a901d134ef7",
+        "basis_id": "3816b5cc326f356500ca4f37445bf0e974593287c9f142636ca5505c5448b5b5",
+        "selection": {
+          "mode": "accounts",
+          "document_id": null,
+          "years": [
+            2024
+          ],
+          "chapters": [],
+          "accounts": [
+            [
+              "315",
+              "78"
+            ]
+          ]
+        },
+        "actual": {
+          "fields": 9,
+          "adopted_fields": 3,
+          "events": 1,
+          "visible_treatment_rows": 3
+        },
+        "files": [
+          {
+            "file": "offline.json",
+            "bytes": 6866458,
+            "sha256": "9bd4b55ac227c8d6a016f438f116914d072a76bced95f8338dddecabb73b6469"
+          },
+          {
+            "file": "offline.xlsx",
+            "bytes": 2118745,
+            "sha256": "2139ecb9f31183e64a977efaa09a48622e3bab03f3a461327b9dc9e9643a5255"
+          }
+        ],
+        "shapes": {
+          "Forløp": {
+            "rows": 4,
+            "columns": 13
+          },
+          "Dokumenter": {
+            "rows": 97,
+            "columns": 17
+          },
+          "Omtale": {
+            "rows": 116,
+            "columns": 14
+          },
+          "Sammenligninger": {
+            "rows": 7,
+            "columns": 14
+          },
+          "Dekning og avvik": {
+            "rows": 19,
+            "columns": 2
+          },
+          "Kontroll": {
+            "rows": 49,
+            "columns": 11
+          },
+          "Offlinegrunnlag": {
+            "rows": 230,
+            "columns": 2
+          }
+        },
+        "serialized_counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1
+            },
+            "serialized_raw_payloads": 12,
+            "unique_raw_hashes": 12
+          },
+          "legacy": {
+            "serialized_observation_objects": 0,
+            "unique_observations": 0,
+            "observation_occurrences": {},
+            "payload_occurrences": {},
+            "serialized_raw_payloads": 0,
+            "unique_raw_hashes": 0
+          }
+        }
+      }
+    ],
+    "independence": [
+      {
+        "synthetic": true,
+        "condition": "missing",
+        "issues": [
+          "aarsdekning_delvis:opprinnelig_rnb_ovrige_og_andre_aar_ikke_importert",
+          "kontokontinuitet_ikke_dokumentert",
+          "strukturdekning_delvis:bare_315_78",
+          "faglig_godkjenning_ikke_utført",
+          "K1_positivt_parallellforslag_ikke_levert",
+          "fullmakt_209_uten_postkobling:ingen_315_belopshendelse",
+          "driftsaksept_ikke_utført:#10_aapen",
+          "mangler:docs/research/to-visninger-37/originals/komite/inns85s.html",
+          "http_500:docs/research/to-visninger-37/originals/komite/vedtak40034045.html"
+        ],
+        "fields": 6,
+        "comparisons": [
+          {
+            "id": "a30e228367671ccaeab5befca02e4294aa82a0ae79849742be82b37806524dda",
+            "meaning": "for_belop",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a",
+            "right_id": null,
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "35c86bf2de6c2fd542ff872c439aa27765d8872e13b2d9e5f233a0c302cb46a6",
+            "meaning": "for_belop",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": null,
+            "right_id": "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f",
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "aea7890f74e451d70376a5f4832ec300c66402530f0ad1c57ec12a63cdedd4c1",
+            "meaning": "endring",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4",
+            "right_id": null,
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "ff27bdd7857d97a2c60832165e9b10116caf6443de814244c5cb1d86a0ea2638",
+            "meaning": "endring",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": null,
+            "right_id": "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905",
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "2833fc83ba2dbe7130821568d597cfc679e326d94ea83f401cf133bc61f21b9f",
+            "meaning": "etter_belop",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91",
+            "right_id": null,
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "5ff475f096e93dc8f932dbc8c699a67b12f7a8288d0b99f867455830bd829f41",
+            "meaning": "etter_belop",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": null,
+            "right_id": "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c",
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          }
+        ],
+        "ordinary_fresh_database": {
+          "revision": "08341c45-99bb-4e86-bcad-44b0935b2302",
+          "extraction_id": "670e5807d022ee23dbb14f1e21df762529d8fb67e08a0854a5ac4e881f6eb7bf",
+          "observations": 222,
+          "events": 74,
+          "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+          "actual_saved_700_1_trio": [
+            [
+              "endring",
+              6324000
+            ],
+            [
+              "etter_belop",
+              310675000
+            ],
+            [
+              "for_belop",
+              304351000
+            ]
+          ],
+          "raw_preserved": true
+        }
+      },
+      {
+        "synthetic": true,
+        "condition": "failed",
+        "issues": [
+          "aarsdekning_delvis:opprinnelig_rnb_ovrige_og_andre_aar_ikke_importert",
+          "kontokontinuitet_ikke_dokumentert",
+          "strukturdekning_delvis:bare_315_78",
+          "faglig_godkjenning_ikke_utført",
+          "K1_positivt_parallellforslag_ikke_levert",
+          "fullmakt_209_uten_postkobling:ingen_315_belopshendelse",
+          "driftsaksept_ikke_utført:#10_aapen",
+          "mangler:docs/research/to-visninger-37/originals/komite/inns85s.html",
+          "http_500:docs/research/to-visninger-37/originals/komite/vedtak40034045.html"
+        ],
+        "fields": 6,
+        "comparisons": [
+          {
+            "id": "a30e228367671ccaeab5befca02e4294aa82a0ae79849742be82b37806524dda",
+            "meaning": "for_belop",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a",
+            "right_id": null,
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "35c86bf2de6c2fd542ff872c439aa27765d8872e13b2d9e5f233a0c302cb46a6",
+            "meaning": "for_belop",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": null,
+            "right_id": "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f",
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "aea7890f74e451d70376a5f4832ec300c66402530f0ad1c57ec12a63cdedd4c1",
+            "meaning": "endring",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4",
+            "right_id": null,
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "ff27bdd7857d97a2c60832165e9b10116caf6443de814244c5cb1d86a0ea2638",
+            "meaning": "endring",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": null,
+            "right_id": "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905",
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "2833fc83ba2dbe7130821568d597cfc679e326d94ea83f401cf133bc61f21b9f",
+            "meaning": "etter_belop",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91",
+            "right_id": null,
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "5ff475f096e93dc8f932dbc8c699a67b12f7a8288d0b99f867455830bd829f41",
+            "meaning": "etter_belop",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": null,
+            "right_id": "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c",
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          }
+        ],
+        "ordinary_fresh_database": {
+          "revision": "be9b80bc-9bea-4da4-98ac-6d72880b514b",
+          "extraction_id": "7aeb8ead90e9f2041e5cb10a12c36260e42b5391cd777872fb32462e4a049c5f",
+          "observations": 222,
+          "events": 74,
+          "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+          "actual_saved_700_1_trio": [
+            [
+              "endring",
+              6324000
+            ],
+            [
+              "etter_belop",
+              310675000
+            ],
+            [
+              "for_belop",
+              304351000
+            ]
+          ],
+          "raw_preserved": true
+        }
+      },
+      {
+        "synthetic": true,
+        "condition": "corrupt",
+        "issues": [
+          "aarsdekning_delvis:opprinnelig_rnb_ovrige_og_andre_aar_ikke_importert",
+          "kontokontinuitet_ikke_dokumentert",
+          "strukturdekning_delvis:bare_315_78",
+          "faglig_godkjenning_ikke_utført",
+          "K1_positivt_parallellforslag_ikke_levert",
+          "fullmakt_209_uten_postkobling:ingen_315_belopshendelse",
+          "driftsaksept_ikke_utført:#10_aapen",
+          "motstrid:docs/research/to-visninger-37/originals/komite/inns85s.html",
+          "http_500:docs/research/to-visninger-37/originals/komite/vedtak40034045.html"
+        ],
+        "fields": 6,
+        "comparisons": [
+          {
+            "id": "a30e228367671ccaeab5befca02e4294aa82a0ae79849742be82b37806524dda",
+            "meaning": "for_belop",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a",
+            "right_id": null,
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "35c86bf2de6c2fd542ff872c439aa27765d8872e13b2d9e5f233a0c302cb46a6",
+            "meaning": "for_belop",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": null,
+            "right_id": "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f",
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "aea7890f74e451d70376a5f4832ec300c66402530f0ad1c57ec12a63cdedd4c1",
+            "meaning": "endring",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4",
+            "right_id": null,
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "ff27bdd7857d97a2c60832165e9b10116caf6443de814244c5cb1d86a0ea2638",
+            "meaning": "endring",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": null,
+            "right_id": "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905",
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "2833fc83ba2dbe7130821568d597cfc679e326d94ea83f401cf133bc61f21b9f",
+            "meaning": "etter_belop",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91",
+            "right_id": null,
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "5ff475f096e93dc8f932dbc8c699a67b12f7a8288d0b99f867455830bd829f41",
+            "meaning": "etter_belop",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": null,
+            "right_id": "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c",
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          }
+        ],
+        "ordinary_fresh_database": {
+          "revision": "da1b4c34-4758-4094-9ebf-1a7bcaa9a91a",
+          "extraction_id": "5ffc0c967b648e51301f35ef59293857e2080d9e0d50adf404948b53a92f1f7e",
+          "observations": 222,
+          "events": 74,
+          "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+          "actual_saved_700_1_trio": [
+            [
+              "endring",
+              6324000
+            ],
+            [
+              "etter_belop",
+              310675000
+            ],
+            [
+              "for_belop",
+              304351000
+            ]
+          ],
+          "raw_preserved": true
+        }
+      },
+      {
+        "synthetic": true,
+        "condition": "contradictory",
+        "issues": [
+          "aarsdekning_delvis:opprinnelig_rnb_ovrige_og_andre_aar_ikke_importert",
+          "kontokontinuitet_ikke_dokumentert",
+          "strukturdekning_delvis:bare_315_78",
+          "faglig_godkjenning_ikke_utført",
+          "K1_positivt_parallellforslag_ikke_levert",
+          "fullmakt_209_uten_postkobling:ingen_315_belopshendelse",
+          "driftsaksept_ikke_utført:#10_aapen",
+          "motstrid:docs/research/to-visninger-37/originals/komite/inns85s.html",
+          "http_500:docs/research/to-visninger-37/originals/komite/vedtak40034045.html"
+        ],
+        "fields": 6,
+        "comparisons": [
+          {
+            "id": "a30e228367671ccaeab5befca02e4294aa82a0ae79849742be82b37806524dda",
+            "meaning": "for_belop",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a",
+            "right_id": null,
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "35c86bf2de6c2fd542ff872c439aa27765d8872e13b2d9e5f233a0c302cb46a6",
+            "meaning": "for_belop",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": null,
+            "right_id": "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f",
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "aea7890f74e451d70376a5f4832ec300c66402530f0ad1c57ec12a63cdedd4c1",
+            "meaning": "endring",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4",
+            "right_id": null,
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "ff27bdd7857d97a2c60832165e9b10116caf6443de814244c5cb1d86a0ea2638",
+            "meaning": "endring",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": null,
+            "right_id": "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905",
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "2833fc83ba2dbe7130821568d597cfc679e326d94ea83f401cf133bc61f21b9f",
+            "meaning": "etter_belop",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91",
+            "right_id": null,
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          },
+          {
+            "id": "5ff475f096e93dc8f932dbc8c699a67b12f7a8288d0b99f867455830bd829f41",
+            "meaning": "etter_belop",
+            "account": "315/78",
+            "status": "hull",
+            "reason": "manglende stadium",
+            "rule": "stadieforskjell-komite315-1",
+            "left_id": null,
+            "right_id": "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c",
+            "null_reason": "manglende stadium",
+            "difference_kr": null
+          }
+        ],
+        "ordinary_fresh_database": {
+          "revision": "a3a87dd5-03ee-4f44-9956-5790376ca1f0",
+          "extraction_id": "053c6c84b5ed226d103e477cfd4a5f5280eece5ccced4cedc274092561c758d7",
+          "observations": 222,
+          "events": 74,
+          "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+          "actual_saved_700_1_trio": [
+            [
+              "endring",
+              6324000
+            ],
+            [
+              "etter_belop",
+              310675000
+            ],
+            [
+              "for_belop",
+              304351000
+            ]
+          ],
+          "raw_preserved": true
+        }
+      }
+    ],
+    "negative_mutations": [
+      {
+        "synthetic": true,
+        "mutation": "amount",
+        "rehashed": true,
+        "rejected": "T2-grunnlaget avviker fra kildebyte/roller/bevis/ID-er"
+      },
+      {
+        "synthetic": true,
+        "mutation": "actor",
+        "rehashed": true,
+        "rejected": "T2-grunnlaget avviker fra kildebyte/roller/bevis/ID-er"
+      },
+      {
+        "synthetic": true,
+        "mutation": "vote",
+        "rehashed": true,
+        "rejected": "T2-grunnlaget avviker fra kildebyte/roller/bevis/ID-er"
+      },
+      {
+        "synthetic": true,
+        "mutation": "relation",
+        "rehashed": true,
+        "rejected": "T2-grunnlaget avviker fra kildebyte/roller/bevis/ID-er"
+      },
+      {
+        "synthetic": true,
+        "mutation": "numberformat",
+        "rejected": "T2-Excel avviker i celle/stil/lenke: Forløp!H2"
+      },
+      {
+        "synthetic": true,
+        "mutation": "hidden-issues",
+        "rejected": "T2-Excel har endret synlighet/oppsett: Dekning og avvik"
+      },
+      {
+        "synthetic": true,
+        "mutation": "false-link",
+        "rejected": "T2-Excel avviker i celle/stil/lenke: Forløp!C2"
+      }
+    ],
+    "compatibility": [
+      {
+        "kind": "ekte_tidligere_O2",
+        "name": "o2b-210-begge-poster-7e70506/begge",
+        "report_id": "ef508e79e8f55993893250ff96f9f1ac6b55138dfb58b634fdc3cec51b3b42ab",
+        "original_hashes": {
+          ".json": "96dbe2c089272a661a6c37b4e1eaee5a10d78629720916c55705ba16aff7397d",
+          ".xlsx": "34dea0f68eb3a1ec6eb33d5bf56bc7d04c519cb7f0be8a14d22897576a5aec84"
+        },
+        "unchanged": true
+      },
+      {
+        "kind": "ekte_tidligere_O2",
+        "name": "o2b-210-begge-poster-7e70506/post1",
+        "report_id": "978b86d0701fc4c030e9f5fbf738e1187bcca3c76fff112f366cff8abb043174",
+        "original_hashes": {
+          ".json": "0a22ad2c074a86898d6d264db6505b7b6bd6240578aa6846a3e5413d50760f07",
+          ".xlsx": "3b97f085ce4db4c909a06ba4f55873b204576ae13aff2ab7ead144471f5e77fc"
+        },
+        "unchanged": true
+      },
+      {
+        "kind": "ekte_tidligere_O2",
+        "name": "o2b-210-begge-poster-7e70506/post22",
+        "report_id": "51d209382fcb5fa69fc7ac38687a3a965b7754c4d11d44a0b2197e6088c24a22",
+        "original_hashes": {
+          ".json": "ce913130c81f837eda327ee1e0f008aad82aa029122c9a0a9c6c19690f9a6f9f",
+          ".xlsx": "a98a523020099d0d3964a569ccb7ce00fa2dc3a321255db2bd61f9a49317318b"
+        },
+        "unchanged": true
+      },
+      {
+        "kind": "ekte_tidligere_O2",
+        "name": "o2b-210-begge-poster-7e70506/tomt",
+        "report_id": "17ebed652bfc42eebf8f863706d6de6918fb0422b1cb3f84324a62187e273e87",
+        "original_hashes": {
+          ".json": "fac1b5c180baa57ef7f9114aabe855aafbd1cec1d3e7e1ed8725889c8e9ee84e",
+          ".xlsx": "08e46f0b589d606e2c5ac6cb90e71d1e1076f019d8e1391bf7729d2d58610721"
+        },
+        "unchanged": true
+      },
+      {
+        "kind": "ekte_tidligere_O2",
+        "name": "o2b-210-begge-poster-7e70506/offline",
+        "report_id": "ef508e79e8f55993893250ff96f9f1ac6b55138dfb58b634fdc3cec51b3b42ab",
+        "original_hashes": {
+          ".json": "96dbe2c089272a661a6c37b4e1eaee5a10d78629720916c55705ba16aff7397d",
+          ".xlsx": "cc4d5b68d29656d5358e4bc018645fa74ffdd5b62401bd5fb20f6f89e0471a4c"
+        },
+        "unchanged": true
+      },
+      {
+        "kind": "ekte_tidligere_O2",
+        "name": "o2b-210-begge-poster-7e70506/syntetisk-forslag",
+        "report_id": "d8f29ff8f136d5eeb01303ccc8cd5e34c126b809391980f34cbc9f29b5347485",
+        "original_hashes": {
+          ".json": "b65ae7e0bf42f4f699f75ee3f74be86e836a32e25b0b2d331603731456db111c",
+          ".xlsx": "440484fc0c3936c6753d40a4476ad5e5777e6a6143d67daa2342af1104132499"
+        },
+        "unchanged": true
+      },
+      {
+        "kind": "ekte_tidligere_O2",
+        "name": "o2a-210-post1-52f0545/omtale-210-post1",
+        "report_id": "22e216820b2b2d17fd43016d8be437a8cbdfaf4cbd8920b871aec0acd55d7143",
+        "original_hashes": {
+          ".json": "bd5666408115ce448a1c3ecf84242cade4c668ef507842e81eb5465c3bca7129",
+          ".xlsx": "3fc3f731970dccb47ce773e37a48c42be2c9b10cf7525c82826c6436fc7965e3"
+        },
+        "unchanged": true
+      },
+      {
+        "kind": "ekte_tidligere_O2",
+        "name": "o2a-210-post1-52f0545/offline-gjenlest",
+        "report_id": "22e216820b2b2d17fd43016d8be437a8cbdfaf4cbd8920b871aec0acd55d7143",
+        "original_hashes": {
+          ".json": "bd5666408115ce448a1c3ecf84242cade4c668ef507842e81eb5465c3bca7129",
+          ".xlsx": "f90cea2b72e62cf61816d3ad6f07a25ec4063a7d244eb2c57fb7713cd23ad5eb"
+        },
+        "unchanged": true
+      },
+      {
+        "kind": "ekte_tidligere_B8_B9_med_B6_kjerne",
+        "name": "vedtak-210-2026-10-22",
+        "report_id": "d0c677cee11fa8d38677c2afa581c5717145524f25323bc1a334c0a5d831b62c",
+        "original_hashes": {
+          ".json": "2d855c97abf6af30e6eb64817bfc50778f5f7ffb7deee56362ff8caf1e908cbe",
+          ".xlsx": "64f040412d0d9dabc3c4cec366c918bd8c5442ef5e2cb8f474797d247ec398cb"
+        },
+        "unchanged": true,
+        "standalone_original_B6_delivery": "ikke funnet; innebygd original B6-kjerne kontrollert"
+      },
+      {
+        "kind": "ekte_tidligere_B8_B9_med_B6_kjerne",
+        "name": "vedtak-210-13-kolonner-2026-10-22",
+        "report_id": "0a32261a3771621478d0616ae8733fdbd0085c4792a48f97cd42ea0ed2c79b86",
+        "original_hashes": {
+          ".json": "2aa9f79e1d3f103c2593ab18b171f7d2e3f431658507c14fc7aa603865fec32e",
+          ".xlsx": "88d877f490559a3dd5a1bee77af8c6107acaab55ec3ee8f4d04009ad0b4a456d"
+        },
+        "unchanged": true,
+        "standalone_original_B6_delivery": "ikke funnet; innebygd original B6-kjerne kontrollert"
+      },
+      {
+        "kind": "ekte_tidligere_T1",
+        "report_id": "4d27c1e83524102cb29ff8b429fb262bb9861d4b024718e1edca90d457c6f17e",
+        "original_hashes": {
+          ".json": "99e871e0ab780cbb548e15699f3093621d0f25229e3fa06c29cfdb5552803f53",
+          ".xlsx": "d3c076d24e6b2a2247e759d234bb93eb747fcec3d47d2ccb574dca40227f29f4"
+        },
+        "unchanged": true
+      },
+      {
+        "kind": "ekte_eldre_B6_arbeidsbok",
+        "source_path": "C:\\Users\\marti\\Documents\\Codex\\2026-10-20\\fortsett-med-6-i-depmartin-budsjetthistorikk\\work\\b6\\work\\accept-b6.xlsx",
+        "sha256": "8487909b5e7b2b7498c9ab78de9fb88966be926202df89388ef3f31871ac1f39",
+        "bytes": 4648442,
+        "report_id": "3ff5698de68eaad7f200d08fb73d83c150adea56ae49ccc2b1bd2efa305a9cfc",
+        "observations": 5492,
+        "selected_extractions": 50,
+        "extractions_with_amount_rows": 47,
+        "observation_ids_sha256": "79793f1ab60f03f31ce6bbeb2b4997f154e506c1b6e982313bdcd1ecbfdd935c",
+        "actual_cells_and_old_observation_models_checked": true,
+        "unchanged": true,
+        "boundary": "Ekte eldre B6-Excel, ikke omgenerert. Selvstendig gammel frozen-v1-rapport-JSON er ikke funnet. Utvalgs-/bevis-JSON er ikke SessionReport. Eksakt historisk writercommit er ikke fastslått; ingen historisk DB åpnet."
+      }
+    ],
+    "compatibility_counts": {
+      "ekte_tidligere_O2": 8,
+      "ekte_tidligere_B8_B9_med_B6_kjerne": 2,
+      "ekte_tidligere_T1": 1,
+      "ekte_eldre_B6_arbeidsbok": 1
+    },
+    "limitations": [
+      "K1 positiv alternativport åpen",
+      "Ingen fullårsdekning, faglig godkjenning, kontinuitet eller drift; #10 åpen",
+      "Arvede T1-kapselkopier er bevart og telt separat",
+      "Selvstendig gammel frozen-v1-JSON ikke funnet; innebygde kjerner og ekte eldre B6-Excel prøves separat",
+      "Ingen native Excel-prøve; lagrede celler/lenker/stil/byte og rendering av lagret XLSX kontrolleres"
+    ],
+    "files": [
+      {
+        "file": "account-to-document.json",
+        "bytes": 6871687,
+        "sha256": "2711fa7dafde6e8f67d8f276e34a2fe9781b846a7ff336821145ee3342864ca9"
+      },
+      {
+        "file": "account-to-document.xlsx",
+        "bytes": 2121906,
+        "sha256": "73101fac3068fd10271df656dfd7bec70856b7a5dcb4fb38fc100c07d14aac06"
+      },
+      {
+        "file": "chapter.json",
+        "bytes": 6867456,
+        "sha256": "a4565cebebac03f1ffef207350cc3a9180cb1fe6dcf9fb21a64f327f36b70595"
+      },
+      {
+        "file": "chapter.xlsx",
+        "bytes": 2119423,
+        "sha256": "ef03e70e37e6d4d6b8dadaac0c3c6362c72ab1e304f4e5193f276e4971d86bbe"
+      },
+      {
+        "file": "compatibility/o2a-210-post1-52f0545/offline-gjenlest/offline-gjenlest.json",
+        "bytes": 4837383,
+        "sha256": "bd5666408115ce448a1c3ecf84242cade4c668ef507842e81eb5465c3bca7129"
+      },
+      {
+        "file": "compatibility/o2a-210-post1-52f0545/offline-gjenlest/offline-gjenlest.xlsx",
+        "bytes": 1392307,
+        "sha256": "f90cea2b72e62cf61816d3ad6f07a25ec4063a7d244eb2c57fb7713cd23ad5eb"
+      },
+      {
+        "file": "compatibility/o2a-210-post1-52f0545/omtale-210-post1/omtale-210-post1.json",
+        "bytes": 4837383,
+        "sha256": "bd5666408115ce448a1c3ecf84242cade4c668ef507842e81eb5465c3bca7129"
+      },
+      {
+        "file": "compatibility/o2a-210-post1-52f0545/omtale-210-post1/omtale-210-post1.xlsx",
+        "bytes": 1392306,
+        "sha256": "3fc3f731970dccb47ce773e37a48c42be2c9b10cf7525c82826c6436fc7965e3"
+      },
+      {
+        "file": "compatibility/o2b-210-begge-poster-7e70506/begge/begge.json",
+        "bytes": 4866537,
+        "sha256": "96dbe2c089272a661a6c37b4e1eaee5a10d78629720916c55705ba16aff7397d"
+      },
+      {
+        "file": "compatibility/o2b-210-begge-poster-7e70506/begge/begge.xlsx",
+        "bytes": 1398819,
+        "sha256": "34dea0f68eb3a1ec6eb33d5bf56bc7d04c519cb7f0be8a14d22897576a5aec84"
+      },
+      {
+        "file": "compatibility/o2b-210-begge-poster-7e70506/offline/offline.json",
+        "bytes": 4866537,
+        "sha256": "96dbe2c089272a661a6c37b4e1eaee5a10d78629720916c55705ba16aff7397d"
+      },
+      {
+        "file": "compatibility/o2b-210-begge-poster-7e70506/offline/offline.xlsx",
+        "bytes": 1398819,
+        "sha256": "cc4d5b68d29656d5358e4bc018645fa74ffdd5b62401bd5fb20f6f89e0471a4c"
+      },
+      {
+        "file": "compatibility/o2b-210-begge-poster-7e70506/post1/post1.json",
+        "bytes": 4852595,
+        "sha256": "0a22ad2c074a86898d6d264db6505b7b6bd6240578aa6846a3e5413d50760f07"
+      },
+      {
+        "file": "compatibility/o2b-210-begge-poster-7e70506/post1/post1.xlsx",
+        "bytes": 1396394,
+        "sha256": "3b97f085ce4db4c909a06ba4f55873b204576ae13aff2ab7ead144471f5e77fc"
+      },
+      {
+        "file": "compatibility/o2b-210-begge-poster-7e70506/post22/post22.json",
+        "bytes": 4852917,
+        "sha256": "ce913130c81f837eda327ee1e0f008aad82aa029122c9a0a9c6c19690f9a6f9f"
+      },
+      {
+        "file": "compatibility/o2b-210-begge-poster-7e70506/post22/post22.xlsx",
+        "bytes": 1396485,
+        "sha256": "a98a523020099d0d3964a569ccb7ce00fa2dc3a321255db2bd61f9a49317318b"
+      },
+      {
+        "file": "compatibility/o2b-210-begge-poster-7e70506/syntetisk-forslag/syntetisk-forslag.json",
+        "bytes": 4867573,
+        "sha256": "b65ae7e0bf42f4f699f75ee3f74be86e836a32e25b0b2d331603731456db111c"
+      },
+      {
+        "file": "compatibility/o2b-210-begge-poster-7e70506/syntetisk-forslag/syntetisk-forslag.xlsx",
+        "bytes": 1399247,
+        "sha256": "440484fc0c3936c6753d40a4476ad5e5777e6a6143d67daa2342af1104132499"
+      },
+      {
+        "file": "compatibility/o2b-210-begge-poster-7e70506/tomt/tomt.json",
+        "bytes": 4838268,
+        "sha256": "fac1b5c180baa57ef7f9114aabe855aafbd1cec1d3e7e1ed8725889c8e9ee84e"
+      },
+      {
+        "file": "compatibility/o2b-210-begge-poster-7e70506/tomt/tomt.xlsx",
+        "bytes": 1390380,
+        "sha256": "08e46f0b589d606e2c5ac6cb90e71d1e1076f019d8e1391bf7729d2d58610721"
+      },
+      {
+        "file": "compatibility/old-B6/accept-b6.xlsx",
+        "bytes": 4648442,
+        "sha256": "8487909b5e7b2b7498c9ab78de9fb88966be926202df89388ef3f31871ac1f39"
+      },
+      {
+        "file": "compatibility/old-t1/begge.json",
+        "bytes": 7732250,
+        "sha256": "99e871e0ab780cbb548e15699f3093621d0f25229e3fa06c29cfdb5552803f53"
+      },
+      {
+        "file": "compatibility/old-t1/begge.xlsx",
+        "bytes": 5523111,
+        "sha256": "d3c076d24e6b2a2247e759d234bb93eb747fcec3d47d2ccb574dca40227f29f4"
+      },
+      {
+        "file": "compatibility/vedtak-210-13-kolonner-2026-10-22/vedtak-210.json",
+        "bytes": 94551,
+        "sha256": "2aa9f79e1d3f103c2593ab18b171f7d2e3f431658507c14fc7aa603865fec32e"
+      },
+      {
+        "file": "compatibility/vedtak-210-13-kolonner-2026-10-22/vedtak-210.xlsx",
+        "bytes": 39569,
+        "sha256": "88d877f490559a3dd5a1bee77af8c6107acaab55ec3ee8f4d04009ad0b4a456d"
+      },
+      {
+        "file": "compatibility/vedtak-210-2026-10-22/vedtak-210.json",
+        "bytes": 94551,
+        "sha256": "2d855c97abf6af30e6eb64817bfc50778f5f7ffb7deee56362ff8caf1e908cbe"
+      },
+      {
+        "file": "compatibility/vedtak-210-2026-10-22/vedtak-210.xlsx",
+        "bytes": 37477,
+        "sha256": "64f040412d0d9dabc3c4cec366c918bd8c5442ef5e2cb8f474797d247ec398cb"
+      },
+      {
+        "file": "document-inns85.json",
+        "bytes": 6871687,
+        "sha256": "2711fa7dafde6e8f67d8f276e34a2fe9781b846a7ff336821145ee3342864ca9"
+      },
+      {
+        "file": "document-inns85.xlsx",
+        "bytes": 2121906,
+        "sha256": "b7bff57fa33ecf95111ab7393527a739f699514e3d2073db4fb905c68194c33f"
+      },
+      {
+        "file": "document-plenum24.json",
+        "bytes": 6862318,
+        "sha256": "2005518276a675a9eacd3d1d68f6fd6d3c7e7b3934b14e6a31e5d8b6ea19bfc2"
+      },
+      {
+        "file": "document-plenum24.xlsx",
+        "bytes": 2114893,
+        "sha256": "056b5fa62a2e10051c1f9f0b4918fe5e54fa739841825414e134c70f9125b58b"
+      },
+      {
+        "file": "document-prop25.json",
+        "bytes": 6869945,
+        "sha256": "58e449d3b6723d2eb510c9d8c82681e04f1be2fc20677920923598e428138f22"
+      },
+      {
+        "file": "document-prop25.xlsx",
+        "bytes": 2120794,
+        "sha256": "c852ce12c698ab370a025648b83da4822bb0e05ba17be03b1c68cb42e9333421"
+      },
+      {
+        "file": "document-sak100887.json",
+        "bytes": 6862318,
+        "sha256": "75fd281bc55648ee18fcfe31316a4faf30d9267da8bbadca9840d8f332d85c8a"
+      },
+      {
+        "file": "document-sak100887.xlsx",
+        "bytes": 2114800,
+        "sha256": "e9436efc38fc32bf538a915a30c5c43d69c818ece9565e6dc7e4de3c7c2ac6e5"
+      },
+      {
+        "file": "document-to-account.json",
+        "bytes": 6866593,
+        "sha256": "0a4acece47c19402a1e30f61ec3afb506663b7a4104a948457b58ec80d74de03"
+      },
+      {
+        "file": "document-to-account.xlsx",
+        "bytes": 2118810,
+        "sha256": "f6257c5c07baab00acfb2b92f1a51bbbd4da46e42720b137d5620b5f3347d240"
+      },
+      {
+        "file": "document-vedtak208.json",
+        "bytes": 6867732,
+        "sha256": "86d31642259cd94a35eca8f977d78a6f887c0b0079617c78f5dd6bc14d340036"
+      },
+      {
+        "file": "document-vedtak208.xlsx",
+        "bytes": 2119204,
+        "sha256": "3887f04f9cdacffda26b46c001e5b32dcbd1ae277187b0095883006fc51f735e"
+      },
+      {
+        "file": "document-vedtak209.json",
+        "bytes": 6862318,
+        "sha256": "416212790fd290ff0070a20c74d704a3cf88d8ed805206d6afb719d4370cc628"
+      },
+      {
+        "file": "document-vedtak209.xlsx",
+        "bytes": 2114895,
+        "sha256": "641fd4bfa4a8a8be30f16dca27547a48b0f1dfcf648d3d3d648203c739ff1704"
+      },
+      {
+        "file": "empty.json",
+        "bytes": 6862035,
+        "sha256": "19bb540b2e54450eed098846a670c96f8f7de4d7f52a3cc76b1838397fcd79f1"
+      },
+      {
+        "file": "empty.xlsx",
+        "bytes": 2114685,
+        "sha256": "723b608d9c2213ed26b8d15e62806b2d93170d1fc921b9f062a846acace93652"
+      },
+      {
+        "file": "offline.json",
+        "bytes": 6866458,
+        "sha256": "9bd4b55ac227c8d6a016f438f116914d072a76bced95f8338dddecabb73b6469"
+      },
+      {
+        "file": "offline.xlsx",
+        "bytes": 2118745,
+        "sha256": "2139ecb9f31183e64a977efaa09a48622e3bab03f3a461327b9dc9e9643a5255"
+      },
+      {
+        "file": "originals/0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657.bin",
+        "bytes": 346750,
+        "sha256": "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657"
+      },
+      {
+        "file": "originals/17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf.bin",
+        "bytes": 104457,
+        "sha256": "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf"
+      },
+      {
+        "file": "originals/1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b.bin",
+        "bytes": 391763,
+        "sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b"
+      },
+      {
+        "file": "originals/22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5.bin",
+        "bytes": 2094710,
+        "sha256": "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5"
+      },
+      {
+        "file": "originals/232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab.bin",
+        "bytes": 182316,
+        "sha256": "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab"
+      },
+      {
+        "file": "originals/4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28.bin",
+        "bytes": 381,
+        "sha256": "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28"
+      },
+      {
+        "file": "originals/5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec.bin",
+        "bytes": 4641,
+        "sha256": "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec"
+      },
+      {
+        "file": "originals/6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145.bin",
+        "bytes": 25310,
+        "sha256": "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145"
+      },
+      {
+        "file": "originals/87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b.bin",
+        "bytes": 92231,
+        "sha256": "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b"
+      },
+      {
+        "file": "originals/961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288.bin",
+        "bytes": 560552,
+        "sha256": "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288"
+      },
+      {
+        "file": "originals/aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a.bin",
+        "bytes": 777380,
+        "sha256": "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a"
+      },
+      {
+        "file": "originals/cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e.bin",
+        "bytes": 17096,
+        "sha256": "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e"
+      },
+      {
+        "file": "originals/derived-40034045.xml",
+        "bytes": 56993,
+        "sha256": "9cc1a9b2406f78cfd3e9ec0c0e57b1145813a53c0a2f409d71d6f6069049b8a1"
+      },
+      {
+        "file": "originals/derived-40034047.xml",
+        "bytes": 1815,
+        "sha256": "b0294d5e20b8ef0d5bd83d33efe0fdd700f831701111261935205824423aa84d"
+      },
+      {
+        "file": "originals/index.json",
+        "bytes": 9791,
+        "sha256": "40436b0345782a418f85656bc315dc43caeefc54652724f15edc29dad7eb742c"
+      },
+      {
+        "file": "return-account.json",
+        "bytes": 6866458,
+        "sha256": "9bd4b55ac227c8d6a016f438f116914d072a76bced95f8338dddecabb73b6469"
+      },
+      {
+        "file": "return-account.xlsx",
+        "bytes": 2118745,
+        "sha256": "e878da46d395378fdf91a13cc46b029c26bd32273ad9ba9f458779ae8709f559"
+      },
+      {
+        "file": "return-document.json",
+        "bytes": 6871598,
+        "sha256": "3d6387a48a0f73157fd2007edd78a945547b5ed7a3aaf9036583fcb1afb579bd"
+      },
+      {
+        "file": "return-document.xlsx",
+        "bytes": 2121853,
+        "sha256": "2a1713f727da0aac51db94705b2cef9614b45f74d346073406350eb88d2b8284"
+      },
+      {
+        "file": "standalone.json",
+        "bytes": 6866458,
+        "sha256": "9bd4b55ac227c8d6a016f438f116914d072a76bced95f8338dddecabb73b6469"
+      },
+      {
+        "file": "standalone.xlsx",
+        "bytes": 2118748,
+        "sha256": "2ff60edbdaa5841f38cfc25d3ae315f15133573964b18cca4a17787706ffa913"
+      },
+      {
+        "file": "synthetic-contradictory/01-synkroniser.json",
+        "bytes": 2515,
+        "sha256": "724fa68cefaebe3f3de5b7e811b92eac07ad8b8d59876a290f4874d7bd22c07d"
+      },
+      {
+        "file": "synthetic-contradictory/02-tolk.json",
+        "bytes": 63986,
+        "sha256": "9321828233cc6d14b5ea4db4ed977f86d3a01b66f99b18242e368606c1b2d071"
+      },
+      {
+        "file": "synthetic-contradictory/03-analyse.json",
+        "bytes": 850,
+        "sha256": "d0ac8dd93b3203df8db93568d4716229d019638375db917e962559579715a09a"
+      },
+      {
+        "file": "synthetic-contradictory/empty.json",
+        "bytes": 6604115,
+        "sha256": "a2cb821483ca1be1f397de2a015fd25e1b600fd53bb4e6771d3888d151785fef"
+      },
+      {
+        "file": "synthetic-contradictory/empty.xlsx",
+        "bytes": 2068484,
+        "sha256": "eccff664552361080c5364b6b2e9fcdc463979ba15f9f6f6c74c82f12bf1da48"
+      },
+      {
+        "file": "synthetic-contradictory/gap.json",
+        "bytes": 6607467,
+        "sha256": "5502c71609a0cb349b361b4ca9656c4bb5b601fc2d26a6800c9920c0900e12ee"
+      },
+      {
+        "file": "synthetic-contradictory/gap.xlsx",
+        "bytes": 2071596,
+        "sha256": "dd7c1fe5b0d3f46b156a0ad3b3283758ae93e1aab20f750d232ad4da8139e07d"
+      },
+      {
+        "file": "synthetic-contradictory/ordinary.sqlite",
+        "bytes": 2281472,
+        "sha256": "02a1d46552b65467698e317dbd026cbf118c0ada4a079b925481cdde849f3231"
+      },
+      {
+        "file": "synthetic-contradictory/ordinary.xlsx",
+        "bytes": 93822,
+        "sha256": "242be9a270cad4e7f0479d3e150df986646cab377ce4b66654c5868345cf5eb7"
+      },
+      {
+        "file": "synthetic-contradictory/sources/docs/research/omtale-o1/originals/votering-161224.html",
+        "bytes": 2094710,
+        "sha256": "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5"
+      },
+      {
+        "file": "synthetic-contradictory/sources/docs/research/to-visninger-37/originals/aar/session-2024-2025.meta.json",
+        "bytes": 381,
+        "sha256": "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28"
+      },
+      {
+        "file": "synthetic-contradictory/sources/docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+        "bytes": 391763,
+        "sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b"
+      },
+      {
+        "file": "synthetic-contradictory/sources/docs/research/to-visninger-37/originals/komite/inns85s.html",
+        "bytes": 346988,
+        "sha256": "4c22f8b46d6aacd140e20fd85284ea5331c11a38e996636c39af6bb5e498db4c"
+      },
+      {
+        "file": "synthetic-contradictory/sources/docs/research/to-visninger-37/originals/komite/inns85s.pdf",
+        "bytes": 560552,
+        "sha256": "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288"
+      },
+      {
+        "file": "synthetic-contradictory/sources/docs/research/to-visninger-37/originals/komite/manifest.json",
+        "bytes": 25310,
+        "sha256": "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145"
+      },
+      {
+        "file": "synthetic-contradictory/sources/docs/research/to-visninger-37/originals/komite/prop25s-ch2.html",
+        "bytes": 92231,
+        "sha256": "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b"
+      },
+      {
+        "file": "synthetic-contradictory/sources/docs/research/to-visninger-37/originals/komite/prop25s-ch4.html",
+        "bytes": 104457,
+        "sha256": "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf"
+      },
+      {
+        "file": "synthetic-contradictory/sources/docs/research/to-visninger-37/originals/komite/prop25s.pdf",
+        "bytes": 777380,
+        "sha256": "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a"
+      },
+      {
+        "file": "synthetic-contradictory/sources/docs/research/to-visninger-37/originals/komite/sak100887.xml",
+        "bytes": 17096,
+        "sha256": "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e"
+      },
+      {
+        "file": "synthetic-contradictory/sources/docs/research/to-visninger-37/originals/komite/vedtak40034045-sak100887.html",
+        "bytes": 182316,
+        "sha256": "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab"
+      },
+      {
+        "file": "synthetic-contradictory/sources/docs/research/to-visninger-37/originals/komite/vedtak40034045.html",
+        "bytes": 4641,
+        "sha256": "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec"
+      },
+      {
+        "file": "synthetic-corrupt/01-synkroniser.json",
+        "bytes": 2509,
+        "sha256": "55195d0fc6b66eb372f04583f487029d558009ed6b57adc32d11f52721a2229d"
+      },
+      {
+        "file": "synthetic-corrupt/02-tolk.json",
+        "bytes": 63980,
+        "sha256": "badf92bf7c89fc8b255aaa4b01535fd6d434e22ee4c13fec83cd104184d9856c"
+      },
+      {
+        "file": "synthetic-corrupt/03-analyse.json",
+        "bytes": 832,
+        "sha256": "2f50fc2e3f629c0a3f9bdaecf843ddc8113ea75403ee766dabf9c9c0b80d6914"
+      },
+      {
+        "file": "synthetic-corrupt/empty.json",
+        "bytes": 6141491,
+        "sha256": "aa686ca99bb9e94eeccb0a550f370e5404e6be4ef191dc7266ec5368203361a1"
+      },
+      {
+        "file": "synthetic-corrupt/empty.xlsx",
+        "bytes": 2009693,
+        "sha256": "618fcbe8872ef927eae93c6bf1b27e2ccf34b4dbb76ecbe1d51861e64606f967"
+      },
+      {
+        "file": "synthetic-corrupt/gap.json",
+        "bytes": 6144843,
+        "sha256": "cb2c3fd2ee7d73883ce7afbaca601ee7292127a5cde96a85ae237436bc4d53cd"
+      },
+      {
+        "file": "synthetic-corrupt/gap.xlsx",
+        "bytes": 2012810,
+        "sha256": "ab502d49fffc23ad7c1be826be6b22652ab50bf98f5c704bd1575abf447e8a90"
+      },
+      {
+        "file": "synthetic-corrupt/ordinary.sqlite",
+        "bytes": 2281472,
+        "sha256": "f03ed7f11efbf2473ecea401e445ab95f4a489ff7f5197a983beeade478f0415"
+      },
+      {
+        "file": "synthetic-corrupt/ordinary.xlsx",
+        "bytes": 93873,
+        "sha256": "80050052f12b4dc806b6fe4185b84fdfea5d4c4997416f82f10be7da44a304d5"
+      },
+      {
+        "file": "synthetic-corrupt/sources/docs/research/omtale-o1/originals/votering-161224.html",
+        "bytes": 2094710,
+        "sha256": "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5"
+      },
+      {
+        "file": "synthetic-corrupt/sources/docs/research/to-visninger-37/originals/aar/session-2024-2025.meta.json",
+        "bytes": 381,
+        "sha256": "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28"
+      },
+      {
+        "file": "synthetic-corrupt/sources/docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+        "bytes": 391763,
+        "sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b"
+      },
+      {
+        "file": "synthetic-corrupt/sources/docs/research/to-visninger-37/originals/komite/inns85s.html",
+        "bytes": 22,
+        "sha256": "0158fd3ecd4a746af8160ba4c3965c1d2a21926e72d3bd3bc13f7db8558dbb21"
+      },
+      {
+        "file": "synthetic-corrupt/sources/docs/research/to-visninger-37/originals/komite/inns85s.pdf",
+        "bytes": 560552,
+        "sha256": "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288"
+      },
+      {
+        "file": "synthetic-corrupt/sources/docs/research/to-visninger-37/originals/komite/manifest.json",
+        "bytes": 25310,
+        "sha256": "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145"
+      },
+      {
+        "file": "synthetic-corrupt/sources/docs/research/to-visninger-37/originals/komite/prop25s-ch2.html",
+        "bytes": 92231,
+        "sha256": "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b"
+      },
+      {
+        "file": "synthetic-corrupt/sources/docs/research/to-visninger-37/originals/komite/prop25s-ch4.html",
+        "bytes": 104457,
+        "sha256": "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf"
+      },
+      {
+        "file": "synthetic-corrupt/sources/docs/research/to-visninger-37/originals/komite/prop25s.pdf",
+        "bytes": 777380,
+        "sha256": "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a"
+      },
+      {
+        "file": "synthetic-corrupt/sources/docs/research/to-visninger-37/originals/komite/sak100887.xml",
+        "bytes": 17096,
+        "sha256": "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e"
+      },
+      {
+        "file": "synthetic-corrupt/sources/docs/research/to-visninger-37/originals/komite/vedtak40034045-sak100887.html",
+        "bytes": 182316,
+        "sha256": "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab"
+      },
+      {
+        "file": "synthetic-corrupt/sources/docs/research/to-visninger-37/originals/komite/vedtak40034045.html",
+        "bytes": 4641,
+        "sha256": "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec"
+      },
+      {
+        "file": "synthetic-failed/01-synkroniser.json",
+        "bytes": 2508,
+        "sha256": "0f30c2742abc44d1ee9f9797d73681dd64951417ca88f08c5847ae6bb91d0735"
+      },
+      {
+        "file": "synthetic-failed/02-tolk.json",
+        "bytes": 63979,
+        "sha256": "332ba33e292e73512d63a1bcdc3f76d3b45264bdd7f8a7dad84280472805dc03"
+      },
+      {
+        "file": "synthetic-failed/03-analyse.json",
+        "bytes": 829,
+        "sha256": "f7ba09218a55f6deb26408ecd0cafb040c464e25bd33da1d64f299650b6f54ed"
+      },
+      {
+        "file": "synthetic-failed/empty.json",
+        "bytes": 6141220,
+        "sha256": "f38b96ab3f309e93a221b2ccc81abe7440a68664e28432ca331ad6e982acf629"
+      },
+      {
+        "file": "synthetic-failed/empty.xlsx",
+        "bytes": 2009590,
+        "sha256": "b10a31d90e0069778f0dc0bb2acbe5b4a6adea2a1b9280770c38ae89fbaac38e"
+      },
+      {
+        "file": "synthetic-failed/gap.json",
+        "bytes": 6144572,
+        "sha256": "dd2677200ada3242f4c7f250a6b35dc58c11b38f9a748358d8cd566ea5ae7f3d"
+      },
+      {
+        "file": "synthetic-failed/gap.xlsx",
+        "bytes": 2012707,
+        "sha256": "87e8d1f056e26fcd4ac8795855ef1896ac9dfb211a89badfc5de66627c6b1786"
+      },
+      {
+        "file": "synthetic-failed/ordinary.sqlite",
+        "bytes": 2281472,
+        "sha256": "5b0a29d49d72a49a8267ffc685bd0a02d1e373ca7b1e707d49ce60bd862d5210"
+      },
+      {
+        "file": "synthetic-failed/ordinary.xlsx",
+        "bytes": 93802,
+        "sha256": "c6370083dd06c6c5d2003d255f049e648763c5b90bfcadb2f2ddc63701a5aae7"
+      },
+      {
+        "file": "synthetic-failed/sources/docs/research/omtale-o1/originals/votering-161224.html",
+        "bytes": 2094710,
+        "sha256": "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5"
+      },
+      {
+        "file": "synthetic-failed/sources/docs/research/to-visninger-37/originals/aar/session-2024-2025.meta.json",
+        "bytes": 381,
+        "sha256": "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28"
+      },
+      {
+        "file": "synthetic-failed/sources/docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+        "bytes": 391763,
+        "sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b"
+      },
+      {
+        "file": "synthetic-failed/sources/docs/research/to-visninger-37/originals/komite/inns85s.pdf",
+        "bytes": 560552,
+        "sha256": "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288"
+      },
+      {
+        "file": "synthetic-failed/sources/docs/research/to-visninger-37/originals/komite/manifest.json",
+        "bytes": 25310,
+        "sha256": "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145"
+      },
+      {
+        "file": "synthetic-failed/sources/docs/research/to-visninger-37/originals/komite/prop25s-ch2.html",
+        "bytes": 92231,
+        "sha256": "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b"
+      },
+      {
+        "file": "synthetic-failed/sources/docs/research/to-visninger-37/originals/komite/prop25s-ch4.html",
+        "bytes": 104457,
+        "sha256": "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf"
+      },
+      {
+        "file": "synthetic-failed/sources/docs/research/to-visninger-37/originals/komite/prop25s.pdf",
+        "bytes": 777380,
+        "sha256": "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a"
+      },
+      {
+        "file": "synthetic-failed/sources/docs/research/to-visninger-37/originals/komite/sak100887.xml",
+        "bytes": 17096,
+        "sha256": "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e"
+      },
+      {
+        "file": "synthetic-failed/sources/docs/research/to-visninger-37/originals/komite/vedtak40034045-sak100887.html",
+        "bytes": 182316,
+        "sha256": "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab"
+      },
+      {
+        "file": "synthetic-failed/sources/docs/research/to-visninger-37/originals/komite/vedtak40034045.html",
+        "bytes": 4641,
+        "sha256": "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec"
+      },
+      {
+        "file": "synthetic-missing/01-synkroniser.json",
+        "bytes": 2509,
+        "sha256": "819e48065a49064c89977934e88ca0bd8ffb7be62cb9064cce68d4191b7690bb"
+      },
+      {
+        "file": "synthetic-missing/02-tolk.json",
+        "bytes": 63980,
+        "sha256": "b0fe748237a25bf862bc2e722339453e876f3dec9f8d6e9bdcb55d23127369ae"
+      },
+      {
+        "file": "synthetic-missing/03-analyse.json",
+        "bytes": 832,
+        "sha256": "e5f53dfe504320171cfd086479b66ce0b2adbcd14b6dd94989c38f6eb49e2927"
+      },
+      {
+        "file": "synthetic-missing/empty.json",
+        "bytes": 6141222,
+        "sha256": "8927a27df57a9a64845fc1131df102baa444fe49067c25646f654905f75be30f"
+      },
+      {
+        "file": "synthetic-missing/empty.xlsx",
+        "bytes": 2009640,
+        "sha256": "05e2aeae79dfeb8d3e64fa8aefc170d47d5cb1d31f3382826c26d45d53786a4d"
+      },
+      {
+        "file": "synthetic-missing/gap.json",
+        "bytes": 6144574,
+        "sha256": "44cae4385065bfc5da2c9963a55fe82f9f88a18f5df0e84ccc7d40bda3d88917"
+      },
+      {
+        "file": "synthetic-missing/gap.xlsx",
+        "bytes": 2012760,
+        "sha256": "6f8b9605d8b77b702cc4c180f4ed9ddb3a3f8186e031dca6e43f66ce424b0272"
+      },
+      {
+        "file": "synthetic-missing/ordinary.sqlite",
+        "bytes": 2281472,
+        "sha256": "2b2bd918ed6f8e06bc5d1a01e02a61329aef585663b10d8cc0ad3226b40038dc"
+      },
+      {
+        "file": "synthetic-missing/ordinary.xlsx",
+        "bytes": 93797,
+        "sha256": "73c09983c2a2b5544f64a0aa8bbc300d17f30adfeb8194cad38b7a4ee1283b15"
+      },
+      {
+        "file": "synthetic-missing/sources/docs/research/omtale-o1/originals/votering-161224.html",
+        "bytes": 2094710,
+        "sha256": "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5"
+      },
+      {
+        "file": "synthetic-missing/sources/docs/research/to-visninger-37/originals/aar/session-2024-2025.meta.json",
+        "bytes": 381,
+        "sha256": "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28"
+      },
+      {
+        "file": "synthetic-missing/sources/docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+        "bytes": 391763,
+        "sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b"
+      },
+      {
+        "file": "synthetic-missing/sources/docs/research/to-visninger-37/originals/komite/inns85s.pdf",
+        "bytes": 560552,
+        "sha256": "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288"
+      },
+      {
+        "file": "synthetic-missing/sources/docs/research/to-visninger-37/originals/komite/manifest.json",
+        "bytes": 25310,
+        "sha256": "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145"
+      },
+      {
+        "file": "synthetic-missing/sources/docs/research/to-visninger-37/originals/komite/prop25s-ch2.html",
+        "bytes": 92231,
+        "sha256": "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b"
+      },
+      {
+        "file": "synthetic-missing/sources/docs/research/to-visninger-37/originals/komite/prop25s-ch4.html",
+        "bytes": 104457,
+        "sha256": "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf"
+      },
+      {
+        "file": "synthetic-missing/sources/docs/research/to-visninger-37/originals/komite/prop25s.pdf",
+        "bytes": 777380,
+        "sha256": "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a"
+      },
+      {
+        "file": "synthetic-missing/sources/docs/research/to-visninger-37/originals/komite/sak100887.xml",
+        "bytes": 17096,
+        "sha256": "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e"
+      },
+      {
+        "file": "synthetic-missing/sources/docs/research/to-visninger-37/originals/komite/vedtak40034045-sak100887.html",
+        "bytes": 182316,
+        "sha256": "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab"
+      },
+      {
+        "file": "synthetic-missing/sources/docs/research/to-visninger-37/originals/komite/vedtak40034045.html",
+        "bytes": 4641,
+        "sha256": "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec"
+      },
+      {
+        "file": "synthetic-mutations/actor.json",
+        "bytes": 6866463,
+        "sha256": "9a04bc9d69adb181c3a298b9869224ff51edb3296b976607553606ecdc3ab4d9"
+      },
+      {
+        "file": "synthetic-mutations/amount.json",
+        "bytes": 6866458,
+        "sha256": "6dbe95f73bd5931df38f965d1e8d0cbd84115f3c3cb54f660906c604ca2c8b38"
+      },
+      {
+        "file": "synthetic-mutations/false-link.xlsx",
+        "bytes": 2119097,
+        "sha256": "54088348aba0e4dc8bec0bcf3fdf5f66f659c9ca82bc05d1c6ace1552700278c"
+      },
+      {
+        "file": "synthetic-mutations/hidden-issues.xlsx",
+        "bytes": 2118755,
+        "sha256": "cd34800c956b610fac42b08a266dabb96f383fef05039be96dbdad7d35e1757e"
+      },
+      {
+        "file": "synthetic-mutations/numberformat.xlsx",
+        "bytes": 2118783,
+        "sha256": "5536dd4d0816a9eb38d5fec0cd96a7b62c1abbdb421ad341b1fc0367a0b448c5"
+      },
+      {
+        "file": "synthetic-mutations/relation.json",
+        "bytes": 6866278,
+        "sha256": "4022ab60c5c440ebd16f921d9464b0b576b568e771cf023e9f559e76c7ad4c40"
+      },
+      {
+        "file": "synthetic-mutations/vote.json",
+        "bytes": 6816739,
+        "sha256": "d54da9433e5fde481082b7d66021e9063cedcc7345bf83804f26d783c0fcad33"
+      },
+      {
+        "file": "union.json",
+        "bytes": 11374758,
+        "sha256": "595080f388c49486c568d0de9462062e950067fd236c72c990f9fe97649f0ca5"
+      },
+      {
+        "file": "union.xlsx",
+        "bytes": 4299411,
+        "sha256": "3b276cb473e622c8ed2a995f2e38c41dd9877cc452522fd3099eec658b2bb4ac"
+      },
+      {
+        "file": "years.json",
+        "bytes": 11374763,
+        "sha256": "c3f694912f5b92c7a1580a6781ca9491f910386c48c29f35a2c5d972bb1b0b11"
+      },
+      {
+        "file": "years.xlsx",
+        "bytes": 4299410,
+        "sha256": "87403f9ea4b350815a826fded4cdf4022089856a7bc241dc25dc377d323ae727"
+      }
+    ]
+  },
+  "prior_control_manifest_preserved": {
+    "file": "work/t2-delivery-final/manifest.json",
+    "bytes": 129611,
+    "sha256": "e90d0dd682b8161d23abfaf9e79382a4b02c1748ce8a7c6b08385c69b4f87985"
+  },
+  "cli_files": [
+    {
+      "file": "work/t2-cli-readable/offline.json",
+      "bytes": 6866458,
+      "sha256": "9bd4b55ac227c8d6a016f438f116914d072a76bced95f8338dddecabb73b6469"
+    },
+    {
+      "file": "work/t2-cli-readable/offline.xlsx",
+      "bytes": 2118744,
+      "sha256": "3f71019cd89cdcaaf4f97aa101da5312f7755dcc3b76f1b7876ed2261f403e42"
+    },
+    {
+      "file": "work/t2-cli-readable/post.json",
+      "bytes": 6866458,
+      "sha256": "9bd4b55ac227c8d6a016f438f116914d072a76bced95f8338dddecabb73b6469"
+    },
+    {
+      "file": "work/t2-cli-readable/post.xlsx",
+      "bytes": 2118745,
+      "sha256": "c9fdb105480f073060e7c6a305ae27ce231aac4e8a173dd6a064a62f6463ce9f"
+    }
+  ],
+  "cli_logs": [
+    {
+      "file": "work/t2-cli-readable-post.log",
+      "bytes": 579,
+      "sha256": "fc2253acdd06b9d2216b5a92b390afb664304119af04fe9588614c48a928a00d"
+    },
+    {
+      "file": "work/t2-cli-readable-offline.log",
+      "bytes": 579,
+      "sha256": "fc2253acdd06b9d2216b5a92b390afb664304119af04fe9588614c48a928a00d"
+    }
+  ],
+  "rendering": [
+    {
+      "kind": "t2-render-readable",
+      "journal": {
+        "file": "work/t2-render-readable/render.json",
+        "bytes": 2754,
+        "sha256": "a146afe5c6fc694679433e3fe4ff34201cab6ec040d24175a875b68e253eb532"
+      },
+      "files": [
+        {
+          "file": "work/t2-render-readable/Dekning og avvik.png",
+          "bytes": 104650,
+          "sha256": "97064d1ba2989a2d1cf0e5bbbf9fc8af9cbdc5ed1cc174a0aed423fd9f6bca9b"
+        },
+        {
+          "file": "work/t2-render-readable/Dokumenter.png",
+          "bytes": 122734,
+          "sha256": "dc1d26e8a216936d6708f43228c0a08961a8cd3d5452601075c63a3c0d0b5147"
+        },
+        {
+          "file": "work/t2-render-readable/Forløp.png",
+          "bytes": 55445,
+          "sha256": "8de9787f296b75810155e77d70183eb4ef6d2b61358b3c961b2d9e61a859c124"
+        },
+        {
+          "file": "work/t2-render-readable/Kontroll.png",
+          "bytes": 108118,
+          "sha256": "f6a92fd591079239a77807a660123162d1ac5b6ba04f842dd2a9d2e89cfcc347"
+        },
+        {
+          "file": "work/t2-render-readable/Offlinegrunnlag.png",
+          "bytes": 24034,
+          "sha256": "422205f6099d9e0106c247c3dbbb361f195c23c4edebbb1fe19cdc72cf59e24a"
+        },
+        {
+          "file": "work/t2-render-readable/Omtale.png",
+          "bytes": 141766,
+          "sha256": "064efa31fa72cbb1fbc99a39a6174d32579e66ef1bd612904f803dfc1b81508b"
+        },
+        {
+          "file": "work/t2-render-readable/Sammenligninger.png",
+          "bytes": 108281,
+          "sha256": "8a684c2a0873d3dcb421331b9fa5cbe8e92d3eed48639b801fce919269d67edd"
+        }
+      ],
+      "visually_read": true
+    },
+    {
+      "kind": "t2-render-union",
+      "journal": {
+        "file": "work/t2-render-union/render.json",
+        "bytes": 3040,
+        "sha256": "dec779a1e917cac4003404871cbc15662bd345c38ea5bde1324618ffb5b7716a"
+      },
+      "files": [
+        {
+          "file": "work/t2-render-union/Dekning og avvik.png",
+          "bytes": 108683,
+          "sha256": "b34d92fa4db1d44ddc016d8c288c974e47c7e08d7c5c3db38098c8d6e9d328e2"
+        },
+        {
+          "file": "work/t2-render-union/Dokumenter.png",
+          "bytes": 122734,
+          "sha256": "dc1d26e8a216936d6708f43228c0a08961a8cd3d5452601075c63a3c0d0b5147"
+        },
+        {
+          "file": "work/t2-render-union/Forløp.png",
+          "bytes": 91964,
+          "sha256": "8c5e6d7625c32ab00c427dc8d40d646d7e55caec8b8f55a580d8ec1c43303c7d"
+        },
+        {
+          "file": "work/t2-render-union/Kontroll.png",
+          "bytes": 108118,
+          "sha256": "f6a92fd591079239a77807a660123162d1ac5b6ba04f842dd2a9d2e89cfcc347"
+        },
+        {
+          "file": "work/t2-render-union/Offlinegrunnlag.png",
+          "bytes": 24034,
+          "sha256": "422205f6099d9e0106c247c3dbbb361f195c23c4edebbb1fe19cdc72cf59e24a"
+        },
+        {
+          "file": "work/t2-render-union/Omtale.png",
+          "bytes": 141766,
+          "sha256": "064efa31fa72cbb1fbc99a39a6174d32579e66ef1bd612904f803dfc1b81508b"
+        },
+        {
+          "file": "work/t2-render-union/Sammenligninger.png",
+          "bytes": 110448,
+          "sha256": "b228ff0847ee16037dfd164e5bdf4283d84b1ef3a14aa9b5d1d1d79f9f37f71b"
+        }
+      ],
+      "visually_read": true
+    },
+    {
+      "kind": "t2-render-empty",
+      "journal": {
+        "file": "work/t2-render-empty/render.json",
+        "bytes": 2405,
+        "sha256": "92f29b230948f5bee826a4f7ecb93a92311dd26d2d61d3f31fbd478fc18fedd8"
+      },
+      "files": [
+        {
+          "file": "work/t2-render-empty/Dekning og avvik.png",
+          "bytes": 102624,
+          "sha256": "8ea8ccca2c4fedcde2278e6377859cb720e07ead5fa904e6e74e5302574284ad"
+        },
+        {
+          "file": "work/t2-render-empty/Dokumenter.png",
+          "bytes": 122106,
+          "sha256": "9ddef6b74304fbc32ef243efeaa7d8ec542573066342640b55ad30229db0fbe5"
+        },
+        {
+          "file": "work/t2-render-empty/Forløp.png",
+          "bytes": 15441,
+          "sha256": "b2d2770e0b20e26afd19447f027d89a4c0f4711454c30b6a7bb95efe644dd0cd"
+        },
+        {
+          "file": "work/t2-render-empty/Kontroll.png",
+          "bytes": 108118,
+          "sha256": "f6a92fd591079239a77807a660123162d1ac5b6ba04f842dd2a9d2e89cfcc347"
+        },
+        {
+          "file": "work/t2-render-empty/Offlinegrunnlag.png",
+          "bytes": 24034,
+          "sha256": "422205f6099d9e0106c247c3dbbb361f195c23c4edebbb1fe19cdc72cf59e24a"
+        },
+        {
+          "file": "work/t2-render-empty/Omtale.png",
+          "bytes": 141766,
+          "sha256": "064efa31fa72cbb1fbc99a39a6174d32579e66ef1bd612904f803dfc1b81508b"
+        },
+        {
+          "file": "work/t2-render-empty/Sammenligninger.png",
+          "bytes": 17571,
+          "sha256": "99014eb5a911f027b6b3b9f1ce2ca4d8d67c69b62069abf1a929cd111fd0c7c1"
+        }
+      ],
+      "visually_read": true
+    }
+  ],
+  "repository_previews": [
+    {
+      "file": "docs/research/komitepilot-44/previews/forlop.png",
+      "bytes": 55445,
+      "sha256": "8de9787f296b75810155e77d70183eb4ef6d2b61358b3c961b2d9e61a859c124"
+    },
+    {
+      "file": "docs/research/komitepilot-44/previews/sammenligninger.png",
+      "bytes": 108281,
+      "sha256": "8a684c2a0873d3dcb421331b9fa5cbe8e92d3eed48639b801fce919269d67edd"
+    },
+    {
+      "file": "docs/research/komitepilot-44/previews/tomt-globalt.png",
+      "bytes": 102624,
+      "sha256": "8ea8ccca2c4fedcde2278e6377859cb720e07ead5fa904e6e74e5302574284ad"
+    }
+  ],
+  "authentic_t1_fixture": {
+    "file": "tests/fixtures/t2/authentic-t1.json.gz",
+    "bytes": 2650562,
+    "sha256": "629c3561cca6f0ab2a5644958c7ae6590dd70775d688f40e134bda449e8982a6"
+  },
+  "original_source_files": [
+    {
+      "file": "docs/research/to-visninger-37/originals/komite/prop25s-ch4.html",
+      "bytes": 104457,
+      "sha256": "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf"
+    },
+    {
+      "file": "docs/research/to-visninger-37/originals/komite/prop25s-ch2.html",
+      "bytes": 92231,
+      "sha256": "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b"
+    },
+    {
+      "file": "docs/research/to-visninger-37/originals/komite/prop25s.pdf",
+      "bytes": 777380,
+      "sha256": "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a"
+    },
+    {
+      "file": "docs/research/to-visninger-37/originals/komite/inns85s.html",
+      "bytes": 346750,
+      "sha256": "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657"
+    },
+    {
+      "file": "docs/research/to-visninger-37/originals/komite/inns85s.pdf",
+      "bytes": 560552,
+      "sha256": "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288"
+    },
+    {
+      "file": "docs/research/to-visninger-37/originals/komite/vedtak40034045-sak100887.html",
+      "bytes": 182316,
+      "sha256": "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab"
+    },
+    {
+      "file": "docs/research/to-visninger-37/originals/komite/vedtak40034045.html",
+      "bytes": 4641,
+      "sha256": "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec"
+    },
+    {
+      "file": "docs/research/to-visninger-37/originals/komite/sak100887.xml",
+      "bytes": 17096,
+      "sha256": "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e"
+    },
+    {
+      "file": "docs/research/to-visninger-37/originals/komite/manifest.json",
+      "bytes": 25310,
+      "sha256": "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145"
+    },
+    {
+      "file": "docs/research/omtale-o1/originals/votering-161224.html",
+      "bytes": 2094710,
+      "sha256": "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5"
+    },
+    {
+      "file": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+      "bytes": 391763,
+      "sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b"
+    },
+    {
+      "file": "docs/research/to-visninger-37/originals/aar/session-2024-2025.meta.json",
+      "bytes": 381,
+      "sha256": "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28"
+    }
+  ],
+  "fan_analysis_unchanged": [
+    {
+      "file": "docs/research/faner-og-kildedeling/README.md",
+      "bytes": 35433,
+      "sha256": "632a185fe992c9016ddf76588bdb57f677e89fd47f56be14d350462a225fdf26"
+    },
+    {
+      "file": "docs/research/faner-og-kildedeling/evidence.json",
+      "bytes": 300476,
+      "sha256": "55de0e57e48299ab5ab93a8793cf8220f30236cd973f40ee596f4d719f6e9c0d"
+    }
+  ],
+  "acceptance_ledger": {
+    "M10_M12": {
+      "positive": "315/78 genuine majority amendment +10m; source-backed 63–35; no invented minority amount",
+      "negative": "synthetic incompatible roles/actor/vote/year/scope and unrecognized parallel variant rejected"
+    },
+    "M07": {
+      "positive": "whole chapters/exact pair union and years; 18/6/2 without cross product; both directions/return"
+    },
+    "M22": {
+      "positive": "serialized new observation/payload occurrence counts from actual JSON and XLSX snapshot; inherited legacy counts separate"
+    },
+    "M23_M24": {
+      "positive": "actual offline JSON/XLSX read, fulltext/HTML chunks, byte recovery, cells/styles/links; rendered saved XLSX",
+      "negative": "rehash mutations and false numberformat/font/fill/visibility/row/column/filter/conditional/links/XML/ZIP/drawing rejected"
+    },
+    "M25": {
+      "actual": {
+        "ekte_tidligere_O2": 8,
+        "ekte_tidligere_B8_B9_med_B6_kjerne": 2,
+        "ekte_tidligere_T1": 1,
+        "ekte_eldre_B6_arbeidsbok": 1
+      },
+      "boundary": "standalone old frozen-v1 JSON and native Excel not verified"
+    },
+    "M26": {
+      "actual": "four fresh authentic368 databases each222 fields/74 events through ordinary synchronization/raw/interpretation/Excel, no historical input, alongside empty T2"
+    },
+    "M27": {
+      "negative": "year/account/unit/meaning/detail/scope/round/role mismatch blocks numerical comparison; missing recommendation is a gap"
+    }
+  },
+  "limits": [
+    "K1 positiv alternativport åpen",
+    "Ingen fullårsdekning, faglig godkjenning, kontinuitet eller drift; #10 åpen",
+    "Arvede T1-kapselkopier er bevart og telt separat",
+    "Selvstendig gammel frozen-v1-JSON ikke funnet; innebygde kjerner og ekte eldre B6-Excel prøves separat",
+    "Ingen native Excel-prøve; lagrede celler/lenker/stil/byte og rendering av lagret XLSX kontrolleres"
+  ],
+  "checks_before_resumption": {
+    "full_suite": {
+      "passed": 1069,
+      "skipped": 2,
+      "seconds": 1291.16,
+      "log": {
+        "file": "work/t2-full-final.log",
+        "bytes": 3809,
+        "sha256": "765ec49c97225307e836717a06f00a310f89428acb68fc6f09b475be8a505138"
+      }
+    },
+    "post_presentation_complete_T2": {
+      "passed": 49,
+      "skipped": 0,
+      "seconds": 245.19,
+      "log": {
+        "file": "work/t2-presentation-final.log",
+        "bytes": 113,
+        "sha256": "c50c61f8845e928efaad72b0b02038da8e47164f01aa6d07e78e42acded513bf"
+      }
+    },
+    "new_visible_comparison_labels": {
+      "passed": 1,
+      "skipped": 0,
+      "seconds": 8.25,
+      "log": {
+        "file": "work/t2-labelled-cells.log",
+        "bytes": 115,
+        "sha256": "6dd8ba69c759d4e74a0536ef7b6daa775a70d287c895cec306cce640a94c0c2d"
+      }
+    },
+    "static": [
+      {
+        "file": "work/t2-ruff-final.log",
+        "bytes": 19,
+        "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+      },
+      {
+        "file": "work/t2-format-final.log",
+        "bytes": 28,
+        "sha256": "c9572de1182ff9a0c4f57870e5328e649df7ba707cfc802e2cb7ff048643cb93"
+      },
+      {
+        "file": "work/t2-mypy-final.log",
+        "bytes": 45,
+        "sha256": "1ae1a89d54d420cace381d4367eb85674ac10663afe0766641917ac6d36ebbd0"
+      },
+      {
+        "file": "work/t2-diff-final.log",
+        "bytes": 111,
+        "sha256": "537863e563a2256a9c64f9df1477a426e099ffeb7fb5e90e21a593549fad2625"
+      }
+    ],
+    "final_reader_after_type_only_rename": {
+      "file": "work/t2-final-reader.log",
+      "bytes": 72,
+      "sha256": "0d6241b86d738bfb3ffe36650bcee30a89bd7a6f7d511ca3992d846d0fb44ea7"
+    }
+  },
+  "resumption": {
+    "file": "docs/research/komitepilot-44/resumption.json",
+    "bytes": 19840,
+    "sha256": "65c179794379e74f9b05a4eeb6a0e2bafbbcda09256b28b6c8111f2409469e6f"
+  }
+}

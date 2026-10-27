@@ -2,6 +2,13 @@
 
 Status: konkretiseringsforslag under [#37](https://github.com/depmartin/budsjetthistorikk/issues/37), 23. oktober 2026. Forslaget legges frem før publisering av byggetickets og implementering. [Målbildet og V1–V10](to-visninger.md) er bekreftede krav; avgrensningen og oppdelingen her er foreslått. O2b er levert i [PR #39](https://github.com/depmartin/budsjetthistorikk/pull/39), main `5423160`. Den leveransen er en omtaleprøve, ikke de to generelle visningene.
 
+Oppdatert 27. oktober: T1/#41 er flettet i PR #42 (`3d76677`). Eieren har deretter
+bestilt #43s gjennomførte [fane-/duplikatanalyse](research/faner-og-kildedeling/README.md)
+og T2/#44 med grønn CI og merge. T2s [separate kontrakt](komitepilot.md) og
+[lokale kontroll](research/komitepilot-44/README.md) avgrenser 315/78 og valgfri
+T1-union. Resten av denne planen er historisk forslag; T3–T6/K1–K3 og generell
+faneopprydding har ikke byggemandat. #10 er fortsatt åpen.
+
 ## Problemet som første snitt løser
 
 Brukeren skal kunne åpne et helt dokument og gå videre til en berørt konto, eller velge konto og år og gå videre til dokumentene. Begge veier skal vise de samme kildeopplysningene og bevare hele dokumentets inventar. Dagens postomtale kan ikke brukes som om den allerede importerte alle forslagstall eller hele dokumentet.

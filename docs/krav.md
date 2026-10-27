@@ -121,3 +121,15 @@ Prosjekteieren har bekreftet den samlede testgrensen: **bevart original → omta
 [Omtaleplanen](omtale-plan.md) samler spesifikasjon, akseptporter og gjennomføringsrekkefølge. O1s faktiske kildebevis er kontrollert og godkjent. Prosjekteieren godkjente 22. oktober 2026 O2-oppdelingen som #34/O2a og #35/O2b, separat omtalegrunnlag og eksplisitt `omtale-pilot-1`. #34 er levert i PR #36 (main `6f7145d`), #35 i PR #39 (main `5423160`), med [kontrollgrunnlag](research/omtale-o2b/README.md). [O2a-kontrakten](omtale-pilot.md) fastsetter felter, ID-er, teknisk kontroll og uavhengig ny vedtaksinnlesning før produktkode. O2b omfatter begge 210-postene. [Forslaget under #37](visningspilot-plan.md) konkretiserer de to inngangene med kilder, testmatrise og ticketutkast; det er ikke nytt byggemandat. Senere komitéendring, årslinje og søk krever egne mandat. Ingen ny faglig godkjenning følger av piloten.
 
 [Presiseringen 23. oktober](to-visninger.md#modellkonsekvenser-og-leveransegrense) avgrenser pilotene mot de to generelle visningene og angir neste konkretisering. Ingen vektordatabase, sky, modell eller automatisering er valgt. #10 forblir åpen for driftsaksept; #13s resterende historikkarbeid er uavhengig.
+
+## T2-mandat og lokal leveranse – 27. oktober 2026
+
+Eieren bestilte fane-/duplikatanalysen #43 før T2/#44, deretter gjennomføring,
+grønn CI og merge av det avgrensede 315/78-snittet. Analysen er bevart i
+[fanevurderingen](research/faner-og-kildedeling/README.md). T2 bruker separat
+[visningspilot-2-kontrakt](komitepilot.md), med selvstendig 315/78, valgfri validert
+T1-union og én råpayload per hash i nytt register. [Lokal kontroll og overlevering](research/komitepilot-44/README.md)
+dokumenterer kildebevis og faktiske filer; publiserings-/review-/CI-status følger
+#44/tilhørende PR. Gamle standardvalg, schema5, B5 og uavhengig vedtaksinnlesning
+består. T3–T6/K1–K3 og generell endring av eldre faner har ikke nytt mandat.
+#10, #32 og #37 står åpne.

@@ -14,6 +14,7 @@ from pathlib import Path
 from lxml import etree, html
 from pypdf import PdfReader
 
+from .legacy_html import parse_legacy_html
 from .observations import AmountObservation, Interpretation, SourcePointer, encode, identity
 from .omtale import OmtaleSource, compact, identified, source_bytes
 from .omtale import validate_basis as validate_omtale
@@ -196,7 +197,7 @@ def import_basis(prepared: PilotInput, root: Path) -> PilotBasis:
 
 
 def _doc(raw: bytes) -> html.HtmlElement:
-    return html.fromstring(raw.decode("utf-8"), parser=html.HTMLParser(no_network=True))
+    return parse_legacy_html(raw)
 
 
 def _xml(raw: bytes) -> etree._Element:

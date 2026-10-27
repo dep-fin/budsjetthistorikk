@@ -1,0 +1,6 @@
+...                                                                      [100%]
+============================= slowest 3 durations =============================
+7.72s call     tests/test_legacy_html_newlines.py::test_synthetic_marker_like_whitespace_keeps_source_text_in_saved_files
+1.78s call     tests/test_legacy_html_newlines.py::test_authentic_archived_t1_keeps_all_fields_ids_and_originals[preserved]
+1.72s call     tests/test_legacy_html_newlines.py::test_authentic_archived_t1_keeps_all_fields_ids_and_originals[normalized]
+3 passed in 11.27s

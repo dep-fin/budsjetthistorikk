@@ -1,0 +1,406 @@
+{
+  "status": "Completed local candidate after resumed build; independent review/audit, GitHub CI and merge belong to root orchestrator",
+  "base_main": "3d7667762ed1eb00223827761831fdf4dbc309d5",
+  "head_before_root_freeze": "99e282a3e42a2682696d56af3b994c4b67ffe97e",
+  "branch": "codex/t2-komiteendring",
+  "verification_before_resumption": {
+    "file": "docs/research/komitepilot-44/verification.json",
+    "bytes": 152649,
+    "sha256": "74490f5eb8fb1deb3c027f9069332ea3ceb488d5bca61ecc74f4105ad3c6f8b8"
+  },
+  "confirmed_preserved_candidate": {
+    "status": "Preserved final candidate and delivery verified after interrupted builder",
+    "source_files": [
+      {
+        "file": "innlesning/komitepilot.py",
+        "bytes": 34515,
+        "sha256": "d1b2e0d19b688de2021819d77c5a96a16a173e34cb7e5f4997dfc93686afa4ca"
+      },
+      {
+        "file": "innlesning/komitepilot_model.py",
+        "bytes": 1404,
+        "sha256": "f30aeef426655e4666171fb0aabba3298951f54997bf0b6003b14da7fb95ebeb"
+      },
+      {
+        "file": "analyse/komitepilot.py",
+        "bytes": 14577,
+        "sha256": "3e7f9d07d72db69d69067dc185b39e98115d19e6fef425f119ee2dfc944005da"
+      },
+      {
+        "file": "analyse/komitepilot_excel.py",
+        "bytes": 24874,
+        "sha256": "8d565aa9c8e5fc8ddf6cf635be6a63baddc6408a8e688a0e5a84c0252aed219e"
+      },
+      {
+        "file": "ops/komitepilot_proeve.py",
+        "bytes": 15735,
+        "sha256": "b8e2489a8053b1bbd496ba0ccf4304fdbbe2021c7d976062f935c37a7eb1859b"
+      },
+      {
+        "file": "ops/render_komitepilot.mjs",
+        "bytes": 1827,
+        "sha256": "823e41ce0262ef31df8dfdd80c3be41caa9eff0cc7842bf769f15e2296548413"
+      },
+      {
+        "file": "tests/test_komitepilot.py",
+        "bytes": 22530,
+        "sha256": "910f795fac4ce689e24b458140b5ccf237dd957c8f89c36014411807df427ce8"
+      }
+    ],
+    "verified_manifest_files": 159,
+    "delivery_manifest": {
+      "file": "work/t2-delivery-readable/manifest.json",
+      "bytes": 129611,
+      "sha256": "9d952e4470c7fce2f510f9876922e44da6fd5c125fd701d305cac6b712d79bb3"
+    },
+    "reopened_pairs": [
+      {
+        "name": "standalone",
+        "report_id": "8a21b5a4c2bd0988fa32a6761538dd9bbc6faca1445af78d61427a901d134ef7",
+        "basis_id": "3816b5cc326f356500ca4f37445bf0e974593287c9f142636ca5505c5448b5b5",
+        "counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1
+            },
+            "serialized_raw_payloads": 12,
+            "unique_raw_hashes": 12
+          },
+          "legacy": {
+            "serialized_observation_objects": 0,
+            "unique_observations": 0,
+            "observation_occurrences": {},
+            "payload_occurrences": {},
+            "serialized_raw_payloads": 0,
+            "unique_raw_hashes": 0
+          }
+        },
+        "files": [
+          {
+            "file": "work/t2-delivery-readable/standalone.json",
+            "bytes": 6866458,
+            "sha256": "9bd4b55ac227c8d6a016f438f116914d072a76bced95f8338dddecabb73b6469"
+          },
+          {
+            "file": "work/t2-delivery-readable/standalone.xlsx",
+            "bytes": 2118748,
+            "sha256": "2ff60edbdaa5841f38cfc25d3ae315f15133573964b18cca4a17787706ffa913"
+          }
+        ]
+      },
+      {
+        "name": "union",
+        "report_id": "724ecfd8b9a54c03ba836a5bef1196d98ef73701dc48cc3bb3eff6f6482734f1",
+        "basis_id": "6e34de17053e8489b6e81015679eba453e38aeb1e98083ee5f686c4a61807e70",
+        "counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1
+            },
+            "serialized_raw_payloads": 9,
+            "unique_raw_hashes": 9
+          },
+          "legacy": {
+            "serialized_observation_objects": 36,
+            "unique_observations": 18,
+            "observation_occurrences": {
+              "4ace7b42e5c7c522655ef3d8e18f832290b63d829bf8634810bad37f42b2be96": 4,
+              "f22283ad6cdeef6edfc78e01c498d1f56ce9b230a16376eee379a3a0e9d2780a": 4,
+              "06c25431aec719ed34478b89ee4e6f17751cce932221cae90e436850d86952b9": 4,
+              "d736250e6b842c25f8ad55e52dd5f82fd7be491d4e84bb7d63cddf413c10a2dd": 4,
+              "8f2ff2a8ca4818c8b0aae65019058dcdffa943764b480fa71f1401b095de81b7": 4,
+              "e3fb685f7c234609c5451b89ef0901ca27b7b6228f9c6d9f9f7adf1c37a08da6": 4,
+              "a66096a14ffb852fed459f4e18b1364dae925aeef8a1a7cf3d9bd66d5de1c9cb": 1,
+              "32b1b4a7030cef1eb0865262efe7efc647975d9aed6f46019a071b3b80790a4f": 1,
+              "125d6045103116c71b4f52f687ae08b9f008124b16773e82703baf179e293551": 1,
+              "6e3ffd3f5c5428fe9955b06692a52b48ab81362fe0a55c812a32c2a5a5a14d34": 1,
+              "9b6cc7ffbbfa07ec95ae8c39fee8bd5ee28e67c14f266a58ea1db3d18c0b7c37": 1,
+              "f490d3fd88b9c4c09ed11d254c5dc5685de9b7eb57d5bb1f7f585ead490d5eb0": 1,
+              "2d1a026f342a8ac9caabbb19da3721fa3001ef21b07c493f3c70c150197f1343": 1,
+              "71607b517070a7ca0484ddb05a1748b20ff817e07f915a459ad62c4eefe57b91": 1,
+              "d4238704f5617e9cd4e7cc19ffac654e39915011e048e0721f04343bf591cddb": 1,
+              "399a2d8531346dfb3494ec2b7781ed6c1aa2921193bab258aae34ae26d4ca620": 1,
+              "48bc2a5e1de11b119b81ad7ad2172a52bb7b66034c3e9eb1b0326c6d9f43c32a": 1,
+              "64e5d32aaa7fb65100252d8357c2832c49cdf20685e77a7cfeb76ccd40b45c1d": 1
+            },
+            "payload_occurrences": {
+              "677716056269c07b8ec81bcae91d814b975123791635548281038d9beb3aa5db": 1,
+              "258d26e6d324bde709bf3d1cb660d7eb6f4248f537d4b0c77e095f17697cf8df": 1,
+              "ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e": 2,
+              "5a29d0553991759d8ddc234899647e9e6b5e1f2885bf13edccfb26105a6be496": 1,
+              "e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95": 2,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850": 1,
+              "1b43cc3e77fb8b216d3d0bd2d51739c4200b38aabcdac907afcdf47d0218a79b": 1,
+              "2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27": 1,
+              "07b85b79438fa1cfcc8774c36291fc28d0cfdc7d429ca82e1e5810bca89ac895": 1,
+              "7502f2f565048f1b0954cb4cb132183d0bc5ec362ba74e14de877df36003a7d4": 1,
+              "cf9397ad44be04796cf3ed95765cddb165b0193fe071b4e1a6b629566aa82363": 1,
+              "5f253a556d2ac512570899252b396bc38f068de5f4bd6820178e7de8ce41f3eb": 1,
+              "6e0e37551b00da15c262e8ba2e40e8b21abba96d3b47acc57e41b908024d9def": 1,
+              "3a8f0918a3fcce90bf2c93f3ce972c3de7277c76e27e5ef563d6c43384cf2af2": 1,
+              "67033cce596b33ccb7f2cd459a6df7af98d44836292f0675d308797a888ba04c": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1,
+              "ae61227fa83adf04fb45956b1bd714a75592bbc1d6c70da300e554afef806aa6": 1,
+              "7a78167c7eafc500938e4ac39d8ed9febec1f6e7e6ce337acc4b7a58d0d14635": 1,
+              "6b2dd282d4c1bffff15063907bc6c3d5948279c7898f7caf7291d7a140de6816": 1
+            },
+            "serialized_raw_payloads": 23,
+            "unique_raw_hashes": 21
+          }
+        },
+        "files": [
+          {
+            "file": "work/t2-delivery-readable/union.json",
+            "bytes": 11374758,
+            "sha256": "595080f388c49486c568d0de9462062e950067fd236c72c990f9fe97649f0ca5"
+          },
+          {
+            "file": "work/t2-delivery-readable/union.xlsx",
+            "bytes": 4299411,
+            "sha256": "3b276cb473e622c8ed2a995f2e38c41dd9877cc452522fd3099eec658b2bb4ac"
+          }
+        ]
+      },
+      {
+        "name": "empty",
+        "report_id": "b28c3e17f78251c1002d52362fc4dad5b09f39e8bc30b8749ddf8bcf9c6ce125",
+        "basis_id": "3816b5cc326f356500ca4f37445bf0e974593287c9f142636ca5505c5448b5b5",
+        "counts": {
+          "new": {
+            "serialized_observation_objects": 9,
+            "unique_observations": 9,
+            "observation_occurrences": {
+              "f8712f35c061370ff333727ab788ace618ea50b99cc23c37327613ed5fa34a6a": 1,
+              "895b921ad2011fc43ab2bbbd88c0cb96b763a6209f6c1ae90a8bc79136451ee4": 1,
+              "6de869b152bd09633d273a62dc2b4a5141f9974a82cc6164b89296d26e967e91": 1,
+              "7fa46bafb8608d3e4c43a6886ee582be3e954c08cfe338ae769594bee42976cf": 1,
+              "aae3794694099f93fde6b76844721d6cda059e702a47d1515064480d5a0122ea": 1,
+              "6619a409a2ea4a27e4e7d4a6a81f5f15a606f255127fcb55645e44748fbd3f39": 1,
+              "f65b365003927b913077336c2806dd303ce709edfb04b65895c48c576754944f": 1,
+              "bd72323cedb931e0d2e064721cf848081fe3467da19a80e16e773aba882d9905": 1,
+              "02abdf23240b233971e7783112bb3a66ab931eee45d5154b7270433f62dc1e8c": 1
+            },
+            "payload_occurrences": {
+              "17922400028d80971540293ace9d6904d3be86b8d97d880a5b6a18bdd2bb5ecf": 1,
+              "87205b4e91472cdef72f73abe482d01b1981a8cd4c0f4863951bb8a2d4d20c7b": 1,
+              "aeb725790fa208766fc15d24082346ce8c5295c26208a04f7b266b2bce37dd1a": 1,
+              "0adeb21331ef20b44186ae6fae539bd304d4e9fe2a22aa64698469c90804c657": 1,
+              "961591a7f80608e9b15002de1b06f8e51162879b0f0137d0ef38eb3254404288": 1,
+              "232e06bc5ed62185a856016fea4ed609429d8c654dc3070d8698b3085102c1ab": 1,
+              "5c7743ddfe2cc62db9db7a993d95d3abb31f55b884dbb7ca2cb1a08c774654ec": 1,
+              "cfaf7b451df64c4a4cad5f437f04a06da0f1e2377159a6cde6cee6ee2f76fb2e": 1,
+              "6a9c4b1ca1d8be43cf63e4a66d67d69eb382d375a7248a65cd36a78fc2d19145": 1,
+              "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5": 1,
+              "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b": 1,
+              "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28": 1
+            },
+            "serialized_raw_payloads": 12,
+            "unique_raw_hashes": 12
+          },
+          "legacy": {
+            "serialized_observation_objects": 0,
+            "unique_observations": 0,
+            "observation_occurrences": {},
+            "payload_occurrences": {},
+            "serialized_raw_payloads": 0,
+            "unique_raw_hashes": 0
+          }
+        },
+        "files": [
+          {
+            "file": "work/t2-delivery-readable/empty.json",
+            "bytes": 6862035,
+            "sha256": "19bb540b2e54450eed098846a670c96f8f7de4d7f52a3cc76b1838397fcd79f1"
+          },
+          {
+            "file": "work/t2-delivery-readable/empty.xlsx",
+            "bytes": 2114685,
+            "sha256": "723b608d9c2213ed26b8d15e62806b2d93170d1fc921b9f062a846acace93652"
+          }
+        ]
+      }
+    ],
+    "render_journals_and_png_hashes_unchanged": true,
+    "fan_analysis_checkout_hashes_preserved": true,
+    "fan_analysis_equals_HEAD_after_existing_Git_EOL_conversion": true,
+    "prior_completed_full_suite": {
+      "passed": 1069,
+      "skipped": 2,
+      "seconds": 1291.16,
+      "log": {
+        "file": "work/t2-full-final.log",
+        "bytes": 3809,
+        "sha256": "765ec49c97225307e836717a06f00a310f89428acb68fc6f09b475be8a505138"
+      }
+    },
+    "boundary": "Original completed full suite retained; resume runs final T2 suite and static checks, with no product edits."
+  },
+  "change_after_confirmation": "Only tests/test_komitepilot.py: launch the analysis-blocked adapter subprocess with Python -c from repository cwd instead of a temporary script path. No product/source/output changes.",
+  "source_files": [
+    {
+      "file": "innlesning/komitepilot.py",
+      "bytes": 34515,
+      "sha256": "d1b2e0d19b688de2021819d77c5a96a16a173e34cb7e5f4997dfc93686afa4ca"
+    },
+    {
+      "file": "innlesning/komitepilot_model.py",
+      "bytes": 1404,
+      "sha256": "f30aeef426655e4666171fb0aabba3298951f54997bf0b6003b14da7fb95ebeb"
+    },
+    {
+      "file": "analyse/komitepilot.py",
+      "bytes": 14577,
+      "sha256": "3e7f9d07d72db69d69067dc185b39e98115d19e6fef425f119ee2dfc944005da"
+    },
+    {
+      "file": "analyse/komitepilot_excel.py",
+      "bytes": 24874,
+      "sha256": "8d565aa9c8e5fc8ddf6cf635be6a63baddc6408a8e688a0e5a84c0252aed219e"
+    },
+    {
+      "file": "ops/komitepilot_proeve.py",
+      "bytes": 15735,
+      "sha256": "b8e2489a8053b1bbd496ba0ccf4304fdbbe2021c7d976062f935c37a7eb1859b"
+    },
+    {
+      "file": "ops/render_komitepilot.mjs",
+      "bytes": 1827,
+      "sha256": "823e41ce0262ef31df8dfdd80c3be41caa9eff0cc7842bf769f15e2296548413"
+    },
+    {
+      "file": "tests/test_komitepilot.py",
+      "bytes": 22577,
+      "sha256": "03522cbec1783862d7466e7b0cc175b39daf8e569180ed9546a42d92d55e9e94"
+    }
+  ],
+  "checks": {
+    "red_T2_environment_probe": {
+      "passed": 48,
+      "failed": 1,
+      "reason": "temporary script sys.path excluded repository; packages-only PYTHONPATH exposed it",
+      "log": {
+        "file": "docs/research/komitepilot-44/checks/t2-resume-final.log",
+        "bytes": 3201,
+        "sha256": "6706570c4b72fd7b9be1d3ccf3049a3b2b105221c1a5e97a2823fec9018c65c8"
+      }
+    },
+    "fixed_adapter_probe": {
+      "passed": 1,
+      "skipped": 0,
+      "seconds": 2.79,
+      "log": {
+        "file": "docs/research/komitepilot-44/checks/t2-resume-pathfix.log",
+        "bytes": 100,
+        "sha256": "c23cd40f9182f5538b856edfd5ccd09c086342053fc71f800a32ee59c348df68"
+      }
+    },
+    "final_full_suite": {
+      "passed": 1069,
+      "skipped": 2,
+      "seconds": 1283.4,
+      "log": {
+        "file": "docs/research/komitepilot-44/checks/t2-resume-full.log",
+        "bytes": 3808,
+        "sha256": "0dc4a0ececd504f3bcfc0a2f6ddb5ed7675f937bdac9f7f0d6cf432a9f2570ff"
+      }
+    },
+    "static": [
+      {
+        "file": "docs/research/komitepilot-44/checks/t2-resume-ruff.log",
+        "bytes": 20,
+        "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0"
+      },
+      {
+        "file": "docs/research/komitepilot-44/checks/t2-resume-format.log",
+        "bytes": 29,
+        "sha256": "d76199cd6e65736dca474f2b8d8a296ab076d89bcfab218ab5d0029cbece4f71"
+      },
+      {
+        "file": "docs/research/komitepilot-44/checks/t2-resume-mypy.log",
+        "bytes": 45,
+        "sha256": "1ae1a89d54d420cace381d4367eb85674ac10663afe0766641917ac6d36ebbd0"
+      }
+    ],
+    "legacy_original_hashes": {
+      "unchanged_files": 23,
+      "log": {
+        "file": "docs/research/komitepilot-44/checks/t2-legacy-originals.log",
+        "bytes": 46,
+        "sha256": "1213b96dea35861f68de63674d20137075f2fe4736473733285d6968381df5c8"
+      }
+    }
+  },
+  "pythonpath": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/o2a/work/spec-verify-deps",
+  "pinned_packages": {
+    "pytest": "8.3.5",
+    "ruff": "0.11.0",
+    "mypy": "1.15.0",
+    "openpyxl": "3.1.5",
+    "lxml": "6.1.3",
+    "pypdf": "6.10.0",
+    "tzdata": "2026.5"
+  },
+  "commands": [
+    "python -m pytest tests/test_komitepilot.py -q --durations=8 --basetemp work/t2-resume-final",
+    "python -m pytest tests/test_komitepilot.py::test_shared_adapter_runs_with_analysis_unavailable -q --basetemp work/t2-resume-pathfix",
+    "python -m pytest -q --durations=20 --basetemp work/t2-resume-full",
+    "python -m ruff check .",
+    "python -m ruff format --check .",
+    "python -m mypy",
+    "git diff --check"
+  ],
+  "limitations": [
+    "K1 positiv alternativport åpen",
+    "Ingen fullårsdekning, faglig godkjenning, kontinuitet eller drift; #10 åpen",
+    "Arvede T1-kapselkopier er bevart og telt separat",
+    "Selvstendig gammel frozen-v1-JSON ikke funnet; innebygde kjerner og ekte eldre B6-Excel prøves separat",
+    "Ingen native Excel-prøve; lagrede celler/lenker/stil/byte og rendering av lagret XLSX kontrolleres"
+  ]
+}

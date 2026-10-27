@@ -14,6 +14,7 @@ from lxml import etree, html
 from pypdf import PdfReader
 from pypdf.errors import PdfReadError
 
+from .legacy_html import parse_legacy_html
 from .observations import encode, identity
 
 VERSION = "omtale-grunnlag-1"
@@ -328,7 +329,7 @@ def structure(sources: tuple[OmtaleSource, ...], extractor: str) -> OmtaleBasis:
                 )
             if source.media_type != "text/html":
                 continue
-            doc = html.fromstring(raw.decode("utf-8"), parser=html.HTMLParser(no_network=True))
+            doc = parse_legacy_html(raw)
             title = compact(_node(doc, "//title").text_content()).replace("–", "-")
             expected_title = {
                 "prop-16-s-2024-2025": "Prop. 16 S (2024-2025)",
@@ -500,7 +501,7 @@ def structure(sources: tuple[OmtaleSource, ...], extractor: str) -> OmtaleBasis:
             try:
                 raw = source_bytes(source)
                 assert raw is not None
-                doc = html.fromstring(raw.decode("utf-8"), parser=html.HTMLParser(no_network=True))
+                doc = parse_legacy_html(raw)
                 key, selector, b_headings, actor, role = specs[source.name]
                 section = _section(
                     source,

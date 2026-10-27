@@ -1,0 +1,7 @@
+..............                                                           [100%]
+============================= slowest 4 durations =============================
+171.11s call     tests/test_komitepilot.py::test_union_selection_navigation_offline_and_legacy_objects
+5.90s call     tests/test_omtale_o2b.py::test_synthetic_rehashed_false_binding_is_rejected_from_written_json_and_excel[section_locator]
+5.12s call     tests/test_omtale_o2b.py::test_synthetic_rehashed_false_binding_is_rejected_from_written_json_and_excel[salary_scope]
+5.11s call     tests/test_omtale_o2b.py::test_synthetic_rehashed_false_binding_is_rejected_from_written_json_and_excel[section_text]
+14 passed in 206.00s (0:03:26)
