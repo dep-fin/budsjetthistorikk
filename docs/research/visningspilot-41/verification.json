@@ -1,5 +1,5 @@
 {
-  "status": "Rettet etter fullført samlet review/audit av fryst kandidat; ny uavhengig verifikasjon gjenstår. Ingen commit/push/CI/merge fra retteren.",
+  "status": "CI-løkkens avgrensede testfixture rettet og målrettet verifisert lokalt; ny CI på publisert retting gjenstår hos orkestratoren. Ingen ny review/audit, commit, push eller merge i denne runden.",
   "date": "2026-10-27",
   "base": "62a54a22ce1d3267c7a0dfbc53bfe23af8cfe5fd",
   "branch": "codex/41-visningspilot",
@@ -40,7 +40,7 @@
       }
     }
   },
-  "full_suite_timing_boundary": "Fullsuite startet etter alle produktrettinger; ingen produktkode endret etter start. Kun dokumentasjon og kontrolljournal er skrevet etterpå.",
+  "full_suite_timing_boundary": "Historisk fullsuite før første CI på lokal kandidat 608895f577931357dde86248c16a82c20b579d97: Fullsuite startet etter alle produktrettinger; ingen produktkode endret etter start. Kun dokumentasjon og kontrolljournal er skrevet etterpå. Senere CI-testretting er dokumentert separat i ci_test_fixture_fix; ingen ny fullsuite er kjørt.",
   "skips": [
     "tests/test_b7_operations.py:169 Windows-konto mangler symlinkrett",
     "tests/test_historical_cli.py:44 hardlink utilgjengelig i sandbox"
@@ -1235,14 +1235,219 @@
     },
     {
       "file": "tests/test_visningspilot.py",
-      "bytes": 37553,
-      "sha256": "ef977cb163371398179a632ddcf83b7eda2502aa000c9a567c40d2047c6a7a5e",
-      "git_normalized_blob_sha1": "cb84405a21d21ae8229198a5139c5fd783b07f88"
+      "bytes": 38726,
+      "sha256": "ca5849f4d7009f3c5b0e98c0cd447d13629f69e1016b887752ddfd9369bd4f09",
+      "git_normalized_blob_sha1": "1258bf9ffdd9d3d8eea4723d49f29a2b947a603a"
     }
   ],
   "limits": [
     "Selvstendig gammel frozen-v1-rapport-JSON er ikke funnet; ekte gammel innebygd B6-kjerne kontrollert. Eldre Excel prøves med --legacy-b6.",
     "Native Excel ikke prøvd; lagrede celler/lenker/fulltekst og rendering kontrolleres separat",
     "T2-T6 og K1-K3 ikke levert; #10 åpen"
-  ]
+  ],
+  "ci_test_fixture_fix": {
+    "date": "2026-10-27",
+    "candidate_before": {
+      "local_head": "608895f577931357dde86248c16a82c20b579d97",
+      "local_tree": "ec9d4721e92bcdb829a82e6b165c0ebdc8c6f624",
+      "published_head": "bf9738e0335722627f68d2ce6208d5a8e88a433e"
+    },
+    "ci_failure": {
+      "run_url": "https://github.com/depmartin/budsjetthistorikk/actions/runs/40487112714",
+      "job_id": 122131556776,
+      "tested_merge": "ed9d070e74e4ac32a7717bb053efa6655f362302",
+      "failed": 1,
+      "passed": 1020,
+      "seconds": 584.33,
+      "expected": "vedtaksfelt",
+      "actual": "Excel har ubundne lenker eller celleområder",
+      "diagnosis": {
+        "file": "work/ci-diagnose41/diagnosis.md",
+        "bytes": 5236,
+        "sha256": "096540f0e52c438c015328ec2ab28b8fe9dcba56f968e24bf6e7cc4cebc53585"
+      },
+      "ci_signals": {
+        "file": "work/ci-diagnose41/ci-signals.log",
+        "bytes": 1632,
+        "sha256": "a2989028745e7d6a3747851955ec7fb4ef8a8f91b701923137866b5ef79ece19"
+      }
+    },
+    "cause": "Testfixturens snapshotutskifting kan redusere antall 30000-tegns stykker. delete_rows etterlater filter/radmetadata utenfor faktiske rader; eksisterende strukturvern avviser før vedtaksvernet prøves.",
+    "cause_limit": "Det er ikke bevist hvorfor original CI-fixture krysset grensen mens lokal originalfixture ikke gjorde det. Linjeskift er ikke fastslått som årsak.",
+    "scope": "Kun tests/test_visningspilot.py og nødvendig README/kontrolljournal. Fjern overskytende row_dimensions og juster auto_filter.ref etter snapshotbytte. Behold samme beløpsmanipulasjon og match='vedtaksfelt'; alle produktvern er urørt.",
+    "red_regression": {
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "tests/test_visningspilot.py::test_rehashed_adopted_amount_in_saved_json_and_excel_is_rejected[chunk_boundary]",
+        "-q",
+        "--basetemp",
+        "work/ci-fix41/red-boundary"
+      ],
+      "failed": 1,
+      "seconds": 13.94,
+      "result": "Samme strukturfeil som CI etter at syntetisk inngang først er gjenlest som gyldig; før fixture-rettingen.",
+      "log": {
+        "file": "work/ci-fix41/boundary-red.log",
+        "bytes": 19225,
+        "sha256": "ccf106db7dcd865f511134b05b45d6b31c5315a6742d4103e419e4a6cb949445"
+      }
+    },
+    "synthetic_boundary": {
+      "valid_input_characters": 7740001,
+      "manipulated_characters": 7720171,
+      "public_readback_before_mutation": "read_json(padded.json) == read_excel(padded.xlsx) == genuine report; asserted by the passing test",
+      "snapshot_shapes": {
+        "padded": {
+          "chunks": 259,
+          "dimension": "A1:B260",
+          "filter": "A1:B260",
+          "max_row_dimension": 260
+        },
+        "bad-adopted": {
+          "chunks": 258,
+          "dimension": "A1:B259",
+          "filter": "A1:B259",
+          "max_row_dimension": 259
+        }
+      }
+    },
+    "checks": [
+      {
+        "passed": 2,
+        "skipped": 0,
+        "seconds": 15.91,
+        "log": {
+          "file": "work/ci-fix41/adopted-green.log",
+          "bytes": 101,
+          "sha256": "7ccb65d833bf1a7a0a38289c1cdf5cb895d7c5d78876b0177324a4f3ee83cc11"
+        },
+        "command": [
+          "python",
+          "-m",
+          "pytest",
+          "tests/test_visningspilot.py::test_rehashed_adopted_amount_in_saved_json_and_excel_is_rejected",
+          "-q",
+          "--basetemp",
+          "work/ci-fix41/green-adopted"
+        ]
+      },
+      {
+        "command": [
+          "python",
+          "-m",
+          "pytest",
+          "tests/test_visningspilot.py::test_saved_excel_presentation_cannot_hide_or_relabel_source_values",
+          "tests/test_visningspilot.py::test_excel_structure_and_navigation_binding_are_validated_before_acceptance",
+          "tests/test_omtale.py::test_synthetic_range_and_index_is_rejected_before_input_load",
+          "tests/test_omtale.py::test_synthetic_workbook_padding_is_rejected_at_the_saved_file_boundary",
+          "-q",
+          "--basetemp",
+          "work/ci-fix41/relevant-guards"
+        ],
+        "executable": "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "exit_code": 0,
+        "seconds": 75.94,
+        "log": {
+          "file": "work/ci-fix41/relevant-guards.log",
+          "bytes": 112,
+          "sha256": "9b65bf5fffa5c91601689244b031bf5390bf199f51a532798854bd782e65336b"
+        },
+        "passed": 57,
+        "skipped": 0
+      },
+      {
+        "command": [
+          "python",
+          "-m",
+          "ruff",
+          "check",
+          "."
+        ],
+        "executable": "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "exit_code": 0,
+        "seconds": 0.141,
+        "log": {
+          "file": "work/ci-fix41/ruff-final.log",
+          "bytes": 19,
+          "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+        }
+      },
+      {
+        "command": [
+          "python",
+          "-m",
+          "ruff",
+          "format",
+          "--check",
+          "."
+        ],
+        "executable": "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "exit_code": 0,
+        "seconds": 0.14,
+        "log": {
+          "file": "work/ci-fix41/format-final.log",
+          "bytes": 28,
+          "sha256": "54073445325370522f5e8514f811bc815389f5402f1e4358dc9ec12dc81a0a61"
+        }
+      },
+      {
+        "command": [
+          "python",
+          "-m",
+          "mypy"
+        ],
+        "executable": "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "exit_code": 0,
+        "seconds": 1.078,
+        "log": {
+          "file": "work/ci-fix41/mypy.log",
+          "bytes": 45,
+          "sha256": "7791bcb3359573e6942029a3550f4ac5d7084d3d2dcc242ecbf7c0779d34d76d"
+        }
+      },
+      {
+        "command": [
+          "git",
+          "diff",
+          "--check"
+        ],
+        "executable": "git",
+        "exit_code": 0,
+        "seconds": 0.078,
+        "log": {
+          "file": "work/ci-fix41/diff-check.log",
+          "bytes": 253,
+          "sha256": "aeb917399c166be7f60932f8b4e2e9fbdca7efa4d056404faafac6695424f2ae"
+        }
+      }
+    ],
+    "previous_status": "Rettet etter fullført samlet review/audit av fryst kandidat; ny uavhengig verifikasjon gjenstår. Ingen commit/push/CI/merge fra retteren.",
+    "previous_test_code_record": {
+      "file": "tests/test_visningspilot.py",
+      "bytes": 37553,
+      "sha256": "ef977cb163371398179a632ddcf83b7eda2502aa000c9a567c40d2047c6a7a5e",
+      "git_normalized_blob_sha1": "cb84405a21d21ae8229198a5139c5fd783b07f88"
+    },
+    "previous_verification_preserved": {
+      "file": "work/ci-fix41/verification-before.json",
+      "bytes": 48506,
+      "sha256": "e80d99be6d9ead5befc9a8bd8f68ae3b69dd06f92496e6ce8ece1b1383dbcfdf"
+    },
+    "preservation": {
+      "file": "work/ci-fix41/preservation.json",
+      "bytes": 66228,
+      "sha256": "50cf45be1584a7c625630a9c922c58ee9820068631e170e367c3f71b016cf8ae"
+    },
+    "product_files_byte_and_git_blob_identical": 65,
+    "manifest_artifacts_byte_identical": 225,
+    "delivery_manifest_unchanged": {
+      "file": "work/t1-fixed-delivery/kontroll.json",
+      "bytes": 74240,
+      "sha256": "1b2f1884c7b3b51f76cc1ada8a5cef2e63be8c062430e10b8a12350ddd00ec41"
+    },
+    "historical_results": "tests.final_full=1019 passed/2 skipped and tests.final_T1=92 passed, their logs/static checks/commands and the 225-artifact manifest remain historical unchanged evidence; no product pair regenerated or reread in this CI round.",
+    "remaining_gate": "Orkestratoren håndterer commit/push og full CI på ny publisert head; senere uttrykkelig mergegodkjenning. #10 og #37 står åpne."
+  }
 }

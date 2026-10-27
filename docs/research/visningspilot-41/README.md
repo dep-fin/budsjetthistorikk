@@ -177,7 +177,7 @@ python -m pytest -q --durations=20 --basetemp work/alle-tester-ny
 faktiske filhasher, kildeoppskrift og akseptledger M01–M09/M13/M22–M27.
 Maskinloggen skiller kjørte kontroller fra senere review-/CI-porter.
 
-Utførte lokale sluttkontroller etter retting: **92 T1-tester bestått** og ny
+Historiske lokale sluttkontroller før første CI: **92 T1-tester bestått** og
 fullsuite med **1 019 bestått, to hoppet over**, uten feil. Fullsuite startet
 etter alle produktrettingene og dekker også O2a/O2b/B6/B8/B9 og gamle guardprøver.
 Hoppene gjelder vertens manglende symlink-/hardlinkrettigheter i to eksisterende
@@ -185,6 +185,37 @@ tester. Alle 26 nye gyldige JSON-/Excel-par er dessuten gjenlest igjen.
 Ruff check/format (**104 Python-filer**), mypy (**58 produktmoduler**) og
 `git diff --check` består. Eksakte varigheter, filhasher og kommandoer finnes
 i den oppdaterte kontrolljournalen; tidligere resultater er bevart separat.
+
+## Avgrenset CI-testretting 27. oktober 2026
+
+[CI-kjøring 40487112714](https://github.com/depmartin/budsjetthistorikk/actions/runs/40487112714)
+på publisert head `bf9738e0335722627f68d2ce6208d5a8e88a433e` ga én feil og
+1 020 beståtte tester. Testen for manipulert vedtaksbeløp forventet `vedtaksfelt`,
+men Excel-fixturen ble først avvist av eksisterende strukturvern. Når
+snapshotutskifting reduserer antall 30 000-tegns stykker, kan `delete_rows`
+etterlate gammelt filterområde og radmetadata utenfor de faktiske radene.
+Hvorfor original CI-fixture krysset grensen mens lokal originalfixture ikke
+gjorde det, er ikke bevist; linjeskift er ikke fastslått som årsak.
+
+Bare testfixturen er rettet: overskytende `row_dimensions` fjernes og
+`auto_filter.ref` settes til `calculate_dimension()` etter snapshotbyttet.
+Beløpsmanipulasjonen og `match="vedtaksfelt"` er beholdt. En ekstra variant
+gjenleser først gyldig syntetisk JSON/Excel med avsluttende whitespace og
+kontrollerer deretter at samme manipulasjon reduserer antall snapshotstykker.
+Varianten feilet med samme strukturfeil før rettingen. Etter rettingen består
+begge varianter (**2 tester, 15,91 s**) og **57 eksisterende filter-/struktur-/
+presentasjonsprøver, 75,94 s**. Ruff check/format (104 filer), mypy (58
+produktmoduler) og `git diff --check` består.
+
+Diagnose, red-/green-logger og før-/etterkontroll ligger separat i ignorert
+`work/ci-fix41/`; journalens `ci_test_fixture_fix` binder dem til faktiske
+filhasher og testfilens Git-normaliserte blob. Alle 65 sporede filer under
+`analyse`, `innlesning`, `drift` og `ops` er byte- og blobidentiske med lokal
+HEAD `608895f577931357dde86248c16a82c20b579d97`. Alle 225 manifestførte
+leveranseartefakter og selve manifestet er hashkontrollert uendret.
+De 26 produktparene er ikke regenerert. Tidligere fullsuite, T1-resultater
+og deres logger er bevart som historisk bevis; ingen ny fullsuite er kjørt
+i denne CI-runden. Ny CI på publisert retting gjenstår hos orkestratoren.
 
 Tolv representative områder, ett per ark i den lagrede siste arbeidsboken,
 er rendret med bundlet Artifact Tool. År vises uten tusenskille og globale

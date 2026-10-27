@@ -340,18 +340,24 @@ def test_saved_excel_presentation_cannot_hide_or_relabel_source_values(
     assert hashlib.sha256(frozen.read_bytes()).hexdigest() == before
 
 
-def test_rehashed_adopted_amount_in_saved_json_and_excel_is_rejected(tmp_path, saved_pilot_pair):
+@pytest.mark.parametrize(
+    "cross_snapshot_boundary", [False, True], ids=["original", "chunk_boundary"]
+)
+def test_rehashed_adopted_amount_in_saved_json_and_excel_is_rejected(
+    tmp_path, saved_pilot_pair, cross_snapshot_boundary
+):
     from openpyxl import load_workbook
 
     from analyse.omtale import report_from_json as read_old
     from analyse.omtale_begge import build_both_report
     from analyse.saksdokumenter import report_from_json as read_base
     from analyse.visningspilot import read_json
-    from analyse.visningspilot_excel import read_excel
+    from analyse.visningspilot_excel import _book, read_excel
     from innlesning.observations import encode, identity
     from innlesning.omtale import identified
 
-    data = json.loads((saved_pilot_pair / "genuine.json").read_text("utf8"))
+    original_raw = (saved_pilot_pair / "genuine.json").read_text("utf8")
+    data = json.loads(original_raw)
     basis = data["report"]["basis"]
     old = read_old(basis["o2b_json"])
     base = read_base(old.base_json)
@@ -379,11 +385,29 @@ def test_rehashed_adopted_amount_in_saved_json_and_excel_is_rejected(tmp_path, s
     bad_json.write_text(raw, "utf8")
     with pytest.raises(ValueError, match="vedtaksfelt"):
         read_json(bad_json)
-    book = load_workbook(saved_pilot_pair / "genuine.xlsx")
+    original_excel = saved_pilot_pair / "genuine.xlsx"
+    if cross_snapshot_boundary:
+        # Gyldig syntetisk whitespace tvinger flere snapshotrader enn etter manipulasjonen.
+        boundary = ((max(len(original_raw), len(raw)) + 29_999) // 30_000) * 30_000
+        padded_raw = original_raw + " " * (boundary + 1 - len(original_raw))
+        valid_json, original_excel = tmp_path / "padded.json", tmp_path / "padded.xlsx"
+        valid_json.write_text(padded_raw, "utf8")
+        report = read_json(saved_pilot_pair / "genuine.json")
+        padded_book = _book(report, padded_raw)
+        padded_book.save(original_excel)
+        padded_book.close()
+        assert read_json(valid_json) == read_excel(original_excel) == report
+    book = load_workbook(original_excel)
     sheet = book["Visningsgrunnlag"]
+    if cross_snapshot_boundary:
+        assert sheet.max_row - 1 > (len(raw) + 29_999) // 30_000
     sheet.delete_rows(2, sheet.max_row)
     for start in range(0, len(raw), 30_000):
         sheet.append([start // 30_000 + 1, raw[start : start + 30_000]])
+    for number in list(sheet.row_dimensions):
+        if number > sheet.max_row:
+            del sheet.row_dimensions[number]
+    sheet.auto_filter.ref = sheet.calculate_dimension()
     damaged = tmp_path / "bad-adopted.xlsx"
     book.save(damaged)
     book.close()
