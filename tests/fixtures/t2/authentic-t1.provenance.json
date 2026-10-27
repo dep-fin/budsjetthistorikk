@@ -1,0 +1,8 @@
+{
+  "source": "outputs/t1-41-608895f/begge.json",
+  "source_sha256": "99e871e0ab780cbb548e15699f3093621d0f25229e3fa06c29cfdb5552803f53",
+  "source_bytes": 7732250,
+  "archive_sha256": "629c3561cca6f0ab2a5644958c7ae6590dd70775d688f40e134bda449e8982a6",
+  "archive_bytes": 2650562,
+  "note": "Uendret autentisk tidligere T1-kapsel, tapsfri gzip; testarkiv, ikke ny produksjonskopi. Ingen ny innhenting eller omgenerering."
+}

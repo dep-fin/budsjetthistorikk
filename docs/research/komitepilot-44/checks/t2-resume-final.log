@@ -1,0 +1,47 @@
+...............................................F.                        [100%]
+================================== FAILURES ===================================
+_____________ test_shared_adapter_runs_with_analysis_unavailable ______________
+
+tmp_path = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/t2-komite/work/t2-resume-final/test_shared_adapter_runs_with_0')
+
+    def test_shared_adapter_runs_with_analysis_unavailable(tmp_path):
+        script = tmp_path / "no_analysis.py"
+        script.write_text(
+            """import importlib.abc, sys
+    from pathlib import Path
+    class NoAnalysis(importlib.abc.MetaPathFinder):
+     def find_spec(self, fullname, path, target=None):
+      if fullname == "analyse" or fullname.startswith("analyse."):
+       raise RuntimeError("analysis unavailable")
+    sys.meta_path.insert(0, NoAnalysis())
+    from innlesning.komitepilot import import_basis, validate_basis
+    basis=import_basis(Path("."));validate_basis(basis)
+    assert len(basis.observations)==9
+    """,
+            "utf8",
+        )
+        result = subprocess.run(
+            [sys.executable, str(script)], capture_output=True, text=True, encoding="utf8"
+        )
+>       assert result.returncode == 0, result.stdout + result.stderr
+E       AssertionError: Traceback (most recent call last):
+E           File "C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\t2-komite\work\t2-resume-final\test_shared_adapter_runs_with_0\no_analysis.py", line 8, in <module>
+E             from innlesning.komitepilot import import_basis, validate_basis
+E         ModuleNotFoundError: No module named 'innlesning'
+E         
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python....rom innlesning.komitepilot import import_basis, validate_basis\nModuleNotFoundError: No module named \'innlesning\'\n').returncode
+
+tests\test_komitepilot.py:567: AssertionError
+============================= slowest 8 durations =============================
+153.08s call     tests/test_komitepilot.py::test_union_selection_navigation_offline_and_legacy_objects
+14.39s call     tests/test_komitepilot.py::test_new_authentic_368_is_independent_of_bad_t2_enrichment[contradictory]
+14.11s call     tests/test_komitepilot.py::test_new_authentic_368_is_independent_of_bad_t2_enrichment[missing]
+13.57s call     tests/test_komitepilot.py::test_new_authentic_368_is_independent_of_bad_t2_enrichment[failed]
+13.34s call     tests/test_komitepilot.py::test_new_authentic_368_is_independent_of_bad_t2_enrichment[corrupt]
+5.88s call     tests/test_komitepilot.py::test_saved_json_excel_and_original_byte_registry
+4.67s setup    tests/test_komitepilot.py::test_synthetic_rehashed_actual_files_cannot_rebind_source_proofs[amount]
+1.78s call     tests/test_komitepilot.py::test_synthetic_rehashed_actual_files_cannot_rebind_source_proofs[locator]
+=========================== short test summary info ===========================
+FAILED tests/test_komitepilot.py::test_shared_adapter_runs_with_analysis_unavailable
+1 failed, 48 passed in 245.59s (0:04:05)

@@ -8,6 +8,8 @@ Før dokumentvisning, sammenligning av behandlingsledd eller konto-/årsvisning:
 
 Ved videre arbeid med T1/#41: les [den separate visningspilotkontrakten](docs/visningspilot.md), [ADR 0011](docs/adr/0011-filbasert-visningspilot.md) og [T1-kontrollen](docs/research/visningspilot-41/README.md). Begge innganger bruker samme frosne grunnlag; nye adapterfeil skal være synlige uten å blokkere ordinær vedtaksinnlesning. Gamle formater, ID-er og schema 5 beholdes.
 
+Før T2/315/78, kildegjenbruk eller lesing av visningspilot-2: les [T2-kontrakten](docs/komitepilot.md) og [kilde-/filkontrollen](docs/research/komitepilot-44/README.md). Standalone krever ingen T1-data; valgfri T1-union bevarer én gammel kapsel og gjenbruker ID-er/payloadreferanser.
+
 ## Agent skills
 
 ### Issue tracker

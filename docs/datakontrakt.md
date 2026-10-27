@@ -4,6 +4,11 @@ T1/#41 bruker en separat opt-in [visningspilotkontrakt](visningspilot.md), fasts
 før produktkode, og [ADR 0011](adr/0011-filbasert-visningspilot.md). Den endrer
 ingen av de tidligere kontraktene, ID-ene, standardvalgene eller hovedschema 5.
 
+T2/#44 bruker separat opt-in [komitépilotkontrakt](komitepilot.md),
+`visningspilot-2`/`komite315-visning-1`. Nytt råregister lagrer én payload per hash,
+med kilde-/transportobservasjoner og ID-referanser til struktureringen.
+En valgfri uendret T1-kapsel er en kompatibilitetsinngang; gamle lesere beholdes.
+
 Dette dokumentet beskriver implementert B1/B2. [Felles observasjonsformat versjon 1](observasjonsformat.md) er den besluttede spesifikasjonen for videre modellering fra #6, med historisk Excel-kompatibilitet. Formatet endrer ikke dagens API eller databaseskjema; se [ADR 0003](adr/0003-felles-belopsobservasjoner.md).
 
 P13-P2s [versjonerte kontrollmatrise for 2024](research/historisk-excel/p13-p2/README.md) er et separat, eksplisitt valgt forskningsgrunnlag. `analyse.control_matrix.read_control_matrix(path, expected_sha256=None)` validerer matrisen og bundne bevis; `python -m analyse.control_matrix FIL` leser uten database eller nett. Matrisen skiller råkilde, avgrenset kildekontroll, kontrollhypotese, foreslått normalisering og åpen faglig godkjenning. Ingen av disse statusene endrer B5-avgjørelser, observasjon-1, schema 5, v1-standardvalg eller tidligere kilde-/tolknings-/resultatidentiteter. Ny kildeinnlesning leser ikke matrisen.

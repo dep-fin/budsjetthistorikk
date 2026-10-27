@@ -40,3 +40,9 @@ docs/research/to-visninger-37/verification.json -text
 # T1s gjenfunne originalforelder og hashfestede transportmetadata er bytebevis.
 docs/research/visningspilot-41/originals/* -text whitespace=cr-at-eol
 docs/research/visningspilot-41/verification.json -text whitespace=cr-at-eol
+# T2s autentiske, uendrede T1-testarkiv og kontrolljournal har faktiske bytehasher.
+tests/fixtures/t2/*.gz -text
+tests/fixtures/t2/*.json text eol=lf
+docs/research/komitepilot-44/verification.json -text whitespace=cr-at-eol
+docs/research/komitepilot-44/resumption.json -text whitespace=cr-at-eol
+docs/research/komitepilot-44/checks/*.log -text whitespace=-blank-at-eol,cr-at-eol

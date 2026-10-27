@@ -293,3 +293,21 @@ advarselsrapport gir ikke i seg selv verifisert T1-sammenligningsgrunnlag.
 Lagrede OOXML-verdier alene beviser heller ikke synlig beløp eller dekning:
 tallformat, ark-/rad-/kolonnesynlighet og effektiv cellestil kontrolleres
 separat. [T1-kontrollen](research/visningspilot-41/README.md) samler bevisene.
+
+## T2/315/78: separat 209 og råregister – kontrollert 27. oktober 2026
+
+Sak100887 har både 208/API40034045 og 209/API40034047. Den vellykkede
+208-HTML-responsen har bare I-tabellen med 30 postgrupper. Fullmakt II/Narvik
+ligger i separat 209, uten dokumentert kontokobling til 315/78. T2 bevarer derfor
+209 som eget dokument/tekst uten monetær posthendelse. Begge API-objektene
+rekonstrueres byteeksakt fra c5f3-fullsesjonsoriginalen; gamle 210/368s
+9cfe-proveniens er uendret. Feilet 208-URL uten sakparameter ga en bevart
+HTTP500-side; den er ikke vedtaksbevis.
+
+[Bevis og eksakte byteoppskrifter](research/komitepilot-44/README.md) og
+[T2-kontrakt](komitepilot.md) beskriver kildevalget, Ap/Sp/SV-unntaket og den
+postvise 63–35-voteringen. Nytt råregister gjenbruker identiske byte ved hash,
+men bevarer ulike HTTP-observasjoner og representasjoner med egne identiteter.
+T1s arvede kapselkopier rapporteres separat. Konsekvens: ingen sammenligning
+ut fra samme beløp alene, ingen oppfunnet mindretallstrio og ingen fullmaktsramme
+som 315-bevilgning. K1s positive alternativport og #10s driftsaksept er åpne.
