@@ -6,6 +6,8 @@ Ved planlegging, ticketarbeid og review: les [arbeidsflyten](docs/arbeidsflyt.md
 
 Før dokumentvisning, sammenligning av behandlingsledd eller konto-/årsvisning: les [målbildet og akseptkravene for de to inngangene](docs/to-visninger.md), [konkretiseringsforslaget under #37](docs/visningspilot-plan.md) og dets kildegrunnlag/testmatrise. Forslag til nye byggetickets er ikke byggemandat.
 
+Ved videre arbeid med T1/#41: les [den separate visningspilotkontrakten](docs/visningspilot.md), [ADR 0011](docs/adr/0011-filbasert-visningspilot.md) og [T1-kontrollen](docs/research/visningspilot-41/README.md). Begge innganger bruker samme frosne grunnlag; nye adapterfeil skal være synlige uten å blokkere ordinær vedtaksinnlesning. Gamle formater, ID-er og schema 5 beholdes.
+
 ## Agent skills
 
 ### Issue tracker

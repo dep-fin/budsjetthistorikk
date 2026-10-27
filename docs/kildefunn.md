@@ -259,3 +259,37 @@ Den avgrensede v2-prøven er gjentatt separat: 2 894 observasjoner, H 271/103/1,
 **Siste defensive retterkontroll 22. oktober 2026:** XML-kildens dupliserte metadata må også svare til den bevarte, hashfestede JSON-sidevognen. En syntetisk endret metadata-URL med uendret XML og sidevogn er dokumentert i [sluttrettingen](research/omtale-o2a/retting-finalaudit.md). Hele metadataobjektet avstemmes uten overskriving av rådata; senere B2-konvolutter er fortsatt separate kildeobservasjoner. Støttemanifestet leses én gang med faktisk 1 MiB-bytebegrensning før JSON-dekoding og strukturkontroll. Avvik beholder mottatte sidevogner og synlig status. Ingen ny kilde eller nettverkskontroll inngår.
 
 **O2b-kontroll 23. oktober 2026:** De samme O1-originalene dokumenterer P22/K22s reduksjon på 3 mill. og tilbakepeking til post 1. P1 er fortsatt én seksjon: omdisponeringsutsagnet har separate relasjoner til de to eksisterende posthendelsene; lønnsutsagnet gjelder bare post 1. Omtalens kulturmiljøforvaltning og tabellenes kulturminneforvaltning beholdes som forskjellige rånavn. [O2b-kontrollen](research/omtale-o2b/README.md) viser faktiske gjenleste filer, separate filtre, uavklart syntetisk tilleggsforslag og gamle A-filer uten omskriving. **Konsekvens:** velg ny B-uttrekksversjon uttrykkelig, kontroller post 22s lokale kapittel-/post-/fra-til-gruppe og bevar A-algoritmen. PN/post 60/Vega er fullmaktskontekst uten 210-beløpsrelasjon. Ingen ny HTTP, kildeversjon, beløpsobservasjon, årsdekning eller faglig godkjenning følger av B.
+
+## T1: gjenfunnet forelder og eldre B6-kontroll
+
+**Kontrollert 27. oktober 2026:** Den eksakte eldre HTTP-responsen med SHA-256
+`9cfeaef59510a54ff8b2a695e0be368e67cfbab574f8d3f466c0c2f0c3c92680`,
+7 479 943 byte, er gjenfunnet i det lokale #2-arkivet og bevart tapsfritt som gzip
+med faktisk transportpost fra `manifest-downloads3.json` (20. oktober kl.
+11:36:10.455138 UTC, HTTP 200). [T1-kontrollen](research/visningspilot-41/README.md)
+og dens readonly-oppskrift rekonstruerer både 210 og 368 byteidentisk fra sine
+gamle dokumenterte bytegrenser. **Konsekvens:** 210s gamle sidevogn kan avstemmes
+mot sin reelle forelder; den nyere c5f3b900-responsen brukes bare til sine egne
+utdrag, blant annet 211. Ingen gammel proveniens omskrives.
+
+Den ekte eldre `accept-b6.xlsx` er også gjenfunnet: SHA-256
+`8487909b5e7b2b7498c9ab78de9fb88966be926202df89388ef3f31871ac1f39`,
+4 648 442 byte. Hashkontrollert kopi er gjenlest med 21 ark, 2 183 inventarrader,
+5 492 unike observasjonsrader og samme gamle rapport-ID. 50 uttrekk er valgt;
+47 av dem har beløpsrader. En separat gammel frozen-v1-rapport-JSON og nøyaktig
+historisk writercommit er fortsatt ikke fastslått. **Konsekvens:** Excel-prøven
+er autentisk kompatibilitetsbevis; utvalgs-/bevis-JSON må ikke kalles en gammel
+SessionReport. Ingen historisk database er nødvendig for denne gjenlesingen.
+
+**T1-retterkontroll 27. oktober 2026:** Innst. 81 S-originalen, SHA-256
+`e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95`, bruker
+DOM-søsken med ID-ene `m1`, `m1_1`, `m1_1_3`; overskriftene ligger i ekstra
+div-elementer. Post 60 har derfor logisk kjede Sammendrag → Kap. 1429 → Post 60.
+Tilråding II og Prop. 16 S' fullmakter har særskilte romertall/overskrifter.
+**Konsekvens:** nye T1-utsagn følger disse logiske seksjonene; gamle O2-utsagn
+omskrives ikke. Kontroll av beløp må dessuten gjenskape alle seks overførte
+210-observasjoner fra originalen og deres gamle tolkning; en gyldig gammel
+advarselsrapport gir ikke i seg selv verifisert T1-sammenligningsgrunnlag.
+Lagrede OOXML-verdier alene beviser heller ikke synlig beløp eller dekning:
+tallformat, ark-/rad-/kolonnesynlighet og effektiv cellestil kontrolleres
+separat. [T1-kontrollen](research/visningspilot-41/README.md) samler bevisene.
