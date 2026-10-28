@@ -1,4 +1,4 @@
-# Overlevering – byggerens kandidat for #54
+# Overlevering – før PR for #54
 
 Leveransen gjelder «R2: Kildeundersøk sak 101000 – lønnsoppgjøret 2024 og
 1429/1, /22». Base er `6b2441ee5e859d103ab44d78f12d33c374a89171`, branch
@@ -42,23 +42,50 @@ ledgerens `FIN-1429-1`. Begge gjengir nå den faktiske overskriften
 «4 Endring av utgifter som følge av lønnsoppgjøret for statsansatte», lest
 direkte i `prop36-ch11.html`, `//*[@id='ved4']/h1`. Råkilden, postcellen,
 anslagsrollen og tallkonklusjonen er uendret. Kildekontrollens signerte
-rapport og tilhørende filer er bevart; rettingen er ingen ny uavhengig
-etterkontroll. Byggerens offlinekontroll er kjørt på nytt med oppdatert
+rapport og tilhørende filer er bevart. På dette byggetrinnet var rettingen
+ikke uavhengig etterkontrollert; den senere Spec-kontrollen nedenfor lukker
+F1. Byggerens offlinekontroll er kjørt på nytt med oppdatert
 resultat og manifest. Full Ruff check og formatkontroll omfatter også
 `reviews/source-control/verify_sources.py` og består.
 
 ## Orkestratorens leveringsporter
 
-Uavhengig kildekontroll og endelig vurdering av dokument-/kildedata skal
-bindes til samlet fast kandidat. Kontrollagentens `reviews/source-control/`
-eies av den agenten; byggeren har ikke endret disse filene.
-`delivery-manifest.json` gjelder byggerens filer og utelater `reviews/**`.
-Eventuelle publiserte kontrollskript i `reviews/**` må inngå i orkestratorens
-vurdering av samlet review-/auditplikt for hele kandidaten.
-Etter eventuelle rettinger/rapporter oppdaterer orkestratoren manifestet
-og kontrollerer faktiske Git-blobbyte på den publiserte revisjonen.
+Alle kontrollporter før PR er bestått. De tre rapportene gjelder hele den
+faste forskningskandidaten `7af3153bda95726ac93d0780b918ae95440bae2d`
+mot oppgitt base, inkludert kildekontrollens skript og alle 64 kandidatfiler:
 
-Full uendret Linux-CI og bekreftet merge gjenstår hos orkestratoren.
+- [Standards](reviews/standards/RAPPORT.md): 0 dokumenterte standardbrudd,
+  én valgfri navneheuristikk. Publisert kildekontroll: 204 bestått;
+  publisert reproduksjon: 818 bestått, med 59 Git-blobkontroller.
+- [Spec og F1-etterkontroll](reviews/spec/RAPPORT.md): 0 nødvendige og
+  0 valgfrie funn; F1 lukket mot hashbundet råoverskrift. Egen etterkontroll:
+  274 bestått. Hovedsak, presisjon, roller og restgrenser er kontrollert.
+- [Separat sikkerhetsaudit](reviews/security/REPORT.md): 0 nødvendige
+  rettinger, to valgfrie forbedringer om generell dekomprimeringsherding
+  og dataminimering ved senere innhenting. 696 beståtte kontrollpunkter.
+
+De nye reviewartefaktene er deretter kontrollert særskilt for standarder,
+sikkerhet, referanser og kandidatbinding. Ruff check/format består for alle
+fem nye Python-filer. Gjenkjøringer skriver til separat lokal resultatmappe;
+de opprinnelige rapportene og resultatene er bevart. En ufarlig aliasering
+i sikkerhetskontrollens detaljfelt er presisert i
+[sluttkontrollen](reviews/final-artifacts/RAPPORT.md), uten endret auditutfall.
+
+[Publikasjonsmanifestet](reviews/final-artifacts/publication-manifest.json)
+binder samlet filinventar, inkludert `reviews/**` og AGENTS/kildefunn i
+Git-LF-representasjon. Manifestet og sluttkontrollrapporten er uttrykkelig
+utelatt fra egen filliste for å unngå sirkulær binding; rapporten oppgir
+manifestets SHA-256. `delivery-manifest.json` gjelder fortsatt bare byggerens
+filer og er oppdatert kun for denne overleveringen og samlet byteantall.
+Det historiske `verification.json` og alle kildebevis er uendret.
+
+Før-PR-tillegget består av denne statusoppdateringen, byggermanifestet,
+de tre reviewmappene og sluttkontrollen. Det endrer ingen kilde, faglig
+påstand eller produktfil i den kontrollerte forskningskandidaten. Manifestet
+angir filbyte før commit; faktiske Git-blobbyte for hele den endelige
+publikasjonsrevisjonen må kontrolleres etter commit.
+
+PR-opprettelse, full uendret Linux-CI og bekreftet merge gjenstår hos orkestratoren.
 Lokale forskningskontroller er ikke full produkttestsuite eller CI.
 Faktisk PR-/CI-/mergestatus lagres i GitHub før #54 lukkes.
 

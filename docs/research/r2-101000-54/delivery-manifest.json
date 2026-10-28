@@ -306,8 +306,8 @@
     {
       "path": "docs/research/r2-101000-54/OVERLEVERING.md",
       "representation": "exact-file-bytes",
-      "bytes": 3791,
-      "sha256": "a2db494a2b5d8aae83334d5917015e8aced4547c514cbaae7025ec25368be784"
+      "bytes": 5484,
+      "sha256": "5eed1aea9c726047731dc05bf83d2cef451544950f7152f46c9ecaf218758800"
     },
     {
       "path": "docs/research/r2-101000-54/pdf-check.json",
@@ -359,5 +359,5 @@
     }
   ],
   "file_count": 59,
-  "total_bytes": 1677721
+  "total_bytes": 1679414
 }
