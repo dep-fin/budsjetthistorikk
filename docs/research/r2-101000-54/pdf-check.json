@@ -1,0 +1,25 @@
+{
+  "schema": "r2-pdf-text-check-1",
+  "source": "prop34.pdf",
+  "body_sha256": "99c0323aa5250a7a741acf83321136e0ecd3707630632ebdf19d91d72c7acc90",
+  "page_count": 4,
+  "method": "pypdf.extract_text, read-only; no visual/layout verification",
+  "pages": [
+    {
+      "page_1based": 1,
+      "extracted_text_sha256": "2c600212f116e7c7b0bdb0c40d757cd5a72531c1e8a4e2ee1d2aaedfd6bc2781"
+    },
+    {
+      "page_1based": 2,
+      "extracted_text_sha256": "f45554d0d0a83fd10ecf7f43af3c757fff024d31a89982c13ed5409a762a35bd"
+    },
+    {
+      "page_1based": 3,
+      "extracted_text_sha256": "c2c8e294938c4b7bef7751e7b16e920a45fa34becd400277dd3ab0fdef2ac095"
+    },
+    {
+      "page_1based": 4,
+      "extracted_text_sha256": "059f7ac8d97c19abb7bab84c1a2b106bac97c5d81a910705ee153b939c13f31c"
+    }
+  ]
+}

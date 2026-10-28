@@ -1,0 +1,235 @@
+{
+  "schema": "r2-treatment-ledger-1",
+  "rule": "Forskningsresultater; ingen produktadopsjon, AmountObservation, B 5-avgjørelse eller endring i pinnet K 3/P 1.",
+  "rows": [
+    {
+      "id": "INDEX",
+      "case_id": "101000",
+      "budget_year": null,
+      "accounts": [],
+      "role": "indekslokalisering",
+      "post_link": "unknown",
+      "status": "historisk_kandidat_uendret",
+      "evidence_ids": [
+        "IDX624"
+      ],
+      "finding": "Sesjon 2024–2025 ordinal 624 / innstilling 16626. Indeksår er ikke budsjettår."
+    },
+    {
+      "id": "PROP-I",
+      "case_id": "101000",
+      "budget_year": 2024,
+      "accounts": [
+        "1560/71"
+      ],
+      "role": "regjeringsforslag",
+      "post_link": "proven_other_scope",
+      "status": "forslag_ikke_hendelse",
+      "evidence_ids": [
+        "R14",
+        "R15",
+        "R36",
+        "S-main-prop34-ch3.html"
+      ],
+      "finding": "Én endringstabell: +14200000 fra 233100000 til 247300000 kroner, opplæring/utvikling av tillitsvalgte. Kapittelnavnet Tariffavtalte avsetningar innebærer ingen fordeling av lønnskompensasjon til 1429."
+    },
+    {
+      "id": "PROP-II",
+      "case_id": "101000",
+      "budget_year": 2024,
+      "accounts": [],
+      "role": "regjeringsforslag_generell_lønnsregel",
+      "post_link": "unknown",
+      "status": "regel_uten_postbeløp",
+      "evidence_ids": [
+        "R12",
+        "R13",
+        "R16"
+      ],
+      "finding": "Uorganiserte følger største avtaleområde i virksomheten; stillinger tatt ut av hovedtariffavtalene får administrativ kontrakt. Virkning på konkrete ansatte hos Riksantikvaren er ikke undersøkt."
+    },
+    {
+      "id": "KOMITE",
+      "case_id": "101000",
+      "budget_year": 2024,
+      "accounts": [
+        "1560/71"
+      ],
+      "role": "samlet_tilråding",
+      "post_link": "proven_other_scope_for_table_unknown_for_rule",
+      "status": "I_og_II_tilrådd_uten_beløpsendring",
+      "evidence_ids": [
+        "S-inn91-m2_1",
+        "S-inn91-m2_2",
+        "S-inn91-m3",
+        "R37"
+      ],
+      "finding": "Tilrådingen fremmes av samlet komité 10.12.2024. Ap/Sp/SV/R, H/FrP og andre navngitte grupper har ulike merknader; disse er ikke separate monetære vedtak eller alternative tilrådingstabeller."
+    },
+    {
+      "id": "BEHANDLING",
+      "case_id": "101000",
+      "budget_year": 2024,
+      "accounts": [],
+      "role": "debatt_og_votering",
+      "post_link": "unknown",
+      "status": "23887_enstemmig_I_II",
+      "evidence_ids": [
+        "S-debatt6",
+        "R26",
+        "R30",
+        "R31",
+        "R32",
+        "R33"
+      ],
+      "finding": "Debatt og votering 17.12.2024 sak 6. Votering 23887 kl 19:29:21.12 vedtar I/II enstemmig. Forslag 40077003=I og 40077004=II. APIets -1 er rå sentinel for stemmetall, ikke negativt antall eller eksakt stemmetall. I innhentet saks-voterings-API finnes én votering, med disse to tilrådingsforslagene; hele sak 6-debatten og voteringsblokken er kontrollert uten et ytterligere fremsatt/endret forslag."
+    },
+    {
+      "id": "D230",
+      "case_id": "101000",
+      "budget_year": 2024,
+      "accounts": [
+        "1560/71"
+      ],
+      "role": "endelig_stortingsvedtak",
+      "post_link": "proven_other_scope",
+      "status": "direkte_beløpsomfang_avklart",
+      "evidence_ids": [
+        "D40034098",
+        "R32"
+      ],
+      "decision_api_id": "40034098",
+      "number": 230,
+      "date": "2024-12-17",
+      "amounts": {
+        "currency": "NOK",
+        "before": 233100000,
+        "delta": 14200000,
+        "after": 247300000
+      },
+      "finding": "Uttrykkelig budsjett 2024. Faktisk tabellomfang er annen konto; ingen ny valgt 1429-hendelse. Ingen generell semantisk eksklusjon av indirekte virkning utledes."
+    },
+    {
+      "id": "D231",
+      "case_id": "101000",
+      "budget_year": 2024,
+      "accounts": [],
+      "role": "endelig_generell_lønnsregel",
+      "post_link": "unknown",
+      "status": "ingen_postvis_beløpsfordeling",
+      "evidence_ids": [
+        "D40034099",
+        "R32"
+      ],
+      "decision_api_id": "40034099",
+      "number": 231,
+      "date": "2024-12-17",
+      "amounts": null,
+      "finding": "Generell rettslig/administrativ lønnsbestemmelse, uten konkret kapittel/post eller beløp. Direkte 1429-fordelingsfullmakt er ikke belagt. Konkret anvendelse på Riksantikvarens ansatte/kontrakter forblir uavklart."
+    },
+    {
+      "id": "FIN-METODE",
+      "case_id": null,
+      "budget_year": 2024,
+      "accounts": [],
+      "role": "nysalderingsomtale_og_anslag",
+      "post_link": "explicit_reference_to_department_proposals",
+      "status": "krysshenvisning_fulgt",
+      "evidence_ids": [
+        "R11",
+        "FIN-kap5-p1",
+        "FIN-kap5-p4",
+        "FIN-kap5-p5"
+      ],
+      "finding": "Prop 34 §2.1 viser til postvise omgrupperingsproposisjoner og FINs nysaldering. Prop 36 kap 5 skiller normalt fullmaktsopplegg fra 2024 s anslag i nysalderingen, basert på YS Stat. Kap 5 viser uttrykkelig til vedlegg 4 for postvirkning."
+    },
+    {
+      "id": "FIN-1429-1",
+      "case_id": "100289",
+      "budget_year": 2024,
+      "accounts": [
+        "1429/1"
+      ],
+      "role": "kildeobservert_lønnskompensasjonsanslag",
+      "post_link": "proven_selected_for_proposed_compensation",
+      "status": "forslagsbevis_ingen_ny_vedtakshendelse",
+      "evidence_ids": [
+        "R22",
+        "R27",
+        "R28",
+        "R29",
+        "S-main-prop36-ch11.html",
+        "O1-kap2-p24"
+      ],
+      "amounts": {
+        "currency": "NOK",
+        "raw": "2 796 000",
+        "source_observed_compensation_estimate": 2796000,
+        "adopted_new_event": null
+      },
+      "finding": "Prop. 36 vedlegg 4 har overskriften «4 Endring av utgifter som følge av lønnsoppgjøret for statsansatte» (//*[@id='ved4']/h1), tabellhode Kroner, tr 292=1429/Riksantikvaren, tr 293=post 1/Driftsutgifter/2796000, tr 294=nytt kap 1471. Dette er en selvstendig direkte primærkildeobservasjon av et anslag; den beregnede resten 5796000−3000000 har fortsatt separat rolle. Ingen post 22-rad i den avgrensede 1429-blokken er ingen generell null-/fraværsbevis."
+    },
+    {
+      "id": "O1-OMDISPONERING",
+      "case_id": "100927",
+      "budget_year": 2024,
+      "accounts": [
+        "1429/1",
+        "1429/22"
+      ],
+      "role": "eksisterende_omtale_og_beregnet_rest",
+      "post_link": "salary_only_post1_reallocation_both",
+      "status": "gamle_kilder_og_roller_bevart",
+      "evidence_ids": [
+        "O1-kap2-p24",
+        "O1-kap2-p25"
+      ],
+      "amounts": {
+        "rounded_source_salary_million": 2.8,
+        "derived_residual": 2796000,
+        "derived_residual_formula": "5796000 - 3000000"
+      },
+      "finding": "Prop 16 post 1 omtaler 3 mill omdisponering fra/22 og avrundet 2,8 mill lønnsanslag; /22 omtaler bare omdisponering. Separat Prop 36-observasjon gir mer bevis, men oppgraderer ikke O 1-teksten eller restberegningen til eksakt kildebeløp og gir ingen ekstra hendelse utover 210."
+    },
+    {
+      "id": "FULLMAKT429",
+      "case_id": "100289",
+      "budget_year": 2024,
+      "transfer_target_year": 2025,
+      "accounts": [],
+      "conditional_accounts": [
+        "1429/1"
+      ],
+      "role": "overføringsfullmakt_vedtatt",
+      "post_link": "conditional_relevance_via_2024_compensation",
+      "status": "fullmakt_avklart_faktisk_bruk_uavklart",
+      "evidence_ids": [
+        "FIN-kap5-p5",
+        "R24",
+        "R25",
+        "R38",
+        "S-vot23945",
+        "R35",
+        "S-D429",
+        "R27",
+        "R28"
+      ],
+      "decision_api_id": "40034289",
+      "number": 429,
+      "date": "2024-12-19",
+      "amounts": null,
+      "finding": "Prop 36 forslagII → Innst 90 tilrådingII → forslag 40078386 → vot 23945(restI samtII–IV) enstemmig → vedtak 429/II. FIN kan øke maksimalgrensen for overføring av ubrukt drift til 2025 tilsvarende 2024-lønnskompensasjonen og fastsette minsteoverføring slik at utsatt etterbetaling dekkes. Mellomleddet for mulig/1-relevans er vedlegg 4 s kompensasjonsrad;429 nevner ikke 1429. Om vilkår er oppfylt, FIN faktisk brukte fullmakten, eller noe beløp ble overført til Riksantikvaren, er uavklart. Dette er ikke en ny 2024- eller 2025-bevilgningshendelse."
+    }
+  ],
+  "conclusion": {
+    "direct_new_1429_monetary_event": "not_evidenced",
+    "post1_compensation_estimate": "direct_source_observed_in_Prop36_appendix4",
+    "post22_salary_link": "not_evidenced_in_investigated_local_scopes",
+    "decision231_actual_Riksantikvaren_application": "unknown",
+    "decision429_actual_Riksantikvaren_transfer": "unknown",
+    "annual_coverage": "partial",
+    "professional_approval": false,
+    "product_monetary_events_unchanged": 5,
+    "product_decision_fields_unchanged": 11
+  }
+}

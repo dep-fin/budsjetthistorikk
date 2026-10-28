@@ -1,0 +1,740 @@
+{
+  "schema": "r2-evidence-1",
+  "text_rule": "UTF-8 og lxml; XML-parser følger deklarert encoding. Tekst er node.itertext() med whitespace kollapset til enkelt mellomrom. Originalbyte og markup er i kilden.",
+  "namespaces": {
+    "s": "http://data.stortinget.no"
+  },
+  "sources": {
+    "index-k3": "docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.gz",
+    "decisions-k3": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.gz",
+    "decisions-old": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+    "prop16-ch2": "docs/research/omtale-o1/originals/prop16s-ch2.html",
+    "prop16-ch4": "docs/research/omtale-o1/originals/prop16s-ch4.html",
+    "prop36-ch5": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.gz",
+    "prop36-ch10": "docs/research/k3-arsinventar-50/originals/prop36-ch10.html.gz",
+    "prop36-ch13": "docs/research/k3-arsinventar-50/originals/prop36-ch13.html.gz",
+    "ind-vedtak-2023-2024.xml": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+    "sak100289.xml": "docs/research/k3-arsinventar-50/originals/sak100289.xml.gz",
+    "inns90-all.html": "docs/research/r2-101000-54/originals/inns90-all.html.gz",
+    "inns91-all.html": "docs/research/r2-101000-54/originals/inns91-all.html.gz",
+    "inns91.html": "docs/research/r2-101000-54/originals/inns91.html.gz",
+    "prop34-ch1.html": "docs/research/r2-101000-54/originals/prop34-ch1.html.gz",
+    "prop34-ch2.html": "docs/research/r2-101000-54/originals/prop34-ch2.html.gz",
+    "prop34-ch3.html": "docs/research/r2-101000-54/originals/prop34-ch3.html.gz",
+    "prop34-ch4.html": "docs/research/r2-101000-54/originals/prop34-ch4.html.gz",
+    "prop34-ch5.html": "docs/research/r2-101000-54/originals/prop34-ch5.html.gz",
+    "prop34-root.html": "docs/research/r2-101000-54/originals/prop34-root.html.gz",
+    "prop34.pdf": "docs/research/r2-101000-54/originals/prop34.pdf.gz",
+    "prop36-ch11.html": "docs/research/r2-101000-54/originals/prop36-ch11.html.gz",
+    "prop36-ch7.html": "docs/research/r2-101000-54/originals/prop36-ch7.html.gz",
+    "ref171224-debatt6.html": "docs/research/r2-101000-54/originals/ref171224-debatt6.html.gz",
+    "ref171224-votering.html": "docs/research/r2-101000-54/originals/ref171224-votering.html.gz",
+    "sak101000-retry.xml": "docs/research/r2-101000-54/originals/sak101000-retry.xml.gz",
+    "sak101000.xml": "docs/research/r2-101000-54/originals/sak101000.xml.gz",
+    "voteringer100289.xml": "docs/research/r2-101000-54/originals/voteringer100289.xml.gz",
+    "voteringer101000.xml": "docs/research/r2-101000-54/originals/voteringer101000.xml.gz",
+    "voteringsforslag23887.xml": "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.gz",
+    "voteringsforslag23945.xml": "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.gz",
+    "voteringsvedtak23887.xml": "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.gz",
+    "voteringsvedtak23945.xml": "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.gz"
+  },
+  "evidence": [
+    {
+      "id": "IDX624",
+      "source": "index-k3",
+      "body_sha256": "46d6f9ea1353293b690c77a2549d33ff951e73561374bb2381062578b6c5ae2b",
+      "kind": "xml",
+      "xpath": "/s:saker_oversikt/s:saker_liste/s:sak[624]",
+      "text": "2026-10-28T12:17:54.7815628+01:00 1.6 2024-2025 proposisjon 2026-10-28T12:17:54.7815628+01:00 1.6 false 155 44 Statens personalpolitikk 2026-10-28T12:17:54.7815628+01:00 1.6 false 5 94 Arbeidsvilkår 2026-10-28T12:17:54.7815628+01:00 1.6 false 5 95 Lønn og inntekt Prop. 34 S (2024-2025), Innst. 91 S (2024-2025) 101000 16626 innstilling_s 2026-10-28T12:00:50.78569+01:00 1.6 KOMMFORV Kommunal- og forvaltningskomiteen Endringar i statsbudsjettet 2024 under Digitaliserings- og forvaltningsdepartementet (lønsforhandlingane i det statlege tariffområdet 2024) 101000 2026-10-28T12:17:54.7815628+01:00 1.6 Vågslid 1986-03-17T00:00:00 Lene LVA kvinne 2026-10-28T03:09:41.4687648+01:00 1.6 false Te Telemark 2026-10-28T01:00:19.4062868+01:00 1.6 A Arbeiderpartiet true false 2024-12-10T00:00:00 behandlet Endringar i statsbudsjettet 2024 under Digitaliserings- og forvaltningsdepartementet (lønsforhandlingane i det statlege tariffområdet 2024) budsjett"
+    },
+    {
+      "id": "D40034098",
+      "source": "decisions-k3",
+      "body_sha256": "ff5013b2a37220af3254a69b574800f99a3d1fd44f1c6053f07d4b0e846c973c",
+      "kind": "xml",
+      "xpath": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40034098']",
+      "text": "I statsbudsjettet 2024 blir det gjort følgjande endringar: Kap. Post Føremål Kroner 1560 Tariffavtalte avsetningar 71 Opplæring og utvikling av tillitsvalde, kan overførast, blir auka med 14 200 000 frå kr 233 100 000 til kr 247 300 000",
+      "nested_html_field_xpath": "./s:stortingsvedtak_tekst"
+    },
+    {
+      "id": "D40034099",
+      "source": "decisions-k3",
+      "body_sha256": "ff5013b2a37220af3254a69b574800f99a3d1fd44f1c6053f07d4b0e846c973c",
+      "kind": "xml",
+      "xpath": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40034099']",
+      "text": "For embetsmenn og statstilsette som ikkje er medlemer av Akademikerne, LO Stat, Unio eller YS Stat, og derfor ikkje får sine løns- og arbeidsvilkår fastsette i hovudtariffavtale, skal det bli gjort regulering av lønene i samsvar med det avtaleområdet (Akademikerne og Unio eller LO Stat og YS Stat) som dekker flest årsverk i den einskilde verksemda. Embetsmenn og statstilsette som er tekne ut av hovudtariffavtalane, får sine løns- og arbeidsvilkår fastsette administrativt i eigen kontrakt.",
+      "nested_html_field_xpath": "./s:stortingsvedtak_tekst"
+    },
+    {
+      "id": "O1-kap2-p24",
+      "source": "prop16-ch2",
+      "body_sha256": "258d26e6d324bde709bf3d1cb660d7eb6f4248f537d4b0c77e095f17697cf8df",
+      "kind": "html",
+      "xpath": "//*[@id='kap2-p24']",
+      "text": "For å redusere konsulentbruken innenfor utvikling av digitale systemer, og erstatte disse med egne ansatte, foreslås bevilgingen på posten økt med 3 mill. kroner til stillinger hos Riksantikvaren. Som en følge av dette foreslås det å omdisponere 3 mill. kroner fra kap. 1429, post 22. Videre foreslås bevilgningen på posten økt med 2,8 mill. kroner som følge av et anslag på virkningen av lønnsoppgjøret for 2024. Se nærmere omtale i nysalderingsproposisjonen fra Finansdepartementet. Samlet foreslås bevilgningen på posten økt med 5,8 mill. kroner."
+    },
+    {
+      "id": "O1-kap2-p25",
+      "source": "prop16-ch2",
+      "body_sha256": "258d26e6d324bde709bf3d1cb660d7eb6f4248f537d4b0c77e095f17697cf8df",
+      "kind": "html",
+      "xpath": "//*[@id='kap2-p25']",
+      "text": "Bevilgningen på posten foreslås redusert med 3 mill. kroner som foreslås omdisponert til kap. 1429, post 01."
+    },
+    {
+      "id": "FIN-kap5-p1",
+      "source": "prop36-ch5",
+      "body_sha256": "7a7c42ae4c3e466cddd5bf4a5b97d93ee84f0c47667f737e74cdbd47e018c6b9",
+      "kind": "html",
+      "xpath": "//*[@id='kap5-p1']",
+      "text": "Normalt blir kompensasjon til statlige, bruttobudsjetterte virksomheter innarbeidet av Finansdepartementet på fullmakt fra Stortinget, etter at de sentrale lønnsoppgjørene i staten er gjennomført og før nysalderingen. Rikslønnsnemnda har nylig avgjort tvistene i hovedoppgjøret for 2024 for tre av de fire hovedsammenslutningene i staten. YS Stat kom til enighet med staten i vår, men også iverksettelsen av deres tariffavtale har avventet Rikslønnsnemndas kjennelser."
+    },
+    {
+      "id": "FIN-kap5-p2",
+      "source": "prop36-ch5",
+      "body_sha256": "7a7c42ae4c3e466cddd5bf4a5b97d93ee84f0c47667f737e74cdbd47e018c6b9",
+      "kind": "html",
+      "xpath": "//*[@id='kap5-p2']",
+      "text": "Som følge av at kjennelsene fra Rikslønnsnemnda foreligger så sent på året, vil store deler av etterbetalingen av lønnsoppgjøret for 2024 sannsynligvis ikke kunne utbetales innen utgangen av året. Dette skyldes blant annet at virksomhetene først må gjennomføre lokale forhandlinger."
+    },
+    {
+      "id": "FIN-kap5-p3",
+      "source": "prop36-ch5",
+      "body_sha256": "7a7c42ae4c3e466cddd5bf4a5b97d93ee84f0c47667f737e74cdbd47e018c6b9",
+      "kind": "html",
+      "xpath": "//*[@id='kap5-p3']",
+      "text": "Kompensasjonen for lønnsoppgjøret dekker også virkningen på virksomhetenes pensjonspremieutgifter. Denne vil bli hensyntatt gjennom Statens pensjonskasses premieberegning, som for 2024 faktureres i henhold til prognose og vil bli regnskapsført av virksomhetene i 2024."
+    },
+    {
+      "id": "FIN-kap5-p4",
+      "source": "prop36-ch5",
+      "body_sha256": "7a7c42ae4c3e466cddd5bf4a5b97d93ee84f0c47667f737e74cdbd47e018c6b9",
+      "kind": "html",
+      "xpath": "//*[@id='kap5-p4']",
+      "text": "Av hensyn til ovennevnte og forutsigbarhet for virksomhetene, er det innarbeidet et anslag på virkningen av lønnsoppgjøret i forbindelse med nysalderingen av budsjettet. Det er brukt samme metode som tidligere år, og anslaget er basert på den avtalen staten har med YS Stat, i likhet med kompensasjonen som er gitt i 2025-budsjettet. Virkningen av lønnsoppgjøret for den enkelte budsjettpost, som er foreslått i departementenes omgrupperingsproposisjoner, fremgår av vedlegg 4. Samlet anslås virkningen av lønnsoppgjøret i staten til 2,6 mrd. kroner i 2024."
+    },
+    {
+      "id": "FIN-kap5-p5",
+      "source": "prop36-ch5",
+      "body_sha256": "7a7c42ae4c3e466cddd5bf4a5b97d93ee84f0c47667f737e74cdbd47e018c6b9",
+      "kind": "html",
+      "xpath": "//*[@id='kap5-p5']",
+      "text": "Det er uklart hvilke virksomheter som vil klare å gjennomføre lokale forhandlinger og utbetale lønnsoppgjøret i år. I de tilfeller etterbetalingen av lønnsoppgjøret skyves til 2025, vil virksomhetene få mindreutgifter i 2024 sammenlignet med tildelt budsjett. Ubrukte mindreutgifter kan overføres til 2025, begrenset oppad til maksimalt 5 prosent av driftsbevilgningen, jf. bevilgningsreglementet § 5. Finansdepartementet varslet i forberedelsene til nysalderingen at en ville vurdere avbøtende tiltak for å sørge for at eventuell ubenyttet lønnskompensasjon for 2024 også er tilgjengelig i 2025. Det foreslås at maksimalgrensen for overføring av ubrukte driftsbevilgninger til 2025 økes utover 5 prosent-grensen for å unngå at overført beløp skal bli avkortet som følge av økte mindreutgifter knyttet til lønnsoppgjøret. Det foreslås også at virksomheter som ikke rekker å utbetale lønnsoppgjøret i 2024, som minimum får fastsatt en overføring som tilsvarer kompensasjonsbeløpet. Forslagene vil ivareta at alle virksomhetene har dekning for etterbetaling som skyves til 2025. Se forslag til romertallsvedtak."
+    },
+    {
+      "id": "FIN-kap5-p6",
+      "source": "prop36-ch5",
+      "body_sha256": "7a7c42ae4c3e466cddd5bf4a5b97d93ee84f0c47667f737e74cdbd47e018c6b9",
+      "kind": "html",
+      "xpath": "//*[@id='kap5-p6']",
+      "text": "I de tilfeller hvor etterbetalingen skyves til 2025, vil en konsekvens være at etterbetalingen vil inngå i skattepliktig inntekt i 2025. Det kan bety at enkelte kan få økt skatt dersom en kommer over trinnsatser. Det kan også oppstå ulemper i tilfeller der personer mottar ytelser som avkortes mot inntekt, og inntekten i 2025, som følge av forsinket lønnsoppgjør, blir høyere enn den ellers ville vært. Det kan for eksempel gjelde ulike typer pensjoner, trygder eller andre ytelser fra SPK eller Nav."
+    },
+    {
+      "id": "prop36-ch10-tr1008",
+      "source": "prop36-ch10",
+      "body_sha256": "d3a200e906fce631504d8c850bd71d82c1ad87d534830ab819794ef20cb466c4",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[1008]",
+      "text": "1429 Riksantikvaren:"
+    },
+    {
+      "id": "prop36-ch10-tr1009",
+      "source": "prop36-ch10",
+      "body_sha256": "d3a200e906fce631504d8c850bd71d82c1ad87d534830ab819794ef20cb466c4",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[1009]",
+      "text": "1 Driftsutgifter 5 796 000 p16/24-25"
+    },
+    {
+      "id": "prop36-ch10-tr1010",
+      "source": "prop36-ch10",
+      "body_sha256": "d3a200e906fce631504d8c850bd71d82c1ad87d534830ab819794ef20cb466c4",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[1010]",
+      "text": "1 Driftsutgifter -1 000 000 p104/23-24 i447/23-24"
+    },
+    {
+      "id": "prop36-ch10-tr1011",
+      "source": "prop36-ch10",
+      "body_sha256": "d3a200e906fce631504d8c850bd71d82c1ad87d534830ab819794ef20cb466c4",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[1011]",
+      "text": "22 Flerårige prosjekter kulturminneforvaltning, kan overføres -3 000 000 p16/24-25"
+    },
+    {
+      "id": "prop36-ch10-tr1012",
+      "source": "prop36-ch10",
+      "body_sha256": "d3a200e906fce631504d8c850bd71d82c1ad87d534830ab819794ef20cb466c4",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[1012]",
+      "text": "60 Kulturminnekompetanse i kommunene, kan overføres 5 000 000 p104/23-24 i447/23-24"
+    },
+    {
+      "id": "prop36-ch10-tr1013",
+      "source": "prop36-ch10",
+      "body_sha256": "d3a200e906fce631504d8c850bd71d82c1ad87d534830ab819794ef20cb466c4",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[1013]",
+      "text": "70 Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres 2 000 000 p104/23-24 i447/23-24"
+    },
+    {
+      "id": "prop36-ch10-tr1014",
+      "source": "prop36-ch10",
+      "body_sha256": "d3a200e906fce631504d8c850bd71d82c1ad87d534830ab819794ef20cb466c4",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[1014]",
+      "text": "71 Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres -2 000 000 p104/23-24 i447/23-24"
+    },
+    {
+      "id": "prop36-ch13-tr789",
+      "source": "prop36-ch13",
+      "body_sha256": "c76a9aaa6f7998949e0813641463e12beaebc64a91dc7d8a8e762618592c8b71",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[789]",
+      "text": "1429 Riksantikvaren"
+    },
+    {
+      "id": "prop36-ch13-tr790",
+      "source": "prop36-ch13",
+      "body_sha256": "c76a9aaa6f7998949e0813641463e12beaebc64a91dc7d8a8e762618592c8b71",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[790]",
+      "text": "1 Driftsutgifter 161 243 4 796 - 166 039"
+    },
+    {
+      "id": "prop36-ch13-tr791",
+      "source": "prop36-ch13",
+      "body_sha256": "c76a9aaa6f7998949e0813641463e12beaebc64a91dc7d8a8e762618592c8b71",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[791]",
+      "text": "22 Flerårige prosjekter kulturminneforvaltning, kan overføres 32 185 -3 000 - 29 185"
+    },
+    {
+      "id": "prop36-ch13-tr792",
+      "source": "prop36-ch13",
+      "body_sha256": "c76a9aaa6f7998949e0813641463e12beaebc64a91dc7d8a8e762618592c8b71",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[792]",
+      "text": "60 Kulturminnekompetanse i kommunene, kan overføres 9 406 5 000 - 14 406"
+    },
+    {
+      "id": "prop36-ch13-tr793",
+      "source": "prop36-ch13",
+      "body_sha256": "c76a9aaa6f7998949e0813641463e12beaebc64a91dc7d8a8e762618592c8b71",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[793]",
+      "text": "70 Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres 41 522 2 000 - 43 522"
+    },
+    {
+      "id": "prop36-ch13-tr794",
+      "source": "prop36-ch13",
+      "body_sha256": "c76a9aaa6f7998949e0813641463e12beaebc64a91dc7d8a8e762618592c8b71",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[794]",
+      "text": "71 Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres 151 889 -2 000 - 149 889"
+    },
+    {
+      "id": "R00",
+      "source": "decisions-k3",
+      "body_sha256": "ff5013b2a37220af3254a69b574800f99a3d1fd44f1c6053f07d4b0e846c973c",
+      "kind": "xml",
+      "xpath": "/*/*[4]/*[554]",
+      "text": "40034098 101000 //www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=101000 2024-12-17T00:00:00 //www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40034098&p=101000 230 <div class='strtngt_vedtaks'> <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='i'> <p class='strtngt_a type_innrykk'> I statsbudsjettet 2024 blir det gjort følgjande endringar: </p> <div class='strtngt_tbl'> <table class='strtngt_table'> <thead class='strtngt_thead'> <tr> <td> <p class='strtngt_a type_head align_right'> <span class='strtngt_uth type_halvfet'>Kap.</span> </p> </td> <td> <p class='strtngt_a type_head align_right'> <span class='strtngt_uth type_halvfet'>Post</span> </p> </td> <td> <p class='strtngt_a type_head align_left'> <span class='strtngt_uth type_halvfet'>Føremål</span> </p> </td> <td> <p class='strtngt_a type_head align_right'> <span class='strtngt_uth type_halvfet'>Kroner</span> </p> </td> </tr> </thead> <tbody class='strtngt_tbody'> <tr> <td> <p class='strtngt_a type_innrykk align_right'> 1560 </p> </td> <td> <p class='strtngt_a type_head align_right'></p> </td> <td> <p class='strtngt_a type_innrykk align_left'> Tariffavtalte avsetningar </p> </td> <td> <p class='strtngt_a type_head align_right'></p> </td> </tr> <tr> <td> <p class='strtngt_a type_innrykk align_right'></p> </td> <td> <p class='strtngt_a type_innrykk align_right'> 71 </p> </td> <td> <p class='strtngt_a type_innrykk align_left'> Opplæring og utvikling av tillitsvalde, <span class='strtngt_uth type_kursiv'>kan overførast</span>, <span class='strtngt_uth krnl_wide_letterspacing type_sperret'>blir auka</span> med </p> </td> <td> <p class='strtngt_a type_innrykk align_right'> 14 200 000 </p> </td> </tr> <tr> <td> <p class='strtngt_a type_innrykk align_right'></p> </td> <td> <p class='strtngt_a type_innrykk align_right'></p> </td> <td> <p class='strtngt_a type_innrykk align_left'> frå kr 233 100 000 til kr 247 300 000 </p> </td> <td> <p class='strtngt_a type_innrykk align_right'></p> </td> </tr> </tbody> </table> </div> </div> </div> Endringar i statsbudsjettet 2024 under Digitaliserings- og forvaltningsdepartementet (lønsforhandlingane i det statlege tariffområdet 2024) ANNET Allminnelige vedtak",
+      "role": "complete preserved decision object, session 2024-2025"
+    },
+    {
+      "id": "R01",
+      "source": "decisions-k3",
+      "body_sha256": "ff5013b2a37220af3254a69b574800f99a3d1fd44f1c6053f07d4b0e846c973c",
+      "kind": "xml",
+      "xpath": "/*/*[4]/*[555]",
+      "text": "40034099 101000 //www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=101000 2024-12-17T00:00:00 //www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40034099&p=101000 231 <div class='strtngt_vedtaks'> <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='ii'> <p class='strtngt_a type_innrykk'> For embetsmenn og statstilsette som ikkje er medlemer av Akademikerne, LO Stat, Unio eller YS Stat, og derfor ikkje får sine løns- og arbeidsvilkår fastsette i hovudtariffavtale, skal det bli gjort regulering av lønene i samsvar med det avtaleområdet (Akademikerne og Unio eller LO Stat og YS Stat) som dekker flest årsverk i den einskilde verksemda. Embetsmenn og statstilsette som er tekne ut av hovudtariffavtalane, får sine løns- og arbeidsvilkår fastsette administrativt i eigen kontrakt. </p> </div> </div> Endringar i statsbudsjettet 2024 under Digitaliserings- og forvaltningsdepartementet (lønsforhandlingane i det statlege tariffområdet 2024) ANNET Allminnelige vedtak",
+      "role": "complete preserved decision object, session 2024-2025"
+    },
+    {
+      "id": "R02",
+      "source": "decisions-k3",
+      "body_sha256": "ff5013b2a37220af3254a69b574800f99a3d1fd44f1c6053f07d4b0e846c973c",
+      "kind": "xml",
+      "xpath": "/*/*[4]/*[594]",
+      "text": "40034289 100289 //www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=100289 2024-12-19T00:00:00 //www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40034289&p=100289 429 <div class='strtngt_vedtaks'> <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='ii'> <div class='strtngt_undertittel'> Fullmakt til å øke maksimalgrensen for overføring av ubrukte driftsbevilgninger til 2025 </div> <p class='strtngt_a type_innrykk'> Stortinget samtykker i at Finansdepartementet kan øke maksimalgrensen for overføring av ubrukte driftsbevilgninger til 2025 tilsvarende kompensasjonen for lønnsoppgjøret 2024, og fastsette en overføring som minimum tilsvarer kompensasjonen, slik at virksomhetene har dekning for etterbetaling som skyves til 2025. </p> </div> </div> Ny saldering av statsbudsjettet 2024 ANNET Allminnelige vedtak",
+      "role": "complete preserved decision object, session 2024-2025"
+    },
+    {
+      "id": "R03",
+      "source": "ind-vedtak-2023-2024.xml",
+      "body_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "kind": "xml",
+      "xpath": "/*/*[4]/*[641]",
+      "text": "40033712 99235 //www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=99235 2024-06-21T00:00:00 //www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40033712&p=99235 853 <div class='strtngt_vedtaks'> <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='i'> <p class='strtngt_a type_innrykk'> Stortinget samtykker i at Kongen på vegner av staten kan bringe tvistar i samband med hovudtariffoppgjeret i staten 2024 inn for Rikslønsnemnda i samsvar med tjenestetvistloven § 31 andre ledd. </p> </div> </div> Utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m. ANNET Allminnelige vedtak",
+      "role": "complete preserved decision object, session 2023-2024"
+    },
+    {
+      "id": "R04",
+      "source": "ind-vedtak-2023-2024.xml",
+      "body_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "kind": "xml",
+      "xpath": "/*/*[4]/*[642]",
+      "text": "40033713 99235 //www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=99235 2024-06-21T00:00:00 //www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40033713&p=99235 854 <div class='strtngt_vedtaks'> <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='ii'> <p class='strtngt_a type_innrykk'> Stortinget samtykker i at medlemane av Akademikerne og Unio får utbetalt løn i samsvar med avgjerda til Rikslønsnemnda. </p> </div> </div> Utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m. ANNET Allminnelige vedtak",
+      "role": "complete preserved decision object, session 2023-2024"
+    },
+    {
+      "id": "R05",
+      "source": "ind-vedtak-2023-2024.xml",
+      "body_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "kind": "xml",
+      "xpath": "/*/*[4]/*[643]",
+      "text": "40033714 99235 //www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=99235 2024-06-21T00:00:00 //www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40033714&p=99235 855 <div class='strtngt_vedtaks'> <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='iii'> <p class='strtngt_a type_innrykk'> Etter at det endelege resultatet av lønsoppgjeret i det statlege tariffområdet ligg føre, samtykker Stortinget til at medlemar av LO Stat og YS Stat får utbetalt løn i samsvar med møteboka til Riksmeklaren datert 24. mai 2024, jf. vedlegg 1 og 2 i Prop. 108 S (2023–2024), gitt at LO Stat og/eller YS Stat har fått ja i avrøystinga hos sine medlemar. </p> </div> </div> Utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m. ANNET Allminnelige vedtak",
+      "role": "complete preserved decision object, session 2023-2024"
+    },
+    {
+      "id": "R06",
+      "source": "ind-vedtak-2023-2024.xml",
+      "body_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "kind": "xml",
+      "xpath": "/*/*[4]/*[644]",
+      "text": "40033715 99235 //www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=99235 2024-06-21T00:00:00 //www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40033715&p=99235 856 <div class='strtngt_vedtaks'> <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='iv'> <p class='strtngt_a type_innrykk'> Stortinget samtykker i at dersom det blir nei i avrøystinga hos medlemar av LO Stat og/eller YS Stat, og tvisten blir avgjort i Rikslønsnemnda, får medlemane av LO Stat og/eller YS Stat utbetalt løn i samsvar med avgjerda til Rikslønsnemnda. </p> </div> </div> Utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m. ANNET Allminnelige vedtak",
+      "role": "complete preserved decision object, session 2023-2024"
+    },
+    {
+      "id": "R07",
+      "source": "index-k3",
+      "body_sha256": "46d6f9ea1353293b690c77a2549d33ff951e73561374bb2381062578b6c5ae2b",
+      "kind": "xml",
+      "xpath": "/*/*[3]/*[624]",
+      "text": "2026-10-28T12:17:54.7815628+01:00 1.6 2024-2025 proposisjon 2026-10-28T12:17:54.7815628+01:00 1.6 false 155 44 Statens personalpolitikk 2026-10-28T12:17:54.7815628+01:00 1.6 false 5 94 Arbeidsvilkår 2026-10-28T12:17:54.7815628+01:00 1.6 false 5 95 Lønn og inntekt Prop. 34 S (2024-2025), Innst. 91 S (2024-2025) 101000 16626 innstilling_s 2026-10-28T12:00:50.78569+01:00 1.6 KOMMFORV Kommunal- og forvaltningskomiteen Endringar i statsbudsjettet 2024 under Digitaliserings- og forvaltningsdepartementet (lønsforhandlingane i det statlege tariffområdet 2024) 101000 2026-10-28T12:17:54.7815628+01:00 1.6 Vågslid 1986-03-17T00:00:00 Lene LVA kvinne 2026-10-28T03:09:41.4687648+01:00 1.6 false Te Telemark 2026-10-28T01:00:19.4062868+01:00 1.6 A Arbeiderpartiet true false 2024-12-10T00:00:00 behandlet Endringar i statsbudsjettet 2024 under Digitaliserings- og forvaltningsdepartementet (lønsforhandlingane i det statlege tariffområdet 2024) budsjett",
+      "role": "complete index object ordinal 624"
+    },
+    {
+      "id": "R08",
+      "source": "prop34-ch2.html",
+      "body_sha256": "69eecaca528e82dea7967656a41ac56880fe906036e20988428ac8aff88810b5",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div[2]/p[2]",
+      "text": "Medlemane i LO Stat røysta den 17. juni 2024 nei i si avrøysting om ny hovudtariffavtale. LO Stat og staten blei same dag samde om frivillig lønsnemnd. Stortinget samtykka 20. juni 2024 til at Kongen på vegner av staten kan bringe tvistar i samband med hovudtariffoppgjeret i staten 2024 inn for Rikslønsnemnda i samsvar med tenestetvistlova § 31 annet ledd, jf. Stortingets vedtak 853.",
+      "role": "source passage"
+    },
+    {
+      "id": "R09",
+      "source": "prop34-ch2.html",
+      "body_sha256": "69eecaca528e82dea7967656a41ac56880fe906036e20988428ac8aff88810b5",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div[2]/p[8]",
+      "text": "Stortinget samtykka 20. juni 2024 til at medlemane av Akademikerne, LO Stat og Unio får utbetalt løn i samsvar med avgjerda til Rikslønsnemnda, jf. Stortingets vedtak 854 og 856.",
+      "role": "source passage"
+    },
+    {
+      "id": "R10",
+      "source": "prop34-ch2.html",
+      "body_sha256": "69eecaca528e82dea7967656a41ac56880fe906036e20988428ac8aff88810b5",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div[2]/p[9]",
+      "text": "Stortinget samtykka 20. juni 2024 til at medlemane av YS Stat får utbetalt løn i samsvar med møteboka til Riksmeklaren datert 24. mai 2024, jf. vedlegg 1 og 2, etter at det endelege resultatet av lønsoppgjeret i det statlege tariffområdet ligg føre, jf. Stortingets vedtak 855.",
+      "role": "source passage"
+    },
+    {
+      "id": "R11",
+      "source": "prop34-ch2.html",
+      "body_sha256": "69eecaca528e82dea7967656a41ac56880fe906036e20988428ac8aff88810b5",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div[2]/p[10]",
+      "text": "Lønsoppgjera i Noreg er baserte på den såkalla frontfagmodellen. Det betyr at konkurranseutsett industri forhandlar først. NHO utarbeider deretter, i forståing med LO, eit anslag for lønsveksten samla i NHO-området. Dette anslaget dannar ei norm for lønsveksten i forhandlingsområda som følgjer etter. I årets lønsoppgjer har NHO anslått årslønsveksten til 5,2 pst. for industrien samla. Den avtalte økonomiske ramma for oppgjeret i staten er på linje med dette anslaget. Det er innarbeidd eit anslag på verknaden av lønsoppgjeret i samband med nysalderinga av budsjettet for 2024. Verknaden på den enkelte budsjettpost er foreslått i departementa sine omgrupperingsproposisjonar. For nærare omtale av dei anslåtte utgiftene knytte til lønsreguleringane for arbeidstakarar i det statlege tariffområdet, sjå nysalderingsproposisjonen frå Finansdepartementet.",
+      "role": "source passage"
+    },
+    {
+      "id": "R12",
+      "source": "prop34-ch2.html",
+      "body_sha256": "69eecaca528e82dea7967656a41ac56880fe906036e20988428ac8aff88810b5",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div[3]/p[4]",
+      "text": "Stortinget vedtok i 2022 at det avtaleområdet som dekker flest årsverk i den einskilde verksemda, skulle praktiserast overfor arbeidstakarar som ikkje er medlem av organisasjonar med forhandlingsrett. Digitaliserings- og forvaltningsdepartementet tilrår ei slik løysing også for tariffoppgjeret i 2024, jf. forslag til romartalsvedtak II.",
+      "role": "source passage"
+    },
+    {
+      "id": "R13",
+      "source": "prop34-ch2.html",
+      "body_sha256": "69eecaca528e82dea7967656a41ac56880fe906036e20988428ac8aff88810b5",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div[3]/p[6]",
+      "text": "Embetsmenn og statstilsette i stillingar som er tekne ut av hovudtariffavtalane, får løns- og arbeidsvilkår administrativt fastsett i kontrakt, jf. forslag til romartalsvedtak II.",
+      "role": "source passage"
+    },
+    {
+      "id": "R14",
+      "source": "prop34-ch3.html",
+      "body_sha256": "7a4c4a5a2182e89d7cbda39f398b32c0ef835fa43fb3de578ab194e53a45f071",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div[3]/p[2]",
+      "text": "Departementet foreslår at løyvinga blir auka med 14,2 mill. kroner. Summen er rekna ut med bakgrunn i talet på årsverk og lønsmasse i statleg tariffområde per 1. oktober 2023.",
+      "role": "source passage"
+    },
+    {
+      "id": "R15",
+      "source": "prop34-ch5.html",
+      "body_sha256": "91af0aa1830d84a125c950dfe010eed11496f8d56767f792adb2aaa4e9e8669b",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/p",
+      "text": "I statsbudsjettet 2024 blir det gjort følgjande endringar:",
+      "role": "source passage"
+    },
+    {
+      "id": "R16",
+      "source": "prop34-ch5.html",
+      "body_sha256": "91af0aa1830d84a125c950dfe010eed11496f8d56767f792adb2aaa4e9e8669b",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[2]/p[1]",
+      "text": "For embetsmenn og statstilsette som ikkje er medlem av Akademikerne, LO Stat, Unio eller YS Stat, og derfor ikkje får sine løns- og arbeidsvilkår fastsette i hovudtariffavtale, skal det bli gjort regulering av lønene i samsvar med det avtaleområdet (Akademikerne og Unio eller LO Stat og YS Stat) som dekker flest årsverk i den einskilde verksemda. Embetsmenn og statstilsette som er tekne ut av hovudtariffavtalane, får sine løns- og arbeidsvilkår fastsette administrativt i eigen kontrakt.",
+      "role": "source passage"
+    },
+    {
+      "id": "R17",
+      "source": "inns91-all.html",
+      "body_sha256": "745a24367b3b93979f19b8ef2396cdfed5edf1d80ef887f648b459728e57e8ea",
+      "kind": "html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[3]/div[1]/p[7]",
+      "text": "Komiteens medlemmer fra Høyre og Fremskrittspartiet påpeker at organisasjons- og forhandlingsfrihet er grunnleggende i det norske samfunnet, og at det er arbeidsgivers ansvar å ta vare på alle sine ansatte, både organiserte og uorganiserte. Disse medlemmer påpeker også at staten forhandler med flere parter, og at det derfor er grunnlag for flere tariffavtaler, og at staten har rettslig adgang til å ha flere tariffavtaler. Disse medlemmer bemerker at det å pålegge staten å inngå likelydende hovedtariffavtaler vil være å gripe inn i den enkelte organisasjons selvstendige forhandlingsrett og partenes avtalefrihet.",
+      "role": "source passage"
+    },
+    {
+      "id": "R18",
+      "source": "inns91-all.html",
+      "body_sha256": "745a24367b3b93979f19b8ef2396cdfed5edf1d80ef887f648b459728e57e8ea",
+      "kind": "html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[8]/div[1]/p",
+      "text": "Komiteens tilråding fremmes av en samlet komité.",
+      "role": "source passage"
+    },
+    {
+      "id": "R19",
+      "source": "inns91-all.html",
+      "body_sha256": "745a24367b3b93979f19b8ef2396cdfed5edf1d80ef887f648b459728e57e8ea",
+      "kind": "html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[8]/div[1]/div[1]/p",
+      "text": "Komiteen har for øvrig ingen merknader, viser til proposisjonen og rår Stortinget til å gjøre følgende",
+      "role": "source passage"
+    },
+    {
+      "id": "R20",
+      "source": "inns91-all.html",
+      "body_sha256": "745a24367b3b93979f19b8ef2396cdfed5edf1d80ef887f648b459728e57e8ea",
+      "kind": "html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[8]/div[1]/div[2]/div/div[3]/p",
+      "text": "For embetsmenn og statstilsette som ikkje er medlemer av Akademikerne, LO Stat, Unio eller YS Stat, og derfor ikkje får sine løns- og arbeidsvilkår fastsette i hovudtariffavtale, skal det bli gjort regulering av lønene i samsvar med det avtaleområdet (Akademikerne og Unio eller LO Stat og YS Stat) som dekker flest årsverk i den einskilde verksemda. Embetsmenn og statstilsette som er tekne ut av hovudtariffavtalane, får sine løns- og arbeidsvilkår fastsette administrativt i eigen kontrakt.",
+      "role": "source passage"
+    },
+    {
+      "id": "R21",
+      "source": "prop36-ch5",
+      "body_sha256": "7a7c42ae4c3e466cddd5bf4a5b97d93ee84f0c47667f737e74cdbd47e018c6b9",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/p[1]",
+      "text": "Normalt blir kompensasjon til statlige, bruttobudsjetterte virksomheter innarbeidet av Finansdepartementet på fullmakt fra Stortinget, etter at de sentrale lønnsoppgjørene i staten er gjennomført og før nysalderingen. Rikslønnsnemnda har nylig avgjort tvistene i hovedoppgjøret for 2024 for tre av de fire hovedsammenslutningene i staten. YS Stat kom til enighet med staten i vår, men også iverksettelsen av deres tariffavtale har avventet Rikslønnsnemndas kjennelser.",
+      "role": "source passage"
+    },
+    {
+      "id": "R22",
+      "source": "prop36-ch5",
+      "body_sha256": "7a7c42ae4c3e466cddd5bf4a5b97d93ee84f0c47667f737e74cdbd47e018c6b9",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/p[4]",
+      "text": "Av hensyn til ovennevnte og forutsigbarhet for virksomhetene, er det innarbeidet et anslag på virkningen av lønnsoppgjøret i forbindelse med nysalderingen av budsjettet. Det er brukt samme metode som tidligere år, og anslaget er basert på den avtalen staten har med YS Stat, i likhet med kompensasjonen som er gitt i 2025-budsjettet. Virkningen av lønnsoppgjøret for den enkelte budsjettpost, som er foreslått i departementenes omgrupperingsproposisjoner, fremgår av vedlegg 4. Samlet anslås virkningen av lønnsoppgjøret i staten til 2,6 mrd. kroner i 2024.",
+      "role": "source passage"
+    },
+    {
+      "id": "R23",
+      "source": "prop36-ch5",
+      "body_sha256": "7a7c42ae4c3e466cddd5bf4a5b97d93ee84f0c47667f737e74cdbd47e018c6b9",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/p[5]",
+      "text": "Det er uklart hvilke virksomheter som vil klare å gjennomføre lokale forhandlinger og utbetale lønnsoppgjøret i år. I de tilfeller etterbetalingen av lønnsoppgjøret skyves til 2025, vil virksomhetene få mindreutgifter i 2024 sammenlignet med tildelt budsjett. Ubrukte mindreutgifter kan overføres til 2025, begrenset oppad til maksimalt 5 prosent av driftsbevilgningen, jf. bevilgningsreglementet § 5. Finansdepartementet varslet i forberedelsene til nysalderingen at en ville vurdere avbøtende tiltak for å sørge for at eventuell ubenyttet lønnskompensasjon for 2024 også er tilgjengelig i 2025. Det foreslås at maksimalgrensen for overføring av ubrukte driftsbevilgninger til 2025 økes utover 5 prosent-grensen for å unngå at overført beløp skal bli avkortet som følge av økte mindreutgifter knyttet til lønnsoppgjøret. Det foreslås også at virksomheter som ikke rekker å utbetale lønnsoppgjøret i 2024, som minimum får fastsatt en overføring som tilsvarer kompensasjonsbeløpet. Forslagene vil ivareta at alle virksomhetene har dekning for etterbetaling som skyves til 2025. Se forslag til romertallsvedtak.",
+      "role": "source passage"
+    },
+    {
+      "id": "R24",
+      "source": "prop36-ch7.html",
+      "body_sha256": "707eaa943a4ec6256b70e1d47d72b4c8abb061ec10d522e574748e937b089640",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[2]/p",
+      "text": "Stortinget samtykker i at Finansdepartementet kan øke maksimalgrensen for overføring av ubrukte driftsbevilgninger til 2025 tilsvarende kompensasjonen for lønnsoppgjøret 2024, og fastsette en overføring som minimum tilsvarer kompensasjonen, slik at virksomhetene har dekning for etterbetaling som skyves til 2025.",
+      "role": "source passage"
+    },
+    {
+      "id": "R25",
+      "source": "inns90-all.html",
+      "body_sha256": "c75f2df5f4280c3a4b327219f60bb48fda52da8e26ea927f0f6e4d2ba92299cb",
+      "kind": "html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[196]/div[1]/div[2]/div/div[3]/p",
+      "text": "Stortinget samtykker i at Finansdepartementet kan øke maksimalgrensen for overføring av ubrukte driftsbevilgninger til 2025 tilsvarende kompensasjonen for lønnsoppgjøret 2024, og fastsette en overføring som minimum tilsvarer kompensasjonen, slik at virksomhetene har dekning for etterbetaling som skyves til 2025.",
+      "role": "source passage"
+    },
+    {
+      "id": "R26",
+      "source": "ref171224-votering.html",
+      "body_sha256": "fd3bc47915e760b95c170725e55c4b564b37512f2a813db91b87c66ec1424ab1",
+      "kind": "html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[7]",
+      "text": "Votering i sak nr. 6, debattert 17. desember 2024 Innstilling fra kommunal- og forvaltningskomiteen om Endringar i statsbudsjettet 2024 under Digitaliserings- og forvaltningsdepartementet (lønsforhandlingane i det statlege tariffområdet 2024) (Innst. 91 S (2024–2025), jf. Prop. 34 S (2024–2025)) Debatt i sak nr. 6 Komiteen hadde tilrådd Stortinget å gjera følgjande vedtak: I I statsbudsjettet 2024 blir det gjort følgjande endringar: Kap. Post Føremål Kroner 1560 Tariffavtalte avsetningar 71 Opplæring og utvikling av tillitsvalde, kan overførast, blir auka med 14 200 000 frå kr 233 100 000 til kr 247 300 000 II For embetsmenn og statstilsette som ikkje er medlemer av Akademikerne, LO Stat, Unio eller YS Stat, og derfor ikkje får sine løns- og arbeidsvilkår fastsette i hovudtariffavtale, skal det bli gjort regulering av lønene i samsvar med det avtaleområdet (Akademikerne og Unio eller LO Stat og YS Stat) som dekker flest årsverk i den einskilde verksemda. Embetsmenn og statstilsette som er tekne ut av hovudtariffavtalane, får sine løns- og arbeidsvilkår fastsette administrativt i eigen kontrakt. Votering: Tilrådinga frå komiteen blei samrøystes vedteken.",
+      "role": "complete voting block for case 6 only"
+    },
+    {
+      "id": "R27",
+      "source": "prop36-ch11.html",
+      "body_sha256": "0c88959a60162ed44a9dcf54871e03c8479fd779f5ea5e01948c270b25517586",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[292]",
+      "text": "1429 Riksantikvaren:",
+      "role": "annex 4 chapter boundary"
+    },
+    {
+      "id": "R28",
+      "source": "prop36-ch11.html",
+      "body_sha256": "0c88959a60162ed44a9dcf54871e03c8479fd779f5ea5e01948c270b25517586",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[293]",
+      "text": "1 Driftsutgifter 2 796 000",
+      "role": "annex 4 post 1 compensation; next chapter starts immediately afterward"
+    },
+    {
+      "id": "R29",
+      "source": "prop36-ch11.html",
+      "body_sha256": "0c88959a60162ed44a9dcf54871e03c8479fd779f5ea5e01948c270b25517586",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[294]",
+      "text": "1471 Norsk Polarinstitutt:",
+      "role": "next chapter boundary, no target post 22 row"
+    },
+    {
+      "id": "R30",
+      "source": "sak101000-retry.xml",
+      "body_sha256": "eec34961b12a226a31d99aca1d130aa39f12a2d6658ef5c6b7e54608154b3da0",
+      "kind": "xml",
+      "xpath": "/*",
+      "text": "2026-10-28T20:52:25.6629348+01:00 1.6 proposisjon 2026-10-28T20:39:25.9128868+01:00 1.6 false 155 44 Statens personalpolitikk 2026-10-28T20:39:25.9128868+01:00 1.6 false 5 94 Arbeidsvilkår 2026-10-28T20:39:25.9128868+01:00 1.6 false 5 95 Lønn og inntekt true Prop. 34 S (2024-2025), Innst. 91 S (2024-2025) 101000 Innstilling fra kommunal- og forvaltningskomiteen om Endringar i statsbudsjettet 2024 under Digitaliserings- og forvaltningsdepartementet (lønsforhandlingane i det statlege tariffområdet 2024) 2026-10-28T20:01:30.7187729+01:00 1.6 KOMMFORV Kommunal- og forvaltningskomiteen Endringar i statsbudsjettet 2024 under Digitaliserings- og forvaltningsdepartementet (lønsforhandlingane i det statlege tariffområdet 2024) Stortinget har vedtatt endringer i statsbudsjettet 2024 under Digitaliserings- og forvaltningsdepartementet (lønnsforhandlingene i det statlige tariffområdet), jf. Prop. 34 S (2024-2025) og Innst. 91 S (2024-2025). 2026-10-28T20:52:25.834855+01:00 1.6 Prop. 34 S (2024-2025) http://www.regjeringen.no/id/PRP202420250034000DDDEPIS regjering proposisjon 2026-10-28T20:52:25.834855+01:00 1.6 refs-202425-12-03 Stortingsreferat 03.12.2024 //www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-03/referatsaker/ referat storting 2026-10-28T20:52:25.834855+01:00 1.6 inns-202425-091s Innst. 91 S (2024-2025) //www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-091s/ innstilling storting 2026-10-28T20:52:25.834855+01:00 1.6 refs-202425-12-17 Stortingsreferat 17.12.2024 //www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-17/6 referat storting 2026-10-28T20:52:25.834855+01:00 1.6 refs-202425-12-17 Stortingsreferat 17.12.2024 //www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-17/voteringer#171224-6 referat storting 34 2026-10-28T20:52:25.6629348+01:00 1.6 2024-2025 2026-10-28T20:52:25.834855+01:00 1.6 KPRPFORS KForslag fra Regjeringen 2026-10-28T20:52:25.834855+01:00 1.6 SAK Forslag 2026-10-28T20:52:25.834855+01:00 1.6 01.01.0001 00:00:00 FRADEP 10000 1 2026-10-28T20:52:25.834855+01:00 1.6 01.01.0001 00:00:00 SAK 20000 1 2026-10-28T20:52:25.834855+01:00 1.6 29.11.2024 00:00:00 FREMMET 30000 1 2026-10-28T20:52:25.834855+01:00 1.6 03.12.2024 00:00:00 REFS http://www.stortinget.no/stid/2024/si241203.html 40010 1 1 false 2026-10-28T20:52:25.834855+01:00 1.6 KOMBEH Komitebehandling 2026-10-28T20:52:25.834855+01:00 1.6 03.12.2024 00:00:00 SENDT 50000 2 2026-10-28T20:52:25.834855+01:00 1.6 01.01.0001 00:00:00 KOMITE 60000 2 2026-10-28T20:52:25.834855+01:00 1.6 01.01.0001 00:00:00 ORDFORER 90000 2 2026-10-28T20:52:25.834855+01:00 1.6 10.12.2024 00:00:00 AVGITT http://www.stortinget.no/inns/2024/inns-202425-091.html 110000 2 2 false 2026-10-28T20:52:25.834855+01:00 1.6 DEBATT Debatt og vedtak 2026-10-28T20:52:25.834855+01:00 1.6 17.12.2024 00:00:00 BEHS http://www.stortinget.no/stid/2024/si241217-06.html 130000 3 2026-10-28T20:52:25.834855+01:00 1.6 17.12.2024 00:00:00 VOT 135500 3 2026-10-28T20:52:25.834855+01:00 1.6 01.01.0001 00:00:00 VEDTAK 135600 3 3 false 2026-10-28T20:39:25.9128868+01:00 1.6 Vågslid 1986-03-17T00:00:00 Lene LVA kvinne 2026-10-28T13:46:00.7701379+01:00 1.6 false Te Telemark 2026-10-28T01:00:19.4062868+01:00 1.6 A Arbeiderpartiet true false behandlet Endringar i statsbudsjettet 2024 under Digitaliserings- og forvaltningsdepartementet (lønsforhandlingane i det statlege tariffområdet 2024) budsjett Vedtak i samsvar med innstillingen",
+      "role": "complete acquired XML response"
+    },
+    {
+      "id": "R31",
+      "source": "voteringer101000.xml",
+      "body_sha256": "115327c06fcaabe435e570ee27fdc5e407df44a84c27eb83f9764af309d48ff1",
+      "kind": "xml",
+      "xpath": "/*",
+      "text": "2026-10-28T21:38:25.8470606+01:00 1.6 101000 2026-10-28T21:38:25.8470606+01:00 1.6 -1 -1 -1 -1 1 6 false 35 false 2026-10-28T21:38:25.8470606+01:00 1.6 Fiskaa 1977-04-16T00:00:00 Ingrid INF kvinne 2026-10-28T13:46:00.7701379+01:00 1.6 false Ro Rogaland 2026-10-28T01:00:19.4062868+01:00 1.6 SV Sosialistisk Venstreparti true false 101000 true 23887 enstemmig_vedtatt Enstemmig vedtatt Romertallene I og II. 2024-12-17T19:29:21.12",
+      "role": "complete acquired XML response"
+    },
+    {
+      "id": "R32",
+      "source": "voteringsvedtak23887.xml",
+      "body_sha256": "a6811372cd13e2b24a522484ff8f61ddcc037ecba431ef824df466bf5b4f34f6",
+      "kind": "xml",
+      "xpath": "/*",
+      "text": "2026-10-28T21:38:52.082054+01:00 1.6 23887 2026-10-28T21:38:52.082054+01:00 1.6 Andre vedtak 230 (Komiteens tilråding I. ) 2026-10-28T21:38:52.082054+01:00 1.6 Andre vedtak 231 (Komiteens tilråding II. )",
+      "role": "complete acquired XML response"
+    },
+    {
+      "id": "R33",
+      "source": "voteringsforslag23887.xml",
+      "body_sha256": "42fe2d3b6d18d10277f31bede9a460829431666acc6785fab041f81044412913",
+      "kind": "xml",
+      "xpath": "/*",
+      "text": "2026-10-28T21:38:55.4102504+01:00 1.6 23887 2026-10-28T21:38:55.4102504+01:00 1.6 Komiteens tilråding romertall I. Komiteens tilråding I. 40077003 0 <div class='strtngt_vedtaks'> <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='i'> <p class='strtngt_a type_innrykk'> I statsbudsjettet 2024 blir det gjort følgjande endringar: </p> <div class='strtngt_tbl'> <table class='strtngt_table'> <thead class='strtngt_thead'> <tr> <td> <p class='strtngt_a type_head align_right'> <span class='strtngt_uth type_halvfet'>Kap.</span> </p> </td> <td> <p class='strtngt_a type_head align_right'> <span class='strtngt_uth type_halvfet'>Post</span> </p> </td> <td> <p class='strtngt_a type_head align_left'> <span class='strtngt_uth type_halvfet'>Føremål</span> </p> </td> <td> <p class='strtngt_a type_head align_right'> <span class='strtngt_uth type_halvfet'>Kroner</span> </p> </td> </tr> </thead> <tbody class='strtngt_tbody'> <tr> <td> <p class='strtngt_a type_innrykk align_right'> 1560 </p> </td> <td> <p class='strtngt_a type_head align_right'></p> </td> <td> <p class='strtngt_a type_innrykk align_left'> Tariffavtalte avsetningar </p> </td> <td> <p class='strtngt_a type_head align_right'></p> </td> </tr> <tr> <td> <p class='strtngt_a type_innrykk align_right'></p> </td> <td> <p class='strtngt_a type_innrykk align_right'> 71 </p> </td> <td> <p class='strtngt_a type_innrykk align_left'> Opplæring og utvikling av tillitsvalde, <span class='strtngt_uth type_kursiv'>kan overførast</span>, <span class='strtngt_uth krnl_wide_letterspacing type_sperret'>blir auka</span> med </p> </td> <td> <p class='strtngt_a type_innrykk align_right'> 14 200 000 </p> </td> </tr> <tr> <td> <p class='strtngt_a type_innrykk align_right'></p> </td> <td> <p class='strtngt_a type_innrykk align_right'></p> </td> <td> <p class='strtngt_a type_innrykk align_left'> frå kr 233 100 000 til kr 247 300 000 </p> </td> <td> <p class='strtngt_a type_innrykk align_right'></p> </td> </tr> </tbody> </table> </div> </div> </div> tilraading 2026-10-28T21:38:55.4102504+01:00 1.6 Komiteens tilråding romertall II. Komiteens tilråding II. 40077004 0 <div class='strtngt_vedtaks'> <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='ii'> <p class='strtngt_a type_innrykk'> For embetsmenn og statstilsette som ikkje er medlemer av Akademikerne, LO Stat, Unio eller YS Stat, og derfor ikkje får sine løns- og arbeidsvilkår fastsette i hovudtariffavtale, skal det bli gjort regulering av lønene i samsvar med det avtaleområdet (Akademikerne og Unio eller LO Stat og YS Stat) som dekker flest årsverk i den einskilde verksemda. Embetsmenn og statstilsette som er tekne ut av hovudtariffavtalane, får sine løns- og arbeidsvilkår fastsette administrativt i eigen kontrakt. </p> </div> </div> tilraading",
+      "role": "complete acquired XML response"
+    },
+    {
+      "id": "R34",
+      "source": "voteringer100289.xml",
+      "body_sha256": "b0e9cc623f23a1f7912104121cb69f446a9dff0edb729bb51bb8fc14de91a0f7",
+      "kind": "xml",
+      "xpath": "/*",
+      "text": "2026-10-28T21:41:38.2263677+01:00 1.6 100289 2026-10-28T21:41:38.2263677+01:00 1.6 -1 2 71 96 1 4 false 37 true 2026-10-28T21:41:38.2263677+01:00 1.6 Gharahkhani 1982-09-22T00:00:00 Masud MASG mann 2026-10-28T13:46:00.7701379+01:00 1.6 false Bu Buskerud 2026-10-28T01:00:19.4062868+01:00 1.6 A Arbeiderpartiet true false 100289 false 23941 ikke_spesifisert Forslag nr. 4 på vegne av MDG. 2024-12-19T14:38:09.723 2026-10-28T21:41:38.2263677+01:00 1.6 -1 5 71 93 1 4 false 37 true 2026-10-28T21:41:38.2263677+01:00 1.6 Gharahkhani 1982-09-22T00:00:00 Masud MASG mann 2026-10-28T13:46:00.7701379+01:00 1.6 false Bu Buskerud 2026-10-28T01:00:19.4062868+01:00 1.6 A Arbeiderpartiet true false 100289 false 23942 ikke_spesifisert Forslag nr. 3 på vegne av R. 2024-12-19T14:38:25.24 2026-10-28T21:41:38.2263677+01:00 1.6 -1 37 71 61 1 4 false 37 true 2026-10-28T21:41:38.2263677+01:00 1.6 Gharahkhani 1982-09-22T00:00:00 Masud MASG mann 2026-10-28T13:46:00.7701379+01:00 1.6 false Bu Buskerud 2026-10-28T01:00:19.4062868+01:00 1.6 A Arbeiderpartiet true false 100289 false 23943 ikke_spesifisert Forslag nr. 1 på vegne av H, FrP og V 2024-12-19T14:38:41.77 2026-10-28T21:41:38.2263677+01:00 1.6 -1 54 71 44 1 4 false 37 true 2026-10-28T21:41:38.2263677+01:00 1.6 Gharahkhani 1982-09-22T00:00:00 Masud MASG mann 2026-10-28T13:46:00.7701379+01:00 1.6 false Bu Buskerud 2026-10-28T01:00:19.4062868+01:00 1.6 A Arbeiderpartiet true false 100289 true 23944 ikke_spesifisert Romertall I Kap. 5800 post 50 2024-12-19T14:39:11.617 2026-10-28T21:41:38.2263677+01:00 1.6 -1 -1 -1 -1 1 4 false 37 false 2026-10-28T21:41:38.2263677+01:00 1.6 Gharahkhani 1982-09-22T00:00:00 Masud MASG mann 2026-10-28T13:46:00.7701379+01:00 1.6 false Bu Buskerud 2026-10-28T01:00:19.4062868+01:00 1.6 A Arbeiderpartiet true false 100289 true 23945 enstemmig_vedtatt Enstemmig vedtatt Resten av romertall I samt romertallene II, III og IV. 2024-12-19T14:39:29.063",
+      "role": "complete acquired XML response"
+    },
+    {
+      "id": "R35",
+      "source": "voteringsvedtak23945.xml",
+      "body_sha256": "4533c893580dc3512eea3139645be9023a3549e5185573d130321084ac5111b3",
+      "kind": "xml",
+      "xpath": "/*",
+      "text": "2026-10-28T21:41:52.1798447+01:00 1.6 23945 2026-10-28T21:41:52.1798447+01:00 1.6 Andre vedtak 429 (Komiteens tilråding II. ) 2026-10-28T21:41:52.1798447+01:00 1.6 Andre vedtak 430 (Komiteens tilråding III. ) 2026-10-28T21:41:52.1798447+01:00 1.6 Andre vedtak 431 (Komiteens tilråding IV. )",
+      "role": "complete acquired XML response"
+    },
+    {
+      "id": "R36",
+      "source": "prop34-ch5.html",
+      "body_sha256": "91af0aa1830d84a125c950dfe010eed11496f8d56767f792adb2aaa4e9e8669b",
+      "kind": "html",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div/table",
+      "text": "Kap. Post Føremål Kroner 1560 Tariffavtalte avsetningar 71 Opplæring og utvikling av tillitsvalde, kan overførast, blir auka med 14 200 000 frå kr 233 100 000 til kr 247 300 000",
+      "role": "complete appropriation table; only chapter1560/post71",
+      "rows": [
+        [
+          "Kap.",
+          "Post",
+          "Føremål",
+          "Kroner"
+        ],
+        [
+          "1560",
+          "",
+          "Tariffavtalte avsetningar",
+          ""
+        ],
+        [
+          "",
+          "71",
+          "Opplæring og utvikling av tillitsvalde, kan overførast, blir auka med",
+          "14 200 000"
+        ],
+        [
+          "",
+          "",
+          "frå kr 233 100 000 til kr 247 300 000",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "R37",
+      "source": "inns91-all.html",
+      "body_sha256": "745a24367b3b93979f19b8ef2396cdfed5edf1d80ef887f648b459728e57e8ea",
+      "kind": "html",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[8]/div[1]/div[2]/div/div[2]/div[2]/table",
+      "text": "Kap. Post Føremål Kroner 1560 Tariffavtalte avsetningar 71 Opplæring og utvikling av tillitsvalde, kan overførast, blir auka med 14 200 000 frå kr 233 100 000 til kr 247 300 000",
+      "role": "complete appropriation table; only chapter1560/post71",
+      "rows": [
+        [
+          "Kap.",
+          "Post",
+          "Føremål",
+          "Kroner"
+        ],
+        [
+          "1560",
+          "",
+          "Tariffavtalte avsetningar",
+          ""
+        ],
+        [
+          "",
+          "71",
+          "Opplæring og utvikling av tillitsvalde, kan overførast, blir auka med",
+          "14 200 000"
+        ],
+        [
+          "",
+          "",
+          "frå kr 233 100 000 til kr 247 300 000",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "R38",
+      "source": "voteringsforslag23945.xml",
+      "body_sha256": "6db2f925711246018c128f581801b70f09313a7c13d921d242f36e349ae82211",
+      "kind": "xml",
+      "xpath": "/*/*[4]/*[2]",
+      "text": "2026-10-28T21:41:54.6955166+01:00 1.6 Komiteens tilråding romertall II. Komiteens tilråding II. 40078386 0 <div class='strtngt_vedtaks'> <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='ii'> <div class='strtngt_undertittel'> Fullmakt til å øke maksimalgrensen for overføring av ubrukte driftsbevilgninger til 2025 </div> <p class='strtngt_a type_innrykk'> Stortinget samtykker i at Finansdepartementet kan øke maksimalgrensen for overføring av ubrukte driftsbevilgninger til 2025 tilsvarende kompensasjonen for lønnsoppgjøret 2024, og fastsette en overføring som minimum tilsvarer kompensasjonen, slik at virksomhetene har dekning for etterbetaling som skyves til 2025. </p> </div> </div> tilraading",
+      "role": "complete transfer-authorization proposal object"
+    },
+    {
+      "id": "S-inn91-m1",
+      "source": "inns91-all.html",
+      "body_sha256": "745a24367b3b93979f19b8ef2396cdfed5edf1d80ef887f648b459728e57e8ea",
+      "kind": "html",
+      "xpath": "//*[@id='m1']",
+      "text": "Innledning Digitaliserings- og forvaltningsdepartementet legg i proposisjonen fram tilråding om lønsregulering for dei embetsmenn og statstilsette som ikkje er dekte av hovudtariffavtalane og forslag til endringar i statsbudsjettet for 2024. I punkt 2 i proposisjonen blir det gjeve ein omtale av lønsforhandlingane i det statlege tariffområdet 2024, i punkt 2.1 nærare om lønsforhandlingane med temaa forhandlingane, den økonomiske ramma og forhandlingsstader og i punkt 2.2 om lønsregulering m.m. for dei embetsmenn og statstilsette som ikkje blir dekte av hovudtariffavtalane. I punkt 3 i proposisjonen blir det gjeve ein omtale av endringar på statsbudsjettet for 2024. Dette gjeld kap. 1560 Tariffavtalte avsetningar, post 71 Opplæring og utvikling av tillitsvalde, kan overførast. Det blir vist til proposisjonen for nærare omtale. Dokumenta i saka er tilgjengelege på sakssida på stortinget.no.",
+      "role": "Komplett logisk innstillingsseksjon, inklusive ulike merknadsavsendere"
+    },
+    {
+      "id": "S-inn91-m2_1",
+      "source": "inns91-all.html",
+      "body_sha256": "745a24367b3b93979f19b8ef2396cdfed5edf1d80ef887f648b459728e57e8ea",
+      "kind": "html",
+      "xpath": "//*[@id='m2_1']",
+      "text": "Lønnsforhandlingene i det statlige tariffområdet 2024 Komiteen viser til proposisjonens omtale av lønnsforhandlingene i det statlige tariffområdet for 2024. Komiteenviser til at Stortinget 20. juni 2024 samtykket til at medlemmene av YS Stat får utbetalt lønn i samsvar med møteboken til Riksmekleren datert 24. mai 2024, jf. vedlegg 1 og 2, etter at det endelige resultatet av lønnsoppgjøret i det statlige tariffområdet foreligger, jf. Prop. 108 S (2023–2024) Utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m., Innst. 442 S (2023–2024) og vedtak nr. 855 (2023–2024). Komiteen viser videre til at LO Stat og staten 17. juni 2024 ble enige om frivillig lønnsnemd. Stortinget samtykket 20. juni 2024 til at Kongen på vegne av staten kan bringe tvister i forbindelse med hovedtariffoppgjøret i staten 2024 inn for Rikslønsnemnda i samsvar med tjenestetvistloven § 31 annet ledd, jf. Stortingets vedtak 853 (2023–2024). Komiteen viser til at Akademikerne og Unio ikke kom til enighet med staten i meklingen og tok sine medlemmer ut i streik. Streiken ble avsluttet med tvungen lønnsnemnd 2. juni 2024 for Akademikerne og 5. juni 2024 for Unio. Komiteen viser til at avgjørelser i interessetvistene mellom Akademikerne og Unio og staten og LO Stat og staten, forelå 20. november 2024. Nemnda bestemte at Akademikerne og Unio sine avtaler fra forrige periode skal videreføres. Nemnda bestemte videre at LO Stat skal ha den avtalen som YS Stat ble enig med staten om under meklingen. Komiteens flertall, medlemmene fra Arbeiderpartiet, Senterpartiet, Sosialistisk Venstreparti og Rødt, viser til at de nøytrale medlemmene i Rikslønnsnemnda hadde forståelse for statens synspunkt om behovet for en samordnet lønnsdannelse i staten. Flertallet vil videre fremheve at de nevnte medlemmene av nemnda mente at en slik endring av hovedtariffavtalen som staten nedla påstand om, herunder fire likelydende avtaler for det statlige tariffområdet, bør finne sin avklaring og løsning gjennom forhandlinger mellom partene. Flertallet viser til at frontfaget legger rammen for lønnsoppgjørene i det statlige tariffområdet. Flertallet vil i den forbindelse understreke statens ansvar for å sikre en samordnet og koordinert lønnsdannelse i det statlige tariffområdet. Flertallet viser til Fafo-rapport 2024:12 Utredning av konsekvenser av ulike hovedtariffavtaler i staten. Flertallet mener dagens situasjon med ulike avtaler må følges nøye for å hindre at ansatte får ulik lønn for likt arbeid avhengig av hvor de er organisert. Komiteens medlemmer fra Høyre og Fremskrittspartiet påpeker at organisasjons- og forhandlingsfrihet er grunnleggende i det norske samfunnet, og at det er arbeidsgivers ansvar å ta vare på alle sine ansatte, både organiserte og uorganiserte. Disse medlemmer påpeker også at staten forhandler med flere parter, og at det derfor er grunnlag for flere tariffavtaler, og at staten har rettslig adgang til å ha flere tariffavtaler. Disse medlemmer bemerker at det å pålegge staten å inngå likelydende hovedtariffavtaler vil være å gripe inn i den enkelte organisasjons selvstendige forhandlingsrett og partenes avtalefrihet. Komiteens medlem fra Rødt viser til årets forhandlinger mellom staten ved Digitaliserings- og forvaltningsdepartementet (DFD) og hovedsammenslutningene for statsansatte, Akademikerne, LO Stat, Unio og YS Stat, om ny hovedtariffavtale i staten for perioden 1. mai 2024 til 30. april 2026. Staten som arbeidsgiverpart er i en særstilling fordi tariffoppgjørene i staten er en del av regjeringens inntektspolitikk. Gjennom inntektspolitikken har regjeringen et overordnet nasjonalt ansvar for lønnsutviklingen og sysselsettingen. Stortinget har i tjenestetvistloven satt rammer for å oppnå en koordinert lønnsdannelse i staten. Hovedsammenslutningene er gjennom tjenestetvistloven gitt en dominerende posisjon på arbeidstakersiden. Regjeringen Bondevik II understreket dette da loven ble endret i 2002. Formålet med lovendringsforslagene var å «… opprettholde og styrke hovedsammenslutningenes posisjon i det statlige tarifforhandlingssystemet.» (Ot.prp. nr. 38 (2001–2002), side 4). Et av hovedformålene med tjenestetvistlovens strenge krav til forhandlingsrett var å sikre så stor representativitet at hovedsammenslutningene, gjennom koordinering av lønnskrav fra sine medlemsorganisasjoner, gjorde det mulig for staten å gjennomføre en ansvarlig lønnspolitikk basert på en helhetlig tenkning fra alle parter. Regulering gjennom hovedtariffavtaler bygger på forutsetningen om at det skal finne sted en felles regulering av alminnelige lønns- og arbeidsvilkår. Dette medlem mener det er et sentralt synspunkt at reguleringen for de forskjellige gruppene av statsansatte sees i sammenheng. Allerede i Innst. 417 (2015–2016) påpekte et mindretall i kommunal- og forvaltningskomiteen at ulikelydende tariffavtaler i staten kunne medføre et effektivitetstap. Dette medlem vil likevel påpeke at staten sin egen undersøkelse blant statlige arbeidsgivere («Arbeidsgiverbarometeret») viser at dette har skjedd. Dette medlem viser til at det er ressurskrevende og tar tid å gjennomføre flere forskjellige forhandlinger. Det har videre oppstått lokal uenighet om forskjellsbehandling pga. organisasjonstilknytning. Teknisk beregningsutvalg (TBU) for 2023 viser et betydelig merforbruk av virksomhetenes driftsmidler, ut over avtalt disponibel ramme. Dette gjelder for begge avtalemodellene. Statens beregningsutvalg (SBU) for 2023 viser at ulikelydende tariffavtaler har ført til økt bruk av driftsmidler, utenom avtalt disponibel ramme, for å rette opp i utilsiktede konsekvenser av ulikelydende tariffavtaler. Dette medlem er videre bekymret for at dagens situasjon med ulikelydende tariffavtaler bryter mot likebehandlingsprinsippet, ufravikelighetsprinsippet og aktivitets- og redegjørelsesplikten. Dette medlem merker seg at det i årets oppgjør fra statens side ble fremmet identiske krav og tilbud overfor de fire hovedsammenslutningene i forhandlingene, med en klar målsetting om å oppnå likelydende avtaler. Dette medlem konstaterer at det kun ble inngått avtale om ny hovedtariffavtale med én av hovedsammenslutningene. Dette medlem tar Rikslønnsnemndas kjennelser i sakene 2-24, 3-24 og 4-24 til etterretning, herunder nemndas føringer til alle partene – både om at partene raskt samler seg om likelydende hovedtariffavtaler, og at øvrige krav henvises til forhandlinger mellom partene.",
+      "role": "Komplett logisk innstillingsseksjon, inklusive ulike merknadsavsendere"
+    },
+    {
+      "id": "S-inn91-m2_2",
+      "source": "inns91-all.html",
+      "body_sha256": "745a24367b3b93979f19b8ef2396cdfed5edf1d80ef887f648b459728e57e8ea",
+      "kind": "html",
+      "xpath": "//*[@id='m2_2']",
+      "text": "Lønnsregulering m.m. for de embetsmenn og statsansatte som ikke blir dekket av hovedtariffavtalene Komiteen viser til at departementet tilrår at det avtaleområdet som dekker flest årsverk i den enkelte virksomhet skal praktiseres overfor arbeidstakere som ikke er medlem av organisasjoner med forhandlingsrett, i tråd med Stortingets vedtak i 2022, if. Innst. 466 S (2021–2022) og vedtak 819 (2021–2022). Komiteen merker seg at departementet vil følge med på praktiseringen og utslagene av en slik modell. Komiteen viser videre til at det i proposisjonen foreslås at embetsmenn og statsansatte i stillinger som er tatt ut av hovedtariffavtalene, får lønns- og arbeidsvilkår fastsatt i kontrakt, jf. forslag til romertallsvedtak II. Komiteens flertall, medlemmene fra Arbeiderpartiet, Senterpartiet og Sosialistisk Venstreparti, viser til at det er arbeidsgiver sitt ansvar å ta vare på de uorganiserte og at disse med bakgrunn i lønnspolitikken til den enkelte virksomhet skal sikres en lønnsutvikling på lik linje med de organiserte arbeidstakerne. Flertallet tar til etterretning at staten fortsatt har ulike tariffavtaler. Dette nødvendiggjør at Stortinget må beslutte hvilken avtale de uorganiserte skal følge. Flertallet mener at det er riktig at de følger det største avtaleområdet i den enkelte virksomhet slik ordningen har vært siden 2022. Komiteens medlemmer fra Arbeiderpartiet og Senterpartiet viser til Fafos rapport 2024:12 hvor også de uorganiserte er omtalt og vurdert. Partene i staten bør følge opp modellen med de uorganiserte på egnet måte. Komiteens medlemmer fra Sosialistisk Venstreparti og Rødt mener arbeidet for å oppnå likelydende hovedtariffavtaler må forsterkes og videreføres. Disse medlemmer viser til vedtak 817 fra behandlingen av Innst. 466 S (2021–2022), der Stortinget ba regjeringen sette ned et lønnsutvalg for å se på lønnssystemet i staten. Disse medlemmer viser til at hovedsammenslutningenes sentrale rolle, hensynet til reell konfliktrett og hensynet til at staten som en ansvarlig arbeidsgiverpart har store krav til transparens, tilsier at tilstrekkelige deler av disponibel ramme avsettes til sentrale, generelle tillegg. Det tilligger Stortinget å fastsette reguleringen av lønns- og arbeidsvilkår for uorganiserte statsansatte. Tjenestetvistloven forutsetter at alle statsansatte må tilhøre tariffavtaler som er representative og som dekker det store omfanget av stillingstyper. Tjeneste-tvistloven forutsetter at lønnsfastsettelsen for de som ikke er medlem hos hovedsammenslutningene, må fastsettes basert på det som allerede er fastsatt i tariffavtale for tilsvarende grupper tjenestemenn. Disse medlemmer tar til etterretning at statens tariffavtaler fortsatt har ulik ordlyd. Blant annet er det kun den ene avtalemodellen som har minstelønnsnivåer for alle stillingskoder og som dermed kan sies å være representativ. Disse medlemmer viser til at den modellen som ble innført for regulering av uorganiserte statsansatte, skulle evalueres. Disse medlemmer ber regjeringen vurdere om reguleringen av uorganiserte kan bidra til å oppnå målet om likelydende hovedtariffavtaler.",
+      "role": "Komplett logisk innstillingsseksjon, inklusive ulike merknadsavsendere"
+    },
+    {
+      "id": "S-inn91-m2_3_1_1",
+      "source": "inns91-all.html",
+      "body_sha256": "745a24367b3b93979f19b8ef2396cdfed5edf1d80ef887f648b459728e57e8ea",
+      "kind": "html",
+      "xpath": "//*[@id='m2_3_1_1']",
+      "text": "Post 71 Opplæring og utvikling av tillitsvalgte, kan overføres Komiteen viser til at det foreslås å øke bevilgningen med 14,2 mill. kroner.",
+      "role": "Komplett logisk innstillingsseksjon, inklusive ulike merknadsavsendere"
+    },
+    {
+      "id": "S-inn91-m3",
+      "source": "inns91-all.html",
+      "body_sha256": "745a24367b3b93979f19b8ef2396cdfed5edf1d80ef887f648b459728e57e8ea",
+      "kind": "html",
+      "xpath": "//*[@id='m3']",
+      "text": "Komiteens tilråding Komiteens tilråding fremmes av en samlet komité. Komiteen har for øvrig ingen merknader, viser til proposisjonen og rår Stortinget til å gjøre følgende vedtak: I I statsbudsjettet 2024 blir det gjort følgjande endringar: Kap. Post Føremål Kroner 1560 Tariffavtalte avsetningar 71 Opplæring og utvikling av tillitsvalde, kan overførast, blir auka med 14 200 000 frå kr 233 100 000 til kr 247 300 000 II For embetsmenn og statstilsette som ikkje er medlemer av Akademikerne, LO Stat, Unio eller YS Stat, og derfor ikkje får sine løns- og arbeidsvilkår fastsette i hovudtariffavtale, skal det bli gjort regulering av lønene i samsvar med det avtaleområdet (Akademikerne og Unio eller LO Stat og YS Stat) som dekker flest årsverk i den einskilde verksemda. Embetsmenn og statstilsette som er tekne ut av hovudtariffavtalane, får sine løns- og arbeidsvilkår fastsette administrativt i eigen kontrakt.",
+      "role": "Komplett logisk innstillingsseksjon, inklusive ulike merknadsavsendere"
+    },
+    {
+      "id": "S-debatt6",
+      "source": "ref171224-debatt6.html",
+      "body_sha256": "fad2f687715ac2c338d0f92445ffca0486c391f1b42d833a626f318a03f6ddc1",
+      "kind": "html",
+      "xpath": "//*[@data-strtngt-sak-sakid='101000']",
+      "text": "Presidenten [13:40:39]: Etter ønske fra kommunal- og forvaltningskomiteen vil presidenten ordne debatten slik: 3 minutter til hver partigruppe og 3 minutter til medlemmer av regjeringa. Videre vil det – innenfor den fordelte taletid – bli gitt anledning til inntil fem replikker med svar etter innlegg fra medlemmer av regjeringa, og de som måtte tegne seg på talerlista utover den fordelte taletid, får også en taletid på inntil 3 minutter. Lene Vågslid (A) [13:41:07] (leiar i komiteen og ordførar for saka): I denne saka behandlar me Prop. 34 S for 2024–2025 frå Digitaliserings- og forvaltingsdepartementet. Eg kjem i innlegget mitt til å konsentrere meg om merknadene frå komiteen som omhandlar lønsforhandlingane i det statlege tariffområdet for 2024. Eg viser elles til dei samla merknadene til komiteen i saka, som omtalar prosessen rundt lønsforhandlingane. Komiteen viser i innstillinga til at avgjerder i interessetvistane mellom Akademikerne og Unio og staten og LO Stat og staten låg føre 20. november i år. Nemnda bestemte vidare at LO Stat skal ha den avtalen YS Stat blei einig med staten om under meklinga. Vidare gjer eg greie for merknadene frå Arbeidarpartiet og Senterpartiet og fleirtalet i komiteen. Så legg eg til grunn at dei andre partia gjer greie for sine eigne. Det er eit fleirtal i komiteen frå Arbeidarpartiet, Senterpartiet, SV og Raudt som i innstillinga viser til at dei nøytrale medlemane i Rikslønnsnemnda hadde forståing for synspunktet til staten om behovet for ei samordna lønsdanning i staten. Dei nemnde medlemane av nemnda meinte at ei slik endring av hovudtariffavtalen som staten la ned påstand om, irekna fire likelydande avtalar for det statlege tariffområdet, bør finne si avklåring og løysing gjennom forhandlingar mellom partane. Det er frontfaget som legg rammene for lønsoppgjeret i det statlege tariffområdet. I den forbindelse vil Arbeidarpartiet og Senterpartiet understreke ansvaret staten har for å sikre ei samordna og koordinert lønsdanning i det statlege tariffområdet. Me viser òg i innstillinga til Fafo-rapport 2024:12 Utredning om konsekvenser av ulike hovedtariffavtaler i staten. Dagens situasjon med ulike avtalar må følgjast nøye for å hindre at tilsette får ulik løn for likt arbeid, avhengig av kvar hen dei er organiserte. Eit anna fleirtal, Arbeidarpartiet, Senterpartiet og SV, viser òg til at det er ansvaret til arbeidsgjevaren å ta vare på dei uorganiserte, og at desse med bakgrunn i lønspolitikken til den enkelte verksemda skal sikrast ei lønsutvikling på lik linje med dei organiserte arbeidstakarane. Me tek til etterretning at staten framleis har ulike tariffavtalar. Dette gjer det nødvendig at Stortinget må avgjere kva for avtale dei uorganiserte skal følgje. Fleirtalet meiner det er riktig at dei følgjer det største avtaleområdet i den enkelte verksemda, slik ordninga har vore sidan 2022. Anne Kristine Linnestad (H) [13:43:51]: Organisasjons- og forhandlingsfrihet er grunnleggende i det norske samfunnet. I tillegg er det arbeidsgivers ansvar, slik vi ser det, å ta vare på alle sine ansatte, både organiserte og uorganiserte. Organisasjonsfriheten innebærer retten til å organisere seg i den fagforeningen man ønsker, men også retten til å velge å stå utenfor fagforeninger. Det skal være opp til den enkelte selv å finne den løsningen som passer best for seg. Det er i dag grunnlag for flere tariffavtaler, og staten forhandler derfor med flere parter. Å pålegge staten å inngå likelydende hovedtariffavtaler vil være å gripe direkte inn både i den enkelte organisasjons rett til å forhandle og i avtalefriheten. For Høyre er det derfor viktig å opprettholde et system med differensierte avtaler, nettopp fordi ulike arbeidstakergrupper har forskjellige behov og interesser som må ivaretas. Tobias Drevland Lund (R) [13:45:06]: Lønnen for statsansatte har siden tjenestetvistloven ble vedtatt i 1958, fulgt et lønnsregulativ. Regulativet har vært et verktøy for de sentrale parter i fordelingen av et sentralt og et generelt tillegg, og det har sikret alle statsansatte en viss lønnsvekst. Dette er nå erstattet av at statsansattes lønn er individuelt avtalt. I tråd med Stortingets gjentatte oppfordringer om å oppnå et resultat med likelydende tariffavtaler i staten, leverte staten likelydende krav til partene. Etter at tre av fire hovedsammenslutninger på ulikt vis forkastet statens krav, ble hovedtariffavtalen for perioden samt økonomien i årets oppgjør fastsatt av Rikslønnsnemnda. Statens krav var at en fjerdedel av potten skulle fordeles sentralt og resten lokalt. Dette ble resultatet for LO Stat og YS, mens Akademikerne og Unio også i år får fordelt hele sin pott lokalt. Rødt tar Rikslønnsnemndas resultat til etterretning, men det må bemerkes at hovedsammenslutningene har en svak rolle med årets resultat. De sentrale partene har ikke klart å enes om et resultat som sikrer lavtlønnsprofil eller likelønnsprofil. Det vil nå være opp til lokale parter uten streikerett å forsøke å ivareta slike hensyn. Det er for øvrig ingen grunn til å tro at partene lokalt er mer enige enn det de er sentralt. Tvert imot vil en slik tanke stå i motstrid til hovedtanken bak hovedsammenslutningsmodellen slik den er utformet i tjenestetvistloven. Samfunnet er tjent med at lønnen til statsansatte henger med i samfunnsutviklingen, uavhengig av om noen f.eks. ytrer seg kritisk eller tar opp vanskelige spørsmål. Den økte individualiseringen av statsansattes lønn kan skape usunne lojalitetsbånd og er heller ikke i tråd med tjenestetvistlovens intensjoner. Fra departementets side har man ikke ønsket å endre den nye og midlertidige modellen for uorganiserte for årets oppgjør. Det tilligger Stortinget å fatte vedtak om avtaletilhørighet for de uorganiserte. Det er bare å konstatere at den midlertidige ordningen nå gjennomføres for tredje år på rad, og at den varslede vurderingen av ordningen foreløpig ikke er kommet til Stortinget. Nå er det fortsatt slik at det er et lite stykke igjen til de statsansatte har like avtalevilkår. Rødt mener at Stortinget også må gå i seg selv og be om at den varslede vurderingen også ser på om modellene som er valgt for de uorganiserte, bidrar til å opprettholde, framfor å løse, situasjonen med ulikelydende tariffavtaler. Jeg viser ellers til Rødts merknader i denne saken. Statsråd Karianne O. Tung [13:47:59]: Statens mål i dette lønnsoppgjøret var likelydende hovedtariffavtaler, et oppgjør innenfor en ansvarlig økonomi i tråd med frontfaget og å sørge for kontroll med lønnsutviklingen i staten. Ved Rikslønnsnemndas kjennelser i november er lønnsoppgjøret i staten avsluttet, og det kan iverksettes. Oppgjøret er avsluttet innenfor en økonomisk ramme på 5,2 pst., som tilsvarer årslønnsøkningen som er anslått i frontfaget. Det er jeg svært fornøyd med. Frontfagsmodellen bidrar til å sikre vår konkurranseevne og gir oss et godt grunnlag for å sikre høy sysselsetting og lav arbeidsledighet framover. Rikslønnsnemnda har bestemt at Akademikerne og Unio sine hovedtariffavtaler fra forrige periode skal videreføres. Nemnda har videre bestemt at LO Stat skal ha en hovedtariffavtale som er lik den avtalen som YS Stat ble enig med staten om under meklingen. Rikslønnsnemnda har dermed opprettholdt situasjonen med ulike hovedtariffavtaler også for denne tariffperioden. Det er uheldig at situasjonen med ulike avtaler fortsetter. Jeg er enig med flertallet i komiteen om at dagens situasjon med ulike avtaler må følges nøye for å hindre at ansatte får ulik lønn for likt arbeid, avhengig av hvor de er organisert. For oss er det viktig at Rikslønnsnemndas nøytrale medlemmer, som utgjør flertallet, har uttalt at de har forståelse for statens behov for en samordnet lønnsdannelse i staten og med det behovet for likelydende avtaler. Komiteens medlemmer fra Høyre og Fremskrittspartiet viser til at staten forhandler med flere parter, at det derfor er grunnlag for flere tariffavtaler, og at det å pålegge staten å inngå like hovedtariffavtaler vil gripe inn i partenes avtalefrihet. Det er fire hovedtariffavtaler i staten, én med hver av hovedsammenslutningene. Disse avtalene reforhandles mellom partene annethvert år. I år var statens krav at disse avtalene skulle være likelydende. Jeg er ellers glad for at en samlet komité støtter forslagene som regjeringen har lagt fram. Jeg har spesielt merket meg at komiteen støtter modellen regjeringen foreslår for å håndtere de uorganiserte, men at man samtidig oppfordrer partene til å følge opp modellen på egnet måte. Presidenten [13:50:20]: Det blir replikkordskifte. Per-Willy Amundsen (FrP) [13:50:40]: I forrige uke avdekket Nordlys at en fylkespolitiker fra Arbeiderpartiet, Linda Beate Randal, har fått en gullkantet arbeidsavtale hos Innovasjon Norge. Arbeidsavtalen sikrer Randal både direktørlønn, etterlønn og frynsegoder. Samtidig hever hun en halv million kroner i årlig politikerlønn. Avdekningen viser også at Randal var ansatt og fikk utbetalt lønn i fem måneder av Innovasjon Norge mens hun drev valgkamp på heltid. Min utfordring til statsråden er: Hva slags tanker gjør hun seg om dette og om de beskyldningene som ofte fremsettes i det offentlige rom om at politikere sørger for seg selv og følger andre spilleregler enn den øvrige befolkningen? Statsråd Karianne O. Tung [13:51:39]: Jeg kjenner meg ikke igjen i verken insinuasjoner eller omtaler vedgående Randal eller undertegnede. For øvrig er Innovasjon Norge underlagt Nærings- og fiskeridepartementet, og spørsmål i sakens anledning må rettes dit. Per-Willy Amundsen (FrP) [13:52:04]: Likevel har statsråden ansvaret for forvaltningen i sin helhet og de spillereglene som gjelder generelt i staten. Dette er et særlovselskap som er 51 pst. eid av staten. Jeg registrerer at statsråden avviser problemstillingen. Problemet er vel kanskje at det er veldig lett for politikere å avvise problemstillinger. Folk der ute opplever situasjonen ganske så annerledes. Dersom statsråden ikke ønsker å gjøre seg noen tanker om denne problemstillingen, vil hun i det minste ta et initiativ til en gjennomgang for å sørge for at det er like vilkår for alle borgere, og at man ikke etterlater seg inntrykket av at politikere ordner for seg selv? Statsråd Karianne O. Tung [13:53:05]: Som forvaltningsminister er jeg særdeles opptatt av at innbyggerne, befolkningen, næringslivet og samfunnet skal ha tillit til forvaltningen. Når det gjelder spørsmål som er knyttet til Innovasjon Norge – her blir det også sagt at 51 pst. av Innovasjon Norge er eid av staten – må spørsmålene rettes til Nærings- og fiskeridepartementet. Tobias Drevland Lund (R) [13:53:40]: Resultatet etter årets forhandlinger er at hovedtariffavtalene for alle praktiske formål er like, men at den økonomiske fordelingen er svært ulik. De nåværende avtalene har betydelige svekkelser av kollektive elementer som lønnstrinn og lønnstabell, og LO Stat og YS er nå på avtaler som ligner veldig på Akademikernes avtale. I vedtak 817 fra behandlingen av lønnsoppgjøret i staten i 2022 vedtok Stortinget å be regjeringen sette ned et lønnsutvalg for å se på lønnssystemet i staten. Dette arbeidet har som kjent ikke ført fram. Mitt spørsmål til statsråden er: Er det fortsatt et mål for regjeringen å ha likelydende tariffavtaler i staten, og hvordan vil statsråden arbeide for det? Statsråd Karianne O. Tung [13:54:22]: Hovedmålet til staten ved årets lønnsoppgjør var å sørge for likelydende avtaler, nettopp fordi vi ønsker lik lønn for likt arbeid, helt uavhengig av hvor man er organisert. Det baserer seg også på en tilbakemelding fra ledere i statlige virksomheter, hvor man ser at det nå er i ferd med å danne seg en praksis ved at man får ulik lønn for likt arbeid, og at ledere av statlige virksomheter er nødt til å ta av sine driftsbudsjetter for å kompensere for de lønnsforskjellene som utvikler seg på de ulike arbeidsplassene. Det er en utvikling vi ikke kan leve med. Det gjør at vi risikerer å miste kontrollen over lønnsutviklingen i offentlig sektor. Når det er 170 000 ansatte i offentlig sektor og godt og vel 110 mrd. kr som utbetales i lønn, er det klart at det er store penger det er snakk om. Det er vårt mål å sørge for å arbeide for likelydende avtaler i fortsettelsen, og det er et arbeid vi skal gjøre sammen med hovedsammenslutningene. Tobias Drevland Lund (R) [13:55:20]: Jeg takker statsråden for svaret. Hun har alt vært litt inne på at rammene i staten for årets oppgjør tilsvarer rammene for frontfaget på 5,2 pst. Tallene fra TBU, det tekniske beregningsutvalget for inntektsoppgjørene, viste imidlertid at årslønnsveksten i staten i fjor var på 6,4 pst., til tross for at rammene også i fjor var på 5,2 pst. Dette er en historisk overskridelse av rammene i det statlige tariffområdet, som gir grunn til bekymring for inntektspolitikken og også statens kontroll med pengene. Nå har jo statsråden svart litt på det, men er statsråden bekymret for disse overskridelsene? Svein Harberg hadde her gjeninntatt presidentplassen. Statsråd Karianne O. Tung [13:55:54]: Ja, det er klart jeg er bekymret. Det var derfor staten hadde et så tydelig mål med årets lønnsoppgjør og et ønske om å få til likelydende avtaler, nettopp fordi man ønsker lik lønn for likt arbeid, helt uavhengig av hvor man er organisert. Vi har nå fått en Fafo-rapport som har sett på flere elementer, og vi får beregningene fra TBU. Fjorårets beregning innbefatter også både politi og forsvar, som hadde en helt særegen situasjon i fjor, særlig forsvar, med den sikkerhetspolitiske situasjonen vi står i, med overtid osv., som gjør at man får litt overslag på tallene. Det klare og store målet er imidlertid å jobbe for likelydende avtaler, nettopp for å sørge for kontroll med lønnsutviklingen og ikke minst det viktige politiske prinsippet om at man skal ha lik lønn for likt arbeid, helt uavhengig av hvor man er organisert. Etter min mening er det det organisasjonsfrihet helt reelt handler om. Presidenten [13:56:56]: Replikkordskiftet er omme. Flere har ikke bedt om ordet til sak nr. 6. Votering, se voteringskapittel",
+      "role": "Hele debatten for sak 6/101000; ingen forslag eller sluttutfall arves fra nabosaker"
+    },
+    {
+      "id": "S-D429",
+      "source": "decisions-k3",
+      "body_sha256": "ff5013b2a37220af3254a69b574800f99a3d1fd44f1c6053f07d4b0e846c973c",
+      "kind": "xml",
+      "xpath": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40034289']",
+      "text": "Fullmakt til å øke maksimalgrensen for overføring av ubrukte driftsbevilgninger til 2025 Stortinget samtykker i at Finansdepartementet kan øke maksimalgrensen for overføring av ubrukte driftsbevilgninger til 2025 tilsvarende kompensasjonen for lønnsoppgjøret 2024, og fastsette en overføring som minimum tilsvarer kompensasjonen, slik at virksomhetene har dekning for etterbetaling som skyves til 2025.",
+      "role": "Fullmakt, ikke postvis bevilgningshendelse",
+      "nested_html_field_xpath": "./s:stortingsvedtak_tekst"
+    },
+    {
+      "id": "S-vot23945",
+      "source": "voteringer100289.xml",
+      "body_sha256": "b0e9cc623f23a1f7912104121cb69f446a9dff0edb729bb51bb8fc14de91a0f7",
+      "kind": "xml",
+      "xpath": "//*[local-name()='sak_votering'][*[local-name()='votering_id']='23945']",
+      "text": "2026-10-28T21:41:38.2263677+01:00 1.6 -1 -1 -1 -1 1 4 false 37 false 2026-10-28T21:41:38.2263677+01:00 1.6 Gharahkhani 1982-09-22T00:00:00 Masud MASG mann 2026-10-28T13:46:00.7701379+01:00 1.6 false Bu Buskerud 2026-10-28T01:00:19.4062868+01:00 1.6 A Arbeiderpartiet true false 100289 true 23945 enstemmig_vedtatt Enstemmig vedtatt Resten av romertall I samt romertallene II, III og IV. 2024-12-19T14:39:29.063",
+      "role": "Konkret behandling av fullmakt II, ikke hele saksutfallet"
+    },
+    {
+      "id": "S-main-prop34-ch3.html",
+      "source": "prop34-ch3.html",
+      "body_sha256": "7a4c4a5a2182e89d7cbda39f398b32c0ef835fa43fb3de578ab194e53a45f071",
+      "kind": "html",
+      "xpath": "//main",
+      "text": "Innhald og søk Les dokumentet Prop. 34 S (2024–2025) Endringar i statsbudsjettet 2024 under Digitaliserings- og forvaltningsdepartementet (lønsforhandlingane i det statlege tariffområdet 2024) Til innhaldsliste Digitaliserings- og forvaltningsdepartementet Lenkeverktøy er aktivert, trykk på lenkeikon ved siden av overskrift/avsnitt for å kopiere lenke.Slå av lenkeverktøy Neste kapittel Forrige kapittel 3 Endringar på statsbudsjettet for 2024 Kap. 1560 Tariffavtalte avsetningar Post 71 Opplæring og utvikling av tillitsvalde, kan overførast Løyvinga dekker tilskot til opplæringstiltak for tillitsvalde til organisasjonane i staten innanfor mellom anna organisasjons- og tillitsvaldarbeid, miljø og vernearbeid, sjukefråvær, medråderett, personalpolitiske spørsmål, omstilling, effektivisering og samfunnsøkonomi m.m. Retningslinjer for opplærings- og utviklingstiltak er fastsett i eigen særavtale mellom staten og hovudsamanslutningane (avtale om OU-midlar).Departementet foreslår at løyvinga blir auka med 14,2 mill. kroner. Summen er rekna ut med bakgrunn i talet på årsverk og lønsmasse i statleg tariffområde per 1. oktober 2023. Det blir vist til forslag i Prop. 21 S (2024–2025) Endringar i statsbudsjettet 2024 under Digitaliserings- og forvaltningsdepartementet om å føye til stikkordet «kan overførast» på posten. Neste kapittel Forrige kapittel Neste kapittel Forrige kapittel Til forsida Last ned dokument Dokumentet i PDF format (666,5 kB) Dokumentet i EPUB format (1,5 MB) Dokumentet i Word format (43 kB) Søk i dokumentet: Tøm søkefeltet Søk 1 Innleiing 2 Lønsforhandlingane i det statlege tariffområdet 2024 2.1 Nærare om lønsforhandlingane 2.2 Lønsregulering m.m. for dei embetsmenn og statstilsette som ikkje blir dekte av hovudtariffavtalane 3 Endringar på statsbudsjettet for 2024 Kap. 1560 Tariffavtalte avsetningar Post 71 Opplæring og utvikling av tillitsvalde, kan overførast Tilråding Forslag til vedtak om endringar i statsbudsjettet 2024 under Digitaliserings- og forvaltningsdepartementet (lønsforhandlingane i det statlege tariffområdet 2024) Lenkeverktøy Gir mulighet for å kopiere lenke til et spesifikt kapittel/avsnitt Aktivere lenkeverktøy Til toppen",
+      "role": "Komplett hovedinnhold i denne HTML-representasjonen; navigasjon kan inngå"
+    },
+    {
+      "id": "S-main-prop34-ch5.html",
+      "source": "prop34-ch5.html",
+      "body_sha256": "91af0aa1830d84a125c950dfe010eed11496f8d56767f792adb2aaa4e9e8669b",
+      "kind": "html",
+      "xpath": "//main",
+      "text": "Innhald og søk Les dokumentet Prop. 34 S (2024–2025) Endringar i statsbudsjettet 2024 under Digitaliserings- og forvaltningsdepartementet (lønsforhandlingane i det statlege tariffområdet 2024) Til innhaldsliste Digitaliserings- og forvaltningsdepartementet Lenkeverktøy er aktivert, trykk på lenkeikon ved siden av overskrift/avsnitt for å kopiere lenke.Slå av lenkeverktøy Forrige kapittel Forslag til vedtak om endringar i statsbudsjettet 2024 under Digitaliserings- og forvaltningsdepartementet (lønsforhandlingane i det statlege tariffområdet 2024) I I statsbudsjettet 2024 blir det gjort følgjande endringar: Kap. Post Føremål Kroner 1560 Tariffavtalte avsetningar 71 Opplæring og utvikling av tillitsvalde, kan overførast, blir auka med 14 200 000 frå kr 233 100 000 til kr 247 300 000 II For embetsmenn og statstilsette som ikkje er medlem av Akademikerne, LO Stat, Unio eller YS Stat, og derfor ikkje får sine løns- og arbeidsvilkår fastsette i hovudtariffavtale, skal det bli gjort regulering av lønene i samsvar med det avtaleområdet (Akademikerne og Unio eller LO Stat og YS Stat) som dekker flest årsverk i den einskilde verksemda. Embetsmenn og statstilsette som er tekne ut av hovudtariffavtalane, får sine løns- og arbeidsvilkår fastsette administrativt i eigen kontrakt. Forrige kapittel Forrige kapittel Til forsida Last ned dokument Dokumentet i PDF format (666,5 kB) Dokumentet i EPUB format (1,5 MB) Dokumentet i Word format (43 kB) Søk i dokumentet: Tøm søkefeltet Søk 1 Innleiing 2 Lønsforhandlingane i det statlege tariffområdet 2024 2.1 Nærare om lønsforhandlingane 2.2 Lønsregulering m.m. for dei embetsmenn og statstilsette som ikkje blir dekte av hovudtariffavtalane 3 Endringar på statsbudsjettet for 2024 Kap. 1560 Tariffavtalte avsetningar Post 71 Opplæring og utvikling av tillitsvalde, kan overførast Tilråding Forslag til vedtak om endringar i statsbudsjettet 2024 under Digitaliserings- og forvaltningsdepartementet (lønsforhandlingane i det statlege tariffområdet 2024) Lenkeverktøy Gir mulighet for å kopiere lenke til et spesifikt kapittel/avsnitt Aktivere lenkeverktøy Til toppen",
+      "role": "Komplett hovedinnhold i denne HTML-representasjonen; navigasjon kan inngå"
+    },
+    {
+      "id": "S-main-prop36-ch11.html",
+      "source": "prop36-ch11.html",
+      "body_sha256": "0c88959a60162ed44a9dcf54871e03c8479fd779f5ea5e01948c270b25517586",
+      "kind": "html",
+      "xpath": "//main",
+      "text": "Innhold og søk Les dokumentet Prop. 36 S (2024–2025) Ny saldering av statsbudsjettet 2024 Foreløpig utgave Til innholdsfortegnelse Finansdepartementet Lenkeverktøy er aktivert, trykk på lenkeikon ved siden av overskrift/avsnitt for å kopiere lenke.Slå av lenkeverktøy Neste kapittel Forrige kapittel 4 Endring av utgifter som følge av lønnsoppgjøret for statsansatte Utgifter: Kap. Post Formål Kroner Regjeringen 20 Statsministerens kontor: 1 Driftsutgifter 2 006 000 24 Regjeringsadvokaten: 1 Driftsutgifter 2 427 000 4 433 000 Stortinget og eksterne organer 43 Stortingets ombud for kontroll med forvaltningen: 1 Driftsutgifter 2 036 000 51 Riksrevisjonen: 1 Driftsutgifter 12 242 000 14 278 000 Høyesterett 61 Høyesterett: 1 Driftsutgifter, kan nyttes under kap. 410, post 1 og kap. 411, post 1 1 444 000 1 444 000 Utenriksdepartementet 100 Utenriksdepartementet: 1 Driftsutgifter, kan nyttes under kap. 140, post 1 20 978 000 140 Utenriksdepartementet: 1 Driftsutgifter, kan nyttes under kap. 100, post 1 17 213 000 141 Direktoratet for utviklingssamarbeid (Norad): 1 Driftsutgifter 7 050 000 144 Norsk senter for utvekslingssamarbeid (Norec): 1 Driftsutgifter 963 000 46 204 000 Kunnskapsdepartementet 200 Kunnskapsdepartementet: 1 Driftsutgifter 6 964 000 220 Utdanningsdirektoratet: 1 Driftsutgifter 7 664 000 221 Foreldreutvalgene for grunnopplæringen og barnehagene: 1 Driftsutgifter 259 000 222 Statlige skoler og fjernundervisningstjenester: 1 Driftsutgifter 2 391 000 223 Diamanten skole: 1 Driftsutgifter 508 000 225 Tiltak i grunnopplæringen: 1 Driftsutgifter 120 000 229 22. juli-senteret: 1 Driftsutgifter 372 000 230 Statlig spesialpedagogisk tjeneste: 1 Driftsutgifter 11 466 000 242 Norges grønne fagskole – Vea: 1 Driftsutgifter 779 000 256 Direktoratet for høyere utdanning og kompetanse: 1 Driftsutgifter 9 160 000 271 Nasjonalt organ for kvalitet i utdanningen: 1 Driftsutgifter 1 908 000 284 De nasjonale forskningsetiske komiteene: 1 Driftsutgifter 344 000 41 935 000 Kultur- og likestillingsdepartementet 300 Kultur- og likestillingsdepartementet: 1 Driftsutgifter 3 878 000 320 Kulturdirektoratet og Kulturrådet m.m.: 1 Driftsutgifter 3 610 000 322 Bygg og offentlige rom: 1 Driftsutgifter 438 000 323 Musikk og scenekunst: 1 Driftsutgifter 1 655 000 325 Allmenne kulturformål: 1 Driftsutgifter 1 011 000 326 Språk- og bibliotekformål: 1 Driftsutgifter 11 342 000 327 Nidaros domkirkes restaureringsarbeider mv.: 1 Driftsutgifter 1 158 000 329 Arkivformål: 1 Driftsutgifter 5 653 000 334 Film- og dataspillformål: 1 Driftsutgifter 2 006 000 335 Medieformål: 1 Driftsutgifter 861 000 339 Pengespill, lotterier og stiftelser: 1 Driftsutgifter 1 815 000 350 Sekretariatet for Diskrimineringsnemnda: 1 Driftsutgifter 578 000 34 005 000 Justis- og beredskapsdepartementet 400 Justis- og beredskapsdepartementet: 1 Driftsutgifter 9 712 000 410 Domstolene: 1 Driftsutgifter, kan nyttes under kap. 61, post 1 og kap. 411, post 1 27 793 000 411 Domstoladministrasjonen: 1 Driftsutgifter, kan nyttes under kap. 61, post 1 og kap. 410, post 1 1 602 000 414 Forliksråd og andre domsutgifter: 1 Driftsutgifter 4 267 000 430 Kriminalomsorgen: 1 Driftsutgifter, kan nyttes under kap. 431, post 1 94 494 000 431 Kriminalomsorgsdirektoratet: 1 Driftsutgifter, kan nyttes under kap. 430, post 1 2 713 000 432 Kriminalomsorgens høgskole og utdanningssenter: 1 Driftsutgifter 4 887 000 433 Konfliktrådet: 1 Driftsutgifter 2 864 000 440 Politiet: 1 Driftsutgifter, kan nyttes under kap. 441, post 1 og kap. 443, post 1 423 802 000 441 Politidirektoratet: 1 Driftsutgifter, kan nyttes under kap. 440, post 1 7 467 000 442 Politihøgskolen: 1 Driftsutgifter 10 273 000 443 Påtalemyndigheten i politiet: 1 Driftsutgifter, kan nyttes under kap. 440, post 1 35 512 000 444 Politiets sikkerhetstjeneste (PST): 1 Driftsutgifter 30 264 000 445 Den høyere påtalemyndighet: 1 Driftsutgifter 7 949 000 446 Den militære påtalemyndighet: 1 Driftsutgifter 95 000 448 Grensekommissæren: 1 Driftsutgifter 68 000 451 Direktoratet for samfunnssikkerhet og beredskap: 1 Driftsutgifter 22 397 000 452 Sentral krisehåndtering: 1 Driftsutgifter 505 000 453 Sivil klareringsmyndighet: 1 Driftsutgifter 1 084 000 454 Redningshelikoptertjenesten: 1 Driftsutgifter 6 126 000 455 Redningstjenesten: 1 Driftsutgifter 2 816 000 457 Nasjonal sikkerhetsmyndighet: 1 Driftsutgifter 10 299 000 460 Spesialenheten for politisaker: 1 Driftsutgifter 1 349 000 466 Særskilte straffesaksutgifter m.m.: 1 Driftsutgifter 2 162 000 468 Kommisjonen for gjenopptakelse av straffesaker: 1 Driftsutgifter 550 000 473 Statens sivilrettsforvaltning: 1 Driftsutgifter 2 755 000 481 Samfunnet Jan Mayen: 1 Driftsutgifter 745 000 490 Utlendingsdirektoratet: 1 Driftsutgifter 22 222 000 491 Utlendingsnemnda: 1 Driftsutgifter, kan nyttes under post 21 5 153 000 741 925 000 Kommunal- og distriktsdepartementet 500 Kommunal- og distriktsdepartementet: 1 Driftsutgifter 5 926 000 554 Kompetansesenter for distriktsutvikling: 1 Driftsutgifter 704 000 563 Internasjonalt reindriftssenter: 1 Driftsutgifter 127 000 578 Valgdirektoratet: 1 Driftsutgifter 955 000 585 Husleietvistutvalget: 1 Driftsutgifter 813 000 587 Direktoratet for byggkvalitet: 1 Driftsutgifter 2 470 000 595 Statens kartverk: 1 Driftsutgifter, kan nyttes under post 21 og 45 15 398 000 26 393 000 Arbeids- og inkluderingsdepartementet 600 Arbeids- og inkluderingsdepartementet: 1 Driftsutgifter 5 776 000 605 Arbeids- og velferdsetaten: 1 Driftsutgifter 260 337 000 606 Trygderetten: 1 Driftsutgifter 2 380 000 634 Arbeidsmarkedstiltak: 1 Driftsutgifter 12 473 000 640 Arbeidstilsynet: 1 Driftsutgifter 16 038 000 648 Arbeidsretten, Riksmekleren mv.: 1 Driftsutgifter 361 000 670 Integrerings- og mangfoldsdirektoratet: 1 Driftsutgifter 6 506 000 303 871 000 Helse- og omsorgsdepartementet 700 Helse- og omsorgsdepartementet: 1 Driftsutgifter 6 324 000 704 Norsk helsearkiv: 1 Driftsutgifter 1 011 000 709 Pasient- og brukerombud: 1 Driftsutgifter 1 408 000 712 Bioteknologirådet: 1 Driftsutgifter 248 000 734 Særskilte tilskudd til psykisk helse og rustiltak: 1 Driftsutgifter 2 053 000 740 Helsedirektoratet: 1 Driftsutgifter 25 612 000 741 Norsk pasientskadeerstatning: 1 Driftsutgifter 3 556 000 742 Nasjonalt klageorgan for helsetjenesten: 1 Driftsutgifter 3 859 000 745 Folkehelseinstituttet: 1 Driftsutgifter 23 407 000 746 Direktoratet for medisinske produkter: 1 Driftsutgifter 8 648 000 747 Direktoratet for strålevern og atomsikkerhet: 1 Driftsutgifter 3 274 000 748 Statens helsetilsyn: 1 Driftsutgifter 3 287 000 749 Statens undersøkelseskommisjon for helse- og omsorgstjenesten: 1 Driftsutgifter 784 000 83 471 000 Barne- og familiedepartementet 800 Barne- og familiedepartementet: 1 Driftsutgifter 3 474 000 842 Familievern: 1 Driftsutgifter, kan nyttes under post 70 7 674 000 847 EUs ungdomsprogram: 1 Driftsutgifter, kan overføres 297 000 848 Barneombudet: 1 Driftsutgifter 487 000 853 Barneverns- og helsenemndene: 1 Driftsutgifter 3 725 000 855 Statlig forvaltning av barnevernet: 1 Driftsutgifter, kan nyttes under post 22 93 765 000 856 Barnevernets omsorgssenter for enslige, mindreårige asylsøkere: 1 Driftsutgifter, kan nyttes under post 22 3 512 000 858 Barne-, ungdoms- og familiedirektoratet og fellesfunksjoner i Barne-, ungdoms- og familieetaten: 1 Driftsutgifter 9 890 000 868 Forbrukertilsynet: 1 Driftsutgifter 2 771 000 883 Kirkebevaringsfondet: 1 Driftsutgifter 235 000 125 830 000 Nærings- og fiskeridepartementet 900 Nærings- og fiskeridepartementet: 1 Driftsutgifter 9 662 000 902 Justervesenet: 1 Driftsutgifter 2 213 000 903 Norsk akkreditering: 1 Driftsutgifter 899 000 904 Brønnøysundregistrene: 1 Driftsutgifter 6 778 000 905 Norges geologiske undersøkelse: 1 Driftsutgifter 4 108 000 906 Direktoratet for mineralforvaltning med Bergmesteren for Svalbard: 1 Driftsutgifter 1 050 000 907 Norsk nukleær dekommisjonering: 1 Driftsutgifter, kan nyttes under kap.908, post 70 1 815 000 910 Sjøfartsdirektoratet: 1 Driftsutgifter 8 533 000 911 Konkurransetilsynet: 1 Driftsutgifter 2 684 000 912 Klagenemndssekretariatet: 1 Driftsutgifter 739 000 913 Dagligvaretilsynet: 1 Driftsutgifter 158 000 915 Regelrådet: 1 Driftsutgifter 258 000 916 Kystverket: 1 Driftsutgifter, kan nyttes under post 45 12 429 000 917 Fiskeridirektoratet: 1 Driftsutgifter 8 538 000 923 Havforskningsinstituttet: 1 Driftsutgifter, kan nyttes under post 21 8 488 000 926 Havforskningsinstituttet, forskningsfartøy: 1 Driftsutgifter 2 638 000 935 Patentstyret: 1 Driftsutgifter 6 393 000 936 Klagenemnda for industrielle rettigheter: 1 Driftsutgifter 177 000 77 560 000 Landbruks- og matdepartementet 1100 Landbruks- og matdepartementet: 1 Driftsutgifter 3 578 000 1115 Mattilsynet: 1 Driftsutgifter 26 817 000 1142 Landbruksdirektoratet: 1 Driftsutgifter 5 082 000 35 477 000 Samferdselsdepartementet 1300 Samferdselsdepartementet: 1 Driftsutgifter 3 845 000 1313 Luftfartstilsynet: 1 Driftsutgifter 5 656 000 1314 Statens havarikommisjon: 1 Driftsutgifter 1 748 000 1320 Statens vegvesen: 1 Driftsutgifter 52 385 000 1323 Vegtilsynet: 1 Driftsutgifter 328 000 1352 Jernbanedirektoratet: 1 Driftsutgifter 6 250 000 1354 Statens jernbanetilsyn: 1 Driftsutgifter 1 955 000 72 167 000 Klima- og miljødepartementet 1400 Klima- og miljødepartementet: 1 Driftsutgifter 5 937 000 1411 Artsdatabanken: 1 Driftsutgifter 830 000 1420 Miljødirektoratet: 1 Driftsutgifter 16 897 000 1423 Radioaktiv forurensning i det ytre miljø: 1 Driftsutgifter 549 000 1429 Riksantikvaren: 1 Driftsutgifter 2 796 000 1471 Norsk Polarinstitutt: 1 Driftsutgifter 3 052 000 1474 Fram – Nordområdesenter for klima- og miljøforskning: 1 Driftsutgifter, kan nyttes under postene 50 og 70 7 000 1482 Internasjonale klima- og utviklingstiltak: 1 Driftsutgifter 961 000 31 029 000 Digitaliserings- og forvaltningsdepartementet 1500 Digitaliserings- og forvaltningsdepartementet: 1 Driftsutgifter 5 027 000 1510 Departementenes sikkerhets- og serviceorganisasjon: 1 Driftsutgifter 13 812 000 1520 Statsforvalterne: 1 Driftsutgifter 45 891 000 1531 Eiendommer til kongelige formål: 1 Driftsutgifter 270 000 1533 Eiendommer utenfor husleieordningen: 1 Driftsutgifter 91 000 1540 Digitaliseringsdirektoratet: 1 Driftsutgifter 3 789 000 1542 Internasjonalt samarbeid: 1 Driftsutgifter 90 000 1543 Nasjonal kommunikasjonsmyndighet: 1 Driftsutgifter, kan overføres 4 489 000 1550 Datatilsynet: 1 Driftsutgifter 1 643 000 1551 Personvernnemnda: 1 Driftsutgifter, kan overføres 56 000 75 158 000 Finansdepartementet 1600 Finansdepartementet: 1 Driftsutgifter 9 376 000 1602 Finanstilsynet: 1 Driftsutgifter 9 917 000 1605 Direktoratet for forvaltning og økonomistyring: 1 Driftsutgifter 16 895 000 1610 Tolletaten: 1 Driftsutgifter 33 791 000 1618 Skatteetaten: 1 Driftsutgifter 140 066 000 1619 Skatteklagenemnda: 1 Driftsutgifter 1 912 000 1620 Statistisk sentralbyrå: 1 Driftsutgifter 15 138 000 227 095 000 Forsvarsdepartementet 1700 Forsvarsdepartementet: 1 Driftsutgifter 13 673 000 22 IKT-virksomhet, kan overføres 2 741 000 1710 Forsvarsbygg og nybygg og nyanlegg: 1 Driftsutgifter, kan overføres 26 690 000 1720 Forsvaret: 1 Driftsutgifter 471 061 000 1735 Etterretningstjenesten: 21 Spesielle driftsutgifter 70 249 000 1760 Forsvarsmateriell og større anskaffelser og vedlikehold: 1 Driftsutgifter, kan nyttes under kap. 1760, post 45 41 462 000 625 876 000 Energidepartementet 1800 Energidepartementet: 1 Driftsutgifter 5 203 000 1810 Sokkeldirektoratet: 1 Driftsutgifter 6 100 000 1820 Norges vassdrags- og energidirektorat: 1 Driftsutgifter 17 525 000 26 Reguleringsmyndigheten for energi 2 030 000 1860 Havindustritilsynet: 1 Driftsutgifter, kan nyttes under post 21 6 988 000 37 846 000 Ymse 2309 Tilfeldige utgifter: 1 Driftsutgifter -2 620 361 000 -2 620 361 000 Statsbankene 2410 Statens lånekasse for utdanning: 1 Driftsutgifter 7 380 000 2412 Husbanken: 1 Driftsutgifter 6 984 000 14 364 000 0 Neste kapittel Forrige kapittel Neste kapittel Forrige kapittel Til forsiden Last ned dokument Dokumentet i PDF format (3,4 MB) Dokumentet i EPUB format (390,6 kB) Dokumentet i Word format (684,3 kB) Søk i dokumentet: Tøm søkefeltet Søk 1 Gjennomføring av budsjettpolitikken 1.1 Hovedtall i budsjettet for 2024 1.2 Utviklingen i hovedtall gjennom budsjettåret 2024 1.3 Utviklingen siden Gul bok 2025 1.4 Utviklingen fra regnskap 2023 til nysaldert budsjett 2024 1.5 Anslag på regnskap og endelige regnskapstall for 2023 2 Forslag om endringer av inntekter fra skatter og avgifter 2.1 Anslagsendringer for skatter og avgifter 3 Forslag om endringer av inntekter og utgifter Kap. 20 Statsministerens kontor Post 01 Driftsutgifter Kap. 21 Statsrådet Post 01 Driftsutgifter Kap. 24 Regjeringsadvokaten Post 01 Driftsutgifter Kap. 43 Stortingets ombud for kontroll med forvaltningen Post 01 Driftsutgifter Kap. 45 Norges institusjon for menneskerettigheter Post 01 Driftsutgifter Kap. 51 Riksrevisjonen Post 01 Driftsutgifter Kap. 1600 Finansdepartementet Post 01 Driftsutgifter Post 50 Forskning og allmennopplysning – Norges forskningsråd Kap. 1602 Finanstilsynet Post 01 Driftsutgifter Kap. 1605 Direktoratet for forvaltning og økonomistyring Post 01 Driftsutgifter Kap. 1610 Tolletaten Post 01 Driftsutgifter Kap. 1618 Skatteetaten Post 01 Driftsutgifter Post 22 Større IT-prosjekter, kan overføres Kap. 1619 Skatteklagenemnda Post 01 Driftsutgifter Kap. 1620 Statistisk sentralbyrå Post 01 Driftsutgifter Kap. 1632 Kompensasjon for merverdiavgift Post 61 Tilskudd til kommuner og fylkeskommuner, overslagsbevilgning Post 72 Tilskudd til private og ideelle virksomheter, overslagsbevilgning Kap. 1633 Nettoordning, statlig betalt merverdiavgift Post 01 Driftsutgifter, overslagsbevilgning Kap. 1650 Statsgjeld, renter mv. Post 89 Renter og provisjon mv. på innenlandsk statsgjeld, overslagsbevilgning Kap. 1651 Statsgjeld, avdrag og innløsning Post 98 Avdrag på innenlandsk statsgjeld, overslagsbevilgning Kap. 2309 Tilfeldige utgifter Post 01 Driftsutgifter Kap. 2800 Statens pensjonsfond utland Post 50 Overføring til fondet Post 96 (Ny) Finansposter overført til fondet Kap. 3045 (Nytt) Norges institusjon for menneskerettigheter Post 01 (Ny) Inntekter fra offentlige foretak Post 03 (Ny) Inntekter fra stiftelser Kap. 4602 Finanstilsynet Post 03 Saksbehandlingsgebyr Post 86 Vinningsavståelse og overtredelsesgebyr mv. Kap. 4610 Tolletaten Post 04 Diverse refusjoner Kap. 4618 Skatteetaten Post 01 Refunderte utleggs- og tinglysingsgebyr Post 85 Inngått på tapsførte lån mv. Post 87 Trafikantsanksjoner Post 88 Forsinkelsesgebyr, Regnskapsregisteret Post 89 Overtredelsesgebyr Kap. 4634 Kompensasjon for inntektssvikt som følge av virusutbruddet Post 86 Lønnsstøtte til foretak rammet av smitteverntiltak – tilbakebetaling Kap. 5309 Tilfeldige inntekter Post 29 Ymse Kap. 5341 Avdrag på utestående fordringer Post 95 Avdrag på lån til andre stater Kap. 5506 (Nytt) Avgift av arv og gaver Post 70 (Ny) Avgift Kap. 5547 (Nytt) Avgift på helse- og miljøskadelige kjemikalier Post 70 (Ny) Trikloreten (TRI) Post 71 (Ny) Tetrakloreten (PER) Kap. 5580 Sektoravgifter under Finansdepartementet Post 70 Finanstilsynet, bidrag fra tilsynsetatene Kap. 5584 (Nytt) Diverse avgiftsinntekter mv. Post 70 (Ny) Utgåtte avgifter, og renter og tvangsmulkt på særavgifter Kap. 5603 Renter av statens kapital i statlige forvaltningsbedrifter Post 80 Renter av statens faste kapital Kap. 5605 Renter av statskassens kontantbeholdning og andre fordringer Post 80 Av statskassens foliokonto i Norges Bank Post 82 Av innenlandske verdipapirer Post 84 Av driftskreditt til statsbedrifter Kap. 5800 Statens pensjonsfond utland Post 50 Overføring fra fondet Kap. 5999 Statslånemidler Post 90 Lån 4 Statsregnskapet for 2024 4.1 Statsregnskapet per 30. september 2024 5 Lønnsoppgjøret 2024 – virkninger for 2024-budsjettet Tilråding Forslag til vedtak om ny saldering av statsbudsjettet 2024 Vedlegg 1 Oversikt over utgifter og inntekter for budsjettåret 2024 2 Endringer av inntekter, vedtatt eller foreslått etter Saldert budsjett 2024 3 Endringer av utgifter, vedtatt eller foreslått etter Saldert budsjett 2024 4 Endring av utgifter som følge av lønnsoppgjøret for statsansatte 5 Endringer etter Saldert budsjett 2024 – inntekter 6 Endringer etter Saldert budsjett 2024 – utgifter 7 Hovedoversikt over bevilgningsregnskapet for 1.–3. kvartal 2024 8 Bevilgningsregnskapet for 1.–3. kvartal 2023 og 2024 Lenkeverktøy Du kan kopiere lenke til et spesifikt kapittel/avsnitt Aktivér lenkeverktøy Til toppen",
+      "role": "Komplett hovedinnhold i denne HTML-representasjonen; navigasjon kan inngå"
+    }
+  ]
+}

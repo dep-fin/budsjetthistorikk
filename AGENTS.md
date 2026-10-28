@@ -16,6 +16,8 @@ Før 201/2025, flerårsutvalg eller visningspilot-4: les [T4-kontrakten](docs/fl
 
 Før K3-perioderegister eller perioderegister-1: les [P1-kontrakten](docs/perioderegister.md) og [P1-kontrollen](docs/research/perioderegister-52/README.md). Fullmakt, registerstruktur, monetære hendelser og faglig årsdekning holdes adskilt. Gamle objekter gjenbrukes gjennom én uendret T4-basis.
 
+Før sak 101000, 2024-lønnskompensasjon for 1429 eller overføringsfullmakt 429: les [R2-kildeundersøkelsen](docs/research/r2-101000-54/README.md). Prop. 36 vedlegg 4 har et eget /1-anslag; faktisk fullmaktsbruk og personellvirkning er uavklart. K3/P1s pinnede registre beholdes.
+
 ## Agent skills
 
 ### Issue tracker

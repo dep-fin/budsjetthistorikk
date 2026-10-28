@@ -399,3 +399,16 @@ HTML. P1 bevarer arkivet, arkivhash, egen representasjonshash og validerer
 begrenset dekomprimering opptil 32 MiB. De gamle portene endres ikke.
 [Kildebevis og praktisk konsekvens](research/perioderegister-52/source-findings.md),
 [kontrollarkiv og bevisgrenser](research/perioderegister-52/README.md).
+
+## R2/sak 101000: lønn, anslag og overføringsfullmakt – 28. oktober 2026
+
+Prop. 34 S → Innst. 91 S → 230/231 gir 1560/71-endring og generell lønnsregel,
+ingen ny belagt monetær 1429-hendelse. Den konkrete nysalderingshenvisningen
+fører til **Prop. 36 S vedlegg 4**, kapittel 1429/post 1, tabellens tr292–294:
+selvstendig observert lønnskompensasjonsanslag **2 796 000 kroner**. Dette er
+forslagsbevis; O1s avrundede 2,8 mill. og beregnede rest beholder sine roller.
+Vedtak **429/40034289** gir FIN fullmakt om overføring av ubrukt drift til 2025
+for utsatt etterbetaling. Det navngir ikke 1429; faktisk bruk og beløp er ukjent.
+Post 22 arver ingen lønnsforklaring. **Konsekvens:** les [kildebevisene og den
+presise restgrensen](research/r2-101000-54/README.md) før videre kobling.
+K3/P1, fem/elleve og delvis årsdekning beholdes uendret.

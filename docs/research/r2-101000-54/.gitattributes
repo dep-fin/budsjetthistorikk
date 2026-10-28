@@ -1,0 +1,2 @@
+# Hashfestede kilde- og kontrollfiler beholder sine faktiske byte.
+* -text whitespace=-blank-at-eol,cr-at-eol
