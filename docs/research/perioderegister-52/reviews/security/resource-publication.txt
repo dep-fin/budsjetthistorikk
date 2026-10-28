@@ -1,0 +1,67 @@
+"""Bounded supplementary resource and publication probes; local only."""
+import base64
+from dataclasses import replace
+import gzip
+import hashlib
+import io
+import json
+from pathlib import Path
+
+from analyse import perioderegister as p1
+from analyse import perioderegister_excel as excel
+from innlesning import perioderegister as source
+from innlesning.komitepilot import payload_bytes
+from innlesning.komitepilot_model import Payload
+
+ROOT=Path.cwd(); OUT=ROOT/'.local/p1-file-audit'
+results=[]
+def reject(name,callback):
+    try: callback()
+    except ValueError as error: results.append(dict(name=name,status='rejected',error=str(error)))
+    else: results.append(dict(name=name,status='ACCEPTED'))
+
+report=p1.read_json(OUT/'inputs/p1-complete/both.json')
+for name,maximum in [('entries',256),('case_candidates',67),('decision_candidates',25),('gaps',7),('evidence',4096),('sources',512)]:
+    changed=replace(report.basis,**{name:getattr(report.basis,name)[:1]*(maximum+1)})
+    reject('collection-cap-'+name,lambda b=changed:source.validate_basis(b))
+changed=replace(report.basis,inventory=report.basis.inventory[:1]*4097)
+reject('inventory-per-document-cap',lambda:source.validate_basis(changed))
+for text in ('!!!!','QQ==\n','QQ==='):
+    payload=Payload('0'*64,'0'*64,1,text,None)
+    reject('strict-base64-'+repr(text),lambda p=payload:payload_bytes(p))
+payload=Payload('0'*64,'0'*64,source.MAX_SOURCE+1,'A'*(4*((source.MAX_SOURCE+2)//3)+1),None)
+reject('base64-predecode-length-cap',lambda:payload_bytes(payload))
+known=next(n for n in source.CATALOG if n.endswith('.gz'))
+reject('foreign-gzip-rejected-by-independent-pin',lambda:source.representation(gzip.compress(b'synthetic source'),known))
+# Inject only a synthetic trusted catalog entry to isolate the decompression guard.
+# This is a guard unit probe; it is not a way to bypass the real fixed catalog.
+synthetic='synthetic-boundary-original.gz'
+expanded=b'x'*(source.MAX_ORIGINAL+1); archive=gzip.compress(expanded)
+source.CATALOG[synthetic]=(hashlib.sha256(archive).hexdigest(),len(archive),'',0,'register')
+try:
+    reject('synthetic-trusted-gzip-32MiB-plus-one',lambda:source.representation(archive,synthetic))
+finally:
+    del source.CATALOG[synthetic]
+del expanded,archive
+
+# Simulate another local writer creating the destination after initial checks.
+# The actual underlying platform publication operation must preserve that file.
+original_publish=p1._publish
+target=OUT/'synthetic/raced-publication.json'
+def competing_writer(temporary,output):
+    output.write_bytes(b'competing writer sentinel')
+    original_publish(temporary,output)
+p1._publish=competing_writer
+try:
+    try: p1.export_json(report,target)
+    except FileExistsError:
+        assert target.read_bytes()==b'competing writer sentinel'
+        results.append(dict(name='publication-does-not-clobber-racing-writer',status='passed'))
+    else: results.append(dict(name='publication-does-not-clobber-racing-writer',status='ACCEPTED'))
+finally: p1._publish=original_publish
+
+temporary_names={p.name for p in (OUT/'synthetic').glob('tmp*.json')}
+assert not temporary_names
+results.append(dict(name='publication-removes-own-temporary-file',status='passed'))
+(OUT/'resource-publication-results.json').write_text(json.dumps(results,ensure_ascii=False,indent=2),encoding='utf8')
+print(json.dumps(results,ensure_ascii=True))

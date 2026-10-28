@@ -1,0 +1,57 @@
+{
+  "base": "29ac220f62b35062fc4203f054e2f757ca795b7c",
+  "contract_commit": "407fdbcdff6421808690e3a08b0b15dfe4b09e6b",
+  "head": "407fdbcdff6421808690e3a08b0b15dfe4b09e6b",
+  "branch": "codex/p1-perioderegister",
+  "stage": "local candidate with complete legacy byte references; no staging or commit",
+  "files": [
+    {
+      "file": "innlesning/perioderegister_model.py",
+      "bytes": 3015,
+      "sha256": "3c94bf596569901f9a0186564d8315037fbf4d0fac566441c2dc3968c497f3b6",
+      "sha256_git_lf": "3c94bf596569901f9a0186564d8315037fbf4d0fac566441c2dc3968c497f3b6"
+    },
+    {
+      "file": "innlesning/perioderegister_catalog.py",
+      "bytes": 125690,
+      "sha256": "5217cf54f368c952dc2fa27330817b0690b8af664487fc5f95504e9e1ee54d3e",
+      "sha256_git_lf": "0002ace64c4946915bcee7c8d365204988c2c78cd96d2da28c52638780a58f1d"
+    },
+    {
+      "file": "innlesning/perioderegister.py",
+      "bytes": 31686,
+      "sha256": "2b7c1ae85258abde9c4cddeaa74acf84a6312ed57b6d2109f178e60f4c5356b9",
+      "sha256_git_lf": "2b7c1ae85258abde9c4cddeaa74acf84a6312ed57b6d2109f178e60f4c5356b9"
+    },
+    {
+      "file": "analyse/perioderegister.py",
+      "bytes": 10647,
+      "sha256": "9f9952352a65e2e42ba73b25bdb19d8acec738ed993e7dcd8cf802bb4a476ff1",
+      "sha256_git_lf": "9f9952352a65e2e42ba73b25bdb19d8acec738ed993e7dcd8cf802bb4a476ff1"
+    },
+    {
+      "file": "analyse/perioderegister_excel.py",
+      "bytes": 21907,
+      "sha256": "69b1522a31ddf77615496cad24a34aeb49fa8269d6c2fa188e5c7e42fe26da21",
+      "sha256_git_lf": "c765f966f90b6592a1686b2cc8822b932ae8808c8ef12aabead0e17b2bbebe18"
+    },
+    {
+      "file": "ops/perioderegister_proeve.py",
+      "bytes": 24586,
+      "sha256": "8284ed83ae3d258a23a90b5f709a6613f7b1565965d8328555472cf18ca58e57",
+      "sha256_git_lf": "8284ed83ae3d258a23a90b5f709a6613f7b1565965d8328555472cf18ca58e57"
+    },
+    {
+      "file": "ops/render_perioderegister.mjs",
+      "bytes": 2598,
+      "sha256": "e298c73f0516db04ea5caea3e28010b0b8f11706d332ba9a516237c2194a726b",
+      "sha256_git_lf": "e298c73f0516db04ea5caea3e28010b0b8f11706d332ba9a516237c2194a726b"
+    },
+    {
+      "file": "tests/test_perioderegister.py",
+      "bytes": 12025,
+      "sha256": "f0244f9140a641658a8f63efd90a1313f2f1ea17ad1315389c5861ccefa6cc93",
+      "sha256_git_lf": "f0244f9140a641658a8f63efd90a1313f2f1ea17ad1315389c5861ccefa6cc93"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+"""Confirm accepted XML changes while sockets and SQLite are disabled."""
+from pathlib import Path
+from unittest.mock import patch
+from zipfile import ZipFile
+import json
+import socket
+import sqlite3
+from lxml import etree
+from analyse.perioderegister import read_json
+from analyse.perioderegister_excel import read_excel
+
+OUT=Path('.local/p1-file-audit')
+reference=read_json(OUT/'inputs/p1-complete/both.json')
+calls=[]
+def forbidden(*args,**kwargs):
+    calls.append(repr(args))
+    raise AssertionError('No network or SQLite allowed in audit')
+results=[]
+with patch.object(socket,'create_connection',forbidden), patch.object(socket.socket,'connect',forbidden), patch.object(socket.socket,'connect_ex',forbidden), patch.object(sqlite3,'connect',forbidden):
+    for name in ('apply-alignment-zero','root-external-office-document'):
+        path=OUT/'synthetic'/('container-'+name+'.xlsx')
+        actual=read_excel(path)
+        assert actual==reference
+        with ZipFile(path) as z:
+            if name=='apply-alignment-zero':
+                ns='{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'
+                tree=etree.fromstring(z.read('xl/styles.xml'))
+                detail=dict(cell_xf_applyAlignment=[x.get('applyAlignment') for x in tree.find(ns+'cellXfs')])
+            else: detail=dict(package_root_relationship_xml=z.read('_rels/.rels').decode())
+        results.append(dict(name=name,accepted_report_id=actual.id,report_equal_reference=True,native_excel_exercised=False,**detail))
+assert not calls
+(OUT/'confirmed-findings.json').write_text(json.dumps(dict(findings=results,forbidden_calls=calls),ensure_ascii=False,indent=2),encoding='utf8')
+print(json.dumps(dict(confirmed_acceptances=len(results),forbidden_calls=len(calls))))

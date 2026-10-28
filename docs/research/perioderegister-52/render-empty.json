@@ -1,0 +1,64 @@
+{
+  "input": ".local/p1-complete/empty.xlsx",
+  "readOnly": true,
+  "nativeExcel": false,
+  "views": [
+    {
+      "sheetName": "Forløp",
+      "range": "A1:K12",
+      "file": ".local\\render-complete-empty\\forlop.png"
+    },
+    {
+      "sheetName": "Forløp",
+      "range": "N1:R8",
+      "file": ".local\\render-complete-empty\\originalreferanser.png"
+    },
+    {
+      "sheetName": "Dokumenter",
+      "range": "A1:L6",
+      "file": ".local\\render-complete-empty\\dokumenter.png"
+    },
+    {
+      "sheetName": "Dokumenter",
+      "range": "C1942:Q1947",
+      "file": ".local\\render-complete-empty\\fullmakt-inventar.png"
+    },
+    {
+      "sheetName": "Dokumenter",
+      "range": "C2161:Q2163",
+      "file": ".local\\render-complete-empty\\indeksinventar.png"
+    },
+    {
+      "sheetName": "Omtale",
+      "range": "B1:I5",
+      "file": ".local\\render-complete-empty\\omtale.png"
+    },
+    {
+      "sheetName": "Sammenligninger",
+      "range": "A1:J8",
+      "file": ".local\\render-complete-empty\\sammenligninger.png"
+    },
+    {
+      "sheetName": "Dekning og avvik",
+      "range": "A1:B16",
+      "file": ".local\\render-complete-empty\\dekning.png"
+    },
+    {
+      "sheetName": "Dekning og avvik",
+      "range": "A17:B23",
+      "file": ".local\\render-complete-empty\\globale-hull.png"
+    },
+    {
+      "sheetName": "Kontroll",
+      "range": "A1:K8",
+      "file": ".local\\render-complete-empty\\kontroll.png"
+    },
+    {
+      "sheetName": "Offlinegrunnlag",
+      "range": "A1:B3",
+      "file": ".local\\render-complete-empty\\offline.png"
+    }
+  ],
+  "sheets": "{\"kind\":\"sheet\",\"id\":\"ws/1xvw8p\",\"name\":\"Forløp\",\"index\":0,\"range\":\"A1:R1\",\"address\":\"A1:R1\"}\n{\"kind\":\"sheet\",\"id\":\"ws/q0kefa\",\"name\":\"Dokumenter\",\"index\":1,\"range\":\"A1:Q2252\",\"address\":\"A1:Q2252\"}\n{\"kind\":\"sheet\",\"id\":\"ws/9veu7d\",\"name\":\"Omtale\",\"index\":2,\"range\":\"A1:N228\",\"address\":\"A1:N228\"}\n{\"kind\":\"sheet\",\"id\":\"ws/j9mw7k\",\"name\":\"Sammenligninger\",\"index\":3,\"range\":\"A1:N1\",\"address\":\"A1:N1\"}\n{\"kind\":\"sheet\",\"id\":\"ws/8re0ip\",\"name\":\"Dekning og avvik\",\"index\":4,\"range\":\"A1:B146\",\"address\":\"A1:B146\"}\n{\"kind\":\"sheet\",\"id\":\"ws/5c8tsp\",\"name\":\"Kontroll\",\"index\":5,\"range\":\"A1:K556\",\"address\":\"A1:K556\"}\n{\"kind\":\"sheet\",\"id\":\"ws/tcc72r\",\"name\":\"Offlinegrunnlag\",\"index\":6,\"range\":\"A1:B819\",\"address\":\"A1:B819\"}",
+  "amountInspection": "{\"kind\":\"table\",\"sheet\":\"Forløp\",\"address\":\"A1:R12\",\"rows\":12,\"cols\":18,\"values\":[[\"Konto\",\"Budsjettår\",\"Dokument\",\"Dato\",\"Runde / stadium\",\"Avsender\",\"Nivå kr\",\"Før kr\",\"Endring kr\",\"Etter kr\",\"Status\",\"Felt-ID-er\",\"Ledd-ID\",\"Dokumentversjon\",\"Postkobling\",\"Originalreferanse\",\"Lokator\",\"Registerledd-ID\"],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]}"
+}

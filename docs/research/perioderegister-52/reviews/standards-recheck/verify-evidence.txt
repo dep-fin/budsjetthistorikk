@@ -1,0 +1,116 @@
+"""Read-only candidate and journal binding; writes only this review's evidence."""
+
+import hashlib
+import json
+import subprocess
+from pathlib import Path
+from xml.etree import ElementTree
+
+ROOT = Path.cwd()
+OUT = ROOT / ".local/p1-standards-recheck"
+CANDIDATE = "aec0269b9d6216cc03f9688e62c33a94cfa6cb6c"
+ORIGINAL = "4413a5f21be71ccd2ad5c885560da6bae2e8b885"
+TREE = "c4c7944dac1510ba428a20440b40f33ebfb8430c"
+
+
+def git(*args):
+    return subprocess.check_output(["git", *args])
+
+
+def sha(raw):
+    return hashlib.sha256(raw).hexdigest()
+
+
+def check_record(record):
+    path = Path(record["path"])
+    raw = path.read_bytes()
+    assert len(raw) == record["bytes"], path
+    assert sha(raw) == record["sha256"], path
+    relative = path.resolve().relative_to(ROOT).as_posix()
+    result = {"path": relative, "bytes": len(raw), "sha256": sha(raw)}
+    if not relative.startswith(".local/"):
+        blob = git("show", CANDIDATE + ":" + relative)
+        assert blob.replace(b"\r\n", b"\n") == raw.replace(b"\r\n", b"\n"), relative
+        result.update(git_bytes=len(blob), git_sha256=sha(blob), exact_worktree_git_bytes=blob == raw)
+    return result
+
+
+def main():
+    assert git("rev-parse", "HEAD").decode().strip() == CANDIDATE
+    assert git("rev-parse", CANDIDATE + "^{tree}").decode().strip() == TREE
+    start_status = git("status", "--porcelain").decode()
+    assert not start_status
+    research = ROOT / "docs/research/perioderegister-52"
+    fix = research / "audit-fix"
+    manifest = json.loads((fix / "candidate.json").read_text("utf8"))
+    checked = [check_record(r) for r in manifest["complete_executable_binding"]]
+    checked += [check_record(r) for r in manifest["files"]]
+    checked += [check_record(r) for r in manifest["actual_targeted_test_files"]]
+    checked.append(check_record(manifest["attributes"]))
+    previous = json.loads((research / "candidate-code.json").read_text("utf8"))
+    expected_replacements = {
+        "analyse/perioderegister_excel.py", "tests/test_perioderegister.py"
+    }
+    actual_replacements = set()
+    for record in previous["files"]:
+        path = record["file"]
+        old = git("show", ORIGINAL + ":" + path)
+        assert sha(old) == record.get("sha256_git_lf", record["sha256"]), path
+        new = git("show", CANDIDATE + ":" + path)
+        if old != new:
+            actual_replacements.add(path)
+    assert actual_replacements == expected_replacements
+    before = json.loads((fix / "before.json").read_text("utf8"))
+    after = json.loads((fix / "after.json").read_text("utf8"))
+    assert before["preserved_sha256"] == after["preserved_sha256"]
+    preserved = []
+    for path, digest in after["preserved_sha256"].items():
+        raw = (ROOT / path).read_bytes()
+        assert sha(raw) == digest, path
+        if not path.startswith(".local/"):
+            assert git("show", CANDIDATE + ":" + path).replace(b"\r\n", b"\n") == raw.replace(b"\r\n", b"\n"), path
+        preserved.append(path)
+    original_docs = git("ls-tree", "-r", "--name-only", ORIGINAL, "--", "docs/research/perioderegister-52").decode().splitlines()
+    for path in original_docs:
+        assert git("show", ORIGINAL + ":" + path) == git("show", CANDIDATE + ":" + path), path
+    assert git("show", ORIGINAL + ":analyse/omtale_excel_guard.py") == git("show", CANDIDATE + ":analyse/omtale_excel_guard.py")
+    added_json = []
+    for path in git("diff", "--name-only", ORIGINAL + ".." + CANDIDATE).decode().splitlines():
+        if path.endswith(".json"):
+            json.loads((ROOT / path).read_text("utf8"))
+            added_json.append(path)
+        elif path.endswith(".jsonl"):
+            for line in (ROOT / path).read_text("utf8").splitlines():
+                json.loads(line)
+            added_json.append(path)
+    junit = {}
+    for path in fix.glob("*.xml"):
+        suite = ElementTree.parse(path).getroot()[0]
+        junit[path.stem] = {k: suite.get(k) for k in ("tests", "errors", "failures", "skipped", "time")}
+    assert junit == manifest["control_summary"]
+    for row in after["positive_checks"]:
+        path = ROOT / row["file"]
+        assert sha(path.read_bytes()) == row["sha256"], path
+        assert sha(path.with_suffix(".json").read_bytes()) == row["frozen_sha256"], path
+    for row in after["results"]:
+        path = ROOT / ".local/p1-file-audit/synthetic" / ("container-" + row["name"] + ".xlsx")
+        assert sha(path.read_bytes()) == row["sha256"]
+        assert row["status"] == "REJECTED"
+    result = {
+        "candidate": CANDIDATE, "tree": TREE, "comparison": ORIGINAL,
+        "complete_executable_files": len(manifest["complete_executable_binding"]),
+        "replacements": sorted(actual_replacements), "verified_records": checked,
+        "preserved_evidence_files": preserved, "historical_original_documents_unchanged": len(original_docs),
+        "old_guard_unchanged": True, "parsed_changed_json_jsonl": added_json,
+        "junit": junit, "positive_input_pairs_hash_checked": len(after["positive_checks"]),
+        "exact_attack_inputs_hash_checked": len(after["results"]),
+        "start_status": start_status, "end_status": git("status", "--porcelain").decode(),
+    }
+    assert not result["end_status"]
+    (OUT / "evidence.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
+    print(json.dumps({k: result[k] for k in ("candidate", "tree", "complete_executable_files", "replacements", "historical_original_documents_unchanged", "old_guard_unchanged", "positive_input_pairs_hash_checked", "exact_attack_inputs_hash_checked")}))
+    print("records", len(checked), "preserved", len(preserved), "json/jsonl", len(added_json))
+
+
+if __name__ == "__main__":
+    main()

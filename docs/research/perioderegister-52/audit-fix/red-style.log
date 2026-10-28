@@ -1,0 +1,33 @@
+F                                                                        [100%]
+================================== FAILURES ===================================
+___________________ test_disabled_raw_alignment_is_rejected ___________________
+
+tmp_path = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/.local/p1-audit-fix-red2/test_disabled_raw_alignment_is0')
+saved_pair = (WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/.local/p1-audit-fix-red2/save...5019058dcdffa943764b480fa71f1401b095de81b7'), amount_kr=29185000, observed_kr=29185000)), version='perioderegister-1'))
+
+    def test_disabled_raw_alignment_is_rejected(tmp_path, saved_pair):
+        from zipfile import ZIP_DEFLATED, ZipFile
+    
+        from lxml import etree
+    
+        from analyse.perioderegister_excel import read_excel
+    
+        path = tmp_path / "disabled-alignment.xlsx"
+        namespace = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
+        with ZipFile(saved_pair[1]) as source, ZipFile(path, "w", ZIP_DEFLATED) as target:
+            for member in source.infolist():
+                raw = source.read(member)
+                if member.filename == "xl/styles.xml":
+                    root = etree.fromstring(raw)
+                    for xf in root.find(namespace + "cellXfs"):
+                        xf.set("applyAlignment", "0")
+                    raw = etree.tostring(root)
+                target.writestr(member, raw)
+>       with pytest.raises(ValueError, match="P1-Excel.*r�.*stil"):
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+tests\test_perioderegister.py:276: Failed
+- generated xml file: C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\p1-perioderegister\docs\research\perioderegister-52\audit-fix\red-style.xml -
+=========================== short test summary info ===========================
+FAILED tests/test_perioderegister.py::test_disabled_raw_alignment_is_rejected
+1 failed, 25 deselected in 51.35s

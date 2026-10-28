@@ -1,0 +1,27 @@
+{
+  "findings": [
+    {
+      "name": "apply-alignment-zero",
+      "accepted_report_id": "d6a647f6bf3cea97bec9e308eba1fe124077dae63ff9eb5e582afb43b57ae615",
+      "report_equal_reference": true,
+      "native_excel_exercised": false,
+      "cell_xf_applyAlignment": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "root-external-office-document",
+      "accepted_report_id": "d6a647f6bf3cea97bec9e308eba1fe124077dae63ff9eb5e582afb43b57ae615",
+      "report_equal_reference": true,
+      "native_excel_exercised": false,
+      "package_root_relationship_xml": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"https://example.invalid/synthetic.xlsx\" Id=\"rId1\" TargetMode=\"External\"/><Relationship Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\" Id=\"rId3\"/></Relationships>"
+    }
+  ],
+  "forbidden_calls": []
+}

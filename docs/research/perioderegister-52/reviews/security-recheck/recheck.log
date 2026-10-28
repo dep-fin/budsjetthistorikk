@@ -1,0 +1,27 @@
+{"name": "candidate-bound", "status": "PASSED", "elapsed": 1.75, "head": "aec0269b9d6216cc03f9688e62c33a94cfa6cb6c", "tree": "c4c7944dac1510ba428a20440b40f33ebfb8430c", "preserved_files": 258}
+{"name": "exact-container-root-external-office-document.xlsx", "status": "REJECTED", "elapsed": 2.703, "error": "P1-Excel har ugyldig lokal pakkrelasjon: _rels/.rels", "file": "inputs/synthetic/container-root-external-office-document.xlsx", "sha256": "929615ec56df384b1113fe57351d26948d8ae52b242fa4bc429537756a981a68"}
+{"name": "exact-container-apply-alignment-zero.xlsx", "status": "REJECTED", "elapsed": 15.297, "error": "P1-Excel avviker i r\u00e5 OOXML-stilprofil", "file": "inputs/synthetic/container-apply-alignment-zero.xlsx", "sha256": "c10c3fa0f85ee0d501785d0ccfb5ec990c1aaff76d989baf258e8692dc7140a7"}
+{"name": "positive-pair-both", "status": "PASSED", "elapsed": 34.078, "report_id": "d6a647f6bf3cea97bec9e308eba1fe124077dae63ff9eb5e582afb43b57ae615", "monetary_counts": [11, 5], "global_counts": [67, 25, 7], "json_sha256": "3e734ba2b88f091b081b9820b5302ede681242876f590b7e870956908bb9a6d4", "xlsx_sha256": "b70823d43161b557d48acec9874b8acdeed72130c24399a75609adabd7e49a60"}
+{"name": "positive-pair-vedtak346", "status": "PASSED", "elapsed": 52.391, "report_id": "b73e2279c7b249bb36c4eb4ef77ad6f29ea84c4e9d10bb5745530e8ce9a534dd", "monetary_counts": [0, 0], "global_counts": [67, 25, 7], "json_sha256": "762a7df2b6779a78a2b6e632260084acf7f23ce7eb3295e632f662a991a1b16d", "xlsx_sha256": "97a0ea434ca445504298153c5e790f22704d722b56084f57a43df1d322c71af8"}
+{"name": "positive-pair-empty", "status": "PASSED", "elapsed": 72.422, "report_id": "620a706829d402044d90e4d68d14f66bb9f0232e357944bb6f60c8bd9fa53aea", "monetary_counts": [0, 0], "global_counts": [67, 25, 7], "json_sha256": "22c3b946f42b9fb1e5b4972fa71cf12e47cebea6803a69693a29a014a6b66f8f", "xlsx_sha256": "c473119d4f1e620ee76f1d0e6c05099c4f29c4bf773c4c09206de71c230675ef"}
+{"name": "positive-pair-wrong-year", "status": "PASSED", "elapsed": 92.391, "report_id": "858218aa3005d8f9f2f1ea8cc37dbe5f67be8e555a28edcbe2227cad0fb0168a", "monetary_counts": [0, 0], "global_counts": [67, 25, 7], "json_sha256": "6a84501e81e07b30178cf7b4eb40f57c46085dc51973afe12ff52b4d58b5eae1", "xlsx_sha256": "31f745799071c3a76be90f5ef64c73e3f6dbac20302839e1f8da41a31a1c1319"}
+{"name": "positive-pair-unknown-index", "status": "PASSED", "elapsed": 111.5, "report_id": "1a0db5b1bac76872b935737f34dcae9135cdb28583896166a9b2dbe5f5399440", "monetary_counts": [0, 0], "global_counts": [67, 25, 7], "json_sha256": "f585a238169ba8aa3160c4f37c80dc57a5f9f9f719e3f89245f54e8518235599", "xlsx_sha256": "83d333aeb9949fad20967e54314532de1378fdf4385ef69d86c9afc8ade8dc1c"}
+{"name": "old-calculation-and-navigation", "status": "PASSED", "elapsed": 112.578, "amounts_kr": [166039000, 29185000]}
+{"name": "root-external-core", "status": "REJECTED", "elapsed": 113.969, "error": "P1-Excel har ugyldig lokal pakkrelasjon: _rels/.rels", "file": "synthetic/root-external-core.xlsx", "sha256": "5bdbec803481a384da09f14caa7c1e7d90a51de4233887730f3e03fa7f431b8c"}
+{"name": "root-external-app", "status": "REJECTED", "elapsed": 115.266, "error": "P1-Excel har ugyldig lokal pakkrelasjon: _rels/.rels", "file": "synthetic/root-external-app.xlsx", "sha256": "5e9e914f46f0bd723d47af680310657e54c8b742c856c1395b94365b336653c3"}
+{"name": "root-internal-mode", "status": "REJECTED", "elapsed": 116.875, "error": "P1-Excel har ugyldig lokal pakkrelasjon: _rels/.rels", "file": "synthetic/root-internal-mode.xlsx", "sha256": "0c47e6160549651d2414e95597726474668c0ec59796cd8c72bf1c65d0b987a1"}
+{"name": "root-duplicate-id", "status": "REJECTED", "elapsed": 118.313, "error": "P1-Excel har ugyldig lokal pakkrelasjon: _rels/.rels", "file": "synthetic/root-duplicate-id.xlsx", "sha256": "0dc050c5a68098e5f329f195e1bef755c91c95fcb7ad2a63413f87c441c4999f"}
+{"name": "root-missing-id", "status": "REJECTED", "elapsed": 119.641, "error": "P1-Excel har ugyldig lokal pakkrelasjon: _rels/.rels", "file": "synthetic/root-missing-id.xlsx", "sha256": "321cfceb12b7bd01c87d5ab23c63389b5b206b829b5d102e2dbe17773195705b"}
+{"name": "root-duplicate-entry", "status": "REJECTED", "elapsed": 121.266, "error": "P1-Excel har ugyldig lokal pakkrelasjon: _rels/.rels", "file": "synthetic/root-duplicate-entry.xlsx", "sha256": "c28eb5957b0079b124d68904c317a3e4a71e7734f146baf3d7a44a10afa5d6c3"}
+Traceback (most recent call last):
+  File "C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\p1-perioderegister\.local\p1-security-recheck\recheck.py", line 295, in <module>
+    main()
+  File "C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\p1-perioderegister\.local\p1-security-recheck\recheck.py", line 212, in main
+    rejected(name, rewrite(source, name, {member: change}))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\p1-perioderegister\.local\p1-security-recheck\recheck.py", line 84, in rewrite
+    changes[info.filename](root)
+  File "C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\p1-perioderegister\.local\p1-security-recheck\recheck.py", line 125, in append_external
+    e.attrib.update(Id="unused", Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",
+  File "src/lxml/etree.pyx", line 2606, in lxml.etree._Attrib.update
+TypeError: update() got an unexpected keyword argument 'Id'

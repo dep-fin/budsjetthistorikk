@@ -1,0 +1,184 @@
+"""Independent public-file P1 specification recheck, limited to this directory."""
+import builtins
+import hashlib
+import io
+import json
+import os
+from pathlib import Path
+import shutil
+import socket
+import sqlite3
+import subprocess
+import sys
+import time
+
+from analyse.perioderegister import (
+    build_report, contents, go_back, open_accounts, open_document, read_json,
+)
+from analyse.perioderegister_excel import read_excel
+from innlesning.visningspilot_model import PilotSelection
+
+ROOT = Path(__file__).resolve().parents[2]
+OUT = Path(__file__).resolve().parent
+START = time.monotonic()
+RESULT = {"checks": [], "errors": [], "forbidden_calls": []}
+PIN = "aec0269b9d6216cc03f9688e62c33a94cfa6cb6c"
+TREE = "c4c7944dac1510ba428a20440b40f33ebfb8430c"
+
+
+def sha(path):
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+
+def git(*args):
+    return subprocess.check_output(["git", "-C", str(ROOT), *args])
+
+
+def record(name, **details):
+    RESULT["checks"].append(dict(name=name, **details))
+    (OUT / "results.json").write_text(json.dumps(RESULT, ensure_ascii=False, indent=2), "utf8")
+    print(name, flush=True)
+
+
+def forbidden(*args, **kwargs):
+    RESULT["forbidden_calls"].append(repr(args))
+    raise AssertionError("Socket/SQLite access forbidden")
+
+
+def main():
+    assert git("rev-parse", "HEAD").decode().strip() == PIN
+    assert git("rev-parse", "HEAD^{tree}").decode().strip() == TREE
+    assert not git("status", "--porcelain", "--untracked-files=no").strip()
+    record("fixed_candidate_clean", commit=PIN, tree=TREE)
+
+    research = ROOT / "docs/research/perioderegister-52"
+    addition = json.loads((research / "audit-fix/candidate.json").read_text("utf8"))
+    previous = json.loads((research / "audit-fix/after.json").read_text("utf8"))
+    for entry in addition["complete_executable_binding"]:
+        assert sha(ROOT / entry["path"]) == entry["sha256"], entry["path"]
+    for path, expected in previous["preserved_sha256"].items():
+        assert sha(ROOT / path) == expected, path
+    for entry in addition["files"]:
+        path = Path(entry["path"])
+        assert len(path.read_bytes()) == entry["bytes"] and sha(path) == entry["sha256"], path
+    old_code = json.loads((research / "candidate-code.json").read_text("utf8"))
+    changed = [entry["file"] for entry in old_code["files"] if sha(ROOT / entry["file"]) != entry["sha256"]]
+    assert set(changed) == {"analyse/perioderegister_excel.py", "tests/test_perioderegister.py"}
+    assert git("show", "4413a5f:docs/perioderegister.md") == (ROOT / "docs/perioderegister.md").read_bytes()
+    record("historical_evidence_and_current_binding", executable_files=8,
+           unchanged_historical_files=len(previous["preserved_sha256"]), changed_code=changed,
+           old_build_fullsuite_applies_to="4413a5f", current_fullsuite_rerun=False)
+
+    manifest = json.loads((research / "delivery-manifest.json").read_text("utf8"))
+    entries = {Path(entry["path"]).as_posix(): entry for entry in manifest["files"]}
+    inp = OUT / "inputs"
+    inp.mkdir(exist_ok=False)
+    names = ["both", "post1", "post22", "vedtak346", "empty", "wrong-year", "unknown-index"]
+    for name in names:
+        for suffix in (".json", ".xlsx"):
+            relative = Path(".local/p1-complete") / (name + suffix)
+            source = ROOT / relative
+            entry = entries[relative.as_posix()]
+            assert sha(source) == entry["sha256"], source
+            target = inp / (name + suffix)
+            shutil.copyfile(source, target)
+            assert sha(target) == sha(source)
+    record("seven_original_pairs_hashbound_copied", files=14)
+
+    socket.create_connection = socket.socket.connect = socket.socket.connect_ex = forbidden
+    sqlite3.connect = forbidden
+    originals = {}
+    counts = {"both": (11, 5), "post1": (7, 3), "post22": (4, 2)}
+    for name in names:
+        frozen, excel = inp / (name + ".json"), inp / (name + ".xlsx")
+        report = read_json(frozen)
+        assert read_excel(excel) == report
+        actual = (len(report.view.monetary.adopted_observation_ids), len(report.view.monetary.adopted_event_ids))
+        assert actual == counts.get(name, (0, 0)), name
+        assert (len(report.view.case_candidate_ids), len(report.view.decision_candidate_ids), len(report.view.gap_ids)) == (67, 25, 7)
+        assert report.basis.year_coverage == "partial" and report.basis.professional_annual_balance_approval is False
+        originals[name] = report
+        record("old_public_pair_" + name, monetary=actual, global_counts=(67, 25, 7),
+               json_sha256=sha(frozen), excel_sha256=sha(excel), report_id=report.id)
+
+    both = originals["both"]
+    docs = {d.key: d.id for d in contents(both.basis).documents}
+    for name, report in originals.items():
+        swapped = (open_document(report, docs["vedtak346"]) if report.selection.mode == "accounts"
+                   else open_accounts(report, both.selection))
+        assert swapped.basis is report.basis and go_back(swapped) == report, name
+    authority = next(e for e in both.basis.entries if e.key == "original-346")
+    assert authority.role == "adopted_revenue_authorization" and not authority.observation_ids and not authority.event_ids
+    assert [(c.amount_kr, c.status) for c in both.calculations] == [(166039000, "avgrenset kontroll"), (29185000, "avgrenset kontroll")]
+    for key, expected in (("vedtak341", (2, 2)), ("vedtak857", (3, 1)), ("vedtak210", (6, 2))):
+        doc = build_report(both.basis, PilotSelection(mode="document", document_id=docs[key]))
+        assert (len(doc.view.monetary.adopted_observation_ids), len(doc.view.monetary.adopted_event_ids)) == expected
+    record("two_entries_return_and_old_monetary_boundary", navigation_cases=7, document_count_cases=3,
+           calculation_values=[166039000, 29185000])
+
+    for name, expected in (
+        ("root-external-office-document", "929615ec56df384b1113fe57351d26948d8ae52b242fa4bc429537756a981a68"),
+        ("apply-alignment-zero", "c10c3fa0f85ee0d501785d0ccfb5ec990c1aaff76d989baf258e8692dc7140a7"),
+    ):
+        source = ROOT / ".local/p1-file-audit/synthetic" / ("container-" + name + ".xlsx")
+        assert sha(source) == expected
+        copied = inp / source.name
+        shutil.copyfile(source, copied)
+        try:
+            read_excel(copied)
+        except ValueError as error:
+            record("exact_audit_file_rejected_" + name, sha256=sha(copied), error=str(error))
+        else:
+            raise AssertionError(name)
+
+    # Use the public CLI from an empty directory; deny source docs, fixtures,
+    # sockets and SQLite while reading frozen input and writing real outputs.
+    empty = OUT / "empty-working-directory"
+    empty.mkdir(exist_ok=False)
+    initial = Path.cwd()
+    io_open, builtin_open = io.open, builtins.open
+
+    def safe_open(file, *args, **kwargs):
+        if isinstance(file, (str, bytes, Path)):
+            target = Path(file).resolve()
+            assert not target.is_relative_to(ROOT / "docs"), target
+            assert not target.is_relative_to(ROOT / "tests/fixtures"), target
+        return io_open(file, *args, **kwargs)
+
+    io.open = builtins.open = safe_open
+    try:
+        os.chdir(empty)
+        sys.argv = ["analyse.perioderegister", "--frosset", str(inp / "both.json"),
+                    "--rot", str(OUT / "unavailable-original-root"), "--dokument", "vedtak346",
+                    "--json", str(OUT / "offline-fullmakt.json"), "--excel", str(OUT / "offline-fullmakt.xlsx")]
+        from analyse.perioderegister import main as cli
+        cli()
+        reopened = read_json(OUT / "offline-fullmakt.json")
+        assert read_excel(OUT / "offline-fullmakt.xlsx") == reopened == originals["vedtak346"]
+        record("public_offline_cli_written_closed_reopened", equal_original_fullmakt=True,
+               json_sha256=sha(OUT / "offline-fullmakt.json"), excel_sha256=sha(OUT / "offline-fullmakt.xlsx"))
+    finally:
+        io.open, builtins.open = io_open, builtin_open
+        os.chdir(initial)
+
+    assert not RESULT["forbidden_calls"]
+    for name in names:
+        for suffix in (".json", ".xlsx"):
+            relative = Path(".local/p1-complete") / (name + suffix)
+            assert sha(ROOT / relative) == entries[relative.as_posix()]["sha256"]
+    assert git("rev-parse", "HEAD").decode().strip() == PIN
+    assert git("rev-parse", "HEAD^{tree}").decode().strip() == TREE
+    assert not git("status", "--porcelain", "--untracked-files=no").strip()
+    record("unchanged_candidate_and_original_pairs", forbidden_calls=[])
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except BaseException as error:
+        RESULT["errors"].append(repr(error))
+        raise
+    finally:
+        RESULT["seconds"] = round(time.monotonic() - START, 3)
+        (OUT / "results.json").write_text(json.dumps(RESULT, ensure_ascii=False, indent=2), "utf8")
+        print(json.dumps({"checks": len(RESULT["checks"]), "errors": RESULT["errors"], "seconds": RESULT["seconds"]}), flush=True)

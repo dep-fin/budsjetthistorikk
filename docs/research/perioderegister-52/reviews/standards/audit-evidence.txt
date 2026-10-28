@@ -1,0 +1,119 @@
+"""Independent, read-only Standards evidence checks; no suite or product mutation."""
+from __future__ import annotations
+
+import ast
+import gzip
+import hashlib
+import json
+import subprocess
+import xml.etree.ElementTree as ET
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+OUT = Path(__file__).parent
+BASE = "29ac220f62b35062fc4203f054e2f757ca795b7c"
+CANDIDATE = "4413a5f21be71ccd2ad5c885560da6bae2e8b885"
+PROOF = ROOT / "docs/research/perioderegister-52"
+
+
+def git(*args: str) -> bytes:
+    return subprocess.check_output(["git", *args], cwd=ROOT)
+
+
+def sha(raw: bytes) -> str:
+    return hashlib.sha256(raw).hexdigest()
+
+
+def read_json(path: Path):
+    return json.loads(path.read_text(encoding="utf8"))
+
+
+results = {"base": BASE, "candidate": CANDIDATE}
+results["head"] = git("rev-parse", "HEAD").decode().strip()
+results["tree"] = git("rev-parse", CANDIDATE + "^{tree}").decode().strip()
+results["tracked_status_before"] = git("status", "--short").decode()
+assert results["head"] == CANDIDATE
+assert results["tree"] == "afc1eacfa74cec19e35a5cb49ee5907be5bfc877"
+assert not results["tracked_status_before"]
+results["commits"] = git("log", BASE + ".." + CANDIDATE, "--oneline").decode().splitlines()
+paths = git("diff", "--name-only", BASE, CANDIDATE).decode().splitlines()
+results["changed_files"] = paths
+
+code = read_json(PROOF / "candidate-code.json")
+bindings = []
+for entry in code["files"]:
+    raw = (ROOT / entry["file"]).read_bytes()
+    blob = git("show", CANDIDATE + ":" + entry["file"])
+    assert sha(raw) == entry["sha256"] and len(raw) == entry["bytes"], entry["file"]
+    assert sha(blob) == entry["sha256_git_lf"], entry["file"]
+    bindings.append({"path": entry["file"], "working_sha256": sha(raw), "git_sha256": sha(blob)})
+results["executable_bindings"] = bindings
+
+manifest = read_json(PROOF / "delivery-manifest.json")
+manifest_files = []
+for entry in manifest["files"]:
+    path = ROOT / entry["path"]
+    raw = path.read_bytes()
+    assert len(raw) == entry["bytes"] and sha(raw) == entry["sha256"], entry["path"]
+    manifest_files.append({"path": entry["path"], "bytes": len(raw), "sha256": sha(raw)})
+results["delivery_manifest"] = {"verified_files": len(manifest_files), "bytes": sum(e["bytes"] for e in manifest_files)}
+
+tree = ast.parse((ROOT / "innlesning/perioderegister_catalog.py").read_text(encoding="utf8"))
+catalog = next(ast.literal_eval(n.value) for n in tree.body if isinstance(n, ast.AnnAssign))
+catalog_files = []
+for path, (pin, count, expanded_pin, expanded_count, record) in catalog.items():
+    raw = (ROOT / path).read_bytes()
+    blob = git("show", BASE + ":" + path)
+    assert len(raw) == count and sha(raw) == pin and raw == blob, path
+    if path.endswith(".gz"):
+        expanded = gzip.decompress(raw)
+        assert (not expanded_pin or sha(expanded) == expanded_pin), path
+        assert (not expanded_count or len(expanded) == expanded_count), path
+    if record != "register":
+        json.loads(record)
+    catalog_files.append({"path": path, "bytes": count, "sha256": pin})
+results["source_catalog"] = {"verified_sources": len(catalog_files), "bytes": sum(e["bytes"] for e in catalog_files)}
+
+suite = ET.parse(PROOF / "checks/full-suite.xml").getroot()
+test_cases = list(suite.iter("testcase"))
+results["junit"] = {
+    "tests": len(test_cases),
+    "failures": len(list(suite.iter("failure"))),
+    "errors": len(list(suite.iter("error"))),
+    "skipped": len(list(suite.iter("skipped"))),
+    "p1_tests": sum("perioderegister" in c.attrib.get("classname", "") for c in test_cases),
+}
+results["recorded_static_checks"] = {n: (PROOF / "checks" / (n + ".log")).read_text(encoding="utf8").strip() for n in ("ruff", "format", "mypy")}
+results["fullsuite_record"] = read_json(PROOF / "checks/full-suite-result.json")
+results["fullsuite_record"].pop("before")
+results["fullsuite_record"].pop("after")
+assert results["junit"] == {"tests": 1181, "failures": 0, "errors": 0, "skipped": 2, "p1_tests": 24}
+
+imports = {}
+for path in ("innlesning/perioderegister.py", "innlesning/perioderegister_model.py", "innlesning/perioderegister_catalog.py"):
+    parsed = ast.parse((ROOT / path).read_text(encoding="utf8"))
+    values = []
+    for node in ast.walk(parsed):
+        if isinstance(node, ast.Import):
+            values.extend(a.name for a in node.names)
+        elif isinstance(node, ast.ImportFrom):
+            values.append("." * node.level + (node.module or ""))
+    assert not any(v == "analyse" or v.startswith("analyse.") for v in values)
+    imports[path] = values
+results["ingestion_imports"] = imports
+
+for path in paths:
+    if path.endswith(".json"):
+        read_json(ROOT / path)
+results["candidate_json_parse"] = "all changed JSON files parse"
+results["tracked_status_after"] = git("status", "--short").decode()
+assert not results["tracked_status_after"]
+results["limitations"] = [
+    "No test suite rerun; inspected completed, hash-bound build evidence.",
+    "No native Excel, Linux CI, deployment, or independent security acceptance claimed.",
+    "Manifest historical head/stage describe the builder handoff; executable Git binding above links it to the fixed review candidate.",
+]
+(OUT / "evidence-audit.json").write_text(json.dumps(results, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
+(OUT / "verified-manifest-files.json").write_text(json.dumps(manifest_files, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
+(OUT / "verified-source-catalog.json").write_text(json.dumps(catalog_files, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
+print(json.dumps({k: results[k] for k in ("head", "tree", "delivery_manifest", "source_catalog", "junit", "recorded_static_checks")}, ensure_ascii=False, indent=2))

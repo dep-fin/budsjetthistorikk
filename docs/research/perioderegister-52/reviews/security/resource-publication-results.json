@@ -1,0 +1,75 @@
+[
+  {
+    "name": "collection-cap-entries",
+    "status": "rejected",
+    "error": "P1-samling overstiger kontraktens ressursgrense"
+  },
+  {
+    "name": "collection-cap-case_candidates",
+    "status": "rejected",
+    "error": "P1-samling overstiger kontraktens ressursgrense"
+  },
+  {
+    "name": "collection-cap-decision_candidates",
+    "status": "rejected",
+    "error": "P1-samling overstiger kontraktens ressursgrense"
+  },
+  {
+    "name": "collection-cap-gaps",
+    "status": "rejected",
+    "error": "P1-samling overstiger kontraktens ressursgrense"
+  },
+  {
+    "name": "collection-cap-evidence",
+    "status": "rejected",
+    "error": "P1-samling overstiger kontraktens ressursgrense"
+  },
+  {
+    "name": "collection-cap-sources",
+    "status": "rejected",
+    "error": "P1-samling overstiger kontraktens ressursgrense"
+  },
+  {
+    "name": "inventory-per-document-cap",
+    "status": "rejected",
+    "error": "P1-samling overstiger kontraktens ressursgrense"
+  },
+  {
+    "name": "strict-base64-'!!!!'",
+    "status": "rejected",
+    "error": "Ugyldig T2-base64"
+  },
+  {
+    "name": "strict-base64-'QQ==\\n'",
+    "status": "rejected",
+    "error": "Ugyldig T2-base64"
+  },
+  {
+    "name": "strict-base64-'QQ==='",
+    "status": "rejected",
+    "error": "Ugyldig T2-base64"
+  },
+  {
+    "name": "base64-predecode-length-cap",
+    "status": "rejected",
+    "error": "Duplisert eller for stor payload"
+  },
+  {
+    "name": "foreign-gzip-rejected-by-independent-pin",
+    "status": "rejected",
+    "error": "P1-kildebyte avviker fra fast katalog"
+  },
+  {
+    "name": "synthetic-trusted-gzip-32MiB-plus-one",
+    "status": "rejected",
+    "error": "P1-original overstiger 32 MiB/har feil størrelse"
+  },
+  {
+    "name": "publication-does-not-clobber-racing-writer",
+    "status": "passed"
+  },
+  {
+    "name": "publication-removes-own-temporary-file",
+    "status": "passed"
+  }
+]

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="34.891" timestamp="2026-10-28T17:42:00.288347+01:00" hostname="Lenovo-Legion"><testcase classname="tests.test_perioderegister" name="test_disabled_raw_alignment_is_rejected" time="34.180" /></testsuite></testsuites>

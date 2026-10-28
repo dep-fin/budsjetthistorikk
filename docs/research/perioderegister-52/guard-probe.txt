@@ -1,0 +1,54 @@
+"""Syntetiske P1-container-/ressursangrep mot en faktisk kandidatbok."""
+from pathlib import Path
+from zipfile import ZipFile,ZIP_DEFLATED
+import json,hashlib,warnings
+from lxml import etree
+from analyse.perioderegister_excel import read_excel
+from analyse.perioderegister import read_json,report_from_json
+
+root=Path('.local/p1-complete'); output=Path('.local/p1-guards-complete');output.mkdir(exist_ok=False)
+source=root/'both.xlsx'
+ns='{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'
+results=[]
+for attack in ['duplicate-member','traversal','formula','external-relationship','huge-dimension','member-limit','doctype','expanded-limit']:
+    target=output/(attack+'.xlsx')
+    with ZipFile(source) as old,ZipFile(target,'w',ZIP_DEFLATED) as changed:
+        for entry in old.infolist():
+            raw=old.read(entry.filename)
+            if entry.filename=='xl/worksheets/sheet1.xml' and attack in {'formula','huge-dimension','doctype'}:
+                tree=etree.fromstring(raw)
+                if attack=='formula':
+                    c=tree.find('.//'+ns+'c[@r="G2"]');etree.SubElement(c,ns+'f').text='1+1'
+                elif attack=='huge-dimension':tree.find(ns+'dimension').set('ref','A1:XFD1048576')
+                raw=etree.tostring(tree)
+                if attack=='doctype':raw=b'<!DOCTYPE worksheet [<!ENTITY bomb "synthetic">]>'+raw
+            if entry.filename=='xl/_rels/workbook.xml.rels' and attack=='external-relationship':
+                tree=etree.fromstring(raw)
+                etree.SubElement(tree,'{http://schemas.openxmlformats.org/package/2006/relationships}Relationship',
+                    Id='synthetic-external',Type='http://schemas.openxmlformats.org/officeDocument/2006/relationships/externalLink',
+                    Target='https://example.invalid/synthetic',TargetMode='External')
+                raw=etree.tostring(tree)
+            changed.writestr(entry,raw)
+        if attack=='duplicate-member':
+            with warnings.catch_warnings():
+                warnings.simplefilter('ignore');changed.writestr(old.infolist()[0],old.read(old.infolist()[0].filename))
+        elif attack=='traversal':changed.writestr('../outside.txt','synthetic')
+        elif attack=='member-limit':
+            for n in range(257):changed.writestr('synthetic/'+str(n),b'x')
+        elif attack=='expanded-limit':changed.writestr('synthetic-expanded.xml',b'x'*(129*1024*1024))
+    try:read_excel(target)
+    except ValueError as error:message=str(error)
+    else:raise AssertionError(attack)
+    results.append({'synthetic':True,'attack':attack,'rejection':message,'sha256':hashlib.sha256(target.read_bytes()).hexdigest()})
+for name,raw in [('duplicate-json','{"format":"perioderegister-1","format":"perioderegister-1","report":{}}'),('nan','{"format":"perioderegister-1","report":NaN}')]:
+    target=output/(name+'.json');target.write_text(raw,encoding='utf8')
+    try:report_from_json(raw)
+    except ValueError as error:results.append({'synthetic':True,'attack':name,'rejection':str(error)})
+    else:raise AssertionError(name)
+large=output/'report-limit.json'
+with large.open('wb') as handle:handle.write(b'x'*(64*1024*1024+1))
+try:read_json(large)
+except ValueError as error:results.append({'synthetic':True,'attack':'report-limit','rejection':str(error)})
+else:raise AssertionError('report-limit')
+(output/'guards.json').write_text(json.dumps({'tests':results,'rejected':len(results),'errors':0},ensure_ascii=False,indent=2),encoding='utf8')
+print(json.dumps({'rejected':len(results),'errors':0}))

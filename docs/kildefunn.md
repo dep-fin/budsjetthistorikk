@@ -383,3 +383,19 @@ separate konto-/årsgrupper. Lik dato, kode eller navn gir ingen kontinuitet.
 Globale 2025-hull består ved alle filtre; 1149s øvrige poster beviser ikke
 helårsfravær på /1 eller /22. [Kontrakt](fleraarspilot.md) og
 [produktkontroll](research/fleraarspilot-48/README.md) avgrenser resultatet.
+
+## P1: indeksinventar og begrenset gzip-port – 28. oktober 2026
+
+K3s bevarte saksindekser har saker_liste som tredje rotfelt. De 67
+kandidatforekomstene avstemmes mot sesjon, faktisk ordinal og alle K3-
+metadatafelter. Komplette XML-indeksobjekter beholdes ved siden av den
+kanoniske metadatarepresentasjonen; ukjent budsjettår forblir null.
+Det gamle InventoryItem-feltet med obligatorisk heltallsår gjenbrukes
+der år er kjent. Ukjente indeksobjekter bruker kandidatens eget inventar
+og kildepeker, uten et konstruert år 0 eller 2024.
+
+Komplett Innst. 447 er større enn gammel 16 MiB-kildeport som dekomprimert
+HTML. P1 bevarer arkivet, arkivhash, egen representasjonshash og validerer
+begrenset dekomprimering opptil 32 MiB. De gamle portene endres ikke.
+[Kildebevis og praktisk konsekvens](research/perioderegister-52/source-findings.md),
+[kontrollarkiv og bevisgrenser](research/perioderegister-52/README.md).

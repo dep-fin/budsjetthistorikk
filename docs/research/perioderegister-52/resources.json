@@ -1,0 +1,79 @@
+{
+  "limits": {
+    "report_bytes": 67108864,
+    "payload_bytes": 16777216,
+    "decompressed_bytes": 33554432,
+    "inventory_per_document": 4096,
+    "sources": 512,
+    "entries": 256,
+    "case_candidates": 67,
+    "decision_candidates": 25,
+    "gaps": 7,
+    "evidence": 4096,
+    "old_excel_xml_cells": 60000
+  },
+  "measured": {
+    "report_bytes": 24550384,
+    "xlsx_bytes": 10294946,
+    "xlsx_expanded_bytes": 32183254,
+    "xlsx_members": 15,
+    "xml_cells": 50206,
+    "sheets": {
+      "xl/worksheets/sheet1.xml": {
+        "xml_bytes": 34787,
+        "cells": 450
+      },
+      "xl/worksheets/sheet2.xml": {
+        "xml_bytes": 2916526,
+        "cells": 38284
+      },
+      "xl/worksheets/sheet3.xml": {
+        "xml_bytes": 3414831,
+        "cells": 3192
+      },
+      "xl/worksheets/sheet4.xml": {
+        "xml_bytes": 17544,
+        "cells": 210
+      },
+      "xl/worksheets/sheet5.xml": {
+        "xml_bytes": 50771,
+        "cells": 292
+      },
+      "xl/worksheets/sheet6.xml": {
+        "xml_bytes": 629451,
+        "cells": 6138
+      },
+      "xl/worksheets/sheet7.xml": {
+        "xml_bytes": 25098612,
+        "cells": 1640
+      }
+    },
+    "new_payloads": 119,
+    "new_physical_raw_payloads": 113,
+    "new_legacy_references": 6,
+    "new_physical_hashes_intersect_old": false,
+    "new_unique_payload_hashes": 119,
+    "new_sources": 119,
+    "evidence": 322,
+    "documents": 92,
+    "inventory": 208,
+    "new_inventory_max_per_document": 102,
+    "all_inventory_max_per_document": 1488,
+    "all_inventory_rows": 2059,
+    "statements": 126,
+    "entries": 21,
+    "case_candidates": 67,
+    "decision_candidates": 25,
+    "gaps": 7,
+    "largest_new_physical_payload_bytes": 892150,
+    "largest_catalog_payload_bytes": 2094710,
+    "largest_decompressed_bytes": 28647675,
+    "new_amount_observations": 0,
+    "reused_t4_observation_objects": 7,
+    "legacy_raw_source_objects": 23,
+    "legacy_unique_raw_hashes": 21
+  },
+  "old_limits_changed": false,
+  "basis_id": "32c33da8aaf18acda06c62123322596b56722f8dc14a05e68b9b51091778e923",
+  "report_id": "d6a647f6bf3cea97bec9e308eba1fe124077dae63ff9eb5e582afb43b57ae615"
+}

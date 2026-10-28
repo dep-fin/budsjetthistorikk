@@ -1,0 +1,159 @@
+"""Independent bounded P1 specification checks; output restricted to this directory."""
+import gzip
+import hashlib
+import json
+import os
+from pathlib import Path
+import socket
+import sqlite3
+import subprocess
+import sys
+import time
+from collections import Counter
+from dataclasses import asdict
+
+from lxml import etree, html
+from openpyxl import load_workbook
+
+from analyse.perioderegister import build_report, contents, go_back, open_accounts, open_document, read_json
+from analyse.perioderegister_excel import export_pair, read_excel
+from analyse import fleraarspilot as t4
+from analyse import fleraarspilot_excel as t4_excel
+from innlesning.perioderegister_catalog import CATALOG, ROOT
+from innlesning.visningspilot_model import PilotSelection
+
+START = time.monotonic()
+OUT = Path(__file__).resolve().parent
+ROOT_PATH = Path.cwd()
+results = {"checks": [], "errors": []}
+
+def check(name, condition, **evidence):
+    assert condition, (name, evidence)
+    results['checks'].append({"name": name, **evidence})
+
+def git(*args):
+    return subprocess.check_output(['git', *args])
+
+check('candidate', git('rev-parse', 'HEAD').strip().decode() == '4413a5f21be71ccd2ad5c885560da6bae2e8b885',
+      tree=git('rev-parse', 'HEAD^{tree}').strip().decode())
+check('clean_tracked_tree', not git('status', '--porcelain', '--untracked-files=no').strip())
+check('contract_fixed_before_code', git('show','407fdbcdff6421808690e3a08b0b15dfe4b09e6b:docs/perioderegister.md') == git('show','HEAD:docs/perioderegister.md'))
+
+manifest=json.loads(Path('docs/research/perioderegister-52/delivery-manifest.json').read_text('utf8'))
+for row in manifest['files']:
+    raw=Path(row['path']).read_bytes()
+    assert len(raw)==row['bytes'] and hashlib.sha256(raw).hexdigest()==row['sha256'], row['path']
+    if row.get('repository_representation') == 'utf-8-lf':
+        blob=git('show', 'HEAD:'+row['path'])
+        assert len(blob)==row['git_lf_bytes'] and hashlib.sha256(blob).hexdigest()==row['git_lf_sha256'],row['path']
+check('all_delivery_files_rehashed',True, files=len(manifest['files']))
+
+code=json.loads(Path('docs/research/perioderegister-52/candidate-code.json').read_text('utf8'))
+for row in code['files']:
+    assert hashlib.sha256(Path(row['file']).read_bytes()).hexdigest()==row['sha256']
+    assert hashlib.sha256(git('show','HEAD:'+row['file'])).hexdigest()==row['sha256_git_lf']
+check('code_bound_to_build_checks',True,files=len(code['files']))
+
+raws={}
+for name,(pin,count,expanded_pin,expanded_count,_) in CATALOG.items():
+    raw=Path(name).read_bytes()
+    assert len(raw)==count and hashlib.sha256(raw).hexdigest()==pin,name
+    assert git('show','HEAD:'+name)==raw,name
+    expanded=gzip.decompress(raw) if name.endswith('.gz') else raw
+    if expanded_pin:
+        assert (not expanded_count or len(expanded)==expanded_count) and hashlib.sha256(expanded).hexdigest()==expanded_pin,name
+    raws[name]=expanded
+check('pinned_sources_and_git_bytes',True,sources=len(raws))
+
+# Re-read original representations independently of P1 adapter helpers.
+candidates=json.loads(raws[ROOT+'case-candidates.json'])
+for row in candidates:
+    tree=etree.fromstring(raws[ROOT+'originals/saker-'+row['session']+'.xml.gz'])
+    obj=tree[2][row['ordinal_1based']-1]
+    fields={etree.QName(c).localname:c.text for c in obj}
+    assert all(fields[k]==v for k,v in row['metadata'].items())
+check('all_index_metadata_original_bindings',True,occurrences=len(candidates),unique_cases=len({r['metadata']['id'] for r in candidates}))
+
+rows=0
+for table in json.loads(raws[ROOT+'table-locators.json']):
+    raw=raws[ROOT+'originals/'+table['source']+'.gz']
+    assert hashlib.sha256(raw).hexdigest()==table['body_sha256']
+    tree=html.document_fromstring(raw,parser=html.HTMLParser(encoding='utf8'))
+    for row in table['rows']:
+        nodes=tree.xpath(row['xpath'])
+        assert len(nodes)==1
+        assert [' '.join(c.text_content().split()) for c in nodes[0]]==row['cells']
+        rows+=1
+check('all_table_rows_from_originals',True,rows=rows)
+
+def forbidden(*args,**kwargs):
+    raise AssertionError('network/database forbidden in spec check')
+socket.create_connection=socket.socket.connect=socket.socket.connect_ex=sqlite3.connect=forbidden
+
+both=read_json(Path('.local/p1-complete/both.json'))
+check('actual_both_json_excel', read_excel(Path('.local/p1-complete/both.xlsx'))==both)
+basis=both.basis
+check('global_partial_boundary', basis.year_coverage=='partial' and basis.professional_annual_balance_approval is False and
+      len(basis.case_candidates)==67 and len(basis.decision_candidates)==25 and {g.key for g in basis.gaps}=={'R'+str(i) for i in range(1,8)} and all(g.status=='open' for g in basis.gaps))
+check('complete_index_projection',[(c.index_session,c.ordinal_1based,json.loads(c.metadata_json),c.status,c.reason) for c in basis.case_candidates] ==
+      [(r['session'],r['ordinal_1based'],r['metadata'],r['status'],r['reason']) for r in candidates],
+      statuses=dict(Counter(c.status for c in basis.case_candidates)))
+journal=json.loads(raws[ROOT+'coverage-journal.json'])['decisions']
+check('all_25_journal_reasons',[(c.decision_api_id,c.status,c.reason) for c in basis.decision_candidates] == [(r['id'],r['status'],r['reason']) for r in journal])
+ledger=json.loads(raws[ROOT+'known-period-ledger.json'])['rows']
+check('complete_ledger_projection',[(e.key,e.role,e.budget_year,e.accounts) for e in basis.entries] == [(r['id'],r['role'],r['budget_year'],tuple('1429/'+str(p) for p in r['posts'])) for r in ledger])
+check('unknown_index_scope_remains_unknown',all(c.budget_year is None and c.accounts==() and c.post_link=='unknown' for c in basis.case_candidates))
+check('no_added_monetary_events',all(not e.observation_ids and not e.event_ids for e in basis.entries if e.decision_api_id not in {'40032928','40033719','40034048'}))
+old=t4.build_report(basis.t4_basis,PilotSelection(years=(2024,),accounts=(('1429','1'),('1429','22'))))
+check('unchanged_monetary_view_and_calculations',both.view.monetary==old.view and both.calculations==old.calculations,
+      values=[c.amount_kr for c in both.calculations],statuses=[c.status for c in both.calculations])
+
+docs={d.key:d.id for d in contents(basis).documents}
+cases=[('post1',PilotSelection(years=(2024,),accounts=(('1429','1'),)),(7,3)),
+       ('post22',PilotSelection(years=(2024,),accounts=(('1429','22'),)),(4,2)),
+       ('both',both.selection,(11,5)),('chapter',PilotSelection(years=(2024,),chapters=('1429',)),(11,5)),
+       ('wrong-year',PilotSelection(years=(2025,),chapters=('1429',)),(0,0)),('empty',PilotSelection(),(0,0)),
+       ('non-cross-product',PilotSelection(years=(2024,),accounts=(('1429','1'),('315','22'))),(7,3))]
+for key,count in [('vedtak341',(2,2)),('vedtak857',(3,1)),('vedtak210',(6,2)),('vedtak346',(0,0)),('vedtak201',(0,0))]:
+    cases.append((key,PilotSelection(mode='document',document_id=docs[key]),count))
+cases.append(('unknown-index',PilotSelection(mode='document',document_id=basis.case_candidates[0].document_id),(0,0)))
+for name,selection,count in cases:
+    report=build_report(basis,selection)
+    assert (len(report.view.monetary.adopted_observation_ids),len(report.view.monetary.adopted_event_ids))==count,name
+    assert (len(report.view.case_candidate_ids),len(report.view.decision_candidate_ids),len(report.view.gap_ids))==(67,25,7),name
+    swapped=open_document(report,docs['vedtak346']) if selection.mode=='accounts' else open_accounts(report,both.selection)
+    assert swapped.basis is basis and go_back(swapped)==report,name
+check('all_requested_counts_navigation_return',True,cases=len(cases))
+
+full=read_json(Path('.local/p1-complete/vedtak346.json'))
+check('actual_fullmakt_json_excel',read_excel(Path('.local/p1-complete/vedtak346.xlsx'))==full)
+empty=read_json(Path('.local/p1-complete/empty.json'))
+check('actual_empty_json_excel',read_excel(Path('.local/p1-complete/empty.xlsx'))==empty)
+book=load_workbook('.local/p1-complete/vedtak346.xlsx')
+try:
+    rows=list(book['Forløp'].values)
+    check('actual_fullmakt_no_amount_cells',len(rows)==2 and rows[1][6:10]==(None,None,None,None))
+finally: book.close()
+
+# Own written, closed and reopened pair, distinct from the builder's saved pairs.
+opened=open_document(both,docs['vedtak346'])
+export_pair(opened,OUT/'own-fullmakt.json',OUT/'own-fullmakt.xlsx')
+check('own_written_closed_reopened_pair',read_json(OUT/'own-fullmakt.json')==read_excel(OUT/'own-fullmakt.xlsx')==opened and go_back(read_json(OUT/'own-fullmakt.json'))==both)
+
+# Existing malformed files remain actual files; no new builder helper is called.
+negative_root=Path('.local/p1-complete/negative')
+results['negative_locations']=[str(p) for p in Path('.local/p1-complete').glob('*') if p.is_dir()]
+for name in ['positive-coverage','fullmakt-amount','year','post','role','hidden-gaps']:
+    paths=[p for p in Path('.local/p1-complete').rglob('*.json') if p.stem==name or p.stem=='synthetic-'+name or p.stem=='negative-'+name]
+    assert len(paths)==1,(name,paths)
+    try: read_json(paths[0])
+    except ValueError as error: results['checks'].append({'name':'actual_rehashed_negative_'+name,'rejection':str(error),'file':str(paths[0])})
+    else: raise AssertionError(name)
+
+# Representative real old T4 pair, copied by builder from prior delivered output.
+legacy_path=Path('.local/p1-complete/compatibility/T4/2024-both/2024-both.json')
+legacy=t4.read_json(legacy_path)
+check('actual_legacy_T4_pair', t4_excel.read_excel(legacy_path.with_suffix('.xlsx'))==legacy and legacy.basis==basis.t4_basis)
+results['seconds']=round(time.monotonic()-START,3)
+(OUT/'results.json').write_text(json.dumps(results,ensure_ascii=False,indent=2),encoding='utf8')
+print(json.dumps({'checks':len(results['checks']),'errors':results['errors'],'seconds':results['seconds']}))

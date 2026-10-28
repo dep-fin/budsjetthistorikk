@@ -1,0 +1,161 @@
+{
+  "checks": [
+    {
+      "name": "fixed_candidate_clean",
+      "commit": "aec0269b9d6216cc03f9688e62c33a94cfa6cb6c",
+      "tree": "c4c7944dac1510ba428a20440b40f33ebfb8430c"
+    },
+    {
+      "name": "historical_evidence_and_current_binding",
+      "executable_files": 8,
+      "unchanged_historical_files": 90,
+      "changed_code": [
+        "analyse/perioderegister_excel.py",
+        "tests/test_perioderegister.py"
+      ],
+      "old_build_fullsuite_applies_to": "4413a5f",
+      "current_fullsuite_rerun": false
+    },
+    {
+      "name": "seven_original_pairs_hashbound_copied",
+      "files": 14
+    },
+    {
+      "name": "old_public_pair_both",
+      "monetary": [
+        11,
+        5
+      ],
+      "global_counts": [
+        67,
+        25,
+        7
+      ],
+      "json_sha256": "3e734ba2b88f091b081b9820b5302ede681242876f590b7e870956908bb9a6d4",
+      "excel_sha256": "b70823d43161b557d48acec9874b8acdeed72130c24399a75609adabd7e49a60",
+      "report_id": "d6a647f6bf3cea97bec9e308eba1fe124077dae63ff9eb5e582afb43b57ae615"
+    },
+    {
+      "name": "old_public_pair_post1",
+      "monetary": [
+        7,
+        3
+      ],
+      "global_counts": [
+        67,
+        25,
+        7
+      ],
+      "json_sha256": "8ea2ce60fbbaf29ab382c203498d9f224bbe3d789fc315b4e59cd2adb1cc60c9",
+      "excel_sha256": "68b7276345d3ea3a952adddf85d937b45c72b5b8ca7e419dffc116483cfd08df",
+      "report_id": "7a9201f89c104c63cf1aa8ca3a5108bf72eb32f865c875c53cebee1bd4abb7f5"
+    },
+    {
+      "name": "old_public_pair_post22",
+      "monetary": [
+        4,
+        2
+      ],
+      "global_counts": [
+        67,
+        25,
+        7
+      ],
+      "json_sha256": "24833603102f07189a457ddc0b6365fb805afe760209b40832221a0fece1f0a8",
+      "excel_sha256": "e73fe0dc00a6ea828f246096c22c6bc733834314f63ed76a94b3e4c1d6a2ec76",
+      "report_id": "0826d9998c59a1bbecac9e05d24f5ac06a53a20dbe6cd10ad06ecba9c80a7650"
+    },
+    {
+      "name": "old_public_pair_vedtak346",
+      "monetary": [
+        0,
+        0
+      ],
+      "global_counts": [
+        67,
+        25,
+        7
+      ],
+      "json_sha256": "762a7df2b6779a78a2b6e632260084acf7f23ce7eb3295e632f662a991a1b16d",
+      "excel_sha256": "97a0ea434ca445504298153c5e790f22704d722b56084f57a43df1d322c71af8",
+      "report_id": "b73e2279c7b249bb36c4eb4ef77ad6f29ea84c4e9d10bb5745530e8ce9a534dd"
+    },
+    {
+      "name": "old_public_pair_empty",
+      "monetary": [
+        0,
+        0
+      ],
+      "global_counts": [
+        67,
+        25,
+        7
+      ],
+      "json_sha256": "22c3b946f42b9fb1e5b4972fa71cf12e47cebea6803a69693a29a014a6b66f8f",
+      "excel_sha256": "c473119d4f1e620ee76f1d0e6c05099c4f29c4bf773c4c09206de71c230675ef",
+      "report_id": "620a706829d402044d90e4d68d14f66bb9f0232e357944bb6f60c8bd9fa53aea"
+    },
+    {
+      "name": "old_public_pair_wrong-year",
+      "monetary": [
+        0,
+        0
+      ],
+      "global_counts": [
+        67,
+        25,
+        7
+      ],
+      "json_sha256": "6a84501e81e07b30178cf7b4eb40f57c46085dc51973afe12ff52b4d58b5eae1",
+      "excel_sha256": "31f745799071c3a76be90f5ef64c73e3f6dbac20302839e1f8da41a31a1c1319",
+      "report_id": "858218aa3005d8f9f2f1ea8cc37dbe5f67be8e555a28edcbe2227cad0fb0168a"
+    },
+    {
+      "name": "old_public_pair_unknown-index",
+      "monetary": [
+        0,
+        0
+      ],
+      "global_counts": [
+        67,
+        25,
+        7
+      ],
+      "json_sha256": "f585a238169ba8aa3160c4f37c80dc57a5f9f9f719e3f89245f54e8518235599",
+      "excel_sha256": "83d333aeb9949fad20967e54314532de1378fdf4385ef69d86c9afc8ade8dc1c",
+      "report_id": "1a0db5b1bac76872b935737f34dcae9135cdb28583896166a9b2dbe5f5399440"
+    },
+    {
+      "name": "two_entries_return_and_old_monetary_boundary",
+      "navigation_cases": 7,
+      "document_count_cases": 3,
+      "calculation_values": [
+        166039000,
+        29185000
+      ]
+    },
+    {
+      "name": "exact_audit_file_rejected_root-external-office-document",
+      "sha256": "929615ec56df384b1113fe57351d26948d8ae52b242fa4bc429537756a981a68",
+      "error": "P1-Excel har ugyldig lokal pakkrelasjon: _rels/.rels"
+    },
+    {
+      "name": "exact_audit_file_rejected_apply-alignment-zero",
+      "sha256": "c10c3fa0f85ee0d501785d0ccfb5ec990c1aaff76d989baf258e8692dc7140a7",
+      "error": "P1-Excel avviker i rå OOXML-stilprofil"
+    },
+    {
+      "name": "public_offline_cli_written_closed_reopened",
+      "equal_original_fullmakt": true,
+      "json_sha256": "762a7df2b6779a78a2b6e632260084acf7f23ce7eb3295e632f662a991a1b16d",
+      "excel_sha256": "c2a955a508618d963f5361fe60d5aa726de2e5bb603c22b216a575db48630611"
+    },
+    {
+      "name": "unchanged_candidate_and_original_pairs",
+      "forbidden_calls": []
+    }
+  ],
+  "errors": [],
+  "forbidden_calls": [],
+  "seconds": 202.938
+}

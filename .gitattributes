@@ -54,3 +54,9 @@ docs/research/forlopspilot-46/checks/*.log -text whitespace=-blank-at-eol,cr-at-
 # T4s hashfestede journaler og kontrollogger bevarer faktiske byte.
 docs/research/fleraarspilot-48/*.json -text whitespace=cr-at-eol
 docs/research/fleraarspilot-48/checks/* -text whitespace=-blank-at-eol,cr-at-eol
+# P1s katalog pinner K3-registerbyte, inkludert deres opprinnelige CRLF.
+docs/research/k3-arsinventar-50/** -text whitespace=-blank-at-eol,cr-at-eol
+docs/research/perioderegister-52/*.json -text whitespace=cr-at-eol
+docs/research/perioderegister-52/checks/* -text whitespace=-blank-at-eol,cr-at-eol
+docs/research/perioderegister-52/reviews/** -text whitespace=-blank-at-eol,cr-at-eol
+docs/research/perioderegister-52/audit-fix/** -text whitespace=-blank-at-eol,cr-at-eol

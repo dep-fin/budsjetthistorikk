@@ -1,0 +1,2867 @@
+{
+  "cases": 20,
+  "both_directions_and_return": true,
+  "original_report_id": "d6a647f6bf3cea97bec9e308eba1fe124077dae63ff9eb5e582afb43b57ae615",
+  "pairs": [
+    {
+      "name": "navigation-post1",
+      "report_id": "8b2aa702381c36385539a26cdf5d285aa7185f03d65361b1b937c7e7862fd0fe",
+      "counts": [
+        0,
+        0
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "navigation-post1.json",
+          "bytes": 24536784,
+          "sha256": "1829ac9905fe1892a78eada4cad26af69d14fb3b765fb46a62fbb8b0d25e36a7"
+        },
+        {
+          "file": "navigation-post1.xlsx",
+          "bytes": 10281075,
+          "sha256": "fc008d11e3d8cb37058b20e27ea1bce023cb02bbf6736171a14a721a61120142"
+        }
+      ]
+    },
+    {
+      "name": "return-post1",
+      "report_id": "7a9201f89c104c63cf1aa8ca3a5108bf72eb32f865c875c53cebee1bd4abb7f5",
+      "counts": [
+        7,
+        3
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 3,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 4,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 5,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 6,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            161243000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 7,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 8,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 9,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 10,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 11,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 12,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 13,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 14,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 15,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 16,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 17,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            161243000,
+            -1000000,
+            160243000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 18,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 19,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 20,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 21,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "return-post1.json",
+          "bytes": 24545647,
+          "sha256": "8ea2ce60fbbaf29ab382c203498d9f224bbe3d789fc315b4e59cd2adb1cc60c9"
+        },
+        {
+          "file": "return-post1.xlsx",
+          "bytes": 10291258,
+          "sha256": "a223315e3c674d42ae78e1409e69af0b17f718943617b14d121e1245df186699"
+        }
+      ]
+    },
+    {
+      "name": "navigation-post22",
+      "report_id": "bfa670984ca1b94037313c0624ff8af035faab969ad01c1df61c8c2ac7540342",
+      "counts": [
+        0,
+        0
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "navigation-post22.json",
+          "bytes": 24536785,
+          "sha256": "ed00bc6096e5194f635cd6b910ad519d44366372304303f44f60b38bf5b46fdd"
+        },
+        {
+          "file": "navigation-post22.xlsx",
+          "bytes": 10281085,
+          "sha256": "a594d8e3bd02163981036b234c43311b6749e019288bb873c8c22f4ab8fa7c61"
+        }
+      ]
+    },
+    {
+      "name": "return-post22",
+      "report_id": "0826d9998c59a1bbecac9e05d24f5ac06a53a20dbe6cd10ad06ecba9c80a7650",
+      "counts": [
+        4,
+        2
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 3,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 4,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            32185000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 5,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 6,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 7,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 8,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "return-post22.json",
+          "bytes": 24543911,
+          "sha256": "24833603102f07189a457ddc0b6365fb805afe760209b40832221a0fece1f0a8"
+        },
+        {
+          "file": "return-post22.xlsx",
+          "bytes": 10287854,
+          "sha256": "164e19b99dee871f7296a960b7e28677e99504a17b11a795a0599769632aa920"
+        }
+      ]
+    },
+    {
+      "name": "navigation-both",
+      "report_id": "a18583d05881cc47f5b1dfcf2a22fd7c4f932f126ca0188251a60613dc6a735d",
+      "counts": [
+        0,
+        0
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "navigation-both.json",
+          "bytes": 24536798,
+          "sha256": "6f6c725de3bd3d2a700130f9941f6642b6ecdb784ad99f8f854f87d6f6193da5"
+        },
+        {
+          "file": "navigation-both.xlsx",
+          "bytes": 10281093,
+          "sha256": "3d5ad99acf26bedf3ea781bd04cc6ed7be534b4af159609c06d780d132b38935"
+        }
+      ]
+    },
+    {
+      "name": "return-both",
+      "report_id": "d6a647f6bf3cea97bec9e308eba1fe124077dae63ff9eb5e582afb43b57ae615",
+      "counts": [
+        11,
+        5
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 3,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 4,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 5,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 6,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            161243000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 7,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            32185000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 8,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 9,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 10,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 11,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 12,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 13,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 14,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 15,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 16,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 17,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 18,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            161243000,
+            -1000000,
+            160243000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 19,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 20,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 21,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 22,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 23,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 24,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 25,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "return-both.json",
+          "bytes": 24550384,
+          "sha256": "3e734ba2b88f091b081b9820b5302ede681242876f590b7e870956908bb9a6d4"
+        },
+        {
+          "file": "return-both.xlsx",
+          "bytes": 10294946,
+          "sha256": "610514873cce4db7ef769566f99aa58185bcaeb32a4320f013f721a16237555f"
+        }
+      ]
+    },
+    {
+      "name": "navigation-chapter",
+      "report_id": "50aa67512ef9e51c135486d0faba3dcfa78f515110dbf1729e889044eb7703f5",
+      "counts": [
+        0,
+        0
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "navigation-chapter.json",
+          "bytes": 24536778,
+          "sha256": "7bb64290a90f9ae088610433a53f26e24ebefe9c8d05a7b4297161bcdac36aae"
+        },
+        {
+          "file": "navigation-chapter.xlsx",
+          "bytes": 10281069,
+          "sha256": "6a9ea6be51a818f035c866d25a9f2cdd59e083e4faaf0557aa54ce4b1675dc01"
+        }
+      ]
+    },
+    {
+      "name": "navigation-wrong-year",
+      "report_id": "956171086557d58a0cb51ac2eb1b798280046df4979e45ec77942e196f85768f",
+      "counts": [
+        0,
+        0
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "navigation-wrong-year.json",
+          "bytes": 24536778,
+          "sha256": "863c56cd2da15641c00d022008dc8283e3bb86df79eae5223d0f9a9edb468799"
+        },
+        {
+          "file": "navigation-wrong-year.xlsx",
+          "bytes": 10281070,
+          "sha256": "81aa48bc9ca5a3f2fc4fc6ab1fe1dfa303d450d412262191e5dbeea7cdf00b0a"
+        }
+      ]
+    },
+    {
+      "name": "return-wrong-year",
+      "report_id": "858218aa3005d8f9f2f1ea8cc37dbe5f67be8e555a28edcbe2227cad0fb0168a",
+      "counts": [
+        0,
+        0
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [],
+      "files": [
+        {
+          "file": "return-wrong-year.json",
+          "bytes": 24536511,
+          "sha256": "6a84501e81e07b30178cf7b4eb40f57c46085dc51973afe12ff52b4d58b5eae1"
+        },
+        {
+          "file": "return-wrong-year.xlsx",
+          "bytes": 10280437,
+          "sha256": "11d7d65e2bcdf602bb3b2b2c2321d1e24d3a081268126050888101040800df60"
+        }
+      ]
+    },
+    {
+      "name": "navigation-empty",
+      "report_id": "7f4b173df316fc1375a0b5fddfa3132c050dbdb1dc09190da4efb568af5dba73",
+      "counts": [
+        0,
+        0
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "navigation-empty.json",
+          "bytes": 24536768,
+          "sha256": "9018d6f5a6b142dafd7a97a84d9904b1e791ebb3f69545a1c27553c0ff137e88"
+        },
+        {
+          "file": "navigation-empty.xlsx",
+          "bytes": 10281049,
+          "sha256": "26f841884b294dede330483b043d62217a0eab9a9539f71fc98b5c2b9ec551d2"
+        }
+      ]
+    },
+    {
+      "name": "return-empty",
+      "report_id": "620a706829d402044d90e4d68d14f66bb9f0232e357944bb6f60c8bd9fa53aea",
+      "counts": [
+        0,
+        0
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [],
+      "files": [
+        {
+          "file": "return-empty.json",
+          "bytes": 24536501,
+          "sha256": "22c3b946f42b9fb1e5b4972fa71cf12e47cebea6803a69693a29a014a6b66f8f"
+        },
+        {
+          "file": "return-empty.xlsx",
+          "bytes": 10280424,
+          "sha256": "3f27924da8aba529836ab8871588e09be2e351c84ccb0472581e889856f61c31"
+        }
+      ]
+    },
+    {
+      "name": "navigation-pairs",
+      "report_id": "361cc665a7c475727590fc3c30cda1ab5c292290d22a385c134fbf0a676a739d",
+      "counts": [
+        0,
+        0
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "navigation-pairs.json",
+          "bytes": 24536797,
+          "sha256": "408cb54a4fcfb9ce027f99a3cad7a6e78534a263537d5aca403f80614e61e3b3"
+        },
+        {
+          "file": "navigation-pairs.xlsx",
+          "bytes": 10281103,
+          "sha256": "c52f018ca576aef61e3cc8b53d5770783b1eca7a66afd06f31ea4171e48cabf9"
+        }
+      ]
+    },
+    {
+      "name": "navigation-vedtak341",
+      "report_id": "8d2e21c874bf2cf4ab498706c72d8f42ac536bc773ce8af312a9bc376fbf0f0a",
+      "counts": [
+        4,
+        2
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 3,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 4,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            32185000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 5,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 6,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 7,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 8,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "navigation-vedtak341.json",
+          "bytes": 24544046,
+          "sha256": "49292f0850434d2c9622074dd35bd63cee48cd174f871574098163b6eeda6c65"
+        },
+        {
+          "file": "navigation-vedtak341.xlsx",
+          "bytes": 10287921,
+          "sha256": "d06c458d1b9a754e7e97617eb6b4434aee44f6405158cbab7cd67115408882ba"
+        }
+      ]
+    },
+    {
+      "name": "navigation-vedtak857",
+      "report_id": "8f5ef7c5afb67b6e524ff348100119969ee1176017dce35a324e2bf8fc51cbbc",
+      "counts": [
+        4,
+        2
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 3,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 4,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            32185000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 5,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 6,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 7,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 8,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "navigation-vedtak857.json",
+          "bytes": 24544046,
+          "sha256": "fc723fbd1ce198ae0dea725b26ef00562f75444b5c97b3d840ef7e959874fd56"
+        },
+        {
+          "file": "navigation-vedtak857.xlsx",
+          "bytes": 10287924,
+          "sha256": "46edc2108c77bfeb8a4728dbe08780c6ba02487830746968c5a0af9ee141876b"
+        }
+      ]
+    },
+    {
+      "name": "navigation-vedtak210",
+      "report_id": "950e4bb4621bb3676f217ee6b6e03df43d705117d851467f8f0561a133ebcbb8",
+      "counts": [
+        4,
+        2
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 3,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 4,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            32185000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 5,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 6,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 7,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 8,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "navigation-vedtak210.json",
+          "bytes": 24544046,
+          "sha256": "beb1335ae9887638de930fef683d7d97ddb146cd26c766ec4fde83605be4e9f6"
+        },
+        {
+          "file": "navigation-vedtak210.xlsx",
+          "bytes": 10287921,
+          "sha256": "8e859a8bddd5c3fda865b2921c5f82b618a5ec373b4ddf2326c37b12ddd9a3d2"
+        }
+      ]
+    },
+    {
+      "name": "navigation-vedtak346",
+      "report_id": "7e862d39ff9e0a84bb5943b1a282941eba42eeed318f0e5f3b8371be664f60d1",
+      "counts": [
+        4,
+        2
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 3,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 4,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            32185000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 5,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 6,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 7,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 8,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "navigation-vedtak346.json",
+          "bytes": 24544046,
+          "sha256": "3dc9d5882feb9c24a028d5a54e0b5b6f2253fe3f40fa5bccc070a6a645dfc70a"
+        },
+        {
+          "file": "navigation-vedtak346.xlsx",
+          "bytes": 10287960,
+          "sha256": "53e153ae0a75d0db316492d65dc8d4c6eb77e14549fe141cd7f077422dfa17a2"
+        }
+      ]
+    },
+    {
+      "name": "return-vedtak346",
+      "report_id": "b73e2279c7b249bb36c4eb4ef77ad6f29ea84c4e9d10bb5745530e8ce9a534dd",
+      "counts": [
+        0,
+        0
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "return-vedtak346.json",
+          "bytes": 24536695,
+          "sha256": "762a7df2b6779a78a2b6e632260084acf7f23ce7eb3295e632f662a991a1b16d"
+        },
+        {
+          "file": "return-vedtak346.xlsx",
+          "bytes": 10281026,
+          "sha256": "727c328673ae3bb134f7f3541e3bd10bd80ccef8ce224459973fdf548c085686"
+        }
+      ]
+    },
+    {
+      "name": "navigation-vedtak201",
+      "report_id": "4bcb978fe990ddb13348a07654b7cd89f2de97fd5f4e361a44f726a77c42c8d7",
+      "counts": [
+        4,
+        2
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 3,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 4,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            32185000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 5,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 6,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 7,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 8,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "navigation-vedtak201.json",
+          "bytes": 24544046,
+          "sha256": "77ddd4661cce112aadf32257813f95d4b98b25208c7d27d1e458d0575f34259d"
+        },
+        {
+          "file": "navigation-vedtak201.xlsx",
+          "bytes": 10287959,
+          "sha256": "8fe62cf569deff9d6a49886a1c3a4d163d1119a521c3088a8e678f7ba90aefe9"
+        }
+      ]
+    },
+    {
+      "name": "navigation-unknown-index",
+      "report_id": "95f3524c0bcde254626845684dfbcbb5e4be6bcd4f5baa0863bad21d4f6e2b87",
+      "counts": [
+        4,
+        2
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 3,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 4,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            32185000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 5,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 6,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 7,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 8,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "navigation-unknown-index.json",
+          "bytes": 24544046,
+          "sha256": "a1e75e8209041a9206782f1c1ded2fdc12717c23dc138f144f9e5ac7486becca"
+        },
+        {
+          "file": "navigation-unknown-index.xlsx",
+          "bytes": 10287960,
+          "sha256": "e1b5256ecf04f32b9512db3f3055402ff43df155444ab20660c0a4d2a4ef0909"
+        }
+      ]
+    },
+    {
+      "name": "return-unknown-index",
+      "report_id": "1a0db5b1bac76872b935737f34dcae9135cdb28583896166a9b2dbe5f5399440",
+      "counts": [
+        0,
+        0
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [],
+      "files": [
+        {
+          "file": "return-unknown-index.json",
+          "bytes": 24536629,
+          "sha256": "f585a238169ba8aa3160c4f37c80dc57a5f9f9f719e3f89245f54e8518235599"
+        },
+        {
+          "file": "return-unknown-index.xlsx",
+          "bytes": 10280518,
+          "sha256": "8b523875f69abc58b8180106ca01e2cbe4242f85873afbe35993e77d6d66e63c"
+        }
+      ]
+    }
+  ]
+}

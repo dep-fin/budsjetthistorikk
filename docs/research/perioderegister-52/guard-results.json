@@ -1,0 +1,69 @@
+{
+  "tests": [
+    {
+      "synthetic": true,
+      "attack": "duplicate-member",
+      "rejection": "Excel-arkiv overstiger ressursgrense eller har duplikater",
+      "sha256": "635f897915e7a8846d2745c9d2e40e5708b45aa2b745835cbf33bd1827a335b9"
+    },
+    {
+      "synthetic": true,
+      "attack": "traversal",
+      "rejection": "Excel-arkiv har uventet innhold eller kompresjonsgrense",
+      "sha256": "00426ee04a980b00e456e282d9e23740e9a61eb1cb6f556ef9b101b65e19086b"
+    },
+    {
+      "synthetic": true,
+      "attack": "formula",
+      "rejection": "Excel-ark har ubundet XML-innhold eller ressursgrense",
+      "sha256": "5264b85cc5f14c77bac0580a906684ab27b102067ccb4661927d08fdfdb02e9a"
+    },
+    {
+      "synthetic": true,
+      "attack": "external-relationship",
+      "rejection": "Ugyldig Excel-arkrelasjon",
+      "sha256": "bfd2103e5903c4969b678ea85f5afba1d4a6cc12c6474c14826a64539fc22190"
+    },
+    {
+      "synthetic": true,
+      "attack": "huge-dimension",
+      "rejection": "Excel-cellepeker overstiger ressursgrense",
+      "sha256": "b40d6a7fd61447571d5e770fb7ffd2cf234e585a584e932eaf035e7cf916056c"
+    },
+    {
+      "synthetic": true,
+      "attack": "member-limit",
+      "rejection": "Excel-arkiv overstiger ressursgrense eller har duplikater",
+      "sha256": "99c3324a4ccb4578b59726937ca92986593c3dc443cbd1a40e4b7cf6b1d3f5ee"
+    },
+    {
+      "synthetic": true,
+      "attack": "doctype",
+      "rejection": "DOCTYPE er ikke tillatt i Excel",
+      "sha256": "8638b71d8c89f803f4040d1458fe1aab92454d0bb37b6526aaa53fd6c2d75fb9"
+    },
+    {
+      "synthetic": true,
+      "attack": "expanded-limit",
+      "rejection": "Excel-arkiv overstiger ressursgrense eller har duplikater",
+      "sha256": "90a66dce8febe8ff08c0f974cd6eb82a10fad6771f4845f8f0606e7f637de689"
+    },
+    {
+      "synthetic": true,
+      "attack": "duplicate-json",
+      "rejection": "Duplisert JSON-felt i frosset rapport"
+    },
+    {
+      "synthetic": true,
+      "attack": "nan",
+      "rejection": "Ugyldig JSON-tall i frosset rapport"
+    },
+    {
+      "synthetic": true,
+      "attack": "report-limit",
+      "rejection": "P1-rapport overstiger 64 MiB"
+    }
+  ],
+  "rejected": 11,
+  "errors": 0
+}

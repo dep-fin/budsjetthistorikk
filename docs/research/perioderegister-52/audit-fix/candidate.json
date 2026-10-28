@@ -1,0 +1,376 @@
+{
+  "base": "29ac220f62b35062fc4203f054e2f757ca795b7c",
+  "original_candidate": "4413a5f21be71ccd2ad5c885560da6bae2e8b885",
+  "original_tree": "afc1eacfa74cec19e35a5cb49ee5907be5bfc877",
+  "head": "4413a5f21be71ccd2ad5c885560da6bae2e8b885",
+  "stage": "uncommitted additive audit correction; no Git/GitHub mutations",
+  "replacement_code": [
+    {
+      "path": "analyse/perioderegister_excel.py",
+      "original_sha256": "69b1522a31ddf77615496cad24a34aeb49fa8269d6c2fa188e5c7e42fe26da21",
+      "replacement_sha256": "4451dc7c44b3167f4fc053a8a634745221d5e152a4c712699b56ee7e4b18e4d6"
+    },
+    {
+      "path": "tests/test_perioderegister.py",
+      "original_sha256": "f0244f9140a641658a8f63efd90a1313f2f1ea17ad1315389c5861ccefa6cc93",
+      "replacement_sha256": "f1f94510bb09e2f4e02073e6ff7ee548c4920db158a5946b832a29d418d6e71d"
+    }
+  ],
+  "complete_executable_binding": [
+    {
+      "path": "innlesning/perioderegister_model.py",
+      "bytes": 3015,
+      "sha256": "3c94bf596569901f9a0186564d8315037fbf4d0fac566441c2dc3968c497f3b6"
+    },
+    {
+      "path": "innlesning/perioderegister_catalog.py",
+      "bytes": 125690,
+      "sha256": "5217cf54f368c952dc2fa27330817b0690b8af664487fc5f95504e9e1ee54d3e"
+    },
+    {
+      "path": "innlesning/perioderegister.py",
+      "bytes": 31686,
+      "sha256": "2b7c1ae85258abde9c4cddeaa74acf84a6312ed57b6d2109f178e60f4c5356b9"
+    },
+    {
+      "path": "analyse/perioderegister.py",
+      "bytes": 10647,
+      "sha256": "9f9952352a65e2e42ba73b25bdb19d8acec738ed993e7dcd8cf802bb4a476ff1"
+    },
+    {
+      "path": "analyse/perioderegister_excel.py",
+      "bytes": 26501,
+      "sha256": "4451dc7c44b3167f4fc053a8a634745221d5e152a4c712699b56ee7e4b18e4d6"
+    },
+    {
+      "path": "ops/perioderegister_proeve.py",
+      "bytes": 24586,
+      "sha256": "8284ed83ae3d258a23a90b5f709a6613f7b1565965d8328555472cf18ca58e57"
+    },
+    {
+      "path": "ops/render_perioderegister.mjs",
+      "bytes": 2598,
+      "sha256": "e298c73f0516db04ea5caea3e28010b0b8f11706d332ba9a516237c2194a726b"
+    },
+    {
+      "path": "tests/test_perioderegister.py",
+      "bytes": 18469,
+      "sha256": "f1f94510bb09e2f4e02073e6ff7ee548c4920db158a5946b832a29d418d6e71d"
+    }
+  ],
+  "control_summary": {
+    "green-root": {
+      "tests": "1",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "time": "34.651"
+    },
+    "green-style": {
+      "tests": "1",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "time": "34.891"
+    },
+    "red-root": {
+      "tests": "1",
+      "errors": "0",
+      "failures": "1",
+      "skipped": "0",
+      "time": "52.097"
+    },
+    "red-style": {
+      "tests": "1",
+      "errors": "0",
+      "failures": "1",
+      "skipped": "0",
+      "time": "51.091"
+    },
+    "targeted": {
+      "tests": "31",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "time": "233.157"
+    }
+  },
+  "original_evidence_preserved": 90,
+  "files": [
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/after.json",
+      "bytes": 15296,
+      "sha256": "daf59f276aa5f9d84f547656358b8ea6ead2c788017d2e4f6a4ea208ba041ddb"
+    },
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/before.json",
+      "bytes": 12788,
+      "sha256": "10db63f7175b93d51e3340c9ae538bba3c81b78c9b284535f5c38413e83b39f6"
+    },
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/bind_candidate.py",
+      "bytes": 3505,
+      "sha256": "73914d9054b809264b05c32de91dd961a09b2c232a70b51349019181bc7b4d53"
+    },
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/format.log",
+      "bytes": 29,
+      "sha256": "2487689fe66c63950d14fdd3149e65acd8cf316b19ceb0116e16fca9c8a1af0c"
+    },
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/green-root.log",
+      "bytes": 274,
+      "sha256": "a5d9121f2b9c4366425d373adf8d94bc1b3c683c1fc9202ee0890180307cfa26"
+    },
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/green-root.xml",
+      "bytes": 350,
+      "sha256": "ee5d63b9aca122c74f87630c937aa3d4854f104005aedb7b0597de0b0ee4f97a"
+    },
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/green-style.log",
+      "bytes": 275,
+      "sha256": "9d8e36ae0cd0dddb3a7cffd328bfeeba98338ae57f8a4f7d8b464b56c434a31a"
+    },
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/green-style.xml",
+      "bytes": 342,
+      "sha256": "2d032fb2c1fe2d0317c8342dd3550b4a91f320558ca895ac52fe812d31c59c5e"
+    },
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/mypy.log",
+      "bytes": 45,
+      "sha256": "b53a8850538df2d0a027862ba159e61e4e1d6e1bed4c84456c9af44b405ee56d"
+    },
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/probe-after.log",
+      "bytes": 454,
+      "sha256": "87d0090c1e839ef4a9882b77bbe41e84803739f60298145d411fb14b0c6733e8"
+    },
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/probe.py",
+      "bytes": 4657,
+      "sha256": "15470349e9fe9e0a0a066f8d7f97a4f44366f1109083bc14d695153cd68e936e"
+    },
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/README.md",
+      "bytes": 5225,
+      "sha256": "5269687943282a54f1f4c320bbe86751249430136ac9ea42ee1f9ca7e4c8abcd"
+    },
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/red-root.log",
+      "bytes": 2009,
+      "sha256": "6a8c9ac9ccf6ec7120e03f50504e8b9f8b6b087f1a7ce90584672191ef4f06e2"
+    },
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/red-root.xml",
+      "bytes": 1849,
+      "sha256": "2a93f1e76b9a6441d7e2a318f2ae1cfa0e11c82e574539c99af0f39e3ac0cbe5"
+    },
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/red-style.log",
+      "bytes": 2053,
+      "sha256": "6e1c932f37092ee93e07889ce0308f27e3bb700d4b421116787cf28e4c811cab"
+    },
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/red-style.xml",
+      "bytes": 1891,
+      "sha256": "8953416a4187f6b9a68969ec54d8d2e10169eb6634ff441ba9c77b10c1082c74"
+    },
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/ruff.log",
+      "bytes": 20,
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0"
+    },
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/targeted.log",
+      "bytes": 5615,
+      "sha256": "b530d940a98acdbd5911c0bc235cf8d5fe628f64172eabf69b27da1b043fc6f6"
+    },
+    {
+      "path": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/docs/research/perioderegister-52/audit-fix/targeted.xml",
+      "bytes": 4712,
+      "sha256": "b1a66321f021311558fe870eb8c0d76a7a4ce8d570984318e35165ec5b18b923"
+    }
+  ],
+  "actual_targeted_test_files": [
+    {
+      "path": ".local/p1-audit-fix-targeted/saved-p10/both.json",
+      "bytes": 24550364,
+      "sha256": "5accb08d9310a9e151c777bfeeb5fdb628edc7cc1edeff01c7b0adb014ce3d45"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/saved-p10/both.xlsx",
+      "bytes": 10294920,
+      "sha256": "e0c428454c3b5cc40ec24b39ec2e65bac446d528a3e0f88f5f0d530629bfcdc7"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_authorization_reopens_fro0/fullmakt.json",
+      "bytes": 24536784,
+      "sha256": "1829ac9905fe1892a78eada4cad26af69d14fb3b765fb46a62fbb8b0d25e36a7"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_authorization_reopens_fro0/fullmakt.xlsx",
+      "bytes": 10281075,
+      "sha256": "c5e849c41972c94e5e61c325ed0dd6fb7e9323a012aa0946f5b068fc89b720ed"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_disabled_raw_alignment_is0/disabled-alignment.xlsx",
+      "bytes": 10294925,
+      "sha256": "357a28ba46b586c29a8aca313b6ad79a1c569e5afefaca507f26a3ad3f00b7b2"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_external_package_main_doc0/external-main-document.xlsx",
+      "bytes": 10294947,
+      "sha256": "8b42d0653c12e4fd6f7c6a940aabd421a1e0738cc58c33efc4c9a453cafa39ba"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_false_hidden_or_active_ex0/amount.xlsx",
+      "bytes": 10294910,
+      "sha256": "7bd6217148252d32c449946130e57baf1f6115fb2e8ea525d6cad32a511122ce"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_false_hidden_or_active_ex1/hidden-row.xlsx",
+      "bytes": 10294932,
+      "sha256": "2ac68fecc9f558c74bc2ae67d36653c55017bbfc33cf47a9d13b785b6e111c4f"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_false_hidden_or_active_ex2/hidden-column.xlsx",
+      "bytes": 10294929,
+      "sha256": "b48691d33d92d2ee35da80e00e5f02c053d98d21afeefb77429a9fce5698e25c"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_false_hidden_or_active_ex3/hyperlink.xlsx",
+      "bytes": 10294929,
+      "sha256": "89bad6cd3c534e8bd54be5ab70cc92811db2283ada23e825e8e3b56e3a2a2dec"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_false_hidden_or_active_ex4/filter.xlsx",
+      "bytes": 10294923,
+      "sha256": "0e656db3d9f706eb69584479c01dec9e9b0365c4907595081094990de06961d8"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_false_hidden_or_active_ex5/doctype.xlsx",
+      "bytes": 10294965,
+      "sha256": "b92737914d6071126480d43715d491e0d4736be6e0bd0c7c86290b2807d9ee3d"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_false_hidden_or_active_ex6/numberformat.xlsx",
+      "bytes": 10294921,
+      "sha256": "76bce65f37b0c8b1997cae1e87024e6b408f31dd20f5e74b1e864eb05bbf5bc9"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_false_hidden_or_active_ex7/hidden-sheet.xlsx",
+      "bytes": 10294929,
+      "sha256": "1953d6c6662bca72aae6925ddee127f01fed1262180852ca207a942539763482"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_frozen_input_can_run_publ0/offline.json",
+      "bytes": 24550364,
+      "sha256": "5accb08d9310a9e151c777bfeeb5fdb628edc7cc1edeff01c7b0adb014ce3d45"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_frozen_input_can_run_publ0/offline.xlsx",
+      "bytes": 10294919,
+      "sha256": "1dbcbbaf25b9224bb6cf243a549ead91c7525af64c494485b75374577d09d4e9"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_package_relationships_and0/duplicate-root-id.xlsx",
+      "bytes": 10294917,
+      "sha256": "b95a6b500ca60d9be8c628da89a11a7f7f6c0f864e68837ad797984de9dc39ba"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_package_relationships_and1/missing-root-id.xlsx",
+      "bytes": 10294918,
+      "sha256": "82b8a40429afe21a96a3272dfd6d5d04b05361f3cb772e3b5688179374032765"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_package_relationships_and2/duplicate-main-document.xlsx",
+      "bytes": 10294935,
+      "sha256": "12eff2f92efa5921c2ba9ece39e23a94d34d49e8d3b1d9b9240910143332d1d0"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_package_relationships_and3/wrong-main-target.xlsx",
+      "bytes": 10294909,
+      "sha256": "8e69fdc58d38eb5c7009fe1505704e39889ee696bcc0c32778de73953e21d358"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_package_relationships_and4/wrong-main-type.xlsx",
+      "bytes": 10294919,
+      "sha256": "6be53edafaa006804f3de38d8570902a8f677c9f8c054313e9d0b5d932a8bcc9"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_package_relationships_and5/external-style-target.xlsx",
+      "bytes": 10294950,
+      "sha256": "862532c2ba0403d42fc1fa75f23b09aa64d241a36f6144655afb2b65c0f98239"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_package_relationships_and6/worksheet-relationship.xlsx",
+      "bytes": 10295224,
+      "sha256": "25298017c6a21f0c7f1600116eefc8a21b89f87b66ab29bd4f10e02033131c26"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_package_relationships_and7/wrong-workbook-content-type.xlsx",
+      "bytes": 10294914,
+      "sha256": "bd5823dfdfc856eb240f5b2856721da12e03b38f9f156524c50d53a7dd3d70f8"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_package_relationships_and8/duplicate-content-type.xlsx",
+      "bytes": 10294921,
+      "sha256": "b5adc104e621bd245b3a951e3eb35756ed954973840e47376d28c4d01b796145"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_package_relationships_and9/missing-content-type.xlsx",
+      "bytes": 10294906,
+      "sha256": "e0c7d2474e4658672e1e1b085c271c807457e71e307428afefc2a06bbfea1267"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_raw_style_application_fla0/applyAlignmentNone.xlsx",
+      "bytes": 10294921,
+      "sha256": "5fd55a3b875db7624313122f6bb3e9baa2c557ac54e86214f4d636e2e8973b4a"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_raw_style_application_fla1/applyFont0.xlsx",
+      "bytes": 10294928,
+      "sha256": "79e06c18eaa3e628ff68879ac35c8864f581e4a957342da7a914ce9c21f07b31"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_raw_style_application_fla2/applyFont1.xlsx",
+      "bytes": 10294927,
+      "sha256": "e5036bc1667b52d5fe37a287359a1dccadd1f03cb9f643ccb3e943343671338f"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_raw_style_application_fla3/applyFill0.xlsx",
+      "bytes": 10294928,
+      "sha256": "21d532634b0e4c522c70f4f8aa8fbcfff5a006254beb75b1cc683cf14ce86338"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_raw_style_application_fla4/applyFill1.xlsx",
+      "bytes": 10294927,
+      "sha256": "f3507b1eb55ede1f4fb9760a745507a09570b368722bd145d0d0ed4ecb18019e"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_raw_style_application_fla5/applyNumberFormat0.xlsx",
+      "bytes": 10294931,
+      "sha256": "f0743c1eb323d7826e3e4d5379726863ec4a7e571b225a4daa4f7880cb2b5ccf"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_raw_style_application_fla6/applyNumberFormat1.xlsx",
+      "bytes": 10294933,
+      "sha256": "6fa11d761d56bb3185308708745e916aa444f83f5f8f01ec65d6e598343b310d"
+    },
+    {
+      "path": ".local/p1-audit-fix-targeted/test_raw_style_application_fla7/applyProtection0.xlsx",
+      "bytes": 10294932,
+      "sha256": "05de37b9dca4b3ae21409b2e2fa85e09094a9075ebc5ccac9b4da8bd5798bd0c"
+    }
+  ],
+  "attributes": {
+    "path": ".gitattributes",
+    "bytes": 3949,
+    "sha256": "1297ed53e28820bfe5ea00452e61df027cef594e05e4b401d5283d55a8e33fa6"
+  },
+  "full_suite_rerun": false,
+  "linux_ci_run": false,
+  "native_excel_run": false
+}

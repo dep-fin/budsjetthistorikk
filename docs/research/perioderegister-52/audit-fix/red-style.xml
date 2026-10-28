@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="51.091" timestamp="2026-10-28T17:40:35.577027+01:00" hostname="Lenovo-Legion"><testcase classname="tests.test_perioderegister" name="test_disabled_raw_alignment_is_rejected" time="49.679"><failure message="Failed: DID NOT RAISE &lt;class 'ValueError'&gt;">tmp_path = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/.local/p1-audit-fix-red2/test_disabled_raw_alignment_is0')
+saved_pair = (WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p1-perioderegister/.local/p1-audit-fix-red2/save...5019058dcdffa943764b480fa71f1401b095de81b7'), amount_kr=29185000, observed_kr=29185000)), version='perioderegister-1'))
+
+    def test_disabled_raw_alignment_is_rejected(tmp_path, saved_pair):
+        from zipfile import ZIP_DEFLATED, ZipFile
+    
+        from lxml import etree
+    
+        from analyse.perioderegister_excel import read_excel
+    
+        path = tmp_path / "disabled-alignment.xlsx"
+        namespace = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
+        with ZipFile(saved_pair[1]) as source, ZipFile(path, "w", ZIP_DEFLATED) as target:
+            for member in source.infolist():
+                raw = source.read(member)
+                if member.filename == "xl/styles.xml":
+                    root = etree.fromstring(raw)
+                    for xf in root.find(namespace + "cellXfs"):
+                        xf.set("applyAlignment", "0")
+                    raw = etree.tostring(root)
+                target.writestr(member, raw)
+&gt;       with pytest.raises(ValueError, match="P1-Excel.*rå.*stil"):
+E       Failed: DID NOT RAISE &lt;class 'ValueError'&gt;
+
+tests\test_perioderegister.py:276: Failed</failure></testcase></testsuite></testsuites>
