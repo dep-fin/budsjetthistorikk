@@ -1,0 +1,283 @@
+"""Independent local P1 file/security audit. Never modifies product/source inputs."""
+from __future__ import annotations
+
+import base64
+import copy
+import gzip
+import hashlib
+import json
+import os
+from pathlib import Path
+import shutil
+import sqlite3
+import subprocess
+import sys
+import time
+import traceback
+from zipfile import ZipFile, ZIP_DEFLATED
+
+from lxml import etree
+from openpyxl import load_workbook
+from analyse import perioderegister as p1
+from analyse import perioderegister_excel as excel
+from analyse.omtale_excel_guard import inspect_excel
+from analyse.session_serialization import _decode
+from innlesning.observations import encode, identity
+from innlesning.perioderegister import representation, validate_basis as source_validate
+from innlesning.perioderegister_catalog import CATALOG
+from innlesning.perioderegister_model import Report
+from innlesning.visningspilot_model import PilotSelection
+
+ROOT = Path.cwd().resolve()
+OUT = ROOT / '.local/p1-file-audit'
+BASE = '29ac220f62b35062fc4203f054e2f757ca795b7c'
+HEAD = '4413a5f21be71ccd2ad5c885560da6bae2e8b885'
+S = '{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'
+P = '{http://schemas.openxmlformats.org/package/2006/relationships}'
+LOG = OUT / 'results.jsonl'
+START = time.monotonic()
+
+def digest(path):
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+def record(name, status, **details):
+    row = dict(name=name, status=status, seconds=round(time.monotonic()-START, 3), **details)
+    with LOG.open('a', encoding='utf8') as stream:
+        stream.write(json.dumps(row, ensure_ascii=False) + '\n')
+    print(json.dumps({k:v for k,v in row.items() if k in ('name','status','seconds','error')}, ensure_ascii=True), flush=True)
+
+def copied(source):
+    target = OUT / 'inputs' / source.parent.name / source.name
+    target.parent.mkdir(parents=True, exist_ok=True)
+    before = digest(source)
+    shutil.copyfile(source, target)
+    assert digest(target) == before == digest(source)
+    return target
+
+def rejected(name, callback, **details):
+    try:
+        callback()
+    except ValueError as error:
+        record(name, 'rejected', error=str(error), **details)
+    except Exception as error:
+        record(name, 'unexpected_exception', error=repr(error), **details)
+    else:
+        record(name, 'ACCEPTED', **details)
+
+def rehash(data):
+    """Reidentify every P1 object and all references in topological order."""
+    report = data['report']; basis = report['basis']
+    pairs = [('sources','periodekilde-1'), ('evidence','periodebevis-1'),
+             ('documents','periodedokument-1'), ('inventory','periodeinventar-1'),
+             ('statements','periodeutsagn-1'), ('relations','perioderelasjon-1'),
+             ('entries','periodeledd-1'), ('case_candidates','periodesakskandidat-1'),
+             ('decision_candidates','periodevedtakskandidat-1'), ('gaps','periodehull-1')]
+    mapping = {}
+    def update(obj):
+        if isinstance(obj, str): return mapping.get(obj, obj)
+        if isinstance(obj, list): return [update(x) for x in obj]
+        if isinstance(obj, dict): return {k:(v if k == 't4_basis' else update(v)) for k,v in obj.items()}
+        return obj
+    for collection, namespace in pairs:
+        basis[collection] = update(basis[collection])
+        for obj in basis[collection]:
+            old = obj['id']; obj['id'] = ''
+            obj['id'] = identity(namespace, obj)
+            mapping[old] = obj['id']
+    report = update(report)
+    report['basis']['id'] = ''
+    report['basis']['id'] = identity('periodegrunnlag-1', report['basis'])
+    report['id'] = ''
+    report['id'] = identity('perioderegister-1', report)
+    data['report'] = report
+    return encode(data)
+
+def zip_patch(source, target, member, change, extra=None):
+    with ZipFile(source) as old, ZipFile(target, 'w', ZIP_DEFLATED) as new:
+        for info in old.infolist():
+            raw = old.read(info.filename)
+            if info.filename == member: raw = change(raw)
+            new.writestr(info, raw)
+        if extra: new.writestr(*extra)
+
+def xml_change(raw, change):
+    tree = etree.fromstring(raw)
+    change(tree)
+    return etree.tostring(tree)
+
+def main():
+    (OUT / 'synthetic').mkdir(parents=True, exist_ok=True)
+    assert subprocess.check_output(['git','rev-parse','HEAD'], text=True).strip() == HEAD
+    assert not subprocess.check_output(['git','status','--porcelain=v1'], text=True).strip()
+    tree = subprocess.check_output(['git','rev-parse','HEAD^{tree}'], text=True).strip()
+    changed = subprocess.check_output(['git','diff','--name-only',BASE,HEAD], text=True).splitlines()
+    code = {n:digest(ROOT/n) for n in changed if n.endswith(('.py','.mjs'))}
+    (OUT/'candidate.json').write_text(json.dumps(dict(head=HEAD, tree=tree, base=BASE, changed_files=changed, code_sha256=code),indent=2),encoding='utf8')
+    record('candidate-head-tree-clean', 'passed', head=HEAD, tree=tree)
+    pinned = []
+    for name, (sha,count,expanded,expanded_count,_) in CATALOG.items():
+        raw = subprocess.check_output(['git','show',BASE+':'+name])
+        assert len(raw)==count and hashlib.sha256(raw).hexdigest()==sha, name
+        actual = representation(raw, name)
+        if expanded: assert (not expanded_count or len(actual)==expanded_count) and hashlib.sha256(actual).hexdigest()==expanded, name
+        pinned.append(dict(name=name, archive_bytes=len(raw), representation_bytes=len(actual), sha256=sha))
+    (OUT/'catalog-base-proof.json').write_text(json.dumps(pinned,indent=2),encoding='utf8')
+    record('catalog-against-base-git-bytes-and-expanded-pins','passed',sources=len(pinned))
+    source = ROOT/'.local/p1-complete'
+    inputs = {}
+    for name in ('both','vedtak346','empty','wrong-year','unknown-index'):
+        j = copied(source/(name+'.json')); x = copied(source/(name+'.xlsx'))
+        a=p1.read_json(j); b=excel.read_excel(x)
+        assert a==b
+        expected = (11,5) if name=='both' else (0,0)
+        assert (len(a.view.monetary.adopted_observation_ids),len(a.view.monetary.adopted_event_ids))==expected
+        assert (len(a.view.case_candidate_ids),len(a.view.decision_candidate_ids),len(a.view.gap_ids))==(67,25,7)
+        inputs[name]=(j,x)
+        record('positive-pair-'+name, 'passed', json_sha256=digest(j), xlsx_sha256=digest(x), monetary_counts=expected)
+    raw = inputs['both'][0].read_text('utf8'); original=json.loads(raw); report=p1.report_from_json(raw)
+    basis=report.basis
+    assert [c.amount_kr for c in report.calculations] == [166039000,29185000]
+    assert all(c.status=='avgrenset kontroll' for c in report.calculations)
+    doc=next(e.document_id for e in basis.entries if e.key=='original-346')
+    assert p1.go_back(p1.open_document(report,doc))==report
+    assert p1.go_back(p1.open_accounts(p1.open_document(report,doc), report.selection)).selection.mode=='document'
+    record('positive-navigation-and-old-calculations','passed')
+    def entry(b,key='original-346'): return next(e for e in b['entries'] if e['key']==key)
+    mutations = {
+      'year': lambda b,r: entry(b).__setitem__('budget_year',2023),
+      'post': lambda b,r: entry(b).__setitem__('accounts',['1429/22']),
+      'authorization-role': lambda b,r: entry(b).__setitem__('role','adopted_change'),
+      'authorization-monetary-effect': lambda b,r: entry(b).__setitem__('event_ids',r['view']['monetary']['adopted_event_ids'][:1]),
+      'alternative-as-adopted': lambda b,r: entry(b,'original-H').__setitem__('role','adopted_change'),
+      'prop36-as-event': lambda b,r: entry(b,'annual-control').__setitem__('event_ids',r['view']['monetary']['adopted_event_ids'][:1]),
+      'ordinal': lambda b,r: b['case_candidates'][0].__setitem__('ordinal_1based',1),
+      'candidate-year': lambda b,r: b['case_candidates'][0].__setitem__('budget_year',2024),
+      'candidate-proofless-post': lambda b,r: b['case_candidates'][0].__setitem__('accounts',['1429/1']),
+      'locator': lambda b,r: b['evidence'][0].__setitem__('locator','/synthetic/wrong/1'),
+      'evidence-representation-hash': lambda b,r: b['evidence'][0].__setitem__('representation_sha256','0'*64),
+      'hidden-global-holes': lambda b,r: (b.__setitem__('gaps',[]),r['view'].__setitem__('gap_ids',[])),
+      'hidden-global-candidates': lambda b,r: r['view'].__setitem__('case_candidate_ids',[]),
+      'positive-annual-coverage': lambda b,r: b.__setitem__('year_coverage','complete'),
+      'positive-annual-approval': lambda b,r: b.__setitem__('professional_annual_balance_approval',True),
+      'statement-text-loss': lambda b,r: b['statements'][0].__setitem__('text','synthetic truncated text'),
+      'source-parent-metadata': lambda b,r: b['sources'][0].__setitem__('metadata_json','{"synthetic_parent":"wrong"}'),
+      'source-claimed-hash': lambda b,r: b['sources'][0].__setitem__('expected_sha256','0'*64),
+      'entry-cap': lambda b,r: b.__setitem__('entries',[b['entries'][0]]*257),
+      'duplicate-payload': lambda b,r: b['payloads'].append(copy.deepcopy(b['payloads'][0])),
+      'invalid-base64': lambda b,r: b['payloads'][0].__setitem__('content_base64','!!!!'),
+    }
+    semantic_excel={'year','authorization-monetary-effect','hidden-global-holes','positive-annual-coverage'}
+    for name,mutate in mutations.items():
+        data=copy.deepcopy(original); mutate(data['report']['basis'],data['report'])
+        changed=rehash(data)
+        assert changed != raw, name
+        target=OUT/'synthetic'/('rehashed-'+name+'.json'); target.write_text(changed,encoding='utf8')
+        rejected('rehash-json-'+name,lambda c=target:p1.read_json(c),sha256=digest(target),fully_reidentified=True)
+        if name in semantic_excel:
+            x=target.with_suffix('.xlsx')
+            poisoned=_decode(Report,json.loads(changed)['report'])
+            book=excel._book(poisoned,changed)
+            book.save(x); book.close()
+            capsule,_=inspect_excel(x,sheet_names=excel.SHEET_NAMES,snapshot_name='Offlinegrunnlag',max_expanded_bytes=128*1024*1024)
+            assert capsule==changed
+            rejected('rehash-semantic-xlsx-'+name,lambda c=x:excel.read_excel(c),sha256=digest(x),container_dimensions_consistent=True)
+    # Recalculate physical payload digest, source ids and every dependent id after a real source edit.
+    data=copy.deepcopy(original); b=data['report']['basis']; payload=b['payloads'][0]
+    content=base64.b64decode(payload['content_base64']); changed_content=content.replace(b'include_monetary',b'exclude_monetary',1)
+    assert len(changed_content)==len(content) and changed_content!=content
+    old=payload['id']; new=hashlib.sha256(changed_content).hexdigest()
+    payload.update(id=new,sha256=new,content_base64=base64.b64encode(changed_content).decode())
+    for s in b['sources']:
+        if s['payload_id']==old: s.update(payload_id=new,expected_sha256=new,status='kildeverifisert')
+    forged=OUT/'synthetic/source-bytes-rehashed.json'; forged.write_text(rehash(data),encoding='utf8')
+    rejected('source-bytes-and-all-incoming-hashes-recomputed',lambda:p1.read_json(forged),sha256=digest(forged))
+    # Resource guards and typed/closed JSON boundary.
+    for name,text in [('duplicate-field','{"format":"perioderegister-1","format":"perioderegister-1","report":{}}'),('nan','{"format":"perioderegister-1","report":NaN}'),('nested','['*3000+']'*3000)]:
+        target=OUT/'synthetic'/(name+'.json'); target.write_text(text,encoding='utf8')
+        rejected('json-'+name,lambda c=target:p1.read_json(c))
+    target=OUT/'synthetic/report-limit.json'
+    with target.open('wb') as f:
+        f.seek(64*1024*1024); f.write(b'x')
+    rejected('json-64MiB-plus-one',lambda:p1.read_json(target))
+    finish(report, inputs, source, code)
+
+def finish(report, inputs, source, code):
+    # Additional display/container variants are generated from a copied valid book.
+    probes={
+      'white-font':('xl/styles.xml',lambda t:t.find(S+'fonts')[1].find(S+'color').set('rgb','00FFFFFF')),
+      'apply-alignment-zero':('xl/styles.xml',lambda t:[x.set('applyAlignment','0') for x in t.find(S+'cellXfs')]),
+      'root-external-office-document':('_rels/.rels',lambda t:(t[0].set('Target','https://example.invalid/synthetic.xlsx'),t[0].set('TargetMode','External'))),
+      'wrong-visible-value':('xl/worksheets/sheet1.xml',lambda t:t.find('.//'+S+'c[@r="B2"]/'+S+'v').__setattr__('text','999999999')),
+      'hidden-row':('xl/worksheets/sheet1.xml',lambda t:t.find(S+'sheetData/'+S+'row[@r="2"]').set('hidden','1')),
+      'formula':('xl/worksheets/sheet1.xml',lambda t:etree.SubElement(t.find('.//'+S+'c[@r="G2"]'),S+'f').__setattr__('text','1+1')),
+    }
+    for name,(member,change) in probes.items():
+        if '--resume' in sys.argv and name in {'white-font','apply-alignment-zero','root-external-office-document'}:
+            continue
+        x=OUT/'synthetic'/('container-'+name+'.xlsx')
+        zip_patch(inputs['both'][1],x,member,lambda raw:xml_change(raw,change))
+        rejected('xlsx-'+name,lambda c=x:excel.read_excel(c),sha256=digest(x))
+    for source_name in ('duplicate-member','traversal','external-relationship','huge-dimension','member-limit','doctype','expanded-limit'):
+        x=copied(ROOT/'.local/p1-guards-complete'/(source_name+'.xlsx'))
+        rejected('copied-container-'+source_name,lambda c=x:excel.read_excel(c),sha256=digest(x))
+    # Publication must never replace an existing output even when the target appears at publish time.
+    for kind,exporter in [('json',p1.export_json),('xlsx',excel.export_excel)]:
+        target=OUT/'synthetic'/('existing.'+kind); target.write_bytes(b'preserve-existing-sentinel')
+        rejected('publish-preserves-existing-'+kind,lambda e=exporter,t=target:e(report,t))
+        assert target.read_bytes()==b'preserve-existing-sentinel'
+    finish_ordinary(report, inputs, source, code)
+
+def finish_ordinary(report, inputs, source, code):
+    # Ordinary 368 flow: fresh isolated database, contradictory P1 explicitly rejected first.
+    from ops.visningspilot_proeve import _ordinary
+    from innlesning.registers import seed_register,read_register
+    from innlesning.source_attempts import begin_source_attempt
+    from innlesning import read_extraction
+    ordinary=OUT/'ordinary-368'; ordinary.mkdir(exist_ok=True)
+    assert not (ordinary/'ordinary.sqlite').exists(), 'Do not reuse an existing database'
+    begin_source_attempt(ordinary/'ordinary.sqlite','prove','2024-2025')
+    register=seed_register(ordinary/'ordinary.sqlite')
+    stats=_ordinary(ordinary)
+    assert stats['observations']==222 and stats['events']==74
+    assert read_register(ordinary/'ordinary.sqlite',register.id)==register
+    assert {o.round for o in read_extraction(ordinary/'ordinary.sqlite',str(stats['extraction_id'])).observations}=={'uavklart'}
+    with sqlite3.connect(ordinary/'ordinary.sqlite') as c: assert c.execute('PRAGMA user_version').fetchone()[0]==5
+    record('ordinary-368-new-public-cli-db-raw-extraction-excel-b5-schema5','passed',details=stats)
+    # Public P1 CLI with inaccessible originals, no socket/SQLite, empty working directory.
+    offline=OUT/'offline'; offline.mkdir()
+    env=dict(os.environ); env['PYTHONPATH']=os.pathsep.join([str(ROOT),str(ROOT/'.local/python')])
+    script="""import socket, sqlite3, sys
+def forbidden(*a,**kw): raise AssertionError('audit offline: network/SQLite forbidden')
+socket.create_connection=forbidden
+socket.socket.connect=forbidden
+socket.socket.connect_ex=forbidden
+sqlite3.connect=forbidden
+sys.argv=['analyse.perioderegister','--frosset',sys.argv[1],'--rot',sys.argv[2], '--json',sys.argv[3],'--excel',sys.argv[4]]
+from analyse.perioderegister import main
+main()
+"""
+    command=[sys.executable,'-c',script,str(inputs['both'][0]),str(offline/'missing-originals'),str(offline/'reexport.json'),str(offline/'reexport.xlsx')]
+    result=subprocess.run(command,cwd=offline,env=env,capture_output=True,text=True,encoding='utf8',timeout=240)
+    (OUT/'offline-cli.json').write_text(json.dumps(dict(returncode=result.returncode,stdout=result.stdout,stderr=result.stderr),indent=2),encoding='utf8')
+    assert result.returncode==0,result.stderr
+    assert p1.read_json(offline/'reexport.json')==excel.read_excel(offline/'reexport.xlsx')==report
+    record('offline-public-cli-reexport-closed-files','passed',originals_absent=True,network_sqlite_blocked=True)
+    assert subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()==HEAD
+    assert not subprocess.check_output(['git','status','--porcelain=v1'],text=True).strip()
+    for name,sha in code.items(): assert digest(ROOT/name)==sha
+    for source_name in ('both','vedtak346','empty','wrong-year','unknown-index'):
+        for suffix in ('.json','.xlsx'):
+            assert digest(source/(source_name+suffix))==digest(OUT/'inputs/p1-complete'/(source_name+suffix))
+    record('candidate-and-source-inputs-remain-unchanged','passed')
+
+if __name__=='__main__':
+    try:
+        if '--resume' in sys.argv or '--ordinary' in sys.argv:
+            source=ROOT/'.local/p1-complete'
+            inputs={'both':(OUT/'inputs/p1-complete/both.json',OUT/'inputs/p1-complete/both.xlsx')}
+            code=json.loads((OUT/'candidate.json').read_text('utf8'))['code_sha256']
+            (finish_ordinary if '--ordinary' in sys.argv else finish)(p1.read_json(inputs['both'][0]), inputs, source, code)
+        else: main()
+    except Exception:
+        record('AUDIT-HARNESS-FAILURE','failed',error=traceback.format_exc())
+        raise

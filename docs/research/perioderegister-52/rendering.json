@@ -1,0 +1,276 @@
+{
+  "engine": "bundled Artifact Tool; imported actual saved XLSX",
+  "read_only": true,
+  "native_excel": false,
+  "books": [
+    {
+      "mode": "both",
+      "input": ".local\\p1-complete\\both.xlsx",
+      "input_sha256": "b70823d43161b557d48acec9874b8acdeed72130c24399a75609adabd7e49a60",
+      "render_journal": "render-both.json",
+      "views": 12
+    },
+    {
+      "mode": "346",
+      "input": ".local\\p1-complete\\vedtak346.xlsx",
+      "input_sha256": "97a0ea434ca445504298153c5e790f22704d722b56084f57a43df1d322c71af8",
+      "render_journal": "render-346.json",
+      "views": 11
+    },
+    {
+      "mode": "empty",
+      "input": ".local\\p1-complete\\empty.xlsx",
+      "input_sha256": "c473119d4f1e620ee76f1d0e6c05099c4f29c4bf773c4c09206de71c230675ef",
+      "render_journal": "render-empty.json",
+      "views": 11
+    }
+  ],
+  "rendered_images": 34,
+  "visual_checks": [
+    "All seven sheets checked",
+    "Full authorization has blank monetary cells",
+    "Empty selection has zero fields/events and global 67/25/7",
+    "Original proposals, alternatives, authorization and later rounds appear in register order",
+    "Long source text is retained in cells and complete offline capsule; native Excel not tested"
+  ],
+  "previews": [
+    {
+      "file": "previews/both/dekning.png",
+      "bytes": 72094,
+      "sha256": "bd34dea5fc2b6c50b001eadd10ec7390a028ad18b452c86a2b0ddc211dd2cd87",
+      "width": 1600,
+      "height": 1519
+    },
+    {
+      "file": "previews/both/dokumenter.png",
+      "bytes": 98939,
+      "sha256": "09395970ef15c32d2bd87139899a17a838ef3c7fe41c57fcf037c613c1ba0857",
+      "width": 2776,
+      "height": 559
+    },
+    {
+      "file": "previews/both/forlop-fortsettelse.png",
+      "bytes": 141878,
+      "sha256": "452fafcc6aa5fb1c45f664fb9c112f42fde0d4b51baaa71baf8a3a25a585b608",
+      "width": 2384,
+      "height": 1308
+    },
+    {
+      "file": "previews/both/forlop.png",
+      "bytes": 131143,
+      "sha256": "66fa79e33fd30744dcdc8854ef7ab36857964a9b24991a38bf87469e12390d27",
+      "width": 2384,
+      "height": 1135
+    },
+    {
+      "file": "previews/both/fullmakt-inventar.png",
+      "bytes": 230976,
+      "sha256": "4f354a0f374b47beb6ec26da6595d2b068532e25203d0a0ce97b504355629361",
+      "width": 4072,
+      "height": 596
+    },
+    {
+      "file": "previews/both/globale-hull.png",
+      "bytes": 113515,
+      "sha256": "117c31a8022448d8eb04f198fdcdc647a7177bca835cd93d12cdeee25b9729f6",
+      "width": 1600,
+      "height": 692
+    },
+    {
+      "file": "previews/both/indeksinventar.png",
+      "bytes": 133523,
+      "sha256": "94db0bf0fa3d61cee3b172c5c884cf75ba95f9a04ad9724fe84e17e11dc7eec7",
+      "width": 4072,
+      "height": 308
+    },
+    {
+      "file": "previews/both/kontroll.png",
+      "bytes": 173406,
+      "sha256": "4a5991f536f04af702daeaf217908f9a5cfcad4fd002951a44222ee72c47fd21",
+      "width": 3440,
+      "height": 359
+    },
+    {
+      "file": "previews/both/offline.png",
+      "bytes": 39921,
+      "sha256": "16d45e7d93d71c1b46a990a0739fb61c466c028a28e8bf9a5192dbd5d5e016f1",
+      "width": 1096,
+      "height": 159
+    },
+    {
+      "file": "previews/both/omtale.png",
+      "bytes": 69824,
+      "sha256": "db2684284b98136f7432d6afcf3cfe152ff3aac1bd685c6422b23178b5b0b00b",
+      "width": 2560,
+      "height": 239
+    },
+    {
+      "file": "previews/both/originalreferanser.png",
+      "bytes": 112538,
+      "sha256": "4b8cf4ea436714624e3c80c36138d2e936abfc734cf4c09101f329d0d447efa7",
+      "width": 1176,
+      "height": 751
+    },
+    {
+      "file": "previews/both/sammenligninger.png",
+      "bytes": 75308,
+      "sha256": "bcfaf52c33602a4a9ffa75a1ea9588387ebb748ac6ccf0988057437a35d5c27a",
+      "width": 2960,
+      "height": 359
+    },
+    {
+      "file": "previews/346/dekning.png",
+      "bytes": 73465,
+      "sha256": "e82e0cdea343f4dbd9fb3486fe35e6e39c702896221a03e277d3d9dc21403f71",
+      "width": 1600,
+      "height": 1519
+    },
+    {
+      "file": "previews/346/dokumenter.png",
+      "bytes": 98939,
+      "sha256": "09395970ef15c32d2bd87139899a17a838ef3c7fe41c57fcf037c613c1ba0857",
+      "width": 2776,
+      "height": 559
+    },
+    {
+      "file": "previews/346/forlop.png",
+      "bytes": 24756,
+      "sha256": "43a2197fc4cb36e70d847f358b1a4f0fd2d03c6490670fac6d0aaf06a3ef11ec",
+      "width": 2384,
+      "height": 375
+    },
+    {
+      "file": "previews/346/fullmakt-inventar.png",
+      "bytes": 230976,
+      "sha256": "4f354a0f374b47beb6ec26da6595d2b068532e25203d0a0ce97b504355629361",
+      "width": 4072,
+      "height": 596
+    },
+    {
+      "file": "previews/346/globale-hull.png",
+      "bytes": 113515,
+      "sha256": "117c31a8022448d8eb04f198fdcdc647a7177bca835cd93d12cdeee25b9729f6",
+      "width": 1600,
+      "height": 692
+    },
+    {
+      "file": "previews/346/indeksinventar.png",
+      "bytes": 133523,
+      "sha256": "94db0bf0fa3d61cee3b172c5c884cf75ba95f9a04ad9724fe84e17e11dc7eec7",
+      "width": 4072,
+      "height": 308
+    },
+    {
+      "file": "previews/346/kontroll.png",
+      "bytes": 173406,
+      "sha256": "4a5991f536f04af702daeaf217908f9a5cfcad4fd002951a44222ee72c47fd21",
+      "width": 3440,
+      "height": 359
+    },
+    {
+      "file": "previews/346/offline.png",
+      "bytes": 39921,
+      "sha256": "16d45e7d93d71c1b46a990a0739fb61c466c028a28e8bf9a5192dbd5d5e016f1",
+      "width": 1096,
+      "height": 159
+    },
+    {
+      "file": "previews/346/omtale.png",
+      "bytes": 69824,
+      "sha256": "db2684284b98136f7432d6afcf3cfe152ff3aac1bd685c6422b23178b5b0b00b",
+      "width": 2560,
+      "height": 239
+    },
+    {
+      "file": "previews/346/originalreferanser.png",
+      "bytes": 28113,
+      "sha256": "8b9179ac3f8678ec253790f0add5f04ee8b29ad86438c83b66513de97e5cfd4a",
+      "width": 1176,
+      "height": 295
+    },
+    {
+      "file": "previews/346/sammenligninger.png",
+      "bytes": 13732,
+      "sha256": "c1898e41bf8acb30315a26dc7019f1c4be26ed748049b7a5b05de48930b1a4c5",
+      "width": 2960,
+      "height": 219
+    },
+    {
+      "file": "previews/empty/dekning.png",
+      "bytes": 70524,
+      "sha256": "891db6c5a536cf413934fbd6c8b4a0ae512139518ea5d17cfc48a2e2339507a4",
+      "width": 1600,
+      "height": 1519
+    },
+    {
+      "file": "previews/empty/dokumenter.png",
+      "bytes": 98939,
+      "sha256": "09395970ef15c32d2bd87139899a17a838ef3c7fe41c57fcf037c613c1ba0857",
+      "width": 2776,
+      "height": 559
+    },
+    {
+      "file": "previews/empty/forlop.png",
+      "bytes": 15589,
+      "sha256": "82b3fbbcec3912313b8605445fe39989637b188a7ce9ccf7d309b2bd8afbb5ae",
+      "width": 2384,
+      "height": 299
+    },
+    {
+      "file": "previews/empty/fullmakt-inventar.png",
+      "bytes": 229741,
+      "sha256": "6ffaf083b11cef86059a2001893517df9cfb50f1a47b874d0952de4cb28f7f6e",
+      "width": 4072,
+      "height": 596
+    },
+    {
+      "file": "previews/empty/globale-hull.png",
+      "bytes": 113515,
+      "sha256": "117c31a8022448d8eb04f198fdcdc647a7177bca835cd93d12cdeee25b9729f6",
+      "width": 1600,
+      "height": 692
+    },
+    {
+      "file": "previews/empty/indeksinventar.png",
+      "bytes": 133523,
+      "sha256": "94db0bf0fa3d61cee3b172c5c884cf75ba95f9a04ad9724fe84e17e11dc7eec7",
+      "width": 4072,
+      "height": 308
+    },
+    {
+      "file": "previews/empty/kontroll.png",
+      "bytes": 173406,
+      "sha256": "4a5991f536f04af702daeaf217908f9a5cfcad4fd002951a44222ee72c47fd21",
+      "width": 3440,
+      "height": 359
+    },
+    {
+      "file": "previews/empty/offline.png",
+      "bytes": 39921,
+      "sha256": "16d45e7d93d71c1b46a990a0739fb61c466c028a28e8bf9a5192dbd5d5e016f1",
+      "width": 1096,
+      "height": 159
+    },
+    {
+      "file": "previews/empty/omtale.png",
+      "bytes": 69824,
+      "sha256": "db2684284b98136f7432d6afcf3cfe152ff3aac1bd685c6422b23178b5b0b00b",
+      "width": 2560,
+      "height": 239
+    },
+    {
+      "file": "previews/empty/originalreferanser.png",
+      "bytes": 10429,
+      "sha256": "e7cc2a1419f1a2265c2068aab38929ba6d9074f8e244d1c4932d2b6d50eb0617",
+      "width": 1176,
+      "height": 219
+    },
+    {
+      "file": "previews/empty/sammenligninger.png",
+      "bytes": 13732,
+      "sha256": "c1898e41bf8acb30315a26dc7019f1c4be26ed748049b7a5b05de48930b1a4c5",
+      "width": 2960,
+      "height": 219
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "tests": 1181,
+  "errors": 0,
+  "failures": 0,
+  "skipped": 2,
+  "passed": 1179,
+  "wall_seconds": 2601.1327677,
+  "executable_files_unchanged": true,
+  "p1_cases": 24,
+  "p1_junit_seconds": 177.631
+}

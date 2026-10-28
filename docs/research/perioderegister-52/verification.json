@@ -1,0 +1,6173 @@
+{
+  "python": "3.12.14",
+  "lxml": [
+    6,
+    1,
+    3,
+    0
+  ],
+  "libxml2_runtime": [
+    2,
+    11,
+    9
+  ],
+  "basis_id": "32c33da8aaf18acda06c62123322596b56722f8dc14a05e68b9b51091778e923",
+  "source_audit": {
+    "pinned_sources": 130,
+    "source_sizes": [
+      {
+        "name": "docs/research/k3-arsinventar-50/coverage-journal.json",
+        "archive_bytes": 16777,
+        "representation_bytes": 16777
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/case-candidates.json",
+        "archive_bytes": 61875,
+        "representation_bytes": 61875
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/known-period-ledger.json",
+        "archive_bytes": 10033,
+        "representation_bytes": 10033
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/decision-register.json",
+        "archive_bytes": 804411,
+        "representation_bytes": 804411
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/decision-evidence.json",
+        "archive_bytes": 51657,
+        "representation_bytes": 51657
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/table-locators.json",
+        "archive_bytes": 143747,
+        "representation_bytes": 143747
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/voting-evidence.json",
+        "archive_bytes": 27915,
+        "representation_bytes": 27915
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/m21.md",
+        "archive_bytes": 5506,
+        "representation_bytes": 5506
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/source-manifest.json",
+        "archive_bytes": 39526,
+        "representation_bytes": 39526
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/reused-sources.json",
+        "archive_bytes": 7209,
+        "representation_bytes": 7209
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/case-relations.json",
+        "archive_bytes": 28492,
+        "representation_bytes": 28492
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/selected-passages.json",
+        "archive_bytes": 28996,
+        "representation_bytes": 28996
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/universe-summary.json",
+        "archive_bytes": 949,
+        "representation_bytes": 949
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/source-comparison.json",
+        "archive_bytes": 1422,
+        "representation_bytes": 1422
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-forslag22032.xml.gz",
+        "archive_bytes": 10978,
+        "representation_bytes": 245911
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-forslag22032.xml.meta.json",
+        "archive_bytes": 2124,
+        "representation_bytes": 2124
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-forslag23430-FrP.xml.gz",
+        "archive_bytes": 34361,
+        "representation_bytes": 1193049
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-forslag23430-FrP.xml.meta.json",
+        "archive_bytes": 2139,
+        "representation_bytes": 2139
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-forslag23431-H.xml.gz",
+        "archive_bytes": 33250,
+        "representation_bytes": 1152332
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-forslag23431-H.xml.meta.json",
+        "archive_bytes": 2133,
+        "representation_bytes": 2133
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-forslag23457.xml.gz",
+        "archive_bytes": 43971,
+        "representation_bytes": 1378833
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-forslag23457.xml.meta.json",
+        "archive_bytes": 2127,
+        "representation_bytes": 2127
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-forslag23873.xml.gz",
+        "archive_bytes": 1076,
+        "representation_bytes": 7088
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-forslag23873.xml.meta.json",
+        "archive_bytes": 2118,
+        "representation_bytes": 2118
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-inns447.html.gz",
+        "archive_bytes": 892150,
+        "representation_bytes": 28647669
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-inns447.html.meta.json",
+        "archive_bytes": 5623,
+        "representation_bytes": 5623
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-prop106-ch1.html.gz",
+        "archive_bytes": 15201,
+        "representation_bytes": 65994
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-prop106-ch1.html.meta.json",
+        "archive_bytes": 2028,
+        "representation_bytes": 2028
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-prop106-ch3.html.gz",
+        "archive_bytes": 15235,
+        "representation_bytes": 66515
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-prop106-ch3.html.meta.json",
+        "archive_bytes": 2028,
+        "representation_bytes": 2028
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-tillegg1-ch2.html.gz",
+        "archive_bytes": 14902,
+        "representation_bytes": 64540
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-tillegg1-ch2.html.meta.json",
+        "archive_bytes": 2055,
+        "representation_bytes": 2055
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-tillegg2-ch5.html.gz",
+        "archive_bytes": 18376,
+        "representation_bytes": 100694
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-tillegg2-ch5.html.meta.json",
+        "archive_bytes": 2057,
+        "representation_bytes": 2057
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+        "archive_bytes": 344683,
+        "representation_bytes": 6816165
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.meta.json",
+        "archive_bytes": 2157,
+        "representation_bytes": 2157
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.gz",
+        "archive_bytes": 394937,
+        "representation_bytes": 7479943
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.meta.json",
+        "archive_bytes": 2157,
+        "representation_bytes": 2157
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-voteringer100927.xml.gz",
+        "archive_bytes": 757,
+        "representation_bytes": 2304
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-voteringer100927.xml.meta.json",
+        "archive_bytes": 2100,
+        "representation_bytes": 2100
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-voteringer95776.xml.gz",
+        "archive_bytes": 1201,
+        "representation_bytes": 21769
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-voteringer95776.xml.meta.json",
+        "archive_bytes": 2112,
+        "representation_bytes": 2112
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-voteringer98919.xml.gz",
+        "archive_bytes": 2287,
+        "representation_bytes": 83859
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-voteringer98919.xml.meta.json",
+        "archive_bytes": 2097,
+        "representation_bytes": 2097
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-voteringsvedtak22032.xml.gz",
+        "archive_bytes": 471,
+        "representation_bytes": 5399
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-voteringsvedtak22032.xml.meta.json",
+        "archive_bytes": 2139,
+        "representation_bytes": 2139
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-voteringsvedtak23873.xml.gz",
+        "archive_bytes": 359,
+        "representation_bytes": 1159
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ind-voteringsvedtak23873.xml.meta.json",
+        "archive_bytes": 2139,
+        "representation_bytes": 2139
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/inns14-202324.html.gz",
+        "archive_bytes": 300427,
+        "representation_bytes": 3753241
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/inns14-202324.html.meta.json",
+        "archive_bytes": 5258,
+        "representation_bytes": 5258
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/inns2-202324.html.gz",
+        "archive_bytes": 349992,
+        "representation_bytes": 4073026
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/inns2-202324.html.meta.json",
+        "archive_bytes": 5172,
+        "representation_bytes": 5172
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/inns447-202324.html.gz",
+        "archive_bytes": 337444,
+        "representation_bytes": 9285486
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/inns447-202324.html.meta.json",
+        "archive_bytes": 5379,
+        "representation_bytes": 5379
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/inns447-inherited.html.gz",
+        "archive_bytes": 892146,
+        "representation_bytes": 28647675
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/inns447-inherited.html.meta.json",
+        "archive_bytes": 786,
+        "representation_bytes": 786
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/prop1-kld-ch3.html.gz",
+        "archive_bytes": 236743,
+        "representation_bytes": 931745
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/prop1-kld-ch3.html.meta.json",
+        "archive_bytes": 1709,
+        "representation_bytes": 1709
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/prop1-kld-ch6.html.gz",
+        "archive_bytes": 25973,
+        "representation_bytes": 168778
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/prop1-kld-ch6.html.meta.json",
+        "archive_bytes": 1709,
+        "representation_bytes": 1709
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/prop104-ch5.html.gz",
+        "archive_bytes": 66730,
+        "representation_bytes": 686327
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/prop104-ch5.html.meta.json",
+        "archive_bytes": 1709,
+        "representation_bytes": 1709
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/prop106-ch2.html.gz",
+        "archive_bytes": 16819,
+        "representation_bytes": 71444
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/prop106-ch2.html.meta.json",
+        "archive_bytes": 1707,
+        "representation_bytes": 1707
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/prop106-ch4.html.gz",
+        "archive_bytes": 15454,
+        "representation_bytes": 68287
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/prop106-ch4.html.meta.json",
+        "archive_bytes": 1707,
+        "representation_bytes": 1707
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/prop36-ch10.html.gz",
+        "archive_bytes": 46423,
+        "representation_bytes": 913548
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/prop36-ch10.html.meta.json",
+        "archive_bytes": 1709,
+        "representation_bytes": 1709
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/prop36-ch13.html.gz",
+        "archive_bytes": 50601,
+        "representation_bytes": 744951
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/prop36-ch13.html.meta.json",
+        "archive_bytes": 1709,
+        "representation_bytes": 1709
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.gz",
+        "archive_bytes": 18817,
+        "representation_bytes": 91552
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.meta.json",
+        "archive_bytes": 1703,
+        "representation_bytes": 1703
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ref191223.html.gz",
+        "archive_bytes": 604874,
+        "representation_bytes": 5046269
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ref191223.html.meta.json",
+        "archive_bytes": 5243,
+        "representation_bytes": 5243
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ref210624-vote3-only.html.gz",
+        "archive_bytes": 1320,
+        "representation_bytes": 4641
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ref210624-vote3-only.html.meta.json",
+        "archive_bytes": 2497,
+        "representation_bytes": 2497
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ref210624-vote3.html.gz",
+        "archive_bytes": 328276,
+        "representation_bytes": 10989423
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ref210624-vote3.html.meta.json",
+        "archive_bytes": 7168,
+        "representation_bytes": 7168
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ref210624.html.gz",
+        "archive_bytes": 247592,
+        "representation_bytes": 5468015
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/ref210624.html.meta.json",
+        "archive_bytes": 5362,
+        "representation_bytes": 5362
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/sak100289.xml.gz",
+        "archive_bytes": 2207,
+        "representation_bytes": 14617
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/sak100289.xml.meta.json",
+        "archive_bytes": 1863,
+        "representation_bytes": 1863
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/sak95776.xml.gz",
+        "archive_bytes": 3223,
+        "representation_bytes": 31835
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/sak95776.xml.meta.json",
+        "archive_bytes": 1859,
+        "representation_bytes": 1859
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/sak98918.xml.gz",
+        "archive_bytes": 2102,
+        "representation_bytes": 14421
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/sak98918.xml.meta.json",
+        "archive_bytes": 1859,
+        "representation_bytes": 1859
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/sak98919.xml.gz",
+        "archive_bytes": 2104,
+        "representation_bytes": 13571
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/sak98919.xml.meta.json",
+        "archive_bytes": 1859,
+        "representation_bytes": 1859
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/sak99234.xml.gz",
+        "archive_bytes": 2053,
+        "representation_bytes": 13956
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/sak99234.xml.meta.json",
+        "archive_bytes": 1859,
+        "representation_bytes": 1859
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/saker-2023-2024.xml.gz",
+        "archive_bytes": 159138,
+        "representation_bytes": 3484631
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/saker-2023-2024.xml.meta.json",
+        "archive_bytes": 1897,
+        "representation_bytes": 1897
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.gz",
+        "archive_bytes": 173860,
+        "representation_bytes": 3818277
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.meta.json",
+        "archive_bytes": 1897,
+        "representation_bytes": 1897
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/tillegg1-ch1.html.gz",
+        "archive_bytes": 15181,
+        "representation_bytes": 64460
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/tillegg1-ch1.html.meta.json",
+        "archive_bytes": 1725,
+        "representation_bytes": 1725
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/tillegg1-ch3.html.gz",
+        "archive_bytes": 14809,
+        "representation_bytes": 63252
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/tillegg1-ch3.html.meta.json",
+        "archive_bytes": 1725,
+        "representation_bytes": 1725
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/tillegg2-ch1.html.gz",
+        "archive_bytes": 15725,
+        "representation_bytes": 70689
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/tillegg2-ch1.html.meta.json",
+        "archive_bytes": 1725,
+        "representation_bytes": 1725
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/tillegg2-ch3.html.gz",
+        "archive_bytes": 15485,
+        "representation_bytes": 70489
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/tillegg2-ch3.html.meta.json",
+        "archive_bytes": 1725,
+        "representation_bytes": 1725
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/tillegg2-ch4.html.gz",
+        "archive_bytes": 22599,
+        "representation_bytes": 152051
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/tillegg2-ch4.html.meta.json",
+        "archive_bytes": 1727,
+        "representation_bytes": 1727
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/voteringsvedtak23457.xml.gz",
+        "archive_bytes": 703,
+        "representation_bytes": 19858
+      },
+      {
+        "name": "docs/research/k3-arsinventar-50/originals/voteringsvedtak23457.xml.meta.json",
+        "archive_bytes": 1917,
+        "representation_bytes": 1917
+      },
+      {
+        "name": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+        "archive_bytes": 342281,
+        "representation_bytes": 6816165
+      },
+      {
+        "name": "docs/research/to-visninger-37/originals/aar/session-2023-2024.meta.json",
+        "archive_bytes": 381,
+        "representation_bytes": 381
+      },
+      {
+        "name": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+        "archive_bytes": 391763,
+        "representation_bytes": 7479943
+      },
+      {
+        "name": "docs/research/to-visninger-37/originals/aar/session-2024-2025.meta.json",
+        "archive_bytes": 381,
+        "representation_bytes": 381
+      },
+      {
+        "name": "docs/research/to-visninger-37/originals/aar/40032928.xml",
+        "archive_bytes": 117054,
+        "representation_bytes": 117054
+      },
+      {
+        "name": "docs/research/to-visninger-37/originals/aar/manifest.json",
+        "archive_bytes": 8831,
+        "representation_bytes": 8831
+      },
+      {
+        "name": "docs/research/to-visninger-37/originals/aar/account-evidence.json",
+        "archive_bytes": 16475,
+        "representation_bytes": 16475
+      },
+      {
+        "name": "docs/research/to-visninger-37/originals/aar/tillegg2-ch2.html",
+        "archive_bytes": 79426,
+        "representation_bytes": 79426
+      },
+      {
+        "name": "docs/research/to-visninger-37/originals/aar/tillegg2-vedlegg2.html",
+        "archive_bytes": 100729,
+        "representation_bytes": 100729
+      },
+      {
+        "name": "docs/research/to-visninger-37/originals/aar/inns447-locators.json",
+        "archive_bytes": 2476,
+        "representation_bytes": 2476
+      },
+      {
+        "name": "docs/research/omtale-o1/source-manifest.json",
+        "archive_bytes": 17300,
+        "representation_bytes": 17300
+      },
+      {
+        "name": "docs/research/omtale-o1/supporting-manifest.json",
+        "archive_bytes": 979,
+        "representation_bytes": 979
+      },
+      {
+        "name": "docs/research/omtale-o1/originals/prop16s-ch2.html",
+        "archive_bytes": 100808,
+        "representation_bytes": 100808
+      },
+      {
+        "name": "docs/research/omtale-o1/originals/prop16s-ch4.html",
+        "archive_bytes": 118163,
+        "representation_bytes": 118163
+      },
+      {
+        "name": "docs/research/omtale-o1/originals/inns81s.html",
+        "archive_bytes": 107925,
+        "representation_bytes": 107925
+      },
+      {
+        "name": "docs/research/omtale-o1/originals/votering-161224.html",
+        "archive_bytes": 2094710,
+        "representation_bytes": 2094710
+      },
+      {
+        "name": "tests/fixtures/b6/40034048.xml",
+        "archive_bytes": 6058,
+        "representation_bytes": 6058
+      },
+      {
+        "name": "tests/fixtures/b6/40034048.json",
+        "archive_bytes": 786,
+        "representation_bytes": 786
+      },
+      {
+        "name": "tests/fixtures/b8/40034049.xml",
+        "archive_bytes": 1692,
+        "representation_bytes": 1692
+      },
+      {
+        "name": "docs/research/to-visninger-37/originals/forgrening/inns95s.html",
+        "archive_bytes": 283123,
+        "representation_bytes": 283123
+      },
+      {
+        "name": "tests/fixtures/b8/sak-100927.xml",
+        "archive_bytes": 12383,
+        "representation_bytes": 12383
+      },
+      {
+        "name": "tests/fixtures/b8/sak-100927.json",
+        "archive_bytes": 1560,
+        "representation_bytes": 1560
+      },
+      {
+        "name": "tests/fixtures/b8/sak-100889.xml",
+        "archive_bytes": 15888,
+        "representation_bytes": 15888
+      },
+      {
+        "name": "tests/fixtures/b8/sak-100889.json",
+        "archive_bytes": 1563,
+        "representation_bytes": 1563
+      }
+    ],
+    "case_occurrences": 67,
+    "table_rows": 390,
+    "decision_objects": 25,
+    "errors": 0
+  },
+  "selections": [
+    {
+      "name": "post1",
+      "report_id": "7a9201f89c104c63cf1aa8ca3a5108bf72eb32f865c875c53cebee1bd4abb7f5",
+      "counts": [
+        7,
+        3
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 3,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 4,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 5,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 6,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            161243000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 7,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 8,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 9,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 10,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 11,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 12,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 13,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 14,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 15,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 16,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 17,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            161243000,
+            -1000000,
+            160243000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 18,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 19,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 20,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 21,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "post1.json",
+          "bytes": 24545647,
+          "sha256": "8ea2ce60fbbaf29ab382c203498d9f224bbe3d789fc315b4e59cd2adb1cc60c9"
+        },
+        {
+          "file": "post1.xlsx",
+          "bytes": 10291258,
+          "sha256": "68b7276345d3ea3a952adddf85d937b45c72b5b8ca7e419dffc116483cfd08df"
+        }
+      ]
+    },
+    {
+      "name": "post22",
+      "report_id": "0826d9998c59a1bbecac9e05d24f5ac06a53a20dbe6cd10ad06ecba9c80a7650",
+      "counts": [
+        4,
+        2
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 3,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 4,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            32185000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 5,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 6,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 7,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 8,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "post22.json",
+          "bytes": 24543911,
+          "sha256": "24833603102f07189a457ddc0b6365fb805afe760209b40832221a0fece1f0a8"
+        },
+        {
+          "file": "post22.xlsx",
+          "bytes": 10287855,
+          "sha256": "e73fe0dc00a6ea828f246096c22c6bc733834314f63ed76a94b3e4c1d6a2ec76"
+        }
+      ]
+    },
+    {
+      "name": "both",
+      "report_id": "d6a647f6bf3cea97bec9e308eba1fe124077dae63ff9eb5e582afb43b57ae615",
+      "counts": [
+        11,
+        5
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 3,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 4,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 5,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 6,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            161243000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 7,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            32185000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 8,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 9,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 10,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 11,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 12,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 13,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 14,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 15,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 16,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 17,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 18,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            161243000,
+            -1000000,
+            160243000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 19,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 20,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 21,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 22,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 23,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 24,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 25,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "both.json",
+          "bytes": 24550384,
+          "sha256": "3e734ba2b88f091b081b9820b5302ede681242876f590b7e870956908bb9a6d4"
+        },
+        {
+          "file": "both.xlsx",
+          "bytes": 10294946,
+          "sha256": "b70823d43161b557d48acec9874b8acdeed72130c24399a75609adabd7e49a60"
+        }
+      ]
+    },
+    {
+      "name": "chapter",
+      "report_id": "6d4f95d2e6b0b49f439dd331a6665386925657430011520d822630d179d1548b",
+      "counts": [
+        11,
+        5
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 3,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 4,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 5,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 6,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            161243000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 7,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            32185000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 8,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 9,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 10,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 11,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 12,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 13,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 14,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 15,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 16,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 17,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 18,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            161243000,
+            -1000000,
+            160243000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 19,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 20,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 21,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 22,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 23,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 24,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 25,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "chapter.json",
+          "bytes": 24550364,
+          "sha256": "5accb08d9310a9e151c777bfeeb5fdb628edc7cc1edeff01c7b0adb014ce3d45"
+        },
+        {
+          "file": "chapter.xlsx",
+          "bytes": 10294920,
+          "sha256": "07e32871427f16b4e0c82fab7b8705152af5c0793241d74ed7d30de726c88338"
+        }
+      ]
+    },
+    {
+      "name": "wrong-year",
+      "report_id": "858218aa3005d8f9f2f1ea8cc37dbe5f67be8e555a28edcbe2227cad0fb0168a",
+      "counts": [
+        0,
+        0
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [],
+      "files": [
+        {
+          "file": "wrong-year.json",
+          "bytes": 24536511,
+          "sha256": "6a84501e81e07b30178cf7b4eb40f57c46085dc51973afe12ff52b4d58b5eae1"
+        },
+        {
+          "file": "wrong-year.xlsx",
+          "bytes": 10280436,
+          "sha256": "31f745799071c3a76be90f5ef64c73e3f6dbac20302839e1f8da41a31a1c1319"
+        }
+      ]
+    },
+    {
+      "name": "empty",
+      "report_id": "620a706829d402044d90e4d68d14f66bb9f0232e357944bb6f60c8bd9fa53aea",
+      "counts": [
+        0,
+        0
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [],
+      "files": [
+        {
+          "file": "empty.json",
+          "bytes": 24536501,
+          "sha256": "22c3b946f42b9fb1e5b4972fa71cf12e47cebea6803a69693a29a014a6b66f8f"
+        },
+        {
+          "file": "empty.xlsx",
+          "bytes": 10280424,
+          "sha256": "c473119d4f1e620ee76f1d0e6c05099c4f29c4bf773c4c09206de71c230675ef"
+        }
+      ]
+    },
+    {
+      "name": "pairs",
+      "report_id": "2e2b52a00ef9ce9bb8587c38219fd34b5e657a1b0d95b8312f82cd6882a224d9",
+      "counts": [
+        7,
+        3
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 3,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 4,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 5,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 6,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            161243000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 7,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 8,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 9,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 10,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 11,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 12,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 13,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 14,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 15,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 16,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 17,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            161243000,
+            -1000000,
+            160243000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 18,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 19,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 20,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 21,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "pairs.json",
+          "bytes": 24545660,
+          "sha256": "7e598dd408768358acf4e2d91a54d8028ade2ce4c81b955d37450c23be593973"
+        },
+        {
+          "file": "pairs.xlsx",
+          "bytes": 10291277,
+          "sha256": "8003e7ec437521f4d9a94ad3b6bdead8a7ff32ab9e3e00e3b17891ddff702738"
+        }
+      ]
+    },
+    {
+      "name": "vedtak341",
+      "report_id": "8ec8ec1b5baef622adc53e2afa6b52ba58ebfe652b3153d87d9ad5d6649ec9c6",
+      "counts": [
+        2,
+        2
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            161243000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 3,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            32185000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "vedtak341.json",
+          "bytes": 24554101,
+          "sha256": "b28200864e66450df06764a38673e748359fd2546f8462740c82cc1f66d25e8d"
+        },
+        {
+          "file": "vedtak341.xlsx",
+          "bytes": 10293343,
+          "sha256": "b0eb426fc1defb115aa2c04d19147f2d32a4860bf5909530256c74bd08909eb4"
+        }
+      ]
+    },
+    {
+      "name": "vedtak857",
+      "report_id": "3d6bf005e9d0b9d2bed55af74a8e3566b243f3d23df813913aa97ad450e64fd9",
+      "counts": [
+        3,
+        1
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            161243000,
+            -1000000,
+            160243000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "vedtak857.json",
+          "bytes": 24640431,
+          "sha256": "ac7b42b75a22ac55a96d54317d3ef392ed0fb809aaec363b67c27213523faeb1"
+        },
+        {
+          "file": "vedtak857.xlsx",
+          "bytes": 10341959,
+          "sha256": "c1afdb763feb8bd25a935f07b159e5d668bf9d9fb2641452a4453de7f4b3bd33"
+        }
+      ]
+    },
+    {
+      "name": "vedtak210",
+      "report_id": "f40659edd09c48b41fbd5a0a226c509721c2f4706b71c5fec6801fd7dbd720c1",
+      "counts": [
+        6,
+        2
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 3,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "vedtak210.json",
+          "bytes": 24544587,
+          "sha256": "4188c712af5685cd327d937678b0a9a9b92c9d108a5f61e1aaecd660c930cc05"
+        },
+        {
+          "file": "vedtak210.xlsx",
+          "bytes": 10287324,
+          "sha256": "701e8904620a0dfab79b2773e50ad6f7643eed551d31fe8d84029e804d2dc8d8"
+        }
+      ]
+    },
+    {
+      "name": "vedtak346",
+      "report_id": "b73e2279c7b249bb36c4eb4ef77ad6f29ea84c4e9d10bb5745530e8ce9a534dd",
+      "counts": [
+        0,
+        0
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "vedtak346.json",
+          "bytes": 24536695,
+          "sha256": "762a7df2b6779a78a2b6e632260084acf7f23ce7eb3295e632f662a991a1b16d"
+        },
+        {
+          "file": "vedtak346.xlsx",
+          "bytes": 10281026,
+          "sha256": "97a0ea434ca445504298153c5e790f22704d722b56084f57a43df1d322c71af8"
+        }
+      ]
+    },
+    {
+      "name": "vedtak201",
+      "report_id": "e34bef9497fdab5b524351f953705fa7a380c8582074904ba354ee2af741773d",
+      "counts": [
+        0,
+        0
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [],
+      "files": [
+        {
+          "file": "vedtak201.json",
+          "bytes": 24547011,
+          "sha256": "1c96ccd811a510b467292e6acc13463154c8edaddf15788712d28b096261059d"
+        },
+        {
+          "file": "vedtak201.xlsx",
+          "bytes": 10286890,
+          "sha256": "747909b0fc334e163a47203887e20465f477afccb02236648b60b520bbd4da2a"
+        }
+      ]
+    },
+    {
+      "name": "unknown-index",
+      "report_id": "1a0db5b1bac76872b935737f34dcae9135cdb28583896166a9b2dbe5f5399440",
+      "counts": [
+        0,
+        0
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [],
+      "files": [
+        {
+          "file": "unknown-index.json",
+          "bytes": 24536629,
+          "sha256": "f585a238169ba8aa3160c4f37c80dc57a5f9f9f719e3f89245f54e8518235599"
+        },
+        {
+          "file": "unknown-index.xlsx",
+          "bytes": 10280518,
+          "sha256": "83d333aeb9949fad20967e54314532de1378fdf4385ef69d86c9afc8ade8dc1c"
+        }
+      ]
+    },
+    {
+      "name": "opened-fullmakt",
+      "report_id": "a18583d05881cc47f5b1dfcf2a22fd7c4f932f126ca0188251a60613dc6a735d",
+      "counts": [
+        0,
+        0
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "opened-fullmakt.json",
+          "bytes": 24536798,
+          "sha256": "6f6c725de3bd3d2a700130f9941f6642b6ecdb784ad99f8f854f87d6f6193da5"
+        },
+        {
+          "file": "opened-fullmakt.xlsx",
+          "bytes": 10281093,
+          "sha256": "e8849a1e4f534c4652cf74e6c4d60d01b88d7c02799ee2fa0efaad3d10c5f594"
+        }
+      ]
+    },
+    {
+      "name": "reverse-post22",
+      "report_id": "7e862d39ff9e0a84bb5943b1a282941eba42eeed318f0e5f3b8371be664f60d1",
+      "counts": [
+        4,
+        2
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 3,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 4,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            32185000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 5,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 6,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 7,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 8,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "reverse-post22.json",
+          "bytes": 24544046,
+          "sha256": "3dc9d5882feb9c24a028d5a54e0b5b6f2253fe3f40fa5bccc070a6a645dfc70a"
+        },
+        {
+          "file": "reverse-post22.xlsx",
+          "bytes": 10287960,
+          "sha256": "4f2248278000854fb4ff716d8130f0b9483432a5d1bc7b2841e47dd3395c72a8"
+        }
+      ]
+    },
+    {
+      "name": "repeated",
+      "report_id": "d6a647f6bf3cea97bec9e308eba1fe124077dae63ff9eb5e582afb43b57ae615",
+      "counts": [
+        11,
+        5
+      ],
+      "global": [
+        67,
+        25,
+        7
+      ],
+      "typed_cells": [
+        {
+          "row": 2,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 3,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 4,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 5,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 6,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            161243000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 7,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            32185000,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "#,##0",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 8,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 9,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 10,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 11,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 12,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 13,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 14,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 15,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 16,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 17,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        },
+        {
+          "row": 18,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            161243000,
+            -1000000,
+            160243000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 19,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 20,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 21,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 22,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 23,
+          "account": "1429/1",
+          "year": 2024,
+          "values": [
+            null,
+            160243000,
+            5796000,
+            166039000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 24,
+          "account": "1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            32185000,
+            -3000000,
+            29185000
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "#,##0",
+            "#,##0",
+            "#,##0"
+          ]
+        },
+        {
+          "row": 25,
+          "account": "1429/1, 1429/22",
+          "year": 2024,
+          "values": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "types": [
+            "n",
+            "n",
+            "n",
+            "n"
+          ],
+          "formats": [
+            "General",
+            "General",
+            "General",
+            "General"
+          ]
+        }
+      ],
+      "files": [
+        {
+          "file": "repeated.json",
+          "bytes": 24550384,
+          "sha256": "3e734ba2b88f091b081b9820b5302ede681242876f590b7e870956908bb9a6d4"
+        },
+        {
+          "file": "repeated.xlsx",
+          "bytes": 10294945,
+          "sha256": "70673a16646bd05842f37a16ea638cfda088b11b3945a4df76c36d6956ebdf55"
+        }
+      ]
+    }
+  ],
+  "negative_pairs": [
+    {
+      "mutation": "source-bytes",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-kilde/forelder/status/identitet avviker fra fast katalog",
+        "xlsx": "P1-kilde/forelder/status/identitet avviker fra fast katalog"
+      }
+    },
+    {
+      "mutation": "source-hash",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "xlsx": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "mutation": "parent",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-kilde/forelder/status/identitet avviker fra fast katalog",
+        "xlsx": "P1-kilde/forelder/status/identitet avviker fra fast katalog"
+      }
+    },
+    {
+      "mutation": "locator",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "xlsx": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "mutation": "year",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "xlsx": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "mutation": "post",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "xlsx": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "mutation": "role",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "xlsx": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "mutation": "ordinal",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "xlsx": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "mutation": "case-identity",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "xlsx": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "mutation": "candidate-status",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "xlsx": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "mutation": "decision-year",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "xlsx": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "mutation": "decision-reason",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "xlsx": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "mutation": "fullmakt-amount",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "xlsx": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "mutation": "alternative-adopted",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "xlsx": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "mutation": "prop36-event",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "xlsx": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "mutation": "positive-coverage",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "xlsx": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "mutation": "annual-approval",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "xlsx": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "mutation": "hidden-gaps",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "xlsx": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "mutation": "hidden-global-view",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-rapporten avviker fra kilder/utvalg/global dekning",
+        "xlsx": "P1-rapporten avviker fra kilder/utvalg/global dekning"
+      }
+    },
+    {
+      "mutation": "text-loss",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "xlsx": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "mutation": "duplicate-payload",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "Duplisert P1-payload",
+        "xlsx": "Duplisert P1-payload"
+      }
+    },
+    {
+      "mutation": "legacy-raw-copy",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-payload dupliserer gammel kilde",
+        "xlsx": "P1-payload dupliserer gammel kilde"
+      }
+    },
+    {
+      "mutation": "entry-cap",
+      "synthetic": true,
+      "rehashed": true,
+      "container_passed_exact_capsule": true,
+      "rejections": {
+        "json": "P1-samling overstiger kontraktens ressursgrense",
+        "xlsx": "P1-samling overstiger kontraktens ressursgrense"
+      }
+    }
+  ],
+  "display_negatives": [
+    {
+      "name": "amount",
+      "rejection": "P1-Excel avviker i celle/stil/lenke: Forløp!G2"
+    },
+    {
+      "name": "hidden-row",
+      "rejection": "Excel-ark har uventede XML-attributter"
+    },
+    {
+      "name": "hidden-column",
+      "rejection": "Excel-ark har uventede XML-attributter"
+    },
+    {
+      "name": "hyperlink",
+      "rejection": "P1-Excel avviker i celle/stil/lenke: Forløp!C2"
+    },
+    {
+      "name": "filter",
+      "rejection": "Excel har ubundne lenker eller celleområder"
+    },
+    {
+      "name": "doctype",
+      "rejection": "DOCTYPE er ikke tillatt i Excel"
+    },
+    {
+      "name": "numberformat",
+      "rejection": "P1-Excel avviker i celle/stil/lenke: Forløp!G6"
+    },
+    {
+      "name": "hidden-sheet",
+      "rejection": "P1-Excel har endret synlighet/oppsett: Forløp"
+    }
+  ],
+  "independence": [
+    {
+      "condition": "missing",
+      "ordinary": {
+        "revision": "37112f16-2b57-4795-98bb-a09ebc5572a3",
+        "extraction_id": "65bd246f05e785ca2dd1b1983787deed368fe6ea2f9986677134ba843b6b8632",
+        "observations": 222,
+        "events": 74,
+        "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+        "actual_saved_700_1_trio": [
+          [
+            "endring",
+            6324000
+          ],
+          [
+            "etter_belop",
+            310675000
+          ],
+          [
+            "for_belop",
+            304351000
+          ]
+        ],
+        "raw_preserved": true,
+        "schema": 5,
+        "b5_register_unchanged": "ba1fe432ca468f6ac3ef7e865248ab3e23d7944157d5d4880a74403bf4e2e447",
+        "old_round_values": [
+          "uavklart"
+        ]
+      }
+    },
+    {
+      "condition": "failed",
+      "ordinary": {
+        "revision": "f1daa9c2-c39a-41d8-9a95-d0f7ce2edf82",
+        "extraction_id": "660ad299b048091f23e60d9b6b87067eb7983fff997c32284d50f274e83539e2",
+        "observations": 222,
+        "events": 74,
+        "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+        "actual_saved_700_1_trio": [
+          [
+            "endring",
+            6324000
+          ],
+          [
+            "etter_belop",
+            310675000
+          ],
+          [
+            "for_belop",
+            304351000
+          ]
+        ],
+        "raw_preserved": true,
+        "schema": 5,
+        "b5_register_unchanged": "ba1fe432ca468f6ac3ef7e865248ab3e23d7944157d5d4880a74403bf4e2e447",
+        "old_round_values": [
+          "uavklart"
+        ]
+      }
+    },
+    {
+      "condition": "corrupt",
+      "ordinary": {
+        "revision": "440ccb01-0e07-4b78-ac71-29747979d841",
+        "extraction_id": "e017bb500cee36460a78153fa04ef022140798ceaabee6b64e0ab778c0fe74da",
+        "observations": 222,
+        "events": 74,
+        "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+        "actual_saved_700_1_trio": [
+          [
+            "endring",
+            6324000
+          ],
+          [
+            "etter_belop",
+            310675000
+          ],
+          [
+            "for_belop",
+            304351000
+          ]
+        ],
+        "raw_preserved": true,
+        "schema": 5,
+        "b5_register_unchanged": "ba1fe432ca468f6ac3ef7e865248ab3e23d7944157d5d4880a74403bf4e2e447",
+        "old_round_values": [
+          "uavklart"
+        ]
+      }
+    },
+    {
+      "condition": "contradictory",
+      "ordinary": {
+        "revision": "5a706051-3293-4bd6-b753-73fc9e2cea87",
+        "extraction_id": "709de8cbcd92553f67cbe109565c70b9ae8d01d243dceb2b302a41f0e7b04852",
+        "observations": 222,
+        "events": 74,
+        "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+        "actual_saved_700_1_trio": [
+          [
+            "endring",
+            6324000
+          ],
+          [
+            "etter_belop",
+            310675000
+          ],
+          [
+            "for_belop",
+            304351000
+          ]
+        ],
+        "raw_preserved": true,
+        "schema": 5,
+        "b5_register_unchanged": "ba1fe432ca468f6ac3ef7e865248ab3e23d7944157d5d4880a74403bf4e2e447",
+        "old_round_values": [
+          "uavklart"
+        ]
+      }
+    }
+  ],
+  "compatibility": [
+    {
+      "kind": "ekte_tidligere_O2",
+      "name": "o2b-210-begge-poster-7e70506/begge",
+      "report_id": "ef508e79e8f55993893250ff96f9f1ac6b55138dfb58b634fdc3cec51b3b42ab",
+      "original_hashes": {
+        ".json": "96dbe2c089272a661a6c37b4e1eaee5a10d78629720916c55705ba16aff7397d",
+        ".xlsx": "34dea0f68eb3a1ec6eb33d5bf56bc7d04c519cb7f0be8a14d22897576a5aec84"
+      },
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_O2",
+      "name": "o2b-210-begge-poster-7e70506/post1",
+      "report_id": "978b86d0701fc4c030e9f5fbf738e1187bcca3c76fff112f366cff8abb043174",
+      "original_hashes": {
+        ".json": "0a22ad2c074a86898d6d264db6505b7b6bd6240578aa6846a3e5413d50760f07",
+        ".xlsx": "3b97f085ce4db4c909a06ba4f55873b204576ae13aff2ab7ead144471f5e77fc"
+      },
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_O2",
+      "name": "o2b-210-begge-poster-7e70506/post22",
+      "report_id": "51d209382fcb5fa69fc7ac38687a3a965b7754c4d11d44a0b2197e6088c24a22",
+      "original_hashes": {
+        ".json": "ce913130c81f837eda327ee1e0f008aad82aa029122c9a0a9c6c19690f9a6f9f",
+        ".xlsx": "a98a523020099d0d3964a569ccb7ce00fa2dc3a321255db2bd61f9a49317318b"
+      },
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_O2",
+      "name": "o2b-210-begge-poster-7e70506/tomt",
+      "report_id": "17ebed652bfc42eebf8f863706d6de6918fb0422b1cb3f84324a62187e273e87",
+      "original_hashes": {
+        ".json": "fac1b5c180baa57ef7f9114aabe855aafbd1cec1d3e7e1ed8725889c8e9ee84e",
+        ".xlsx": "08e46f0b589d606e2c5ac6cb90e71d1e1076f019d8e1391bf7729d2d58610721"
+      },
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_O2",
+      "name": "o2b-210-begge-poster-7e70506/offline",
+      "report_id": "ef508e79e8f55993893250ff96f9f1ac6b55138dfb58b634fdc3cec51b3b42ab",
+      "original_hashes": {
+        ".json": "96dbe2c089272a661a6c37b4e1eaee5a10d78629720916c55705ba16aff7397d",
+        ".xlsx": "cc4d5b68d29656d5358e4bc018645fa74ffdd5b62401bd5fb20f6f89e0471a4c"
+      },
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_O2",
+      "name": "o2b-210-begge-poster-7e70506/syntetisk-forslag",
+      "report_id": "d8f29ff8f136d5eeb01303ccc8cd5e34c126b809391980f34cbc9f29b5347485",
+      "original_hashes": {
+        ".json": "b65ae7e0bf42f4f699f75ee3f74be86e836a32e25b0b2d331603731456db111c",
+        ".xlsx": "440484fc0c3936c6753d40a4476ad5e5777e6a6143d67daa2342af1104132499"
+      },
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_O2",
+      "name": "o2a-210-post1-52f0545/omtale-210-post1",
+      "report_id": "22e216820b2b2d17fd43016d8be437a8cbdfaf4cbd8920b871aec0acd55d7143",
+      "original_hashes": {
+        ".json": "bd5666408115ce448a1c3ecf84242cade4c668ef507842e81eb5465c3bca7129",
+        ".xlsx": "3fc3f731970dccb47ce773e37a48c42be2c9b10cf7525c82826c6436fc7965e3"
+      },
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_O2",
+      "name": "o2a-210-post1-52f0545/offline-gjenlest",
+      "report_id": "22e216820b2b2d17fd43016d8be437a8cbdfaf4cbd8920b871aec0acd55d7143",
+      "original_hashes": {
+        ".json": "bd5666408115ce448a1c3ecf84242cade4c668ef507842e81eb5465c3bca7129",
+        ".xlsx": "f90cea2b72e62cf61816d3ad6f07a25ec4063a7d244eb2c57fb7713cd23ad5eb"
+      },
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_B8_B9_med_B6_kjerne",
+      "name": "vedtak-210-2026-10-22",
+      "report_id": "d0c677cee11fa8d38677c2afa581c5717145524f25323bc1a334c0a5d831b62c",
+      "original_hashes": {
+        ".json": "2d855c97abf6af30e6eb64817bfc50778f5f7ffb7deee56362ff8caf1e908cbe",
+        ".xlsx": "64f040412d0d9dabc3c4cec366c918bd8c5442ef5e2cb8f474797d247ec398cb"
+      },
+      "unchanged": true,
+      "standalone_original_B6_delivery": "ikke funnet; innebygd original B6-kjerne kontrollert"
+    },
+    {
+      "kind": "ekte_tidligere_B8_B9_med_B6_kjerne",
+      "name": "vedtak-210-13-kolonner-2026-10-22",
+      "report_id": "0a32261a3771621478d0616ae8733fdbd0085c4792a48f97cd42ea0ed2c79b86",
+      "original_hashes": {
+        ".json": "2aa9f79e1d3f103c2593ab18b171f7d2e3f431658507c14fc7aa603865fec32e",
+        ".xlsx": "88d877f490559a3dd5a1bee77af8c6107acaab55ec3ee8f4d04009ad0b4a456d"
+      },
+      "unchanged": true,
+      "standalone_original_B6_delivery": "ikke funnet; innebygd original B6-kjerne kontrollert"
+    },
+    {
+      "kind": "ekte_tidligere_T1",
+      "source": "..\\..\\outputs\\t1-41-608895f\\2025-kontekst.json",
+      "report_id": "eea52650c8f5af63801593c0af4bec252e401cdb08a4419b27100405727e1414",
+      "original_hashes": [
+        "919e846cbe9cb9f5d24501307ac2d47f609f311d223185e6ea168795cf2cec17",
+        "73093dd8615812fcd8cdf94ebffa0fcc464cce0f4c5db124cf0e759320c320a1"
+      ],
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_T2",
+      "source": "..\\..\\outputs\\t2-44-1898ef3\\account-to-document.json",
+      "report_id": "66b6b851d40b76fc17a9efe5a7b523f5f3b5af48c7020bcd40f58deadbdc87c7",
+      "original_hashes": [
+        "2711fa7dafde6e8f67d8f276e34a2fe9781b846a7ff336821145ee3342864ca9",
+        "73101fac3068fd10271df656dfd7bec70856b7a5dcb4fb38fc100c07d14aac06"
+      ],
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_T3",
+      "source": "..\\..\\outputs\\t3-46-ccba906\\account-to-document.json",
+      "report_id": "167e12e6d623b4e6d50689ccae1cc175f073629dab6d8b6b294a818406ae956d",
+      "original_hashes": [
+        "65eeba828c5fae89ca973a9fd11b6838b2de53d9d6f0a82be767306b857a78a8",
+        "ddbad3334fb343b0b17f9911e1386cbc9d761d8c97e122dbf7c8ac6050c33dc3"
+      ],
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_tidligere_T4",
+      "source": "..\\..\\outputs\\t4-48-3f856d8\\2024-both.json",
+      "report_id": "8b9ef33c189a4b514e5701b9fbb33bbe5b1fd5d759d07c90f498c96dfdf64c35",
+      "original_hashes": [
+        "413c210853ff68ac66b43564426fb4c4bc6b44d857d8cce87d1c333ad6853712",
+        "5a5b4552a35663b28f78efedd812f8cfa2bdfb6abc298e74a1692a886ba73f18"
+      ],
+      "unchanged": true
+    },
+    {
+      "kind": "ekte_eldre_B6_arbeidsbok",
+      "source_path": "..\\..\\outputs\\t4-48-3f856d8\\compatibility\\B6\\accept-b6.xlsx",
+      "sha256": "8487909b5e7b2b7498c9ab78de9fb88966be926202df89388ef3f31871ac1f39",
+      "bytes": 4648442,
+      "report_id": "3ff5698de68eaad7f200d08fb73d83c150adea56ae49ccc2b1bd2efa305a9cfc",
+      "observations": 5492,
+      "selected_extractions": 50,
+      "extractions_with_amount_rows": 47,
+      "observation_ids_sha256": "79793f1ab60f03f31ce6bbeb2b4997f154e506c1b6e982313bdcd1ecbfdd935c",
+      "actual_cells_and_old_observation_models_checked": true,
+      "unchanged": true,
+      "boundary": "Ekte eldre B6-Excel, ikke omgenerert. Selvstendig gammel frozen-v1-rapport-JSON er ikke funnet. Utvalgs-/bevis-JSON er ikke SessionReport. Eksakt historisk writercommit er ikke fastslått; ingen historisk DB åpnet."
+    }
+  ],
+  "offline_cli": {
+    "returncode": 0,
+    "stdout": "{\"basis_id\":\"32c33da8aaf18acda06c62123322596b56722f8dc14a05e68b9b51091778e923\",\"issues\":[],\"monetary_events\":5,\"report_id\":\"d6a647f6bf3cea97bec9e308eba1fe124077dae63ff9eb5e582afb43b57ae615\"}\n",
+    "network_sqlite_forbidden": true,
+    "original_root_present": false
+  },
+  "resources": {
+    "report_bytes": 24550384,
+    "payloads": 119,
+    "sources": 119,
+    "evidence": 322,
+    "entries": 21,
+    "inventory_per_document": {
+      "f64182130806a7044c9215ca2fb84ba4edbaf7f4e20de1bbaae304f3458f3f20": 26,
+      "e36dcd70e1371cc46f9d3a647356350228fdcec40db42d3d97ac8c0fd0bbe37e": 53,
+      "48f22badcf044ef40f884f8ce978bf9a8553f5288aae8803d089fcc74c1b2b11": 5,
+      "09953189fa5f539d263973b92820e1ee76c21a640b458743282aeac50a6aa12a": 9,
+      "a55f9d85dbc0738c1bb6530962d2a85fce9141dbef413b4f67ed8965857a1a2e": 102,
+      "a7382b6e37c2df9a5852188e5cdfce898c8aae4cfa7f8264b8633ada37b38b74": 13
+    },
+    "limits": {
+      "report": 67108864,
+      "payload": 16777216,
+      "decompressed": 33554432,
+      "sources": 512,
+      "entries": 256,
+      "cases": 67,
+      "decisions": 25,
+      "gaps": 7,
+      "evidence": 4096
+    }
+  },
+  "seconds": 1106.234,
+  "limitations": [
+    "Ingen native Excel, full årsdekning, faglig årsbalanse, kontinuitet eller drift",
+    "Gamle immutable kapslers fysiske duplisering beholdes"
+  ],
+  "files": [
+    {
+      "file": "both.json",
+      "bytes": 24550384,
+      "sha256": "3e734ba2b88f091b081b9820b5302ede681242876f590b7e870956908bb9a6d4"
+    },
+    {
+      "file": "both.xlsx",
+      "bytes": 10294946,
+      "sha256": "b70823d43161b557d48acec9874b8acdeed72130c24399a75609adabd7e49a60"
+    },
+    {
+      "file": "chapter.json",
+      "bytes": 24550364,
+      "sha256": "5accb08d9310a9e151c777bfeeb5fdb628edc7cc1edeff01c7b0adb014ce3d45"
+    },
+    {
+      "file": "chapter.xlsx",
+      "bytes": 10294920,
+      "sha256": "07e32871427f16b4e0c82fab7b8705152af5c0793241d74ed7d30de726c88338"
+    },
+    {
+      "file": "cli-offline.json",
+      "bytes": 24550384,
+      "sha256": "3e734ba2b88f091b081b9820b5302ede681242876f590b7e870956908bb9a6d4"
+    },
+    {
+      "file": "cli-offline.xlsx",
+      "bytes": 10294946,
+      "sha256": "656d8fa1d089e0f33314212405ead267b210198a5ebe2f3c08e9c663fc0b93e6"
+    },
+    {
+      "file": "compatibility/B6/accept-b6.xlsx",
+      "bytes": 4648442,
+      "sha256": "8487909b5e7b2b7498c9ab78de9fb88966be926202df89388ef3f31871ac1f39"
+    },
+    {
+      "file": "compatibility/o2a-210-post1-52f0545/offline-gjenlest/offline-gjenlest.json",
+      "bytes": 4837383,
+      "sha256": "bd5666408115ce448a1c3ecf84242cade4c668ef507842e81eb5465c3bca7129"
+    },
+    {
+      "file": "compatibility/o2a-210-post1-52f0545/offline-gjenlest/offline-gjenlest.xlsx",
+      "bytes": 1392307,
+      "sha256": "f90cea2b72e62cf61816d3ad6f07a25ec4063a7d244eb2c57fb7713cd23ad5eb"
+    },
+    {
+      "file": "compatibility/o2a-210-post1-52f0545/omtale-210-post1/omtale-210-post1.json",
+      "bytes": 4837383,
+      "sha256": "bd5666408115ce448a1c3ecf84242cade4c668ef507842e81eb5465c3bca7129"
+    },
+    {
+      "file": "compatibility/o2a-210-post1-52f0545/omtale-210-post1/omtale-210-post1.xlsx",
+      "bytes": 1392306,
+      "sha256": "3fc3f731970dccb47ce773e37a48c42be2c9b10cf7525c82826c6436fc7965e3"
+    },
+    {
+      "file": "compatibility/o2b-210-begge-poster-7e70506/begge/begge.json",
+      "bytes": 4866537,
+      "sha256": "96dbe2c089272a661a6c37b4e1eaee5a10d78629720916c55705ba16aff7397d"
+    },
+    {
+      "file": "compatibility/o2b-210-begge-poster-7e70506/begge/begge.xlsx",
+      "bytes": 1398819,
+      "sha256": "34dea0f68eb3a1ec6eb33d5bf56bc7d04c519cb7f0be8a14d22897576a5aec84"
+    },
+    {
+      "file": "compatibility/o2b-210-begge-poster-7e70506/offline/offline.json",
+      "bytes": 4866537,
+      "sha256": "96dbe2c089272a661a6c37b4e1eaee5a10d78629720916c55705ba16aff7397d"
+    },
+    {
+      "file": "compatibility/o2b-210-begge-poster-7e70506/offline/offline.xlsx",
+      "bytes": 1398819,
+      "sha256": "cc4d5b68d29656d5358e4bc018645fa74ffdd5b62401bd5fb20f6f89e0471a4c"
+    },
+    {
+      "file": "compatibility/o2b-210-begge-poster-7e70506/post1/post1.json",
+      "bytes": 4852595,
+      "sha256": "0a22ad2c074a86898d6d264db6505b7b6bd6240578aa6846a3e5413d50760f07"
+    },
+    {
+      "file": "compatibility/o2b-210-begge-poster-7e70506/post1/post1.xlsx",
+      "bytes": 1396394,
+      "sha256": "3b97f085ce4db4c909a06ba4f55873b204576ae13aff2ab7ead144471f5e77fc"
+    },
+    {
+      "file": "compatibility/o2b-210-begge-poster-7e70506/post22/post22.json",
+      "bytes": 4852917,
+      "sha256": "ce913130c81f837eda327ee1e0f008aad82aa029122c9a0a9c6c19690f9a6f9f"
+    },
+    {
+      "file": "compatibility/o2b-210-begge-poster-7e70506/post22/post22.xlsx",
+      "bytes": 1396485,
+      "sha256": "a98a523020099d0d3964a569ccb7ce00fa2dc3a321255db2bd61f9a49317318b"
+    },
+    {
+      "file": "compatibility/o2b-210-begge-poster-7e70506/syntetisk-forslag/syntetisk-forslag.json",
+      "bytes": 4867573,
+      "sha256": "b65ae7e0bf42f4f699f75ee3f74be86e836a32e25b0b2d331603731456db111c"
+    },
+    {
+      "file": "compatibility/o2b-210-begge-poster-7e70506/syntetisk-forslag/syntetisk-forslag.xlsx",
+      "bytes": 1399247,
+      "sha256": "440484fc0c3936c6753d40a4476ad5e5777e6a6143d67daa2342af1104132499"
+    },
+    {
+      "file": "compatibility/o2b-210-begge-poster-7e70506/tomt/tomt.json",
+      "bytes": 4838268,
+      "sha256": "fac1b5c180baa57ef7f9114aabe855aafbd1cec1d3e7e1ed8725889c8e9ee84e"
+    },
+    {
+      "file": "compatibility/o2b-210-begge-poster-7e70506/tomt/tomt.xlsx",
+      "bytes": 1390380,
+      "sha256": "08e46f0b589d606e2c5ac6cb90e71d1e1076f019d8e1391bf7729d2d58610721"
+    },
+    {
+      "file": "compatibility/T1/2025-kontekst/2025-kontekst.json",
+      "bytes": 7723549,
+      "sha256": "919e846cbe9cb9f5d24501307ac2d47f609f311d223185e6ea168795cf2cec17"
+    },
+    {
+      "file": "compatibility/T1/2025-kontekst/2025-kontekst.xlsx",
+      "bytes": 5513693,
+      "sha256": "73093dd8615812fcd8cdf94ebffa0fcc464cce0f4c5db124cf0e759320c320a1"
+    },
+    {
+      "file": "compatibility/T2/account-to-document/account-to-document.json",
+      "bytes": 6871687,
+      "sha256": "2711fa7dafde6e8f67d8f276e34a2fe9781b846a7ff336821145ee3342864ca9"
+    },
+    {
+      "file": "compatibility/T2/account-to-document/account-to-document.xlsx",
+      "bytes": 2121906,
+      "sha256": "73101fac3068fd10271df656dfd7bec70856b7a5dcb4fb38fc100c07d14aac06"
+    },
+    {
+      "file": "compatibility/T3/account-to-document/account-to-document.json",
+      "bytes": 13128375,
+      "sha256": "65eeba828c5fae89ca973a9fd11b6838b2de53d9d6f0a82be767306b857a78a8"
+    },
+    {
+      "file": "compatibility/T3/account-to-document/account-to-document.xlsx",
+      "bytes": 3768896,
+      "sha256": "ddbad3334fb343b0b17f9911e1386cbc9d761d8c97e122dbf7c8ac6050c33dc3"
+    },
+    {
+      "file": "compatibility/T4/2024-both/2024-both.json",
+      "bytes": 13316736,
+      "sha256": "413c210853ff68ac66b43564426fb4c4bc6b44d857d8cce87d1c333ad6853712"
+    },
+    {
+      "file": "compatibility/T4/2024-both/2024-both.xlsx",
+      "bytes": 3771556,
+      "sha256": "5a5b4552a35663b28f78efedd812f8cfa2bdfb6abc298e74a1692a886ba73f18"
+    },
+    {
+      "file": "compatibility/vedtak-210-13-kolonner-2026-10-22/vedtak-210.json",
+      "bytes": 94551,
+      "sha256": "2aa9f79e1d3f103c2593ab18b171f7d2e3f431658507c14fc7aa603865fec32e"
+    },
+    {
+      "file": "compatibility/vedtak-210-13-kolonner-2026-10-22/vedtak-210.xlsx",
+      "bytes": 39569,
+      "sha256": "88d877f490559a3dd5a1bee77af8c6107acaab55ec3ee8f4d04009ad0b4a456d"
+    },
+    {
+      "file": "compatibility/vedtak-210-2026-10-22/vedtak-210.json",
+      "bytes": 94551,
+      "sha256": "2d855c97abf6af30e6eb64817bfc50778f5f7ffb7deee56362ff8caf1e908cbe"
+    },
+    {
+      "file": "compatibility/vedtak-210-2026-10-22/vedtak-210.xlsx",
+      "bytes": 37477,
+      "sha256": "64f040412d0d9dabc3c4cec366c918bd8c5442ef5e2cb8f474797d247ec398cb"
+    },
+    {
+      "file": "display-amount.xlsx",
+      "bytes": 10294936,
+      "sha256": "6edd8db6de02952970e044c039b30f5ddfb384a045277723374558a9b039907e"
+    },
+    {
+      "file": "display-doctype.xlsx",
+      "bytes": 10294991,
+      "sha256": "5046a3936ae66f3b8b9388842de4b5c5f9ad0d9444534c1ae90c612ff083ee1e"
+    },
+    {
+      "file": "display-filter.xlsx",
+      "bytes": 10294949,
+      "sha256": "b879aa4edce03d02f46eb05f2b6c372d8de036e72e56d2d5ae64adc33222412b"
+    },
+    {
+      "file": "display-hidden-column.xlsx",
+      "bytes": 10294955,
+      "sha256": "35c98e77621f57dac556af96999588148fafd7a39e7327742804c169508a18dc"
+    },
+    {
+      "file": "display-hidden-row.xlsx",
+      "bytes": 10294958,
+      "sha256": "a5dfb7184180e260df2fda73d7294580b9cafca0a0bba40579f337f6c2dd8cc1"
+    },
+    {
+      "file": "display-hidden-sheet.xlsx",
+      "bytes": 10294955,
+      "sha256": "0b0b3caf29be156ad9d2ee6da94fa3e9a7e144109e0e345911084128cd4644c5"
+    },
+    {
+      "file": "display-hyperlink.xlsx",
+      "bytes": 10294955,
+      "sha256": "5d8ff60971d8674f830606418a0868acd90b9a4fc1bb8df3dac0a0c1f8e04161"
+    },
+    {
+      "file": "display-numberformat.xlsx",
+      "bytes": 10294947,
+      "sha256": "f9038d391bf20746e52b4c39446ca58a513d236545b0645a94b4fb5c9b092f31"
+    },
+    {
+      "file": "empty.json",
+      "bytes": 24536501,
+      "sha256": "22c3b946f42b9fb1e5b4972fa71cf12e47cebea6803a69693a29a014a6b66f8f"
+    },
+    {
+      "file": "empty.xlsx",
+      "bytes": 10280424,
+      "sha256": "c473119d4f1e620ee76f1d0e6c05099c4f29c4bf773c4c09206de71c230675ef"
+    },
+    {
+      "file": "independence-contradictory/01-synkroniser.json",
+      "bytes": 2520,
+      "sha256": "c715951dae8d3817791431fb36d32126e1f3c93a0d5fd970731dafaa38743e1b"
+    },
+    {
+      "file": "independence-contradictory/02-tolk.json",
+      "bytes": 63991,
+      "sha256": "5cda9b62096121d91ea4c1fab691d264fe977be87f285be68c1a110abac2e4c2"
+    },
+    {
+      "file": "independence-contradictory/03-analyse.json",
+      "bytes": 865,
+      "sha256": "cda3a514eee6135ab42358fb19c51f7b707f0a7697515295067208d259798be8"
+    },
+    {
+      "file": "independence-contradictory/contradictory.json",
+      "bytes": 24550385,
+      "sha256": "44eff4bcaf2cd401420075455fc8d3905b8de8865899d772ed3834d89f222da8"
+    },
+    {
+      "file": "independence-contradictory/empty.json",
+      "bytes": 24536501,
+      "sha256": "22c3b946f42b9fb1e5b4972fa71cf12e47cebea6803a69693a29a014a6b66f8f"
+    },
+    {
+      "file": "independence-contradictory/empty.xlsx",
+      "bytes": 10280427,
+      "sha256": "d91c3f73f0b11bedf6002bace66677413836a98f12a099a6dc98d0d49cfef315"
+    },
+    {
+      "file": "independence-contradictory/ordinary.sqlite",
+      "bytes": 2375680,
+      "sha256": "16d7b1d6d8e51a995c44d772351d0ac701fb823c69dc55acad15c5e80b3bc709"
+    },
+    {
+      "file": "independence-contradictory/ordinary.xlsx",
+      "bytes": 93891,
+      "sha256": "ce8b6bde21b788c3c967e8fb8543c7603b43d2058ebb9f1426febcd0bc58904b"
+    },
+    {
+      "file": "independence-corrupt/01-synkroniser.json",
+      "bytes": 2514,
+      "sha256": "4d5c1d3369e59f8bff057ba6aa34c4035e664f0599e519ab2f4f4c6aa923b490"
+    },
+    {
+      "file": "independence-corrupt/02-tolk.json",
+      "bytes": 63985,
+      "sha256": "817eaf8a41abae7466093fcce27c84bb6abc46d773e5b13bc053821370ff9716"
+    },
+    {
+      "file": "independence-corrupt/03-analyse.json",
+      "bytes": 847,
+      "sha256": "b1c4e160d554b46dcd59f29109ec9df3e1a5b0dd5c6e91e1296660383a9519e0"
+    },
+    {
+      "file": "independence-corrupt/corrupt.json",
+      "bytes": 10,
+      "sha256": "3134be978f4ad158f9db71b78d3cc8486c906b4ccb8af2c7072d31fbb3d86b58"
+    },
+    {
+      "file": "independence-corrupt/empty.json",
+      "bytes": 24536501,
+      "sha256": "22c3b946f42b9fb1e5b4972fa71cf12e47cebea6803a69693a29a014a6b66f8f"
+    },
+    {
+      "file": "independence-corrupt/empty.xlsx",
+      "bytes": 10280425,
+      "sha256": "3058479bf1ccf2d97eac619ba6b87b65c44214b204ce591c237fbd18b49dce97"
+    },
+    {
+      "file": "independence-corrupt/ordinary.sqlite",
+      "bytes": 2371584,
+      "sha256": "7a33ef6bf5d2b680631f3ce600119bf212d8795ead508c3f4ca51b33cc2f670b"
+    },
+    {
+      "file": "independence-corrupt/ordinary.xlsx",
+      "bytes": 93872,
+      "sha256": "e81de8f75543fbf95c49a77c69e8ae2bd88afd6ace6471eb8f9a26a7f1602622"
+    },
+    {
+      "file": "independence-failed/01-synkroniser.json",
+      "bytes": 2513,
+      "sha256": "23b682eacc658dcd82b9393e93feb0792f8925b0de59ed6c69a5f137ca56f21e"
+    },
+    {
+      "file": "independence-failed/02-tolk.json",
+      "bytes": 63984,
+      "sha256": "25a51bc7124ed72a40442bd118082a9369bbca569785a4eaa43b252491f04711"
+    },
+    {
+      "file": "independence-failed/03-analyse.json",
+      "bytes": 844,
+      "sha256": "edb0c1f85125c1be072a627ed924cb3e0a668f44d0cfc4b0f2d716e2ca3a5727"
+    },
+    {
+      "file": "independence-failed/empty.json",
+      "bytes": 24536501,
+      "sha256": "22c3b946f42b9fb1e5b4972fa71cf12e47cebea6803a69693a29a014a6b66f8f"
+    },
+    {
+      "file": "independence-failed/empty.xlsx",
+      "bytes": 10280424,
+      "sha256": "5d51ac95cded4eb1231874d2077769b04bc12458719e5b73e185bab83865bb8c"
+    },
+    {
+      "file": "independence-failed/ordinary.sqlite",
+      "bytes": 2371584,
+      "sha256": "9ce0874d154e2372a849eab44ba29e8b06b324c507e73dd0c93b0fface16a7b3"
+    },
+    {
+      "file": "independence-failed/ordinary.xlsx",
+      "bytes": 93847,
+      "sha256": "33c393f2a5df51138e7dae214111c5d028672dc8ae0911ac430093824a66049f"
+    },
+    {
+      "file": "independence-missing/01-synkroniser.json",
+      "bytes": 2514,
+      "sha256": "e7e2be549f0735fa5f245c56baa4e4401a38f2362c845764dd949488915b2e3b"
+    },
+    {
+      "file": "independence-missing/02-tolk.json",
+      "bytes": 63985,
+      "sha256": "7a3c8f8d71f6fc4e99b425406d1e04e0a85aa8c260be7d0df693990e57f69380"
+    },
+    {
+      "file": "independence-missing/03-analyse.json",
+      "bytes": 847,
+      "sha256": "6feb2a87e169350bfd0e5bcd37ea7472ced7b78936ab4abd66d0db33c7556343"
+    },
+    {
+      "file": "independence-missing/empty.json",
+      "bytes": 180033,
+      "sha256": "a5a082efd8b918a4c421a9545163e33f8f8dc13f166951da68683aab29fd347a"
+    },
+    {
+      "file": "independence-missing/empty.xlsx",
+      "bytes": 70158,
+      "sha256": "7a0cfca356e08653b49f2fff629f825c06659d70a6efe88459e001a65ee1abad"
+    },
+    {
+      "file": "independence-missing/ordinary.sqlite",
+      "bytes": 2371584,
+      "sha256": "fcd8d283e04b69323f89e4aad042589affd0e45c2125aef6ef3ae02c740c1583"
+    },
+    {
+      "file": "independence-missing/ordinary.xlsx",
+      "bytes": 93823,
+      "sha256": "38fbccf75c952df377a6eb23cde3a2d23fe7591841d7cfa13fcde612379a2cac"
+    },
+    {
+      "file": "negative/alternative-adopted.json",
+      "bytes": 24550369,
+      "sha256": "03426c081f9872d03a663d8c5c6c922cbad48a42711a89a2073ce882139808f5"
+    },
+    {
+      "file": "negative/alternative-adopted.xlsx",
+      "bytes": 10294817,
+      "sha256": "d5c030478bcd2349774390926130b4e4f3d064b6818955a0290187726c75fdc1"
+    },
+    {
+      "file": "negative/annual-approval.json",
+      "bytes": 24550383,
+      "sha256": "f3f01cb5112f9369d4d47f8bc8b2bfa355446d9330cdb3d96bf19db699fb2bb1"
+    },
+    {
+      "file": "negative/annual-approval.xlsx",
+      "bytes": 10294993,
+      "sha256": "43afd2a00c5ac089e7a5d3e473137eaa3e4272c6094913d96d7fc1100a009d79"
+    },
+    {
+      "file": "negative/candidate-status.json",
+      "bytes": 24550370,
+      "sha256": "721a20959ded886cb1e695cae045ca88164fc667ad1798d3e9c54583319babf4"
+    },
+    {
+      "file": "negative/candidate-status.xlsx",
+      "bytes": 10294942,
+      "sha256": "3d55165f08aa68121c8910a5ccc2a07c52651e4b827cf6c130380d54d5e469fe"
+    },
+    {
+      "file": "negative/case-identity.json",
+      "bytes": 24550384,
+      "sha256": "b5351596c74177d561f401d66f2c78e19ed8d2baef1b0cf1ee690ebfc310eb94"
+    },
+    {
+      "file": "negative/case-identity.xlsx",
+      "bytes": 10294930,
+      "sha256": "1ee73f3f78d76cec88111b2eabd35c8c15d881ba82944aff5cc88648d124d9cb"
+    },
+    {
+      "file": "negative/decision-reason.json",
+      "bytes": 24550373,
+      "sha256": "9905c2b64ba1b18dd86554dd2639ecb3e50d7acb68bfb5c707e31dddfa5e5b9e"
+    },
+    {
+      "file": "negative/decision-reason.xlsx",
+      "bytes": 10294945,
+      "sha256": "da6ce032233e7653a5c6d6b54cc0e64557abd64a29356888774c9f3f29ee7d3c"
+    },
+    {
+      "file": "negative/decision-year.json",
+      "bytes": 24550384,
+      "sha256": "c36278563b7c0edd52b974b5ece7bf345ab0396fc0f86c307863a92a55517e5e"
+    },
+    {
+      "file": "negative/decision-year.xlsx",
+      "bytes": 10294933,
+      "sha256": "1327b4faeabea6db6b3e27b95d51defd5825017b4eee90e380f4f465caea2690"
+    },
+    {
+      "file": "negative/duplicate-payload.json",
+      "bytes": 24572969,
+      "sha256": "4ade111ddc5ecdef3124e8c5c27ce873689e3850684618e3d157d50e203763ee"
+    },
+    {
+      "file": "negative/duplicate-payload.xlsx",
+      "bytes": 10297662,
+      "sha256": "d57722abf8d71a2b26323e112d08259a622fc26340f9e4b467f8ad6f3effeeef"
+    },
+    {
+      "file": "negative/entry-cap.json",
+      "bytes": 24853451,
+      "sha256": "332179fd2628fe52302e6ad6fb5cacc38b26ebac8a417c6b3014e77fa3c1c5d0"
+    },
+    {
+      "file": "negative/entry-cap.xlsx",
+      "bytes": 10313420,
+      "sha256": "7c3028a1fca34f42d44c6d6259cb9cb2b4631d4468b95f63e10f832b3362babb"
+    },
+    {
+      "file": "negative/fullmakt-amount.json",
+      "bytes": 24550516,
+      "sha256": "df44459ff9ec1f9206ad510e02a2b716ee7adfef1ffcceea42b56bb3d9f10611"
+    },
+    {
+      "file": "negative/fullmakt-amount.xlsx",
+      "bytes": 10294612,
+      "sha256": "94c1e15b3c62778222c4c201586425704af6c0c6480e65c5c4cc370d85c11159"
+    },
+    {
+      "file": "negative/hidden-gaps.json",
+      "bytes": 24545965,
+      "sha256": "730a90fe804a9f95d4e442a2d6da39b7550a33daf01a676a1aae69e6187cf8f7"
+    },
+    {
+      "file": "negative/hidden-gaps.xlsx",
+      "bytes": 10291034,
+      "sha256": "a4b6cd622ad1506bcce443fbad666f7b53e6415dd6cfc70597ba37bf0695e960"
+    },
+    {
+      "file": "negative/hidden-global-view.json",
+      "bytes": 24545896,
+      "sha256": "b8b7fc9de5eec810d795c9959be85c5dfc9607e8d2e621507c7e827c6ee7009f"
+    },
+    {
+      "file": "negative/hidden-global-view.xlsx",
+      "bytes": 10292110,
+      "sha256": "397b4e6836d22d7d3a6a66d636527500b2d4a0b81987ec7ffaa606fe33153b29"
+    },
+    {
+      "file": "negative/legacy-raw-copy.json",
+      "bytes": 24684732,
+      "sha256": "29ddc4d6476eed66b9e7c3b25f4f546613848ec39d2e86db8f38776cbd4062b6"
+    },
+    {
+      "file": "negative/legacy-raw-copy.xlsx",
+      "bytes": 10329423,
+      "sha256": "8f268bbbc33b1b06088723d7788efc147ef2e019cc4cfd680f59fbb1f3908698"
+    },
+    {
+      "file": "negative/locator.json",
+      "bytes": 24550403,
+      "sha256": "f1b19fae7f0b1e63dcbc648a93797cf2ff3459b0596521cfe2f1b89ff23e135d"
+    },
+    {
+      "file": "negative/locator.xlsx",
+      "bytes": 10294603,
+      "sha256": "bce154e822459720907113c873bd3e62058b014b181a433cb94f47cb3de14135"
+    },
+    {
+      "file": "negative/ordinal.json",
+      "bytes": 24550384,
+      "sha256": "97abcdd685e4727ce0d1052899bcf4149f826a9dae3ef8120519a01f4884dd8d"
+    },
+    {
+      "file": "negative/ordinal.xlsx",
+      "bytes": 10294940,
+      "sha256": "9832e273f8e1a4faa808a6077a7855b7739e607c7e0b196cef2cd88f4ad653e7"
+    },
+    {
+      "file": "negative/parent.json",
+      "bytes": 24550384,
+      "sha256": "5d5c74ce147600908b572b2c7e6761c4d64b3eade5cc35986af3966152389218"
+    },
+    {
+      "file": "negative/parent.xlsx",
+      "bytes": 10294887,
+      "sha256": "35bca9098a0248993d99d6f88a00f59a49047f6c45b26ee5337335746a5b7496"
+    },
+    {
+      "file": "negative/positive-coverage.json",
+      "bytes": 24550385,
+      "sha256": "44eff4bcaf2cd401420075455fc8d3905b8de8865899d772ed3834d89f222da8"
+    },
+    {
+      "file": "negative/positive-coverage.xlsx",
+      "bytes": 10294939,
+      "sha256": "a5cc426f9b03a827843ccdd7252ff12158664477ce964945664995470d706007"
+    },
+    {
+      "file": "negative/post.json",
+      "bytes": 24550385,
+      "sha256": "de254aee7e88c9e9b5d2fc09d1d72495fe46546ca1d3b6c48a2a077824b9d3d0"
+    },
+    {
+      "file": "negative/post.xlsx",
+      "bytes": 10294887,
+      "sha256": "b669a24f24e76172e99139972ffaa4fcd46dd5f92a7065a260526ffb9632af29"
+    },
+    {
+      "file": "negative/prop36-event.json",
+      "bytes": 24550408,
+      "sha256": "b6b7ccca9eb01cfd14cd460c1c2fe9fa4d220a713763a5355afc74c9c9335c00"
+    },
+    {
+      "file": "negative/prop36-event.xlsx",
+      "bytes": 10294777,
+      "sha256": "728ff442b97a9abd9fb59b3af9a37102c9f776be452d1c5850a9070e4fe06b17"
+    },
+    {
+      "file": "negative/role.json",
+      "bytes": 24550369,
+      "sha256": "e87abe9785398840241a0d98ebf6c01038089383e778fca2155c7800474d427b"
+    },
+    {
+      "file": "negative/role.xlsx",
+      "bytes": 10294772,
+      "sha256": "f2d5c0bd6495f879249ac27055c63d265f9e65240d94ae7449205f83eae956ab"
+    },
+    {
+      "file": "negative/source-bytes.json",
+      "bytes": 24550384,
+      "sha256": "96ea886220625f88b96595f9abeb0a7b7213ecc791f712d3e06316c917251f5b"
+    },
+    {
+      "file": "negative/source-bytes.xlsx",
+      "bytes": 10295000,
+      "sha256": "255969faf7a96a837ebda8145e4a39684af6ba389b677569b521ec9ded7450bd"
+    },
+    {
+      "file": "negative/source-hash.json",
+      "bytes": 24550384,
+      "sha256": "387f4b440b38abd55772443c31d758086c4cfa3af819496cf659bebff9938473"
+    },
+    {
+      "file": "negative/source-hash.xlsx",
+      "bytes": 10294952,
+      "sha256": "3a9e44dc57055d843813610836520965c9b5e70da3f1ffa60220fcb820ad0799"
+    },
+    {
+      "file": "negative/text-loss.json",
+      "bytes": 24550196,
+      "sha256": "427927b7a31dff02b3ebd89cdad7369cef7f0879d4ec6111acfa5ca3337d1626"
+    },
+    {
+      "file": "negative/text-loss.xlsx",
+      "bytes": 10294850,
+      "sha256": "1dc65f119ed060574d5eb53920664f5b275bfae50e05f4044a5ad18989862f02"
+    },
+    {
+      "file": "negative/year.json",
+      "bytes": 24550384,
+      "sha256": "49d939bc0f50fc3dd88e6edae87981e4e272802db9612034a1783f612862330d"
+    },
+    {
+      "file": "negative/year.xlsx",
+      "bytes": 10294948,
+      "sha256": "e77161ce741cc64e664fc379b0708a26dcf5067155a8e27dca5516b71e582ec9"
+    },
+    {
+      "file": "opened-fullmakt.json",
+      "bytes": 24536798,
+      "sha256": "6f6c725de3bd3d2a700130f9941f6642b6ecdb784ad99f8f854f87d6f6193da5"
+    },
+    {
+      "file": "opened-fullmakt.xlsx",
+      "bytes": 10281093,
+      "sha256": "e8849a1e4f534c4652cf74e6c4d60d01b88d7c02799ee2fa0efaad3d10c5f594"
+    },
+    {
+      "file": "originals/00696f96ef64fa68d5536e4715752ac28bc371b2b55b62d6061ff37c6e9137c1.bin",
+      "bytes": 2139,
+      "sha256": "00696f96ef64fa68d5536e4715752ac28bc371b2b55b62d6061ff37c6e9137c1"
+    },
+    {
+      "file": "originals/031cddbf7af51c2b2fd2d0487e026aa8aaa1b315866216d810f6fc65eb4ed10f.bin",
+      "bytes": 471,
+      "sha256": "031cddbf7af51c2b2fd2d0487e026aa8aaa1b315866216d810f6fc65eb4ed10f"
+    },
+    {
+      "file": "originals/0329432d39af2cae10e67cbe26a09434ffe959dd92aee36788cdb890c24b2f3b.bin",
+      "bytes": 604874,
+      "sha256": "0329432d39af2cae10e67cbe26a09434ffe959dd92aee36788cdb890c24b2f3b"
+    },
+    {
+      "file": "originals/07b85b79438fa1cfcc8774c36291fc28d0cfdc7d429ca82e1e5810bca89ac895.bin",
+      "bytes": 1560,
+      "sha256": "07b85b79438fa1cfcc8774c36291fc28d0cfdc7d429ca82e1e5810bca89ac895"
+    },
+    {
+      "file": "originals/0aeb1d657b11cd7abf740955246f94a012675246d3375f6a0a4656c88555f0c2.bin",
+      "bytes": 359,
+      "sha256": "0aeb1d657b11cd7abf740955246f94a012675246d3375f6a0a4656c88555f0c2"
+    },
+    {
+      "file": "originals/0c2f69ff19ae5943cdb5e190dd1a0bee17615e45f6d0f1f04204a9544196b9a3.bin",
+      "bytes": 2287,
+      "sha256": "0c2f69ff19ae5943cdb5e190dd1a0bee17615e45f6d0f1f04204a9544196b9a3"
+    },
+    {
+      "file": "originals/0dab76cd3173eace41b7a4ced6606802cb05af08a13e9b97c3df562b4d158861.bin",
+      "bytes": 5362,
+      "sha256": "0dab76cd3173eace41b7a4ced6606802cb05af08a13e9b97c3df562b4d158861"
+    },
+    {
+      "file": "originals/0f06a926c80658f7aadf43b331dba260cfa593aa008005e0f34488f89bc36e8a.bin",
+      "bytes": 892146,
+      "sha256": "0f06a926c80658f7aadf43b331dba260cfa593aa008005e0f34488f89bc36e8a"
+    },
+    {
+      "file": "originals/0f359c55db53c954c725b61e7c36eeb9a7566520bd2371d9458bd699d7120aed.bin",
+      "bytes": 15235,
+      "sha256": "0f359c55db53c954c725b61e7c36eeb9a7566520bd2371d9458bd699d7120aed"
+    },
+    {
+      "file": "originals/107bf016cfcf37784416d89951eeae0a775e75cb9a8d92b11f6f6f6c56ec43c8.bin",
+      "bytes": 328276,
+      "sha256": "107bf016cfcf37784416d89951eeae0a775e75cb9a8d92b11f6f6f6c56ec43c8"
+    },
+    {
+      "file": "originals/108c20c287461d0cddaa8d777a4b3fdde8bc0c6ac45c55d52566c8340428a50f.bin",
+      "bytes": 25973,
+      "sha256": "108c20c287461d0cddaa8d777a4b3fdde8bc0c6ac45c55d52566c8340428a50f"
+    },
+    {
+      "file": "originals/10d28871b7ad5664f4d0a17e736623b0288023787dc0e85f99cd3e0ce44efc33.bin",
+      "bytes": 7168,
+      "sha256": "10d28871b7ad5664f4d0a17e736623b0288023787dc0e85f99cd3e0ce44efc33"
+    },
+    {
+      "file": "originals/117ff9321f5aede06abbdfdb4a22b0877d69b709aa9dd94b63de603075c1f34e.bin",
+      "bytes": 2497,
+      "sha256": "117ff9321f5aede06abbdfdb4a22b0877d69b709aa9dd94b63de603075c1f34e"
+    },
+    {
+      "file": "originals/1265c6caf7e2f0d70a548e39ff943400a598e057898830567376fe87d77796db.bin",
+      "bytes": 1897,
+      "sha256": "1265c6caf7e2f0d70a548e39ff943400a598e057898830567376fe87d77796db"
+    },
+    {
+      "file": "originals/12cef2204125fa21b8afa75e592f4d2862e46c9b701b5d130d07788d0fd4726c.bin",
+      "bytes": 14809,
+      "sha256": "12cef2204125fa21b8afa75e592f4d2862e46c9b701b5d130d07788d0fd4726c"
+    },
+    {
+      "file": "originals/1ab731dd7b0c2165a75f5902fd2020502e8a4cb151be920fc47509e62093537c.bin",
+      "bytes": 337444,
+      "sha256": "1ab731dd7b0c2165a75f5902fd2020502e8a4cb151be920fc47509e62093537c"
+    },
+    {
+      "file": "originals/1b43cc3e77fb8b216d3d0bd2d51739c4200b38aabcdac907afcdf47d0218a79b.bin",
+      "bytes": 786,
+      "sha256": "1b43cc3e77fb8b216d3d0bd2d51739c4200b38aabcdac907afcdf47d0218a79b"
+    },
+    {
+      "file": "originals/1be155df2f7bca78b36641b42cb89d257765bd122b2fc5c3a97c0c03c0f6622f.bin",
+      "bytes": 1703,
+      "sha256": "1be155df2f7bca78b36641b42cb89d257765bd122b2fc5c3a97c0c03c0f6622f"
+    },
+    {
+      "file": "originals/1cd30f753f322c8504202048b005ea8daff15443dc7dbf03b03884fb8544c042.bin",
+      "bytes": 2028,
+      "sha256": "1cd30f753f322c8504202048b005ea8daff15443dc7dbf03b03884fb8544c042"
+    },
+    {
+      "file": "originals/1d0131ba60a728583d519c76086c0dde6bf34c5221331ebcc85cc8f1dd702f5c.bin",
+      "bytes": 300427,
+      "sha256": "1d0131ba60a728583d519c76086c0dde6bf34c5221331ebcc85cc8f1dd702f5c"
+    },
+    {
+      "file": "originals/1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b.bin",
+      "bytes": 391763,
+      "sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b"
+    },
+    {
+      "file": "originals/1eaf426d69574726c57c12c6f97f030cae8a797f287ca6922b510af69802eba9.bin",
+      "bytes": 17300,
+      "sha256": "1eaf426d69574726c57c12c6f97f030cae8a797f287ca6922b510af69802eba9"
+    },
+    {
+      "file": "originals/1f8a76b53c3e31b389561f95e01a009b29ccdf2eabc902bed6fd22ee4accee9d.bin",
+      "bytes": 8831,
+      "sha256": "1f8a76b53c3e31b389561f95e01a009b29ccdf2eabc902bed6fd22ee4accee9d"
+    },
+    {
+      "file": "originals/2084bfe45d05ec01bf2ae61f65907b239a6fba324171f1f059bada7a9c7bd4c9.bin",
+      "bytes": 15454,
+      "sha256": "2084bfe45d05ec01bf2ae61f65907b239a6fba324171f1f059bada7a9c7bd4c9"
+    },
+    {
+      "file": "originals/22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5.bin",
+      "bytes": 2094710,
+      "sha256": "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5"
+    },
+    {
+      "file": "originals/231a0cad9d36e10a963d4cf425ab7601859a113e4c50301d3fd417a369423c9f.bin",
+      "bytes": 1707,
+      "sha256": "231a0cad9d36e10a963d4cf425ab7601859a113e4c50301d3fd417a369423c9f"
+    },
+    {
+      "file": "originals/249909e2806b57c4c8776116caaa8e30d4ba94b16b1daf73d9a76b9b6290ab8d.bin",
+      "bytes": 2124,
+      "sha256": "249909e2806b57c4c8776116caaa8e30d4ba94b16b1daf73d9a76b9b6290ab8d"
+    },
+    {
+      "file": "originals/258d26e6d324bde709bf3d1cb660d7eb6f4248f537d4b0c77e095f17697cf8df.bin",
+      "bytes": 100808,
+      "sha256": "258d26e6d324bde709bf3d1cb660d7eb6f4248f537d4b0c77e095f17697cf8df"
+    },
+    {
+      "file": "originals/2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850.bin",
+      "bytes": 6058,
+      "sha256": "2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850"
+    },
+    {
+      "file": "originals/2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27.bin",
+      "bytes": 12383,
+      "sha256": "2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27"
+    },
+    {
+      "file": "originals/2fcb06aa00b3faeb4db9cd74c75e3b1648eb3265aa6b1cf7da18157e8342a025.bin",
+      "bytes": 757,
+      "sha256": "2fcb06aa00b3faeb4db9cd74c75e3b1648eb3265aa6b1cf7da18157e8342a025"
+    },
+    {
+      "file": "originals/379e8344dfaab39556a5a18a0e63e269e62ac90e3ccfc3eb91fc61c5cf77a512.bin",
+      "bytes": 51657,
+      "sha256": "379e8344dfaab39556a5a18a0e63e269e62ac90e3ccfc3eb91fc61c5cf77a512"
+    },
+    {
+      "file": "originals/3a12daae493be3e421be53357ee64d7d8d797ead0c461b550b7518f17d1d50ec.bin",
+      "bytes": 15201,
+      "sha256": "3a12daae493be3e421be53357ee64d7d8d797ead0c461b550b7518f17d1d50ec"
+    },
+    {
+      "file": "originals/3a8f0918a3fcce90bf2c93f3ce972c3de7277c76e27e5ef563d6c43384cf2af2.bin",
+      "bytes": 15888,
+      "sha256": "3a8f0918a3fcce90bf2c93f3ce972c3de7277c76e27e5ef563d6c43384cf2af2"
+    },
+    {
+      "file": "originals/3dfb419ebe94beed7bd3c0a20a623c6f94cf197c67e04abf4335f36e67d90852.bin",
+      "bytes": 22599,
+      "sha256": "3dfb419ebe94beed7bd3c0a20a623c6f94cf197c67e04abf4335f36e67d90852"
+    },
+    {
+      "file": "originals/4113b987c8f939256d30ef6a4401cda358d9da90b5af19cbbbc37d0ec9d312b0.bin",
+      "bytes": 1265833,
+      "sha256": "4113b987c8f939256d30ef6a4401cda358d9da90b5af19cbbbc37d0ec9d312b0"
+    },
+    {
+      "file": "originals/44dfe09c480d78108d2cb63811e5524a14b9e8f7cbb986302a515f6d29ec0832.bin",
+      "bytes": 50601,
+      "sha256": "44dfe09c480d78108d2cb63811e5524a14b9e8f7cbb986302a515f6d29ec0832"
+    },
+    {
+      "file": "originals/4bbc3fdffe4d5378d991053b522364e542c7cd12207640197e62773c44a94c67.bin",
+      "bytes": 28996,
+      "sha256": "4bbc3fdffe4d5378d991053b522364e542c7cd12207640197e62773c44a94c67"
+    },
+    {
+      "file": "originals/4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28.bin",
+      "bytes": 381,
+      "sha256": "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28"
+    },
+    {
+      "file": "originals/506b107ea65b6c0ef21221116e995b6da3d52d7d6d2a939ed8bb7bd35417d4ee.bin",
+      "bytes": 804411,
+      "sha256": "506b107ea65b6c0ef21221116e995b6da3d52d7d6d2a939ed8bb7bd35417d4ee"
+    },
+    {
+      "file": "originals/5391c8c9cd6cafaad696b911405a79a80bf7ad86c93ce981c2b041e0eb9961d2.bin",
+      "bytes": 15725,
+      "sha256": "5391c8c9cd6cafaad696b911405a79a80bf7ad86c93ce981c2b041e0eb9961d2"
+    },
+    {
+      "file": "originals/5591480f057ec8b314b5cfd8456d328d7eac43b591e671e26909912dc8a5777e.bin",
+      "bytes": 2057,
+      "sha256": "5591480f057ec8b314b5cfd8456d328d7eac43b591e671e26909912dc8a5777e"
+    },
+    {
+      "file": "originals/56372509ffb4d04a7a265b969932327872b54d0279e43dfb762ef76f24b0f743.bin",
+      "bytes": 381,
+      "sha256": "56372509ffb4d04a7a265b969932327872b54d0279e43dfb762ef76f24b0f743"
+    },
+    {
+      "file": "originals/585fd8e418af1c4b05155e3d1453b44a4265c2cf63f326ccd113c649734a3aa8.bin",
+      "bytes": 349992,
+      "sha256": "585fd8e418af1c4b05155e3d1453b44a4265c2cf63f326ccd113c649734a3aa8"
+    },
+    {
+      "file": "originals/59a1334ec37dcb2f265e5234f756d538a698e8ea99f51caccfb858929de79feb.bin",
+      "bytes": 1076,
+      "sha256": "59a1334ec37dcb2f265e5234f756d538a698e8ea99f51caccfb858929de79feb"
+    },
+    {
+      "file": "originals/5b0b869afeea38e4a4ea63b9dace57a6a489cef7674d563016646d25c17c3fa3.bin",
+      "bytes": 1725,
+      "sha256": "5b0b869afeea38e4a4ea63b9dace57a6a489cef7674d563016646d25c17c3fa3"
+    },
+    {
+      "file": "originals/5b86d7388cd180b681d7fc6637df8228a9eedb06e96fdb5f106ad42cefea8035.bin",
+      "bytes": 159138,
+      "sha256": "5b86d7388cd180b681d7fc6637df8228a9eedb06e96fdb5f106ad42cefea8035"
+    },
+    {
+      "file": "originals/5ccdef0d66b7c31d72418952e1cbb0cb82445223933fe83db3df41a1c0fbb17b.bin",
+      "bytes": 786,
+      "sha256": "5ccdef0d66b7c31d72418952e1cbb0cb82445223933fe83db3df41a1c0fbb17b"
+    },
+    {
+      "file": "originals/5cef652b9d9e22fb89531d30c6710cec8798a5e6b3a4beb3cc05cd3a9ea3e707.bin",
+      "bytes": 18817,
+      "sha256": "5cef652b9d9e22fb89531d30c6710cec8798a5e6b3a4beb3cc05cd3a9ea3e707"
+    },
+    {
+      "file": "originals/5d8a9825a942b15239df3ba5e0cb6e16671172ad13ac020c3f6caa3f6ad54486.bin",
+      "bytes": 2028,
+      "sha256": "5d8a9825a942b15239df3ba5e0cb6e16671172ad13ac020c3f6caa3f6ad54486"
+    },
+    {
+      "file": "originals/5f253a556d2ac512570899252b396bc38f068de5f4bd6820178e7de8ce41f3eb.bin",
+      "bytes": 1692,
+      "sha256": "5f253a556d2ac512570899252b396bc38f068de5f4bd6820178e7de8ce41f3eb"
+    },
+    {
+      "file": "originals/6196ab7c50f0e83c0920675a394226430b1c6501c5bb16910229a85ce27e53e9.bin",
+      "bytes": 2157,
+      "sha256": "6196ab7c50f0e83c0920675a394226430b1c6501c5bb16910229a85ce27e53e9"
+    },
+    {
+      "file": "originals/621f7c3dd52967ac559adcfc7699c9826b1f8c8624bbe5b48b2cb61df05f86a0.bin",
+      "bytes": 2118,
+      "sha256": "621f7c3dd52967ac559adcfc7699c9826b1f8c8624bbe5b48b2cb61df05f86a0"
+    },
+    {
+      "file": "originals/668ffcb3afdbd6bd3f9ae454d37743a15fd5e50523fbbb4f8309b4c917187e5f.bin",
+      "bytes": 61875,
+      "sha256": "668ffcb3afdbd6bd3f9ae454d37743a15fd5e50523fbbb4f8309b4c917187e5f"
+    },
+    {
+      "file": "originals/67033cce596b33ccb7f2cd459a6df7af98d44836292f0675d308797a888ba04c.bin",
+      "bytes": 1563,
+      "sha256": "67033cce596b33ccb7f2cd459a6df7af98d44836292f0675d308797a888ba04c"
+    },
+    {
+      "file": "originals/6b2dd282d4c1bffff15063907bc6c3d5948279c7898f7caf7291d7a140de6816.bin",
+      "bytes": 24955,
+      "sha256": "6b2dd282d4c1bffff15063907bc6c3d5948279c7898f7caf7291d7a140de6816"
+    },
+    {
+      "file": "originals/6e0e37551b00da15c262e8ba2e40e8b21abba96d3b47acc57e41b908024d9def.bin",
+      "bytes": 706,
+      "sha256": "6e0e37551b00da15c262e8ba2e40e8b21abba96d3b47acc57e41b908024d9def"
+    },
+    {
+      "file": "originals/6f16d4dc5cf755255c5151dff67ed5b58244a20c63c39f53cc94e34ea309ec5a.bin",
+      "bytes": 16819,
+      "sha256": "6f16d4dc5cf755255c5151dff67ed5b58244a20c63c39f53cc94e34ea309ec5a"
+    },
+    {
+      "file": "originals/6f68d7115e982ff0318f3f808bbf01d7c0843f70d0db2f9f2b13a660673630bc.bin",
+      "bytes": 394937,
+      "sha256": "6f68d7115e982ff0318f3f808bbf01d7c0843f70d0db2f9f2b13a660673630bc"
+    },
+    {
+      "file": "originals/71591ff972e3298f6eb51347a80d6fef9832a9df866cf8c5bb850b04e10b0140.bin",
+      "bytes": 1709,
+      "sha256": "71591ff972e3298f6eb51347a80d6fef9832a9df866cf8c5bb850b04e10b0140"
+    },
+    {
+      "file": "originals/73bbcdc1d83a539ab4f3c2fad7b2b2972e003e742a5391a003d19c38149b6e71.bin",
+      "bytes": 117054,
+      "sha256": "73bbcdc1d83a539ab4f3c2fad7b2b2972e003e742a5391a003d19c38149b6e71"
+    },
+    {
+      "file": "originals/73c774569d00a964157d8abc8b94f9e9fa4fadd6e9f097dc6d3788ee8caac8f8.bin",
+      "bytes": 10033,
+      "sha256": "73c774569d00a964157d8abc8b94f9e9fa4fadd6e9f097dc6d3788ee8caac8f8"
+    },
+    {
+      "file": "originals/7502f2f565048f1b0954cb4cb132183d0bc5ec362ba74e14de877df36003a7d4.bin",
+      "bytes": 394936,
+      "sha256": "7502f2f565048f1b0954cb4cb132183d0bc5ec362ba74e14de877df36003a7d4"
+    },
+    {
+      "file": "originals/75544d36888e0e06ec43572b6333e7d76641437bdfeb020ade745011b77a4f87.bin",
+      "bytes": 5379,
+      "sha256": "75544d36888e0e06ec43572b6333e7d76641437bdfeb020ade745011b77a4f87"
+    },
+    {
+      "file": "originals/75ff9f4cc1561c634272f790c4d3263581e9bc8ac1e09c7f0761ad582ec77b47.bin",
+      "bytes": 79426,
+      "sha256": "75ff9f4cc1561c634272f790c4d3263581e9bc8ac1e09c7f0761ad582ec77b47"
+    },
+    {
+      "file": "originals/771741ed9e0ba0ead88f01ecbfd602f1ccf57ce3f7b9136f06aba7fcac81c552.bin",
+      "bytes": 173860,
+      "sha256": "771741ed9e0ba0ead88f01ecbfd602f1ccf57ce3f7b9136f06aba7fcac81c552"
+    },
+    {
+      "file": "originals/772a0ac6c1d0f2f702472f5bdc3e6bb1b8d0134d249cc4fd8ace93648647e5aa.bin",
+      "bytes": 949,
+      "sha256": "772a0ac6c1d0f2f702472f5bdc3e6bb1b8d0134d249cc4fd8ace93648647e5aa"
+    },
+    {
+      "file": "originals/77ac6de327dd3dc4832dff5f70432f94491d8f2ace52757fcacdc95b8918ccb4.bin",
+      "bytes": 7209,
+      "sha256": "77ac6de327dd3dc4832dff5f70432f94491d8f2ace52757fcacdc95b8918ccb4"
+    },
+    {
+      "file": "originals/79acc6b3dfc73ee9d7fd84be000722bd5a3a3c00209929f23b8dd90352a2d0c4.bin",
+      "bytes": 1707,
+      "sha256": "79acc6b3dfc73ee9d7fd84be000722bd5a3a3c00209929f23b8dd90352a2d0c4"
+    },
+    {
+      "file": "originals/79b4cdfb164a7a78bc383eb742b9491c6cc2b2646a6776513283bbb1c3ba5a88.bin",
+      "bytes": 2127,
+      "sha256": "79b4cdfb164a7a78bc383eb742b9491c6cc2b2646a6776513283bbb1c3ba5a88"
+    },
+    {
+      "file": "originals/7a51a35d6f364e49ac74c090a64287a8d000725518335e204d147c39a14e9999.bin",
+      "bytes": 16475,
+      "sha256": "7a51a35d6f364e49ac74c090a64287a8d000725518335e204d147c39a14e9999"
+    },
+    {
+      "file": "originals/7a78167c7eafc500938e4ac39d8ed9febec1f6e7e6ce337acc4b7a58d0d14635.bin",
+      "bytes": 382025,
+      "sha256": "7a78167c7eafc500938e4ac39d8ed9febec1f6e7e6ce337acc4b7a58d0d14635"
+    },
+    {
+      "file": "originals/7cc188e47b82c36df6587e6fff00c63a5bb1127fd2cec92d1730babf9d22fc02.bin",
+      "bytes": 344683,
+      "sha256": "7cc188e47b82c36df6587e6fff00c63a5bb1127fd2cec92d1730babf9d22fc02"
+    },
+    {
+      "file": "originals/7dddd5df03067add08bcddcafbb904e1bf301bcb3d69102daa2f7043decda6ef.bin",
+      "bytes": 1917,
+      "sha256": "7dddd5df03067add08bcddcafbb904e1bf301bcb3d69102daa2f7043decda6ef"
+    },
+    {
+      "file": "originals/8000e2cfe5235cbd0ed9387346cfc10aefa8bc1df407a2a765a4bc4398ff2225.bin",
+      "bytes": 1727,
+      "sha256": "8000e2cfe5235cbd0ed9387346cfc10aefa8bc1df407a2a765a4bc4398ff2225"
+    },
+    {
+      "file": "originals/829dc6fc24256d513fdc82382e2701ceb345c4c1b899517f85612ecc75813c8b.bin",
+      "bytes": 5258,
+      "sha256": "829dc6fc24256d513fdc82382e2701ceb345c4c1b899517f85612ecc75813c8b"
+    },
+    {
+      "file": "originals/832384b5b60ed8429790f6bb6fccca0066a0c3ef2997f57ed47b4a105194c032.bin",
+      "bytes": 2476,
+      "sha256": "832384b5b60ed8429790f6bb6fccca0066a0c3ef2997f57ed47b4a105194c032"
+    },
+    {
+      "file": "originals/88da1ed5332372eba1a861111cf374da55133de1419aaa58d8c7e7b66afd502f.bin",
+      "bytes": 714,
+      "sha256": "88da1ed5332372eba1a861111cf374da55133de1419aaa58d8c7e7b66afd502f"
+    },
+    {
+      "file": "originals/8d4b8eb7bde46282b9f57d6894a0c1491f0bbf058db903ce76869fc57896877b.bin",
+      "bytes": 34361,
+      "sha256": "8d4b8eb7bde46282b9f57d6894a0c1491f0bbf058db903ce76869fc57896877b"
+    },
+    {
+      "file": "originals/8de971cb56c4843d481c9e350d29078fc35cc93f808d0935bb93b4c56bfc0a91.bin",
+      "bytes": 2139,
+      "sha256": "8de971cb56c4843d481c9e350d29078fc35cc93f808d0935bb93b4c56bfc0a91"
+    },
+    {
+      "file": "originals/8e75f87d367fa849abd04c3d1c622c844c5aab4e40078672f87835809d4751de.bin",
+      "bytes": 1859,
+      "sha256": "8e75f87d367fa849abd04c3d1c622c844c5aab4e40078672f87835809d4751de"
+    },
+    {
+      "file": "originals/9374c925d69590a4081645bb87daba559a8a0677b6df299bae52f3d6e67e5f9f.bin",
+      "bytes": 27915,
+      "sha256": "9374c925d69590a4081645bb87daba559a8a0677b6df299bae52f3d6e67e5f9f"
+    },
+    {
+      "file": "originals/93df02cb294974114e76752614c3db2e3a7af89b396a5654694ba7a153e90410.bin",
+      "bytes": 892150,
+      "sha256": "93df02cb294974114e76752614c3db2e3a7af89b396a5654694ba7a153e90410"
+    },
+    {
+      "file": "originals/94de84d19757fdbc15a13d2ef363bea6d1f5789d493f0006891fcdf75eb86380.bin",
+      "bytes": 247592,
+      "sha256": "94de84d19757fdbc15a13d2ef363bea6d1f5789d493f0006891fcdf75eb86380"
+    },
+    {
+      "file": "originals/95ead2b943b4ebe44967ce0ccb7972081d94e49766a7bafc6a6619c4ed7f4e99.bin",
+      "bytes": 66730,
+      "sha256": "95ead2b943b4ebe44967ce0ccb7972081d94e49766a7bafc6a6619c4ed7f4e99"
+    },
+    {
+      "file": "originals/9d21c79aaa15a898d4eadc040f666abf3876947457c31acda3b0a49a7283085e.bin",
+      "bytes": 1725,
+      "sha256": "9d21c79aaa15a898d4eadc040f666abf3876947457c31acda3b0a49a7283085e"
+    },
+    {
+      "file": "originals/9e83bc9d67c4fd2db452143269084611e5ec0d8ecc0ad78b7309cbb15b95b309.bin",
+      "bytes": 1320,
+      "sha256": "9e83bc9d67c4fd2db452143269084611e5ec0d8ecc0ad78b7309cbb15b95b309"
+    },
+    {
+      "file": "originals/a07b2efede53ce1562a8765b95c1da4953a46834b03b2a36be004c660aceeb91.bin",
+      "bytes": 1709,
+      "sha256": "a07b2efede53ce1562a8765b95c1da4953a46834b03b2a36be004c660aceeb91"
+    },
+    {
+      "file": "originals/a3d2ee850c3c20bdbb3843e8704040da0e2c015209c70b6275240f06f7588f24.bin",
+      "bytes": 2102,
+      "sha256": "a3d2ee850c3c20bdbb3843e8704040da0e2c015209c70b6275240f06f7588f24"
+    },
+    {
+      "file": "originals/a66412db44d1d3e4336f03fe7e4cf4260babf19926a4251e61c4b4bf3c125c19.bin",
+      "bytes": 46423,
+      "sha256": "a66412db44d1d3e4336f03fe7e4cf4260babf19926a4251e61c4b4bf3c125c19"
+    },
+    {
+      "file": "originals/aaa0a27cea524fbededf400776c97df1173969258a582bc8ed478fd3762f1aae.bin",
+      "bytes": 1863,
+      "sha256": "aaa0a27cea524fbededf400776c97df1173969258a582bc8ed478fd3762f1aae"
+    },
+    {
+      "file": "originals/adae5fb34e57092827eda6baea39f7421b57034aafcaf43b3b59a8b9835b4152.bin",
+      "bytes": 979,
+      "sha256": "adae5fb34e57092827eda6baea39f7421b57034aafcaf43b3b59a8b9835b4152"
+    },
+    {
+      "file": "originals/ade2efb379517a5d81813825eaa095681125e7a18d70f9d5d897dc0ce3e277f3.bin",
+      "bytes": 2139,
+      "sha256": "ade2efb379517a5d81813825eaa095681125e7a18d70f9d5d897dc0ce3e277f3"
+    },
+    {
+      "file": "originals/ae61227fa83adf04fb45956b1bd714a75592bbc1d6c70da300e554afef806aa6.bin",
+      "bytes": 283123,
+      "sha256": "ae61227fa83adf04fb45956b1bd714a75592bbc1d6c70da300e554afef806aa6"
+    },
+    {
+      "file": "originals/bb739927a49d018e651040d169e70818fcb8ba4aba6ac62133f2942a933cb8bb.bin",
+      "bytes": 15181,
+      "sha256": "bb739927a49d018e651040d169e70818fcb8ba4aba6ac62133f2942a933cb8bb"
+    },
+    {
+      "file": "originals/bda5e4053b82391bb1a15f477b71b7a4aae2184b0fbd033b56cd3a5f654774ed.bin",
+      "bytes": 1709,
+      "sha256": "bda5e4053b82391bb1a15f477b71b7a4aae2184b0fbd033b56cd3a5f654774ed"
+    },
+    {
+      "file": "originals/bdae79856a5e0c01c2546d43c962ff77e0373647ba8ae5862f8da89364eafa65.bin",
+      "bytes": 3223,
+      "sha256": "bdae79856a5e0c01c2546d43c962ff77e0373647ba8ae5862f8da89364eafa65"
+    },
+    {
+      "file": "originals/c190ac47bb552e335bea1fcba2f0eb64e5ae0c2cffcf89a3c0bf5bc0f879a44f.bin",
+      "bytes": 2157,
+      "sha256": "c190ac47bb552e335bea1fcba2f0eb64e5ae0c2cffcf89a3c0bf5bc0f879a44f"
+    },
+    {
+      "file": "originals/c3db3d6f8a76e626419e722bd0d7d61dd7328612f3b65b044e42b6218ebe41e5.bin",
+      "bytes": 2112,
+      "sha256": "c3db3d6f8a76e626419e722bd0d7d61dd7328612f3b65b044e42b6218ebe41e5"
+    },
+    {
+      "file": "originals/c4cee9b5c63f505d4c2dfb121ee6288ed926f724f3e2619ca36b6444ea57462c.bin",
+      "bytes": 703,
+      "sha256": "c4cee9b5c63f505d4c2dfb121ee6288ed926f724f3e2619ca36b6444ea57462c"
+    },
+    {
+      "file": "originals/c7da1dd1c79dbcf750e271e90948b4aad8532c019711ee53ecf95ff942822aec.bin",
+      "bytes": 14902,
+      "sha256": "c7da1dd1c79dbcf750e271e90948b4aad8532c019711ee53ecf95ff942822aec"
+    },
+    {
+      "file": "originals/cca96397f5d5f8e51aae321b7ded267e6a8fad53d620e4b5cfddc8fee320e867.bin",
+      "bytes": 43971,
+      "sha256": "cca96397f5d5f8e51aae321b7ded267e6a8fad53d620e4b5cfddc8fee320e867"
+    },
+    {
+      "file": "originals/cf9397ad44be04796cf3ed95765cddb165b0193fe071b4e1a6b629566aa82363.bin",
+      "bytes": 763,
+      "sha256": "cf9397ad44be04796cf3ed95765cddb165b0193fe071b4e1a6b629566aa82363"
+    },
+    {
+      "file": "originals/cfc26c51bdbad4d6b20cf21ae7bb70520329a9c5710bcfa89f95d14e784d282e.bin",
+      "bytes": 5243,
+      "sha256": "cfc26c51bdbad4d6b20cf21ae7bb70520329a9c5710bcfa89f95d14e784d282e"
+    },
+    {
+      "file": "originals/d083055643de38008fa373e54ea556cb06f5348f5d7d4978a323bba25e3f303f.bin",
+      "bytes": 342281,
+      "sha256": "d083055643de38008fa373e54ea556cb06f5348f5d7d4978a323bba25e3f303f"
+    },
+    {
+      "file": "originals/d0b87f43bfa421e9e30acb03465acdc443c0c9372c28942c94d2b303c7dbbe6f.bin",
+      "bytes": 18376,
+      "sha256": "d0b87f43bfa421e9e30acb03465acdc443c0c9372c28942c94d2b303c7dbbe6f"
+    },
+    {
+      "file": "originals/d16c33a78f5dc561776e9f1f76c31fd0777c8a0a8e1ddf8837e4d47c94bc29fe.bin",
+      "bytes": 1859,
+      "sha256": "d16c33a78f5dc561776e9f1f76c31fd0777c8a0a8e1ddf8837e4d47c94bc29fe"
+    },
+    {
+      "file": "originals/d179649f2d992f8d4681c5cc42c4a980ad3d046bb6824390dd875f867a552043.bin",
+      "bytes": 1725,
+      "sha256": "d179649f2d992f8d4681c5cc42c4a980ad3d046bb6824390dd875f867a552043"
+    },
+    {
+      "file": "originals/d1ab2dc34516ecf9a7125ea2a245cb024071b2354d5dd9831df7d5ecd5eee197.bin",
+      "bytes": 33250,
+      "sha256": "d1ab2dc34516ecf9a7125ea2a245cb024071b2354d5dd9831df7d5ecd5eee197"
+    },
+    {
+      "file": "originals/d408dbb7837021d8f6c1bac1e7eb0e75d4c2d6f2054fb1934b717a50fdadee61.bin",
+      "bytes": 1709,
+      "sha256": "d408dbb7837021d8f6c1bac1e7eb0e75d4c2d6f2054fb1934b717a50fdadee61"
+    },
+    {
+      "file": "originals/d42725f74ddfe09e664941bb1021860f4d7650fc4f7e04ccea3154f42472e8fc.bin",
+      "bytes": 2097,
+      "sha256": "d42725f74ddfe09e664941bb1021860f4d7650fc4f7e04ccea3154f42472e8fc"
+    },
+    {
+      "file": "originals/d54dfdb4e8af52cc792ad4fdcce1a5903ffda29984baf0e1b82edd130a18c2fa.bin",
+      "bytes": 1422,
+      "sha256": "d54dfdb4e8af52cc792ad4fdcce1a5903ffda29984baf0e1b82edd130a18c2fa"
+    },
+    {
+      "file": "originals/d6901640168c4743f71ca67b98ebaf023fd88ab7829a663be73bd039fbdd1327.bin",
+      "bytes": 2053,
+      "sha256": "d6901640168c4743f71ca67b98ebaf023fd88ab7829a663be73bd039fbdd1327"
+    },
+    {
+      "file": "originals/d6f6fce0183777766f616bd7b47c4744dd0cacaf1385910d1e5d85fb399b6ff0.bin",
+      "bytes": 2055,
+      "sha256": "d6f6fce0183777766f616bd7b47c4744dd0cacaf1385910d1e5d85fb399b6ff0"
+    },
+    {
+      "file": "originals/d7978b74cdef6431ac98c38cb840a3802570bd59dec248ba97bd2ee7ef4dfadb.bin",
+      "bytes": 5506,
+      "sha256": "d7978b74cdef6431ac98c38cb840a3802570bd59dec248ba97bd2ee7ef4dfadb"
+    },
+    {
+      "file": "originals/da1cd7a0456a2cb91a869c6594e54891aa08429972767947762fd60b327113e6.bin",
+      "bytes": 2207,
+      "sha256": "da1cd7a0456a2cb91a869c6594e54891aa08429972767947762fd60b327113e6"
+    },
+    {
+      "file": "originals/db08dd2e55426ced1190d05d844ef4c4516956b6a666bdf1e42335ba157cfee3.bin",
+      "bytes": 100729,
+      "sha256": "db08dd2e55426ced1190d05d844ef4c4516956b6a666bdf1e42335ba157cfee3"
+    },
+    {
+      "file": "originals/dd74d556cd03c2199d7271e05a4968b3ed92e5587237331e7ed436d999b35fdc.bin",
+      "bytes": 5623,
+      "sha256": "dd74d556cd03c2199d7271e05a4968b3ed92e5587237331e7ed436d999b35fdc"
+    },
+    {
+      "file": "originals/def51a58cff7330e435bca2dd8b04f56d64e7f7aceda0e02a9c1deb13acd5a75.bin",
+      "bytes": 143747,
+      "sha256": "def51a58cff7330e435bca2dd8b04f56d64e7f7aceda0e02a9c1deb13acd5a75"
+    },
+    {
+      "file": "originals/e36f8c8c6a713b4d297285573ce86ea2d0d9917cfe7d5e8415ab79e89bd526d6.bin",
+      "bytes": 2100,
+      "sha256": "e36f8c8c6a713b4d297285573ce86ea2d0d9917cfe7d5e8415ab79e89bd526d6"
+    },
+    {
+      "file": "originals/e372560b5d23cd0bc97ae21a14a0239994bbe7a4dd85cd6916199c0654f46b91.bin",
+      "bytes": 15485,
+      "sha256": "e372560b5d23cd0bc97ae21a14a0239994bbe7a4dd85cd6916199c0654f46b91"
+    },
+    {
+      "file": "originals/e39feee3c35cc2897b28682a5a84759d88bba506372e6fdae3151c51d59ba8a2.bin",
+      "bytes": 1859,
+      "sha256": "e39feee3c35cc2897b28682a5a84759d88bba506372e6fdae3151c51d59ba8a2"
+    },
+    {
+      "file": "originals/e3d16152434cac951ac61ffdcacf69576ca1b7d868db2f5fdb6180c65236de49.bin",
+      "bytes": 28492,
+      "sha256": "e3d16152434cac951ac61ffdcacf69576ca1b7d868db2f5fdb6180c65236de49"
+    },
+    {
+      "file": "originals/e405300d11dbbf384d9c0f13982699c3f1ac9bd49b6ef33e7cb711d47ae70701.bin",
+      "bytes": 1859,
+      "sha256": "e405300d11dbbf384d9c0f13982699c3f1ac9bd49b6ef33e7cb711d47ae70701"
+    },
+    {
+      "file": "originals/e449732eaeffa39d525b6abd27c223d5649efd5c508a0aadad734d7ac6d8736e.bin",
+      "bytes": 2104,
+      "sha256": "e449732eaeffa39d525b6abd27c223d5649efd5c508a0aadad734d7ac6d8736e"
+    },
+    {
+      "file": "originals/e542cc8ad363726543665418aedb0bc42bb8d54cba3c0287f1b2f590ac0ed2cc.bin",
+      "bytes": 1725,
+      "sha256": "e542cc8ad363726543665418aedb0bc42bb8d54cba3c0287f1b2f590ac0ed2cc"
+    },
+    {
+      "file": "originals/e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95.bin",
+      "bytes": 107925,
+      "sha256": "e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95"
+    },
+    {
+      "file": "originals/e9e5d27dc7d8fcce445c71eefefd43116ebf5f845a906725531602387deda7aa.bin",
+      "bytes": 16777,
+      "sha256": "e9e5d27dc7d8fcce445c71eefefd43116ebf5f845a906725531602387deda7aa"
+    },
+    {
+      "file": "originals/ec4cf1f718de93be3cd88c313696c9b2aea9eb38f0cfcce766b59d1cfcbdaf63.bin",
+      "bytes": 236743,
+      "sha256": "ec4cf1f718de93be3cd88c313696c9b2aea9eb38f0cfcce766b59d1cfcbdaf63"
+    },
+    {
+      "file": "originals/ed9ae809394deb618dd61681555d79497b2adf5b3b10d931f2b2739b288db2ab.bin",
+      "bytes": 5172,
+      "sha256": "ed9ae809394deb618dd61681555d79497b2adf5b3b10d931f2b2739b288db2ab"
+    },
+    {
+      "file": "originals/ef7196b0ddfce21a71ba13346a88ee1fcd2831f7e68c547b4d158b175f59b4ee.bin",
+      "bytes": 10978,
+      "sha256": "ef7196b0ddfce21a71ba13346a88ee1fcd2831f7e68c547b4d158b175f59b4ee"
+    },
+    {
+      "file": "originals/ef92ef759f532ba78626d236c9fa0b3fcbf7ebfe490e20f4393668dd1264faa2.bin",
+      "bytes": 2133,
+      "sha256": "ef92ef759f532ba78626d236c9fa0b3fcbf7ebfe490e20f4393668dd1264faa2"
+    },
+    {
+      "file": "originals/f2c644f7884c860d846f67fa91fae5130a9d21d0d53a9bb4de77714311004801.bin",
+      "bytes": 1709,
+      "sha256": "f2c644f7884c860d846f67fa91fae5130a9d21d0d53a9bb4de77714311004801"
+    },
+    {
+      "file": "originals/f452b289fef4ba5f65b074262d5ed7ae23b67ba673d1518c01498fa15842889d.bin",
+      "bytes": 1897,
+      "sha256": "f452b289fef4ba5f65b074262d5ed7ae23b67ba673d1518c01498fa15842889d"
+    },
+    {
+      "file": "originals/f801734b8e33ab995ab37cab5b333257f71401bc6657ae56815907c2cbf503b0.bin",
+      "bytes": 1201,
+      "sha256": "f801734b8e33ab995ab37cab5b333257f71401bc6657ae56815907c2cbf503b0"
+    },
+    {
+      "file": "originals/f8eb0f9c068fc8f49b288d7f0acee38afa3bddab442a24c9fc4613deac801ed8.bin",
+      "bytes": 39526,
+      "sha256": "f8eb0f9c068fc8f49b288d7f0acee38afa3bddab442a24c9fc4613deac801ed8"
+    },
+    {
+      "file": "originals/ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e.bin",
+      "bytes": 118163,
+      "sha256": "ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e"
+    },
+    {
+      "file": "originals/index.json",
+      "bytes": 264979,
+      "sha256": "1708013331624591360c5be517e614b7b9c21210823105d19f8172013ccba86f"
+    },
+    {
+      "file": "pairs.json",
+      "bytes": 24545660,
+      "sha256": "7e598dd408768358acf4e2d91a54d8028ade2ce4c81b955d37450c23be593973"
+    },
+    {
+      "file": "pairs.xlsx",
+      "bytes": 10291277,
+      "sha256": "8003e7ec437521f4d9a94ad3b6bdead8a7ff32ab9e3e00e3b17891ddff702738"
+    },
+    {
+      "file": "post1.json",
+      "bytes": 24545647,
+      "sha256": "8ea2ce60fbbaf29ab382c203498d9f224bbe3d789fc315b4e59cd2adb1cc60c9"
+    },
+    {
+      "file": "post1.xlsx",
+      "bytes": 10291258,
+      "sha256": "68b7276345d3ea3a952adddf85d937b45c72b5b8ca7e419dffc116483cfd08df"
+    },
+    {
+      "file": "post22.json",
+      "bytes": 24543911,
+      "sha256": "24833603102f07189a457ddc0b6365fb805afe760209b40832221a0fece1f0a8"
+    },
+    {
+      "file": "post22.xlsx",
+      "bytes": 10287855,
+      "sha256": "e73fe0dc00a6ea828f246096c22c6bc733834314f63ed76a94b3e4c1d6a2ec76"
+    },
+    {
+      "file": "repeated.json",
+      "bytes": 24550384,
+      "sha256": "3e734ba2b88f091b081b9820b5302ede681242876f590b7e870956908bb9a6d4"
+    },
+    {
+      "file": "repeated.xlsx",
+      "bytes": 10294945,
+      "sha256": "70673a16646bd05842f37a16ea638cfda088b11b3945a4df76c36d6956ebdf55"
+    },
+    {
+      "file": "reverse-post22.json",
+      "bytes": 24544046,
+      "sha256": "3dc9d5882feb9c24a028d5a54e0b5b6f2253fe3f40fa5bccc070a6a645dfc70a"
+    },
+    {
+      "file": "reverse-post22.xlsx",
+      "bytes": 10287960,
+      "sha256": "4f2248278000854fb4ff716d8130f0b9483432a5d1bc7b2841e47dd3395c72a8"
+    },
+    {
+      "file": "unknown-index.json",
+      "bytes": 24536629,
+      "sha256": "f585a238169ba8aa3160c4f37c80dc57a5f9f9f719e3f89245f54e8518235599"
+    },
+    {
+      "file": "unknown-index.xlsx",
+      "bytes": 10280518,
+      "sha256": "83d333aeb9949fad20967e54314532de1378fdf4385ef69d86c9afc8ade8dc1c"
+    },
+    {
+      "file": "vedtak201.json",
+      "bytes": 24547011,
+      "sha256": "1c96ccd811a510b467292e6acc13463154c8edaddf15788712d28b096261059d"
+    },
+    {
+      "file": "vedtak201.xlsx",
+      "bytes": 10286890,
+      "sha256": "747909b0fc334e163a47203887e20465f477afccb02236648b60b520bbd4da2a"
+    },
+    {
+      "file": "vedtak210.json",
+      "bytes": 24544587,
+      "sha256": "4188c712af5685cd327d937678b0a9a9b92c9d108a5f61e1aaecd660c930cc05"
+    },
+    {
+      "file": "vedtak210.xlsx",
+      "bytes": 10287324,
+      "sha256": "701e8904620a0dfab79b2773e50ad6f7643eed551d31fe8d84029e804d2dc8d8"
+    },
+    {
+      "file": "vedtak341.json",
+      "bytes": 24554101,
+      "sha256": "b28200864e66450df06764a38673e748359fd2546f8462740c82cc1f66d25e8d"
+    },
+    {
+      "file": "vedtak341.xlsx",
+      "bytes": 10293343,
+      "sha256": "b0eb426fc1defb115aa2c04d19147f2d32a4860bf5909530256c74bd08909eb4"
+    },
+    {
+      "file": "vedtak346.json",
+      "bytes": 24536695,
+      "sha256": "762a7df2b6779a78a2b6e632260084acf7f23ce7eb3295e632f662a991a1b16d"
+    },
+    {
+      "file": "vedtak346.xlsx",
+      "bytes": 10281026,
+      "sha256": "97a0ea434ca445504298153c5e790f22704d722b56084f57a43df1d322c71af8"
+    },
+    {
+      "file": "vedtak857.json",
+      "bytes": 24640431,
+      "sha256": "ac7b42b75a22ac55a96d54317d3ef392ed0fb809aaec363b67c27213523faeb1"
+    },
+    {
+      "file": "vedtak857.xlsx",
+      "bytes": 10341959,
+      "sha256": "c1afdb763feb8bd25a935f07b159e5d668bf9d9fb2641452a4453de7f4b3bd33"
+    },
+    {
+      "file": "wrong-year.json",
+      "bytes": 24536511,
+      "sha256": "6a84501e81e07b30178cf7b4eb40f57c46085dc51973afe12ff52b4d58b5eae1"
+    },
+    {
+      "file": "wrong-year.xlsx",
+      "bytes": 10280436,
+      "sha256": "31f745799071c3a76be90f5ef64c73e3f6dbac20302839e1f8da41a31a1c1319"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "base": "29ac220f62b35062fc4203f054e2f757ca795b7c",
+  "candidate": "4413a5f21be71ccd2ad5c885560da6bae2e8b885",
+  "head": "4413a5f21be71ccd2ad5c885560da6bae2e8b885",
+  "tree": "afc1eacfa74cec19e35a5cb49ee5907be5bfc877",
+  "tracked_status_before": "",
+  "commits": [
+    "4413a5f feat: vis delvis K3-perioderegister i begge innganger (#52)",
+    "407fdbc docs: fastsett P1-kontrakt før kode (#52)"
+  ],
+  "changed_files": [
+    ".gitattributes",
+    ".gitignore",
+    "AGENTS.md",
+    "analyse/perioderegister.py",
+    "analyse/perioderegister_excel.py",
+    "docs/kildefunn.md",
+    "docs/perioderegister.md",
+    "docs/research/perioderegister-52/OVERLEVERING.md",
+    "docs/research/perioderegister-52/README.md",
+    "docs/research/perioderegister-52/aksept.md",
+    "docs/research/perioderegister-52/candidate-code.json",
+    "docs/research/perioderegister-52/checks/file-proof.log",
+    "docs/research/perioderegister-52/checks/format.log",
+    "docs/research/perioderegister-52/checks/full-suite-result.json",
+    "docs/research/perioderegister-52/checks/full-suite.log",
+    "docs/research/perioderegister-52/checks/full-suite.xml",
+    "docs/research/perioderegister-52/checks/guards.log",
+    "docs/research/perioderegister-52/checks/mypy.log",
+    "docs/research/perioderegister-52/checks/navigation.log",
+    "docs/research/perioderegister-52/checks/ruff.log",
+    "docs/research/perioderegister-52/delivery-manifest.json",
+    "docs/research/perioderegister-52/guard-probe.txt",
+    "docs/research/perioderegister-52/guard-results.json",
+    "docs/research/perioderegister-52/navigation-probe.txt",
+    "docs/research/perioderegister-52/navigation.json",
+    "docs/research/perioderegister-52/previews/346/dekning.png",
+    "docs/research/perioderegister-52/previews/346/dokumenter.png",
+    "docs/research/perioderegister-52/previews/346/forlop.png",
+    "docs/research/perioderegister-52/previews/346/fullmakt-inventar.png",
+    "docs/research/perioderegister-52/previews/346/globale-hull.png",
+    "docs/research/perioderegister-52/previews/346/indeksinventar.png",
+    "docs/research/perioderegister-52/previews/346/kontroll.png",
+    "docs/research/perioderegister-52/previews/346/offline.png",
+    "docs/research/perioderegister-52/previews/346/omtale.png",
+    "docs/research/perioderegister-52/previews/346/originalreferanser.png",
+    "docs/research/perioderegister-52/previews/346/sammenligninger.png",
+    "docs/research/perioderegister-52/previews/both/dekning.png",
+    "docs/research/perioderegister-52/previews/both/dokumenter.png",
+    "docs/research/perioderegister-52/previews/both/forlop-fortsettelse.png",
+    "docs/research/perioderegister-52/previews/both/forlop.png",
+    "docs/research/perioderegister-52/previews/both/fullmakt-inventar.png",
+    "docs/research/perioderegister-52/previews/both/globale-hull.png",
+    "docs/research/perioderegister-52/previews/both/indeksinventar.png",
+    "docs/research/perioderegister-52/previews/both/kontroll.png",
+    "docs/research/perioderegister-52/previews/both/offline.png",
+    "docs/research/perioderegister-52/previews/both/omtale.png",
+    "docs/research/perioderegister-52/previews/both/originalreferanser.png",
+    "docs/research/perioderegister-52/previews/both/sammenligninger.png",
+    "docs/research/perioderegister-52/previews/empty/dekning.png",
+    "docs/research/perioderegister-52/previews/empty/dokumenter.png",
+    "docs/research/perioderegister-52/previews/empty/forlop.png",
+    "docs/research/perioderegister-52/previews/empty/fullmakt-inventar.png",
+    "docs/research/perioderegister-52/previews/empty/globale-hull.png",
+    "docs/research/perioderegister-52/previews/empty/indeksinventar.png",
+    "docs/research/perioderegister-52/previews/empty/kontroll.png",
+    "docs/research/perioderegister-52/previews/empty/offline.png",
+    "docs/research/perioderegister-52/previews/empty/omtale.png",
+    "docs/research/perioderegister-52/previews/empty/originalreferanser.png",
+    "docs/research/perioderegister-52/previews/empty/sammenligninger.png",
+    "docs/research/perioderegister-52/render-346.json",
+    "docs/research/perioderegister-52/render-both.json",
+    "docs/research/perioderegister-52/render-empty.json",
+    "docs/research/perioderegister-52/rendering.json",
+    "docs/research/perioderegister-52/reproduksjon.md",
+    "docs/research/perioderegister-52/resources.json",
+    "docs/research/perioderegister-52/runtime.json",
+    "docs/research/perioderegister-52/serialized-counts.json",
+    "docs/research/perioderegister-52/source-findings.md",
+    "docs/research/perioderegister-52/source-git-proof.json",
+    "docs/research/perioderegister-52/tdd-journal.md",
+    "docs/research/perioderegister-52/test-summary.json",
+    "docs/research/perioderegister-52/verification.json",
+    "innlesning/perioderegister.py",
+    "innlesning/perioderegister_catalog.py",
+    "innlesning/perioderegister_model.py",
+    "ops/perioderegister_proeve.py",
+    "ops/render_perioderegister.mjs",
+    "tests/test_perioderegister.py"
+  ],
+  "executable_bindings": [
+    {
+      "path": "innlesning/perioderegister_model.py",
+      "working_sha256": "3c94bf596569901f9a0186564d8315037fbf4d0fac566441c2dc3968c497f3b6",
+      "git_sha256": "3c94bf596569901f9a0186564d8315037fbf4d0fac566441c2dc3968c497f3b6"
+    },
+    {
+      "path": "innlesning/perioderegister_catalog.py",
+      "working_sha256": "5217cf54f368c952dc2fa27330817b0690b8af664487fc5f95504e9e1ee54d3e",
+      "git_sha256": "0002ace64c4946915bcee7c8d365204988c2c78cd96d2da28c52638780a58f1d"
+    },
+    {
+      "path": "innlesning/perioderegister.py",
+      "working_sha256": "2b7c1ae85258abde9c4cddeaa74acf84a6312ed57b6d2109f178e60f4c5356b9",
+      "git_sha256": "2b7c1ae85258abde9c4cddeaa74acf84a6312ed57b6d2109f178e60f4c5356b9"
+    },
+    {
+      "path": "analyse/perioderegister.py",
+      "working_sha256": "9f9952352a65e2e42ba73b25bdb19d8acec738ed993e7dcd8cf802bb4a476ff1",
+      "git_sha256": "9f9952352a65e2e42ba73b25bdb19d8acec738ed993e7dcd8cf802bb4a476ff1"
+    },
+    {
+      "path": "analyse/perioderegister_excel.py",
+      "working_sha256": "69b1522a31ddf77615496cad24a34aeb49fa8269d6c2fa188e5c7e42fe26da21",
+      "git_sha256": "c765f966f90b6592a1686b2cc8822b932ae8808c8ef12aabead0e17b2bbebe18"
+    },
+    {
+      "path": "ops/perioderegister_proeve.py",
+      "working_sha256": "8284ed83ae3d258a23a90b5f709a6613f7b1565965d8328555472cf18ca58e57",
+      "git_sha256": "8284ed83ae3d258a23a90b5f709a6613f7b1565965d8328555472cf18ca58e57"
+    },
+    {
+      "path": "ops/render_perioderegister.mjs",
+      "working_sha256": "e298c73f0516db04ea5caea3e28010b0b8f11706d332ba9a516237c2194a726b",
+      "git_sha256": "e298c73f0516db04ea5caea3e28010b0b8f11706d332ba9a516237c2194a726b"
+    },
+    {
+      "path": "tests/test_perioderegister.py",
+      "working_sha256": "f0244f9140a641658a8f63efd90a1313f2f1ea17ad1315389c5861ccefa6cc93",
+      "git_sha256": "f0244f9140a641658a8f63efd90a1313f2f1ea17ad1315389c5861ccefa6cc93"
+    }
+  ],
+  "delivery_manifest": {
+    "verified_files": 416,
+    "bytes": 2591148727
+  },
+  "source_catalog": {
+    "verified_sources": 130,
+    "bytes": 10957762
+  },
+  "junit": {
+    "tests": 1181,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 2,
+    "p1_tests": 24
+  },
+  "recorded_static_checks": {
+    "ruff": "All checks passed!",
+    "format": "131 files already formatted",
+    "mypy": "Success: no issues found in 76 source files"
+  },
+  "fullsuite_record": {
+    "exit_code": 0,
+    "executable_files_unchanged": true,
+    "seconds": 2601.1327677
+  },
+  "ingestion_imports": {
+    "innlesning/perioderegister.py": [
+      "gzip",
+      "hashlib",
+      "io",
+      "json",
+      "re",
+      "dataclasses",
+      "functools",
+      "pathlib",
+      "typing",
+      "lxml",
+      ".fleraarspilot_model",
+      ".komitepilot",
+      ".komitepilot_model",
+      ".observations",
+      ".omtale",
+      ".perioderegister_catalog",
+      ".perioderegister_model",
+      ".visningspilot",
+      ".visningspilot_model",
+      "collections"
+    ],
+    "innlesning/perioderegister_model.py": [
+      "dataclasses",
+      ".fleraarspilot_model",
+      ".forlopspilot_model",
+      ".komitepilot_model",
+      ".visningspilot_model"
+    ],
+    "innlesning/perioderegister_catalog.py": []
+  },
+  "candidate_json_parse": "all changed JSON files parse",
+  "tracked_status_after": "",
+  "limitations": [
+    "No test suite rerun; inspected completed, hash-bound build evidence.",
+    "No native Excel, Linux CI, deployment, or independent security acceptance claimed.",
+    "Manifest historical head/stage describe the builder handoff; executable Git binding above links it to the fixed review candidate."
+  ]
+}

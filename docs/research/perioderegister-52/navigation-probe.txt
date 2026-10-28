@@ -1,0 +1,32 @@
+"""Supplerende P1-navigasjon fra faktisk frosset kandidat; ingen kildeimport."""
+from pathlib import Path
+import json
+from analyse.perioderegister import read_json,build_report,open_document,open_accounts,go_back
+from analyse.perioderegister_excel import read_excel
+from innlesning.visningspilot_model import PilotSelection
+from ops.perioderegister_proeve import selection_cases,save_pair
+
+root=Path('.local/p1-complete')
+output=Path('.local/p1-navigation-complete')
+output.mkdir(exist_ok=False)
+both=read_json(root/'both.json')
+fullmakt=next(e for e in both.basis.entries if e.key=='original-346')
+requested={'post1','post22','both','vedtak346','unknown-index','wrong-year','empty'}
+records=[]
+for name,selection,count in selection_cases(both.basis):
+    original=build_report(both.basis,selection)
+    if selection.mode=='accounts':
+        switched=open_document(original,fullmakt.document_id)
+        switched_count=(0,0)
+    else:
+        switched=open_accounts(original,PilotSelection(years=(2024,),accounts=(('1429','22'),)))
+        switched_count=(4,2)
+    records.append(save_pair(output,'navigation-'+name,switched,switched_count))
+    reopened=read_excel(output/('navigation-'+name+'.xlsx'))
+    returned=go_back(reopened)
+    assert returned==original and returned.basis==both.basis
+    if name in requested:
+        records.append(save_pair(output,'return-'+name,returned,count))
+result={'cases':len(records),'both_directions_and_return':True,'original_report_id':both.id,'pairs':records}
+(output/'navigation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf8')
+print(json.dumps({'pairs':len(records),'errors':0}))

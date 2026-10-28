@@ -1,0 +1,48 @@
+{
+  "candidate": "aec0269b9d6216cc03f9688e62c33a94cfa6cb6c",
+  "tree": "c4c7944dac1510ba428a20440b40f33ebfb8430c",
+  "tracked_status": "",
+  "diff_check_returncode": 0,
+  "own_tests": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "20",
+    "time": "97.916",
+    "timestamp": "2026-10-28T17:51:34.823509+01:00",
+    "hostname": "Lenovo-Legion"
+  },
+  "records": [
+    {
+      "path": ".local/p1-standards-recheck/evidence.json",
+      "bytes": 25743,
+      "sha256": "4e69b888bd3d1c4ebf4dbbcd9d2038e7fec167048a3435f49bbaf5e54341795b"
+    },
+    {
+      "path": ".local/p1-standards-recheck/evidence.log",
+      "bytes": 424,
+      "sha256": "7e8a534f218ec3c17722dc5ec8774fa034a1e9197f8a7f6e9a558cad80889ed8"
+    },
+    {
+      "path": ".local/p1-standards-recheck/rapport.md",
+      "bytes": 2674,
+      "sha256": "d8a70bf889301dfd72d163838b7bfa734ef8a47154e996c16ef9fee91cf57b15"
+    },
+    {
+      "path": ".local/p1-standards-recheck/targeted.log",
+      "bytes": 268,
+      "sha256": "4adae59fb01d9e0226ffcde3457fb1ce9eaa61612795587e938ef948f52dcf0d"
+    },
+    {
+      "path": ".local/p1-standards-recheck/targeted.xml",
+      "bytes": 3169,
+      "sha256": "f5eb9c7947b1e966ad962fbf06392edd9bef068ca9ad18c2f65ca8b777466af2"
+    },
+    {
+      "path": ".local/p1-standards-recheck/verify_evidence.py",
+      "bytes": 5707,
+      "sha256": "83ec0287edcf294f48843cbf934ddbb8b626a6eb5a37654e4eb786a3bab06a38"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+"""Public frozen CLI with database, sockets and repository data reads forbidden."""
+from pathlib import Path
+import io
+import socket
+import sqlite3
+import sys
+
+repo=Path(__file__).resolve().parents[2]
+out=Path(__file__).resolve().parent
+original_open=io.open
+def forbidden(*a,**k): raise AssertionError('offline network/database boundary')
+socket.socket.connect=socket.socket.connect_ex=socket.create_connection=sqlite3.connect=forbidden
+def safe_open(file,*a,**k):
+    if isinstance(file,(str,bytes,Path)):
+        target=Path(file).resolve()
+        assert not target.is_relative_to(repo/'docs') and not target.is_relative_to(repo/'tests'/'fixtures'), target
+    return original_open(file,*a,**k)
+io.open=safe_open
+sys.argv=['analyse.perioderegister','--frosset',str(repo/'.local/p1-complete/both.json'),
+          '--rot',str(out/'missing-originals'),
+          '--dokument','vedtak346', '--json',str(out/'offline-cli.json'),
+          '--excel',str(out/'offline-cli.xlsx'),'--originaler',str(out/'recovered-originals')]
+from analyse.perioderegister import main
+main()

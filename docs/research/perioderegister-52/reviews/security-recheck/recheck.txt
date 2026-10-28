@@ -1,0 +1,317 @@
+"""Independent defensive P1 fix verification; every new artifact stays here."""
+from __future__ import annotations
+
+import copy
+import hashlib
+import json
+import os
+from pathlib import Path
+import shutil
+import socket
+import sqlite3
+import subprocess
+import sys
+import time
+from unittest.mock import patch
+from zipfile import ZIP_DEFLATED, ZipFile
+
+from lxml import etree
+from analyse import perioderegister as p1
+from analyse import perioderegister_excel as excel
+
+ROOT = Path.cwd().resolve()
+OUT = ROOT / ".local/p1-security-recheck"
+OLD = ROOT / ".local/p1-file-audit"
+HEAD = "aec0269b9d6216cc03f9688e62c33a94cfa6cb6c"
+TREE = "c4c7944dac1510ba428a20440b40f33ebfb8430c"
+S = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
+P = "{http://schemas.openxmlformats.org/package/2006/relationships}"
+START = time.monotonic()
+RESULTS: list[dict] = []
+CALLS: list[str] = []
+
+
+def digest(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def git(*args: str) -> str:
+    return subprocess.check_output(["git", *args], text=True).strip()
+
+
+def record(name: str, status: str, **details) -> None:
+    if any(r["name"] == name for r in RESULTS):
+        return
+    row = dict(name=name, status=status, elapsed=round(time.monotonic() - START, 3), **details)
+    RESULTS.append(row)
+    with (OUT / "results.jsonl").open("a", encoding="utf8") as stream:
+        stream.write(json.dumps(row, ensure_ascii=False) + "\n")
+    print(json.dumps(row, ensure_ascii=True), flush=True)
+
+
+def forbidden(*args, **kwargs):
+    CALLS.append(repr(args))
+    raise AssertionError("Network and SQLite are forbidden in this local audit")
+
+
+def preserve() -> dict[str, str]:
+    paths = set((ROOT / "docs/research/perioderegister-52").rglob("*"))
+    paths.update((OLD / "inputs/p1-complete").glob("*"))
+    paths.update(OLD / "synthetic" / name for name in (
+        "container-root-external-office-document.xlsx", "container-apply-alignment-zero.xlsx"))
+    paths.update(ROOT / name for name in git("ls-files").splitlines()
+                 if name.endswith((".py", ".mjs")))
+    paths.update(OLD / name for name in (
+        "candidate.json", "artifact-manifest.json", "confirmed-findings.json", "REPORT.md"))
+    return {p.relative_to(ROOT).as_posix(): digest(p) for p in sorted(paths) if p.is_file()}
+
+
+def copy_input(source: Path) -> Path:
+    target = OUT / "inputs" / source.parent.name / source.name
+    target.parent.mkdir(parents=True, exist_ok=True)
+    if not target.exists():
+        shutil.copyfile(source, target)
+    assert digest(source) == digest(target)
+    return target
+
+
+def rewrite(source: Path, name: str, changes: dict, extra: dict | None = None) -> Path:
+    target = OUT / "synthetic" / (name + ".xlsx")
+    completed = next((r for r in RESULTS if r["name"] == name), None)
+    if completed:
+        target = OUT / completed["file"]
+        assert digest(target) == completed["sha256"]
+        return target
+    if target.exists():
+        target = target.with_stem(target.stem + "-retry1")
+    assert not target.exists()
+    with ZipFile(source) as old, ZipFile(target, "w", ZIP_DEFLATED) as new:
+        for info in old.infolist():
+            raw = old.read(info.filename)
+            if info.filename in changes:
+                root = etree.fromstring(raw)
+                changes[info.filename](root)
+                raw = etree.tostring(root)
+            new.writestr(info, raw)
+        for member, raw in (extra or {}).items():
+            new.writestr(member, raw)
+    return target
+
+
+def rejected(name: str, path: Path) -> None:
+    if any(r["name"] == name for r in RESULTS):
+        return
+    try:
+        report = excel.read_excel(path)
+    except ValueError as error:
+        record(name, "REJECTED", error=str(error), file=path.relative_to(OUT).as_posix(), sha256=digest(path))
+    except Exception as error:
+        record(name, "UNEXPECTED_EXCEPTION", error=repr(error), file=path.relative_to(OUT).as_posix(), sha256=digest(path))
+    else:
+        record(name, "ACCEPTED", report_id=report.id, file=path.relative_to(OUT).as_posix(), sha256=digest(path))
+
+
+def findrel(root, suffix: str):
+    return next(e for e in root if e.get("Type", "").endswith("/" + suffix))
+
+
+def setrel(suffix: str, attr: str, value: str):
+    return lambda r: findrel(r, suffix).set(attr, value)
+
+
+def duplicate(root):
+    root.append(copy.deepcopy(root[0]))
+
+
+def missing_id(root):
+    del root[0].attrib["Id"]
+
+
+def duplicate_id(root):
+    root[1].set("Id", root[0].get("Id"))
+
+
+def append_external(root):
+    e = etree.SubElement(root, P + "Relationship")
+    e.attrib.update({"Id": "unused", "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",
+                     "Target": "https://example.invalid/local-test", "TargetMode": "External"})
+
+
+def change_type(part: str, value: str):
+    return lambda r: next(e for e in r if e.get("PartName") == part).set("ContentType", value)
+
+
+def raw_style(group: str, index: int, attr: str, value: str | None):
+    def change(root):
+        element = root.find(S + group)[index]
+        if value is None:
+            element.attrib.pop(attr, None)
+        else:
+            element.set(attr, value)
+    return change
+
+
+def main():
+    global START
+    assert git("rev-parse", "HEAD") == HEAD
+    assert git("rev-parse", "HEAD^{tree}") == TREE
+    assert git("status", "--porcelain=v1") == ""
+    for directory in (OUT / "inputs", OUT / "synthetic", OUT / "offline"):
+        directory.mkdir(parents=True, exist_ok=True)
+    before = preserve()
+    if "--resume" in sys.argv:
+        assert before == json.loads((OUT / "candidate-before.json").read_text("utf8"))["preserved_sha256"]
+        RESULTS.extend(json.loads(line) for line in (OUT / "results.jsonl").read_text("utf8").splitlines())
+        START -= RESULTS[-1]["elapsed"]
+    else:
+        assert not (OUT / "results.jsonl").exists()
+        (OUT / "candidate-before.json").write_text(json.dumps(dict(
+            head=HEAD, tree=TREE, status=git("status", "--porcelain=v1"), preserved_sha256=before), indent=2), encoding="utf8")
+    record("candidate-bound", "PASSED", head=HEAD, tree=TREE, preserved_files=len(before))
+    inputs = {}
+    with (patch.object(socket, "create_connection", forbidden),
+          patch.object(socket.socket, "connect", forbidden),
+          patch.object(socket.socket, "connect_ex", forbidden),
+          patch.object(sqlite3, "connect", forbidden)):
+        for name, expected_hash in (
+            ("container-root-external-office-document.xlsx", "929615ec56df384b1113fe57351d26948d8ae52b242fa4bc429537756a981a68"),
+            ("container-apply-alignment-zero.xlsx", "c10c3fa0f85ee0d501785d0ccfb5ec990c1aaff76d989baf258e8692dc7140a7")):
+            source = OLD / "synthetic" / name
+            assert digest(source) == expected_hash
+            path = copy_input(source)
+            rejected("exact-" + name, path)
+
+        reference = None
+        for name in ("both", "vedtak346", "empty", "wrong-year", "unknown-index"):
+            frozen = copy_input(OLD / "inputs/p1-complete" / (name + ".json"))
+            workbook = copy_input(OLD / "inputs/p1-complete" / (name + ".xlsx"))
+            inputs[name] = (frozen, workbook)
+            if any(r["name"] == "positive-pair-" + name for r in RESULTS):
+                if name == "both":
+                    reference = p1.read_json(frozen)
+                continue
+            saved = p1.read_json(frozen)
+            assert excel.read_excel(workbook) == saved
+            counts = (len(saved.view.monetary.adopted_observation_ids), len(saved.view.monetary.adopted_event_ids))
+            assert counts == ((11, 5) if name == "both" else (0, 0))
+            global_counts = (len(saved.basis.case_candidates), len(saved.basis.decision_candidates), len(saved.basis.gaps))
+            assert global_counts == (67, 25, 7)
+            assert saved.basis.year_coverage == "partial" and saved.basis.professional_annual_balance_approval is False
+            inputs[name] = (frozen, workbook)
+            if name == "both":
+                reference = saved
+            record("positive-pair-" + name, "PASSED", report_id=saved.id, monetary_counts=counts,
+                   global_counts=global_counts, json_sha256=digest(frozen), xlsx_sha256=digest(workbook))
+        assert [c.amount_kr for c in reference.calculations] == [166039000, 29185000]
+        assert all(c.status == "avgrenset kontroll" for c in reference.calculations)
+        doc = next(e.document_id for e in reference.basis.entries if e.key == "original-346")
+        assert p1.go_back(p1.open_document(reference, doc)) == reference
+        assert p1.open_accounts(p1.open_document(reference, doc), reference.selection).basis == reference.basis
+        record("old-calculation-and-navigation", "PASSED", amounts_kr=[166039000, 29185000])
+        source = inputs["both"][1]
+        mutations = [
+            ("root-external-core", "_rels/.rels", setrel("core-properties", "TargetMode", "External")),
+            ("root-external-app", "_rels/.rels", setrel("extended-properties", "Target", "https://example.invalid/app.xml")),
+            ("root-internal-mode", "_rels/.rels", setrel("officeDocument", "TargetMode", "Internal")),
+            ("root-duplicate-id", "_rels/.rels", duplicate_id),
+            ("root-missing-id", "_rels/.rels", missing_id),
+            ("root-duplicate-entry", "_rels/.rels", duplicate),
+            ("root-unused-external", "_rels/.rels", append_external),
+            ("root-office-target-alias", "_rels/.rels", setrel("officeDocument", "Target", "xl/../xl/workbook.xml")),
+            ("root-wrong-namespace", "_rels/.rels", lambda r: setattr(r, "tag", "{urn:synthetic}Relationships")),
+            ("book-external-styles", "xl/_rels/workbook.xml.rels", setrel("styles", "TargetMode", "External")),
+            ("book-external-theme", "xl/_rels/workbook.xml.rels", setrel("theme", "Target", "https://example.invalid/theme.xml")),
+            ("book-duplicate-id", "xl/_rels/workbook.xml.rels", duplicate_id),
+            ("book-unused-external", "xl/_rels/workbook.xml.rels", append_external),
+            ("types-wrong-styles", "[Content_Types].xml", change_type("/xl/styles.xml", "application/xml")),
+            ("types-wrong-theme", "[Content_Types].xml", change_type("/xl/theme/theme1.xml", "application/xml")),
+            ("types-wrong-sheet", "[Content_Types].xml", change_type("/xl/worksheets/sheet1.xml", "application/xml")),
+            ("types-duplicate", "[Content_Types].xml", duplicate),
+            ("types-missing-default", "[Content_Types].xml", lambda r: r.remove(r[0])),
+            ("types-extra-default", "[Content_Types].xml", lambda r: etree.SubElement(r, r[0].tag, Extension="bin", ContentType="application/octet-stream")),
+        ]
+        for name, member, change in mutations:
+            rejected(name, rewrite(source, name, {member: change}))
+        extra = '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="x" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://example.invalid/" TargetMode="External"/></Relationships>'
+        rejected("sheet-extra-rels", rewrite(source, "sheet-extra-rels", {}, {"xl/worksheets/_rels/sheet1.xml.rels": extra}))
+        raw_mutations = [
+            ("cellXfs", 1, "applyAlignment", None), ("cellXfs", 1, "applyAlignment", "0"),
+            ("cellXfs", 1, "applyFont", "0"), ("cellXfs", 1, "applyFont", "1"),
+            ("cellXfs", 1, "applyFill", "0"), ("cellXfs", 1, "applyFill", "1"),
+            ("cellXfs", 5, "applyNumberFormat", "0"), ("cellXfs", 5, "applyNumberFormat", "1"),
+            ("cellXfs", 1, "applyBorder", "0"), ("cellXfs", 1, "applyProtection", "0"),
+            ("cellXfs", 1, "quotePrefix", "1"), ("cellXfs", 1, "pivotButton", "1"),
+            ("cellStyleXfs", 0, "applyAlignment", "0"),
+            ("cellStyles", 0, "hidden", "1"),
+            ("tableStyles", 0, "unused", "1"),
+        ]
+        # tableStyles has no children: mutate that element directly instead.
+        raw_mutations.pop()
+        for group, index, attr, value in raw_mutations:
+            name = f"raw-{group}-{index}-{attr}-{value}"
+            rejected(name, rewrite(source, name, {"xl/styles.xml": raw_style(group, index, attr, value)}))
+        rejected("raw-extra-differential-format", rewrite(source, "raw-extra-differential-format", {
+            "xl/styles.xml": lambda r: etree.SubElement(r, S + "dxfs", count="0")}))
+
+        def reversed_children(root):
+            root[:] = list(reversed(root))
+
+        def reorder_attributes(root):
+            for e in root.iter():
+                attributes = list(e.attrib.items())
+                e.attrib.clear()
+                e.attrib.update(reversed(attributes))
+
+        equivalent = rewrite(source, "equivalent-ordering", {
+            "_rels/.rels": reversed_children,
+            "xl/_rels/workbook.xml.rels": reversed_children,
+            "[Content_Types].xml": reversed_children,
+            "xl/styles.xml": reorder_attributes,
+        })
+        assert excel.read_excel(equivalent) == reference
+        record("positive-equivalent-ordering", "PASSED", file=equivalent.relative_to(OUT).as_posix(), sha256=digest(equivalent))
+
+        script = '''import sys,socket,sqlite3,json
+calls=[]
+def forbidden(*a,**kw):
+    calls.append(repr(a))
+    raise AssertionError("offline boundary")
+socket.create_connection=forbidden
+socket.socket.connect=forbidden
+socket.socket.connect_ex=forbidden
+sqlite3.connect=forbidden
+sys.argv=["analyse.perioderegister","--frosset",sys.argv[1],"--rot",sys.argv[2],"--json",sys.argv[3],"--excel",sys.argv[4]]
+from analyse.perioderegister import main
+main()
+assert not calls
+print(json.dumps(dict(forbidden_calls=calls)))
+'''
+        working = OUT / "offline/empty-working-directory"
+        working.mkdir()
+        assert not list(working.iterdir())
+        environment = dict(os.environ, PYTHONPATH=os.pathsep.join((str(ROOT), str(ROOT / ".local/python"))))
+        frozen, workbook = OUT / "offline/reexport.json", OUT / "offline/reexport.xlsx"
+        missing = OUT / "offline/missing-original-root"
+        assert not missing.exists()
+        process = subprocess.run([sys.executable, "-c", script, str(inputs["both"][0]), str(missing), str(frozen), str(workbook)],
+                                 cwd=working, env=environment, capture_output=True, text=True, timeout=180)
+        (OUT / "offline/cli-output.json").write_text(json.dumps(dict(returncode=process.returncode, stdout=process.stdout, stderr=process.stderr), ensure_ascii=False, indent=2), encoding="utf8")
+        assert process.returncode == 0, process.stdout + process.stderr
+        assert p1.read_json(frozen) == excel.read_excel(workbook) == reference
+        record("offline-public-cli-and-closed-reread", "PASSED", json_sha256=digest(frozen), xlsx_sha256=digest(workbook), network_sqlite_blocked=True)
+    assert not CALLS
+    assert git("rev-parse", "HEAD") == HEAD and git("rev-parse", "HEAD^{tree}") == TREE
+    assert git("status", "--porcelain=v1") == ""
+    after = preserve()
+    assert after == before
+    record("candidate-originals-and-forbidden-calls-preserved", "PASSED", preserved_files=len(after), forbidden_calls=CALLS)
+    (OUT / "candidate-after.json").write_text(json.dumps(dict(head=HEAD, tree=TREE, status=git("status", "--porcelain=v1"), preserved_sha256=after), indent=2), encoding="utf8")
+    bad = [r for r in RESULTS if r["status"] in {"ACCEPTED", "UNEXPECTED_EXCEPTION"}]
+    (OUT / "summary.json").write_text(json.dumps(dict(head=HEAD, tree=TREE, results=len(RESULTS),
+        rejected=sum(r["status"] == "REJECTED" for r in RESULTS), passed=sum(r["status"] == "PASSED" for r in RESULTS),
+        unexpected=bad, forbidden_calls=CALLS, preserved_files=len(after), seconds=round(time.monotonic()-START, 3)), ensure_ascii=False, indent=2), encoding="utf8")
+    assert not bad, bad
+
+
+if __name__ == "__main__":
+    main()

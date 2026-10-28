@@ -1,0 +1,33 @@
+"""Bind the finished independent audit, without mutating input or Git state."""
+import hashlib
+import json
+from pathlib import Path
+import subprocess
+
+ROOT = Path.cwd().resolve()
+OUT = ROOT / ".local/p1-security-recheck"
+HEAD = "aec0269b9d6216cc03f9688e62c33a94cfa6cb6c"
+TREE = "c4c7944dac1510ba428a20440b40f33ebfb8430c"
+
+
+def digest(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+before = json.loads((OUT / "candidate-before.json").read_text("utf8"))
+after = json.loads((OUT / "candidate-after.json").read_text("utf8"))
+summary = json.loads((OUT / "summary.json").read_text("utf8"))
+assert before == after
+assert summary["results"] == 47 and summary["rejected"] == 37 and summary["passed"] == 10
+assert not summary["unexpected"] and not summary["forbidden_calls"]
+for name, expected in before["preserved_sha256"].items():
+    assert digest(ROOT / name) == expected, name
+assert subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip() == HEAD
+assert subprocess.check_output(["git", "rev-parse", "HEAD^{tree}"], text=True).strip() == TREE
+assert not subprocess.check_output(["git", "status", "--porcelain=v1"], text=True).strip()
+manifest = OUT / "artifact-manifest.json"
+assert not manifest.exists()
+files = [dict(path=p.relative_to(OUT).as_posix(), bytes=p.stat().st_size, sha256=digest(p))
+         for p in sorted(OUT.rglob("*")) if p.is_file() and p != manifest]
+manifest.write_text(json.dumps(dict(head=HEAD, tree=TREE, files=files), ensure_ascii=False, indent=2) + "\n", encoding="utf8")
+print(json.dumps(dict(bound_files=len(files), head=HEAD, tree=TREE, report_sha256=digest(OUT / "REPORT.md"))))

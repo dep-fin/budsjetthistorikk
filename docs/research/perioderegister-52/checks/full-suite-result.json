@@ -1,0 +1,89 @@
+{
+  "after": [
+    {
+      "Algorithm": "SHA256",
+      "Hash": "3C94BF596569901F9A0186564D8315037FBF4D0FAC566441C2DC3968C497F3B6",
+      "Path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\innlesning\\perioderegister_model.py"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "5217CF54F368C952DC2FA27330817B0690B8AF664487FC5F95504E9E1EE54D3E",
+      "Path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\innlesning\\perioderegister_catalog.py"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "2B7C1AE85258ABDE9C4CDDEAA74ACF84A6312ED57B6D2109F178E60F4C5356B9",
+      "Path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\innlesning\\perioderegister.py"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "9F9952352A65E2E42BA73B25BDB19D8ACEC738ED993E7DCD8CF802BB4A476FF1",
+      "Path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\analyse\\perioderegister.py"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "69B1522A31DDF77615496CAD24A34AEB49FA8269D6C2FA188E5C7E42FE26DA21",
+      "Path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\analyse\\perioderegister_excel.py"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "8284ED83AE3D258A23A90B5F709A6613F7B1565965D8328555472CF18CA58E57",
+      "Path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\ops\\perioderegister_proeve.py"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "E298C73F0516DB04EA5CAEA3E28010B0B8F11706D332BA9A516237C2194A726B",
+      "Path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\ops\\render_perioderegister.mjs"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "F0244F9140A641658A8F63EFD90A1313F2F1EA17AD1315389C5861CCEFA6CC93",
+      "Path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\tests\\test_perioderegister.py"
+    }
+  ],
+  "exit_code": 0,
+  "before": [
+    {
+      "Algorithm": "SHA256",
+      "Hash": "3C94BF596569901F9A0186564D8315037FBF4D0FAC566441C2DC3968C497F3B6",
+      "Path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\innlesning\\perioderegister_model.py"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "5217CF54F368C952DC2FA27330817B0690B8AF664487FC5F95504E9E1EE54D3E",
+      "Path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\innlesning\\perioderegister_catalog.py"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "2B7C1AE85258ABDE9C4CDDEAA74ACF84A6312ED57B6D2109F178E60F4C5356B9",
+      "Path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\innlesning\\perioderegister.py"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "9F9952352A65E2E42BA73B25BDB19D8ACEC738ED993E7DCD8CF802BB4A476FF1",
+      "Path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\analyse\\perioderegister.py"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "69B1522A31DDF77615496CAD24A34AEB49FA8269D6C2FA188E5C7E42FE26DA21",
+      "Path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\analyse\\perioderegister_excel.py"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "8284ED83AE3D258A23A90B5F709A6613F7B1565965D8328555472CF18CA58E57",
+      "Path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\ops\\perioderegister_proeve.py"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "E298C73F0516DB04EA5CAEA3E28010B0B8F11706D332BA9A516237C2194A726B",
+      "Path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\ops\\render_perioderegister.mjs"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "F0244F9140A641658A8F63EFD90A1313F2F1EA17AD1315389C5861CCEFA6CC93",
+      "Path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\tests\\test_perioderegister.py"
+    }
+  ],
+  "executable_files_unchanged": true,
+  "seconds": 2601.1327677
+}

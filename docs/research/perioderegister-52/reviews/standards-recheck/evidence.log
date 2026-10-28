@@ -1,0 +1,2 @@
+{"candidate": "aec0269b9d6216cc03f9688e62c33a94cfa6cb6c", "tree": "c4c7944dac1510ba428a20440b40f33ebfb8430c", "complete_executable_files": 8, "replacements": ["analyse/perioderegister_excel.py", "tests/test_perioderegister.py"], "historical_original_documents_unchanged": 65, "old_guard_unchanged": true, "positive_input_pairs_hash_checked": 5, "exact_attack_inputs_hash_checked": 2}
+records 62 preserved 90 json/jsonl 15

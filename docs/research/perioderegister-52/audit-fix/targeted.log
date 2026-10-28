@@ -1,0 +1,52 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-8.3.5, pluggy-1.7.0 -- C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\p1-perioderegister
+configfile: pyproject.toml
+collecting ... collected 44 items / 13 deselected / 31 selected
+
+tests/test_perioderegister.py::test_authorization_reopens_from_actual_json_and_excel_without_amount_cells PASSED [  3%]
+tests/test_perioderegister.py::test_external_package_main_document_is_rejected PASSED [  6%]
+tests/test_perioderegister.py::test_disabled_raw_alignment_is_rejected PASSED [  9%]
+tests/test_perioderegister.py::test_package_relationships_and_content_types_are_bound_to_local_parts[duplicate-root-id] PASSED [ 12%]
+tests/test_perioderegister.py::test_package_relationships_and_content_types_are_bound_to_local_parts[missing-root-id] PASSED [ 16%]
+tests/test_perioderegister.py::test_package_relationships_and_content_types_are_bound_to_local_parts[duplicate-main-document] PASSED [ 19%]
+tests/test_perioderegister.py::test_package_relationships_and_content_types_are_bound_to_local_parts[wrong-main-target] PASSED [ 22%]
+tests/test_perioderegister.py::test_package_relationships_and_content_types_are_bound_to_local_parts[wrong-main-type] PASSED [ 25%]
+tests/test_perioderegister.py::test_package_relationships_and_content_types_are_bound_to_local_parts[external-style-target] PASSED [ 29%]
+tests/test_perioderegister.py::test_package_relationships_and_content_types_are_bound_to_local_parts[worksheet-relationship] PASSED [ 32%]
+tests/test_perioderegister.py::test_package_relationships_and_content_types_are_bound_to_local_parts[wrong-workbook-content-type] PASSED [ 35%]
+tests/test_perioderegister.py::test_package_relationships_and_content_types_are_bound_to_local_parts[duplicate-content-type] PASSED [ 38%]
+tests/test_perioderegister.py::test_package_relationships_and_content_types_are_bound_to_local_parts[missing-content-type] PASSED [ 41%]
+tests/test_perioderegister.py::test_raw_style_application_flags_are_preserved[applyAlignment-None] PASSED [ 45%]
+tests/test_perioderegister.py::test_raw_style_application_flags_are_preserved[applyFont-0] PASSED [ 48%]
+tests/test_perioderegister.py::test_raw_style_application_flags_are_preserved[applyFont-1] PASSED [ 51%]
+tests/test_perioderegister.py::test_raw_style_application_flags_are_preserved[applyFill-0] PASSED [ 54%]
+tests/test_perioderegister.py::test_raw_style_application_flags_are_preserved[applyFill-1] PASSED [ 58%]
+tests/test_perioderegister.py::test_raw_style_application_flags_are_preserved[applyNumberFormat-0] PASSED [ 61%]
+tests/test_perioderegister.py::test_raw_style_application_flags_are_preserved[applyNumberFormat-1] PASSED [ 64%]
+tests/test_perioderegister.py::test_raw_style_application_flags_are_preserved[applyProtection-0] PASSED [ 67%]
+tests/test_perioderegister.py::test_false_hidden_or_active_excel_content_is_rejected[amount] PASSED [ 70%]
+tests/test_perioderegister.py::test_false_hidden_or_active_excel_content_is_rejected[hidden-row] PASSED [ 74%]
+tests/test_perioderegister.py::test_false_hidden_or_active_excel_content_is_rejected[hidden-column] PASSED [ 77%]
+tests/test_perioderegister.py::test_false_hidden_or_active_excel_content_is_rejected[hyperlink] PASSED [ 80%]
+tests/test_perioderegister.py::test_false_hidden_or_active_excel_content_is_rejected[filter] PASSED [ 83%]
+tests/test_perioderegister.py::test_false_hidden_or_active_excel_content_is_rejected[doctype] PASSED [ 87%]
+tests/test_perioderegister.py::test_false_hidden_or_active_excel_content_is_rejected[numberformat] PASSED [ 90%]
+tests/test_perioderegister.py::test_false_hidden_or_active_excel_content_is_rejected[hidden-sheet] PASSED [ 93%]
+tests/test_perioderegister.py::test_old_ids_calculations_and_one_unchanged_t1_capsule_survive_actual_files PASSED [ 96%]
+tests/test_perioderegister.py::test_frozen_input_can_run_public_cli_in_empty_directory_with_network_sqlite_blocked PASSED [100%]
+
+- generated xml file: C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\p1-perioderegister\docs\research\perioderegister-52\audit-fix\targeted.xml -
+============================ slowest 10 durations =============================
+50.94s call     tests/test_perioderegister.py::test_frozen_input_can_run_public_cli_in_empty_directory_with_network_sqlite_blocked
+43.28s call     tests/test_perioderegister.py::test_authorization_reopens_from_actual_json_and_excel_without_amount_cells
+24.76s setup    tests/test_perioderegister.py::test_external_package_main_document_is_rejected
+18.87s call     tests/test_perioderegister.py::test_old_ids_calculations_and_one_unchanged_t1_capsule_survive_actual_files
+6.66s setup    tests/test_perioderegister.py::test_authorization_reopens_from_actual_json_and_excel_without_amount_cells
+6.19s call     tests/test_perioderegister.py::test_false_hidden_or_active_excel_content_is_rejected[amount]
+5.72s call     tests/test_perioderegister.py::test_raw_style_application_flags_are_preserved[applyNumberFormat-1]
+5.55s call     tests/test_perioderegister.py::test_false_hidden_or_active_excel_content_is_rejected[hyperlink]
+5.54s call     tests/test_perioderegister.py::test_raw_style_application_flags_are_preserved[applyProtection-0]
+5.34s call     tests/test_perioderegister.py::test_raw_style_application_flags_are_preserved[applyFill-0]
+================ 31 passed, 13 deselected in 233.46s (0:03:53) ================

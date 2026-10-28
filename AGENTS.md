@@ -14,6 +14,8 @@ Før 341→857→210, lokal 2024-regning eller visningspilot-3: les [T3-kontrakt
 
 Før 201/2025, flerårsutvalg eller visningspilot-4: les [T4-kontrakten](docs/fleraarspilot.md) og [kilde-/filkontrollen](docs/research/fleraarspilot-48/README.md). 210 og 201 har samme dato, men separate budsjettår. Ukjent kontinuitet gir ingen videreføring eller sum mellom år; T3s regneport får bare eksplisitt 2024-grunnlag.
 
+Før K3-perioderegister eller perioderegister-1: les [P1-kontrakten](docs/perioderegister.md) og [P1-kontrollen](docs/research/perioderegister-52/README.md). Fullmakt, registerstruktur, monetære hendelser og faglig årsdekning holdes adskilt. Gamle objekter gjenbrukes gjennom én uendret T4-basis.
+
 ## Agent skills
 
 ### Issue tracker

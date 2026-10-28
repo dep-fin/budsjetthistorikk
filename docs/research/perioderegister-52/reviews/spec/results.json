@@ -1,0 +1,133 @@
+{
+  "checks": [
+    {
+      "name": "candidate",
+      "tree": "afc1eacfa74cec19e35a5cb49ee5907be5bfc877"
+    },
+    {
+      "name": "clean_tracked_tree"
+    },
+    {
+      "name": "contract_fixed_before_code"
+    },
+    {
+      "name": "all_delivery_files_rehashed",
+      "files": 416
+    },
+    {
+      "name": "code_bound_to_build_checks",
+      "files": 8
+    },
+    {
+      "name": "pinned_sources_and_git_bytes",
+      "sources": 130
+    },
+    {
+      "name": "all_index_metadata_original_bindings",
+      "occurrences": 67,
+      "unique_cases": 66
+    },
+    {
+      "name": "all_table_rows_from_originals",
+      "rows": 390
+    },
+    {
+      "name": "actual_both_json_excel"
+    },
+    {
+      "name": "global_partial_boundary"
+    },
+    {
+      "name": "complete_index_projection",
+      "statuses": {
+        "open_title_candidate": 60,
+        "investigated_case_references": 7
+      }
+    },
+    {
+      "name": "all_25_journal_reasons"
+    },
+    {
+      "name": "complete_ledger_projection"
+    },
+    {
+      "name": "unknown_index_scope_remains_unknown"
+    },
+    {
+      "name": "no_added_monetary_events"
+    },
+    {
+      "name": "unchanged_monetary_view_and_calculations",
+      "values": [
+        166039000,
+        29185000
+      ],
+      "statuses": [
+        "avgrenset kontroll",
+        "avgrenset kontroll"
+      ]
+    },
+    {
+      "name": "all_requested_counts_navigation_return",
+      "cases": 13
+    },
+    {
+      "name": "actual_fullmakt_json_excel"
+    },
+    {
+      "name": "actual_empty_json_excel"
+    },
+    {
+      "name": "actual_fullmakt_no_amount_cells"
+    },
+    {
+      "name": "own_written_closed_reopened_pair"
+    },
+    {
+      "name": "actual_rehashed_negative_positive-coverage",
+      "rejection": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+      "file": ".local\\p1-complete\\negative\\positive-coverage.json"
+    },
+    {
+      "name": "actual_rehashed_negative_fullmakt-amount",
+      "rejection": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+      "file": ".local\\p1-complete\\negative\\fullmakt-amount.json"
+    },
+    {
+      "name": "actual_rehashed_negative_year",
+      "rejection": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+      "file": ".local\\p1-complete\\negative\\year.json"
+    },
+    {
+      "name": "actual_rehashed_negative_post",
+      "rejection": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+      "file": ".local\\p1-complete\\negative\\post.json"
+    },
+    {
+      "name": "actual_rehashed_negative_role",
+      "rejection": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+      "file": ".local\\p1-complete\\negative\\role.json"
+    },
+    {
+      "name": "actual_rehashed_negative_hidden-gaps",
+      "rejection": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+      "file": ".local\\p1-complete\\negative\\hidden-gaps.json"
+    },
+    {
+      "name": "actual_legacy_T4_pair"
+    }
+  ],
+  "errors": [],
+  "negative_locations": [
+    ".local\\p1-complete\\compatibility",
+    ".local\\p1-complete\\empty-working-directory",
+    ".local\\p1-complete\\independence-contradictory",
+    ".local\\p1-complete\\independence-corrupt",
+    ".local\\p1-complete\\independence-failed",
+    ".local\\p1-complete\\independence-missing",
+    ".local\\p1-complete\\negative",
+    ".local\\p1-complete\\originals",
+    ".local\\p1-complete\\tmp"
+  ],
+  "seconds": 132.344
+}

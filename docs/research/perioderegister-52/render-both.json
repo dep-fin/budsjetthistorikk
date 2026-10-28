@@ -1,0 +1,69 @@
+{
+  "input": ".local/p1-complete/both.xlsx",
+  "readOnly": true,
+  "nativeExcel": false,
+  "views": [
+    {
+      "sheetName": "Forløp",
+      "range": "A1:K12",
+      "file": ".local\\render-complete-both\\forlop.png"
+    },
+    {
+      "sheetName": "Forløp",
+      "range": "N1:R8",
+      "file": ".local\\render-complete-both\\originalreferanser.png"
+    },
+    {
+      "sheetName": "Dokumenter",
+      "range": "A1:L6",
+      "file": ".local\\render-complete-both\\dokumenter.png"
+    },
+    {
+      "sheetName": "Dokumenter",
+      "range": "C1942:Q1947",
+      "file": ".local\\render-complete-both\\fullmakt-inventar.png"
+    },
+    {
+      "sheetName": "Dokumenter",
+      "range": "C2161:Q2163",
+      "file": ".local\\render-complete-both\\indeksinventar.png"
+    },
+    {
+      "sheetName": "Omtale",
+      "range": "B1:I5",
+      "file": ".local\\render-complete-both\\omtale.png"
+    },
+    {
+      "sheetName": "Sammenligninger",
+      "range": "A1:J8",
+      "file": ".local\\render-complete-both\\sammenligninger.png"
+    },
+    {
+      "sheetName": "Dekning og avvik",
+      "range": "A1:B16",
+      "file": ".local\\render-complete-both\\dekning.png"
+    },
+    {
+      "sheetName": "Dekning og avvik",
+      "range": "A17:B23",
+      "file": ".local\\render-complete-both\\globale-hull.png"
+    },
+    {
+      "sheetName": "Kontroll",
+      "range": "A1:K8",
+      "file": ".local\\render-complete-both\\kontroll.png"
+    },
+    {
+      "sheetName": "Offlinegrunnlag",
+      "range": "A1:B3",
+      "file": ".local\\render-complete-both\\offline.png"
+    },
+    {
+      "sheetName": "Forløp",
+      "range": "A13:K27",
+      "file": ".local\\render-complete-both\\forlop-fortsettelse.png"
+    }
+  ],
+  "sheets": "{\"kind\":\"sheet\",\"id\":\"ws/gkbkrd\",\"name\":\"Forløp\",\"index\":0,\"range\":\"A1:R25\",\"address\":\"A1:R25\"}\n{\"kind\":\"sheet\",\"id\":\"ws/nm01zq\",\"name\":\"Dokumenter\",\"index\":1,\"range\":\"A1:Q2252\",\"address\":\"A1:Q2252\"}\n{\"kind\":\"sheet\",\"id\":\"ws/1e9dsc\",\"name\":\"Omtale\",\"index\":2,\"range\":\"A1:N228\",\"address\":\"A1:N228\"}\n{\"kind\":\"sheet\",\"id\":\"ws/dh75xi\",\"name\":\"Sammenligninger\",\"index\":3,\"range\":\"A1:N15\",\"address\":\"A1:N15\"}\n{\"kind\":\"sheet\",\"id\":\"ws/fy4wp6\",\"name\":\"Dekning og avvik\",\"index\":4,\"range\":\"A1:B146\",\"address\":\"A1:B146\"}\n{\"kind\":\"sheet\",\"id\":\"ws/qp9uf8\",\"name\":\"Kontroll\",\"index\":5,\"range\":\"A1:K558\",\"address\":\"A1:K558\"}\n{\"kind\":\"sheet\",\"id\":\"ws/nlx94s\",\"name\":\"Offlinegrunnlag\",\"index\":6,\"range\":\"A1:B820\",\"address\":\"A1:B820\"}",
+  "amountInspection": "{\"kind\":\"table\",\"sheet\":\"Forløp\",\"address\":\"A1:R12\",\"rows\":12,\"cols\":18,\"values\":[[\"Konto\",\"Budsjettår\",\"Dokument\",\"Dato\",\"Runde / stadium\",\"Avsender\",\"Nivå kr\",\"Før kr\",\"Endring kr\",\"Etter kr\",\"Status\",\"Felt-ID-er\",\"Ledd-ID\",\"Dokumentversjon\",\"Postkobling\",\"Originalreferanse\",\"Lokator\",\"Registerledd-ID\"],[\"1429/1, 1429/22\",2024,\"Prop.1 S KLD 2023-2024\",null,\"opprinnelig / government_proposal\",\"regjeringen\",null,null,null,null,\"kildebundet_delvis_strukturert; ikke_faglig_godkjent\",\"[]\",\"3b32980f9f0f8ae6a75b6698dbe2f98e8b9bea5798afb11de8ae16d07d3d85c3\",\"f64182130806a7044c9215ca2fb84ba4edbaf7f4e20de1bbaae304f3458f3f20\",\"proven_selected\",\"36cbe052fd273d4735492964dd793e49cc49aeee4a4d7ceb744e29d2b5907b68\",\"/\",\"3b32980f9f0f8ae6a75b6698dbe2f98e8b9bea5798afb11de8ae16d07d3d85c3\"],[\"1429/1, 1429/22\",2024,\"Innst.14 S 2023-2024 section7\",null,\"opprinnelig / committee_recommendation\",\"komiteen\",null,null,null,null,\"kildebundet_delvis_strukturert; ikke_faglig_godkjent\",\"[]\",\"e27c0cc2135f337ceb77d97ec95c7a42ab16954e2016db07e450b4fd0d1bc8e4\",\"e36dcd70e1371cc46f9d3a647356350228fdcec40db42d3d97ac8c0fd0bbe37e\",\"proven_selected\",\"0824d6b0bf8bf010333b44518c9f650ab86e2be9b43da88c71958253c06ea838\",\"/\",\"e27c0cc2135f337ceb77d97ec95c7a42ab16954e2016db07e450b4fd0d1bc8e4\"],[\"1429/1\",2024,\"Innst.14 S 2023-2024 section7\",null,\"opprinnelig / H_primary_position\",\"H\",null,null,null,null,\"primaervotering_ukjent; ikke_faglig_godkjent\",\"[]\",\"91852cef37a990c00e7301247f64a597f2e3b4f9cd338222b78bc67b257a96fb\",\"e36dcd70e1371cc46f9d3a647356350228fdcec40db42d3d97ac8c0fd0bbe37e\",\"proven_selected\",\"0824d6b0bf8bf010333b44518c9f650ab86e2be9b43da88c71958253c06ea838\",\"/\",\"91852cef37a990c00e7301247f64a597f2e3b4f9cd338222b78bc67b257a96fb\"],[\"1429/1\",2024,\"Innst.14 S 2023-2024 section7\",null,\"opprinnelig / FrP_primary_position\",\"FrP\",null,null,null,null,\"primaervotering_ukjent; ikke_faglig_godkjent\",\"[]\",\"96751427d9cf773550662652d05b219e12deb5f54a0d44658cd6c03d3168a78d\",\"e36dcd70e1371cc46f9d3a647356350228fdcec40db42d3d97ac8c0fd0bbe37e\",\"proven_selected\",\"0824d6b0bf8bf010333b44518c9f650ab86e2be9b43da88c71958253c06ea838\",\"/\",\"96751427d9cf773550662652d05b219e12deb5f54a0d44658cd6c03d3168a78d\"],[\"1429/1\",2024,\"Vedtak 341: Statsbudsjettet 2024 (kapitler fordelt til familie- og kulturkomiteen)\",45279,\"opprinnelig / vedtak\",\"stortinget\",161243000,null,null,null,\"kildeverifisert; ikke_faglig_godkjent\",\"[\\\"b72cf60b786b39a92f55566c74b0ad06cf1d9065ebbe321292f5feeb0134454a\\\"]\",\"8a06e6f911ca90771d65339ce90119b0f486f7df05f1021d7ce4a6c78eadfca4\",\"79b328f961643e28bcf4eefacd7cb0bba30b17445cc46a56748a599165009bd9\",\"proven_selected\",\"73bbcdc1d83a539ab4f3c2fad7b2b2972e003e742a5391a003d19c38149b6e71\",\"table[1]/tr[102]/td[4]\",null],[\"1429/22\",2024,\"Vedtak 341: Statsbudsjettet 2024 (kapitler fordelt til familie- og kulturkomiteen)\",45279,\"opprinnelig / vedtak\",\"stortinget\",32185000,null,null,null,\"kildeverifisert; ikke_faglig_godkjent\",\"[\\\"e85aba023baaffb585fb243a2be1964c53c6fe4403962de03bdc18ee83b7b665\\\"]\",\"866e8926e13f442ab9fd9aedcb9654872636213cc80b6685d0fa54bc57983131\",\"79b328f961643e28bcf4eefacd7cb0bba30b17445cc46a56748a599165009bd9\",\"proven_selected\",\"73bbcdc1d83a539ab4f3c2fad7b2b2972e003e742a5391a003d19c38149b6e71\",\"table[1]/tr[104]/td[4]\",null],[\"1429/1\",2024,\"346/40032933\",45279,\"opprinnelig / adopted_revenue_authorization\",\"stortinget\",null,null,null,null,\"vedtatt_fullmakt_uten_belop; ikke_faglig_godkjent\",\"[]\",\"2b5823ea40b160c05869c1048e89f254559a1b59631da53a1204e89d7f181e58\",\"48f22badcf044ef40f884f8ce978bf9a8553f5288aae8803d089fcc74c1b2b11\",\"proven_selected\",\"2855d1a2d6576a6cc4d9a0ad3a217ca422028e24c417bb956a4e31e783649021\",\"/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40032933']/s:stortingsvedtak_tekst\",\"2b5823ea40b160c05869c1048e89f254559a1b59631da53a1204e89d7f181e58\"],[\"1429/1\",2024,\"Prop.104 S 2023-2024\",null,\"rnb / government_proposal\",\"regjeringen\",null,null,null,null,\"kildebundet_delvis_strukturert; ikke_faglig_godkjent\",\"[]\",\"ff03f42635837e6071df120c65c95a83eb5a7714d8c164eac00913684c04a80c\",\"09953189fa5f539d263973b92820e1ee76c21a640b458743282aeac50a6aa12a\",\"proven_selected\",\"32710cb2e68a386f04fc0af41628c48a901840072b010601eb5c836cf51d94c3\",\"/\",\"ff03f42635837e6071df120c65c95a83eb5a7714d8c164eac00913684c04a80c\"],[\"1429/1\",2024,\"Innst.447 S section7\",null,\"rnb / committee_recommendation\",\"komiteen\",null,null,null,null,\"kildebundet_delvis_strukturert; ikke_faglig_godkjent\",\"[]\",\"83e83fddcc8a8367d147f036fd7f0609fb1ac643c9b013bada1b9d1c9d8b69f8\",\"a55f9d85dbc0738c1bb6530962d2a85fce9141dbef413b4f67ed8965857a1a2e\",\"proven_selected\",\"c5af4270ce7e2ab7c0758421d7b5e42b38b3b5607c33d1a47180f1ce3a5fe34d\",\"/\",\"83e83fddcc8a8367d147f036fd7f0609fb1ac643c9b013bada1b9d1c9d8b69f8\"],[\"1429/1\",2024,\"Innst.447 S section7\",null,\"rnb / rejected_alternative_proposal\",\"KrF\",null,null,null,null,\"forkastet; ikke_faglig_godkjent\",\"[]\",\"5ffb10046eb1842a3007e813e13eb9584af17cb2349d9ae1cd225186312166d0\",\"a55f9d85dbc0738c1bb6530962d2a85fce9141dbef413b4f67ed8965857a1a2e\",\"proven_selected\",\"c5af4270ce7e2ab7c0758421d7b5e42b38b3b5607c33d1a47180f1ce3a5fe34d\",\"/\",\"5ffb10046eb1842a3007e813e13eb9584af17cb2349d9ae1cd225186312166d0\"],[\"1429/1\",2024,\"Innst.447 S section7\",null,\"rnb / rejected_alternative_proposal\",\"MDG\",null,null,null,null,\"forkastet; ikke_faglig_godkjent\",\"[]\",\"66238f94b52fbcfada651562608eab6fa829c6fad2492f05f787a3775527bed3\",\"a55f9d85dbc0738c1bb6530962d2a85fce9141dbef413b4f67ed8965857a1a2e\",\"proven_selected\",\"c5af4270ce7e2ab7c0758421d7b5e42b38b3b5607c33d1a47180f1ce3a5fe34d\",\"/\",\"66238f94b52fbcfada651562608eab6fa829c6fad2492f05f787a3775527bed3\"]]}"
+}

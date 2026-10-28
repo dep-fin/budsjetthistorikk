@@ -1,0 +1,11 @@
+{
+  "head": "aec0269b9d6216cc03f9688e62c33a94cfa6cb6c",
+  "tree": "c4c7944dac1510ba428a20440b40f33ebfb8430c",
+  "results": 47,
+  "rejected": 37,
+  "passed": 10,
+  "unexpected": [],
+  "forbidden_calls": [],
+  "preserved_files": 258,
+  "seconds": 271.688
+}
