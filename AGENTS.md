@@ -12,6 +12,8 @@ Før T2/315/78, kildegjenbruk eller lesing av visningspilot-2: les [T2-kontrakte
 
 Før 341→857→210, lokal 2024-regning eller visningspilot-3: les [T3-kontrakten](docs/forlopspilot.md) og [kilde-/filkontrollen](docs/research/forlopspilot-46/README.md). 857s nye 66aa-avledning og gamle 554e-kontroll er separate representasjoner. Avgrenset regning er ingen årsdekning eller årsbalansegodkjenning.
 
+Før 201/2025, flerårsutvalg eller visningspilot-4: les [T4-kontrakten](docs/fleraarspilot.md) og [kilde-/filkontrollen](docs/research/fleraarspilot-48/README.md). 210 og 201 har samme dato, men separate budsjettår. Ukjent kontinuitet gir ingen videreføring eller sum mellom år; T3s regneport får bare eksplisitt 2024-grunnlag.
+
 ## Agent skills
 
 ### Issue tracker

@@ -341,3 +341,20 @@ Kontrollfixturen/sidevognen er uendret og gir ingen ekstra hendelse. Ingen
 påstand om gjenlest 554e eller ny HTTP følger. 210 beholder 9cfe-proveniens
 og gamle felt i den autentiske T1-kapselen. [Kontrakt](forlopspilot.md),
 [varig kildegrunnlag og produktkontroll](research/forlopspilot-46/README.md).
+
+## T4: samme dato, separate budsjettår – 28. oktober 2026
+
+Vedtak 201/API40034038, sak100184, 16.12.2024 sier uttrykkelig budsjett 2025.
+1429/1 har nivå 163 173 000 og /22 har 33 408 000 kroner. Kapittelrad 100,
+beløpsfelt tr101/td4 og tr103/td4 i tabell 1. /22s rånavn og «kan overføres»
+bevares. Hele tabellen har 153 inventarrader; bare to beløpsfelt struktureres.
+Det komplette objektutdraget rekonstrueres byteeksakt fra bevart c5f3-forelder,
+med oppskrift/hasher i [T4-kildebeviset](research/fleraarspilot-48/source-findings.md).
+Ved komplett input gjenbrukes T1s forelder/metadata med `legacy_source_id`;
+utdraget er en avledning, ikke et nytt HTTP-svar.
+
+Konsekvens: 210s 2024-nysaldering og 201s opprinnelige 2025-nivåer holdes i
+separate konto-/årsgrupper. Lik dato, kode eller navn gir ingen kontinuitet.
+Globale 2025-hull består ved alle filtre; 1149s øvrige poster beviser ikke
+helårsfravær på /1 eller /22. [Kontrakt](fleraarspilot.md) og
+[produktkontroll](research/fleraarspilot-48/README.md) avgrenser resultatet.
