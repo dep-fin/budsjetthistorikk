@@ -123,3 +123,25 @@ gammel 554e-fullrespons omtales bare med faktisk bevis.
 Utenfor: positiv kontinuitet/K2, full årsdekning/K3, K1, faglig årsbalanse,
 T5/T6, generell eldre normalisering/fanerydding, historikkimport og drift.
 #10/#32/#37 står åpne. Neste ticket starter ikke automatisk.
+
+## CI-tidsmargin før samlet review
+
+28. oktober 2026 settes jobbgrensen til 60 minutter før fast kandidat med
+[målt grunnlag og uttrykkelig bevisgrense](research/fleraarspilot-48/ci-budget.md).
+Full testmengde, statiske porter og parserversjonslogging består. Eldre
+hashjournalers 40-minuttersangivelse gjelder deres opprinnelige byggetidspunkt.
+
+## Presisering av avledet visning, 28. oktober 2026
+
+`view.observation_ids`, vedtaksfelt og hendelsesreferanser ordnes etter
+budsjettår, konto og kildebelagt kronologi. Excel bruker samme gruppering.
+T1s stadiesammenligninger av nysaldering brukes bare når **2024** inngår i
+det faktiske års-/dokumentvalget. Valg av 201/2025 kan derfor ikke hente
+2024-sammenligninger gjennom like kontokoder. T3s uendrede regneport mottar
+bare de uttrykkelige 2024-observasjonene/kontekstene; selve porten avviser
+fortsatt uforenlige år. Dokument-/kontolenker bruker både år og konto.
+
+Dette presiserer utvalgs- og årsgrensen ovenfor. Det oppretter ingen ny
+kontinuitetsrelasjon, kildeobservasjon, aritmetisk differanse mellom år eller
+ny tolkning av gamle objekter. [T4-kontrollen](research/fleraarspilot-48/README.md)
+skiller lokal byggeaksept fra review, audit og Linux-CI.

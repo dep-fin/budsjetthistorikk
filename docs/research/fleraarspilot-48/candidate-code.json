@@ -1,0 +1,48 @@
+{
+  "base": "e374bdcad3bf18c44ccd7b813ce67b8f97327ee2",
+  "contract_commit": "fc2b62966d65147d5d3d2ad5c0670d4d4912399b",
+  "files": [
+    {
+      "file": "innlesning/fleraarspilot_model.py",
+      "bytes": 634,
+      "sha256_windows": "c105b998c566511d8f9acbf1601e1c422195d3e733957b2173ad3f3e1598af72",
+      "sha256_git_lf": "c105b998c566511d8f9acbf1601e1c422195d3e733957b2173ad3f3e1598af72"
+    },
+    {
+      "file": "innlesning/fleraarspilot.py",
+      "bytes": 16287,
+      "sha256_windows": "5fe176cf9c00dc7dbb04ebfd70ab873283796f20d06a52c9e78b53f95e4772d0",
+      "sha256_git_lf": "5fe176cf9c00dc7dbb04ebfd70ab873283796f20d06a52c9e78b53f95e4772d0"
+    },
+    {
+      "file": "analyse/fleraarspilot.py",
+      "bytes": 11324,
+      "sha256_windows": "07da4379ebd6a193b5e7351948946eb065b8ec8c0b2088dea5ddeb60be16c9c4",
+      "sha256_git_lf": "39004776ad9c475103cdb8e9cc4b158adc78691597bb547c48fc2f024dda3b53"
+    },
+    {
+      "file": "analyse/fleraarspilot_excel.py",
+      "bytes": 28266,
+      "sha256_windows": "553e4209fe6c065a8bdd3ea8a4c8d2ab7c185628d6ba7071ad056bf128385bb5",
+      "sha256_git_lf": "7a157fe722aebb6b9974870026fc01fa00115d9c5afad421f73ffb0ddd189ca5"
+    },
+    {
+      "file": "ops/fleraarspilot_proeve.py",
+      "bytes": 21263,
+      "sha256_windows": "1fe8d693c4f4645c8a3ad540fec4dc9ed2950edeafcfd4cfec5a03b83f3e40e7",
+      "sha256_git_lf": "1fe8d693c4f4645c8a3ad540fec4dc9ed2950edeafcfd4cfec5a03b83f3e40e7"
+    },
+    {
+      "file": "ops/render_fleraarspilot.mjs",
+      "bytes": 2218,
+      "sha256_windows": "02142e0fd16dd89e156c6ea1d79c7ea6536e5f88f72c763d2a4fe16d775b2d8b",
+      "sha256_git_lf": "02142e0fd16dd89e156c6ea1d79c7ea6536e5f88f72c763d2a4fe16d775b2d8b"
+    },
+    {
+      "file": "tests/test_fleraarspilot.py",
+      "bytes": 12892,
+      "sha256_windows": "e0d2b9394b6fe2b6ac582fb87c0694f493d14a786e8567bafdd8bdb6543fa94c",
+      "sha256_git_lf": "e0d2b9394b6fe2b6ac582fb87c0694f493d14a786e8567bafdd8bdb6543fa94c"
+    }
+  ]
+}

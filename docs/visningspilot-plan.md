@@ -15,6 +15,12 @@ før-kode-grensen; [kontroll og overlevering](research/forlopspilot-46/README.md
 skiller lokal aksept fra orkestratorens review-/CI-/mergeporter. T4–T6/K1–K3
 og generell faneopprydding krever fortsatt egne mandater.
 
+T4 er deretter uttrykkelig bestilt og publisert som [#48](https://github.com/depmartin/budsjetthistorikk/issues/48).
+[Før-kode-kontrakten](fleraarspilot.md) og [T4-kontrollen](research/fleraarspilot-48/README.md)
+avgrenser separate 2024-/2025-forløp, ukjent kontinuitet og gjenbruk av T3
+med én T1-kapsel. Lokal byggeaksept skilles fra orkestratorens review, audit,
+full Linux-CI og merge. T5/T6/K1–K3 og generell eldre opprydding starter ikke.
+
 ## Problemet som første snitt løser
 
 Brukeren skal kunne åpne et helt dokument og gå videre til en berørt konto, eller velge konto og år og gå videre til dokumentene. Begge veier skal vise de samme kildeopplysningene og bevare hele dokumentets inventar. Dagens postomtale kan ikke brukes som om den allerede importerte alle forslagstall eller hele dokumentet.

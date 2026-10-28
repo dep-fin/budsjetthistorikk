@@ -1,0 +1,179 @@
+{
+  "engine": "bundled Artifact Tool",
+  "read_only": true,
+  "native_excel": false,
+  "books": [
+    {
+      "mode": "both",
+      "input": "work\\t4-delivery-final\\both.xlsx",
+      "input_sha256": "5c1321090b07ad3424069cf9499da848daacdd8e9bfd7af6c6343dcec5d7f2c8",
+      "render_journal": "render-both.json"
+    },
+    {
+      "mode": "201",
+      "input": "work\\t4-delivery-final\\document-vedtak201.xlsx",
+      "input_sha256": "fd417b54b04f2fa573b622050f9ad969ce7bc6d2b0f6683a85a0f42ef8f33212",
+      "render_journal": "render-201.json"
+    },
+    {
+      "mode": "empty",
+      "input": "work\\t4-delivery-final\\empty-multiyear.xlsx",
+      "input_sha256": "6db9738a12225e9e36d6973a4b04b37b6f7a276573c9a20a22dea8839bb4147a",
+      "render_journal": "render-empty.json"
+    }
+  ],
+  "rendered_images": 30,
+  "previews": [
+    {
+      "file": "previews\\201\\aarsbrudd-og-hull.png",
+      "bytes": 71052,
+      "sha256": "cf1a39923b6c90f19578afe09683ed236dbe0b82f44365e04654c1cc46abfb09"
+    },
+    {
+      "file": "previews\\201\\dekning.png",
+      "bytes": 94591,
+      "sha256": "19400e4526bf17f732abd2ca392d37e2e9091482602e765280fbfde4df68ee88"
+    },
+    {
+      "file": "previews\\201\\dokument201-dekning.png",
+      "bytes": 40826,
+      "sha256": "3bdb3210411b5fe694413e93279a38c1e4616898fd1347c46179c157dcde5eae"
+    },
+    {
+      "file": "previews\\201\\dokument201-nivaaer.png",
+      "bytes": 79412,
+      "sha256": "6965058c2bb0c66afe57c3fdbbabe0cbadcce646058a855299867bb12e9c676b"
+    },
+    {
+      "file": "previews\\201\\dokumenter.png",
+      "bytes": 77467,
+      "sha256": "81a18f226183f13a50edc960e993185eef59ac8d390e3a2ebd88c0c7341987a5"
+    },
+    {
+      "file": "previews\\201\\forlop.png",
+      "bytes": 38223,
+      "sha256": "3a5c390ea40143c460639374e684c57f32df245b5eb8bb8ac99ea23777d1d5b0"
+    },
+    {
+      "file": "previews\\201\\kontroll.png",
+      "bytes": 125335,
+      "sha256": "9ad65d10240e1b213d1229e73f3aa57a10a7b5624a9b1ca40eea25dae8a9c313"
+    },
+    {
+      "file": "previews\\201\\offline.png",
+      "bytes": 19781,
+      "sha256": "1000755ebe06d42f6d432e7845da21e7f5d988189752d4a3cfbce3f262f11fc2"
+    },
+    {
+      "file": "previews\\201\\omtale.png",
+      "bytes": 51733,
+      "sha256": "6e86e25151a102df31a11f8a4f9c8d34eb0b866e31a29def9986db4bce7a1e7f"
+    },
+    {
+      "file": "previews\\201\\sammenligninger.png",
+      "bytes": 10626,
+      "sha256": "cce4ffa08cad6b2f58fdf83aedd1475ac3da1a3b4a9283c57b32ad9b37a73deb"
+    },
+    {
+      "file": "previews\\both\\aarsbrudd-og-hull.png",
+      "bytes": 71052,
+      "sha256": "cf1a39923b6c90f19578afe09683ed236dbe0b82f44365e04654c1cc46abfb09"
+    },
+    {
+      "file": "previews\\both\\dekning.png",
+      "bytes": 90650,
+      "sha256": "cb1719d1eee51b2b06ba64627c9347f43fe81c4b5d8e9be09b6c5c31d13ec483"
+    },
+    {
+      "file": "previews\\both\\dokument201-dekning.png",
+      "bytes": 40812,
+      "sha256": "38835125cd4cf8e7c1c81a906e43dc8a47d59c2a65eb08920dcdb1cbf99d6613"
+    },
+    {
+      "file": "previews\\both\\dokument201-nivaaer.png",
+      "bytes": 79412,
+      "sha256": "6965058c2bb0c66afe57c3fdbbabe0cbadcce646058a855299867bb12e9c676b"
+    },
+    {
+      "file": "previews\\both\\dokumenter.png",
+      "bytes": 77467,
+      "sha256": "81a18f226183f13a50edc960e993185eef59ac8d390e3a2ebd88c0c7341987a5"
+    },
+    {
+      "file": "previews\\both\\forlop.png",
+      "bytes": 139722,
+      "sha256": "765124b53b3593b9823fefc0671faa39258a5156787c8a2248df0af543ffaf33"
+    },
+    {
+      "file": "previews\\both\\kontroll.png",
+      "bytes": 125335,
+      "sha256": "9ad65d10240e1b213d1229e73f3aa57a10a7b5624a9b1ca40eea25dae8a9c313"
+    },
+    {
+      "file": "previews\\both\\offline.png",
+      "bytes": 19781,
+      "sha256": "1000755ebe06d42f6d432e7845da21e7f5d988189752d4a3cfbce3f262f11fc2"
+    },
+    {
+      "file": "previews\\both\\omtale.png",
+      "bytes": 51733,
+      "sha256": "6e86e25151a102df31a11f8a4f9c8d34eb0b866e31a29def9986db4bce7a1e7f"
+    },
+    {
+      "file": "previews\\both\\sammenligninger.png",
+      "bytes": 181042,
+      "sha256": "819e837c4927c3f0dccc960da2ab8191e969bab440b54e14b0fea29e84f58329"
+    },
+    {
+      "file": "previews\\empty\\aarsbrudd-og-hull.png",
+      "bytes": 71052,
+      "sha256": "cf1a39923b6c90f19578afe09683ed236dbe0b82f44365e04654c1cc46abfb09"
+    },
+    {
+      "file": "previews\\empty\\dekning.png",
+      "bytes": 90743,
+      "sha256": "12300bdcf5f205ab4fd679f36e30a869263470201687fa7ab845aafb8fc9ef6e"
+    },
+    {
+      "file": "previews\\empty\\dokument201-dekning.png",
+      "bytes": 40793,
+      "sha256": "0fafe4f46b071c4f437edd86a23216a913105e14305c1095576673c347a2a64f"
+    },
+    {
+      "file": "previews\\empty\\dokument201-nivaaer.png",
+      "bytes": 78097,
+      "sha256": "777f8d727513b5b7e3a012e0694f8688b08f009696c46ac0b117fa8ba16ec241"
+    },
+    {
+      "file": "previews\\empty\\dokumenter.png",
+      "bytes": 77467,
+      "sha256": "81a18f226183f13a50edc960e993185eef59ac8d390e3a2ebd88c0c7341987a5"
+    },
+    {
+      "file": "previews\\empty\\forlop.png",
+      "bytes": 10918,
+      "sha256": "89bd2ef3e004271ca91d904679196d3169f0f767c096c4fdd8522ad6f3381ad4"
+    },
+    {
+      "file": "previews\\empty\\kontroll.png",
+      "bytes": 125335,
+      "sha256": "9ad65d10240e1b213d1229e73f3aa57a10a7b5624a9b1ca40eea25dae8a9c313"
+    },
+    {
+      "file": "previews\\empty\\offline.png",
+      "bytes": 19781,
+      "sha256": "1000755ebe06d42f6d432e7845da21e7f5d988189752d4a3cfbce3f262f11fc2"
+    },
+    {
+      "file": "previews\\empty\\omtale.png",
+      "bytes": 51733,
+      "sha256": "6e86e25151a102df31a11f8a4f9c8d34eb0b866e31a29def9986db4bce7a1e7f"
+    },
+    {
+      "file": "previews\\empty\\sammenligninger.png",
+      "bytes": 10626,
+      "sha256": "cce4ffa08cad6b2f58fdf83aedd1475ac3da1a3b4a9283c57b32ad9b37a73deb"
+    }
+  ],
+  "visual_scope": "separate aarsgrupper/nivaa/før-endring-etter/dato/status, 201, avgrenset regning, tomt valg og globale hull; maskinleseren kontrollerer alle synlige celler og stiler"
+}

@@ -1,0 +1,155 @@
+{
+  "candidate": {
+    "base": "e374bdcad3bf18c44ccd7b813ce67b8f97327ee2",
+    "contract_commit": "fc2b62966d65147d5d3d2ad5c0670d4d4912399b",
+    "files": [
+      {
+        "file": "innlesning/fleraarspilot_model.py",
+        "bytes": 634,
+        "sha256_windows": "c105b998c566511d8f9acbf1601e1c422195d3e733957b2173ad3f3e1598af72",
+        "sha256_git_lf": "c105b998c566511d8f9acbf1601e1c422195d3e733957b2173ad3f3e1598af72"
+      },
+      {
+        "file": "innlesning/fleraarspilot.py",
+        "bytes": 16287,
+        "sha256_windows": "5fe176cf9c00dc7dbb04ebfd70ab873283796f20d06a52c9e78b53f95e4772d0",
+        "sha256_git_lf": "5fe176cf9c00dc7dbb04ebfd70ab873283796f20d06a52c9e78b53f95e4772d0"
+      },
+      {
+        "file": "analyse/fleraarspilot.py",
+        "bytes": 11324,
+        "sha256_windows": "07da4379ebd6a193b5e7351948946eb065b8ec8c0b2088dea5ddeb60be16c9c4",
+        "sha256_git_lf": "39004776ad9c475103cdb8e9cc4b158adc78691597bb547c48fc2f024dda3b53"
+      },
+      {
+        "file": "analyse/fleraarspilot_excel.py",
+        "bytes": 28266,
+        "sha256_windows": "553e4209fe6c065a8bdd3ea8a4c8d2ab7c185628d6ba7071ad056bf128385bb5",
+        "sha256_git_lf": "7a157fe722aebb6b9974870026fc01fa00115d9c5afad421f73ffb0ddd189ca5"
+      },
+      {
+        "file": "ops/fleraarspilot_proeve.py",
+        "bytes": 21263,
+        "sha256_windows": "1fe8d693c4f4645c8a3ad540fec4dc9ed2950edeafcfd4cfec5a03b83f3e40e7",
+        "sha256_git_lf": "1fe8d693c4f4645c8a3ad540fec4dc9ed2950edeafcfd4cfec5a03b83f3e40e7"
+      },
+      {
+        "file": "ops/render_fleraarspilot.mjs",
+        "bytes": 2218,
+        "sha256_windows": "02142e0fd16dd89e156c6ea1d79c7ea6536e5f88f72c763d2a4fe16d775b2d8b",
+        "sha256_git_lf": "02142e0fd16dd89e156c6ea1d79c7ea6536e5f88f72c763d2a4fe16d775b2d8b"
+      },
+      {
+        "file": "tests/test_fleraarspilot.py",
+        "bytes": 12892,
+        "sha256_windows": "e0d2b9394b6fe2b6ac582fb87c0694f493d14a786e8567bafdd8bdb6543fa94c",
+        "sha256_git_lf": "e0d2b9394b6fe2b6ac582fb87c0694f493d14a786e8567bafdd8bdb6543fa94c"
+      }
+    ]
+  },
+  "manifest_sha256": "2a901e0008816b73a5606c87d332aaf1fb2ec403de388bd95ce89898a1c0e97a",
+  "source_audit_sha256": "d9f57611855fe9a3da085f28a19f215f8bed2643e10acac1aa2613adea1e01ad",
+  "dependency_proof_sha256": "b709ece8ad8a77691e887f419107e70eb3d50e6247654491782054f104c7760b",
+  "check_files": [
+    {
+      "file": "checks/t4-format.log",
+      "sha256": "267b52546df58ad3c162cf7985112feca7dc803a3cab6b0591208e31d3204fbd"
+    },
+    {
+      "file": "checks/t4-full-final.log",
+      "sha256": "7f695c898d1ef3f9e5c8fa4a76f09b728010e9510f5308ce71deb1e3ca0fed55"
+    },
+    {
+      "file": "checks/t4-full-final.xml",
+      "sha256": "c968736ffe11361358ab6fcdc1fef3002ca1649a1372532bf39821d6cdda545a"
+    },
+    {
+      "file": "checks/t4-mypy.log",
+      "sha256": "ebc452c04843a6e276fcbcb457bb24c28fd326ffd6dbabb8c368b2549602046e"
+    },
+    {
+      "file": "checks/t4-proof-final.log",
+      "sha256": "e35dc22c25a936b89b60b4ab4c1a6698415011b92323089e1ab7ac95f3629697"
+    },
+    {
+      "file": "checks/t4-ruff.log",
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0"
+    }
+  ],
+  "manifest_files_rehashed": 326,
+  "originals_and_copies_unchanged": 133,
+  "positive_selection_pairs": 30,
+  "offline_cli_pairs": 1,
+  "failure_empty_pairs": 4,
+  "rehashed_negative_pairs": 19,
+  "presentation_negatives": 8,
+  "compatibility": {
+    "ekte_tidligere_O2": 8,
+    "ekte_tidligere_B8_B9_med_B6_kjerne": 2,
+    "ekte_tidligere_T1": 19,
+    "ekte_tidligere_T2": 16,
+    "ekte_tidligere_T3": 21,
+    "ekte_eldre_B6_arbeidsbok": 1
+  },
+  "source_files_verified": 7,
+  "fullsuite": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "2",
+    "tests": "1157",
+    "time": "2902.649",
+    "timestamp": "2026-10-28T10:04:56.026775+01:00",
+    "hostname": "Lenovo-Legion"
+  },
+  "passed": 1155,
+  "t4_tests": 37,
+  "t4_seconds_including_fixture": 1151.989,
+  "skips": [
+    "test_symbolic_database_path_uses_same_os_lock_as_canonical_file",
+    "test_public_runner_protects_control_reference_aliases[hardlink]"
+  ],
+  "ruff_files": 124,
+  "mypy_files": 71,
+  "legacy_tracked_code_and_workflow_unchanged": true,
+  "workflow_timeout_minutes": 40,
+  "parser_version_logging_preserved": true,
+  "standalone": {
+    "report_id": "55a3b0fbaf499948f39ce34e590be77ec3e6debb75ad71da7df0a6ebf91b9731",
+    "basis_id": "ec8a18abdb3cac0c91a4c265e31423f88f07dd19aef3be13a72ec74fabd94a71",
+    "new_observations": 7,
+    "selected_2025": 2,
+    "legacy_capsules": 0,
+    "json_sha256": "3b6571ea7bd9838c8bdfe4c0c46d5082cfc25431f6154d022252bda52fafe5f7",
+    "xlsx_sha256": "6110b833b689365771a052551f446fe5f6f06247db60300177d4597aafbee96b"
+  },
+  "presentation_cells": {
+    "B11": {
+      "value": 2025,
+      "type": "n",
+      "format": "0"
+    },
+    "B12": {
+      "value": 2025,
+      "type": "n",
+      "format": "0"
+    },
+    "G11": {
+      "value": 163173000,
+      "type": "n",
+      "format": "#,##0"
+    },
+    "G12": {
+      "value": 33408000,
+      "type": "n",
+      "format": "#,##0"
+    }
+  },
+  "year_specific_links_verified": true,
+  "rendered_images_verified": 30,
+  "local_links_checked": 124,
+  "measurement_boundary": "Windows; ops og fullsuite kjørte delvis samtidig; ingen Linux-tidsmåling",
+  "builder_git_writes": false,
+  "builder_review_audit": false,
+  "linux_ci": "orkestratorens port"
+}

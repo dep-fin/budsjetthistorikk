@@ -1,0 +1,59 @@
+{
+  "input": "work/t4-delivery-final/both.xlsx",
+  "mode": "both",
+  "readOnly": true,
+  "views": [
+    {
+      "sheetName": "Forløp",
+      "range": "A1:K12",
+      "file": "work\\t4-final-render-both\\forlop.png"
+    },
+    {
+      "sheetName": "Dokumenter",
+      "range": "A1:L6",
+      "file": "work\\t4-final-render-both\\dokumenter.png"
+    },
+    {
+      "sheetName": "Dokumenter",
+      "range": "C1645:Q1646",
+      "file": "work\\t4-final-render-both\\dokument201-dekning.png"
+    },
+    {
+      "sheetName": "Dokumenter",
+      "range": "C1745:Q1749",
+      "file": "work\\t4-final-render-both\\dokument201-nivaaer.png"
+    },
+    {
+      "sheetName": "Omtale",
+      "range": "B1:I5",
+      "file": "work\\t4-final-render-both\\omtale.png"
+    },
+    {
+      "sheetName": "Sammenligninger",
+      "range": "A1:J15",
+      "file": "work\\t4-final-render-both\\sammenligninger.png"
+    },
+    {
+      "sheetName": "Dekning og avvik",
+      "range": "A1:B20",
+      "file": "work\\t4-final-render-both\\dekning.png"
+    },
+    {
+      "sheetName": "Dekning og avvik",
+      "range": "A26:B38",
+      "file": "work\\t4-final-render-both\\aarsbrudd-og-hull.png"
+    },
+    {
+      "sheetName": "Kontroll",
+      "range": "A1:K12",
+      "file": "work\\t4-final-render-both\\kontroll.png"
+    },
+    {
+      "sheetName": "Offlinegrunnlag",
+      "range": "A1:B3",
+      "file": "work\\t4-final-render-both\\offline.png"
+    }
+  ],
+  "inspection": "{\"kind\":\"sheet\",\"id\":\"ws/s1jawb\",\"name\":\"Forløp\",\"index\":0,\"range\":\"A1:N12\",\"address\":\"A1:N12\"}\n{\"kind\":\"sheet\",\"id\":\"ws/8kroce\",\"name\":\"Dokumenter\",\"index\":1,\"range\":\"A1:Q1860\",\"address\":\"A1:Q1860\"}\n{\"kind\":\"sheet\",\"id\":\"ws/tx8okn\",\"name\":\"Omtale\",\"index\":2,\"range\":\"A1:N102\",\"address\":\"A1:N102\"}\n{\"kind\":\"sheet\",\"id\":\"ws/ofyj3y\",\"name\":\"Sammenligninger\",\"index\":3,\"range\":\"A1:N15\",\"address\":\"A1:N15\"}\n{\"kind\":\"sheet\",\"id\":\"ws/onyz16\",\"name\":\"Dekning og avvik\",\"index\":4,\"range\":\"A1:B42\",\"address\":\"A1:B42\"}\n{\"kind\":\"sheet\",\"id\":\"ws/wac01n\",\"name\":\"Kontroll\",\"index\":5,\"range\":\"A1:K91\",\"address\":\"A1:K91\"}\n{\"kind\":\"sheet\",\"id\":\"ws/9vbgyx\",\"name\":\"Offlinegrunnlag\",\"index\":6,\"range\":\"A1:B445\",\"address\":\"A1:B445\"}",
+  "amountInspection": "{\"kind\":\"table\",\"sheet\":\"Forløp\",\"address\":\"A1:K12\",\"rows\":12,\"cols\":11,\"values\":[[\"Konto\",\"Budsjettår\",\"Dokument\",\"Dato\",\"Runde / stadium\",\"Avsender\",\"Nivå kr\",\"Før kr\",\"Endring kr\",\"Etter kr\",\"Status\"],[\"1429/1\",2024,\"Vedtak 341: Statsbudsjettet 2024 (kapitler fordelt til familie- og kulturkomiteen)\",45279,\"opprinnelig / vedtak\",\"stortinget\",161243000,null,null,null,\"kildeverifisert; ikke_faglig_godkjent\"],[\"1429/1\",2024,\"Vedtak 857: Revidert nasjonalbudsjett 2024\",45464,\"rnb / vedtak\",\"stortinget\",null,161243000,-1000000,160243000,\"kildeverifisert; ikke_faglig_godkjent\"],[\"1429/1\",2024,\"Prop. 16 S (2024–2025)\",45618,\"nysaldering / regjering\",\"regjeringen\",null,160243000,5796000,166039000,\"kildeverifisert; til_kontroll\"],[\"1429/1\",2024,\"Innst. 81 S (2024–2025)\",45635,\"nysaldering / tilraading\",\"samlet_komite\",null,160243000,5796000,166039000,\"kildeverifisert; til_kontroll\"],[\"1429/1\",2024,\"Vedtak 210 (2024–2025)\",45642,\"nysaldering / vedtak\",\"stortinget\",null,160243000,5796000,166039000,\"kildeverifisert; til_kontroll\"],[\"1429/22\",2024,\"Vedtak 341: Statsbudsjettet 2024 (kapitler fordelt til familie- og kulturkomiteen)\",45279,\"opprinnelig / vedtak\",\"stortinget\",32185000,null,null,null,\"kildeverifisert; ikke_faglig_godkjent\"],[\"1429/22\",2024,\"Prop. 16 S (2024–2025)\",45618,\"nysaldering / regjering\",\"regjeringen\",null,32185000,-3000000,29185000,\"kildeverifisert; til_kontroll\"],[\"1429/22\",2024,\"Innst. 81 S (2024–2025)\",45635,\"nysaldering / tilraading\",\"samlet_komite\",null,32185000,-3000000,29185000,\"kildeverifisert; til_kontroll\"],[\"1429/22\",2024,\"Vedtak 210 (2024–2025)\",45642,\"nysaldering / vedtak\",\"stortinget\",null,32185000,-3000000,29185000,\"kildeverifisert; til_kontroll\"],[\"1429/1\",2025,\"Vedtak 201: Statsbudsjettet 2025 (kapitler fordelt til familie- og kulturkomiteen)\",45642,\"opprinnelig / vedtak\",\"stortinget\",163173000,null,null,null,\"kildeverifisert; ikke_faglig_godkjent\"],[\"1429/22\",2025,\"Vedtak 201: Statsbudsjettet 2025 (kapitler fordelt til familie- og kulturkomiteen)\",45642,\"opprinnelig / vedtak\",\"stortinget\",33408000,null,null,null,\"kildeverifisert; ikke_faglig_godkjent\"]]}"
+}
