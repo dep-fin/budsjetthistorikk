@@ -1,0 +1,4429 @@
+[
+  {
+    "source": "ind-inns447.html",
+    "body_sha256": "f88f34a2439a52d2d8c1433d30bbfe81a271884b10a84abc17076ca600e0f26d",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table",
+    "header_rows": [
+      "Dep. Kap. Post Tiltak Beløp (mill. kr bokført)",
+      "Økte utgifter"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[96]",
+        "cells": [
+          "KLD",
+          "1429",
+          "60",
+          "Grønt næringsfond, Vega kommune",
+          "-5,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[97]",
+        "cells": [
+          "DFD",
+          "1500",
+          "21",
+          "Teknisk infrastruktur, nytt regjeringskvartal",
+          "-10,1"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[98]",
+        "cells": [
+          "DFD",
+          "1510",
+          "45",
+          "IKT-utstyr, nytt regjeringskvartal",
+          "-125,1"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[99]",
+        "cells": [
+          "DFD",
+          "1520",
+          "1",
+          "Økt kapasitet, statsforvaltere",
+          "-15,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[100]",
+        "cells": [
+          "DFD",
+          "1540",
+          "23",
+          "Nye Altinn (Digdirs andel)",
+          "-108,4"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[101]",
+        "cells": [
+          "DFD",
+          "1541",
+          "22",
+          "Norges kandidatur som verstskapsland for Internet Governance Forum 2025",
+          "-6,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[102]",
+        "cells": [
+          "DFD",
+          "1543",
+          "1",
+          "Økt tilsyn med datasenter, Nkom",
+          "-2,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[103]",
+        "cells": [
+          "DFD",
+          "1565",
+          "1",
+          "Behandle flere lånesøknader i SPK",
+          "-5,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[104]",
+        "cells": [
+          "FIN",
+          "1618",
+          "22",
+          "Nye Altinn (Skatteetatens andel)",
+          "-70,8"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[105]",
+        "cells": [
+          "FIN",
+          "1620",
+          "1",
+          "Nye Altinn (SSBs andel)",
+          "-5,6"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[106]",
+        "cells": [
+          "FIN",
+          "2309",
+          "1",
+          "Ingen kompensasjon til offentlige virksomheter for ekstra arbeidsgiveravgift",
+          "-1 500,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[107]",
+        "cells": [
+          "FIN",
+          "2309",
+          "1",
+          "ABE-reform 0,5 pst (men skjerme helseforetak og kriminalomsorg) fra 1.7.",
+          "-850,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[108]",
+        "cells": [
+          "ED",
+          "1820",
+          "75",
+          "Redusert kompensasjonsgrad i strømstøtteordningen fra 90 til 80 pst.",
+          "-200,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[109]",
+        "cells": [
+          "ED",
+          "1850",
+          "50",
+          "Redusert petroleumsforskning",
+          "-100,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[110]",
+        "cells": [
+          "Sum reduserte utgifter",
+          "-10 837,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[111]",
+        "cells": [
+          "Økte inntekter"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[112]",
+        "cells": [
+          "SD",
+          "4320",
+          "4",
+          "Fergepriser settes lik 2023-nivå (økte billettinntekter)",
+          "125,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[113]",
+        "cells": [
+          "ED",
+          "4860",
+          "1",
+          "Havindustritilsynet finansiere på samme måte som Finanstilsynet ved gebyr fra virksomheter underlagt tilsyn",
+          "175,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[114]",
+        "cells": [
+          "KDD",
+          "5615",
+          "80",
+          "Økt lånerammer Husbanken med 5. mrd. kroner",
+          "8,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[115]",
+        "cells": [
+          "Sum økte inntekter",
+          "308,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[116]",
+        "cells": [
+          "Endringer i skatte- og avgiftssystemet"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[117]",
+        "cells": [
+          "FIN",
+          "5501",
+          "72",
+          "Heve grensen for fradragsføring av pensjonssparing for selvstendig næringsdrivende fra 7 til 25 pst for inntekter mellom 7,1 og 12 G",
+          "-50,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[118]",
+        "cells": [
+          "FIN",
+          "5501",
+          "72",
+          "Innføre saldoavskriving for profesjonell boligutleie",
+          "0,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[119]",
+        "cells": [
+          "FIN",
+          "5521",
+          "70",
+          "Innføre mva-fritak for korttidsutleie av el-bil (kortere enn 30 dager)",
+          "0,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[120]",
+        "cells": [
+          "FIN",
+          "5521",
+          "70",
+          "Momsfritak på reparasjon",
+          "-250,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[121]",
+        "cells": [
+          "FIN",
+          "5521",
+          "70",
+          "Redusert moms på frukt og grønt fra 15 til 12 pst",
+          "-550,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[122]",
+        "cells": [
+          "FIN",
+          "5521",
+          "70",
+          "Øke innslagspunktet på moms på elbiler til 600 000 kr",
+          "-330,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[123]",
+        "cells": [
+          "FIN",
+          "5536",
+          "71",
+          "Økte lettelse i vektkomponententen i engangsavgiften for el-biler",
+          "-20,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[124]",
+        "cells": [
+          "FIN",
+          "5536",
+          "71",
+          "Ikke innføre fritak for engangsavgift for rullestol-taxier",
+          "20,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[125]",
+        "cells": [
+          "FIN",
+          "5542",
+          "70 (Ny)",
+          "Gjeninnføre grunnavgiften på mineralolje",
+          "770,0"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "ind-inns447.html",
+    "body_sha256": "f88f34a2439a52d2d8c1433d30bbfe81a271884b10a84abc17076ca600e0f26d",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[79]/div[1]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Meld. St. 2, Prop. 104 S og Prop. 106 S Forlik mellom A, Sp og SV H FrP SV Rødt Venstre MDG KrF",
+      "Utgifter(i tusen kroner)"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[79]/div[1]/div[2]/table/tbody/tr[294]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[79]/div[1]/div[2]/table/tbody/tr[295]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene",
+          "14 406",
+          "14 406(0)",
+          "14 406(0)",
+          "14 406(0)",
+          "14 406(0)",
+          "14 406(0)",
+          "9 406(-5 000)",
+          "14 406(0)",
+          "14 406(0)"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "ind-inns447.html",
+    "body_sha256": "f88f34a2439a52d2d8c1433d30bbfe81a271884b10a84abc17076ca600e0f26d",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Kroner",
+      "21 Statsrådet"
+    ],
+    "owner_raw": "høyre",
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[775]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[776]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter,reduseres med",
+          "",
+          "1 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[777]",
+        "cells": [
+          "",
+          "",
+          "fra kr 161 243 000 til kr 160 243 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[778]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene,økes med",
+          "",
+          "5 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[779]",
+        "cells": [
+          "",
+          "",
+          "fra kr 9 406 000 til kr 14 406 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[780]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[781]",
+        "cells": [
+          "",
+          "",
+          "fra kr 41 522 000 til kr 43 522 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[782]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[783]",
+        "cells": [
+          "",
+          "",
+          "fra kr 151 889 000 til kr 149 889 000",
+          "",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "ind-inns447.html",
+    "body_sha256": "f88f34a2439a52d2d8c1433d30bbfe81a271884b10a84abc17076ca600e0f26d",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Kroner",
+      "21 Statsrådet"
+    ],
+    "owner_raw": "fremskrittspartiet",
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[811]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[812]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter,reduseres med",
+          "",
+          "1 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[813]",
+        "cells": [
+          "",
+          "",
+          "fra kr 161 243 000 til kr 160 243 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[814]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene,økes med",
+          "",
+          "5 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[815]",
+        "cells": [
+          "",
+          "",
+          "fra kr 9 406 000 til kr 14 406 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[816]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[817]",
+        "cells": [
+          "",
+          "",
+          "fra kr 41 522 000 til kr 43 522 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[818]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[819]",
+        "cells": [
+          "",
+          "",
+          "fra kr 151 889 000 til kr 149 889 000",
+          "",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "ind-inns447.html",
+    "body_sha256": "f88f34a2439a52d2d8c1433d30bbfe81a271884b10a84abc17076ca600e0f26d",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Kroner",
+      "20 Statsministerens kontor"
+    ],
+    "owner_raw": "sosialistisk venstreparti",
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table/tbody/tr[820]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table/tbody/tr[821]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter,reduseres med",
+          "",
+          "1 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table/tbody/tr[822]",
+        "cells": [
+          "",
+          "",
+          "fra kr 161 243 000 til kr 160 243 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table/tbody/tr[823]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene,økes med",
+          "",
+          "5 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table/tbody/tr[824]",
+        "cells": [
+          "",
+          "",
+          "fra kr 9 406 000 til kr 14 406 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table/tbody/tr[825]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table/tbody/tr[826]",
+        "cells": [
+          "",
+          "",
+          "fra kr 41 522 000 til kr 43 522 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table/tbody/tr[827]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table/tbody/tr[828]",
+        "cells": [
+          "",
+          "",
+          "fra kr 151 889 000 til kr 149 889 000",
+          "",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "ind-inns447.html",
+    "body_sha256": "f88f34a2439a52d2d8c1433d30bbfe81a271884b10a84abc17076ca600e0f26d",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Kroner",
+      "21 Statsrådet"
+    ],
+    "owner_raw": "rødt",
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table/tbody/tr[794]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table/tbody/tr[795]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter,reduseres med",
+          "",
+          "1 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table/tbody/tr[796]",
+        "cells": [
+          "",
+          "",
+          "fra kr 161 243 000 til kr 160 243 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table/tbody/tr[797]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene,økes med",
+          "",
+          "5 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table/tbody/tr[798]",
+        "cells": [
+          "",
+          "",
+          "fra kr 9 406 000 til kr 14 406 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table/tbody/tr[799]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table/tbody/tr[800]",
+        "cells": [
+          "",
+          "",
+          "fra kr 41 522 000 til kr 43 522 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table/tbody/tr[801]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table/tbody/tr[802]",
+        "cells": [
+          "",
+          "",
+          "fra kr 151 889 000 til kr 149 889 000",
+          "",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "ind-inns447.html",
+    "body_sha256": "f88f34a2439a52d2d8c1433d30bbfe81a271884b10a84abc17076ca600e0f26d",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[5]/div[2]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Kroner",
+      "21 Statsrådet"
+    ],
+    "owner_raw": "venstre",
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[5]/div[2]/div[2]/table/tbody/tr[783]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[5]/div[2]/div[2]/table/tbody/tr[784]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter,reduseres med",
+          "",
+          "1 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[5]/div[2]/div[2]/table/tbody/tr[785]",
+        "cells": [
+          "",
+          "",
+          "fra kr 161 243 000 til kr 160 243 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[5]/div[2]/div[2]/table/tbody/tr[786]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[5]/div[2]/div[2]/table/tbody/tr[787]",
+        "cells": [
+          "",
+          "",
+          "fra kr 41 522 000 til kr 43 522 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[5]/div[2]/div[2]/table/tbody/tr[788]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[5]/div[2]/div[2]/table/tbody/tr[789]",
+        "cells": [
+          "",
+          "",
+          "fra kr 151 889 000 til kr 149 889 000",
+          "",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "ind-inns447.html",
+    "body_sha256": "f88f34a2439a52d2d8c1433d30bbfe81a271884b10a84abc17076ca600e0f26d",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Kroner",
+      "21 Statsrådet"
+    ],
+    "owner_raw": "miljøpartiet de grønne",
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table/tbody/tr[766]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table/tbody/tr[767]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter,reduseres med",
+          "",
+          "1 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table/tbody/tr[768]",
+        "cells": [
+          "",
+          "",
+          "fra kr 161 243 000 til kr 160 243 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table/tbody/tr[769]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene,økes med",
+          "",
+          "5 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table/tbody/tr[770]",
+        "cells": [
+          "",
+          "",
+          "fra kr 9 406 000 til kr 14 406 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table/tbody/tr[771]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table/tbody/tr[772]",
+        "cells": [
+          "",
+          "",
+          "fra kr 41 522 000 til kr 43 522 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table/tbody/tr[773]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table/tbody/tr[774]",
+        "cells": [
+          "",
+          "",
+          "fra kr 151 889 000 til kr 149 889 000",
+          "",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "ind-inns447.html",
+    "body_sha256": "f88f34a2439a52d2d8c1433d30bbfe81a271884b10a84abc17076ca600e0f26d",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Kroner",
+      "21 Statsrådet"
+    ],
+    "owner_raw": "kristelig folkeparti",
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table/tbody/tr[841]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table/tbody/tr[842]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter,reduseres med",
+          "",
+          "1 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table/tbody/tr[843]",
+        "cells": [
+          "",
+          "",
+          "fra kr 161 243 000 til kr 160 243 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table/tbody/tr[844]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene,økes med",
+          "",
+          "5 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table/tbody/tr[845]",
+        "cells": [
+          "",
+          "",
+          "fra kr 9 406 000 til kr 14 406 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table/tbody/tr[846]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table/tbody/tr[847]",
+        "cells": [
+          "",
+          "",
+          "fra kr 41 522 000 til kr 43 522 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table/tbody/tr[848]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table/tbody/tr[849]",
+        "cells": [
+          "",
+          "",
+          "fra kr 151 889 000 til kr 149 889 000",
+          "",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "ind-inns447.html",
+    "body_sha256": "f88f34a2439a52d2d8c1433d30bbfe81a271884b10a84abc17076ca600e0f26d",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Kroner",
+      "21 Statsrådet"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[821]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[822]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter,reduseres med",
+          "",
+          "1 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[823]",
+        "cells": [
+          "",
+          "",
+          "fra kr 161 243 000 til kr 160 243 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[824]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene,økes med",
+          "",
+          "5 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[825]",
+        "cells": [
+          "",
+          "",
+          "fra kr 9 406 000 til kr 14 406 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[826]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[827]",
+        "cells": [
+          "",
+          "",
+          "fra kr 41 522 000 til kr 43 522 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[828]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[829]",
+        "cells": [
+          "",
+          "",
+          "fra kr 151 889 000 til kr 149 889 000",
+          "",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns14-202324.html",
+    "body_sha256": "05cce0d807e9ea19ab6487015450fc0fb03744b9425eff4698a19554d575a42b",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[1]/table",
+    "header_rows": [
+      "Kap. Post Formål Prop. 1 S (2023–2024) Gul bok",
+      "Utgifter"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[1]/table/tbody/tr[102]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[1]/table/tbody/tr[103]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter",
+          "161 243 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[1]/table/tbody/tr[104]",
+        "cells": [
+          "",
+          "21",
+          "Spesielle driftsutgifter",
+          "31 777 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[1]/table/tbody/tr[105]",
+        "cells": [
+          "",
+          "22",
+          "Flerårige prosjekter kulturminneforvaltning, kan overføres",
+          "32 185 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[1]/table/tbody/tr[106]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene",
+          "9 406 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[1]/table/tbody/tr[107]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres",
+          "41 522 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[1]/table/tbody/tr[108]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres",
+          "151 889 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[1]/table/tbody/tr[109]",
+        "cells": [
+          "",
+          "72",
+          "Tilskudd til tekniske og industrielle kulturminner, kan overføres",
+          "62 298 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[1]/table/tbody/tr[110]",
+        "cells": [
+          "",
+          "73",
+          "Tilskudd til bygninger og anlegg fra middelalderen og brannsikring, kan overføres",
+          "57 850 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[1]/table/tbody/tr[111]",
+        "cells": [
+          "",
+          "74",
+          "Tilskudd til fartøyvern, kan overføres",
+          "75 120 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[1]/table/tbody/tr[112]",
+        "cells": [
+          "",
+          "75",
+          "Tilskudd til fartøyvernsentrene, kan overføres",
+          "18 552 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[1]/table/tbody/tr[113]",
+        "cells": [
+          "",
+          "77",
+          "Tilskudd til verdiskapningsarbeid på kulturminneområdet, kan overføres",
+          "7 986 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[1]/table/tbody/tr[114]",
+        "cells": [
+          "",
+          "79",
+          "Tilskudd til verdensarven, kan overføres",
+          "56 785 000"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns14-202324.html",
+    "body_sha256": "05cce0d807e9ea19ab6487015450fc0fb03744b9425eff4698a19554d575a42b",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[4]/table",
+    "header_rows": [
+      "overskride bevilgningen under mot tilsvarende merinntekter under",
+      "kap. 1429 post 1 kap. 4429 postene 2 og 9"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[4]/table/tbody/tr",
+        "cells": [
+          "kap. 1429 post 1",
+          "kap. 4429 postene 2 og 9"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns14-202324.html",
+    "body_sha256": "05cce0d807e9ea19ab6487015450fc0fb03744b9425eff4698a19554d575a42b",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[5]/table",
+    "header_rows": [
+      "Kap. Post Betegnelse Samlet ramme",
+      "1429 Riksantikvaren"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[5]/table/tbody/tr[1]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[5]/table/tbody/tr[2]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner",
+          "61 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[5]/table/tbody/tr[3]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap",
+          "15 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[5]/table/tbody/tr[4]",
+        "cells": [
+          "",
+          "72",
+          "Tilskudd til tekniske og industrielle kulturminner",
+          "10 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[5]/table/tbody/tr[5]",
+        "cells": [
+          "",
+          "73",
+          "Tilskudd til bygninger og anlegg fra middelalderen og brannsikring",
+          "17 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[5]/table/tbody/tr[6]",
+        "cells": [
+          "",
+          "74",
+          "Tilskudd til fartøyvern",
+          "10 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[5]/table/tbody/tr[7]",
+        "cells": [
+          "",
+          "75",
+          "Tilskudd til fartøyvernsentrene",
+          "1 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[5]/table/tbody/tr[8]",
+        "cells": [
+          "",
+          "77",
+          "Tilskudd til verdiskapningsarbeid på kulturminneområdet",
+          "5 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[208]/div[1]/div[5]/table/tbody/tr[9]",
+        "cells": [
+          "",
+          "79",
+          "Tilskudd til verdensarven",
+          "20 mill. kroner"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns14-202324.html",
+    "body_sha256": "05cce0d807e9ea19ab6487015450fc0fb03744b9425eff4698a19554d575a42b",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[482]/div[1]/div/table",
+    "header_rows": [
+      "Kap. Post Formål Prop. 1 S med Tillegg 1 og 2 A, Sp og SV H FrP SV V",
+      "Utgifter rammeområde 3 (i tusen kroner)"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[482]/div[1]/div/table/tbody/tr[77]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[482]/div[1]/div/table/tbody/tr[78]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter",
+          "161 243",
+          "161 243(0)",
+          "153 620(-7 623)",
+          "156 243(-5 000)",
+          "161 243(0)",
+          "161 243(0)"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[482]/div[1]/div/table/tbody/tr[79]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene",
+          "9 406",
+          "9 406(0)",
+          "9 406(0)",
+          "9 406(0)",
+          "9 406(0)",
+          "11 406(+2 000)"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[482]/div[1]/div/table/tbody/tr[80]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap",
+          "151 889",
+          "151 889(0)",
+          "151 889(0)",
+          "151 889(0)",
+          "151 889(0)",
+          "161 889(+10 000)"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[482]/div[1]/div/table/tbody/tr[81]",
+        "cells": [
+          "",
+          "73",
+          "Tilskudd til bygninger og anlegg fra middelalderen og brannsikring",
+          "57 850",
+          "57 850(0)",
+          "57 850(0)",
+          "57 850(0)",
+          "57 850(0)",
+          "65 850(+8 000)"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[482]/div[1]/div/table/tbody/tr[82]",
+        "cells": [
+          "",
+          "74",
+          "Tilskudd til fartøyvern",
+          "75 120",
+          "75 120(0)",
+          "75 120(0)",
+          "75 120(0)",
+          "80 120(+5 000)",
+          "82 620(+7 500)"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[482]/div[1]/div/table/tbody/tr[83]",
+        "cells": [
+          "",
+          "76",
+          "Tilskudd til Bygningsvernsentre",
+          "0",
+          "0(0)",
+          "0(0)",
+          "0(0)",
+          "0(0)",
+          "7 500(+7 500)"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns14-202324.html",
+    "body_sha256": "05cce0d807e9ea19ab6487015450fc0fb03744b9425eff4698a19554d575a42b",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[3]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Kroner",
+      "Utgifter"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[3]/div[2]/table/tbody/tr[100]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[3]/div[2]/table/tbody/tr[101]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter",
+          "161 243 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[3]/div[2]/table/tbody/tr[102]",
+        "cells": [
+          "",
+          "21",
+          "Spesielle driftsutgifter",
+          "31 777 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[3]/div[2]/table/tbody/tr[103]",
+        "cells": [
+          "",
+          "22",
+          "Flerårige prosjekter kulturminneforvaltning, kan overføres",
+          "32 185 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[3]/div[2]/table/tbody/tr[104]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene",
+          "9 406 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[3]/div[2]/table/tbody/tr[105]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres",
+          "41 522 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[3]/div[2]/table/tbody/tr[106]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres",
+          "151 889 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[3]/div[2]/table/tbody/tr[107]",
+        "cells": [
+          "",
+          "72",
+          "Tilskudd til tekniske og industrielle kulturminner, kan overføres",
+          "62 298 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[3]/div[2]/table/tbody/tr[108]",
+        "cells": [
+          "",
+          "73",
+          "Tilskudd til bygninger og anlegg fra middelalderen og brannsikring, kan overføres",
+          "57 850 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[3]/div[2]/table/tbody/tr[109]",
+        "cells": [
+          "",
+          "74",
+          "Tilskudd til fartøyvern, kan overføres",
+          "75 120 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[3]/div[2]/table/tbody/tr[110]",
+        "cells": [
+          "",
+          "75",
+          "Tilskudd til fartøyvernsentrene, kan overføres",
+          "18 552 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[3]/div[2]/table/tbody/tr[111]",
+        "cells": [
+          "",
+          "77",
+          "Tilskudd til verdiskapningsarbeid på kulturminneområdet, kan overføres",
+          "7 986 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[3]/div[2]/table/tbody/tr[112]",
+        "cells": [
+          "",
+          "79",
+          "Tilskudd til verdensarven, kan overføres",
+          "56 785 000",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns14-202324.html",
+    "body_sha256": "05cce0d807e9ea19ab6487015450fc0fb03744b9425eff4698a19554d575a42b",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[8]/div[3]/table",
+    "header_rows": [
+      "overskride bevilgningen under mot tilsvarende merinntekter under",
+      "kap. 1429 post 1 kap. 4429 postene 2 og 9"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[8]/div[3]/table/tbody/tr",
+        "cells": [
+          "kap. 1429 post 1",
+          "kap. 4429 postene 2 og 9"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns14-202324.html",
+    "body_sha256": "05cce0d807e9ea19ab6487015450fc0fb03744b9425eff4698a19554d575a42b",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[9]/div[3]/table",
+    "header_rows": [
+      "Kap. Post Betegnelse Samlet ramme",
+      "1429 Riksantikvaren"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[9]/div[3]/table/tbody/tr[1]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[9]/div[3]/table/tbody/tr[2]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner",
+          "61 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[9]/div[3]/table/tbody/tr[3]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap",
+          "15 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[9]/div[3]/table/tbody/tr[4]",
+        "cells": [
+          "",
+          "72",
+          "Tilskudd til tekniske og industrielle kulturminner",
+          "10 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[9]/div[3]/table/tbody/tr[5]",
+        "cells": [
+          "",
+          "73",
+          "Tilskudd til bygninger og anlegg fra middelalderen og brannsikring",
+          "17 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[9]/div[3]/table/tbody/tr[6]",
+        "cells": [
+          "",
+          "74",
+          "Tilskudd til fartøyvern",
+          "10 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[9]/div[3]/table/tbody/tr[7]",
+        "cells": [
+          "",
+          "75",
+          "Tilskudd til fartøyvernsentrene",
+          "1 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[9]/div[3]/table/tbody/tr[8]",
+        "cells": [
+          "",
+          "77",
+          "Tilskudd til verdiskapningsarbeid på kulturminneområdet",
+          "5 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[8]/div/div/div/div[497]/div[1]/div[2]/div/div[3]/div[2]/div[9]/div[3]/table/tbody/tr[9]",
+        "cells": [
+          "",
+          "79",
+          "Tilskudd til verdensarven",
+          "20 mill. kroner"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns2-202324.html",
+    "body_sha256": "4a93e97239dfe85f10a9077775defc84e6dda4f2875a8121dfde6f9457c30689",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table",
+    "header_rows": [
+      "Dep. Kap. Post Beskrivelse Beløp (i tusen kr)",
+      "00 Stortinget 41 1 Stortinget. Innsparing. Fellestjenester og eiendomsdrift overføres til DSS og Statsbygg -34 500"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[219]",
+        "cells": [
+          "",
+          "1429",
+          "1",
+          "Riksantikvaren. Nominell videreføring",
+          "-7 623"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[220]",
+        "cells": [
+          "",
+          "1432",
+          "50",
+          "Norsk kulturminnefond. Nominell videreføring",
+          "-7 660"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[221]",
+        "cells": [
+          "",
+          "1482",
+          "73",
+          "Omprioritere bistand til frivillig skogvern i Norge",
+          "-100 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[222]",
+        "cells": [
+          "16 FIN",
+          "1618",
+          "1",
+          "Skatteetaten. Reversere økningen fra regjeringen i 2022",
+          "-137 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[223]",
+        "cells": [
+          "",
+          "2309",
+          "1",
+          "Kompensasjon til offentlig sektor for økt arbeidsgiveravgift utgår",
+          "-2 400 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[224]",
+        "cells": [
+          "",
+          "",
+          "",
+          "Gjennomgang av og innsparinger på leiekontrakter",
+          "-167 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[225]",
+        "cells": [
+          "",
+          "",
+          "",
+          "ABE-reformen. Medregnet tilbakeføring til regionale helseforetak",
+          "-1 500 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[226]",
+        "cells": [
+          "17 FD",
+          "1700",
+          "73",
+          "Øke støtten til utvikling av norsk forsvarsteknologi",
+          "30 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[227]",
+        "cells": [
+          "",
+          "",
+          "",
+          "Tilskudd til bygging av standardfartøypilot i Norge",
+          "20 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[228]",
+        "cells": [
+          "",
+          "1710",
+          "1",
+          "Ikke ta renholdet i forsvarssektoren tilbake til Forsvarsbygg",
+          "-76 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[229]",
+        "cells": [
+          "",
+          "1720",
+          "1",
+          "Øke forsyningsberedskapen i Forsvaret",
+          "200 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[230]",
+        "cells": [
+          "",
+          "",
+          "",
+          "Utvidet kapasitet på krigsskoler og i befalsutdanning",
+          "150 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[231]",
+        "cells": [
+          "",
+          "",
+          "",
+          "Mer personell på fartøy i Sjøforsvaret",
+          "120 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[232]",
+        "cells": [
+          "",
+          "",
+          "",
+          "Beholde mer personell: Få flere fra T35-ordning over på T60-ordning",
+          "250 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[233]",
+        "cells": [
+          "",
+          "",
+          "",
+          "Bedre personellsituasjonen i kampflyvåpenet",
+          "70 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[234]",
+        "cells": [
+          "",
+          "",
+          "",
+          "Avvikle plikten til å gå av med særaldersgrense i Forsvaret",
+          "-500"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[235]",
+        "cells": [
+          "",
+          "1760",
+          "45",
+          "Tidligere oppstart/forsering av planlagte luftvern-anskaffelser",
+          "530 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[236]",
+        "cells": [
+          "18 OED",
+          "1810",
+          "21",
+          "Sokkeldirektoratet. Omprioritere fra havbunnsmineraler til mineraler",
+          "-20 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[237]",
+        "cells": [
+          "",
+          "1820",
+          "1",
+          "Utlysning av mer havvind",
+          "5 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[238]",
+        "cells": [
+          "",
+          "",
+          "73",
+          "Nettleieutjevning utgår",
+          "-18 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[239]",
+        "cells": [
+          "",
+          "1825",
+          "50",
+          "Enøktiltak for lavinntektshusholdninger",
+          "100 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[240]",
+        "cells": [
+          "",
+          "",
+          "60",
+          "Energitiltak i kommunebygg. Omprioritere til punktutslippsprogram og enøk for lavinntektshusholdninger",
+          "-300 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[241]",
+        "cells": [
+          "",
+          "1850",
+          "21",
+          "Utlysning av mer havvind",
+          "5 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[242]",
+        "cells": [
+          "",
+          "",
+          "50",
+          "Styrke forskningen på blått hydrogen",
+          "50 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[243]",
+        "cells": [
+          "",
+          "",
+          "",
+          "Omprioritere petroleumsforskning til blått hydrogen og andre forskningsområder",
+          "-100 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[244]",
+        "cells": [
+          "",
+          "4810",
+          "1",
+          "Gjennomføre 26. konsesjonsrunde (inntekt)",
+          "-10 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[245]",
+        "cells": [
+          "",
+          "5582",
+          "75",
+          "Havindustritilsynet. Innføre en sektoravgift etter tilsvarende modell som sektoravgiften for Finanstilsynet (inntekt)",
+          "-170 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[246]",
+        "cells": [
+          "Memo",
+          "",
+          "",
+          "Korreksjon for 90-post (kapitaltilskudd til Nammo AS)",
+          "-400 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[247]",
+        "cells": [
+          "Memo",
+          "",
+          "",
+          "Skatteopplegget (se egen tabell)",
+          "9 450 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[17]/div[1]/div[1]/table/tbody/tr[248]",
+        "cells": [
+          "",
+          "",
+          "",
+          "Totalsum (endring i oljepengebruk)",
+          "-61 243"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns2-202324.html",
+    "body_sha256": "4a93e97239dfe85f10a9077775defc84e6dda4f2875a8121dfde6f9457c30689",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table",
+    "header_rows": [
+      "Rammeområde 3: Kultur og likestilling mv.",
+      "Dep. Kap. Post Omtale Bokført"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[30]",
+        "cells": [
+          "KLD",
+          "1429",
+          "60",
+          "Murbyen Oslo",
+          "2,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[31]",
+        "cells": [
+          "KLD",
+          "1429",
+          "73",
+          "Bygninger og anlegg fra middelalderen",
+          "8,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[32]",
+        "cells": [
+          "KLD",
+          "1429",
+          "74",
+          "Fartøyvern",
+          "7,5"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[33]",
+        "cells": [
+          "KLD",
+          "1429",
+          "76 (NY)",
+          "Tilskudd til bygningsvernsentre",
+          "7,5"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[34]",
+        "cells": [
+          "KLD",
+          "1432",
+          "50",
+          "Norsk kulturminnefond",
+          "15,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[35]",
+        "cells": [
+          "KLD",
+          "1432",
+          "71",
+          "Fredede kulturminner i privat eie",
+          "10,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[36]",
+        "cells": [
+          "Sum rammeområde 3: Kultur og likestilling mv.",
+          "246,15"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns2-202324.html",
+    "body_sha256": "4a93e97239dfe85f10a9077775defc84e6dda4f2875a8121dfde6f9457c30689",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table",
+    "header_rows": [
+      "Rammeområde 3: Kultur og likestilling mv.",
+      "Dep. Kap. Post Omtale Bokført"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[31]",
+        "cells": [
+          "KLD",
+          "1429",
+          "73",
+          "Bygninger og anlegg fra middelalderen",
+          "8,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[32]",
+        "cells": [
+          "KLD",
+          "1429",
+          "74",
+          "Fartøyvern",
+          "7,5"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[33]",
+        "cells": [
+          "KLD",
+          "1429",
+          "76 (NY)",
+          "Tilskudd til bygningsvernsentre",
+          "7,5"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[34]",
+        "cells": [
+          "KLD",
+          "1432",
+          "50",
+          "Norsk kulturminnefond",
+          "15,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[35]",
+        "cells": [
+          "KLD",
+          "1432",
+          "71",
+          "Fredede kulturminner i privat eie",
+          "10,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[36]",
+        "cells": [
+          "Sum rammeområde 3: Kultur og likestilling mv.",
+          "246,15"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns2-202324.html",
+    "body_sha256": "4a93e97239dfe85f10a9077775defc84e6dda4f2875a8121dfde6f9457c30689",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table",
+    "header_rows": [
+      "Rammeområde 3: Kultur og likestilling mv.",
+      "Dep. Kap. Post Omtale Bokført"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[32]",
+        "cells": [
+          "KLD",
+          "1429",
+          "74",
+          "Fartøyvern",
+          "7,5"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[33]",
+        "cells": [
+          "KLD",
+          "1429",
+          "76 (NY)",
+          "Tilskudd til bygningsvernsentre",
+          "7,5"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[34]",
+        "cells": [
+          "KLD",
+          "1432",
+          "50",
+          "Norsk kulturminnefond",
+          "15,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[35]",
+        "cells": [
+          "KLD",
+          "1432",
+          "71",
+          "Fredede kulturminner i privat eie",
+          "10,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[36]",
+        "cells": [
+          "Sum rammeområde 3: Kultur og likestilling mv.",
+          "246,15"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns2-202324.html",
+    "body_sha256": "4a93e97239dfe85f10a9077775defc84e6dda4f2875a8121dfde6f9457c30689",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table",
+    "header_rows": [
+      "Rammeområde 3: Kultur og likestilling mv.",
+      "Dep. Kap. Post Omtale Bokført"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[33]",
+        "cells": [
+          "KLD",
+          "1429",
+          "76 (NY)",
+          "Tilskudd til bygningsvernsentre",
+          "7,5"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[34]",
+        "cells": [
+          "KLD",
+          "1432",
+          "50",
+          "Norsk kulturminnefond",
+          "15,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[35]",
+        "cells": [
+          "KLD",
+          "1432",
+          "71",
+          "Fredede kulturminner i privat eie",
+          "10,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[2]/div[1]/div/div[2]/div[21]/div[1]/div[3]/table/tbody/tr[36]",
+        "cells": [
+          "Sum rammeområde 3: Kultur og likestilling mv.",
+          "246,15"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns447-inherited.html",
+    "body_sha256": "be1d2a2cc02d7d9af7fa3b97e59a2183b26511a93c8fadc85f5c428cf6126b41",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table",
+    "header_rows": [
+      "Dep. Kap. Post Tiltak Beløp (mill. kr bokført)",
+      "Økte utgifter"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[96]",
+        "cells": [
+          "KLD",
+          "1429",
+          "60",
+          "Grønt næringsfond, Vega kommune",
+          "-5,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[97]",
+        "cells": [
+          "DFD",
+          "1500",
+          "21",
+          "Teknisk infrastruktur, nytt regjeringskvartal",
+          "-10,1"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[98]",
+        "cells": [
+          "DFD",
+          "1510",
+          "45",
+          "IKT-utstyr, nytt regjeringskvartal",
+          "-125,1"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[99]",
+        "cells": [
+          "DFD",
+          "1520",
+          "1",
+          "Økt kapasitet, statsforvaltere",
+          "-15,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[100]",
+        "cells": [
+          "DFD",
+          "1540",
+          "23",
+          "Nye Altinn (Digdirs andel)",
+          "-108,4"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[101]",
+        "cells": [
+          "DFD",
+          "1541",
+          "22",
+          "Norges kandidatur som verstskapsland for Internet Governance Forum 2025",
+          "-6,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[102]",
+        "cells": [
+          "DFD",
+          "1543",
+          "1",
+          "Økt tilsyn med datasenter, Nkom",
+          "-2,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[103]",
+        "cells": [
+          "DFD",
+          "1565",
+          "1",
+          "Behandle flere lånesøknader i SPK",
+          "-5,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[104]",
+        "cells": [
+          "FIN",
+          "1618",
+          "22",
+          "Nye Altinn (Skatteetatens andel)",
+          "-70,8"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[105]",
+        "cells": [
+          "FIN",
+          "1620",
+          "1",
+          "Nye Altinn (SSBs andel)",
+          "-5,6"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[106]",
+        "cells": [
+          "FIN",
+          "2309",
+          "1",
+          "Ingen kompensasjon til offentlige virksomheter for ekstra arbeidsgiveravgift",
+          "-1 500,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[107]",
+        "cells": [
+          "FIN",
+          "2309",
+          "1",
+          "ABE-reform 0,5 pst (men skjerme helseforetak og kriminalomsorg) fra 1.7.",
+          "-850,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[108]",
+        "cells": [
+          "ED",
+          "1820",
+          "75",
+          "Redusert kompensasjonsgrad i strømstøtteordningen fra 90 til 80 pst.",
+          "-200,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[109]",
+        "cells": [
+          "ED",
+          "1850",
+          "50",
+          "Redusert petroleumsforskning",
+          "-100,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[110]",
+        "cells": [
+          "Sum reduserte utgifter",
+          "-10 837,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[111]",
+        "cells": [
+          "Økte inntekter"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[112]",
+        "cells": [
+          "SD",
+          "4320",
+          "4",
+          "Fergepriser settes lik 2023-nivå (økte billettinntekter)",
+          "125,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[113]",
+        "cells": [
+          "ED",
+          "4860",
+          "1",
+          "Havindustritilsynet finansiere på samme måte som Finanstilsynet ved gebyr fra virksomheter underlagt tilsyn",
+          "175,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[114]",
+        "cells": [
+          "KDD",
+          "5615",
+          "80",
+          "Økt lånerammer Husbanken med 5. mrd. kroner",
+          "8,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[115]",
+        "cells": [
+          "Sum økte inntekter",
+          "308,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[116]",
+        "cells": [
+          "Endringer i skatte- og avgiftssystemet"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[117]",
+        "cells": [
+          "FIN",
+          "5501",
+          "72",
+          "Heve grensen for fradragsføring av pensjonssparing for selvstendig næringsdrivende fra 7 til 25 pst for inntekter mellom 7,1 og 12 G",
+          "-50,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[118]",
+        "cells": [
+          "FIN",
+          "5501",
+          "72",
+          "Innføre saldoavskriving for profesjonell boligutleie",
+          "0,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[119]",
+        "cells": [
+          "FIN",
+          "5521",
+          "70",
+          "Innføre mva-fritak for korttidsutleie av el-bil (kortere enn 30 dager)",
+          "0,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[120]",
+        "cells": [
+          "FIN",
+          "5521",
+          "70",
+          "Momsfritak på reparasjon",
+          "-250,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[121]",
+        "cells": [
+          "FIN",
+          "5521",
+          "70",
+          "Redusert moms på frukt og grønt fra 15 til 12 pst",
+          "-550,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[122]",
+        "cells": [
+          "FIN",
+          "5521",
+          "70",
+          "Øke innslagspunktet på moms på elbiler til 600 000 kr",
+          "-330,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[123]",
+        "cells": [
+          "FIN",
+          "5536",
+          "71",
+          "Økte lettelse i vektkomponententen i engangsavgiften for el-biler",
+          "-20,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[124]",
+        "cells": [
+          "FIN",
+          "5536",
+          "71",
+          "Ikke innføre fritak for engangsavgift for rullestol-taxier",
+          "20,0"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[34]/div[1]/div[2]/table/tbody/tr[125]",
+        "cells": [
+          "FIN",
+          "5542",
+          "70 (Ny)",
+          "Gjeninnføre grunnavgiften på mineralolje",
+          "770,0"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns447-inherited.html",
+    "body_sha256": "be1d2a2cc02d7d9af7fa3b97e59a2183b26511a93c8fadc85f5c428cf6126b41",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[79]/div[1]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Meld. St. 2, Prop. 104 S og Prop. 106 S Forlik mellom A, Sp og SV H FrP SV Rødt Venstre MDG KrF",
+      "Utgifter(i tusen kroner)"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[79]/div[1]/div[2]/table/tbody/tr[294]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[79]/div[1]/div[2]/table/tbody/tr[295]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene",
+          "14 406",
+          "14 406(0)",
+          "14 406(0)",
+          "14 406(0)",
+          "14 406(0)",
+          "14 406(0)",
+          "9 406(-5 000)",
+          "14 406(0)",
+          "14 406(0)"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns447-inherited.html",
+    "body_sha256": "be1d2a2cc02d7d9af7fa3b97e59a2183b26511a93c8fadc85f5c428cf6126b41",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Kroner",
+      "21 Statsrådet"
+    ],
+    "owner_raw": "høyre",
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[775]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[776]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter,reduseres med",
+          "",
+          "1 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[777]",
+        "cells": [
+          "",
+          "",
+          "fra kr 161 243 000 til kr 160 243 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[778]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene,økes med",
+          "",
+          "5 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[779]",
+        "cells": [
+          "",
+          "",
+          "fra kr 9 406 000 til kr 14 406 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[780]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[781]",
+        "cells": [
+          "",
+          "",
+          "fra kr 41 522 000 til kr 43 522 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[782]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[783]",
+        "cells": [
+          "",
+          "",
+          "fra kr 151 889 000 til kr 149 889 000",
+          "",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns447-inherited.html",
+    "body_sha256": "be1d2a2cc02d7d9af7fa3b97e59a2183b26511a93c8fadc85f5c428cf6126b41",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Kroner",
+      "21 Statsrådet"
+    ],
+    "owner_raw": "fremskrittspartiet",
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[811]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[812]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter,reduseres med",
+          "",
+          "1 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[813]",
+        "cells": [
+          "",
+          "",
+          "fra kr 161 243 000 til kr 160 243 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[814]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene,økes med",
+          "",
+          "5 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[815]",
+        "cells": [
+          "",
+          "",
+          "fra kr 9 406 000 til kr 14 406 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[816]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[817]",
+        "cells": [
+          "",
+          "",
+          "fra kr 41 522 000 til kr 43 522 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[818]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[819]",
+        "cells": [
+          "",
+          "",
+          "fra kr 151 889 000 til kr 149 889 000",
+          "",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns447-inherited.html",
+    "body_sha256": "be1d2a2cc02d7d9af7fa3b97e59a2183b26511a93c8fadc85f5c428cf6126b41",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Kroner",
+      "20 Statsministerens kontor"
+    ],
+    "owner_raw": "sosialistisk venstreparti",
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table/tbody/tr[820]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table/tbody/tr[821]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter,reduseres med",
+          "",
+          "1 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table/tbody/tr[822]",
+        "cells": [
+          "",
+          "",
+          "fra kr 161 243 000 til kr 160 243 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table/tbody/tr[823]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene,økes med",
+          "",
+          "5 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table/tbody/tr[824]",
+        "cells": [
+          "",
+          "",
+          "fra kr 9 406 000 til kr 14 406 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table/tbody/tr[825]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table/tbody/tr[826]",
+        "cells": [
+          "",
+          "",
+          "fra kr 41 522 000 til kr 43 522 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table/tbody/tr[827]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[3]/div[2]/div[2]/table/tbody/tr[828]",
+        "cells": [
+          "",
+          "",
+          "fra kr 151 889 000 til kr 149 889 000",
+          "",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns447-inherited.html",
+    "body_sha256": "be1d2a2cc02d7d9af7fa3b97e59a2183b26511a93c8fadc85f5c428cf6126b41",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Kroner",
+      "21 Statsrådet"
+    ],
+    "owner_raw": "rødt",
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table/tbody/tr[794]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table/tbody/tr[795]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter,reduseres med",
+          "",
+          "1 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table/tbody/tr[796]",
+        "cells": [
+          "",
+          "",
+          "fra kr 161 243 000 til kr 160 243 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table/tbody/tr[797]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene,økes med",
+          "",
+          "5 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table/tbody/tr[798]",
+        "cells": [
+          "",
+          "",
+          "fra kr 9 406 000 til kr 14 406 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table/tbody/tr[799]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table/tbody/tr[800]",
+        "cells": [
+          "",
+          "",
+          "fra kr 41 522 000 til kr 43 522 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table/tbody/tr[801]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[4]/div[2]/div[2]/table/tbody/tr[802]",
+        "cells": [
+          "",
+          "",
+          "fra kr 151 889 000 til kr 149 889 000",
+          "",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns447-inherited.html",
+    "body_sha256": "be1d2a2cc02d7d9af7fa3b97e59a2183b26511a93c8fadc85f5c428cf6126b41",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[5]/div[2]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Kroner",
+      "21 Statsrådet"
+    ],
+    "owner_raw": "venstre",
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[5]/div[2]/div[2]/table/tbody/tr[783]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[5]/div[2]/div[2]/table/tbody/tr[784]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter,reduseres med",
+          "",
+          "1 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[5]/div[2]/div[2]/table/tbody/tr[785]",
+        "cells": [
+          "",
+          "",
+          "fra kr 161 243 000 til kr 160 243 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[5]/div[2]/div[2]/table/tbody/tr[786]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[5]/div[2]/div[2]/table/tbody/tr[787]",
+        "cells": [
+          "",
+          "",
+          "fra kr 41 522 000 til kr 43 522 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[5]/div[2]/div[2]/table/tbody/tr[788]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[5]/div[2]/div[2]/table/tbody/tr[789]",
+        "cells": [
+          "",
+          "",
+          "fra kr 151 889 000 til kr 149 889 000",
+          "",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns447-inherited.html",
+    "body_sha256": "be1d2a2cc02d7d9af7fa3b97e59a2183b26511a93c8fadc85f5c428cf6126b41",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Kroner",
+      "21 Statsrådet"
+    ],
+    "owner_raw": "miljøpartiet de grønne",
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table/tbody/tr[766]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table/tbody/tr[767]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter,reduseres med",
+          "",
+          "1 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table/tbody/tr[768]",
+        "cells": [
+          "",
+          "",
+          "fra kr 161 243 000 til kr 160 243 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table/tbody/tr[769]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene,økes med",
+          "",
+          "5 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table/tbody/tr[770]",
+        "cells": [
+          "",
+          "",
+          "fra kr 9 406 000 til kr 14 406 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table/tbody/tr[771]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table/tbody/tr[772]",
+        "cells": [
+          "",
+          "",
+          "fra kr 41 522 000 til kr 43 522 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table/tbody/tr[773]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[6]/div[2]/div[2]/table/tbody/tr[774]",
+        "cells": [
+          "",
+          "",
+          "fra kr 151 889 000 til kr 149 889 000",
+          "",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns447-inherited.html",
+    "body_sha256": "be1d2a2cc02d7d9af7fa3b97e59a2183b26511a93c8fadc85f5c428cf6126b41",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Kroner",
+      "21 Statsrådet"
+    ],
+    "owner_raw": "kristelig folkeparti",
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table/tbody/tr[841]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table/tbody/tr[842]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter,reduseres med",
+          "",
+          "1 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table/tbody/tr[843]",
+        "cells": [
+          "",
+          "",
+          "fra kr 161 243 000 til kr 160 243 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table/tbody/tr[844]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene,økes med",
+          "",
+          "5 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table/tbody/tr[845]",
+        "cells": [
+          "",
+          "",
+          "fra kr 9 406 000 til kr 14 406 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table/tbody/tr[846]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table/tbody/tr[847]",
+        "cells": [
+          "",
+          "",
+          "fra kr 41 522 000 til kr 43 522 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table/tbody/tr[848]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[80]/div[1]/div[7]/div[2]/div[2]/table/tbody/tr[849]",
+        "cells": [
+          "",
+          "",
+          "fra kr 151 889 000 til kr 149 889 000",
+          "",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "inns447-inherited.html",
+    "body_sha256": "be1d2a2cc02d7d9af7fa3b97e59a2183b26511a93c8fadc85f5c428cf6126b41",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Kroner",
+      "21 Statsrådet"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[821]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[822]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter,reduseres med",
+          "",
+          "1 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[823]",
+        "cells": [
+          "",
+          "",
+          "fra kr 161 243 000 til kr 160 243 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[824]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene,økes med",
+          "",
+          "5 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[825]",
+        "cells": [
+          "",
+          "",
+          "fra kr 9 406 000 til kr 14 406 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[826]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[827]",
+        "cells": [
+          "",
+          "",
+          "fra kr 41 522 000 til kr 43 522 000",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[828]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+          "",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[81]/div[1]/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[829]",
+        "cells": [
+          "",
+          "",
+          "fra kr 151 889 000 til kr 149 889 000",
+          "",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "prop1-kld-ch3.html",
+    "body_sha256": "58bd2caa727bcee3608f4890647b6da52531b077025ccf42f28965b7b17f3233",
+    "table_xpath": "/html/body/main/div/div[3]/div[3]/div[98]/div[2]/table",
+    "header_rows": [
+      "(i 1 000 kr)",
+      "Kap.NemningRekneskap 2022Saldert budsjett 2023Forslag 2024Endring i pst."
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div[98]/div[2]/table/tbody/tr[1]",
+        "cells": [
+          "1429",
+          "Riksantikvaren",
+          "681 978",
+          "672 173",
+          "706 613",
+          "5,1"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "prop1-kld-ch6.html",
+    "body_sha256": "2d22b9e96f61d862b35db3d74f50d9f5eefcda80d5bca5a394eeb37f19cce0b3",
+    "table_xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table",
+    "header_rows": [
+      "Kap.PostKronerKroner",
+      "Fellesoppgåver, forsking, internasjonalt arbeid m.m."
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[64]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[65]",
+        "cells": [
+          "",
+          "01",
+          "Driftsutgifter",
+          "",
+          "161 243 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[66]",
+        "cells": [
+          "",
+          "21",
+          "Spesielle driftsutgifter",
+          "",
+          "31 777 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[67]",
+        "cells": [
+          "",
+          "22",
+          "Fleirårige prosjekt kulturminneforvaltning, kan overførast",
+          "",
+          "32 185 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[68]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunane",
+          "",
+          "9 406 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[69]",
+        "cells": [
+          "",
+          "70",
+          "Tilskot til automatisk freda og andre arkeologiske kulturminne, kan overførast",
+          "",
+          "41 522 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[70]",
+        "cells": [
+          "",
+          "71",
+          "Tilskot til freda kulturminne i privat eige, kulturmiljø og kulturlandskap, kan overførast",
+          "",
+          "151 889 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[71]",
+        "cells": [
+          "",
+          "72",
+          "Tilskot til tekniske og industrielle kulturminne, kan overførast",
+          "",
+          "62 298 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[72]",
+        "cells": [
+          "",
+          "73",
+          "Tilskot til bygningar og anlegg frå mellomalderen og brannsikring, kan overførast",
+          "",
+          "57 850 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[73]",
+        "cells": [
+          "",
+          "74",
+          "Tilskot til fartøyvern, kan overførast",
+          "",
+          "75 120 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[74]",
+        "cells": [
+          "",
+          "75",
+          "Tilskot til fartøyvernsenter, kan overførast",
+          "",
+          "18 552 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[75]",
+        "cells": [
+          "",
+          "77",
+          "Tilskot til verdiskapingsarbeid på kulturminneområde, kan overførast",
+          "",
+          "7 986 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[76]",
+        "cells": [
+          "",
+          "79",
+          "Tilskot til verdsarven, kan overførast",
+          "",
+          "56 785 000",
+          "706 613 000"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "prop1-kld-ch6.html",
+    "body_sha256": "2d22b9e96f61d862b35db3d74f50d9f5eefcda80d5bca5a394eeb37f19cce0b3",
+    "table_xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[2]/div/table",
+    "header_rows": [
+      "overskride løyvinga under mot tilsvarande meirinntekter under",
+      "kap. 1400 post 01kap. 4400 post 02"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[2]/div/table/tbody/tr[7]",
+        "cells": [
+          "kap. 1429 post 01",
+          "kap. 4429 postane 02 og 09"
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[2]/div/table/tbody/tr[8]",
+        "cells": [
+          "kap. 1471 post 01",
+          "kap. 4471 postane 01 og 03"
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[2]/div/table/tbody/tr[9]",
+        "cells": [
+          "kap. 1471 post 21",
+          "kap. 4471 post 21"
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[2]/div/table/tbody/tr[10]",
+        "cells": [
+          "kap. 1472 post 50",
+          "kap. 5578 post 70"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "prop1-kld-ch6.html",
+    "body_sha256": "2d22b9e96f61d862b35db3d74f50d9f5eefcda80d5bca5a394eeb37f19cce0b3",
+    "table_xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[6]/div/table",
+    "header_rows": [
+      "Kap.PostNemningSamla ramme",
+      "1411Artsdatabanken"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[6]/div/table/tbody/tr[11]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[6]/div/table/tbody/tr[12]",
+        "cells": [
+          "",
+          "70",
+          "Tilskot til automatisk freda og andre arkeologiske kulturminne",
+          "61 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[6]/div/table/tbody/tr[13]",
+        "cells": [
+          "",
+          "71",
+          "Tilskot til freda kulturminne i privat eige, kulturmiljø og kulturlandskap",
+          "15 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[6]/div/table/tbody/tr[14]",
+        "cells": [
+          "",
+          "72",
+          "Tilskot til tekniske og industrielle kulturminne",
+          "10 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[6]/div/table/tbody/tr[15]",
+        "cells": [
+          "",
+          "73",
+          "Tilskot til bygningar og anlegg frå mellomalderen og brannsikring",
+          "17 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[6]/div/table/tbody/tr[16]",
+        "cells": [
+          "",
+          "74",
+          "Tilskot til fartøyvern",
+          "10 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[6]/div/table/tbody/tr[17]",
+        "cells": [
+          "",
+          "75",
+          "Tilskot til fartøyvernsentera",
+          "1 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[6]/div/table/tbody/tr[18]",
+        "cells": [
+          "",
+          "77",
+          "Tilskot til verdiskapingsarbeid på kulturminneområdet",
+          "5 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[6]/div/table/tbody/tr[19]",
+        "cells": [
+          "",
+          "79",
+          "Tilskot til verdsarven",
+          "20 mill. kroner"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "prop104-ch5.html",
+    "body_sha256": "cf8b892755ad7bc59b840d7d2401c11712a2349ebcdcbd7ad991f5091081e058",
+    "table_xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table",
+    "header_rows": [
+      "Kap.PostFormålKroner",
+      "21Statsrådet:"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[777]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren:",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[778]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter, nedsettes med",
+          "1 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[779]",
+        "cells": [
+          "",
+          "",
+          "fra kr 161 243 000 til kr 160 243 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[780]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene, forhøyes med",
+          "5 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[781]",
+        "cells": [
+          "",
+          "",
+          "fra kr 9 406 000 til kr 14 406 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[782]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres, forhøyes med",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[783]",
+        "cells": [
+          "",
+          "",
+          "fra kr 41 522 000 til kr 43 522 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[784]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres, nedsettes med",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[785]",
+        "cells": [
+          "",
+          "",
+          "fra kr 151 889 000 til kr 149 889 000",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "prop36-ch10.html",
+    "body_sha256": "d3a200e906fce631504d8c850bd71d82c1ad87d534830ab819794ef20cb466c4",
+    "table_xpath": "/html/body/main/div/div[3]/div[3]/div/div/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Prop. S Innst. S Vedtak",
+      "Regjeringen"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[1008]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren:",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[1009]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter",
+          "5 796 000",
+          "p16/24-25",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[1010]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter",
+          "-1 000 000",
+          "p104/23-24",
+          "i447/23-24",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[1011]",
+        "cells": [
+          "",
+          "22",
+          "Flerårige prosjekter kulturminneforvaltning, kan overføres",
+          "-3 000 000",
+          "p16/24-25",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[1012]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene, kan overføres",
+          "5 000 000",
+          "p104/23-24",
+          "i447/23-24",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[1013]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres",
+          "2 000 000",
+          "p104/23-24",
+          "i447/23-24",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[1014]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres",
+          "-2 000 000",
+          "p104/23-24",
+          "i447/23-24",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "prop36-ch13.html",
+    "body_sha256": "c76a9aaa6f7998949e0813641463e12beaebc64a91dc7d8a8e762618592c8b71",
+    "table_xpath": "/html/body/main/div/div[3]/div[3]/div/div/table",
+    "header_rows": [
+      "1 000 kroner",
+      "Kap. Post Formål Saldert budsjett Endringer foreslått i perioden Endringer foreslått i denne proposisjonen Status etter endringene"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[789]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[790]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter",
+          "161 243",
+          "4 796",
+          "-",
+          "166 039"
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[791]",
+        "cells": [
+          "",
+          "22",
+          "Flerårige prosjekter kulturminneforvaltning, kan overføres",
+          "32 185",
+          "-3 000",
+          "-",
+          "29 185"
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[792]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene, kan overføres",
+          "9 406",
+          "5 000",
+          "-",
+          "14 406"
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[793]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres",
+          "41 522",
+          "2 000",
+          "-",
+          "43 522"
+        ]
+      },
+      {
+        "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[794]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres",
+          "151 889",
+          "-2 000",
+          "-",
+          "149 889"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "ref191223.html",
+    "body_sha256": "27e68663a4e91339bdea6830b325014e85149aba7beef6ac9e0d9c23a8eeb09d",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[4]/div[2]/div/div[1]/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner",
+      "Utgifter"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[4]/div[2]/div/div[1]/table/tbody/tr[3]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[4]/div[2]/div/div[1]/table/tbody/tr[4]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter, reduseres med",
+          "5 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[4]/div[2]/div/div[1]/table/tbody/tr[5]",
+        "cells": [
+          "",
+          "",
+          "fra kr 163 110 000 til kr 158 110 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[4]/div[2]/div/div[1]/table/tbody/tr[6]",
+        "cells": [
+          "",
+          "22",
+          "Flerårige prosjekter kulturminneforvaltning,kan overføres, økes med",
+          "6 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[4]/div[2]/div/div[1]/table/tbody/tr[7]",
+        "cells": [
+          "",
+          "",
+          "fra kr 30 366 000 til kr 36 366 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[4]/div[2]/div/div[1]/table/tbody/tr[8]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap,kan overføres, reduseres med",
+          "2 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[4]/div[2]/div/div[1]/table/tbody/tr[9]",
+        "cells": [
+          "",
+          "",
+          "fra kr 145 808 000 til kr 143 808 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[4]/div[2]/div/div[1]/table/tbody/tr[10]",
+        "cells": [
+          "",
+          "73",
+          "Tilskudd til bygninger og anlegg fra middelalderen og brannsikring,kan overføres, økes med",
+          "1 000 000"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[4]/div[2]/div/div[1]/table/tbody/tr[11]",
+        "cells": [
+          "",
+          "",
+          "fra kr 62 637 000 til kr 63 637 000",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "ref191223.html",
+    "body_sha256": "27e68663a4e91339bdea6830b325014e85149aba7beef6ac9e0d9c23a8eeb09d",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[2]/div/table",
+    "header_rows": [
+      "Kap. Post Formål Kroner Kroner",
+      "Utgifter"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[2]/div/table/tbody/tr[101]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          "",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[2]/div/table/tbody/tr[102]",
+        "cells": [
+          "",
+          "1",
+          "Driftsutgifter",
+          "161 243 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[2]/div/table/tbody/tr[103]",
+        "cells": [
+          "",
+          "21",
+          "Spesielle driftsutgifter",
+          "31 777 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[2]/div/table/tbody/tr[104]",
+        "cells": [
+          "",
+          "22",
+          "Flerårige prosjekter kulturminneforvaltning, kan overføres",
+          "32 185 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[2]/div/table/tbody/tr[105]",
+        "cells": [
+          "",
+          "60",
+          "Kulturminnekompetanse i kommunene",
+          "9 406 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[2]/div/table/tbody/tr[106]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres",
+          "41 522 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[2]/div/table/tbody/tr[107]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres",
+          "151 889 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[2]/div/table/tbody/tr[108]",
+        "cells": [
+          "",
+          "72",
+          "Tilskudd til tekniske og industrielle kulturminner, kan overføres",
+          "62 298 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[2]/div/table/tbody/tr[109]",
+        "cells": [
+          "",
+          "73",
+          "Tilskudd til bygninger og anlegg fra middelalderen og brannsikring, kan overføres",
+          "57 850 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[2]/div/table/tbody/tr[110]",
+        "cells": [
+          "",
+          "74",
+          "Tilskudd til fartøyvern, kan overføres",
+          "75 120 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[2]/div/table/tbody/tr[111]",
+        "cells": [
+          "",
+          "75",
+          "Tilskudd til fartøyvernsentrene, kan overføres",
+          "18 552 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[2]/div/table/tbody/tr[112]",
+        "cells": [
+          "",
+          "77",
+          "Tilskudd til verdiskapningsarbeid på kulturminneområdet, kan overføres",
+          "7 986 000",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[2]/div/table/tbody/tr[113]",
+        "cells": [
+          "",
+          "79",
+          "Tilskudd til verdensarven, kan overføres",
+          "56 785 000",
+          ""
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "ref191223.html",
+    "body_sha256": "27e68663a4e91339bdea6830b325014e85149aba7beef6ac9e0d9c23a8eeb09d",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[7]/div[2]/table",
+    "header_rows": [
+      "overskride bevilgningen under mot tilsvarende merinntekter under",
+      "kap. 1429 post 1 kap. 4429 postene 2 og 9"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[7]/div[2]/table/tbody/tr[2]",
+        "cells": [
+          "kap. 1429 post 1",
+          "kap. 4429 postene 2 og 9"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  },
+  {
+    "source": "ref191223.html",
+    "body_sha256": "27e68663a4e91339bdea6830b325014e85149aba7beef6ac9e0d9c23a8eeb09d",
+    "table_xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[8]/div[2]/table",
+    "header_rows": [
+      "Kap. Post Betegnelse Samlet ramme",
+      "1429 Riksantikvaren"
+    ],
+    "owner_raw": null,
+    "rows": [
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[8]/div[2]/table/tbody/tr[2]",
+        "cells": [
+          "1429",
+          "",
+          "Riksantikvaren",
+          ""
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[8]/div[2]/table/tbody/tr[3]",
+        "cells": [
+          "",
+          "70",
+          "Tilskudd til automatisk fredete og andre arkeologiske kulturminner",
+          "61 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[8]/div[2]/table/tbody/tr[4]",
+        "cells": [
+          "",
+          "71",
+          "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap",
+          "15 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[8]/div[2]/table/tbody/tr[5]",
+        "cells": [
+          "",
+          "72",
+          "Tilskudd til tekniske og industrielle kulturminner",
+          "10 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[8]/div[2]/table/tbody/tr[6]",
+        "cells": [
+          "",
+          "73",
+          "Tilskudd til bygninger og anlegg fra middelalderen og brannsikring",
+          "17 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[8]/div[2]/table/tbody/tr[7]",
+        "cells": [
+          "",
+          "74",
+          "Tilskudd til fartøyvern",
+          "10 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[8]/div[2]/table/tbody/tr[8]",
+        "cells": [
+          "",
+          "75",
+          "Tilskudd til fartøyvernsentrene",
+          "1 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[8]/div[2]/table/tbody/tr[9]",
+        "cells": [
+          "",
+          "77",
+          "Tilskudd til verdiskapningsarbeid på kulturminneområdet",
+          "5 mill. kroner"
+        ]
+      },
+      {
+        "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div[15]/div[1]/div[6]/div[2]/div[2]/div/div[8]/div[2]/table/tbody/tr[10]",
+        "cells": [
+          "",
+          "79",
+          "Tilskudd til verdensarven",
+          "20 mill. kroner"
+        ]
+      }
+    ],
+    "interpretation": "locator aid only; chapter/post/role must be read with enclosing headings; sum-row hits are not post links"
+  }
+]

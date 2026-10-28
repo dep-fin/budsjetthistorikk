@@ -1,0 +1,379 @@
+{
+  "schema": "k3-research-ledger-not-product-1",
+  "chapter": 1429,
+  "budget_year": 2024,
+  "year_coverage": "partial",
+  "professional_annual_balance_approval": false,
+  "rows": [
+    {
+      "id": "original-proposal",
+      "document": "Prop.1 S KLD 2023-2024",
+      "role": "government_proposal",
+      "budget_year": 2024,
+      "posts": [
+        1,
+        22
+      ],
+      "source": "prop1-kld-ch6.html",
+      "evidence": "table-locators.json"
+    },
+    {
+      "id": "original-recommendation",
+      "document": "Innst.14 S 2023-2024 section7",
+      "role": "committee_recommendation",
+      "budget_year": 2024,
+      "posts": [
+        1,
+        22
+      ],
+      "source": "inns14-202324.html",
+      "evidence": "table-locators.json"
+    },
+    {
+      "id": "original-H",
+      "document": "Innst.14 S section4.37",
+      "role": "H_primary_position",
+      "budget_year": 2024,
+      "posts": [
+        1
+      ],
+      "raw_level_thousand_nok": 153620,
+      "raw_difference_thousand_nok": -7623,
+      "outcome": "not_the_adopted_level; no separate post vote invented",
+      "evidence": "table-locators.json"
+    },
+    {
+      "id": "original-FrP",
+      "document": "Innst.14 S section4.37",
+      "role": "FrP_primary_position",
+      "budget_year": 2024,
+      "posts": [
+        1
+      ],
+      "raw_level_thousand_nok": 156243,
+      "raw_difference_thousand_nok": -5000,
+      "outcome": "not_the_adopted_level; no separate post vote invented",
+      "evidence": "table-locators.json"
+    },
+    {
+      "id": "original-341",
+      "document": "341/40032928",
+      "role": "adopted_levels",
+      "budget_year": 2024,
+      "posts": [
+        1,
+        22
+      ],
+      "vote": "22032",
+      "proposal": "40073884",
+      "evidence": "decision-evidence.json; voting-evidence.json"
+    },
+    {
+      "id": "original-346",
+      "document": "346/40032933",
+      "role": "adopted_revenue_authorization",
+      "budget_year": 2024,
+      "posts": [
+        1
+      ],
+      "vote": "22032",
+      "proposal": "40073889",
+      "monetary_event": false,
+      "evidence": "decision-evidence.json; voting-evidence.json"
+    },
+    {
+      "id": "rnb-proposal",
+      "document": "Prop.104 S 2023-2024",
+      "role": "government_proposal",
+      "budget_year": 2024,
+      "posts": [
+        1
+      ],
+      "source": "prop104-ch5.html",
+      "evidence": "table-locators.json"
+    },
+    {
+      "id": "rnb-recommendation",
+      "document": "Innst.447 S section7",
+      "role": "committee_recommendation",
+      "budget_year": 2024,
+      "posts": [
+        1
+      ],
+      "vote": "23457",
+      "proposal": "40076251",
+      "source": "ind-inns447.html",
+      "evidence": "table-locators.json; voting-evidence.json"
+    },
+    {
+      "id": "rnb-alternative-54",
+      "document": "Innst.447 S section6",
+      "party": "KrF",
+      "proposal_number": 54,
+      "role": "rejected_alternative_proposal",
+      "budget_year": 2024,
+      "posts": [
+        1
+      ],
+      "before_nok": 161243000,
+      "delta_nok": -1000000,
+      "after_nok": 160243000,
+      "vote": "23425",
+      "for": 2,
+      "against": 99,
+      "adopted": false,
+      "source": "ind-inns447.html",
+      "evidence": "table-locators.json; voting-evidence.json",
+      "monetary_event": false
+    },
+    {
+      "id": "rnb-alternative-49",
+      "document": "Innst.447 S section6",
+      "party": "MDG",
+      "proposal_number": 49,
+      "role": "rejected_alternative_proposal",
+      "budget_year": 2024,
+      "posts": [
+        1
+      ],
+      "before_nok": 161243000,
+      "delta_nok": -1000000,
+      "after_nok": 160243000,
+      "vote": "23426",
+      "for": 1,
+      "against": 99,
+      "adopted": false,
+      "source": "ind-inns447.html",
+      "evidence": "table-locators.json; voting-evidence.json",
+      "monetary_event": false
+    },
+    {
+      "id": "rnb-alternative-29",
+      "document": "Innst.447 S section6",
+      "party": "V",
+      "proposal_number": 29,
+      "role": "rejected_alternative_proposal",
+      "budget_year": 2024,
+      "posts": [
+        1
+      ],
+      "before_nok": 161243000,
+      "delta_nok": -1000000,
+      "after_nok": 160243000,
+      "vote": "23427",
+      "for": 4,
+      "against": 97,
+      "adopted": false,
+      "source": "ind-inns447.html",
+      "evidence": "table-locators.json; voting-evidence.json",
+      "monetary_event": false
+    },
+    {
+      "id": "rnb-alternative-22",
+      "document": "Innst.447 S section6",
+      "party": "R",
+      "proposal_number": 22,
+      "role": "rejected_alternative_proposal",
+      "budget_year": 2024,
+      "posts": [
+        1
+      ],
+      "before_nok": 161243000,
+      "delta_nok": -1000000,
+      "after_nok": 160243000,
+      "vote": "23428",
+      "for": 4,
+      "against": 96,
+      "adopted": false,
+      "source": "ind-inns447.html",
+      "evidence": "table-locators.json; voting-evidence.json",
+      "monetary_event": false
+    },
+    {
+      "id": "rnb-alternative-21",
+      "document": "Innst.447 S section6",
+      "party": "SV",
+      "proposal_number": 21,
+      "role": "rejected_alternative_proposal",
+      "budget_year": 2024,
+      "posts": [
+        1
+      ],
+      "before_nok": 161243000,
+      "delta_nok": -1000000,
+      "after_nok": 160243000,
+      "vote": "23429",
+      "for": 8,
+      "against": 93,
+      "adopted": false,
+      "source": "ind-inns447.html",
+      "evidence": "table-locators.json; voting-evidence.json",
+      "monetary_event": false
+    },
+    {
+      "id": "rnb-alternative-2",
+      "document": "Innst.447 S section6",
+      "party": "FrP",
+      "proposal_number": 2,
+      "role": "rejected_alternative_proposal",
+      "budget_year": 2024,
+      "posts": [
+        1
+      ],
+      "before_nok": 161243000,
+      "delta_nok": -1000000,
+      "after_nok": 160243000,
+      "vote": "23430",
+      "for": 13,
+      "against": 87,
+      "adopted": false,
+      "source": "ind-inns447.html",
+      "evidence": "table-locators.json; voting-evidence.json",
+      "monetary_event": false
+    },
+    {
+      "id": "rnb-alternative-1",
+      "document": "Innst.447 S section6",
+      "party": "H",
+      "proposal_number": 1,
+      "role": "rejected_alternative_proposal",
+      "budget_year": 2024,
+      "posts": [
+        1
+      ],
+      "before_nok": 161243000,
+      "delta_nok": -1000000,
+      "after_nok": 160243000,
+      "vote": "23431",
+      "for": 22,
+      "against": 79,
+      "adopted": false,
+      "source": "ind-inns447.html",
+      "evidence": "table-locators.json; voting-evidence.json",
+      "monetary_event": false
+    },
+    {
+      "id": "rnb-857",
+      "document": "857/40033719",
+      "role": "adopted_change",
+      "budget_year": 2024,
+      "posts": [
+        1
+      ],
+      "vote": "23457",
+      "evidence": "decision-evidence.json; voting-evidence.json"
+    },
+    {
+      "id": "nysald-proposal",
+      "document": "Prop.16 S 2024-2025",
+      "role": "government_proposal",
+      "budget_year": 2024,
+      "posts": [
+        1,
+        22
+      ],
+      "source": "reused-sources.json -> omtale-o1",
+      "evidence": "../omtale-o1/README.md"
+    },
+    {
+      "id": "nysald-recommendation",
+      "document": "Innst.81 S 2024-2025",
+      "role": "committee_recommendation",
+      "budget_year": 2024,
+      "posts": [
+        1,
+        22
+      ],
+      "source": "reused-sources.json -> omtale-o1",
+      "evidence": "../omtale-o1/README.md"
+    },
+    {
+      "id": "nysald-210",
+      "document": "210/40034048",
+      "role": "adopted_change",
+      "budget_year": 2024,
+      "posts": [
+        1,
+        22
+      ],
+      "vote": "23873",
+      "evidence": "decision-evidence.json; voting-evidence.json"
+    },
+    {
+      "id": "nysald-211",
+      "document": "211/40034049",
+      "role": "document_context_authorization_other_post",
+      "budget_year": 2024,
+      "posts": [
+        60
+      ],
+      "monetary_event": false,
+      "evidence": "decision-evidence.json; voting-evidence.json"
+    },
+    {
+      "id": "annual-control",
+      "document": "Prop.36 S appendix3/6",
+      "role": "proposed_or_adopted_status_source_list_not_decision",
+      "budget_year": 2024,
+      "posts": [
+        1,
+        22
+      ],
+      "monetary_event": false,
+      "evidence": "table-locators.json"
+    }
+  ],
+  "known_adopted_monetary_effects": [
+    {
+      "decision": "40032928",
+      "number": 341,
+      "post": 1,
+      "budget_year": 2024,
+      "meaning": "level",
+      "value_nok": 161243000
+    },
+    {
+      "decision": "40032928",
+      "number": 341,
+      "post": 22,
+      "budget_year": 2024,
+      "meaning": "level",
+      "value_nok": 32185000
+    },
+    {
+      "decision": "40033719",
+      "number": 857,
+      "post": 1,
+      "budget_year": 2024,
+      "meaning": "change",
+      "before_nok": 161243000,
+      "value_nok": -1000000,
+      "after_nok": 160243000
+    },
+    {
+      "decision": "40034048",
+      "number": 210,
+      "post": 1,
+      "budget_year": 2024,
+      "meaning": "change",
+      "before_nok": 160243000,
+      "value_nok": 5796000,
+      "after_nok": 166039000
+    },
+    {
+      "decision": "40034048",
+      "number": 210,
+      "post": 22,
+      "budget_year": 2024,
+      "meaning": "change",
+      "before_nok": 32185000,
+      "value_nok": -3000000,
+      "after_nok": 29185000
+    }
+  ],
+  "monetary_event_count": 5,
+  "decision_amount_field_count": 11,
+  "global_open_candidates": "case-candidates.json",
+  "global_residuals": "m21.md R1-R7",
+  "note": "No production identities or source reinterpretation. Old pilot IDs must be reused in later implementation."
+}
