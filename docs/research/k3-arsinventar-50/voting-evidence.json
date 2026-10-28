@@ -1,0 +1,935 @@
+{
+  "votes": [
+    {
+      "source": "ind-voteringer95776.xml",
+      "xpath": "/*/*[4]/*[11]",
+      "fields": {
+        "respons_dato_tid": "2026-10-28T12:44:48.4932049+01:00",
+        "versjon": "1.6",
+        "alternativ_votering_id": "-1",
+        "antall_for": "54",
+        "antall_ikke_tilstede": "70",
+        "antall_mot": "45",
+        "behandlingsrekkefoelge": "1",
+        "dagsorden_sak_nummer": "5",
+        "fri_votering": "false",
+        "kommentar": null,
+        "mote_kart_nummer": "35",
+        "personlig_votering": "true",
+        "sak_id": "95776",
+        "vedtatt": "true",
+        "votering_id": "22032",
+        "votering_resultat_type": "ikke_spesifisert",
+        "votering_resultat_type_tekst": null,
+        "votering_tema": "Stor bokstav A samtlige romertall Stor bokstav B samtlige romertall",
+        "votering_tid": "2023-12-19T21:44:08.413"
+      }
+    },
+    {
+      "source": "ind-voteringer98919.xml",
+      "xpath": "/*/*[4]/*[1]",
+      "fields": {
+        "respons_dato_tid": "2026-10-28T12:44:51.0137106+01:00",
+        "versjon": "1.6",
+        "alternativ_votering_id": "-1",
+        "antall_for": "2",
+        "antall_ikke_tilstede": "68",
+        "antall_mot": "99",
+        "behandlingsrekkefoelge": "1",
+        "dagsorden_sak_nummer": "3",
+        "fri_votering": "false",
+        "kommentar": null,
+        "mote_kart_nummer": "101",
+        "personlig_votering": "true",
+        "sak_id": "98919",
+        "vedtatt": "false",
+        "votering_id": "23425",
+        "votering_resultat_type": "ikke_spesifisert",
+        "votering_resultat_type_tekst": null,
+        "votering_tema": "Forslag nr. 54 på vegne av KrF.",
+        "votering_tid": "2024-06-21T14:13:04.11"
+      }
+    },
+    {
+      "source": "ind-voteringer98919.xml",
+      "xpath": "/*/*[4]/*[2]",
+      "fields": {
+        "respons_dato_tid": "2026-10-28T12:44:51.0137106+01:00",
+        "versjon": "1.6",
+        "alternativ_votering_id": "-1",
+        "antall_for": "1",
+        "antall_ikke_tilstede": "69",
+        "antall_mot": "99",
+        "behandlingsrekkefoelge": "1",
+        "dagsorden_sak_nummer": "3",
+        "fri_votering": "false",
+        "kommentar": null,
+        "mote_kart_nummer": "101",
+        "personlig_votering": "true",
+        "sak_id": "98919",
+        "vedtatt": "false",
+        "votering_id": "23426",
+        "votering_resultat_type": "ikke_spesifisert",
+        "votering_resultat_type_tekst": null,
+        "votering_tema": "Forslag nr. 49 på vegne av MDG.",
+        "votering_tid": "2024-06-21T14:13:18.04"
+      }
+    },
+    {
+      "source": "ind-voteringer98919.xml",
+      "xpath": "/*/*[4]/*[3]",
+      "fields": {
+        "respons_dato_tid": "2026-10-28T12:44:51.0137106+01:00",
+        "versjon": "1.6",
+        "alternativ_votering_id": "-1",
+        "antall_for": "4",
+        "antall_ikke_tilstede": "68",
+        "antall_mot": "97",
+        "behandlingsrekkefoelge": "1",
+        "dagsorden_sak_nummer": "3",
+        "fri_votering": "false",
+        "kommentar": null,
+        "mote_kart_nummer": "101",
+        "personlig_votering": "true",
+        "sak_id": "98919",
+        "vedtatt": "false",
+        "votering_id": "23427",
+        "votering_resultat_type": "ikke_spesifisert",
+        "votering_resultat_type_tekst": null,
+        "votering_tema": "Forslag nr. 29 på vegne av V.",
+        "votering_tid": "2024-06-21T14:13:32.397"
+      }
+    },
+    {
+      "source": "ind-voteringer98919.xml",
+      "xpath": "/*/*[4]/*[4]",
+      "fields": {
+        "respons_dato_tid": "2026-10-28T12:44:51.0137106+01:00",
+        "versjon": "1.6",
+        "alternativ_votering_id": "-1",
+        "antall_for": "4",
+        "antall_ikke_tilstede": "69",
+        "antall_mot": "96",
+        "behandlingsrekkefoelge": "1",
+        "dagsorden_sak_nummer": "3",
+        "fri_votering": "false",
+        "kommentar": null,
+        "mote_kart_nummer": "101",
+        "personlig_votering": "true",
+        "sak_id": "98919",
+        "vedtatt": "false",
+        "votering_id": "23428",
+        "votering_resultat_type": "ikke_spesifisert",
+        "votering_resultat_type_tekst": null,
+        "votering_tema": "Forslag nr. 22 på vegne av R.",
+        "votering_tid": "2024-06-21T14:13:45.55"
+      }
+    },
+    {
+      "source": "ind-voteringer98919.xml",
+      "xpath": "/*/*[4]/*[5]",
+      "fields": {
+        "respons_dato_tid": "2026-10-28T12:44:51.0137106+01:00",
+        "versjon": "1.6",
+        "alternativ_votering_id": "-1",
+        "antall_for": "8",
+        "antall_ikke_tilstede": "68",
+        "antall_mot": "93",
+        "behandlingsrekkefoelge": "1",
+        "dagsorden_sak_nummer": "3",
+        "fri_votering": "false",
+        "kommentar": null,
+        "mote_kart_nummer": "101",
+        "personlig_votering": "true",
+        "sak_id": "98919",
+        "vedtatt": "false",
+        "votering_id": "23429",
+        "votering_resultat_type": "ikke_spesifisert",
+        "votering_resultat_type_tekst": null,
+        "votering_tema": "Forslag nr. 21 på vegne av SV.",
+        "votering_tid": "2024-06-21T14:13:58.647"
+      }
+    },
+    {
+      "source": "ind-voteringer98919.xml",
+      "xpath": "/*/*[4]/*[6]",
+      "fields": {
+        "respons_dato_tid": "2026-10-28T12:44:51.0137106+01:00",
+        "versjon": "1.6",
+        "alternativ_votering_id": "-1",
+        "antall_for": "13",
+        "antall_ikke_tilstede": "69",
+        "antall_mot": "87",
+        "behandlingsrekkefoelge": "1",
+        "dagsorden_sak_nummer": "3",
+        "fri_votering": "false",
+        "kommentar": null,
+        "mote_kart_nummer": "101",
+        "personlig_votering": "true",
+        "sak_id": "98919",
+        "vedtatt": "false",
+        "votering_id": "23430",
+        "votering_resultat_type": "ikke_spesifisert",
+        "votering_resultat_type_tekst": null,
+        "votering_tema": "Forslag nr. 2 på vegne av FrP.",
+        "votering_tid": "2024-06-21T14:14:11.317"
+      }
+    },
+    {
+      "source": "ind-voteringer98919.xml",
+      "xpath": "/*/*[4]/*[7]",
+      "fields": {
+        "respons_dato_tid": "2026-10-28T12:44:51.0137106+01:00",
+        "versjon": "1.6",
+        "alternativ_votering_id": "-1",
+        "antall_for": "22",
+        "antall_ikke_tilstede": "68",
+        "antall_mot": "79",
+        "behandlingsrekkefoelge": "1",
+        "dagsorden_sak_nummer": "3",
+        "fri_votering": "false",
+        "kommentar": null,
+        "mote_kart_nummer": "101",
+        "personlig_votering": "true",
+        "sak_id": "98919",
+        "vedtatt": "false",
+        "votering_id": "23431",
+        "votering_resultat_type": "ikke_spesifisert",
+        "votering_resultat_type_tekst": null,
+        "votering_tema": "Forslag nr. 1 på vegne av H.",
+        "votering_tid": "2024-06-21T14:14:24.303"
+      }
+    },
+    {
+      "source": "ind-voteringer98919.xml",
+      "xpath": "/*/*[4]/*[33]",
+      "fields": {
+        "respons_dato_tid": "2026-10-28T12:44:51.0137106+01:00",
+        "versjon": "1.6",
+        "alternativ_votering_id": "-1",
+        "antall_for": "55",
+        "antall_ikke_tilstede": "68",
+        "antall_mot": "46",
+        "behandlingsrekkefoelge": "1",
+        "dagsorden_sak_nummer": "3",
+        "fri_votering": "false",
+        "kommentar": null,
+        "mote_kart_nummer": "101",
+        "personlig_votering": "true",
+        "sak_id": "98919",
+        "vedtatt": "true",
+        "votering_id": "23457",
+        "votering_resultat_type": "ikke_spesifisert",
+        "votering_resultat_type_tekst": null,
+        "votering_tema": "Stor bokstav A og B samtlige romertall",
+        "votering_tid": "2024-06-21T14:30:00.163"
+      }
+    },
+    {
+      "source": "ind-voteringer100927.xml",
+      "xpath": "/*/*[4]/*",
+      "fields": {
+        "respons_dato_tid": "2026-10-28T12:44:54.7287238+01:00",
+        "versjon": "1.6",
+        "alternativ_votering_id": "-1",
+        "antall_for": "-1",
+        "antall_ikke_tilstede": "-1",
+        "antall_mot": "-1",
+        "behandlingsrekkefoelge": "1",
+        "dagsorden_sak_nummer": "25",
+        "fri_votering": "false",
+        "kommentar": null,
+        "mote_kart_nummer": "34",
+        "personlig_votering": "false",
+        "sak_id": "100927",
+        "vedtatt": "true",
+        "votering_id": "23873",
+        "votering_resultat_type": "enstemmig_vedtatt",
+        "votering_resultat_type_tekst": "Enstemmig vedtatt",
+        "votering_tema": "romertallene I og II.",
+        "votering_tid": "2024-12-16T19:50:19.07"
+      }
+    }
+  ],
+  "decision_links": [
+    {
+      "source": "ind-voteringsvedtak22032.xml",
+      "xpath": "/*/*[4]/*[6]",
+      "fields": {
+        "respons_dato_tid": "2026-10-28T12:45:55.7713087+01:00",
+        "versjon": "1.6",
+        "vedtak_kode": "Budsjett/budsjettrelaterte",
+        "vedtak_kommentar": null,
+        "vedtak_nummer": "341",
+        "vedtak_referanse": "(Komiteens tilråding B. Rnr. 3, I. )",
+        "vedtak_tekst": null
+      }
+    },
+    {
+      "source": "ind-voteringsvedtak22032.xml",
+      "xpath": "/*/*[4]/*[11]",
+      "fields": {
+        "respons_dato_tid": "2026-10-28T12:45:55.7713087+01:00",
+        "versjon": "1.6",
+        "vedtak_kode": "Budsjett/budsjettrelaterte",
+        "vedtak_kommentar": null,
+        "vedtak_nummer": "346",
+        "vedtak_referanse": "(Komiteens tilråding B. Rnr. 3, VI. )",
+        "vedtak_tekst": null
+      }
+    },
+    {
+      "source": "ind-voteringsvedtak23873.xml",
+      "xpath": "/*/*[4]/*[1]",
+      "fields": {
+        "respons_dato_tid": "2026-10-28T12:46:00.2721223+01:00",
+        "versjon": "1.6",
+        "vedtak_kode": "Andre vedtak",
+        "vedtak_kommentar": null,
+        "vedtak_nummer": "210",
+        "vedtak_referanse": "(Komiteens tilråding I. )",
+        "vedtak_tekst": null
+      }
+    },
+    {
+      "source": "ind-voteringsvedtak23873.xml",
+      "xpath": "/*/*[4]/*[2]",
+      "fields": {
+        "respons_dato_tid": "2026-10-28T12:46:00.2721223+01:00",
+        "versjon": "1.6",
+        "vedtak_kode": "Andre vedtak",
+        "vedtak_kommentar": null,
+        "vedtak_nummer": "211",
+        "vedtak_referanse": "(Komiteens tilråding II. )",
+        "vedtak_tekst": null
+      }
+    },
+    {
+      "source": "voteringsvedtak23457.xml",
+      "xpath": "/*/*[4]/*[1]",
+      "fields": {
+        "respons_dato_tid": "2026-10-28T12:56:24.497128+01:00",
+        "versjon": "1.6",
+        "vedtak_kode": "Andre vedtak",
+        "vedtak_kommentar": null,
+        "vedtak_nummer": "857",
+        "vedtak_referanse": "(Komiteens tilråding A. I. )",
+        "vedtak_tekst": null
+      }
+    }
+  ],
+  "proposals": [
+    {
+      "source": "ind-forslag22032.xml",
+      "xml_xpath": "/*/*[4]/*[6]",
+      "proposal_id": "40073884",
+      "designation": "Komiteens tilråding bokstav B. rammeområde 3, romertall I. ",
+      "on_behalf_of": null,
+      "html_sha256_utf8": "c77af006d591f3e026cb94eda4c31c0021da84c107194093e4cf6b28dd256cf4",
+      "chapter_blocks": [
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[100]",
+          "cells": [
+            "1429",
+            "",
+            "Riksantikvaren",
+            "",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[101]",
+          "cells": [
+            "",
+            "1",
+            "Driftsutgifter",
+            "161 243 000",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[102]",
+          "cells": [
+            "",
+            "21",
+            "Spesielle driftsutgifter",
+            "31 777 000",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[103]",
+          "cells": [
+            "",
+            "22",
+            "Flerårige prosjekter kulturminneforvaltning, kan overføres",
+            "32 185 000",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[104]",
+          "cells": [
+            "",
+            "60",
+            "Kulturminnekompetanse i kommunene",
+            "9 406 000",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[105]",
+          "cells": [
+            "",
+            "70",
+            "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres",
+            "41 522 000",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[106]",
+          "cells": [
+            "",
+            "71",
+            "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres",
+            "151 889 000",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[107]",
+          "cells": [
+            "",
+            "72",
+            "Tilskudd til tekniske og industrielle kulturminner, kan overføres",
+            "62 298 000",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[108]",
+          "cells": [
+            "",
+            "73",
+            "Tilskudd til bygninger og anlegg fra middelalderen og brannsikring, kan overføres",
+            "57 850 000",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[109]",
+          "cells": [
+            "",
+            "74",
+            "Tilskudd til fartøyvern, kan overføres",
+            "75 120 000",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[110]",
+          "cells": [
+            "",
+            "75",
+            "Tilskudd til fartøyvernsentrene, kan overføres",
+            "18 552 000",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[111]",
+          "cells": [
+            "",
+            "77",
+            "Tilskudd til verdiskapningsarbeid på kulturminneområdet, kan overføres",
+            "7 986 000",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[112]",
+          "cells": [
+            "",
+            "79",
+            "Tilskudd til verdensarven, kan overføres",
+            "56 785 000",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "source": "ind-forslag22032.xml",
+      "xml_xpath": "/*/*[4]/*[11]",
+      "proposal_id": "40073889",
+      "designation": "Komiteens tilråding bokstav B. rammeområde 3, romertall VI. ",
+      "on_behalf_of": null,
+      "html_sha256_utf8": "b0dbbf330ee8e39df93da98754e1bfaa6f7d9cab349ad043f1efeb7978b3550f",
+      "chapter_blocks": [
+        {
+          "xpath": "/html/body/div/div/div[2]/table/tbody/tr",
+          "cells": [
+            "kap. 1429 post 1",
+            "kap. 4429 postene 2 og 9"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "ind-forslag22032.xml",
+      "xml_xpath": "/*/*[4]/*[12]",
+      "proposal_id": "40073890",
+      "designation": "Komiteens tilråding bokstav B. rammeområde 3, romertall VII. ",
+      "on_behalf_of": null,
+      "html_sha256_utf8": "1cc7153bea7401b4c46c43feed6eb1323758be76ae3d9acf050325b14831bcc0",
+      "chapter_blocks": [
+        {
+          "xpath": "/html/body/div/div/div[2]/table/tbody/tr[1]",
+          "cells": [
+            "1429",
+            "",
+            "Riksantikvaren",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div[2]/table/tbody/tr[2]",
+          "cells": [
+            "",
+            "70",
+            "Tilskudd til automatisk fredete og andre arkeologiske kulturminner",
+            "61 mill. kroner"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div[2]/table/tbody/tr[3]",
+          "cells": [
+            "",
+            "71",
+            "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap",
+            "15 mill. kroner"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div[2]/table/tbody/tr[4]",
+          "cells": [
+            "",
+            "72",
+            "Tilskudd til tekniske og industrielle kulturminner",
+            "10 mill. kroner"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div[2]/table/tbody/tr[5]",
+          "cells": [
+            "",
+            "73",
+            "Tilskudd til bygninger og anlegg fra middelalderen og brannsikring",
+            "17 mill. kroner"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div[2]/table/tbody/tr[6]",
+          "cells": [
+            "",
+            "74",
+            "Tilskudd til fartøyvern",
+            "10 mill. kroner"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div[2]/table/tbody/tr[7]",
+          "cells": [
+            "",
+            "75",
+            "Tilskudd til fartøyvernsentrene",
+            "1 mill. kroner"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div[2]/table/tbody/tr[8]",
+          "cells": [
+            "",
+            "77",
+            "Tilskudd til verdiskapningsarbeid på kulturminneområdet",
+            "5 mill. kroner"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div[2]/table/tbody/tr[9]",
+          "cells": [
+            "",
+            "79",
+            "Tilskudd til verdensarven",
+            "20 mill. kroner"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "ind-forslag23430-FrP.xml",
+      "xml_xpath": "/*/*[4]/*",
+      "proposal_id": "40076319",
+      "designation": "Forslag nr. 2 fra Fremskrittspartiet",
+      "on_behalf_of": "Fremskrittspartiet",
+      "html_sha256_utf8": "4b89ef1173c85c0dd8c175cd4864d2e4a426a967fa2ad03963d4b1ef36a2fe92",
+      "chapter_blocks": [
+        {
+          "xpath": "/html/body/div/div/table/tbody/tr[811]",
+          "cells": [
+            "1429",
+            "",
+            "Riksantikvaren",
+            "",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/table/tbody/tr[812]",
+          "cells": [
+            "",
+            "1",
+            "Driftsutgifter,reduseres med",
+            "",
+            "1 000 000"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/table/tbody/tr[813]",
+          "cells": [
+            "",
+            "",
+            "fra kr 161 243 000 til kr 160 243 000",
+            "",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/table/tbody/tr[814]",
+          "cells": [
+            "",
+            "60",
+            "Kulturminnekompetanse i kommunene,økes med",
+            "",
+            "5 000 000"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/table/tbody/tr[815]",
+          "cells": [
+            "",
+            "",
+            "fra kr 9 406 000 til kr 14 406 000",
+            "",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/table/tbody/tr[816]",
+          "cells": [
+            "",
+            "70",
+            "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+            "",
+            "2 000 000"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/table/tbody/tr[817]",
+          "cells": [
+            "",
+            "",
+            "fra kr 41 522 000 til kr 43 522 000",
+            "",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/table/tbody/tr[818]",
+          "cells": [
+            "",
+            "71",
+            "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+            "",
+            "2 000 000"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/table/tbody/tr[819]",
+          "cells": [
+            "",
+            "",
+            "fra kr 151 889 000 til kr 149 889 000",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "source": "ind-forslag23431-H.xml",
+      "xml_xpath": "/*/*[4]/*",
+      "proposal_id": "40076318",
+      "designation": "Forslag nr. 1 fra Høyre",
+      "on_behalf_of": "Høyre",
+      "html_sha256_utf8": "d4740a97e5333fca0be684b18e94b2437d2c276776112c965f8accc66a37de2b",
+      "chapter_blocks": [
+        {
+          "xpath": "/html/body/div/div/table/tbody/tr[775]",
+          "cells": [
+            "1429",
+            "",
+            "Riksantikvaren",
+            "",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/table/tbody/tr[776]",
+          "cells": [
+            "",
+            "1",
+            "Driftsutgifter,reduseres med",
+            "",
+            "1 000 000"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/table/tbody/tr[777]",
+          "cells": [
+            "",
+            "",
+            "fra kr 161 243 000 til kr 160 243 000",
+            "",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/table/tbody/tr[778]",
+          "cells": [
+            "",
+            "60",
+            "Kulturminnekompetanse i kommunene,økes med",
+            "",
+            "5 000 000"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/table/tbody/tr[779]",
+          "cells": [
+            "",
+            "",
+            "fra kr 9 406 000 til kr 14 406 000",
+            "",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/table/tbody/tr[780]",
+          "cells": [
+            "",
+            "70",
+            "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+            "",
+            "2 000 000"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/table/tbody/tr[781]",
+          "cells": [
+            "",
+            "",
+            "fra kr 41 522 000 til kr 43 522 000",
+            "",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/table/tbody/tr[782]",
+          "cells": [
+            "",
+            "71",
+            "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+            "",
+            "2 000 000"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/table/tbody/tr[783]",
+          "cells": [
+            "",
+            "",
+            "fra kr 151 889 000 til kr 149 889 000",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "source": "ind-forslag23457.xml",
+      "xml_xpath": "/*/*[4]/*[1]",
+      "proposal_id": "40076251",
+      "designation": "Komiteens tilråding bokstav A. romertall I. ",
+      "on_behalf_of": null,
+      "html_sha256_utf8": "41d4804ee1dd7e298385543cee8439f779a712f9aa69d725abbd23a362d063e6",
+      "chapter_blocks": [
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[821]",
+          "cells": [
+            "1429",
+            "",
+            "Riksantikvaren",
+            "",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[822]",
+          "cells": [
+            "",
+            "1",
+            "Driftsutgifter,reduseres med",
+            "",
+            "1 000 000"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[823]",
+          "cells": [
+            "",
+            "",
+            "fra kr 161 243 000 til kr 160 243 000",
+            "",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[824]",
+          "cells": [
+            "",
+            "60",
+            "Kulturminnekompetanse i kommunene,økes med",
+            "",
+            "5 000 000"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[825]",
+          "cells": [
+            "",
+            "",
+            "fra kr 9 406 000 til kr 14 406 000",
+            "",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[826]",
+          "cells": [
+            "",
+            "70",
+            "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+            "",
+            "2 000 000"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[827]",
+          "cells": [
+            "",
+            "",
+            "fra kr 41 522 000 til kr 43 522 000",
+            "",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[828]",
+          "cells": [
+            "",
+            "71",
+            "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+            "",
+            "2 000 000"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[829]",
+          "cells": [
+            "",
+            "",
+            "fra kr 151 889 000 til kr 149 889 000",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "source": "ind-forslag23873.xml",
+      "xml_xpath": "/*/*[4]/*[1]",
+      "proposal_id": "40076996",
+      "designation": "Komiteens tilråding romertall I. ",
+      "on_behalf_of": null,
+      "html_sha256_utf8": "7b1dedb01e84a8f0a8f64b982f68ec8fd889e1d79016eef59e7bf6ad7da4c6ae",
+      "chapter_blocks": [
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[1]",
+          "cells": [
+            "1429",
+            "",
+            "Riksantikvaren",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[2]",
+          "cells": [
+            "",
+            "1",
+            "Driftsutgifter, økes med",
+            "5 796 000"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[3]",
+          "cells": [
+            "",
+            "",
+            "fra kr 160 243 000 til kr 166 039 000",
+            ""
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[4]",
+          "cells": [
+            "",
+            "22",
+            "Flerårige prosjekter kulturminneforvaltning, kan overføres, reduseres med",
+            "3 000 000"
+          ]
+        },
+        {
+          "xpath": "/html/body/div/div/div/table/tbody/tr[5]",
+          "cells": [
+            "",
+            "",
+            "fra kr 32 185 000 til kr 29 185 000",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "source": "ind-forslag23873.xml",
+      "xml_xpath": "/*/*[4]/*[2]",
+      "proposal_id": "40076997",
+      "designation": "Komiteens tilråding romertall II. ",
+      "on_behalf_of": null,
+      "html_sha256_utf8": "585f30630d65d40c7515db19e5b24cc0975586e5c790afc9b8ae49840e14e92a",
+      "chapter_blocks": []
+    }
+  ]
+}

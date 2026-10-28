@@ -1,0 +1,764 @@
+[
+  {
+    "source": "sak100289.xml",
+    "publication_references": [
+      {
+        "xpath": "/*/*[13]/*[1]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:05.4741973+01:00",
+          "versjon": "1.6",
+          "eksport_id": null,
+          "lenke_tekst": "Prop. 36 S (2024-2025)",
+          "lenke_url": "http://www.regjeringen.no/id/PRP202420250036000DDDEPIS",
+          "type": "regjering",
+          "undertype": "proposisjon"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[2]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:05.4741973+01:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202425-12-03",
+          "lenke_tekst": "Stortingsreferat 03.12.2024",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-03/referatsaker/",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[3]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:05.5835693+01:00",
+          "versjon": "1.6",
+          "eksport_id": "inns-202425-090s",
+          "lenke_tekst": "Innst. 90 S (2024-2025)",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-090s/",
+          "type": "innstilling",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[4]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:06.3526481+01:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202425-12-19",
+          "lenke_tekst": "Stortingsreferat 19.12.2024",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-19/4",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[5]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:06.3526481+01:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202425-12-19",
+          "lenke_tekst": "Stortingsreferat 19.12.2024",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-19/voteringer#191224-4",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      }
+    ],
+    "case_relations": []
+  },
+  {
+    "source": "sak95776.xml",
+    "publication_references": [
+      {
+        "xpath": "/*/*[13]/*[1]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2736652+01:00",
+          "versjon": "1.6",
+          "eksport_id": null,
+          "lenke_tekst": "Prop. 1 S (2023-2024) (BFD)",
+          "lenke_url": "http://www.regjeringen.no/id/PRP202320240001BFDDDDEPIS",
+          "type": "regjering",
+          "undertype": "proposisjon"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[2]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2736652+01:00",
+          "versjon": "1.6",
+          "eksport_id": null,
+          "lenke_tekst": "Prop. 1 S (2023-2024) (KLD)",
+          "lenke_url": "http://www.regjeringen.no/id/PRP202320240001KLDDDDEPIS",
+          "type": "regjering",
+          "undertype": "proposisjon"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[3]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2811909+01:00",
+          "versjon": "1.6",
+          "eksport_id": null,
+          "lenke_tekst": "Prop. 1 S (2023-2024) (KUD)",
+          "lenke_url": "http://www.regjeringen.no/id/PRP202320240001KUDDDDEPIS",
+          "type": "regjering",
+          "undertype": "proposisjon"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[4]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2811909+01:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202324-10-10",
+          "lenke_tekst": "Stortingsreferat 10.10.2023",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-10-10/referatsaker/",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[5]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2811909+01:00",
+          "versjon": "1.6",
+          "eksport_id": "inns-202324-014s",
+          "lenke_tekst": "Innst. 14 S (2023-2024)",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2023-2024/inns-202324-014s/",
+          "type": "innstilling",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[6]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2811909+01:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202324-12-19",
+          "lenke_tekst": "Stortingsreferat 19.12.2023",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-12-19/5",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[7]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2811909+01:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202324-12-19",
+          "lenke_tekst": "Stortingsreferat 19.12.2023",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-12-19/voteringer#191223-5",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      }
+    ],
+    "case_relations": [
+      {
+        "xpath": "/*/*[16]/*[1]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2017056+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "sammekilde",
+          "relatert_sak_id": "95561",
+          "relatert_sak_korttittel": "Skatte- og avgiftsinntekter 2024"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[2]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2017056+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "sammekilde",
+          "relatert_sak_id": "95558",
+          "relatert_sak_korttittel": "Statsbudsjettet 2024"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[3]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2017056+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "sammekilde",
+          "relatert_sak_id": "95782",
+          "relatert_sak_korttittel": "Statsbudsjettet 2024 - Svalbardbudsjettet"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[4]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2017056+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "sammekilde",
+          "relatert_sak_id": "95779",
+          "relatert_sak_korttittel": "Statsbudsjettet 2024 (kapitler fordelt på arbeids- og sosialkomiteen)"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[5]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2017056+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "sammekilde",
+          "relatert_sak_id": "95780",
+          "relatert_sak_korttittel": "Statsbudsjettet 2024 (kapitler fordelt på kommunal- og forvaltningskomiteen)"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[6]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2017056+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "sammekilde",
+          "relatert_sak_id": "95725",
+          "relatert_sak_korttittel": "Statsbudsjettet 2024 (kapitler fordelt til energi- og miljøkomiteen)"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[7]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2017056+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "sammekilde",
+          "relatert_sak_id": "95766",
+          "relatert_sak_korttittel": "Statsbudsjettet 2024 (kapitler fordelt til helse- og omsorgskomiteen)"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[8]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2017056+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "sammekilde",
+          "relatert_sak_id": "95722",
+          "relatert_sak_korttittel": "Statsbudsjettet 2024 (kapitler fordelt til justiskomiteen)"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[9]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2017056+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "sammekilde",
+          "relatert_sak_id": "95765",
+          "relatert_sak_korttittel": "Statsbudsjettet 2024 (kapitler fordelt til kontroll- og konstitusjonskomiteen)"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[10]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2017056+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "sammekilde",
+          "relatert_sak_id": "95724",
+          "relatert_sak_korttittel": "Statsbudsjettet 2024 (kapitler fordelt til næringskomiteen)"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[11]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2017056+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "sammekilde",
+          "relatert_sak_id": "95768",
+          "relatert_sak_korttittel": "Statsbudsjettet 2024 (kapitler fordelt til transport- og kommunikasjonskomiteen)"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[12]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2017056+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "sammekilde",
+          "relatert_sak_id": "95767",
+          "relatert_sak_korttittel": "Statsbudsjettet 2024 (kapitler fordelt til utdannings- og forskningskomiteen)"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[13]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2017056+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "sammekilde",
+          "relatert_sak_id": "95723",
+          "relatert_sak_korttittel": "Statsbudsjettet 2024 (kapitler fordelt til utenriks- og forsvarskomiteen)"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[14]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:40:28.2017056+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "sammekilde",
+          "relatert_sak_id": "95566",
+          "relatert_sak_korttittel": "Tilfeldige utgifter og inntekter, finansadministrasjon, utbytte, 90-poster, Statens pensjonsfond utland"
+        }
+      }
+    ]
+  },
+  {
+    "source": "sak98918.xml",
+    "publication_references": [
+      {
+        "xpath": "/*/*[13]/*[1]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:04.5990133+01:00",
+          "versjon": "1.6",
+          "eksport_id": null,
+          "lenke_tekst": "Prop. 104 S (2023-2024)",
+          "lenke_url": "http://www.regjeringen.no/id/PRP202320240104000DDDEPIS",
+          "type": "regjering",
+          "undertype": "proposisjon"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[2]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:04.5990133+01:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202324-05-14",
+          "lenke_tekst": "Stortingsreferat 14.05.2024",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-05-14/referatsaker/",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[3]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:04.5990133+01:00",
+          "versjon": "1.6",
+          "eksport_id": "inns-202324-447s",
+          "lenke_tekst": "Innst. 447 S (2023-2024)",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2023-2024/inns-202324-447s/",
+          "type": "innstilling",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[4]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:04.5990133+01:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202324-06-21",
+          "lenke_tekst": "Stortingsreferat 21.06.2024",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-21/3",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[5]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:04.5990133+01:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202324-06-21",
+          "lenke_tekst": "Stortingsreferat 21.06.2024",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-21/voteringer#210624-3",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      }
+    ],
+    "case_relations": [
+      {
+        "xpath": "/*/*[16]/*[1]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:04.5208673+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "fellesinnst",
+          "relatert_sak_id": "98916",
+          "relatert_sak_korttittel": "Endringar i skatte- og avgiftslovgivinga"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[2]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:04.5208673+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "fellesinnst",
+          "relatert_sak_id": "98919",
+          "relatert_sak_korttittel": "Revidert nasjonalbudsjett 2024"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[3]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:04.5208673+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "fellesinnst",
+          "relatert_sak_id": "99234",
+          "relatert_sak_korttittel": "Tillegg til Prop. 104 S (2023-2024) om tilleggsbevilgninger og omprioriteringer i statsbudsjettet 2024"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[4]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:04.5208673+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "sakgrunnlag",
+          "relatert_sak_id": "99234",
+          "relatert_sak_korttittel": "Tillegg til Prop. 104 S (2023-2024) om tilleggsbevilgninger og omprioriteringer i statsbudsjettet 2024"
+        }
+      }
+    ]
+  },
+  {
+    "source": "sak98919.xml",
+    "publication_references": [
+      {
+        "xpath": "/*/*[13]/*[1]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:03.5206779+01:00",
+          "versjon": "1.6",
+          "eksport_id": null,
+          "lenke_tekst": "Meld. St. 2 (2023-2024)",
+          "lenke_url": "http://www.regjeringen.no/id/STM202320240002000DDDEPIS",
+          "type": "regjering",
+          "undertype": "stortingsmelding"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[2]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:03.5206779+01:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202324-05-14",
+          "lenke_tekst": "Stortingsreferat 14.05.2024",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-05-14/referatsaker/",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[3]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:03.630064+01:00",
+          "versjon": "1.6",
+          "eksport_id": "inns-202324-447s",
+          "lenke_tekst": "Innst. 447 S (2023-2024)",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2023-2024/inns-202324-447s/",
+          "type": "innstilling",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[4]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:04.0520178+01:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202324-06-21",
+          "lenke_tekst": "Stortingsreferat 21.06.2024",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-21/3",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[5]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:04.0520178+01:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202324-06-21",
+          "lenke_tekst": "Stortingsreferat 21.06.2024",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-21/voteringer#210624-3",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      }
+    ],
+    "case_relations": [
+      {
+        "xpath": "/*/*[16]/*[1]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:03.3331462+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "fellesinnst",
+          "relatert_sak_id": "98916",
+          "relatert_sak_korttittel": "Endringar i skatte- og avgiftslovgivinga"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[2]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:03.3331462+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "fellesinnst",
+          "relatert_sak_id": "99234",
+          "relatert_sak_korttittel": "Tillegg til Prop. 104 S (2023-2024) om tilleggsbevilgninger og omprioriteringer i statsbudsjettet 2024"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[3]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:03.3331462+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "fellesinnst",
+          "relatert_sak_id": "98918",
+          "relatert_sak_korttittel": "Tilleggsbevilgninger og omprioriteringer i statsbudsjettet 2024"
+        }
+      }
+    ]
+  },
+  {
+    "source": "sak99234.xml",
+    "publication_references": [
+      {
+        "xpath": "/*/*[13]/*[1]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:05.0366726+01:00",
+          "versjon": "1.6",
+          "eksport_id": null,
+          "lenke_tekst": "Prop. 106 S (2023-2024)",
+          "lenke_url": "http://www.regjeringen.no/id/PRP202320240106000DDDEPIS",
+          "type": "regjering",
+          "undertype": "proposisjon"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[2]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:05.0366726+01:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202324-06-07",
+          "lenke_tekst": "Stortingsreferat 07.06.2024",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-07/referatsaker/",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[3]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:05.0366726+01:00",
+          "versjon": "1.6",
+          "eksport_id": "inns-202324-447s",
+          "lenke_tekst": "Innst. 447 S (2023-2024)",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2023-2024/inns-202324-447s/",
+          "type": "innstilling",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[4]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:05.0366726+01:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202324-06-21",
+          "lenke_tekst": "Stortingsreferat 21.06.2024",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-21/3",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[5]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:05.0366726+01:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202324-06-21",
+          "lenke_tekst": "Stortingsreferat 21.06.2024",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-21/voteringer#210624-3",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      }
+    ],
+    "case_relations": [
+      {
+        "xpath": "/*/*[16]/*[1]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:04.9585012+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "fellesinnst",
+          "relatert_sak_id": "98916",
+          "relatert_sak_korttittel": "Endringar i skatte- og avgiftslovgivinga"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[2]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:04.9585012+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "fellesinnst",
+          "relatert_sak_id": "98919",
+          "relatert_sak_korttittel": "Revidert nasjonalbudsjett 2024"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[3]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:04.9585012+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "fellesinnst",
+          "relatert_sak_id": "98918",
+          "relatert_sak_korttittel": "Tilleggsbevilgninger og omprioriteringer i statsbudsjettet 2024"
+        }
+      },
+      {
+        "xpath": "/*/*[16]/*[4]",
+        "fields": {
+          "respons_dato_tid": "2026-10-28T12:43:04.9585012+01:00",
+          "versjon": "1.6",
+          "relasjon_type": "sakgrunnlag",
+          "relatert_sak_id": "98918",
+          "relatert_sak_korttittel": "Tilleggsbevilgninger og omprioriteringer i statsbudsjettet 2024"
+        }
+      }
+    ]
+  },
+  {
+    "source": "tests/fixtures/b8/sak-100927.xml",
+    "publication_references": [
+      {
+        "xpath": "/*/*[13]/*[1]",
+        "fields": {
+          "respons_dato_tid": "2026-10-22T11:04:47.8258267+02:00",
+          "versjon": "1.6",
+          "eksport_id": null,
+          "lenke_tekst": "Prop. 16 S (2024-2025)",
+          "lenke_url": "http://www.regjeringen.no/id/PRP202420250016000DDDEPIS",
+          "type": "regjering",
+          "undertype": "proposisjon"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[2]",
+        "fields": {
+          "respons_dato_tid": "2026-10-22T11:04:47.8258267+02:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202425-11-26",
+          "lenke_tekst": "Stortingsreferat 26.11.2024",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-11-26/referatsaker/",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[3]",
+        "fields": {
+          "respons_dato_tid": "2026-10-22T11:04:47.9351146+02:00",
+          "versjon": "1.6",
+          "eksport_id": "inns-202425-081s",
+          "lenke_tekst": "Innst. 81 S (2024-2025)",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-081s/",
+          "type": "innstilling",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[4]",
+        "fields": {
+          "respons_dato_tid": "2026-10-22T11:04:48.9504386+02:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202425-12-16",
+          "lenke_tekst": "Stortingsreferat 16.12.2024",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-16/25",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[5]",
+        "fields": {
+          "respons_dato_tid": "2026-10-22T11:04:48.9504386+02:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202425-12-16",
+          "lenke_tekst": "Stortingsreferat 16.12.2024",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-16/voteringer#161224-25",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      }
+    ],
+    "case_relations": [
+      {
+        "xpath": "/*/*[16]/*",
+        "fields": {
+          "respons_dato_tid": "2026-10-22T11:04:47.7476409+02:00",
+          "versjon": "1.6",
+          "relasjon_type": "sammekilde",
+          "relatert_sak_id": "100889",
+          "relatert_sak_korttittel": "Endringer i statsbudsjettet 2024 under Klima- og miljødepartementet"
+        }
+      }
+    ]
+  },
+  {
+    "source": "tests/fixtures/b8/sak-100889.xml",
+    "publication_references": [
+      {
+        "xpath": "/*/*[13]/*[1]",
+        "fields": {
+          "respons_dato_tid": "2026-10-22T11:05:44.801872+02:00",
+          "versjon": "1.6",
+          "eksport_id": null,
+          "lenke_tekst": "Prop. 16 S (2024-2025)",
+          "lenke_url": "http://www.regjeringen.no/id/PRP202420250016000DDDEPIS",
+          "type": "regjering",
+          "undertype": "proposisjon"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[2]",
+        "fields": {
+          "respons_dato_tid": "2026-10-22T11:05:44.801872+02:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202425-11-26",
+          "lenke_tekst": "Stortingsreferat 26.11.2024",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-11-26/referatsaker/",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[3]",
+        "fields": {
+          "respons_dato_tid": "2026-10-22T11:05:44.801872+02:00",
+          "versjon": "1.6",
+          "eksport_id": "inns-202425-095s",
+          "lenke_tekst": "Innst. 95 S (2024-2025)",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-095s/",
+          "type": "innstilling",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[4]",
+        "fields": {
+          "respons_dato_tid": "2026-10-22T11:05:44.801872+02:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202425-12-18",
+          "lenke_tekst": "Stortingsreferat 18.12.2024",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-18/13",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      },
+      {
+        "xpath": "/*/*[13]/*[5]",
+        "fields": {
+          "respons_dato_tid": "2026-10-22T11:05:44.801872+02:00",
+          "versjon": "1.6",
+          "eksport_id": "refs-202425-12-18",
+          "lenke_tekst": "Stortingsreferat 18.12.2024",
+          "lenke_url": "//www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-18/voteringer#181224-13",
+          "type": "referat",
+          "undertype": "storting"
+        }
+      }
+    ],
+    "case_relations": [
+      {
+        "xpath": "/*/*[16]/*",
+        "fields": {
+          "respons_dato_tid": "2026-10-22T11:05:44.7338501+02:00",
+          "versjon": "1.6",
+          "relasjon_type": "sammekilde",
+          "relatert_sak_id": "100927",
+          "relatert_sak_korttittel": "Endringer i statsbudsjettet 2024 under Klima- og miljødepartementet"
+        }
+      }
+    ]
+  }
+]

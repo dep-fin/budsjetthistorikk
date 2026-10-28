@@ -1,0 +1,12 @@
+{
+  "file": "raw/inns-447.html",
+  "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2023-2024/inns-202324-447s/?all=true",
+  "fetched_utc": "2026-10-22T07:04:03.260568+00:00",
+  "status": 200,
+  "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2023-2024/inns-202324-447s/?all=true",
+  "bytes": 28647675,
+  "sha256": "be1d2a2cc02d7d9af7fa3b97e59a2183b26511a93c8fadc85f5c428cf6126b41",
+  "archive": "inns447-inherited.html.gz",
+  "reuse_note": "previous original now preserved losslessly; not new HTTP; inherited metadata unmodified fields",
+  "reused_from_local_path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-decisions\\raw\\inns-447.html"
+}

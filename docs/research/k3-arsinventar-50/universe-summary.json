@@ -1,0 +1,38 @@
+[
+  {
+    "session": "2023-2024",
+    "decisions": 923,
+    "types": {
+      "ANMOD": 268,
+      "ANNET": 426,
+      "BUDSJETT": 225,
+      "GRUNNLOV": 1,
+      "RO": 3
+    },
+    "dictionary_hits_by_type": {
+      "ANNET": 5,
+      "BUDSJETT": 7
+    },
+    "parent": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+    "uncompressed_sha256": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+    "cases": 637
+  },
+  {
+    "session": "2024-2025",
+    "decisions": 1260,
+    "types": {
+      "ANMOD": 485,
+      "ANNET": 517,
+      "BUDSJETT": 257,
+      "RO": 1
+    },
+    "dictionary_hits_by_type": {
+      "ANMOD": 1,
+      "ANNET": 5,
+      "BUDSJETT": 7
+    },
+    "parent": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+    "uncompressed_sha256": "c5f3b90046d23a0e4cacb24f681a01d7e5fd4468ab68fc3d646dc832bb9a4b42",
+    "cases": 727
+  }
+]

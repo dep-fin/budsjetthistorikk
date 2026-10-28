@@ -1,0 +1,1148 @@
+[
+  {
+    "id": "40031491",
+    "session": "2023-2024",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+    "source_sha256_uncompressed": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40031491']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "2946e1bb636e5335b2ddd9536566598b50234fe776fb2af4a668e69c06c68d58",
+    "opening_text": "Budsjettkapitlene i forslaget til statsbudsjett for budsjettåret 2024 (Prop. 1 S (2023–2024)) fordeles til stortingskomiteene slik: ARBEIDS- OG SOSIALKOMITEEN Rammeområde 7 (Arbeid og sosial) I Utgifter Inntekter Kap. Kap. 352 Nedsatt funksjonsevne 505 Boliglånsordningen i Statens pensjonskasse 3505 Boliglånsordningen i Statens pensjonskasse 506 Yrkesskadeforsikring 3506 Yrkesskadeforsikring 507 Gruppelivsforsikring 3507 Gruppelivsforsikring 600 ",
+    "chapter_blocks": [
+      {
+        "table_xpath": "/html/body/div/div/div[9]/table",
+        "rows": [
+          {
+            "xpath": "/html/body/div/div/div[9]/table/tbody/tr[20]",
+            "cells": [
+              "1429",
+              "Riksantikvaren",
+              "4429",
+              "Riksantikvaren"
+            ]
+          }
+        ],
+        "row_number_note": "DOM tbody rows exclude header. Legacy table[1]/tr[n] flattens header and body, so is one higher here."
+      }
+    ]
+  },
+  {
+    "id": "40032936",
+    "session": "2023-2024",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+    "source_sha256_uncompressed": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40032936']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "f8f4881d979b6e31d0f6a3cc2eb37b49a5443ddc319688cad3d029e0ff770bbc",
+    "opening_text": "I statsbudsjettet for 2023 gjøres følgende endringer: Kap. Post Formål Kroner Utgifter 1429 Riksantikvaren 1 Driftsutgifter, reduseres med 5 000 000 fra kr 163 110 000 til kr 158 110 000 22 Flerårige prosjekter kulturminneforvaltning,kan overføres, økes med 6 000 000 fra kr 30 366 000 til kr 36 366 000 71 Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres, reduseres med 2 000 000 fra kr 145 808 000 til ",
+    "chapter_blocks": [
+      {
+        "table_xpath": "/html/body/div/div/div/table",
+        "rows": [
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[2]",
+            "cells": [
+              "1429",
+              "",
+              "Riksantikvaren",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[3]",
+            "cells": [
+              "",
+              "1",
+              "Driftsutgifter, reduseres med",
+              "5 000 000"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[4]",
+            "cells": [
+              "",
+              "",
+              "fra kr 163 110 000 til kr 158 110 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[5]",
+            "cells": [
+              "",
+              "22",
+              "Flerårige prosjekter kulturminneforvaltning,kan overføres, økes med",
+              "6 000 000"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[6]",
+            "cells": [
+              "",
+              "",
+              "fra kr 30 366 000 til kr 36 366 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[7]",
+            "cells": [
+              "",
+              "71",
+              "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres, reduseres med",
+              "2 000 000"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[8]",
+            "cells": [
+              "",
+              "",
+              "fra kr 145 808 000 til kr 143 808 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[9]",
+            "cells": [
+              "",
+              "73",
+              "Tilskudd til bygninger og anlegg fra middelalderen og brannsikring,kan overføres, økes med",
+              "1 000 000"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[10]",
+            "cells": [
+              "",
+              "",
+              "fra kr 62 637 000 til kr 63 637 000",
+              ""
+            ]
+          }
+        ],
+        "row_number_note": "DOM tbody rows exclude header. Legacy table[1]/tr[n] flattens header and body, so is one higher here."
+      }
+    ]
+  },
+  {
+    "id": "40033007",
+    "session": "2023-2024",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+    "source_sha256_uncompressed": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40033007']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "f9d248d706b4e4c40c1316356168525e440690bdfdd73479268d42e97933f8d8",
+    "opening_text": "I statsbudsjettet 2023 gjøres følgende endringer: Kap. Post Formål Kroner Utgifter 1400 Klima- og miljødepartementet 21 Spesielle driftsutgifter, økes med 860 000 fra kr 77 803 000 til kr 78 663 000 71 Internasjonale organisasjoner, økes med 4 955 000 fra kr 93 285 000 til kr 98 240 000 76 Støtte til nasjonale og internasjonale miljøtiltak, kan overføres, reduseres med 13 626 000 fra kr 104 428 000 til kr 90 802 000 1412 Meteorologiformål 50 Mete",
+    "chapter_blocks": [
+      {
+        "table_xpath": "/html/body/div/div/div/table",
+        "rows": [
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[29]",
+            "cells": [
+              "1429",
+              "",
+              "Riksantikvaren",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[30]",
+            "cells": [
+              "",
+              "1",
+              "Driftsutgifter, reduseres med",
+              "5 000 000"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[31]",
+            "cells": [
+              "",
+              "",
+              "fra kr 163 110 000 til kr 158 110 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[32]",
+            "cells": [
+              "",
+              "22",
+              "Flerårige prosjekter kulturminneforvaltning, kan overføres, økes med",
+              "6 000 000"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[33]",
+            "cells": [
+              "",
+              "",
+              "fra kr 30 366 000 til kr 36 366 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[34]",
+            "cells": [
+              "",
+              "71",
+              "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres, reduseres med",
+              "2 000 000"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[35]",
+            "cells": [
+              "",
+              "",
+              "fra kr 145 808 000 til kr 143 808 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[36]",
+            "cells": [
+              "",
+              "73",
+              "Tilskudd til bygninger og anlegg fra middelalderen og brannsikring, kan overføres, økes med",
+              "1 000 000"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[37]",
+            "cells": [
+              "",
+              "",
+              "fra kr 62 637 000 til kr 63 637 000",
+              ""
+            ]
+          }
+        ],
+        "row_number_note": "DOM tbody rows exclude header. Legacy table[1]/tr[n] flattens header and body, so is one higher here."
+      }
+    ]
+  },
+  {
+    "id": "40033010",
+    "session": "2023-2024",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+    "source_sha256_uncompressed": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40033010']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "05a17ffa2e959b4243e4d834b90a751a6f0d3350f9f5551c7648565406547cfd",
+    "opening_text": "I statsbudsjettet for 2023 blir det gjort følgende endringer: Kap. Post Formål Kroner Utgifter 1800 Olje- og energidepartementet: 21 Spesielle driftsutgifter, kan overførast, kan nyttast under postane 50, 71 og 72, blir auka med 234 000 frå kr 38 769 000 til kr 39 003 000 70 Tilskot til internasjonale organisasjonar mv., blir auka med 1 100 000 frå kr 8 800 000 til kr 9 900 000 1810 Oljedirektoratet: 21 Spesielle driftsutgifter, kan overførast, b",
+    "chapter_blocks": []
+  },
+  {
+    "id": "40033719",
+    "session": "2023-2024",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+    "source_sha256_uncompressed": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40033719']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "41d4804ee1dd7e298385543cee8439f779a712f9aa69d725abbd23a362d063e6",
+    "opening_text": "I statsbudsjettet for 2024 gjøres følgende endringer: Kap. Post Formål Kroner Kroner 21 Statsrådet 1 Driftsutgifter,økes med 12 000 000 fra kr 180 299 000 til kr 192 299 000 24 Regjeringsadvokaten 1 Driftsutgifter,økes med 3 800 000 fra kr 119 438 000 til kr 123 238 000 41 Stortinget 21 Spesielle driftsutgifter, kan overføres,økes med 613 000 fra kr 800 000 til kr 1 413 000 74 Reisetilskudd til skoler,økes med 500 000 fra kr 5 800 000 til kr 6 30",
+    "chapter_blocks": [
+      {
+        "table_xpath": "/html/body/div/div/div/table",
+        "rows": [
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[821]",
+            "cells": [
+              "1429",
+              "",
+              "Riksantikvaren",
+              "",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[822]",
+            "cells": [
+              "",
+              "1",
+              "Driftsutgifter,reduseres med",
+              "",
+              "1 000 000"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[823]",
+            "cells": [
+              "",
+              "",
+              "fra kr 161 243 000 til kr 160 243 000",
+              "",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[824]",
+            "cells": [
+              "",
+              "60",
+              "Kulturminnekompetanse i kommunene,økes med",
+              "",
+              "5 000 000"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[825]",
+            "cells": [
+              "",
+              "",
+              "fra kr 9 406 000 til kr 14 406 000",
+              "",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[826]",
+            "cells": [
+              "",
+              "70",
+              "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+              "",
+              "2 000 000"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[827]",
+            "cells": [
+              "",
+              "",
+              "fra kr 41 522 000 til kr 43 522 000",
+              "",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[828]",
+            "cells": [
+              "",
+              "71",
+              "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres,reduseres med",
+              "",
+              "2 000 000"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[829]",
+            "cells": [
+              "",
+              "",
+              "fra kr 151 889 000 til kr 149 889 000",
+              "",
+              ""
+            ]
+          }
+        ],
+        "row_number_note": "DOM tbody rows exclude header. Legacy table[1]/tr[n] flattens header and body, so is one higher here."
+      }
+    ]
+  },
+  {
+    "id": "40032729",
+    "session": "2023-2024",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+    "source_sha256_uncompressed": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40032729']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "2ac032bff9a3f81de0105ec051fc10b10c3247d7e97c0be75d152ad4419c85b2",
+    "opening_text": "På statsbudsjettet for 2024 bevilges under: Kap. Post Formål Kroner Kroner Inntekter 5501 Skatter på formue og inntekt 70 Trinnskatt og formuesskatt mv. 118 001 000 000 72 Fellesskatt mv. fra personlige skattytere 155 900 000 000 74 Selskapsskatter mv. fra upersonlige skattytere utenom petroleum 129 200 000 000 76 Kildeskatt på utbytte 10 000 000 000 77 Kildeskatt på rentebetalinger 100 000 000 78 Kildeskatt på royaltybetalinger 200 000 79 Kildes",
+    "chapter_blocks": []
+  },
+  {
+    "id": "40032892",
+    "session": "2023-2024",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+    "source_sha256_uncompressed": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40032892']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "b5e7f86a1a0e73f22a39c640f85b1f0750fcc2145ed3d77fbeec76a2aadd8bbc",
+    "opening_text": "På statsbudsjettet for 2024 bevilges under: Kap. Post Svalbardbudsjettet Per post kr Sum kap. kr Utgifter 1 Tilskudd til Svalbard kirke 70 Tilskudd til Svalbard kirke 6 000 000 6 000 000 3 Tilskudd til Longyearbyen lokalstyre 50 Tilskudd til Longyearbyen lokalstyre 174 200 000 174 200 000 4 Tilskudd til Svalbard Museum 70 Tilskudd til Svalbard Museum 14 900 000 14 900 000 5 Sysselmesteren (jf. kap. 3005) 1 Driftsutgifter 90 100 000 90 100 000 6 S",
+    "chapter_blocks": []
+  },
+  {
+    "id": "40032928",
+    "session": "2023-2024",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+    "source_sha256_uncompressed": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40032928']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "c77af006d591f3e026cb94eda4c31c0021da84c107194093e4cf6b28dd256cf4",
+    "opening_text": "På statsbudsjettet for 2024 bevilges under: Kap. Post Formål Kroner Kroner Utgifter 300 Kultur- og likestillingsdepartementet 1 Driftsutgifter 196 369 000 21 Spesielle driftsutgifter 1 210 000 78 Tilskudd til priser og konkurranser m.m. 12 730 000 79 Til disposisjon 16 290 000 315 Frivillighetsformål 21 Forskning, utredning og spesielle driftsutgifter, kan overføres 10 850 000 60 Tilskudd til frivilligsentraler 259 250 000 70 Merverdiavgiftskompe",
+    "chapter_blocks": [
+      {
+        "table_xpath": "/html/body/div/div/div/table",
+        "rows": [
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[100]",
+            "cells": [
+              "1429",
+              "",
+              "Riksantikvaren",
+              "",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[101]",
+            "cells": [
+              "",
+              "1",
+              "Driftsutgifter",
+              "161 243 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[102]",
+            "cells": [
+              "",
+              "21",
+              "Spesielle driftsutgifter",
+              "31 777 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[103]",
+            "cells": [
+              "",
+              "22",
+              "Flerårige prosjekter kulturminneforvaltning, kan overføres",
+              "32 185 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[104]",
+            "cells": [
+              "",
+              "60",
+              "Kulturminnekompetanse i kommunene",
+              "9 406 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[105]",
+            "cells": [
+              "",
+              "70",
+              "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres",
+              "41 522 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[106]",
+            "cells": [
+              "",
+              "71",
+              "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap, kan overføres",
+              "151 889 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[107]",
+            "cells": [
+              "",
+              "72",
+              "Tilskudd til tekniske og industrielle kulturminner, kan overføres",
+              "62 298 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[108]",
+            "cells": [
+              "",
+              "73",
+              "Tilskudd til bygninger og anlegg fra middelalderen og brannsikring, kan overføres",
+              "57 850 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[109]",
+            "cells": [
+              "",
+              "74",
+              "Tilskudd til fartøyvern, kan overføres",
+              "75 120 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[110]",
+            "cells": [
+              "",
+              "75",
+              "Tilskudd til fartøyvernsentrene, kan overføres",
+              "18 552 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[111]",
+            "cells": [
+              "",
+              "77",
+              "Tilskudd til verdiskapningsarbeid på kulturminneområdet, kan overføres",
+              "7 986 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[112]",
+            "cells": [
+              "",
+              "79",
+              "Tilskudd til verdensarven, kan overføres",
+              "56 785 000",
+              ""
+            ]
+          }
+        ],
+        "row_number_note": "DOM tbody rows exclude header. Legacy table[1]/tr[n] flattens header and body, so is one higher here."
+      }
+    ]
+  },
+  {
+    "id": "40032933",
+    "session": "2023-2024",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+    "source_sha256_uncompressed": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40032933']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "b0dbbf330ee8e39df93da98754e1bfaa6f7d9cab349ad043f1efeb7978b3550f",
+    "opening_text": "Merinntektsfullmakter Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan: overskride bevilgningen under mot tilsvarende merinntekter under kap. 1429 post 1 kap. 4429 postene 2 og 9 Merinntekt som gir grunnlag for overskridelse, skal også dekke merverdiavgift knyttet til overskridelsen, og berører derfor også kap. 1633 post 1 for de statlige forvaltningsorganene som inngår i nettoordningen for merverdiavgift. Merinntekter og eventue",
+    "chapter_blocks": [],
+    "full_text": "Merinntektsfullmakter Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan: overskride bevilgningen under mot tilsvarende merinntekter under kap. 1429 post 1 kap. 4429 postene 2 og 9 Merinntekt som gir grunnlag for overskridelse, skal også dekke merverdiavgift knyttet til overskridelsen, og berører derfor også kap. 1633 post 1 for de statlige forvaltningsorganene som inngår i nettoordningen for merverdiavgift. Merinntekter og eventuelle mindreinntekter tas med i beregningen av overføring av ubrukt bevilgning til neste år."
+  },
+  {
+    "id": "40032934",
+    "session": "2023-2024",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+    "source_sha256_uncompressed": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40032934']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "1cc7153bea7401b4c46c43feed6eb1323758be76ae3d9acf050325b14831bcc0",
+    "opening_text": "Tilsagnsfullmakter Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan gi tilsagn om tilskudd utover gitte bevilgninger, men slik at samlet ramme for nye tilsagn og gammelt ansvar ikke overstiger følgende beløp: Kap. Post Betegnelse Samlet ramme 1429 Riksantikvaren 70 Tilskudd til automatisk fredete og andre arkeologiske kulturminner 61 mill. kroner 71 Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap 1",
+    "chapter_blocks": [
+      {
+        "table_xpath": "/html/body/div/div/div[2]/table",
+        "rows": [
+          {
+            "xpath": "/html/body/div/div/div[2]/table/tbody/tr[1]",
+            "cells": [
+              "1429",
+              "",
+              "Riksantikvaren",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div[2]/table/tbody/tr[2]",
+            "cells": [
+              "",
+              "70",
+              "Tilskudd til automatisk fredete og andre arkeologiske kulturminner",
+              "61 mill. kroner"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div[2]/table/tbody/tr[3]",
+            "cells": [
+              "",
+              "71",
+              "Tilskudd til fredete kulturminner i privat eie, kulturmiljøer og kulturlandskap",
+              "15 mill. kroner"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div[2]/table/tbody/tr[4]",
+            "cells": [
+              "",
+              "72",
+              "Tilskudd til tekniske og industrielle kulturminner",
+              "10 mill. kroner"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div[2]/table/tbody/tr[5]",
+            "cells": [
+              "",
+              "73",
+              "Tilskudd til bygninger og anlegg fra middelalderen og brannsikring",
+              "17 mill. kroner"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div[2]/table/tbody/tr[6]",
+            "cells": [
+              "",
+              "74",
+              "Tilskudd til fartøyvern",
+              "10 mill. kroner"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div[2]/table/tbody/tr[7]",
+            "cells": [
+              "",
+              "75",
+              "Tilskudd til fartøyvernsentrene",
+              "1 mill. kroner"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div[2]/table/tbody/tr[8]",
+            "cells": [
+              "",
+              "77",
+              "Tilskudd til verdiskapningsarbeid på kulturminneområdet",
+              "5 mill. kroner"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div[2]/table/tbody/tr[9]",
+            "cells": [
+              "",
+              "79",
+              "Tilskudd til verdensarven",
+              "20 mill. kroner"
+            ]
+          }
+        ],
+        "row_number_note": "DOM tbody rows exclude header. Legacy table[1]/tr[n] flattens header and body, so is one higher here."
+      }
+    ]
+  },
+  {
+    "id": "40032938",
+    "session": "2023-2024",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+    "source_sha256_uncompressed": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40032938']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "32f9619f2926284014d1a65c5848074153507b27573df9082254f842603553d9",
+    "opening_text": "På statsbudsjettet for 2024 bevilges under: Kap. Post Formål Kroner Kroner Utgifter 916 Kystverket 1 Driftsutgifter, kan nyttes under post 45 1 155 600 000 21 Spesielle driftsutgifter, kan overføres 36 100 000 22 Driftsutgifter brukerfinansierte tjenester, kan overføres, kan nyttes under post 46 1 050 434 000 30 Nyanlegg og større vedlikehold, kan overføres 903 778 000 45 Større utstyrsanskaffelser og vedlikehold, kan overføres, kan nyttes under ",
+    "chapter_blocks": []
+  },
+  {
+    "id": "40032976",
+    "session": "2023-2024",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+    "source_sha256_uncompressed": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40032976']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "4ab519838d982a5b0e695544320c36af58fbbaea4be6f4e826a209cba434b85e",
+    "opening_text": "På statsbudsjettet for 2024 bevilges under: Kap. Post Formål Kroner Kroner Utgifter 954 Petoro AS 70 Tilskudd til administrasjon 396 108 000 1800 Energidepartementet 1 Driftsutgifter 246 100 000 21 Spesielle driftsutgifter, kan overføres, kan nyttes under postene 50, 71 og 72 33 000 000 50 Overføring til andre forvaltningsorganer, kan overføres 1 500 000 70 Tilskudd til internasjonale organisasjoner mv. 11 700 000 71 Norsk Oljemuseum 16 200 000 7",
+    "chapter_blocks": []
+  },
+  {
+    "id": "40033820",
+    "session": "2024-2025",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+    "source_sha256_uncompressed": "c5f3b90046d23a0e4cacb24f681a01d7e5fd4468ab68fc3d646dc832bb9a4b42",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40033820']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "6e56fdadd6467d22039e4a643c6eb391fc8e0bd8a963091af4d696c0209c1a41",
+    "opening_text": "Stortinget ber regjeringen utarbeide et forslag til endring i kulturminneloven som sikrer automatisk fredning av kvenske/norskfinske og skogfinske kulturminner i tråd med bestemmelsen for samiske kulturminner.",
+    "chapter_blocks": []
+  },
+  {
+    "id": "40033794",
+    "session": "2024-2025",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+    "source_sha256_uncompressed": "c5f3b90046d23a0e4cacb24f681a01d7e5fd4468ab68fc3d646dc832bb9a4b42",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40033794']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "2d8bfba4fe79e7d5cd628b6523f5a678e5275494c62babc2045dd9366a5c1191",
+    "opening_text": "Budsjettkapitlene i forslaget til statsbudsjett for budsjettåret 2025 (Prop. 1 S (2024–2025)) fordeles til stortingskomiteene slik: ARBEIDS- OG SOSIALKOMITEEN Rammeområde 7 (Arbeid og sosial) I Utgifter Inntekter Kap. Kap. 352 Nedsatt funksjonsevne 600 Arbeids- og inkluderingsdepartementet 601 Utredningsvirksomhet, forskning mv. 604 Utviklingstiltak i arbeids- og velferdsforvaltningen 605 Arbeids- og velferdsetaten 3605 Arbeids- og velferdsetaten",
+    "chapter_blocks": [
+      {
+        "table_xpath": "/html/body/div/div/div[9]/table",
+        "rows": [
+          {
+            "xpath": "/html/body/div/div/div[9]/table/tbody/tr[20]",
+            "cells": [
+              "1429",
+              "Riksantikvaren",
+              "4429",
+              "Riksantikvaren"
+            ]
+          }
+        ],
+        "row_number_note": "DOM tbody rows exclude header. Legacy table[1]/tr[n] flattens header and body, so is one higher here."
+      }
+    ]
+  },
+  {
+    "id": "40034048",
+    "session": "2024-2025",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+    "source_sha256_uncompressed": "c5f3b90046d23a0e4cacb24f681a01d7e5fd4468ab68fc3d646dc832bb9a4b42",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40034048']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "7b1dedb01e84a8f0a8f64b982f68ec8fd889e1d79016eef59e7bf6ad7da4c6ae",
+    "opening_text": "Kap. Post Formål Kroner 1429 Riksantikvaren 1 Driftsutgifter, økes med 5 796 000 fra kr 160 243 000 til kr 166 039 000 22 Flerårige prosjekter kulturminneforvaltning, kan overføres, reduseres med 3 000 000 fra kr 32 185 000 til kr 29 185 000",
+    "chapter_blocks": [
+      {
+        "table_xpath": "/html/body/div/div/div/table",
+        "rows": [
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[1]",
+            "cells": [
+              "1429",
+              "",
+              "Riksantikvaren",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[2]",
+            "cells": [
+              "",
+              "1",
+              "Driftsutgifter, økes med",
+              "5 796 000"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[3]",
+            "cells": [
+              "",
+              "",
+              "fra kr 160 243 000 til kr 166 039 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[4]",
+            "cells": [
+              "",
+              "22",
+              "Flerårige prosjekter kulturminneforvaltning, kan overføres, reduseres med",
+              "3 000 000"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[5]",
+            "cells": [
+              "",
+              "",
+              "fra kr 32 185 000 til kr 29 185 000",
+              ""
+            ]
+          }
+        ],
+        "row_number_note": "DOM tbody rows exclude header. Legacy table[1]/tr[n] flattens header and body, so is one higher here."
+      }
+    ]
+  },
+  {
+    "id": "40034049",
+    "session": "2024-2025",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+    "source_sha256_uncompressed": "c5f3b90046d23a0e4cacb24f681a01d7e5fd4468ab68fc3d646dc832bb9a4b42",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40034049']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "585f30630d65d40c7515db19e5b24cc0975586e5c790afc9b8ae49840e14e92a",
+    "opening_text": "Stikkordsfullmakt Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan tilføye stikkordet «kan overføres» til bevilgning under kap. 1429 Riksantikvaren, post 60 Kulturminnekompetanse i kommunene.",
+    "chapter_blocks": []
+  },
+  {
+    "id": "40035389",
+    "session": "2024-2025",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+    "source_sha256_uncompressed": "c5f3b90046d23a0e4cacb24f681a01d7e5fd4468ab68fc3d646dc832bb9a4b42",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40035389']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "fbcc8a43c2cb1f74e43d51ed3642ec9bc1f2d46cae720acc6dade7cf40dcbdb6",
+    "opening_text": "I Stortingets forretningsorden gjøres følgende endringer: § 1 tredje ledd nytt femte punktum skal lyde: Hvis klagebehandlingen i riksvalgstyret ikke er avsluttet når Stortinget avgjør om valget er gyldig, kan stortingsrepresentantenes fullmakter bare godkjennes midlertidig. § 1 sjette ledd skal lyde: Ved omvalg og nye valgoppgjør som riksvalgstyret, Stortinget eller Høyesterett påbyr etter valgloven § 17-1, jf. §§ 16-11 og 15-1 eller § 16-12,skal",
+    "chapter_blocks": []
+  },
+  {
+    "id": "40035422",
+    "session": "2024-2025",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+    "source_sha256_uncompressed": "c5f3b90046d23a0e4cacb24f681a01d7e5fd4468ab68fc3d646dc832bb9a4b42",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40035422']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "a426d99a5487890f698abed8ac71c867f1a4a238e5fee7bd87db3bf3a11d101c",
+    "opening_text": "I statsbudsjettet for 2025 gjøres følgende endringer: Kap. Post Formål Kroner Kroner 20 Statsministerens kontor 1 Driftsutgifter,reduseres med 6 000 000 fra kr 116 121 000 til kr 110 121 000 21 Statsrådet 1 Driftsutgifter,økes med 8 200 000 fra kr 197 674 000 til kr 205 874 000 41 Stortinget 45 Større utstyrsanskaffelser og vedlikehold, kan overføres,økes med 9 700 000 fra kr 175 247 000 til kr 184 947 000 70 Tilskudd til partigruppene,økes med 3",
+    "chapter_blocks": [
+      {
+        "table_xpath": "/html/body/div/div/div/table",
+        "rows": [
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[784]",
+            "cells": [
+              "1429",
+              "",
+              "Riksantikvaren",
+              "",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[785]",
+            "cells": [
+              "",
+              "70",
+              "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres,økes med",
+              "",
+              "5 000 000"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[786]",
+            "cells": [
+              "",
+              "",
+              "fra kr 41 952 000 til kr 46 952 000",
+              "",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[787]",
+            "cells": [
+              "",
+              "73",
+              "Tilskudd til bygninger og anlegg fra middelalderen og brannsikring, kan overføres,reduseres med",
+              "",
+              "5 000 000"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[788]",
+            "cells": [
+              "",
+              "",
+              "fra kr 52 850 000 til kr 47 850 000",
+              "",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[789]",
+            "cells": [
+              "",
+              "79",
+              "Tilskudd til verdensarven, kan overføres,økes med",
+              "",
+              "5 000 000"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[790]",
+            "cells": [
+              "",
+              "",
+              "fra kr 56 785 000 til kr 61 785 000",
+              "",
+              ""
+            ]
+          }
+        ],
+        "row_number_note": "DOM tbody rows exclude header. Legacy table[1]/tr[n] flattens header and body, so is one higher here."
+      }
+    ]
+  },
+  {
+    "id": "40033946",
+    "session": "2024-2025",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+    "source_sha256_uncompressed": "c5f3b90046d23a0e4cacb24f681a01d7e5fd4468ab68fc3d646dc832bb9a4b42",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40033946']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "eae86fbee611efa233af506a76fd928deaec656f80e670a1c8399246f3e2344d",
+    "opening_text": "På statsbudsjettet for 2025 bevilges under: Kap. Post Formål Kroner Kroner Inntekter 5501 Skatter på formue og inntekt 70 Trinnskatt og formuesskatt mv. 136 080 500 000 72 Fellesskatt mv. fra personlige skattytere 151 372 500 000 74 Selskapsskatter mv. fra upersonlige skattytere utenom petroleum 129 100 000 000 76 Kildeskatt på utbytte 13 250 000 000 77 Kildeskatt på rentebetalinger 25 000 000 78 Kildeskatt på royaltybetalinger 300 000 79 Kildesk",
+    "chapter_blocks": []
+  },
+  {
+    "id": "40034002",
+    "session": "2024-2025",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+    "source_sha256_uncompressed": "c5f3b90046d23a0e4cacb24f681a01d7e5fd4468ab68fc3d646dc832bb9a4b42",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40034002']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "2f8f61d6d83467fc4ddcdc0f6cff82d727144801efbce3199eeb395d955fe202",
+    "opening_text": "På statsbudsjettet for 2025 bevilges under: Kap. Post Formål Kroner Kroner Utgifter 916 Kystverket 1 Driftsutgifter, kan nyttes under post 45 1 295 560 000 21 Spesielle driftsutgifter, kan overføres 87 472 000 22 Driftsutgifter brukerfinansierte tjenester, kan overføres, kan nyttes under post 46 1 090 350 000 30 Nyanlegg og større vedlikehold, kan overføres 936 148 000 45 Større utstyrsanskaffelser og vedlikehold, kan overføres, kan nyttes under ",
+    "chapter_blocks": []
+  },
+  {
+    "id": "40034038",
+    "session": "2024-2025",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+    "source_sha256_uncompressed": "c5f3b90046d23a0e4cacb24f681a01d7e5fd4468ab68fc3d646dc832bb9a4b42",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40034038']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "5ac8a4f665c4a878722abb9735fe01071e23add6f480f866507238a3ab15a9d8",
+    "opening_text": "På statsbudsjettet for 2025 bevilges under: Kap. Post Formål Kroner Kroner Utgifter 300 Kultur- og likestillingsdepartementet 1 Driftsutgifter 203 584 000 21 Spesielle driftsutgifter 1 200 000 78 Tilskudd til priser og konkurranser m.m. 9 925 000 79 Til disposisjon 14 500 000 315 Frivillighetsformål 21 Forskning, utredning og spesielle driftsutgifter, kan overføres 13 200 000 60 Tilskudd til frivilligsentraler 271 250 000 70 Merverdiavgiftskompen",
+    "chapter_blocks": [
+      {
+        "table_xpath": "/html/body/div/div/div/table",
+        "rows": [
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[99]",
+            "cells": [
+              "1429",
+              "",
+              "Riksantikvaren",
+              "",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[100]",
+            "cells": [
+              "",
+              "1",
+              "Driftsutgifter",
+              "163 173 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[101]",
+            "cells": [
+              "",
+              "21",
+              "Spesielle driftsutgifter",
+              "32 985 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[102]",
+            "cells": [
+              "",
+              "22",
+              "Flerårige prosjekt kulturmiljøforvaltning, kan overføres",
+              "33 408 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[103]",
+            "cells": [
+              "",
+              "60",
+              "Kulturmiljøkompetanse i kommunene",
+              "14 406 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[104]",
+            "cells": [
+              "",
+              "70",
+              "Tilskudd til automatisk fredete og andre arkeologiske kulturminner, kan overføres",
+              "41 952 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[105]",
+            "cells": [
+              "",
+              "71",
+              "Tilskudd til fredet kulturmiljø i privat eie, kan overføres",
+              "153 459 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[106]",
+            "cells": [
+              "",
+              "72",
+              "Tilskudd til tekniske og industrielle kulturminner, kan overføres",
+              "62 798 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[107]",
+            "cells": [
+              "",
+              "73",
+              "Tilskudd til bygninger og anlegg fra middelalderen og brannsikring, kan overføres",
+              "52 850 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[108]",
+            "cells": [
+              "",
+              "74",
+              "Tilskudd til fartøyvern, kan overføres",
+              "76 472 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[109]",
+            "cells": [
+              "",
+              "75",
+              "Tilskudd til fartøyvernsentrene, kan overføres",
+              "18 886 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[110]",
+            "cells": [
+              "",
+              "76",
+              "Tilskudd til utvalgte kulturlandskap i jordbruket og kulturlandskap i verdensarvområder, kan overføres",
+              "18 534 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[111]",
+            "cells": [
+              "",
+              "77",
+              "Tilskudd til verdiskapingsarbeid på kulturmiljøområdet, kan overføres",
+              "11 986 000",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div/table/tbody/tr[112]",
+            "cells": [
+              "",
+              "79",
+              "Tilskudd til verdensarven, kan overføres",
+              "56 785 000",
+              ""
+            ]
+          }
+        ],
+        "row_number_note": "DOM tbody rows exclude header. Legacy table[1]/tr[n] flattens header and body, so is one higher here."
+      }
+    ]
+  },
+  {
+    "id": "40034198",
+    "session": "2024-2025",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+    "source_sha256_uncompressed": "c5f3b90046d23a0e4cacb24f681a01d7e5fd4468ab68fc3d646dc832bb9a4b42",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40034198']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "cc9fa1ae0cdb4eba10a6a2e36af30c5e00466cfb2623c1ec5a0b705e36b71209",
+    "opening_text": "På statsbudsjettet for 2025 bevilges under: Kap. Post Svalbardbudsjettet Per post Sum kap. Utgifter 1 Tilskudd til Svalbard kirke 70 Tilskudd til Svalbard kirke 6 230 000 6 230 000 3 Tilskudd til Longyearbyen lokalstyre 50 Tilskudd til Longyearbyen lokalstyre 281 669 600 281 669 600 4 Tilskudd til Svalbard Museum 70 Tilskudd til Svalbard Museum 15 470 000 15 470 000 5 Sysselmesteren (jf. kap. 3005) 1 Driftsutgifter 95 500 000 95 500 000 6 Sysselm",
+    "chapter_blocks": []
+  },
+  {
+    "id": "40034231",
+    "session": "2024-2025",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+    "source_sha256_uncompressed": "c5f3b90046d23a0e4cacb24f681a01d7e5fd4468ab68fc3d646dc832bb9a4b42",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40034231']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "0b1b68122837e248d9d5752dbb551e7b9a609cd8b6ea86e6b009f0609ba33b3d",
+    "opening_text": "På statsbudsjettet for 2025 bevilges under: Kap. Post Formål Kroner Kroner Utgifter 954 Petoro AS 70 Tilskudd til administrasjon 434 000 000 1800 Energidepartementet 1 Driftsutgifter 261 041 000 21 Spesielle driftsutgifter, kan overføres, kan nyttes under postene 50, 71 og 72 39 300 000 50 Overføring til andre forvaltningsorganer, kan overføres 2 250 000 70 Tilskudd til internasjonale organisasjoner mv. 10 500 000 71 Norsk Oljemuseum 16 800 000 7",
+    "chapter_blocks": []
+  },
+  {
+    "id": "40034261",
+    "session": "2024-2025",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+    "source_sha256_uncompressed": "c5f3b90046d23a0e4cacb24f681a01d7e5fd4468ab68fc3d646dc832bb9a4b42",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40034261']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "3e02cd7636f08af95f4a65de7d40d84a7a21c934ea61b013ab1a25fea8bd981d",
+    "opening_text": "Merinntektsfullmakter Stortinget samtykker i at Klima- og miljødepartementet i 2025 kan: overskride bevilgningen under mot tilsvarende merinntekter under kap. 1429 post 1 kap. 4429 postene 2 og 9 Merinntekt som gir grunnlag for overskridelse, skal også dekke merverdiavgift knyttet til overskridelsen, og berører derfor også kap. 1633 post 1 for de statlige forvaltningsorganene som inngår i nettoordningen for merverdiavgift. Merinntekter og eventue",
+    "chapter_blocks": [],
+    "full_text": "Merinntektsfullmakter Stortinget samtykker i at Klima- og miljødepartementet i 2025 kan: overskride bevilgningen under mot tilsvarende merinntekter under kap. 1429 post 1 kap. 4429 postene 2 og 9 Merinntekt som gir grunnlag for overskridelse, skal også dekke merverdiavgift knyttet til overskridelsen, og berører derfor også kap. 1633 post 1 for de statlige forvaltningsorganene som inngår i nettoordningen for merverdiavgift. Merinntekter og eventuelle mindreinntekter tas med i beregningen av overføring av ubrukt bevilgning til neste år."
+  },
+  {
+    "id": "40034297",
+    "session": "2024-2025",
+    "source_path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+    "source_sha256_uncompressed": "c5f3b90046d23a0e4cacb24f681a01d7e5fd4468ab68fc3d646dc832bb9a4b42",
+    "xml_locator": "/s:stortingsvedtak_oversikt/s:stortingsvedtak_liste/s:stortingsvedtak[s:id='40034297']/s:stortingsvedtak_tekst",
+    "text_sha256_utf8": "2816f6bb2b2ce778037d71242c00f85bff7b63aa192af0bfa0ee277f9ae25a7c",
+    "opening_text": "Tilsagnsfullmakter Stortinget samtykker i at med Klima- og miljødepartementet i 2025 kan gi tilsagn om tilskudd utover gitte bevilgninger, men slik at samlet ramme for nye tilsagn og gammelt ansvar ikke overstiger følgende beløp: Kap. Post Betegnelse Samlet ramme 1429 Riksantikvaren 70 Tilskudd til automatisk fredete og andre arkeologiske kulturminner 61 mill. kroner 71 Tilskudd til fredet kulturmiljø i privat eie 15 mill. kroner 72 Tilskudd til ",
+    "chapter_blocks": [
+      {
+        "table_xpath": "/html/body/div/div/div[2]/table",
+        "rows": [
+          {
+            "xpath": "/html/body/div/div/div[2]/table/tbody/tr[1]",
+            "cells": [
+              "1429",
+              "",
+              "Riksantikvaren",
+              ""
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div[2]/table/tbody/tr[2]",
+            "cells": [
+              "",
+              "70",
+              "Tilskudd til automatisk fredete og andre arkeologiske kulturminner",
+              "61 mill. kroner"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div[2]/table/tbody/tr[3]",
+            "cells": [
+              "",
+              "71",
+              "Tilskudd til fredet kulturmiljø i privat eie",
+              "15 mill. kroner"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div[2]/table/tbody/tr[4]",
+            "cells": [
+              "",
+              "72",
+              "Tilskudd til tekniske og industrielle kulturminner",
+              "10 mill. kroner"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div[2]/table/tbody/tr[5]",
+            "cells": [
+              "",
+              "73",
+              "Tilskudd til bygninger og anlegg fra middelalderen og brannsikring",
+              "17 mill. kroner"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div[2]/table/tbody/tr[6]",
+            "cells": [
+              "",
+              "74",
+              "Tilskudd til fartøyvern",
+              "10 mill. kroner"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div[2]/table/tbody/tr[7]",
+            "cells": [
+              "",
+              "75",
+              "Tilskudd til fartøyvernsentrene",
+              "1,5 mill. kroner"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div[2]/table/tbody/tr[8]",
+            "cells": [
+              "",
+              "77",
+              "Tilskudd til verdiskapingsarbeid på kulturmiljøområdet",
+              "4 mill. kroner"
+            ]
+          },
+          {
+            "xpath": "/html/body/div/div/div[2]/table/tbody/tr[9]",
+            "cells": [
+              "",
+              "79",
+              "Tilskudd til verdensarven",
+              "15 mill. kroner"
+            ]
+          }
+        ],
+        "row_number_note": "DOM tbody rows exclude header. Legacy table[1]/tr[n] flattens header and body, so is one higher here."
+      }
+    ]
+  }
+]

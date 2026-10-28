@@ -1,0 +1,35 @@
+[
+  {
+    "session": "2023-2024",
+    "old_sha256": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+    "new_source": "ind-vedtak-2023-2024.xml",
+    "new_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+    "old_count": 923,
+    "new_count": 923,
+    "ids_added": [],
+    "ids_removed": [],
+    "canonical_object_changes": [],
+    "method": "lxml c14n of each complete stortingsvedtak object, comments false; response envelope remains independently preserved"
+  },
+  {
+    "session": "2024-2025",
+    "old_sha256": "c5f3b90046d23a0e4cacb24f681a01d7e5fd4468ab68fc3d646dc832bb9a4b42",
+    "new_source": "ind-vedtak-2024-2025.xml",
+    "new_sha256": "ff5013b2a37220af3254a69b574800f99a3d1fd44f1c6053f07d4b0e846c973c",
+    "old_count": 1260,
+    "new_count": 1260,
+    "ids_added": [],
+    "ids_removed": [],
+    "canonical_object_changes": [],
+    "method": "lxml c14n of each complete stortingsvedtak object, comments false; response envelope remains independently preserved"
+  },
+  {
+    "document": "Innst447",
+    "old_source": "inns447-inherited.html",
+    "new_source": "ind-inns447.html",
+    "old_bytes": 28647675,
+    "new_bytes": 28647669,
+    "normalized_main_text_equal": true,
+    "method": "decode UTF8, lxml HTML main text_content, collapse whitespace; no claim of whole HTML equivalence or earlier uncorrected version"
+  }
+]

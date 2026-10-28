@@ -2,6 +2,31 @@
 
 Dette er faglige og tekniske funn som skal brukes på tvers av agentøkter. Dokumentet ligger på main og gjelder også før hele forskningsarbeidet i #2 er ferdig. Funn, kildebevis og konsekvens holdes samlet.
 
+## K3: 1429/1 og /22 i 2024 – perioderegister med åpne helårshull
+
+**Kontrollert 28. oktober 2026 under #50:** [K3-undersøkelsen](research/k3-arsinventar-50/README.md)
+bevarer et eksplisitt kildeunivers, dekningsjournal og [M21-restusikkerhet](research/k3-arsinventar-50/m21.md).
+I tillegg til de tre kjente monetære vedtakene finnes **346/40032933**,
+19.12.2023: merinntektsfullmakt for **1429/1 i 2024** mot 4429/2 og /9.
+Den er et eget berørende fullmaktsledd, uten ny tallfestet bevilgningshendelse.
+Innst. 14 S har H-/FrP-standpunkter på /1 med nivå 153 620 000 / 156 243 000
+mot regjeringens 161 243 000; egne opprinnelige postvoteringer er ikke konstruert.
+Innst. 447 S har sju separate RNB-forslag som alle inneholder /1 −1 mill.,
+og som er kildebelagt forkastet. Like tall gir ingen ekstra vedtatt hendelse.
+
+Alle 2 183 vedtaksobjekter i to sesjoner er registrert uten type-/Prop.-filter;
+943 er ANNET. Nye komplette svar 28.10 har samme ID-er og kanoniserte objekter
+som de tidligere bevarte svarene. 25 ordkandidater har konkrete grunner;
+2 158 uten ordtreff er ikke semantisk ekskludert. Komplette saksindekser har
+1 364 poster og 67 lokaliserte kandidatposter, hvorav 60 fortsatt står åpne
+for fulltekst-/omfangskontroll. Prop. 36 S' kildeliste og foreslåtte årsstatus
+støtter det kjente delutvalget på sin dato, men beviser ikke full vedtaksdekning.
+
+**Konsekvens:** perioderegisteret må beholde fullmakt, forslag, alternativer,
+begrunnede feilårs-/postekskluderinger og globalt synlige ukjente kandidater.
+Fem kjente monetære posthendelser/elleve vedtaksfelt består. Positiv M21,
+faglig årssaldo, kontokontinuitet og drift er fortsatt egne åpne porter.
+
 ## To visninger: kildekontrollert grunnlag under #37
 
 **Kontrollert 23. oktober 2026 mot main `5423160`:** [#37-undersøkelsen](research/to-visninger-37/README.md) har bevart originaler, hasher, presise tekst-/tabellokatorer, aktør- og vedtakelsesbevis. [Planen](visningspilot-plan.md), [testmatrisen](research/to-visninger-37/testmatrise.md) og [ticketutkastene](research/to-visninger-37/tickets/README.md) er forslag før implementering. O2b er levert i PR #39; det er ingen generell dokument-/årsvisning.
