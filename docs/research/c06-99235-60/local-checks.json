@@ -1,0 +1,86 @@
+{
+  "schema": "c06-local-checks-1",
+  "base_commit": "49cc6e44851cf74e0aaea4eb333419e5598bfd95",
+  "checks": [
+    {
+      "id": "transport-probes",
+      "result": "checks/transport-probes.json",
+      "exit_code": 0,
+      "elapsed_seconds": 0.312
+    },
+    {
+      "id": "ruff-check",
+      "result": "checks/ruff-check.json",
+      "exit_code": 0,
+      "elapsed_seconds": 0.14
+    },
+    {
+      "id": "ruff-format",
+      "result": "checks/ruff-format.json",
+      "exit_code": 0,
+      "elapsed_seconds": 0.11
+    },
+    {
+      "id": "mypy",
+      "result": "checks/mypy.json",
+      "exit_code": 0,
+      "elapsed_seconds": 21.032
+    },
+    {
+      "id": "pytest-collection",
+      "result": "checks/pytest-collection.json",
+      "exit_code": 0,
+      "elapsed_seconds": 2.687
+    },
+    {
+      "id": "compatibility-tests",
+      "result": "checks/compatibility-tests.json",
+      "exit_code": 0,
+      "elapsed_seconds": 57.281
+    }
+  ],
+  "failures": 0,
+  "tdd_record": {
+    "red": "First run of test_acquire.py before acquire.py existed: ModuleNotFoundError; then implementation and green negative probes. Initial sandbox TemporaryDirectory/WinRT denials are documented in reproduction, not claimed passes.",
+    "boundary": "New capture helper only; product tests are unchanged compatibility probes."
+  },
+  "boundary": "Builder tests/statics/collection and a bounded actual JSON/Excel compatibility reread. No local full suite or independent review/audit; full Linux CI is an orchestrator gate.",
+  "current_research_python_files": [
+    {
+      "path": "docs/research/c06-99235-60/acquire.py",
+      "bytes": 6496,
+      "sha256": "7ff37e731f85554f1363b665198f22942aa9988ea646e89a9241a4c2bea1bf52"
+    },
+    {
+      "path": "docs/research/c06-99235-60/build_evidence.py",
+      "bytes": 24061,
+      "sha256": "03380fd32028fb1830731c54298a267deb00b7d2944da0e2b719349c73573334"
+    },
+    {
+      "path": "docs/research/c06-99235-60/extract_appendices.py",
+      "bytes": 2421,
+      "sha256": "65218c34f10655c0707464657f7d824433ef2db36ebe69ba30b5862e5f220d5c"
+    },
+    {
+      "path": "docs/research/c06-99235-60/refresh_manifest.py",
+      "bytes": 1854,
+      "sha256": "3672863e80ecd881a6dce9dc360b9b110b770d706f2456db35147bdc220d6478"
+    },
+    {
+      "path": "docs/research/c06-99235-60/test_acquire.py",
+      "bytes": 6115,
+      "sha256": "b8c6134b2c0f17b964bab7e3a2e5018af28bc94dc9aca1988c281d3445b6c83a"
+    },
+    {
+      "path": "docs/research/c06-99235-60/verify.py",
+      "bytes": 15798,
+      "sha256": "4caaa3297b50a259258122365408229198c77e7ff412d8a04e8a89bafaf6da37"
+    }
+  ],
+  "utf8_authoring_check": {
+    "files_checked": 17,
+    "encoding": "UTF-8",
+    "mojibake_markers_found": 0,
+    "boundary": "Authored prose/scripts/curated evidence only; not a claim of OCR accuracy."
+  }
+}

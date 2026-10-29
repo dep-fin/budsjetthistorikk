@@ -1,0 +1,26 @@
+{
+  "tracked_modified_paths": [
+    "docs/research/c06-99235-60/OVERLEVERING.md",
+    "docs/research/c06-99235-60/README.md",
+    "docs/research/c06-99235-60/delivery-manifest.json",
+    "docs/research/c06-99235-60/reproduksjon.md",
+    "docs/research/c06-99235-60/reviews/README.md",
+    "docs/research/c06-99235-60/verification.json"
+  ],
+  "all_four_status_documents_preserve_entire_published_byte_prefix": true,
+  "historical_original_files_preserved": 15,
+  "published_review_files_byte_identical_except_additive_overview": 21,
+  "delivery_manifest_paths_unchanged": 73,
+  "delivery_manifest_changed_rows": [
+    "docs/research/c06-99235-60/OVERLEVERING.md",
+    "docs/research/c06-99235-60/README.md",
+    "docs/research/c06-99235-60/reproduksjon.md",
+    "docs/research/c06-99235-60/verification.json"
+  ],
+  "delivery_manifest_total_bytes": 22745660,
+  "local_markdown_targets_checked": 73,
+  "source_admin_ref_absent": true,
+  "staging_unchanged": true,
+  "new_paths_confined_to_history": true,
+  "source_head": "9efa1f7b67e4ad5b2722b6a6604591af281e4e9c"
+}

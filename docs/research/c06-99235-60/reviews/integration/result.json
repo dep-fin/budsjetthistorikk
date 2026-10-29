@@ -1,0 +1,149 @@
+{
+  "schema": "c06-post-review-integration-1",
+  "checked_utc": "2026-10-29T17:26:46.693227+00:00",
+  "research_candidate": "9eb27cebf7ca4a99aeb30fa32245e41314e0d295",
+  "research_candidate_tree": "60dfabaec4e7c022e30c6a6389a622790fad11f5",
+  "base": "49cc6e44851cf74e0aaea4eb333419e5598bfd95",
+  "historical_review_files_preserved": 15,
+  "standards_helper_identical_ast": true,
+  "standards_fixed_candidate_result_identical_except_timestamp": true,
+  "standards_helper_stdout": {
+    "changed_paths": 74,
+    "preserved_base_files": 1070,
+    "python_files": 6,
+    "json_files": 37,
+    "failures": 0
+  },
+  "J02_only_byte_replacement": {
+    "before": "14 nøkkelsider er lest visuelt",
+    "after": "18 nøkkelsider er lest visuelt"
+  },
+  "unchanged_visual_pages": [
+    11,
+    12,
+    13,
+    14,
+    16,
+    39,
+    40,
+    50,
+    69,
+    77,
+    78,
+    79,
+    80,
+    82,
+    105,
+    106,
+    116,
+    135
+  ],
+  "unchanged_candidate_files": 1138,
+  "changed_research_candidate_paths": [
+    "docs/research/c06-99235-60/OVERLEVERING.md",
+    "docs/research/c06-99235-60/README.md",
+    "docs/research/c06-99235-60/cross-reference-journal.json",
+    "docs/research/c06-99235-60/delivery-manifest.json",
+    "docs/research/c06-99235-60/reproduksjon.md",
+    "docs/research/c06-99235-60/verification.json"
+  ],
+  "review_evidence_files": [
+    {
+      "path": "integration/check_candidate.py.original",
+      "bytes": 2967,
+      "sha256": "3be9e5b97ee774b635dc563150deaf79c2a51bd59b4544cd8632086ba0649950"
+    },
+    {
+      "path": "integration/original-review-files.json",
+      "bytes": 3004,
+      "sha256": "b9f9f32b030dbe8db06c851177d2873ed8bb98e19591a7015b844de535031702"
+    },
+    {
+      "path": "integration/verify_integration.py",
+      "bytes": 6076,
+      "sha256": "ceae2feca16449f1350ade55dc91a51650ac975f9f09856318e13f2b5d6007ab"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2358,
+      "sha256": "402c23b5f97f6808f643b80b365ce0caf68b090e9d69fcecab5508ed714bf471"
+    },
+    {
+      "path": "security/builder-transport-tests.txt",
+      "bytes": 1209,
+      "sha256": "8e93b64599b77e6de852e4a2be2f6f23d21584221f01cd68ceba692097fe16b7"
+    },
+    {
+      "path": "security/builder-verify-current.json",
+      "bytes": 2812,
+      "sha256": "8649bb23d217c46de5ee8a10ce8110a016c05c23c9a347f6af6fa81fec06f699"
+    },
+    {
+      "path": "security/README.md",
+      "bytes": 10195,
+      "sha256": "f98df9ab00f3f5a06ac692d314dcff365f7209082e8305eeea21680ddce1fe18"
+    },
+    {
+      "path": "security/security-results.json",
+      "bytes": 6279,
+      "sha256": "2aec63227b4a3613d38ff45549d1fea619cac39acb59e7c844ec72778262aae6"
+    },
+    {
+      "path": "security/security_checks.py",
+      "bytes": 27175,
+      "sha256": "74e74633d97bd5eed8c62457ef405a5fb73d71a8d00db928bee3a4029ee87a9a"
+    },
+    {
+      "path": "source/independent_check.py",
+      "bytes": 17987,
+      "sha256": "9aff7bc0cf0108aeaf6c7b4c695785f6ca992bfb5e3c560ef69682563f23c28d"
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 11745,
+      "sha256": "92b20abf90241669b91edce53def70bfd82e44385094eccafa60e494f7eafadd"
+    },
+    {
+      "path": "source/result.json",
+      "bytes": 309679,
+      "sha256": "dff7d0b1a6d95796029920d026d0bebc71c8ea68c0173a8b9971deba97c21c71"
+    },
+    {
+      "path": "source/runtime-result.json",
+      "bytes": 1978,
+      "sha256": "ce0cae617de76e0adcb9b86ef5b3021427be0be7d5ecdf1a2ca054ded9318cf6"
+    },
+    {
+      "path": "spec/README.md",
+      "bytes": 2621,
+      "sha256": "5c1b9b623cd4c376d7456f486a54c9edc764fcbbe4be9facfcf3c6af2dcd86e7"
+    },
+    {
+      "path": "spec/results.json",
+      "bytes": 70641,
+      "sha256": "be044c970cfceca9415b22a5f24ed4dd362931abd171c61b7fa5be6ca7e38ff5"
+    },
+    {
+      "path": "spec/verify_spec.py",
+      "bytes": 8381,
+      "sha256": "46242a8e4cab7285f9bab08181025c67c41da3fb0e0e6308b1b199201e2d4c30"
+    },
+    {
+      "path": "standards/candidate-checks.json",
+      "bytes": 5575,
+      "sha256": "95ddc6d2f13c5b8a3d77781e974ff2fa2f20c488e98dd66b9f20f1d19086be25"
+    },
+    {
+      "path": "standards/check_candidate.py",
+      "bytes": 3191,
+      "sha256": "de5064a1efd71b5e64294696feb4d440b2765e20958fef0998fe85d4ff97127c"
+    },
+    {
+      "path": "standards/README.md",
+      "bytes": 2417,
+      "sha256": "c8801b85a93e74fe3181289d6869fcaaef684035051d342cdf69a23bca6703b2"
+    }
+  ],
+  "failures": 0,
+  "boundary": "Additive working-file integration after the four fixed-9eb reviews. No original reviewer result/report rewritten. No new independent review, candidate commit, HTTP, full suite, Linux CI, PR or merge claimed. The subsequent committed candidate requires a bounded independent recheck."
+}

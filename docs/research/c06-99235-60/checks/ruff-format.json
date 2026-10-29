@@ -1,0 +1,19 @@
+{
+  "id": "ruff-format",
+  "argv": [
+    "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "ruff",
+    "format",
+    "--check",
+    "."
+  ],
+  "started_utc": "2026-10-29T17:00:18.286634+00:00",
+  "completed_utc": "2026-10-29T17:00:18.405829+00:00",
+  "elapsed_seconds": 0.11,
+  "exit_code": 0,
+  "output": "158 files already formatted\n",
+  "raw_captured_output_sha256": "1e2a3e2494e870c6c9673511106baaea0670f3f2754bba81ff924dc4a504d597",
+  "representation": "UTF-8 decoded combined process stdout/stderr; raw pipe bytes hash separately recorded",
+  "reason_for_repeat": "Four internal-appendix visual observations and explicit UTF-8 authoring corrections were added after initial research checks. Product code and earlier tested capture helper are unchanged."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "transport-probes",
+  "argv": [
+    "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\c06-99235\\docs\\research\\c06-99235-60\\test_acquire.py"
+  ],
+  "started_utc": "2026-10-29T16:52:43.694400+00:00",
+  "completed_utc": "2026-10-29T16:52:44.009813+00:00",
+  "elapsed_seconds": 0.312,
+  "exit_code": 0,
+  "output": "test_allowed (__main__.BoundaryTests.test_allowed) ... ok\r\ntest_complete_error_body_preserved (__main__.BoundaryTests.test_complete_error_body_preserved) ... ok\r\ntest_every_redirect_rejected_before_next_request (__main__.BoundaryTests.test_every_redirect_rejected_before_next_request) ... ok\r\ntest_existing_attempt_not_overwritten (__main__.BoundaryTests.test_existing_attempt_not_overwritten) ... ok\r\ntest_identifier_rejected_before_request (__main__.BoundaryTests.test_identifier_rejected_before_request) ... ok\r\ntest_partial_body_preserved (__main__.BoundaryTests.test_partial_body_preserved) ... ok\r\ntest_relative_and_second_redirect (__main__.BoundaryTests.test_relative_and_second_redirect) ... ok\r\ntest_start_rejected_before_request (__main__.BoundaryTests.test_start_rejected_before_request) ... ok\r\ntest_urllib_redirect_policy_never_follows_automatically (__main__.BoundaryTests.test_urllib_redirect_policy_never_follows_automatically) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 9 tests in 0.093s\r\n\r\nOK\r\n",
+  "raw_captured_output_sha256": "dab15f550d3779714e1663836c265fda0ef067b8d31874af9760f822a4f518f6",
+  "representation": "UTF-8 decoded combined process stdout/stderr; raw pipe bytes hash separately recorded"
+}

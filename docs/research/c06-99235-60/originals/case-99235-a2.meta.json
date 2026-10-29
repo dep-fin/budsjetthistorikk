@@ -1,0 +1,115 @@
+{
+  "id": "case-99235-a2",
+  "requested_url": "https://data.stortinget.no/eksport/sak?sakid=99235",
+  "started_utc": "2026-10-29T16:23:45.174379+00:00",
+  "request_headers": {
+    "User-Agent": "budsjetthistorikk-research/60",
+    "Accept-Encoding": "identity"
+  },
+  "representation": "HTTP response entity bytes as read by urllib; transfer framing/TLS excluded; Accept-Encoding identity; no decompression or text/line-ending normalization. Each HTTP hop has its own capture. Local gzip is an archive, not HTTP Content-Encoding.",
+  "state": "complete",
+  "hops": [
+    {
+      "url": "https://data.stortinget.no/eksport/sak?sakid=99235",
+      "started_utc": "2026-10-29T16:23:45.174379+00:00",
+      "state": "complete",
+      "status": 200,
+      "response_headers": [
+        [
+          "Cache-Control",
+          "public"
+        ],
+        [
+          "Content-Type",
+          "text/xml; charset=utf-8"
+        ],
+        [
+          "Expires",
+          "Thu, 29 Oct 2026 16:21:46 GMT"
+        ],
+        [
+          "Server",
+          "Microsoft-IIS/10.0"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=16070400; includeSubDomains"
+        ],
+        [
+          "Access-Control-Allow-Headers",
+          "content-type"
+        ],
+        [
+          "Access-Control-Allow-Origin",
+          "*"
+        ],
+        [
+          "X-Frame-Options",
+          "sameorigin"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer-when-downgrade"
+        ],
+        [
+          "Arr-Disable-Session-Affinity",
+          "true"
+        ],
+        [
+          "X-AspNet-Version",
+          "4.0.30319"
+        ],
+        [
+          "Request-Context",
+          "appId=cid-v1:f65c3fc2-55cc-4cb3-a6ec-85c3923903b8"
+        ],
+        [
+          "Access-Control-Expose-Headers",
+          "Request-Context"
+        ],
+        [
+          "X-Frame-Options",
+          "sameorigin"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "Feature-Policy",
+          "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer"
+        ],
+        [
+          "Date",
+          "Thu, 29 Oct 2026 16:23:45 GMT"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Length",
+          "12668"
+        ]
+      ],
+      "body_complete": true,
+      "archive": "case-99235-a2.hop0.gz",
+      "bytes": 12668,
+      "sha256": "fc125f3fb6d4f77464f99033f5c2afe04e6345272baa0445fa61ddef3036749c",
+      "archive_bytes": 2208,
+      "archive_sha256": "2d5ba97f07b6403c482b1068e1e609dd66f09417ec23f66a12a6b85c68fed700",
+      "completed_utc": "2026-10-29T16:23:46.095709+00:00"
+    }
+  ],
+  "final_url": "https://data.stortinget.no/eksport/sak?sakid=99235",
+  "status": 200,
+  "completed_utc": "2026-10-29T16:23:46.096777+00:00"
+}

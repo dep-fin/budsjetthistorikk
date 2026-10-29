@@ -1,0 +1,859 @@
+[
+  {
+    "utc": "2026-10-29T18:14:20.757368+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "bundle",
+      "create",
+      "docs/research/c06-99235-60/reviews/history/candidates.bundle",
+      "codex/c06-99235",
+      "^92b43c2ce7ec350e10639bd0c75540da0d83ee72",
+      "^92b43c2ce7ec350e10639bd0c75540da0d83ee72^{tree}"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:14:20.867521+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "bundle",
+      "verify",
+      "docs/research/c06-99235-60/reviews/history/candidates.bundle"
+    ],
+    "exit_code": 0,
+    "stdout": "The bundle contains this ref:\n9efa1f7b67e4ad5b2722b6a6604591af281e4e9c refs/heads/codex/c06-99235\nThe bundle requires these 2 refs:\n49cc6e44851cf74e0aaea4eb333419e5598bfd95 \n92b43c2ce7ec350e10639bd0c75540da0d83ee72 \nThe bundle uses this hash algorithm: sha1\n",
+    "stderr": "docs/research/c06-99235-60/reviews/history/candidates.bundle is okay\n"
+  },
+  {
+    "cwd": ".",
+    "argv": [
+      "python",
+      "- (temporary command recorder import)"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "ModuleNotFoundError: No module named 'c06_history_work'",
+    "explanation": "Ignored recorder filename contains hyphens; corrected by loading the same file through runpy.run_path."
+  },
+  {
+    "utc": "2026-10-29T18:15:22.891002+00:00",
+    "cwd": ".",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/reviews/history/create_bundle.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\r\n  \"bytes\": 22554,\r\n  \"sha256\": \"051ca0279fb61b5ddd3b77a83c09f172c8ac142e1cd2240dfac6fdca2ab7074d\",\r\n  \"pack_sha256\": \"a6dfa0c03889cffbbcc4d858ceb55fa7a1c10c8f2a75be5d191e806d308ad4ad\",\r\n  \"native_pack_bytes_preserved\": true,\r\n  \"prerequisites\": [\r\n    \"49cc6e44851cf74e0aaea4eb333419e5598bfd95\",\r\n    \"92b43c2ce7ec350e10639bd0c75540da0d83ee72\"\r\n  ],\r\n  \"head\": {\r\n    \"refs/c06-history/candidates\": \"9efa1f7b67e4ad5b2722b6a6604591af281e4e9c\"\r\n  },\r\n  \"verification\": \"The bundle contains this ref:\\n9efa1f7b67e4ad5b2722b6a6604591af281e4e9c refs/c06-history/candidates\\nThe bundle requires these 2 refs:\\n49cc6e44851cf74e0aaea4eb333419e5598bfd95 \\n92b43c2ce7ec350e10639bd0c75540da0d83ee72 \\nThe bundle uses this hash algorithm: sha1\\n\"\r\n}\r\n",
+    "stderr": "C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/c06-99235/docs/research/c06-99235-60/reviews/history/candidates.bundle is okay\n"
+  },
+  {
+    "utc": "2026-10-29T18:15:38.283107+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "init"
+    ],
+    "exit_code": 0,
+    "stdout": "Initialized empty Git repository in C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/c06-99235/.local/c06-portable-clone-a8aff8cc/.git/\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:15:38.960480+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "fetch",
+      "--no-tags",
+      "https://github.com/depmartin/budsjetthistorikk.git",
+      "refs/heads/codex/c06-99235"
+    ],
+    "exit_code": 128,
+    "stdout": "",
+    "stderr": "fatal: unable to access 'https://github.com/depmartin/budsjetthistorikk.git/': Could not resolve host: github.com\n"
+  },
+  {
+    "utc": "2026-10-29T18:16:18.525591+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "fetch",
+      "--no-tags",
+      "https://github.com/depmartin/budsjetthistorikk.git",
+      "refs/heads/codex/c06-99235"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "From https://github.com/depmartin/budsjetthistorikk\n * branch            codex/c06-99235 -> FETCH_HEAD\n"
+  },
+  {
+    "utc": "2026-10-29T18:18:06.284845+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "rev-parse",
+      "FETCH_HEAD"
+    ],
+    "exit_code": 0,
+    "stdout": "92b43c2ce7ec350e10639bd0c75540da0d83ee72\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:18:07.166592+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "checkout",
+      "--detach",
+      "92b43c2ce7ec350e10639bd0c75540da0d83ee72"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "HEAD is now at 92b43c2 docs: undersøk C06 sak 99235 og bind uavhengige kontrollporter (#60)\n"
+  },
+  {
+    "utc": "2026-10-29T18:18:07.222247+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "config",
+      "--local",
+      "--list"
+    ],
+    "exit_code": 0,
+    "stdout": "core.repositoryformatversion=0\ncore.filemode=false\ncore.bare=false\ncore.logallrefupdates=true\ncore.symlinks=false\ncore.ignorecase=true\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:18:07.286552+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "cat-file",
+      "-e",
+      "9eb27cebf7ca4a99aeb30fa32245e41314e0d295^{commit}"
+    ],
+    "exit_code": 128,
+    "stdout": "",
+    "stderr": "fatal: Not a valid object name 9eb27cebf7ca4a99aeb30fa32245e41314e0d295^{commit}\n"
+  },
+  {
+    "utc": "2026-10-29T18:18:07.349643+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "cat-file",
+      "-e",
+      "d241ad8f36f70718dbc54d3093c151d301d04f30^{commit}"
+    ],
+    "exit_code": 128,
+    "stdout": "",
+    "stderr": "fatal: Not a valid object name d241ad8f36f70718dbc54d3093c151d301d04f30^{commit}\n"
+  },
+  {
+    "utc": "2026-10-29T18:18:07.411177+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "cat-file",
+      "-e",
+      "9efa1f7b67e4ad5b2722b6a6604591af281e4e9c^{commit}"
+    ],
+    "exit_code": 128,
+    "stdout": "",
+    "stderr": "fatal: Not a valid object name 9efa1f7b67e4ad5b2722b6a6604591af281e4e9c^{commit}\n"
+  },
+  {
+    "utc": "2026-10-29T18:18:07.500903+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "bundle",
+      "verify",
+      ".local/candidates.bundle"
+    ],
+    "exit_code": 0,
+    "stdout": "The bundle contains this ref:\n9efa1f7b67e4ad5b2722b6a6604591af281e4e9c refs/c06-history/candidates\nThe bundle requires these 2 refs:\n49cc6e44851cf74e0aaea4eb333419e5598bfd95 \n92b43c2ce7ec350e10639bd0c75540da0d83ee72 \nThe bundle uses this hash algorithm: sha1\n",
+    "stderr": ".local/candidates.bundle is okay\n"
+  },
+  {
+    "utc": "2026-10-29T18:18:07.689554+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "fetch",
+      "--no-tags",
+      ".local/candidates.bundle",
+      "refs/c06-history/candidates:refs/c06-history/candidates"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "From .local/candidates.bundle\n * [new ref]         refs/c06-history/candidates -> refs/c06-history/candidates\n"
+  },
+  {
+    "utc": "2026-10-29T18:18:07.734052+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "cat-file",
+      "commit",
+      "9eb27cebf7ca4a99aeb30fa32245e41314e0d295"
+    ],
+    "exit_code": 0,
+    "stdout": "tree 60dfabaec4e7c022e30c6a6389a622790fad11f5\nparent 49cc6e44851cf74e0aaea4eb333419e5598bfd95\nauthor Codex <codex@openai.com> 1793293384 +0100\ncommitter Codex <codex@openai.com> 1793293384 +0100\n\ndocs: undersøk C06 sak 99235 for 1429 i 2024 (#60)\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:18:07.800865+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "rev-parse",
+      "9eb27cebf7ca4a99aeb30fa32245e41314e0d295^{tree}"
+    ],
+    "exit_code": 0,
+    "stdout": "60dfabaec4e7c022e30c6a6389a622790fad11f5\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:18:07.867508+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "cat-file",
+      "commit",
+      "d241ad8f36f70718dbc54d3093c151d301d04f30"
+    ],
+    "exit_code": 0,
+    "stdout": "tree afd35a9f4bf98c8b2e69bd3373464a9661811b7b\nparent 9eb27cebf7ca4a99aeb30fa32245e41314e0d295\nauthor Codex <codex@openai.com> 1793294972 +0100\ncommitter Codex <codex@openai.com> 1793294972 +0100\n\ndocs: bind C06-kontrollporter og rett sidejournal (#60)\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:18:07.931207+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "rev-parse",
+      "d241ad8f36f70718dbc54d3093c151d301d04f30^{tree}"
+    ],
+    "exit_code": 0,
+    "stdout": "afd35a9f4bf98c8b2e69bd3373464a9661811b7b\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:18:07.995676+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "cat-file",
+      "commit",
+      "9efa1f7b67e4ad5b2722b6a6604591af281e4e9c"
+    ],
+    "exit_code": 0,
+    "stdout": "tree 4664149a1cbf6c288b741fa502e162746b032e07\nparent d241ad8f36f70718dbc54d3093c151d301d04f30\nauthor Codex <codex@openai.com> 1793295471 +0100\ncommitter Codex <codex@openai.com> 1793295471 +0100\n\ndocs: bekreft målrettet C06-etterkontroll (#60)\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:18:08.059326+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "rev-parse",
+      "9efa1f7b67e4ad5b2722b6a6604591af281e4e9c^{tree}"
+    ],
+    "exit_code": 0,
+    "stdout": "4664149a1cbf6c288b741fa502e162746b032e07\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:18:08.559071+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "fsck",
+      "--full",
+      "--no-reflogs"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:19:02.550029+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-c",
+      "import sys,importlib.metadata as m; print(sys.version); print({p:m.version(p) for p in (\"lxml\",\"pypdf\",\"Pillow\",\"ruff\",\"mypy\")})"
+    ],
+    "exit_code": 0,
+    "stdout": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]\r\n{'lxml': '6.1.3', 'pypdf': '6.10.0', 'Pillow': '12.3.0', 'ruff': '0.11.0', 'mypy': '1.15.0'}\r\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:19:35.062303+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/verify.py",
+      "92b43c2ce7ec350e10639bd0c75540da0d83ee72"
+    ],
+    "exit_code": 0,
+    "stdout": "{\r\n  \"schema\": \"c06-offline-verification-1\",\r\n  \"checked_utc\": \"2026-10-29T18:19:34.953215+00:00\",\r\n  \"base_commit\": \"49cc6e44851cf74e0aaea4eb333419e5598bfd95\",\r\n  \"runtime\": \"3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]\",\r\n  \"checks\": {\r\n    \"context_issues\": 1,\r\n    \"published_contract_time\": 1,\r\n    \"attempt_count\": 1,\r\n    \"complete_attempt_count\": 1,\r\n    \"metadata_bytes\": 16,\r\n    \"metadata_hash\": 16,\r\n    \"contract_before_every_attempt\": 16,\r\n    \"attempt_time_order\": 16,\r\n    \"allowed_start_url\": 16,\r\n    \"request_headers\": 16,\r\n    \"hop_url_binding\": 21,\r\n    \"documented_no_response_dns_failure\": 1,\r\n    \"archive_binding\": 20,\r\n    \"entity_binding\": 20,\r\n    \"complete_observed_hop\": 20,\r\n    \"identity_entity\": 20,\r\n    \"content_length\": 13,\r\n    \"final_url_status\": 15,\r\n    \"complete_xml\": 4,\r\n    \"redirect_to_next_validated_hop\": 5,\r\n    \"complete_html_end\": 10,\r\n    \"complete_pdf_envelope\": 1,\r\n    \"all_original_attempt_files_in_manifest\": 1,\r\n    \"reused_file\": 18,\r\n    \"reused_entity\": 7,\r\n    \"complete_pdf_image_inventory\": 1,\r\n    \"pdf_and_appendix_extent\": 1,\r\n    \"both_own_appendices\": 1,\r\n    \"ocr_extent_and_limit\": 1,\r\n    \"ocr_all_embedded_pages\": 1,\r\n    \"all_appendix_pages_journaled\": 1,\r\n    \"page_journal_binding\": 130,\r\n    \"page_ocr_binding\": 130,\r\n    \"explicit_visual_review_extent\": 1,\r\n    \"unique_evidence\": 1,\r\n    \"evidence_source_hash\": 69,\r\n    \"unique_exact_xpath\": 69,\r\n    \"exact_derived_text\": 69,\r\n    \"visual_pdf_hash\": 18,\r\n    \"visual_locator_binding\": 18,\r\n    \"two_session_entity_hashes\": 4,\r\n    \"complete_canonical_decisions_equal\": 4,\r\n    \"canonical_hash\": 4,\r\n    \"four_stage_text_equality\": 4,\r\n    \"government_wording_preserved\": 4,\r\n    \"precise_vote_time\": 1,\r\n    \"debate_to_next_day_vote\": 1,\r\n    \"voting_block_identity_outcome\": 1,\r\n    \"contradictory_retrospective_statement_retained\": 4,\r\n    \"all_curated_references_resolve\": 28,\r\n    \"historical_67_66\": 1,\r\n    \"99235_not_historical_candidate\": 1,\r\n    \"R1_R7_unchanged\": 1,\r\n    \"no_new_product_event\": 1,\r\n    \"preservation_base\": 1,\r\n    \"all_base_files_except_additive_pointers\": 1,\r\n    \"exact_protected_checkout_bytes\": 1070,\r\n    \"protected_git_representation\": 1070,\r\n    \"only_authorized_changed_paths\": 1,\r\n    \"complete_ci_and_90_minutes_preserved\": 1,\r\n    \"json_parsed\": 37,\r\n    \"local_markdown_target\": 172,\r\n    \"delivery_manifest_complete_inventory\": 1,\r\n    \"delivery_file_hash\": 73,\r\n    \"candidate_git_blob_bytes\": 73\r\n  },\r\n  \"total_checks\": 3346,\r\n  \"failures\": 0,\r\n  \"git_revision\": \"92b43c2ce7ec350e10639bd0c75540da0d83ee72\",\r\n  \"boundary\": \"Builder offline checks only. No new HTTP, independent review/audit, full product suite, Linux CI, publication or merge. Visual paraphrases are image-bound but require independent reading.\"\r\n}\r\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:19:53.418675+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/reviews/integration/verify_integration.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\r\n  \"schema\": \"c06-post-review-integration-1\",\r\n  \"checked_utc\": \"2026-10-29T18:19:53.403605+00:00\",\r\n  \"research_candidate\": \"9eb27cebf7ca4a99aeb30fa32245e41314e0d295\",\r\n  \"research_candidate_tree\": \"60dfabaec4e7c022e30c6a6389a622790fad11f5\",\r\n  \"base\": \"49cc6e44851cf74e0aaea4eb333419e5598bfd95\",\r\n  \"historical_review_files_preserved\": 15,\r\n  \"standards_helper_identical_ast\": true,\r\n  \"standards_fixed_candidate_result_identical_except_timestamp\": true,\r\n  \"standards_helper_stdout\": {\r\n    \"changed_paths\": 74,\r\n    \"preserved_base_files\": 1070,\r\n    \"python_files\": 6,\r\n    \"json_files\": 37,\r\n    \"failures\": 0\r\n  },\r\n  \"J02_only_byte_replacement\": {\r\n    \"before\": \"14 nøkkelsider er lest visuelt\",\r\n    \"after\": \"18 nøkkelsider er lest visuelt\"\r\n  },\r\n  \"unchanged_visual_pages\": [\r\n    11,\r\n    12,\r\n    13,\r\n    14,\r\n    16,\r\n    39,\r\n    40,\r\n    50,\r\n    69,\r\n    77,\r\n    78,\r\n    79,\r\n    80,\r\n    82,\r\n    105,\r\n    106,\r\n    116,\r\n    135\r\n  ],\r\n  \"unchanged_candidate_files\": 1138,\r\n  \"changed_research_candidate_paths\": [\r\n    \"docs/research/c06-99235-60/OVERLEVERING.md\",\r\n    \"docs/research/c06-99235-60/README.md\",\r\n    \"docs/research/c06-99235-60/cross-reference-journal.json\",\r\n    \"docs/research/c06-99235-60/delivery-manifest.json\",\r\n    \"docs/research/c06-99235-60/reproduksjon.md\",\r\n    \"docs/research/c06-99235-60/verification.json\"\r\n  ],\r\n  \"review_evidence_files\": [\r\n    {\r\n      \"path\": \"final-check.md\",\r\n      \"bytes\": 11683,\r\n      \"sha256\": \"16e4a126017d685e7f69b3eb7afb6f9dcf022c5b41bc709f69ea1ef53f062a72\"\r\n    },\r\n    {\r\n      \"path\": \"integration/check_candidate.py.original\",\r\n      \"bytes\": 2967,\r\n      \"sha256\": \"3be9e5b97ee774b635dc563150deaf79c2a51bd59b4544cd8632086ba0649950\"\r\n    },\r\n    {\r\n      \"path\": \"integration/original-review-files.json\",\r\n      \"bytes\": 3004,\r\n      \"sha256\": \"b9f9f32b030dbe8db06c851177d2873ed8bb98e19591a7015b844de535031702\"\r\n    },\r\n    {\r\n      \"path\": \"integration/verify_integration.py\",\r\n      \"bytes\": 6076,\r\n      \"sha256\": \"ceae2feca16449f1350ade55dc91a51650ac975f9f09856318e13f2b5d6007ab\"\r\n    },\r\n    {\r\n      \"path\": \"README.md\",\r\n      \"bytes\": 2358,\r\n      \"sha256\": \"402c23b5f97f6808f643b80b365ce0caf68b090e9d69fcecab5508ed714bf471\"\r\n    },\r\n    {\r\n      \"path\": \"security/builder-transport-tests.txt\",\r\n      \"bytes\": 1209,\r\n      \"sha256\": \"8e93b64599b77e6de852e4a2be2f6f23d21584221f01cd68ceba692097fe16b7\"\r\n    },\r\n    {\r\n      \"path\": \"security/builder-verify-current.json\",\r\n      \"bytes\": 2812,\r\n      \"sha256\": \"8649bb23d217c46de5ee8a10ce8110a016c05c23c9a347f6af6fa81fec06f699\"\r\n    },\r\n    {\r\n      \"path\": \"security/README.md\",\r\n      \"bytes\": 10195,\r\n      \"sha256\": \"f98df9ab00f3f5a06ac692d314dcff365f7209082e8305eeea21680ddce1fe18\"\r\n    },\r\n    {\r\n      \"path\": \"security/security-results.json\",\r\n      \"bytes\": 6279,\r\n      \"sha256\": \"2aec63227b4a3613d38ff45549d1fea619cac39acb59e7c844ec72778262aae6\"\r\n    },\r\n    {\r\n      \"path\": \"security/security_checks.py\",\r\n      \"bytes\": 27175,\r\n      \"sha256\": \"74e74633d97bd5eed8c62457ef405a5fb73d71a8d00db928bee3a4029ee87a9a\"\r\n    },\r\n    {\r\n      \"path\": \"source/independent_check.py\",\r\n      \"bytes\": 17987,\r\n      \"sha256\": \"9aff7bc0cf0108aeaf6c7b4c695785f6ca992bfb5e3c560ef69682563f23c28d\"\r\n    },\r\n    {\r\n      \"path\": \"source/README.md\",\r\n      \"bytes\": 11745,\r\n      \"sha256\": \"92b20abf90241669b91edce53def70bfd82e44385094eccafa60e494f7eafadd\"\r\n    },\r\n    {\r\n      \"path\": \"source/result.json\",\r\n      \"bytes\": 309679,\r\n      \"sha256\": \"dff7d0b1a6d95796029920d026d0bebc71c8ea68c0173a8b9971deba97c21c71\"\r\n    },\r\n    {\r\n      \"path\": \"source/runtime-result.json\",\r\n      \"bytes\": 1978,\r\n      \"sha256\": \"ce0cae617de76e0adcb9b86ef5b3021427be0be7d5ecdf1a2ca054ded9318cf6\"\r\n    },\r\n    {\r\n      \"path\": \"spec/README.md\",\r\n      \"bytes\": 2621,\r\n      \"sha256\": \"5c1b9b623cd4c376d7456f486a54c9edc764fcbbe4be9facfcf3c6af2dcd86e7\"\r\n    },\r\n    {\r\n      \"path\": \"spec/results.json\",\r\n      \"bytes\": 70641,\r\n      \"sha256\": \"be044c970cfceca9415b22a5f24ed4dd362931abd171c61b7fa5be6ca7e38ff5\"\r\n    },\r\n    {\r\n      \"path\": \"spec/verify_spec.py\",\r\n      \"bytes\": 8381,\r\n      \"sha256\": \"46242a8e4cab7285f9bab08181025c67c41da3fb0e0e6308b1b199201e2d4c30\"\r\n    },\r\n    {\r\n      \"path\": \"standards/candidate-checks.json\",\r\n      \"bytes\": 5575,\r\n      \"sha256\": \"95ddc6d2f13c5b8a3d77781e974ff2fa2f20c488e98dd66b9f20f1d19086be25\"\r\n    },\r\n    {\r\n      \"path\": \"standards/check_candidate.py\",\r\n      \"bytes\": 3191,\r\n      \"sha256\": \"de5064a1efd71b5e64294696feb4d440b2765e20958fef0998fe85d4ff97127c\"\r\n    },\r\n    {\r\n      \"path\": \"standards/README.md\",\r\n      \"bytes\": 2417,\r\n      \"sha256\": \"c8801b85a93e74fe3181289d6869fcaaef684035051d342cdf69a23bca6703b2\"\r\n    }\r\n  ],\r\n  \"failures\": 0,\r\n  \"boundary\": \"Additive working-file integration after the four fixed-9eb reviews. No original reviewer result/report rewritten. No new independent review, candidate commit, HTTP, full suite, Linux CI, PR or merge claimed. The subsequent committed candidate requires a bounded independent recheck.\"\r\n}\r\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:19:53.708878+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/test_acquire.py"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_allowed (__main__.BoundaryTests.test_allowed) ... ok\r\ntest_complete_error_body_preserved (__main__.BoundaryTests.test_complete_error_body_preserved) ... ok\r\ntest_every_redirect_rejected_before_next_request (__main__.BoundaryTests.test_every_redirect_rejected_before_next_request) ... ok\r\ntest_existing_attempt_not_overwritten (__main__.BoundaryTests.test_existing_attempt_not_overwritten) ... ok\r\ntest_identifier_rejected_before_request (__main__.BoundaryTests.test_identifier_rejected_before_request) ... ok\r\ntest_partial_body_preserved (__main__.BoundaryTests.test_partial_body_preserved) ... ok\r\ntest_relative_and_second_redirect (__main__.BoundaryTests.test_relative_and_second_redirect) ... ok\r\ntest_start_rejected_before_request (__main__.BoundaryTests.test_start_rejected_before_request) ... ok\r\ntest_urllib_redirect_policy_never_follows_automatically (__main__.BoundaryTests.test_urllib_redirect_policy_never_follows_automatically) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 9 tests in 0.075s\r\n\r\nOK\r\n"
+  },
+  {
+    "utc": "2026-10-29T18:19:54.032681+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "checkout",
+      "--detach",
+      "9eb27cebf7ca4a99aeb30fa32245e41314e0d295"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "Warning: you are leaving 1 commit behind, not connected to\nany of your branches:\n\n  92b43c2 docs: undersøk C06 sak 99235 og bind uavhengige kontrollporter (#60)\n\nIf you want to keep it by creating a new branch, this may be a good time\nto do so with:\n\n git branch <new-branch-name> 92b43c2\n\nHEAD is now at 9eb27ce docs: undersøk C06 sak 99235 for 1429 i 2024 (#60)\n"
+  },
+  {
+    "utc": "2026-10-29T18:19:57.676838+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/reviews/standards/check_candidate.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"changed_paths\": 74, \"preserved_base_files\": 1070, \"python_files\": 6, \"json_files\": 37, \"failures\": 0}\r\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:20:05.849424+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/reviews/source/independent_check.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\r\n  \"base\": \"49cc6e44851cf74e0aaea4eb333419e5598bfd95\",\r\n  \"candidate\": \"9eb27cebf7ca4a99aeb30fa32245e41314e0d295\",\r\n  \"transport\": {\r\n    \"attempts\": 16,\r\n    \"responses\": 20,\r\n    \"successful_final_responses\": 15\r\n  },\r\n  \"evidence\": {\r\n    \"total\": 87,\r\n    \"machine_text\": 69,\r\n    \"visual_requires_human_reading\": 18\r\n  },\r\n  \"pdf\": {\r\n    \"sha256\": \"8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419\",\r\n    \"pages\": 144,\r\n    \"images\": 130,\r\n    \"ocr_engine\": \"Windows.Media.Ocr\",\r\n    \"ocr_language\": \"en-US\",\r\n    \"visual_pages\": [\r\n      11,\r\n      12,\r\n      13,\r\n      14,\r\n      16,\r\n      39,\r\n      40,\r\n      50,\r\n      69,\r\n      77,\r\n      78,\r\n      79,\r\n      80,\r\n      82,\r\n      105,\r\n      106,\r\n      116,\r\n      135\r\n    ]\r\n  },\r\n  \"historical_totals\": {\r\n    \"occurrences\": 67,\r\n    \"unique_cases\": 66,\r\n    \"open_occurrences\": 60,\r\n    \"open_unique_cases\": 59\r\n  },\r\n  \"failed\": [],\r\n  \"check_count\": 1786\r\n}\r\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:20:10.724253+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/reviews/spec/verify_spec.py"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\r\n  File \"C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\c06-99235\\.local\\c06-portable-clone-a8aff8cc\\docs\\research\\c06-99235-60\\reviews\\spec\\verify_spec.py\", line 224, in <module>\r\n    main()\r\n  File \"C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\c06-99235\\.local\\c06-portable-clone-a8aff8cc\\docs\\research\\c06-99235-60\\reviews\\spec\\verify_spec.py\", line 182, in main\r\n    hashlib.sha256(local_image.read_bytes()).hexdigest(),\r\n                   ^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1019, in read_bytes\r\n    with self.open(mode='rb') as f:\r\n         ^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1013, in open\r\n    return io.open(self, mode, buffering, encoding, errors, newline)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\c06-99235\\\\.local\\\\c06-portable-clone-a8aff8cc\\\\.local\\\\c06-images\\\\page-069-0.jpg'\r\n"
+  },
+  {
+    "utc": "2026-10-29T18:21:35.535794+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/extract_appendices.py",
+      "--images",
+      ".local/c06-images"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"pdf_pages\": 144, \"embedded_images\": 130}\r\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:21:40.410341+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/reviews/spec/verify_spec.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"checks_passed\": 50, \"findings\": [{\"id\": \"SP1\", \"priority\": \"P3\", \"blocking\": false, \"journal_J02_stated_visual_pages\": 14, \"actual_journal_visual_pages\": 18}]}\r\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:22:33.239953+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/reviews/security/security_checks.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"checks\": 3776, \"failures\": 0, \"candidate\": \"9eb27cebf7ca4a99aeb30fa32245e41314e0d295\"}\r\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:22:33.358544+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "checkout",
+      "--force",
+      "--detach",
+      "92b43c2ce7ec350e10639bd0c75540da0d83ee72"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "Previous HEAD position was 9eb27ce docs: undersøk C06 sak 99235 for 1429 i 2024 (#60)\nHEAD is now at 92b43c2 docs: undersøk C06 sak 99235 og bind uavhengige kontrollporter (#60)\n"
+  },
+  {
+    "utc": "2026-10-29T18:22:33.441299+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "status",
+      "--porcelain=v1"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:24:35.328488+00:00",
+    "cwd": ".",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/reviews/history/create_bundle.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\r\n  \"bytes\": 22554,\r\n  \"sha256\": \"051ca0279fb61b5ddd3b77a83c09f172c8ac142e1cd2240dfac6fdca2ab7074d\",\r\n  \"pack_sha256\": \"a6dfa0c03889cffbbcc4d858ceb55fa7a1c10c8f2a75be5d191e806d308ad4ad\",\r\n  \"native_pack_bytes_preserved\": true,\r\n  \"prerequisites\": [\r\n    \"49cc6e44851cf74e0aaea4eb333419e5598bfd95\",\r\n    \"92b43c2ce7ec350e10639bd0c75540da0d83ee72\"\r\n  ],\r\n  \"head\": {\r\n    \"refs/c06-history/candidates\": \"9efa1f7b67e4ad5b2722b6a6604591af281e4e9c\"\r\n  },\r\n  \"verification\": \"The bundle contains this ref:\\n9efa1f7b67e4ad5b2722b6a6604591af281e4e9c refs/c06-history/candidates\\nThe bundle requires these 2 refs:\\n49cc6e44851cf74e0aaea4eb333419e5598bfd95 \\n92b43c2ce7ec350e10639bd0c75540da0d83ee72 \\nThe bundle uses this hash algorithm: sha1\\n\"\r\n}\r\n",
+    "stderr": "docs/research/c06-99235-60/reviews/history/candidates.bundle is okay\n"
+  },
+  {
+    "utc": "2026-10-29T18:25:25.085196+00:00",
+    "cwd": ".",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/refresh_manifest.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"files\": 73, \"bytes\": 22745660}\r\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:25:48.020510+00:00",
+    "cwd": ".",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/verify.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\r\n  \"schema\": \"c06-offline-verification-1\",\r\n  \"checked_utc\": \"2026-10-29T18:25:47.920588+00:00\",\r\n  \"base_commit\": \"49cc6e44851cf74e0aaea4eb333419e5598bfd95\",\r\n  \"runtime\": \"3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]\",\r\n  \"checks\": {\r\n    \"context_issues\": 1,\r\n    \"published_contract_time\": 1,\r\n    \"attempt_count\": 1,\r\n    \"complete_attempt_count\": 1,\r\n    \"metadata_bytes\": 16,\r\n    \"metadata_hash\": 16,\r\n    \"contract_before_every_attempt\": 16,\r\n    \"attempt_time_order\": 16,\r\n    \"allowed_start_url\": 16,\r\n    \"request_headers\": 16,\r\n    \"hop_url_binding\": 21,\r\n    \"documented_no_response_dns_failure\": 1,\r\n    \"archive_binding\": 20,\r\n    \"entity_binding\": 20,\r\n    \"complete_observed_hop\": 20,\r\n    \"identity_entity\": 20,\r\n    \"content_length\": 13,\r\n    \"final_url_status\": 15,\r\n    \"complete_xml\": 4,\r\n    \"redirect_to_next_validated_hop\": 5,\r\n    \"complete_html_end\": 10,\r\n    \"complete_pdf_envelope\": 1,\r\n    \"all_original_attempt_files_in_manifest\": 1,\r\n    \"reused_file\": 18,\r\n    \"reused_entity\": 7,\r\n    \"complete_pdf_image_inventory\": 1,\r\n    \"pdf_and_appendix_extent\": 1,\r\n    \"both_own_appendices\": 1,\r\n    \"ocr_extent_and_limit\": 1,\r\n    \"ocr_all_embedded_pages\": 1,\r\n    \"all_appendix_pages_journaled\": 1,\r\n    \"page_journal_binding\": 130,\r\n    \"page_ocr_binding\": 130,\r\n    \"explicit_visual_review_extent\": 1,\r\n    \"unique_evidence\": 1,\r\n    \"evidence_source_hash\": 69,\r\n    \"unique_exact_xpath\": 69,\r\n    \"exact_derived_text\": 69,\r\n    \"visual_pdf_hash\": 18,\r\n    \"visual_locator_binding\": 18,\r\n    \"two_session_entity_hashes\": 4,\r\n    \"complete_canonical_decisions_equal\": 4,\r\n    \"canonical_hash\": 4,\r\n    \"four_stage_text_equality\": 4,\r\n    \"government_wording_preserved\": 4,\r\n    \"precise_vote_time\": 1,\r\n    \"debate_to_next_day_vote\": 1,\r\n    \"voting_block_identity_outcome\": 1,\r\n    \"contradictory_retrospective_statement_retained\": 4,\r\n    \"all_curated_references_resolve\": 28,\r\n    \"historical_67_66\": 1,\r\n    \"99235_not_historical_candidate\": 1,\r\n    \"R1_R7_unchanged\": 1,\r\n    \"no_new_product_event\": 1,\r\n    \"preservation_base\": 1,\r\n    \"all_base_files_except_additive_pointers\": 1,\r\n    \"exact_protected_checkout_bytes\": 1070,\r\n    \"protected_git_representation\": 1070,\r\n    \"only_authorized_changed_paths\": 1,\r\n    \"complete_ci_and_90_minutes_preserved\": 1,\r\n    \"json_parsed\": 37,\r\n    \"local_markdown_target\": 175,\r\n    \"delivery_manifest_complete_inventory\": 1,\r\n    \"delivery_file_hash\": 73\r\n  },\r\n  \"total_checks\": 3276,\r\n  \"failures\": 0,\r\n  \"git_revision\": null,\r\n  \"boundary\": \"Builder offline checks only. No new HTTP, independent review/audit, full product suite, Linux CI, publication or merge. Visual paraphrases are image-bound but require independent reading.\"\r\n}\r\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:25:48.180244+00:00",
+    "cwd": ".",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/refresh_manifest.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"files\": 73, \"bytes\": 22745660}\r\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:26:04.919040+00:00",
+    "cwd": ".",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/verify.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\r\n  \"schema\": \"c06-offline-verification-1\",\r\n  \"checked_utc\": \"2026-10-29T18:26:04.843161+00:00\",\r\n  \"base_commit\": \"49cc6e44851cf74e0aaea4eb333419e5598bfd95\",\r\n  \"runtime\": \"3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]\",\r\n  \"checks\": {\r\n    \"context_issues\": 1,\r\n    \"published_contract_time\": 1,\r\n    \"attempt_count\": 1,\r\n    \"complete_attempt_count\": 1,\r\n    \"metadata_bytes\": 16,\r\n    \"metadata_hash\": 16,\r\n    \"contract_before_every_attempt\": 16,\r\n    \"attempt_time_order\": 16,\r\n    \"allowed_start_url\": 16,\r\n    \"request_headers\": 16,\r\n    \"hop_url_binding\": 21,\r\n    \"documented_no_response_dns_failure\": 1,\r\n    \"archive_binding\": 20,\r\n    \"entity_binding\": 20,\r\n    \"complete_observed_hop\": 20,\r\n    \"identity_entity\": 20,\r\n    \"content_length\": 13,\r\n    \"final_url_status\": 15,\r\n    \"complete_xml\": 4,\r\n    \"redirect_to_next_validated_hop\": 5,\r\n    \"complete_html_end\": 10,\r\n    \"complete_pdf_envelope\": 1,\r\n    \"all_original_attempt_files_in_manifest\": 1,\r\n    \"reused_file\": 18,\r\n    \"reused_entity\": 7,\r\n    \"complete_pdf_image_inventory\": 1,\r\n    \"pdf_and_appendix_extent\": 1,\r\n    \"both_own_appendices\": 1,\r\n    \"ocr_extent_and_limit\": 1,\r\n    \"ocr_all_embedded_pages\": 1,\r\n    \"all_appendix_pages_journaled\": 1,\r\n    \"page_journal_binding\": 130,\r\n    \"page_ocr_binding\": 130,\r\n    \"explicit_visual_review_extent\": 1,\r\n    \"unique_evidence\": 1,\r\n    \"evidence_source_hash\": 69,\r\n    \"unique_exact_xpath\": 69,\r\n    \"exact_derived_text\": 69,\r\n    \"visual_pdf_hash\": 18,\r\n    \"visual_locator_binding\": 18,\r\n    \"two_session_entity_hashes\": 4,\r\n    \"complete_canonical_decisions_equal\": 4,\r\n    \"canonical_hash\": 4,\r\n    \"four_stage_text_equality\": 4,\r\n    \"government_wording_preserved\": 4,\r\n    \"precise_vote_time\": 1,\r\n    \"debate_to_next_day_vote\": 1,\r\n    \"voting_block_identity_outcome\": 1,\r\n    \"contradictory_retrospective_statement_retained\": 4,\r\n    \"all_curated_references_resolve\": 28,\r\n    \"historical_67_66\": 1,\r\n    \"99235_not_historical_candidate\": 1,\r\n    \"R1_R7_unchanged\": 1,\r\n    \"no_new_product_event\": 1,\r\n    \"preservation_base\": 1,\r\n    \"all_base_files_except_additive_pointers\": 1,\r\n    \"exact_protected_checkout_bytes\": 1070,\r\n    \"protected_git_representation\": 1070,\r\n    \"only_authorized_changed_paths\": 1,\r\n    \"complete_ci_and_90_minutes_preserved\": 1,\r\n    \"json_parsed\": 37,\r\n    \"local_markdown_target\": 175,\r\n    \"delivery_manifest_complete_inventory\": 1,\r\n    \"delivery_file_hash\": 73\r\n  },\r\n  \"total_checks\": 3276,\r\n  \"failures\": 0,\r\n  \"git_revision\": null,\r\n  \"boundary\": \"Builder offline checks only. No new HTTP, independent review/audit, full product suite, Linux CI, publication or merge. Visual paraphrases are image-bound but require independent reading.\"\r\n}\r\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:26:21.755070+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/verify.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\r\n  \"schema\": \"c06-offline-verification-1\",\r\n  \"checked_utc\": \"2026-10-29T18:26:21.688699+00:00\",\r\n  \"base_commit\": \"49cc6e44851cf74e0aaea4eb333419e5598bfd95\",\r\n  \"runtime\": \"3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]\",\r\n  \"checks\": {\r\n    \"context_issues\": 1,\r\n    \"published_contract_time\": 1,\r\n    \"attempt_count\": 1,\r\n    \"complete_attempt_count\": 1,\r\n    \"metadata_bytes\": 16,\r\n    \"metadata_hash\": 16,\r\n    \"contract_before_every_attempt\": 16,\r\n    \"attempt_time_order\": 16,\r\n    \"allowed_start_url\": 16,\r\n    \"request_headers\": 16,\r\n    \"hop_url_binding\": 21,\r\n    \"documented_no_response_dns_failure\": 1,\r\n    \"archive_binding\": 20,\r\n    \"entity_binding\": 20,\r\n    \"complete_observed_hop\": 20,\r\n    \"identity_entity\": 20,\r\n    \"content_length\": 13,\r\n    \"final_url_status\": 15,\r\n    \"complete_xml\": 4,\r\n    \"redirect_to_next_validated_hop\": 5,\r\n    \"complete_html_end\": 10,\r\n    \"complete_pdf_envelope\": 1,\r\n    \"all_original_attempt_files_in_manifest\": 1,\r\n    \"reused_file\": 18,\r\n    \"reused_entity\": 7,\r\n    \"complete_pdf_image_inventory\": 1,\r\n    \"pdf_and_appendix_extent\": 1,\r\n    \"both_own_appendices\": 1,\r\n    \"ocr_extent_and_limit\": 1,\r\n    \"ocr_all_embedded_pages\": 1,\r\n    \"all_appendix_pages_journaled\": 1,\r\n    \"page_journal_binding\": 130,\r\n    \"page_ocr_binding\": 130,\r\n    \"explicit_visual_review_extent\": 1,\r\n    \"unique_evidence\": 1,\r\n    \"evidence_source_hash\": 69,\r\n    \"unique_exact_xpath\": 69,\r\n    \"exact_derived_text\": 69,\r\n    \"visual_pdf_hash\": 18,\r\n    \"visual_locator_binding\": 18,\r\n    \"two_session_entity_hashes\": 4,\r\n    \"complete_canonical_decisions_equal\": 4,\r\n    \"canonical_hash\": 4,\r\n    \"four_stage_text_equality\": 4,\r\n    \"government_wording_preserved\": 4,\r\n    \"precise_vote_time\": 1,\r\n    \"debate_to_next_day_vote\": 1,\r\n    \"voting_block_identity_outcome\": 1,\r\n    \"contradictory_retrospective_statement_retained\": 4,\r\n    \"all_curated_references_resolve\": 28,\r\n    \"historical_67_66\": 1,\r\n    \"99235_not_historical_candidate\": 1,\r\n    \"R1_R7_unchanged\": 1,\r\n    \"no_new_product_event\": 1,\r\n    \"preservation_base\": 1,\r\n    \"all_base_files_except_additive_pointers\": 1,\r\n    \"exact_protected_checkout_bytes\": 1070,\r\n    \"protected_git_representation\": 1070,\r\n    \"only_authorized_changed_paths\": 1,\r\n    \"complete_ci_and_90_minutes_preserved\": 1,\r\n    \"json_parsed\": 37,\r\n    \"local_markdown_target\": 175,\r\n    \"delivery_manifest_complete_inventory\": 1,\r\n    \"delivery_file_hash\": 73\r\n  },\r\n  \"total_checks\": 3276,\r\n  \"failures\": 0,\r\n  \"git_revision\": null,\r\n  \"boundary\": \"Builder offline checks only. No new HTTP, independent review/audit, full product suite, Linux CI, publication or merge. Visual paraphrases are image-bound but require independent reading.\"\r\n}\r\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:26:40.205909+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/reviews/integration/verify_integration.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\r\n  \"schema\": \"c06-post-review-integration-1\",\r\n  \"checked_utc\": \"2026-10-29T18:26:40.186019+00:00\",\r\n  \"research_candidate\": \"9eb27cebf7ca4a99aeb30fa32245e41314e0d295\",\r\n  \"research_candidate_tree\": \"60dfabaec4e7c022e30c6a6389a622790fad11f5\",\r\n  \"base\": \"49cc6e44851cf74e0aaea4eb333419e5598bfd95\",\r\n  \"historical_review_files_preserved\": 15,\r\n  \"standards_helper_identical_ast\": true,\r\n  \"standards_fixed_candidate_result_identical_except_timestamp\": true,\r\n  \"standards_helper_stdout\": {\r\n    \"changed_paths\": 74,\r\n    \"preserved_base_files\": 1070,\r\n    \"python_files\": 6,\r\n    \"json_files\": 37,\r\n    \"failures\": 0\r\n  },\r\n  \"J02_only_byte_replacement\": {\r\n    \"before\": \"14 nøkkelsider er lest visuelt\",\r\n    \"after\": \"18 nøkkelsider er lest visuelt\"\r\n  },\r\n  \"unchanged_visual_pages\": [\r\n    11,\r\n    12,\r\n    13,\r\n    14,\r\n    16,\r\n    39,\r\n    40,\r\n    50,\r\n    69,\r\n    77,\r\n    78,\r\n    79,\r\n    80,\r\n    82,\r\n    105,\r\n    106,\r\n    116,\r\n    135\r\n  ],\r\n  \"unchanged_candidate_files\": 1138,\r\n  \"changed_research_candidate_paths\": [\r\n    \"docs/research/c06-99235-60/OVERLEVERING.md\",\r\n    \"docs/research/c06-99235-60/README.md\",\r\n    \"docs/research/c06-99235-60/cross-reference-journal.json\",\r\n    \"docs/research/c06-99235-60/delivery-manifest.json\",\r\n    \"docs/research/c06-99235-60/reproduksjon.md\",\r\n    \"docs/research/c06-99235-60/verification.json\"\r\n  ],\r\n  \"review_evidence_files\": [\r\n    {\r\n      \"path\": \"final-check.md\",\r\n      \"bytes\": 11683,\r\n      \"sha256\": \"16e4a126017d685e7f69b3eb7afb6f9dcf022c5b41bc709f69ea1ef53f062a72\"\r\n    },\r\n    {\r\n      \"path\": \"history/candidates.bundle\",\r\n      \"bytes\": 22554,\r\n      \"sha256\": \"051ca0279fb61b5ddd3b77a83c09f172c8ac142e1cd2240dfac6fdca2ab7074d\"\r\n    },\r\n    {\r\n      \"path\": \"history/commands.json\",\r\n      \"bytes\": 36219,\r\n      \"sha256\": \"d2c7c8cea1c11f0ede182ab6b669f11a97a608df146eb3def606a1df53e97e68\"\r\n    },\r\n    {\r\n      \"path\": \"history/create_bundle.py\",\r\n      \"bytes\": 3106,\r\n      \"sha256\": \"c5057c21531e036ba2b69344592d2510e87231c1b600ff8c1d56958b4e690690\"\r\n    },\r\n    {\r\n      \"path\": \"history/fresh-location.json\",\r\n      \"bytes\": 219,\r\n      \"sha256\": \"a72bce5c365cb768080fe76d3e5bdbbe03936b00ec7b70e5c60bbe00d2903d36\"\r\n    },\r\n    {\r\n      \"path\": \"history/fresh-proof.json\",\r\n      \"bytes\": 1289,\r\n      \"sha256\": \"dd7d2edf5f276d8ee6be35498db4ba714a5e223e37539fdd8f93224c730f9d9f\"\r\n    },\r\n    {\r\n      \"path\": \"history/initial-attempt.json\",\r\n      \"bytes\": 523,\r\n      \"sha256\": \"c37e3885f709a5804fdf6b6ba508d7d2dcf57b28575ef93d3b53a80ecb319f06\"\r\n    },\r\n    {\r\n      \"path\": \"history/manifest.json\",\r\n      \"bytes\": 98,\r\n      \"sha256\": \"82a55a74d31a7375750b7fc00d74f8f28f431507d53f288c5f4d7cbe80d8bd18\"\r\n    },\r\n    {\r\n      \"path\": \"history/README.md\",\r\n      \"bytes\": 9452,\r\n      \"sha256\": \"177407f47a600163a14830e56bb4ae3ac8a45e330a39caef11e8e83b2016ef4d\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/fixed-security.json\",\r\n      \"bytes\": 6279,\r\n      \"sha256\": \"67125915c374dc7feef2bcc856dc9594e2a4a77a8eaf4aa32246bedffbc32e44\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/fixed-security.stderr.txt\",\r\n      \"bytes\": 0,\r\n      \"sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/fixed-security.stdout.txt\",\r\n      \"bytes\": 90,\r\n      \"sha256\": \"40aad3a14e55505c991d2bb34bfb8775c53ab7f937d79cd3df427ea6073314b4\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/fixed-source.json\",\r\n      \"bytes\": 309679,\r\n      \"sha256\": \"fa1ffc710a08e6f48f1c06cbfda72ecb16493b348738c5e36f4c6cb6ed5c440b\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/fixed-source.stderr.txt\",\r\n      \"bytes\": 0,\r\n      \"sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/fixed-source.stdout.txt\",\r\n      \"bytes\": 953,\r\n      \"sha256\": \"fed7712f69545241f340a3686d227b06a50f0d8370d0909d0019390ebbea92b9\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/fixed-spec-first-attempt.stderr.txt\",\r\n      \"bytes\": 1193,\r\n      \"sha256\": \"582096739efb4b2d62131cc681a8211636f19dec7900ea012ac0d05d59c23c5a\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/fixed-spec-first-attempt.stdout.txt\",\r\n      \"bytes\": 0,\r\n      \"sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/fixed-spec.json\",\r\n      \"bytes\": 70641,\r\n      \"sha256\": \"ef3477b5f79abc8fcbec3073a989f57b9dfa20a393a748e9f68553c111809d89\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/fixed-spec.stderr.txt\",\r\n      \"bytes\": 0,\r\n      \"sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/fixed-spec.stdout.txt\",\r\n      \"bytes\": 163,\r\n      \"sha256\": \"fed471025e2a4677c04a3b1925768638d8e140ed825e228a2f4f0cad955b2e99\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/fixed-standards.json\",\r\n      \"bytes\": 5575,\r\n      \"sha256\": \"e949bda2af4d5ce89a27ed2859bee11172f7c6c640838ff2d3b72271fb8786fc\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/fixed-standards.stderr.txt\",\r\n      \"bytes\": 0,\r\n      \"sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/fixed-standards.stdout.txt\",\r\n      \"bytes\": 105,\r\n      \"sha256\": \"95cb7cad939441f0f729311819aa3705233fbe846216c8964789bf3ff4e85949\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/fresh-derived-images.stderr.txt\",\r\n      \"bytes\": 0,\r\n      \"sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/fresh-derived-images.stdout.txt\",\r\n      \"bytes\": 44,\r\n      \"sha256\": \"ea8ae9f226219a3574a7a51032fcd91cd1c8a31ae601a38b01562e709c826693\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/published-integration.stderr.txt\",\r\n      \"bytes\": 0,\r\n      \"sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/published-integration.stdout.txt\",\r\n      \"bytes\": 5030,\r\n      \"sha256\": \"164d85c0d23b545e3a8f20e80f07754510a9133d4e7ad35c01446e120ec3c5ae\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/published-verify.stderr.txt\",\r\n      \"bytes\": 0,\r\n      \"sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/published-verify.stdout.txt\",\r\n      \"bytes\": 2812,\r\n      \"sha256\": \"9b69b6cd1f3f7fddce0855f63087fac64220f3a11249e827a7ab595d27c300e6\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/transport.stderr.txt\",\r\n      \"bytes\": 1056,\r\n      \"sha256\": \"bdac26d056f5e562279692e932b8c07138196b7aa73f5d1a4c980fb9567f9839\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay/transport.stdout.txt\",\r\n      \"bytes\": 0,\r\n      \"sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay-comparison.json\",\r\n      \"bytes\": 579,\r\n      \"sha256\": \"61b73720893a1b4270eae325788ffecad456b1f6dee18314a767ae68293595fd\"\r\n    },\r\n    {\r\n      \"path\": \"history/replay-summary.json\",\r\n      \"bytes\": 1754,\r\n      \"sha256\": \"630bdad73a40424aeb7cbeeacbedcd40b94e979d1a2e168d85c754e59e9f561a\"\r\n    },\r\n    {\r\n      \"path\": \"integration/check_candidate.py.original\",\r\n      \"bytes\": 2967,\r\n      \"sha256\": \"3be9e5b97ee774b635dc563150deaf79c2a51bd59b4544cd8632086ba0649950\"\r\n    },\r\n    {\r\n      \"path\": \"integration/original-review-files.json\",\r\n      \"bytes\": 3004,\r\n      \"sha256\": \"b9f9f32b030dbe8db06c851177d2873ed8bb98e19591a7015b844de535031702\"\r\n    },\r\n    {\r\n      \"path\": \"integration/verify_integration.py\",\r\n      \"bytes\": 6076,\r\n      \"sha256\": \"ceae2feca16449f1350ade55dc91a51650ac975f9f09856318e13f2b5d6007ab\"\r\n    },\r\n    {\r\n      \"path\": \"README.md\",\r\n      \"bytes\": 2924,\r\n      \"sha256\": \"f8c793c15b4e6028f159d908bab7335a202149d4d3acac1e2874a609ea593efa\"\r\n    },\r\n    {\r\n      \"path\": \"security/builder-transport-tests.txt\",\r\n      \"bytes\": 1209,\r\n      \"sha256\": \"8e93b64599b77e6de852e4a2be2f6f23d21584221f01cd68ceba692097fe16b7\"\r\n    },\r\n    {\r\n      \"path\": \"security/builder-verify-current.json\",\r\n      \"bytes\": 2812,\r\n      \"sha256\": \"8649bb23d217c46de5ee8a10ce8110a016c05c23c9a347f6af6fa81fec06f699\"\r\n    },\r\n    {\r\n      \"path\": \"security/README.md\",\r\n      \"bytes\": 10195,\r\n      \"sha256\": \"f98df9ab00f3f5a06ac692d314dcff365f7209082e8305eeea21680ddce1fe18\"\r\n    },\r\n    {\r\n      \"path\": \"security/security-results.json\",\r\n      \"bytes\": 6279,\r\n      \"sha256\": \"2aec63227b4a3613d38ff45549d1fea619cac39acb59e7c844ec72778262aae6\"\r\n    },\r\n    {\r\n      \"path\": \"security/security_checks.py\",\r\n      \"bytes\": 27175,\r\n      \"sha256\": \"74e74633d97bd5eed8c62457ef405a5fb73d71a8d00db928bee3a4029ee87a9a\"\r\n    },\r\n    {\r\n      \"path\": \"source/independent_check.py\",\r\n      \"bytes\": 17987,\r\n      \"sha256\": \"9aff7bc0cf0108aeaf6c7b4c695785f6ca992bfb5e3c560ef69682563f23c28d\"\r\n    },\r\n    {\r\n      \"path\": \"source/README.md\",\r\n      \"bytes\": 11745,\r\n      \"sha256\": \"92b20abf90241669b91edce53def70bfd82e44385094eccafa60e494f7eafadd\"\r\n    },\r\n    {\r\n      \"path\": \"source/result.json\",\r\n      \"bytes\": 309679,\r\n      \"sha256\": \"dff7d0b1a6d95796029920d026d0bebc71c8ea68c0173a8b9971deba97c21c71\"\r\n    },\r\n    {\r\n      \"path\": \"source/runtime-result.json\",\r\n      \"bytes\": 1978,\r\n      \"sha256\": \"ce0cae617de76e0adcb9b86ef5b3021427be0be7d5ecdf1a2ca054ded9318cf6\"\r\n    },\r\n    {\r\n      \"path\": \"spec/README.md\",\r\n      \"bytes\": 2621,\r\n      \"sha256\": \"5c1b9b623cd4c376d7456f486a54c9edc764fcbbe4be9facfcf3c6af2dcd86e7\"\r\n    },\r\n    {\r\n      \"path\": \"spec/results.json\",\r\n      \"bytes\": 70641,\r\n      \"sha256\": \"be044c970cfceca9415b22a5f24ed4dd362931abd171c61b7fa5be6ca7e38ff5\"\r\n    },\r\n    {\r\n      \"path\": \"spec/verify_spec.py\",\r\n      \"bytes\": 8381,\r\n      \"sha256\": \"46242a8e4cab7285f9bab08181025c67c41da3fb0e0e6308b1b199201e2d4c30\"\r\n    },\r\n    {\r\n      \"path\": \"standards/candidate-checks.json\",\r\n      \"bytes\": 5575,\r\n      \"sha256\": \"95ddc6d2f13c5b8a3d77781e974ff2fa2f20c488e98dd66b9f20f1d19086be25\"\r\n    },\r\n    {\r\n      \"path\": \"standards/check_candidate.py\",\r\n      \"bytes\": 3191,\r\n      \"sha256\": \"de5064a1efd71b5e64294696feb4d440b2765e20958fef0998fe85d4ff97127c\"\r\n    },\r\n    {\r\n      \"path\": \"standards/README.md\",\r\n      \"bytes\": 2417,\r\n      \"sha256\": \"c8801b85a93e74fe3181289d6869fcaaef684035051d342cdf69a23bca6703b2\"\r\n    }\r\n  ],\r\n  \"failures\": 0,\r\n  \"boundary\": \"Additive working-file integration after the four fixed-9eb reviews. No original reviewer result/report rewritten. No new independent review, candidate commit, HTTP, full suite, Linux CI, PR or merge claimed. The subsequent committed candidate requires a bounded independent recheck.\"\r\n}\r\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:26:40.490794+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/test_acquire.py"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_allowed (__main__.BoundaryTests.test_allowed) ... ok\r\ntest_complete_error_body_preserved (__main__.BoundaryTests.test_complete_error_body_preserved) ... ok\r\ntest_every_redirect_rejected_before_next_request (__main__.BoundaryTests.test_every_redirect_rejected_before_next_request) ... ok\r\ntest_existing_attempt_not_overwritten (__main__.BoundaryTests.test_existing_attempt_not_overwritten) ... ok\r\ntest_identifier_rejected_before_request (__main__.BoundaryTests.test_identifier_rejected_before_request) ... ok\r\ntest_partial_body_preserved (__main__.BoundaryTests.test_partial_body_preserved) ... ok\r\ntest_relative_and_second_redirect (__main__.BoundaryTests.test_relative_and_second_redirect) ... ok\r\ntest_start_rejected_before_request (__main__.BoundaryTests.test_start_rejected_before_request) ... ok\r\ntest_urllib_redirect_policy_never_follows_automatically (__main__.BoundaryTests.test_urllib_redirect_policy_never_follows_automatically) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 9 tests in 0.069s\r\n\r\nOK\r\n"
+  },
+  {
+    "utc": "2026-10-29T18:26:40.718825+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "ruff",
+      "check",
+      "--no-cache",
+      "docs/research/c06-99235-60/"
+    ],
+    "exit_code": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:26:40.857349+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "ruff",
+      "format",
+      "--check",
+      "--no-cache",
+      "docs/research/c06-99235-60/"
+    ],
+    "exit_code": 0,
+    "stdout": "12 files already formatted\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:26:46.552634+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "mypy",
+      "--cache-dir",
+      ".local/c06-portability-mypy",
+      "docs/research/c06-99235-60/reviews/history/create_bundle.py",
+      "docs/research/c06-99235-60/reviews/integration/verify_integration.py"
+    ],
+    "exit_code": 0,
+    "stdout": "Success: no issues found in 2 source files\r\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:26:47.110125+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/research/c06-99235-60/reviews/history/create_bundle.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\r\n  \"bytes\": 22554,\r\n  \"sha256\": \"051ca0279fb61b5ddd3b77a83c09f172c8ac142e1cd2240dfac6fdca2ab7074d\",\r\n  \"pack_sha256\": \"a6dfa0c03889cffbbcc4d858ceb55fa7a1c10c8f2a75be5d191e806d308ad4ad\",\r\n  \"native_pack_bytes_preserved\": true,\r\n  \"prerequisites\": [\r\n    \"49cc6e44851cf74e0aaea4eb333419e5598bfd95\",\r\n    \"92b43c2ce7ec350e10639bd0c75540da0d83ee72\"\r\n  ],\r\n  \"head\": {\r\n    \"refs/c06-history/candidates\": \"9efa1f7b67e4ad5b2722b6a6604591af281e4e9c\"\r\n  },\r\n  \"verification\": \"The bundle contains this ref:\\n9efa1f7b67e4ad5b2722b6a6604591af281e4e9c refs/c06-history/candidates\\nThe bundle requires these 2 refs:\\n49cc6e44851cf74e0aaea4eb333419e5598bfd95 \\n92b43c2ce7ec350e10639bd0c75540da0d83ee72 \\nThe bundle uses this hash algorithm: sha1\\n\"\r\n}\r\n",
+    "stderr": "docs/research/c06-99235-60/reviews/history/candidates.bundle is okay\n"
+  },
+  {
+    "utc": "2026-10-29T18:26:47.207779+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "-c",
+      "core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:26:47.275563+00:00",
+    "cwd": ".local/c06-portable-clone-a8aff8cc",
+    "argv": [
+      "git",
+      "rev-parse",
+      "refs/c06-history/candidates"
+    ],
+    "exit_code": 0,
+    "stdout": "9efa1f7b67e4ad5b2722b6a6604591af281e4e9c\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:26:47.323516+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "exit_code": 0,
+    "stdout": "9efa1f7b67e4ad5b2722b6a6604591af281e4e9c\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:26:47.390120+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "diff",
+      "--cached",
+      "--exit-code"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:29:26.400344+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "diff",
+      "--name-only",
+      "92b43c2ce7ec350e10639bd0c75540da0d83ee72"
+    ],
+    "exit_code": 0,
+    "stdout": "docs/research/c06-99235-60/OVERLEVERING.md\ndocs/research/c06-99235-60/README.md\ndocs/research/c06-99235-60/delivery-manifest.json\ndocs/research/c06-99235-60/reproduksjon.md\ndocs/research/c06-99235-60/reviews/README.md\ndocs/research/c06-99235-60/verification.json\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:29:26.448185+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "show",
+      "92b43c2ce7ec350e10639bd0c75540da0d83ee72:docs/research/c06-99235-60/README.md"
+    ],
+    "exit_code": 0,
+    "stdout": "# C06 / #60: sak 99235 og lønnsvedtakene 853–856\n\nUndersøkt 29. oktober 2026 fra main\n`49cc6e44851cf74e0aaea4eb333419e5598bfd95` for\n[#60](https://github.com/depmartin/budsjetthistorikk/issues/60), del av #37.\n[Kontrakten](contract.md) avgrenser dette som en kunnskapsleveranse for\n1429/1 og /22 i budsjettåret 2024, uten produktadopsjon eller årsaksept.\n\n## Resultat og bevisgrense\n\n**Ingen ny dokumentert postvis bevilgningsendring på 1429/1 eller /22\nfølger av den undersøkte juni-kjeden. Riksantikvaren har samtidig en\nuttrykkelig institusjons-/forhandlingskobling i begge egne tariffvedlegg.**\nDenne positive koblingen er ingen dokumentasjon av konkrete ansatte,\navtaleanvendelse, lønnskostnad, kontoføring eller et nytt postbeløp.\n\n**Primærbehandlingen skiller debatt 20. juni fra votering og vedtak\n21. juni 2024.** Senere Prop. 34/Innst. 91 oppgir fortsatt 20. juni som\nsamtykkedato. Disse motstridende kildeutsagnene bevares ordrett. Årsaken\ntil den retrospektive datoangivelsen er ukjent; ingen original korrigeres.\n\n| Ledd | Dokumentert rolle og konkret grense |\n| --- | --- |\n| Prop. 108, 7. juni | Utbetalingsforslag I–IV og tariffbakgrunn. Kapittel 2 sier uttrykkelig at nødvendige bevilgningsforslag kommer i høstsesjonen 2024. Utbetaling og postvis budsjettbevilgning er forskjellige ledd. |\n| 853 / 40033712, I | Kongen kan bringe tvister fra hovedtariffoppgjøret 2024 inn for Rikslønnsnemnda etter tjenestetvistloven § 31 andre ledd. Nemndshjemmel, uten kapittel/post eller beløpsfordeling. |\n| 854 / 40033713, II | Samtykke til lønnsutbetaling til Akademikerne/Unio i samsvar med nemndsavgjørelsen. Konkrete avgjørelser og personellforhold er utenfor undersøkelsen. |\n| 855 / 40033714, III | LO/YS: møteboka 24. mai og egne vedlegg 1/2, endelig oppgjørsresultat og ja i medlemsavstemningen er uttrykkelige vilkår. |\n| 856 / 40033715, IV | Alternativt utbetalingssamtykke ved nei hos LO og/eller YS og avgjørelse i Rikslønnsnemnda. Det betingede samtykket beviser ikke faktisk nemndsutfall eller betaling. |\n\n[Behandlingsledgeren](treatment-ledger.json) skiller disse rollene fra\ngenerelle tariffregler og tidligere kompensasjonsanslag. Ingen av de fire\nsamtykkene oppretter en ny monetær produkthendelse. Dette bygger på deres\npositive operative innhold og den uttrykkelige henvisningen til senere\nbevilgninger, ikke bare på manglende 1429-ordtreff.\n\n## Proposisjonens egne vedlegg\n\nHele Prop. 108 er bevart: forside, alle seks publiserte HTML-kapitler og\nfull PDF på **144 sider**. De to egne vedleggene, merket LO Stat og YS Stat,\nbestår av **65 + 65 bildesider**. HTML-svarene har figurhenvisninger;\nselve møtebok-/tariffinnholdet er bevart i PDF-ens 130 innlagte bilder.\nHTML-tekstuttrekk alene ville ikke ha lest vedleggene.\n\nAlle bildesidene har side-/figur-/bildehash i\n[bildeinventaret](appendix-image-inventory.json), full bevart avledet\n[OCR](appendix-ocr.json.gz) og egen\n[sidejournal](appendix-reading-journal.json). OCR med Windows.Media.Ocr,\nen-US, er et navigasjons- og screeningsgrunnlag med mulige bokstav-/tallfeil.\nAtten nøkkelsider er i tillegg lest visuelt fra de originale innlagte\nbildene. Ingen feilfri fulltranskripsjon eller manuell visuell\nlinje-for-linje-kontroll av alle 130 bildene påstås.\n\nDet konkrete institusjonsbelegget er viktig: **PDF-side 69 og 135**, figur\n**1.59 og 2.59**, internt tariffvedlegg 2, trykt tariffside **56**.\nUnder Klima- og miljødepartementet står **Riksantikvaren** både som\nvirksomhet og forhandlingssted. § 2.2 på PDF-side 16/82 viser til nettopp\ndenne listen. `RA-LO`, `RA-YS` og `Negotiation-LO/YS` har kildehash,\neksakt PDF-side, bildeindeks, bildehash og visuell lokator i\n[beleggene](evidence.json). Institusjonsrelevansen er dermed positivt\ndokumentert. Postvis /1-/22-virkning og faktisk anvendelse er uavklart.\n\nØkonomiprotokollen på PDF-side 13/79 omtaler beregnet årslønnsvekst 5,2 %,\n0,8 % glidning, 2,5 % overheng, 75/25-fordeling, 0,75 % sentralt generelt\ntillegg og virkning 1. mai 2024. Dette er tariffpremisser. Lokale avsetninger,\nlønnsplaner, minstelønn, OU-/kompetanse-/omstillingstiltak, pensjon og ferie\nhar andre roller enn en postvis statsbudsjettbevilgning. Ingen av disse\nstørrelsene regnes om til et Riksantikvaren-beløp uten lønnsmasse, relevant\navtale og dokumentert fordeling.\n\nEt talltreff har konkret annen betydning: PDF-side **50 og 116**,\nfigur **1.40/2.40**, tariffside **37**, plan **90.910** viser\n**stillingskode 1429 – Aspirant – minstelønn 357 000**. Kolonneoverskriften\ner Stillingskode. Dette er verken budsjettkapittel 1429 eller en bevilgning.\nDet rå innholdet beholdes; det tolkes ikke som et kontotreff.\n\nDe egne vedleggene inngår i undersøkelsen. Eksterne avtaleoriginaler,\nsenere versjoner og nemndskjennelser er ikke automatisk omfattet.\n[Lesejournalen](reading-journal.md) og\n[kryssreferansejournalen](cross-reference-journal.json) angir faktisk\nundersøkt delomfang og uttrykkelig rest, også for de interne særavtale-,\nrettskilde- og tiltakshenvisningene. OCR-fravær brukes ikke som eksklusjon.\n\n## Full behandlingskjede og datokonflikt\n\nK3 s komplette indeks identifiserer sak 99235 i sesjon 2023–2024, ordinal\n114, innstilling 16526. Indeksobjektet ligger på `/*/*[3]/*[114]`.\n99235 finnes **ikke** blant de 67 historiske kandidatforekomstene.\n[C06-oppfølgingen](candidate-followup.json) er separat og reduserer ingen\nhistorisk kandidat- eller resttotal.\n\n| Trinn | Belegg og presis prosessopplysning |\n| --- | --- |\n| Regjeringen | 7. juni 2024, Prop. 108. I–IV har egne tekstbelegg; egne vedlegg følger III. |\n| Komiteen | Innst. 442, 13. juni, `#m1`–`#m3`. Samlet komité fremmer I–IV; Høyre, FrP og flere ulike flertall har egne merknader om tariffmodell/nemnd. Merknadene er ikke alternative posttabeller eller felles vedtaksordlyd. |\n| Debatt | Hele sak 15, 20. juni, kl. 15:56:35–16:05:37: Greni, Linnestad og statsråd Tung. Den komplette lokale behandlingen avsluttes med «Votering, se fredag 21. juni». Ingen ny tekstlig endring er funnet i denne behandlingen. |\n| Forslag | Voteringsforslag **40075780 = I**, **40075781 = II**, **40075782 = III**, **40075783 = IV**, alle tilrådinger. Ingen ekstra forslag er registrert i det komplette lokale voteringsgrunnlaget. |\n| Votering | **23490**, **21.06.2024 kl. 14:11:27.147**, tema I–IV, enstemmig vedtatt. Dette er APIets lokale tidsangivelse; ingen tidssone tilføyes. For/mot/ikke tilstede = −1 er rå sentineler, ingen faktiske stemmetall. |\n| Referat | Komplett HTTP 200-respons for 21. juni, **25 471 530 entity-byte**. Blokk `#2024-06-20-15` sier «Votering i sak nr. 15, debattert 20. juni 2024», har alle fire romertall og enstemmig vedtak. Den står før presidentens overgang til dagens kart. Blokk-ID-en daterer den tidligere debatten, ikke vedtaket. |\n| Endelige vedtak | Voteringsvedtak binder I–IV til 853–856. De komplette gamle sesjonsobjektene binder nummer, sak, ordlyd, 21. juni og API-ID-ene 40033712–40033715. Alle fire er C14N-like i de to separat bevarte eldre sesjonssvarene. |\n\n[Saksgang og datoer](evidence.json) har egne belegg for BEHS 20. juni,\nVOT 21. juni, debattreferatets fremoverlenke, referatets møtedato,\nvoterings-APIets klokkeslett og alle fire vedtaksdatoer. Møtestart\n**14:01:04** er separat fra voteringsklokkeslettet. Flere uavhengige\nprosessfelt støtter altså 21. juni som faktisk voterings-/vedtaksdato;\n20. juni er dokumentert debattdato.\n\nProp. 34 s bevarte kapittel 2 p2/p8/p9 og Innst. 91 `#m2_1` oppgir likevel\n20. juni som samtykkedato. Disse kildeutsagnene er bevart som egne belegg,\nuten ny undersøkelse av 101000. Prosessavklaringen er additiv og retter\ningen gammel tekst eller produktdato. En forklaring på hvorfor de senere\ndokumentene bruker 20. juni, er ikke dokumentert.\n\n[Tekstsammenligningen](stage-comparison.json) viser lik normalisert ordlyd\nfra tilråding via voteringsforslag og referat til sluttvedtak for hvert\nromertall. Regjeringsforslaget har to bevarte ordlydsforskjeller: I bruker\n«tenestetvistlova», og III har kortere vedleggshenvisning. Ingen monetær\nendring eller ny vedtakshendelse utledes av dette. Den avgrensede\nforslagskontrollen er ingen universell garanti for ekstern versjonshistorikk.\n\n## /1, /22 og bevart historikk\n\nProp. 108 s henvisning til senere bevilgningsforslag møter allerede kjent\nR2-kontekst. Den gamle Prop. 36 vedlegg 4-raden på **1429/1 – 2 796 000\nkroner** er fortsatt et selvstendig kildeobservert foreslått\nkompensasjonsanslag. Den er ingen C06-fordeling eller ny vedtatt hendelse.\nBare den relevante gamle metodeomtalen og lokale postblokken er gjenbrukt.\n101000/100895 og faktisk bruk av 231/429 er ikke gjenåpnet.\n\n**/22 arver ingen /1-forklaring.** Verken Riksantikvaren som\nforhandlingssted, generelle tariffprosenter eller den gamle /1-raden gir\nselvstendig bevis for lønnsgrunnlag, bevilgningsendring eller null faktisk\nvirkning på /22. Virksomhetens ansatte, lokale protokoller, kostnader og\nkontoføring er en uttrykkelig restgrense for begge poster.\n\n[Bevaringsmanifestet](preserved-files.json) binder **1 070** eksisterende\nfiler med eksakte checkout-byte/SHA-256 og base-Git-blob-ID-er. Det omfatter\nalle basefiler utenom de to tillatte additive pekerne AGENTS/kildefunn.\nK3/P1/R2/P2/U1, produktkode/tester, schema 5, B5, gamle formater/ID-er,\nlesere og standardvalg består. Fem monetære hendelser/elleve vedtaksfelt,\n67/66, historiske 60/59, 25 vedtakskandidater og R1–R7 er uendret.\nIngen ny total, positiv M21, kontokontinuitet eller faglig årsaksept følger.\n\n## Bevaring, reproduksjon og leveringsstatus\n\n[Kildemanifestet](source-manifest.json) har **16 transportforsøk**:\n15 komplette HTTP 200-sluttsvar og én bevart DNS-feil uten responsbyte.\nAlle mottatte mellomliggende omdirigeringssvar har egne komplette entity-\nog arkivbyte med tidspunkt/hash. Ingen responsbyte er fabrikkert ved DNS-feil.\nKapitlene har separate observasjonstider og er ikke én samtidig henting.\n[Gjenbruksmanifestet](reused-sources.json) refererer **18** eksisterende\nfiler med deres gamle transportspor; ingen nye råkopier/hentedatoer.\n\n[Hentehjelperen](acquire.py) tillater bare de tre avtalte HTTPS-vertene\nfør første forespørsel og hver redirect. Automatiske redirects er slått\nav; hvert mål valideres før neste nettforespørsel. Negative offlineprøver\ndekker vertsflukt, scheme, port, credentials, flerstegsredirect, HTTP-feil\nog avbrutte body-byte. Gamle hjelpere er uendret. Wire/TLS/framing-byte er\nikke arkivert; det er de uendrede HTTP-entity-byte som hashfestes, før lokal\ngzip-komprimering. HTML-/XML-tekst og OCR er separate avledninger.\n\n[Reproduksjonen](reproduksjon.md), [offlinekontrollen](verify.py),\n[kontrollresultatet](verification.json), [lokale kontroller](local-checks.json)\nog [leveransemanifestet](delivery-manifest.json) angir faktiske fil- og\nkildekontroller og deres grenser. [Overleveringen](OVERLEVERING.md) skiller\nbyggerresultatet fra orkestratorens etterfølgende uavhengige porter,\nfull Linux-CI og bekreftet merge. Ingen slik sluttport påstås bestått her.\n\nNi offline transportprøver og tre uendrede kompatibilitetstester består;\nde siste inkluderer faktisk skrevet/gjenlest P2-JSON og Excel. Hele\ncheckouten består Ruff/format (158 Python-filer) og konfigurert mypy\n(81 kildefiler). Fullt eksisterende utvalg på 1 226 tester er samlet inn;\ndet er ingen lokal fullsuite-kjøring. Hele utvalget kjøres i Linux-CI av\norkestratoren før merge, med uendret 90-minuttersgrense.\n\n[Vurderingen av oppdeling/issue-rydding](issue-assessment.md) er inkludert\nuten at andre tickets er publisert eller startet. #10/#32/#37 står åpne.\nMandatet avsluttes etter orkestratorens bekreftede merge; ingen neste ticket.\n\n## Additiv portstatus etter forskningskandidat 9eb27ce\n\nDe fire uavhengige portene er nå dokumentert på fast kandidat\n`9eb27cebf7ca4a99aeb30fa32245e41314e0d295`; de opprinnelige rapportene og\nresultatene er bevart i [samlet reviewinngang](reviews/README.md).\nStandards har 0 funn, Spec ingen nødvendige funn, kildekontrollen ingen\nvesentlige funn og sikkerhetsauditen ingen sperrende funn. Kildekontrollens\nP3 og Specs SP1 er samme presisjonsfeil: J02 er etterpå rettet fra 14 til\n18 visuelt leste nøkkelsider, i samsvar med den uendrede sidejournalen.\nFaglig konklusjon, originaler og faktisk lesedybde er uendret.\n\n[Integrasjonsbeviset](reviews/integration/result.json) skiller denne\nrettingen og helperformatteringen fra de historiske 9eb-attestene.\n[Nye lokale kontroller](reviews/integration/checks.json) gjelder\narbeidsfilene etter integrasjonen. Orkestratoren skal lage ny kandidat\nog bestille målrettet uavhengig etterkontroll før publisering.\nPR, full Linux-CI/90 minutter, autorisert merge, ancestry og faktisk\nGitHub-sluttoverlevering gjenstår. Tidligere byggerstatus ovenfor er\nbevart som historikk; den er ingen status for den kommende kandidaten.\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:29:26.527590+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "show",
+      "92b43c2ce7ec350e10639bd0c75540da0d83ee72:docs/research/c06-99235-60/OVERLEVERING.md"
+    ],
+    "exit_code": 0,
+    "stdout": "# Byggeroverlevering: C06 / #60\n\nLokal kunnskapskandidat for [#60](https://github.com/depmartin/budsjetthistorikk/issues/60),\nbase `49cc6e44851cf74e0aaea4eb333419e5598bfd95`, gren `codex/c06-99235`.\nByggeren har ikke staged, committet eller mutert GitHub. Denne statusen\ner ikke en påstand om uavhengig godkjenning, full CI, PR eller merge.\n\n## Levert lokalt\n\n- [Kontrakt](contract.md), [rapport](README.md), [lesejournal](reading-journal.md),\n  [behandlingsledger](treatment-ledger.json),\n  [kryssreferanser](cross-reference-journal.json),\n  [C06-oppfølging](candidate-followup.json) og administrativ\n  [oppdelings-/ryddingsvurdering](issue-assessment.md).\n- Komplette nødvendige hovedoriginaler, egne vedlegg i full PDF på 144 sider,\n  16 nye transportforsøk med 15 komplette sluttsvar, alle redirectentity-byte,\n  én DNS-feil uten svar, 18 gjenbruksfiler og 87 belegg. 130 egne vedleggsbilder\n  har inventar/OCR/sidejournal; 18 nøkkelsider er visuelt lest.\n- [Reproduksjon](reproduksjon.md), [bevaringsmanifest](preserved-files.json),\n  [leveransemanifest](delivery-manifest.json),\n  [offlinekontroll](verification.json) og [lokale kontroller](local-checks.json).\n\n## Faglig resultat\n\nDebatten var 20. juni; 23490 vedtok I–IV enstemmig 21. juni 2024 kl 14:11:27.147.\nSaksgang, komplett debatt-/voteringsreferat, API og fire endelige vedtak\nstøtter denne prosessavklaringen. Senere 20. juni-utsagn i Prop. 34/Innst. 91\ner bevart; hvorfor de bruker denne datoen er uavklart. Ingen original rettes.\n\n853 er nemndshjemmel; 854 nemndsbasert lønnssamtykke; 855 betinget LO/YS-\nmøteboksamtykke; 856 alternativt betinget nemndssamtykke. Høstbevilgningene\nskal fremmes senere ifølge Prop. 108. Ingen ny postvis 1429-bevilgning er\nbelagt. Riksantikvaren står uttrykkelig i begge egne forhandlingsstedslister;\ndet er positiv institusjonsrelevans med uavklart personell-/postanvendelse.\nStillingskode 1429 Aspirant 357 000 er konkret annen tallbetydning. /22 arver\ningen /1-forklaring; det gamle /1-kompensasjonsanslaget beholder sin rolle.\n\nLesedybden i 130 bildesider er uttrykkelig avgrenset: alle er råbevart,\nOCR-behandlet og seksjonsinventert; 18 sider er visuelt lest. Feilfri OCR,\nfull manuell celletranskripsjon og generell tariff-/retts-/personellaksept\npåstås ikke. Ved uavhengig kildekontroll bør bildene på side 69/135,\n50/116 og 13/79 prioriteres for de konkrete nye observasjonene.\n\n## Neste nødvendige porter for akkurat denne ticketen\n\nOrkestratoren lager fast kandidat og sørger for uavhengig kildekontroll,\nsamlet Standards/Spec og separat sikkerhetsaudit på samme kandidat.\nNødvendige funn rettes og kontrolleres. Deretter én PR, faktisk Git-blob-\nkontroll, hele uendrede Linux-CI med 90 minutter, eventuell nødvendig\nCI-retting, autorisert merge, ancestry og GitHub-sluttoverlevering.\nIngen av disse portene kan utledes bare fra byggerens lokale resultat.\n\nLokalt består ni offline transportprøver, tre eksisterende kompatibilitets-\ntester med faktisk P2-JSON-/Excel-gjenlesing, Ruff/format på 158 filer og\nkonfigurert mypy på 81 kildefiler. Alle 1 226 eksisterende tester ble\nsamlet inn; full kjøring gjenstår i Linux-CI. Nøyaktige kommandoer,\ntidspunkt og utdata ligger i local-checks.json og checks/.\n\nAlle 1 070 beskyttede basefiler er uendret; AGENTS/kildefunn har bare korte\nadditive pekere. K3/P1/R2/P2/U1, produkt/tester, schema 5/B5 og gamle\nformater/ID-er/lesere/standardvalg består. Fem/elleve og historiske 67/66,\n60/59,25 og R1–R7 består. 99235 er utenfor den historiske 67-listen.\n\nIngen gjenåpning av 101000/100895 eller faktisk 231/429 bruk. Ingen annen\nkandidat eller neste ticket. #10/#32/#37 står åpne. Bevar andre branches,\narbeidsflater og historiske manifest-/reviewbindinger; lokal hovedcheckout\nsynkroniseres bare hvis prosjektets bevaringsvilkår er oppfylt.\n\n## Additiv integrasjon etter uavhengige porter\n\nKildekontroll, Standards/Spec og separat sikkerhetsaudit er fullført på\nforskningskandidat `9eb27cebf7ca4a99aeb30fa32245e41314e0d295`.\n[Portoversikten](reviews/README.md) lenker de uendrede attestene med\nkonkrete resultater og grenser. Ingen sperrende funn står åpent der.\nDen felles P3/SP1-presiseringen i J02 er rettet fra 14 til 18 nøkkelsider.\nIngen original, sidejournal, faglig konklusjon eller eldre pinnefil er endret.\n\nBare den nye Standards-helperen fikk formattering/lintretting. Originalbyte\ner bevart, og [integrasjonskontrollen](reviews/integration/result.json)\nkrever identisk AST og identisk fast kontrollutfall utenom tidspunkt.\nIngen opprinnelig reviewer-rapport/resultatfil er overskrevet.\n[Nye kontrollutdata](reviews/integration/checks.json) er separate fra\nbyggerens og reviewernes historiske observasjoner.\n\nDenne integrasjonen er ikke committet av byggeren. Orkestratoren lager\nny kandidat og bestiller målrettet uavhengig etterkontroll av J02,\nmanifestoppdateringen og reviewbindingen. Én PR, faktisk Git-blob-kontroll,\nfull uendret Linux-CI/90 minutter, autorisert merge, ancestry og\nGitHub-sluttoverlevering gjenstår. Ingen ny fullsuite eller kildehenting\ner utført i integrasjonen. Avsnittet om neste porter ovenfor er den\nopprinnelige byggeroverleveringen, bevart som historikk.\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:29:26.575029+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "show",
+      "92b43c2ce7ec350e10639bd0c75540da0d83ee72:docs/research/c06-99235-60/reproduksjon.md"
+    ],
+    "exit_code": 0,
+    "stdout": "# Reproduksjon, byteformer og kontrollgrenser\n\nKjør fra repoets rot med Python 3.12, lxml 6.1.3 og pypdf 6.10.0. De pinnede\nverktøyene finnes i checkoutens ignorerte `.local/python-tools`; de er\ninstallert fra uendret `requirements-dev.txt`. Ingen produktdatabase eller\nnettjeneste kreves av offlinekontrollen.\n\n```powershell\n$c06Python = 'C:/Users/marti/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'\n$env:PYTHONPATH = (Resolve-Path '.local/python-tools').Path\n$env:PYTHONDONTWRITEBYTECODE = '1'\n& $c06Python docs/research/c06-99235-60/test_acquire.py\n& $c06Python docs/research/c06-99235-60/verify.py\n```\n\n`verify.py` leser originaler og alle manifester. Den rekonstruerer SHA-256,\nstørrelser, komplette HTTP-hopp, vertsgrenser, rekkefølgen kontrakt→forsøk,\nXML/HTML-/PDF-konvolutter, alle nøyaktige lokatorer/tekster, 130 bildehasher,\nvisuelle sidereferanser, OCR-/sidejournalbindinger, fire C14N-sammenligninger,\ntekstsammenligning i behandlingsleddene, datoavklaringen, kandidatfravær i\nhistorisk 67-liste og bevaring av 1 070 basefiler. Den skiller dette fra faglig\nårsaksept, feilfriOCR og uavhengig kildekontroll.\n\nEtter at orkestratoren har laget en kandidatcommit kan dens faktiske Git-\nblobbyte prøves med `verify.py <full-kandidat-SHA>`. Det krever at alle\nmanifestførte filer finnes i kandidaten. Uten argument kontrolleres\narbeidsfilene; det er ingen påstand om commit/publisering.\n\n## Originaler og avledet tekst\n\nAlle nye forskningsfiler har `-text` gjennom lokal `.gitattributes`.\nRå entity-byte endres ikke. HTTP transfer-framing, TLS og wire-headerbyte\ner ikke bevart. `urllib` leser entity-byte uten automatisk Content-Encoding-\ndekomprimering; Accept-Encoding er identity. Alle observerte svar er\nkontrollert for dette. Lokal gzip har `mtime=0`; arkivhash og dekomprimert\nentity-hash er forskjellige, eksplisitte felt.\n\nHvert redirect-hopp har egen entity-capture og original responsmetadata.\nDen eneste nye transportfeilen er DNS-feilen før noe HTTP-svar; den har\ningen konstruert tom original. Samme identifikator kan ikke overskrives.\nAlle forsøk finnes i [source-manifest.json](source-manifest.json).\n\nDen nye [acquire.py](acquire.py) bruker eksplisitt engangshenting:\n\n```powershell\n& $c06Python docs/research/c06-99235-60/acquire.py NY-UNIK-ID 'https://data.stortinget.no/eksport/sak?sakid=99235'\n```\n\nEn ny kjøring er en ny kildeobservasjon og inngår ikke automatisk i denne\nfrosne leveransen. Eksakte HTTPS-verter er data.stortinget.no,\nwww.stortinget.no og www.regjeringen.no. Andre scheme/verter/porter og\ncredentials avvises før nett. Relative redirectmål løses og valideres før\nneste forespørsel. Automatisk redirectfølging er deaktivert. Maksimalt åtte\nredirects og 80 MiB per body; socket-timeout 55 sekunder. Ingen samlet\nwall-clock-frist eller generell uovervåket innhentingstjeneste påstås.\n\nSaks-APIets gamle http-/protokollrelative dokumentlenker beholdes i kilden.\nVed henting er de eksplisitt oversatt til HTTPS på samme avtalte vert;\nden faktisk forespurte URL-en og hver videre redirect står i metadata.\n\nHTML avledes fra UTF-8-dekodet kildesvar og lxml HTML; XML bruker\n`resolve_entities=False,no_network=True`. `itertext` joines og Unicode-\nwhitespace kollapses. Originalenes mellomrom/linjeskift bevares i råbyte.\nXML-belegg kan i tillegg parse ett navngitt indreHTML-felt. Hvert belegg\nhar egen hash, absolutt XPath, navnerom og eventuell indre feltlokator.\nVisuelle belegg er egne manuelle observasjoner/parafraser og har ikke\nen påstått eksakt maskintranskripsjon.\n\nDe gamle kildene gjenbrukes ved referanse. 853–856 er sammenlignet som\nhele XML-objekter med lxml C14N uten kommentarer fra begge autentiske\nsesjonsoriginaler. Ulike HTTP-konvolutter og responsdatoer beholdes; det\npåstås ingen ny HTTP-observasjon av dem. Gamle K3-delforsøk og 500-siden\nfor referatet endres ikke eller brukes som fraværsbevis.\n\n## Hele egne vedlegg og OCR\n\nFullPDF er den autoritative råbevaringen av 130 vedleggsbilder. Den leses\nfra gzip; det lagres ingen ekstra full dekomprimert PDF per visning.\nReproduser alle innlagte JPEG-er lokalt slik:\n\n```powershell\n& $c06Python docs/research/c06-99235-60/extract_appendices.py --images .local/c06-images\n```\n\n`pypdf6.10.0 page.images[].data` brukes. Navn, PDF-side, bildeindeks,\nSHA-256, antall byte og figurordinal kontrolleres mot\n[appendix-image-inventory.json](appendix-image-inventory.json).\nDette er avledede lokale bildeuttrekk, ingen ekstra HTTP-originaler eller\npåstand om at HTML-JPEG-er har samme byte. OriginalPDF-en bevares uendret.\n\n[OCR-skriptet](ocr-appendices.ps1) ble kjørt i Windows PowerShell 5.1 mot\nde lokale bildene med Windows.Media.Ocr, en-US. Det bevarte gzip-materialet\nhar motor, operativsystemversjon, tidspunkt, full tekst og ordkoordinater\nfor alle 130 bilder. Ingen andre språkpakker ble installert. OCR kan avvike\nved ny kjøring/annenOS-versjon; derfor hasher sidejournalen den faktisk\nbevarte avledningen, ikke en antatt universell OCR-fasit.\n\nSkriptet skriver til valgfri lokal utdatafil. En kjøring med `-File` ble\navvist av maskinens scriptpolicy før OCR; deretter ble den lokale\nscriptblokken kjørt med `-Command`, uten å endre system-/brukerpolicy.\nSandboxens WinRT-fillesing ga AccessDenied; godkjent kjøring med ordinær\nlokal tilgang fullførte alle 130 bilder. Første `test_acquire.py`-forsøk\ntraff tilsvarende en utilgjengelig sandbox-tempmappe; prøvene bruker nå\nautomatisk ryddede midlertidige mapper inne i forskningspakken.\nDisse er lokale verktøyforsøk, ingen ekstra HTTP-forsøk.\n\nVisuelle belegg kan kontrolleres ved å åpne de angitte bildeuttrekkene\neller rendre de tilsvarende PDF-sidene med bundlet `pdftoppm`. Byggeren\nleste de 18 angitte bildene i originaloppløsning; ingen ny PDF er utgitt og\ningen generell layoutgodkjenning av dokumentet påstås.\n\n## Regenerering og manifesteierskap\n\n`build_evidence.py` kan gjenoppbygge kildemanifest, gjenbruk, 87 belegg,\nsidejournal, C14N-/leddsammenligninger og bevaringsmanifest fra de\neksisterende råoriginalene. Den skriver ikke originaler eller produktfiler.\n`extract_appendices.py --write-inventory` regenererer bildeinventaret.\nKjør bare disse ved en bevisst ny forskningsrevisjon; ordinær kontroll er\nlesebasert `verify.py`.\n\n[preserved-files.json](preserved-files.json) binder alle 1 070 basefiler\nutenom AGENTS/kildefunn. Checkout-byte er denne Windows-observasjonen;\nGit-blob-ID er den plattformuavhengige bindingen. En del eldreCSV-blobber\nhar selvCRLF; de sammenlignes rått. Ellers brukes Git clean-filter ved\nbehov for checkout-linjeskift. Ingen kilde normaliseres eller omskrives.\nDe to additive pekerne hasher uttrykkelig UTF-8/LF i leveransemanifestet.\n\n[delivery-manifest.json](delivery-manifest.json) omfatter alle byggerfiler,\nden administrative issuevurderingen og begge pekere, men ikke seg selv,\n`__pycache__` eller senere `reviews/**`. Ingen selvhashsyklus lages.\n[verification.json](verification.json) lagres fra en avsluttet kjøring,\nmanifestet oppdateres etterpå, og kontrollen gjentas lesebasert. Den siste\nreproduksjonen får flere manifestkontroller enn en første kjøring uten\nmanifest; de lagrede resultatene skal leses med denne konteksten.\n\n`local-checks.json` binder de faktisk kjørte lokale kommandoene, klokkeslett,\nexitkoder og utdata. Full Linux-CI med alle tester, uavhengig kildekontroll,\nStandards/Spec og separat audit utføres av orkestratoren på fast kandidat.\nIngen historisk reviewattest eller pinnedfil skrives om til ny portstatus.\n\n## Additiv kontroll etter de fire faste 9eb-portene\n\n[Reviewoversikten](reviews/README.md) og\n[originalmanifestet](reviews/integration/original-review-files.json)\nbinder de 15 opprinnelige reviewfilene til forskningskandidat\n`9eb27cebf7ca4a99aeb30fa32245e41314e0d295`. Rapporter og resultater er\nuendrede historiske attester. Standards-helperens originalbyte er bevart\nseparat; bare formattering og linjedeling av én strenglitteral er gjort.\n\nKjør [integrasjonskontrollen](reviews/integration/verify_integration.py)\nuten utdataargument for en lesebasert kontroll:\n\n```powershell\n& $c06Python docs/research/c06-99235-60/reviews/integration/verify_integration.py\n```\n\nDen kontrollerer originalreviewhasher, helperens identiske AST og dens\nfaste Git-kontroller med resultatfilskriving avskåret. Alle resultatfelt\nutenom kjøretidspunkt må være identiske med originalresultatet. J02 skal\nha nøyaktig én byteutskifting fra «14 nøkkelsider» til «18 nøkkelsider»,\nsom skal stemme med de 18 uendrede visuelle sideflaggene. Øvrige kandidatfiler\nkontrolleres mot 9eb, med bare de uttrykkelige dokument-/kontrollunntakene.\nDe tre statusdokumentene må ha bevart originalteksten og bare additive\ntillegg. Ingen kildehenting eller ny faglig lesing inngår.\n\n[Integrasjonsresultatet](reviews/integration/result.json) hashbinder\nreviewinngangen, originalmanifestet, helperne og de historiske bevisene.\nDet utelater seg selv og [nye kontrollutdata](reviews/integration/checks.json)\nfor å unngå hashsykler. Leveransemanifestets avtalte avgrensning består:\ndet binder de reviderte byggerfilene, mens `reviews/**` har egen binding.\n`verification.json` er ny byggerkontroll av arbeidsfilene; 9eb-versjonen\nbestår i Git og reviewernes opprinnelige resultater er uendret.\n\nFull uavhengig nykandidatattest følger ikke av denne integrasjonen.\nOrkestratoren committer og bestiller målrettet etterkontroll før PR/full\nLinux-CI og bekreftet merge. Hele testutvalget og 90-minuttersgrensen består.\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:29:26.646702+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "show",
+      "92b43c2ce7ec350e10639bd0c75540da0d83ee72:docs/research/c06-99235-60/reviews/README.md"
+    ],
+    "exit_code": 0,
+    "stdout": "# Samlet reviewstatus for C06 / #60\n\nAlle fire uavhengige porter gjelder forskningskandidat\n`9eb27cebf7ca4a99aeb30fa32245e41314e0d295`, tre\n`60dfabaec4e7c022e30c6a6389a622790fad11f5`, mot base\n`49cc6e44851cf74e0aaea4eb333419e5598bfd95`.\nRapportenes SHA-bindinger og historiske «gjenstår» beholdes.\n\n| Port | Fast attest og faktisk kontrollomfang |\n| --- | --- |\n| [Kildekontroll](source/README.md) | Ingen vesentlige kildefunn; én P3-presisering. 1 786 egne maskinkontroller; 18 nøkkelbilder samt PDF 17/83 lest visuelt. Tre uendrede kompatibilitetstester og faktisk JSON/Excel kontrollert separat. |\n| [Standards](standards/README.md) | Bestått, 0 funn. 74 kandidatfiler, seks Python-filer, 37 JSON-filer og 1 070 uendrede basefiler. |\n| [Spec](spec/README.md) | Ingen nødvendige funn; SP1/P3 er samme presisering. 50 egne kontroller, byggerens 3 335 kontroller og ni transportprøver. |\n| [Sikkerhet](security/README.md) | Ingen sperrende funn. U1/S1 håndtert i ny helper. 3 776 egne kontroller, byggerens 3 335 og ni transportprøver. |\n\nEtter portene er **bare J02s «14 nøkkelsider» rettet til «18 nøkkelsider»**\ni faggrunnlaget. De 18 flaggene i sidejournalen og øvrig faginnhold er\nuendret. Dette gir ingen ny visuell lesing eller utvidet bevisgrense.\n\nStandards-hjelperen fikk kun formattering og oppdeling av én lang\nstrenglitteral. [Originalbyte og opprinnelige filhasher](integration/original-review-files.json)\ner bevart. [Integrasjonskontrollen](integration/verify_integration.py)\nsammenholder identisk AST, gjentar helperens faste Git-kontroller med\nskriving av originalt resultat avskåret, og krever identisk kontrollutfall\nbortsett fra tidspunkt. Ingen opprinnelig sluttrapport eller resultatfil\ner omskrevet. [Integrasjonsresultatet](integration/result.json) binder\narbeidsfilene og presisjonsrettingen; [nye lokale kontroller](integration/checks.json)\ner egne observasjoner etter reviewene.\n\nDette er ingen attest på en senere kandidat-SHA. Orkestratoren må committe\nintegrasjonen og bestille målrettet uavhengig etterkontroll av J02,\nmanifestene og bevisbindingen. Én PR, faktisk kandidat-/blobkontroll,\nfull uendret Linux-CI med 90 minutter, autorisert merge, ancestry og\nGitHub-sluttoverlevering gjenstår. Produkt/test/CI, schema 5/B5, fem/elleve,\n67/66, historiske 60/59, 25 vedtakskandidater og R1–R7 er bevart.\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:29:26.695193+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "ls-tree",
+      "-rz",
+      "92b43c2ce7ec350e10639bd0c75540da0d83ee72",
+      "--",
+      "docs/research/c06-99235-60/reviews/"
+    ],
+    "exit_code": 0,
+    "stdout": "100644 blob d8f4becebdf8510cbc814561cd69ba203158eee8\tdocs/research/c06-99235-60/reviews/README.md\u0000100644 blob 1c24300567186a785f5482114d8867b5fecdc51e\tdocs/research/c06-99235-60/reviews/final-check.md\u0000100644 blob eddc1eb3276028cbf16c9612ca8ef3bf364f72b8\tdocs/research/c06-99235-60/reviews/integration/check_candidate.py.original\u0000100644 blob 6f1437fb022439aca249a55ad9ab40d2932853cb\tdocs/research/c06-99235-60/reviews/integration/checks.json\u0000100644 blob 8535cc4e5b08046291aafbaf3fd8eb5f0539745e\tdocs/research/c06-99235-60/reviews/integration/original-review-files.json\u0000100644 blob 06e8fd34a2ae3b9d443d67948f64cba66369e571\tdocs/research/c06-99235-60/reviews/integration/result.json\u0000100644 blob 3cfb0fd77363147811f85fa75cbdf8594fb12d03\tdocs/research/c06-99235-60/reviews/integration/verify_integration.py\u0000100644 blob 357baf118b20bc3e81bc8b3b332b89914ce7a73d\tdocs/research/c06-99235-60/reviews/security/README.md\u0000100644 blob f6d09728ac266e9aff1f876ea08332dc93dd347b\tdocs/research/c06-99235-60/reviews/security/builder-transport-tests.txt\u0000100644 blob bab45937e06ebcf2648501e07c2bb788b9b9b99e\tdocs/research/c06-99235-60/reviews/security/builder-verify-current.json\u0000100644 blob 7522f17e663660b1f976a4a72e3edc78e58885fc\tdocs/research/c06-99235-60/reviews/security/security-results.json\u0000100644 blob ea083a15c81084b5ab9fd697510f98d3c6f65901\tdocs/research/c06-99235-60/reviews/security/security_checks.py\u0000100644 blob 1db03e493914fce3da7397afd08dd8d2b81053a4\tdocs/research/c06-99235-60/reviews/source/README.md\u0000100644 blob 4b1e267b9c38a45511740aa4f5330935f2dfa0a9\tdocs/research/c06-99235-60/reviews/source/independent_check.py\u0000100644 blob e44a2de087cec66f00e13bd3880a22ca76ba1c00\tdocs/research/c06-99235-60/reviews/source/result.json\u0000100644 blob 384da5ea0e7e745c0f191c7ed7da7366009e67ae\tdocs/research/c06-99235-60/reviews/source/runtime-result.json\u0000100644 blob 951c43f3e95205f1a9ee6df32c0c42e7a8f399bd\tdocs/research/c06-99235-60/reviews/spec/README.md\u0000100644 blob 003805f33aa0d0651ba075fb584b3b51d525ce3d\tdocs/research/c06-99235-60/reviews/spec/results.json\u0000100644 blob ebd81c8503ef8196e96b294aac9332e2317e2343\tdocs/research/c06-99235-60/reviews/spec/verify_spec.py\u0000100644 blob ae3cec6d58be94560a8aede7dc4d9d9b251a3b13\tdocs/research/c06-99235-60/reviews/standards/README.md\u0000100644 blob 6952d7a368f123f5063ef2d14e06961bc7ec56d0\tdocs/research/c06-99235-60/reviews/standards/candidate-checks.json\u0000100644 blob 40b5411fe259964406c1fa8498e3b25bcfee403b\tdocs/research/c06-99235-60/reviews/standards/check_candidate.py\u0000",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:29:27.750971+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "ls-files",
+      "--others",
+      "--exclude-standard"
+    ],
+    "exit_code": 0,
+    "stdout": "docs/research/c06-99235-60/reviews/history/README.md\ndocs/research/c06-99235-60/reviews/history/candidates.bundle\ndocs/research/c06-99235-60/reviews/history/commands.json\ndocs/research/c06-99235-60/reviews/history/create_bundle.py\ndocs/research/c06-99235-60/reviews/history/final-checks.json\ndocs/research/c06-99235-60/reviews/history/fresh-location.json\ndocs/research/c06-99235-60/reviews/history/fresh-proof.json\ndocs/research/c06-99235-60/reviews/history/initial-attempt.json\ndocs/research/c06-99235-60/reviews/history/manifest.json\ndocs/research/c06-99235-60/reviews/history/replay-comparison.json\ndocs/research/c06-99235-60/reviews/history/replay-summary.json\ndocs/research/c06-99235-60/reviews/history/replay/fixed-security.json\ndocs/research/c06-99235-60/reviews/history/replay/fixed-security.stderr.txt\ndocs/research/c06-99235-60/reviews/history/replay/fixed-security.stdout.txt\ndocs/research/c06-99235-60/reviews/history/replay/fixed-source.json\ndocs/research/c06-99235-60/reviews/history/replay/fixed-source.stderr.txt\ndocs/research/c06-99235-60/reviews/history/replay/fixed-source.stdout.txt\ndocs/research/c06-99235-60/reviews/history/replay/fixed-spec-first-attempt.stderr.txt\ndocs/research/c06-99235-60/reviews/history/replay/fixed-spec-first-attempt.stdout.txt\ndocs/research/c06-99235-60/reviews/history/replay/fixed-spec.json\ndocs/research/c06-99235-60/reviews/history/replay/fixed-spec.stderr.txt\ndocs/research/c06-99235-60/reviews/history/replay/fixed-spec.stdout.txt\ndocs/research/c06-99235-60/reviews/history/replay/fixed-standards.json\ndocs/research/c06-99235-60/reviews/history/replay/fixed-standards.stderr.txt\ndocs/research/c06-99235-60/reviews/history/replay/fixed-standards.stdout.txt\ndocs/research/c06-99235-60/reviews/history/replay/fresh-bundle-rebuild.stderr.txt\ndocs/research/c06-99235-60/reviews/history/replay/fresh-bundle-rebuild.stdout.txt\ndocs/research/c06-99235-60/reviews/history/replay/fresh-derived-images.stderr.txt\ndocs/research/c06-99235-60/reviews/history/replay/fresh-derived-images.stdout.txt\ndocs/research/c06-99235-60/reviews/history/replay/published-integration.stderr.txt\ndocs/research/c06-99235-60/reviews/history/replay/published-integration.stdout.txt\ndocs/research/c06-99235-60/reviews/history/replay/published-verify.stderr.txt\ndocs/research/c06-99235-60/reviews/history/replay/published-verify.stdout.txt\ndocs/research/c06-99235-60/reviews/history/replay/transport.stderr.txt\ndocs/research/c06-99235-60/reviews/history/replay/transport.stdout.txt\ndocs/research/c06-99235-60/reviews/history/replay/working-diff-check.stderr.txt\ndocs/research/c06-99235-60/reviews/history/replay/working-diff-check.stdout.txt\ndocs/research/c06-99235-60/reviews/history/replay/working-integration.stderr.txt\ndocs/research/c06-99235-60/reviews/history/replay/working-integration.stdout.txt\ndocs/research/c06-99235-60/reviews/history/replay/working-mypy.stderr.txt\ndocs/research/c06-99235-60/reviews/history/replay/working-mypy.stdout.txt\ndocs/research/c06-99235-60/reviews/history/replay/working-ruff-format.stderr.txt\ndocs/research/c06-99235-60/reviews/history/replay/working-ruff-format.stdout.txt\ndocs/research/c06-99235-60/reviews/history/replay/working-ruff.stderr.txt\ndocs/research/c06-99235-60/reviews/history/replay/working-ruff.stdout.txt\ndocs/research/c06-99235-60/reviews/history/replay/working-transport.stderr.txt\ndocs/research/c06-99235-60/reviews/history/replay/working-transport.stdout.txt\ndocs/research/c06-99235-60/reviews/history/replay/working-verify.stderr.txt\ndocs/research/c06-99235-60/reviews/history/replay/working-verify.stdout.txt\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:29:27.799398+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "show-ref",
+      "--verify",
+      "--quiet",
+      "refs/c06-history/candidates"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:29:27.856726+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "diff",
+      "--cached",
+      "--exit-code"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:29:27.919909+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "rev-list",
+      "--objects",
+      "9efa1f7b67e4ad5b2722b6a6604591af281e4e9c",
+      "^92b43c2ce7ec350e10639bd0c75540da0d83ee72",
+      "^92b43c2ce7ec350e10639bd0c75540da0d83ee72^{tree}"
+    ],
+    "exit_code": 0,
+    "stdout": "9efa1f7b67e4ad5b2722b6a6604591af281e4e9c\nd241ad8f36f70718dbc54d3093c151d301d04f30\n9eb27cebf7ca4a99aeb30fa32245e41314e0d295\nafd35a9f4bf98c8b2e69bd3373464a9661811b7b \n78f3920d8f1f92fe8531b42243dbc1779da048e4 docs\nc7023439cb58a479691408bea76ce4a65202d9b2 docs/research\n713266b45069f3e2580793b44be085a5fcbbdd7a docs/research/c06-99235-60\n224084dacdd528df49622fe6d1585159c5b949a7 docs/research/c06-99235-60/reviews\n60dfabaec4e7c022e30c6a6389a622790fad11f5 \nf81e2e0b741fc164e1fc84a9b184856f0deb428f docs\n70117a578046ce41c6ff6fac59a3a4d96c6ccb85 docs/research\nb65067c2ff688cb738a68a62b7ad27e155303d06 docs/research/c06-99235-60\n49d44be299b84434c139bf92bee476fa427c52a9 docs/research/c06-99235-60/OVERLEVERING.md\nb988b73966f09ff86b1d211bb293215dba6d8772 docs/research/c06-99235-60/README.md\n8fa4683fbe61119722951ae16560f691f29d2b50 docs/research/c06-99235-60/cross-reference-journal.json\n0e95ce68f7e351fa4293feb8e9461f1f7ab52418 docs/research/c06-99235-60/delivery-manifest.json\n501242b0a831cbc62835158cd32f5fdbc19a1676 docs/research/c06-99235-60/reproduksjon.md\nfbbd9d6af9d5a9f2304b56415c212fd384cbcfc9 docs/research/c06-99235-60/verification.json\n",
+    "stderr": ""
+  },
+  {
+    "cwd": ".",
+    "argv": [
+      "apply_patch",
+      "README command-log explanation (first context match)"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "apply_patch verification failed: Failed to find expected lines.",
+    "explanation": "No file changed; the additive explanation was subsequently applied using the actual nearby paragraph."
+  },
+  {
+    "utc": "2026-10-29T18:31:51.201674+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "diff",
+      "--name-only",
+      "92b43c2ce7ec350e10639bd0c75540da0d83ee72"
+    ],
+    "exit_code": 0,
+    "stdout": "docs/research/c06-99235-60/OVERLEVERING.md\ndocs/research/c06-99235-60/README.md\ndocs/research/c06-99235-60/delivery-manifest.json\ndocs/research/c06-99235-60/reproduksjon.md\ndocs/research/c06-99235-60/reviews/README.md\ndocs/research/c06-99235-60/verification.json\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:31:51.436117+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "ls-tree",
+      "-rz",
+      "92b43c2ce7ec350e10639bd0c75540da0d83ee72",
+      "--",
+      "docs/research/c06-99235-60/reviews/"
+    ],
+    "exit_code": 0,
+    "stdout": "100644 blob d8f4becebdf8510cbc814561cd69ba203158eee8\tdocs/research/c06-99235-60/reviews/README.md\u0000100644 blob 1c24300567186a785f5482114d8867b5fecdc51e\tdocs/research/c06-99235-60/reviews/final-check.md\u0000100644 blob eddc1eb3276028cbf16c9612ca8ef3bf364f72b8\tdocs/research/c06-99235-60/reviews/integration/check_candidate.py.original\u0000100644 blob 6f1437fb022439aca249a55ad9ab40d2932853cb\tdocs/research/c06-99235-60/reviews/integration/checks.json\u0000100644 blob 8535cc4e5b08046291aafbaf3fd8eb5f0539745e\tdocs/research/c06-99235-60/reviews/integration/original-review-files.json\u0000100644 blob 06e8fd34a2ae3b9d443d67948f64cba66369e571\tdocs/research/c06-99235-60/reviews/integration/result.json\u0000100644 blob 3cfb0fd77363147811f85fa75cbdf8594fb12d03\tdocs/research/c06-99235-60/reviews/integration/verify_integration.py\u0000100644 blob 357baf118b20bc3e81bc8b3b332b89914ce7a73d\tdocs/research/c06-99235-60/reviews/security/README.md\u0000100644 blob f6d09728ac266e9aff1f876ea08332dc93dd347b\tdocs/research/c06-99235-60/reviews/security/builder-transport-tests.txt\u0000100644 blob bab45937e06ebcf2648501e07c2bb788b9b9b99e\tdocs/research/c06-99235-60/reviews/security/builder-verify-current.json\u0000100644 blob 7522f17e663660b1f976a4a72e3edc78e58885fc\tdocs/research/c06-99235-60/reviews/security/security-results.json\u0000100644 blob ea083a15c81084b5ab9fd697510f98d3c6f65901\tdocs/research/c06-99235-60/reviews/security/security_checks.py\u0000100644 blob 1db03e493914fce3da7397afd08dd8d2b81053a4\tdocs/research/c06-99235-60/reviews/source/README.md\u0000100644 blob 4b1e267b9c38a45511740aa4f5330935f2dfa0a9\tdocs/research/c06-99235-60/reviews/source/independent_check.py\u0000100644 blob e44a2de087cec66f00e13bd3880a22ca76ba1c00\tdocs/research/c06-99235-60/reviews/source/result.json\u0000100644 blob 384da5ea0e7e745c0f191c7ed7da7366009e67ae\tdocs/research/c06-99235-60/reviews/source/runtime-result.json\u0000100644 blob 951c43f3e95205f1a9ee6df32c0c42e7a8f399bd\tdocs/research/c06-99235-60/reviews/spec/README.md\u0000100644 blob 003805f33aa0d0651ba075fb584b3b51d525ce3d\tdocs/research/c06-99235-60/reviews/spec/results.json\u0000100644 blob ebd81c8503ef8196e96b294aac9332e2317e2343\tdocs/research/c06-99235-60/reviews/spec/verify_spec.py\u0000100644 blob ae3cec6d58be94560a8aede7dc4d9d9b251a3b13\tdocs/research/c06-99235-60/reviews/standards/README.md\u0000100644 blob 6952d7a368f123f5063ef2d14e06961bc7ec56d0\tdocs/research/c06-99235-60/reviews/standards/candidate-checks.json\u0000100644 blob 40b5411fe259964406c1fa8498e3b25bcfee403b\tdocs/research/c06-99235-60/reviews/standards/check_candidate.py\u0000",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:31:52.477396+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "ls-files",
+      "--others",
+      "--exclude-standard"
+    ],
+    "exit_code": 0,
+    "stdout": "docs/research/c06-99235-60/reviews/history/README.md\ndocs/research/c06-99235-60/reviews/history/candidates.bundle\ndocs/research/c06-99235-60/reviews/history/commands.json\ndocs/research/c06-99235-60/reviews/history/create_bundle.py\ndocs/research/c06-99235-60/reviews/history/final-checks.json\ndocs/research/c06-99235-60/reviews/history/fresh-location.json\ndocs/research/c06-99235-60/reviews/history/fresh-proof.json\ndocs/research/c06-99235-60/reviews/history/initial-attempt.json\ndocs/research/c06-99235-60/reviews/history/manifest.json\ndocs/research/c06-99235-60/reviews/history/object-inventory.json\ndocs/research/c06-99235-60/reviews/history/replay-comparison.json\ndocs/research/c06-99235-60/reviews/history/replay-summary.json\ndocs/research/c06-99235-60/reviews/history/scope-checks.json\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:31:52.539886+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "show-ref",
+      "--verify",
+      "--quiet",
+      "refs/c06-history/candidates"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:31:52.599502+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "diff",
+      "--cached",
+      "--exit-code"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-10-29T18:31:52.667013+00:00",
+    "cwd": ".",
+    "argv": [
+      "git",
+      "rev-list",
+      "--objects",
+      "9efa1f7b67e4ad5b2722b6a6604591af281e4e9c",
+      "^92b43c2ce7ec350e10639bd0c75540da0d83ee72",
+      "^92b43c2ce7ec350e10639bd0c75540da0d83ee72^{tree}"
+    ],
+    "exit_code": 0,
+    "stdout": "9efa1f7b67e4ad5b2722b6a6604591af281e4e9c\nd241ad8f36f70718dbc54d3093c151d301d04f30\n9eb27cebf7ca4a99aeb30fa32245e41314e0d295\nafd35a9f4bf98c8b2e69bd3373464a9661811b7b \n78f3920d8f1f92fe8531b42243dbc1779da048e4 docs\nc7023439cb58a479691408bea76ce4a65202d9b2 docs/research\n713266b45069f3e2580793b44be085a5fcbbdd7a docs/research/c06-99235-60\n224084dacdd528df49622fe6d1585159c5b949a7 docs/research/c06-99235-60/reviews\n60dfabaec4e7c022e30c6a6389a622790fad11f5 \nf81e2e0b741fc164e1fc84a9b184856f0deb428f docs\n70117a578046ce41c6ff6fac59a3a4d96c6ccb85 docs/research\nb65067c2ff688cb738a68a62b7ad27e155303d06 docs/research/c06-99235-60\n49d44be299b84434c139bf92bee476fa427c52a9 docs/research/c06-99235-60/OVERLEVERING.md\nb988b73966f09ff86b1d211bb293215dba6d8772 docs/research/c06-99235-60/README.md\n8fa4683fbe61119722951ae16560f691f29d2b50 docs/research/c06-99235-60/cross-reference-journal.json\n0e95ce68f7e351fa4293feb8e9461f1f7ab52418 docs/research/c06-99235-60/delivery-manifest.json\n501242b0a831cbc62835158cd32f5fdbc19a1676 docs/research/c06-99235-60/reproduksjon.md\nfbbd9d6af9d5a9f2304b56415c212fd384cbcfc9 docs/research/c06-99235-60/verification.json\n",
+    "stderr": ""
+  }
+]

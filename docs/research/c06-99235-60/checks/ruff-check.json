@@ -1,0 +1,18 @@
+{
+  "id": "ruff-check",
+  "argv": [
+    "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "ruff",
+    "check",
+    "."
+  ],
+  "started_utc": "2026-10-29T17:00:18.147547+00:00",
+  "completed_utc": "2026-10-29T17:00:18.286634+00:00",
+  "elapsed_seconds": 0.14,
+  "exit_code": 0,
+  "output": "All checks passed!\n",
+  "raw_captured_output_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+  "representation": "UTF-8 decoded combined process stdout/stderr; raw pipe bytes hash separately recorded",
+  "reason_for_repeat": "Four internal-appendix visual observations and explicit UTF-8 authoring corrections were added after initial research checks. Product code and earlier tested capture helper are unchanged."
+}

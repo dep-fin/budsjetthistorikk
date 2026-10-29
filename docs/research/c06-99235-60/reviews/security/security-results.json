@@ -1,0 +1,154 @@
+{
+  "schema": "c06-independent-security-audit-1",
+  "checked_utc": "2026-10-29T17:15:59.562900+00:00",
+  "base_commit": "49cc6e44851cf74e0aaea4eb333419e5598bfd95",
+  "candidate_commit": "9eb27cebf7ca4a99aeb30fa32245e41314e0d295",
+  "runtime": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "checks": {
+    "fixed_head": 1,
+    "candidate_74_changed_files": 1,
+    "authorized_diff_paths": 1,
+    "changed_files_are_regular": 74,
+    "changed_checkout_matches_fixed_blob": 74,
+    "protected_base_blob_unchanged": 1070,
+    "bad_initial_rejected_before_IO": 22,
+    "probe_archive_is_readable": 120,
+    "probe_return_matches_saved_metadata": 110,
+    "bad_redirect_rejected_before_next_request": 100,
+    "bad_identifier_before_IO": 9,
+    "allowed_exact_host_default_or_443": 6,
+    "normalized_location_still_respects_exact_outgoing_host": 1,
+    "valid_intermediates_then_host_escape_blocked": 1,
+    "redirect_limit_no_tenth_request": 1,
+    "missing_location_not_complete": 1,
+    "content_length_partial_preserved_not_complete": 1,
+    "pre_response_failure_has_no_fabricated_archive": 1,
+    "http_error_body_preserved_separate_state": 2,
+    "incomplete_read_partial_bytes_preserved": 1,
+    "capture_byte_limit_preserves_bounded_incomplete_response": 1,
+    "attempt_no_overwrite": 1,
+    "success_preserves_exact_binary_bytes": 1,
+    "real_urllib_stack_blocks_redirect_escape": 5,
+    "sidecar_identity": 16,
+    "no_request_credentials": 16,
+    "observed_hop_bound_to_sidecar": 21,
+    "observed_no_response_failure": 1,
+    "observed_entity_hash": 20,
+    "observed_archive_hash": 20,
+    "observed_complete_hop": 20,
+    "observed_raw_location_resolves_to_next_valid_hop": 5,
+    "no_unlisted_originals": 1,
+    "secret_pattern_no_match_github_token": 74,
+    "secret_pattern_no_match_aws_access_key": 74,
+    "secret_pattern_no_match_private_key": 74,
+    "secret_pattern_no_match_auth_bearer": 74,
+    "authored_link_no_active_or_local_scheme": 201,
+    "manifest_relative_path_no_traversal": 1320,
+    "candidate_xml_parser_never_expands_entities": 6,
+    "xml_parser_preserves_raw_bytes": 6,
+    "regenerated_pdf_inventory_equals_candidate": 1,
+    "known_pdf_extent": 1,
+    "known_embedded_jpeg_decodes": 130,
+    "known_pdf_open_action_is_page_navigation": 1,
+    "untrusted_pdf_image_name_cannot_escape_output_directory": 1,
+    "raw_pdf_name_remains_metadata_only": 1,
+    "unmodified_builder_verify_passes_fixed_candidate": 1,
+    "tamper_rejected_metadata_hash": 1,
+    "tamper_rejected_entity_binding": 1,
+    "tamper_rejected_exact_derived_text": 1,
+    "in_memory_rebuild_equals_candidate_artifact": 7,
+    "refresh_writes_only_own_manifest": 1,
+    "refresh_manifest_reproduces_candidate_bytes": 1,
+    "candidate_unchanged_after_probes": 74
+  },
+  "total_checks": 3776,
+  "failures": 0,
+  "observations": {
+    "candidate": {
+      "changed_files": 74,
+      "protected_base_files": 1070
+    },
+    "transport_probes": {
+      "invalid_initial_urls": 22,
+      "redirect_statuses": [
+        301,
+        302,
+        303,
+        307,
+        308
+      ],
+      "real_sockets_opened": 0
+    },
+    "originals": {
+      "attempts": 16,
+      "complete_attempts": 15,
+      "response_hops": 20,
+      "maximum_body_bytes": 25471530,
+      "maximum_gzip_expansion_ratio": 38.00444626804431,
+      "observed_redirects": [
+        {
+          "id": "debate-200624-sak15-a1",
+          "status": 301,
+          "from": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-20/15",
+          "to": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-20?m=15"
+        },
+        {
+          "id": "debate-200624-sak15-a1",
+          "status": 301,
+          "from": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-20?m=15",
+          "to": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2023-2024/refs-202324-06-20/?m=15"
+        },
+        {
+          "id": "prop108-front-a1",
+          "status": 302,
+          "from": "https://www.regjeringen.no/id/PRP202320240108000DDDEPIS",
+          "to": "https://www.regjeringen.no/no/dokumenter/prop.-108-s-20232024/id3043839/"
+        },
+        {
+          "id": "vote-ref210624-a1",
+          "status": 301,
+          "from": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-21/voteringer",
+          "to": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2023-2024/refs-202324-06-21/?pgid=voteringer"
+        },
+        {
+          "id": "vote-ref210624-a1",
+          "status": 302,
+          "from": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2023-2024/refs-202324-06-21/?pgid=voteringer",
+          "to": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2023-2024/refs-202324-06-21/?m=5"
+        }
+      ],
+      "path_fields_checked": 1320
+    },
+    "pdf": {
+      "pdf_pages": 144,
+      "embedded_images": 130,
+      "maximum_image_bytes": 245283,
+      "maximum_image_pixels": 2534727,
+      "width_range": [
+        1339,
+        1339
+      ],
+      "height_range": [
+        1893,
+        1893
+      ],
+      "catalog_open_action_present": true,
+      "catalog_open_action_type": "/GoTo",
+      "catalog_additional_actions_present": false,
+      "boundary": "Image extraction/decoding only; no JavaScript/action/form/link execution or OCR rerun."
+    },
+    "rebuild": {
+      "artifacts": [
+        "appendix-reading-journal.json",
+        "evidence.json",
+        "preserved-files.json",
+        "reused-sources.json",
+        "source-comparison.json",
+        "source-manifest.json",
+        "stage-comparison.json"
+      ],
+      "builder_verify_checks": 3335
+    }
+  },
+  "boundary": "Offline fixed-candidate security audit only; no HTTP/TLS replay, OCR rerun, full product suite, CI, PR or merge."
+}

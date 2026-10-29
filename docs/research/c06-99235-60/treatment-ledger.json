@@ -1,0 +1,326 @@
+{
+  "schema": "c06-treatment-ledger-1",
+  "rule": "Forskningsfunn uten produktadopsjon. Institusjonskobling, lønnsregel, utbetalingssamtykke og postvis bevilgning er egne forhold.",
+  "rows": [
+    {
+      "id": "IDENTITY",
+      "budget_year": null,
+      "accounts": [],
+      "role": "indekslokalisering",
+      "post_link": "unknown",
+      "evidence_ids": [
+        "IDX114",
+        "CASE"
+      ],
+      "finding": "99235, sesjon 2023–2024, ordinal 114, innstilling 16526. Identitet er ikke postkobling; ikke medlem av K3 s historiske 67 kandidatforekomster."
+    },
+    {
+      "id": "GOVERNMENT",
+      "budget_year": 2024,
+      "accounts": [],
+      "role": "regjeringsforslag_og_utsatt_bevilgning",
+      "post_link": "unknown",
+      "evidence_ids": [
+        "P108-ch1",
+        "P108-ch2",
+        "P108-ch3",
+        "P108-ch4",
+        "P108-2-p7"
+      ],
+      "finding": "7. juni 2024. Utbetaling etter nemndsresultat avventes; nødvendige bevilgningsforslag fremmes i høstsesjonen 2024. Juni-samtykkene inneholder ingen postvis bevilgning."
+    },
+    {
+      "id": "APPENDICES",
+      "budget_year": 2024,
+      "agreement_period": [
+        "2024-05-01",
+        "2026-04-30"
+      ],
+      "accounts": [],
+      "role": "egne_vedlegg_møtebok_og_tariffgrunnlag",
+      "post_link": "institution_link_proven_post_link_unknown",
+      "evidence_ids": [
+        "P108-app1-HTML",
+        "P108-app2-HTML",
+        "Meetingbook-LO",
+        "Meetingbook-YS",
+        "RA-LO",
+        "RA-YS",
+        "Negotiation-LO",
+        "Negotiation-YS"
+      ],
+      "finding": "Begge egne vedlegg er fullt råbevart som 65+65 innlagte bildesider i full PDF. Riksantikvaren er uttrykkelig virksomhet og forhandlingssted under KLD i begge lister. Dette er konkret institusjons-/forhandlingsrelevans, ingen post-/ansatt-/beløpsfordeling."
+    },
+    {
+      "id": "ECONOMY",
+      "budget_year": 2024,
+      "accounts": [],
+      "role": "tarifføkonomi_ikke_bevilgning",
+      "post_link": "unknown",
+      "evidence_ids": [
+        "Economy-LO",
+        "Economy-YS",
+        "Scope-LO",
+        "Scope-YS"
+      ],
+      "finding": "5,2% beregnet årslønnsvekst, 0,75% generelt tillegg, 75/25-fordeling og 1. mai-virkning er tariffpremisser. De er ikke et 1429-kompensasjonsanslag, faktisk lønn hos Riksantikvaren eller bevilgningsbeløp; tariffperioden er ikke budsjettåromfang."
+    },
+    {
+      "id": "FALSE-HIT",
+      "budget_year": null,
+      "accounts": [],
+      "role": "stillingskode_ikke_budsjettkapittel",
+      "post_link": "proven_other_meaning",
+      "evidence_ids": [
+        "False-1429-LO",
+        "False-1429-YS"
+      ],
+      "finding": "1429 Aspirant, minstelønn 357000, står i lønnsplan 90.910 under Stillingskode. Det er ikke kapittel 1429, og 357000 er ingen bevilgning."
+    },
+    {
+      "id": "COMMITTEE",
+      "budget_year": 2024,
+      "accounts": [],
+      "role": "samlet_tilråding_med_attribuerte_merknader",
+      "post_link": "unknown",
+      "evidence_ids": [
+        "I442-m1",
+        "I442-m2",
+        "I442-m3"
+      ],
+      "finding": "Innst. 44213. juni 2024: samlet tilråding I–IV. Høyre, FrP og flere ulike flertall har egne standpunkter om tariffmodell/nemnd. Standpunktene er ikke separate postvise endringsforslag eller felles vedtaksbegrunnelse."
+    },
+    {
+      "id": "DEBATE",
+      "budget_year": 2024,
+      "accounts": [],
+      "role": "debatt_og_statusutsagn",
+      "post_link": "unknown",
+      "evidence_ids": [
+        "DEBATE20",
+        "DEBATE20-date",
+        "DEBATE20-vote-link"
+      ],
+      "finding": "20. juni sak 15: Greni, Linnestad og statsrådTung. LO-nei/YS-ja og ønske om nemndsavgjørelse omtales som talerutsagn. Ingen ny tekstlig endring fremsettes i den komplette lokale debatten. Referatet viser uttrykkelig til votering fredag 21. juni."
+    },
+    {
+      "id": "VOTE",
+      "budget_year": 2024,
+      "accounts": [],
+      "role": "votering_og_eksakt_forslagsbinding",
+      "post_link": "unknown",
+      "evidence_ids": [
+        "VOTE-API",
+        "VOTE-time",
+        "VOTE21",
+        "VOTE21-date",
+        "VOTE21-start",
+        "VOTE-decision-map",
+        "VF-1",
+        "VF-2",
+        "VF-3",
+        "VF-4"
+      ],
+      "finding": "23490,21. juni 2024 kl 14:11:27.147 (rå lokal tidsangivelse uten tilføyd tidssone), I–IV enstemmig. 40075780–40075783 binder fire tilrådinger. −1 for/mot/ikke tilstede er rå sentineler, ingen faktiske negative/0/oppdiktede stemmetall. Møtestart 14:01:04 er ikke voteringsklokkeslettet."
+    },
+    {
+      "id": "D853",
+      "case_id": "99235",
+      "number": 853,
+      "decision_api_id": "40033712",
+      "date": "2024-06-21",
+      "budget_year": 2024,
+      "agreement_period": [
+        "2024-05-01",
+        "2026-04-30"
+      ],
+      "accounts": [],
+      "conditional_accounts": [],
+      "role": "nemndshjemmel",
+      "post_link": "unknown",
+      "amounts": null,
+      "evidence_ids": [
+        "I442-i",
+        "F-1",
+        "V21-1",
+        "D853",
+        "D853-text",
+        "D853-date",
+        "VOTE-decision-map"
+      ],
+      "finding": "Kongen kan bringe tvister fra hovedtariffoppgjøret 2024 inn for Rikslønnsnemnda etter tjenestetvistloven§ 31 andreledd; ingen postvis fordelingsfullmakt.",
+      "year_role": "2024 er oppgjørskonteksten; avtaleperioden gir ingen postvis bevilgningsår/kontinuitet."
+    },
+    {
+      "id": "D854",
+      "case_id": "99235",
+      "number": 854,
+      "decision_api_id": "40033713",
+      "date": "2024-06-21",
+      "budget_year": 2024,
+      "agreement_period": [
+        "2024-05-01",
+        "2026-04-30"
+      ],
+      "accounts": [],
+      "conditional_accounts": [],
+      "role": "utbetalingssamtykke",
+      "post_link": "unknown",
+      "amounts": null,
+      "evidence_ids": [
+        "I442-ii",
+        "F-2",
+        "V21-2",
+        "D854",
+        "D854-text",
+        "D854-date",
+        "VOTE-decision-map"
+      ],
+      "finding": "Akademikerne/Unio får utbetalt lønn i samsvar med Rikslønnsnemndas avgjørelse. Kjennelser, konkrete ansatte, lønnskostnader og budsjettposter er ikke dokumentert gjennom samtykket.",
+      "year_role": "2024 er oppgjørskonteksten; avtaleperioden gir ingen postvis bevilgningsår/kontinuitet."
+    },
+    {
+      "id": "D855",
+      "case_id": "99235",
+      "number": 855,
+      "decision_api_id": "40033714",
+      "date": "2024-06-21",
+      "budget_year": 2024,
+      "agreement_period": [
+        "2024-05-01",
+        "2026-04-30"
+      ],
+      "accounts": [],
+      "conditional_accounts": [],
+      "role": "betinget_utbetalingssamtykke",
+      "post_link": "unknown",
+      "amounts": null,
+      "evidence_ids": [
+        "I442-iii",
+        "F-3",
+        "V21-3",
+        "D855",
+        "D855-text",
+        "D855-date",
+        "VOTE-decision-map"
+      ],
+      "finding": "LO/YS får lønn etter møteboka 24. mai og egne vedlegg 1/2 når endelig resultat foreligger, gitt ja i medlemsavstemningen. Videre faktisk vilkårsoppfyllelse og anvendelse avgjøres ikke her.",
+      "year_role": "2024 er oppgjørskonteksten; avtaleperioden gir ingen postvis bevilgningsår/kontinuitet."
+    },
+    {
+      "id": "D856",
+      "case_id": "99235",
+      "number": 856,
+      "decision_api_id": "40033715",
+      "date": "2024-06-21",
+      "budget_year": 2024,
+      "agreement_period": [
+        "2024-05-01",
+        "2026-04-30"
+      ],
+      "accounts": [],
+      "conditional_accounts": [],
+      "role": "alternativt_betinget_utbetalingssamtykke",
+      "post_link": "unknown",
+      "amounts": null,
+      "evidence_ids": [
+        "I442-iv",
+        "F-4",
+        "V21-4",
+        "D856",
+        "D856-text",
+        "D856-date",
+        "VOTE-decision-map"
+      ],
+      "finding": "Ved nei hos LO og/ellerYS og avgjørelse i Rikslønnsnemnda skal lønn utbetales i samsvar med nemndsavgjørelsen. Ikke bevilgning på 1429 og ingen dokumentasjon av faktisk nemndsutfall.",
+      "year_role": "2024 er oppgjørskonteksten; avtaleperioden gir ingen postvis bevilgningsår/kontinuitet."
+    },
+    {
+      "id": "DATE",
+      "budget_year": null,
+      "accounts": [],
+      "role": "additiv_prosessavklaring_med_bevart_kildekonflikt",
+      "post_link": "not_applicable",
+      "evidence_ids": [
+        "R2-date-p2",
+        "R2-date-p8",
+        "R2-date-p9",
+        "R2-date-I91",
+        "CASE-chronology",
+        "DEBATE20-date",
+        "DEBATE20-vote-link",
+        "VOTE-time",
+        "VOTE21",
+        "VOTE21-date",
+        "D853-date",
+        "D854-date",
+        "D855-date",
+        "D856-date"
+      ],
+      "finding": "Primærbehandlingen skiller debatt 20. juni fra vedtak/votering 21. juni. De senere 20. juni-utsagnene er bevart som motstridende retrospektive opplysninger. Hvorfor de oppgir 20. juni er uavklart; ingen original korrigeres."
+    },
+    {
+      "id": "POST1-CONTEXT",
+      "budget_year": 2024,
+      "accounts": [
+        "1429/1"
+      ],
+      "role": "gjenbrukt_selvstendig_kompensasjonsanslag",
+      "post_link": "proven_selected_for_old_estimate_only",
+      "evidence_ids": [
+        "R2-compensation-context",
+        "R2-compensation-292",
+        "R2-compensation-293",
+        "R2-compensation-294"
+      ],
+      "finding": "Tidligere undersøkt Prop. 36 vedlegg 4 viser 2796000 kroner foreslått anslag på 1429/1. Samme generelle lønnsoppgjør gir ikke ny postvis C06-fordeling eller ny vedtakshendelse. Ingen ny undersøkelse av 101000/231/429."
+    },
+    {
+      "id": "POST22",
+      "budget_year": 2024,
+      "accounts": [
+        "1429/22"
+      ],
+      "role": "uavklart_postanvendelse",
+      "post_link": "unknown",
+      "evidence_ids": [
+        "RA-LO",
+        "RA-YS",
+        "D854-text",
+        "D855-text",
+        "D856-text",
+        "R2-compensation-292",
+        "R2-compensation-293",
+        "R2-compensation-294"
+      ],
+      "finding": "Ingen selvstendig dokumentert C06-fordeling eller monetær postvirkning på/22 er etablert. Institusjonsnavn og/1 s gamle kompensasjonsrad beviser verken/22-lønnsforklaring eller null faktisk virkning."
+    },
+    {
+      "id": "INTERNAL-SCHEMES",
+      "budget_year": null,
+      "accounts": [],
+      "role": "tariffavsetninger_og_søknadsordninger",
+      "post_link": "unknown",
+      "evidence_ids": [
+        "OU-LO",
+        "OU-YS",
+        "Competence-LO",
+        "Competence-YS"
+      ],
+      "finding": "OU/kompetanse/omstilling har egne finansierings-/tildelingsroller og generell mulig virksomhetsrelevans. Ingen faktisk Riksantikvaren-søknad, tildeling, utbetaling eller konto-/postvirkning er dokumentert. Ikke en ny 1429-bevilgning eller gjenåpning av100895."
+    }
+  ],
+  "conclusion": {
+    "direct_new_1429_monetary_event": "not_evidenced",
+    "institutional_relevance": "Riksantikvaren_explicit_in_both_internal_negotiation_lists",
+    "post1_C06_allocation": "unknown",
+    "post22_C06_allocation": "unknown",
+    "actual_personnel_application": "unknown",
+    "annual_coverage": "partial",
+    "professional_approval": false,
+    "product_adoption": false,
+    "selected_monetary_events": 5,
+    "selected_decision_fields": 11
+  },
+  "subject_case_id": "99235"
+}

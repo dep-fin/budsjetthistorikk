@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "role": "standards",
+      "exit_code": 0,
+      "program_sha256": "de5064a1efd71b5e64294696feb4d440b2765e20958fef0998fe85d4ff97127c",
+      "source_program_revision": "92b43c2ce7ec350e10639bd0c75540da0d83ee72",
+      "fixed_candidate": "9eb27cebf7ca4a99aeb30fa32245e41314e0d295"
+    },
+    {
+      "role": "source",
+      "exit_code": 0,
+      "program_sha256": "9aff7bc0cf0108aeaf6c7b4c695785f6ca992bfb5e3c560ef69682563f23c28d",
+      "source_program_revision": "92b43c2ce7ec350e10639bd0c75540da0d83ee72",
+      "fixed_candidate": "9eb27cebf7ca4a99aeb30fa32245e41314e0d295"
+    },
+    {
+      "role": "spec",
+      "exit_code": 0,
+      "program_sha256": "46242a8e4cab7285f9bab08181025c67c41da3fb0e0e6308b1b199201e2d4c30",
+      "source_program_revision": "92b43c2ce7ec350e10639bd0c75540da0d83ee72",
+      "fixed_candidate": "9eb27cebf7ca4a99aeb30fa32245e41314e0d295"
+    },
+    {
+      "role": "security",
+      "exit_code": 0,
+      "program_sha256": "74e74633d97bd5eed8c62457ef405a5fb73d71a8d00db928bee3a4029ee87a9a",
+      "source_program_revision": "92b43c2ce7ec350e10639bd0c75540da0d83ee72",
+      "fixed_candidate": "9eb27cebf7ca4a99aeb30fa32245e41314e0d295"
+    }
+  ],
+  "published_checkout_restored_clean": true,
+  "dependency_setup": "Copied only ignored Python site-packages, no Git objects or source data; versions recorded in commands.json.",
+  "spec_image_prerequisite": "Initial missing image failure retained; all 130 JPEGs then regenerated from the published preserved PDF into the fresh clone, without OCR or visual reading.",
+  "boundary": "Mechanical replays only. Original reviewer attestations remain unchanged; no new visual reading, independent attestation, source fetch, full suite, CI or merge."
+}

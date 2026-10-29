@@ -445,3 +445,23 @@ og R1–R7 beregnes ikke om. 74 eksakte belegg og C01–C12 følger begge
 innganger og selvforsynte filer. Regneporten får fortsatt bare de gamle
 monetære observasjonene. [Kilde-/filkontrollen](research/perioderegister-r2-56/README.md)
 angir faktisk kandidat, kontroller og bevisgrenser; gjeldende levering står i #56.
+
+## C06/sak 99235: samtykker, egne vedlegg og debatt-/vedtaksdato – 29. oktober 2026
+
+Prop. 108 S → Innst. 442 S → votering 23490 → vedtak 853–856 er undersøkt
+separat. Komplett debattreferat sier 20. juni 2024 og viser til votering
+21. juni; komplett voteringsreferat, saksgang, voterings-API og de fire
+bevarte sluttobjektene støtter 21. juni som voterings-/vedtaksdato.
+Prop. 34/Innst. 91s senere 20. juni-utsagn beholdes; årsaken er uavklart.
+
+Proposisjonens egne to vedlegg har 130 bildesider i full PDF. Begge
+forhandlingsstedslistene navngir Riksantikvaren under KLD som virksomhet
+og forhandlingssted: PDF-side 69/135, figur 1.59/2.59, tariffside 56.
+Det gir positiv institusjonsrelevans, ingen ny postvis bevilgning eller
+dokumentert faktisk personell-/postanvendelse. Stillingskode 1429 Aspirant
+i lønnsplanen er ikke budsjettkapittel 1429. /22 arver ingen /1-forklaring.
+
+**Konsekvens:** les [rapport, originalbelegg og lesedybde](research/c06-99235-60/README.md)
+før videre dato-/lønns-/postkobling. 99235 ligger utenfor K3s historiske
+67 kandidater; C06 føres additivt uten nye monetære hendelser, omberegnede
+kandidattall, endrede pinnefiler eller lukking av R1–R7.

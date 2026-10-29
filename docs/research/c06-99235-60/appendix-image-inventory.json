@@ -1,0 +1,1309 @@
+{
+  "schema": "c06-embedded-image-inventory-1",
+  "source": "originals/prop108-full-pdf-a1.hop0.gz",
+  "pdf_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+  "pdf_pages": 144,
+  "extraction": "pypdf 6.10.0 page.images[].data; derived JPEGs are reproducible from the full PDF. These are not additional HTTP observations or a claim of HTML-JPEG byte identity.",
+  "images": [
+    {
+      "pdf_page_1based": 11,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 210899,
+      "image_sha256": "307e2275f267533c9b92228d71fdeedc76fccef498ce316cb51aa76ddcd56707",
+      "derived_filename": "page-011-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 1
+    },
+    {
+      "pdf_page_1based": 12,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 60444,
+      "image_sha256": "9d5e230bcefd4bbcee7abbbda6044901475fe340316e018d9586d1b8824c1145",
+      "derived_filename": "page-012-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 2
+    },
+    {
+      "pdf_page_1based": 13,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 124744,
+      "image_sha256": "93f79f295b13e993b7fef45388d3233476dcd237acc06540203d9dca5c7422ff",
+      "derived_filename": "page-013-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 3
+    },
+    {
+      "pdf_page_1based": 14,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 133957,
+      "image_sha256": "e9cf5a97e9ce3867c6ac5b31d243bb66ab45b2c1e9505c6c130949eb156c43ad",
+      "derived_filename": "page-014-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 4
+    },
+    {
+      "pdf_page_1based": 15,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 188025,
+      "image_sha256": "d3df8495bebd5c3f6cbc6fc7ecf7dbbfa360fa81703f37442d421c0a3a8b23bf",
+      "derived_filename": "page-015-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 5
+    },
+    {
+      "pdf_page_1based": 16,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 218973,
+      "image_sha256": "592cae6f41d58dbb74c2a13c30acfb52d0da0dffa438d8ce62b9fb79ffb1f276",
+      "derived_filename": "page-016-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 6
+    },
+    {
+      "pdf_page_1based": 17,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 202507,
+      "image_sha256": "ba36957b93e191739bee8d5ce5fd4a62cc16fc9dbf0e8fae325e8bbc65fe7839",
+      "derived_filename": "page-017-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 7
+    },
+    {
+      "pdf_page_1based": 18,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 189532,
+      "image_sha256": "651fb51d310d69fd42491f4ee993e9ccbd5117d7f88fa19a565a97ecc15d89db",
+      "derived_filename": "page-018-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 8
+    },
+    {
+      "pdf_page_1based": 19,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 208251,
+      "image_sha256": "327907e291d0574e6c53c4b2bcad49d9fcd557b67f76abd1107582a1782ac1df",
+      "derived_filename": "page-019-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 9
+    },
+    {
+      "pdf_page_1based": 20,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 183915,
+      "image_sha256": "2f3f86474bc0ec4874078b76cfd4d977d90ccf1d4fffbe5ab070cbd60c3b2070",
+      "derived_filename": "page-020-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 10
+    },
+    {
+      "pdf_page_1based": 21,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 183259,
+      "image_sha256": "5c977d4c06a67c5a5f91884be38229413ac430583d206a93971ad3f6d574c442",
+      "derived_filename": "page-021-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 11
+    },
+    {
+      "pdf_page_1based": 22,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 195127,
+      "image_sha256": "c9ddd0652d86ea19824a71af1052b4f25dbed026cfbf44da9cf78e0177563f0a",
+      "derived_filename": "page-022-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 12
+    },
+    {
+      "pdf_page_1based": 23,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 215093,
+      "image_sha256": "d22727676d46dc698f867df78e1ef9c39ab4a6fc4d701eb8be5c37ac5c333352",
+      "derived_filename": "page-023-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 13
+    },
+    {
+      "pdf_page_1based": 24,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 202743,
+      "image_sha256": "b1a907fe34970824733a76f35a12b696a2dc1241280684ca0eb2ff5155d729db",
+      "derived_filename": "page-024-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 14
+    },
+    {
+      "pdf_page_1based": 25,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 230317,
+      "image_sha256": "ef768e9e57192917b5759e0917430bf2bc3ba9f8c51670916c1795c1646fc379",
+      "derived_filename": "page-025-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 15
+    },
+    {
+      "pdf_page_1based": 26,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 192204,
+      "image_sha256": "514fd358d7f35054db35f63b1e744b6e4e7e27eb3dc4aff83abca60c7dfcc2b2",
+      "derived_filename": "page-026-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 16
+    },
+    {
+      "pdf_page_1based": 27,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 245075,
+      "image_sha256": "43302e442137a49ab1d965a6c5a1b4acabd64ffa74180cd16742b9570e3e2928",
+      "derived_filename": "page-027-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 17
+    },
+    {
+      "pdf_page_1based": 28,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 226318,
+      "image_sha256": "e3b18f8ae48bd298ce2fa452bf8bffb0d804bf0fc9fdb8f3832670b2dc03a020",
+      "derived_filename": "page-028-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 18
+    },
+    {
+      "pdf_page_1based": 29,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 225121,
+      "image_sha256": "bb95906aae3ebf5559060ef2a7cf117bdbf13cd74b06739f2100294afa9a8414",
+      "derived_filename": "page-029-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 19
+    },
+    {
+      "pdf_page_1based": 30,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 227672,
+      "image_sha256": "03477528731928e2b940af4ff08a23bcd64ffa8f456fbb4afb50714adfb39c8a",
+      "derived_filename": "page-030-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 20
+    },
+    {
+      "pdf_page_1based": 31,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 227096,
+      "image_sha256": "36e5c88bb58a89a4fbd20de9fd393a7191498c65548f8bab60621e7ceefdd51a",
+      "derived_filename": "page-031-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 21
+    },
+    {
+      "pdf_page_1based": 32,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 217420,
+      "image_sha256": "3c9be7c24b8fc67e25aaa7e832aad428bcc5c792fcab372705fd9c114ab14653",
+      "derived_filename": "page-032-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 22
+    },
+    {
+      "pdf_page_1based": 33,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 239917,
+      "image_sha256": "d977c793e13e6084f01800bb62ca36b414fc39dfa238445810ecb12cedd48dd5",
+      "derived_filename": "page-033-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 23
+    },
+    {
+      "pdf_page_1based": 34,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 207848,
+      "image_sha256": "d14c48494778f8b3f1a8abedf93e4cf09e6badd742fdb9871735d7d924eb1415",
+      "derived_filename": "page-034-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 24
+    },
+    {
+      "pdf_page_1based": 35,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 217140,
+      "image_sha256": "0d8ca6e858ce99aa5dfe8c15bb752ab46f2e67e69460bb4d7570ae0996d6c47d",
+      "derived_filename": "page-035-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 25
+    },
+    {
+      "pdf_page_1based": 36,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 211495,
+      "image_sha256": "aa139f87ae58d7fef455639c91c13d145997de9cf07eb12508d6c92c2dc177f6",
+      "derived_filename": "page-036-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 26
+    },
+    {
+      "pdf_page_1based": 37,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 209112,
+      "image_sha256": "052b09a2ccb6fa532e3f890e085286629d994336cb19b6f6db5e3607ed56e8b5",
+      "derived_filename": "page-037-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 27
+    },
+    {
+      "pdf_page_1based": 38,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 182819,
+      "image_sha256": "08521873868ee48076f3bcde52ea9bd2afff59584af368dc769eb2d15f8dbc93",
+      "derived_filename": "page-038-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 28
+    },
+    {
+      "pdf_page_1based": 39,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 180973,
+      "image_sha256": "53311699d2a6b4dbeb9847ce5451c882053db5b8025fe76dea9df188ae5d625b",
+      "derived_filename": "page-039-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 29
+    },
+    {
+      "pdf_page_1based": 40,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 220120,
+      "image_sha256": "240cdcaef203381142b8a0535d7c79a56ec59148152597551c40d37d7c071672",
+      "derived_filename": "page-040-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 30
+    },
+    {
+      "pdf_page_1based": 41,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 207155,
+      "image_sha256": "4f2be669667d1df738c3eae8ad2af6421c6c0b6a757003c9f93d3b0b38dd980a",
+      "derived_filename": "page-041-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 31
+    },
+    {
+      "pdf_page_1based": 42,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 198979,
+      "image_sha256": "065bd38d1cb44127a4483894d65478a50b9ff6cb60932a21b5fcdf408ef4744f",
+      "derived_filename": "page-042-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 32
+    },
+    {
+      "pdf_page_1based": 43,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 229021,
+      "image_sha256": "b3914a8b15641ec649696ff2035b8d1758fcc637158c303d8555738aa0fc129b",
+      "derived_filename": "page-043-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 33
+    },
+    {
+      "pdf_page_1based": 44,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 144599,
+      "image_sha256": "2a9667eede66c2d4bc93ec999e66d8578544fa3cd1adcaee9bb214c74f5a20e1",
+      "derived_filename": "page-044-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 34
+    },
+    {
+      "pdf_page_1based": 45,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 107457,
+      "image_sha256": "d70d78027cd95f43366e432f9b7610714a7b887045e996c39adfac17e3871fef",
+      "derived_filename": "page-045-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 35
+    },
+    {
+      "pdf_page_1based": 46,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 102195,
+      "image_sha256": "de53e3e10a73be878cfdcfed723cbf5904ed33972d53c5a15e59119060dd3639",
+      "derived_filename": "page-046-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 36
+    },
+    {
+      "pdf_page_1based": 47,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 114313,
+      "image_sha256": "baa15d245b86ff8f9b6bbdbb72c515a24b6fe5f5724095486486526f5d1de564",
+      "derived_filename": "page-047-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 37
+    },
+    {
+      "pdf_page_1based": 48,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 110385,
+      "image_sha256": "0a9cd4105f90a9018198effc27912f401b214dbe89d6159cc72f4964a6154d6a",
+      "derived_filename": "page-048-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 38
+    },
+    {
+      "pdf_page_1based": 49,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 132221,
+      "image_sha256": "10570762f9fa4d656cbaf8802a2827f0b49512f407191b19bdb86e65e4c6579a",
+      "derived_filename": "page-049-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 39
+    },
+    {
+      "pdf_page_1based": 50,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 118653,
+      "image_sha256": "a35e0c0ec8f3aa703ab52eb2b251d5082c976d7b7bff470072b58e472824ed46",
+      "derived_filename": "page-050-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 40
+    },
+    {
+      "pdf_page_1based": 51,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 110122,
+      "image_sha256": "464558f867cb4dfc66c30ea9a5f64bd5f7b8a31d554eaf670b8d4a09a14a2443",
+      "derived_filename": "page-051-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 41
+    },
+    {
+      "pdf_page_1based": 52,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 132410,
+      "image_sha256": "10d294447fe30b2a1bd00acec0298c39480aef73cfddd5402111ed101e6f3c83",
+      "derived_filename": "page-052-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 42
+    },
+    {
+      "pdf_page_1based": 53,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 128661,
+      "image_sha256": "1d3ad15b07b6eb80fa1fe7037ab1b21b48db7a9b747ba312b323192dac46a480",
+      "derived_filename": "page-053-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 43
+    },
+    {
+      "pdf_page_1based": 54,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 110199,
+      "image_sha256": "b70b4688e0b9c4fdf9bbc43334c4312fdf00c7d8c0101e65fa3618a717a77ab9",
+      "derived_filename": "page-054-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 44
+    },
+    {
+      "pdf_page_1based": 55,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 105608,
+      "image_sha256": "7933a5f8572c47bb3faba999ff55df0d7fd36597c63af5fa54479b90c3deb155",
+      "derived_filename": "page-055-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 45
+    },
+    {
+      "pdf_page_1based": 56,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 115133,
+      "image_sha256": "e86f7d375e4bd170d7664fb842e6ec72a7f03a636f5a4c070a37b61af8a4a4ed",
+      "derived_filename": "page-056-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 46
+    },
+    {
+      "pdf_page_1based": 57,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 140850,
+      "image_sha256": "48b3a20ea3df6a6f311ff7aa77f25c4bf3af6b27daca6231f2d804bd37c3b959",
+      "derived_filename": "page-057-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 47
+    },
+    {
+      "pdf_page_1based": 58,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 108379,
+      "image_sha256": "b355bf12bdaa8dd8158b342a02e54a4297b062614fb91b91dc77d3efb6203d4a",
+      "derived_filename": "page-058-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 48
+    },
+    {
+      "pdf_page_1based": 59,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 103106,
+      "image_sha256": "1684ce800380fbf0832199a5ddff4612f968c8391e6f2f638057db033173f268",
+      "derived_filename": "page-059-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 49
+    },
+    {
+      "pdf_page_1based": 60,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 93383,
+      "image_sha256": "034b335fe3642dc60dfcd1ab525f5713a42d3f5b250fd2e890545fdf7e8fba62",
+      "derived_filename": "page-060-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 50
+    },
+    {
+      "pdf_page_1based": 61,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 121100,
+      "image_sha256": "455fc976ff9d198c51bd81633e54b2cfc7afe0f65f2d0403aaa45dd77ca7c411",
+      "derived_filename": "page-061-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 51
+    },
+    {
+      "pdf_page_1based": 62,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 148198,
+      "image_sha256": "5f08e01bc5b5d28e1cbfc1e9498c6dbba42d8fdd142af3d8f86b9c2bf8c25597",
+      "derived_filename": "page-062-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 52
+    },
+    {
+      "pdf_page_1based": 63,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 110600,
+      "image_sha256": "26aa4e9a0dc028411f4de9d56043f19602b670a1b28665816a29130bc9269d0a",
+      "derived_filename": "page-063-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 53
+    },
+    {
+      "pdf_page_1based": 64,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 100273,
+      "image_sha256": "e31a5dbdc44e29d5a893e9b468fd1eccfb9bd7426022bd2557b4059d00fb4911",
+      "derived_filename": "page-064-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 54
+    },
+    {
+      "pdf_page_1based": 65,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 96116,
+      "image_sha256": "1529ff6ac5520a180c8ac4032acf09e7fd87c5440d58d8d779f2d22e4ba896a8",
+      "derived_filename": "page-065-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 55
+    },
+    {
+      "pdf_page_1based": 66,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 146723,
+      "image_sha256": "04d3446aa766d6a6b198bb219257ddc08149f371fd9db279815f7c62c5bcaf05",
+      "derived_filename": "page-066-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 56
+    },
+    {
+      "pdf_page_1based": 67,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 174583,
+      "image_sha256": "3c92cf013a61a33a6d6eedb3bdef6bb9f32ebe856c4311541f12263e03c9eb0a",
+      "derived_filename": "page-067-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 57
+    },
+    {
+      "pdf_page_1based": 68,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 161364,
+      "image_sha256": "31b0689c6d41bdc611b995cd7969fa443cd69dadb45325859d8b966a1fc1e995",
+      "derived_filename": "page-068-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 58
+    },
+    {
+      "pdf_page_1based": 69,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 142877,
+      "image_sha256": "6f943f4f84ae1f97279206c0c64efe956430e240866d0b3b4bed57a04aac2ec7",
+      "derived_filename": "page-069-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 59
+    },
+    {
+      "pdf_page_1based": 70,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 179079,
+      "image_sha256": "0b3ffec90d77b5b790f3c1f472c21430fc42041e071e9126ae381376258df0c6",
+      "derived_filename": "page-070-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 60
+    },
+    {
+      "pdf_page_1based": 71,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 145223,
+      "image_sha256": "badee9cee9e55b1bb06672a3c8436a3141aaa10e1097bb87da6d5cd8c7a67018",
+      "derived_filename": "page-071-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 61
+    },
+    {
+      "pdf_page_1based": 72,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 50718,
+      "image_sha256": "3c28160b14fc7f0a05a04a6726d0814f0a6e7f2fea2a1b587576b8dae27428a6",
+      "derived_filename": "page-072-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 62
+    },
+    {
+      "pdf_page_1based": 73,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 183968,
+      "image_sha256": "eb8c28912770dfda1e7a7b97fad1b6d0d29fbc8fd7cc35fdb7a87faad65250d2",
+      "derived_filename": "page-073-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 63
+    },
+    {
+      "pdf_page_1based": 74,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 154830,
+      "image_sha256": "7bffcd5ef2512d752a1255a17f1d44f0fab2b2b2ccc9634c5b497e0caff9ce3b",
+      "derived_filename": "page-074-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 64
+    },
+    {
+      "pdf_page_1based": 75,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 140942,
+      "image_sha256": "f6fdfac128dc4a08d1d8dddb8f8b20bddb0e10035461675428edeac516646638",
+      "derived_filename": "page-075-0.jpg",
+      "appendix": 1,
+      "figure_ordinal": 65
+    },
+    {
+      "pdf_page_1based": 77,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 207919,
+      "image_sha256": "3139b1c5bd6ac974c7218980f9be9ddd6a97492aad21d221d337eed7297cc442",
+      "derived_filename": "page-077-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 1
+    },
+    {
+      "pdf_page_1based": 78,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 58701,
+      "image_sha256": "a0517501261d83976c91a7cc0d7c077f9dca6bc52af416dd86b2d8e99ebf13ee",
+      "derived_filename": "page-078-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 2
+    },
+    {
+      "pdf_page_1based": 79,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 124792,
+      "image_sha256": "426e5aac7290aee0031f8af76a5f0247c1475636bd787add736ffa4dafbf935f",
+      "derived_filename": "page-079-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 3
+    },
+    {
+      "pdf_page_1based": 80,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 133650,
+      "image_sha256": "3633242dde5d6085f55a2e28dd278a7b84d219b9ea8fdc7fcad0d14816b63062",
+      "derived_filename": "page-080-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 4
+    },
+    {
+      "pdf_page_1based": 81,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 187648,
+      "image_sha256": "a8c6882f46a6df26c0785e8c2296a45ca4833e44b3d3a9c7882afae4b10366fd",
+      "derived_filename": "page-081-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 5
+    },
+    {
+      "pdf_page_1based": 82,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 218561,
+      "image_sha256": "5a119504e661ee2db15d5207d233811521bdd4d5e3c477e39290cdea1fbfeb2b",
+      "derived_filename": "page-082-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 6
+    },
+    {
+      "pdf_page_1based": 83,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 202275,
+      "image_sha256": "c7f6bc3b4b8519753a4a3115f64adf070f01e510ec2f43f4d3c94d7eb1dffc44",
+      "derived_filename": "page-083-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 7
+    },
+    {
+      "pdf_page_1based": 84,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 191368,
+      "image_sha256": "e38c016612c551ea8797fd5bd4ed61fcaaa1e43c9e1484ddf2ee240d42929ab1",
+      "derived_filename": "page-084-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 8
+    },
+    {
+      "pdf_page_1based": 85,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 208030,
+      "image_sha256": "6d0969d19c90447eb125632d386ab3db727868c65af8589f0024cfb57ab6f6ef",
+      "derived_filename": "page-085-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 9
+    },
+    {
+      "pdf_page_1based": 86,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 184142,
+      "image_sha256": "e5d7378f4e444d5edc46a2221fc33ece21d9fadc6d27448f8c63be05520b22fb",
+      "derived_filename": "page-086-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 10
+    },
+    {
+      "pdf_page_1based": 87,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 182831,
+      "image_sha256": "6162dd5a324dc127e03439cfef9cc5385deeec015adb239106854d85cd8aa3e8",
+      "derived_filename": "page-087-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 11
+    },
+    {
+      "pdf_page_1based": 88,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 193202,
+      "image_sha256": "6dbbf877601e9a36224f62f0301aaf2673d6cca17b9dca43ad2c1be596bc06ef",
+      "derived_filename": "page-088-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 12
+    },
+    {
+      "pdf_page_1based": 89,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 212794,
+      "image_sha256": "f8fbfa6d85a4f29ad4595976fc5975e9bc2971d16b725235f80fc0d9af44e946",
+      "derived_filename": "page-089-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 13
+    },
+    {
+      "pdf_page_1based": 90,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 202451,
+      "image_sha256": "16459c13acdf3505d470cbad0cd76428ab92f36fafb7df2e6f9121b1d59f7fa7",
+      "derived_filename": "page-090-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 14
+    },
+    {
+      "pdf_page_1based": 91,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 231098,
+      "image_sha256": "587b0faa87cad35ac84e8c865908e5e83eaf36f6704356a4a3bc2776f3d9db10",
+      "derived_filename": "page-091-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 15
+    },
+    {
+      "pdf_page_1based": 92,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 192828,
+      "image_sha256": "61f593f6eec6576ebe13f6a08e203d7dfe89652b98ad7e6f481c9c08623a32ae",
+      "derived_filename": "page-092-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 16
+    },
+    {
+      "pdf_page_1based": 93,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 245283,
+      "image_sha256": "30f506c276a8a46f0fb67a16bd75396d120e8f854138fb56f97c9e0206e772dc",
+      "derived_filename": "page-093-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 17
+    },
+    {
+      "pdf_page_1based": 94,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 226887,
+      "image_sha256": "bb8b17689178b3a0cf48b757a8f893fcdb64cd7b5992b4f73304459950d027ee",
+      "derived_filename": "page-094-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 18
+    },
+    {
+      "pdf_page_1based": 95,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 222320,
+      "image_sha256": "f54b1f6264b6c0480588ce9cc509bec4f5fec81a45fc9eb664c53b63746cf763",
+      "derived_filename": "page-095-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 19
+    },
+    {
+      "pdf_page_1based": 96,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 226573,
+      "image_sha256": "5d0fca1a3d2d1ba97d13a8f4111f6cbbf2da78c52fac9c2189bd4bbd56ade85c",
+      "derived_filename": "page-096-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 20
+    },
+    {
+      "pdf_page_1based": 97,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 228846,
+      "image_sha256": "ef164033910bd14c5335804d842257b601e9e6cad0d1f6194ec57cbd712ed68f",
+      "derived_filename": "page-097-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 21
+    },
+    {
+      "pdf_page_1based": 98,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 215801,
+      "image_sha256": "a2684b7affe4afd8c5f0f77c7ddad6a4ccffde94a0a50686842e85e4ad8ff131",
+      "derived_filename": "page-098-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 22
+    },
+    {
+      "pdf_page_1based": 99,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 236953,
+      "image_sha256": "6ea8c5616b361fa22ef73e83b4cfd445efe304a9651fbf19052ffe77cc5b05ce",
+      "derived_filename": "page-099-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 23
+    },
+    {
+      "pdf_page_1based": 100,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 207049,
+      "image_sha256": "1e38bf90bf75b7e051c89e4ead1969166f11c94af18ebf40cc9cca5d4363bf9d",
+      "derived_filename": "page-100-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 24
+    },
+    {
+      "pdf_page_1based": 101,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 215362,
+      "image_sha256": "f04cb8dfcac7d0f7c26549d03a06dc787e0503a6c572d1b74eea1ef451dd1d56",
+      "derived_filename": "page-101-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 25
+    },
+    {
+      "pdf_page_1based": 102,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 212139,
+      "image_sha256": "e3e9b1f77194244468b73a9435b9c44e45b7f1c7ec30da42c76c05e96fbec18a",
+      "derived_filename": "page-102-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 26
+    },
+    {
+      "pdf_page_1based": 103,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 205169,
+      "image_sha256": "c116519420e6670e267e32fc276dc5f3bdbdaaea92b7e65f37c7c624e34c8bbb",
+      "derived_filename": "page-103-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 27
+    },
+    {
+      "pdf_page_1based": 104,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 181708,
+      "image_sha256": "eb430ef1de4bb88f4e6d9ac847b757a8251210838cb949840347d8a2a89f2868",
+      "derived_filename": "page-104-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 28
+    },
+    {
+      "pdf_page_1based": 105,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 181451,
+      "image_sha256": "fb8949d61b67b3932246e1e7bdc845c083ca261c0aaeb8d5a125b328b8d247f0",
+      "derived_filename": "page-105-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 29
+    },
+    {
+      "pdf_page_1based": 106,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 219583,
+      "image_sha256": "8ffa27d626c90f1c86a437644838f4024bc8b42d70ab8c69a005f750710e0a53",
+      "derived_filename": "page-106-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 30
+    },
+    {
+      "pdf_page_1based": 107,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 206178,
+      "image_sha256": "7e497242d939609db27dadae3f53875ea3485711d67c12e7ebb78e35bce2d048",
+      "derived_filename": "page-107-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 31
+    },
+    {
+      "pdf_page_1based": 108,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 199064,
+      "image_sha256": "859a3cadcba8c571e01fd363495d3d343e683f42db55ef242d2b768ccc1edba5",
+      "derived_filename": "page-108-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 32
+    },
+    {
+      "pdf_page_1based": 109,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 227596,
+      "image_sha256": "68d2dd91369a93d80e4c48f63917565da9bfd499a8f1a93a0064a28d9afac3a8",
+      "derived_filename": "page-109-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 33
+    },
+    {
+      "pdf_page_1based": 110,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 145516,
+      "image_sha256": "7dd502b057933de560989605fdfe38503199f1d3761bed43b9b9db884f3b86c1",
+      "derived_filename": "page-110-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 34
+    },
+    {
+      "pdf_page_1based": 111,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 106637,
+      "image_sha256": "c079156e7a49a36386516a939346cc52c5f42fc0d04763b6997bcc8eb8efcf70",
+      "derived_filename": "page-111-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 35
+    },
+    {
+      "pdf_page_1based": 112,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 100555,
+      "image_sha256": "d451234fd352183273c6cbfd01c8b80d6ddbe7289f8408eb249d063816df8326",
+      "derived_filename": "page-112-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 36
+    },
+    {
+      "pdf_page_1based": 113,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 113730,
+      "image_sha256": "7312b0f7a7c6ee25b8c4cc2a6e477fe4cd22e1563cb9fbe040a7bc57f5a1bd8f",
+      "derived_filename": "page-113-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 37
+    },
+    {
+      "pdf_page_1based": 114,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 108638,
+      "image_sha256": "df5140db4315df038fc8c24e571de6a15f7478a1a36f08c88ab4d6b34ef717c4",
+      "derived_filename": "page-114-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 38
+    },
+    {
+      "pdf_page_1based": 115,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 131839,
+      "image_sha256": "446ed1b2faba013a5cbec4f97cf0aa54da4273d535a887ad4b8279d7b63f50d3",
+      "derived_filename": "page-115-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 39
+    },
+    {
+      "pdf_page_1based": 116,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 117463,
+      "image_sha256": "a3da37da516c277e4336580297b8e4804df40e9fc1b48753d9f18f1d44762c4a",
+      "derived_filename": "page-116-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 40
+    },
+    {
+      "pdf_page_1based": 117,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 108457,
+      "image_sha256": "616c055405ca7565abdc478761a767595f3538618451affcdb2bbf7941625d9b",
+      "derived_filename": "page-117-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 41
+    },
+    {
+      "pdf_page_1based": 118,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 131193,
+      "image_sha256": "247e500774810d1e0f37408c8d134ba3a704081944092bd0523e41681f3a0b75",
+      "derived_filename": "page-118-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 42
+    },
+    {
+      "pdf_page_1based": 119,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 128442,
+      "image_sha256": "55e3c7c22a27506b708738d8c9b4abfe6a1b75b7cca28984496ef6ead5500d52",
+      "derived_filename": "page-119-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 43
+    },
+    {
+      "pdf_page_1based": 120,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 108977,
+      "image_sha256": "2307308114de0fe6b0869f2a8c752ce18e470aeda4e1fdaf9c13b43ddddfe7d9",
+      "derived_filename": "page-120-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 44
+    },
+    {
+      "pdf_page_1based": 121,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 105272,
+      "image_sha256": "aaa62341014a543d3aaa6177ed75b0895f8a4da513340106b11eca0d7a3affba",
+      "derived_filename": "page-121-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 45
+    },
+    {
+      "pdf_page_1based": 122,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 113094,
+      "image_sha256": "0a2ba1ba602ccd7601f25419b5497d1ec598ccf226523fdffcf2175905cee0ce",
+      "derived_filename": "page-122-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 46
+    },
+    {
+      "pdf_page_1based": 123,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 142954,
+      "image_sha256": "155d09681922132c45e738764a28ecd329c1f3966ef1ab41fb0e1fdd5d7db3aa",
+      "derived_filename": "page-123-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 47
+    },
+    {
+      "pdf_page_1based": 124,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 108164,
+      "image_sha256": "ae0d29737f1e911e2ef3dc5a92b0a8d8b24b6e1fe2382bb323832ae4e6409476",
+      "derived_filename": "page-124-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 48
+    },
+    {
+      "pdf_page_1based": 125,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 103818,
+      "image_sha256": "146d62f13a44c2efd57041f7e2e8b7fad728ae6c6b7e64d1b70e5755360c80bf",
+      "derived_filename": "page-125-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 49
+    },
+    {
+      "pdf_page_1based": 126,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 92166,
+      "image_sha256": "f668396a41de846ac794ecd60a0728d912e6578d56e33c3c9ad74bf9a0c12f30",
+      "derived_filename": "page-126-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 50
+    },
+    {
+      "pdf_page_1based": 127,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 121131,
+      "image_sha256": "444de7deb3b15b994fb5d88c78f19955f38b1a3533dc21397897d0906ca4b728",
+      "derived_filename": "page-127-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 51
+    },
+    {
+      "pdf_page_1based": 128,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 148648,
+      "image_sha256": "52cd3e7ede2fd2f7e70c3a87f5d8c4730f4087ce2f942ab232c023b9c4cf0a56",
+      "derived_filename": "page-128-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 52
+    },
+    {
+      "pdf_page_1based": 129,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 110982,
+      "image_sha256": "78d3190432281f711003839df807373b6d23c2b820d75081250bd8f8411dcb89",
+      "derived_filename": "page-129-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 53
+    },
+    {
+      "pdf_page_1based": 130,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 100297,
+      "image_sha256": "857bf9f3bbc988c93359697792e929766fb11861023aa87458daca2d06da3920",
+      "derived_filename": "page-130-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 54
+    },
+    {
+      "pdf_page_1based": 131,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 95840,
+      "image_sha256": "6dd0e2215e05918b5efb53de74c0f8c99203edfcc014fa98449750873c1cbc3a",
+      "derived_filename": "page-131-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 55
+    },
+    {
+      "pdf_page_1based": 132,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 145191,
+      "image_sha256": "30724d4f56e3833da9236991a674bb1418eba66b0a6ed09a74780c38f3ca7603",
+      "derived_filename": "page-132-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 56
+    },
+    {
+      "pdf_page_1based": 133,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 172622,
+      "image_sha256": "9dd8d0eb735e93500c8ddde49148e3405c14441d8be7e40e200d8b5d679be4c4",
+      "derived_filename": "page-133-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 57
+    },
+    {
+      "pdf_page_1based": 134,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 161556,
+      "image_sha256": "e235f69ef6d24cdd1104a9ad7fe3060b6eda7f1a7f0cfd15365e7fdf222a26fd",
+      "derived_filename": "page-134-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 58
+    },
+    {
+      "pdf_page_1based": 135,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 142857,
+      "image_sha256": "c254e0b7889c15080f99f5966a5fd163f9b6e70198a9bd0eeb0ed5f5e9d83372",
+      "derived_filename": "page-135-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 59
+    },
+    {
+      "pdf_page_1based": 136,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 176133,
+      "image_sha256": "61f4916db853160fbc534d264bcfe71dc8637401aa8b3bf2565171d983e2663e",
+      "derived_filename": "page-136-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 60
+    },
+    {
+      "pdf_page_1based": 137,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 144103,
+      "image_sha256": "54f71cd58a65d7d8e10e3725ea779fae7bc9f87ea6c8467d278372dd0cda08dc",
+      "derived_filename": "page-137-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 61
+    },
+    {
+      "pdf_page_1based": 138,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 50041,
+      "image_sha256": "0f0d97960c776edeca325ca7fa4b3de20119d8abe4e4439affe9ca28773e462a",
+      "derived_filename": "page-138-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 62
+    },
+    {
+      "pdf_page_1based": 139,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 182387,
+      "image_sha256": "36cc6bf25d816e1c5250f4faa46b235aaf138ee3229810d8a2e5731d1a3dac82",
+      "derived_filename": "page-139-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 63
+    },
+    {
+      "pdf_page_1based": 140,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 155230,
+      "image_sha256": "6ff16e2b3cd5697b7d338836cb99ee807957ecad919784491e9b64efe5ff9dbe",
+      "derived_filename": "page-140-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 64
+    },
+    {
+      "pdf_page_1based": 141,
+      "image_index": 0,
+      "image_name": "Im0.jpg",
+      "image_bytes": 140031,
+      "image_sha256": "c594289a872a64e7071ede36ac63cf6a0847680fc4263259e557a72e81e969d8",
+      "derived_filename": "page-141-0.jpg",
+      "appendix": 2,
+      "figure_ordinal": 65
+    }
+  ]
+}

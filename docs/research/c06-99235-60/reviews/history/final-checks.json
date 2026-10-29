@@ -1,0 +1,41 @@
+{
+  "checks": [
+    {
+      "label": "working-verify",
+      "exit_code": 0
+    },
+    {
+      "label": "working-integration",
+      "exit_code": 0
+    },
+    {
+      "label": "working-transport",
+      "exit_code": 0
+    },
+    {
+      "label": "working-ruff",
+      "exit_code": 0
+    },
+    {
+      "label": "working-ruff-format",
+      "exit_code": 0
+    },
+    {
+      "label": "working-mypy",
+      "exit_code": 0
+    },
+    {
+      "label": "fresh-bundle-rebuild",
+      "exit_code": 0
+    },
+    {
+      "label": "working-diff-check",
+      "exit_code": 0
+    }
+  ],
+  "fresh_rebuild_exact_same_bundle_bytes": true,
+  "bundle_sha256": "051ca0279fb61b5ddd3b77a83c09f172c8ac142e1cd2240dfac6fdca2ab7074d",
+  "source_checkout_head_unchanged": true,
+  "staging_unchanged": true,
+  "boundary": "Working-file administrative portability checks in a relocated GitHub clone. No new candidate commit, independent attestation, source fetch, full suite, CI, publication or merge."
+}

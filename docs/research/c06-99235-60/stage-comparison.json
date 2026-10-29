@@ -1,0 +1,54 @@
+{
+  "schema": "c06-stage-comparison-1",
+  "rows": [
+    {
+      "roman": "i",
+      "evidence_ids": [
+        "I442-i",
+        "F-1",
+        "V21-1",
+        "D853-text"
+      ],
+      "committee_proposal_vote_decision_text_equal": true,
+      "government_evidence_id": "P108-proposal-1",
+      "government_literal_equal": false
+    },
+    {
+      "roman": "ii",
+      "evidence_ids": [
+        "I442-ii",
+        "F-2",
+        "V21-2",
+        "D854-text"
+      ],
+      "committee_proposal_vote_decision_text_equal": true,
+      "government_evidence_id": "P108-proposal-2",
+      "government_literal_equal": true
+    },
+    {
+      "roman": "iii",
+      "evidence_ids": [
+        "I442-iii",
+        "F-3",
+        "V21-3",
+        "D855-text"
+      ],
+      "committee_proposal_vote_decision_text_equal": true,
+      "government_evidence_id": "P108-proposal-3",
+      "government_literal_equal": false
+    },
+    {
+      "roman": "iv",
+      "evidence_ids": [
+        "I442-iv",
+        "F-4",
+        "V21-4",
+        "D856-text"
+      ],
+      "committee_proposal_vote_decision_text_equal": true,
+      "government_evidence_id": "P108-proposal-4",
+      "government_literal_equal": true
+    }
+  ],
+  "government_difference": "I: tenestetvistlova vs tjenestetvistloven; III: later text adds the explicit Prop.108 citation. These are preserved wording differences; no monetary proposal is constructed."
+}

@@ -1,0 +1,14 @@
+test_allowed (candidate_transport_tests.BoundaryTests.test_allowed) ... ok
+test_complete_error_body_preserved (candidate_transport_tests.BoundaryTests.test_complete_error_body_preserved) ... ok
+test_every_redirect_rejected_before_next_request (candidate_transport_tests.BoundaryTests.test_every_redirect_rejected_before_next_request) ... ok
+test_existing_attempt_not_overwritten (candidate_transport_tests.BoundaryTests.test_existing_attempt_not_overwritten) ... ok
+test_identifier_rejected_before_request (candidate_transport_tests.BoundaryTests.test_identifier_rejected_before_request) ... ok
+test_partial_body_preserved (candidate_transport_tests.BoundaryTests.test_partial_body_preserved) ... ok
+test_relative_and_second_redirect (candidate_transport_tests.BoundaryTests.test_relative_and_second_redirect) ... ok
+test_start_rejected_before_request (candidate_transport_tests.BoundaryTests.test_start_rejected_before_request) ... ok
+test_urllib_redirect_policy_never_follows_automatically (candidate_transport_tests.BoundaryTests.test_urllib_redirect_policy_never_follows_automatically) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.072s
+
+OK

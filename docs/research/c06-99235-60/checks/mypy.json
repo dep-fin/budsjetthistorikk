@@ -1,0 +1,15 @@
+{
+  "id": "mypy",
+  "argv": [
+    "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "mypy"
+  ],
+  "started_utc": "2026-10-29T16:52:44.458709+00:00",
+  "completed_utc": "2026-10-29T16:53:05.484375+00:00",
+  "elapsed_seconds": 21.032,
+  "exit_code": 0,
+  "output": "Success: no issues found in 81 source files\r\n",
+  "raw_captured_output_sha256": "60c92654ddacb9d85dc1d458bf7bed88f6d0af396d0de4dd228d77c8fff3026e",
+  "representation": "UTF-8 decoded combined process stdout/stderr; raw pipe bytes hash separately recorded"
+}
