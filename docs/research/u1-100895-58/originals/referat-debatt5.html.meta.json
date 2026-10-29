@@ -1,0 +1,97 @@
+{
+  "id": "referat-debatt5.html",
+  "requested_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-17/5",
+  "started_utc": "2026-10-29T13:48:34.445571+00:00",
+  "request_headers": {
+    "User-Agent": "budsjetthistorikk-research/58",
+    "Accept-Encoding": "identity"
+  },
+  "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+  "state": "complete",
+  "status": 200,
+  "final_url": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2024-2025/refs-202425-12-17/?m=5",
+  "response_headers": [
+    [
+      "cache-control",
+      "public, must-revalidate, max-age=76494"
+    ],
+    [
+      "content-type",
+      "text/html; charset=utf-8"
+    ],
+    [
+      "expires",
+      "Fri, 30 Oct 2026 11:03:31 GMT"
+    ],
+    [
+      "last-modified",
+      "Thu, 29 Oct 2026 13:48:34 GMT"
+    ],
+    [
+      "etag",
+      "\"v1-10af79f589148f67166a0c1e\""
+    ],
+    [
+      "vary",
+      "*"
+    ],
+    [
+      "set-cookie",
+      "ASP.NET_SessionId=ndb3fjgndzcbxly2pgq0fzwh; path=/; secure; HttpOnly; SameSite=Lax"
+    ],
+    [
+      "reporting-endpoints",
+      "main-endpoint=\"/api/CspReports/ReportAsync\""
+    ],
+    [
+      "content-security-policy",
+      "default-src 'self'; child-src 'self' https://*.stortinget.no; connect-src 'self' https://*.stortinget.no https://*.cookiebot.eu https://*.cookiebot.com https://siteimproveanalytics.com https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com https://www.google.com/recaptcha/ https://stortinget.matomo.cloud https://api.dimu.org https://*.snl.no/api/ https://snl.no/api/ https://api.flickr.com/services/rest/ https://*.qbrick.com wss://*.qbrick.com https://*.dna.ip-only.net https://httpcache1.dna.ip-only.net https://ssl.p.jwpcdn.com/player/ https://*.essens.no https://cdn.tiny.cloud https://qdms.dimu.org https://httpcache1.dna.contentdelivery.net https://www.googletagmanager.com https://openseadragon.github.io https://*.dna.contentdelivery.net https://*.dna.qbrick.com https://ems.dimu.org; font-src 'self' data: https://*.stortinget.no https://script.hotjar.com https://*.qbrick.com https://siteimproveanalytics.com https://ssl.p.jwpcdn.com; frame-src 'self' https://*.stortinget.no https://*.cookiebot.eu https://*.cookiebot.com https://www.google.com/ https://*.qbrick.com https://siteimproveanalytics.com; img-src 'self' data: blob: https://*.stortinget.no https://*.cookiebot.eu https://*.cookiebot.com https://*.usercentrics.eu https://static.hotjar.com https://script.hotjar.com https://survey-images.hotjar.com https://www.googletagmanager.com/ https://mm.dimu.org/image/ http://licensebuttons.net/p/mark/1.0/80x15.png https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png https://*.static.flickr.com https://*.dna.ip-only.net https://prd.jwpltx.com https://*.amazonaws.com https://sp.tinymce.com https://ssl.essens.no https://play2.qbrick.com https://www.stortinget.no https://*.siteimproveanalytics.io https://*.dna.contentdelivery.net https://ems.dimu.org https://stortinget.matomo.cloud; manifest-src 'self'; media-src 'self' blob: https://*.stortinget.no https://*.dna.ip-only.net https://httpcache1.dna.contentdelivery.net https://*.dna.contentdelivery.net https://ems.dimu.org; object-src 'self'; script-src 'self' blob: https://*.stortinget.no https://static.hotjar.com https://script.hotjar.com https://www.googletagmanager.com/gtm.js 'unsafe-eval' https://stortinget.matomo.cloud https://*.qbrick.com https://*.dna.contentdelivery.net https://*.dna.qbrick.com https://siteimproveanalytics.com; script-src-elem 'self' 'unsafe-inline' https://openseadragon.github.io https://cdnjs.cloudflare.com https://*.cookiebot.eu https://*.cookiebot.com https://static.hotjar.com https://script.hotjar.com http://ajax.googleapis.com/ajax/libs/jquery/ https://www.googletagmanager.com https://www.gstatic.com https://www.google.com/recaptcha/ https://stortinget.matomo.cloud https://cdn.matomo.cloud/stortinget.matomo.cloud/ https://matomojs.trackify.info/ https://*.qbrick.com https://ssl.p.jwpcdn.com https://ssl.essens.no https://cdn.tiny.cloud https://siteimproveanalytics.com https://static.hotjar.com/; script-src-attr 'self' 'unsafe-inline'; style-src 'self' https://*.stortinget.no https://static.hotjar.com https://script.hotjar.com https://cdn.tiny.cloud; style-src-elem 'self' 'unsafe-inline' https://cdn.tiny.cloud https://play2.qbrick.com; style-src-attr 'self' 'unsafe-inline'; worker-src 'self' blob:; report-to main-endpoint; report-uri /api/CspReports/ReportAsync;"
+    ],
+    [
+      "request-context",
+      "appId=cid-v1:8e438a5b-7c4f-40c3-9a98-a564863acd5c"
+    ],
+    [
+      "access-control-expose-headers",
+      "Request-Context"
+    ],
+    [
+      "strict-transport-security",
+      "max-age=63072000; includeSubDomains; preload"
+    ],
+    [
+      "x-content-type-options",
+      "nosniff"
+    ],
+    [
+      "referrer-policy",
+      "strict-origin-when-cross-origin"
+    ],
+    [
+      "permissions-policy",
+      "camera=(), microphone=(), geolocation=()"
+    ],
+    [
+      "x-frame-options",
+      "SAMEORIGIN"
+    ],
+    [
+      "date",
+      "Thu, 29 Oct 2026 13:48:36 GMT"
+    ],
+    [
+      "content-length",
+      "360321"
+    ],
+    [
+      "Set-Cookie",
+      "BIGipServer~prod_Frontend~www.stortinget.no_pool_443=302849708.47873.0000; path=/; Httponly; Secure"
+    ]
+  ],
+  "bytes": 360321,
+  "sha256": "11b867f78c82bb98fbf7ed5b3ae33529034cc9d5616cc47152ab8844c8565bc5",
+  "archive": "referat-debatt5.html.gz",
+  "archive_sha256": "4c300b6b0e64713774824102e57874544b3514014fdc3e66e344cfdcc0486be8",
+  "archive_bytes": 32427,
+  "completed_utc": "2026-10-29T13:48:37.470171+00:00"
+}

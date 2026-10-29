@@ -1,0 +1,154 @@
+{
+  "schema": "u1-cross-reference-journal-1",
+  "rule": "Undersøkt delomfang og uavklart rest skilles. Ukjent er ikke ekskludert.",
+  "references": [
+    {
+      "id": "J01",
+      "from": "R2/C05;Prop.34 kap3",
+      "target": "Prop.21 kap2 1560/71→IV→Innst.87 IV→229",
+      "status": "undersøkt_lokal_kjede",
+      "evidence_ids": [
+        "C05-origin",
+        "P21-OU",
+        "P21-roman-4",
+        "I87-iv",
+        "F-4",
+        "D-text-229"
+      ],
+      "result": "Henvisningens lokale post/stikkordsbehandling er avklart. Faktisk 2025-overføring/OU-distribusjon og eventuell faktisk Riksantikvaren-effekt er uavklart; ingen generell 1429-eksklusjon."
+    },
+    {
+      "id": "J02",
+      "from": "sak100895 og Innst.87 innledning",
+      "target": "søstersaker100932/100933",
+      "status": "bare_identitet_og_omfang",
+      "evidence_ids": [
+        "case100895-retry.xml",
+        "case100932.xml",
+        "case100933.xml",
+        "I87-m1"
+      ],
+      "result": "100932:1541/1542/1543/5579 → Innst. 88; 100933:1565/4565/5607 → Innst. 99. Hele Prop. 21 er råbevart/lest for lokal referansegrense; søstrenes komplette innstillinger/voteringer/vedtak er ikke undersøkt. Felles proposisjon gir ingen arvet 1429-kobling."
+    },
+    {
+      "id": "J03",
+      "from": "Prop.21 flere driftsavsnitt;Innst.87 merknader",
+      "target": "FINs nysaldering Prop.36 kap5/vedlegg4",
+      "status": "gjenbrukt_avklart_kontekst",
+      "evidence_ids": [
+        "P21-ch2",
+        "I87-m2",
+        "FIN-salary-context",
+        "FIN-1429-chapter",
+        "FIN-1429-block"
+      ],
+      "result": "Full lønnskontekst og kjent 1429/1-anslag er gjenbrukt uten ny observasjon eller gjenåpning av 101000/231/429. Lønnsårsak på DFDs navngitte driftskonti blir ikke 1429-fordeling."
+    },
+    {
+      "id": "J04",
+      "from": "Prop.21 1533/45",
+      "target": "1400/21;Prop.16#kap2-p2",
+      "status": "nødvendig_lokal_motpost_fulgt",
+      "evidence_ids": [
+        "P21-Storwartz",
+        "Storwartz-counterpart",
+        "Storwartz-chapter",
+        "Storwartz-post"
+      ],
+      "result": "10, 8 mill. rammeoverføring til rassikring har eksplisitt 1400/21 som motpost. KLD/kulturminne/Røros er ikke automatisk 1429. Bare eksisterende lokal original er gjenbrukt; øvrig Prop. 16-behandling holdes utenfor."
+    },
+    {
+      "id": "J05",
+      "from": "Prop.21 1510/1,/22 og4510/2,/3",
+      "target": "interne husleie-/brukerbetalingsomdisponeringer",
+      "status": "lokalt_lest_ingen_ekstern_følgegren",
+      "evidence_ids": [
+        "P21-ch2",
+        "P21-roman-1",
+        "I87-i",
+        "D-text-226"
+      ],
+      "result": "18, 2 mill. mellom 1510/22 og/1; 80 mill. mot 4510/2, /3 (35/45). Kildens eksplisitte motposter avgrenser beløpet. Tjenestebruk hos konkrete virksomheter og eventuell faktisk 1429-effekt er uavklart."
+    },
+    {
+      "id": "J06",
+      "from": "Prop.21 1520/1",
+      "target": "2412/1 Husbanken;Statsforvalterforsøk;Spydeberg",
+      "status": "omtale_bevart_ekstern_behandling_ikke_fulgt",
+      "evidence_ids": [
+        "P21-ch2"
+      ],
+      "result": "5, 6 mill. mot 2412/1, 5 mill. Spydeberg og lønnsanslag har konkrete andre formål/poster. Ingen dokumentert 1429-postrelasjon; Husbankens komplette behandling undersøkes ikke."
+    },
+    {
+      "id": "J07",
+      "from": "Prop.21 Andre saker",
+      "target": "Prop.1 S2024–2025;Prop.115 S2021–2022;Prop.1 S2023–2024;forprosjekt/eksternKS/reguleringsplan",
+      "status": "bakgrunn_bevart_primærkilder_utenfor",
+      "evidence_ids": [
+        "P21-others",
+        "I87-ii",
+        "I87-iii",
+        "D-text-227",
+        "D-text-228"
+      ],
+      "result": "Kildens konkrete kostnadsramme/2025-bestillingsfullmakter er kontrollert. Prosjekthistorikk, arealbruk og kulturminnefaglige roller gir ingen belagt 1429/2024-bevilgning; faktisk videre effekt og originalene bak bakgrunnen er ikke undersøkt."
+    },
+    {
+      "id": "J08",
+      "from": "Prop.21 1551/1",
+      "target": "PVN2024-17;personopplysningslova§30;forvaltningslova§36;Meta-krav",
+      "status": "kildens_omtale_lest_primærrettskilder_utenfor",
+      "evidence_ids": [
+        "P21-PVN",
+        "I87-i",
+        "D-text-226"
+      ],
+      "result": "Navngitte 1551/1-sakskostnader/stikkord. Ingen selvstendig rettskildekontroll eller ny 1429-kobling."
+    },
+    {
+      "id": "J09",
+      "from": "Prop.21 ekskluderte1541/1542/1543/5579-avsnitt",
+      "target": "OGP/ITU/CEPT/ENISA/EU-DIGITAL/CEF/ISA2;NOU2015:13;Meld.St.28(2020–2021);Nkom-analyser",
+      "status": "full_lokal_tekst_lest_søsterbakgrunn_avgrenset",
+      "evidence_ids": [
+        "P21-ch2",
+        "case100932.xml"
+      ],
+      "result": "Metadata og lokale eksplisitte konti forklarer søstergrensen. Eksterne originaler og søsterbehandling er ikke fulgt; ingen generell fraværskonklusjon."
+    },
+    {
+      "id": "J10",
+      "from": "Prop.21 1560/71,/72",
+      "target": "OU-særavtale;permisjonsavtale;SPK-premiefaktura/bestand;tarifftvister2024",
+      "status": "vilkår_omtalt_faktisk_bruk_uavklart",
+      "evidence_ids": [
+        "P21-OU",
+        "P21-pensions",
+        "D-text-229"
+      ],
+      "result": "OU-utbetalingsformål og pensjonspremie er lest separat. Ingen avtale-/personell-/faktisk virksomhetskontroll; ikke 231/429-gjenåpning."
+    },
+    {
+      "id": "J11",
+      "from": "Prop.21 1565/4565/5607",
+      "target": "SPK-boliglån/renteanslag/RNB2024",
+      "status": "lokal_tekst_lest_søsterbehandling_utenfor",
+      "evidence_ids": [
+        "P21-ch2",
+        "case100933.xml"
+      ],
+      "result": "Forslagets konti er avgrenset til 100933. Ingen individuell låne-/personellvurdering eller arvet 1429-bevilgningsvirkning."
+    },
+    {
+      "id": "J12",
+      "from": "sak100895 publikasjon_referanse_liste",
+      "target": "referatsak26.11.2024",
+      "status": "identifisert_ikke_hentet",
+      "evidence_ids": [
+        "case100895-retry.xml"
+      ],
+      "result": "Fremleggelsesspor;ikke brukt som post-/endrings-/vedtaksbevis. Komplett debatt/votering og konkrete forslag/vedtak er bevart."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "schema": "u1-reused-sources-1",
+  "base_commit": "59485e6bb6e45dacf348451b380cf6ba3b5d8321",
+  "rule": "Existing exact files and original retrieval metadata; no new observation date or copied original. O1 original transport metadata is referenced in its manifest.",
+  "files": [
+    {
+      "path": "docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.gz",
+      "bytes": 173860,
+      "sha256": "771741ed9e0ba0ead88f01ecbfd602f1ccf57ce3f7b9136f06aba7fcac81c552",
+      "body_bytes": 3818277,
+      "body_sha256": "46d6f9ea1353293b690c77a2549d33ff951e73561374bb2381062578b6c5ae2b"
+    },
+    {
+      "path": "docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.meta.json",
+      "bytes": 1897,
+      "sha256": "f452b289fef4ba5f65b074262d5ed7ae23b67ba673d1518c01498fa15842889d"
+    },
+    {
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.gz",
+      "bytes": 394937,
+      "sha256": "6f68d7115e982ff0318f3f808bbf01d7c0843f70d0db2f9f2b13a660673630bc",
+      "body_bytes": 7479943,
+      "body_sha256": "ff5013b2a37220af3254a69b574800f99a3d1fd44f1c6053f07d4b0e846c973c"
+    },
+    {
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.meta.json",
+      "bytes": 2157,
+      "sha256": "6196ab7c50f0e83c0920675a394226430b1c6501c5bb16910229a85ce27e53e9"
+    },
+    {
+      "path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+      "bytes": 391763,
+      "sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b",
+      "body_bytes": 7479943,
+      "body_sha256": "c5f3b90046d23a0e4cacb24f681a01d7e5fd4468ab68fc3d646dc832bb9a4b42"
+    },
+    {
+      "path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.meta.json",
+      "bytes": 381,
+      "sha256": "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop34-ch3.html.gz",
+      "bytes": 14817,
+      "sha256": "5b475b659768a691ed488ff81e4f623368cd9b171db3f5861118130a4d6b344d",
+      "body_bytes": 64202,
+      "body_sha256": "7a4c4a5a2182e89d7cbda39f398b32c0ef835fa43fb3de578ab194e53a45f071"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop34-ch3.html.meta.json",
+      "bytes": 10449,
+      "sha256": "b6fd8fdbb31e603e3a6ad105ab77bb51d31ce2d57701b1a9dd003610b2a9bba2"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/ref171224-votering.html.gz",
+      "bytes": 120772,
+      "sha256": "3a13c89e1a701838f3b2f97ab6e019ca5a52396f8dcd29447fb6a0757c4d41db",
+      "body_bytes": 2735346,
+      "body_sha256": "fd3bc47915e760b95c170725e55c4b564b37512f2a813db91b87c66ec1424ab1"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/ref171224-votering.html.meta.json",
+      "bytes": 16326,
+      "sha256": "996e044219580068da2d9e994c8302d62989840260e443b15d2eaf796c084edc"
+    },
+    {
+      "path": "docs/research/omtale-o1/originals/prop16s-ch2.html",
+      "bytes": 100808,
+      "sha256": "258d26e6d324bde709bf3d1cb660d7eb6f4248f537d4b0c77e095f17697cf8df"
+    },
+    {
+      "path": "docs/research/omtale-o1/source-manifest.json",
+      "bytes": 17300,
+      "sha256": "1eaf426d69574726c57c12c6f97f030cae8a797f287ca6922b510af69802eba9"
+    },
+    {
+      "path": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.gz",
+      "bytes": 18817,
+      "sha256": "5cef652b9d9e22fb89531d30c6710cec8798a5e6b3a4beb3cc05cd3a9ea3e707",
+      "body_bytes": 91552,
+      "body_sha256": "7a7c42ae4c3e466cddd5bf4a5b97d93ee84f0c47667f737e74cdbd47e018c6b9"
+    },
+    {
+      "path": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.meta.json",
+      "bytes": 1703,
+      "sha256": "1be155df2f7bca78b36641b42cb89d257765bd122b2fc5c3a97c0c03c0f6622f"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop36-ch11.html.gz",
+      "bytes": 23189,
+      "sha256": "3d3ba9f7a26eb57d716dbeebee0cf04c5d62900f5fd6bf9ab43fe6f5855f462e",
+      "body_bytes": 214962,
+      "body_sha256": "0c88959a60162ed44a9dcf54871e03c8479fd779f5ea5e01948c270b25517586"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop36-ch11.html.meta.json",
+      "bytes": 10461,
+      "sha256": "e6e6bc58a728bf50343633fb162910ce087bb0948129e5f0b73394f1fd616611"
+    }
+  ]
+}

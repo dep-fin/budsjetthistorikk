@@ -2,6 +2,28 @@
 
 Dette er faglige og tekniske funn som skal brukes på tvers av agentøkter. Dokumentet ligger på main og gjelder også før hele forskningsarbeidet i #2 er ferdig. Funn, kildebevis og konsekvens holdes samlet.
 
+## U1: sak 100895 og C05s stikkord på 1560/71
+
+**Undersøkt 29. oktober 2026 under #58:** [Hele nødvendige behandlingsgrunnlaget](research/u1-100895-58/README.md)
+for Prop. 21 → Innst. 87 → 226–229 er bevart og lest. C05s lokale henvisning
+går til **229/40034097**, forslag 40077037, votering 23886: DFD kan i 2024
+føye «kan overførast» til **1560/71**, for mulig OU-utbetaling til
+hovedsammenslutningene i 2025. Dette er ingen generell FIN-fullmakt eller
+fordeling av 1429s lønnskompensasjon. Faktisk bruk og overført beløp er ukjent.
+
+226 har 21 konkrete andre kontotrioer i 2024; 227/228 er kostnadsramme-/
+forpliktelsesfullmakter fra 2025. Den mulige indirekte kulturminnegrenen
+1533/45, Øvre Storwartz i Røros, har dokumentert motpost 1400/21, bekreftet
+i bevart Prop. 16. Ingen ny direkte 1429/1-/22-hendelse eller dokumentert
+indirekte postkobling er etablert. Faktiske virksomhetsvirkninger er ikke
+generelt ekskludert. Søstrene 100932/100933 er bare identitets-/omfangskontrollert.
+
+**Konsekvens:** bruk [additiv kandidatoppfølging](research/u1-100895-58/candidate-followup.json)
+og [kryssreferansejournal](research/u1-100895-58/cross-reference-journal.json),
+uten å omskrive K3/P1/R2/P2s historiske statuser, totalsummer eller R1–R7.
+Fem hendelser/elleve vedtaksfelt består. Ingen produktadopsjon, positiv M21,
+årsbalanse eller gjenåpning av 101000/faktisk 231/429 følger av funnet.
+
 ## K3: 1429/1 og /22 i 2024 – perioderegister med åpne helårshull
 
 **Kontrollert 28. oktober 2026 under #50:** [K3-undersøkelsen](research/k3-arsinventar-50/README.md)
