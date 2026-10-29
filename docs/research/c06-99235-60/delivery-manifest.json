@@ -359,8 +359,8 @@
     },
     {
       "path": "docs/research/c06-99235-60/OVERLEVERING.md",
-      "bytes": 5202,
-      "sha256": "f99b946e39fdc1704b7ad3dfd1c69746cb1e9a21323dc20d6eb6bef759d0aa29",
+      "bytes": 6102,
+      "sha256": "e6a693d81227a3924c0e230a840870e1f2235b601b24bec393d326f2fdf47109",
       "representation": "exact_file_bytes"
     },
     {
@@ -377,8 +377,8 @@
     },
     {
       "path": "docs/research/c06-99235-60/README.md",
-      "bytes": 12929,
-      "sha256": "e63149a9a005643c7771a4bf7db33b940eaf73cc52ce1470a21d38d26bd30e13",
+      "bytes": 13734,
+      "sha256": "e675d0f2829a7c2e34a4e5db458623e69a1f94536f2020e8b9615e248063970e",
       "representation": "exact_file_bytes"
     },
     {
@@ -389,8 +389,8 @@
     },
     {
       "path": "docs/research/c06-99235-60/reproduksjon.md",
-      "bytes": 9546,
-      "sha256": "7b72797166af33928f4637df96da1c588dd9c0f8767c484c6d6db70e615c6778",
+      "bytes": 10507,
+      "sha256": "25f82b1b32da5d97ba5fec3df62925f49de6c0e68de855c9c6cfbc1ef3bf9b06",
       "representation": "exact_file_bytes"
     },
     {
@@ -432,7 +432,7 @@
     {
       "path": "docs/research/c06-99235-60/verification.json",
       "bytes": 2661,
-      "sha256": "68101e543c8ee6a45eaf8431b58d7db4061e8c1310ddd62f174862aa3d3ac06a",
+      "sha256": "fa0454ad69e4b67e1ec8779e04c9a66274a4fb3ee5f9c49cbdb7d2b5a6ce7038",
       "representation": "exact_file_bytes"
     },
     {
@@ -443,5 +443,5 @@
     }
   ],
   "file_count": 73,
-  "total_bytes": 22742994
+  "total_bytes": 22745660
 }

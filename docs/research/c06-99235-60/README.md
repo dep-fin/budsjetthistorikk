@@ -196,3 +196,16 @@ og bestille målrettet uavhengig etterkontroll før publisering.
 PR, full Linux-CI/90 minutter, autorisert merge, ancestry og faktisk
 GitHub-sluttoverlevering gjenstår. Tidligere byggerstatus ovenfor er
 bevart som historikk; den er ingen status for den kommende kandidaten.
+
+## Additiv portabilitetsretting etter publisering
+
+Publisert kandidat `92b43c2ce7ec350e10639bd0c75540da0d83ee72` har samme
+tre som lokal sluttkandidat `9efa1f7b67e4ad5b2722b6a6604591af281e4e9c`,
+men de tre lokale kandidatcommittene fulgte ikke med publiseringen.
+En fersk GitHub-henting manglet derfor de eksakte 9eb-/d241-/9efa-objektene
+som de historiske attestene viser til. [Historikkpakken](reviews/history/README.md)
+bevarer dem i en liten Git bundle med den publiserte kandidaten som uttrykkelig
+forutsetning. Fersk-klon-bevis, kommandoer, feilede forsøk og gjenopprettingsmåte
+følger der. Originale attester og deres kandidatbindinger er uendret.
+Dette er en administrativ reproduksjonsretting; kildegrunnlag, faglig
+konklusjon, kompatibilitetsgrenser og kravet om full CI før merge består.

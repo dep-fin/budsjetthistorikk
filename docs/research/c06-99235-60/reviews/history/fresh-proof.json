@@ -1,0 +1,39 @@
+{
+  "source": "92b43c2ce7ec350e10639bd0c75540da0d83ee72",
+  "source_tree": "4664149a1cbf6c288b741fa502e162746b032e07",
+  "no_alternates": true,
+  "pre_restore_missing_commits": [
+    "9eb27cebf7ca4a99aeb30fa32245e41314e0d295",
+    "d241ad8f36f70718dbc54d3093c151d301d04f30",
+    "9efa1f7b67e4ad5b2722b6a6604591af281e4e9c"
+  ],
+  "post_restore_identities": [
+    {
+      "commit": "9eb27cebf7ca4a99aeb30fa32245e41314e0d295",
+      "tree": "60dfabaec4e7c022e30c6a6389a622790fad11f5",
+      "raw_commit_sha1_verified": true
+    },
+    {
+      "commit": "d241ad8f36f70718dbc54d3093c151d301d04f30",
+      "tree": "afd35a9f4bf98c8b2e69bd3373464a9661811b7b",
+      "raw_commit_sha1_verified": true
+    },
+    {
+      "commit": "9efa1f7b67e4ad5b2722b6a6604591af281e4e9c",
+      "tree": "4664149a1cbf6c288b741fa502e162746b032e07",
+      "raw_commit_sha1_verified": true
+    }
+  ],
+  "bundle": {
+    "bytes": 22554,
+    "sha256": "051ca0279fb61b5ddd3b77a83c09f172c8ac142e1cd2240dfac6fdca2ab7074d",
+    "pack_object_count": 18,
+    "pack_version": 2,
+    "pack_sha256": "a6dfa0c03889cffbbcc4d858ceb55fa7a1c10c8f2a75be5d191e806d308ad4ad",
+    "prerequisites": [
+      "49cc6e44851cf74e0aaea4eb333419e5598bfd95",
+      "92b43c2ce7ec350e10639bd0c75540da0d83ee72"
+    ]
+  },
+  "full_fsck_passed": true
+}

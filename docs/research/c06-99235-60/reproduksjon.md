@@ -174,3 +174,20 @@ består i Git og reviewernes opprinnelige resultater er uendret.
 Full uavhengig nykandidatattest følger ikke av denne integrasjonen.
 Orkestratoren committer og bestiller målrettet etterkontroll før PR/full
 Linux-CI og bekreftet merge. Hele testutvalget og 90-minuttersgrensen består.
+
+## Flyttbar gjenoppretting av de historiske kandidatene
+
+Før kontroller som bruker eksakte 9eb-/d241-/9efa-SHA-er i en fersk klon,
+følg [historikkpakkens kontroll og import](reviews/history/README.md).
+Treidentitet alene leverer ikke de opprinnelige commitobjektene.
+Bundleforutsetningene er U1-base 49cc og publisert C06-kandidat 92b;
+begge må finnes lokalt. Importen skriver bare den særskilte lokale referansen
+`refs/c06-history/candidates`, og endrer ingen arbeidsbranch.
+
+Kjør videre fra den aktuelle klonens rot med en Python 3.12 som har
+avhengighetene fra `requirements-dev.txt`. Den eksisterende `$c06Python`
+kan erstattes med `(Get-Command python).Source`; ved bruk av lokale
+verktøypakker settes `PYTHONPATH` til denne klonens `.local/python-tools`.
+Helperne finner selv repoets rot fra sin plassering. Ingen gammel checkout
+eller delt Git-objektlager kreves. Den nye dokumentasjonen erstatter ikke
+de historiske kjøreobservasjonene ovenfor.

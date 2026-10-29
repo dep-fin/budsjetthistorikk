@@ -89,3 +89,17 @@ full uendret Linux-CI/90 minutter, autorisert merge, ancestry og
 GitHub-sluttoverlevering gjenstår. Ingen ny fullsuite eller kildehenting
 er utført i integrasjonen. Avsnittet om neste porter ovenfor er den
 opprinnelige byggeroverleveringen, bevart som historikk.
+
+## Additiv overlevering av transportabel reviewhistorikk
+
+PR #61s publiserte `92b43c2ce7ec350e10639bd0c75540da0d83ee72` og lokale
+`9efa1f7b67e4ad5b2722b6a6604591af281e4e9c` har identisk tre, men forskjellig
+commithistorikk. [Portabilitetsrapporten](reviews/history/README.md) bevarer
+de eksakte tre kandidatcommittene i en 22 554-byte Git bundle og dokumenterer
+gjenoppretting i en fersk, isolert GitHub-klon uten gamle Git-objekter.
+De fire 9eb-attestene og d241-etterkontrollen er bevart som historiske porter.
+Dette tillegget gir ingen ny faglig aksept eller attest på en ny PR-head.
+Kommende publisering må beholde bundleforutsetningen 92b tilgjengelig i
+Git-historikken; faktisk ny head/blobkontroll, relevant etterkontroll og
+full uendret Linux-CI med 90 minutter gjenstår før merge. Ingen kildehenting,
+full lokal suite, GitHub-skriving, staging, commit eller merge er gjort i rettingen.

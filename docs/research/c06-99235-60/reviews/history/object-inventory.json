@@ -1,0 +1,110 @@
+[
+  {
+    "sha1": "9efa1f7b67e4ad5b2722b6a6604591af281e4e9c",
+    "type": "commit",
+    "bytes": 245,
+    "path": ""
+  },
+  {
+    "sha1": "d241ad8f36f70718dbc54d3093c151d301d04f30",
+    "type": "commit",
+    "bytes": 252,
+    "path": ""
+  },
+  {
+    "sha1": "9eb27cebf7ca4a99aeb30fa32245e41314e0d295",
+    "type": "commit",
+    "bytes": 248,
+    "path": ""
+  },
+  {
+    "sha1": "afd35a9f4bf98c8b2e69bd3373464a9661811b7b",
+    "type": "tree",
+    "bytes": 557,
+    "path": ""
+  },
+  {
+    "sha1": "78f3920d8f1f92fe8531b42243dbc1779da048e4",
+    "type": "tree",
+    "bytes": 1296,
+    "path": "docs"
+  },
+  {
+    "sha1": "c7023439cb58a479691408bea76ce4a65202d9b2",
+    "type": "tree",
+    "bytes": 814,
+    "path": "docs/research"
+  },
+  {
+    "sha1": "713266b45069f3e2580793b44be085a5fcbbdd7a",
+    "type": "tree",
+    "bytes": 1495,
+    "path": "docs/research/c06-99235-60"
+  },
+  {
+    "sha1": "224084dacdd528df49622fe6d1585159c5b949a7",
+    "type": "tree",
+    "bytes": 210,
+    "path": "docs/research/c06-99235-60/reviews"
+  },
+  {
+    "sha1": "60dfabaec4e7c022e30c6a6389a622790fad11f5",
+    "type": "tree",
+    "bytes": 557,
+    "path": ""
+  },
+  {
+    "sha1": "f81e2e0b741fc164e1fc84a9b184856f0deb428f",
+    "type": "tree",
+    "bytes": 1296,
+    "path": "docs"
+  },
+  {
+    "sha1": "70117a578046ce41c6ff6fac59a3a4d96c6ccb85",
+    "type": "tree",
+    "bytes": 814,
+    "path": "docs/research"
+  },
+  {
+    "sha1": "b65067c2ff688cb738a68a62b7ad27e155303d06",
+    "type": "tree",
+    "bytes": 1461,
+    "path": "docs/research/c06-99235-60"
+  },
+  {
+    "sha1": "49d44be299b84434c139bf92bee476fa427c52a9",
+    "type": "blob",
+    "bytes": 3836,
+    "path": "docs/research/c06-99235-60/OVERLEVERING.md"
+  },
+  {
+    "sha1": "b988b73966f09ff86b1d211bb293215dba6d8772",
+    "type": "blob",
+    "bytes": 11759,
+    "path": "docs/research/c06-99235-60/README.md"
+  },
+  {
+    "sha1": "8fa4683fbe61119722951ae16560f691f29d2b50",
+    "type": "blob",
+    "bytes": 7607,
+    "path": "docs/research/c06-99235-60/cross-reference-journal.json"
+  },
+  {
+    "sha1": "0e95ce68f7e351fa4293feb8e9461f1f7ab52418",
+    "type": "blob",
+    "bytes": 17399,
+    "path": "docs/research/c06-99235-60/delivery-manifest.json"
+  },
+  {
+    "sha1": "501242b0a831cbc62835158cd32f5fdbc19a1676",
+    "type": "blob",
+    "bytes": 7553,
+    "path": "docs/research/c06-99235-60/reproduksjon.md"
+  },
+  {
+    "sha1": "fbbd9d6af9d5a9f2304b56415c212fd384cbcfc9",
+    "type": "blob",
+    "bytes": 2661,
+    "path": "docs/research/c06-99235-60/verification.json"
+  }
+]

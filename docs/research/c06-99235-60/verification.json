@@ -1,6 +1,6 @@
 {
   "schema": "c06-offline-verification-1",
-  "checked_utc": "2026-10-29T17:26:11.785813+00:00",
+  "checked_utc": "2026-10-29T18:25:47.920588+00:00",
   "base_commit": "49cc6e44851cf74e0aaea4eb333419e5598bfd95",
   "runtime": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
   "checks": {
@@ -65,11 +65,11 @@
     "only_authorized_changed_paths": 1,
     "complete_ci_and_90_minutes_preserved": 1,
     "json_parsed": 37,
-    "local_markdown_target": 172,
+    "local_markdown_target": 175,
     "delivery_manifest_complete_inventory": 1,
     "delivery_file_hash": 73
   },
-  "total_checks": 3273,
+  "total_checks": 3276,
   "failures": 0,
   "git_revision": null,
   "boundary": "Builder offline checks only. No new HTTP, independent review/audit, full product suite, Linux CI, publication or merge. Visual paraphrases are image-bound but require independent reading."

@@ -1,0 +1,74 @@
+[
+  {
+    "role": "standards",
+    "original_result_path": "docs/research/c06-99235-60/reviews/standards/candidate-checks.json",
+    "original_result_bytes": 5575,
+    "original_result_sha256": "95ddc6d2f13c5b8a3d77781e974ff2fa2f20c488e98dd66b9f20f1d19086be25",
+    "replayed_result_bytes": 5575,
+    "replayed_result_sha256": "e949bda2af4d5ce89a27ed2859bee11172f7c6c640838ff2d3b72271fb8786fc",
+    "differing_fields": {
+      "checked_utc": {
+        "original": "2026-10-29T17:06:32.559458+00:00",
+        "replay": "2026-10-29T18:19:57.655292+00:00"
+      }
+    },
+    "equal_except_timestamp": true,
+    "equal_canonical_without_timestamp_sha256": "533affcc231bd01736f487aad7cf9cb4ccfae4dc51cfa95d888bb098b6b3c2d2",
+    "canonical_representation": "JSON sorted keys, ensure_ascii=false, separators comma/colon, UTF-8; omit checked_utc and observed_utc.",
+    "check_count": 74
+  },
+  {
+    "role": "source",
+    "original_result_path": "docs/research/c06-99235-60/reviews/source/result.json",
+    "original_result_bytes": 309679,
+    "original_result_sha256": "dff7d0b1a6d95796029920d026d0bebc71c8ea68c0173a8b9971deba97c21c71",
+    "replayed_result_bytes": 309679,
+    "replayed_result_sha256": "fa1ffc710a08e6f48f1c06cbfda72ecb16493b348738c5e36f4c6cb6ed5c440b",
+    "differing_fields": {
+      "observed_utc": {
+        "original": "2026-10-29T17:14:30.794904+00:00",
+        "replay": "2026-10-29T18:19:58.086329+00:00"
+      }
+    },
+    "equal_except_timestamp": true,
+    "equal_canonical_without_timestamp_sha256": "6a9dcd2b6877f383cfb77252745ab3718c898329d296d055e372a22c4bd871fd",
+    "canonical_representation": "JSON sorted keys, ensure_ascii=false, separators comma/colon, UTF-8; omit checked_utc and observed_utc.",
+    "check_count": 1786
+  },
+  {
+    "role": "spec",
+    "original_result_path": "docs/research/c06-99235-60/reviews/spec/results.json",
+    "original_result_bytes": 70641,
+    "original_result_sha256": "be044c970cfceca9415b22a5f24ed4dd362931abd171c61b7fa5be6ca7e38ff5",
+    "replayed_result_bytes": 70641,
+    "replayed_result_sha256": "ef3477b5f79abc8fcbec3073a989f57b9dfa20a393a748e9f68553c111809d89",
+    "differing_fields": {
+      "checked_utc": {
+        "original": "2026-10-29T17:09:17.696215+00:00",
+        "replay": "2026-10-29T18:21:40.310165+00:00"
+      }
+    },
+    "equal_except_timestamp": true,
+    "equal_canonical_without_timestamp_sha256": "672f02ef9338fd4de1526eb8fe18d01bcd476a2dc2037a70ae47a224a6098271",
+    "canonical_representation": "JSON sorted keys, ensure_ascii=false, separators comma/colon, UTF-8; omit checked_utc and observed_utc.",
+    "check_count": 50
+  },
+  {
+    "role": "security",
+    "original_result_path": "docs/research/c06-99235-60/reviews/security/security-results.json",
+    "original_result_bytes": 6279,
+    "original_result_sha256": "2aec63227b4a3613d38ff45549d1fea619cac39acb59e7c844ec72778262aae6",
+    "replayed_result_bytes": 6279,
+    "replayed_result_sha256": "67125915c374dc7feef2bcc856dc9594e2a4a77a8eaf4aa32246bedffbc32e44",
+    "differing_fields": {
+      "checked_utc": {
+        "original": "2026-10-29T17:15:59.562900+00:00",
+        "replay": "2026-10-29T18:22:33.124568+00:00"
+      }
+    },
+    "equal_except_timestamp": true,
+    "equal_canonical_without_timestamp_sha256": "a1d2f9716b9e5a42713cea486916e69c9727fd615be8a4a673750b6a3df95ae1",
+    "canonical_representation": "JSON sorted keys, ensure_ascii=false, separators comma/colon, UTF-8; omit checked_utc and observed_utc.",
+    "check_count": 3776
+  }
+]
