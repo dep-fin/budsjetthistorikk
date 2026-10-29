@@ -1,0 +1,14 @@
+{
+  "baseline_bindings": 1270,
+  "current_paths_byte_identical": 1266,
+  "archived_helper_paths_byte_identical": 4,
+  "historical_security_fix_preserved_before_bindings": 47,
+  "historical_security_fix_manifest_bindings": 18,
+  "helper_path_map": {
+    "docs/research/proposisjon16-62/reviews/security/artifact_checks.py": "docs/research/proposisjon16-62/reviews/security/artifact_checks.py.original",
+    "docs/research/proposisjon16-62/reviews/security/probes.py": "docs/research/proposisjon16-62/reviews/security/probes.py.original",
+    "docs/research/proposisjon16-62/reviews/security/verify_outcomes.py": "docs/research/proposisjon16-62/reviews/security/verify_outcomes.py.original",
+    "docs/research/proposisjon16-62/reviews/standards/controls.py": "docs/research/proposisjon16-62/reviews/standards/controls.py.original"
+  },
+  "note": "Security-fix path bindings describe the state before helper integration; the four helper entries are verified at their exact .original archives."
+}

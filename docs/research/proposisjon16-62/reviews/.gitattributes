@@ -1,0 +1,10 @@
+# Bevar de observerte raakontrollbytene, ogsaa CRLF og .py.original.
+** -text whitespace=cr-at-eol
+# Historiske prosesslogger har ekte mellomrom paa linjeslutt.
+integration/replay/original-probes.log whitespace=-blank-at-eol,cr-at-eol
+integration/replay/integrated-probes.log whitespace=-blank-at-eol,cr-at-eol
+# De fire bevarte diffene har mellomrom i tomme kontekstlinjer.
+integration/security-artifact_checks.diff whitespace=-blank-at-eol,cr-at-eol
+integration/security-probes.diff whitespace=-blank-at-eol,cr-at-eol
+integration/security-verify_outcomes.diff whitespace=-blank-at-eol,cr-at-eol
+integration/standards-controls.diff whitespace=-blank-at-eol,cr-at-eol

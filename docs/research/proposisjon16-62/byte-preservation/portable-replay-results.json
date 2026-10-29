@@ -1,0 +1,394 @@
+{
+  "schema": "t5-portable-helper-replay-proof-1",
+  "helper_replay": {
+    "command": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\integration\\replay_helpers.py",
+      "--root",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true",
+      "--candidate",
+      "d46589cb9e99338e44fc805ee9882006ba657fd0",
+      "--base",
+      "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+      "--workspace",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated",
+      "--output",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"executions\": 8, \"output\": \"C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\byte-preservation\\\\portable-replay\"}\r\n",
+    "stderr": ""
+  },
+  "compare_evidence": {
+    "command": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\replay-after-v2\\docs\\research\\proposisjon16-62\\reviews\\integration\\compare_evidence.py",
+      "--root",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\replay-after-v2",
+      "--candidate",
+      "d46589cb9e99338e44fc805ee9882006ba657fd0",
+      "--base",
+      "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+      "--replay",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay",
+      "--output",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-comparison"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"preserved\": 1270, \"comparisons\": [{\"helper\": \"artifact-checks\", \"all_remaining_fields_equal\": true}, {\"helper\": \"standards\", \"all_remaining_fields_equal\": true}, {\"helper\": \"probes\", \"all_remaining_fields_equal\": true}, {\"helper\": \"verified\", \"all_remaining_fields_equal\": true}]}\r\n",
+    "stderr": ""
+  },
+  "executions": [
+    {
+      "variant": "original",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\artifact_checks.py.original",
+      "helper_binding": {
+        "bytes": 3398,
+        "sha256": "6787c8917149b207201596afed940deb75e6d5abf92af300b0315ad45a69d761"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\artifact_checks.py.original",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\target",
+        "--candidate",
+        "d46589cb9e99338e44fc805ee9882006ba657fd0",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\original-artifact-checks.json"
+      ],
+      "exit_code": 0,
+      "seconds": 2.672
+    },
+    {
+      "variant": "original",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\standards\\controls.py.original",
+      "helper_binding": {
+        "bytes": 4194,
+        "sha256": "3278c7877fda6895fcd0c887d139bb08adca975983a9d94b7ac7cdfd8c1f80cb"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\standards\\controls.py.original",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\target",
+        "--candidate",
+        "d46589cb9e99338e44fc805ee9882006ba657fd0",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\original-standards.json"
+      ],
+      "exit_code": 0,
+      "seconds": 2.109
+    },
+    {
+      "variant": "original",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\probes.py.original",
+      "helper_binding": {
+        "bytes": 22848,
+        "sha256": "381eb401386728d046e412a19fd7d8c8c14a25ea0ee7cb732050468305ba2e7a"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\probes.py.original",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\target",
+        "--candidate",
+        "d46589cb9e99338e44fc805ee9882006ba657fd0",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\original-probes"
+      ],
+      "exit_code": 0,
+      "seconds": 88.547
+    },
+    {
+      "variant": "original",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\verify_outcomes.py.original",
+      "helper_binding": {
+        "bytes": 5516,
+        "sha256": "ab28d3df593e8d7111144ed268394e732afe32a20b441d29f34e3d945babe675"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\verify_outcomes.py.original",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\target",
+        "--candidate",
+        "d46589cb9e99338e44fc805ee9882006ba657fd0",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--artifacts",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\original-probes",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\original-verified.json"
+      ],
+      "exit_code": 0,
+      "seconds": 13.031
+    },
+    {
+      "variant": "integrated",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\artifact_checks.py",
+      "helper_binding": {
+        "bytes": 3531,
+        "sha256": "05fd1a270b1d9f684af660fce41b5a07b711d9f737831c812dca8ca76b9ec3f6"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\artifact_checks.py",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\target",
+        "--candidate",
+        "d46589cb9e99338e44fc805ee9882006ba657fd0",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\integrated-artifact-checks.json"
+      ],
+      "exit_code": 0,
+      "seconds": 2.719
+    },
+    {
+      "variant": "integrated",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\standards\\controls.py",
+      "helper_binding": {
+        "bytes": 4471,
+        "sha256": "b38f5fb4b289fb3d247731ee9ca56d0b4b472cb9dd782f8b58bd9d42ad382b15"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\standards\\controls.py",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\target",
+        "--candidate",
+        "d46589cb9e99338e44fc805ee9882006ba657fd0",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\integrated-standards.json"
+      ],
+      "exit_code": 0,
+      "seconds": 2.25
+    },
+    {
+      "variant": "integrated",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\probes.py",
+      "helper_binding": {
+        "bytes": 24912,
+        "sha256": "49361b5d21a5a32c6c02f7410812f2b4e1eb420f02e1acdaeca49406afc1b93f"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\probes.py",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\target",
+        "--candidate",
+        "d46589cb9e99338e44fc805ee9882006ba657fd0",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\integrated-probes"
+      ],
+      "exit_code": 0,
+      "seconds": 86.156
+    },
+    {
+      "variant": "integrated",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\verify_outcomes.py",
+      "helper_binding": {
+        "bytes": 6117,
+        "sha256": "3c5858b8187b6d7b783deeeae36dd8d1a0e2c231157ab35fb355689d2dbca115"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\verify_outcomes.py",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\target",
+        "--candidate",
+        "d46589cb9e99338e44fc805ee9882006ba657fd0",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--artifacts",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\integrated-probes",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\integrated-verified.json"
+      ],
+      "exit_code": 0,
+      "seconds": 13.015
+    }
+  ],
+  "target": {
+    "candidate": "d46589cb9e99338e44fc805ee9882006ba657fd0",
+    "tree": "df0eed6d6e8a0b2a07962e641ae05d1194a3304d",
+    "base": "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+    "target": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\target",
+    "git_archive_sha256": "a4222e1076d53ddf338aee0fc063d9916986e5a7e6151946ba9c7860cb1791c4",
+    "candidate_reader": {
+      "bytes": 16496,
+      "sha256": "bd0fe777cb4b9f569f6c42a0f24bc5eec2ff040c36c78ef741ef8357ede2fafd"
+    },
+    "source_working_reader": {
+      "bytes": 16652,
+      "sha256": "3f2a902567e1408ffb01fef625b38e98e334896b89979cdd6661caf565d4177e"
+    },
+    "source_working_reader_is_target": false,
+    "source_index_before": {
+      "bytes": 161670,
+      "sha256": "e3a98d1c88bc1c8ace683ce70baf15a1fb52d54d0368d8e40686e7b4bcd9dbb0"
+    },
+    "source_index_after": {
+      "bytes": 161670,
+      "sha256": "e3a98d1c88bc1c8ace683ce70baf15a1fb52d54d0368d8e40686e7b4bcd9dbb0"
+    },
+    "source_working_reader_after": {
+      "bytes": 16652,
+      "sha256": "3f2a902567e1408ffb01fef625b38e98e334896b89979cdd6661caf565d4177e"
+    }
+  },
+  "comparisons": [
+    {
+      "helper": "artifact-checks",
+      "all_remaining_fields_equal": true
+    },
+    {
+      "helper": "standards",
+      "all_remaining_fields_equal": true
+    },
+    {
+      "helper": "probes",
+      "all_remaining_fields_equal": true
+    },
+    {
+      "helper": "verified",
+      "all_remaining_fields_equal": true
+    }
+  ],
+  "preservation": {
+    "baseline_bindings": 1270,
+    "current_paths_byte_identical": 1266,
+    "archived_helper_paths_byte_identical": 4,
+    "historical_security_fix_preserved_before_bindings": 47,
+    "historical_security_fix_manifest_bindings": 18,
+    "helper_path_map": {
+      "docs/research/proposisjon16-62/reviews/security/artifact_checks.py": "docs/research/proposisjon16-62/reviews/security/artifact_checks.py.original",
+      "docs/research/proposisjon16-62/reviews/security/probes.py": "docs/research/proposisjon16-62/reviews/security/probes.py.original",
+      "docs/research/proposisjon16-62/reviews/security/verify_outcomes.py": "docs/research/proposisjon16-62/reviews/security/verify_outcomes.py.original",
+      "docs/research/proposisjon16-62/reviews/standards/controls.py": "docs/research/proposisjon16-62/reviews/standards/controls.py.original"
+    },
+    "note": "Security-fix path bindings describe the state before helper integration; the four helper entries are verified at their exact .original archives."
+  },
+  "fresh_outputs": [
+    {
+      "path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\executions.json",
+      "bytes": 10402,
+      "sha256": "0453d372a49a933f024ec9c8daff726570d0cf83e7ecf14d451a8babe6c4b54c",
+      "git_blob_sha1": "9e740b56454da580f2b8907e45074ff7202c00bc"
+    },
+    {
+      "path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\integrated-artifact-checks.json",
+      "bytes": 5759,
+      "sha256": "d486576a7b81743219f7939b4f83fed1f366f0282e1d0bf5551b44129bc23b7a",
+      "git_blob_sha1": "04201ea3432a3ce122af3364942f55001b59daee"
+    },
+    {
+      "path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\integrated-artifact-checks.log",
+      "bytes": 47,
+      "sha256": "fd46aa8ca47a6a243f9324f7c2fb1f878565b4fc13ec9ccd5a51460a101bcf15",
+      "git_blob_sha1": "2698284301df9a90523b044b2ad79e50a8cc8946"
+    },
+    {
+      "path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\integrated-probes.json",
+      "bytes": 12514,
+      "sha256": "5731bc67ae214fbed653fb429ea3e61a58fa81891fedc043a5b93a94f0cf7166",
+      "git_blob_sha1": "c79581c1a770da2c3232ddeba2b36b21515992a0"
+    },
+    {
+      "path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\integrated-probes.log",
+      "bytes": 6570,
+      "sha256": "b2d21a6e20c56b989f08d16f462ecb84b64b20948f9e95f3e0b0dae8a7bae0e3",
+      "git_blob_sha1": "e0a345f8039ae565872c123cbc9af653b857d054"
+    },
+    {
+      "path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\integrated-standards.json",
+      "bytes": 3556,
+      "sha256": "8490476c45c1a5750881297e3a262817e10cc880582a8b6c5a31acf56fd2a01d",
+      "git_blob_sha1": "c674ee5ad61a2ebda44703aee225e6d8e4a9fdb3"
+    },
+    {
+      "path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\integrated-standards.log",
+      "bytes": 402,
+      "sha256": "a3d0930bb67d564b8f5e6317cc822ac34d0c57c4316a44ffdc4b22c1231812ad",
+      "git_blob_sha1": "f9be7811500599972c46348ffbdd1765b757fb7b"
+    },
+    {
+      "path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\integrated-verified.json",
+      "bytes": 18603,
+      "sha256": "3fb2b2568b3b8bde09a7dad08903827f00f225bd300803d3984afbd5e22107fd",
+      "git_blob_sha1": "4a4c906b50cb0d30214ea375c0dc9c5bc3bf856c"
+    },
+    {
+      "path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\integrated-verified.log",
+      "bytes": 220,
+      "sha256": "1b5d1a187c1de50eeee75ff838c76880dc741673e6b22340700c0e0b2a204816",
+      "git_blob_sha1": "0f7ef59dc0352f2da6cc422e4ca798d71ebd63b4"
+    },
+    {
+      "path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\original-artifact-checks.json",
+      "bytes": 5759,
+      "sha256": "d486576a7b81743219f7939b4f83fed1f366f0282e1d0bf5551b44129bc23b7a",
+      "git_blob_sha1": "04201ea3432a3ce122af3364942f55001b59daee"
+    },
+    {
+      "path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\original-artifact-checks.log",
+      "bytes": 47,
+      "sha256": "fd46aa8ca47a6a243f9324f7c2fb1f878565b4fc13ec9ccd5a51460a101bcf15",
+      "git_blob_sha1": "2698284301df9a90523b044b2ad79e50a8cc8946"
+    },
+    {
+      "path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\original-probes.json",
+      "bytes": 12508,
+      "sha256": "24fcb0c1976ee69bcda34ea17a34074a9d309697e2b7872e05272ba53c1c206f",
+      "git_blob_sha1": "ac570e5f115a8b077f7b73a93bb2d4f1de213faa"
+    },
+    {
+      "path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\original-probes.log",
+      "bytes": 6562,
+      "sha256": "36e73038638fae610fc4d010f293a3361890ad77842e3c83eefd282fac36f52a",
+      "git_blob_sha1": "737a2c5d76dc816380e9cb2110b4232e632e1380"
+    },
+    {
+      "path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\original-standards.json",
+      "bytes": 3556,
+      "sha256": "8490476c45c1a5750881297e3a262817e10cc880582a8b6c5a31acf56fd2a01d",
+      "git_blob_sha1": "c674ee5ad61a2ebda44703aee225e6d8e4a9fdb3"
+    },
+    {
+      "path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\original-standards.log",
+      "bytes": 402,
+      "sha256": "a3d0930bb67d564b8f5e6317cc822ac34d0c57c4316a44ffdc4b22c1231812ad",
+      "git_blob_sha1": "f9be7811500599972c46348ffbdd1765b757fb7b"
+    },
+    {
+      "path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\original-verified.json",
+      "bytes": 18597,
+      "sha256": "ac82bdaa10d103899a39ebdbd34e4c14c6210369cc73a9c92e5a2f87f4478145",
+      "git_blob_sha1": "8af77244d9f967e9241fc12484a8027dcc1ced7c"
+    },
+    {
+      "path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\original-verified.log",
+      "bytes": 218,
+      "sha256": "09858219bd4d6f00bfa01716fa2f6149f239c2af6e2bf81e8716580dfd184dde",
+      "git_blob_sha1": "d705ab7fb7c65d4fac2c917d63453cd2318d4110"
+    },
+    {
+      "path": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\target.json",
+      "bytes": 1150,
+      "sha256": "b43b78cc35c07b1afc20ca4425b43e39e844befcd8504d364d0ef5d625517fcc",
+      "git_blob_sha1": "fbd0696ce69234ea93a343bfa9f0667d08824a83"
+    }
+  ],
+  "limits": "Fresh outputs and target metadata were generated on this Windows host, using only existing helpers and historical d465 behavior. No native Linux run, new independent security acceptance, rendering, full suite, CI or frozen delivery commit."
+}
