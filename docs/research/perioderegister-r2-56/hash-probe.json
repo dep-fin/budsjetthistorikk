@@ -1,0 +1,161 @@
+{
+  "files": [
+    {
+      "mutation": "actor",
+      "sha256": "2c9d82f569a7dac4a8d28964b97955437e239285ca17a38c643669dd8c87ed37",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "annual-approval",
+      "sha256": "207efb8dcf71b80397f98ce1a09c1a449aa206363b7cad93749d6377d2a95eaf",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "authorization-2025",
+      "sha256": "66263db5cb912da26cfcd477e8744fc7c086dbec6015d9e826f0ad2c1c9f898f",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "authorization-used",
+      "sha256": "707c2f52c190fe9884bce9c178f6d4e99d653c2fa3021970baf1bf82e7ea08b5",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "decision",
+      "sha256": "5bd82a3ab1f95f78134d6a5b25aa7d8a68323ecb2103c749cd4b282dabf33a23",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "duplicate-payload",
+      "sha256": "71444c5f678ab31667d95b20e64fcd95df5bb426747e2b7f7b004e0c84174861",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "estimate-adopted",
+      "sha256": "1c45b828881e41ba9e2f312b597de6f52ead59e64c1a196ecdbcd7d545077bdb",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "hidden-candidates",
+      "sha256": "8c32d5aa39df27d857ddea39c76bc18ce95941612b767bed565f425606f45a4a",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "hidden-crossrefs",
+      "sha256": "b7f7a4b017397a50246ef28cd99f420bd2d4f2c6cf8afc984e615f9a83d802dc",
+      "self_hashes_valid": 203,
+      "references_valid": true
+    },
+    {
+      "mutation": "hidden-gaps",
+      "sha256": "6656f7b72d7f8ccbcd9899f67decbef47060793a776630705904e99fa4f455c0",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "hidden-status",
+      "sha256": "096513ace461c6e1aa23638e65118f49c1ea24a6e2dbe63384872012189c518d",
+      "self_hashes_valid": 214,
+      "references_valid": true
+    },
+    {
+      "mutation": "locator",
+      "sha256": "2a48942e42978e1637f9768534d30ddcc004f1f1b09e8abd94dd9d0224c53871",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "nested-locator",
+      "sha256": "d06c341ba5ab467046ea5b189b0ce8f3ec7948d8dd0d9b556d4d7b7a7e5410c0",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "o1-exact",
+      "sha256": "5249032dd75dcc73f57c8baada32a5e3f2e335f10aab418743592607da98d89a",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "old-identity",
+      "sha256": "cd168b73ee5c1dcfbabc230649f70fee39bc2ec1a333a5c2a5028853e7e833cb",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "old-payload-copy",
+      "sha256": "72906f7202521d4cb041cee26020dca0e9149d13ce7c917cdeb6d6b5be650644",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "positive-coverage",
+      "sha256": "354fbbc1de8c06cd8a9a5edee24a692628b49c1045f838181f312ae205bd2d1c",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "post22",
+      "sha256": "6874a939df0ef7674e83f4f2ecd80ae71518c5b123ddc4ce746ef1d7171646ec",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "proposal",
+      "sha256": "892fec02d008ba073b06239e4c043cfac70fd36c7c48072cdd5f1ceeceda5f21",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "representation",
+      "sha256": "f0161c2b4af1f50f8d75697de022ece18dd8e9698dba435477b75670d75f9dfe",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "role",
+      "sha256": "0e0f440ae97ad97fe887a1c55188929a21e62c9b1c9543c722af13725eea5ea2",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "source-bytes",
+      "sha256": "ff7062162686f0653811301189ebb0d9fac42bc10e49eec5976ae3b6dd154407",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "text-loss",
+      "sha256": "9d5a697701492b75d679858296a7584b7b885437293316435001928d4b6160a4",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "vote",
+      "sha256": "4a974a9aceeb66427c33e2ce16eead3225f821ee1cfc1428d2749cb74a10555e",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "wrong-source",
+      "sha256": "73bcd0a611b0a3b81e17f3ed383122ba7c25c4df086a8166788330ba908abf90",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    },
+    {
+      "mutation": "year",
+      "sha256": "9c7511f6c38f164a2841932ec957f8aea7501419b103d7b3425658fad061992a",
+      "self_hashes_valid": 215,
+      "references_valid": true
+    }
+  ],
+  "errors": 0
+}

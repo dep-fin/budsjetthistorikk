@@ -1,0 +1,41 @@
+"""Summarize own completed controls; bind all actual audit artifacts and scripts."""
+import hashlib
+import json
+from collections import Counter
+from pathlib import Path
+import subprocess
+
+from innlesning.observations import identity
+
+root=Path.cwd().resolve()
+out=root/'.local/security-56'
+rows=[json.loads(line) for line in (out/'results.jsonl').read_text('utf8').splitlines()]
+assert len({r['name'] for r in rows})==len(rows)
+assert all(r['status'] in {'passed','rejected'} for r in rows)
+candidate=json.loads((out/'candidate.json').read_text('utf8'))
+for name,digest in candidate['code_sha256'].items(): assert hashlib.sha256((root/name).read_bytes()).hexdigest()==digest
+assert subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()==candidate['head']
+namespaces={'sources':'periodekilde-r2-1','evidence':'periodebevis-r2-1','documents':'periodedokument-r2-1','inventory':'periodeinventar-r2-1','statements':'periodeutsagn-r2-1','relations':'perioderelasjon-r2-1','findings':'periodefunn-r2-1','status_updates':'periodestatus-r2-1','cross_references':'periodekryssreferanse-r2-1'}
+verified=[]
+for path in sorted((out/'synthetic').glob('*.json')):
+    if path.name in {'existing.json','race.json','oversized.json'}: continue
+    report=json.loads(path.read_text('utf8'))['report']; basis=report['basis']; count=0
+    for collection,namespace in namespaces.items():
+        for item in basis[collection]:
+            assert item['id']==identity(namespace,{**item,'id':''}),(path.name,collection)
+            count+=1
+    assert basis['id']==identity('periodegrunnlag-r2-1',{**basis,'id':''})
+    assert report['id']==identity('perioderegister-r2-1',{**report,'id':''})
+    verified.append({'file':path.name,'selfhashes_valid':count+2})
+assert len(verified)==23
+summary={'base':candidate['base'],'head':candidate['head'],'tree':candidate['tree'],'main_controls':len(rows),'status_counts':dict(Counter(r['status'] for r in rows)),'independent_rehashed_json':verified,'consistent_capsule_negative_xlsx':4,'offline_cli_returncode':json.loads((out/'offline-cli.json').read_text('utf8'))['returncode'],'fresh_ordinary_databases':len(json.loads((out/'ordinary.json').read_text('utf8'))),'required_findings':0,'optional_findings':0,'limitations':['No native Excel','No fullsuite repeat','No Linux CI in audit','No live external exploitation or operations'],'audit_harness_initial_failure':'ordinary-first-attempt.py used dataset audit; dataset validation rejected before ordinary flow; preserved; corrected fresh v2 controls use supported dataset prove.'}
+(out/'summary.json').write_text(json.dumps(summary,indent=2),encoding='utf8')
+files=[]
+for path in sorted(out.rglob('*')):
+    if not path.is_file() or path.name=='artifact-manifest.json' or '__pycache__' in path.parts: continue
+    digest=hashlib.sha256()
+    with path.open('rb') as stream:
+        while block:=stream.read(1024*1024): digest.update(block)
+    files.append({'file':path.relative_to(out).as_posix(),'bytes':path.stat().st_size,'sha256':digest.hexdigest()})
+(out/'artifact-manifest.json').write_text(json.dumps({'candidate':candidate['head'],'files':files},indent=2),encoding='utf8')
+print(json.dumps({'main_controls':len(rows),'status_counts':summary['status_counts'],'independent_selfhash_files':len(verified),'ordinary_databases':summary['fresh_ordinary_databases'],'artifacts':len(files)}))

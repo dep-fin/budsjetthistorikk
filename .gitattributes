@@ -60,3 +60,7 @@ docs/research/perioderegister-52/*.json -text whitespace=cr-at-eol
 docs/research/perioderegister-52/checks/* -text whitespace=-blank-at-eol,cr-at-eol
 docs/research/perioderegister-52/reviews/** -text whitespace=-blank-at-eol,cr-at-eol
 docs/research/perioderegister-52/audit-fix/** -text whitespace=-blank-at-eol,cr-at-eol
+
+# P2 pinner R2s eksisterende byte; også Windows-checkout må bevare dem.
+docs/research/r2-101000-54/** -text whitespace=-blank-at-eol,cr-at-eol
+docs/research/perioderegister-r2-56/** -text whitespace=-blank-at-eol,cr-at-eol

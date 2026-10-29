@@ -1,0 +1,10 @@
+{
+  "files": 401,
+  "bytes": 3084248448,
+  "mismatches": 0,
+  "selections": 46,
+  "negative_pairs": 26,
+  "ordinary_independent_databases": 4,
+  "compatibility_records": 14,
+  "reexecuted_acceptance": false
+}

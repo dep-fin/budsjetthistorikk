@@ -1,0 +1,544 @@
+.E........EEEEEEEEEEEEEEE                                                [100%]
+=================================== ERRORS ====================================
+_ ERROR at setup of test_written_files_keep_the_proposed_value_and_conditional_authorization _
+
+self = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.local/review-spec-56/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\review-spec-56\\pytest'
+
+C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError
+_ ERROR at setup of test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[research-amount] _
+
+tmp_path_factory = TempPathFactory(_given_basetemp=WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.l...luggy._tracing.TagTracerSub object at 0x0000022848E72B10>, _basetemp=None, _retention_count=3, _retention_policy='all')
+authentic_basis = Basis(id='7d8c5e89d4293e7145a21235282ba51bcb4aac257d1c413ea84ac002b1d6e18b', rule='periode1429-r2-54-1', p1_basis=Basi...f2'))), issues=(), year_coverage='partial', professional_annual_balance_approval=False, version='periodegrunnlag-r2-1')
+
+    @pytest.fixture(scope="module")
+    def saved_pair(tmp_path_factory, authentic_basis):
+        from analyse.perioderegister_r2 import build_report
+        from analyse.perioderegister_r2_excel import export_pair
+    
+>       output = tmp_path_factory.mktemp("actual-p2")
+
+tests\test_perioderegister_r2.py:212: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:131: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:112: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:153: in getbasetemp
+    basetemp.mkdir(mode=0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.local/review-spec-56/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\review-spec-56\\pytest'
+
+C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError
+_ ERROR at setup of test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[hidden-row] _
+
+tmp_path_factory = TempPathFactory(_given_basetemp=WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.l...luggy._tracing.TagTracerSub object at 0x0000022848E72B10>, _basetemp=None, _retention_count=3, _retention_policy='all')
+authentic_basis = Basis(id='7d8c5e89d4293e7145a21235282ba51bcb4aac257d1c413ea84ac002b1d6e18b', rule='periode1429-r2-54-1', p1_basis=Basi...f2'))), issues=(), year_coverage='partial', professional_annual_balance_approval=False, version='periodegrunnlag-r2-1')
+
+    @pytest.fixture(scope="module")
+    def saved_pair(tmp_path_factory, authentic_basis):
+        from analyse.perioderegister_r2 import build_report
+        from analyse.perioderegister_r2_excel import export_pair
+    
+>       output = tmp_path_factory.mktemp("actual-p2")
+
+tests\test_perioderegister_r2.py:212: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:131: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:112: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:153: in getbasetemp
+    basetemp.mkdir(mode=0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.local/review-spec-56/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\review-spec-56\\pytest'
+
+C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError
+_ ERROR at setup of test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[hidden-column] _
+
+tmp_path_factory = TempPathFactory(_given_basetemp=WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.l...luggy._tracing.TagTracerSub object at 0x0000022848E72B10>, _basetemp=None, _retention_count=3, _retention_policy='all')
+authentic_basis = Basis(id='7d8c5e89d4293e7145a21235282ba51bcb4aac257d1c413ea84ac002b1d6e18b', rule='periode1429-r2-54-1', p1_basis=Basi...f2'))), issues=(), year_coverage='partial', professional_annual_balance_approval=False, version='periodegrunnlag-r2-1')
+
+    @pytest.fixture(scope="module")
+    def saved_pair(tmp_path_factory, authentic_basis):
+        from analyse.perioderegister_r2 import build_report
+        from analyse.perioderegister_r2_excel import export_pair
+    
+>       output = tmp_path_factory.mktemp("actual-p2")
+
+tests\test_perioderegister_r2.py:212: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:131: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:112: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:153: in getbasetemp
+    basetemp.mkdir(mode=0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.local/review-spec-56/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\review-spec-56\\pytest'
+
+C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError
+_ ERROR at setup of test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[filter] _
+
+tmp_path_factory = TempPathFactory(_given_basetemp=WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.l...luggy._tracing.TagTracerSub object at 0x0000022848E72B10>, _basetemp=None, _retention_count=3, _retention_policy='all')
+authentic_basis = Basis(id='7d8c5e89d4293e7145a21235282ba51bcb4aac257d1c413ea84ac002b1d6e18b', rule='periode1429-r2-54-1', p1_basis=Basi...f2'))), issues=(), year_coverage='partial', professional_annual_balance_approval=False, version='periodegrunnlag-r2-1')
+
+    @pytest.fixture(scope="module")
+    def saved_pair(tmp_path_factory, authentic_basis):
+        from analyse.perioderegister_r2 import build_report
+        from analyse.perioderegister_r2_excel import export_pair
+    
+>       output = tmp_path_factory.mktemp("actual-p2")
+
+tests\test_perioderegister_r2.py:212: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:131: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:112: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:153: in getbasetemp
+    basetemp.mkdir(mode=0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.local/review-spec-56/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\review-spec-56\\pytest'
+
+C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError
+_ ERROR at setup of test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[numberformat] _
+
+tmp_path_factory = TempPathFactory(_given_basetemp=WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.l...luggy._tracing.TagTracerSub object at 0x0000022848E72B10>, _basetemp=None, _retention_count=3, _retention_policy='all')
+authentic_basis = Basis(id='7d8c5e89d4293e7145a21235282ba51bcb4aac257d1c413ea84ac002b1d6e18b', rule='periode1429-r2-54-1', p1_basis=Basi...f2'))), issues=(), year_coverage='partial', professional_annual_balance_approval=False, version='periodegrunnlag-r2-1')
+
+    @pytest.fixture(scope="module")
+    def saved_pair(tmp_path_factory, authentic_basis):
+        from analyse.perioderegister_r2 import build_report
+        from analyse.perioderegister_r2_excel import export_pair
+    
+>       output = tmp_path_factory.mktemp("actual-p2")
+
+tests\test_perioderegister_r2.py:212: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:131: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:112: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:153: in getbasetemp
+    basetemp.mkdir(mode=0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.local/review-spec-56/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\review-spec-56\\pytest'
+
+C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError
+_ ERROR at setup of test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[hidden-sheet] _
+
+tmp_path_factory = TempPathFactory(_given_basetemp=WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.l...luggy._tracing.TagTracerSub object at 0x0000022848E72B10>, _basetemp=None, _retention_count=3, _retention_policy='all')
+authentic_basis = Basis(id='7d8c5e89d4293e7145a21235282ba51bcb4aac257d1c413ea84ac002b1d6e18b', rule='periode1429-r2-54-1', p1_basis=Basi...f2'))), issues=(), year_coverage='partial', professional_annual_balance_approval=False, version='periodegrunnlag-r2-1')
+
+    @pytest.fixture(scope="module")
+    def saved_pair(tmp_path_factory, authentic_basis):
+        from analyse.perioderegister_r2 import build_report
+        from analyse.perioderegister_r2_excel import export_pair
+    
+>       output = tmp_path_factory.mktemp("actual-p2")
+
+tests\test_perioderegister_r2.py:212: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:131: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:112: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:153: in getbasetemp
+    basetemp.mkdir(mode=0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.local/review-spec-56/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\review-spec-56\\pytest'
+
+C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError
+_ ERROR at setup of test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[formula] _
+
+tmp_path_factory = TempPathFactory(_given_basetemp=WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.l...luggy._tracing.TagTracerSub object at 0x0000022848E72B10>, _basetemp=None, _retention_count=3, _retention_policy='all')
+authentic_basis = Basis(id='7d8c5e89d4293e7145a21235282ba51bcb4aac257d1c413ea84ac002b1d6e18b', rule='periode1429-r2-54-1', p1_basis=Basi...f2'))), issues=(), year_coverage='partial', professional_annual_balance_approval=False, version='periodegrunnlag-r2-1')
+
+    @pytest.fixture(scope="module")
+    def saved_pair(tmp_path_factory, authentic_basis):
+        from analyse.perioderegister_r2 import build_report
+        from analyse.perioderegister_r2_excel import export_pair
+    
+>       output = tmp_path_factory.mktemp("actual-p2")
+
+tests\test_perioderegister_r2.py:212: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:131: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:112: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:153: in getbasetemp
+    basetemp.mkdir(mode=0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.local/review-spec-56/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\review-spec-56\\pytest'
+
+C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError
+_ ERROR at setup of test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[root-relationship] _
+
+tmp_path_factory = TempPathFactory(_given_basetemp=WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.l...luggy._tracing.TagTracerSub object at 0x0000022848E72B10>, _basetemp=None, _retention_count=3, _retention_policy='all')
+authentic_basis = Basis(id='7d8c5e89d4293e7145a21235282ba51bcb4aac257d1c413ea84ac002b1d6e18b', rule='periode1429-r2-54-1', p1_basis=Basi...f2'))), issues=(), year_coverage='partial', professional_annual_balance_approval=False, version='periodegrunnlag-r2-1')
+
+    @pytest.fixture(scope="module")
+    def saved_pair(tmp_path_factory, authentic_basis):
+        from analyse.perioderegister_r2 import build_report
+        from analyse.perioderegister_r2_excel import export_pair
+    
+>       output = tmp_path_factory.mktemp("actual-p2")
+
+tests\test_perioderegister_r2.py:212: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:131: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:112: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:153: in getbasetemp
+    basetemp.mkdir(mode=0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.local/review-spec-56/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\review-spec-56\\pytest'
+
+C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError
+_ ERROR at setup of test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[content-type] _
+
+tmp_path_factory = TempPathFactory(_given_basetemp=WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.l...luggy._tracing.TagTracerSub object at 0x0000022848E72B10>, _basetemp=None, _retention_count=3, _retention_policy='all')
+authentic_basis = Basis(id='7d8c5e89d4293e7145a21235282ba51bcb4aac257d1c413ea84ac002b1d6e18b', rule='periode1429-r2-54-1', p1_basis=Basi...f2'))), issues=(), year_coverage='partial', professional_annual_balance_approval=False, version='periodegrunnlag-r2-1')
+
+    @pytest.fixture(scope="module")
+    def saved_pair(tmp_path_factory, authentic_basis):
+        from analyse.perioderegister_r2 import build_report
+        from analyse.perioderegister_r2_excel import export_pair
+    
+>       output = tmp_path_factory.mktemp("actual-p2")
+
+tests\test_perioderegister_r2.py:212: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:131: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:112: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:153: in getbasetemp
+    basetemp.mkdir(mode=0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.local/review-spec-56/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\review-spec-56\\pytest'
+
+C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError
+_ ERROR at setup of test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[raw-style] _
+
+tmp_path_factory = TempPathFactory(_given_basetemp=WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.l...luggy._tracing.TagTracerSub object at 0x0000022848E72B10>, _basetemp=None, _retention_count=3, _retention_policy='all')
+authentic_basis = Basis(id='7d8c5e89d4293e7145a21235282ba51bcb4aac257d1c413ea84ac002b1d6e18b', rule='periode1429-r2-54-1', p1_basis=Basi...f2'))), issues=(), year_coverage='partial', professional_annual_balance_approval=False, version='periodegrunnlag-r2-1')
+
+    @pytest.fixture(scope="module")
+    def saved_pair(tmp_path_factory, authentic_basis):
+        from analyse.perioderegister_r2 import build_report
+        from analyse.perioderegister_r2_excel import export_pair
+    
+>       output = tmp_path_factory.mktemp("actual-p2")
+
+tests\test_perioderegister_r2.py:212: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:131: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:112: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:153: in getbasetemp
+    basetemp.mkdir(mode=0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.local/review-spec-56/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\review-spec-56\\pytest'
+
+C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError
+_ ERROR at setup of test_rehashed_excel_pairs_pass_container_before_semantic_rejection[estimate-adopted] _
+
+tmp_path_factory = TempPathFactory(_given_basetemp=WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.l...luggy._tracing.TagTracerSub object at 0x0000022848E72B10>, _basetemp=None, _retention_count=3, _retention_policy='all')
+authentic_basis = Basis(id='7d8c5e89d4293e7145a21235282ba51bcb4aac257d1c413ea84ac002b1d6e18b', rule='periode1429-r2-54-1', p1_basis=Basi...f2'))), issues=(), year_coverage='partial', professional_annual_balance_approval=False, version='periodegrunnlag-r2-1')
+
+    @pytest.fixture(scope="module")
+    def saved_pair(tmp_path_factory, authentic_basis):
+        from analyse.perioderegister_r2 import build_report
+        from analyse.perioderegister_r2_excel import export_pair
+    
+>       output = tmp_path_factory.mktemp("actual-p2")
+
+tests\test_perioderegister_r2.py:212: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:131: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:112: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:153: in getbasetemp
+    basetemp.mkdir(mode=0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.local/review-spec-56/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\review-spec-56\\pytest'
+
+C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError
+_ ERROR at setup of test_rehashed_excel_pairs_pass_container_before_semantic_rejection[authorization-used] _
+
+tmp_path_factory = TempPathFactory(_given_basetemp=WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.l...luggy._tracing.TagTracerSub object at 0x0000022848E72B10>, _basetemp=None, _retention_count=3, _retention_policy='all')
+authentic_basis = Basis(id='7d8c5e89d4293e7145a21235282ba51bcb4aac257d1c413ea84ac002b1d6e18b', rule='periode1429-r2-54-1', p1_basis=Basi...f2'))), issues=(), year_coverage='partial', professional_annual_balance_approval=False, version='periodegrunnlag-r2-1')
+
+    @pytest.fixture(scope="module")
+    def saved_pair(tmp_path_factory, authentic_basis):
+        from analyse.perioderegister_r2 import build_report
+        from analyse.perioderegister_r2_excel import export_pair
+    
+>       output = tmp_path_factory.mktemp("actual-p2")
+
+tests\test_perioderegister_r2.py:212: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:131: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:112: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:153: in getbasetemp
+    basetemp.mkdir(mode=0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.local/review-spec-56/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\review-spec-56\\pytest'
+
+C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError
+_ ERROR at setup of test_rehashed_excel_pairs_pass_container_before_semantic_rejection[authorization-2025] _
+
+tmp_path_factory = TempPathFactory(_given_basetemp=WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.l...luggy._tracing.TagTracerSub object at 0x0000022848E72B10>, _basetemp=None, _retention_count=3, _retention_policy='all')
+authentic_basis = Basis(id='7d8c5e89d4293e7145a21235282ba51bcb4aac257d1c413ea84ac002b1d6e18b', rule='periode1429-r2-54-1', p1_basis=Basi...f2'))), issues=(), year_coverage='partial', professional_annual_balance_approval=False, version='periodegrunnlag-r2-1')
+
+    @pytest.fixture(scope="module")
+    def saved_pair(tmp_path_factory, authentic_basis):
+        from analyse.perioderegister_r2 import build_report
+        from analyse.perioderegister_r2_excel import export_pair
+    
+>       output = tmp_path_factory.mktemp("actual-p2")
+
+tests\test_perioderegister_r2.py:212: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:131: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:112: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:153: in getbasetemp
+    basetemp.mkdir(mode=0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.local/review-spec-56/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\review-spec-56\\pytest'
+
+C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError
+_ ERROR at setup of test_rehashed_excel_pairs_pass_container_before_semantic_rejection[post22] _
+
+tmp_path_factory = TempPathFactory(_given_basetemp=WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.l...luggy._tracing.TagTracerSub object at 0x0000022848E72B10>, _basetemp=None, _retention_count=3, _retention_policy='all')
+authentic_basis = Basis(id='7d8c5e89d4293e7145a21235282ba51bcb4aac257d1c413ea84ac002b1d6e18b', rule='periode1429-r2-54-1', p1_basis=Basi...f2'))), issues=(), year_coverage='partial', professional_annual_balance_approval=False, version='periodegrunnlag-r2-1')
+
+    @pytest.fixture(scope="module")
+    def saved_pair(tmp_path_factory, authentic_basis):
+        from analyse.perioderegister_r2 import build_report
+        from analyse.perioderegister_r2_excel import export_pair
+    
+>       output = tmp_path_factory.mktemp("actual-p2")
+
+tests\test_perioderegister_r2.py:212: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:131: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:112: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:153: in getbasetemp
+    basetemp.mkdir(mode=0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.local/review-spec-56/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\review-spec-56\\pytest'
+
+C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError
+_ ERROR at setup of test_rehashed_excel_pairs_pass_container_before_semantic_rejection[hidden-gaps] _
+
+tmp_path_factory = TempPathFactory(_given_basetemp=WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.l...luggy._tracing.TagTracerSub object at 0x0000022848E72B10>, _basetemp=None, _retention_count=3, _retention_policy='all')
+authentic_basis = Basis(id='7d8c5e89d4293e7145a21235282ba51bcb4aac257d1c413ea84ac002b1d6e18b', rule='periode1429-r2-54-1', p1_basis=Basi...f2'))), issues=(), year_coverage='partial', professional_annual_balance_approval=False, version='periodegrunnlag-r2-1')
+
+    @pytest.fixture(scope="module")
+    def saved_pair(tmp_path_factory, authentic_basis):
+        from analyse.perioderegister_r2 import build_report
+        from analyse.perioderegister_r2_excel import export_pair
+    
+>       output = tmp_path_factory.mktemp("actual-p2")
+
+tests\test_perioderegister_r2.py:212: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:131: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:112: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+..\p1-perioderegister\.local\python\_pytest\tmpdir.py:153: in getbasetemp
+    basetemp.mkdir(mode=0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/p2-r2-adopsjon/.local/review-spec-56/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\review-spec-56\\pytest'
+
+C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError
+=========================== short test summary info ===========================
+ERROR tests/test_perioderegister_r2.py::test_written_files_keep_the_proposed_value_and_conditional_authorization
+ERROR tests/test_perioderegister_r2.py::test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[research-amount]
+ERROR tests/test_perioderegister_r2.py::test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[hidden-row]
+ERROR tests/test_perioderegister_r2.py::test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[hidden-column]
+ERROR tests/test_perioderegister_r2.py::test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[filter]
+ERROR tests/test_perioderegister_r2.py::test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[numberformat]
+ERROR tests/test_perioderegister_r2.py::test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[hidden-sheet]
+ERROR tests/test_perioderegister_r2.py::test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[formula]
+ERROR tests/test_perioderegister_r2.py::test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[root-relationship]
+ERROR tests/test_perioderegister_r2.py::test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[content-type]
+ERROR tests/test_perioderegister_r2.py::test_excel_semantics_and_p1_audit_guards_still_bind_the_extension[raw-style]
+ERROR tests/test_perioderegister_r2.py::test_rehashed_excel_pairs_pass_container_before_semantic_rejection[estimate-adopted]
+ERROR tests/test_perioderegister_r2.py::test_rehashed_excel_pairs_pass_container_before_semantic_rejection[authorization-used]
+ERROR tests/test_perioderegister_r2.py::test_rehashed_excel_pairs_pass_container_before_semantic_rejection[authorization-2025]
+ERROR tests/test_perioderegister_r2.py::test_rehashed_excel_pairs_pass_container_before_semantic_rejection[post22]
+ERROR tests/test_perioderegister_r2.py::test_rehashed_excel_pairs_pass_container_before_semantic_rejection[hidden-gaps]
+9 passed, 16 errors in 52.26s

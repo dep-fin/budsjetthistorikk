@@ -1,0 +1,49 @@
+"""Four fresh local ordinary 368 controls, never touching existing databases."""
+import json
+from pathlib import Path
+import sqlite3
+import time
+
+from analyse import perioderegister_r2 as p2
+from innlesning import read_extraction
+from innlesning.registers import seed_register,read_register
+from innlesning.source_attempts import begin_source_attempt
+from ops.visningspilot_proeve import _ordinary
+
+out=Path('.local/security-56').resolve()
+results=[]
+for condition in ('missing','failed','corrupt','contradictory'):
+    directory=out/('ordinary-'+condition)
+    directory.mkdir()
+    start=time.monotonic()
+    try:
+        if condition=='missing':
+            basis=p2.import_basis(directory/'absent-root')
+            assert basis.issues
+        elif condition=='failed':
+            p2.import_basis(directory/'absent-root',t1_json='failed optional input')
+        elif condition=='corrupt':
+            p2.report_from_json('not json')
+        else:
+            p2.read_json(out/'synthetic/estimate-as-adopted.json')
+    except ValueError as error:
+        supplement=str(error)
+    else:
+        assert condition=='missing'
+        supplement='visible missing source issues'
+    database=directory/'ordinary.sqlite'
+    assert not database.exists()
+    begin_source_attempt(database,'audit','2024-2025')
+    register=seed_register(database)
+    stats=_ordinary(directory)
+    assert (stats['observations'],stats['events'])==(222,74)
+    assert read_register(database,register.id)==register
+    extracted=read_extraction(database,str(stats['extraction_id']))
+    assert {o.round for o in extracted.observations}=={'uavklart'}
+    with sqlite3.connect(database) as connection:
+        schema=connection.execute('PRAGMA user_version').fetchone()[0]
+    assert schema==5
+    row=dict(condition=condition,source_failure=supplement,schema=schema,b5_preserved=register.id,observations=222,events=74,seconds=round(time.monotonic()-start,3),ordinary=stats)
+    results.append(row)
+    (out/'ordinary.json').write_text(json.dumps(results,ensure_ascii=False,indent=2),encoding='utf8')
+    print(json.dumps({k:v for k,v in row.items() if k not in ('ordinary',)}),flush=True)

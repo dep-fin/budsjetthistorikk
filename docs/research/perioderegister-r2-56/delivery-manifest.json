@@ -1,0 +1,493 @@
+{
+  "schema": "p2-r2-delivery-manifest-1",
+  "base": "c041ad8ed3e2f8316896b6ff2364d3470024a992",
+  "contract_local": "52ba0197fb2ca55dcca7e315bfb0f86fe77cbaf3",
+  "contract_published": "ed9938682becb21937e63ad8fcf46fb88b52e5e8",
+  "status": "local builder complete; independent review/audit/Linux CI/merge pending",
+  "representations": "New research files preserve exact bytes through .gitattributes. Code and root context/contract text use explicit UTF-8/LF. No preserved source file is normalized.",
+  "exclusions": [
+    "this manifest itself to avoid a circular hash",
+    "ignored .local control files are bound separately by verification.json"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "representation": "utf-8-lf",
+      "bytes": 4113,
+      "sha256": "1dd25133722024ef5e42f218731ae1d18b057fc4dcc486079ea6917d6762e9b9",
+      "expected_git_blob": "fac9bff4ce61cc13cb2f53a66614c4752058b1e5"
+    },
+    {
+      "path": "AGENTS.md",
+      "representation": "utf-8-lf",
+      "bytes": 7913,
+      "sha256": "45070d464441f0d1868d39cb95c4174949fa96208e6b79c118dddaec0c5ad9eb",
+      "expected_git_blob": "cc3ae89e8d899dc9b54ed5dfee2c5a3fe799df6e"
+    },
+    {
+      "path": "analyse/perioderegister_r2.py",
+      "representation": "utf-8-lf",
+      "bytes": 10117,
+      "sha256": "813bea8d1c965babc753cf5d94c382897502226ee2bae8241c8ac43de0b8a76f",
+      "expected_git_blob": "758291c420084ba64d8d002cd5f8f329bff051b1"
+    },
+    {
+      "path": "analyse/perioderegister_r2_excel.py",
+      "representation": "utf-8-lf",
+      "bytes": 19748,
+      "sha256": "ca73fb7733e2aa1cf49630bec39dcf22b87cbf52f856649085d06bac6ae9378e",
+      "expected_git_blob": "031130e49b480d125b9371da09ee7f98a83d5cc4"
+    },
+    {
+      "path": "docs/kildefunn.md",
+      "representation": "utf-8-lf",
+      "bytes": 61947,
+      "sha256": "66d4ad7b7cb664091a420e649417a8652981cac1696b1af86ba5c214a980c610",
+      "expected_git_blob": "7b90a4999aef8d920937165845ca184e0ab0d333"
+    },
+    {
+      "path": "docs/perioderegister-r2.md",
+      "representation": "utf-8-lf",
+      "bytes": 16304,
+      "sha256": "957f0b4d79ac4d51d7d03ff782419d56308203971495e858cde6aae82a59a573",
+      "expected_git_blob": "b9b9d4595572270831903a34e18c7f3220e81abe"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/OVERLEVERING.md",
+      "representation": "exact-file-bytes",
+      "bytes": 4219,
+      "sha256": "bbc882de4fe7b38f8e1721f587d53ce3299c3f3d90cdb70fed51fac091121f6a",
+      "expected_git_blob": "159bf2f82f455ffbb9c04341d219eb7f12b82593"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/README.md",
+      "representation": "exact-file-bytes",
+      "bytes": 2815,
+      "sha256": "11c8754c46abf2f28b0b3ddea878d1fdde6d8f577a57a7b46163237615042f18",
+      "expected_git_blob": "922473e91975698e7425108475fc09a2fdbd830b"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/aksept.md",
+      "representation": "exact-file-bytes",
+      "bytes": 5831,
+      "sha256": "36ad6860d8e0aab0960d52764035c09566ee5bebc6521ca03a67a3e7fcc6a46c",
+      "expected_git_blob": "431bd7c337d8e63d5ad968635b08e9faf6547d9b"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/archive-recheck.json",
+      "representation": "exact-file-bytes",
+      "bytes": 274,
+      "sha256": "1f970d7c661a9fa5e7da625530dd7e820e684a6067fed028f51a2921e2411f83",
+      "expected_git_blob": "1757612ea88a87fc647b0cd7cfa70bc813273e69"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/candidate-code-before-control-fix.json",
+      "representation": "exact-file-bytes",
+      "bytes": 2683,
+      "sha256": "6ef7b46592aa6d337f3e6dd37311555aa7af8d17e1a1c59b7ff3b2ece01e0732",
+      "expected_git_blob": "bd5f6756114d1c3e0f7741eb5027250f8b0d073f"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/candidate-code.json",
+      "representation": "exact-file-bytes",
+      "bytes": 2885,
+      "sha256": "bb31b7f87f9ab2f25ce21890a1043be539c3a87573afeb7dc83757ba70ed1439",
+      "expected_git_blob": "70a984714248b8dc441501fd12a5d347feb5a8cd"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/checks/acceptance-first-attempt.log",
+      "representation": "exact-file-bytes",
+      "bytes": 828,
+      "sha256": "41d1b2b07316e03bcfabada60b1ce375150331f44c0d599cf9e55d40fa9cad4e",
+      "expected_git_blob": "60d87f02bb0e14facc0a2ba538d4fb045c84e273"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/checks/acceptance-resume.log",
+      "representation": "exact-file-bytes",
+      "bytes": 51,
+      "sha256": "bd77bf2df26e9f9324435b8840f46b53c5547ec713210f1e5287c47cc1febfd6",
+      "expected_git_blob": "766bea529d52bcbe0fe60adcf2bee064b0ff7902"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/checks/commands.json",
+      "representation": "exact-file-bytes",
+      "bytes": 2115,
+      "sha256": "a64cbc3ad4148854c70113ad0998c03c0cbc81f7d9e91a444f96509bc3db1a9a",
+      "expected_git_blob": "82bde73459de1492a77a41e754d037cb03400612"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/checks/control-helper-fix.patch",
+      "representation": "exact-file-bytes",
+      "bytes": 453,
+      "sha256": "7330619496117990dba6b4e492c36d9552725f70b03c3bd5e729d28954b0dd82",
+      "expected_git_blob": "9cdd7e6db397523010f08b9410b444b0a3d0f131"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/checks/format.log",
+      "representation": "exact-file-bytes",
+      "bytes": 28,
+      "sha256": "e65898e2baba2c4f040a1dd77e92e960c83c8dd19b461f5ee55dcb165bf49ab8",
+      "expected_git_blob": "85280f7ef339f664a5de77ad6fbc8e24ca03eca0"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/checks/full-suite.log",
+      "representation": "exact-file-bytes",
+      "bytes": 176793,
+      "sha256": "306388a536f6f82641b6ba4c0931c132a969f53b176b01e5d86869522322f882",
+      "expected_git_blob": "68fecf55d8c1966145f4be1be33d158b5c824077"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/checks/hash-probe.log",
+      "representation": "exact-file-bytes",
+      "bytes": 70,
+      "sha256": "b0b1a71b5ea99b8d8a4d560afc170b340609708ad4de6bbe1ab1ec83fda8978a",
+      "expected_git_blob": "cd336aab444d540e848cb4e65e6561e59fe40750"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/checks/independence-retry.log",
+      "representation": "exact-file-bytes",
+      "bytes": 44,
+      "sha256": "c4a02856a18eeb48a20d1198de06f29d126a8ef331e84b8d0f0d0a636cd5d07c",
+      "expected_git_blob": "fe0c4c992ffcced19c4b23f9f1b086e826d63dcb"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/checks/mypy.log",
+      "representation": "exact-file-bytes",
+      "bytes": 45,
+      "sha256": "60c92654ddacb9d85dc1d458bf7bed88f6d0af396d0de4dd228d77c8fff3026e",
+      "expected_git_blob": "1040973b2015225909e26b0131d45845b5e6eba9"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/checks/post-fix-commands.json",
+      "representation": "exact-file-bytes",
+      "bytes": 1287,
+      "sha256": "d2ccbc72778a8e33851f92a96ecf4f9baddbff23f8a15226d7a66fe847ba2f61",
+      "expected_git_blob": "c7d24305f2f86ead5609513dfde1e87daf94f9b6"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/checks/post-fix-format.log",
+      "representation": "exact-file-bytes",
+      "bytes": 28,
+      "sha256": "e65898e2baba2c4f040a1dd77e92e960c83c8dd19b461f5ee55dcb165bf49ab8",
+      "expected_git_blob": "85280f7ef339f664a5de77ad6fbc8e24ca03eca0"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/checks/post-fix-mypy.log",
+      "representation": "exact-file-bytes",
+      "bytes": 45,
+      "sha256": "60c92654ddacb9d85dc1d458bf7bed88f6d0af396d0de4dd228d77c8fff3026e",
+      "expected_git_blob": "1040973b2015225909e26b0131d45845b5e6eba9"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/checks/post-fix-p2.log",
+      "representation": "exact-file-bytes",
+      "bytes": 113,
+      "sha256": "8c0b491d79622a632343e427db26e4ec9fb7fd361f865d47d65d6601bf7b4b63",
+      "expected_git_blob": "282f85c2bb657cba2ac64eaf1276a53f5a9e678a"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/checks/post-fix-ruff.log",
+      "representation": "exact-file-bytes",
+      "bytes": 19,
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+      "expected_git_blob": "1f5f344d054fae10f39140fb7199c99321d9190a"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/checks/ruff.log",
+      "representation": "exact-file-bytes",
+      "bytes": 19,
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+      "expected_git_blob": "1f5f344d054fae10f39140fb7199c99321d9190a"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/checks/semantic-targeted.log",
+      "representation": "exact-file-bytes",
+      "bytes": 126,
+      "sha256": "9c5b194e0cf6b52b22702d6378ef87f6c8a398dc601010a5319171be03b347fd",
+      "expected_git_blob": "8e0daf7a71a18f69c31cf10fa20e28e4303cbd5c"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/checks/targeted.json",
+      "representation": "exact-file-bytes",
+      "bytes": 670,
+      "sha256": "7f1c3c822dcac3aa7f72cb2bb01c559ca1b351b7e6ee47cbc9365aea5418b306",
+      "expected_git_blob": "e5461ec85259d120f1b701658e25f4e8c662118a"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/checks/targeted.log",
+      "representation": "exact-file-bytes",
+      "bytes": 196,
+      "sha256": "fd4eefb2351f6295a9d76e22744c0c6ad8351ad603d6efcc8e8ed81664d7fffc",
+      "expected_git_blob": "6abb5f871e0a0d2de21a799ff01b2eee4f1784dc"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/compatibility-bindings.json",
+      "representation": "exact-file-bytes",
+      "bytes": 8961,
+      "sha256": "01ca62c84ad967415c8fd4a180332c097cbd7bf79e9f2418293d4065b74f6cca",
+      "expected_git_blob": "3639a678927a8bfb74c3f9143eebd3841aeb7505"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/control-correction.json",
+      "representation": "exact-file-bytes",
+      "bytes": 5681,
+      "sha256": "e42ca8010d4eea20d35a87eaff545d8c38783a1384bbe18a04435e5c3aca2cb8",
+      "expected_git_blob": "7ed9275deda2e90fb0d8417c65581b3354a4aba3"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/guards.json",
+      "representation": "exact-file-bytes",
+      "bytes": 2958,
+      "sha256": "1d8ce3a34297d6b954b1271eafcfd3dd433d795784d7719ddd4433a0f62d8fa2",
+      "expected_git_blob": "f25123f60fd67bc01c7e2f4479d5d9354db36118"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/hash-probe.json",
+      "representation": "exact-file-bytes",
+      "bytes": 5227,
+      "sha256": "6a813108f43439ad66e3a5bab04b0dae6ca0471d09c6be4c91f352962cc65de8",
+      "expected_git_blob": "bef887ed680ef1bf8fd8dee4ce45306f8777d915"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/hash-probe.txt",
+      "representation": "exact-file-bytes",
+      "bytes": 4658,
+      "sha256": "35cf81e0ec9b3b0f2578c53e46f18e81321baf5d3620e16e05012df8a7186262",
+      "expected_git_blob": "42ae029865df549dea6a4751ecf10d859b82fc16"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/physical-reuse.json",
+      "representation": "exact-file-bytes",
+      "bytes": 51633,
+      "sha256": "959cf0404700f276492e75c26fa35ef60e45ac45c4b360f0a9cc401204dff4c1",
+      "expected_git_blob": "b22c7ccf8195ba7275f73d59215dce72c803bcd3"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering.json",
+      "representation": "exact-file-bytes",
+      "bytes": 1714,
+      "sha256": "4d14542bf742d91c3e7bc418da686ccf521acbdf605e4ebe2b7f39ad497ff3bb",
+      "expected_git_blob": "7069f894d30792864a42674e763e7db2b345a77d"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering/both/dekning.png",
+      "representation": "exact-file-bytes",
+      "bytes": 71206,
+      "sha256": "440a81a9310825e9460134087cfb98bcc244a3255d72070308a14a76fc65e4d9",
+      "expected_git_blob": "84d6132072c33623025e1a42f94978e22f4b6586"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering/both/dokumentinventar.png",
+      "representation": "exact-file-bytes",
+      "bytes": 98939,
+      "sha256": "09395970ef15c32d2bd87139899a17a838ef3c7fe41c57fcf037c613c1ba0857",
+      "expected_git_blob": "dd42488b348a7ecdbcded6d0f093438ed70d1faa"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering/both/foreslatt-anslag.png",
+      "representation": "exact-file-bytes",
+      "bytes": 37386,
+      "sha256": "137fece987a9090807e31c979d98e44941a74a1b3208a78d2b58ce23efd91b40",
+      "expected_git_blob": "07fe1b52c4144aa6e873d41d1a04e7a2ea2e48ce"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering/both/forlop.png",
+      "representation": "exact-file-bytes",
+      "bytes": 131143,
+      "sha256": "66fa79e33fd30744dcdc8854ef7ab36857964a9b24991a38bf87469e12390d27",
+      "expected_git_blob": "2cb1cc4efdb62c0753e56d8e57c63e3c80e9783e"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering/both/forskningskolonner.png",
+      "representation": "exact-file-bytes",
+      "bytes": 10714,
+      "sha256": "acce9f731f4ad12d791d845848c72a2ba4759158523596664a818a0fac3014b8",
+      "expected_git_blob": "d12bff378927bc7ff645007f08ccb6ba49e60223"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering/both/fullmakt429.png",
+      "representation": "exact-file-bytes",
+      "bytes": 35387,
+      "sha256": "74b50a7e96c3739cb72acc3091454e09189b445dc6cd1cc3adc0355484534468",
+      "expected_git_blob": "cf7ec09c11918a031d28f49879a86aa525e69e9c"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering/both/globale-hull.png",
+      "representation": "exact-file-bytes",
+      "bytes": 113515,
+      "sha256": "117c31a8022448d8eb04f198fdcdc647a7177bca835cd93d12cdeee25b9729f6",
+      "expected_git_blob": "500c6325e1f81fa3ab3394c70e18e94c8fed2129"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering/both/omtale.png",
+      "representation": "exact-file-bytes",
+      "bytes": 69824,
+      "sha256": "db2684284b98136f7432d6afcf3cfe152ff3aac1bd685c6422b23178b5b0b00b",
+      "expected_git_blob": "ad60e557542f7af1a6030a31ac6c5a1eff45b265"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering/both/render.json",
+      "representation": "exact-file-bytes",
+      "bytes": 5720,
+      "sha256": "dc076ac9b1473ba60b3c40d0e79793a63ddd691b4527a8b850a97ad3c42c16f4",
+      "expected_git_blob": "9db03faf09af6aa944203518a29e8ca281c37c74"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering/both/separat-status-og-rest.png",
+      "representation": "exact-file-bytes",
+      "bytes": 42695,
+      "sha256": "f1966fedce305447c02c8c7939cf193cf40ea4d0b278a4fff65d5c481f3d1b4a",
+      "expected_git_blob": "c5da45b0c9edff2bbaea06ee6c692091e61ebddc"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/dekning.png",
+      "representation": "exact-file-bytes",
+      "bytes": 70518,
+      "sha256": "32c8f0e6240dc0373a55fdcc582ec9b7d23829bcd1b56af0fe98c30b0bbed181",
+      "expected_git_blob": "a126cfb9def343214c002da89a95aa612c32bf0b"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/dokumentinventar.png",
+      "representation": "exact-file-bytes",
+      "bytes": 98939,
+      "sha256": "09395970ef15c32d2bd87139899a17a838ef3c7fe41c57fcf037c613c1ba0857",
+      "expected_git_blob": "dd42488b348a7ecdbcded6d0f093438ed70d1faa"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/forlop.png",
+      "representation": "exact-file-bytes",
+      "bytes": 15589,
+      "sha256": "82b3fbbcec3912313b8605445fe39989637b188a7ce9ccf7d309b2bd8afbb5ae",
+      "expected_git_blob": "31cb5858f3d66b29e76a60c335c8698665d00c98"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/forskningskolonner.png",
+      "representation": "exact-file-bytes",
+      "bytes": 8844,
+      "sha256": "aed05d0ded82891a3e8b9824836b8826ae6625c1bcb7cbc94de21acbbddb5f05",
+      "expected_git_blob": "7a0c9e0031af31628fac7201eaeeb13dcc9d7f13"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/globale-hull.png",
+      "representation": "exact-file-bytes",
+      "bytes": 113515,
+      "sha256": "117c31a8022448d8eb04f198fdcdc647a7177bca835cd93d12cdeee25b9729f6",
+      "expected_git_blob": "500c6325e1f81fa3ab3394c70e18e94c8fed2129"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/omtale.png",
+      "representation": "exact-file-bytes",
+      "bytes": 69824,
+      "sha256": "db2684284b98136f7432d6afcf3cfe152ff3aac1bd685c6422b23178b5b0b00b",
+      "expected_git_blob": "ad60e557542f7af1a6030a31ac6c5a1eff45b265"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/render.json",
+      "representation": "exact-file-bytes",
+      "bytes": 3443,
+      "sha256": "1c4ac7eebcf80218dac93948686c3bb27597f02252a48a260d92da618a553089",
+      "expected_git_blob": "c5021e12283f592f20ead299a3e429e764e2e37e"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/separat-status-og-rest.png",
+      "representation": "exact-file-bytes",
+      "bytes": 42695,
+      "sha256": "f1966fedce305447c02c8c7939cf193cf40ea4d0b278a4fff65d5c481f3d1b4a",
+      "expected_git_blob": "c5da45b0c9edff2bbaea06ee6c692091e61ebddc"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/reproduksjon.md",
+      "representation": "exact-file-bytes",
+      "bytes": 5607,
+      "sha256": "7ca3f5d78837c4fd9be147b4fafef83370b1588057d1013743cc39d6a41f1341",
+      "expected_git_blob": "f74c57e57b4b2aa6bee962dfc7e479c9c7923a9f"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/reuse-probe.txt",
+      "representation": "exact-file-bytes",
+      "bytes": 3539,
+      "sha256": "b3467603c485ee0e12eccab233e95aa445753905f1e80c46b97db65196f9beb8",
+      "expected_git_blob": "225349cdde85e09d268d9f9084f3fdd153cc7c5b"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/source-findings.md",
+      "representation": "exact-file-bytes",
+      "bytes": 3297,
+      "sha256": "ca7ba2cbec22853e205ae33e683fc6b16ab5a1021b02b5be98ba2d2c930a36ea",
+      "expected_git_blob": "9ffab87013a6d5a335192e0603c8551e8db57a8d"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/tdd-journal.md",
+      "representation": "exact-file-bytes",
+      "bytes": 2794,
+      "sha256": "a18ce0126ac01547f74b1377737b19bd086ab9a480fc63a40fe3a44399664f45",
+      "expected_git_blob": "90a9e736e20bc383b4d6cc03b202b88104ca3791"
+    },
+    {
+      "path": "docs/research/perioderegister-r2-56/verification.json",
+      "representation": "exact-file-bytes",
+      "bytes": 397904,
+      "sha256": "9c7c5b59f1c1884c70a093071174740385f984c1024b05265ef43d67c54d0d62",
+      "expected_git_blob": "bf47d0242ecb8a4ba53baa6d59d974500a22d19a"
+    },
+    {
+      "path": "innlesning/perioderegister_r2.py",
+      "representation": "utf-8-lf",
+      "bytes": 26935,
+      "sha256": "60880d4e6b45f0e33df41852c0822291e216bcc7f0d4e25c395d0051c5a2185d",
+      "expected_git_blob": "48408d0d5a097427af073e1728d2445f2cca9fbd"
+    },
+    {
+      "path": "innlesning/perioderegister_r2_catalog.py",
+      "representation": "utf-8-lf",
+      "bytes": 65434,
+      "sha256": "66011b291d23a25ffaf7eda03defcd3cb8a25f5c9887d63492c9852598dbe265",
+      "expected_git_blob": "ea46f6da84019c11409da133df0c791f8a6f2459"
+    },
+    {
+      "path": "innlesning/perioderegister_r2_model.py",
+      "representation": "utf-8-lf",
+      "bytes": 2665,
+      "sha256": "56022364772cf0a2fa440950dd5e55d316cf5a72bf21ada99f835171500ae379",
+      "expected_git_blob": "8fa53c24153b1d7d8a2272b8714f11c88e7d64d2"
+    },
+    {
+      "path": "ops/perioderegister_r2_bindings.py",
+      "representation": "utf-8-lf",
+      "bytes": 4427,
+      "sha256": "4d631901ca989b8bd71a903c3f5e0bf9ac7baec1cb139a962da9371ed06823b3",
+      "expected_git_blob": "b787b25fac9ab3fea843bc3a667fe47bc044b880"
+    },
+    {
+      "path": "ops/perioderegister_r2_guards.py",
+      "representation": "utf-8-lf",
+      "bytes": 5832,
+      "sha256": "e8f8d55555e3418410c8891d371981c288f8493d19ca20d16e1949b326e72b2d",
+      "expected_git_blob": "366f3849c21d334c3b42c6cfdec3f869bdc384c3"
+    },
+    {
+      "path": "ops/perioderegister_r2_proeve.py",
+      "representation": "utf-8-lf",
+      "bytes": 25580,
+      "sha256": "cf449ca38093fe42d40d1c93b3237bd31b3af39d291972b8978dbeff36978a69",
+      "expected_git_blob": "a87121d783f2a03b4082d6109d78791e672e7b3f"
+    },
+    {
+      "path": "ops/render_perioderegister_r2.mjs",
+      "representation": "utf-8-lf",
+      "bytes": 2616,
+      "sha256": "43da7ae6b95ff09588f52e849801a791489461e1de8a250e3910f31419f58e56",
+      "expected_git_blob": "ec450ebf3b2aadd6b00f722a9a1a865b83f3375a"
+    },
+    {
+      "path": "tests/test_perioderegister_r2.py",
+      "representation": "utf-8-lf",
+      "bytes": 12211,
+      "sha256": "8e4caf2d1bdbfd16a629c05fdcf19c84a688efd2dc04f600a5b7e89e01c90ae7",
+      "expected_git_blob": "cc242edad236addf9b095a2515f4bd4449dcfbc3"
+    }
+  ],
+  "file_count": 68,
+  "bytes": 2001348,
+  "validated_local_markdown_targets": 11
+}

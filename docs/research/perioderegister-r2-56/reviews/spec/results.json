@@ -1,0 +1,2754 @@
+{
+  "head": "c2a55be0dd64b3f7617dc20453cc8cfdd9b44167",
+  "base": "c041ad8ed3e2f8316896b6ff2364d3470024a992",
+  "checks": [
+    {
+      "name": "pinned-head"
+    },
+    {
+      "name": "unchanged-old-product-sources-tests-workflow",
+      "modified": [
+        ".gitattributes",
+        "AGENTS.md",
+        "docs/kildefunn.md"
+      ]
+    },
+    {
+      "name": "delivery-manifest",
+      "path": ".gitattributes"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": ".gitattributes"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "AGENTS.md"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "AGENTS.md"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "analyse/perioderegister_r2.py"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "analyse/perioderegister_r2.py"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "analyse/perioderegister_r2_excel.py"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "analyse/perioderegister_r2_excel.py"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/kildefunn.md"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/kildefunn.md"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/perioderegister-r2.md"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/perioderegister-r2.md"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/OVERLEVERING.md"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/OVERLEVERING.md"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/README.md"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/README.md"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/aksept.md"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/aksept.md"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/archive-recheck.json"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/archive-recheck.json"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/candidate-code-before-control-fix.json"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/candidate-code-before-control-fix.json"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/candidate-code.json"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/candidate-code.json"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/checks/acceptance-first-attempt.log"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/checks/acceptance-first-attempt.log"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/checks/acceptance-resume.log"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/checks/acceptance-resume.log"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/checks/commands.json"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/checks/commands.json"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/checks/control-helper-fix.patch"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/checks/control-helper-fix.patch"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/checks/format.log"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/checks/format.log"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/checks/full-suite.log"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/checks/full-suite.log"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/checks/hash-probe.log"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/checks/hash-probe.log"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/checks/independence-retry.log"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/checks/independence-retry.log"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/checks/mypy.log"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/checks/mypy.log"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/checks/post-fix-commands.json"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/checks/post-fix-commands.json"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/checks/post-fix-format.log"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/checks/post-fix-format.log"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/checks/post-fix-mypy.log"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/checks/post-fix-mypy.log"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/checks/post-fix-p2.log"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/checks/post-fix-p2.log"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/checks/post-fix-ruff.log"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/checks/post-fix-ruff.log"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/checks/ruff.log"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/checks/ruff.log"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/checks/semantic-targeted.log"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/checks/semantic-targeted.log"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/checks/targeted.json"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/checks/targeted.json"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/checks/targeted.log"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/checks/targeted.log"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/compatibility-bindings.json"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/compatibility-bindings.json"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/control-correction.json"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/control-correction.json"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/guards.json"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/guards.json"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/hash-probe.json"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/hash-probe.json"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/hash-probe.txt"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/hash-probe.txt"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/physical-reuse.json"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/physical-reuse.json"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering.json"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering.json"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/dekning.png"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/dekning.png"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/dokumentinventar.png"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/dokumentinventar.png"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/foreslatt-anslag.png"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/foreslatt-anslag.png"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/forlop.png"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/forlop.png"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/forskningskolonner.png"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/forskningskolonner.png"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/fullmakt429.png"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/fullmakt429.png"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/globale-hull.png"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/globale-hull.png"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/omtale.png"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/omtale.png"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/render.json"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/render.json"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/separat-status-og-rest.png"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering/both/separat-status-og-rest.png"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/dekning.png"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/dekning.png"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/dokumentinventar.png"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/dokumentinventar.png"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/forlop.png"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/forlop.png"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/forskningskolonner.png"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/forskningskolonner.png"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/globale-hull.png"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/globale-hull.png"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/omtale.png"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/omtale.png"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/render.json"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/render.json"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/separat-status-og-rest.png"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/rendering/empty/separat-status-og-rest.png"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/reproduksjon.md"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/reproduksjon.md"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/reuse-probe.txt"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/reuse-probe.txt"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/source-findings.md"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/source-findings.md"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/tdd-journal.md"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/tdd-journal.md"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "docs/research/perioderegister-r2-56/verification.json"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "docs/research/perioderegister-r2-56/verification.json"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "innlesning/perioderegister_r2.py"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "innlesning/perioderegister_r2.py"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "innlesning/perioderegister_r2_catalog.py"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "innlesning/perioderegister_r2_catalog.py"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "innlesning/perioderegister_r2_model.py"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "innlesning/perioderegister_r2_model.py"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "ops/perioderegister_r2_bindings.py"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "ops/perioderegister_r2_bindings.py"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "ops/perioderegister_r2_guards.py"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "ops/perioderegister_r2_guards.py"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "ops/perioderegister_r2_proeve.py"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "ops/perioderegister_r2_proeve.py"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "ops/render_perioderegister_r2.mjs"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "ops/render_perioderegister_r2.mjs"
+    },
+    {
+      "name": "delivery-manifest",
+      "path": "tests/test_perioderegister_r2.py"
+    },
+    {
+      "name": "candidate-blob-binding",
+      "path": "tests/test_perioderegister_r2.py"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/source-manifest.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/reused-sources.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/evidence.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/treatment-ledger.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/cross-reference-journal.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/source-comparison.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/inns90-all.html.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/inns90-all.html.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/inns90-all.html.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/inns91-all.html.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/inns91-all.html.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/inns91-all.html.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/inns91.html.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/inns91.html.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/inns91.html.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34-ch1.html.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34-ch1.html.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34-ch1.html.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34-ch2.html.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34-ch2.html.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34-ch2.html.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34-ch3.html.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34-ch3.html.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34-ch3.html.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34-ch4.html.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34-ch4.html.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34-ch4.html.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34-ch5.html.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34-ch5.html.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34-ch5.html.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34-root.html.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34-root.html.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34-root.html.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34.pdf.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34.pdf.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/prop34.pdf.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/prop36-ch11.html.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/prop36-ch11.html.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/prop36-ch11.html.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/prop36-ch7.html.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/prop36-ch7.html.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/prop36-ch7.html.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/ref171224-debatt6.html.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/ref171224-debatt6.html.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/ref171224-debatt6.html.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/ref171224-votering.html.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/ref171224-votering.html.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/ref171224-votering.html.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/sak101000-retry.xml.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/sak101000-retry.xml.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/sak101000-retry.xml.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/sak101000.xml.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/sak101000.xml.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/sak101000.xml.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/voteringer100289.xml.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/voteringer100289.xml.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/voteringer100289.xml.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/voteringer101000.xml.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/voteringer101000.xml.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/voteringer101000.xml.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/prop36-ch10.html.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/prop36-ch10.html.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/prop36-ch10.html.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/prop36-ch13.html.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/prop36-ch13.html.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/prop36-ch13.html.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/omtale-o1/source-manifest.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/omtale-o1/originals/prop16s-ch2.html"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/omtale-o1/originals/prop16s-ch4.html"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.meta.json"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/sak100289.xml.gz"
+    },
+    {
+      "name": "catalog-representation-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/sak100289.xml.gz"
+    },
+    {
+      "name": "catalog-byte-binding",
+      "path": "docs/research/k3-arsinventar-50/originals/sak100289.xml.meta.json"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "IDX624"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "IDX624"
+    },
+    {
+      "name": "evidence-text",
+      "key": "IDX624"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "D40034098"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "D40034098"
+    },
+    {
+      "name": "evidence-nested-locator",
+      "key": "D40034098"
+    },
+    {
+      "name": "evidence-text",
+      "key": "D40034098"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "D40034099"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "D40034099"
+    },
+    {
+      "name": "evidence-nested-locator",
+      "key": "D40034099"
+    },
+    {
+      "name": "evidence-text",
+      "key": "D40034099"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "O1-kap2-p24"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "O1-kap2-p24"
+    },
+    {
+      "name": "evidence-text",
+      "key": "O1-kap2-p24"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "O1-kap2-p25"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "O1-kap2-p25"
+    },
+    {
+      "name": "evidence-text",
+      "key": "O1-kap2-p25"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "FIN-kap5-p1"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "FIN-kap5-p1"
+    },
+    {
+      "name": "evidence-text",
+      "key": "FIN-kap5-p1"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "FIN-kap5-p2"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "FIN-kap5-p2"
+    },
+    {
+      "name": "evidence-text",
+      "key": "FIN-kap5-p2"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "FIN-kap5-p3"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "FIN-kap5-p3"
+    },
+    {
+      "name": "evidence-text",
+      "key": "FIN-kap5-p3"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "FIN-kap5-p4"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "FIN-kap5-p4"
+    },
+    {
+      "name": "evidence-text",
+      "key": "FIN-kap5-p4"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "FIN-kap5-p5"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "FIN-kap5-p5"
+    },
+    {
+      "name": "evidence-text",
+      "key": "FIN-kap5-p5"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "FIN-kap5-p6"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "FIN-kap5-p6"
+    },
+    {
+      "name": "evidence-text",
+      "key": "FIN-kap5-p6"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "prop36-ch10-tr1008"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "prop36-ch10-tr1008"
+    },
+    {
+      "name": "evidence-text",
+      "key": "prop36-ch10-tr1008"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "prop36-ch10-tr1009"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "prop36-ch10-tr1009"
+    },
+    {
+      "name": "evidence-text",
+      "key": "prop36-ch10-tr1009"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "prop36-ch10-tr1010"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "prop36-ch10-tr1010"
+    },
+    {
+      "name": "evidence-text",
+      "key": "prop36-ch10-tr1010"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "prop36-ch10-tr1011"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "prop36-ch10-tr1011"
+    },
+    {
+      "name": "evidence-text",
+      "key": "prop36-ch10-tr1011"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "prop36-ch10-tr1012"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "prop36-ch10-tr1012"
+    },
+    {
+      "name": "evidence-text",
+      "key": "prop36-ch10-tr1012"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "prop36-ch10-tr1013"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "prop36-ch10-tr1013"
+    },
+    {
+      "name": "evidence-text",
+      "key": "prop36-ch10-tr1013"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "prop36-ch10-tr1014"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "prop36-ch10-tr1014"
+    },
+    {
+      "name": "evidence-text",
+      "key": "prop36-ch10-tr1014"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "prop36-ch13-tr789"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "prop36-ch13-tr789"
+    },
+    {
+      "name": "evidence-text",
+      "key": "prop36-ch13-tr789"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "prop36-ch13-tr790"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "prop36-ch13-tr790"
+    },
+    {
+      "name": "evidence-text",
+      "key": "prop36-ch13-tr790"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "prop36-ch13-tr791"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "prop36-ch13-tr791"
+    },
+    {
+      "name": "evidence-text",
+      "key": "prop36-ch13-tr791"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "prop36-ch13-tr792"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "prop36-ch13-tr792"
+    },
+    {
+      "name": "evidence-text",
+      "key": "prop36-ch13-tr792"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "prop36-ch13-tr793"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "prop36-ch13-tr793"
+    },
+    {
+      "name": "evidence-text",
+      "key": "prop36-ch13-tr793"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "prop36-ch13-tr794"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "prop36-ch13-tr794"
+    },
+    {
+      "name": "evidence-text",
+      "key": "prop36-ch13-tr794"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R00"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R00"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R00"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R01"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R01"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R01"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R02"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R02"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R02"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R03"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R03"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R03"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R04"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R04"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R04"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R05"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R05"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R05"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R06"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R06"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R06"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R07"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R07"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R07"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R08"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R08"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R08"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R09"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R09"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R09"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R10"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R10"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R10"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R11"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R11"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R11"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R12"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R12"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R12"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R13"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R13"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R13"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R14"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R14"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R14"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R15"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R15"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R15"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R16"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R16"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R16"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R17"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R17"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R17"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R18"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R18"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R18"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R19"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R19"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R19"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R20"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R20"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R20"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R21"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R21"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R21"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R22"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R22"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R22"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R23"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R23"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R23"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R24"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R24"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R24"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R25"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R25"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R25"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R26"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R26"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R26"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R27"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R27"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R27"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R28"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R28"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R28"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R29"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R29"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R29"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R30"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R30"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R30"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R31"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R31"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R31"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R32"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R32"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R32"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R33"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R33"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R33"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R34"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R34"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R34"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R35"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R35"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R35"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R36"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R36"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R36"
+    },
+    {
+      "name": "evidence-table-cells",
+      "key": "R36"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R37"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R37"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R37"
+    },
+    {
+      "name": "evidence-table-cells",
+      "key": "R37"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "R38"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "R38"
+    },
+    {
+      "name": "evidence-text",
+      "key": "R38"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "S-inn91-m1"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "S-inn91-m1"
+    },
+    {
+      "name": "evidence-text",
+      "key": "S-inn91-m1"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "S-inn91-m2_1"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "S-inn91-m2_1"
+    },
+    {
+      "name": "evidence-text",
+      "key": "S-inn91-m2_1"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "S-inn91-m2_2"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "S-inn91-m2_2"
+    },
+    {
+      "name": "evidence-text",
+      "key": "S-inn91-m2_2"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "S-inn91-m2_3_1_1"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "S-inn91-m2_3_1_1"
+    },
+    {
+      "name": "evidence-text",
+      "key": "S-inn91-m2_3_1_1"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "S-inn91-m3"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "S-inn91-m3"
+    },
+    {
+      "name": "evidence-text",
+      "key": "S-inn91-m3"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "S-debatt6"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "S-debatt6"
+    },
+    {
+      "name": "evidence-text",
+      "key": "S-debatt6"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "S-D429"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "S-D429"
+    },
+    {
+      "name": "evidence-nested-locator",
+      "key": "S-D429"
+    },
+    {
+      "name": "evidence-text",
+      "key": "S-D429"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "S-vot23945"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "S-vot23945"
+    },
+    {
+      "name": "evidence-text",
+      "key": "S-vot23945"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "S-main-prop34-ch3.html"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "S-main-prop34-ch3.html"
+    },
+    {
+      "name": "evidence-text",
+      "key": "S-main-prop34-ch3.html"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "S-main-prop34-ch5.html"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "S-main-prop34-ch5.html"
+    },
+    {
+      "name": "evidence-text",
+      "key": "S-main-prop34-ch5.html"
+    },
+    {
+      "name": "evidence-representation",
+      "key": "S-main-prop36-ch11.html"
+    },
+    {
+      "name": "evidence-unique-locator",
+      "key": "S-main-prop36-ch11.html"
+    },
+    {
+      "name": "evidence-text",
+      "key": "S-main-prop36-ch11.html"
+    },
+    {
+      "name": "fresh-import-matches-builder-real-file"
+    },
+    {
+      "name": "authentic-old-P1-basis-unchanged"
+    },
+    {
+      "name": "literal-T1-capsule-unchanged"
+    },
+    {
+      "name": "research-cardinality"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "INDEX.case_id"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "INDEX.budget_year"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "INDEX.accounts"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "INDEX.post_link"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "INDEX.role"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "INDEX.status"
+    },
+    {
+      "name": "ledger-amounts-preserved",
+      "key": "INDEX"
+    },
+    {
+      "name": "ledger-evidence-preserved",
+      "key": "INDEX"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "PROP-I.case_id"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "PROP-I.budget_year"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "PROP-I.accounts"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "PROP-I.post_link"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "PROP-I.role"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "PROP-I.status"
+    },
+    {
+      "name": "ledger-amounts-preserved",
+      "key": "PROP-I"
+    },
+    {
+      "name": "ledger-evidence-preserved",
+      "key": "PROP-I"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "PROP-II.case_id"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "PROP-II.budget_year"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "PROP-II.accounts"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "PROP-II.post_link"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "PROP-II.role"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "PROP-II.status"
+    },
+    {
+      "name": "ledger-amounts-preserved",
+      "key": "PROP-II"
+    },
+    {
+      "name": "ledger-evidence-preserved",
+      "key": "PROP-II"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "KOMITE.case_id"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "KOMITE.budget_year"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "KOMITE.accounts"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "KOMITE.post_link"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "KOMITE.role"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "KOMITE.status"
+    },
+    {
+      "name": "ledger-amounts-preserved",
+      "key": "KOMITE"
+    },
+    {
+      "name": "ledger-evidence-preserved",
+      "key": "KOMITE"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "BEHANDLING.case_id"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "BEHANDLING.budget_year"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "BEHANDLING.accounts"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "BEHANDLING.post_link"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "BEHANDLING.role"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "BEHANDLING.status"
+    },
+    {
+      "name": "ledger-amounts-preserved",
+      "key": "BEHANDLING"
+    },
+    {
+      "name": "ledger-evidence-preserved",
+      "key": "BEHANDLING"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "D230.case_id"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "D230.budget_year"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "D230.accounts"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "D230.post_link"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "D230.role"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "D230.status"
+    },
+    {
+      "name": "ledger-amounts-preserved",
+      "key": "D230"
+    },
+    {
+      "name": "ledger-evidence-preserved",
+      "key": "D230"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "D231.case_id"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "D231.budget_year"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "D231.accounts"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "D231.post_link"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "D231.role"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "D231.status"
+    },
+    {
+      "name": "ledger-amounts-preserved",
+      "key": "D231"
+    },
+    {
+      "name": "ledger-evidence-preserved",
+      "key": "D231"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "FIN-METODE.case_id"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "FIN-METODE.budget_year"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "FIN-METODE.accounts"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "FIN-METODE.post_link"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "FIN-METODE.role"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "FIN-METODE.status"
+    },
+    {
+      "name": "ledger-amounts-preserved",
+      "key": "FIN-METODE"
+    },
+    {
+      "name": "ledger-evidence-preserved",
+      "key": "FIN-METODE"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "FIN-1429-1.case_id"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "FIN-1429-1.budget_year"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "FIN-1429-1.accounts"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "FIN-1429-1.post_link"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "FIN-1429-1.role"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "FIN-1429-1.status"
+    },
+    {
+      "name": "ledger-amounts-preserved",
+      "key": "FIN-1429-1"
+    },
+    {
+      "name": "ledger-evidence-preserved",
+      "key": "FIN-1429-1"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "O1-OMDISPONERING.case_id"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "O1-OMDISPONERING.budget_year"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "O1-OMDISPONERING.accounts"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "O1-OMDISPONERING.post_link"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "O1-OMDISPONERING.role"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "O1-OMDISPONERING.status"
+    },
+    {
+      "name": "ledger-amounts-preserved",
+      "key": "O1-OMDISPONERING"
+    },
+    {
+      "name": "ledger-evidence-preserved",
+      "key": "O1-OMDISPONERING"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "FULLMAKT429.case_id"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "FULLMAKT429.budget_year"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "FULLMAKT429.accounts"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "FULLMAKT429.post_link"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "FULLMAKT429.role"
+    },
+    {
+      "name": "ledger-field-preserved",
+      "key": "FULLMAKT429.status"
+    },
+    {
+      "name": "ledger-amounts-preserved",
+      "key": "FULLMAKT429"
+    },
+    {
+      "name": "ledger-evidence-preserved",
+      "key": "FULLMAKT429"
+    },
+    {
+      "name": "D230-other-account"
+    },
+    {
+      "name": "D231-unknown-application"
+    },
+    {
+      "name": "429-conditional-target-unknown-value"
+    },
+    {
+      "name": "global-history-plus-separate-101000"
+    },
+    {
+      "name": "partial-coverage-unapproved"
+    },
+    {
+      "name": "actual-written-closed-reread-pair",
+      "case": "post1"
+    },
+    {
+      "name": "field-event-count",
+      "case": "post1"
+    },
+    {
+      "name": "same-global-IDs-all-selections",
+      "case": "post1"
+    },
+    {
+      "name": "visible-global-gaps",
+      "case": "post1"
+    },
+    {
+      "name": "visible-additive-status",
+      "case": "post1"
+    },
+    {
+      "name": "visible-estimate-not-adopted",
+      "case": "post1"
+    },
+    {
+      "name": "visible-fullmakt-not-actual-money",
+      "case": "post1"
+    },
+    {
+      "name": "actual-written-closed-reread-pair",
+      "case": "post22"
+    },
+    {
+      "name": "field-event-count",
+      "case": "post22"
+    },
+    {
+      "name": "same-global-IDs-all-selections",
+      "case": "post22"
+    },
+    {
+      "name": "no-post22-salary-binding"
+    },
+    {
+      "name": "visible-global-gaps",
+      "case": "post22"
+    },
+    {
+      "name": "visible-additive-status",
+      "case": "post22"
+    },
+    {
+      "name": "actual-written-closed-reread-pair",
+      "case": "both"
+    },
+    {
+      "name": "field-event-count",
+      "case": "both"
+    },
+    {
+      "name": "same-global-IDs-all-selections",
+      "case": "both"
+    },
+    {
+      "name": "visible-global-gaps",
+      "case": "both"
+    },
+    {
+      "name": "visible-additive-status",
+      "case": "both"
+    },
+    {
+      "name": "visible-estimate-not-adopted",
+      "case": "both"
+    },
+    {
+      "name": "visible-fullmakt-not-actual-money",
+      "case": "both"
+    },
+    {
+      "name": "actual-written-closed-reread-pair",
+      "case": "wrong-year"
+    },
+    {
+      "name": "field-event-count",
+      "case": "wrong-year"
+    },
+    {
+      "name": "same-global-IDs-all-selections",
+      "case": "wrong-year"
+    },
+    {
+      "name": "no-wrong-year-or-empty-findings",
+      "case": "wrong-year"
+    },
+    {
+      "name": "visible-global-gaps",
+      "case": "wrong-year"
+    },
+    {
+      "name": "visible-additive-status",
+      "case": "wrong-year"
+    },
+    {
+      "name": "actual-written-closed-reread-pair",
+      "case": "empty"
+    },
+    {
+      "name": "field-event-count",
+      "case": "empty"
+    },
+    {
+      "name": "same-global-IDs-all-selections",
+      "case": "empty"
+    },
+    {
+      "name": "no-wrong-year-or-empty-findings",
+      "case": "empty"
+    },
+    {
+      "name": "visible-global-gaps",
+      "case": "empty"
+    },
+    {
+      "name": "visible-additive-status",
+      "case": "empty"
+    },
+    {
+      "name": "actual-written-closed-reread-pair",
+      "case": "prop34"
+    },
+    {
+      "name": "field-event-count",
+      "case": "prop34"
+    },
+    {
+      "name": "same-global-IDs-all-selections",
+      "case": "prop34"
+    },
+    {
+      "name": "visible-global-gaps",
+      "case": "prop34"
+    },
+    {
+      "name": "visible-additive-status",
+      "case": "prop34"
+    },
+    {
+      "name": "actual-written-closed-reread-pair",
+      "case": "inns91"
+    },
+    {
+      "name": "field-event-count",
+      "case": "inns91"
+    },
+    {
+      "name": "same-global-IDs-all-selections",
+      "case": "inns91"
+    },
+    {
+      "name": "visible-global-gaps",
+      "case": "inns91"
+    },
+    {
+      "name": "visible-additive-status",
+      "case": "inns91"
+    },
+    {
+      "name": "actual-written-closed-reread-pair",
+      "case": "vedtak230"
+    },
+    {
+      "name": "field-event-count",
+      "case": "vedtak230"
+    },
+    {
+      "name": "same-global-IDs-all-selections",
+      "case": "vedtak230"
+    },
+    {
+      "name": "visible-global-gaps",
+      "case": "vedtak230"
+    },
+    {
+      "name": "visible-additive-status",
+      "case": "vedtak230"
+    },
+    {
+      "name": "actual-written-closed-reread-pair",
+      "case": "vedtak231"
+    },
+    {
+      "name": "field-event-count",
+      "case": "vedtak231"
+    },
+    {
+      "name": "same-global-IDs-all-selections",
+      "case": "vedtak231"
+    },
+    {
+      "name": "visible-global-gaps",
+      "case": "vedtak231"
+    },
+    {
+      "name": "visible-additive-status",
+      "case": "vedtak231"
+    },
+    {
+      "name": "actual-written-closed-reread-pair",
+      "case": "vedtak429"
+    },
+    {
+      "name": "field-event-count",
+      "case": "vedtak429"
+    },
+    {
+      "name": "same-global-IDs-all-selections",
+      "case": "vedtak429"
+    },
+    {
+      "name": "visible-global-gaps",
+      "case": "vedtak429"
+    },
+    {
+      "name": "visible-additive-status",
+      "case": "vedtak429"
+    },
+    {
+      "name": "visible-fullmakt-not-actual-money",
+      "case": "vedtak429"
+    },
+    {
+      "name": "actual-written-closed-reread-pair",
+      "case": "prop36"
+    },
+    {
+      "name": "field-event-count",
+      "case": "prop36"
+    },
+    {
+      "name": "same-global-IDs-all-selections",
+      "case": "prop36"
+    },
+    {
+      "name": "visible-global-gaps",
+      "case": "prop36"
+    },
+    {
+      "name": "visible-additive-status",
+      "case": "prop36"
+    },
+    {
+      "name": "visible-estimate-not-adopted",
+      "case": "prop36"
+    },
+    {
+      "name": "account-document-return",
+      "key": "prop34"
+    },
+    {
+      "name": "document-account-return",
+      "key": "prop34"
+    },
+    {
+      "name": "account-document-return",
+      "key": "inns91"
+    },
+    {
+      "name": "document-account-return",
+      "key": "inns91"
+    },
+    {
+      "name": "account-document-return",
+      "key": "vedtak230"
+    },
+    {
+      "name": "document-account-return",
+      "key": "vedtak230"
+    },
+    {
+      "name": "account-document-return",
+      "key": "vedtak231"
+    },
+    {
+      "name": "document-account-return",
+      "key": "vedtak231"
+    },
+    {
+      "name": "account-document-return",
+      "key": "vedtak429"
+    },
+    {
+      "name": "document-account-return",
+      "key": "vedtak429"
+    },
+    {
+      "name": "account-document-return",
+      "key": "prop36"
+    },
+    {
+      "name": "document-account-return",
+      "key": "prop36"
+    },
+    {
+      "name": "offline-cli",
+      "result": {
+        "returncode": 0,
+        "stdout": "{\"basis_id\":\"7d8c5e89d4293e7145a21235282ba51bcb4aac257d1c413ea84ac002b1d6e18b\",\"issues\":[],\"monetary_events\":5,\"report_id\":\"737941e33408d3017717ae6dbe8793398691e146928deaa988bc50058026aed3\"}\n",
+        "network_sqlite_forbidden": true,
+        "missing_original_root": true,
+        "exported_raw_digests": 187,
+        "json_excel_equal": true
+      }
+    },
+    {
+      "name": "poisoned-container-before-semantics",
+      "attack": "wrong-source"
+    },
+    {
+      "name": "poisoned-container-before-semantics",
+      "attack": "role"
+    },
+    {
+      "name": "poisoned-container-before-semantics",
+      "attack": "year"
+    },
+    {
+      "name": "poisoned-container-before-semantics",
+      "attack": "hidden-status"
+    },
+    {
+      "name": "poisoned-container-before-semantics",
+      "attack": "old-identity"
+    },
+    {
+      "name": "poisoned-container-before-semantics",
+      "attack": "o1-exact"
+    },
+    {
+      "name": "candidate-remains-pinned"
+    }
+  ],
+  "pairs": [
+    {
+      "case": "post1",
+      "report_id": "2def5a9df9492c7ebffe2c50ea856c8a76710320e2d7498ac78aab40eede0c4e",
+      "counts": [
+        7,
+        3
+      ],
+      "json_sha256": "4fb927fb33847d7b1a39175e120723f1f74e0f32ae3f1425d9f4fd68f0e4d51c",
+      "xlsx_sha256": "f0f1b14e5e93c759983b5b35e476cf26ff078df9bd19b0ef7380b7e231fb5349"
+    },
+    {
+      "case": "post22",
+      "report_id": "b3d4561c577fb9b95b17e880f51402ef9a6146a699aeeb3e9751388ce0edae3a",
+      "counts": [
+        4,
+        2
+      ],
+      "json_sha256": "7ce8b761b009b483f99377f69d15954a79720ab4c6d91f9b13b79e38f5fa786d",
+      "xlsx_sha256": "de8b868e71d2c2ebdddb5e1190869880da5b38b70b60b82a0166d5fefcce0288"
+    },
+    {
+      "case": "both",
+      "report_id": "737941e33408d3017717ae6dbe8793398691e146928deaa988bc50058026aed3",
+      "counts": [
+        11,
+        5
+      ],
+      "json_sha256": "ae038fcda9d78c616b197c45f63a85ee2cd44f3845a38ae39a9370181e993ddf",
+      "xlsx_sha256": "befc76e9537dd98538b42dcae46d64025b6bf2cbf7276587da4511c0881f57de"
+    },
+    {
+      "case": "wrong-year",
+      "report_id": "ba999e3de472dd72feb0c6a1a5c5c2c8ad318b855d9af1480ea0c0de7965c2b4",
+      "counts": [
+        0,
+        0
+      ],
+      "json_sha256": "bc5662654c280d1cf856458c607d45b0e0eab3d11b38f78a944262b77f6c46ed",
+      "xlsx_sha256": "87a54c509ac01c239e9a750d16ccc116c5ab1ecc22aa7481c116b865d7e5caec"
+    },
+    {
+      "case": "empty",
+      "report_id": "8dab74723be2dc362741f170894ac2d757bdcc891c45da63ed89254c6e001889",
+      "counts": [
+        0,
+        0
+      ],
+      "json_sha256": "702a5fd2291c405fb4f6e44da95e9b0b693b06bbc37db3b964bb5d4bc9c8b6a6",
+      "xlsx_sha256": "92839a64dd233128575ed74c8f3eda8d4b2310cf70adf60d028d2027cac8e7f4"
+    },
+    {
+      "case": "prop34",
+      "report_id": "58ae741eacaef5d00eec382347657cdde231cdb6d85d03135bcf93a1c5630e6f",
+      "counts": [
+        0,
+        0
+      ],
+      "json_sha256": "392893e7b81e9f638dfd60298ab98f129f8fa268fa4391b85a0ec7eb402a7f1a",
+      "xlsx_sha256": "21c9911217e23f0b25e35ce55b2f91fb69068335571650b736b4a3b66ab1df96"
+    },
+    {
+      "case": "inns91",
+      "report_id": "ab314f6cded4b46a1c6ee30517885bf4e2a8e97e9094240dd12e414d191559ea",
+      "counts": [
+        0,
+        0
+      ],
+      "json_sha256": "7aeb92e0b34ac5795fe1e3f9a0e32ee2e263a5807c41420719994449e4bb8003",
+      "xlsx_sha256": "57cb1062652b25c4e846b0d2138ed0d566fb157d8261101dd85737e691ca9a67"
+    },
+    {
+      "case": "vedtak230",
+      "report_id": "279edd8cfc59d781f7bf7d417dac363f0c290d972965ddb0667966c3eba5c4e0",
+      "counts": [
+        0,
+        0
+      ],
+      "json_sha256": "bec23798847ca20738825f2f1eee3c28a83b3f6cf3a6c97553bb3ad0d2005143",
+      "xlsx_sha256": "9d19214c7110e066e36f6818d8069e75a381799848498e2298b4d8acf1f4f411"
+    },
+    {
+      "case": "vedtak231",
+      "report_id": "e55b2a8eff308af77cc84cd359f47b4ff0696a1e6b72113e490aa88e85b67fdc",
+      "counts": [
+        0,
+        0
+      ],
+      "json_sha256": "7052ca7f2f786d34d52a3eada382b4569d744796ee374ee01d7e376d0d35500a",
+      "xlsx_sha256": "d86121c8b960fe3641ac92f231c481e8f3cf598c522323763258ed35a5866fcf"
+    },
+    {
+      "case": "vedtak429",
+      "report_id": "0efc2ace6dff1ee4e3011a2bae3e1ea922a3967fd1f475b832da9493eae38dad",
+      "counts": [
+        0,
+        0
+      ],
+      "json_sha256": "beb7beb51b34ab1f3363d7ab689466d194248bfe1765945ea4904f905ad6c07a",
+      "xlsx_sha256": "948c57de818b0fc692c6790da988d6db65a9ebcf326ff48b3ce33a06af9a98f7"
+    },
+    {
+      "case": "prop36",
+      "report_id": "a74cbf2688590d5dc3d1bcf383af91f3ae551cbca729f4f9b5ba6478fa848794",
+      "counts": [
+        0,
+        0
+      ],
+      "json_sha256": "f9ef2723ee482bd7ccb57e41df68c3debf4b86139c8ca7cb72b612a57485f6e8",
+      "xlsx_sha256": "ded194e292e315a4d184983dc3453e3cadbc54d9bbfc5d42f830488686d1a49e"
+    }
+  ],
+  "negatives": [
+    {
+      "attack": "wrong-source",
+      "rehashed": true,
+      "container_passed": true,
+      "rejections": {
+        "json": "P2-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "excel": "P2-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "attack": "role",
+      "rehashed": true,
+      "container_passed": true,
+      "rejections": {
+        "json": "P2-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "excel": "P2-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "attack": "year",
+      "rehashed": true,
+      "container_passed": true,
+      "rejections": {
+        "json": "P2-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "excel": "P2-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "attack": "hidden-status",
+      "rehashed": true,
+      "container_passed": true,
+      "rejections": {
+        "json": "P2-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "excel": "P2-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "attack": "old-identity",
+      "rehashed": true,
+      "container_passed": true,
+      "rejections": {
+        "json": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "excel": "P1-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    },
+    {
+      "attack": "o1-exact",
+      "rehashed": true,
+      "container_passed": true,
+      "rejections": {
+        "json": "P2-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+        "excel": "P2-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er"
+      }
+    }
+  ],
+  "seconds": 830.718
+}

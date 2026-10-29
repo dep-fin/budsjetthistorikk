@@ -1,0 +1,54 @@
+{
+  "input": ".local/p2-acceptance-52ba019/both.xlsx",
+  "readOnly": true,
+  "nativeExcel": false,
+  "views": [
+    {
+      "sheetName": "Forløp",
+      "range": "A1:K12",
+      "file": ".local\\p2-render-both\\forlop.png"
+    },
+    {
+      "sheetName": "Forløp",
+      "range": "S1:W4",
+      "file": ".local\\p2-render-both\\forskningskolonner.png"
+    },
+    {
+      "sheetName": "Dekning og avvik",
+      "range": "A1:B16",
+      "file": ".local\\p2-render-both\\dekning.png"
+    },
+    {
+      "sheetName": "Dekning og avvik",
+      "range": "A17:B23",
+      "file": ".local\\p2-render-both\\globale-hull.png"
+    },
+    {
+      "sheetName": "Dokumenter",
+      "range": "A1:L6",
+      "file": ".local\\p2-render-both\\dokumentinventar.png"
+    },
+    {
+      "sheetName": "Omtale",
+      "range": "B1:I5",
+      "file": ".local\\p2-render-both\\omtale.png"
+    },
+    {
+      "sheetName": "Forløp",
+      "range": "S33:Z33",
+      "file": ".local\\p2-render-both\\foreslatt-anslag.png"
+    },
+    {
+      "sheetName": "Forløp",
+      "range": "S35:Z35",
+      "file": ".local\\p2-render-both\\fullmakt429.png"
+    },
+    {
+      "sheetName": "Dekning og avvik",
+      "range": "A151:B153",
+      "file": ".local\\p2-render-both\\separat-status-og-rest.png"
+    }
+  ],
+  "sheets": "{\"kind\":\"sheet\",\"id\":\"ws/9byda5\",\"name\":\"Forløp\",\"index\":0,\"range\":\"A1:Z35\",\"address\":\"A1:Z35\"}\n{\"kind\":\"sheet\",\"id\":\"ws/ju243m\",\"name\":\"Dokumenter\",\"index\":1,\"range\":\"A1:Q2273\",\"address\":\"A1:Q2273\"}\n{\"kind\":\"sheet\",\"id\":\"ws/z7g6zq\",\"name\":\"Omtale\",\"index\":2,\"range\":\"A1:N260\",\"address\":\"A1:N260\"}\n{\"kind\":\"sheet\",\"id\":\"ws/ip64bn\",\"name\":\"Sammenligninger\",\"index\":3,\"range\":\"A1:N15\",\"address\":\"A1:N15\"}\n{\"kind\":\"sheet\",\"id\":\"ws/fa35x8\",\"name\":\"Dekning og avvik\",\"index\":4,\"range\":\"A1:B163\",\"address\":\"A1:B163\"}\n{\"kind\":\"sheet\",\"id\":\"ws/4mca8d\",\"name\":\"Kontroll\",\"index\":5,\"range\":\"A1:K718\",\"address\":\"A1:K718\"}\n{\"kind\":\"sheet\",\"id\":\"ws/zvkx1k\",\"name\":\"Offlinegrunnlag\",\"index\":6,\"range\":\"A1:B896\",\"address\":\"A1:B896\"}",
+  "researchInspection": "{\"kind\":\"table\",\"sheet\":\"Forløp\",\"address\":\"S1:Z30\",\"rows\":30,\"cols\":8,\"values\":[[\"R2-funn\",\"Forskningsverdi\",\"Verdiens rolle/enhet\",\"Betinget konto\",\"Overføringsmål\",\"Kildebelegg-ID-er\",\"Representasjon SHA-256\",\"Bevisgrense/råverdi\"],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[\"PROP-I\",null,\"regjeringsforslag\",\"[]\",null,\"[\\\"9840c2f14a9b33fb0ddf036004ca455503d879b50dd407b1ce5be8d02e65b86c\\\",\\\"b06fb5a59cc92d53f6455d435df497265bd619bc7bc9e3f55c2e64743fc340d7\\\",\\\"497271f1367c29dce33d6e8367909b1cda4ff1bbd412f28c4c8f7806e1868471\\\",\\\"88984cbdf2ce9efc31a8098afd8ab3b6f7c4dc9734be3da55df6aa228657aec2\\\"]\",\"7a4c4a5a2182e89d7cbda39f398b32c0ef835fa43fb3de578ab194e53a45f071\",\"null\"],[\"PROP-II\",null,\"regjeringsforslag_generell_lønnsregel\",\"[]\",null,\"[\\\"50394d2e6a793577a25c27b1cca6669532eaf187824f3c305b5f9e46c5806bd7\\\",\\\"5dc33cbdf141afd93713851f3ca5c2ba77a8b2f4adf8f79f420b16d0b6534aed\\\",\\\"3846d883753496aa354691ae7f17bc80d6abf85c14001c5391f3877092a4c21b\\\"]\",\"69eecaca528e82dea7967656a41ac56880fe906036e20988428ac8aff88810b5\",\"null\"],[\"KOMITE\",null,\"samlet_tilråding\",\"[]\",null,\"[\\\"10673f4e83c003ed59ba7a3b79cb8e98b233aa2fd4e968a3f1e5a85ac2a4c779\\\",\\\"c80f0b3cd216ff04ab1764dab528ce92639507e002029243bd85e996aad129d0\\\",\\\"03af7ae3fb3daaac3bd314b4fd231983f15391a45d20f1c81866d03bb776f9d8\\\",\\\"843605e4559b7690ac465e9cce749f1d603f4a21e58a27286f05f73e66bf792a\\\"]\",\"745a24367b3b93979f19b8ef2396cdfed5edf1d80ef887f648b459728e57e8ea\",\"null\"],[\"BEHANDLING\",null,\"debatt_og_votering\",\"[]\",null,\"[\\\"41c1d6f3b7e4dd7bdeae47651a7fee30e30271657fb9ecfdf270fe8e2eb3ca6d\\\",\\\"d01aa15688538b2ab7e488af98e5b8d1d591d18cd6940931f5a27b3c8b1b8857\\\",\\\"514d35131948732c7e07b5eaf67eafb23f74baac5a4866d0e0e06b0d0071caee\\\",\\\"e39453431ad7bde3e18dc658c42c772307e3d72710c90e60b215d1e9d7b1366a\\\",\\\"0589376dfce8008d1d5ef05452617e9890a0ea473ec6ea7cc04e19c2d31fb7e1\\\",\\\"d32a120bfec701027957b63b9b245819b18f1b5e694a495ea0d52ab7312b62dc\\\"]\",\"fad2f687715ac2c338d0f92445ffca0486c391f1b42d833a626f318a03f6ddc1\",\"null\"],[\"D230\",14200000,\"vedtatt endring, annen konto 1560/71, kroner; kildekontekst\",\"[]\",null,\"[\\\"24c6a60f1dd49b576d8643b50def2de2d7278731471e887ae1506ce7ed66c7da\\\",\\\"0589376dfce8008d1d5ef05452617e9890a0ea473ec6ea7cc04e19c2d31fb7e1\\\"]\",\"ff5013b2a37220af3254a69b574800f99a3d1fd44f1c6053f07d4b0e846c973c\",\"{\\\"after\\\":247300000,\\\"before\\\":233100000,\\\"currency\\\":\\\"NOK\\\",\\\"delta\\\":14200000}\"]]}"
+}

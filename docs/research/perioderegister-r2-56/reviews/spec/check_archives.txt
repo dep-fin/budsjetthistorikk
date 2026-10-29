@@ -1,0 +1,46 @@
+"""Rehash actual builder artifacts and repeat official-decision independence."""
+import gzip
+import hashlib
+import json
+import subprocess
+from pathlib import Path
+from analyse.perioderegister_r2 import read_json
+from ops.perioderegister_r2_proeve import independent_368
+from innlesning.perioderegister_r2_catalog import CATALOG
+
+root=Path.cwd()
+out=root/'.local/review-spec-56'
+pack=root/'docs/research/perioderegister-r2-56'
+arch=root/'.local/p2-acceptance-52ba019'
+data=json.loads((pack/'verification.json').read_text('utf8'))
+counts={'files':0,'bytes':0,'code_files':0,'transport_rows':0}
+for row in data['files']:
+    raw=(arch/row['file']).read_bytes()
+    assert len(raw)==row['bytes'] and hashlib.sha256(raw).hexdigest()==row['sha256'],row
+    counts['files']+=1
+    counts['bytes']+=len(raw)
+for row in json.loads((pack/'candidate-code.json').read_text('utf8'))['files']:
+    raw=(root/row['path']).read_bytes()
+    assert len(raw)==row['bytes'] and hashlib.sha256(raw).hexdigest()==row['sha256'],row
+    counts['code_files']+=1
+manifest=json.loads((root/'docs/research/r2-101000-54/source-manifest.json').read_text('utf8'))
+for row in manifest['sources']:
+    name='docs/research/r2-101000-54/'+row['archive']
+    assert json.loads(CATALOG[name][4])==row
+    raw=gzip.decompress((root/name).read_bytes())
+    meta=json.loads((root/'docs/research/r2-101000-54'/row['metadata']).read_text('utf8'))
+    assert meta['body_sha256']==row['sha256']==hashlib.sha256(raw).hexdigest()
+    assert meta['body_bytes']==row['bytes']==len(raw)
+    counts['transport_rows']+=1
+counts['archive_negatives']=len(data['negative_pairs'])
+assert counts['archive_negatives']==26
+assert all(r['container_passed_exact_capsule'] and set(r['rejections'])=={'json','xlsx'} for r in data['negative_pairs'])
+counts['builder_pair_count']=len(data['selections'])
+counts['full_suite_log_last_line']=(pack/'checks/full-suite.log').read_text('utf8').strip().splitlines()[-1]
+assert '1224 passed, 2 skipped' in counts['full_suite_log_last_line']
+runout=out/'fresh-368'
+runout.mkdir()
+counts['fresh_368']=independent_368(runout,read_json(arch/'both.json'))
+(out/'archive-and-independence-results.json').write_text(json.dumps(counts,ensure_ascii=False,indent=2),'utf8')
+print(json.dumps({k:v for k,v in counts.items() if k!='fresh_368'}))
+print('Four fresh ordinary 368 databases passed.')

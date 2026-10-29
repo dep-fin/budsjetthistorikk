@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\p2-r2-adopsjon\ops\perioderegister_r2_proeve.py", line 647, in <module>
+    main()
+  File "C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\p2-r2-adopsjon\ops\perioderegister_r2_proeve.py", line 589, in main
+    result["independence"] = independent_368(output, both)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\p2-r2-adopsjon\ops\perioderegister_r2_proeve.py", line 478, in independent_368
+    o.amount_meaning: o.normalized_kr
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'AmountObservation' object has no attribute 'amount_meaning'

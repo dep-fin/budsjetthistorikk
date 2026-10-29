@@ -1,0 +1,37 @@
+{
+  "base": "c041ad8ed3e2f8316896b6ff2364d3470024a992",
+  "head": "c2a55be0dd64b3f7617dc20453cc8cfdd9b44167",
+  "changed_files": 69,
+  "manifest_bindings_verified": 68,
+  "catalog_files_exact_vs_disk_head_base": 69,
+  "changed_json_without_duplicate_keys_or_nonfinite_numbers": 16,
+  "protected_previous_files_unchanged": 527,
+  "code_files": 10,
+  "post_full_suite_changes": [
+    "ops/perioderegister_r2_proeve.py"
+  ],
+  "verification_top_level": [
+    "selections",
+    "negative_pairs",
+    "offline",
+    "independence",
+    "control_correction",
+    "compatibility",
+    "source_audit",
+    "display_negatives",
+    "python",
+    "lxml",
+    "libxml2_runtime",
+    "basis_id",
+    "report_bytes",
+    "new_sources",
+    "inventory_per_document",
+    "seconds_this_invocation",
+    "limitations",
+    "files"
+  ],
+  "limitations": [
+    "Existing full-suite and broad acceptance logs read but not rerun in this hash inspection.",
+    "No native Excel or Linux CI execution."
+  ]
+}

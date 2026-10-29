@@ -1,0 +1,196 @@
+{
+  "failure": "Acceptance helper used nonexistent AmountObservation.amount_meaning/normalized_kr attributes after the first ordinary 368 export had passed. Actual public fields are meaning/amount_kr.",
+  "affected_scope": "Control helper only; product import, selection, readers, writers and all previous 46 pairs/26 negatives/offline passed.",
+  "original_helper_sha256": "3b3f179a7aac5670cbc69bb3e2fba12b9ecbe7ffa30512e86236ca28930ae575",
+  "failed_root": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\p2-acceptance-52ba019\\independence-missing",
+  "preserve_failed_artifacts": true,
+  "next": "Completed: four fresh ordinary databases passed; final acceptance resume and post-correction checks recorded separately.",
+  "diagnosis": {
+    "public_fields": [
+      "meaning",
+      "amount_kr"
+    ],
+    "initial_observations": 222,
+    "initial_events": 74,
+    "actual_700_1_trio": {
+      "endring": 6324000,
+      "for_belop": 304351000,
+      "etter_belop": 310675000
+    },
+    "scope": "Initial first database only; excluded from the four fresh successful acceptance runs."
+  },
+  "corrected_helper_sha256": "cf449ca38093fe42d40d1c93b3237bd31b3af39d291972b8978dbeff36978a69",
+  "changed_ast_functions": [
+    "independent_368"
+  ],
+  "all_other_ast_nodes_unchanged": true,
+  "full_suite_completed_before_helper_fix": {
+    "passed": 1224,
+    "skipped": 2,
+    "seconds": 2924.14,
+    "all_ten_code_bindings_unchanged_during_suite": true
+  },
+  "product_and_test_code_changed": false,
+  "fresh_retry": {
+    "record": "docs/research/perioderegister-r2-56/control-correction.json",
+    "fresh_retry_root": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\p2-acceptance-52ba019\\retry-after-control-fix",
+    "initial_failed_attempt_excluded": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\p2-acceptance-52ba019\\independence-missing",
+    "fresh_databases": 4,
+    "seconds": 21.156
+  },
+  "fresh_results": [
+    {
+      "condition": "missing",
+      "observations": 222,
+      "events": 74,
+      "schema": 5,
+      "b5_register_unchanged": "ba1fe432ca468f6ac3ef7e865248ab3e23d7944157d5d4880a74403bf4e2e447",
+      "old_round_values": [
+        "uavklart"
+      ],
+      "actual_saved_700_1_trio": [
+        [
+          "endring",
+          6324000
+        ],
+        [
+          "etter_belop",
+          310675000
+        ],
+        [
+          "for_belop",
+          304351000
+        ]
+      ]
+    },
+    {
+      "condition": "failed",
+      "observations": 222,
+      "events": 74,
+      "schema": 5,
+      "b5_register_unchanged": "ba1fe432ca468f6ac3ef7e865248ab3e23d7944157d5d4880a74403bf4e2e447",
+      "old_round_values": [
+        "uavklart"
+      ],
+      "actual_saved_700_1_trio": [
+        [
+          "endring",
+          6324000
+        ],
+        [
+          "etter_belop",
+          310675000
+        ],
+        [
+          "for_belop",
+          304351000
+        ]
+      ]
+    },
+    {
+      "condition": "corrupt",
+      "observations": 222,
+      "events": 74,
+      "schema": 5,
+      "b5_register_unchanged": "ba1fe432ca468f6ac3ef7e865248ab3e23d7944157d5d4880a74403bf4e2e447",
+      "old_round_values": [
+        "uavklart"
+      ],
+      "actual_saved_700_1_trio": [
+        [
+          "endring",
+          6324000
+        ],
+        [
+          "etter_belop",
+          310675000
+        ],
+        [
+          "for_belop",
+          304351000
+        ]
+      ]
+    },
+    {
+      "condition": "contradictory",
+      "observations": 222,
+      "events": 74,
+      "schema": 5,
+      "b5_register_unchanged": "ba1fe432ca468f6ac3ef7e865248ab3e23d7944157d5d4880a74403bf4e2e447",
+      "old_round_values": [
+        "uavklart"
+      ],
+      "actual_saved_700_1_trio": [
+        [
+          "endring",
+          6324000
+        ],
+        [
+          "etter_belop",
+          310675000
+        ],
+        [
+          "for_belop",
+          304351000
+        ]
+      ]
+    }
+  ],
+  "post_fix_checks": {
+    "commands": [
+      {
+        "name": "post-fix-ruff",
+        "command": [
+          "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-m",
+          "ruff",
+          "check",
+          "."
+        ],
+        "exit_code": 0,
+        "seconds": 0.203
+      },
+      {
+        "name": "post-fix-format",
+        "command": [
+          "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-m",
+          "ruff",
+          "format",
+          "--check",
+          "."
+        ],
+        "exit_code": 0,
+        "seconds": 0.125
+      },
+      {
+        "name": "post-fix-mypy",
+        "command": [
+          "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-m",
+          "mypy"
+        ],
+        "exit_code": 0,
+        "seconds": 5.5
+      },
+      {
+        "name": "post-fix-p2",
+        "command": [
+          "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-m",
+          "pytest",
+          "tests/test_perioderegister_r2.py",
+          "-q",
+          "--basetemp=.local/p2-after-control-fix-tmp"
+        ],
+        "exit_code": 0,
+        "seconds": 178.547
+      }
+    ]
+  },
+  "all_post_fix_p2_tests": {
+    "passed": 25,
+    "seconds": 177.7,
+    "failed": 0
+  }
+}

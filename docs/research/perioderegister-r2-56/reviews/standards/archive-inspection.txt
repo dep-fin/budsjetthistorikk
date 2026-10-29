@@ -1,0 +1,20 @@
+import hashlib,json
+from pathlib import Path
+root=Path('.local/p2-acceptance-52ba019').resolve()
+v=json.loads(Path('docs/research/perioderegister-r2-56/verification.json').read_bytes())
+count=total=0
+for row in v['files']:
+    path=(root/row['file']).resolve()
+    assert path.is_relative_to(root)
+    digest=hashlib.sha256()
+    length=0
+    with path.open('rb') as stream:
+        while chunk:=stream.read(1024*1024):
+            digest.update(chunk)
+            length+=len(chunk)
+    assert (length,digest.hexdigest())==(row['bytes'],row['sha256']),row['file']
+    count+=1
+    total+=length
+result={'files':count,'bytes':total,'mismatches':0,'selections':len(v['selections']),'negative_pairs':len(v['negative_pairs']),'ordinary_independent_databases':len(v['independence']),'compatibility_records':len(v['compatibility']),'reexecuted_acceptance':False}
+Path('.local/review-standards-56/archive-inspection.json').write_text(json.dumps(result,indent=2),encoding='utf8')
+print(json.dumps(result))

@@ -1,0 +1,37 @@
+{
+  "tool": "@oai/artifact-tool imported saved XLSX; read-only",
+  "native_excel": false,
+  "records": [
+    {
+      "selection": "both",
+      "input": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\p2-acceptance-52ba019\\both.xlsx",
+      "input_sha256": "6e4db9d5b3bc409ed83219c7053e4924db33fea0da95d65c248067860499c3bd",
+      "journal": "docs/research/perioderegister-r2-56/rendering/both/render.json",
+      "views": 9
+    },
+    {
+      "selection": "empty",
+      "input": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p2-r2-adopsjon\\.local\\p2-acceptance-52ba019\\empty.xlsx",
+      "input_sha256": "e75b7af4e4054618d75cc48119eaba3b94bc92eefcd1d0d7c28c0fb25e7d81a3",
+      "journal": "docs/research/perioderegister-r2-56/rendering/empty/render.json",
+      "views": 7
+    }
+  ],
+  "visually_inspected": [
+    "both/foreslatt-anslag.png",
+    "both/fullmakt429.png",
+    "both/separat-status-og-rest.png",
+    "both/globale-hull.png",
+    "empty/dekning.png"
+  ],
+  "observations": [
+    "Forskningsverdi 2796000 står med foreslått anslagsrolle, separat fra vedtakskolonnene.",
+    "429 har tom verdi, betinget 1429/1 og mål 2025.",
+    "Historisk 67/25/7 og åpen R1-R7 står samtidig med separat ny status; tomt valg har 0/0."
+  ],
+  "limits": [
+    "Ingen native Excel- eller PDF-visningskontroll.",
+    "Rendereren bruker egen tall-lokalisering og viser komma i tusengrupper; lagret talltype/number_format kontrolleres separat av openpyxl.",
+    "Faste radhøyder viser bare deler av lange tekniske ID-/råtekstfelt i bildene; full celleverdi og tapsfri deling kontrolleres ved streng gjenlesing."
+  ]
+}

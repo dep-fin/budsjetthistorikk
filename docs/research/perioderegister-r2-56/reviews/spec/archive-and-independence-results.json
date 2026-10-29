@@ -1,0 +1,151 @@
+{
+  "files": 401,
+  "bytes": 3084248448,
+  "code_files": 10,
+  "transport_rows": 22,
+  "archive_negatives": 26,
+  "builder_pair_count": 46,
+  "full_suite_log_last_line": "================ 1224 passed, 2 skipped in 2924.14s (0:48:44) =================",
+  "fresh_368": [
+    {
+      "condition": "missing",
+      "ordinary": {
+        "revision": "19c71d22-9e33-4a60-bfc2-bfe4e65c2653",
+        "extraction_id": "904208b0789b1f4acb44ae25b85f0266106079db41ecfa03503042b2343d3b6e",
+        "observations": 222,
+        "events": 74,
+        "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+        "actual_saved_700_1_trio": [
+          [
+            "endring",
+            6324000
+          ],
+          [
+            "etter_belop",
+            310675000
+          ],
+          [
+            "for_belop",
+            304351000
+          ]
+        ],
+        "raw_preserved": true
+      },
+      "schema": 5,
+      "b5_register_unchanged": "ba1fe432ca468f6ac3ef7e865248ab3e23d7944157d5d4880a74403bf4e2e447",
+      "old_round_values": [
+        "uavklart"
+      ],
+      "700/1": {
+        "endring": 6324000,
+        "for_belop": 304351000,
+        "etter_belop": 310675000
+      }
+    },
+    {
+      "condition": "failed",
+      "ordinary": {
+        "revision": "ec44b149-e383-4be3-a3d2-6d8474da12a1",
+        "extraction_id": "b9cd314521f38b2fd782ae3b4fb08725178d1c9a3540eda30cf8a6c8534be552",
+        "observations": 222,
+        "events": 74,
+        "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+        "actual_saved_700_1_trio": [
+          [
+            "endring",
+            6324000
+          ],
+          [
+            "etter_belop",
+            310675000
+          ],
+          [
+            "for_belop",
+            304351000
+          ]
+        ],
+        "raw_preserved": true
+      },
+      "schema": 5,
+      "b5_register_unchanged": "ba1fe432ca468f6ac3ef7e865248ab3e23d7944157d5d4880a74403bf4e2e447",
+      "old_round_values": [
+        "uavklart"
+      ],
+      "700/1": {
+        "endring": 6324000,
+        "for_belop": 304351000,
+        "etter_belop": 310675000
+      }
+    },
+    {
+      "condition": "corrupt",
+      "ordinary": {
+        "revision": "dd7115ac-cc54-48a9-9c72-25c045e1220c",
+        "extraction_id": "d2c3349849a4665dc50aee5c299f9dfd140008953d4827cf1dc4ba6004d08d0f",
+        "observations": 222,
+        "events": 74,
+        "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+        "actual_saved_700_1_trio": [
+          [
+            "endring",
+            6324000
+          ],
+          [
+            "etter_belop",
+            310675000
+          ],
+          [
+            "for_belop",
+            304351000
+          ]
+        ],
+        "raw_preserved": true
+      },
+      "schema": 5,
+      "b5_register_unchanged": "ba1fe432ca468f6ac3ef7e865248ab3e23d7944157d5d4880a74403bf4e2e447",
+      "old_round_values": [
+        "uavklart"
+      ],
+      "700/1": {
+        "endring": 6324000,
+        "for_belop": 304351000,
+        "etter_belop": 310675000
+      }
+    },
+    {
+      "condition": "contradictory",
+      "ordinary": {
+        "revision": "def1e320-502b-4e1c-80b5-dae468f6be4e",
+        "extraction_id": "4168085f14f6c6cf2c422e466dc1698d271cd1bc3b4a4cbfc85fb118b9444984",
+        "observations": 222,
+        "events": 74,
+        "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+        "actual_saved_700_1_trio": [
+          [
+            "endring",
+            6324000
+          ],
+          [
+            "etter_belop",
+            310675000
+          ],
+          [
+            "for_belop",
+            304351000
+          ]
+        ],
+        "raw_preserved": true
+      },
+      "schema": 5,
+      "b5_register_unchanged": "ba1fe432ca468f6ac3ef7e865248ab3e23d7944157d5d4880a74403bf4e2e447",
+      "old_round_values": [
+        "uavklart"
+      ],
+      "700/1": {
+        "endring": 6324000,
+        "for_belop": 304351000,
+        "etter_belop": 310675000
+      }
+    }
+  ]
+}

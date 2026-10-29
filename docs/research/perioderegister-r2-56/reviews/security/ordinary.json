@@ -1,0 +1,126 @@
+[
+  {
+    "condition": "missing",
+    "source_failure": "visible missing source issues",
+    "schema": 5,
+    "b5_preserved": "ba1fe432ca468f6ac3ef7e865248ab3e23d7944157d5d4880a74403bf4e2e447",
+    "observations": 222,
+    "events": 74,
+    "seconds": 7.812,
+    "ordinary": {
+      "revision": "524cb5d9-4dd2-4d40-95d5-e56533656998",
+      "extraction_id": "93e09ae386ce1d0d4b31534b2d84edf11ec3e39483de47c3226cbe4b06d60855",
+      "observations": 222,
+      "events": 74,
+      "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+      "actual_saved_700_1_trio": [
+        [
+          "endring",
+          6324000
+        ],
+        [
+          "etter_belop",
+          310675000
+        ],
+        [
+          "for_belop",
+          304351000
+        ]
+      ],
+      "raw_preserved": true
+    }
+  },
+  {
+    "condition": "failed",
+    "source_failure": "Expecting value: line 1 column 1 (char 0)",
+    "schema": 5,
+    "b5_preserved": "ba1fe432ca468f6ac3ef7e865248ab3e23d7944157d5d4880a74403bf4e2e447",
+    "observations": 222,
+    "events": 74,
+    "seconds": 7.0,
+    "ordinary": {
+      "revision": "d51a14b0-bf2a-4098-a3b6-25cfa14952c5",
+      "extraction_id": "0b8f08d0db145d9f101790562a9fe6a3a03ee243c5052928afbbb252805d154b",
+      "observations": 222,
+      "events": 74,
+      "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+      "actual_saved_700_1_trio": [
+        [
+          "endring",
+          6324000
+        ],
+        [
+          "etter_belop",
+          310675000
+        ],
+        [
+          "for_belop",
+          304351000
+        ]
+      ],
+      "raw_preserved": true
+    }
+  },
+  {
+    "condition": "corrupt",
+    "source_failure": "Expecting value: line 1 column 1 (char 0)",
+    "schema": 5,
+    "b5_preserved": "ba1fe432ca468f6ac3ef7e865248ab3e23d7944157d5d4880a74403bf4e2e447",
+    "observations": 222,
+    "events": 74,
+    "seconds": 4.875,
+    "ordinary": {
+      "revision": "a3cb4344-9c5e-4209-8abe-33ef0eecf22c",
+      "extraction_id": "3ee2957454be9c69cc85841d114aefa0f5fc47d07ac9becc82e48f1b293a17a2",
+      "observations": 222,
+      "events": 74,
+      "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+      "actual_saved_700_1_trio": [
+        [
+          "endring",
+          6324000
+        ],
+        [
+          "etter_belop",
+          310675000
+        ],
+        [
+          "for_belop",
+          304351000
+        ]
+      ],
+      "raw_preserved": true
+    }
+  },
+  {
+    "condition": "contradictory",
+    "source_failure": "P2-grunnlaget avviker fra kilder/år/post/roller/status/lokator/ID-er",
+    "schema": 5,
+    "b5_preserved": "ba1fe432ca468f6ac3ef7e865248ab3e23d7944157d5d4880a74403bf4e2e447",
+    "observations": 222,
+    "events": 74,
+    "seconds": 15.453,
+    "ordinary": {
+      "revision": "d3a550e2-51ad-496c-ac2b-c4f8cebeb293",
+      "extraction_id": "04a36164a19459541d2a251c0572c1bffaa18334049d95dddf48cbbd4e33f2c6",
+      "observations": 222,
+      "events": 74,
+      "raw_sha256": "66208daf51111356ad73c26985819870ab9c2f97ec7b070024d89e150cd772b9",
+      "actual_saved_700_1_trio": [
+        [
+          "endring",
+          6324000
+        ],
+        [
+          "etter_belop",
+          310675000
+        ],
+        [
+          "for_belop",
+          304351000
+        ]
+      ],
+      "raw_preserved": true
+    }
+  }
+]

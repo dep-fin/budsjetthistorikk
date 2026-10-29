@@ -1,0 +1,49 @@
+"""Independently reidentify altered P1 and P2 DAGs; compare authentic old basis."""
+import copy
+import json
+from pathlib import Path
+import socket
+import sqlite3
+from unittest.mock import patch
+import audit
+from analyse import perioderegister as p1
+from analyse import perioderegister_r2 as p2
+from innlesning.observations import identity
+
+root=Path.cwd().resolve()
+out=root/'.local/security-56'
+raw=(out/'inputs/both.json').read_text('utf8')
+original=json.loads(raw)
+namespaces={'sources':'periodekilde-1','evidence':'periodebevis-1','documents':'periodedokument-1','inventory':'periodeinventar-1','statements':'periodeutsagn-1','relations':'perioderelasjon-1','entries':'periodeledd-1','case_candidates':'periodesakskandidat-1','decision_candidates':'periodevedtakskandidat-1','gaps':'periodehull-1'}
+
+def allrefs(value,mapping):
+    if isinstance(value,str): return mapping.get(value,value)
+    if isinstance(value,list): return [allrefs(v,mapping) for v in value]
+    if isinstance(value,dict): return {k:(v if k=='t4_basis' else allrefs(v,mapping)) for k,v in value.items()}
+    return value
+
+with patch.object(socket,'create_connection',audit.forbidden),patch.object(socket.socket,'connect',audit.forbidden),patch.object(socket.socket,'connect_ex',audit.forbidden),patch.object(sqlite3,'connect',audit.forbidden):
+    new=p2.read_json(out/'inputs/both.json')
+    prior=root/'../../outputs/p1-52-973db1f/p1-1429-2024.json'
+    old=p1.read_json(prior)
+    assert new.basis.p1_basis==old.basis
+    audit.record('authentic-old-P1-basis-equal',sha256=audit.sha(prior.read_bytes()),old_basis_id=old.basis.id)
+    for name in ('old-candidate-identity','hidden-global-gaps'):
+        data=copy.deepcopy(original); basis=data['report']['basis']['p1_basis']; mapping={}
+        if name=='old-candidate-identity':
+            next(c for c in basis['case_candidates'] if c['case_id']=='101000')['case_id']='999999'
+        else:
+            basis['gaps']=[]; data['report']['view']['p1']['gap_ids']=[]
+        for field,namespace in namespaces.items():
+            basis[field]=allrefs(basis[field],mapping)
+            for item in basis[field]:
+                old_id=item['id']; item['id']=''; item['id']=identity(namespace,item); mapping[old_id]=item['id']
+        data=allrefs(data,mapping)
+        basis=data['report']['basis']['p1_basis']
+        basis['id']=''; basis['id']=identity('periodegrunnlag-1',basis)
+        poisoned=audit.rehash(data)
+        target=out/'synthetic'/(name+'.json'); target.write_text(poisoned,encoding='utf8')
+        parsed=json.loads(poisoned)['report']
+        for field,namespace in namespaces.items():
+            assert all(item['id']==identity(namespace,{**item,'id':''}) for item in parsed['basis']['p1_basis'][field])
+        audit.reject('coordinated-P1-P2-rehash-'+name,lambda p=target:p2.read_json(p),old_selfhashes_valid=True,sha256=audit.sha(target.read_bytes()))
