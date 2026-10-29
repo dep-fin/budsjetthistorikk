@@ -1,0 +1,13 @@
+{
+  "schema": "t5-preservation-1",
+  "base": "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+  "base_file_count": 1183,
+  "unchanged_base_files": 1181,
+  "changed_base_files": [
+    "AGENTS.md",
+    "docs/kildefunn.md"
+  ],
+  "allowed_changes": "Only short additive context pointers. Product/source/test/fixture/CI base files unchanged.",
+  "legacy_fixture_sha256": "629c3561cca6f0ab2a5644958c7ae6590dd70775d688f40e134bda449e8982a6",
+  "export_ledger_precedes_context_pointers": true
+}

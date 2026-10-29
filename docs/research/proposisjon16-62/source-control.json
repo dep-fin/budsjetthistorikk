@@ -1,0 +1,2147 @@
+{
+  "schema": "t5-control-1",
+  "binding": {
+    "base": "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+    "changed_base_files": []
+  },
+  "basis_id": "f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7",
+  "legacy_fixture_sha256": "629c3561cca6f0ab2a5644958c7ae6590dd70775d688f40e134bda449e8982a6",
+  "source_control_sha256": "328de863a89eb194c2e1e35ba39cd52cb995a87ff61ec5fb6ede2ce6d105d4fd",
+  "proposal_html_sha256": "ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e",
+  "fields": [
+    {
+      "account": "1400/1",
+      "meaning": "for_belop",
+      "amount_kr": 322816000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[3]/td[3]",
+      "observation_id": "c48895cb1cc2fdc3a440505f7b4ce36697ca5cde0248781aef817f9445913e1c",
+      "original_cell": "fra kr 322 816 000 til kr 328 753 000"
+    },
+    {
+      "account": "1400/1",
+      "meaning": "endring",
+      "amount_kr": 5937000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[2]/td[4]",
+      "observation_id": "a90040fdefba20698c18f91e0b9905f0f4d2be5591183c248b9f346c36300d1c",
+      "original_cell": "5 937 000"
+    },
+    {
+      "account": "1400/1",
+      "meaning": "etter_belop",
+      "amount_kr": 328753000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[3]/td[3]",
+      "observation_id": "ea8d6f4f071e36f938eed1405957089279fe0aa9846410698cf81bc9130434e2",
+      "original_cell": "fra kr 322 816 000 til kr 328 753 000"
+    },
+    {
+      "account": "1400/21",
+      "meaning": "for_belop",
+      "amount_kr": 102806000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[5]/td[3]",
+      "observation_id": "5d58ff53a825f78b2f8f6e7f0e18485c75484809b57a5c7e9db4a73f72a51e1d",
+      "original_cell": "fra kr 102 806 000 til kr 94 006 000"
+    },
+    {
+      "account": "1400/21",
+      "meaning": "endring",
+      "amount_kr": -8800000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[4]/td[4]",
+      "observation_id": "f3f33eede1edd387ab31d1063cb504a211f7013e6b30fffc3464adf8f879850d",
+      "original_cell": "8 800 000"
+    },
+    {
+      "account": "1400/21",
+      "meaning": "etter_belop",
+      "amount_kr": 94006000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[5]/td[3]",
+      "observation_id": "beb34d0f279ca19cb0ffc625acacfb779e601294b51d2ab48bae8ae3077239b6",
+      "original_cell": "fra kr 102 806 000 til kr 94 006 000"
+    },
+    {
+      "account": "1400/71",
+      "meaning": "for_belop",
+      "amount_kr": 94355000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[7]/td[3]",
+      "observation_id": "adc4fe2e38d016c603f3c82b2b6d65f85caecaa4abb1d99ee7ab3b3e8f25ff2e",
+      "original_cell": "fra kr 94 355 000 til kr 112 411 000"
+    },
+    {
+      "account": "1400/71",
+      "meaning": "endring",
+      "amount_kr": 18056000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[6]/td[4]",
+      "observation_id": "6bbc751886f34e5405616706ffa5e2dae84cd39737b59aeb5677dd8a85488d4d",
+      "original_cell": "18 056 000"
+    },
+    {
+      "account": "1400/71",
+      "meaning": "etter_belop",
+      "amount_kr": 112411000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[7]/td[3]",
+      "observation_id": "e617127f1415ff5131b2220187b7847dcbe3e24c5d58b53f2b18287a443f187d",
+      "original_cell": "fra kr 94 355 000 til kr 112 411 000"
+    },
+    {
+      "account": "1400/76",
+      "meaning": "for_belop",
+      "amount_kr": 107394000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[9]/td[3]",
+      "observation_id": "0b292c84fa3a0e49d8feb7e8964788e3a58c2af74fb8af39a02c1123179cfa00",
+      "original_cell": "fra kr 107 394 000 til kr 105 394 000"
+    },
+    {
+      "account": "1400/76",
+      "meaning": "endring",
+      "amount_kr": -2000000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[8]/td[4]",
+      "observation_id": "cc359ae9305b6fc15706dc5540cf833302327a38f4577f0de447f6fef5652738",
+      "original_cell": "2 000 000"
+    },
+    {
+      "account": "1400/76",
+      "meaning": "etter_belop",
+      "amount_kr": 105394000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[9]/td[3]",
+      "observation_id": "f858d442d3bfef58f5124a1afd1d63b567382289909a61659be1f466c36f66a9",
+      "original_cell": "fra kr 107 394 000 til kr 105 394 000"
+    },
+    {
+      "account": "1410/21",
+      "meaning": "for_belop",
+      "amount_kr": 440016000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[12]/td[3]",
+      "observation_id": "47a00efe987b9c16192a9a623b0dc90c0e3436250813168c11a31cb666ff42f3",
+      "original_cell": "fra kr 440 016 000 til kr 439 636 000"
+    },
+    {
+      "account": "1410/21",
+      "meaning": "endring",
+      "amount_kr": -380000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[11]/td[4]",
+      "observation_id": "e1b8baa85339a5f26386e297f8d6b4dd5c24c74c05ffc746cbb657e13cb78e90",
+      "original_cell": "380 000"
+    },
+    {
+      "account": "1410/21",
+      "meaning": "etter_belop",
+      "amount_kr": 439636000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[12]/td[3]",
+      "observation_id": "a9da67a2c0aac37c0a786f54203125ee5764ff12819ad1cef01653d23944e0fe",
+      "original_cell": "fra kr 440 016 000 til kr 439 636 000"
+    },
+    {
+      "account": "1410/70",
+      "meaning": "for_belop",
+      "amount_kr": 56263000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[14]/td[3]",
+      "observation_id": "8d09cdf86ab95d878b711e2af05c41be905ed1912ecfbab0d7fb9ef50ddea606",
+      "original_cell": "fra kr 56 263 000 til kr 56 643 000"
+    },
+    {
+      "account": "1410/70",
+      "meaning": "endring",
+      "amount_kr": 380000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[13]/td[4]",
+      "observation_id": "ab16e75f34970e2693a9a1743ce26c993e939cae69bc78b75278fe4d6800f75a",
+      "original_cell": "380 000"
+    },
+    {
+      "account": "1410/70",
+      "meaning": "etter_belop",
+      "amount_kr": 56643000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[14]/td[3]",
+      "observation_id": "4e57946d5fd38df823cafdfcfb601b1550b9eac9e1fbcc8278b8f277fb870ea0",
+      "original_cell": "fra kr 56 263 000 til kr 56 643 000"
+    },
+    {
+      "account": "1411/1",
+      "meaning": "for_belop",
+      "amount_kr": 40350000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[17]/td[3]",
+      "observation_id": "f617326f9e821e313846be092df315ff04de89d1c0fa629f998483552c427910",
+      "original_cell": "fra kr 40 350 000 til kr 41 180 000"
+    },
+    {
+      "account": "1411/1",
+      "meaning": "endring",
+      "amount_kr": 830000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[16]/td[4]",
+      "observation_id": "521044f368bd6c2ddb1a7f28d7d8d73747481aab6ab9c087a920054d9b8fbefb",
+      "original_cell": "830 000"
+    },
+    {
+      "account": "1411/1",
+      "meaning": "etter_belop",
+      "amount_kr": 41180000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[17]/td[3]",
+      "observation_id": "0a971158a06e078f0a48a86263ec2998470711adce3e7ac89a06c2980bfbfefc",
+      "original_cell": "fra kr 40 350 000 til kr 41 180 000"
+    },
+    {
+      "account": "1412/70",
+      "meaning": "for_belop",
+      "amount_kr": 144164000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[20]/td[3]",
+      "observation_id": "96ffc0a2dbbff0b3ab767d566ac513043f69089cf30864ed4e2f50a0e7eaf52f",
+      "original_cell": "fra kr 144 164 000 til kr 139 141 000"
+    },
+    {
+      "account": "1412/70",
+      "meaning": "endring",
+      "amount_kr": -5023000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[19]/td[4]",
+      "observation_id": "894173d86d5b96fc9338cdf91543bf1300bff59270f442cf04bbd4d74712cf06",
+      "original_cell": "5 023 000"
+    },
+    {
+      "account": "1412/70",
+      "meaning": "etter_belop",
+      "amount_kr": 139141000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[20]/td[3]",
+      "observation_id": "8d228fc15e2d075e87ec9c2dc358de307fe0f55644546592de0a974b5dd9ce3a",
+      "original_cell": "fra kr 144 164 000 til kr 139 141 000"
+    },
+    {
+      "account": "1420/1",
+      "meaning": "for_belop",
+      "amount_kr": 883920000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[23]/td[3]",
+      "observation_id": "818bd7df2a4bf435907c001cbddb5ed8faddc342a24efdaa9be43d7893cba3af",
+      "original_cell": "fra kr 883 920 000 til kr 905 417 000"
+    },
+    {
+      "account": "1420/1",
+      "meaning": "endring",
+      "amount_kr": 21497000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[22]/td[4]",
+      "observation_id": "70880858b103f5115d9f43497d2d52ffc0695fe22bc20be6bd9ab276fa5ad087",
+      "original_cell": "21 497 000"
+    },
+    {
+      "account": "1420/1",
+      "meaning": "etter_belop",
+      "amount_kr": 905417000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[23]/td[3]",
+      "observation_id": "9379589688640499fb0e40a2b7767caefa99286d58560b7a41b15872871f0a9d",
+      "original_cell": "fra kr 883 920 000 til kr 905 417 000"
+    },
+    {
+      "account": "1420/21",
+      "meaning": "for_belop",
+      "amount_kr": 637574000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[25]/td[3]",
+      "observation_id": "433cd5d5e5868aeeaffa4e58d7b9fa67db49d73ad5e9017cc0db0c8bf72a837a",
+      "original_cell": "fra kr 637 574 000 til kr 635 074 000"
+    },
+    {
+      "account": "1420/21",
+      "meaning": "endring",
+      "amount_kr": -2500000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[24]/td[4]",
+      "observation_id": "777956792fbb111c4546c763ae01d57dde043c3e1fa82bad1202f66dfaed5f49",
+      "original_cell": "2 500 000"
+    },
+    {
+      "account": "1420/21",
+      "meaning": "etter_belop",
+      "amount_kr": 635074000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[25]/td[3]",
+      "observation_id": "ac0ab0259cd595a311f4fff6da907aa2d5e2f8db85e05e5f0c0aaf40ffa43bb4",
+      "original_cell": "fra kr 637 574 000 til kr 635 074 000"
+    },
+    {
+      "account": "1420/23",
+      "meaning": "for_belop",
+      "amount_kr": 165801000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[27]/td[3]",
+      "observation_id": "b6c4e1aa1ac98e1ce39f84a32f3f0f8438c35f2f7a3ec8272b270e4404072a96",
+      "original_cell": "fra kr 165 801 000 til kr 225 766 000"
+    },
+    {
+      "account": "1420/23",
+      "meaning": "endring",
+      "amount_kr": 59965000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[26]/td[4]",
+      "observation_id": "3c423497c59b474a98afd297bd2d481ca7b39d7c42d538276ca87a32cc27d071",
+      "original_cell": "59 965 000"
+    },
+    {
+      "account": "1420/23",
+      "meaning": "etter_belop",
+      "amount_kr": 225766000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[27]/td[3]",
+      "observation_id": "35ee92f02c7f5f596764ee71e561eedea840da2ad15179379c51ce850ab1fe50",
+      "original_cell": "fra kr 165 801 000 til kr 225 766 000"
+    },
+    {
+      "account": "1420/61",
+      "meaning": "for_belop",
+      "amount_kr": 333800000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[29]/td[3]",
+      "observation_id": "b1b355f1a7574177962022d2a74ed7f2690b5a4b60f41b0c99415eaf18d46b83",
+      "original_cell": "fra kr 333 800 000 til kr 150 000 000"
+    },
+    {
+      "account": "1420/61",
+      "meaning": "endring",
+      "amount_kr": -183800000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[28]/td[4]",
+      "observation_id": "5b84e6ac66a36a61214d27d768b5f5dcad1b83c2613718a6ca5ae91905b99f1d",
+      "original_cell": "183 800 000"
+    },
+    {
+      "account": "1420/61",
+      "meaning": "etter_belop",
+      "amount_kr": 150000000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[29]/td[3]",
+      "observation_id": "8e412857dfb9eba4e938c42205a575013e75494b4814127523ef87d2c8cee45c",
+      "original_cell": "fra kr 333 800 000 til kr 150 000 000"
+    },
+    {
+      "account": "1420/62",
+      "meaning": "for_belop",
+      "amount_kr": 80625000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[31]/td[3]",
+      "observation_id": "bf554ef90e8f3157908a2e65f00dbe7a89d15dd22b9ed0e89feea22de4790a30",
+      "original_cell": "fra kr 80 625 000 til kr 30 625 000"
+    },
+    {
+      "account": "1420/62",
+      "meaning": "endring",
+      "amount_kr": -50000000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[30]/td[4]",
+      "observation_id": "a855c01a9479000003fbfd447e90fa02b7be4b9b22f0b1ed297c5112722657ec",
+      "original_cell": "50 000 000"
+    },
+    {
+      "account": "1420/62",
+      "meaning": "etter_belop",
+      "amount_kr": 30625000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[31]/td[3]",
+      "observation_id": "b9ea0f3b76f62becd0a89b92a0006960a64d4a601d7dfe917c56be0b75cbfd02",
+      "original_cell": "fra kr 80 625 000 til kr 30 625 000"
+    },
+    {
+      "account": "1420/69",
+      "meaning": "for_belop",
+      "amount_kr": 111732000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[33]/td[3]",
+      "observation_id": "36bf7d02b75c25216cb258d50ea6e4c77a25edb7e07c76fa935736abbb95b622",
+      "original_cell": "fra kr 111 732 000 til kr 97 332 000"
+    },
+    {
+      "account": "1420/69",
+      "meaning": "endring",
+      "amount_kr": -14400000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[32]/td[4]",
+      "observation_id": "87c9197cdaa1a0bdc9ccfd885787847d7ca5fd39c56e686081c166ab7d1f2b92",
+      "original_cell": "14 400 000"
+    },
+    {
+      "account": "1420/69",
+      "meaning": "etter_belop",
+      "amount_kr": 97332000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[33]/td[3]",
+      "observation_id": "34bd074b42e7c017d4a074f5bfead49ca79ee653e8ca28bf88dd63f2675113f4",
+      "original_cell": "fra kr 111 732 000 til kr 97 332 000"
+    },
+    {
+      "account": "1420/74",
+      "meaning": "for_belop",
+      "amount_kr": 6464997000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[35]/td[3]",
+      "observation_id": "e9a5877eef938650265d191e920cd20e471cf4284ad29a4a94df99108a329762",
+      "original_cell": "fra kr 6 464 997 000 til kr 6 218 797 000"
+    },
+    {
+      "account": "1420/74",
+      "meaning": "endring",
+      "amount_kr": -246200000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[34]/td[4]",
+      "observation_id": "eca3652f4f61a2241483b746fc8a933ab3c7eed1593a0f4f2ccb638e41833436",
+      "original_cell": "246 200 000"
+    },
+    {
+      "account": "1420/74",
+      "meaning": "etter_belop",
+      "amount_kr": 6218797000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[35]/td[3]",
+      "observation_id": "7857cc28a48aadfee0b359aef107c296b955b7aa1c1f48d351b677dc595f5882",
+      "original_cell": "fra kr 6 464 997 000 til kr 6 218 797 000"
+    },
+    {
+      "account": "1420/75",
+      "meaning": "for_belop",
+      "amount_kr": 416350000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[37]/td[3]",
+      "observation_id": "d693f3cb37e4b250f0d0c91f9ab8c765d1f88f5eaa1befeb61225bf32be71785",
+      "original_cell": "fra kr 416 350 000 til kr 401 350 000"
+    },
+    {
+      "account": "1420/75",
+      "meaning": "endring",
+      "amount_kr": -15000000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[36]/td[4]",
+      "observation_id": "2f3fe042e5f94e73c4f0ac4dd2adc0301297c89607424eaf42da1b7df4321cd4",
+      "original_cell": "15 000 000"
+    },
+    {
+      "account": "1420/75",
+      "meaning": "etter_belop",
+      "amount_kr": 401350000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[37]/td[3]",
+      "observation_id": "75a7520ac78dd3f58a27bd2cb71b3246727b6e20ac8db5813849e779e3c29b8a",
+      "original_cell": "fra kr 416 350 000 til kr 401 350 000"
+    },
+    {
+      "account": "1420/80",
+      "meaning": "for_belop",
+      "amount_kr": 180942000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[39]/td[3]",
+      "observation_id": "5a2f21febf2dcf5525a395491e87d6009267506d1f5c368281ac8e1d67f3439f",
+      "original_cell": "fra kr 180 942 000 til kr 183 442 000"
+    },
+    {
+      "account": "1420/80",
+      "meaning": "endring",
+      "amount_kr": 2500000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[38]/td[4]",
+      "observation_id": "6de219c253d34c428ceeb5f470c84199269e1270a6c89c82e8a2570d42dce053",
+      "original_cell": "2 500 000"
+    },
+    {
+      "account": "1420/80",
+      "meaning": "etter_belop",
+      "amount_kr": 183442000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[39]/td[3]",
+      "observation_id": "b4146eb75b720bd8f348a709d5f986af5290249fa2d0e2edc5014e8325ba154d",
+      "original_cell": "fra kr 180 942 000 til kr 183 442 000"
+    },
+    {
+      "account": "1423/1",
+      "meaning": "for_belop",
+      "amount_kr": 39667000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[42]/td[3]",
+      "observation_id": "9bb6d2efe3a6a42b89954dbac14bcbc84921aea625707e5f0d260ed04920baa1",
+      "original_cell": "fra kr 39 667 000 til kr 40 216 000"
+    },
+    {
+      "account": "1423/1",
+      "meaning": "endring",
+      "amount_kr": 549000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[41]/td[4]",
+      "observation_id": "06d003b5753288e52624dd2b6d740370acdecd49ce83801ccbe8a6631dad0e65",
+      "original_cell": "549 000"
+    },
+    {
+      "account": "1423/1",
+      "meaning": "etter_belop",
+      "amount_kr": 40216000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[42]/td[3]",
+      "observation_id": "2dc87f5863ff1503745b6bcd57d851009db02f6d4d02a13800b99aef3dbf2182",
+      "original_cell": "fra kr 39 667 000 til kr 40 216 000"
+    },
+    {
+      "account": "1429/1",
+      "meaning": "for_belop",
+      "amount_kr": 160243000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[45]/td[3]",
+      "observation_id": "a66096a14ffb852fed459f4e18b1364dae925aeef8a1a7cf3d9bd66d5de1c9cb",
+      "original_cell": "fra kr 160 243 000 til kr 166 039 000"
+    },
+    {
+      "account": "1429/1",
+      "meaning": "endring",
+      "amount_kr": 5796000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[44]/td[4]",
+      "observation_id": "32b1b4a7030cef1eb0865262efe7efc647975d9aed6f46019a071b3b80790a4f",
+      "original_cell": "5 796 000"
+    },
+    {
+      "account": "1429/1",
+      "meaning": "etter_belop",
+      "amount_kr": 166039000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[45]/td[3]",
+      "observation_id": "125d6045103116c71b4f52f687ae08b9f008124b16773e82703baf179e293551",
+      "original_cell": "fra kr 160 243 000 til kr 166 039 000"
+    },
+    {
+      "account": "1429/22",
+      "meaning": "for_belop",
+      "amount_kr": 32185000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[47]/td[3]",
+      "observation_id": "6e3ffd3f5c5428fe9955b06692a52b48ab81362fe0a55c812a32c2a5a5a14d34",
+      "original_cell": "fra kr 32 185 000 til kr 29 185 000"
+    },
+    {
+      "account": "1429/22",
+      "meaning": "endring",
+      "amount_kr": -3000000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[46]/td[4]",
+      "observation_id": "9b6cc7ffbbfa07ec95ae8c39fee8bd5ee28e67c14f266a58ea1db3d18c0b7c37",
+      "original_cell": "3 000 000"
+    },
+    {
+      "account": "1429/22",
+      "meaning": "etter_belop",
+      "amount_kr": 29185000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[47]/td[3]",
+      "observation_id": "f490d3fd88b9c4c09ed11d254c5dc5685de9b7eb57d5bb1f7f585ead490d5eb0",
+      "original_cell": "fra kr 32 185 000 til kr 29 185 000"
+    },
+    {
+      "account": "1471/1",
+      "meaning": "for_belop",
+      "amount_kr": 263050000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[50]/td[3]",
+      "observation_id": "f89af55846a569fb9af9c80fbf2bbc8d492867fdec5b2975e4655dfb2246e604",
+      "original_cell": "fra kr 263 050 000 til kr 328 267 000"
+    },
+    {
+      "account": "1471/1",
+      "meaning": "endring",
+      "amount_kr": 65217000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[49]/td[4]",
+      "observation_id": "01e57d9c0c7fce61f51a9958b3c74cf53cf62f503bf8c349f251fe7ba922a60c",
+      "original_cell": "65 217 000"
+    },
+    {
+      "account": "1471/1",
+      "meaning": "etter_belop",
+      "amount_kr": 328267000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[50]/td[3]",
+      "observation_id": "17a7680ebb83350f0a6deb77f677e75375033443c6bc1e7f01f80825b537c50a",
+      "original_cell": "fra kr 263 050 000 til kr 328 267 000"
+    },
+    {
+      "account": "1471/21",
+      "meaning": "for_belop",
+      "amount_kr": 120706000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[52]/td[3]",
+      "observation_id": "40638a8657784a1f07c7507e3b7fe7b8989dafc5ca3ce6831d1cf39ddd014651",
+      "original_cell": "fra kr 120 706 000 til kr 124 106 000"
+    },
+    {
+      "account": "1471/21",
+      "meaning": "endring",
+      "amount_kr": 3400000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[51]/td[4]",
+      "observation_id": "0989a1b57f3cf375e6822034de021513f8d098ab905f4af469ec6ffab1624410",
+      "original_cell": "3 400 000"
+    },
+    {
+      "account": "1471/21",
+      "meaning": "etter_belop",
+      "amount_kr": 124106000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[52]/td[3]",
+      "observation_id": "e8b059cc9a4706f312cdb25605e2d99b35ee47b4c0d7941638af8aaf36c35520",
+      "original_cell": "fra kr 120 706 000 til kr 124 106 000"
+    },
+    {
+      "account": "1474/1",
+      "meaning": "for_belop",
+      "amount_kr": 266000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[55]/td[3]",
+      "observation_id": "327b611bf38cb3395bd08015820d13bdcd2a8f60cd1b3ab3b1640eed0145b9ca",
+      "original_cell": "fra kr 266 000 til kr 273 000"
+    },
+    {
+      "account": "1474/1",
+      "meaning": "endring",
+      "amount_kr": 7000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[54]/td[4]",
+      "observation_id": "8b376989588d61760b2a841fa12534e47a1d846557de9630af9e8bf40453ee7e",
+      "original_cell": "7 000"
+    },
+    {
+      "account": "1474/1",
+      "meaning": "etter_belop",
+      "amount_kr": 273000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[55]/td[3]",
+      "observation_id": "5f3353a0e5bf231062a75926a2bac5809dc6627b887bc2e606784e1e588df987",
+      "original_cell": "fra kr 266 000 til kr 273 000"
+    },
+    {
+      "account": "1481/1",
+      "meaning": "for_belop",
+      "amount_kr": 2798000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[58]/td[3]",
+      "observation_id": "a111be1a6bc2e3213574871d73824a5a0de0d57b234ab6f3a63cc160d1293cac",
+      "original_cell": "fra kr 2 798 000 til kr 1 498 000"
+    },
+    {
+      "account": "1481/1",
+      "meaning": "endring",
+      "amount_kr": -1300000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[57]/td[4]",
+      "observation_id": "df64baf2cc7e514c73dd55cfd4d8f2e5ff06063d01b083cfc8952d66b1a32cf0",
+      "original_cell": "1 300 000"
+    },
+    {
+      "account": "1481/1",
+      "meaning": "etter_belop",
+      "amount_kr": 1498000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[58]/td[3]",
+      "observation_id": "c7d328c5da25d0f314cc5dc942d07c2b7ce8c566c206c1c9da3aeba7fb97f95a",
+      "original_cell": "fra kr 2 798 000 til kr 1 498 000"
+    },
+    {
+      "account": "1481/22",
+      "meaning": "for_belop",
+      "amount_kr": 120000000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[60]/td[3]",
+      "observation_id": "7ad88c8a9318513183340849a4b1dd9389b6f88ba7939ccadeb5e26021737f83",
+      "original_cell": "fra kr 120 000 000 til kr 100 000 000"
+    },
+    {
+      "account": "1481/22",
+      "meaning": "endring",
+      "amount_kr": -20000000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[59]/td[4]",
+      "observation_id": "6a9f2804abd817baec73e3208444f52360f5cc54d34a3b4c90b23ec58a4ace53",
+      "original_cell": "20 000 000"
+    },
+    {
+      "account": "1481/22",
+      "meaning": "etter_belop",
+      "amount_kr": 100000000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[60]/td[3]",
+      "observation_id": "11d8af8a764d25339c9d195abe55c16594d19ac38cb85d3639e9edbfbcf8683e",
+      "original_cell": "fra kr 120 000 000 til kr 100 000 000"
+    },
+    {
+      "account": "1482/1",
+      "meaning": "for_belop",
+      "amount_kr": 67459000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[63]/td[3]",
+      "observation_id": "187b62245c163eaa6d5f0b8f1b6dd0f7d2da671c8fb0b6caf602e44720bca0ae",
+      "original_cell": "fra kr 67 459 000 til kr 70 920 000"
+    },
+    {
+      "account": "1482/1",
+      "meaning": "endring",
+      "amount_kr": 3461000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[62]/td[4]",
+      "observation_id": "720ed8757dc90f1e67d7a6ba3ce8227a0852bc36ee0be3cac2f6ba75e1316d65",
+      "original_cell": "3 461 000"
+    },
+    {
+      "account": "1482/1",
+      "meaning": "etter_belop",
+      "amount_kr": 70920000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[63]/td[3]",
+      "observation_id": "e5792bf4d021d140b46776786499292f9cbe5038cb74e3eb66dbe85149f814e1",
+      "original_cell": "fra kr 67 459 000 til kr 70 920 000"
+    },
+    {
+      "account": "1482/73",
+      "meaning": "for_belop",
+      "amount_kr": 4041235000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[65]/td[3]",
+      "observation_id": "ce0c6890384e1a242d8ca8913748542224e061ce35b8051e875496c1d08acb3f",
+      "original_cell": "fra kr 4 041 235 000 til kr 4 038 735 000"
+    },
+    {
+      "account": "1482/73",
+      "meaning": "endring",
+      "amount_kr": -2500000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[64]/td[4]",
+      "observation_id": "3ed1307deff42c75997e35c1f813ceec1a52a95125633fbc8a73b018b9ffcf40",
+      "original_cell": "2 500 000"
+    },
+    {
+      "account": "1482/73",
+      "meaning": "etter_belop",
+      "amount_kr": 4038735000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[1]/table/tbody/tr[65]/td[3]",
+      "observation_id": "05642686f1bb1af163d62f33687939899a4157abe6ff2eb63cb815e980d8e37c",
+      "original_cell": "fra kr 4 041 235 000 til kr 4 038 735 000"
+    },
+    {
+      "account": "4400/2",
+      "meaning": "for_belop",
+      "amount_kr": 518000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[3]/td[3]",
+      "observation_id": "353ed50076835ec948992fe4909433f83ec65c1d4bd5774e2dc993f49dd8a722",
+      "original_cell": "fra kr 518 000 til kr 0"
+    },
+    {
+      "account": "4400/2",
+      "meaning": "endring",
+      "amount_kr": -518000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[2]/td[4]",
+      "observation_id": "9878bba57da0a40b31ba36eaa0db7c4451d5c6ff0cf30ae5f09b6cc17796be09",
+      "original_cell": "518 000"
+    },
+    {
+      "account": "4400/2",
+      "meaning": "etter_belop",
+      "amount_kr": 0,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[3]/td[3]",
+      "observation_id": "249e0f248d65ed85672df5118ed628c9183b4980ab5bd017c6d7c1b1d88d3db8",
+      "original_cell": "fra kr 518 000 til kr 0"
+    },
+    {
+      "account": "4400/3",
+      "meaning": "for_belop",
+      "amount_kr": 39231000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[5]/td[3]",
+      "observation_id": "90a0ef01eed9aa3466d536df4ccb2bd143039fa00a17632545d289be8deb1ff1",
+      "original_cell": "fra kr 39 231 000 til kr 37 815 000"
+    },
+    {
+      "account": "4400/3",
+      "meaning": "endring",
+      "amount_kr": -1416000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[4]/td[4]",
+      "observation_id": "8daae616f1da588c762c9b3b08371eb49e9e4e7af13ed627940cf45d974ce14c",
+      "original_cell": "1 416 000"
+    },
+    {
+      "account": "4400/3",
+      "meaning": "etter_belop",
+      "amount_kr": 37815000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[5]/td[3]",
+      "observation_id": "2ff2418c1b7bdee815716697cdb6e315cbd4f9a5a631e451c105323d9f381872",
+      "original_cell": "fra kr 39 231 000 til kr 37 815 000"
+    },
+    {
+      "account": "4420/4",
+      "meaning": "for_belop",
+      "amount_kr": 58745000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[8]/td[3]",
+      "observation_id": "53393929bcdf9822e1768f0cd4956199f60558569b78c67d7109f673d9c50deb",
+      "original_cell": "fra kr 58 745 000 til kr 87 814 000"
+    },
+    {
+      "account": "4420/4",
+      "meaning": "endring",
+      "amount_kr": 29069000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[7]/td[4]",
+      "observation_id": "4b6ab8c704f2af16b04e550e2c8368a3651401823891826f163ed632073b3c20",
+      "original_cell": "29 069 000"
+    },
+    {
+      "account": "4420/4",
+      "meaning": "etter_belop",
+      "amount_kr": 87814000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[8]/td[3]",
+      "observation_id": "6b5860e978af0982648e6acb365b8d9a8116d4141e08ec72191b5b991b8c39d8",
+      "original_cell": "fra kr 58 745 000 til kr 87 814 000"
+    },
+    {
+      "account": "4420/6",
+      "meaning": "for_belop",
+      "amount_kr": 39249000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[10]/td[3]",
+      "observation_id": "df55822d3d499e03e8001dc53d7684e215e09d8b4689d88adce3e03dc09369d4",
+      "original_cell": "fra kr 39 249 000 til kr 57 000 000"
+    },
+    {
+      "account": "4420/6",
+      "meaning": "endring",
+      "amount_kr": 17751000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[9]/td[4]",
+      "observation_id": "6c21de19700c3d76db736ed58e867b469fb0f6bbe1a4db18bddd67d51351c236",
+      "original_cell": "17 751 000"
+    },
+    {
+      "account": "4420/6",
+      "meaning": "etter_belop",
+      "amount_kr": 57000000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[10]/td[3]",
+      "observation_id": "090fd367452e7aaab9d3d58e8516bc9b5dc831a349121c53a546871bb3158c41",
+      "original_cell": "fra kr 39 249 000 til kr 57 000 000"
+    },
+    {
+      "account": "4420/7",
+      "meaning": "for_belop",
+      "amount_kr": 9928000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[12]/td[3]",
+      "observation_id": "78d70eb2024ea0267668c23c7f3fab6d508366a9d463fe057c68960a80034e43",
+      "original_cell": "fra kr 9 928 000 til kr 6 628 000"
+    },
+    {
+      "account": "4420/7",
+      "meaning": "endring",
+      "amount_kr": -3300000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[11]/td[4]",
+      "observation_id": "fdc12d63ede19a28fe1a8b3615681cb578bb315fc274c6991b5fdce54a72c85c",
+      "original_cell": "3 300 000"
+    },
+    {
+      "account": "4420/7",
+      "meaning": "etter_belop",
+      "amount_kr": 6628000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[12]/td[3]",
+      "observation_id": "a5a286f260a5d924e7150f268a474b4cd93ba8d695795b417cb3b11c5237e2e1",
+      "original_cell": "fra kr 9 928 000 til kr 6 628 000"
+    },
+    {
+      "account": "4420/9",
+      "meaning": "for_belop",
+      "amount_kr": 39545000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[14]/td[3]",
+      "observation_id": "39980b500cadcd376cc206182fc5b6cf37b2fa39cd7a72ddcfcdaed10955da33",
+      "original_cell": "fra kr 39 545 000 til kr 52 690 000"
+    },
+    {
+      "account": "4420/9",
+      "meaning": "endring",
+      "amount_kr": 13145000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[13]/td[4]",
+      "observation_id": "cb7a57680c9c191d97d384a9c8f56f9972005ab7718976d8717d25cffbdeb462",
+      "original_cell": "13 145 000"
+    },
+    {
+      "account": "4420/9",
+      "meaning": "etter_belop",
+      "amount_kr": 52690000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[14]/td[3]",
+      "observation_id": "6a3428e81c37de74e73d09f64957366323401d1c2cadf3b2c7e57b59778be5ee",
+      "original_cell": "fra kr 39 545 000 til kr 52 690 000"
+    },
+    {
+      "account": "4420/40",
+      "meaning": "for_belop",
+      "amount_kr": 1069000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[16]/td[3]",
+      "observation_id": "295308f3c735415c7d1fecd60a00005bffeae9fb6b526cdd136ccb735262daf9",
+      "original_cell": "fra kr 1 069 000 til kr 369 000"
+    },
+    {
+      "account": "4420/40",
+      "meaning": "endring",
+      "amount_kr": -700000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[15]/td[4]",
+      "observation_id": "bb373fb46f8d7a894b5cce2453a2e4ff0bc4fa226e0f65e82066d2988b16fed1",
+      "original_cell": "700 000"
+    },
+    {
+      "account": "4420/40",
+      "meaning": "etter_belop",
+      "amount_kr": 369000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[16]/td[3]",
+      "observation_id": "ee354e1c908dc66ea632acde76f7d5d0eba1cbd73de418edd1245d8930781eb0",
+      "original_cell": "fra kr 1 069 000 til kr 369 000"
+    },
+    {
+      "account": "4420/85",
+      "meaning": "for_belop",
+      "amount_kr": 1000000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[18]/td[3]",
+      "observation_id": "1dc3322bef766a3d4a34911a7262f8adc4fb12890421ece3efbb51fa566e286c",
+      "original_cell": "fra kr 1 000 000 til kr 5 600 000"
+    },
+    {
+      "account": "4420/85",
+      "meaning": "endring",
+      "amount_kr": 4600000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[17]/td[4]",
+      "observation_id": "d00edd0d897a0cf1c925fd5f69b82b130d48280fdc1c597ad0d1c7f5397b6e53",
+      "original_cell": "4 600 000"
+    },
+    {
+      "account": "4420/85",
+      "meaning": "etter_belop",
+      "amount_kr": 5600000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[18]/td[3]",
+      "observation_id": "2ae1c30bc289fca020e9810ab79ce881c7718663e9dcd956c8b14a2938a2f5ab",
+      "original_cell": "fra kr 1 000 000 til kr 5 600 000"
+    },
+    {
+      "account": "4471/3",
+      "meaning": "for_belop",
+      "amount_kr": 71835000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[21]/td[3]",
+      "observation_id": "c6ad87bae94a6d58f8dfafde0f8bc341c49a91d9a52cde1ed4e7f48bd1e74073",
+      "original_cell": "fra kr 71 835 000 til kr 130 000 000"
+    },
+    {
+      "account": "4471/3",
+      "meaning": "endring",
+      "amount_kr": 58165000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[20]/td[4]",
+      "observation_id": "3630fc40295846f6ee475283b98801f63398254cd1594d576d18451f32eac02b",
+      "original_cell": "58 165 000"
+    },
+    {
+      "account": "4471/3",
+      "meaning": "etter_belop",
+      "amount_kr": 130000000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[21]/td[3]",
+      "observation_id": "0fb50b0d81083a13d1670d5c6eeaad0bd050dd7cd94e3e8d689a8677a5955104",
+      "original_cell": "fra kr 71 835 000 til kr 130 000 000"
+    },
+    {
+      "account": "4481/1",
+      "meaning": "for_belop",
+      "amount_kr": 1908518000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[24]/td[3]",
+      "observation_id": "32b07f7f412efd32e28cf5b9948a8325db5451ecd5bc67dd955f8341a5aede12",
+      "original_cell": "fra kr 1 908 518 000 til kr 2 211 538 000"
+    },
+    {
+      "account": "4481/1",
+      "meaning": "endring",
+      "amount_kr": 303020000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[23]/td[4]",
+      "observation_id": "37ad224b1182548177d17998948467165d0d519bb82c9133b84da439f149db89",
+      "original_cell": "303 020 000"
+    },
+    {
+      "account": "4481/1",
+      "meaning": "etter_belop",
+      "amount_kr": 2211538000,
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/div[2]/table/tbody/tr[24]/td[3]",
+      "observation_id": "33eb66746f11227d2bc8abc4bf33ef2143295f549b689a605a8deb19013d5dd4",
+      "original_cell": "fra kr 1 908 518 000 til kr 2 211 538 000"
+    }
+  ],
+  "sources": [
+    {
+      "id": "aab97decb38cba854df58cdfc26326b2e90a7ecd34bd55ee38937069188e7d87",
+      "name": "docs/research/omtale-o1/originals/prop16s-ch4.html",
+      "sha256": "ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e",
+      "bytes": 118163,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"repository_path\":\"docs/research/omtale-o1/originals/prop16s-ch4.html\"}"
+    },
+    {
+      "id": "ed5d05e6068206c49001e334cbb8a2a7b6b1ce38f857a5aca90e2fec1c8324b8",
+      "name": "docs/research/omtale-o1/originals/inns81s.html",
+      "sha256": "e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95",
+      "bytes": 107925,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"repository_path\":\"docs/research/omtale-o1/originals/inns81s.html\"}"
+    },
+    {
+      "id": "39c97eea0927aafe1ea19a37ee149e49134ed7d21aa7783b79bb231ca843681d",
+      "name": "docs/research/visningspilot-41/originals/session-2024-2025-9cfe.xml.gz",
+      "sha256": "7502f2f565048f1b0954cb4cb132183d0bc5ec362ba74e14de877df36003a7d4",
+      "bytes": 394936,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"repository_path\":\"docs/research/visningspilot-41/originals/session-2024-2025-9cfe.xml.gz\"}"
+    },
+    {
+      "id": "c990429b504876bf9fb1411dc14b4f65d0739a4418b8fce53225ea86d96b0d19",
+      "name": "docs/research/visningspilot-41/originals/session-2024-2025-9cfe.meta.json",
+      "sha256": "cf9397ad44be04796cf3ed95765cddb165b0193fe071b4e1a6b629566aa82363",
+      "bytes": 763,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"repository_path\":\"docs/research/visningspilot-41/originals/session-2024-2025-9cfe.meta.json\"}"
+    },
+    {
+      "id": "b39df7ff5644a07e88244c7e3386a6b4785aa2d1ab0a7c7fa9e7d2e651592bdc",
+      "name": "tests/fixtures/b8/40034049.xml",
+      "sha256": "5f253a556d2ac512570899252b396bc38f068de5f4bd6820178e7de8ce41f3eb",
+      "bytes": 1692,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"repository_path\":\"tests/fixtures/b8/40034049.xml\"}"
+    },
+    {
+      "id": "2119b4e87856a57b2c21666854b00319653bd3ed574b7cbca31f4cbc7400c3cd",
+      "name": "tests/fixtures/b8/40034049.json",
+      "sha256": "6e0e37551b00da15c262e8ba2e40e8b21abba96d3b47acc57e41b908024d9def",
+      "bytes": 706,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"repository_path\":\"tests/fixtures/b8/40034049.json\"}"
+    },
+    {
+      "id": "bb25de82211d23a70c7a5be793a4ac41b933518d5429619daa8a1ce2a934d12d",
+      "name": "tests/fixtures/b8/sak-100889.xml",
+      "sha256": "3a8f0918a3fcce90bf2c93f3ce972c3de7277c76e27e5ef563d6c43384cf2af2",
+      "bytes": 15888,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"repository_path\":\"tests/fixtures/b8/sak-100889.xml\"}"
+    },
+    {
+      "id": "7c6eb4267b05f6c457404cbb8a118d62489bf4523efc0c96eac7ac1a6339bf64",
+      "name": "tests/fixtures/b8/sak-100889.json",
+      "sha256": "67033cce596b33ccb7f2cd459a6df7af98d44836292f0675d308797a888ba04c",
+      "bytes": 1563,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"repository_path\":\"tests/fixtures/b8/sak-100889.json\"}"
+    },
+    {
+      "id": "8df02a830c028bc0162f87f2504dabc7f3b4b7000144c33afeae0deafe258af4",
+      "name": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+      "sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b",
+      "bytes": 391763,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"repository_path\":\"docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz\"}"
+    },
+    {
+      "id": "b73e5076694be94783f9fc34fc8045f5f547578b3247440ca7ac88e7dac3276c",
+      "name": "docs/research/to-visninger-37/originals/aar/session-2024-2025.meta.json",
+      "sha256": "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28",
+      "bytes": 381,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"repository_path\":\"docs/research/to-visninger-37/originals/aar/session-2024-2025.meta.json\"}"
+    },
+    {
+      "id": "41caef6806639d6e5195a14bf93914b7e7fc0630156b98a3a662d6f089e6e2ec",
+      "name": "docs/research/to-visninger-37/originals/forgrening/inns95s.html",
+      "sha256": "ae61227fa83adf04fb45956b1bd714a75592bbc1d6c70da300e554afef806aa6",
+      "bytes": 283123,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"repository_path\":\"docs/research/to-visninger-37/originals/forgrening/inns95s.html\"}"
+    },
+    {
+      "id": "6c1152b1f3749223b031b6942ae80a7996c8e74399743489edd0a99f303c9ed8",
+      "name": "docs/research/to-visninger-37/originals/forgrening/inns95s.pdf",
+      "sha256": "7a78167c7eafc500938e4ac39d8ed9febec1f6e7e6ce337acc4b7a58d0d14635",
+      "bytes": 382025,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"repository_path\":\"docs/research/to-visninger-37/originals/forgrening/inns95s.pdf\"}"
+    },
+    {
+      "id": "66f18ef3838ccaf3b3428689ff05916b35b3b5cc5ea08927503077c1b57ae2d3",
+      "name": "docs/research/to-visninger-37/originals/forgrening/manifest.json",
+      "sha256": "6b2dd282d4c1bffff15063907bc6c3d5948279c7898f7caf7291d7a140de6816",
+      "bytes": 24955,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"repository_path\":\"docs/research/to-visninger-37/originals/forgrening/manifest.json\"}"
+    },
+    {
+      "id": "25ea190e25266442b1035e02580280ef82af8fa3bf30902f27834419784f1241",
+      "name": "docs/research/to-visninger-37/originals/forgrening/inns95s-20261022-reused.html",
+      "sha256": "1f159a3ca1df3e0bc35617644d0b36f7c92fd5684947f6eca5510595af533a03",
+      "bytes": 283141,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"repository_path\":\"docs/research/to-visninger-37/originals/forgrening/inns95s-20261022-reused.html\"}"
+    },
+    {
+      "id": "b9d912929114d782bdfeffc76e634d7406269093bc3d74b4f22bc7870c3dc0a5",
+      "name": "docs/research/to-visninger-37/originals/forgrening/reused-inns95-manifest.json",
+      "sha256": "8fc18d92f651e3d075bb4bf86498aff90eee3033297db920b32da83a4019bc4d",
+      "bytes": 1082,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"repository_path\":\"docs/research/to-visninger-37/originals/forgrening/reused-inns95-manifest.json\"}"
+    },
+    {
+      "id": "5c8046ad716224d9b080953af160cafa9d3296c3a61426c88fdbf4aadf3d02cb",
+      "name": "originals/prop16s.pdf",
+      "sha256": "677716056269c07b8ec81bcae91d814b975123791635548281038d9beb3aa5db",
+      "bytes": 733075,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"bytes\":733075,\"completed_utc\":\"2026-10-22T12:34:22.740929+00:00\",\"file\":\"originals/prop16s.pdf\",\"final_url\":\"https://www.regjeringen.no/contentassets/65a4e1b12ca242b6b7c5958edd9dc5c1/no/pdfs/prp202420250016000dddpdfs.pdf\",\"headers\":{\"Accept-Ranges\":\"bytes\",\"Age\":\"15\",\"CF-RAY\":\"a4e889292e315c52-CPH\",\"Connection\":\"close\",\"Content-Length\":\"733075\",\"Content-Type\":\"application/pdf\",\"Date\":\"Thu, 22 Oct 2026 12:34:22 GMT\",\"Last-Modified\":\"Thu, 21 Nov 2024 09:05:36 GMT\",\"Permissions-Policy\":\"accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()\",\"Referrer-Policy\":\"no-referrer, same-origin\",\"Request-Context\":\"appId=cid-v1:6f4928bd-f664-43ef-97e9-3ba28bae17d8\",\"Server\":\"cloudflare\",\"Strict-Transport-Security\":\"max-age=15552000\",\"Vary\":\"accept-encoding\",\"X-Content-Type-Options\":\"nosniff\",\"X-Frame-Options\":\"SAMEORIGIN\",\"X-XSS-Protection\":\"1; mode=block\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"public\",\"cf-cache-status\":\"HIT\",\"etag\":\"\\\"1db3bf486fc9f93\\\"\",\"expires\":\"Thu, 22 Oct 2026 12:39:07 GMT\"},\"omitted_headers\":[\"Set-Cookie\"],\"request_headers\":{\"User-Agent\":\"Mozilla/5.0\"},\"requested_url\":\"https://www.regjeringen.no/contentassets/65a4e1b12ca242b6b7c5958edd9dc5c1/no/pdfs/prp202420250016000dddpdfs.pdf\",\"sha256\":\"677716056269c07b8ec81bcae91d814b975123791635548281038d9beb3aa5db\",\"started_utc\":\"2026-10-22T12:34:22.182453+00:00\",\"status\":200}"
+    },
+    {
+      "id": "9a40e5843d48464663d42d7a40766ca9c051ae7fd281a9a30302fe12adc8ba7a",
+      "name": "originals/prop16s-ch2.html",
+      "sha256": "258d26e6d324bde709bf3d1cb660d7eb6f4248f537d4b0c77e095f17697cf8df",
+      "bytes": 100808,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"bytes\":100808,\"completed_utc\":\"2026-10-22T12:34:23.021581+00:00\",\"file\":\"originals/prop16s-ch2.html\",\"final_url\":\"https://www.regjeringen.no/no/dokumenter/prop.-16-s-20242025/id3075774/?ch=2\",\"headers\":{\"CF-RAY\":\"a4e8892c9ec653a1-CPH\",\"Cache-Control\":\"public,max-age=15\",\"Connection\":\"close\",\"Content-Type\":\"text/html; charset=utf-8\",\"Date\":\"Thu, 22 Oct 2026 12:34:22 GMT\",\"Permissions-Policy\":\"accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()\",\"Referrer-Policy\":\"no-referrer, same-origin\",\"Request-Context\":\"appId=cid-v1:6f4928bd-f664-43ef-97e9-3ba28bae17d8\",\"Server\":\"cloudflare\",\"Strict-Transport-Security\":\"max-age=15552000\",\"Transfer-Encoding\":\"chunked\",\"Vary\":\"accept-encoding\",\"X-Content-Type-Options\":\"nosniff\",\"X-Frame-Options\":\"SAMEORIGIN\",\"X-XSS-Protection\":\"1; mode=block\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cf-cache-status\":\"BYPASS\"},\"omitted_headers\":[\"Set-Cookie\"],\"request_headers\":{\"User-Agent\":\"Mozilla/5.0\"},\"requested_url\":\"https://www.regjeringen.no/no/dokumenter/prop.-16-s-20242025/id3075774/?ch=2\",\"sha256\":\"258d26e6d324bde709bf3d1cb660d7eb6f4248f537d4b0c77e095f17697cf8df\",\"started_utc\":\"2026-10-22T12:34:22.742014+00:00\",\"status\":200}"
+    },
+    {
+      "id": "8b0d20fcb8fc46377fb63a2cd344ed0c738171d94175042a40dfd9925427ee12",
+      "name": "originals/prop16s-ch4.html",
+      "sha256": "ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e",
+      "bytes": 118163,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"bytes\":118163,\"completed_utc\":\"2026-10-22T12:34:23.432045+00:00\",\"file\":\"originals/prop16s-ch4.html\",\"final_url\":\"https://www.regjeringen.no/no/dokumenter/prop.-16-s-20242025/id3075774/?ch=4\",\"headers\":{\"CF-RAY\":\"a4e8892e88c4c4ae-CPH\",\"Cache-Control\":\"public,max-age=15\",\"Connection\":\"close\",\"Content-Type\":\"text/html; charset=utf-8\",\"Date\":\"Thu, 22 Oct 2026 12:34:23 GMT\",\"Permissions-Policy\":\"accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()\",\"Referrer-Policy\":\"no-referrer, same-origin\",\"Request-Context\":\"appId=cid-v1:6f4928bd-f664-43ef-97e9-3ba28bae17d8\",\"Server\":\"cloudflare\",\"Strict-Transport-Security\":\"max-age=15552000\",\"Transfer-Encoding\":\"chunked\",\"Vary\":\"accept-encoding\",\"X-Content-Type-Options\":\"nosniff\",\"X-Frame-Options\":\"SAMEORIGIN\",\"X-XSS-Protection\":\"1; mode=block\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cf-cache-status\":\"BYPASS\"},\"omitted_headers\":[\"Set-Cookie\"],\"request_headers\":{\"User-Agent\":\"Mozilla/5.0\"},\"requested_url\":\"https://www.regjeringen.no/no/dokumenter/prop.-16-s-20242025/id3075774/?ch=4\",\"sha256\":\"ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e\",\"started_utc\":\"2026-10-22T12:34:23.021581+00:00\",\"status\":200}"
+    },
+    {
+      "id": "66b1ac40f314bf1351412472140b1d401695702ddda6c662c628feb4edfdc09b",
+      "name": "originals/inns81s.pdf",
+      "sha256": "5a29d0553991759d8ddc234899647e9e6b5e1f2885bf13edccfb26105a6be496",
+      "bytes": 331688,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"bytes\":331688,\"completed_utc\":\"2026-10-22T12:33:42.616702+00:00\",\"file\":\"originals/inns81s.pdf\",\"final_url\":\"https://www.stortinget.no/globalassets/pdf/innstillinger/stortinget/2024-2025/inns-202425-081s.pdf\",\"headers\":{\"accept-ranges\":\"bytes\",\"access-control-expose-headers\":\"Request-Context\",\"cache-control\":\"public, must-revalidate, max-age=154\",\"content-length\":\"331688\",\"content-type\":\"application/pdf\",\"date\":\"Thu, 22 Oct 2026 12:33:42 GMT\",\"etag\":\"\\\"1DB4B01FED53E00\\\"\",\"expires\":\"Thu, 22 Oct 2026 12:36:16 GMT\",\"last-modified\":\"Tue, 10 Dec 2024 12:49:48 GMT\",\"permissions-policy\":\"camera=(), microphone=(), geolocation=()\",\"referrer-policy\":\"strict-origin-when-cross-origin\",\"request-context\":\"appId=cid-v1:8e438a5b-7c4f-40c3-9a98-a564863acd5c\",\"strict-transport-security\":\"max-age=63072000; includeSubDomains; preload\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"SAMEORIGIN\",\"x-stackifyid\":\"V2|22bdc45f-dec7-4e2c-99f6-1c9d88ea35a7|C59049|CD39\"},\"omitted_headers\":[\"Set-Cookie\"],\"requested_url\":\"https://www.stortinget.no/globalassets/pdf/innstillinger/stortinget/2024-2025/inns-202425-081s.pdf\",\"sha256\":\"5a29d0553991759d8ddc234899647e9e6b5e1f2885bf13edccfb26105a6be496\",\"started_utc\":\"2026-10-22T12:33:42.377280+00:00\",\"status\":200}"
+    },
+    {
+      "id": "90b3f2e4d5ddb98cdbb99317d309bc467c2d942ac10d0c90f17449a006cb3e6a",
+      "name": "originals/inns81s.html",
+      "sha256": "e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95",
+      "bytes": 107925,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"bytes\":107925,\"completed_utc\":\"2026-10-22T12:33:42.881608+00:00\",\"file\":\"originals/inns81s.html\",\"final_url\":\"https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-081s/?all=true\",\"headers\":{\"access-control-expose-headers\":\"Request-Context\",\"cache-control\":\"public, must-revalidate, max-age=4609\",\"content-length\":\"107925\",\"content-security-policy\":\"default-src 'self'; child-src 'self' https://*.stortinget.no; connect-src 'self' https://*.stortinget.no https://*.cookiebot.eu https://*.cookiebot.com https://siteimproveanalytics.com https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com https://www.google.com/recaptcha/ https://stortinget.matomo.cloud https://api.dimu.org https://*.snl.no/api/ https://snl.no/api/ https://api.flickr.com/services/rest/ https://*.qbrick.com wss://*.qbrick.com https://*.dna.ip-only.net https://httpcache1.dna.ip-only.net https://ssl.p.jwpcdn.com/player/ https://*.essens.no https://cdn.tiny.cloud https://qdms.dimu.org https://httpcache1.dna.contentdelivery.net https://www.googletagmanager.com https://openseadragon.github.io https://*.dna.contentdelivery.net https://*.dna.qbrick.com https://ems.dimu.org; font-src 'self' data: https://*.stortinget.no https://script.hotjar.com https://*.qbrick.com https://siteimproveanalytics.com https://ssl.p.jwpcdn.com; frame-src 'self' https://*.stortinget.no https://*.cookiebot.eu https://*.cookiebot.com https://www.google.com/ https://*.qbrick.com https://siteimproveanalytics.com; img-src 'self' data: blob: https://*.stortinget.no https://*.cookiebot.eu https://*.cookiebot.com https://*.usercentrics.eu https://static.hotjar.com https://script.hotjar.com https://survey-images.hotjar.com https://www.googletagmanager.com/ https://mm.dimu.org/image/ http://licensebuttons.net/p/mark/1.0/80x15.png https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png https://*.static.flickr.com https://*.dna.ip-only.net https://prd.jwpltx.com https://*.amazonaws.com https://sp.tinymce.com https://ssl.essens.no https://play2.qbrick.com https://www.stortinget.no https://*.siteimproveanalytics.io https://*.dna.contentdelivery.net https://ems.dimu.org https://stortinget.matomo.cloud; manifest-src 'self'; media-src 'self' blob: https://*.stortinget.no https://*.dna.ip-only.net https://httpcache1.dna.contentdelivery.net https://*.dna.contentdelivery.net https://ems.dimu.org; object-src 'self'; script-src 'self' blob: https://*.stortinget.no https://static.hotjar.com https://script.hotjar.com https://www.googletagmanager.com/gtm.js 'unsafe-eval' https://stortinget.matomo.cloud https://*.qbrick.com https://*.dna.contentdelivery.net https://*.dna.qbrick.com https://siteimproveanalytics.com; script-src-elem 'self' 'unsafe-inline' https://openseadragon.github.io https://cdnjs.cloudflare.com https://*.cookiebot.eu https://*.cookiebot.com https://static.hotjar.com https://script.hotjar.com http://ajax.googleapis.com/ajax/libs/jquery/ https://www.googletagmanager.com https://www.gstatic.com https://www.google.com/recaptcha/ https://stortinget.matomo.cloud https://cdn.matomo.cloud/stortinget.matomo.cloud/ https://matomojs.trackify.info/ https://*.qbrick.com https://ssl.p.jwpcdn.com https://ssl.essens.no https://cdn.tiny.cloud https://siteimproveanalytics.com https://static.hotjar.com/; script-src-attr 'self' 'unsafe-inline'; style-src 'self' https://*.stortinget.no https://static.hotjar.com https://script.hotjar.com https://cdn.tiny.cloud; style-src-elem 'self' 'unsafe-inline' https://cdn.tiny.cloud https://play2.qbrick.com; style-src-attr 'self' 'unsafe-inline'; worker-src 'self' blob:; report-to main-endpoint; report-uri /api/CspReports/ReportAsync;\",\"content-type\":\"text/html; charset=utf-8\",\"date\":\"Thu, 22 Oct 2026 12:33:42 GMT\",\"etag\":\"\\\"v1-9a572bfb379dd699634f8577\\\"\",\"expires\":\"Thu, 22 Oct 2026 13:50:31 GMT\",\"last-modified\":\"Thu, 22 Oct 2026 12:33:42 GMT\",\"permissions-policy\":\"camera=(), microphone=(), geolocation=()\",\"referrer-policy\":\"strict-origin-when-cross-origin\",\"reporting-endpoints\":\"main-endpoint=\\\"/api/CspReports/ReportAsync\\\"\",\"request-context\":\"appId=cid-v1:8e438a5b-7c4f-40c3-9a98-a564863acd5c\",\"strict-transport-security\":\"max-age=63072000; includeSubDomains; preload\",\"vary\":\"*\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"SAMEORIGIN\"},\"omitted_headers\":[\"Set-Cookie\"],\"requested_url\":\"https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-081s/?all=true\",\"sha256\":\"e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95\",\"started_utc\":\"2026-10-22T12:33:42.616702+00:00\",\"status\":200}"
+    },
+    {
+      "id": "345c7de0a957509c0377afba25b4b8e00ce2cdff0e031739ff63f39a2a42bfae",
+      "name": "originals/votering-161224.html",
+      "sha256": "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5",
+      "bytes": 2094710,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"bytes\":2094710,\"completed_utc\":\"2026-10-22T12:33:47.782769+00:00\",\"file\":\"originals/votering-161224.html\",\"final_url\":\"https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2024-2025/refs-202425-12-16/?m=27\",\"headers\":{\"access-control-expose-headers\":\"Request-Context\",\"cache-control\":\"public, must-revalidate, max-age=80925\",\"content-length\":\"2094710\",\"content-security-policy\":\"default-src 'self'; child-src 'self' https://*.stortinget.no; connect-src 'self' https://*.stortinget.no https://*.cookiebot.eu https://*.cookiebot.com https://siteimproveanalytics.com https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com https://www.google.com/recaptcha/ https://stortinget.matomo.cloud https://api.dimu.org https://*.snl.no/api/ https://snl.no/api/ https://api.flickr.com/services/rest/ https://*.qbrick.com wss://*.qbrick.com https://*.dna.ip-only.net https://httpcache1.dna.ip-only.net https://ssl.p.jwpcdn.com/player/ https://*.essens.no https://cdn.tiny.cloud https://qdms.dimu.org https://httpcache1.dna.contentdelivery.net https://www.googletagmanager.com https://openseadragon.github.io https://*.dna.contentdelivery.net https://*.dna.qbrick.com https://ems.dimu.org; font-src 'self' data: https://*.stortinget.no https://script.hotjar.com https://*.qbrick.com https://siteimproveanalytics.com https://ssl.p.jwpcdn.com; frame-src 'self' https://*.stortinget.no https://*.cookiebot.eu https://*.cookiebot.com https://www.google.com/ https://*.qbrick.com https://siteimproveanalytics.com; img-src 'self' data: blob: https://*.stortinget.no https://*.cookiebot.eu https://*.cookiebot.com https://*.usercentrics.eu https://static.hotjar.com https://script.hotjar.com https://survey-images.hotjar.com https://www.googletagmanager.com/ https://mm.dimu.org/image/ http://licensebuttons.net/p/mark/1.0/80x15.png https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png https://*.static.flickr.com https://*.dna.ip-only.net https://prd.jwpltx.com https://*.amazonaws.com https://sp.tinymce.com https://ssl.essens.no https://play2.qbrick.com https://www.stortinget.no https://*.siteimproveanalytics.io https://*.dna.contentdelivery.net https://ems.dimu.org https://stortinget.matomo.cloud; manifest-src 'self'; media-src 'self' blob: https://*.stortinget.no https://*.dna.ip-only.net https://httpcache1.dna.contentdelivery.net https://*.dna.contentdelivery.net https://ems.dimu.org; object-src 'self'; script-src 'self' blob: https://*.stortinget.no https://static.hotjar.com https://script.hotjar.com https://www.googletagmanager.com/gtm.js 'unsafe-eval' https://stortinget.matomo.cloud https://*.qbrick.com https://*.dna.contentdelivery.net https://*.dna.qbrick.com https://siteimproveanalytics.com; script-src-elem 'self' 'unsafe-inline' https://openseadragon.github.io https://cdnjs.cloudflare.com https://*.cookiebot.eu https://*.cookiebot.com https://static.hotjar.com https://script.hotjar.com http://ajax.googleapis.com/ajax/libs/jquery/ https://www.googletagmanager.com https://www.gstatic.com https://www.google.com/recaptcha/ https://stortinget.matomo.cloud https://cdn.matomo.cloud/stortinget.matomo.cloud/ https://matomojs.trackify.info/ https://*.qbrick.com https://ssl.p.jwpcdn.com https://ssl.essens.no https://cdn.tiny.cloud https://siteimproveanalytics.com https://static.hotjar.com/; script-src-attr 'self' 'unsafe-inline'; style-src 'self' https://*.stortinget.no https://static.hotjar.com https://script.hotjar.com https://cdn.tiny.cloud; style-src-elem 'self' 'unsafe-inline' https://cdn.tiny.cloud https://play2.qbrick.com; style-src-attr 'self' 'unsafe-inline'; worker-src 'self' blob:; report-to main-endpoint; report-uri /api/CspReports/ReportAsync;\",\"content-type\":\"text/html; charset=utf-8\",\"date\":\"Thu, 22 Oct 2026 12:33:45 GMT\",\"etag\":\"\\\"v1-588f91528fc7a886b0663092\\\"\",\"expires\":\"Fri, 23 Oct 2026 11:02:31 GMT\",\"last-modified\":\"Thu, 22 Oct 2026 12:33:44 GMT\",\"permissions-policy\":\"camera=(), microphone=(), geolocation=()\",\"referrer-policy\":\"strict-origin-when-cross-origin\",\"reporting-endpoints\":\"main-endpoint=\\\"/api/CspReports/ReportAsync\\\"\",\"request-context\":\"appId=cid-v1:8e438a5b-7c4f-40c3-9a98-a564863acd5c\",\"strict-transport-security\":\"max-age=63072000; includeSubDomains; preload\",\"vary\":\"*\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"SAMEORIGIN\"},\"omitted_headers\":[\"Set-Cookie\"],\"requested_url\":\"https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-16/voteringer#161224-25\",\"sha256\":\"22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5\",\"started_utc\":\"2026-10-22T12:33:42.949972+00:00\",\"status\":200}"
+    },
+    {
+      "id": "17f4597f0ce41800b34cfa6d104d12cc0686500513134919de091a1f0df62893",
+      "name": "b6/40034048.xml",
+      "sha256": "2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850",
+      "bytes": 6058,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"bytes\":6058,\"decision_id\":\"40034048\",\"extraction\":\"Original byteprefix + ett komplett byteidentisk vedtaksobjekt + suffix\",\"fixture_kind\":\"derived_excerpt\",\"headers\":{\"Content-Type\":\"text/xml; charset=utf-8\"},\"object_bytes\":5686,\"object_start_byte_0\":1249812,\"provenance\":\"docs/research/issue-2/aar/input_manifest.json; tests/create_b6_fixtures.py\",\"retrieved_utc\":\"2026-10-20T11:36:10+00:00\",\"session_coverage\":\"partial\",\"sha256\":\"2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850\",\"source_response_bytes\":7479943,\"source_response_sha256\":\"9cfeaef59510a54ff8b2a695e0be368e67cfbab574f8d3f466c0c2f0c3c92680\",\"status\":200,\"url\":\"https://data.stortinget.no/eksport/stortingsvedtak?sesjonid=2024-2025\"}"
+    },
+    {
+      "id": "896d2e461a9eb45eae711d7de26f2cde3536a23640c589077edc9e88ed6b8443",
+      "name": "b6/40034048.json",
+      "sha256": "1b43cc3e77fb8b216d3d0bd2d51739c4200b38aabcdac907afcdf47d0218a79b",
+      "bytes": 786,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"bytes\":786,\"origin\":\"existing repository fixture, not fetched again in O1\",\"repository_path\":\"tests/fixtures/b6/40034048.json\",\"sha256\":\"1b43cc3e77fb8b216d3d0bd2d51739c4200b38aabcdac907afcdf47d0218a79b\"}"
+    },
+    {
+      "id": "187e546aeefd24b139ff7b84f079c43a478d9723319ac9cfd1dd1757a3a66e67",
+      "name": "b8/sak-100927.xml",
+      "sha256": "2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27",
+      "bytes": 12383,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"bytes\":12383,\"fixture_kind\":\"http_original\",\"headers\":{\"Access-Control-Allow-Headers\":[\"content-type\"],\"Access-Control-Allow-Origin\":[\"*\"],\"Access-Control-Expose-Headers\":[\"Request-Context\"],\"Arr-Disable-Session-Affinity\":[\"true\"],\"Cache-Control\":[\"public\"],\"Content-Type\":[\"text/xml; charset=utf-8\"],\"Date\":[\"Thu, 22 Oct 2026 09:04:48 GMT\"],\"Expires\":[\"Thu, 22 Oct 2026 09:02:48 GMT\"],\"Feature-Policy\":[\"accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'\"],\"Referrer-Policy\":[\"no-referrer-when-downgrade\",\"no-referrer\"],\"Request-Context\":[\"appId=cid-v1:f65c3fc2-55cc-4cb3-a6ec-85c3923903b8\"],\"Server\":[\"Microsoft-IIS/10.0\"],\"Strict-Transport-Security\":[\"max-age=16070400; includeSubDomains\"],\"Vary\":[\"Accept-encoding\"],\"X-AspNet-Version\":[\"4.0.30319\"],\"X-Content-Type-Options\":[\"nosniff\",\"nosniff\"],\"X-Frame-Options\":[\"sameorigin\",\"sameorigin\"]},\"retrieved_utc\":\"2026-10-22T09:04:48.0511379+00:00\",\"sha256\":\"2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27\",\"status\":200,\"timestamp_basis\":\"request_start_recorded_before_HTTP\",\"url\":\"https://data.stortinget.no/eksport/sak?sakid=100927\"}"
+    },
+    {
+      "id": "4399d9bbccc49be1076598e1570dccdae9790455fced1c5f03d58970c03fd732",
+      "name": "b8/sak-100927.json",
+      "sha256": "07b85b79438fa1cfcc8774c36291fc28d0cfdc7d429ca82e1e5810bca89ac895",
+      "bytes": 1560,
+      "status": "kildeverifisert",
+      "metadata_json": "{\"bytes\":1560,\"origin\":\"existing repository fixture, not fetched again in O1\",\"repository_path\":\"tests/fixtures/b8/sak-100927.json\",\"sha256\":\"07b85b79438fa1cfcc8774c36291fc28d0cfdc7d429ca82e1e5810bca89ac895\"}"
+    }
+  ],
+  "independent_source_controls": {
+    "authorizations": [
+      {
+        "id": "5a6b3350621187ebc8ea03887c0b9a19158329d8c5f738c2488da3c1322e0178",
+        "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[2]/p",
+        "frame_kr": 8000000,
+        "accounts": [
+          "1420/21"
+        ]
+      },
+      {
+        "id": "215da4b718000b5eafcc8377ebcf696a96357a58777b761891429bbafa990a4a",
+        "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[3]/div/table/tbody/tr[2]",
+        "frame_kr": 601000000,
+        "accounts": [
+          "1420/61"
+        ]
+      },
+      {
+        "id": "7b2b367d8ab45fc580d8c48421c10162052c709ae95928d8616a667896737b78",
+        "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[3]/div/table/tbody/tr[3]",
+        "frame_kr": 266300000,
+        "accounts": [
+          "1420/62"
+        ]
+      },
+      {
+        "id": "66ec5bc2149a32e5315620c938255a34248ba1867191e330fd253e1a35dad345",
+        "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[4]/p",
+        "frame_kr": 16300000,
+        "accounts": [
+          "1420/39",
+          "1420/69",
+          "1420/79"
+        ]
+      },
+      {
+        "id": "9d8bafe886a4fef0236f803a95200e9b25b90b4a5be7e2ea3eb16ec8e6b2d423",
+        "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[5]/ol/li[1]",
+        "frame_kr": null,
+        "accounts": [
+          "1420/66"
+        ]
+      },
+      {
+        "id": "c2fd9ae4e40e97802d126102c5a52d7b97d79ed497137265c73f2efbe1836b06",
+        "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[5]/ol/li[2]",
+        "frame_kr": null,
+        "accounts": [
+          "1420/87"
+        ]
+      },
+      {
+        "id": "d31fe53f4765fb1d44399fe01a9d2d5e5481b25c81de330bfeb1db5a7d237997",
+        "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[5]/ol/li[3]",
+        "frame_kr": null,
+        "accounts": [
+          "1429/60"
+        ]
+      },
+      {
+        "id": "cd0ad4380c8b9c4a2c8adcd58934f197be13285a522c80d9eae752a60ce5fed4",
+        "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[6]/ol/li[1]",
+        "frame_kr": 25000000,
+        "accounts": [
+          "1471/1",
+          "4471/3"
+        ]
+      },
+      {
+        "id": "e36381f08a347d9865181e814033553daa0a9bcba7dfc1f75f314bbedec59d4b",
+        "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[6]/ol/li[2]",
+        "frame_kr": null,
+        "accounts": []
+      }
+    ],
+    "formal_branch_locators": [
+      {
+        "branch_id": "a9f3204159e1e3eaf57c31682eba14881088c73a7fc01c63392059eab1fbf6df",
+        "api_id": "40034048",
+        "case_id": "100927",
+        "committee_point": "I",
+        "source_sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b",
+        "locator": "/*/*[4]/*[541]"
+      },
+      {
+        "branch_id": "500c045c050a5a9a83a0073ac014350fe5a7e4ae94931704398af70f517a23a2",
+        "api_id": "40034220",
+        "case_id": "100889",
+        "committee_point": "I",
+        "source_sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b",
+        "locator": "/*/*[4]/*[582]"
+      },
+      {
+        "branch_id": "0929fe355c556602dd7b43851d5b3d4fd796b1cda34d6a7946cf37bdf9ce2221",
+        "api_id": "40034221",
+        "case_id": "100889",
+        "committee_point": "II",
+        "source_sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b",
+        "locator": "/*/*[4]/*[583]"
+      },
+      {
+        "branch_id": "63f3d03b464a1135d80ebe04dd0924ccfa04f777eaa8b68fa065cf6b9a81303c",
+        "api_id": "40034222",
+        "case_id": "100889",
+        "committee_point": "III",
+        "source_sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b",
+        "locator": "/*/*[4]/*[584]"
+      },
+      {
+        "branch_id": "b4e33b6fb3ca47538421d71f7206d42f300c14f830d2f417b7317a185fefbb82",
+        "api_id": "40034223",
+        "case_id": "100889",
+        "committee_point": "IV",
+        "source_sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b",
+        "locator": "/*/*[4]/*[585]"
+      },
+      {
+        "branch_id": "e67e95684f5d33d674a1b9675ae62b551289ee375111b9524aaebc5722325ae0",
+        "api_id": "40034224",
+        "case_id": "100889",
+        "committee_point": "V",
+        "source_sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b",
+        "locator": "/*/*[4]/*[586]"
+      },
+      {
+        "branch_id": "cd5a243bf9b3417a9f4c8c4b9de39c7564da192769cf1f4d6a3612a95fa17459",
+        "api_id": "40034049",
+        "case_id": "100927",
+        "committee_point": "II",
+        "source_sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b",
+        "locator": "/*/*[4]/*[542]"
+      },
+      {
+        "branch_id": "7716a91b12ff39d74dc742d98ac75e0930971a9f311fe564d1917dccff9375f5",
+        "api_id": "40034225",
+        "case_id": "100889",
+        "committee_point": "VI",
+        "source_sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b",
+        "locator": "/*/*[4]/*[587]"
+      }
+    ]
+  },
+  "coverage": [
+    {
+      "id": "18facb6ad945568c2d41849f93130d0e8fe03683715db17fca1903c74471b8ba",
+      "document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+      "table_groups": 37,
+      "table_fields": 111,
+      "account_count": 45,
+      "status": "111_strukturerte_endringstabellfelt",
+      "scope": "bare_endringstabell; omtale_og_fullmaktsvilkar_ikke_fulltolket",
+      "historical_issue": "prop16_delvis_strukturert:35_av_37_tabellgrupper_uten_belopsimport"
+    }
+  ],
+  "authorizations": [
+    {
+      "id": "5a6b3350621187ebc8ea03887c0b9a19158329d8c5f738c2488da3c1322e0178",
+      "document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+      "source_id": "8b0d20fcb8fc46377fb63a2cd344ed0c738171d94175042a40dfd9925427ee12",
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[2]/p",
+      "roman": "II",
+      "point": "1",
+      "role": "bestillingsramme",
+      "period": "2024; fremtidige år; nye forpliktelser og gammelt ansvar",
+      "accounts": [
+        "1420/21"
+      ],
+      "frame_kr": 8000000,
+      "text": "\n    II\n    Bestillingsfullmakt\n    Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan gi Miljødirektoratet fullmakt til å forplikte staten for fremtidige år til å kjøpe pukkellaksefeller ut over gitte bevilgninger under kap. 1420 Miljødirektoratet, post 21 Spesielle driftsutgifter, men slik at samlet ramme for nye bestillinger og gammelt ansvar ikke overstiger 8 mill. kroner.\n  ",
+      "html": "<div class=\"K-DEL-VEDTAKDEL\">\n    <h2 class=\"K-TIT-VEDTAKDEL\">II</h2>\n    <h2 class=\"K-TIT-UNDERTIT\">Bestillingsfullmakt</h2>\n    <p id=\"kap2-p57\">Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan gi Miljødirektoratet fullmakt til å forplikte staten for fremtidige år til å kjøpe pukkellaksefeller ut over gitte bevilgninger under kap. 1420 Miljødirektoratet, post 21 Spesielle driftsutgifter, men slik at samlet ramme for nye bestillinger og gammelt ansvar ikke overstiger 8 mill. kroner.</p>\n  </div>",
+      "status": "kildebundet_inventar_ikke_bevilgningsdelta"
+    },
+    {
+      "id": "215da4b718000b5eafcc8377ebcf696a96357a58777b761891429bbafa990a4a",
+      "document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+      "source_id": "8b0d20fcb8fc46377fb63a2cd344ed0c738171d94175042a40dfd9925427ee12",
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[3]/div/table/tbody/tr[2]",
+      "roman": "III",
+      "point": "1",
+      "role": "tilsagnsramme",
+      "period": "2024; fremtidige år; nye forpliktelser og gammelt ansvar",
+      "accounts": [
+        "1420/61"
+      ],
+      "frame_kr": 601000000,
+      "text": "\n    III\n    Tilsagnsfullmakter\n    Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan gi tilsagn om tilskudd utover gitte bevilgninger, men slik at samlet ramme for nye tilsagn og gammelt ansvar ikke overstiger følgende beløp:\n    \n      \n        \n          \n            \n              Kap.\n            \n            \n              Post\n            \n            \n              Betegnelse\n            \n            \n              Samlet ramme\n            \n          \n        \n        \n          \n            \n              1420\n            \n            \n              \n            \n            \n              Miljødirektoratet\n            \n            \n              \n            \n          \n          \n            \n              \n            \n            \n              61\n            \n            \n              Tilskudd til klimatiltak og klimatilpasning\n            \n            \n              601,0 mill. kroner\n            \n          \n          \n            \n              \n            \n            \n              62\n            \n            \n              Tilskudd til grønn skipsfart\n            \n            \n              266,3 mill. kroner\n            \n          \n        \n      \n    \n  ",
+      "html": "<div class=\"K-DEL-VEDTAKDEL\">\n    <h2 class=\"K-TIT-VEDTAKDEL\">III</h2>\n    <h2 class=\"K-TIT-UNDERTIT\">Tilsagnsfullmakter</h2>\n    <p id=\"kap2-p58\">Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan gi tilsagn om tilskudd utover gitte bevilgninger, men slik at samlet ramme for nye tilsagn og gammelt ansvar ikke overstiger følgende beløp:</p>\n    <div class=\"K-TBL\" id=\"tabx3\">\n      <table class=\"K-TABLE\">\n        <thead>\n          <tr>\n            <th class=\"BOTTOM\">\n              <p>Kap.</p>\n            </th>\n            <th class=\"BOTTOM\">\n              <p>Post</p>\n            </th>\n            <th class=\"BOTTOM\">\n              <p>Betegnelse</p>\n            </th>\n            <th class=\"RIGHT BOTTOM\">\n              <p class=\"RIGHT\">Samlet ramme</p>\n            </th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td class=\"TOP\">\n              <p>1420</p>\n            </td>\n            <td class=\"TOP\">\n              <p></p>\n            </td>\n            <td class=\"TOP\">\n              <p>Miljødirektoratet</p>\n            </td>\n            <td class=\"RIGHT BOTTOM\">\n              <p class=\"RIGHT\"></p>\n            </td>\n          </tr>\n          <tr>\n            <td class=\"TOP\">\n              <p></p>\n            </td>\n            <td class=\"TOP\">\n              <p>61</p>\n            </td>\n            <td class=\"TOP\">\n              <p>Tilskudd til klimatiltak og klimatilpasning</p>\n            </td>\n            <td class=\"RIGHT BOTTOM\">\n              <p class=\"RIGHT\">601,0 mill. kroner</p>\n            </td>\n          </tr>\n          <tr>\n            <td class=\"TOP\">\n              <p></p>\n            </td>\n            <td class=\"TOP\">\n              <p>62</p>\n            </td>\n            <td class=\"TOP\">\n              <p>Tilskudd til grønn skipsfart</p>\n            </td>\n            <td class=\"RIGHT BOTTOM\">\n              <p class=\"RIGHT\">266,3 mill. kroner</p>\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n  </div>",
+      "status": "kildebundet_inventar_ikke_bevilgningsdelta"
+    },
+    {
+      "id": "7b2b367d8ab45fc580d8c48421c10162052c709ae95928d8616a667896737b78",
+      "document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+      "source_id": "8b0d20fcb8fc46377fb63a2cd344ed0c738171d94175042a40dfd9925427ee12",
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[3]/div/table/tbody/tr[3]",
+      "roman": "III",
+      "point": "2",
+      "role": "tilsagnsramme",
+      "period": "2024; fremtidige år; nye forpliktelser og gammelt ansvar",
+      "accounts": [
+        "1420/62"
+      ],
+      "frame_kr": 266300000,
+      "text": "\n    III\n    Tilsagnsfullmakter\n    Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan gi tilsagn om tilskudd utover gitte bevilgninger, men slik at samlet ramme for nye tilsagn og gammelt ansvar ikke overstiger følgende beløp:\n    \n      \n        \n          \n            \n              Kap.\n            \n            \n              Post\n            \n            \n              Betegnelse\n            \n            \n              Samlet ramme\n            \n          \n        \n        \n          \n            \n              1420\n            \n            \n              \n            \n            \n              Miljødirektoratet\n            \n            \n              \n            \n          \n          \n            \n              \n            \n            \n              61\n            \n            \n              Tilskudd til klimatiltak og klimatilpasning\n            \n            \n              601,0 mill. kroner\n            \n          \n          \n            \n              \n            \n            \n              62\n            \n            \n              Tilskudd til grønn skipsfart\n            \n            \n              266,3 mill. kroner\n            \n          \n        \n      \n    \n  ",
+      "html": "<div class=\"K-DEL-VEDTAKDEL\">\n    <h2 class=\"K-TIT-VEDTAKDEL\">III</h2>\n    <h2 class=\"K-TIT-UNDERTIT\">Tilsagnsfullmakter</h2>\n    <p id=\"kap2-p58\">Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan gi tilsagn om tilskudd utover gitte bevilgninger, men slik at samlet ramme for nye tilsagn og gammelt ansvar ikke overstiger følgende beløp:</p>\n    <div class=\"K-TBL\" id=\"tabx3\">\n      <table class=\"K-TABLE\">\n        <thead>\n          <tr>\n            <th class=\"BOTTOM\">\n              <p>Kap.</p>\n            </th>\n            <th class=\"BOTTOM\">\n              <p>Post</p>\n            </th>\n            <th class=\"BOTTOM\">\n              <p>Betegnelse</p>\n            </th>\n            <th class=\"RIGHT BOTTOM\">\n              <p class=\"RIGHT\">Samlet ramme</p>\n            </th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td class=\"TOP\">\n              <p>1420</p>\n            </td>\n            <td class=\"TOP\">\n              <p></p>\n            </td>\n            <td class=\"TOP\">\n              <p>Miljødirektoratet</p>\n            </td>\n            <td class=\"RIGHT BOTTOM\">\n              <p class=\"RIGHT\"></p>\n            </td>\n          </tr>\n          <tr>\n            <td class=\"TOP\">\n              <p></p>\n            </td>\n            <td class=\"TOP\">\n              <p>61</p>\n            </td>\n            <td class=\"TOP\">\n              <p>Tilskudd til klimatiltak og klimatilpasning</p>\n            </td>\n            <td class=\"RIGHT BOTTOM\">\n              <p class=\"RIGHT\">601,0 mill. kroner</p>\n            </td>\n          </tr>\n          <tr>\n            <td class=\"TOP\">\n              <p></p>\n            </td>\n            <td class=\"TOP\">\n              <p>62</p>\n            </td>\n            <td class=\"TOP\">\n              <p>Tilskudd til grønn skipsfart</p>\n            </td>\n            <td class=\"RIGHT BOTTOM\">\n              <p class=\"RIGHT\">266,3 mill. kroner</p>\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n  </div>",
+      "status": "kildebundet_inventar_ikke_bevilgningsdelta"
+    },
+    {
+      "id": "66ec5bc2149a32e5315620c938255a34248ba1867191e330fd253e1a35dad345",
+      "document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+      "source_id": "8b0d20fcb8fc46377fb63a2cd344ed0c738171d94175042a40dfd9925427ee12",
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[4]/p",
+      "roman": "IV",
+      "point": "1",
+      "role": "felles_forpliktelsesramme",
+      "period": "2024; fremtidige år; nye forpliktelser og gammelt ansvar",
+      "accounts": [
+        "1420/39",
+        "1420/69",
+        "1420/79"
+      ],
+      "frame_kr": 16300000,
+      "text": "\n    IV\n    Fullmakt til å inngå forpliktelser\n    Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan pådra forpliktelser for fremtidige år til å kjøpe inn materiell og til å gi tilsagn om tilskudd ut over gitte bevilgninger under kap. 1420 Miljødirektoratet, postene 39, 69 og 79 Oppryddingstiltak, men slik at samlet ramme for nye forpliktelser og gammelt ansvar ikke overstiger 16,3 mill. kroner.\n  ",
+      "html": "<div class=\"K-DEL-VEDTAKDEL\">\n    <h2 class=\"K-TIT-VEDTAKDEL\">IV</h2>\n    <h2 class=\"K-TIT-UNDERTIT\">Fullmakt til å inngå forpliktelser</h2>\n    <p id=\"kap2-p59\">Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan pådra forpliktelser for fremtidige år til å kjøpe inn materiell og til å gi tilsagn om tilskudd ut over gitte bevilgninger under kap. 1420 Miljødirektoratet, postene 39, 69 og 79 Oppryddingstiltak, men slik at samlet ramme for nye forpliktelser og gammelt ansvar ikke overstiger 16,3 mill. kroner.</p>\n  </div>",
+      "status": "kildebundet_inventar_ikke_bevilgningsdelta"
+    },
+    {
+      "id": "9d8bafe886a4fef0236f803a95200e9b25b90b4a5be7e2ea3eb16ec8e6b2d423",
+      "document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+      "source_id": "8b0d20fcb8fc46377fb63a2cd344ed0c738171d94175042a40dfd9925427ee12",
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[5]/ol/li[1]",
+      "roman": "V",
+      "point": "1",
+      "role": "stikkord",
+      "period": "2024",
+      "accounts": [
+        "1420/66"
+      ],
+      "frame_kr": null,
+      "text": "\n    V\n    Stikkordsfullmakt\n    Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan:\n    \n      \n        Tilføye stikkordet «kan overføres» til bevilgning under kap. 1420 Miljødirektoratet, post 66 Tilskudd til kommuner for å bedre tilgang til strandsonen lang Oslofjorden\n      \n      \n        Tilføye stikkordet «kan overføres» til bevilgning under kap. 1420 Miljødirektoratet, post 87 Tilskudd til natur og friluftsliv i områder berørt av landbaserte vindkraftverk\n      \n      \n        Tilføye stikkordet «kan overføres» til bevilgning under kap. 1429 Riksantikvaren, post 60 Kulturminnekompetanse i kommunene\n      \n    \n  ",
+      "html": "<div class=\"K-DEL-VEDTAKDEL\">\n    <h2 class=\"K-TIT-VEDTAKDEL\">V</h2>\n    <h2 class=\"K-TIT-UNDERTIT\">Stikkordsfullmakt</h2>\n    <p id=\"kap2-p60\">Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan:</p>\n    <ol class=\"krnl_list_decimal\">\n      <li>\n        <p>Tilføye stikkordet «kan overføres» til bevilgning under kap. 1420 Miljødirektoratet, post 66 Tilskudd til kommuner for å bedre tilgang til strandsonen lang Oslofjorden</p>\n      </li>\n      <li>\n        <p>Tilføye stikkordet «kan overføres» til bevilgning under kap. 1420 Miljødirektoratet, post 87 Tilskudd til natur og friluftsliv i områder berørt av landbaserte vindkraftverk</p>\n      </li>\n      <li>\n        <p>Tilføye stikkordet «kan overføres» til bevilgning under kap. 1429 Riksantikvaren, post 60 Kulturminnekompetanse i kommunene</p>\n      </li>\n    </ol>\n  </div>",
+      "status": "kildebundet_inventar_ikke_bevilgningsdelta"
+    },
+    {
+      "id": "c2fd9ae4e40e97802d126102c5a52d7b97d79ed497137265c73f2efbe1836b06",
+      "document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+      "source_id": "8b0d20fcb8fc46377fb63a2cd344ed0c738171d94175042a40dfd9925427ee12",
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[5]/ol/li[2]",
+      "roman": "V",
+      "point": "2",
+      "role": "stikkord",
+      "period": "2024",
+      "accounts": [
+        "1420/87"
+      ],
+      "frame_kr": null,
+      "text": "\n    V\n    Stikkordsfullmakt\n    Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan:\n    \n      \n        Tilføye stikkordet «kan overføres» til bevilgning under kap. 1420 Miljødirektoratet, post 66 Tilskudd til kommuner for å bedre tilgang til strandsonen lang Oslofjorden\n      \n      \n        Tilføye stikkordet «kan overføres» til bevilgning under kap. 1420 Miljødirektoratet, post 87 Tilskudd til natur og friluftsliv i områder berørt av landbaserte vindkraftverk\n      \n      \n        Tilføye stikkordet «kan overføres» til bevilgning under kap. 1429 Riksantikvaren, post 60 Kulturminnekompetanse i kommunene\n      \n    \n  ",
+      "html": "<div class=\"K-DEL-VEDTAKDEL\">\n    <h2 class=\"K-TIT-VEDTAKDEL\">V</h2>\n    <h2 class=\"K-TIT-UNDERTIT\">Stikkordsfullmakt</h2>\n    <p id=\"kap2-p60\">Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan:</p>\n    <ol class=\"krnl_list_decimal\">\n      <li>\n        <p>Tilføye stikkordet «kan overføres» til bevilgning under kap. 1420 Miljødirektoratet, post 66 Tilskudd til kommuner for å bedre tilgang til strandsonen lang Oslofjorden</p>\n      </li>\n      <li>\n        <p>Tilføye stikkordet «kan overføres» til bevilgning under kap. 1420 Miljødirektoratet, post 87 Tilskudd til natur og friluftsliv i områder berørt av landbaserte vindkraftverk</p>\n      </li>\n      <li>\n        <p>Tilføye stikkordet «kan overføres» til bevilgning under kap. 1429 Riksantikvaren, post 60 Kulturminnekompetanse i kommunene</p>\n      </li>\n    </ol>\n  </div>",
+      "status": "kildebundet_inventar_ikke_bevilgningsdelta"
+    },
+    {
+      "id": "d31fe53f4765fb1d44399fe01a9d2d5e5481b25c81de330bfeb1db5a7d237997",
+      "document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+      "source_id": "8b0d20fcb8fc46377fb63a2cd344ed0c738171d94175042a40dfd9925427ee12",
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[5]/ol/li[3]",
+      "roman": "V",
+      "point": "3",
+      "role": "stikkord",
+      "period": "2024",
+      "accounts": [
+        "1429/60"
+      ],
+      "frame_kr": null,
+      "text": "\n    V\n    Stikkordsfullmakt\n    Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan:\n    \n      \n        Tilføye stikkordet «kan overføres» til bevilgning under kap. 1420 Miljødirektoratet, post 66 Tilskudd til kommuner for å bedre tilgang til strandsonen lang Oslofjorden\n      \n      \n        Tilføye stikkordet «kan overføres» til bevilgning under kap. 1420 Miljødirektoratet, post 87 Tilskudd til natur og friluftsliv i områder berørt av landbaserte vindkraftverk\n      \n      \n        Tilføye stikkordet «kan overføres» til bevilgning under kap. 1429 Riksantikvaren, post 60 Kulturminnekompetanse i kommunene\n      \n    \n  ",
+      "html": "<div class=\"K-DEL-VEDTAKDEL\">\n    <h2 class=\"K-TIT-VEDTAKDEL\">V</h2>\n    <h2 class=\"K-TIT-UNDERTIT\">Stikkordsfullmakt</h2>\n    <p id=\"kap2-p60\">Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan:</p>\n    <ol class=\"krnl_list_decimal\">\n      <li>\n        <p>Tilføye stikkordet «kan overføres» til bevilgning under kap. 1420 Miljødirektoratet, post 66 Tilskudd til kommuner for å bedre tilgang til strandsonen lang Oslofjorden</p>\n      </li>\n      <li>\n        <p>Tilføye stikkordet «kan overføres» til bevilgning under kap. 1420 Miljødirektoratet, post 87 Tilskudd til natur og friluftsliv i områder berørt av landbaserte vindkraftverk</p>\n      </li>\n      <li>\n        <p>Tilføye stikkordet «kan overføres» til bevilgning under kap. 1429 Riksantikvaren, post 60 Kulturminnekompetanse i kommunene</p>\n      </li>\n    </ol>\n  </div>",
+      "status": "kildebundet_inventar_ikke_bevilgningsdelta"
+    },
+    {
+      "id": "cd0ad4380c8b9c4a2c8adcd58934f197be13285a522c80d9eae752a60ce5fed4",
+      "document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+      "source_id": "8b0d20fcb8fc46377fb63a2cd344ed0c738171d94175042a40dfd9925427ee12",
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[6]/ol/li[1]",
+      "roman": "VI",
+      "point": "1",
+      "role": "forskutteringsramme",
+      "period": "2024",
+      "accounts": [
+        "1471/1",
+        "4471/3"
+      ],
+      "frame_kr": 25000000,
+      "text": "\n    VI\n    Fullmakt til forskuttering i oppdragsprosjekter\n    \n      \n        Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan gi Norsk Polarinstitutt fullmakt til å sette i gang oppdragsprosjekter før finansieringen i sin helhet er innbetalt til Norsk Polarinstitutt, forutsatt at det er inngått en bindende avtale med betryggende sikkerhet om innbetaling mellom partene. Fullmakten begrenses oppad til 25 mill. kroner og gjelder utgifter ført på kap. 1471 Norsk Polarinstitutt, post 01 Driftsutgifter mot inntekter ført på kap. 4471 Norsk Polarinstitutt, post 03 Inntekter fra diverse tjenesteyting.\n      \n      \n        Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan gi Norsk Polarinstitutt fullmakt til å føre forskuddsutbetalinger i oppdragsprosjekter på mellomværende med statskassen. Utgiftene vil bli rapportert til statsregnskapet på det tidspunkt inntektene i oppdragsprosjektene kommer til innbetaling og rapporteres til statsregnskapet.\n      \n    \n    \n  ",
+      "html": "<div class=\"K-DEL-VEDTAKDEL\">\n    <h2 class=\"K-TIT-VEDTAKDEL\">VI</h2>\n    <h2 class=\"K-TIT-UNDERTIT\">Fullmakt til forskuttering i oppdragsprosjekter</h2>\n    <ol class=\"krnl_list_decimal\">\n      <li>\n        <p>Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan gi Norsk Polarinstitutt fullmakt til å sette i gang oppdragsprosjekter før finansieringen i sin helhet er innbetalt til Norsk Polarinstitutt, forutsatt at det er inngått en bindende avtale med betryggende sikkerhet om innbetaling mellom partene. Fullmakten begrenses oppad til 25 mill. kroner og gjelder utgifter ført på kap. 1471 Norsk Polarinstitutt, post 01 Driftsutgifter mot inntekter ført på kap. 4471 Norsk Polarinstitutt, post 03 Inntekter fra diverse tjenesteyting.</p>\n      </li>\n      <li>\n        <p>Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan gi Norsk Polarinstitutt fullmakt til å føre forskuddsutbetalinger i oppdragsprosjekter på mellomværende med statskassen. Utgiftene vil bli rapportert til statsregnskapet på det tidspunkt inntektene i oppdragsprosjektene kommer til innbetaling og rapporteres til statsregnskapet.</p>\n      </li>\n    </ol>\n    <p id=\"kap2-p61\"></p>\n  </div>",
+      "status": "kildebundet_inventar_ikke_bevilgningsdelta"
+    },
+    {
+      "id": "e36381f08a347d9865181e814033553daa0a9bcba7dfc1f75f314bbedec59d4b",
+      "document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+      "source_id": "8b0d20fcb8fc46377fb63a2cd344ed0c738171d94175042a40dfd9925427ee12",
+      "locator": "/html/body/main/div/div[3]/div[3]/div/div/div[6]/ol/li[2]",
+      "roman": "VI",
+      "point": "2",
+      "role": "regnskapsregel",
+      "period": "2024",
+      "accounts": [],
+      "frame_kr": null,
+      "text": "\n    VI\n    Fullmakt til forskuttering i oppdragsprosjekter\n    \n      \n        Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan gi Norsk Polarinstitutt fullmakt til å sette i gang oppdragsprosjekter før finansieringen i sin helhet er innbetalt til Norsk Polarinstitutt, forutsatt at det er inngått en bindende avtale med betryggende sikkerhet om innbetaling mellom partene. Fullmakten begrenses oppad til 25 mill. kroner og gjelder utgifter ført på kap. 1471 Norsk Polarinstitutt, post 01 Driftsutgifter mot inntekter ført på kap. 4471 Norsk Polarinstitutt, post 03 Inntekter fra diverse tjenesteyting.\n      \n      \n        Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan gi Norsk Polarinstitutt fullmakt til å føre forskuddsutbetalinger i oppdragsprosjekter på mellomværende med statskassen. Utgiftene vil bli rapportert til statsregnskapet på det tidspunkt inntektene i oppdragsprosjektene kommer til innbetaling og rapporteres til statsregnskapet.\n      \n    \n    \n  ",
+      "html": "<div class=\"K-DEL-VEDTAKDEL\">\n    <h2 class=\"K-TIT-VEDTAKDEL\">VI</h2>\n    <h2 class=\"K-TIT-UNDERTIT\">Fullmakt til forskuttering i oppdragsprosjekter</h2>\n    <ol class=\"krnl_list_decimal\">\n      <li>\n        <p>Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan gi Norsk Polarinstitutt fullmakt til å sette i gang oppdragsprosjekter før finansieringen i sin helhet er innbetalt til Norsk Polarinstitutt, forutsatt at det er inngått en bindende avtale med betryggende sikkerhet om innbetaling mellom partene. Fullmakten begrenses oppad til 25 mill. kroner og gjelder utgifter ført på kap. 1471 Norsk Polarinstitutt, post 01 Driftsutgifter mot inntekter ført på kap. 4471 Norsk Polarinstitutt, post 03 Inntekter fra diverse tjenesteyting.</p>\n      </li>\n      <li>\n        <p>Stortinget samtykker i at Klima- og miljødepartementet i 2024 kan gi Norsk Polarinstitutt fullmakt til å føre forskuddsutbetalinger i oppdragsprosjekter på mellomværende med statskassen. Utgiftene vil bli rapportert til statsregnskapet på det tidspunkt inntektene i oppdragsprosjektene kommer til innbetaling og rapporteres til statsregnskapet.</p>\n      </li>\n    </ol>\n    <p id=\"kap2-p61\"></p>\n  </div>",
+      "status": "kildebundet_inventar_ikke_bevilgningsdelta"
+    }
+  ],
+  "branches": [
+    {
+      "id": "a9f3204159e1e3eaf57c31682eba14881088c73a7fc01c63392059eab1fbf6df",
+      "from_document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+      "to_document_id": "b9be3dd31be84266cd5ab792209c96672573c5ee7688291c806177bfe7bca3ce",
+      "case_id": "100927",
+      "accounts": [
+        "1429/1",
+        "1429/22"
+      ],
+      "point": "I",
+      "committee_point": "I",
+      "decision_ids": [
+        "40034048"
+      ],
+      "evidence_ids": [
+        "ed5d05e6068206c49001e334cbb8a2a7b6b1ce38f857a5aca90e2fec1c8324b8"
+      ],
+      "status": "kildeverifisert",
+      "amount_stage": "T1_bevart"
+    },
+    {
+      "id": "500c045c050a5a9a83a0073ac014350fe5a7e4ae94931704398af70f517a23a2",
+      "from_document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+      "to_document_id": "a9afcebb816094aa293c592deb5b23a74b0bb25b19b35167f7f08c32a3def409",
+      "case_id": "100889",
+      "accounts": [
+        "1400/1",
+        "1400/21",
+        "1400/71",
+        "1400/76",
+        "1410/21",
+        "1410/70",
+        "1411/1",
+        "1412/70",
+        "1420/1",
+        "1420/21",
+        "1420/23",
+        "1420/61",
+        "1420/62",
+        "1420/69",
+        "1420/74",
+        "1420/75",
+        "1420/80",
+        "1423/1",
+        "1471/1",
+        "1471/21",
+        "1474/1",
+        "1481/1",
+        "1481/22",
+        "1482/1",
+        "1482/73",
+        "4400/2",
+        "4400/3",
+        "4420/4",
+        "4420/6",
+        "4420/7",
+        "4420/9",
+        "4420/40",
+        "4420/85",
+        "4471/3",
+        "4481/1"
+      ],
+      "point": "I",
+      "committee_point": "I",
+      "decision_ids": [
+        "40034220"
+      ],
+      "evidence_ids": [
+        "41caef6806639d6e5195a14bf93914b7e7fc0630156b98a3a662d6f089e6e2ec",
+        "6c1152b1f3749223b031b6942ae80a7996c8e74399743489edd0a99f303c9ed8",
+        "66f18ef3838ccaf3b3428689ff05916b35b3b5cc5ea08927503077c1b57ae2d3",
+        "8df02a830c028bc0162f87f2504dabc7f3b4b7000144c33afeae0deafe258af4:/*/*[4]/*[582]"
+      ],
+      "status": "kildeverifisert",
+      "amount_stage": "ikke_strukturert_T6"
+    },
+    {
+      "id": "0929fe355c556602dd7b43851d5b3d4fd796b1cda34d6a7946cf37bdf9ce2221",
+      "from_document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+      "to_document_id": "a9afcebb816094aa293c592deb5b23a74b0bb25b19b35167f7f08c32a3def409",
+      "case_id": "100889",
+      "accounts": [
+        "1420/21"
+      ],
+      "point": "II",
+      "committee_point": "II",
+      "decision_ids": [
+        "40034221"
+      ],
+      "evidence_ids": [
+        "41caef6806639d6e5195a14bf93914b7e7fc0630156b98a3a662d6f089e6e2ec",
+        "6c1152b1f3749223b031b6942ae80a7996c8e74399743489edd0a99f303c9ed8",
+        "66f18ef3838ccaf3b3428689ff05916b35b3b5cc5ea08927503077c1b57ae2d3",
+        "5a6b3350621187ebc8ea03887c0b9a19158329d8c5f738c2488da3c1322e0178",
+        "8df02a830c028bc0162f87f2504dabc7f3b4b7000144c33afeae0deafe258af4:/*/*[4]/*[583]"
+      ],
+      "status": "kildeverifisert",
+      "amount_stage": "ikke_strukturert_T6"
+    },
+    {
+      "id": "63f3d03b464a1135d80ebe04dd0924ccfa04f777eaa8b68fa065cf6b9a81303c",
+      "from_document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+      "to_document_id": "a9afcebb816094aa293c592deb5b23a74b0bb25b19b35167f7f08c32a3def409",
+      "case_id": "100889",
+      "accounts": [
+        "1420/61",
+        "1420/62"
+      ],
+      "point": "III",
+      "committee_point": "III",
+      "decision_ids": [
+        "40034222"
+      ],
+      "evidence_ids": [
+        "41caef6806639d6e5195a14bf93914b7e7fc0630156b98a3a662d6f089e6e2ec",
+        "6c1152b1f3749223b031b6942ae80a7996c8e74399743489edd0a99f303c9ed8",
+        "66f18ef3838ccaf3b3428689ff05916b35b3b5cc5ea08927503077c1b57ae2d3",
+        "215da4b718000b5eafcc8377ebcf696a96357a58777b761891429bbafa990a4a",
+        "7b2b367d8ab45fc580d8c48421c10162052c709ae95928d8616a667896737b78",
+        "8df02a830c028bc0162f87f2504dabc7f3b4b7000144c33afeae0deafe258af4:/*/*[4]/*[584]"
+      ],
+      "status": "kildeverifisert",
+      "amount_stage": "ikke_strukturert_T6"
+    },
+    {
+      "id": "b4e33b6fb3ca47538421d71f7206d42f300c14f830d2f417b7317a185fefbb82",
+      "from_document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+      "to_document_id": "a9afcebb816094aa293c592deb5b23a74b0bb25b19b35167f7f08c32a3def409",
+      "case_id": "100889",
+      "accounts": [
+        "1420/39",
+        "1420/69",
+        "1420/79"
+      ],
+      "point": "IV",
+      "committee_point": "IV",
+      "decision_ids": [
+        "40034223"
+      ],
+      "evidence_ids": [
+        "41caef6806639d6e5195a14bf93914b7e7fc0630156b98a3a662d6f089e6e2ec",
+        "6c1152b1f3749223b031b6942ae80a7996c8e74399743489edd0a99f303c9ed8",
+        "66f18ef3838ccaf3b3428689ff05916b35b3b5cc5ea08927503077c1b57ae2d3",
+        "66ec5bc2149a32e5315620c938255a34248ba1867191e330fd253e1a35dad345",
+        "8df02a830c028bc0162f87f2504dabc7f3b4b7000144c33afeae0deafe258af4:/*/*[4]/*[585]"
+      ],
+      "status": "kildeverifisert",
+      "amount_stage": "ikke_strukturert_T6"
+    },
+    {
+      "id": "e67e95684f5d33d674a1b9675ae62b551289ee375111b9524aaebc5722325ae0",
+      "from_document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+      "to_document_id": "a9afcebb816094aa293c592deb5b23a74b0bb25b19b35167f7f08c32a3def409",
+      "case_id": "100889",
+      "accounts": [
+        "1420/66",
+        "1420/87"
+      ],
+      "point": "V.1-2",
+      "committee_point": "V",
+      "decision_ids": [
+        "40034224"
+      ],
+      "evidence_ids": [
+        "41caef6806639d6e5195a14bf93914b7e7fc0630156b98a3a662d6f089e6e2ec",
+        "6c1152b1f3749223b031b6942ae80a7996c8e74399743489edd0a99f303c9ed8",
+        "66f18ef3838ccaf3b3428689ff05916b35b3b5cc5ea08927503077c1b57ae2d3",
+        "9d8bafe886a4fef0236f803a95200e9b25b90b4a5be7e2ea3eb16ec8e6b2d423",
+        "c2fd9ae4e40e97802d126102c5a52d7b97d79ed497137265c73f2efbe1836b06",
+        "8df02a830c028bc0162f87f2504dabc7f3b4b7000144c33afeae0deafe258af4:/*/*[4]/*[586]"
+      ],
+      "status": "kildeverifisert",
+      "amount_stage": "ikke_strukturert_T6"
+    },
+    {
+      "id": "cd5a243bf9b3417a9f4c8c4b9de39c7564da192769cf1f4d6a3612a95fa17459",
+      "from_document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+      "to_document_id": "b9be3dd31be84266cd5ab792209c96672573c5ee7688291c806177bfe7bca3ce",
+      "case_id": "100927",
+      "accounts": [
+        "1429/60"
+      ],
+      "point": "V.3",
+      "committee_point": "II",
+      "decision_ids": [
+        "40034049"
+      ],
+      "evidence_ids": [
+        "ed5d05e6068206c49001e334cbb8a2a7b6b1ce38f857a5aca90e2fec1c8324b8",
+        "d31fe53f4765fb1d44399fe01a9d2d5e5481b25c81de330bfeb1db5a7d237997"
+      ],
+      "status": "kildeverifisert",
+      "amount_stage": "T1_bevart"
+    },
+    {
+      "id": "7716a91b12ff39d74dc742d98ac75e0930971a9f311fe564d1917dccff9375f5",
+      "from_document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+      "to_document_id": "a9afcebb816094aa293c592deb5b23a74b0bb25b19b35167f7f08c32a3def409",
+      "case_id": "100889",
+      "accounts": [
+        "1471/1",
+        "4471/3"
+      ],
+      "point": "VI",
+      "committee_point": "VI",
+      "decision_ids": [
+        "40034225"
+      ],
+      "evidence_ids": [
+        "41caef6806639d6e5195a14bf93914b7e7fc0630156b98a3a662d6f089e6e2ec",
+        "6c1152b1f3749223b031b6942ae80a7996c8e74399743489edd0a99f303c9ed8",
+        "66f18ef3838ccaf3b3428689ff05916b35b3b5cc5ea08927503077c1b57ae2d3",
+        "cd0ad4380c8b9c4a2c8adcd58934f197be13285a522c80d9eae752a60ce5fed4",
+        "8df02a830c028bc0162f87f2504dabc7f3b4b7000144c33afeae0deafe258af4:/*/*[4]/*[587]"
+      ],
+      "status": "kildeverifisert",
+      "amount_stage": "ikke_strukturert_T6"
+    }
+  ],
+  "pairs": [
+    {
+      "name": "utgift",
+      "report_id": "e0ce7a403a211ade713a4d27d31bf9e24afb4af51b8c6c9d2dec5b70524f5a53",
+      "basis_id": "f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7",
+      "selection": {
+        "mode": "accounts",
+        "document_id": null,
+        "years": [
+          2024
+        ],
+        "chapters": [],
+        "accounts": [
+          [
+            "1400",
+            "1"
+          ]
+        ]
+      },
+      "return_selection": null,
+      "fields": 3,
+      "adopted_fields": 0,
+      "monetary_events": 0,
+      "files": [
+        {
+          "name": "utgift.json",
+          "sha256": "2ca14187f0824be758f9d1b680919a9f31ea8f5e9020c7c7a1cc890f4c622c2d",
+          "bytes": 8522150
+        },
+        {
+          "name": "utgift.xlsx",
+          "sha256": "ac3d6f04444be95ac784c0fad982b44d2da23c769fd6b6acb7201156dfada01b",
+          "bytes": 2887286
+        }
+      ]
+    },
+    {
+      "name": "inntekt-null",
+      "report_id": "03c4811ac324c92b134c54c7f8352dd915095e49315ea95382dc3771c37aadac",
+      "basis_id": "f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7",
+      "selection": {
+        "mode": "accounts",
+        "document_id": null,
+        "years": [
+          2024
+        ],
+        "chapters": [],
+        "accounts": [
+          [
+            "4400",
+            "2"
+          ]
+        ]
+      },
+      "return_selection": null,
+      "fields": 3,
+      "adopted_fields": 0,
+      "monetary_events": 0,
+      "files": [
+        {
+          "name": "inntekt-null.json",
+          "sha256": "efc8ab01302141e2d0125e516361cf95551b0317fa179111a4771528fddde142",
+          "bytes": 8522150
+        },
+        {
+          "name": "inntekt-null.xlsx",
+          "sha256": "bbd889c1d816dc2a54855aac84e6695bb3759aff3b5bdf20e701d8d2573f0c51",
+          "bytes": 2887284
+        }
+      ]
+    },
+    {
+      "name": "tekst",
+      "report_id": "5dfeeab852e32202a7b3446c57699dde8b7692a7fb077ec35298c039534cc50a",
+      "basis_id": "f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7",
+      "selection": {
+        "mode": "accounts",
+        "document_id": null,
+        "years": [
+          2024
+        ],
+        "chapters": [],
+        "accounts": [
+          [
+            "1420",
+            "66"
+          ]
+        ]
+      },
+      "return_selection": null,
+      "fields": 0,
+      "adopted_fields": 0,
+      "monetary_events": 0,
+      "files": [
+        {
+          "name": "tekst.json",
+          "sha256": "ce2d66caaebe65541e5a489c5ae71b7a2f0ea89d2bffa122019acb66fad2b1bd",
+          "bytes": 8522018
+        },
+        {
+          "name": "tekst.xlsx",
+          "sha256": "8a5a87028ec322e0d304f7fe2bad490c110de5087709690db2b95361d1d0c426",
+          "bytes": 2886054
+        }
+      ]
+    },
+    {
+      "name": "flere",
+      "report_id": "a233d6443de3531699ebe3c222ca70c3c3badf976f97797ddb818cda01a9f9b6",
+      "basis_id": "f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7",
+      "selection": {
+        "mode": "accounts",
+        "document_id": null,
+        "years": [
+          2024
+        ],
+        "chapters": [
+          "1429"
+        ],
+        "accounts": [
+          [
+            "4400",
+            "2"
+          ],
+          [
+            "1420",
+            "22"
+          ]
+        ]
+      },
+      "return_selection": null,
+      "fields": 21,
+      "adopted_fields": 6,
+      "monetary_events": 2,
+      "files": [
+        {
+          "name": "flere.json",
+          "sha256": "c0cc48fb081d4e9ba0eb81051812867dc762b0dc06f9faeba3acd8fb294930a5",
+          "bytes": 8531731
+        },
+        {
+          "name": "flere.xlsx",
+          "sha256": "b8f6662c68559258c1f12847bf2cfb47bf1d6c3df608257e9d8f26b8d1cedd4a",
+          "bytes": 2896873
+        }
+      ]
+    },
+    {
+      "name": "tomt",
+      "report_id": "d883ee70a3a9efc6f74924ad732eddec5663b9ec63815b8ad116466f6d3439fb",
+      "basis_id": "f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7",
+      "selection": {
+        "mode": "accounts",
+        "document_id": null,
+        "years": [
+          2024
+        ],
+        "chapters": [],
+        "accounts": []
+      },
+      "return_selection": null,
+      "fields": 0,
+      "adopted_fields": 0,
+      "monetary_events": 0,
+      "files": [
+        {
+          "name": "tomt.json",
+          "sha256": "5ce8b8d46628d87e564c47fcb257ae10c6cedd78bbfcfff4490f1166ffd49ab2",
+          "bytes": 8521338
+        },
+        {
+          "name": "tomt.xlsx",
+          "sha256": "3661191ccbb74ae5b98bd5cdf467f980a4aeb406867af6228d75b5993455b9cf",
+          "bytes": 2885810
+        }
+      ]
+    },
+    {
+      "name": "hele-prop",
+      "report_id": "d5e5d71fda289c48408403c1f3461a89aebb77977f52ddde38c1bbba3c0d9d3c",
+      "basis_id": "f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7",
+      "selection": {
+        "mode": "document",
+        "document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+        "years": [],
+        "chapters": [],
+        "accounts": []
+      },
+      "return_selection": null,
+      "fields": 111,
+      "adopted_fields": 0,
+      "monetary_events": 0,
+      "files": [
+        {
+          "name": "hele-prop.json",
+          "sha256": "af3ee1d76a91a34c4782dc948accb322cd44bff03bc960542a194cce82b23c67",
+          "bytes": 8539129
+        },
+        {
+          "name": "hele-prop.xlsx",
+          "sha256": "5be504dcc286071ae1566c6cfc4506da60663bc97e543c93de44e4e0158667db",
+          "bytes": 2920860
+        }
+      ]
+    },
+    {
+      "name": "post1",
+      "report_id": "9845507ad50fd60e0c57908b441a85d76109e36313c404493796aafafaa90e01",
+      "basis_id": "f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7",
+      "selection": {
+        "mode": "accounts",
+        "document_id": null,
+        "years": [
+          2024
+        ],
+        "chapters": [],
+        "accounts": [
+          [
+            "1429",
+            "1"
+          ]
+        ]
+      },
+      "return_selection": null,
+      "fields": 9,
+      "adopted_fields": 3,
+      "monetary_events": 1,
+      "files": [
+        {
+          "name": "post1.json",
+          "sha256": "22bec987032b8875688995c13b9cb63925cc7321f7384945f19f73cdcd8ed971",
+          "bytes": 8526591
+        },
+        {
+          "name": "post1.xlsx",
+          "sha256": "3eba29963819689a3f6a36210ed5aff411296a250ec061b9b85439a5ad2a1e96",
+          "bytes": 2891630
+        }
+      ]
+    },
+    {
+      "name": "post22",
+      "report_id": "197bbc5bfd8a42d429c78bacad3539e1838a98abe1048e858856587b74ceaa29",
+      "basis_id": "f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7",
+      "selection": {
+        "mode": "accounts",
+        "document_id": null,
+        "years": [
+          2024
+        ],
+        "chapters": [],
+        "accounts": [
+          [
+            "1429",
+            "22"
+          ]
+        ]
+      },
+      "return_selection": null,
+      "fields": 9,
+      "adopted_fields": 3,
+      "monetary_events": 1,
+      "files": [
+        {
+          "name": "post22.json",
+          "sha256": "dcfab8e3084ada2d81bedbe793bc710990929a11cb851d5ed5ca25747773980a",
+          "bytes": 8526598
+        },
+        {
+          "name": "post22.xlsx",
+          "sha256": "779288ffa68f59a97368baaed64621cb9c79f16d1b4e559e21f09f30f25e96ee",
+          "bytes": 2891643
+        }
+      ]
+    },
+    {
+      "name": "begge",
+      "report_id": "2570fa8af0b76db1dc0e34435c88968eb6b916684cd335376a68b5d00b095b8e",
+      "basis_id": "f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7",
+      "selection": {
+        "mode": "accounts",
+        "document_id": null,
+        "years": [
+          2024
+        ],
+        "chapters": [
+          "1429"
+        ],
+        "accounts": []
+      },
+      "return_selection": null,
+      "fields": 18,
+      "adopted_fields": 6,
+      "monetary_events": 2,
+      "files": [
+        {
+          "name": "begge.json",
+          "sha256": "8a8ef9046f9650db2ead0b4d9f6913022392083bdd8e967806fdfb4eebbf44d2",
+          "bytes": 8530968
+        },
+        {
+          "name": "begge.xlsx",
+          "sha256": "8b1ce1be5d75120f3b6d4851118f8cf710e965041d1c1324925ad39d24aa3f87",
+          "bytes": 2895918
+        }
+      ]
+    },
+    {
+      "name": "kontekst1533",
+      "report_id": "b2fe44d8c519061a712e0730ff38f6677d65d5e47ba16eb879b19edd7ce9a216",
+      "basis_id": "f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7",
+      "selection": {
+        "mode": "accounts",
+        "document_id": null,
+        "years": [
+          2024
+        ],
+        "chapters": [],
+        "accounts": [
+          [
+            "1533",
+            "45"
+          ]
+        ]
+      },
+      "return_selection": null,
+      "fields": 0,
+      "adopted_fields": 0,
+      "monetary_events": 0,
+      "files": [
+        {
+          "name": "kontekst1533.json",
+          "sha256": "7d4c75a3b8c3d34ad35a39005c71f19c7b64a87d0ad3ab8f369fe8b6576370fd",
+          "bytes": 8521483
+        },
+        {
+          "name": "kontekst1533.xlsx",
+          "sha256": "3bd5ed5879bc6b28dcbc2d8855b1236d5c46e087bfb81f1ef3083dbae25901e1",
+          "bytes": 2885933
+        }
+      ]
+    },
+    {
+      "name": "konto-til-dokument",
+      "report_id": "19644539edee60c6b1e12d80be717eb45184cb3bc7e6bec8d714a6890517ac30",
+      "basis_id": "f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7",
+      "selection": {
+        "mode": "document",
+        "document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+        "years": [],
+        "chapters": [],
+        "accounts": []
+      },
+      "return_selection": {
+        "mode": "accounts",
+        "document_id": null,
+        "years": [
+          2024
+        ],
+        "chapters": [
+          "1429"
+        ],
+        "accounts": [
+          [
+            "4400",
+            "2"
+          ],
+          [
+            "1420",
+            "22"
+          ]
+        ]
+      },
+      "fields": 111,
+      "adopted_fields": 0,
+      "monetary_events": 0,
+      "files": [
+        {
+          "name": "konto-til-dokument.json",
+          "sha256": "a2512bf43284ed189bfe097b2c1faa5774ad00fcd2762ab186414901179f8263",
+          "bytes": 8539238
+        },
+        {
+          "name": "konto-til-dokument.xlsx",
+          "sha256": "43cbce91e6aba00a738b75da6692e39fb37fa21794f753ee5a9d8caa4e988ad2",
+          "bytes": 2920938
+        }
+      ]
+    },
+    {
+      "name": "retur-konto",
+      "report_id": "a233d6443de3531699ebe3c222ca70c3c3badf976f97797ddb818cda01a9f9b6",
+      "basis_id": "f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7",
+      "selection": {
+        "mode": "accounts",
+        "document_id": null,
+        "years": [
+          2024
+        ],
+        "chapters": [
+          "1429"
+        ],
+        "accounts": [
+          [
+            "4400",
+            "2"
+          ],
+          [
+            "1420",
+            "22"
+          ]
+        ]
+      },
+      "return_selection": null,
+      "fields": 21,
+      "adopted_fields": 6,
+      "monetary_events": 2,
+      "files": [
+        {
+          "name": "retur-konto.json",
+          "sha256": "c0cc48fb081d4e9ba0eb81051812867dc762b0dc06f9faeba3acd8fb294930a5",
+          "bytes": 8531731
+        },
+        {
+          "name": "retur-konto.xlsx",
+          "sha256": "432ca079af842b86451a9859ee2047854f5038094574c3b85a9ecc3c0d206828",
+          "bytes": 2896873
+        }
+      ]
+    },
+    {
+      "name": "dokument-til-konto",
+      "report_id": "e7655e01f6f5e7965f1c990f549039984d02384d0c6bd0ad053c69d0d7a8f79b",
+      "basis_id": "f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7",
+      "selection": {
+        "mode": "accounts",
+        "document_id": null,
+        "years": [
+          2024
+        ],
+        "chapters": [
+          "1429"
+        ],
+        "accounts": [
+          [
+            "4400",
+            "2"
+          ],
+          [
+            "1420",
+            "22"
+          ]
+        ]
+      },
+      "return_selection": {
+        "mode": "document",
+        "document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+        "years": [],
+        "chapters": [],
+        "accounts": []
+      },
+      "fields": 21,
+      "adopted_fields": 6,
+      "monetary_events": 2,
+      "files": [
+        {
+          "name": "dokument-til-konto.json",
+          "sha256": "045cc774c28853b794773f0e26ffb6752e5e3de723d9a28bacf5f4ebec6fac9d",
+          "bytes": 8531866
+        },
+        {
+          "name": "dokument-til-konto.xlsx",
+          "sha256": "8c0b7f998ceecfbb845a8149ae7302671337bed90b8defee8c967083fe1a887b",
+          "bytes": 2896946
+        }
+      ]
+    },
+    {
+      "name": "retur-dokument",
+      "report_id": "d5e5d71fda289c48408403c1f3461a89aebb77977f52ddde38c1bbba3c0d9d3c",
+      "basis_id": "f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7",
+      "selection": {
+        "mode": "document",
+        "document_id": "5ccc8c5670d5de63ce5348b443d4a7e1f00499738c0c4ebe6edf5dac034dc7a0",
+        "years": [],
+        "chapters": [],
+        "accounts": []
+      },
+      "return_selection": null,
+      "fields": 111,
+      "adopted_fields": 0,
+      "monetary_events": 0,
+      "files": [
+        {
+          "name": "retur-dokument.json",
+          "sha256": "af3ee1d76a91a34c4782dc948accb322cd44bff03bc960542a194cce82b23c67",
+          "bytes": 8539129
+        },
+        {
+          "name": "retur-dokument.xlsx",
+          "sha256": "42ea07b0df7b9557e2d6a7074069d4d00093e0bf79543ea3e238dd16d8f58e00",
+          "bytes": 2920860
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "ikke full semantikk",
+    "ikke årsdekning",
+    "95-beløp venter T6",
+    "native Excel uprøvd",
+    "uavhengige porter/CI eies av orkestrator"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schema": "t5-tdd-journal-1",
+  "date": "2026-10-29",
+  "issue": "https://github.com/depmartin/budsjetthistorikk/issues/62",
+  "evidence": "Faktiske verktøyutfall fra byggeøkten, sammenfattet etter kjøring. Tidlige rå terminalutskrifter finnes i samtalen; dette er ingen rekonstruert rålogg eller simulert Git-historikk.",
+  "base": "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+  "seams": [
+    "original -> typed basis",
+    "build_report/open_document/open_accounts/go_back",
+    "faktisk JSON/XLSX export og leser",
+    "autentisk gammel leser og uavhengig ordinær registrering"
+  ],
+  "cycles": [
+    {
+      "slice": 1,
+      "behavior": "105 nye forslagfelt, 123 i unionen, uendret T1 og ekte null",
+      "red": "1 failed: ModuleNotFoundError analyse.proposisjon16; 2.95 s",
+      "green": "1 passed; 1.68 s"
+    },
+    {
+      "slice": 2,
+      "behavior": "begge innganger og eksakt retur gjennom faktisk JSON",
+      "red": "1 failed, 1 passed: AttributeError build_report; 1.95 s",
+      "green": "2 passed; 2.73 s",
+      "environment": "Tidligere miljøfeil i standard temp og manglende .local ble løst med ny eksplisitt basetemp; miljøfeil er ikke godskrevet som produkt-rødt."
+    },
+    {
+      "slice": 3,
+      "behavior": "ni fullmaktspunkter, én IV-ramme og presise grener",
+      "red": "1 failed, 2 passed: 0 authorizations, expected 9; 3.07 s",
+      "green": "3 passed; 3.24 s"
+    },
+    {
+      "slice": 4,
+      "behavior": "to bevarte beriktigede 95-representasjoner uten oppfunnet historikk",
+      "red": "1 failed, 3 passed: AttributeError sources; 3.39 s",
+      "green": "4 passed; 3.39 s",
+      "contract": "Den additive sources-katalogen for 22.10-HTML og gjenbruksmanifest ble ført i kontrakten før denne koden. Eksisterende 23.10/PDF/forelder gjenbrukes."
+    },
+    {
+      "slice": 5,
+      "behavior": "faktisk JSON/XLSX, synlig numerisk null, fullmakts-/grenark",
+      "red": "1 failed, 4 passed: ModuleNotFoundError analyse.proposisjon16_excel; 3.83 s",
+      "intermediate_red": "Første implementasjon avvist av eksisterende guard: ubundne celleområder. Ny T5-inventarkolonne krevde oppdatert autofilter; ingen guardprofil ble endret.",
+      "green": "5 passed; 11.80 s"
+    },
+    {
+      "slice": 6,
+      "behavior": "1533/45 arver ikke søstergrenens kontoomfang",
+      "red": "1 failed: inns95-ID fantes i aktiv 1533/45-visning; 2.19 s",
+      "green": "6 passed; 11.58 s"
+    },
+    {
+      "slice": 7,
+      "behavior": "synlig valgt/globalt skille i fullmaktsarket",
+      "red": "1 failed, 32 deselected: Fullmakter L1 None, expected Valgt; 11.09 s",
+      "green": "1 passed, 32 deselected; 9.92 s"
+    }
+  ],
+  "regressions": [
+    "Første bredere kjøring: 21 passed / 1 failed på inkonsistent syntetisk old_id-Excelangrep. Kontrollbyggeren ble rettet til konsistent gammelt step_id; produktsikkerhetsutfall ble ikke godskrevet før faktisk semantisk leser ble nådd.",
+    "33 passed; 153.72 s etter kontrollretting og flere vernprøver.",
+    "Sluttkode: 33 passed; 148.91 s.",
+    "Samme sluttkode, to nye offentlige grensetester: 2 passed, 33 deselected; 19.75 s.",
+    "Etter typekorreksjon med identisk Excel-stilprofil: alle 14 tidligere kontrollpar gjenlest identisk; samlet 35 passed på 163.86 s. Ruff/format bestått, 170 filer; mypy bestått, 85 kildefiler."
+  ],
+  "limits": [
+    "Ingen lokal fullsuite",
+    "Ingen samlet egenreview eller audit",
+    "Ingen staging, commit eller GitHub-mutasjon",
+    "CI og uavhengige porter eies av orkestrator"
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "schema": "t5-delivery-manifest-1",
+  "base": "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+  "scope": "Uncommitted builder candidate. Independent ports and publication remain with orchestrator.",
+  "text_representation": "Explicit UTF-8/LF for only listed controlled text artifacts; source original hashes always bind raw bytes. AGENTS/kildefunn may have CRLF on disk.",
+  "excludes": [
+    "this self-describing manifest",
+    ".local exports, logs, render scripts and runtime junction attempts"
+  ],
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "representation": "UTF-8/LF",
+      "bytes": 8963,
+      "sha256": "0a8e3b4074f62e26092fe5773ee9d7d8ce9d47e7a4b1ed8f2f49edcb2e26b25a",
+      "git_blob_sha1": "dca339a99ac94c12703c54e4e11a6bbffd200b70"
+    },
+    {
+      "path": "analyse/proposisjon16.py",
+      "representation": "UTF-8/LF",
+      "bytes": 8668,
+      "sha256": "a681b034f7dae2d321bba6594f69a49c23bc8dcbea904edca478fa753ae510c2",
+      "git_blob_sha1": "f46ec1e63af3ccee01411f406392be308ae04661"
+    },
+    {
+      "path": "analyse/proposisjon16_excel.py",
+      "representation": "UTF-8/LF",
+      "bytes": 16095,
+      "sha256": "c646e12278baf9fa6340c471c309a6a642df9a867afb82b8903143ac48017aac",
+      "git_blob_sha1": "dc7b911706f652a96588cd1ab1d3c85b5249b77e"
+    },
+    {
+      "path": "docs/kildefunn.md",
+      "representation": "UTF-8/LF",
+      "bytes": 65537,
+      "sha256": "14585591aa71426bd8aca0b1df0751fcaec7fc0f38435d29f4417229160d2c5f",
+      "git_blob_sha1": "f5004ca8a702795a7cde13747f42cb4f22fdfd82"
+    },
+    {
+      "path": "docs/proposisjon16.md",
+      "representation": "UTF-8/LF",
+      "bytes": 6326,
+      "sha256": "7e84b8478259134b153081981d4727a26e76794bfae72237c04f2a76d1ac9249",
+      "git_blob_sha1": "d976dd879f54003bf2c003386523c5cbf9138aad"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/README.md",
+      "representation": "UTF-8/LF",
+      "bytes": 3083,
+      "sha256": "99f16171536f4c00c5bd77d03c0b3ecb3e1d22e618828a36c4bbed2d278fab83",
+      "git_blob_sha1": "b2ca09996285464e579e693c532fe62d6b7cd8b4"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/akseptmatrise.md",
+      "representation": "UTF-8/LF",
+      "bytes": 2421,
+      "sha256": "aaebedacb4a1bb7b12be260462a672f0d7eae60fa5f035ff4b8996f812e00270",
+      "git_blob_sha1": "8dcfffb26121e551f4e4c6fab3065692e1f9eb88"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/excel-qa.md",
+      "representation": "UTF-8/LF",
+      "bytes": 3460,
+      "sha256": "b545895124b60a77ba983709d30e11931193065f529067c871f248b72f1a1b38",
+      "git_blob_sha1": "9c22194b6c18e7c93e408454d0f87aedec8f4840"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/kildebevis.md",
+      "representation": "UTF-8/LF",
+      "bytes": 3476,
+      "sha256": "c600566f761611f42051857a4c71ebef6ce8f2033fb25e626c3ce58adc3b7d77",
+      "git_blob_sha1": "7a1f44e7b2fa93a1054d231fea9759583f573111"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/kompatibilitetsbevis.md",
+      "representation": "UTF-8/LF",
+      "bytes": 2054,
+      "sha256": "8d024638efaec8b40500a40af2fec975872c9d13d9b84445a72fb9e6cf8b7313",
+      "git_blob_sha1": "e28cd07009dd419182b559c061791d8524c0cc16"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/kontrollutfall.md",
+      "representation": "UTF-8/LF",
+      "bytes": 4867,
+      "sha256": "aab50f4e800a6a3494d27e5a0e8e23d8a77e18a415c08940f667868359f9763f",
+      "git_blob_sha1": "9b56ca6501b667bf1cbed83ae277c8a52c2ea330"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/original-recovery.json",
+      "representation": "UTF-8/LF",
+      "bytes": 6648,
+      "sha256": "1fea21ed3d4f636183dfb46eb40168e777bb496467bde5bd880f7b1bb3e553a5",
+      "git_blob_sha1": "bd26902372e8041dd10f3df7c57d2a977b6a7ed5"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/preservation.json",
+      "representation": "UTF-8/LF",
+      "bytes": 481,
+      "sha256": "fcf40ea054a72cf3dc8fec709414dc5188513ec0c8e97c5a0667fa3751de7a39",
+      "git_blob_sha1": "8d08c8cc424530461c54825fff24694f954ca5f2"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/raw-source-controls.json",
+      "representation": "UTF-8/LF",
+      "bytes": 4780,
+      "sha256": "8d4d648b096da8cb822cfd1982d238fe96b14c549749f8295f4af1741fd44cf0",
+      "git_blob_sha1": "c9f64f9d06723e35825e5fb1b63d9a3f388f3d52"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reader-recheck.json",
+      "representation": "UTF-8/LF",
+      "bytes": 2078,
+      "sha256": "a69f249fa61c73a8ecdf139e892ac52373e23706400c0efe8ae7217228e4b77b",
+      "git_blob_sha1": "2165f78a67ffed67ca43dcb0398c5d9d5b66d1fc"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reproduksjon.md",
+      "representation": "UTF-8/LF",
+      "bytes": 2840,
+      "sha256": "c8635340d221dc426ccf11b33e7801a277599445afc1e220a8753f744adc2559",
+      "git_blob_sha1": "ba05d72bdfd2db58cf484140fe46b985ccd709be"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/source-control.json",
+      "representation": "UTF-8/LF",
+      "bytes": 116982,
+      "sha256": "0cd93be12c023f5541164dae1186965a8f5b6aedaba93c42fbe8fd063f14a3e0",
+      "git_blob_sha1": "c4fec45404a48faf5481eba2c5a86aa37a8e84e4"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/source-manifest.json",
+      "representation": "UTF-8/LF",
+      "bytes": 27114,
+      "sha256": "cde746b90c637818b258a18997e8846de7c46c32ef88e80ff9e8451410792be6",
+      "git_blob_sha1": "3033d5f578f1b2d00d59b8f29c42a23fdc18d24d"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/static-checks.log",
+      "representation": "UTF-8/LF",
+      "bytes": 91,
+      "sha256": "85e4b0b2c18c5a187e3b9fd83fdbc03b31d79afcaa9c3ccbeca5d7395c7a4f2f",
+      "git_blob_sha1": "3053206a8a86d4727b932c198cb8216958621e19"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/tdd-journal.json",
+      "representation": "UTF-8/LF",
+      "bytes": 3547,
+      "sha256": "d70d8ffe4a975fea273ba900cc880cfc1139951b271957733cf89065fb079770",
+      "git_blob_sha1": "0a86467fde075e1f6e2c7e88a3c52566568bdb71"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/tests-33.log",
+      "representation": "UTF-8/LF",
+      "bytes": 720,
+      "sha256": "94e3ce138a6ceb3b31e2784456db48026ddb0a05b6978f34fb6924a0c7d41a6d",
+      "git_blob_sha1": "b8f5059431817a9eb4353486bf861b6e0f4bc66c"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/tests-extra-2.log",
+      "representation": "UTF-8/LF",
+      "bytes": 114,
+      "sha256": "d9ea29b4c3d5ee1dc65897675ec77f8db40434bd022298bd002715e1efd6c343",
+      "git_blob_sha1": "e9d40f394d097f74f517ad31326cec701c645222"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/tests-final-35.log",
+      "representation": "UTF-8/LF",
+      "bytes": 725,
+      "sha256": "5d5a6ee15f5fe87ce5992d44751b434d4560cbcc3eb79aab2032dae0973ddaf2",
+      "git_blob_sha1": "8b92f09ca8e9761a7af8f01e11bbadf99b4e71b2"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/visual/delt-ramme.png",
+      "representation": "raw bytes",
+      "bytes": 75747,
+      "sha256": "59e3735c410ef23e42ab0cb01f6e4b2b50266f29358aaade33d1e157f2d804a9",
+      "git_blob_sha1": "8558a1b075657edb0b2c3b652f71b89a9773883f"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/visual/grenstatus.png",
+      "representation": "raw bytes",
+      "bytes": 100422,
+      "sha256": "40144a249c92f1483353a68f335f6f4c393432f62291748e656879eaf70eb3b6",
+      "git_blob_sha1": "fbc28e97e31fec84a674abc1f1497da65479f921"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/visual/historisk-og-gjeldende.png",
+      "representation": "raw bytes",
+      "bytes": 136024,
+      "sha256": "705cc7e2090817381eef206d3ff3b65147e12fc2780aab828b05ed0d57e5848a",
+      "git_blob_sha1": "f7d2ae6a0c37bc77c15a4f2a69d1f67312f5db57"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/visual/inntekt-null.png",
+      "representation": "raw bytes",
+      "bytes": 53795,
+      "sha256": "c0148da6ba4b22795ef9377c4e2fabd8fd4dbe873a3dd68d3c80de191f884347",
+      "git_blob_sha1": "acccb1da31cf68d386937a4e3c2709de970be988"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/visual/tabell-dekning.png",
+      "representation": "raw bytes",
+      "bytes": 26618,
+      "sha256": "08276bd60c302114a6dd5bc54bf811c860065b72a795aeb3079d013fba4ec0f5",
+      "git_blob_sha1": "b45b9156997f8331b1d00fa2e68e378e46c931e3"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/visual/tekstkonto.png",
+      "representation": "raw bytes",
+      "bytes": 58411,
+      "sha256": "209e9dfc38982a89c21f692f6c4124c910b46e3aae701d3288c8a837c79d367f",
+      "git_blob_sha1": "f0c6823d0e18842936539eaf525861bd8e48a5f8"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/visual/tomt.png",
+      "representation": "raw bytes",
+      "bytes": 57997,
+      "sha256": "98f11ab235c8e87b51739093aa8f31390642863ecfeb2b27fba7217ef75a5e76",
+      "git_blob_sha1": "1a132812c0e685d6572916b08575b5922192cabb"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/visual/utgift.png",
+      "representation": "raw bytes",
+      "bytes": 55350,
+      "sha256": "4d3f22c4f5513ff63f4a2d6ba583286b353f79ddf73d3fdb3bb677ed39f99789",
+      "git_blob_sha1": "fa93dac526f64dc8e7a4144fec29424728f75367"
+    },
+    {
+      "path": "innlesning/proposisjon16.py",
+      "representation": "UTF-8/LF",
+      "bytes": 18367,
+      "sha256": "4928cdf00ae5bbc26482d197240cb9a2a86d36cc8f211b45624fa957334b7f07",
+      "git_blob_sha1": "963a09950d3c1f851d6a0a2956df90c90f8908e0"
+    },
+    {
+      "path": "innlesning/proposisjon16_model.py",
+      "representation": "UTF-8/LF",
+      "bytes": 1858,
+      "sha256": "4b5acf40725b0622f1183d8c1821163421a796ac05f62d84a463ab2f2af61472",
+      "git_blob_sha1": "fffa8a9801e9e376fe59eb24fa13260bfa92a570"
+    },
+    {
+      "path": "ops/proposisjon16_proeve.py",
+      "representation": "UTF-8/LF",
+      "bytes": 12026,
+      "sha256": "74c5728121afbe05dfd5f2c7fd2e18bff504fa4f87b029cf5fee862f68cf1979",
+      "git_blob_sha1": "9fe381ce2390ea25f23c227ca6ab861f83d89fe2"
+    },
+    {
+      "path": "tests/test_proposisjon16.py",
+      "representation": "UTF-8/LF",
+      "bytes": 27066,
+      "sha256": "9e70b8c893eff3c40798eb77cf27b8876a06a8cd31a1ee6930d1d430807d0626",
+      "git_blob_sha1": "52cbd8b8de2aabf689e69c41fbcb62a3cd67c530"
+    }
+  ]
+}

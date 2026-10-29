@@ -24,6 +24,8 @@ Før sak 100895 eller R2s C05: les [U1-kildeundersøkelsen](docs/research/u1-100
 
 Før sak 99235, vedtak 853–856 eller R2s C06: les [C06-undersøkelsen](docs/research/c06-99235-60/README.md). Debatt 20. juni og votering 21. juni er dokumentert separat; senere motstridende datoutsagn beholdes. Egne tariffvedlegg navngir Riksantikvaren som forhandlingssted, uten postvis bevilgningsbevis. /22 arver ingen /1-forklaring; historiske kandidater og pinnede registre beholdes.
 
+Før proposisjon16-1 eller hele Prop. 16 S-tabellen: les [T5-kontrakten](docs/proposisjon16.md) og [T5-kontrollen](docs/research/proposisjon16-62/README.md). 105 nye forslagfelt legges til én uendret T1-basis. Gammel dokument-ID/dekning bevares; gjeldende tabellstatus er eget overlay. Delt fullmaktsramme er ikke bevilgningsdelta. Innst. 95-beløp venter T6; gjeldende levering står i #62.
+
 ## Agent skills
 
 ### Issue tracker

@@ -1,0 +1,75 @@
+{
+  "pairs": [
+    {
+      "name": "begge",
+      "equal": true,
+      "sha256": "8b1ce1be5d75120f3b6d4851118f8cf710e965041d1c1324925ad39d24aa3f87"
+    },
+    {
+      "name": "dokument-til-konto",
+      "equal": true,
+      "sha256": "8c0b7f998ceecfbb845a8149ae7302671337bed90b8defee8c967083fe1a887b"
+    },
+    {
+      "name": "flere",
+      "equal": true,
+      "sha256": "b8f6662c68559258c1f12847bf2cfb47bf1d6c3df608257e9d8f26b8d1cedd4a"
+    },
+    {
+      "name": "hele-prop",
+      "equal": true,
+      "sha256": "5be504dcc286071ae1566c6cfc4506da60663bc97e543c93de44e4e0158667db"
+    },
+    {
+      "name": "inntekt-null",
+      "equal": true,
+      "sha256": "bbd889c1d816dc2a54855aac84e6695bb3759aff3b5bdf20e701d8d2573f0c51"
+    },
+    {
+      "name": "kontekst1533",
+      "equal": true,
+      "sha256": "3bd5ed5879bc6b28dcbc2d8855b1236d5c46e087bfb81f1ef3083dbae25901e1"
+    },
+    {
+      "name": "konto-til-dokument",
+      "equal": true,
+      "sha256": "43cbce91e6aba00a738b75da6692e39fb37fa21794f753ee5a9d8caa4e988ad2"
+    },
+    {
+      "name": "post1",
+      "equal": true,
+      "sha256": "3eba29963819689a3f6a36210ed5aff411296a250ec061b9b85439a5ad2a1e96"
+    },
+    {
+      "name": "post22",
+      "equal": true,
+      "sha256": "779288ffa68f59a97368baaed64621cb9c79f16d1b4e559e21f09f30f25e96ee"
+    },
+    {
+      "name": "retur-dokument",
+      "equal": true,
+      "sha256": "42ea07b0df7b9557e2d6a7074069d4d00093e0bf79543ea3e238dd16d8f58e00"
+    },
+    {
+      "name": "retur-konto",
+      "equal": true,
+      "sha256": "432ca079af842b86451a9859ee2047854f5038094574c3b85a9ecc3c0d206828"
+    },
+    {
+      "name": "tekst",
+      "equal": true,
+      "sha256": "8a5a87028ec322e0d304f7fe2bad490c110de5087709690db2b95361d1d0c426"
+    },
+    {
+      "name": "tomt",
+      "equal": true,
+      "sha256": "3661191ccbb74ae5b98bd5cdf467f980a4aeb406867af6228d75b5993455b9cf"
+    },
+    {
+      "name": "utgift",
+      "equal": true,
+      "sha256": "ac3d6f04444be95ac784c0fad982b44d2da23c769fd6b6acb7201156dfada01b"
+    }
+  ],
+  "style_public_api_equivalent": true
+}
