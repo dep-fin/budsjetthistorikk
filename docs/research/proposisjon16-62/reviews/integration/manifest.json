@@ -1,0 +1,391 @@
+{
+  "schema": "t5-control-integration-manifest-1",
+  "historical_candidate": "d46589cb9e99338e44fc805ee9882006ba657fd0",
+  "historical_tree": "df0eed6d6e8a0b2a07962e641ae05d1194a3304d",
+  "base": "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+  "scope": "Only helper integration evidence. The historical candidate has the known theme attack; the working-tree P2 fix remains unchanged. No new candidate or independent gate acceptance is asserted.",
+  "excludes": [
+    "this self-describing manifest",
+    ".local/control-integration real artifacts and private index copy, with recorded artifact hashes and target metadata under replay/ and comparison/"
+  ],
+  "files": [
+    {
+      "path": "docs/research/proposisjon16-62/reviews/README.md",
+      "representation": "raw bytes",
+      "bytes": 1362,
+      "sha256": "491bbc1382e8eba5e2803860c48079ed38f882166c573ec210ffcc76b1b3f9ca",
+      "git_blob_sha1": "6726ea111e16dded911d4557f0b0ff0b61eaa439"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/README.md",
+      "representation": "raw bytes",
+      "bytes": 10163,
+      "sha256": "63242e430d835b15b90bd773ace19110c34878556c7dac1d417a67e3859ecf87",
+      "git_blob_sha1": "e9e36ce5a99083da3b0ff3e8b34f6b6e38106eb2"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/baseline-files.json",
+      "representation": "raw bytes",
+      "bytes": 329783,
+      "sha256": "df23ee183c7018b4e82dd47e0d20e5dd6454febf60fbbde27e075dd13dabcad2",
+      "git_blob_sha1": "570a20ee777a7ce7d2d149fd4211dc0cbfe77871"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/compare_evidence.py",
+      "representation": "raw bytes",
+      "bytes": 11302,
+      "sha256": "efd5928a2cd180bfc4c74e21c1a04fa9ea0704144938435c10ff991b559e76b2",
+      "git_blob_sha1": "8a569c937f5f364962486d9fde0fd10140b7229c"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/comparison/ast-comparison.json",
+      "representation": "raw bytes",
+      "bytes": 1950,
+      "sha256": "cc95382a01cc7615182e60c411c3aa3177ea8e22512b01515226c35cd1e186ab",
+      "git_blob_sha1": "cc192e19c105e86845e2475a6b84c93c36211e03"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/comparison/generated-xlsx-comparison.json",
+      "representation": "raw bytes",
+      "bytes": 27798,
+      "sha256": "dc6fc8b2940f282afd667e972487edd0d8284c4df4782dab450a6972e02cb155",
+      "git_blob_sha1": "4cd0e665b372d304a7529ebf725b42ad7b9879d6"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/comparison/integrated-artifact-checks-normalized.json",
+      "representation": "raw bytes",
+      "bytes": 5761,
+      "sha256": "574f0356cbd6446bfca6d7ddc2c6057fd3627ca0ff169d58f2193080855d8f02",
+      "git_blob_sha1": "5259344a4df1513a2b5f9b1caa83dae8d24e9c2f"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/comparison/integrated-probes-normalized.json",
+      "representation": "raw bytes",
+      "bytes": 12049,
+      "sha256": "1bf6b54898db9c741e52137d53c8c46d5ea37cc1dd2a51b4ff8756054430cae2",
+      "git_blob_sha1": "0e56a613f562a1d35a8fc4d37471e3523b8c15a4"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/comparison/integrated-standards-normalized.json",
+      "representation": "raw bytes",
+      "bytes": 3556,
+      "sha256": "8490476c45c1a5750881297e3a262817e10cc880582a8b6c5a31acf56fd2a01d",
+      "git_blob_sha1": "c674ee5ad61a2ebda44703aee225e6d8e4a9fdb3"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/comparison/integrated-verified-normalized.json",
+      "representation": "raw bytes",
+      "bytes": 17808,
+      "sha256": "e703dcc7b7e17d3e2a1c0cf8efb12ac066fcebdbfc9a7932534b8778ddd3953c",
+      "git_blob_sha1": "1f17c0ef631d6d5ecfdb202473b98d1f410421f0"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/comparison/original-artifact-checks-normalized.json",
+      "representation": "raw bytes",
+      "bytes": 5761,
+      "sha256": "574f0356cbd6446bfca6d7ddc2c6057fd3627ca0ff169d58f2193080855d8f02",
+      "git_blob_sha1": "5259344a4df1513a2b5f9b1caa83dae8d24e9c2f"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/comparison/original-probes-normalized.json",
+      "representation": "raw bytes",
+      "bytes": 12049,
+      "sha256": "1bf6b54898db9c741e52137d53c8c46d5ea37cc1dd2a51b4ff8756054430cae2",
+      "git_blob_sha1": "0e56a613f562a1d35a8fc4d37471e3523b8c15a4"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/comparison/original-standards-normalized.json",
+      "representation": "raw bytes",
+      "bytes": 3556,
+      "sha256": "8490476c45c1a5750881297e3a262817e10cc880582a8b6c5a31acf56fd2a01d",
+      "git_blob_sha1": "c674ee5ad61a2ebda44703aee225e6d8e4a9fdb3"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/comparison/original-verified-normalized.json",
+      "representation": "raw bytes",
+      "bytes": 17808,
+      "sha256": "e703dcc7b7e17d3e2a1c0cf8efb12ac066fcebdbfc9a7932534b8778ddd3953c",
+      "git_blob_sha1": "1f17c0ef631d6d5ecfdb202473b98d1f410421f0"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/comparison/preservation.json",
+      "representation": "raw bytes",
+      "bytes": 1008,
+      "sha256": "2f4e9c88255f7a9c9e32f4532836799ff373a23016aedac2146997999a7c9bea",
+      "git_blob_sha1": "e760d84b5e8f5793264adb8e7b9d6722efd34fb2"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/comparison/replay-comparison.json",
+      "representation": "raw bytes",
+      "bytes": 17030,
+      "sha256": "37ac04a5ba2d7d53c88f3c5e860e53fd61cd14ef8bbe82c6e6d4a2a78dce7dde",
+      "git_blob_sha1": "983d315ce0f44dcc0f77c2470b0199bec142b9e6"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/final-checks.json",
+      "representation": "raw bytes",
+      "bytes": 624,
+      "sha256": "586fa152fda99e79d1d0b6d3d53303f80520711237a04b83b9dcd78c88514512",
+      "git_blob_sha1": "deb2820d59c0ab40587281d0ad5c568988878562"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/format-all.log",
+      "representation": "raw bytes",
+      "bytes": 28,
+      "sha256": "d28901f31d98caab0a8c71639625b1e9b8fff7ad3d8191448678d7e0840a37f0",
+      "git_blob_sha1": "a769243c60f8de2797b616c99ff441daa1d7a7f8"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/helper-diffs.json",
+      "representation": "raw bytes",
+      "bytes": 1373,
+      "sha256": "4ce9feb6998ad0ebf855b63b36708f549e33515bbb5ae907abaea6f0e90761a4",
+      "git_blob_sha1": "359cf4a4a2207fc1a1e4e5f19c47b82dee498491"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/mypy.log",
+      "representation": "raw bytes",
+      "bytes": 45,
+      "sha256": "a83a70edf408d123cd597d2aef487538650d1d33f5e9a95e4fc05d86733a72ec",
+      "git_blob_sha1": "6dcc6398d7daac9604dc111f82612a8cf92da16a"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/original-helper-map.json",
+      "representation": "raw bytes",
+      "bytes": 1853,
+      "sha256": "8a8ed1b7b2f86b39232bf8c2f96029ad163f063c5ba1553de3b4a8c9e26ea5f8",
+      "git_blob_sha1": "ef7e0be06ee0762c6c4c974ae31e6a9afcd28f12"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay/executions.json",
+      "representation": "raw bytes",
+      "bytes": 9409,
+      "sha256": "5b5d8a0126d98b992816dbf18142f82b6923d5e7aa21a32b6a2e5fd99b4d478a",
+      "git_blob_sha1": "b4b06c7c9a803d7139751ab797e6cbed46dabd9a"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay/integrated-artifact-checks.json",
+      "representation": "raw bytes",
+      "bytes": 5759,
+      "sha256": "d486576a7b81743219f7939b4f83fed1f366f0282e1d0bf5551b44129bc23b7a",
+      "git_blob_sha1": "04201ea3432a3ce122af3364942f55001b59daee"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay/integrated-artifact-checks.log",
+      "representation": "raw bytes",
+      "bytes": 47,
+      "sha256": "fd46aa8ca47a6a243f9324f7c2fb1f878565b4fc13ec9ccd5a51460a101bcf15",
+      "git_blob_sha1": "2698284301df9a90523b044b2ad79e50a8cc8946"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay/integrated-probes.json",
+      "representation": "raw bytes",
+      "bytes": 12454,
+      "sha256": "009a57bec4df5012baae2761f6bc8908b32589f18fae00928cf607c55886012d",
+      "git_blob_sha1": "d7f32fd6c1fc2b1151c9745d531b53ba10b2586c"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay/integrated-probes.log",
+      "representation": "raw bytes",
+      "bytes": 6498,
+      "sha256": "2300d5899d7d99c985811f2b24faefaea2a588493ee7f9d28f07068c4e4a6be4",
+      "git_blob_sha1": "d152a1d612e50b5c15012d99176d8f955ab8a205"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay/integrated-standards.json",
+      "representation": "raw bytes",
+      "bytes": 3556,
+      "sha256": "8490476c45c1a5750881297e3a262817e10cc880582a8b6c5a31acf56fd2a01d",
+      "git_blob_sha1": "c674ee5ad61a2ebda44703aee225e6d8e4a9fdb3"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay/integrated-standards.log",
+      "representation": "raw bytes",
+      "bytes": 402,
+      "sha256": "a3d0930bb67d564b8f5e6317cc822ac34d0c57c4316a44ffdc4b22c1231812ad",
+      "git_blob_sha1": "f9be7811500599972c46348ffbdd1765b757fb7b"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay/integrated-verified.json",
+      "representation": "raw bytes",
+      "bytes": 18543,
+      "sha256": "50eb9ef5f32a7cb63664cad97f60990d26e22a10ab02c72cd4010cf810bc2dc0",
+      "git_blob_sha1": "2b0ddc3d3b74c46b945638fcbad16bd704ae6531"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay/integrated-verified.log",
+      "representation": "raw bytes",
+      "bytes": 240,
+      "sha256": "bc6039a1a6247f4cc54b0c1cd221506e7fab7ac5d2d157677b2c8a5e31cc4555",
+      "git_blob_sha1": "3b34ff0227c75356509c2ad32af79a36a9ef2729"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay/original-artifact-checks.json",
+      "representation": "raw bytes",
+      "bytes": 5759,
+      "sha256": "d486576a7b81743219f7939b4f83fed1f366f0282e1d0bf5551b44129bc23b7a",
+      "git_blob_sha1": "04201ea3432a3ce122af3364942f55001b59daee"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay/original-artifact-checks.log",
+      "representation": "raw bytes",
+      "bytes": 47,
+      "sha256": "fd46aa8ca47a6a243f9324f7c2fb1f878565b4fc13ec9ccd5a51460a101bcf15",
+      "git_blob_sha1": "2698284301df9a90523b044b2ad79e50a8cc8946"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay/original-probes.json",
+      "representation": "raw bytes",
+      "bytes": 12448,
+      "sha256": "16c5cd698b78af0f114aace05f7ac1025d307e53df235385111348751c46ce42",
+      "git_blob_sha1": "8e78bc3f4752899d7d27d2506b444cdaa0b7e923"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay/original-probes.log",
+      "representation": "raw bytes",
+      "bytes": 6490,
+      "sha256": "86fa2e812d949fe9e569c7d31c84d35640700d920950e94f5f5251374d018e1a",
+      "git_blob_sha1": "4bec02fc91f5818c1b0e0fe2f1f8d746723be811"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay/original-standards.json",
+      "representation": "raw bytes",
+      "bytes": 3556,
+      "sha256": "8490476c45c1a5750881297e3a262817e10cc880582a8b6c5a31acf56fd2a01d",
+      "git_blob_sha1": "c674ee5ad61a2ebda44703aee225e6d8e4a9fdb3"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay/original-standards.log",
+      "representation": "raw bytes",
+      "bytes": 402,
+      "sha256": "a3d0930bb67d564b8f5e6317cc822ac34d0c57c4316a44ffdc4b22c1231812ad",
+      "git_blob_sha1": "f9be7811500599972c46348ffbdd1765b757fb7b"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay/original-verified.json",
+      "representation": "raw bytes",
+      "bytes": 18537,
+      "sha256": "c8f69c8bdaa6fb7b1ab78937d19745876d33f56d7ca03c5d072cbbe6c7f3a91c",
+      "git_blob_sha1": "1a3ee0b6ceafbe200735cce4a5603e639480c32e"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay/original-verified.log",
+      "representation": "raw bytes",
+      "bytes": 238,
+      "sha256": "e9963a304eb0cba5ea24f839a7a7a536a83dc59fe459d6c9349784cc8ac49239",
+      "git_blob_sha1": "ba1c85a4d21768d381ea15611ebb731a2624492b"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay/target.json",
+      "representation": "raw bytes",
+      "bytes": 1132,
+      "sha256": "f8021c3cdde67edf0c1171e5083ab0afb74e5a2c735045ea543c3472e57a1462",
+      "git_blob_sha1": "482cb66aa3312ac9439f1daaf0fd5db59d7542e0"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/replay_helpers.py",
+      "representation": "raw bytes",
+      "bytes": 5918,
+      "sha256": "fb98bafcd1852e78ba21db5648e1f768af78b4cbf581f5e67a0f907e0d0ea4ae",
+      "git_blob_sha1": "c5f8299294cf71bee8dec6c9dcd81f6d00e2f855"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/ruff-all.log",
+      "representation": "raw bytes",
+      "bytes": 19,
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+      "git_blob_sha1": "1f5f344d054fae10f39140fb7199c99321d9190a"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/security-artifact_checks.diff",
+      "representation": "raw bytes",
+      "bytes": 3282,
+      "sha256": "e31a938f1209c2fb7ca57727afc37b6690aa4b6075f200da678ee2e4d6314df4",
+      "git_blob_sha1": "7fea90c7ad39111ac9846908d0237b5ab00e53c2"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/security-probes.diff",
+      "representation": "raw bytes",
+      "bytes": 30237,
+      "sha256": "d0ea494c85521ae5b9dd65e5924639c68d2607926b4ca4aeb01cab35299cc4d2",
+      "git_blob_sha1": "9918aafc8a9fd2c3cab459df39a458b7a5377721"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/security-verify_outcomes.diff",
+      "representation": "raw bytes",
+      "bytes": 6726,
+      "sha256": "d082f3527e14c84823ff0586ad4a7258d61026a0131b4c1815aaccdcdc51a2a3",
+      "git_blob_sha1": "11c8cabf3840f474111d3396271f640d84224e6f"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/standards-controls.diff",
+      "representation": "raw bytes",
+      "bytes": 2255,
+      "sha256": "6e5bb48de98d06a29aa8dfa3ca229eb123a3fd09993fd728cefe60c7f061503a",
+      "git_blob_sha1": "1bd8e4d07d6ee75959619b5ebdcd46376922afdc"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/integration/static-results.json",
+      "representation": "raw bytes",
+      "bytes": 1122,
+      "sha256": "32f0a0eaf73644033aa1122f626f690ba22bb339ff4b8dabbf549aa19edfe0b7",
+      "git_blob_sha1": "d5666c47dc666b16e3187a87e12a2af4e5ebcfcf"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/security/artifact_checks.py",
+      "representation": "raw bytes",
+      "bytes": 3531,
+      "sha256": "05fd1a270b1d9f684af660fce41b5a07b711d9f737831c812dca8ca76b9ec3f6",
+      "git_blob_sha1": "a0b8910af76aa02c56590cc9e431d79b241111f2"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/security/artifact_checks.py.original",
+      "representation": "raw bytes",
+      "bytes": 3398,
+      "sha256": "6787c8917149b207201596afed940deb75e6d5abf92af300b0315ad45a69d761",
+      "git_blob_sha1": "f68a113dc5180efa2d4d6358c8fe193f4bbe7d77"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/security/probes.py",
+      "representation": "raw bytes",
+      "bytes": 24912,
+      "sha256": "49361b5d21a5a32c6c02f7410812f2b4e1eb420f02e1acdaeca49406afc1b93f",
+      "git_blob_sha1": "296301b6dda6a8d033752b2a776d8d65f25505c7"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/security/probes.py.original",
+      "representation": "raw bytes",
+      "bytes": 22848,
+      "sha256": "381eb401386728d046e412a19fd7d8c8c14a25ea0ee7cb732050468305ba2e7a",
+      "git_blob_sha1": "82a218342d17986a555ab34c1639aa277b67e32b"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/security/verify_outcomes.py",
+      "representation": "raw bytes",
+      "bytes": 6117,
+      "sha256": "3c5858b8187b6d7b783deeeae36dd8d1a0e2c231157ab35fb355689d2dbca115",
+      "git_blob_sha1": "40cc440ee049f513eb91dd524ee6c5d0d89b63f3"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/security/verify_outcomes.py.original",
+      "representation": "raw bytes",
+      "bytes": 5516,
+      "sha256": "ab28d3df593e8d7111144ed268394e732afe32a20b441d29f34e3d945babe675",
+      "git_blob_sha1": "1fc525ebbb4a9b7cd55b56025491d7d8128ef759"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/standards/controls.py",
+      "representation": "raw bytes",
+      "bytes": 4471,
+      "sha256": "b38f5fb4b289fb3d247731ee9ca56d0b4b472cb9dd782f8b58bd9d42ad382b15",
+      "git_blob_sha1": "2bc60de5ba1eb08634913d432feeaed2922fa14c"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/standards/controls.py.original",
+      "representation": "raw bytes",
+      "bytes": 4194,
+      "sha256": "3278c7877fda6895fcd0c887d139bb08adca975983a9d94b7ac7cdfd8c1f80cb",
+      "git_blob_sha1": "3d1b490a7013ab265ac0540eb2669074f885c230"
+    }
+  ]
+}

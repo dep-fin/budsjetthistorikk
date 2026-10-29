@@ -559,6 +559,62 @@ def test_saved_excel_defenses_bind_presentation_and_container(tmp_path, saved_ca
         read_excel(damaged)
 
 
+@pytest.mark.parametrize("mutation", ["srgb-white", "system-white", "minor-font"])
+def test_saved_excel_rejects_theme_that_hides_current_status(tmp_path, saved_cases, mutation):
+    from zipfile import ZIP_DEFLATED, ZipFile
+
+    from lxml import etree
+    from openpyxl import load_workbook
+
+    from analyse.omtale_excel_guard import inspect_excel
+    from analyse.proposisjon16_excel import SHEET_NAMES, read_excel
+
+    report, frozen, source = saved_cases["inntekt-null"]
+    assert read_excel(source) == report
+    with ZipFile(source) as archive:
+        original = {name: archive.read(name) for name in archive.namelist()}
+    files = dict(original)
+    drawing = "{http://schemas.openxmlformats.org/drawingml/2006/main}"
+    theme = etree.fromstring(files["xl/theme/theme1.xml"])
+    if mutation == "minor-font":
+        latin = theme.find(".//" + drawing + "minorFont/" + drawing + "latin")
+        assert latin is not None
+        latin.set("typeface", "Wingdings")
+    else:
+        dark = theme.find(".//" + drawing + "clrScheme/" + drawing + "dk1")
+        assert dark is not None
+        for color in list(dark):
+            dark.remove(color)
+        if mutation == "srgb-white":
+            etree.SubElement(dark, drawing + "srgbClr", val="FFFFFF")
+        else:
+            etree.SubElement(dark, drawing + "sysClr", val="window", lastClr="FFFFFF")
+    files["xl/theme/theme1.xml"] = etree.tostring(theme)
+    assert [name for name in files if files[name] != original[name]] == ["xl/theme/theme1.xml"]
+    damaged = tmp_path / "synthetic-theme-white.xlsx"
+    with ZipFile(damaged, "w", ZIP_DEFLATED) as archive:
+        for name, raw in files.items():
+            archive.writestr(name, raw)
+    # Uendret, gyldig kapsel passerer fortsatt første beholderkontroll.
+    assert inspect_excel(
+        damaged,
+        sheet_names=SHEET_NAMES,
+        snapshot_name="Visningsgrunnlag",
+        max_expanded_bytes=128 * 1024 * 1024,
+    )[0] == frozen.read_text("utf8")
+    book = load_workbook(damaged)
+    try:
+        for title, coordinate in (("Inventar", "M2"), ("Inventar", "N2"), ("Kontoer", "H2")):
+            cell = book[title][coordinate]
+            assert cell.font.color.type == "theme" and cell.font.color.theme == 1
+            assert cell.font.scheme == "minor"
+            assert cell.fill.patternType is None
+    finally:
+        book.close()
+    with pytest.raises(ValueError, match="T5-Excel.*tema"):
+        read_excel(damaged)
+
+
 def test_adapter_accepts_typed_input_without_analysis_import(tmp_path, t5_basis):
     import pickle
 

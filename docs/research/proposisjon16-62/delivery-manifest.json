@@ -25,9 +25,9 @@
     {
       "path": "analyse/proposisjon16_excel.py",
       "representation": "UTF-8/LF",
-      "bytes": 16095,
-      "sha256": "c646e12278baf9fa6340c471c309a6a642df9a867afb82b8903143ac48017aac",
-      "git_blob_sha1": "dc7b911706f652a96588cd1ab1d3c85b5249b77e"
+      "bytes": 16652,
+      "sha256": "3f2a902567e1408ffb01fef625b38e98e334896b89979cdd6661caf565d4177e",
+      "git_blob_sha1": "faa1453529b3fc38e2b8525d3c83eda687f068d8"
     },
     {
       "path": "docs/kildefunn.md",
@@ -39,9 +39,9 @@
     {
       "path": "docs/proposisjon16.md",
       "representation": "UTF-8/LF",
-      "bytes": 6326,
-      "sha256": "7e84b8478259134b153081981d4727a26e76794bfae72237c04f2a76d1ac9249",
-      "git_blob_sha1": "d976dd879f54003bf2c003386523c5cbf9138aad"
+      "bytes": 6779,
+      "sha256": "97dcfe0d11a4fa9ef37b623da1b7731cff6b874864ed6fccbe356aaae5ad043e",
+      "git_blob_sha1": "e861c176c38513b84104c472a9bb6c6096c402ec"
     },
     {
       "path": "docs/research/proposisjon16-62/README.md",
@@ -249,9 +249,9 @@
     {
       "path": "tests/test_proposisjon16.py",
       "representation": "UTF-8/LF",
-      "bytes": 27066,
-      "sha256": "9e70b8c893eff3c40798eb77cf27b8876a06a8cd31a1ee6930d1d430807d0626",
-      "git_blob_sha1": "52cbd8b8de2aabf689e69c41fbcb62a3cd67c530"
+      "bytes": 29531,
+      "sha256": "b25f47bfa067f3a65d22f94ccc955e11880d621a6f3d1781fa0e7ca44b89a272",
+      "git_blob_sha1": "8f1cef3a72d02b7f059a3b369d9a041131a17907"
     }
   ]
 }

@@ -1,0 +1,110 @@
+{
+  "tree": "df0eed6d6e8a0b2a07962e641ae05d1194a3304d",
+  "base": "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+  "records": [
+    {
+      "input": ".local\\source-check\\run4\\inntekt-null.xlsx",
+      "input_sha256": "9bbc918f465586772bee49e654414e6d1c4500f8c9853eed732ac8f1bc873b8a",
+      "sheetName": "Forløp",
+      "range": "B1:K5",
+      "image": "docs\\research\\proposisjon16-62\\reviews\\source\\visual\\inntekt-null-Forløp-B1-K5.png",
+      "image_sha256": "c0148da6ba4b22795ef9377c4e2fabd8fd4dbe873a3dd68d3c80de191f884347"
+    },
+    {
+      "input": ".local\\source-check\\run4\\inntekt-null.xlsx",
+      "input_sha256": "9bbc918f465586772bee49e654414e6d1c4500f8c9853eed732ac8f1bc873b8a",
+      "sheetName": "Fullmakter",
+      "range": "A1:F10",
+      "image": "docs\\research\\proposisjon16-62\\reviews\\source\\visual\\inntekt-null-Fullmakter-A1-F10.png",
+      "image_sha256": "59e3735c410ef23e42ab0cb01f6e4b2b50266f29358aaade33d1e157f2d804a9"
+    },
+    {
+      "input": ".local\\source-check\\run4\\inntekt-null.xlsx",
+      "input_sha256": "9bbc918f465586772bee49e654414e6d1c4500f8c9853eed732ac8f1bc873b8a",
+      "sheetName": "Fullmakter",
+      "range": "L1:L10",
+      "image": "docs\\research\\proposisjon16-62\\reviews\\source\\visual\\inntekt-null-Fullmakter-L1-L10.png",
+      "image_sha256": "28ae3077bfd958e8e8518990b49c9109fff99ee96ec74a4e61b83d73ef68404a"
+    },
+    {
+      "input": ".local\\source-check\\run4\\inntekt-null.xlsx",
+      "input_sha256": "9bbc918f465586772bee49e654414e6d1c4500f8c9853eed732ac8f1bc873b8a",
+      "sheetName": "Grenbevis",
+      "range": "A1:G9",
+      "image": "docs\\research\\proposisjon16-62\\reviews\\source\\visual\\inntekt-null-Grenbevis-A1-G9.png",
+      "image_sha256": "40144a249c92f1483353a68f335f6f4c393432f62291748e656879eaf70eb3b6"
+    },
+    {
+      "input": ".local\\source-check\\run4\\inntekt-null.xlsx",
+      "input_sha256": "9bbc918f465586772bee49e654414e6d1c4500f8c9853eed732ac8f1bc873b8a",
+      "sheetName": "Kontoer",
+      "range": "A1:H6",
+      "image": "docs\\research\\proposisjon16-62\\reviews\\source\\visual\\inntekt-null-Kontoer-A1-H6.png",
+      "image_sha256": "705cc7e2090817381eef206d3ff3b65147e12fc2780aab828b05ed0d57e5848a"
+    },
+    {
+      "input": ".local\\source-check\\run4\\inntekt-null.xlsx",
+      "input_sha256": "9bbc918f465586772bee49e654414e6d1c4500f8c9853eed732ac8f1bc873b8a",
+      "sheetName": "Inventar",
+      "range": "L1:N6",
+      "image": "docs\\research\\proposisjon16-62\\reviews\\source\\visual\\inntekt-null-Inventar-L1-N6.png",
+      "image_sha256": "78c6969d1c4da1fdb6ec589f1a0f3bff205378ca357e167c3c72f7a6fedb60ea"
+    },
+    {
+      "input": ".local\\source-check\\run4\\inntekt-null.xlsx",
+      "input_sha256": "9bbc918f465586772bee49e654414e6d1c4500f8c9853eed732ac8f1bc873b8a",
+      "sheetName": "T5-dekning",
+      "range": "B1:G2",
+      "image": "docs\\research\\proposisjon16-62\\reviews\\source\\visual\\inntekt-null-T5-dekning-B1-G2.png",
+      "image_sha256": "08276bd60c302114a6dd5bc54bf811c860065b72a795aeb3079d013fba4ec0f5"
+    },
+    {
+      "input": ".local\\source-check\\run4\\utgift.xlsx",
+      "input_sha256": "59893fe8be3c7048d0b4c8995bec0085fdf7c2a48639ec29086af4f50e54a8a9",
+      "sheetName": "Forløp",
+      "range": "B1:K5",
+      "image": "docs\\research\\proposisjon16-62\\reviews\\source\\visual\\utgift-Forløp-B1-K5.png",
+      "image_sha256": "4d3f22c4f5513ff63f4a2d6ba583286b353f79ddf73d3fdb3bb677ed39f99789"
+    },
+    {
+      "input": ".local\\source-check\\run4\\tekst.xlsx",
+      "input_sha256": "cb4885a4f71d9ae8cf579a8ddbef67eea709a0dc889ff528a1133ef1362ff926",
+      "sheetName": "Utvalg",
+      "range": "A1:B12",
+      "image": "docs\\research\\proposisjon16-62\\reviews\\source\\visual\\tekst-Utvalg-A1-B12.png",
+      "image_sha256": "209e9dfc38982a89c21f692f6c4124c910b46e3aae701d3288c8a837c79d367f"
+    },
+    {
+      "input": ".local\\source-check\\run4\\tekst.xlsx",
+      "input_sha256": "cb4885a4f71d9ae8cf579a8ddbef67eea709a0dc889ff528a1133ef1362ff926",
+      "sheetName": "Fullmakter",
+      "range": "A1:F10",
+      "image": "docs\\research\\proposisjon16-62\\reviews\\source\\visual\\tekst-Fullmakter-A1-F10.png",
+      "image_sha256": "59e3735c410ef23e42ab0cb01f6e4b2b50266f29358aaade33d1e157f2d804a9"
+    },
+    {
+      "input": ".local\\source-check\\run4\\tekst.xlsx",
+      "input_sha256": "cb4885a4f71d9ae8cf579a8ddbef67eea709a0dc889ff528a1133ef1362ff926",
+      "sheetName": "Fullmakter",
+      "range": "L1:L10",
+      "image": "docs\\research\\proposisjon16-62\\reviews\\source\\visual\\tekst-Fullmakter-L1-L10.png",
+      "image_sha256": "f1582a5419a9f2528a1bd2e726342fc2c956279e3bcf5093db6813a7236b91ed"
+    },
+    {
+      "input": ".local\\source-check\\run4\\tomt.xlsx",
+      "input_sha256": "d45946f94e8ec37db250e588569624e5fa15f65120a565a20064442c384c1f2d",
+      "sheetName": "Utvalg",
+      "range": "A1:B12",
+      "image": "docs\\research\\proposisjon16-62\\reviews\\source\\visual\\tomt-Utvalg-A1-B12.png",
+      "image_sha256": "98f11ab235c8e87b51739093aa8f31390642863ecfeb2b27fba7217ef75a5e76"
+    },
+    {
+      "input": ".local\\source-check\\run4\\1533.xlsx",
+      "input_sha256": "892b822b647119f3f323c66645d4c584759460ba6af69e2381d58ddba4fc5eca",
+      "sheetName": "Forløp",
+      "range": "B1:K5",
+      "image": "docs\\research\\proposisjon16-62\\reviews\\source\\visual\\1533-Forløp-B1-K5.png",
+      "image_sha256": "c32f6d316a1ce7196ecb2780c5e4945e16cbc3783bb0e14a2f33a80e29838d00"
+    }
+  ]
+}

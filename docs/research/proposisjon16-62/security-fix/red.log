@@ -1,0 +1,9 @@
+F                                                                        [100%]
+================================== FAILURES ===================================
+__________ test_saved_excel_rejects_theme_that_hides_current_status ___________
+tests\test_proposisjon16.py:607: in test_saved_excel_rejects_theme_that_hides_current_status
+    with pytest.raises(ValueError, match="T5-Excel.*tema"):
+E   Failed: DID NOT RAISE <class 'ValueError'>
+=========================== short test summary info ===========================
+FAILED tests/test_proposisjon16.py::test_saved_excel_rejects_theme_that_hides_current_status
+1 failed, 35 deselected in 55.86s

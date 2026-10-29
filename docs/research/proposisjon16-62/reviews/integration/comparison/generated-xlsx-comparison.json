@@ -1,0 +1,1417 @@
+[
+  {
+    "name": "clean.xlsx",
+    "original": {
+      "bytes": 2887280,
+      "sha256": "c1c3305b0ba0ae2b9172be57f35c2ed5819f7533ab1eb3d7e03f532e7b25a20a"
+    },
+    "integrated": {
+      "bytes": 2887284,
+      "sha256": "ca969f41a839db62b149592ae72838a265c7983fca8151ae6a2813d74a4385ee"
+    },
+    "all_member_payloads_equal_except_listed_core_timestamps": true,
+    "differences": [
+      {
+        "member": "docProps/app.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "docProps/core.xml",
+        "timestamp_elements_before": [
+          "<dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-10-29T22:06:46Z</dcterms:created>",
+          "<dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-10-29T22:06:46Z</dcterms:modified>"
+        ],
+        "timestamp_elements_after": [
+          "<dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-10-29T22:08:29Z</dcterms:created>",
+          "<dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-10-29T22:08:30Z</dcterms:modified>"
+        ],
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/theme/theme1.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet1.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet2.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet3.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet4.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet5.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet6.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet7.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet8.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet9.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet10.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet11.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet12.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet13.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet14.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet15.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/styles.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "_rels/.rels",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/workbook.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "xl/_rels/workbook.xml.rels",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      },
+      {
+        "member": "[Content_Types].xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          6,
+          46
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          8,
+          30
+        ]
+      }
+    ]
+  },
+  {
+    "name": "accepted-theme-white.xlsx",
+    "original": {
+      "bytes": 2887254,
+      "sha256": "9262c94952e9a1c9032c2bc8f409e9dea58a783e42d2c5852d182a00b5fcb08d"
+    },
+    "integrated": {
+      "bytes": 2887258,
+      "sha256": "7dd63311603406ab9df6ba5746e38538b76d30455e278ba5aeb9066ad1f23275"
+    },
+    "all_member_payloads_equal_except_listed_core_timestamps": true,
+    "differences": [
+      {
+        "member": "docProps/app.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "docProps/core.xml",
+        "timestamp_elements_before": [
+          "<dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-10-29T22:06:46Z</dcterms:created>",
+          "<dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-10-29T22:06:46Z</dcterms:modified>"
+        ],
+        "timestamp_elements_after": [
+          "<dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-10-29T22:08:29Z</dcterms:created>",
+          "<dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-10-29T22:08:30Z</dcterms:modified>"
+        ],
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/theme/theme1.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet1.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet2.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet3.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet4.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet5.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet6.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet7.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet8.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet9.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet10.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet11.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet12.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet13.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet14.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet15.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/styles.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "_rels/.rels",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/workbook.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "xl/_rels/workbook.xml.rels",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      },
+      {
+        "member": "[Content_Types].xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          30
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "name": "literal-long.xlsx",
+    "original": {
+      "bytes": 2892983,
+      "sha256": "298ad8e8d0ca8133c62c6f4f603444b25855716d9169f204e56a1258c3e30f37"
+    },
+    "integrated": {
+      "bytes": 2892979,
+      "sha256": "4b2c291036d9b4359e0dc786dae20f27bf425c051f97167f41a14deefbfde754"
+    },
+    "all_member_payloads_equal_except_listed_core_timestamps": true,
+    "differences": [
+      {
+        "member": "docProps/app.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "docProps/core.xml",
+        "timestamp_elements_before": [
+          "<dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-10-29T22:07:51Z</dcterms:created>",
+          "<dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-10-29T22:07:52Z</dcterms:modified>"
+        ],
+        "timestamp_elements_after": [
+          "<dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-10-29T22:09:32Z</dcterms:created>",
+          "<dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-10-29T22:09:32Z</dcterms:modified>"
+        ],
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/theme/theme1.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet1.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet2.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet3.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet4.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet5.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet6.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet7.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet8.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet9.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet10.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet11.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet12.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet13.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet14.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet15.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet16.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/worksheets/sheet17.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/styles.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "_rels/.rels",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/workbook.xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "xl/_rels/workbook.xml.rels",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      },
+      {
+        "member": "[Content_Types].xml",
+        "zip_date_time_before": [
+          2026,
+          10,
+          29,
+          23,
+          7,
+          52
+        ],
+        "zip_date_time_after": [
+          2026,
+          10,
+          29,
+          23,
+          9,
+          32
+        ]
+      }
+    ]
+  }
+]

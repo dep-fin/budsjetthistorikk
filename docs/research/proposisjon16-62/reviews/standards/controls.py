@@ -1,0 +1,111 @@
+"""Bounded standards checks against explicit Git objects, without importing product code."""
+
+import argparse
+import ast
+import hashlib
+import json
+import subprocess
+from pathlib import Path
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--root", type=Path, required=True)
+    parser.add_argument("--base", required=True)
+    parser.add_argument("--candidate", required=True)
+    parser.add_argument("--output", type=Path, required=True)
+    args = parser.parse_args()
+
+    def git(*parts):
+        return subprocess.check_output(["git", "-C", str(args.root), *parts])
+
+    base = git("rev-parse", args.base + "^{commit}").decode().strip()
+    candidate = git("rev-parse", args.candidate + "^{commit}").decode().strip()
+    tree = git("rev-parse", candidate + "^{tree}").decode().strip()
+
+    def blob(path):
+        return git("show", candidate + ":" + path)
+
+    def entries(ref):
+        result = {}
+        for entry in git("ls-tree", "-rz", ref).split(b"\0"):
+            if not entry:
+                continue
+            properties, path = entry.split(b"\t", 1)
+            result[path.decode()] = properties.decode()
+        return result
+
+    before, after = entries(base), entries(candidate)
+    changed_base = sorted(p for p in before if before[p] != after.get(p))
+    assert changed_base == ["AGENTS.md", "docs/kildefunn.md"]
+    additions = {}
+    for path in changed_base:
+        counts = git("diff", "--numstat", base, candidate, "--", path).decode().split()
+        assert int(counts[1]) == 0
+        additions[path] = int(counts[0])
+    manifest = json.loads(blob("docs/research/proposisjon16-62/delivery-manifest.json"))
+    verified = []
+    for item in manifest["files"]:
+        raw = blob(item["path"])
+        assert len(raw) == item["bytes"], item["path"]
+        assert hashlib.sha256(raw).hexdigest() == item["sha256"], item["path"]
+        header = ("blob " + str(len(raw)) + "\0").encode()
+        assert hashlib.sha1(header + raw).hexdigest() == item["git_blob_sha1"], item["path"]
+        verified.append(item["path"])
+    changed_python = sorted(p for p in after if p.endswith(".py") and before.get(p) != after[p])
+    source_modules = [p for p in changed_python if p.startswith("innlesning/")]
+    imports = {}
+    for path in source_modules:
+        modules = []
+        for node in ast.walk(ast.parse(blob(path).decode())):
+            if isinstance(node, ast.Import):
+                modules.extend(alias.name for alias in node.names)
+            elif isinstance(node, ast.ImportFrom):
+                modules.append(("." * node.level) + (node.module or ""))
+        assert not any(m == "analyse" or m.startswith("analyse.") for m in modules), path
+        imports[path] = modules
+    standards_names = [
+        p for p in after if Path(p).name in ("CONTRIBUTING.md", "CODING_STANDARDS.md")
+    ]
+    result = {
+        "schema": "t5-standards-object-controls-1",
+        "base": base,
+        "candidate": candidate,
+        "tree": tree,
+        "diff_command": "git diff " + base + "..." + candidate,
+        "base_files": len(before),
+        "unchanged_base_files": len(before) - len(changed_base),
+        "changed_base_files": changed_base,
+        "additive_context_lines": additions,
+        "changed_file_count": len(set(before) ^ set(after)) + len(changed_base),
+        "delivery_manifest_files_verified": verified,
+        "new_python_files": changed_python,
+        "new_ingestion_imports": imports,
+        "additional_named_standards_files": standards_names,
+        "checks": "PASS: existing blobs preserved except additive context pointers; "
+        "manifest bytes/SHA256/Git blobs match; new ingestion modules have no analysis import",
+        "limits": "Git-object and AST checks only; no product execution, "
+        "visual QA, full suite, CI or merge verification",
+    }
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
+    print(
+        json.dumps(
+            {
+                k: result[k]
+                for k in (
+                    "base",
+                    "candidate",
+                    "tree",
+                    "base_files",
+                    "unchanged_base_files",
+                    "changed_file_count",
+                    "checks",
+                )
+            }
+        )
+    )
+
+
+if __name__ == "__main__":
+    main()

@@ -5,10 +5,12 @@ from copy import copy
 from dataclasses import asdict
 from pathlib import Path
 from tempfile import NamedTemporaryFile
+from zipfile import ZipFile
 
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Alignment
 from openpyxl.utils import get_column_letter
+from openpyxl.writer.theme import theme_xml
 
 from innlesning.observations import encode
 from innlesning.proposisjon16_model import Report
@@ -282,6 +284,15 @@ def read_excel(path: Path) -> Report:
         max_expanded_bytes=128 * 1024 * 1024,
     )
     _package_profile(path, len(shapes))
+    # Pakkprofilen binder temarelasjon og innholdstype. Bind også hele temaet
+    # til skriverens faste payload: cellefontenes theme/scheme er bare pekere.
+    wanted_theme = theme_xml.encode("utf8")
+    with ZipFile(path) as archive:
+        if (
+            archive.getinfo("xl/theme/theme1.xml").file_size != len(wanted_theme)
+            or archive.read("xl/theme/theme1.xml") != wanted_theme
+        ):
+            raise ValueError("T5-Excel har endret tema for farger/skrift")
     report = report_from_json(raw)
     expected = _book(report, raw)
     try:

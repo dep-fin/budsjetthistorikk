@@ -1,0 +1,7 @@
+Candidate d46589cb9e99338e44fc805ee9882006ba657fd0
+Tree df0eed6d6e8a0b2a07962e641ae05d1194a3304d
+Base 2f4ee30c9d8074076fc8042e208c4a4b6345db6b
+python -m pytest tests/test_proposisjon16.py -q -k "rehashed_semantic_poison or bad_optional_t5" --basetemp .local/spec/pytest-d46589c
+14 passed, 21 deselected in 90.74s (0:01:30)
+Ten semantic mutations reached both actual JSON/XLSX readers. Four actual optional-file failure states were followed by ordinary 40034229 registration, interpretation, SQLite and Excel export.
+This is a recorded tool outcome, not an independently reconstructed raw terminal log.

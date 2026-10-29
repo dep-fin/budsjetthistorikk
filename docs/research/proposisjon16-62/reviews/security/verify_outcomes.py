@@ -1,0 +1,157 @@
+"""Recheck two audit-harness assertions against already written real artifacts."""
+
+import argparse
+import base64
+import hashlib
+import json
+import os
+import socket
+import sqlite3
+import subprocess
+import sys
+from pathlib import Path
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--root", type=Path, required=True)
+    parser.add_argument("--candidate", required=True)
+    parser.add_argument("--base", required=True)
+    parser.add_argument("--artifacts", type=Path, required=True)
+    parser.add_argument("--output", type=Path, required=True)
+    args = parser.parse_args()
+    root, artifacts, output = args.root.resolve(), args.artifacts.resolve(), args.output.resolve()
+    assert not output.exists()
+    os.chdir(root)
+    sys.path.insert(0, str(root))
+
+    def git(ref):
+        return subprocess.check_output(["git", "rev-parse", "--verify", ref], text=True).strip()
+
+    candidate, base = git(args.candidate + "^{commit}"), git(args.base + "^{commit}")
+    tree = git(candidate + "^{tree}")
+    subprocess.run(["git", "diff", "--quiet", candidate], check=True)
+    results = json.loads((artifacts / "results.json").read_text("utf8"))
+    assert (results["candidate"], results["base"], results["tree"]) == (candidate, base, tree)
+    from openpyxl import load_workbook
+
+    from analyse import proposisjon16 as t5
+    from analyse.omtale import report_from_json as read_o2
+    from analyse.proposisjon16_excel import read_excel
+    from innlesning.visningspilot_model import PilotSelection
+
+    report = t5.read_json(artifacts / "clean.json")
+    whole = t5.contents(report.basis)
+    union = t5.build_report(
+        report.basis,
+        PilotSelection(
+            years=(2024,), chapters=tuple(sorted({o.chapter for o in whole.observations}))
+        ),
+    )
+    counts = [
+        len(union.view.observation_ids),
+        len(union.view.adopted_observation_ids),
+        len(union.view.adopted_event_ids),
+    ]
+    assert counts == [123, 6, 2]
+    long = t5.read_json(artifacts / "literal-long.json")
+    reason = (
+        '=HYPERLINK("https://example.invalid","synthetic")\n'
+        + "øæå synthetic untrusted text " * 2300
+    )
+    assert any(r.reason == reason for r in read_o2(long.basis.t1_basis.o2b_json).relations)
+    assert read_excel(artifacts / "literal-long.xlsx") == long
+    book = load_workbook(artifacts / "literal-long.xlsx")
+    try:
+        assert "Relasjoner fortsettelse" in book.sheetnames
+        assert all(c.data_type != "f" for sh in book for row in sh for c in row)
+    finally:
+        book.close()
+    corrections = []
+    for row in results["probes"]:
+        if row["name"] == "valid_roundtrip_capsule_counts":
+            corrections.append(
+                {
+                    "name": row["name"],
+                    "previous_counts": row["counts"],
+                    "reason": "Count adopted events through public view; "
+                    "legacy AmountObservation.event_id is null.",
+                }
+            )
+            row["counts"] = counts
+        if row["name"] == "arbitrary_formula_like_long_text_literal":
+            corrections.append(
+                {
+                    "name": row["name"],
+                    "previous_passed": row["passed"],
+                    "reason": "Compare decoded relation reason; "
+                    "raw nested JSON escapes quotes and newline.",
+                }
+            )
+            row["passed"] = True
+    recovered = []
+    old_o2 = read_o2(report.basis.t1_basis.o2b_json)
+    entries = [("t1/" + s.name, s.content_base64) for s in report.basis.t1_basis.sources]
+    entries += [("o2b/" + s.name, s.content_base64) for s in old_o2.basis.sources]
+    entries += [(s.name, s.content_base64) for s in report.basis.sources]
+    for name, content in entries:
+        if content is not None:
+            raw = (artifacts / "originals" / name).read_bytes()
+            assert raw == base64.b64decode(content, validate=True)
+            recovered.append(
+                {"path": name, "sha256": hashlib.sha256(raw).hexdigest(), "bytes": len(raw)}
+            )
+    assert len(recovered) == 25
+    assert read_excel(artifacts / "accepted-theme-white.xlsx") == report
+    for name, module in list(sys.modules.items()):
+        if name.startswith(("analyse.", "innlesning.")) and module is not None:
+            for value in vars(module).values():
+                clear = getattr(value, "cache_clear", None)
+                if clear is not None:
+                    clear()
+    saved_socket, saved_connect = socket.socket, sqlite3.connect
+
+    def deny(*a, **k):
+        raise AssertionError("cold offline read attempted socket/SQLite")
+
+    try:
+        socket.socket, sqlite3.connect = deny, deny
+        assert (
+            t5.read_json(artifacts / "clean.json") == read_excel(artifacts / "clean.xlsx") == report
+        )
+    finally:
+        socket.socket, sqlite3.connect = saved_socket, saved_connect
+    results["cold_offline_caches_cleared_and_socket_sqlite_denied"] = True
+    results["harness_corrections"] = corrections
+    results["original_payloads_rechecked"] = recovered
+    results["unexpected_acceptances"] = [r["name"] for r in results["probes"] if not r["passed"]]
+    results["pass_count"] = sum(r["passed"] for r in results["probes"])
+    results["artifacts"] = [
+        {
+            "name": name,
+            "bytes": (artifacts / name).stat().st_size,
+            "sha256": hashlib.sha256((artifacts / name).read_bytes()).hexdigest(),
+        }
+        for name in (
+            "clean.json",
+            "clean.xlsx",
+            "accepted-theme-white.xlsx",
+            "literal-long.json",
+            "literal-long.xlsx",
+        )
+    ]
+    output.write_text(json.dumps(results, ensure_ascii=False, indent=2), "utf8")
+    print(
+        json.dumps(
+            {
+                "probes": results["probe_count"],
+                "passes": results["pass_count"],
+                "remaining": results["unexpected_acceptances"],
+                "output": str(output),
+            }
+        )
+    )
+
+
+if __name__ == "__main__":
+    main()

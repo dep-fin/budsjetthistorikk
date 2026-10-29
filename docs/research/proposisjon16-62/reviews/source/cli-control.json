@@ -1,0 +1,20 @@
+{
+  "canonical_tree": "df0eed6d6e8a0b2a07962e641ae05d1194a3304d",
+  "pairs": [
+    {
+      "name": "cli-t1-income",
+      "fields": 3,
+      "xlsx_equal": true,
+      "json_sha256": "efc8ab01302141e2d0125e516361cf95551b0317fa179111a4771528fddde142",
+      "xlsx_sha256": "8d49eaff400dd211380aaf3a04fcf7bfec2192c77ba2b3aa625ecfe52c8233be"
+    },
+    {
+      "name": "cli-offline",
+      "fields": 111,
+      "xlsx_equal": true,
+      "json_sha256": "af3ee1d76a91a34c4782dc948accb322cd44bff03bc960542a194cce82b23c67",
+      "xlsx_sha256": "cba536b27b754de06a7d3b8ba0d620565e9d200b30cf2dbde030fd980a827e3d"
+    }
+  ],
+  "delivery_final_14_pair_hashes_equal_source_control": true
+}

@@ -1,0 +1,215 @@
+{
+  "candidate": "d46589cb9e99338e44fc805ee9882006ba657fd0",
+  "candidate_tree": "df0eed6d6e8a0b2a07962e641ae05d1194a3304d",
+  "base": "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+  "working_changes_from_candidate": [
+    "analyse/proposisjon16_excel.py",
+    "docs/proposisjon16.md",
+    "tests/test_proposisjon16.py"
+  ],
+  "reader_inputs": [
+    {
+      "path": "analyse/proposisjon16_excel.py",
+      "bytes": 16652,
+      "sha256": "3f2a902567e1408ffb01fef625b38e98e334896b89979cdd6661caf565d4177e"
+    },
+    {
+      "path": "tests/test_proposisjon16.py",
+      "bytes": 29531,
+      "sha256": "b25f47bfa067f3a65d22f94ccc955e11880d621a6f3d1781fa0e7ca44b89a272"
+    }
+  ],
+  "existing_valid_exports": [
+    {
+      "name": "begge.xlsx",
+      "bytes": 2895918,
+      "sha256": "8b1ce1be5d75120f3b6d4851118f8cf710e965041d1c1324925ad39d24aa3f87",
+      "report_id": "2570fa8af0b76db1dc0e34435c88968eb6b916684cd335376a68b5d00b095b8e"
+    },
+    {
+      "name": "dokument-til-konto.xlsx",
+      "bytes": 2896946,
+      "sha256": "8c0b7f998ceecfbb845a8149ae7302671337bed90b8defee8c967083fe1a887b",
+      "report_id": "e7655e01f6f5e7965f1c990f549039984d02384d0c6bd0ad053c69d0d7a8f79b"
+    },
+    {
+      "name": "flere.xlsx",
+      "bytes": 2896873,
+      "sha256": "b8f6662c68559258c1f12847bf2cfb47bf1d6c3df608257e9d8f26b8d1cedd4a",
+      "report_id": "a233d6443de3531699ebe3c222ca70c3c3badf976f97797ddb818cda01a9f9b6"
+    },
+    {
+      "name": "hele-prop.xlsx",
+      "bytes": 2920860,
+      "sha256": "5be504dcc286071ae1566c6cfc4506da60663bc97e543c93de44e4e0158667db",
+      "report_id": "d5e5d71fda289c48408403c1f3461a89aebb77977f52ddde38c1bbba3c0d9d3c"
+    },
+    {
+      "name": "inntekt-null.xlsx",
+      "bytes": 2887284,
+      "sha256": "bbd889c1d816dc2a54855aac84e6695bb3759aff3b5bdf20e701d8d2573f0c51",
+      "report_id": "03c4811ac324c92b134c54c7f8352dd915095e49315ea95382dc3771c37aadac"
+    },
+    {
+      "name": "kontekst1533.xlsx",
+      "bytes": 2885933,
+      "sha256": "3bd5ed5879bc6b28dcbc2d8855b1236d5c46e087bfb81f1ef3083dbae25901e1",
+      "report_id": "b2fe44d8c519061a712e0730ff38f6677d65d5e47ba16eb879b19edd7ce9a216"
+    },
+    {
+      "name": "konto-til-dokument.xlsx",
+      "bytes": 2920938,
+      "sha256": "43cbce91e6aba00a738b75da6692e39fb37fa21794f753ee5a9d8caa4e988ad2",
+      "report_id": "19644539edee60c6b1e12d80be717eb45184cb3bc7e6bec8d714a6890517ac30"
+    },
+    {
+      "name": "post1.xlsx",
+      "bytes": 2891630,
+      "sha256": "3eba29963819689a3f6a36210ed5aff411296a250ec061b9b85439a5ad2a1e96",
+      "report_id": "9845507ad50fd60e0c57908b441a85d76109e36313c404493796aafafaa90e01"
+    },
+    {
+      "name": "post22.xlsx",
+      "bytes": 2891643,
+      "sha256": "779288ffa68f59a97368baaed64621cb9c79f16d1b4e559e21f09f30f25e96ee",
+      "report_id": "197bbc5bfd8a42d429c78bacad3539e1838a98abe1048e858856587b74ceaa29"
+    },
+    {
+      "name": "retur-dokument.xlsx",
+      "bytes": 2920860,
+      "sha256": "42ea07b0df7b9557e2d6a7074069d4d00093e0bf79543ea3e238dd16d8f58e00",
+      "report_id": "d5e5d71fda289c48408403c1f3461a89aebb77977f52ddde38c1bbba3c0d9d3c"
+    },
+    {
+      "name": "retur-konto.xlsx",
+      "bytes": 2896873,
+      "sha256": "432ca079af842b86451a9859ee2047854f5038094574c3b85a9ecc3c0d206828",
+      "report_id": "a233d6443de3531699ebe3c222ca70c3c3badf976f97797ddb818cda01a9f9b6"
+    },
+    {
+      "name": "tekst.xlsx",
+      "bytes": 2886054,
+      "sha256": "8a5a87028ec322e0d304f7fe2bad490c110de5087709690db2b95361d1d0c426",
+      "report_id": "5dfeeab852e32202a7b3446c57699dde8b7692a7fb077ec35298c039534cc50a"
+    },
+    {
+      "name": "tomt.xlsx",
+      "bytes": 2885810,
+      "sha256": "3661191ccbb74ae5b98bd5cdf467f980a4aeb406867af6228d75b5993455b9cf",
+      "report_id": "d883ee70a3a9efc6f74924ad732eddec5663b9ec63815b8ad116466f6d3439fb"
+    },
+    {
+      "name": "utgift.xlsx",
+      "bytes": 2887286,
+      "sha256": "ac3d6f04444be95ac784c0fad982b44d2da23c769fd6b6acb7201156dfada01b",
+      "report_id": "e0ce7a403a211ade713a4d27d31bf9e24afb4af51b8c6c9d2dec5b70524f5a53"
+    }
+  ],
+  "new_valid_export": {
+    "bytes": 2887284,
+    "sha256": "f9ed697f74d1af8ba2ed9ca942cb8eeec53a04ced5a8907d0b0dae0c5df9a30a"
+  },
+  "numeric_zero_preserved": true,
+  "new_export_theme_unchanged": true,
+  "affected_cells": [
+    {
+      "sheet": "Inventar",
+      "cell": "M2",
+      "value": "[\"c48895cb1cc2fdc3a440505f7b4ce36697ca5cde0248781aef817f9445913e1c\",\"a90040fdefba20698c18f91e0b9905f0f4d2be5591183c248b9f346c36300d1c\",\"ea8d6f4f071e36f938eed1405957089279fe0aa9846410698cf81bc9130434e2\"]"
+    },
+    {
+      "sheet": "Inventar",
+      "cell": "N2",
+      "value": "strukturert_T5"
+    },
+    {
+      "sheet": "Kontoer",
+      "cell": "H2",
+      "value": "strukturert_T5"
+    }
+  ],
+  "theme_probes": [
+    {
+      "mutation": "srgb-white",
+      "changed_parts": [
+        "xl/theme/theme1.xml"
+      ],
+      "container_valid_capsule_unchanged": true,
+      "outcome": "rejected",
+      "detail": "T5-Excel har endret tema for farger/skrift",
+      "bytes": 2887258,
+      "sha256": "32317989272c81d73ccf2c4be794e78380d94ebd866b59666036493e943ff6ea"
+    },
+    {
+      "mutation": "system-white",
+      "changed_parts": [
+        "xl/theme/theme1.xml"
+      ],
+      "container_valid_capsule_unchanged": true,
+      "outcome": "rejected",
+      "detail": "T5-Excel har endret tema for farger/skrift",
+      "bytes": 2887261,
+      "sha256": "6de115f64db12a2fc4c157f5ff6a6aeb65000df9cb7d7ac96ca0b5c99a3b3bc4"
+    },
+    {
+      "mutation": "minor-font",
+      "changed_parts": [
+        "xl/theme/theme1.xml"
+      ],
+      "container_valid_capsule_unchanged": true,
+      "outcome": "rejected",
+      "detail": "T5-Excel har endret tema for farger/skrift",
+      "bytes": 2887268,
+      "sha256": "2cde7e85ace7a08c9310693baf60db84e9b87bab5a1d7d9c100e332572cba0e1"
+    }
+  ],
+  "preserved_paths": [
+    "docs/research/proposisjon16-62/reviews/security/artifact-checks.json",
+    "docs/research/proposisjon16-62/reviews/security/artifact_checks.py",
+    "docs/research/proposisjon16-62/reviews/security/probes.py",
+    "docs/research/proposisjon16-62/reviews/security/rapport.md",
+    "docs/research/proposisjon16-62/reviews/security/results-final.json",
+    "docs/research/proposisjon16-62/reviews/security/results.json",
+    "docs/research/proposisjon16-62/reviews/security/verify_outcomes.py",
+    "docs/research/proposisjon16-62/reviews/source/cli-control.json",
+    "docs/research/proposisjon16-62/reviews/source/cli-offline.log",
+    "docs/research/proposisjon16-62/reviews/source/cli-t1.log",
+    "docs/research/proposisjon16-62/reviews/source/independent-check.log",
+    "docs/research/proposisjon16-62/reviews/source/independent-control.json",
+    "docs/research/proposisjon16-62/reviews/source/independent_check.py",
+    "docs/research/proposisjon16-62/reviews/source/pytest-selected.log",
+    "docs/research/proposisjon16-62/reviews/source/render-control.json",
+    "docs/research/proposisjon16-62/reviews/source/render.log",
+    "docs/research/proposisjon16-62/reviews/source/render_actual.mjs",
+    "docs/research/proposisjon16-62/reviews/source/report.md",
+    "docs/research/proposisjon16-62/reviews/source/visual/1533-Forløp-B1-K5.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-Forløp-B1-K5.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-Fullmakter-A1-F10.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-Fullmakter-L1-L10.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-Grenbevis-A1-G9.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-Inventar-L1-N6.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-Kontoer-A1-H6.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-T5-dekning-B1-G2.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/tekst-Fullmakter-A1-F10.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/tekst-Fullmakter-L1-L10.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/tekst-Utvalg-A1-B12.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/tomt-Utvalg-A1-B12.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/utgift-Forløp-B1-K5.png",
+    "docs/research/proposisjon16-62/reviews/spec/controls.json",
+    "docs/research/proposisjon16-62/reviews/spec/controls.py",
+    "docs/research/proposisjon16-62/reviews/spec/pytest-targeted.log",
+    "docs/research/proposisjon16-62/reviews/spec/report.md",
+    "docs/research/proposisjon16-62/reviews/standards/controls.json",
+    "docs/research/proposisjon16-62/reviews/standards/controls.py",
+    "docs/research/proposisjon16-62/reviews/standards/REPORT.md",
+    "docs/research/proposisjon16-62/visual/delt-ramme.png",
+    "docs/research/proposisjon16-62/visual/grenstatus.png",
+    "docs/research/proposisjon16-62/visual/historisk-og-gjeldende.png",
+    "docs/research/proposisjon16-62/visual/inntekt-null.png",
+    "docs/research/proposisjon16-62/visual/tabell-dekning.png",
+    "docs/research/proposisjon16-62/visual/tekstkonto.png",
+    "docs/research/proposisjon16-62/visual/tomt.png",
+    "docs/research/proposisjon16-62/visual/utgift.png",
+    "tests/fixtures/t2/authentic-t1.json.gz"
+  ]
+}

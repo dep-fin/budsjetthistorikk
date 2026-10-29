@@ -89,6 +89,13 @@ guardprofiler. Ekte `tests/fixtures/t2/authentic-t1.json.gz` leses med gammel
 leser. 40034229 registreres ordinært ved manglende/feilet/korrupt/motstridende
 T5. Delte dyre fixture-/eksportgrunnlag begrenser CI-tiden.
 
+T5-leseren binder også hele `xl/theme/theme1.xml` byte for byte til den
+eksisterende skriverens faste openpyxl-tema. Pakkprofilen binder temarelasjon
+og innholdstype; stil- og cellekontrollene binder bruken. Dette omfatter både
+farger og temaskrift, også der cellefonten bruker `theme`/`scheme`. Alternative
+temapayloads avvises selv om kapselen og celleverdiene er uendret. Skriveren,
+eksportinnholdet og eldre formaters guardprofiler endres ikke.
+
 Excel er bestilt produkteksport med eksisterende openpyxl. Separat visuell QA
 av faktiske filer bruker loader-runtime/render der tilgjengelig; celleassert
 alene er ingen visuell aksept. Begrensninger og konkrete feilforsøk lagres.

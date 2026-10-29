@@ -1,0 +1,139 @@
+{
+  "schema": "t5-theme-fix-manifest-1",
+  "starting_candidate": "d46589cb9e99338e44fc805ee9882006ba657fd0",
+  "starting_tree": "df0eed6d6e8a0b2a07962e641ae05d1194a3304d",
+  "base": "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+  "scope": "Local P2 fix, exact working-file hashes. Starting candidate is historical; independent gates and new candidate freeze belong to orchestrator.",
+  "excludes": [
+    "this self-describing manifest",
+    ".local real exports and poisoned archives, whose hashes are in control-results.json"
+  ],
+  "files": [
+    {
+      "path": "analyse/proposisjon16_excel.py",
+      "representation": "raw bytes",
+      "bytes": 16652,
+      "sha256": "3f2a902567e1408ffb01fef625b38e98e334896b89979cdd6661caf565d4177e",
+      "git_blob_sha1": "faa1453529b3fc38e2b8525d3c83eda687f068d8"
+    },
+    {
+      "path": "tests/test_proposisjon16.py",
+      "representation": "raw bytes",
+      "bytes": 29531,
+      "sha256": "b25f47bfa067f3a65d22f94ccc955e11880d621a6f3d1781fa0e7ca44b89a272",
+      "git_blob_sha1": "8f1cef3a72d02b7f059a3b369d9a041131a17907"
+    },
+    {
+      "path": "docs/proposisjon16.md",
+      "representation": "raw bytes",
+      "bytes": 6779,
+      "sha256": "97dcfe0d11a4fa9ef37b623da1b7731cff6b874864ed6fccbe356aaae5ad043e",
+      "git_blob_sha1": "e861c176c38513b84104c472a9bb6c6096c402ec"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/delivery-manifest.json",
+      "representation": "raw bytes",
+      "bytes": 10374,
+      "sha256": "1d9da37c09cf0b88c2ac2f63326271ca0a4dd609df69fa579a570fecbf477c3b",
+      "git_blob_sha1": "0d0317a9d36aeb0a293d1d1b76a5dbba0d24589b"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/security-fix/binding-checks.json",
+      "representation": "raw bytes",
+      "bytes": 549,
+      "sha256": "14375d0380e9b732debbe988e5d2b48ae13bebdfd7be61d40a4e6fc65fe029cc",
+      "git_blob_sha1": "e1376eddaec009eb910336937528fab0dd23f7e0"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/security-fix/control-results.json",
+      "representation": "raw bytes",
+      "bytes": 9313,
+      "sha256": "aaa8b3d6d08c8439996e46b142f2c3c2fc4ef83fb9ff4d1f7bca586a542d1029",
+      "git_blob_sha1": "71e5bba38312e27e01985d15a1a116b407c3ddc3"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/security-fix/format-all.log",
+      "representation": "raw bytes",
+      "bytes": 380,
+      "sha256": "ef0d87dbc5e5fafd42c8f3c0cf6d4413311795f664c24ac56180cd31392feacb",
+      "git_blob_sha1": "9a6a2ed063811330d43e28a0bca7fb5b15216256"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/security-fix/format-product.log",
+      "representation": "raw bytes",
+      "bytes": 29,
+      "sha256": "a859b28b91e346668e8eb9da749515988e9440d2ff0b6d4c7ab4451845da7a45",
+      "git_blob_sha1": "d87116ebdb73c84a1d08c959a14774f6811f9e4c"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/security-fix/green.log",
+      "representation": "raw bytes",
+      "bytes": 116,
+      "sha256": "f33bcaea06643049b1478b6dd0e1dee7ec957a9cbd2c8717798a4fb22d25b4d4",
+      "git_blob_sha1": "d32266e4b9769ad3dd70109f2854bd129695e5a5"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/security-fix/mypy.log",
+      "representation": "raw bytes",
+      "bytes": 45,
+      "sha256": "a83a70edf408d123cd597d2aef487538650d1d33f5e9a95e4fc05d86733a72ec",
+      "git_blob_sha1": "6dcc6398d7daac9604dc111f82612a8cf92da16a"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/security-fix/preserved-before.json",
+      "representation": "raw bytes",
+      "bytes": 8963,
+      "sha256": "efe90d41154e348b6873448e2019518a0290c03bf4a8277806acb36ef5b17efc",
+      "git_blob_sha1": "dcfbaa51087ddafbf7ad67157ebb4cf8ab732959"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/security-fix/probe.log",
+      "representation": "raw bytes",
+      "bytes": 1273,
+      "sha256": "3611de589c29bf07fba30c71a01377c578011fe643cab6ab36e3b7f8247704ab",
+      "git_blob_sha1": "537a9f431ececeea677b52269bb955b47f398c23"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/security-fix/probe.py",
+      "representation": "raw bytes",
+      "bytes": 6866,
+      "sha256": "fb3695c2a6c1ca7cf4519287fb9205d562d4e0d12068d8eee706d93f5b3f1a64",
+      "git_blob_sha1": "d3ad59f5a8fe25bba7f81ddb6818256bf67505e5"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/security-fix/README.md",
+      "representation": "raw bytes",
+      "bytes": 6344,
+      "sha256": "90cebc8650a5f578600d0b2ebdc7568cbb0b58acfead03db718ebba1b2689735",
+      "git_blob_sha1": "537a4256f8accc4d6bd1153eb123c298a8fbaaea"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/security-fix/red.log",
+      "representation": "raw bytes",
+      "bytes": 656,
+      "sha256": "96c0288f8f035c4bdc3fdd00615b04e525b2b8b0a48651a7308252bfe99bff16",
+      "git_blob_sha1": "6b8b45cd9ab82b66eef87fcc6f142c8e58e1e92e"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/security-fix/ruff-all.log",
+      "representation": "raw bytes",
+      "bytes": 27176,
+      "sha256": "2482ed17d76ea1958d662e2f6d7863a77e115d26e561f758a0492da6e4c86101",
+      "git_blob_sha1": "56eb3c13669b74628e6454fa2eb49b88c3fd3ee4"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/security-fix/ruff-product.log",
+      "representation": "raw bytes",
+      "bytes": 20,
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0",
+      "git_blob_sha1": "7f6ba294132e156ccce54256b2567c8763f1b628"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/security-fix/tests-38.log",
+      "representation": "raw bytes",
+      "bytes": 732,
+      "sha256": "1c2331f61099931d34685206f969c3fc45820c8253efb6aabeffc8a403c84938",
+      "git_blob_sha1": "d8613cf70e63ac9ca15ff49837ff2061fac7620b"
+    }
+  ]
+}

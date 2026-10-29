@@ -1,0 +1,434 @@
+docs\research\proposisjon16-62\reviews\security\artifact_checks.py:41:101: E501 Line too long (115 > 100)
+   |
+39 |         return git("show", candidate + ":" + name)
+40 |     path = "docs/research/proposisjon16-62/"
+41 |     manifest = json.loads(blob(path + "delivery-manifest.json"), object_pairs_hook=strict, parse_constant=constant)
+   |                                                                                                     ^^^^^^^^^^^^^^^ E501
+42 |     bound = []
+43 |     for entry in manifest["files"]:
+   |
+
+docs\research\proposisjon16-62\reviews\security\artifact_checks.py:49:101: E501 Line too long (114 > 100)
+   |
+47 |         assert len(raw) == entry["bytes"], entry["path"]
+48 |         assert hashlib.sha256(raw).hexdigest() == entry["sha256"], entry["path"]
+49 |         assert hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest() == entry["git_blob_sha1"]
+   |                                                                                                     ^^^^^^^^^^^^^^ E501
+50 |         bound.append(entry["path"])
+51 |     added = git("diff", "--name-only", base, candidate).decode().splitlines()
+   |
+
+docs\research\proposisjon16-62\reviews\security\artifact_checks.py:79:101: E501 Line too long (107 > 100)
+   |
+77 |         "manifest_entries_match_git_bytes": bound, "strict_json": checked_json, "png": checked_png}
+78 |     output.write_text(json.dumps(result, ensure_ascii=False, indent=2), "utf8")
+79 |     print(json.dumps({"manifest_entries": len(bound), "json": len(checked_json), "png": len(checked_png)}))
+   |                                                                                                     ^^^^^^^ E501
+   |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:63:101: E501 Line too long (103 > 100)
+   |
+61 |         row = {"name": name, "passed": bool(passed), "detail": detail, **extra}
+62 |         results["probes"].append(row)
+63 |         (output / "results.json").write_text(json.dumps(results, ensure_ascii=False, indent=2), "utf8")
+   |                                                                                                     ^^^ E501
+64 |         print(name, "PASS" if passed else "ACCEPTED-ALTERATION", detail, flush=True)
+   |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:77:5: I001 [*] Import block is un-sorted or un-formatted
+   |
+75 |               record(name, False, "reader accepted altered input")
+76 |
+77 | /     from lxml import etree
+78 | |     from openpyxl import load_workbook
+79 | |     from analyse import proposisjon16 as t5, visningspilot as t1
+80 | |     from analyse.omtale_excel_guard import inspect_excel
+81 | |     from analyse.proposisjon16_excel import (
+82 | |         SHEET_NAMES, _book, export_excel, export_originals, export_pair, read_excel,
+83 | |     )
+84 | |     from innlesning import proposisjon16 as adapter
+85 | |     from innlesning.observations import encode
+86 | |     from innlesning.omtale import identified
+87 | |     from innlesning.proposisjon16_model import FORMAT
+88 | |     from innlesning.visningspilot import _source as t1_source, structure_basis as t1_structure
+89 | |     from innlesning.visningspilot_model import PilotSelection
+   | |_____________________________________________________________^ I001
+90 |
+91 |       for module in (t5, adapter):
+   |
+   = help: Organize imports
+
+docs\research\proposisjon16-62\reviews\security\probes.py:148:101: E501 Line too long (103 > 100)
+    |
+146 |         poisons[name] = wrap(replace(basis, observations=tuple(rows)))
+147 |     old_rows = tuple(replace(o, step_id="synthetic-old-step")
+148 |                      if o.figure_type == "stortingsvedtak" else o for o in basis.t1_basis.observations)
+    |                                                                                                     ^^^ E501
+149 |     poisons["old_step"] = wrap(replace(basis, t1_basis=identified(
+150 |         "visningsgrunnlag-1", replace(basis.t1_basis, observations=old_rows))))
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:153:101: E501 Line too long (103 > 100)
+    |
+151 |     b = identified("proposisjonsgren16-1", replace(basis.branches[1],
+152 |         accounts=basis.branches[1].accounts + ("1533/45",)))
+153 |     poisons["branch_leak"] = wrap(replace(basis, branches=(basis.branches[0], b, *basis.branches[2:])))
+    |                                                                                                     ^^^ E501
+154 |     a = next(a for a in basis.authorizations if a.roman == "IV")
+155 |     split = tuple(identified("proposisjonsfullmakt16-1", replace(a, accounts=(account,)))
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:163:101: E501 Line too long (103 > 100)
+    |
+161 |     poisons["false_coverage"] = wrap(replace(basis, coverage=(c,)))
+162 |     poisons["hidden_gaps"] = wrap(replace(basis, issues=()))
+163 |     bad_binding = identified("proposisjonsbinding16-1", replace(basis.bindings[0], observation_ids=()))
+    |                                                                                                     ^^^ E501
+164 |     poisons["binding"] = wrap(replace(basis, bindings=(bad_binding, *basis.bindings[1:])))
+165 |     for name, poisoned in poisons.items():
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:182:101: E501 Line too long (124 > 100)
+    |
+180 |     record("typed_original_reconstruct", adapter.structure_basis(
+181 |         basis.t1_basis, prepared, basis.sources) == basis)
+182 |     rejection("typed_rehashed_money", lambda: adapter.validate_basis(poisons["zero_amount"].basis, prepared), semantic=True)
+    |                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^ E501
+183 |     source = basis.sources[0]
+184 |     fake = replace(source, content_base64=base64.b64encode(b"synthetic false HTML").decode(),
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:214:101: E501 Line too long (102 > 100)
+    |
+212 |         record("unpinned_gzip_not_decompressed", contradictory.status == "motstrid"
+213 |                and any("motstrid" in s for s in degraded_t1.issues)
+214 |                and all(b.status == "uavklart" for b in degraded_t5.branches if b.case_id == "100889"))
+    |                                                                                                     ^^ E501
+215 |     finally:
+216 |         gzip.GzipFile = gzip_class
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:244:101: E501 Line too long (112 > 100)
+    |
+242 |             lambda n: n[0].set("TargetMode", "External")),
+243 |         "worksheet_doctype": lambda d: d.__setitem__("xl/worksheets/sheet1.xml",
+244 |             b'<!DOCTYPE worksheet [<!ENTITY e SYSTEM "file:///nonexistent">]>' + d["xl/worksheets/sheet1.xml"]),
+    |                                                                                                     ^^^^^^^^^^^^ E501
+245 |         "hidden_sheet": lambda d: xml(d, "xl/workbook.xml",
+246 |             lambda n: n.find("s:sheets", ns)[0].set("state", "hidden")),
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:251:101: E501 Line too long (120 > 100)
+    |
+249 |             lambda n: n.find("s:fonts/s:font/s:color", ns).set("rgb", "FFFFFF")),
+250 |         "cell_formula": lambda d: xml(d, "xl/worksheets/sheet1.xml",
+251 |             lambda n: etree.SubElement(n.find(".//s:c[@r='G2']", ns), "{" + ns["s"] + "}f").__setattr__("text", "1+1")),
+    |                                                                                                     ^^^^^^^^^^^^^^^^^^^^ E501
+252 |         "numeric_as_text": lambda d: xml(d, "xl/worksheets/sheet1.xml",
+253 |             lambda n: n.find(".//s:c[@r='G4']", ns).set("t", "inlineStr")),
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:301:101: E501 Line too long (121 > 100)
+    |
+299 |     book.close()
+300 |     record("theme_integrity", False,
+301 |         "Only theme dk1 changed to FFFFFF; accepted equal report; T5 status/binding fonts use theme=1 on unfilled cells",
+    |                                                                                                     ^^^^^^^^^^^^^^^^^^^^^ E501
+302 |         report_equal=theme_result == report, affected=theme_cells,
+303 |         changed_parts=[n for n in clean_parts if n == "xl/theme/theme1.xml"])
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:317:101: E501 Line too long (104 > 100)
+    |
+315 |                         clear()
+316 |         socket.socket, sqlite3.connect = deny, deny
+317 |         record("offline_readers_no_network_sqlite", t5.read_json(frozen) == read_excel(excel) == report)
+    |                                                                                                     ^^^^ E501
+318 |     finally:
+319 |         socket.socket, sqlite3.connect = original_socket, original_connect
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:343:101: E501 Line too long (111 > 100)
+    |
+341 |                 if name.read_bytes() != expected.read_bytes():
+342 |                     missing.append(relative)
+343 |     record("original_recovery", not missing, "raw exported bytes compared where source repository path exists",
+    |                                                                                                     ^^^^^^^^^^^ E501
+344 |         files=sum(n.is_file() for n in original_files), repository_files_compared=compared, mismatches=missing)
+345 |     rejection("no_clobber_original_directory", lambda: export_originals(report, originals))
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:344:101: E501 Line too long (111 > 100)
+    |
+342 |                     missing.append(relative)
+343 |     record("original_recovery", not missing, "raw exported bytes compared where source repository path exists",
+344 |         files=sum(n.is_file() for n in original_files), repository_files_compared=compared, mismatches=missing)
+    |                                                                                                     ^^^^^^^^^^^ E501
+345 |     rejection("no_clobber_original_directory", lambda: export_originals(report, originals))
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:347:101: E501 Line too long (102 > 100)
+    |
+345 |     rejection("no_clobber_original_directory", lambda: export_originals(report, originals))
+346 |
+347 |     offline = subprocess.run([sys.executable, "-m", "analyse.proposisjon16", "--frosset", str(frozen),
+    |                                                                                                     ^^ E501
+348 |         "--rot", str(output / "does-not-exist"), "--json", str(output / "offline-cli.json"),
+349 |         "--excel", str(output / "offline-cli.xlsx")], capture_output=True, text=True, encoding="utf8")
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:349:101: E501 Line too long (102 > 100)
+    |
+347 |     offline = subprocess.run([sys.executable, "-m", "analyse.proposisjon16", "--frosset", str(frozen),
+348 |         "--rot", str(output / "does-not-exist"), "--json", str(output / "offline-cli.json"),
+349 |         "--excel", str(output / "offline-cli.xlsx")], capture_output=True, text=True, encoding="utf8")
+    |                                                                                                     ^^ E501
+350 |     record("offline_cli", offline.returncode == 0 and t5.read_json(output / "offline-cli.json") == report,
+351 |            offline.stderr)
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:350:101: E501 Line too long (106 > 100)
+    |
+348 |         "--rot", str(output / "does-not-exist"), "--json", str(output / "offline-cli.json"),
+349 |         "--excel", str(output / "offline-cli.xlsx")], capture_output=True, text=True, encoding="utf8")
+350 |     record("offline_cli", offline.returncode == 0 and t5.read_json(output / "offline-cli.json") == report,
+    |                                                                                                     ^^^^^^ E501
+351 |            offline.stderr)
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:362:101: E501 Line too long (120 > 100)
+    |
+360 |         t5._publish = race
+361 |         rejection("atomic_no_clobber_race", lambda: t5.export_json(report, race_path))
+362 |         record("atomic_no_clobber_race_preserves_winner", race_path.read_bytes() == b"existing destination won the race"
+    |                                                                                                     ^^^^^^^^^^^^^^^^^^^^ E501
+363 |                and set(output.glob("tmp*.json")) == before_temporary)
+364 |     finally:
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:368:5: I001 [*] Import block is un-sorted or un-formatted
+    |
+367 |       # Legitimate arbitrary reviewer text enters through the old public API.
+368 | /     from analyse.omtale import report_from_json as read_o2, report_to_json as freeze_o2
+369 | |     from analyse.omtale_begge import propose_relation
+    | |_____________________________________________________^ I001
+370 |       old_o2 = read_o2(old.basis.o2b_json)
+371 |       reason = '=HYPERLINK("https://example.invalid","synthetic")\n' + "øæå synthetic untrusted text " * 2300
+    |
+    = help: Organize imports
+
+docs\research\proposisjon16-62\reviews\security\probes.py:371:101: E501 Line too long (107 > 100)
+    |
+369 |     from analyse.omtale_begge import propose_relation
+370 |     old_o2 = read_o2(old.basis.o2b_json)
+371 |     reason = '=HYPERLINK("https://example.invalid","synthetic")\n' + "øæå synthetic untrusted text " * 2300
+    |                                                                                                     ^^^^^^^ E501
+372 |     manual = propose_relation(old_o2, section_id=old_o2.basis.sections[1].id,
+373 |         event_id=old_o2.relations[0].event_id, evidence_ids=(old_o2.basis.sections[1].id,), reason=reason)
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:373:101: E501 Line too long (106 > 100)
+    |
+371 |     reason = '=HYPERLINK("https://example.invalid","synthetic")\n' + "øæå synthetic untrusted text " * 2300
+372 |     manual = propose_relation(old_o2, section_id=old_o2.basis.sections[1].id,
+373 |         event_id=old_o2.relations[0].event_id, evidence_ids=(old_o2.basis.sections[1].id,), reason=reason)
+    |                                                                                                     ^^^^^^ E501
+374 |     manual_t1 = t1.build_report(t1.import_basis(freeze_o2(manual), root), PilotSelection())
+375 |     manual_t5 = t5.build_report(t5.import_basis(t1.report_to_json(manual_t1), root), PilotSelection())
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:375:101: E501 Line too long (102 > 100)
+    |
+373 |         event_id=old_o2.relations[0].event_id, evidence_ids=(old_o2.basis.sections[1].id,), reason=reason)
+374 |     manual_t1 = t1.build_report(t1.import_basis(freeze_o2(manual), root), PilotSelection())
+375 |     manual_t5 = t5.build_report(t5.import_basis(t1.report_to_json(manual_t1), root), PilotSelection())
+    |                                                                                                     ^^ E501
+376 |     long_json, long_excel = output / "literal-long.json", output / "literal-long.xlsx"
+377 |     export_pair(manual_t5, long_json, long_excel)
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:387:101: E501 Line too long (108 > 100)
+    |
+385 |            and any(r.reason == reason for r in read_o2(manual_t5.basis.t1_basis.o2b_json).relations)
+386 |            and t5.read_json(long_json) == read_excel(long_excel) == manual_t5,
+387 |            "public manual-relation text, >60000 chars, actual JSON/XLSX roundtrip and ordered continuation")
+    |                                                                                                     ^^^^^^^^ E501
+388 |
+389 |     # Actual ordinary decision registration after four degraded T5 imports.
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:408:101: E501 Line too long (110 > 100)
+    |
+406 |             target.write_bytes(target.read_bytes().replace(b"1429", b"1420"))
+407 |         degraded = t5.import_basis(old_frozen, optional)
+408 |         assert degraded.sources[0].status == ("mangler" if condition in {"missing", "failed"} else "motstrid")
+    |                                                                                                     ^^^^^^^^^^ E501
+409 |         database = output / ("ordinary-" + condition + ".sqlite")
+410 |         def cli(*a):
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:417:101: E501 Line too long (108 > 100)
+    |
+415 |         sync = cli("innlesning", "synkroniser", "--database", str(database),
+416 |             "--sesjon", "2024-2025", "--historisk-proeve", "--vedtak-id", "40034229",
+417 |             "--response", "tests/fixtures/b6/40034229.xml", "--metadata", "tests/fixtures/b6/40034229.json")
+    |                                                                                                     ^^^^^^^^ E501
+418 |         extraction = cli("innlesning", "tolk", "--database", str(database), "--revisjon",
+419 |                         sync["vedtak"][0]["revision_id"], "--tolkning", "storting-belop-v2")["belopsuttrekk"]
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:419:101: E501 Line too long (109 > 100)
+    |
+417 |             "--response", "tests/fixtures/b6/40034229.xml", "--metadata", "tests/fixtures/b6/40034229.json")
+418 |         extraction = cli("innlesning", "tolk", "--database", str(database), "--revisjon",
+419 |                         sync["vedtak"][0]["revision_id"], "--tolkning", "storting-belop-v2")["belopsuttrekk"]
+    |                                                                                                     ^^^^^^^^^ E501
+420 |         ordinary_excel = output / ("ordinary-" + condition + ".xlsx")
+421 |         cli("analyse", "--database", str(database), "--belopsuttrekk", extraction, "--excel", str(ordinary_excel))
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:421:101: E501 Line too long (114 > 100)
+    |
+419 |                         sync["vedtak"][0]["revision_id"], "--tolkning", "storting-belop-v2")["belopsuttrekk"]
+420 |         ordinary_excel = output / ("ordinary-" + condition + ".xlsx")
+421 |         cli("analyse", "--database", str(database), "--belopsuttrekk", extraction, "--excel", str(ordinary_excel))
+    |                                                                                                     ^^^^^^^^^^^^^^ E501
+422 |         from innlesning.observations import read_extraction
+423 |         extracted = read_extraction(database, extraction)
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:424:101: E501 Line too long (108 > 100)
+    |
+422 |         from innlesning.observations import read_extraction
+423 |         extracted = read_extraction(database, extraction)
+424 |         record("ordinary_registration_" + condition, not sync["feil"] and len(extracted.observations) == 222
+    |                                                                                                     ^^^^^^^^ E501
+425 |                and len({o.step_id for o in extracted.observations}) == 74 and ordinary_excel.exists(),
+426 |                "actual sync, raw storage, v2 interpretation, SQLite, analysis and XLSX")
+    |
+
+docs\research\proposisjon16-62\reviews\security\probes.py:425:101: E501 Line too long (102 > 100)
+    |
+423 |         extracted = read_extraction(database, extraction)
+424 |         record("ordinary_registration_" + condition, not sync["feil"] and len(extracted.observations) == 222
+425 |                and len({o.step_id for o in extracted.observations}) == 74 and ordinary_excel.exists(),
+    |                                                                                                     ^^ E501
+426 |                "actual sync, raw storage, v2 interpretation, SQLite, analysis and XLSX")
+427 |     results["probe_count"] = len(results["probes"])
+    |
+
+docs\research\proposisjon16-62\reviews\security\verify_outcomes.py:34:5: I001 [*] Import block is un-sorted or un-formatted
+   |
+32 |       results = json.loads((artifacts / "results.json").read_text("utf8"))
+33 |       assert (results["candidate"], results["base"], results["tree"]) == (candidate, base, tree)
+34 | /     from analyse import proposisjon16 as t5
+35 | |     from analyse.omtale import report_from_json as read_o2
+36 | |     from analyse.proposisjon16_excel import read_excel
+37 | |     from innlesning.visningspilot_model import PilotSelection
+38 | |     from openpyxl import load_workbook
+   | |______________________________________^ I001
+39 |       report = t5.read_json(artifacts / "clean.json")
+40 |       whole = t5.contents(report.basis)
+   |
+   = help: Organize imports
+
+docs\research\proposisjon16-62\reviews\security\verify_outcomes.py:47:101: E501 Line too long (107 > 100)
+   |
+45 |     assert counts == [123, 6, 2]
+46 |     long = t5.read_json(artifacts / "literal-long.json")
+47 |     reason = '=HYPERLINK("https://example.invalid","synthetic")\n' + "øæå synthetic untrusted text " * 2300
+   |                                                                                                     ^^^^^^^ E501
+48 |     assert any(r.reason == reason for r in read_o2(long.basis.t1_basis.o2b_json).relations)
+49 |     assert read_excel(artifacts / "literal-long.xlsx") == long
+   |
+
+docs\research\proposisjon16-62\reviews\security\verify_outcomes.py:60:101: E501 Line too long (114 > 100)
+   |
+58 |         if row["name"] == "valid_roundtrip_capsule_counts":
+59 |             corrections.append({"name": row["name"], "previous_counts": row["counts"],
+60 |                 "reason": "Count adopted events through public view; legacy AmountObservation.event_id is null."})
+   |                                                                                                     ^^^^^^^^^^^^^^ E501
+61 |             row["counts"] = counts
+62 |         if row["name"] == "arbitrary_formula_like_long_text_literal":
+   |
+
+docs\research\proposisjon16-62\reviews\security\verify_outcomes.py:64:101: E501 Line too long (106 > 100)
+   |
+62 |         if row["name"] == "arbitrary_formula_like_long_text_literal":
+63 |             corrections.append({"name": row["name"], "previous_passed": row["passed"],
+64 |                 "reason": "Compare decoded relation reason; raw nested JSON escapes quotes and newline."})
+   |                                                                                                     ^^^^^^ E501
+65 |             row["passed"] = True
+66 |     recovered = []
+   |
+
+docs\research\proposisjon16-62\reviews\security\verify_outcomes.py:75:101: E501 Line too long (106 > 100)
+   |
+73 |             raw = (artifacts / "originals" / name).read_bytes()
+74 |             assert raw == base64.b64decode(content, validate=True)
+75 |             recovered.append({"path": name, "sha256": hashlib.sha256(raw).hexdigest(), "bytes": len(raw)})
+   |                                                                                                     ^^^^^^ E501
+76 |     assert len(recovered) == 25
+77 |     assert read_excel(artifacts / "accepted-theme-white.xlsx") == report
+   |
+
+docs\research\proposisjon16-62\reviews\security\verify_outcomes.py:89:101: E501 Line too long (103 > 100)
+   |
+87 |     try:
+88 |         socket.socket, sqlite3.connect = deny, deny
+89 |         assert t5.read_json(artifacts / "clean.json") == read_excel(artifacts / "clean.xlsx") == report
+   |                                                                                                     ^^^ E501
+90 |     finally:
+91 |         socket.socket, sqlite3.connect = saved_socket, saved_connect
+   |
+
+docs\research\proposisjon16-62\reviews\security\verify_outcomes.py:99:101: E501 Line too long (120 > 100)
+    |
+ 97 |     results["artifacts"] = [{"name": name, "bytes": (artifacts / name).stat().st_size,
+ 98 |         "sha256": hashlib.sha256((artifacts / name).read_bytes()).hexdigest()}
+ 99 |         for name in ("clean.json", "clean.xlsx", "accepted-theme-white.xlsx", "literal-long.json", "literal-long.xlsx")]
+    |                                                                                                     ^^^^^^^^^^^^^^^^^^^^ E501
+100 |     output.write_text(json.dumps(results, ensure_ascii=False, indent=2), "utf8")
+101 |     print(json.dumps({"probes": results["probe_count"], "passes": results["pass_count"],
+    |
+
+docs\research\proposisjon16-62\reviews\standards\controls.py:67:101: E501 Line too long (102 > 100)
+   |
+65 |         assert not any(m == "analyse" or m.startswith("analyse.") for m in modules), path
+66 |         imports[path] = modules
+67 |     standards_names = [p for p in after if Path(p).name in ("CONTRIBUTING.md", "CODING_STANDARDS.md")]
+   |                                                                                                     ^^ E501
+68 |     result = {
+69 |         "schema": "t5-standards-object-controls-1",
+   |
+
+docs\research\proposisjon16-62\reviews\standards\controls.py:83:101: E501 Line too long (170 > 100)
+   |
+81 | …
+82 | …
+83 | …xt pointers; manifest bytes/SHA256/Git blobs match; new ingestion modules have no analysis import",
+   |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ E501
+84 | …, visual QA, full suite, CI or merge verification",
+85 | …
+   |
+
+docs\research\proposisjon16-62\reviews\standards\controls.py:84:101: E501 Line too long (122 > 100)
+   |
+82 |         "additional_named_standards_files": standards_names,
+83 |         "checks": "PASS: existing blobs preserved except additive context pointers; manifest bytes/SHA256/Git blobs match; new ingesti…
+84 |         "limits": "Git-object and AST checks only; no product execution, visual QA, full suite, CI or merge verification",
+   |                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^ E501
+85 |     }
+86 |     args.output.parent.mkdir(parents=True, exist_ok=True)
+   |
+
+docs\research\proposisjon16-62\reviews\standards\controls.py:88:101: E501 Line too long (146 > 100)
+   |
+86 | …
+87 | …False, indent=2) + "\n", encoding="utf8")
+88 | …date", "tree", "base_files", "unchanged_base_files", "changed_file_count", "checks")}))
+   |                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ E501
+   |
+
+Found 42 errors.
+[*] 3 fixable with the `--fix` option.
