@@ -1,0 +1,1803 @@
+{
+  "schema": "r2-spec-independent-check-1",
+  "base": "6b2441ee5e859d103ab44d78f12d33c374a89171",
+  "candidate": "7af3153bda95726ac93d0780b918ae95440bae2d",
+  "checked_utc": "2026-10-28T21:20:56.836214+00:00",
+  "checks": [
+    {
+      "name": "fixed HEAD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fixed merge base",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete candidate has 64 files",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only research and durable pointers changed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: AGENTS.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/kildefunn.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/.gitattributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/OVERLEVERING.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/context-snapshot.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/cross-reference-journal.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/delivery-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/evidence.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/inns90-all.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/inns90-all.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/inns91-all.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/inns91-all.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/inns91.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/inns91.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/prop34-ch1.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/prop34-ch1.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/prop34-ch2.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/prop34-ch2.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/prop34-ch3.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/prop34-ch3.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/prop34-ch4.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/prop34-ch4.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/prop34-ch5.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/prop34-ch5.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/prop34-root.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/prop34-root.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/prop34.pdf.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/prop34.pdf.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/prop36-ch11.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/prop36-ch11.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/prop36-ch7.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/prop36-ch7.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/ref171224-debatt6.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/ref171224-debatt6.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/ref171224-votering.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/ref171224-votering.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/sak101000-retry.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/sak101000-retry.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/sak101000.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/sak101000.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/voteringer100289.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/voteringer100289.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/voteringer101000.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/voteringer101000.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/voteringsforslag23887.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/voteringsforslag23887.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/voteringsforslag23945.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/voteringsforslag23945.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/pdf-check.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/reproduksjon.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/reused-sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/reviews/source-control/RAPPORT.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/reviews/source-control/candidate-comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/reviews/source-control/results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/reviews/source-control/verify_sources.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/source-comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/source-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/treatment-ledger.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate file binding: docs/research/r2-101000-54/verification.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected tree: docs/research/k3-arsinventar-50",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected tree: docs/research/perioderegister-52",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected tree: innlesning",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected tree: analyse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected tree: drift",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected tree: tests",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected tree: .github",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected tree: docs/perioderegister.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: inns90-all.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: inns91-all.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: inns91.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: prop34-ch1.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: prop34-ch2.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: prop34-ch3.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: prop34-ch4.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: prop34-ch5.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: prop34-root.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: prop34.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: prop36-ch11.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: prop36-ch7.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: ref171224-debatt6.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: ref171224-votering.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: sak101000-retry.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: sak101000.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: voteringer100289.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: voteringer101000.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: voteringsforslag23887.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: voteringsforslag23945.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: voteringsvedtak23887.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport observation fields: voteringsvedtak23945.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 original heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 corrected README",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 corrected FIN-1429-1 ledger",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 old source label preserved as historical: README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 old source label preserved as historical: treatment-ledger.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/inns90-all.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/inns90-all.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/inns91-all.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/inns91-all.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/inns91.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/inns91.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/prop34-ch1.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/prop34-ch1.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/prop34-ch2.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/prop34-ch2.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/prop34-ch3.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/prop34-ch3.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/prop34-ch4.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/prop34-ch4.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/prop34-ch5.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/prop34-ch5.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/prop34-root.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/prop34-root.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/prop34.pdf.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/prop34.pdf.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/prop36-ch11.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/prop36-ch11.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/prop36-ch7.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/prop36-ch7.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/ref171224-debatt6.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/ref171224-debatt6.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/ref171224-votering.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/ref171224-votering.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/sak101000-retry.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/sak101000-retry.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/sak101000.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/sak101000.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/voteringer100289.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/voteringer100289.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/voteringer101000.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/voteringer101000.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/voteringsforslag23887.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/voteringsforslag23887.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/voteringsforslag23945.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/voteringsforslag23945.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F1 unchanged original: docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent local compensation scope and value",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compensation unit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw compensation cell with only edge whitespace stripped",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "salary estimate stays proposal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "separate residual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fullmakt no invented actual amount",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no global positive annual acceptance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete published Prop34 chapter set",
+      "passed": true,
+      "detail": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "name": "complete debate closing boundary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: index-624",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: case101000-publications",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: case100289-publications",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: prop34-ch1.html#kap1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: prop34-ch2.html#kap2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: prop34-ch2.html#kap2-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: prop34-ch2.html#kap2-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: prop34-ch2.html#kap2-1-p10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: prop34-ch2.html#kap2-1-p2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: prop34-ch2.html#kap2-1-p8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: prop34-ch2.html#kap2-1-p9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: prop34-ch3.html#kap3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: prop34-ch3.html#kap3_ch1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: prop34-ch3.html#kap3_ch1_ch1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: prop34-ch4.html#ch5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: prop34-ch5.html#ch6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: inns91-all.html#m1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: inns91-all.html#m2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: inns91-all.html#m2_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: inns91-all.html#m2_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: inns91-all.html#m2_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: inns91-all.html#m2_3_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: inns91-all.html#m2_3_1_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: inns91-all.html#m3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: complete-case6-debate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: case6-vote-reference",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: vote23887",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: proposal40077003",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: decision230",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: vote23887-decision230",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: proposal40077004",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: decision231",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: vote23887-decision231",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: annex4-actual-heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: prop36-ch5-complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: annex4-row292",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: annex4-row293",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: annex4-row294",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: O1-unchanged-rounded-salary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: O1-unchanged-post22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: O1-proposal1429-row43",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: O1-proposal1429-row44",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: O1-proposal1429-row45",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: O1-proposal1429-row46",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: O1-proposal1429-row47",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: O1-proposal1429-row48",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: existing-decision210",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: central-reserve-summary2309-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: salary-summary-in-inns90",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: inns90-recommendation-actor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: prop36-proposal-II",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: inns90-recommendation-II",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: proposal40078386",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: decision429",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: vote23945",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: vote23945-decision429",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: june-decision853",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: june-decision854",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: june-decision855",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control passage re-read: june-decision856",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control 204 historical checks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control script binding",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source-control comparison is explicitly historical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "historical candidate comparison: docs/research/r2-101000-54/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "historical candidate comparison: docs/research/r2-101000-54/treatment-ledger.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "historical candidate comparison: docs/research/r2-101000-54/cross-reference-journal.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "historical candidate comparison: docs/research/r2-101000-54/source-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "historical candidate comparison: docs/research/r2-101000-54/reused-sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "historical candidate comparison: docs/research/r2-101000-54/evidence.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/inns90-all.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/inns90-all.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/inns91-all.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/inns91-all.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/inns91.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/inns91.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/prop34-ch1.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/prop34-ch1.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/prop34-ch2.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/prop34-ch2.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/prop34-ch3.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/prop34-ch3.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/prop34-ch4.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/prop34-ch4.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/prop34-ch5.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/prop34-ch5.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/prop34-root.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/prop34-root.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/prop34.pdf.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/prop34.pdf.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/prop36-ch11.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/prop36-ch11.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/prop36-ch7.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/prop36-ch7.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/ref171224-debatt6.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/ref171224-debatt6.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/ref171224-votering.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/ref171224-votering.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/sak101000-retry.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/sak101000-retry.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/sak101000.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/sak101000.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/voteringer100289.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/voteringer100289.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/voteringer101000.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/voteringer101000.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/voteringsforslag23887.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/voteringsforslag23887.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/voteringsforslag23945.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/voteringsforslag23945.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate original parity retained: docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "12 named cross-reference boundaries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cross-reference provenance and explicit results",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete live issue and comment context",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "published builder reproduction on fixed blobs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source script rerun on corrected fixed candidate",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "inventory": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 7598,
+      "sha256": "17beeca5ab792e47325e1935dbb52a76051ea3b7f8d576878a1e71b3d98e4b9b"
+    },
+    {
+      "path": "docs/kildefunn.md",
+      "bytes": 61249,
+      "sha256": "5363ea8e4d5911d10bf1ba9097bc31330beb9906e606159962f648c3f428318d"
+    },
+    {
+      "path": "docs/research/r2-101000-54/.gitattributes",
+      "bytes": 110,
+      "sha256": "52516a60db55db27682bd96f6be375b2614355c8bf9f9c19aa7edbbc19faa0cb"
+    },
+    {
+      "path": "docs/research/r2-101000-54/OVERLEVERING.md",
+      "bytes": 3791,
+      "sha256": "a2db494a2b5d8aae83334d5917015e8aced4547c514cbaae7025ec25368be784"
+    },
+    {
+      "path": "docs/research/r2-101000-54/README.md",
+      "bytes": 9313,
+      "sha256": "204cd636ab189ec90d33c611b8851cabc7eee1b42f87e13e14cb1149fe27e1a1"
+    },
+    {
+      "path": "docs/research/r2-101000-54/context-snapshot.json",
+      "bytes": 101564,
+      "sha256": "def4447fc8054166089bad51a5cc6006d209dd56531732d8c24dfeb1d92877fe",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/cross-reference-journal.json",
+      "bytes": 6711,
+      "sha256": "106acc28536cb6ea18c47b397511fb3ec901a4f12bd9f3754be6298c1c379787",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/delivery-manifest.json",
+      "bytes": 14169,
+      "sha256": "797048db652936d6589d50e863f3d5605f81f287acd9f2c3724c2deb41759cc6",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/evidence.json",
+      "bytes": 107617,
+      "sha256": "2f25861db698c202b8123e4a04408d80579b7e5368aff707168eefb921a8987b",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/inns90-all.html.gz",
+      "bytes": 72270,
+      "sha256": "faeafd4757600c1ed2a4cfe89a6bea8a9fd5ef2c7e35f037caebbf891b7f0279",
+      "body_bytes": 1173398,
+      "body_sha256": "c75f2df5f4280c3a4b327219f60bb48fda52da8e26ea927f0f6e4d2ba92299cb"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/inns90-all.html.meta.json",
+      "bytes": 14749,
+      "sha256": "76ba57f535797c5b1c49b95aeca20a42d833bf46e9db827e75641d0c16b456d9",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/inns91-all.html.gz",
+      "bytes": 26137,
+      "sha256": "906cb7f860e0fda33031b3bd1e53039df6573ea1aa60728ec7b607f277d0509a",
+      "body_bytes": 136388,
+      "body_sha256": "745a24367b3b93979f19b8ef2396cdfed5edf1d80ef887f648b459728e57e8ea"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/inns91-all.html.meta.json",
+      "bytes": 14671,
+      "sha256": "6a3383617c6fff74dcc05fa2023ac41b25a5ff083b487ddb4484a31ace120e43",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/inns91.html.gz",
+      "bytes": 15796,
+      "sha256": "90e37ef1b3c386ed094dfc8f443f3249b40f18d6e55f7d57277b15d57e1c03d8",
+      "body_bytes": 86453,
+      "body_sha256": "3eafba8c7f12c25807615646b9927e7f3998b8b16edd66e768dce7951242bb5e"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/inns91.html.meta.json",
+      "bytes": 14617,
+      "sha256": "fe99caf98618ecef2b0fb0598708b2f8d1c5b060ec06f5234a4a7247a035fdd7",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop34-ch1.html.gz",
+      "bytes": 14917,
+      "sha256": "0a257ee7c4b050a18d58614a9091e6ebf47361e44ed167146dc7c6bf8c767d24",
+      "body_bytes": 64696,
+      "body_sha256": "3c1ccb1343dfe306a1719ec5be555e7c3e34a418359e9c828ddc902510b4b350"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop34-ch1.html.meta.json",
+      "bytes": 10449,
+      "sha256": "5454c10aafda820fa0c992c31f5c94e687f661998967385ce97513a78535bdc0",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop34-ch2.html.gz",
+      "bytes": 16889,
+      "sha256": "076ca6bb305238ed45e36f987387d66d88d44ec40e1f6fa0593733538935152a",
+      "body_bytes": 70625,
+      "body_sha256": "69eecaca528e82dea7967656a41ac56880fe906036e20988428ac8aff88810b5"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop34-ch2.html.meta.json",
+      "bytes": 10448,
+      "sha256": "1b03e914657461a710d4273cb2f6e08c9ae6b4f3685c766e50bd0a49b256fbfb",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop34-ch3.html.gz",
+      "bytes": 14817,
+      "sha256": "5b475b659768a691ed488ff81e4f623368cd9b171db3f5861118130a4d6b344d",
+      "body_bytes": 64202,
+      "body_sha256": "7a4c4a5a2182e89d7cbda39f398b32c0ef835fa43fb3de578ab194e53a45f071"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop34-ch3.html.meta.json",
+      "bytes": 10449,
+      "sha256": "b6fd8fdbb31e603e3a6ad105ab77bb51d31ce2d57701b1a9dd003610b2a9bba2",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop34-ch4.html.gz",
+      "bytes": 15075,
+      "sha256": "742501e81a3cd39e5684daad2ec2635a5902fd8a141c51f15b82a57fc957aff3",
+      "body_bytes": 65662,
+      "body_sha256": "4494814d57907a8bfc29ca222188d87384c3b53d7d52f63a323cb1ceda55dfc2"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop34-ch4.html.meta.json",
+      "bytes": 10449,
+      "sha256": "17b74d929a67a5aba598fa91229c0f79025fc521008e366de6c583d0e717afba",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop34-ch5.html.gz",
+      "bytes": 14900,
+      "sha256": "7404a53c1104ed5081bbed619b7864eebd0b1ab912b96cb1dc06332bfb02dc23",
+      "body_bytes": 64906,
+      "body_sha256": "91af0aa1830d84a125c950dfe010eed11496f8d56767f792adb2aaa4e9e8669b"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop34-ch5.html.meta.json",
+      "bytes": 10446,
+      "sha256": "19b698c70c73b4fc33a74ba1ad1483523319033f24c39de41a6421faf27da9e1",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop34-root.html.gz",
+      "bytes": 13402,
+      "sha256": "e734ab1b8d3db747697756a38fc7303077943c9adaaf91e485d998bc3ace603b",
+      "body_bytes": 56291,
+      "body_sha256": "ce37daa481500903e5a8457a06a928fdc48a3821b69bcf4d07a7d6c43b5cd411"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop34-root.html.meta.json",
+      "bytes": 10898,
+      "sha256": "8c20ca54d38c04e5e5e0a0f7d3df58286c3f34c33df2e199ef59e8c9f2057950",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop34.pdf.gz",
+      "bytes": 644339,
+      "sha256": "872911294199008ee91ffa30708f4d06ff2d167f7b07c6a378e1e8b0cc529358",
+      "body_bytes": 682523,
+      "body_sha256": "99c0323aa5250a7a741acf83321136e0ecd3707630632ebdf19d91d72c7acc90"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop34.pdf.meta.json",
+      "bytes": 10770,
+      "sha256": "f6171129f9cf2b5f6c09edac42971662fe69f0d086a2958939fe09060e02b938",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop36-ch11.html.gz",
+      "bytes": 23189,
+      "sha256": "3d3ba9f7a26eb57d716dbeebee0cf04c5d62900f5fd6bf9ab43fe6f5855f462e",
+      "body_bytes": 214962,
+      "body_sha256": "0c88959a60162ed44a9dcf54871e03c8479fd779f5ea5e01948c270b25517586"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop36-ch11.html.meta.json",
+      "bytes": 10461,
+      "sha256": "e6e6bc58a728bf50343633fb162910ce087bb0948129e5f0b73394f1fd616611",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop36-ch7.html.gz",
+      "bytes": 23152,
+      "sha256": "77c484e2356c5b061c7f28ab7cf490ac62c3d1ec19421379799a6c1f91768bba",
+      "body_bytes": 190460,
+      "body_sha256": "707eaa943a4ec6256b70e1d47d72b4c8abb061ec10d522e574748e937b089640"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop36-ch7.html.meta.json",
+      "bytes": 10451,
+      "sha256": "8654a42999cb5cbd5f34b12ac60d25a30593d0f8926481f9ca0b7f45aa361713",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/ref171224-debatt6.html.gz",
+      "bytes": 44778,
+      "sha256": "b326d61b37f36a768b81ef75139d9087881e694727aba4de6dc96b8eaa0ee2e5",
+      "body_bytes": 411743,
+      "body_sha256": "fad2f687715ac2c338d0f92445ffca0486c391f1b42d833a626f318a03f6ddc1"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/ref171224-debatt6.html.meta.json",
+      "bytes": 15978,
+      "sha256": "9a3970be69482c8705a885b4a406bada43d370c7e2035070d44b1081b4f697a4",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/ref171224-votering.html.gz",
+      "bytes": 120772,
+      "sha256": "3a13c89e1a701838f3b2f97ab6e019ca5a52396f8dcd29447fb6a0757c4d41db",
+      "body_bytes": 2735346,
+      "body_sha256": "fd3bc47915e760b95c170725e55c4b564b37512f2a813db91b87c66ec1424ab1"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/ref171224-votering.html.meta.json",
+      "bytes": 16326,
+      "sha256": "996e044219580068da2d9e994c8302d62989840260e443b15d2eaf796c084edc",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/sak101000-retry.xml.gz",
+      "bytes": 1886,
+      "sha256": "881e4f0a1475ae5b84e8ee01812105d237e6d43445aec09f92996a3e16a29356",
+      "body_bytes": 12320,
+      "body_sha256": "eec34961b12a226a31d99aca1d130aa39f12a2d6658ef5c6b7e54608154b3da0"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/sak101000-retry.xml.meta.json",
+      "bytes": 11147,
+      "sha256": "8dac15c0b42b9515f033c6a030345134ebc60be53179367833ded7a5181a71e0",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/sak101000.xml.gz",
+      "bytes": 20,
+      "sha256": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e",
+      "body_bytes": 0,
+      "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/sak101000.xml.meta.json",
+      "bytes": 2808,
+      "sha256": "70d3f45f6b6fb4280734035cc7378e30dc3bb1d7f1acd86845948917065a5333",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/voteringer100289.xml.gz",
+      "bytes": 1034,
+      "sha256": "f7047a69c84afae5c016254f59ae231fddb9c0e750d827b768a7605267f73006",
+      "body_bytes": 10106,
+      "body_sha256": "b0e9cc623f23a1f7912104121cb69f446a9dff0edb729bb51bb8fc14de91a0f7"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/voteringer100289.xml.meta.json",
+      "bytes": 11185,
+      "sha256": "780bd386397ca4469121295dbed982d6f2dbc548a5c095e1fcc0a8f6f03079b7",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/voteringer101000.xml.gz",
+      "bytes": 760,
+      "sha256": "0da129ebd7580d6579a44c9c8d1b90e6756b78dbba99ddad24d5182867d6d7ab",
+      "body_bytes": 2322,
+      "body_sha256": "115327c06fcaabe435e570ee27fdc5e407df44a84c27eb83f9764af309d48ff1"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/voteringer101000.xml.meta.json",
+      "bytes": 11180,
+      "sha256": "1f6ee44246446d88960ce32a2063a1492aeb7beb075fc5ff87023db3225cbce0",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.gz",
+      "bytes": 1188,
+      "sha256": "75588c594328f29260ca6426b9876de0f26fcbf99ee08d2a31a4a4ffdbb2de9e",
+      "body_bytes": 6057,
+      "body_sha256": "42fe2d3b6d18d10277f31bede9a460829431666acc6785fab041f81044412913"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.meta.json",
+      "bytes": 11245,
+      "sha256": "9eb1186c802ee7c464d40f9ec56bb5e0ecfa9eb5789ec8c7329c3ccaa9410805",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.gz",
+      "bytes": 6745,
+      "sha256": "d7e55770d963eeda24d2fff5740d4555f3a67f354eeada7f5a3eefe189e8ab21",
+      "body_bytes": 178124,
+      "body_sha256": "6db2f925711246018c128f581801b70f09313a7c13d921d242f36e349ae82211"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.meta.json",
+      "bytes": 11254,
+      "sha256": "0c89386f8b809b06e16753f1d4f476113d48406a1978d4790aa265f3b48699d6",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.gz",
+      "bytes": 359,
+      "sha256": "6764821498fd426cb2be8d20cf8dbeb1b75d5e64a4db5f47d9fd798ccfab4530",
+      "body_bytes": 1156,
+      "body_sha256": "a6811372cd13e2b24a522484ff8f61ddcc037ecba431ef824df466bf5b4f34f6"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.meta.json",
+      "bytes": 11237,
+      "sha256": "adac4c3dc185f4a910da807016e2145f4b6d345fd08dcdd3bae694cecc99a3ad",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.gz",
+      "bytes": 373,
+      "sha256": "3ecb901ca79ef04695ee30c877c56506c3b7600d3724624d67f92f13edbb83b0",
+      "body_bytes": 1555,
+      "body_sha256": "4533c893580dc3512eea3139645be9023a3549e5185573d130321084ac5111b3"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.meta.json",
+      "bytes": 11237,
+      "sha256": "d26c6ad211428c842a0b52d76719c6227eaa4eb7a41e6c5cc3e94914a9556b03",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/pdf-check.json",
+      "bytes": 801,
+      "sha256": "24944fd53e67edd7932a23a4ed4a2fe559b1103d06e65edda8fd2852cdb807da",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reproduksjon.md",
+      "bytes": 13782,
+      "sha256": "179a8f906861eb3fc09189eb3c6d0c5580bd6df8a90209cf3e7c364e13d66a68"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reused-sources.json",
+      "bytes": 4991,
+      "sha256": "3bf5592e63daa5f76e5236a49e706b43459e3beded608c1d933c4f2d51824aeb",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/source-control/RAPPORT.md",
+      "bytes": 19013,
+      "sha256": "b69b42f993b2979ebdd57f359ac7a2db8864ee420533eb69c49af7a127300d04"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/source-control/candidate-comparison.json",
+      "bytes": 15833,
+      "sha256": "0ef199de1a0581f9fc9a2168d6f9d56e89b12c5e0afada7dc94047e4751b36ed",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/source-control/results.json",
+      "bytes": 345186,
+      "sha256": "d71365a80c4e95d272b497740fc7df287643ac262bede9a497c4878fa5db022b",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/source-control/verify_sources.py",
+      "bytes": 24135,
+      "sha256": "8629a24f9d19b45630c1948e98ccfa9de5aac5b2ceff24ec39a35ce980b09afc"
+    },
+    {
+      "path": "docs/research/r2-101000-54/source-comparison.json",
+      "bytes": 782,
+      "sha256": "50a351a641e55f7b6e8cc35c4ba18a2d30673ded38aa5a6b01e4ee19324a4cd6",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/source-manifest.json",
+      "bytes": 23318,
+      "sha256": "76a8f6fd8c835e94de7fceb2c551ff0554091bd5e29a1d86a5a685c9bb234f6c",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/treatment-ledger.json",
+      "bytes": 8865,
+      "sha256": "4f91263b017daec2692dc65a169346c4d8e621bc15c60b45d1417d457fe5b03f",
+      "json_type": "dict"
+    },
+    {
+      "path": "docs/research/r2-101000-54/verification.json",
+      "bytes": 1976,
+      "sha256": "bf4cd1920138ee717f0f3628ce53480ee4216abf3a39a5d449e14a97f3a1d629",
+      "json_type": "dict"
+    }
+  ],
+  "F1_recheck": {
+    "heading_xpath": "//*[@id='ved4']/h1",
+    "observed_heading": "4 Endring av utgifter som følge av lønnsoppgjøret for statsansatte",
+    "cell_xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[293]/td[4]",
+    "observed_raw_cell": "\n          2 796 000\n        ",
+    "source_body_sha256": "0c88959a60162ed44a9dcf54871e03c8479fd779f5ea5e01948c270b25517586",
+    "status": "closed_on_7af3153"
+  },
+  "summary": {
+    "checks_passed": 274,
+    "candidate_files": 64,
+    "necessary_findings": 0,
+    "optional_findings": 0,
+    "boundaries": [
+      "offline raw-source rereading, no new HTTP authenticity proof",
+      "no product test suite, native Excel, visual PDF, CI, or merge performed",
+      "actual 231/429 application, June date conflict, other R1-R7 remain unresolved"
+    ]
+  }
+}

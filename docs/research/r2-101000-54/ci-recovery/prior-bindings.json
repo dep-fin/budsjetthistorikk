@@ -1,0 +1,162 @@
+{
+  "schema": "r2-ci-recovery-prior-bindings-1",
+  "local_commit": "a8dff45df3db66e4ef340ee3bc3c312b7a2743f9",
+  "files": [
+    {
+      "path": ".github/workflows/check.yml",
+      "git_blob_sha1": "f04fadd1f24b64171f540a708a9e9f5a72695a43",
+      "bytes": 727,
+      "sha256": "b34723f78680f98d644f02593090bbbee7f532444f8766b37ff01ddf3cdbe6e0"
+    },
+    {
+      "path": "docs/research/r2-101000-54/README.md",
+      "git_blob_sha1": "087bf9991f07f226d2486bc36568b5840174a735",
+      "bytes": 9313,
+      "sha256": "204cd636ab189ec90d33c611b8851cabc7eee1b42f87e13e14cb1149fe27e1a1"
+    },
+    {
+      "path": "docs/research/r2-101000-54/OVERLEVERING.md",
+      "git_blob_sha1": "42c02c3538d75c1873fdb2d45e8ce31d19b95c90",
+      "bytes": 5484,
+      "sha256": "5eed1aea9c726047731dc05bf83d2cef451544950f7152f46c9ecaf218758800"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reproduksjon.md",
+      "git_blob_sha1": "ceebc1a775b60e82e9ba3353bccd2d8a3b07fdec",
+      "bytes": 13782,
+      "sha256": "179a8f906861eb3fc09189eb3c6d0c5580bd6df8a90209cf3e7c364e13d66a68"
+    },
+    {
+      "path": "docs/research/r2-101000-54/delivery-manifest.json",
+      "git_blob_sha1": "74314ed8e2760a88c1d5d97a1371533fb8cd35d7",
+      "bytes": 14532,
+      "sha256": "a4c4e56019d467ca392a7f970948cbe6268a5a5aa2fa54bb845ba2ab73589b00"
+    }
+  ],
+  "published_head_with_identical_tree": "a5cb97cb4f825e1ce338f4d698a6b4425e9ed0c1",
+  "tree": "ea6b68f728f6bd0442c920e55b05e76b68a9de24",
+  "historical_builder_scope": "Builder manifest at the old local/published tree; 59 files. Old manifest bytes remain retrievable by the commit/path above.",
+  "historical_review_files": [
+    {
+      "path": "docs/research/r2-101000-54/reviews/final-artifacts/publication-manifest.json",
+      "bytes": 27813,
+      "sha256": "81f49a1671d706a32130180c509c369ff6539e87bbe51c1fb0ccfe67328d0c92"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/final-artifacts/RAPPORT.md",
+      "bytes": 7642,
+      "sha256": "20adb0bf70335984a60c607a0333a30846258c43ee05a5e7d96045bd4b7b2908"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/security/audit_checks.py",
+      "bytes": 18457,
+      "sha256": "416caa3bcafe122f939b8fa040e520bb8abc0826698104cd9c89607007030cee"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/security/candidate.json",
+      "bytes": 17363,
+      "sha256": "b3fe028eda49066acfe3b8efd1addefca92c37d7c055209f9c95547743eae35a"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/security/checks.json",
+      "bytes": 130771,
+      "sha256": "446153aa44e5fa3051a6f83bdbe18e2a333e29866d6fb9abbf2cec84b8028dfb"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/security/REPORT.md",
+      "bytes": 8965,
+      "sha256": "09a0f901274e063c0bbd136bda509ed64954802ebda0f7d0eab9573155cede6e"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/security/results.json",
+      "bytes": 345186,
+      "sha256": "69bfae7e127ec1988469e2057a74769a015fbbacc2eda9f6f4b925f52e6cc62a"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/source-control/candidate-comparison.json",
+      "bytes": 15833,
+      "sha256": "0ef199de1a0581f9fc9a2168d6f9d56e89b12c5e0afada7dc94047e4751b36ed"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/source-control/RAPPORT.md",
+      "bytes": 19013,
+      "sha256": "b69b42f993b2979ebdd57f359ac7a2db8864ee420533eb69c49af7a127300d04"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/source-control/results.json",
+      "bytes": 345186,
+      "sha256": "d71365a80c4e95d272b497740fc7df287643ac262bede9a497c4878fa5db022b"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/source-control/verify_sources.py",
+      "bytes": 24135,
+      "sha256": "8629a24f9d19b45630c1948e98ccfa9de5aac5b2ceff24ec39a35ce980b09afc"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/spec/builder-replay.json",
+      "bytes": 2106,
+      "sha256": "b89bf0c577866b060a15a919793e1fa2353a5a7f966ef10b09da38bbb50a929a"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/spec/independent-results.json",
+      "bytes": 57892,
+      "sha256": "69c4dd1e6dedfc5a95016b86f7c8fa1776421452bfb1dc062ff77b1eee7430ed"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/spec/KONTROLLBEVIS.md",
+      "bytes": 3715,
+      "sha256": "b65970b4b34a380f1795893c8a5e4e33c25f8246487c28db12c3d233eda4f060"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/spec/live-context-comparison.json",
+      "bytes": 1337,
+      "sha256": "8adc441d3f78d378b7c21fd6894e232618903baf8b6b9a635279e2a00b434b68"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/spec/RAPPORT.md",
+      "bytes": 2708,
+      "sha256": "2b31e13c25540fcfe9e7b72f7ec4f66bb97d9b413320813f2da504eb5df91ddb"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/spec/replay_builder_check.py",
+      "bytes": 11771,
+      "sha256": "8f22675fc3499bb07085722d15be4ce406fa36f7049855d901120428b2e364d3"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/spec/source-replay.json",
+      "bytes": 345186,
+      "sha256": "37d78f9061309cf64113b537eedf82381d10a01a198fe1d7af536b76a3f36ace"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/spec/verify_spec.py",
+      "bytes": 11944,
+      "sha256": "02258ab30d3b1c090f405a6624435f07e8bdeaad91cd09782bc423fdddea6606"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/standards/RAPPORT.md",
+      "bytes": 2455,
+      "sha256": "08af1c1d3b3203d9f8f0f256619b0f1d64d8319ac7bf5d894ac19e3f70011c8e"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/standards/reproduction-results.json",
+      "bytes": 2106,
+      "sha256": "38a3304b98521ac97e3917dda2677069f62dde4cda00cf53c34d51821bd6d33d"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/standards/results.json",
+      "bytes": 33714,
+      "sha256": "a309ec7fbacb076d3eac66e0e6860156c32e0c2d2f94f603e1ad633181f8774e"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/standards/review_checks.py",
+      "bytes": 5894,
+      "sha256": "0306fb8cd247c8d5f48f25023c92e1cb1ae8f069b4e17c5e87d510b14073456a"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reviews/standards/source-recheck/results.json",
+      "bytes": 345186,
+      "sha256": "4058135e986f3bad62394a00172227e3bf1077721b38a020c5068d9b5713a1d5"
+    }
+  ],
+  "boundary": "Prior committed Git bytes. Historical review reports, scripts, result JSON and publication manifest are preserved unchanged; they do not attest this recovery."
+}

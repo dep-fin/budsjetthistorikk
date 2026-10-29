@@ -1,0 +1,109 @@
+{
+  "schema": "r2-ci-recovery-manifest-1",
+  "created_utc": "2026-10-29T08:11:49.092904+00:00",
+  "prior_local_commit": "a8dff45df3db66e4ef340ee3bc3c312b7a2743f9",
+  "prior_published_head": "a5cb97cb4f825e1ce338f4d698a6b4425e9ed0c1",
+  "prior_tree": "ea6b68f728f6bd0442c920e55b05e76b68a9de24",
+  "recovery_commit": null,
+  "scope": "All newly added/modified files in the recovery compared with the old local/published tree. Historical review evidence is unchanged and is bound separately in prior-bindings.json.",
+  "exact_workflow_exception": ".github/workflows/check.yml checks.timeout-minutes 60 -> 90 only; all steps/dependencies/product/tests unchanged.",
+  "files": [
+    {
+      "path": ".github/workflows/check.yml",
+      "state": "modified",
+      "representation": "utf-8-lf",
+      "bytes": 727,
+      "sha256": "83db99d5a0bc7d4fa4416e4bb124606da0d0e66bac88f2033c422ba87f5214d1",
+      "expected_git_blob_sha1": "95b478d55a123151569112e5eac77a897ddbc38f"
+    },
+    {
+      "path": "docs/research/r2-101000-54/OVERLEVERING.md",
+      "state": "modified",
+      "representation": "exact-file-bytes",
+      "bytes": 7145,
+      "sha256": "062c3f91306e9c5ef9fffe9fb31c18b66d4d562ba07e55c608393c52ac7bb82b",
+      "expected_git_blob_sha1": "a1353d46209c2cd5e9ba2895b077d3d49b29e91f"
+    },
+    {
+      "path": "docs/research/r2-101000-54/README.md",
+      "state": "modified",
+      "representation": "exact-file-bytes",
+      "bytes": 9734,
+      "sha256": "26c627270e209b0a85010a4cfc6c047cafac33328069659abd16bf0bf9e40625",
+      "expected_git_blob_sha1": "7ce68a1e719619ee37705c5a6ce7527cb8bdaa2b"
+    },
+    {
+      "path": "docs/research/r2-101000-54/ci-recovery/README.md",
+      "state": "added",
+      "representation": "exact-file-bytes",
+      "bytes": 9653,
+      "sha256": "a9637061417d7eb1709a66d2552404f453f50df33209a086a0d0a4a1974837bb",
+      "expected_git_blob_sha1": "ac7e087553fb1004823528da462c6a3dadf2461b"
+    },
+    {
+      "path": "docs/research/r2-101000-54/ci-recovery/github-evidence.json",
+      "state": "added",
+      "representation": "exact-file-bytes",
+      "bytes": 16153,
+      "sha256": "4a7f07a38175ce22197373dcb6f7af53293e19182d8acb50fce640f0d80e2e03",
+      "expected_git_blob_sha1": "81459331b8ef63680c553b0fd0309613ccea83d8"
+    },
+    {
+      "path": "docs/research/r2-101000-54/ci-recovery/local-checks.json",
+      "state": "added",
+      "representation": "exact-file-bytes",
+      "bytes": 6436,
+      "sha256": "b1ba198ea413cbc8610cd6c0fe4d1b154d7c59dd442d7ac90a03a1ae32df6894",
+      "expected_git_blob_sha1": "8cac1e78a293c375c8f8a3b80ecdef922adbd1c2"
+    },
+    {
+      "path": "docs/research/r2-101000-54/ci-recovery/log-excerpts.json",
+      "state": "added",
+      "representation": "exact-file-bytes",
+      "bytes": 6840,
+      "sha256": "ff9ed674078bd1e39148fd603d1108d35d09508d5071c034d40e84ae0788aaa6",
+      "expected_git_blob_sha1": "63dbec9622733ef3ecdc2e113a088105fbd08855"
+    },
+    {
+      "path": "docs/research/r2-101000-54/ci-recovery/prior-bindings.json",
+      "state": "added",
+      "representation": "exact-file-bytes",
+      "bytes": 6733,
+      "sha256": "77d26ec5825359c625a1b8c9368c29c650fda6ef0959240e622f8bc1b7501e5f",
+      "expected_git_blob_sha1": "17e46681f0b66e3aeea450bc892dbf4d427e6610"
+    },
+    {
+      "path": "docs/research/r2-101000-54/ci-recovery/reproduction-results.json",
+      "state": "added",
+      "representation": "exact-file-bytes",
+      "bytes": 2146,
+      "sha256": "dbd2e0bc5995c6bdcaeaac5816f9647206cb1efda4fc69bd31b2248cd284b905",
+      "expected_git_blob_sha1": "19611db18b517cb35e6fe3e73311a7eb82fc8c59"
+    },
+    {
+      "path": "docs/research/r2-101000-54/delivery-manifest.json",
+      "state": "modified",
+      "representation": "exact-file-bytes",
+      "bytes": 14532,
+      "sha256": "fb0fc9c1d0f58d683d82fc9366ec80a0e6e60e7036b5b1e613f005b15defde91",
+      "expected_git_blob_sha1": "2bd944ea48c6b8eaef1a29cff327677bc2399e66"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reproduksjon.md",
+      "state": "modified",
+      "representation": "exact-file-bytes",
+      "bytes": 15311,
+      "sha256": "2611008f16a6ec0cdcfbf381f0399ff306806cb719af86c3a3eb47fc61c34228",
+      "expected_git_blob_sha1": "1adfca28b5fcad1118467771320467801e19c88c"
+    }
+  ],
+  "file_count": 11,
+  "total_bytes": 95410,
+  "exclusions": [
+    {
+      "path": "docs/research/r2-101000-54/ci-recovery/recovery-manifest.json",
+      "reason": "Self hash would be circular. Verify all actual Git blobs after recovery commit/publication."
+    }
+  ],
+  "boundary": "Working file binding before commit. Not new full CI success, review/audit approval, product adoption or merge."
+}

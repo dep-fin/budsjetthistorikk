@@ -1,0 +1,4668 @@
+{
+  "schema": "r2-security-checks-1",
+  "observed_utc": "2026-10-28T21:20:12.302118+00:00",
+  "base": "6b2441ee5e859d103ab44d78f12d33c374a89171",
+  "candidate": "7af3153bda95726ac93d0780b918ae95440bae2d",
+  "audit_script_sha256": "416caa3bcafe122f939b8fa040e520bb8abc0826698104cd9c89607007030cee",
+  "runtime": {
+    "python": "3.12.14",
+    "lxml": "6.1.1",
+    "libxml": [
+      2,
+      11,
+      9
+    ],
+    "pypdf": "6.10.0"
+  },
+  "source_bindings": [
+    {
+      "id": "inns90-all.html",
+      "archive_bytes": 72270,
+      "body_bytes": 1173398,
+      "body_sha256": "c75f2df5f4280c3a4b327219f60bb48fda52da8e26ea927f0f6e4d2ba92299cb",
+      "status": 200
+    },
+    {
+      "id": "inns91-all.html",
+      "archive_bytes": 26137,
+      "body_bytes": 136388,
+      "body_sha256": "745a24367b3b93979f19b8ef2396cdfed5edf1d80ef887f648b459728e57e8ea",
+      "status": 200
+    },
+    {
+      "id": "inns91.html",
+      "archive_bytes": 15796,
+      "body_bytes": 86453,
+      "body_sha256": "3eafba8c7f12c25807615646b9927e7f3998b8b16edd66e768dce7951242bb5e",
+      "status": 200
+    },
+    {
+      "id": "prop34-ch1.html",
+      "archive_bytes": 14917,
+      "body_bytes": 64696,
+      "body_sha256": "3c1ccb1343dfe306a1719ec5be555e7c3e34a418359e9c828ddc902510b4b350",
+      "status": 200
+    },
+    {
+      "id": "prop34-ch2.html",
+      "archive_bytes": 16889,
+      "body_bytes": 70625,
+      "body_sha256": "69eecaca528e82dea7967656a41ac56880fe906036e20988428ac8aff88810b5",
+      "status": 200
+    },
+    {
+      "id": "prop34-ch3.html",
+      "archive_bytes": 14817,
+      "body_bytes": 64202,
+      "body_sha256": "7a4c4a5a2182e89d7cbda39f398b32c0ef835fa43fb3de578ab194e53a45f071",
+      "status": 200
+    },
+    {
+      "id": "prop34-ch4.html",
+      "archive_bytes": 15075,
+      "body_bytes": 65662,
+      "body_sha256": "4494814d57907a8bfc29ca222188d87384c3b53d7d52f63a323cb1ceda55dfc2",
+      "status": 200
+    },
+    {
+      "id": "prop34-ch5.html",
+      "archive_bytes": 14900,
+      "body_bytes": 64906,
+      "body_sha256": "91af0aa1830d84a125c950dfe010eed11496f8d56767f792adb2aaa4e9e8669b",
+      "status": 200
+    },
+    {
+      "id": "prop34-root.html",
+      "archive_bytes": 13402,
+      "body_bytes": 56291,
+      "body_sha256": "ce37daa481500903e5a8457a06a928fdc48a3821b69bcf4d07a7d6c43b5cd411",
+      "status": 200
+    },
+    {
+      "id": "prop34.pdf",
+      "archive_bytes": 644339,
+      "body_bytes": 682523,
+      "body_sha256": "99c0323aa5250a7a741acf83321136e0ecd3707630632ebdf19d91d72c7acc90",
+      "status": 200
+    },
+    {
+      "id": "prop36-ch11.html",
+      "archive_bytes": 23189,
+      "body_bytes": 214962,
+      "body_sha256": "0c88959a60162ed44a9dcf54871e03c8479fd779f5ea5e01948c270b25517586",
+      "status": 200
+    },
+    {
+      "id": "prop36-ch7.html",
+      "archive_bytes": 23152,
+      "body_bytes": 190460,
+      "body_sha256": "707eaa943a4ec6256b70e1d47d72b4c8abb061ec10d522e574748e937b089640",
+      "status": 200
+    },
+    {
+      "id": "ref171224-debatt6.html",
+      "archive_bytes": 44778,
+      "body_bytes": 411743,
+      "body_sha256": "fad2f687715ac2c338d0f92445ffca0486c391f1b42d833a626f318a03f6ddc1",
+      "status": 200
+    },
+    {
+      "id": "ref171224-votering.html",
+      "archive_bytes": 120772,
+      "body_bytes": 2735346,
+      "body_sha256": "fd3bc47915e760b95c170725e55c4b564b37512f2a813db91b87c66ec1424ab1",
+      "status": 200
+    },
+    {
+      "id": "sak101000-retry.xml",
+      "archive_bytes": 1886,
+      "body_bytes": 12320,
+      "body_sha256": "eec34961b12a226a31d99aca1d130aa39f12a2d6658ef5c6b7e54608154b3da0",
+      "status": 200
+    },
+    {
+      "id": "sak101000.xml",
+      "archive_bytes": 20,
+      "body_bytes": 0,
+      "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": null
+    },
+    {
+      "id": "voteringer100289.xml",
+      "archive_bytes": 1034,
+      "body_bytes": 10106,
+      "body_sha256": "b0e9cc623f23a1f7912104121cb69f446a9dff0edb729bb51bb8fc14de91a0f7",
+      "status": 200
+    },
+    {
+      "id": "voteringer101000.xml",
+      "archive_bytes": 760,
+      "body_bytes": 2322,
+      "body_sha256": "115327c06fcaabe435e570ee27fdc5e407df44a84c27eb83f9764af309d48ff1",
+      "status": 200
+    },
+    {
+      "id": "voteringsforslag23887.xml",
+      "archive_bytes": 1188,
+      "body_bytes": 6057,
+      "body_sha256": "42fe2d3b6d18d10277f31bede9a460829431666acc6785fab041f81044412913",
+      "status": 200
+    },
+    {
+      "id": "voteringsforslag23945.xml",
+      "archive_bytes": 6745,
+      "body_bytes": 178124,
+      "body_sha256": "6db2f925711246018c128f581801b70f09313a7c13d921d242f36e349ae82211",
+      "status": 200
+    },
+    {
+      "id": "voteringsvedtak23887.xml",
+      "archive_bytes": 359,
+      "body_bytes": 1156,
+      "body_sha256": "a6811372cd13e2b24a522484ff8f61ddcc037ecba431ef824df466bf5b4f34f6",
+      "status": 200
+    },
+    {
+      "id": "voteringsvedtak23945.xml",
+      "archive_bytes": 373,
+      "body_bytes": 1555,
+      "body_sha256": "4533c893580dc3512eea3139645be9023a3549e5185573d130321084ac5111b3",
+      "status": 200
+    }
+  ],
+  "reused_file_count": 19,
+  "metadata_summary": {
+    "header_names": {
+      "cache-control": 24,
+      "content-type": 25,
+      "expires": 14,
+      "last-modified": 7,
+      "etag": 7,
+      "vary": 15,
+      "x-stackifyid": 1,
+      "reporting-endpoints": 5,
+      "content-security-policy": 5,
+      "request-context": 25,
+      "access-control-expose-headers": 15,
+      "strict-transport-security": 26,
+      "x-content-type-options": 33,
+      "referrer-policy": 32,
+      "permissions-policy": 18,
+      "x-frame-options": 32,
+      "date": 26,
+      "content-length": 18,
+      "transfer-encoding": 8,
+      "connection": 10,
+      "x-xss-protection": 9,
+      "cf-cache-status": 10,
+      "server": 18,
+      "cf-ray": 10,
+      "alt-svc": 10,
+      "location": 5,
+      "accept-ranges": 1,
+      "access-control-allow-headers": 7,
+      "access-control-allow-origin": 7,
+      "arr-disable-session-affinity": 7,
+      "x-aspnet-version": 7,
+      "feature-policy": 7
+    },
+    "query_names": {
+      "all": 2,
+      "ch": 7,
+      "sakid": 4,
+      "voteringid": 4
+    },
+    "hosts": {
+      "www.stortinget.no": 5,
+      "www.regjeringen.no": 9,
+      "data.stortinget.no": 8
+    },
+    "local_machine_fields": {
+      "local_ip": 21,
+      "filename_effective": 22
+    },
+    "credentials_found": [],
+    "sensitive_headers_found": []
+  },
+  "pdf_objects_inspected": 76,
+  "active_pdf_keys": [],
+  "local_pdf_open_actions": [
+    {
+      "object": 397,
+      "generation": 0,
+      "action": "/GoTo",
+      "destination_mode": "/Fit"
+    }
+  ],
+  "code_summary": [
+    {
+      "path": "docs\\research\\r2-101000-54\\reviews\\source-control\\verify_sources.py",
+      "sha256": "8629a24f9d19b45630c1948e98ccfa9de5aac5b2ceff24ec39a35ce980b09afc",
+      "imports": [
+        "__future__",
+        "argparse",
+        "datetime",
+        "gzip",
+        "hashlib",
+        "io",
+        "json",
+        "lxml",
+        "pathlib",
+        "platform",
+        "pypdf",
+        "subprocess"
+      ],
+      "calls": [
+        "' '.join",
+        "' '.join(element.itertext()).split",
+        "(HERE / 'results.json').write_text",
+        "(ROOT / name).read_bytes",
+        "(o1 / 'source-manifest.json').read_bytes",
+        "(o1 / entry['file']).read_bytes",
+        "BODIES[source].decode",
+        "OUT['checks'].append",
+        "OUT['context_source_bindings'].append",
+        "OUT['passages'].append",
+        "OUT['source_bindings'].append",
+        "Path",
+        "Path(__file__).read_bytes",
+        "Path(__file__).resolve",
+        "PdfReader",
+        "actual.replace",
+        "all",
+        "annex.xpath",
+        "any",
+        "archive_path.read_bytes",
+        "archive_path.relative_to",
+        "argparse.ArgumentParser",
+        "args.add_argument",
+        "args.parse_args",
+        "args.raw_root.resolve",
+        "binding",
+        "body91.xpath",
+        "bool",
+        "candidate.findtext",
+        "check",
+        "committee.xpath",
+        "datetime.now",
+        "datetime.now(UTC).isoformat",
+        "dd.xpath",
+        "dd429.xpath",
+        "decisions.xpath",
+        "doc.xpath",
+        "element.itertext",
+        "embedded",
+        "enumerate",
+        "etree.XMLParser",
+        "etree.fromstring",
+        "etree.tostring",
+        "gzip.decompress",
+        "hashlib.sha256",
+        "hashlib.sha256(data).hexdigest",
+        "hdoc",
+        "hdoc('inns91-all.html').xpath",
+        "hdoc('inns91.html').xpath",
+        "hdoc('prop34-ch5.html').xpath",
+        "html.fromstring",
+        "index.xpath",
+        "io.BytesIO",
+        "json.dumps",
+        "json.loads",
+        "june.append",
+        "len",
+        "link.findtext",
+        "main",
+        "meta.get",
+        "meta.name.removesuffix",
+        "meta.with_name",
+        "meta_path.read_bytes",
+        "meta_path.relative_to",
+        "n.findtext",
+        "n.get",
+        "n.xpath",
+        "node.findtext",
+        "node.getroottree",
+        "node.getroottree().getpath",
+        "node.xpath",
+        "norm",
+        "norm(rr).split",
+        "obj.findtext",
+        "page.extract_text",
+        "passage",
+        "pins.append",
+        "platform.python_version",
+        "print",
+        "prop.xpath",
+        "prop_api.xpath",
+        "prop_rule.replace",
+        "r.xpath",
+        "range",
+        "raw.glob",
+        "reuse_path.read_bytes",
+        "roman.upper",
+        "roman_texts.append",
+        "rows",
+        "sha",
+        "sorted",
+        "str",
+        "str(archive_path.relative_to(ROOT)).replace",
+        "str(meta_path.relative_to(ROOT)).replace",
+        "subprocess.check_output",
+        "subprocess.check_output(['git', 'ls-tree', '-r', '--name-only', BASE, 'docs/research/k3-arsinventar-50'], cwd=ROOT, text=True).splitlines",
+        "subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip",
+        "subprocess.run",
+        "sum",
+        "table.xpath",
+        "transport.get",
+        "v429.findtext",
+        "vote.findtext",
+        "votes.xpath",
+        "x.get",
+        "xdoc",
+        "{'prop34-ch1.html': ['kap1'], 'prop34-ch2.html': ['kap2', 'kap2-1', 'kap2-2', 'kap2-1-p10', 'kap2-1-p2', 'kap2-1-p8', 'kap2-1-p9'], 'prop34-ch3.html': ['kap3', 'kap3_ch1', 'kap3_ch1_ch1'], 'prop34-ch4.html': ['ch5'], 'prop34-ch5.html': ['ch6'], 'inns91-all.html': ['m1', 'm2', 'm2_1', 'm2_2', 'm2_3', 'm2_3_1', 'm2_3_1_1', 'm3']}.items"
+      ]
+    },
+    {
+      "path": "reproduksjon.md python block",
+      "sha256": "c73b14cd403a1ce41b1c5432dc1e85c78718a2a5670a3338e90d5b9c67622732",
+      "imports": [
+        "collections",
+        "datetime",
+        "gzip",
+        "hashlib",
+        "io",
+        "json",
+        "lxml",
+        "pathlib",
+        "pypdf",
+        "re",
+        "subprocess",
+        "sys"
+      ],
+      "calls": [
+        "' '.join",
+        "''.join",
+        "''.join(c.itertext()).split",
+        "''.join(node.itertext()).split",
+        "(BASE / 'delivery-manifest.json').exists",
+        "(BASE / row['archive']).read_bytes",
+        "(BASE / row['metadata']).read_bytes",
+        "(ROOT / row['path']).read_bytes",
+        "(p.parent / path).exists",
+        "AssertionError",
+        "BASE.rglob",
+        "Counter",
+        "Path.cwd",
+        "PdfReader",
+        "all",
+        "any",
+        "body",
+        "by_id['R27']['text'].startswith",
+        "by_id['R28']['text'].split",
+        "by_id['R29']['text'].startswith",
+        "c.itertext",
+        "check",
+        "counts.values",
+        "data.decode",
+        "data.replace",
+        "data.startswith",
+        "datetime.now",
+        "datetime.now(UTC).isoformat",
+        "dict",
+        "digest",
+        "enumerate",
+        "etree.XMLParser",
+        "etree.fromstring",
+        "etree.tostring",
+        "gzip.decompress",
+        "hashlib.sha256",
+        "hashlib.sha256(data).hexdigest",
+        "html.fromstring",
+        "int",
+        "io.BytesIO",
+        "json.dumps",
+        "json.loads",
+        "len",
+        "node.itertext",
+        "node.xpath",
+        "p.is_file",
+        "p.is_relative_to",
+        "p.read_text",
+        "p.relative_to",
+        "p.relative_to(ROOT).as_posix",
+        "p.startswith",
+        "page.extract_text",
+        "parse_xml",
+        "path.read_bytes",
+        "path.read_text",
+        "print",
+        "range",
+        "raw.decode",
+        "raw.rstrip",
+        "raw.rstrip().lower",
+        "raw.rstrip().lower().endswith",
+        "re.findall",
+        "read_json",
+        "repr",
+        "row['id'].endswith",
+        "rows[2][3].replace",
+        "rows[3][2].replace",
+        "subprocess.check_output",
+        "subprocess.check_output(['git', 'diff', '--name-only', BASE_COMMIT], cwd=ROOT, text=True).splitlines",
+        "subprocess.run",
+        "sum",
+        "target.split",
+        "target.split('#', 1)[0].strip",
+        "target.startswith",
+        "text.encode",
+        "tr.xpath",
+        "tree.xpath"
+      ]
+    }
+  ],
+  "source_control_rerun_summary": {
+    "source_count": 27,
+    "context_source_count": 2,
+    "source_statuses": {
+      "0": 1,
+      "200": 26
+    },
+    "passage_count": 60,
+    "checks_passed": 204,
+    "product_adoption": false,
+    "evidence_json_used": false,
+    "builder_reports_used": false,
+    "visual_pdf_check_claimed": false
+  },
+  "source_control_rerun_process_count": 122,
+  "source_control_rerun_processes": [
+    [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    [
+      "git",
+      "merge-base",
+      "--is-ancestor",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171",
+      "HEAD"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/omtale-o1/originals/prop16s-ch2.html"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/omtale-o1/originals/prop16s-ch4.html"
+    ],
+    [
+      "git",
+      "ls-tree",
+      "-r",
+      "--name-only",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171",
+      "docs/research/k3-arsinventar-50"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/.gitattributes"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/OVERLEVERING.md"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/README.md"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/case-candidates.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/case-relations.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/coverage-journal.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/decision-evidence.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/decision-register.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/delivery-manifest.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/faktakontroll.md"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/faktakontroll/rapport-5b6e86c.md"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/faktakontroll/resultater-5b6e86c.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/known-period-ledger.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/m21.md"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/neste-snitt.md"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-forslag22032.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-forslag22032.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-forslag23430-FrP.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-forslag23430-FrP.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-forslag23431-H.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-forslag23431-H.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-forslag23457.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-forslag23457.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-forslag23873.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-forslag23873.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-inns447.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-inns447.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-prop106-ch1.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-prop106-ch1.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-prop106-ch3.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-prop106-ch3.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-tillegg1-ch2.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-tillegg1-ch2.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-tillegg2-ch5.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-tillegg2-ch5.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-voteringer100927.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-voteringer100927.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-voteringer95776.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-voteringer95776.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-voteringer98919.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-voteringer98919.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-voteringsvedtak22032.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-voteringsvedtak22032.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-voteringsvedtak23873.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ind-voteringsvedtak23873.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/inns14-202324.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/inns14-202324.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/inns2-202324.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/inns2-202324.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/inns447-202324.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/inns447-202324.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/inns447-inherited.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/inns447-inherited.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/prop1-kld-ch3.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/prop1-kld-ch3.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/prop1-kld-ch6.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/prop1-kld-ch6.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/prop104-ch5.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/prop104-ch5.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/prop106-ch2.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/prop106-ch2.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/prop106-ch4.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/prop106-ch4.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/prop36-ch10.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/prop36-ch10.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/prop36-ch13.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/prop36-ch13.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/prop36-ch5.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/prop36-ch5.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ref191223.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ref191223.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ref210624-vote3-only.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ref210624-vote3-only.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ref210624-vote3.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ref210624-vote3.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ref210624.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/ref210624.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/sak100289.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/sak100289.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/sak95776.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/sak95776.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/sak98918.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/sak98918.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/sak98919.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/sak98919.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/sak99234.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/sak99234.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/saker-2023-2024.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/saker-2023-2024.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/tillegg1-ch1.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/tillegg1-ch1.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/tillegg1-ch3.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/tillegg1-ch3.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/tillegg2-ch1.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/tillegg2-ch1.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/tillegg2-ch3.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/tillegg2-ch3.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/tillegg2-ch4.html.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/tillegg2-ch4.html.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/voteringsvedtak23457.xml.gz"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/originals/voteringsvedtak23457.xml.meta.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/reproduksjon.md"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/reused-sources.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/selected-passages.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/source-comparison.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/source-manifest.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/table-locators.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/universe-summary.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/verification.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:docs/research/k3-arsinventar-50/voting-evidence.json"
+    ],
+    [
+      "git",
+      "show",
+      "6b2441ee5e859d103ab44d78f12d33c374a89171:innlesning/perioderegister_catalog.py"
+    ]
+  ],
+  "source_control_rerun_writes": [
+    "results.json"
+  ],
+  "checks": [
+    {
+      "check": "fixed HEAD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "base ancestor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "whole candidate limited to research and pointers",
+      "passed": true,
+      "detail": [
+        "AGENTS.md",
+        "docs/kildefunn.md",
+        "docs/research/r2-101000-54/.gitattributes",
+        "docs/research/r2-101000-54/OVERLEVERING.md",
+        "docs/research/r2-101000-54/README.md",
+        "docs/research/r2-101000-54/context-snapshot.json",
+        "docs/research/r2-101000-54/cross-reference-journal.json",
+        "docs/research/r2-101000-54/delivery-manifest.json",
+        "docs/research/r2-101000-54/evidence.json",
+        "docs/research/r2-101000-54/originals/inns90-all.html.gz",
+        "docs/research/r2-101000-54/originals/inns90-all.html.meta.json",
+        "docs/research/r2-101000-54/originals/inns91-all.html.gz",
+        "docs/research/r2-101000-54/originals/inns91-all.html.meta.json",
+        "docs/research/r2-101000-54/originals/inns91.html.gz",
+        "docs/research/r2-101000-54/originals/inns91.html.meta.json",
+        "docs/research/r2-101000-54/originals/prop34-ch1.html.gz",
+        "docs/research/r2-101000-54/originals/prop34-ch1.html.meta.json",
+        "docs/research/r2-101000-54/originals/prop34-ch2.html.gz",
+        "docs/research/r2-101000-54/originals/prop34-ch2.html.meta.json",
+        "docs/research/r2-101000-54/originals/prop34-ch3.html.gz",
+        "docs/research/r2-101000-54/originals/prop34-ch3.html.meta.json",
+        "docs/research/r2-101000-54/originals/prop34-ch4.html.gz",
+        "docs/research/r2-101000-54/originals/prop34-ch4.html.meta.json",
+        "docs/research/r2-101000-54/originals/prop34-ch5.html.gz",
+        "docs/research/r2-101000-54/originals/prop34-ch5.html.meta.json",
+        "docs/research/r2-101000-54/originals/prop34-root.html.gz",
+        "docs/research/r2-101000-54/originals/prop34-root.html.meta.json",
+        "docs/research/r2-101000-54/originals/prop34.pdf.gz",
+        "docs/research/r2-101000-54/originals/prop34.pdf.meta.json",
+        "docs/research/r2-101000-54/originals/prop36-ch11.html.gz",
+        "docs/research/r2-101000-54/originals/prop36-ch11.html.meta.json",
+        "docs/research/r2-101000-54/originals/prop36-ch7.html.gz",
+        "docs/research/r2-101000-54/originals/prop36-ch7.html.meta.json",
+        "docs/research/r2-101000-54/originals/ref171224-debatt6.html.gz",
+        "docs/research/r2-101000-54/originals/ref171224-debatt6.html.meta.json",
+        "docs/research/r2-101000-54/originals/ref171224-votering.html.gz",
+        "docs/research/r2-101000-54/originals/ref171224-votering.html.meta.json",
+        "docs/research/r2-101000-54/originals/sak101000-retry.xml.gz",
+        "docs/research/r2-101000-54/originals/sak101000-retry.xml.meta.json",
+        "docs/research/r2-101000-54/originals/sak101000.xml.gz",
+        "docs/research/r2-101000-54/originals/sak101000.xml.meta.json",
+        "docs/research/r2-101000-54/originals/voteringer100289.xml.gz",
+        "docs/research/r2-101000-54/originals/voteringer100289.xml.meta.json",
+        "docs/research/r2-101000-54/originals/voteringer101000.xml.gz",
+        "docs/research/r2-101000-54/originals/voteringer101000.xml.meta.json",
+        "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.gz",
+        "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.meta.json",
+        "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.gz",
+        "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.meta.json",
+        "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.gz",
+        "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.meta.json",
+        "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.gz",
+        "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.meta.json",
+        "docs/research/r2-101000-54/pdf-check.json",
+        "docs/research/r2-101000-54/reproduksjon.md",
+        "docs/research/r2-101000-54/reused-sources.json",
+        "docs/research/r2-101000-54/reviews/source-control/RAPPORT.md",
+        "docs/research/r2-101000-54/reviews/source-control/candidate-comparison.json",
+        "docs/research/r2-101000-54/reviews/source-control/results.json",
+        "docs/research/r2-101000-54/reviews/source-control/verify_sources.py",
+        "docs/research/r2-101000-54/source-comparison.json",
+        "docs/research/r2-101000-54/source-manifest.json",
+        "docs/research/r2-101000-54/treatment-ledger.json",
+        "docs/research/r2-101000-54/verification.json"
+      ]
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "AGENTS.md"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "AGENTS.md"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/kildefunn.md"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/kildefunn.md"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/.gitattributes"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/.gitattributes"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/OVERLEVERING.md"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/OVERLEVERING.md"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/README.md"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/README.md"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/context-snapshot.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/context-snapshot.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/cross-reference-journal.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/cross-reference-journal.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/delivery-manifest.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/delivery-manifest.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/evidence.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/evidence.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns90-all.html.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns90-all.html.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns90-all.html.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns90-all.html.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns91-all.html.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns91-all.html.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns91-all.html.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns91-all.html.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns91.html.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns91.html.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns91.html.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns91.html.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch1.html.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch1.html.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch1.html.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch1.html.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch2.html.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch2.html.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch2.html.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch2.html.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch3.html.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch3.html.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch3.html.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch3.html.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch4.html.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch4.html.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch4.html.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch4.html.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch5.html.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch5.html.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch5.html.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch5.html.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-root.html.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-root.html.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-root.html.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-root.html.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34.pdf.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34.pdf.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34.pdf.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34.pdf.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop36-ch11.html.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop36-ch11.html.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop36-ch11.html.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop36-ch11.html.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop36-ch7.html.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop36-ch7.html.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop36-ch7.html.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop36-ch7.html.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/ref171224-debatt6.html.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/ref171224-debatt6.html.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/ref171224-debatt6.html.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/ref171224-debatt6.html.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/ref171224-votering.html.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/ref171224-votering.html.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/ref171224-votering.html.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/ref171224-votering.html.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/sak101000-retry.xml.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/sak101000-retry.xml.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/sak101000-retry.xml.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/sak101000-retry.xml.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/sak101000.xml.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/sak101000.xml.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/sak101000.xml.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/sak101000.xml.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringer100289.xml.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringer100289.xml.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringer100289.xml.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringer100289.xml.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringer101000.xml.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringer101000.xml.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringer101000.xml.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringer101000.xml.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.gz"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.meta.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.meta.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/pdf-check.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/pdf-check.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/reproduksjon.md"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/reproduksjon.md"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/reused-sources.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/reused-sources.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/reviews/source-control/RAPPORT.md"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/reviews/source-control/RAPPORT.md"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/reviews/source-control/candidate-comparison.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/reviews/source-control/candidate-comparison.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/reviews/source-control/results.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/reviews/source-control/results.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/reviews/source-control/verify_sources.py"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/reviews/source-control/verify_sources.py"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/source-comparison.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/source-comparison.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/source-manifest.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/source-manifest.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/treatment-ledger.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/treatment-ledger.json"
+    },
+    {
+      "check": "checkout equals fixed candidate",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/verification.json"
+    },
+    {
+      "check": "ordinary non-executable file",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/verification.json"
+    },
+    {
+      "check": "no high confidence secret patterns",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "protected tree unchanged",
+      "passed": true,
+      "detail": "requirements.txt"
+    },
+    {
+      "check": "protected tree unchanged",
+      "passed": true,
+      "detail": "requirements-dev.txt"
+    },
+    {
+      "check": "protected tree unchanged",
+      "passed": true,
+      "detail": "innlesning"
+    },
+    {
+      "check": "protected tree unchanged",
+      "passed": true,
+      "detail": "analyse"
+    },
+    {
+      "check": "protected tree unchanged",
+      "passed": true,
+      "detail": "drift"
+    },
+    {
+      "check": "protected tree unchanged",
+      "passed": true,
+      "detail": "tests"
+    },
+    {
+      "check": "protected tree unchanged",
+      "passed": true,
+      "detail": ".github"
+    },
+    {
+      "check": "protected tree unchanged",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50"
+    },
+    {
+      "check": "protected tree unchanged",
+      "passed": true,
+      "detail": "docs/research/perioderegister-52"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/inns90-all.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/inns90-all.html.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "inns90-all.html"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "inns90-all.html"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "inns90-all.html"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "inns90-all.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "inns90-all.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/inns91-all.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/inns91-all.html.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "inns91-all.html"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "inns91-all.html"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "inns91-all.html"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "inns91-all.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "inns91-all.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/inns91.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/inns91.html.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "inns91.html"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "inns91.html"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "inns91.html"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "inns91.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "inns91.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/prop34-ch1.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/prop34-ch1.html.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "prop34-ch1.html"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "prop34-ch1.html"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "prop34-ch1.html"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "prop34-ch1.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "prop34-ch1.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/prop34-ch2.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/prop34-ch2.html.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "prop34-ch2.html"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "prop34-ch2.html"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "prop34-ch2.html"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "prop34-ch2.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "prop34-ch2.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/prop34-ch3.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/prop34-ch3.html.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "prop34-ch3.html"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "prop34-ch3.html"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "prop34-ch3.html"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "prop34-ch3.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "prop34-ch3.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/prop34-ch4.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/prop34-ch4.html.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "prop34-ch4.html"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "prop34-ch4.html"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "prop34-ch4.html"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "prop34-ch4.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "prop34-ch4.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/prop34-ch5.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/prop34-ch5.html.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "prop34-ch5.html"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "prop34-ch5.html"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "prop34-ch5.html"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "prop34-ch5.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "prop34-ch5.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/prop34-root.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/prop34-root.html.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "prop34-root.html"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "prop34-root.html"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "prop34-root.html"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "prop34-root.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "prop34-root.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/prop34.pdf.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/prop34.pdf.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "prop34.pdf"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "prop34.pdf"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "prop34.pdf"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "prop34.pdf"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "prop34.pdf"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/prop36-ch11.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/prop36-ch11.html.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "prop36-ch11.html"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "prop36-ch11.html"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "prop36-ch11.html"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "prop36-ch11.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "prop36-ch11.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/prop36-ch7.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/prop36-ch7.html.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "prop36-ch7.html"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "prop36-ch7.html"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "prop36-ch7.html"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "prop36-ch7.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "prop36-ch7.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/ref171224-debatt6.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/ref171224-debatt6.html.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "ref171224-debatt6.html"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "ref171224-debatt6.html"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "ref171224-debatt6.html"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "ref171224-debatt6.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "ref171224-debatt6.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/ref171224-votering.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/ref171224-votering.html.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "ref171224-votering.html"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "ref171224-votering.html"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "ref171224-votering.html"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "ref171224-votering.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "ref171224-votering.html"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/sak101000-retry.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/sak101000-retry.xml.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "sak101000-retry.xml"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "sak101000-retry.xml"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "sak101000-retry.xml"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "sak101000-retry.xml"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "sak101000-retry.xml"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XML has no document type or entity declaration",
+      "passed": true,
+      "detail": "sak101000-retry.xml"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/sak101000.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/sak101000.xml.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "sak101000.xml"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "sak101000.xml"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "sak101000.xml"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "sak101000.xml"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "sak101000.xml"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "failed capture empty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/voteringer100289.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/voteringer100289.xml.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "voteringer100289.xml"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "voteringer100289.xml"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "voteringer100289.xml"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "voteringer100289.xml"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "voteringer100289.xml"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XML has no document type or entity declaration",
+      "passed": true,
+      "detail": "voteringer100289.xml"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/voteringer101000.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/voteringer101000.xml.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "voteringer101000.xml"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "voteringer101000.xml"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "voteringer101000.xml"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "voteringer101000.xml"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "voteringer101000.xml"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XML has no document type or entity declaration",
+      "passed": true,
+      "detail": "voteringer101000.xml"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/voteringsforslag23887.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/voteringsforslag23887.xml.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "voteringsforslag23887.xml"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "voteringsforslag23887.xml"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "voteringsforslag23887.xml"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "voteringsforslag23887.xml"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "voteringsforslag23887.xml"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XML has no document type or entity declaration",
+      "passed": true,
+      "detail": "voteringsforslag23887.xml"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/voteringsforslag23945.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/voteringsforslag23945.xml.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "voteringsforslag23945.xml"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "voteringsforslag23945.xml"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "voteringsforslag23945.xml"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "voteringsforslag23945.xml"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "voteringsforslag23945.xml"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XML has no document type or entity declaration",
+      "passed": true,
+      "detail": "voteringsforslag23945.xml"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/voteringsvedtak23887.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/voteringsvedtak23887.xml.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "voteringsvedtak23887.xml"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "voteringsvedtak23887.xml"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "voteringsvedtak23887.xml"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "voteringsvedtak23887.xml"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "voteringsvedtak23887.xml"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XML has no document type or entity declaration",
+      "passed": true,
+      "detail": "voteringsvedtak23887.xml"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/voteringsvedtak23945.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "originals/voteringsvedtak23945.xml.meta.json"
+    },
+    {
+      "check": "archive pinned",
+      "passed": true,
+      "detail": "voteringsvedtak23945.xml"
+    },
+    {
+      "check": "metadata pinned",
+      "passed": true,
+      "detail": "voteringsvedtak23945.xml"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "body pinned",
+      "passed": true,
+      "detail": "voteringsvedtak23945.xml"
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "voteringsvedtak23945.xml"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official HTTPS source",
+      "passed": true,
+      "detail": "voteringsvedtak23945.xml"
+    },
+    {
+      "check": "no URL credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ordinary public query parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "successful TLS GET capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no private key in metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XML has no document type or entity declaration",
+      "passed": true,
+      "detail": "voteringsvedtak23945.xml"
+    },
+    {
+      "check": "no credentials in transport fields",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no sensitive response header names",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "expected source count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.gz"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reused body pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.meta.json"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.gz"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reused body pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.meta.json"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.gz"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reused body pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.meta.json"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/prop36-ch10.html.gz"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/prop36-ch10.html.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reused body pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/prop36-ch10.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/prop36-ch10.html.meta.json"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/prop36-ch10.html.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/prop36-ch13.html.gz"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/prop36-ch13.html.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reused body pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/prop36-ch13.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/prop36-ch13.html.meta.json"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/prop36-ch13.html.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reused body pinned",
+      "passed": true,
+      "detail": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/to-visninger-37/originals/aar/session-2024-2025.meta.json"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/to-visninger-37/originals/aar/session-2024-2025.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/omtale-o1/source-manifest.json"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/omtale-o1/source-manifest.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/omtale-o1/originals/prop16s-ch2.html"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/omtale-o1/originals/prop16s-ch2.html"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/omtale-o1/originals/prop16s-ch4.html"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/omtale-o1/originals/prop16s-ch4.html"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reused body pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.meta.json"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/sak100289.xml.gz"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/sak100289.xml.gz"
+    },
+    {
+      "check": "bounded gzip body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "single complete gzip member",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reused body pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/sak100289.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/sak100289.xml.meta.json"
+    },
+    {
+      "check": "reused file pinned",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/sak100289.xml.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/omtale-o1/originals/prop16s-ch2.html"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/omtale-o1/originals/prop16s-ch4.html"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/prop36-ch10.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/prop36-ch13.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/sak100289.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns90-all.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns91-all.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns91.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch1.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch2.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch3.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch4.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch5.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-root.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34.pdf.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop36-ch11.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop36-ch7.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/ref171224-debatt6.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/ref171224-votering.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/sak101000-retry.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/sak101000.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringer100289.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringer101000.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "AGENTS.md"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/kildefunn.md"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/.gitattributes"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/context-snapshot.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/cross-reference-journal.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/evidence.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns90-all.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns90-all.html.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns91-all.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns91-all.html.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns91.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/inns91.html.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch1.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch1.html.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch2.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch2.html.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch3.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch3.html.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch4.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch4.html.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch5.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-ch5.html.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-root.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34-root.html.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34.pdf.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop34.pdf.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop36-ch11.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop36-ch11.html.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop36-ch7.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/prop36-ch7.html.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/ref171224-debatt6.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/ref171224-debatt6.html.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/ref171224-votering.html.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/ref171224-votering.html.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/sak101000-retry.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/sak101000-retry.xml.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/sak101000.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/sak101000.xml.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringer100289.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringer100289.xml.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringer101000.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringer101000.xml.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.gz"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.meta.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/OVERLEVERING.md"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/pdf-check.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/README.md"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/reproduksjon.md"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/reused-sources.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/source-comparison.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/source-manifest.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/treatment-ledger.json"
+    },
+    {
+      "check": "manifest path stays in repository",
+      "passed": true,
+      "detail": "docs/research/r2-101000-54/verification.json"
+    },
+    {
+      "check": "XML entity remains unresolved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HTML treated as inert tree",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HTML parser defaults forbid network",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF open action is local page destination",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF no active action or embedded file dictionary keys",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "PDF four readable text pages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one reproduction codeblock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no product imports",
+      "passed": true,
+      "detail": "docs\\research\\r2-101000-54\\reviews\\source-control\\verify_sources.py"
+    },
+    {
+      "check": "no dynamic execution or deserialization calls",
+      "passed": true,
+      "detail": "docs\\research\\r2-101000-54\\reviews\\source-control\\verify_sources.py"
+    },
+    {
+      "check": "no shell subprocess argument",
+      "passed": true,
+      "detail": "docs\\research\\r2-101000-54\\reviews\\source-control\\verify_sources.py"
+    },
+    {
+      "check": "no product imports",
+      "passed": true,
+      "detail": "reproduksjon.md python block"
+    },
+    {
+      "check": "no dynamic execution or deserialization calls",
+      "passed": true,
+      "detail": "reproduksjon.md python block"
+    },
+    {
+      "check": "no shell subprocess argument",
+      "passed": true,
+      "detail": "reproduksjon.md python block"
+    },
+    {
+      "check": "source control rerun pins HEAD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source control rerun all checks pass",
+      "passed": true,
+      "detail": {
+        "source_count": 27,
+        "context_source_count": 2,
+        "source_statuses": {
+          "0": 1,
+          "200": 26
+        },
+        "passage_count": 60,
+        "checks_passed": 204,
+        "product_adoption": false,
+        "evidence_json_used": false,
+        "builder_reports_used": false,
+        "visual_pdf_check_claimed": false
+      }
+    },
+    {
+      "check": "rerun only writes redirected results",
+      "passed": true,
+      "detail": [
+        "results.json",
+        "candidate.json"
+      ]
+    }
+  ],
+  "summary": {
+    "check_count": 696,
+    "failures": 0,
+    "new_archive_count": 22,
+    "new_body_bytes": 6229295,
+    "max_new_body_bytes": 2735346
+  }
+}

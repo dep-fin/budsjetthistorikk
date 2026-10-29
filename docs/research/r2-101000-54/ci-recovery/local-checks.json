@@ -1,0 +1,111 @@
+{
+  "schema": "r2-ci-recovery-local-checks-1",
+  "scope": "Builder source/file controls and ordinary static checks only. No historical review/audit script or full pytest suite is run.",
+  "checks": [
+    {
+      "name": "updated_reproduction_block",
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        ".local/ci-recovery-reproduction.py"
+      ],
+      "code_origin": "docs/research/r2-101000-54/reproduksjon.md, sole Python block",
+      "code_sha256_utf8_lf": "f46cb501fbfa9b7319046ddbbdd506bbc5f9ba101c56be2be5caa246be5e4986",
+      "started_utc": "2026-10-29T08:10:51.281147+00:00",
+      "completed_utc": "2026-10-29T08:10:53.700451+00:00",
+      "exit_code": 0,
+      "stdout": "{\n  \"schema\": \"r2-verification-1\",\n  \"checked_utc\": \"2026-10-29T08:10:53.670689+00:00\",\n  \"base_commit\": \"6b2441ee5e859d103ab44d78f12d33c374a89171\",\n  \"runtime\": \"3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]\",\n  \"checks\": {\n    \"reused_file\": 19,\n    \"reused_body\": 8,\n    \"transport_attempt_count\": 1,\n    \"all_five_proposal_chapters\": 1,\n    \"source_archive\": 22,\n    \"source_body\": 22,\n    \"source_metadata\": 22,\n    \"transport_body_binding\": 22,\n    \"transport_status\": 22,\n    \"transport_size_download\": 21,\n    \"complete_html_end\": 13,\n    \"complete_xml\": 7,\n    \"preserved_dns_failure\": 1,\n    \"pdf_page_count\": 1,\n    \"pdf_page_text_hash\": 4,\n    \"evidence_hash\": 74,\n    \"evidence_xpath\": 74,\n    \"evidence_text\": 74,\n    \"nested_html_field\": 3,\n    \"table_cells\": 2,\n    \"decision_unique\": 2,\n    \"decision_canonical_equal\": 2,\n    \"decision_canonical_hash\": 2,\n    \"evidence_unique_ids\": 1,\n    \"ledger_evidence_reference\": 92,\n    \"whole_1560_71_table\": 2,\n    \"proposal_delta\": 2,\n    \"proposal_before_after\": 2,\n    \"compensation_local_scope\": 1,\n    \"adopted_vote_23887\": 1,\n    \"adopted_vote_23945\": 1,\n    \"two_named_proposals\": 1,\n    \"named_transfer_proposal\": 1,\n    \"ledger_230_scope_and_amount\": 1,\n    \"ledger_compensation_value\": 1,\n    \"non_monetary_roles\": 1,\n    \"derived_residual_separate\": 1,\n    \"no_positive_annual_approval\": 1,\n    \"pinned_case_count\": 1,\n    \"pinned_unique_case_count\": 1,\n    \"pinned_open_case_count\": 1,\n    \"pinned_decision_count\": 1,\n    \"candidate_identity\": 1,\n    \"base_unchanged_outside_scope\": 1,\n    \"github_only_checks_workflow\": 1,\n    \"base_timeout_is_60_once\": 1,\n    \"only_timeout_60_to_90\": 1,\n    \"protected_tree_unchanged\": 10,\n    \"json_parsed\": 38,\n    \"local_markdown_target\": 142,\n    \"manifest_inventory\": 1,\n    \"manifest_text_representation\": 2,\n    \"manifest_file\": 59\n  },\n  \"total_checks\": 789,\n  \"failures\": 0,\n  \"git_revision\": null,\n  \"boundary\": \"Offline fil-/kildekontroll. Ingen produkttestsuite, ny HTTP, uavhengig kontroll, CI eller merge er utført av denne kommandoen.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "ruff check .",
+      "command": [
+        "../p1-perioderegister/.venv/Scripts/python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "."
+      ],
+      "environment": {
+        "PYTHONPATH": "../p1-perioderegister/.local/python"
+      },
+      "captured_utc": "2026-10-29 08:10:53 UTC",
+      "capture_time_boundary": "Recording time after command completion; not command start time.",
+      "exit_code": 0,
+      "stdout": "All checks passed!\n"
+    },
+    {
+      "name": "ruff format --check .",
+      "command": [
+        "../p1-perioderegister/.venv/Scripts/python.exe",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "."
+      ],
+      "environment": {
+        "PYTHONPATH": "../p1-perioderegister/.local/python"
+      },
+      "captured_utc": "2026-10-29 08:10:53 UTC",
+      "capture_time_boundary": "Recording time after command completion; not command start time.",
+      "exit_code": 0,
+      "stdout": "138 files already formatted\n"
+    },
+    {
+      "name": "mypy",
+      "command": [
+        "../p1-perioderegister/.venv/Scripts/python.exe",
+        "-m",
+        "mypy"
+      ],
+      "environment": {
+        "PYTHONPATH": "../p1-perioderegister/.local/python"
+      },
+      "captured_utc": "2026-10-29 08:10:53 UTC",
+      "capture_time_boundary": "Recording time after command completion; not command start time.",
+      "exit_code": 0,
+      "stdout": "Success: no issues found in 76 source files\r\n"
+    },
+    {
+      "name": "recovery_evidence_and_historical_byte_integrity",
+      "checked_utc": "2026-10-29T08:11:48.837362+00:00",
+      "command": [
+        "bundled-python",
+        ".local/finalize-ci-recovery.py"
+      ],
+      "exit_code": 0,
+      "historical_review_files_unchanged": 24,
+      "local_captures_hash_verified": 9,
+      "log_excerpts_exact": 35,
+      "changed_builder_rows": [
+        "docs/research/r2-101000-54/OVERLEVERING.md",
+        "docs/research/r2-101000-54/README.md",
+        "docs/research/r2-101000-54/reproduksjon.md"
+      ],
+      "protected_paths_unchanged": [
+        "docs/research/k3-arsinventar-50",
+        "docs/research/perioderegister-52",
+        "innlesning",
+        "analyse",
+        "drift",
+        "tests",
+        "pyproject.toml",
+        "requirements.txt",
+        "requirements-dev.txt",
+        "docs/perioderegister.md",
+        "docs/research/r2-101000-54/reviews",
+        "docs/research/r2-101000-54/originals",
+        "docs/research/r2-101000-54/verification.json",
+        "docs/research/r2-101000-54/treatment-ledger.json"
+      ],
+      "boundary": "File hashes, log extraction, scope and unchanged history only; no source-review, standards-review or security-audit logic was run."
+    }
+  ],
+  "runtimes": {
+    "reproduction": "Bundled Python 3.12.14, lxml 6.1.1, pypdf 6.10.0; PYTHONPATH cleared.",
+    "static": "P1 venv with its existing .local/python; Ruff 0.11.0, mypy 1.15.0."
+  },
+  "initial_tool_discovery_failure": "P1 venv initially reported No module named ruff/mypy without its local module path. That attempt is not counted as a passed check. No dependency was installed; PYTHONPATH was supplied only for the static-check subprocesses."
+}

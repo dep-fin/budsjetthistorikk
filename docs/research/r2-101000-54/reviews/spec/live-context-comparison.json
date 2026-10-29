@@ -1,0 +1,47 @@
+{
+  "schema": "r2-spec-live-context-comparison-1",
+  "source": "GitHub connector read-only issue and all-pages comments",
+  "observed_utc": "2026-10-28 21:16:33 UTC",
+  "results": [
+    {
+      "number": 37,
+      "url": "https://github.com/depmartin/budsjetthistorikk/issues/37",
+      "state": "open",
+      "body_matches_live": true,
+      "comments_match_live": true,
+      "snapshot_comments": 10,
+      "live_comments": 10,
+      "title_matches_live": true
+    },
+    {
+      "number": 50,
+      "url": "https://github.com/depmartin/budsjetthistorikk/issues/50",
+      "state": "closed",
+      "body_matches_live": true,
+      "comments_match_live": true,
+      "snapshot_comments": 1,
+      "live_comments": 1,
+      "title_matches_live": true
+    },
+    {
+      "number": 52,
+      "url": "https://github.com/depmartin/budsjetthistorikk/issues/52",
+      "state": "closed",
+      "body_matches_live": true,
+      "comments_match_live": true,
+      "snapshot_comments": 4,
+      "live_comments": 4,
+      "title_matches_live": true
+    },
+    {
+      "number": 54,
+      "url": "https://github.com/depmartin/budsjetthistorikk/issues/54",
+      "state": "open",
+      "body_matches_live": true,
+      "comments_match_live": true,
+      "snapshot_comments": 0,
+      "live_comments": 0,
+      "title_matches_live": true
+    }
+  ]
+}

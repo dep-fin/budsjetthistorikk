@@ -1,0 +1,326 @@
+{
+  "candidate_revision": "c61dcc7c9221aa485a764c954323e0aac25b9e82",
+  "observed_utc": "2026-10-28T21:08:00.536456+00:00",
+  "compared_candidate_files": [
+    {
+      "path": "docs/research/r2-101000-54/README.md",
+      "working_sha256": "fa011013e67a832563d74d13b1c45386ef8ddf84a805005c3f94be7536c97c63",
+      "commit_sha256": "fa011013e67a832563d74d13b1c45386ef8ddf84a805005c3f94be7536c97c63",
+      "same_bytes": true
+    },
+    {
+      "path": "docs/research/r2-101000-54/treatment-ledger.json",
+      "working_sha256": "e11eaefa2dc75022963e46a55a67c74fed177bd618a0eeb60dfc6d5ef5b08ae3",
+      "commit_sha256": "e11eaefa2dc75022963e46a55a67c74fed177bd618a0eeb60dfc6d5ef5b08ae3",
+      "same_bytes": true
+    },
+    {
+      "path": "docs/research/r2-101000-54/cross-reference-journal.json",
+      "working_sha256": "106acc28536cb6ea18c47b397511fb3ec901a4f12bd9f3754be6298c1c379787",
+      "commit_sha256": "106acc28536cb6ea18c47b397511fb3ec901a4f12bd9f3754be6298c1c379787",
+      "same_bytes": true
+    },
+    {
+      "path": "docs/research/r2-101000-54/source-manifest.json",
+      "working_sha256": "76a8f6fd8c835e94de7fceb2c551ff0554091bd5e29a1d86a5a685c9bb234f6c",
+      "commit_sha256": "76a8f6fd8c835e94de7fceb2c551ff0554091bd5e29a1d86a5a685c9bb234f6c",
+      "same_bytes": true
+    },
+    {
+      "path": "docs/research/r2-101000-54/reused-sources.json",
+      "working_sha256": "3bf5592e63daa5f76e5236a49e706b43459e3beded608c1d933c4f2d51824aeb",
+      "commit_sha256": "3bf5592e63daa5f76e5236a49e706b43459e3beded608c1d933c4f2d51824aeb",
+      "same_bytes": true
+    },
+    {
+      "path": "docs/research/r2-101000-54/evidence.json",
+      "working_sha256": "2f25861db698c202b8123e4a04408d80579b7e5368aff707168eefb921a8987b",
+      "commit_sha256": "2f25861db698c202b8123e4a04408d80579b7e5368aff707168eefb921a8987b",
+      "same_bytes": true
+    }
+  ],
+  "raw_copy_parity": [
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/inns90-all.html.meta.json",
+      "independent_input_path": ".local/r2-recon/inns90-all.html.meta.json",
+      "sha256": "76ba57f535797c5b1c49b95aeca20a42d833bf46e9db827e75641d0c16b456d9",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/inns90-all.html.gz",
+      "independent_input_path": ".local/r2-recon/inns90-all.html.gz",
+      "sha256": "faeafd4757600c1ed2a4cfe89a6bea8a9fd5ef2c7e35f037caebbf891b7f0279",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/inns91-all.html.meta.json",
+      "independent_input_path": ".local/r2-recon/inns91-all.html.meta.json",
+      "sha256": "6a3383617c6fff74dcc05fa2023ac41b25a5ff083b487ddb4484a31ace120e43",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/inns91-all.html.gz",
+      "independent_input_path": ".local/r2-recon/inns91-all.html.gz",
+      "sha256": "906cb7f860e0fda33031b3bd1e53039df6573ea1aa60728ec7b607f277d0509a",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/inns91.html.meta.json",
+      "independent_input_path": ".local/r2-recon/inns91.html.meta.json",
+      "sha256": "fe99caf98618ecef2b0fb0598708b2f8d1c5b060ec06f5234a4a7247a035fdd7",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/inns91.html.gz",
+      "independent_input_path": ".local/r2-recon/inns91.html.gz",
+      "sha256": "90e37ef1b3c386ed094dfc8f443f3249b40f18d6e55f7d57277b15d57e1c03d8",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/prop34-ch1.html.meta.json",
+      "independent_input_path": ".local/r2-recon/prop34-ch1.html.meta.json",
+      "sha256": "5454c10aafda820fa0c992c31f5c94e687f661998967385ce97513a78535bdc0",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/prop34-ch1.html.gz",
+      "independent_input_path": ".local/r2-recon/prop34-ch1.html.gz",
+      "sha256": "0a257ee7c4b050a18d58614a9091e6ebf47361e44ed167146dc7c6bf8c767d24",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/prop34-ch2.html.meta.json",
+      "independent_input_path": ".local/r2-recon/prop34-ch2.html.meta.json",
+      "sha256": "1b03e914657461a710d4273cb2f6e08c9ae6b4f3685c766e50bd0a49b256fbfb",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/prop34-ch2.html.gz",
+      "independent_input_path": ".local/r2-recon/prop34-ch2.html.gz",
+      "sha256": "076ca6bb305238ed45e36f987387d66d88d44ec40e1f6fa0593733538935152a",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/prop34-ch3.html.meta.json",
+      "independent_input_path": ".local/r2-recon/prop34-ch3.html.meta.json",
+      "sha256": "b6fd8fdbb31e603e3a6ad105ab77bb51d31ce2d57701b1a9dd003610b2a9bba2",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/prop34-ch3.html.gz",
+      "independent_input_path": ".local/r2-recon/prop34-ch3.html.gz",
+      "sha256": "5b475b659768a691ed488ff81e4f623368cd9b171db3f5861118130a4d6b344d",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/prop34-ch4.html.meta.json",
+      "independent_input_path": ".local/r2-recon/prop34-ch4.html.meta.json",
+      "sha256": "17b74d929a67a5aba598fa91229c0f79025fc521008e366de6c583d0e717afba",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/prop34-ch4.html.gz",
+      "independent_input_path": ".local/r2-recon/prop34-ch4.html.gz",
+      "sha256": "742501e81a3cd39e5684daad2ec2635a5902fd8a141c51f15b82a57fc957aff3",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/prop34-ch5.html.meta.json",
+      "independent_input_path": ".local/r2-recon/prop34-ch5.html.meta.json",
+      "sha256": "19b698c70c73b4fc33a74ba1ad1483523319033f24c39de41a6421faf27da9e1",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/prop34-ch5.html.gz",
+      "independent_input_path": ".local/r2-recon/prop34-ch5.html.gz",
+      "sha256": "7404a53c1104ed5081bbed619b7864eebd0b1ab912b96cb1dc06332bfb02dc23",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/prop34-root.html.meta.json",
+      "independent_input_path": ".local/r2-recon/prop34-root.html.meta.json",
+      "sha256": "8c20ca54d38c04e5e5e0a0f7d3df58286c3f34c33df2e199ef59e8c9f2057950",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/prop34-root.html.gz",
+      "independent_input_path": ".local/r2-recon/prop34-root.html.gz",
+      "sha256": "e734ab1b8d3db747697756a38fc7303077943c9adaaf91e485d998bc3ace603b",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/prop34.pdf.meta.json",
+      "independent_input_path": ".local/r2-recon/prop34.pdf.meta.json",
+      "sha256": "f6171129f9cf2b5f6c09edac42971662fe69f0d086a2958939fe09060e02b938",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/prop34.pdf.gz",
+      "independent_input_path": ".local/r2-recon/prop34.pdf.gz",
+      "sha256": "872911294199008ee91ffa30708f4d06ff2d167f7b07c6a378e1e8b0cc529358",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/prop36-ch11.html.meta.json",
+      "independent_input_path": ".local/r2-recon/prop36-ch11.html.meta.json",
+      "sha256": "e6e6bc58a728bf50343633fb162910ce087bb0948129e5f0b73394f1fd616611",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/prop36-ch11.html.gz",
+      "independent_input_path": ".local/r2-recon/prop36-ch11.html.gz",
+      "sha256": "3d3ba9f7a26eb57d716dbeebee0cf04c5d62900f5fd6bf9ab43fe6f5855f462e",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/prop36-ch7.html.meta.json",
+      "independent_input_path": ".local/r2-recon/prop36-ch7.html.meta.json",
+      "sha256": "8654a42999cb5cbd5f34b12ac60d25a30593d0f8926481f9ca0b7f45aa361713",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/prop36-ch7.html.gz",
+      "independent_input_path": ".local/r2-recon/prop36-ch7.html.gz",
+      "sha256": "77c484e2356c5b061c7f28ab7cf490ac62c3d1ec19421379799a6c1f91768bba",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/ref171224-debatt6.html.meta.json",
+      "independent_input_path": ".local/r2-recon/ref171224-debatt6.html.meta.json",
+      "sha256": "9a3970be69482c8705a885b4a406bada43d370c7e2035070d44b1081b4f697a4",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/ref171224-debatt6.html.gz",
+      "independent_input_path": ".local/r2-recon/ref171224-debatt6.html.gz",
+      "sha256": "b326d61b37f36a768b81ef75139d9087881e694727aba4de6dc96b8eaa0ee2e5",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/ref171224-votering.html.meta.json",
+      "independent_input_path": ".local/r2-recon/ref171224-votering.html.meta.json",
+      "sha256": "996e044219580068da2d9e994c8302d62989840260e443b15d2eaf796c084edc",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/ref171224-votering.html.gz",
+      "independent_input_path": ".local/r2-recon/ref171224-votering.html.gz",
+      "sha256": "3a13c89e1a701838f3b2f97ab6e019ca5a52396f8dcd29447fb6a0757c4d41db",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/sak101000-retry.xml.meta.json",
+      "independent_input_path": ".local/r2-recon/sak101000-retry.xml.meta.json",
+      "sha256": "8dac15c0b42b9515f033c6a030345134ebc60be53179367833ded7a5181a71e0",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/sak101000-retry.xml.gz",
+      "independent_input_path": ".local/r2-recon/sak101000-retry.xml.gz",
+      "sha256": "881e4f0a1475ae5b84e8ee01812105d237e6d43445aec09f92996a3e16a29356",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/sak101000.xml.meta.json",
+      "independent_input_path": ".local/r2-recon/sak101000.xml.meta.json",
+      "sha256": "70d3f45f6b6fb4280734035cc7378e30dc3bb1d7f1acd86845948917065a5333",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/sak101000.xml.gz",
+      "independent_input_path": ".local/r2-recon/sak101000.xml.gz",
+      "sha256": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/voteringer100289.xml.meta.json",
+      "independent_input_path": ".local/r2-recon/voteringer100289.xml.meta.json",
+      "sha256": "780bd386397ca4469121295dbed982d6f2dbc548a5c095e1fcc0a8f6f03079b7",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/voteringer100289.xml.gz",
+      "independent_input_path": ".local/r2-recon/voteringer100289.xml.gz",
+      "sha256": "f7047a69c84afae5c016254f59ae231fddb9c0e750d827b768a7605267f73006",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/voteringer101000.xml.meta.json",
+      "independent_input_path": ".local/r2-recon/voteringer101000.xml.meta.json",
+      "sha256": "1f6ee44246446d88960ce32a2063a1492aeb7beb075fc5ff87023db3225cbce0",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/voteringer101000.xml.gz",
+      "independent_input_path": ".local/r2-recon/voteringer101000.xml.gz",
+      "sha256": "0da129ebd7580d6579a44c9c8d1b90e6756b78dbba99ddad24d5182867d6d7ab",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.meta.json",
+      "independent_input_path": ".local/r2-recon/voteringsforslag23887.xml.meta.json",
+      "sha256": "9eb1186c802ee7c464d40f9ec56bb5e0ecfa9eb5789ec8c7329c3ccaa9410805",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.gz",
+      "independent_input_path": ".local/r2-recon/voteringsforslag23887.xml.gz",
+      "sha256": "75588c594328f29260ca6426b9876de0f26fcbf99ee08d2a31a4a4ffdbb2de9e",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.meta.json",
+      "independent_input_path": ".local/r2-recon/voteringsforslag23945.xml.meta.json",
+      "sha256": "0c89386f8b809b06e16753f1d4f476113d48406a1978d4790aa265f3b48699d6",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.gz",
+      "independent_input_path": ".local/r2-recon/voteringsforslag23945.xml.gz",
+      "sha256": "d7e55770d963eeda24d2fff5740d4555f3a67f354eeada7f5a3eefe189e8ab21",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.meta.json",
+      "independent_input_path": ".local/r2-recon/voteringsvedtak23887.xml.meta.json",
+      "sha256": "adac4c3dc185f4a910da807016e2145f4b6d345fd08dcdd3bae694cecc99a3ad",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.gz",
+      "independent_input_path": ".local/r2-recon/voteringsvedtak23887.xml.gz",
+      "sha256": "6764821498fd426cb2be8d20cf8dbeb1b75d5e64a4db5f47d9fd798ccfab4530",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.meta.json",
+      "independent_input_path": ".local/r2-recon/voteringsvedtak23945.xml.meta.json",
+      "sha256": "d26c6ad211428c842a0b52d76719c6227eaa4eb7a41e6c5cc3e94914a9556b03",
+      "byteidentical": true
+    },
+    {
+      "candidate_path": "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.gz",
+      "independent_input_path": ".local/r2-recon/voteringsvedtak23945.xml.gz",
+      "sha256": "3ecb901ca79ef04695ee30c877c56506c3b7600d3724624d67f92f13edbb83b0",
+      "byteidentical": true
+    }
+  ],
+  "comparison_role": "Finished candidate claims compared against independently established raw-source findings; builder evidence is not authority.",
+  "findings": [
+    {
+      "id": "F1",
+      "status": "open_on_c61dcc7",
+      "files": [
+        "README.md:22",
+        "treatment-ledger.json:170"
+      ],
+      "source": "prop36-ch11.html",
+      "source_body_sha256": "0c88959a60162ed44a9dcf54871e03c8479fd779f5ea5e01948c270b25517586",
+      "locator": "//*[@id='ved4']/h1",
+      "actual_heading": "4 Endring av utgifter som følge av lønnsoppgjøret for statsansatte",
+      "candidate_claimed_heading": "Lønnskompensasjon 2024",
+      "necessary_correction": "Use actual heading, or label candidate wording explicitly as a summary. Numeric observation and role remain correct."
+    }
+  ],
+  "other_necessary_source_findings": []
+}

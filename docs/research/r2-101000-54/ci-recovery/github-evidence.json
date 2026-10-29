@@ -1,0 +1,395 @@
+{
+  "schema": "r2-ci-recovery-evidence-1",
+  "prepared_utc": "2026-10-29T08:06:35.307238+00:00",
+  "evidence_observation_date": "2026-10-29",
+  "time_boundary": "UTC timestamps on log excerpts are original runner event times. Local file mtimes below are filesystem timestamps, not HTTP receipt timestamps. No precise connector transport timestamp was captured.",
+  "origin": {
+    "annotations": "Codex read_pull_request_check_diagnostics, head-bound capture from .local/ci-diagnose; all four annotation objects preserved below.",
+    "jobs": "GitHub connector jobs endpoint captures retained locally; small job response objects preserved below.",
+    "logs": "Downloaded GitHub job logs retained locally. Capture replaces GitHub masked values with <REDACTED>; hashes bind the saved redacted UTF-8 captures, not unmodified upstream bytes.",
+    "workflow": "Published head file response retained locally; content is the exact UTF-8/LF Git blob."
+  },
+  "r2": {
+    "run_url": "https://github.com/depmartin/budsjetthistorikk/actions/runs/40772943242",
+    "job_url": "https://github.com/depmartin/budsjetthistorikk/actions/runs/40772943242/job/123114666144",
+    "head_sha": "a5cb97cb4f825e1ce338f4d698a6b4425e9ed0c1",
+    "checked_out_merge_sha": "39eedcbfc099dbb9550f706cf3294a9d58ff3d4d",
+    "base_sha": "6b2441ee5e859d103ab44d78f12d33c374a89171",
+    "check_diagnostics": {
+      "headRevision": "a5cb97cb4f825e1ce338f4d698a6b4425e9ed0c1",
+      "checks": [
+        {
+          "id": 123114666144,
+          "name": "checks",
+          "head_sha": "a5cb97cb4f825e1ce338f4d698a6b4425e9ed0c1",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "details_url": "https://github.com/depmartin/budsjetthistorikk/actions/runs/40772943242/job/123114666144",
+          "output": {
+            "title": null,
+            "summary": null,
+            "text": null,
+            "annotations_count": 4
+          }
+        }
+      ],
+      "statuses": [],
+      "annotations": [
+        {
+          "path": ".github",
+          "start_line": 1,
+          "end_line": 1,
+          "annotation_level": "failure",
+          "message": "The job has exceeded the maximum execution time of 1h0m0s",
+          "title": "",
+          "raw_details": ""
+        },
+        {
+          "path": ".github",
+          "start_line": 3,
+          "end_line": 3,
+          "annotation_level": "warning",
+          "message": "Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/",
+          "title": "",
+          "raw_details": ""
+        },
+        {
+          "path": ".github",
+          "start_line": 1125,
+          "end_line": 1125,
+          "annotation_level": "failure",
+          "message": "The operation was canceled.",
+          "title": "",
+          "raw_details": ""
+        },
+        {
+          "path": ".github",
+          "start_line": 1,
+          "end_line": 1,
+          "annotation_level": "notice",
+          "message": "\"The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748\"",
+          "title": "",
+          "raw_details": ""
+        }
+      ],
+      "hasMore": false,
+      "job": null,
+      "jobs": [],
+      "log": null,
+      "logTruncated": false
+    },
+    "jobs_response": {
+      "jobs": [
+        {
+          "id": 123114666144,
+          "name": "checks",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "run_id": 40772943242,
+          "logs_url": null,
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 1
+            },
+            {
+              "name": "Run actions/checkout@v4",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 2
+            },
+            {
+              "name": "Run actions/setup-python@v5",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 3
+            },
+            {
+              "name": "Run python -m pip install -r requirements-dev.txt",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 4
+            },
+            {
+              "name": "Parser versions",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 5
+            },
+            {
+              "name": "Run python -m ruff check .",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 6
+            },
+            {
+              "name": "Run python -m ruff format --check .",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 7
+            },
+            {
+              "name": "Run python -m mypy",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 8
+            },
+            {
+              "name": "Run python -m pytest -vv --durations=20",
+              "status": "completed",
+              "conclusion": "cancelled",
+              "number": 9
+            },
+            {
+              "name": "Post Run actions/setup-python@v5",
+              "status": "completed",
+              "conclusion": "skipped",
+              "number": 17
+            },
+            {
+              "name": "Post Run actions/checkout@v4",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 18
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 19
+            }
+          ]
+        }
+      ]
+    },
+    "published_workflow_response": {
+      "content": "name: Python-kontroller\non:\n  pull_request:\n  workflow_dispatch:\npermissions:\n  contents: read\njobs:\n  checks:\n    runs-on: ubuntu-latest\n    timeout-minutes: 60\n    steps:\n      - uses: actions/checkout@v4\n      - uses: actions/setup-python@v5\n        with:\n          python-version: '3.12'\n          cache: pip\n      - run: python -m pip install -r requirements-dev.txt\n      - name: Parser versions\n        run: python -c \"from lxml import etree; print('lxml', etree.LXML_VERSION, 'libxml2 runtime', etree.LIBXML_VERSION, 'compiled', etree.LIBXML_COMPILED_VERSION)\"\n      - run: python -m ruff check .\n      - run: python -m ruff format --check .\n      - run: python -m mypy\n      - run: python -m pytest -vv --durations=20\n",
+      "encoding": "utf-8",
+      "sha": "f04fadd1f24b64171f540a708a9e9f5a72695a43",
+      "display_url": "https://github.com/depmartin/budsjetthistorikk/blob/a5cb97cb4f825e1ce338f4d698a6b4425e9ed0c1/.github/workflows/check.yml",
+      "display_title": "check.yml"
+    }
+  },
+  "p1_baseline": {
+    "run_url": "https://github.com/depmartin/budsjetthistorikk/actions/runs/40732500584",
+    "job_url": "https://github.com/depmartin/budsjetthistorikk/actions/runs/40732500584/job/122972242554",
+    "jobs_response": {
+      "jobs": [
+        {
+          "id": 122972242554,
+          "name": "checks",
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 40732500584,
+          "logs_url": null,
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 1
+            },
+            {
+              "name": "Run actions/checkout@v4",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 2
+            },
+            {
+              "name": "Run actions/setup-python@v5",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 3
+            },
+            {
+              "name": "Run python -m pip install -r requirements-dev.txt",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 4
+            },
+            {
+              "name": "Parser versions",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 5
+            },
+            {
+              "name": "Run python -m ruff check .",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 6
+            },
+            {
+              "name": "Run python -m ruff format --check .",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 7
+            },
+            {
+              "name": "Run python -m mypy",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 8
+            },
+            {
+              "name": "Run python -m pytest -vv --durations=20",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 9
+            },
+            {
+              "name": "Post Run actions/setup-python@v5",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 17
+            },
+            {
+              "name": "Post Run actions/checkout@v4",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 18
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 19
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "diagnostic_comparison": {
+    "run_id": 40772943242,
+    "job_id": 123114666144,
+    "head_sha": "a5cb97cb4f825e1ce338f4d698a6b4425e9ed0c1",
+    "checked_out_merge_sha": "39eedcbfc099dbb9550f706cf3294a9d58ff3d4d",
+    "base_sha": "6b2441ee5e859d103ab44d78f12d33c374a89171",
+    "local_head": "a8dff45df3db66e4ef340ee3bc3c312b7a2743f9",
+    "local_tree": "ea6b68f728f6bd0442c920e55b05e76b68a9de24",
+    "timeout_minutes": 60,
+    "collected": 1201,
+    "completed_passed": 1105,
+    "failed_status_lines": 0,
+    "last_completed_test": {
+      "date": "2026-10-28T22:33:22.6873726Z",
+      "test": "tests/test_perioderegister.py::test_false_hidden_or_active_excel_content_is_rejected[hidden-sheet]",
+      "line": "2026-10-28T22:33:22.6873726Z tests/test_perioderegister.py::test_false_hidden_or_active_excel_content_is_rejected[hidden-sheet] PASSED [ 92%]"
+    },
+    "same_test_baseline": {
+      "date": "2026-10-28T17:47:22.2889519Z",
+      "test": "tests/test_perioderegister.py::test_false_hidden_or_active_excel_content_is_rejected[hidden-sheet]",
+      "line": "2026-10-28T17:47:22.2889519Z tests/test_perioderegister.py::test_false_hidden_or_active_excel_content_is_rejected[hidden-sheet] PASSED [ 92%]"
+    },
+    "current_to_1105_seconds": 3555.023,
+    "baseline_to_1105_seconds": 2426.445,
+    "ratio": 1.4651158381912635,
+    "baseline_complete_seconds": 2765.3,
+    "rough_extrapolation_seconds": 4051.484827350301,
+    "rough_extrapolation_is_not_a_measurement": true,
+    "largest_completion_gaps": [
+      {
+        "test": "tests/test_fleraarspilot.py::test_every_year_account_selection_and_both_navigation_directions_use_actual_pairs",
+        "gap_seconds": 1393.082
+      },
+      {
+        "test": "tests/test_komitepilot.py::test_union_selection_navigation_offline_and_legacy_objects",
+        "gap_seconds": 296.222
+      },
+      {
+        "test": "tests/test_forlopspilot.py::test_selection_counts_navigation_and_actual_offline_files",
+        "gap_seconds": 153.827
+      },
+      {
+        "test": "tests/test_b7_authentic.py::test_all_types_missing_phrase_raw_i_and_three_conflicts_reach_frozen_excel",
+        "gap_seconds": 106.261
+      },
+      {
+        "test": "tests/test_perioderegister.py::test_authorization_reopens_from_actual_json_and_excel_without_amount_cells",
+        "gap_seconds": 78.558
+      },
+      {
+        "test": "tests/test_fleraarspilot.py::test_saved_multiyear_pair_reuses_old_ids_and_keeps_2024_calculations",
+        "gap_seconds": 54.484
+      },
+      {
+        "test": "tests/test_fleraarspilot.py::test_offline_reading_cli_and_original_recovery_without_network_database_or_root",
+        "gap_seconds": 54.364
+      },
+      {
+        "test": "tests/test_forlopspilot.py::test_saved_union_json_excel_preserves_old_fields_and_bounded_calculations",
+        "gap_seconds": 48.763
+      },
+      {
+        "test": "tests/test_perioderegister.py::test_external_package_main_document_is_rejected",
+        "gap_seconds": 44.435
+      },
+      {
+        "test": "tests/test_fleraarspilot.py::test_public_ordinary_368_survives_bad_t4_and_empty_multiyear_selection[missing]",
+        "gap_seconds": 43.92
+      }
+    ],
+    "ordered_completed_prefix_matches_baseline": false,
+    "exact_test_node_id_caveat": "Five generated ZIP-byte parameter IDs differ between runs; timing comparison uses the common named final test, not equality of every raw parameter ID."
+  },
+  "local_capture_bindings": [
+    {
+      "local_path": ".local/ci-diagnose/baseline-40732500584-jobs.json",
+      "bytes": 2133,
+      "sha256": "d083741f4ff4ded36a2ee8cff7d6ea808684955d5709f97e09beb52699e8a85a",
+      "filesystem_last_write_utc": "2026-10-29T07:57:28.614505+00:00"
+    },
+    {
+      "local_path": ".local/ci-diagnose/baseline-40732500584.log",
+      "bytes": 234352,
+      "sha256": "51ed9d3641e3ca38502dd95f3113108b3b3cd5cd6469cca79da591ff2933ed88",
+      "filesystem_last_write_utc": "2026-10-29T07:57:28.618390+00:00"
+    },
+    {
+      "local_path": ".local/ci-diagnose/comparison.json",
+      "bytes": 3254,
+      "sha256": "3ea161e5c0b8e52df584e2309b87b8c04df1b0cbd5dd154092346f448ade2c10",
+      "filesystem_last_write_utc": "2026-10-29T07:58:49.370984+00:00"
+    },
+    {
+      "local_path": ".local/ci-diagnose/published-workflow.json",
+      "bytes": 1022,
+      "sha256": "b9e1360ba5c7ab1fae57cf851d5f79b1716d3645767eacbc626957e9f57d6d84",
+      "filesystem_last_write_utc": "2026-10-29T07:57:28.618390+00:00"
+    },
+    {
+      "local_path": ".local/ci-diagnose/RAPPORT.md",
+      "bytes": 7127,
+      "sha256": "a66555b99b3ac4a7924d06d56575265f37cb49253154f1a7d90f7a3062676731",
+      "filesystem_last_write_utc": "2026-10-29T08:01:12.553957+00:00"
+    },
+    {
+      "local_path": ".local/ci-diagnose/replay_status.py",
+      "bytes": 1343,
+      "sha256": "53483e062fd6d0e3a1cc7c6516f8d3e2f98e4f31e4ae06ace32ee74a500b2a4f",
+      "filesystem_last_write_utc": "2026-10-29T07:58:49.370984+00:00"
+    },
+    {
+      "local_path": ".local/ci-diagnose/run-40772943242-annotations.json",
+      "bytes": 1894,
+      "sha256": "2c6132db3aab433bf3f3a65690a07f13a95c7b9741aec57627e915a64db7ce35",
+      "filesystem_last_write_utc": "2026-10-29T07:57:28.614505+00:00"
+    },
+    {
+      "local_path": ".local/ci-diagnose/run-40772943242-jobs.json",
+      "bytes": 2137,
+      "sha256": "ba9a3f3208d40c57d956ae8c4ef09886c3e1b83c2723c4950b47e7a57fe58950",
+      "filesystem_last_write_utc": "2026-10-29T07:57:28.614505+00:00"
+    },
+    {
+      "local_path": ".local/ci-diagnose/run-40772943242.log",
+      "bytes": 215204,
+      "sha256": "722bb119d60ccda3450ba331d0c18d9d4d1f4b93db3332084362b42731bb3ca2",
+      "filesystem_last_write_utc": "2026-10-29T07:57:28.614505+00:00"
+    }
+  ],
+  "boundary": "Historical GitHub observations and a diagnosis. No new CI run or success is claimed. Unknown cause of slower test execution; timeout annotation establishes the terminating mechanism only."
+}

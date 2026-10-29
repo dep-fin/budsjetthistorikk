@@ -1,0 +1,163 @@
+{
+  "schema": "r2-cross-reference-journal-1",
+  "boundary": "Relevante henvisninger fra det avgrensede kildeutvalget; undersøkt omfang og uavklart rest angis separat. Ingen ukjent postkobling gjøres til eksklusjon.",
+  "references": [
+    {
+      "id": "C01",
+      "from": "Prop 34 §2.1",
+      "target": "Departementenes omgrupperingsproposisjoner; FINs nysalderingsproposisjon",
+      "status": "undersøkt_for_1429",
+      "evidence_ids": [
+        "R11",
+        "FIN-kap5-p4",
+        "R27",
+        "R28",
+        "O1-kap2-p24"
+      ],
+      "result": "Fulgt til Prop 36 kap 5/vedlegg 4 og tidligere Prop 16. Direkte/1-anslag foreligger, ikke monetært/1-vedtak i 101000."
+    },
+    {
+      "id": "C02",
+      "from": "Prop 16 #kap 2-p 24",
+      "target": "FINs nysalderingsproposisjon",
+      "status": "undersøkt_selvstendig_postbevis",
+      "evidence_ids": [
+        "O1-kap2-p24",
+        "FIN-kap5-p4",
+        "R28"
+      ],
+      "result": "Identifisert som Prop 36 med eksplisitt 2024-lønnskompensasjon og 1429/1-rad. Henvisningen er ikke automatisk en henvisning til Prop 34. O 1 s rest og avrunding forblir egne bevisroller."
+    },
+    {
+      "id": "C03",
+      "from": "Prop 36 kap 5",
+      "target": "Vedlegg 4, lønnskompensasjon 2024",
+      "status": "undersøkt_komplett_vedlegg_lokal_postblokk",
+      "evidence_ids": [
+        "FIN-kap5-p4",
+        "R27",
+        "R28",
+        "R29",
+        "S-main-prop36-ch11.html"
+      ],
+      "result": "Hele vedlegget bevart; lokal 1429-blokk avgrenset mot 1471. Kun post 1 i denne blokken. Ingen generell eksklusjon av/22-lønnseffekt."
+    },
+    {
+      "id": "C04",
+      "from": "Prop 36 kap 5 utsatt etterbetaling",
+      "target": "Prop 36 forslagII → Innst 90 II → vedtak 429",
+      "status": "undersøkt_konkret_fullmaktsgren",
+      "evidence_ids": [
+        "FIN-kap5-p5",
+        "R24",
+        "R25",
+        "R38",
+        "S-vot23945",
+        "R35",
+        "S-D429"
+      ],
+      "result": "Komplett Innst 90 bevart; bare denne relevante fullmaktsgrenen strukturert. Sak 100289 s øvrige beløps-/mindretallsforslag utvides ikke til nytt R 2-snitt. Faktisk bruk, virksomhetsvilkår og overført beløp er uavklart."
+    },
+    {
+      "id": "C05",
+      "from": "Prop 34 kap 3",
+      "target": "Prop 21 S (2024–2025), stikkord kan overførast på 1560/71",
+      "status": "uttrykkelig_uavklart_full_kryssreferanse",
+      "evidence_ids": [
+        "S-main-prop34-ch3.html"
+      ],
+      "result": "Henvisningens lokale post-/stikkordsomfang er dokumentert. Prop 21 s komplette behandling er ikke undersøkt; ingen 1429-postkobling eller generell eksklusjon utledes."
+    },
+    {
+      "id": "C06",
+      "from": "Prop 34 §2.1 og Innst 91 §2.1",
+      "target": "Prop 108 S/Innst 442 S (2023–2024), vedtak 853–856, sak 99235",
+      "status": "delvis_undersøkt_med_datokonflikt",
+      "evidence_ids": [
+        "R08",
+        "R09",
+        "R10",
+        "S-inn91-m2_1",
+        "R03",
+        "R04",
+        "R05",
+        "R06"
+      ],
+      "result": "De fire komplette vedtaksobjektene gjenbrukt:853 gjelder Rikslønnsnemnd-hjemmel,854 Akademikerne/Unio,855 LO/YS betinget møtebok,856 alternativ lønnsnemnd. Prop 34/innst 91 sier 20.06.2024; APIets fire vedtaksdatoer sier 21.06.2024. Kildene og konflikten beholdes; juni-sakens hele forslag/referat er ikke undersøkt. Ingen dato velges som kildekorrigering og ingen 1429-fordeling utledes."
+    },
+    {
+      "id": "C07",
+      "from": "Prop 34 og Innst 91",
+      "target": "Rikslønnsnemndas kjennelser 2-24,3-24,4-24; hovedtariffavtaler; Riksmeklerens møtebok 24.05.2024",
+      "status": "uttrykkelig_uavklart_primærinnhold",
+      "evidence_ids": [
+        "S-inn91-m2_1",
+        "R08",
+        "R10"
+      ],
+      "result": "Kildenes omtale er bevart. Kjennelsene, avtalene, vedlegg 1/2 til Prop 108 og virksomhetsvise beregninger er ikke hentet eller brukt som 1429-fordelingsbevis."
+    },
+    {
+      "id": "C08",
+      "from": "Prop 34 §2.2, Innst 91 §2.2 og debatt",
+      "target": "Innst 466 S (2021–2022), vedtak 817/819, historisk modell for uorganiserte",
+      "status": "uttrykkelig_uavklart_primærinnhold",
+      "evidence_ids": [
+        "R12",
+        "S-inn91-m2_2",
+        "S-debatt6"
+      ],
+      "result": "Bakgrunn for lønnsregelen bevart med egne avsendere. Full 2022-behandling og faktisk Riksantikvaren-praktisering er ikke undersøkt; intet postbeløp eller 2024/2025-kontinuitet utledes."
+    },
+    {
+      "id": "C09",
+      "from": "Innst 91 merknader og debatt",
+      "target": "Fafo 2024:12; Ot.prp 38 (2001–2002)s 4; Innst 417 (2015–2016); Arbeidsgiverbarometeret; TBU/SBU 2023",
+      "status": "uttrykkelig_uavklart_bakgrunnskilder",
+      "evidence_ids": [
+        "S-inn91-m2_1",
+        "S-inn91-m2_2",
+        "S-debatt6"
+      ],
+      "result": "Fag-/partibegrunnelser, ikke egne postvise forslag. De eksterne originalene er ikke undersøkt og støtter ingen ny 1429-observasjon her."
+    },
+    {
+      "id": "C10",
+      "from": "Prop 34/Prop 36",
+      "target": "Tjenestetvistloven§31 annet ledd; bevilgningsreglementet§5 og vanlig FIN-fullmaktsopplegg",
+      "status": "uttrykkelig_uavklart_selvstendig_rettskildekontroll",
+      "evidence_ids": [
+        "R08",
+        "FIN-kap5-p1",
+        "FIN-kap5-p5",
+        "S-D429"
+      ],
+      "result": "Kildenes egne hjemmelshenvisninger er bevart; ingen selvstendig lovtolkning eller identifisering av en annen alminnelig fordelingsfullmakt gjøres.429 s uttrykkelige overføringsomfang undersøkes særskilt."
+    },
+    {
+      "id": "C11",
+      "from": "Sak 101000 s publikasjon_referanse_liste",
+      "target": "Referatsaker 03.12.2024 og debatt/votering 17.12.2024",
+      "status": "behandlingsreferater_undersøkt_presentasjonsreferat_uavklart",
+      "evidence_ids": [
+        "R30",
+        "S-debatt6",
+        "R26",
+        "R31"
+      ],
+      "result": "Debatt 17.12 sak 6 og voteringsdel er komplett bevart og kontrollert. Referatsak 03.12 er identifisert som fremleggelsesspor, men ikke hentet; det brukes ikke som post-/vedtaksbevis."
+    },
+    {
+      "id": "C12",
+      "from": "Vedlegg 4/429 og lønnsregel 231",
+      "target": "Riksantikvarens faktiske ansatte, utsatt utbetaling, FINs fullmaktsbruk og overføringsvedtak",
+      "status": "uttrykkelig_uavklart_faktisk_anvendelse",
+      "evidence_ids": [
+        "R28",
+        "S-D429",
+        "D40034099"
+      ],
+      "result": "Virksomhetsvis gjennomførings- og regnskapsdokumentasjon mangler. Et sentralt anslag og en generell fullmakt beviser ikke faktisk lønnskostnad, overføring eller nytt bevilgningsvedtak."
+    }
+  ]
+}

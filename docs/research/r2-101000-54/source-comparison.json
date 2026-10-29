@@ -1,0 +1,22 @@
+{
+  "schema": "r2-decision-comparison-1",
+  "representation": "lxml etree.tostring(node, method='c14n'). Sammenligningen gjelder hele XML-objektet, ikke råbyteidentitet mellom HTTP-konvoluttene.",
+  "parents": [
+    "docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.gz",
+    "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz"
+  ],
+  "decisions": [
+    {
+      "decision_api_id": "40034098",
+      "canonical_sha256": "a8a3b73c90bbc908654a67489245ea1e7128f7d8b871924eb83dddb084b43a9d",
+      "canonical_bytes": 4495,
+      "equal": true
+    },
+    {
+      "decision_api_id": "40034099",
+      "canonical_sha256": "7506dbd3474a05db6ea323d25bf38bae07bd83688e3c6360c60714ff51df4be0",
+      "canonical_bytes": 1689,
+      "equal": true
+    }
+  ]
+}
