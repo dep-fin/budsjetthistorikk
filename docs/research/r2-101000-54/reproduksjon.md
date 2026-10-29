@@ -14,7 +14,10 @@ Git-blobben; Windows-checkout kan ha CRLF. Ingen råkilde normaliseres.
 Kommandoen nedenfor leser manifestet, transportmetadata, alle nye og gjenbrukte
 originalfiler, alle lokatorer og tekster, tabellceller, PDF-side-/teksthentingen,
 kanonisk vedtakssammenligning, registerinvarianter, journalhenvisninger og
-lokale lenkemål. Den sjekker også uendret produkt/K3/P1 mot basen.
+lokale lenkemål. Den sjekker også uendret produkt/K3/P1 og avhengigheter
+mot basen. Etter CI-rettingen 29. oktober tillates nøyaktig én endring i
+`.github`: `checks.timeout-minutes` fra 60 til 90 i `workflows/check.yml`.
+Hele resten av workflowen sammenlignes bytevis i Git-LF-representasjon.
 Resultatet skrives til standard output; originaler og journaler overskrives ikke.
 
 Kopier kodeblokken til en midlertidig fil utenfor den sporede leveransen, for
@@ -175,9 +178,17 @@ selected = [row for row in candidates if row["session"] == "2024-2025" and row["
 check(len(selected) == 1 and selected[0]["metadata"]["id"] == "101000", "candidate_identity")
 
 allowed = {"AGENTS.md", "docs/kildefunn.md"}
+workflow = ".github/workflows/check.yml"
 changed = subprocess.check_output(["git", "diff", "--name-only", BASE_COMMIT], cwd=ROOT, text=True).splitlines()
-check(all(p in allowed or p.startswith("docs/research/r2-101000-54/") for p in changed), "base_unchanged_outside_scope", repr(changed))
-for p in ["docs/research/k3-arsinventar-50", "docs/research/perioderegister-52", "innlesning", "analyse", "drift", "tests", ".github", "docs/perioderegister.md"]:
+check(all(p in allowed or p == workflow or p.startswith("docs/research/r2-101000-54/") for p in changed), "base_unchanged_outside_scope", repr(changed))
+github_changed = subprocess.check_output(["git", "diff", "--name-only", BASE_COMMIT, "--", ".github"], cwd=ROOT, text=True).splitlines()
+check(github_changed == [workflow], "github_only_checks_workflow", repr(github_changed))
+old_workflow = subprocess.check_output(["git", "show", f"{BASE_COMMIT}:{workflow}"], cwd=ROOT)
+old_timeout = b"    timeout-minutes: 60\n"
+check(old_workflow.count(old_timeout) == 1, "base_timeout_is_60_once")
+new_workflow = (ROOT / workflow).read_bytes().replace(b"\r\n", b"\n")
+check(new_workflow == old_workflow.replace(old_timeout, b"    timeout-minutes: 90\n", 1), "only_timeout_60_to_90")
+for p in ["docs/research/k3-arsinventar-50", "docs/research/perioderegister-52", "innlesning", "analyse", "drift", "tests", "docs/perioderegister.md", "pyproject.toml", "requirements.txt", "requirements-dev.txt"]:
     result = subprocess.run(["git", "diff", "--quiet", BASE_COMMIT, "--", p], cwd=ROOT, check=False)
     check(result.returncode == 0, "protected_tree_unchanged", p)
 
@@ -197,7 +208,7 @@ for p in [*BASE.rglob("*.md"), ROOT / "AGENTS.md", ROOT / "docs/kildefunn.md"]:
 
 if (BASE / "delivery-manifest.json").exists():
     manifest = read_json(BASE / "delivery-manifest.json")
-    expected = {p.relative_to(ROOT).as_posix() for p in BASE.rglob("*") if p.is_file() and p.name != "delivery-manifest.json" and "reviews" not in p.relative_to(BASE).parts} | allowed
+    expected = {p.relative_to(ROOT).as_posix() for p in BASE.rglob("*") if p.is_file() and p.name != "delivery-manifest.json" and not {"reviews", "ci-recovery"}.intersection(p.relative_to(BASE).parts)} | allowed
     check({r["path"] for r in manifest["files"]} == expected, "manifest_inventory")
     for row in manifest["files"]:
         data = (ROOT / row["path"]).read_bytes()
@@ -219,14 +230,23 @@ print(json.dumps({"schema":"r2-verification-1", "checked_utc": datetime.now(UTC)
 kontrollkjøring. [delivery-manifest.json](delivery-manifest.json) har alle
 byggerfiler i denne mappen unntatt seg selv, pluss AGENTS og kildefunn.
 `reviews/**` eies av uavhengig kontroll og er uttrykkelig utelatt fra
-byggerens manifest. Orkestratoren kan inkludere ferdige kontrollrapporter
-i et separat sluttmanifest. Manifestet har ingen hash av seg selv.
+byggerens manifest. `ci-recovery/**` og workflowendringen bindes separat i
+[recoverymanifestet](ci-recovery/recovery-manifest.json). Orkestratorens
+historiske sluttmanifest beholdes for kandidaten det navngir. Ingen av
+manifestene har hash av seg selv.
 
 Etter en dokumentretting oppdateres berørte poster med SHA-256/byte etter
 deres oppgitte representasjon. Manifestet regenereres etter lagring av
 kontrollresultatet; kommandoen kjøres deretter igjen uten å endre dette
 lagrede resultatet. Dermed unngås en selvsiterende hashsyklus. En ny
 rapportrevisjon krever ny manifest-/Git-blobkontroll.
+
+Det gamle `verification.json` og alle `reviews/**` beholdes uendret som
+historiske bevis. CI-rettingsrundens nye kjøring ligger i
+[ci-recovery/reproduction-results.json](ci-recovery/reproduction-results.json).
+Historiske kontrollskript kan fortsatt låse `.github` eller gammel HEAD;
+de kjøres ikke som nye review-/auditporter i denne rettingsrunden. Den
+oppdaterte kodeblokken ovenfor er byggerens gjeldende kilde-/filkontroll.
 
 De nye HTTP-originalene ble hentet av en separat utforsker med avgrenset
 GET/curl, deretter gzip-komprimert tapsfritt. Innhenterne og andre

@@ -1,0 +1,168 @@
+{
+  "schema": "r2-ci-log-excerpts-1",
+  "selection": "Exact noncontiguous timestamped log lines. One-based locations and whole saved-capture digests; no complete logs or environment dumps are published.",
+  "logs": [
+    {
+      "capture": ".local/ci-diagnose/run-40772943242.log",
+      "capture_sha256": "722bb119d60ccda3450ba331d0c18d9d4d1f4b93db3332084362b42731bb3ca2",
+      "capture_bytes": 215204,
+      "line_count": 1408,
+      "completed_passed": 1105,
+      "failed_or_error_test_status_lines": 0,
+      "has_full_1201_passed_summary": false,
+      "excerpts": [
+        {
+          "line_number_1based": 1,
+          "text": "2026-10-28T21:33:38.6416380Z Current runner version: '2.338.0'"
+        },
+        {
+          "line_number_1based": 4,
+          "text": "2026-10-28T21:33:38.6443009Z Version: 20261021.618"
+        },
+        {
+          "line_number_1based": 12,
+          "text": "2026-10-28T21:33:38.6449785Z Ubuntu"
+        },
+        {
+          "line_number_1based": 13,
+          "text": "2026-10-28T21:33:38.6450340Z 26.04.1"
+        },
+        {
+          "line_number_1based": 17,
+          "text": "2026-10-28T21:33:38.6452743Z Image: ubuntu-26.04"
+        },
+        {
+          "line_number_1based": 18,
+          "text": "2026-10-28T21:33:38.6453349Z Version: 20261025.179.1"
+        },
+        {
+          "line_number_1based": 119,
+          "text": "2026-10-28T21:33:42.3360417Z HEAD is now at 39eedcb Merge a5cb97cb4f825e1ce338f4d698a6b4425e9ed0c1 into 6b2441ee5e859d103ab44d78f12d33c374a89171"
+        },
+        {
+          "line_number_1based": 229,
+          "text": "2026-10-28T21:33:53.9777239Z lxml (6, 1, 3, 0) libxml2 runtime (2, 14, 6) compiled (2, 14, 6)"
+        },
+        {
+          "line_number_1based": 241,
+          "text": "2026-10-28T21:33:54.0688227Z All checks passed!"
+        },
+        {
+          "line_number_1based": 253,
+          "text": "2026-10-28T21:33:54.1710487Z 138 files already formatted"
+        },
+        {
+          "line_number_1based": 265,
+          "text": "2026-10-28T21:34:04.6453103Z Success: no issues found in 76 source files"
+        },
+        {
+          "line_number_1based": 278,
+          "text": "2026-10-28T21:34:05.3526187Z platform linux -- Python 3.12.15, pytest-8.3.5, pluggy-1.7.0 -- /opt/hostedtoolcache/Python/3.12.15/x64/bin/python"
+        },
+        {
+          "line_number_1based": 283,
+          "text": "2026-10-28T21:34:07.6614348Z collecting ... collected 1201 items"
+        },
+        {
+          "line_number_1based": 285,
+          "text": "2026-10-28T21:34:07.6645262Z tests/test_b1.py::test_missing_source_url_is_rejected_before_import PASSED [  0%]"
+        },
+        {
+          "line_number_1based": 1005,
+          "text": "2026-10-28T22:02:30.8780162Z tests/test_fleraarspilot.py::test_every_year_account_selection_and_both_navigation_directions_use_actual_pairs PASSED [ 60%]"
+        },
+        {
+          "line_number_1based": 1389,
+          "text": "2026-10-28T22:33:22.6873726Z tests/test_perioderegister.py::test_false_hidden_or_active_excel_content_is_rejected[hidden-sheet] PASSED [ 92%]"
+        },
+        {
+          "line_number_1based": 1390,
+          "text": "2026-10-28T22:33:55.4376710Z ##[error]The operation was canceled."
+        }
+      ]
+    },
+    {
+      "capture": ".local/ci-diagnose/baseline-40732500584.log",
+      "capture_sha256": "51ed9d3641e3ca38502dd95f3113108b3b3cd5cd6469cca79da591ff2933ed88",
+      "capture_bytes": 234352,
+      "line_count": 1533,
+      "completed_passed": 1201,
+      "failed_or_error_test_status_lines": 0,
+      "has_full_1201_passed_summary": true,
+      "excerpts": [
+        {
+          "line_number_1based": 1,
+          "text": "2026-10-28T17:06:32.6521095Z Current runner version: '2.338.0'"
+        },
+        {
+          "line_number_1based": 4,
+          "text": "2026-10-28T17:06:32.6543705Z Version: 20261021.618"
+        },
+        {
+          "line_number_1based": 12,
+          "text": "2026-10-28T17:06:32.6549226Z Ubuntu"
+        },
+        {
+          "line_number_1based": 13,
+          "text": "2026-10-28T17:06:32.6549757Z 26.04.1"
+        },
+        {
+          "line_number_1based": 17,
+          "text": "2026-10-28T17:06:32.6551689Z Image: ubuntu-26.04"
+        },
+        {
+          "line_number_1based": 18,
+          "text": "2026-10-28T17:06:32.6552159Z Version: 20261025.179.1"
+        },
+        {
+          "line_number_1based": 119,
+          "text": "2026-10-28T17:06:37.1183855Z HEAD is now at fb1a281 Merge 973db1f36a2a4c4f3510a088ef2cafd62f5223dd into 29ac220f62b35062fc4203f054e2f757ca795b7c"
+        },
+        {
+          "line_number_1based": 229,
+          "text": "2026-10-28T17:06:45.3504649Z lxml (6, 1, 3, 0) libxml2 runtime (2, 14, 6) compiled (2, 14, 6)"
+        },
+        {
+          "line_number_1based": 241,
+          "text": "2026-10-28T17:06:45.4190879Z All checks passed!"
+        },
+        {
+          "line_number_1based": 253,
+          "text": "2026-10-28T17:06:45.4919152Z 133 files already formatted"
+        },
+        {
+          "line_number_1based": 265,
+          "text": "2026-10-28T17:06:53.6225836Z Success: no issues found in 76 source files"
+        },
+        {
+          "line_number_1based": 278,
+          "text": "2026-10-28T17:06:54.0006163Z platform linux -- Python 3.12.15, pytest-8.3.5, pluggy-1.7.0 -- /opt/hostedtoolcache/Python/3.12.15/x64/bin/python"
+        },
+        {
+          "line_number_1based": 283,
+          "text": "2026-10-28T17:06:55.8409043Z collecting ... collected 1201 items"
+        },
+        {
+          "line_number_1based": 285,
+          "text": "2026-10-28T17:06:55.8434710Z tests/test_b1.py::test_missing_source_url_is_rejected_before_import PASSED [  0%]"
+        },
+        {
+          "line_number_1based": 1005,
+          "text": "2026-10-28T17:25:03.6694105Z tests/test_fleraarspilot.py::test_every_year_account_selection_and_both_navigation_directions_use_actual_pairs PASSED [ 60%]"
+        },
+        {
+          "line_number_1based": 1389,
+          "text": "2026-10-28T17:47:22.2889519Z tests/test_perioderegister.py::test_false_hidden_or_active_excel_content_is_rejected[hidden-sheet] PASSED [ 92%]"
+        },
+        {
+          "line_number_1based": 1485,
+          "text": "2026-10-28T17:52:59.2997571Z tests/test_visningspilot.py::test_excel_structure_and_navigation_binding_are_validated_before_acceptance[fulltext_part] PASSED [100%]"
+        },
+        {
+          "line_number_1based": 1508,
+          "text": "2026-10-28T17:52:59.3016561Z ====================== 1201 passed in 2765.30s (0:46:05) ======================="
+        }
+      ]
+    }
+  ]
+}

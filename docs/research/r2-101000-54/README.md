@@ -123,5 +123,12 @@ og [manifestet](delivery-manifest.json) gjelder byggerens arbeidsfiler og
 erstatter ikke uavhengig kildekontroll, full Linux-CI eller bekreftet merge.
 PDF er tekstkontrollert, ikke visuelt kontrollert eller nyutgitt.
 
+[CI-rettingen 29. oktober](ci-recovery/README.md) dokumenterer GitHubs
+60-minutters tidsavbrudd for PR #55, med annotasjon, avgrensede loggutdrag
+og historiske hasher. Bare `checks.timeout-minutes` i
+`.github/workflows/check.yml` endres fra 60 til 90; alle kontrollsteg,
+hele testutvalget, avhengigheter og produktgrunnlaget beholdes. Underliggende
+ytelsesvariasjon er uavklart. Full CI på ny publisert head gjenstår.
+
 [Overleveringen](OVERLEVERING.md) angir leveringsportene. #10/#32/#37 står
 åpne. Ingen neste ticket startes av denne leveransen.

@@ -306,8 +306,8 @@
     {
       "path": "docs/research/r2-101000-54/OVERLEVERING.md",
       "representation": "exact-file-bytes",
-      "bytes": 5484,
-      "sha256": "5eed1aea9c726047731dc05bf83d2cef451544950f7152f46c9ecaf218758800"
+      "bytes": 7145,
+      "sha256": "062c3f91306e9c5ef9fffe9fb31c18b66d4d562ba07e55c608393c52ac7bb82b"
     },
     {
       "path": "docs/research/r2-101000-54/pdf-check.json",
@@ -318,14 +318,14 @@
     {
       "path": "docs/research/r2-101000-54/README.md",
       "representation": "exact-file-bytes",
-      "bytes": 9313,
-      "sha256": "204cd636ab189ec90d33c611b8851cabc7eee1b42f87e13e14cb1149fe27e1a1"
+      "bytes": 9734,
+      "sha256": "26c627270e209b0a85010a4cfc6c047cafac33328069659abd16bf0bf9e40625"
     },
     {
       "path": "docs/research/r2-101000-54/reproduksjon.md",
       "representation": "exact-file-bytes",
-      "bytes": 13782,
-      "sha256": "179a8f906861eb3fc09189eb3c6d0c5580bd6df8a90209cf3e7c364e13d66a68"
+      "bytes": 15311,
+      "sha256": "2611008f16a6ec0cdcfbf381f0399ff306806cb719af86c3a3eb47fc61c34228"
     },
     {
       "path": "docs/research/r2-101000-54/reused-sources.json",
@@ -359,5 +359,5 @@
     }
   ],
   "file_count": 59,
-  "total_bytes": 1679414
+  "total_bytes": 1683025
 }

@@ -1,4 +1,4 @@
-# Overlevering – før PR for #54
+# Overlevering – #54 og CI-retting
 
 Leveransen gjelder «R2: Kildeundersøk sak 101000 – lønnsoppgjøret 2024 og
 1429/1, /22». Base er `6b2441ee5e859d103ab44d78f12d33c374a89171`, branch
@@ -23,8 +23,10 @@ fra produktregisteret; ingen av de øvrige indekskandidatene undersøkes.
 - [Offlinekildekontroll og reproduksjon](reproduksjon.md), med
   [resultat](verification.json) og [manifest](delivery-manifest.json).
 - Kontroll mot base av alle endrede sporede filer: bare den nye forskningsmappen
-  og korte pekere i AGENTS/kildefunn er tillatt. K3/P1, produktkode, tester,
-  CI-konfigurasjon og P1-kontrakt er uendret. Fem/elleve følger av bevart
+  og korte pekere i AGENTS/kildefunn var tillatt i forskningskandidaten.
+  CI-rettingen nedenfor tillater i tillegg bare `checks.timeout-minutes`
+  fra 60 til 90 i `.github/workflows/check.yml`. K3/P1, produktkode, tester,
+  avhengigheter og P1-kontrakt er uendret. Fem/elleve følger av bevart
   produktgrunnlag; de er ikke nye observerte hendelser fra denne undersøkelsen.
 - PDF har fire sider og er tekstkontrollert. Ingen ny PDF-utgivelse,
   native Excel-prøve eller visuell PDF-kontroll påstås.
@@ -49,6 +51,9 @@ resultat og manifest. Full Ruff check og formatkontroll omfatter også
 `reviews/source-control/verify_sources.py` og består.
 
 ## Orkestratorens leveringsporter
+
+Portene og sluttmanifestet i dette avsnittet beskriver før-PR-trinnet
+28. oktober. De beholdes som historikk; CI-rettingen har eget manifest.
 
 Alle kontrollporter før PR er bestått. De tre rapportene gjelder hele den
 faste forskningskandidaten `7af3153bda95726ac93d0780b918ae95440bae2d`
@@ -75,8 +80,8 @@ i sikkerhetskontrollens detaljfelt er presisert i
 binder samlet filinventar, inkludert `reviews/**` og AGENTS/kildefunn i
 Git-LF-representasjon. Manifestet og sluttkontrollrapporten er uttrykkelig
 utelatt fra egen filliste for å unngå sirkulær binding; rapporten oppgir
-manifestets SHA-256. `delivery-manifest.json` gjelder fortsatt bare byggerens
-filer og er oppdatert kun for denne overleveringen og samlet byteantall.
+manifestets SHA-256. `delivery-manifest.json` gjaldt bare byggerens filer og
+ble i før-PR-trinnet oppdatert kun for overleveringen og samlet byteantall.
 Det historiske `verification.json` og alle kildebevis er uendret.
 
 Før-PR-tillegget består av denne statusoppdateringen, byggermanifestet,
@@ -85,10 +90,33 @@ påstand eller produktfil i den kontrollerte forskningskandidaten. Manifestet
 angir filbyte før commit; faktiske Git-blobbyte for hele den endelige
 publikasjonsrevisjonen må kontrolleres etter commit.
 
-PR-opprettelse, full uendret Linux-CI og bekreftet merge gjenstår hos orkestratoren.
+PR #55 er opprettet på head `a5cb97cb4f825e1ce338f4d698a6b4425e9ed0c1`.
+Den første fulle Linux-CI-en fikk tidsavbrudd. Ny full CI med bare den
+avgrensede timeoutendringen og bekreftet merge gjenstår hos orkestratoren.
 Lokale forskningskontroller er ikke full produkttestsuite eller CI.
 Faktisk PR-/CI-/mergestatus lagres i GitHub før #54 lukkes.
 
 Positiv M21, full årsdekning, kontokontinuitet, faglig årsbalanse,
 produktadopsjon og drift inngår ikke. #10/#32/#37 står åpne.
 Avslutt etter denne ticketen; ingen neste ticket er bestilt.
+
+## CI-retting 29. oktober 2026
+
+[Recoverygrunnlaget](ci-recovery/README.md) binder serverannotasjon,
+jobbstatus, loggutdrag, URL-er, head/merge-SHA-er og historiske filhasher.
+Jobb 123114666144 i run 40772943242 ble avbrutt ved 60-minuttersgrensen;
+1105 av 1201 tester hadde bestått uten registrert testfeil. De siste 96
+har ingen sluttstatus. Ruff check/format og mypy bestod på den gamle headen.
+
+Den eneste endringen i workflowen er `timeout-minutes: 60` til `90`.
+Alle kontrollsteg og hele `python -m pytest -vv --durations=20` beholdes.
+Ingen lokal full pytest-kjøring, ny review/audit, staging, commit, push,
+GitHub-mutasjon eller merge er utført i denne rettingsrunden. Implement-
+filinstruksjonen er lest; review-/commit-trinnene er uttrykkelig overlatt
+eller utelatt etter rettingsmandatet. Full CI må bestå på ny publisert head.
+
+`reviews/**` og det gamle `verification.json` beholdes som historiske
+bevis for deres oppgitte kandidater. De attesterer ikke timeoutendringen.
+Nye/endrede filer bindes av [recoverymanifestet](ci-recovery/recovery-manifest.json).
+Byggermanifestet oppdateres for README, denne overleveringen og reproduksjonen;
+tidligere manifesthash og tidligere filhasher bevares i recoverygrunnlaget.
