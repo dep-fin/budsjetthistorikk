@@ -1,0 +1,127 @@
+{
+  "schema": "c06-reused-sources-1",
+  "files": [
+    {
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+      "bytes": 344683,
+      "sha256": "7cc188e47b82c36df6587e6fff00c63a5bb1127fd2cec92d1730babf9d22fc02",
+      "role": "reused_no_new_HTTP_observation",
+      "body_bytes": 6816165,
+      "body_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c"
+    },
+    {
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.meta.json",
+      "bytes": 2157,
+      "sha256": "c190ac47bb552e335bea1fcba2f0eb64e5ae0c2cffcf89a3c0bf5bc0f879a44f",
+      "role": "reused_no_new_HTTP_observation"
+    },
+    {
+      "path": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.gz",
+      "bytes": 18817,
+      "sha256": "5cef652b9d9e22fb89531d30c6710cec8798a5e6b3a4beb3cc05cd3a9ea3e707",
+      "role": "reused_no_new_HTTP_observation",
+      "body_bytes": 91552,
+      "body_sha256": "7a7c42ae4c3e466cddd5bf4a5b97d93ee84f0c47667f737e74cdbd47e018c6b9"
+    },
+    {
+      "path": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.meta.json",
+      "bytes": 1703,
+      "sha256": "1be155df2f7bca78b36641b42cb89d257765bd122b2fc5c3a97c0c03c0f6622f",
+      "role": "reused_no_new_HTTP_observation"
+    },
+    {
+      "path": "docs/research/k3-arsinventar-50/originals/saker-2023-2024.xml.gz",
+      "bytes": 159138,
+      "sha256": "5b86d7388cd180b681d7fc6637df8228a9eedb06e96fdb5f106ad42cefea8035",
+      "role": "reused_no_new_HTTP_observation",
+      "body_bytes": 3484631,
+      "body_sha256": "da94a88bb3be19f41e0980ee41852c81369084cec151e3434822a40e721e1e78"
+    },
+    {
+      "path": "docs/research/k3-arsinventar-50/originals/saker-2023-2024.xml.meta.json",
+      "bytes": 1897,
+      "sha256": "1265c6caf7e2f0d70a548e39ff943400a598e057898830567376fe87d77796db",
+      "role": "reused_no_new_HTTP_observation"
+    },
+    {
+      "path": "docs/research/k3-arsinventar-50/reused-sources.json",
+      "bytes": 7209,
+      "sha256": "77ac6de327dd3dc4832dff5f70432f94491d8f2ace52757fcacdc95b8918ccb4",
+      "role": "reused_no_new_HTTP_observation"
+    },
+    {
+      "path": "docs/research/k3-arsinventar-50/source-manifest.json",
+      "bytes": 39526,
+      "sha256": "f8eb0f9c068fc8f49b288d7f0acee38afa3bddab442a24c9fc4613deac801ed8",
+      "role": "reused_no_new_HTTP_observation"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/inns91-all.html.gz",
+      "bytes": 26137,
+      "sha256": "906cb7f860e0fda33031b3bd1e53039df6573ea1aa60728ec7b607f277d0509a",
+      "role": "reused_no_new_HTTP_observation",
+      "body_bytes": 136388,
+      "body_sha256": "745a24367b3b93979f19b8ef2396cdfed5edf1d80ef887f648b459728e57e8ea"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/inns91-all.html.meta.json",
+      "bytes": 14671,
+      "sha256": "6a3383617c6fff74dcc05fa2023ac41b25a5ff083b487ddb4484a31ace120e43",
+      "role": "reused_no_new_HTTP_observation"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop34-ch2.html.gz",
+      "bytes": 16889,
+      "sha256": "076ca6bb305238ed45e36f987387d66d88d44ec40e1f6fa0593733538935152a",
+      "role": "reused_no_new_HTTP_observation",
+      "body_bytes": 70625,
+      "body_sha256": "69eecaca528e82dea7967656a41ac56880fe906036e20988428ac8aff88810b5"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop34-ch2.html.meta.json",
+      "bytes": 10448,
+      "sha256": "1b03e914657461a710d4273cb2f6e08c9ae6b4f3685c766e50bd0a49b256fbfb",
+      "role": "reused_no_new_HTTP_observation"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop36-ch11.html.gz",
+      "bytes": 23189,
+      "sha256": "3d3ba9f7a26eb57d716dbeebee0cf04c5d62900f5fd6bf9ab43fe6f5855f462e",
+      "role": "reused_no_new_HTTP_observation",
+      "body_bytes": 214962,
+      "body_sha256": "0c88959a60162ed44a9dcf54871e03c8479fd779f5ea5e01948c270b25517586"
+    },
+    {
+      "path": "docs/research/r2-101000-54/originals/prop36-ch11.html.meta.json",
+      "bytes": 10461,
+      "sha256": "e6e6bc58a728bf50343633fb162910ce087bb0948129e5f0b73394f1fd616611",
+      "role": "reused_no_new_HTTP_observation"
+    },
+    {
+      "path": "docs/research/r2-101000-54/reused-sources.json",
+      "bytes": 4991,
+      "sha256": "3bf5592e63daa5f76e5236a49e706b43459e3beded608c1d933c4f2d51824aeb",
+      "role": "reused_no_new_HTTP_observation"
+    },
+    {
+      "path": "docs/research/r2-101000-54/source-manifest.json",
+      "bytes": 23318,
+      "sha256": "76a8f6fd8c835e94de7fceb2c551ff0554091bd5e29a1d86a5a685c9bb234f6c",
+      "role": "reused_no_new_HTTP_observation"
+    },
+    {
+      "path": "docs/research/to-visninger-37/originals/aar/session-2023-2024.meta.json",
+      "bytes": 381,
+      "sha256": "56372509ffb4d04a7a265b969932327872b54d0279e43dfb762ef76f24b0f743",
+      "role": "reused_no_new_HTTP_observation"
+    },
+    {
+      "path": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+      "bytes": 342281,
+      "sha256": "d083055643de38008fa373e54ea556cb06f5348f5d7d4978a323bba25e3f303f",
+      "role": "reused_no_new_HTTP_observation",
+      "body_bytes": 6816165,
+      "body_sha256": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "c06-source-runtime-compatibility-1",
+  "candidate": "9eb27cebf7ca4a99aeb30fa32245e41314e0d295",
+  "base": "49cc6e44851cf74e0aaea4eb333419e5598bfd95",
+  "recorded_utc": "2026-10-29T17:12:01.786200+00:00",
+  "argv": [
+    "python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_perioderegister_r2.py::test_three_branches_keep_the_original_p1_and_source_roles",
+    "tests/test_perioderegister_r2.py::test_written_files_keep_the_proposed_value_and_conditional_authorization",
+    "tests/test_perioderegister.py::test_authentic_authorization_and_global_candidates_do_not_create_amounts",
+    "--basetemp=docs/research/c06-99235-60/reviews/source/runtime-temp"
+  ],
+  "exit_code": 0,
+  "captured_tool_output": "...                                                                      [100%]\n3 passed in 55.10s\n",
+  "format": "perioderegister-r2-1",
+  "reread_json_counts": {
+    "selected_events": 5,
+    "selected_decision_fields": 11,
+    "global_case_candidates": 67,
+    "global_decision_candidates": 25,
+    "global_gaps": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7"
+    ],
+    "year_coverage": "partial",
+    "professional_annual_balance_approval": false
+  },
+  "written_pair": [
+    {
+      "test_output": "runtime-temp\\test_written_files_keep_the_pr0\\both.json",
+      "bytes": 26835258,
+      "sha256": "ae038fcda9d78c616b197c45f63a85ee2cd44f3845a38ae39a9370181e993ddf"
+    },
+    {
+      "test_output": "runtime-temp\\test_written_files_keep_the_pr0\\both.xlsx",
+      "bytes": 11738228,
+      "sha256": "32b21adae9680eaf44ad1abea74ce70f805958860f001a4796a38199961db75a"
+    }
+  ],
+  "boundary": "Existing unchanged regression tests executed independently; one actual written/closed/read JSON/Excel pair. Separate manual JSON re-read counted the global/monetary view. No full suite, no new source acceptance or CI claim."
+}

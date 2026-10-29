@@ -1,0 +1,65 @@
+{
+  "schema": "c06-canonical-decision-comparison-1",
+  "decisions": [
+    {
+      "decision_number": 853,
+      "api_id": "40033712",
+      "case_id": "99235",
+      "left_source": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+      "right_source": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+      "left_body_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "right_body_sha256": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+      "left_xpath": "/*/*[4]/*[641]",
+      "right_xpath": "/*/*[4]/*[641]",
+      "c14n_sha256_left": "bf783c462b3eb0f17c42c669763fd4240a2b0f362ed2ade833ec3a1b7739e48c",
+      "c14n_sha256_right": "bf783c462b3eb0f17c42c669763fd4240a2b0f362ed2ade833ec3a1b7739e48c",
+      "equal": true,
+      "method": "lxml C14N complete objects, comments=False"
+    },
+    {
+      "decision_number": 854,
+      "api_id": "40033713",
+      "case_id": "99235",
+      "left_source": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+      "right_source": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+      "left_body_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "right_body_sha256": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+      "left_xpath": "/*/*[4]/*[642]",
+      "right_xpath": "/*/*[4]/*[642]",
+      "c14n_sha256_left": "a68711f2813f883b4a43d785e216ce6cac2e76972afdbd628e6b30523f90624f",
+      "c14n_sha256_right": "a68711f2813f883b4a43d785e216ce6cac2e76972afdbd628e6b30523f90624f",
+      "equal": true,
+      "method": "lxml C14N complete objects, comments=False"
+    },
+    {
+      "decision_number": 855,
+      "api_id": "40033714",
+      "case_id": "99235",
+      "left_source": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+      "right_source": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+      "left_body_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "right_body_sha256": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+      "left_xpath": "/*/*[4]/*[643]",
+      "right_xpath": "/*/*[4]/*[643]",
+      "c14n_sha256_left": "3e12be76b83c391b9b7b55ff9ddc9bafca9c2668f8c6d4ea2bfe5ff15db0cbef",
+      "c14n_sha256_right": "3e12be76b83c391b9b7b55ff9ddc9bafca9c2668f8c6d4ea2bfe5ff15db0cbef",
+      "equal": true,
+      "method": "lxml C14N complete objects, comments=False"
+    },
+    {
+      "decision_number": 856,
+      "api_id": "40033715",
+      "case_id": "99235",
+      "left_source": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+      "right_source": "docs/research/to-visninger-37/originals/aar/session-2023-2024.xml.gz",
+      "left_body_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "right_body_sha256": "66aa3ac5e93598fbbf2c02577c025395ea43a6bb7148e83a79f639bac9b09a57",
+      "left_xpath": "/*/*[4]/*[644]",
+      "right_xpath": "/*/*[4]/*[644]",
+      "c14n_sha256_left": "06482fde595bf46fe372bdd333cce4ed0f1e37f5280a94fde75173f40e1df617",
+      "c14n_sha256_right": "06482fde595bf46fe372bdd333cce4ed0f1e37f5280a94fde75173f40e1df617",
+      "equal": true,
+      "method": "lxml C14N complete objects, comments=False"
+    }
+  ]
+}

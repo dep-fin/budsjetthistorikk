@@ -1,0 +1,175 @@
+{
+  "id": "prop108-front-a1",
+  "requested_url": "https://www.regjeringen.no/id/PRP202320240108000DDDEPIS",
+  "started_utc": "2026-10-29T16:24:06.771952+00:00",
+  "request_headers": {
+    "User-Agent": "budsjetthistorikk-research/60",
+    "Accept-Encoding": "identity"
+  },
+  "representation": "HTTP response entity bytes as read by urllib; transfer framing/TLS excluded; Accept-Encoding identity; no decompression or text/line-ending normalization. Each HTTP hop has its own capture. Local gzip is an archive, not HTTP Content-Encoding.",
+  "state": "complete",
+  "hops": [
+    {
+      "url": "https://www.regjeringen.no/id/PRP202320240108000DDDEPIS",
+      "started_utc": "2026-10-29T16:24:06.777694+00:00",
+      "state": "complete",
+      "status": 302,
+      "response_headers": [
+        [
+          "Date",
+          "Thu, 29 Oct 2026 16:24:07 GMT"
+        ],
+        [
+          "Content-Length",
+          "0"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Location",
+          "/no/dokumenter/prop.-108-s-20232024/id3043839/"
+        ],
+        [
+          "Set-Cookie",
+          "ARRAffinity=0b17d7779bdc507d6fcbe2b107dc4869465425adfabb4b2a5c7f00a3182edbbb;Path=/;HttpOnly;Secure;Domain=www.regjeringen.no"
+        ],
+        [
+          "Set-Cookie",
+          "ARRAffinitySameSite=0b17d7779bdc507d6fcbe2b107dc4869465425adfabb4b2a5c7f00a3182edbbb;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.regjeringen.no"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=15552000"
+        ],
+        [
+          "Request-Context",
+          "appId=cid-v1:6f4928bd-f664-43ef-97e9-3ba28bae17d8"
+        ],
+        [
+          "cf-cache-status",
+          "DYNAMIC"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "Server",
+          "cloudflare"
+        ],
+        [
+          "CF-RAY",
+          "a52387550e344d24-CPH"
+        ],
+        [
+          "alt-svc",
+          "h3=\":443\"; ma=86400"
+        ]
+      ],
+      "body_complete": true,
+      "archive": "prop108-front-a1.hop0.gz",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "archive_bytes": 20,
+      "archive_sha256": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e",
+      "completed_utc": "2026-10-29T16:24:06.959540+00:00",
+      "redirect_target": "https://www.regjeringen.no/no/dokumenter/prop.-108-s-20232024/id3043839/"
+    },
+    {
+      "url": "https://www.regjeringen.no/no/dokumenter/prop.-108-s-20232024/id3043839/",
+      "started_utc": "2026-10-29T16:24:06.959540+00:00",
+      "state": "complete",
+      "status": 200,
+      "response_headers": [
+        [
+          "Date",
+          "Thu, 29 Oct 2026 16:24:07 GMT"
+        ],
+        [
+          "Content-Type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "Transfer-Encoding",
+          "chunked"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Cache-Control",
+          "public,max-age=15"
+        ],
+        [
+          "Set-Cookie",
+          "ARRAffinity=f7a339e552b408f55b8e6e319dc836bb00141ae75da7404e698db60116fd5efd;Path=/;HttpOnly;Secure;Domain=www.regjeringen.no"
+        ],
+        [
+          "Set-Cookie",
+          "ARRAffinitySameSite=f7a339e552b408f55b8e6e319dc836bb00141ae75da7404e698db60116fd5efd;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.regjeringen.no"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=15552000"
+        ],
+        [
+          "Request-Context",
+          "appId=cid-v1:6f4928bd-f664-43ef-97e9-3ba28bae17d8"
+        ],
+        [
+          "X-XSS-Protection",
+          "1; mode=block"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "X-Frame-Options",
+          "SAMEORIGIN"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer, same-origin"
+        ],
+        [
+          "Permissions-Policy",
+          "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+        ],
+        [
+          "Vary",
+          "accept-encoding"
+        ],
+        [
+          "cf-cache-status",
+          "BYPASS"
+        ],
+        [
+          "Server",
+          "cloudflare"
+        ],
+        [
+          "CF-RAY",
+          "a52387561e36805c-CPH"
+        ],
+        [
+          "alt-svc",
+          "h3=\":443\"; ma=86400"
+        ]
+      ],
+      "body_complete": true,
+      "archive": "prop108-front-a1.hop1.gz",
+      "bytes": 56263,
+      "sha256": "184c8f8f50aed61d89af9b1f7683c5f99868af2bc4910cf7a3fced11e0bd52c3",
+      "archive_bytes": 13408,
+      "archive_sha256": "20698013f12e0532a2d70b568334acabd75995775dd8ca97efda4b5b59bad09f",
+      "completed_utc": "2026-10-29T16:24:07.196561+00:00"
+    }
+  ],
+  "final_url": "https://www.regjeringen.no/no/dokumenter/prop.-108-s-20232024/id3043839/",
+  "status": 200,
+  "completed_utc": "2026-10-29T16:24:07.196561+00:00"
+}

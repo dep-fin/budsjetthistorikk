@@ -1,0 +1,115 @@
+{
+  "id": "votes-99235-a1",
+  "requested_url": "https://data.stortinget.no/eksport/voteringer?sakid=99235",
+  "started_utc": "2026-10-29T16:24:07.721515+00:00",
+  "request_headers": {
+    "User-Agent": "budsjetthistorikk-research/60",
+    "Accept-Encoding": "identity"
+  },
+  "representation": "HTTP response entity bytes as read by urllib; transfer framing/TLS excluded; Accept-Encoding identity; no decompression or text/line-ending normalization. Each HTTP hop has its own capture. Local gzip is an archive, not HTTP Content-Encoding.",
+  "state": "complete",
+  "hops": [
+    {
+      "url": "https://data.stortinget.no/eksport/voteringer?sakid=99235",
+      "started_utc": "2026-10-29T16:24:07.721515+00:00",
+      "state": "complete",
+      "status": 200,
+      "response_headers": [
+        [
+          "Cache-Control",
+          "public"
+        ],
+        [
+          "Content-Type",
+          "text/xml; charset=utf-8"
+        ],
+        [
+          "Expires",
+          "Thu, 29 Oct 2026 16:22:07 GMT"
+        ],
+        [
+          "Server",
+          "Microsoft-IIS/10.0"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=16070400; includeSubDomains"
+        ],
+        [
+          "Access-Control-Allow-Headers",
+          "content-type"
+        ],
+        [
+          "Access-Control-Allow-Origin",
+          "*"
+        ],
+        [
+          "X-Frame-Options",
+          "sameorigin"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer-when-downgrade"
+        ],
+        [
+          "Arr-Disable-Session-Affinity",
+          "true"
+        ],
+        [
+          "X-AspNet-Version",
+          "4.0.30319"
+        ],
+        [
+          "Request-Context",
+          "appId=cid-v1:f65c3fc2-55cc-4cb3-a6ec-85c3923903b8"
+        ],
+        [
+          "Access-Control-Expose-Headers",
+          "Request-Context"
+        ],
+        [
+          "X-Frame-Options",
+          "sameorigin"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "Feature-Policy",
+          "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer"
+        ],
+        [
+          "Date",
+          "Thu, 29 Oct 2026 16:24:07 GMT"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Length",
+          "2324"
+        ]
+      ],
+      "body_complete": true,
+      "archive": "votes-99235-a1.hop0.gz",
+      "bytes": 2324,
+      "sha256": "e6ccb25afc31bd9c04dfb334dbf4cbeb2e22da070d92c7737c836df60fb41865",
+      "archive_bytes": 766,
+      "archive_sha256": "ad7bc92497c20e5301c700fbf0929517db44706b1d57404b2aa1003ef3f2ad30",
+      "completed_utc": "2026-10-29T16:24:07.821532+00:00"
+    }
+  ],
+  "final_url": "https://data.stortinget.no/eksport/voteringer?sakid=99235",
+  "status": 200,
+  "completed_utc": "2026-10-29T16:24:07.821532+00:00"
+}

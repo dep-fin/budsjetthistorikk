@@ -1,0 +1,20 @@
+{
+  "id": "compatibility-tests",
+  "argv": [
+    "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/test_perioderegister_r2.py::test_three_branches_keep_the_original_p1_and_source_roles",
+    "tests/test_perioderegister_r2.py::test_written_files_keep_the_proposed_value_and_conditional_authorization",
+    "tests/test_perioderegister.py::test_authentic_authorization_and_global_candidates_do_not_create_amounts",
+    "--basetemp=C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\c06-99235\\.local\\c06-pytest-b8f603d5"
+  ],
+  "started_utc": "2026-10-29T16:53:08.174619+00:00",
+  "completed_utc": "2026-10-29T16:54:05.462693+00:00",
+  "elapsed_seconds": 57.281,
+  "exit_code": 0,
+  "output": "...                                                                      [100%]\r\n3 passed in 56.81s\r\n",
+  "raw_captured_output_sha256": "0b90a5091fa11bf7820bbce5c5cac5eb827227ab6e23df5bcc084bde777f45a8",
+  "representation": "UTF-8 decoded combined process stdout/stderr; raw pipe bytes hash separately recorded"
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "c06-cross-reference-journal-1",
+  "rule": "Undersøkt delomfang og uavklart rest skilles; ukjent er ikke ekskludert.",
+  "references": [
+    {
+      "id": "J01",
+      "from": "R2/C06,Prop. 34/Innst. 91",
+      "target": "Prop. 108→Innst. 442→23490→853–856",
+      "status": "undersøkt_lokal_kjede",
+      "evidence_ids": [
+        "R2-date-p2",
+        "R2-date-p8",
+        "R2-date-p9",
+        "R2-date-I91",
+        "VOTE21",
+        "VOTE-decision-map"
+      ],
+      "investigated_scope": "Hele nødvendige juni-kjede og fire vedtaksobjekter er kontrollert.",
+      "unresolved_remainder": "Årsaken til senere 20. juni-omtale er ukjent; faktisk nemnd/personell/postanvendelse ikke undersøkt."
+    },
+    {
+      "id": "J02",
+      "from": "Prop. 108 kap 2/forslagIII",
+      "target": "Egne vedlegg 1 LO/2 YS, møtebok 24. mai med tarifftekster",
+      "status": "komplett_råbevaring_avgrenset_lesing",
+      "evidence_ids": [
+        "P108-app1-HTML",
+        "P108-app2-HTML",
+        "Meetingbook-LO",
+        "Meetingbook-YS",
+        "RA-LO",
+        "RA-YS"
+      ],
+      "investigated_scope": "Full PDF144 sider inneholder 130 vedleggsbilder; alle er OCR-behandlet og side-/seksjonsinventert. 18 nøkkelsider er lest visuelt; egne vedlegg inngår, ikke bare hovedtekst.",
+      "unresolved_remainder": "Ingen påstand om manuell visuell linje-for-linje-kontroll av alle 130 bilder, full feilfri OCR eller uttømmende ekstern avtalehistorikk. Resten beholdes tilgjengelig for ny kontroll."
+    },
+    {
+      "id": "J03",
+      "from": "Egne tariffvedlegg 2.2/interntvedlegg 2",
+      "target": "Riksantikvaren som virksomhet og forhandlingssted",
+      "status": "konkret_institusjonskobling",
+      "evidence_ids": [
+        "Negotiation-LO",
+        "Negotiation-YS",
+        "RA-LO",
+        "RA-YS"
+      ],
+      "investigated_scope": "Riksantikvaren står i begge tabellers to kolonner under KLD. Institusjonell relevans er positivt belagt.",
+      "unresolved_remainder": "Konto/post, ansattgruppe, lokale lønnsforhandlinger og faktisk bevilgningsvirkning ukjent. Ingen/22-arv."
+    },
+    {
+      "id": "J04",
+      "from": "Egne vedleggØkonomi/2.5.1",
+      "target": "Generelle prosentrammer/lønnsmasse/DFD-fordeling",
+      "status": "lokalt_grunnlag_lest",
+      "evidence_ids": [
+        "Economy-LO",
+        "Economy-YS",
+        "Scope-LO",
+        "Scope-YS"
+      ],
+      "investigated_scope": "Tariffpremisser og generelt institusjonsomfang er lest. Lokale beregninger forutsetter lønnsmasse og avtalekontekst.",
+      "unresolved_remainder": "DFDs konkrete virksomhetsberegning/lønnsmasse og faktisk fordeling er ikke hentet; prosentene blir ikke et 1429-anslag."
+    },
+    {
+      "id": "J05",
+      "from": "Egne lønnsplaner",
+      "target": "Stillingskode 1429 Aspirant",
+      "status": "konkret_treff_avklart",
+      "evidence_ids": [
+        "False-1429-LO",
+        "False-1429-YS"
+      ],
+      "investigated_scope": "Begge bildene viser minstelønn 357000 i plan 90.910, kolonneStillingskode.",
+      "unresolved_remainder": "Ingen post- eller virksomhetsfordeling utledes fra kode-/talltreffet."
+    },
+    {
+      "id": "J06",
+      "from": "Prop. 108,Innst. 442 ogdebatt",
+      "target": "Tvungen/frivillig nemnd, Rikslønnsnemndas avgjørelser",
+      "status": "bare_lokal_omtale_og_hjemmel",
+      "evidence_ids": [
+        "P108-2-p5",
+        "P108-2-p6",
+        "P108-2-p8",
+        "DEBATE20",
+        "D853-text",
+        "D854-text",
+        "D856-text"
+      ],
+      "investigated_scope": "Selve vedtatte hjemmel-/utbetalingssamtykket og talernes omtale er bevart.",
+      "unresolved_remainder": "Eksterne lovsaker, vedtatte lover og nemndskjennelser 2-24/3-24/4-24 er ikke undersøkt på nytt; ingen faktisk nemndsbruk konkluderes."
+    },
+    {
+      "id": "J07",
+      "from": "Innst. 442 merknader",
+      "target": "Innst. 466/Prop. 1282021–2022,Innst. 4942022–2023,tariffmodell 2016",
+      "status": "attribuert_lokal_bakgrunn",
+      "evidence_ids": [
+        "I442-m2",
+        "DEBATE20"
+      ],
+      "investigated_scope": "H/FrP, Ap/Sp/SV/R og Ap/Sp har ulike begrunnelser; sitert bakgrunn er lest som avsenderutsagn.",
+      "unresolved_remainder": "Full 2022/2023 behandling, historiske tarifforiginaler og utvalgsarbeid er utenfor; merknader er ikke felles vedtaksordlyd."
+    },
+    {
+      "id": "J08",
+      "from": "Prop. 108 kap 2",
+      "target": "Nødvendige bevilgningsforslag høst 2024; kjent Prop. 36 kontekst",
+      "status": "gjenbrukt_kjent_delomfang",
+      "evidence_ids": [
+        "P108-2-p7",
+        "R2-compensation-context",
+        "R2-compensation-292",
+        "R2-compensation-293",
+        "R2-compensation-294"
+      ],
+      "investigated_scope": "Juniutbetalingen og høstbevilgning er uttrykkelig ulike ledd. Eksisterende/1-anslag brukes i sin gamle forslagsrolle.",
+      "unresolved_remainder": "101000/100895 og faktisk 231/429 bruk gjenåpnes ikke. Ingen ny C06-postvis årsaksfordeling eller/22-kobling hevdes."
+    },
+    {
+      "id": "J09",
+      "from": "Egne tarifftekster:OU,kompetanse,omstilling,pensjon,ferie,arbeidstid",
+      "target": "Interne bestemmelser og deres lover/særavtaler",
+      "status": "OCR_og_seksjonsgjennomgang_egen_bildekilde",
+      "evidence_ids": [
+        "OU-LO",
+        "OU-YS",
+        "Competence-LO",
+        "Competence-YS"
+      ],
+      "investigated_scope": "Alle 130 sider har OCR-/seksjonsinventar. OU-/kompetanse-/omstillingsteksten på PDF-side39/40/105/106 er også visuelt lest: egne tariffavsetninger, søknadsordning og DFØ-rolle, ingen dokumentert faktisk Riksantikvaren-tildeling.",
+      "unresolved_remainder": "Eksterne særavtaler/rettskilder, faktiske søknader, deltakere, tildelinger, utbetalinger og komplette rettslige virkninger for Riksantikvaren er uavklart."
+    },
+    {
+      "id": "J10",
+      "from": "Saksmetadata",
+      "target": "Fremleggelsesspor 7. juni 2024",
+      "status": "identifisert_ikke_full_referatkontroll",
+      "evidence_ids": [
+        "CASE",
+        "CASE-chronology"
+      ],
+      "investigated_scope": "Saks-APIet angir fremmet/ref 7. juni og avgitt 13. juni.",
+      "unresolved_remainder": "Fremleggelsesreferat 7. juni er ikke hentet; brukes ikke som selvstendig forslag-/post-/vedtaksbevis."
+    },
+    {
+      "id": "J11",
+      "from": "853–856 ogegnevedlegg",
+      "target": "Faktisk Riksantikvaren-personell, avtaler, lokale protokoller og regnskap",
+      "status": "uttrykkelig_uavklart",
+      "evidence_ids": [
+        "D854-text",
+        "D855-text",
+        "D856-text",
+        "RA-LO",
+        "RA-YS"
+      ],
+      "investigated_scope": "Samtykke og forhandlingssted er dokumentert som betinget/generell kildekontekst.",
+      "unresolved_remainder": "Ingen identifisering av konkrete ansatte, organisasjonstilknytning, lønnskostnad, kontoføring eller faktisk gjennomføring."
+    },
+    {
+      "id": "J12",
+      "from": "Komplett referat 21. juni",
+      "target": "Andre saker på dagens kart/RNB og K3 s eldre avbrutte referatforsøk",
+      "status": "bare_nødvendig_sak15",
+      "evidence_ids": [
+        "VOTE21",
+        "VOTE21-date"
+      ],
+      "investigated_scope": "Komplett nyHTTP-respons 25,47 MB er bevart; bare sak 15 fra 20. juni samt møtekontekst undersøkes. Blokken står før overgangen til dagens kart.",
+      "unresolved_remainder": "Ingen ny øvrigRNB-/årsundersøkelse. K3 s curl 28/ufullstendige 200 og komplette 500 feilside beholdes historisk og brukes aldri som fraværsbevis."
+    }
+  ]
+}

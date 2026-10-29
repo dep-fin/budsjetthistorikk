@@ -1,0 +1,72 @@
+"""Read-only Git snapshot checks for the fixed Standards review candidate."""
+
+import ast
+import datetime
+import json
+import subprocess
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[5]
+BASE = "49cc6e44851cf74e0aaea4eb333419e5598bfd95"
+CANDIDATE = "9eb27cebf7ca4a99aeb30fa32245e41314e0d295"
+PREFIX = "docs/research/c06-99235-60/"
+
+
+def git(*args):
+    return subprocess.check_output(["git", *args], cwd=ROOT)
+
+
+def tree(revision):
+    result = {}
+    for entry in git("ls-tree", "-r", "-z", revision).split(b"\0"):
+        if entry:
+            metadata, path = entry.split(b"\t", 1)
+            result[path.decode()] = metadata.decode().split()[2]
+    return result
+
+
+def main():
+    old, new = tree(BASE), tree(CANDIDATE)
+    changed = git("diff", "--name-only", BASE + "..." + CANDIDATE).decode().splitlines()
+    protected = {p for p in old if p not in {"AGENTS.md", "docs/kildefunn.md"}}
+    assert len(protected) == 1070
+    assert all(old[p] == new.get(p) for p in protected)
+    assert git("merge-base", BASE, CANDIDATE).decode().strip() == BASE
+    assert len(changed) == 74
+    assert all(p in {"AGENTS.md", "docs/kildefunn.md"} or p.startswith(PREFIX) for p in changed)
+    assert git("show", CANDIDATE + ":" + PREFIX + ".gitattributes") == b"* -text\n"
+    instructions = [p for p in new if Path(p).name.lower() in {
+        "agents.md", "claude.md", "contributing.md", "coding_standards.md"
+    }]
+    assert instructions == ["AGENTS.md"]
+    python_files, json_files = [], []
+    for path in changed:
+        raw = git("show", CANDIDATE + ":" + path)
+        if path.endswith(".py"):
+            ast.parse(raw, filename=path)
+            python_files.append(path)
+        if path.endswith(".json"):
+            json.loads(raw)
+            json_files.append(path)
+    result = {
+        "checked_utc": datetime.datetime.now(datetime.UTC).isoformat(),
+        "base": BASE,
+        "candidate": CANDIDATE,
+        "diff_command": "git diff " + BASE + "..." + CANDIDATE,
+        "changed_paths": changed,
+        "changed_path_count": len(changed),
+        "unchanged_base_files_except_two_additive_pointers": len(protected),
+        "instruction_files": instructions,
+        "python_ast_parsed": python_files,
+        "json_parsed": len(json_files),
+        "candidate_review_files": [p for p in new if p.startswith(PREFIX + "reviews/")],
+        "failures": 0,
+        "boundary": "Read-only fixed Git blobs and change-boundary checks. No source-semantic verification, builder verifier, product suite, CI, security audit or merge claim."
+    }
+    output = Path(__file__).with_name("candidate-checks.json")
+    output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+    print(json.dumps({"changed_paths": len(changed), "preserved_base_files": len(protected), "python_files": len(python_files), "json_files": len(json_files), "failures": 0}))
+
+
+if __name__ == "__main__":
+    main()

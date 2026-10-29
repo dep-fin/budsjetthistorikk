@@ -1,0 +1,275 @@
+{
+  "id": "vote-ref210624-a1",
+  "requested_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-21/voteringer",
+  "started_utc": "2026-10-29T16:24:09.762736+00:00",
+  "request_headers": {
+    "User-Agent": "budsjetthistorikk-research/60",
+    "Accept-Encoding": "identity"
+  },
+  "representation": "HTTP response entity bytes as read by urllib; transfer framing/TLS excluded; Accept-Encoding identity; no decompression or text/line-ending normalization. Each HTTP hop has its own capture. Local gzip is an archive, not HTTP Content-Encoding.",
+  "state": "complete",
+  "hops": [
+    {
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-21/voteringer",
+      "started_utc": "2026-10-29T16:24:09.762736+00:00",
+      "state": "complete",
+      "status": 301,
+      "response_headers": [
+        [
+          "cache-control",
+          "private"
+        ],
+        [
+          "content-type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "location",
+          "/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2023-2024/refs-202324-06-21/?pgid=voteringer"
+        ],
+        [
+          "set-cookie",
+          "ASP.NET_SessionId=rtlk2gfnxsv354pcrwzv3oy1; path=/; secure; HttpOnly; SameSite=Lax"
+        ],
+        [
+          "request-context",
+          "appId=cid-v1:8e438a5b-7c4f-40c3-9a98-a564863acd5c"
+        ],
+        [
+          "access-control-expose-headers",
+          "Request-Context"
+        ],
+        [
+          "strict-transport-security",
+          "max-age=63072000; includeSubDomains; preload"
+        ],
+        [
+          "x-content-type-options",
+          "nosniff"
+        ],
+        [
+          "referrer-policy",
+          "strict-origin-when-cross-origin"
+        ],
+        [
+          "permissions-policy",
+          "camera=(), microphone=(), geolocation=()"
+        ],
+        [
+          "x-frame-options",
+          "SAMEORIGIN"
+        ],
+        [
+          "date",
+          "Thu, 29 Oct 2026 16:24:09 GMT"
+        ],
+        [
+          "content-length",
+          "223"
+        ],
+        [
+          "Set-Cookie",
+          "BIGipServer~prod_Frontend~www.stortinget.no_pool_443=302849708.47873.0000; path=/; Httponly; Secure"
+        ]
+      ],
+      "body_complete": true,
+      "archive": "vote-ref210624-a1.hop0.gz",
+      "bytes": 223,
+      "sha256": "9252a001ca5909cdf715db1138c047dc945c4a006643648431193d4f5ef02866",
+      "archive_bytes": 175,
+      "archive_sha256": "3a2798d7313d153820343de37566aa07a226b0fcdbb81235d72fe73f09bdcc4a",
+      "completed_utc": "2026-10-29T16:24:09.878580+00:00",
+      "redirect_target": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2023-2024/refs-202324-06-21/?pgid=voteringer"
+    },
+    {
+      "url": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2023-2024/refs-202324-06-21/?pgid=voteringer",
+      "started_utc": "2026-10-29T16:24:09.878580+00:00",
+      "state": "complete",
+      "status": 302,
+      "response_headers": [
+        [
+          "cache-control",
+          "public, must-revalidate, max-age=72230"
+        ],
+        [
+          "content-type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "expires",
+          "Fri, 30 Oct 2026 12:28:16 GMT"
+        ],
+        [
+          "last-modified",
+          "Thu, 29 Oct 2026 16:24:10 GMT"
+        ],
+        [
+          "etag",
+          "\"v1-5e4969bf7388a9f3c266afa8\""
+        ],
+        [
+          "location",
+          "/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2023-2024/refs-202324-06-21/?m=5"
+        ],
+        [
+          "vary",
+          "*"
+        ],
+        [
+          "x-stackifyid",
+          "V2|e80a1238-aca2-43e9-b522-292021f77a1b|C59049|CD39"
+        ],
+        [
+          "set-cookie",
+          "ASP.NET_SessionId=dhyjajpd2eljq322tixplkyi; path=/; secure; HttpOnly; SameSite=Lax"
+        ],
+        [
+          "request-context",
+          "appId=cid-v1:8e438a5b-7c4f-40c3-9a98-a564863acd5c"
+        ],
+        [
+          "access-control-expose-headers",
+          "Request-Context"
+        ],
+        [
+          "strict-transport-security",
+          "max-age=63072000; includeSubDomains; preload"
+        ],
+        [
+          "x-content-type-options",
+          "nosniff"
+        ],
+        [
+          "referrer-policy",
+          "strict-origin-when-cross-origin"
+        ],
+        [
+          "permissions-policy",
+          "camera=(), microphone=(), geolocation=()"
+        ],
+        [
+          "x-frame-options",
+          "SAMEORIGIN"
+        ],
+        [
+          "date",
+          "Thu, 29 Oct 2026 16:24:26 GMT"
+        ],
+        [
+          "content-length",
+          "211"
+        ],
+        [
+          "Set-Cookie",
+          "BIGipServer~prod_Frontend~www.stortinget.no_pool_443=319626924.47873.0000; path=/; Httponly; Secure"
+        ]
+      ],
+      "body_complete": true,
+      "archive": "vote-ref210624-a1.hop1.gz",
+      "bytes": 211,
+      "sha256": "b47769066d64c9448b59300c4783c5b5d018e85827a7fd7052d59b85a77748dc",
+      "archive_bytes": 169,
+      "archive_sha256": "eba53bcf8c06711dceb36f2f20f1c44e17ec2c0baa5d5f71fc9929ba79352c3c",
+      "completed_utc": "2026-10-29T16:24:25.986777+00:00",
+      "redirect_target": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2023-2024/refs-202324-06-21/?m=5"
+    },
+    {
+      "url": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2023-2024/refs-202324-06-21/?m=5",
+      "started_utc": "2026-10-29T16:24:25.987776+00:00",
+      "state": "complete",
+      "status": 200,
+      "response_headers": [
+        [
+          "cache-control",
+          "public, must-revalidate, max-age=72210"
+        ],
+        [
+          "content-type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "expires",
+          "Fri, 30 Oct 2026 12:28:16 GMT"
+        ],
+        [
+          "last-modified",
+          "Thu, 29 Oct 2026 16:24:26 GMT"
+        ],
+        [
+          "etag",
+          "\"v1-5d8fa96a8c0e3e77c1ecc7e7\""
+        ],
+        [
+          "vary",
+          "*"
+        ],
+        [
+          "x-stackifyid",
+          "V2|a768d29e-a845-4c16-944f-ad5398774d70|C59049|CD39"
+        ],
+        [
+          "set-cookie",
+          "ASP.NET_SessionId=smwxy33i2e1vy2t2wyw5dluh; path=/; secure; HttpOnly; SameSite=Lax"
+        ],
+        [
+          "reporting-endpoints",
+          "main-endpoint=\"/api/CspReports/ReportAsync\""
+        ],
+        [
+          "content-security-policy",
+          "default-src 'self'; child-src 'self' https://*.stortinget.no; connect-src 'self' https://*.stortinget.no https://*.cookiebot.eu https://*.cookiebot.com https://siteimproveanalytics.com https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com https://www.google.com/recaptcha/ https://stortinget.matomo.cloud https://api.dimu.org https://*.snl.no/api/ https://snl.no/api/ https://api.flickr.com/services/rest/ https://*.qbrick.com wss://*.qbrick.com https://*.dna.ip-only.net https://httpcache1.dna.ip-only.net https://ssl.p.jwpcdn.com/player/ https://*.essens.no https://cdn.tiny.cloud https://qdms.dimu.org https://httpcache1.dna.contentdelivery.net https://www.googletagmanager.com https://openseadragon.github.io https://*.dna.contentdelivery.net https://*.dna.qbrick.com https://ems.dimu.org; font-src 'self' data: https://*.stortinget.no https://script.hotjar.com https://*.qbrick.com https://siteimproveanalytics.com https://ssl.p.jwpcdn.com; frame-src 'self' https://*.stortinget.no https://*.cookiebot.eu https://*.cookiebot.com https://www.google.com/ https://*.qbrick.com https://siteimproveanalytics.com; img-src 'self' data: blob: https://*.stortinget.no https://*.cookiebot.eu https://*.cookiebot.com https://*.usercentrics.eu https://static.hotjar.com https://script.hotjar.com https://survey-images.hotjar.com https://www.googletagmanager.com/ https://mm.dimu.org/image/ http://licensebuttons.net/p/mark/1.0/80x15.png https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png https://*.static.flickr.com https://*.dna.ip-only.net https://prd.jwpltx.com https://*.amazonaws.com https://sp.tinymce.com https://ssl.essens.no https://play2.qbrick.com https://www.stortinget.no https://*.siteimproveanalytics.io https://*.dna.contentdelivery.net https://ems.dimu.org https://stortinget.matomo.cloud; manifest-src 'self'; media-src 'self' blob: https://*.stortinget.no https://*.dna.ip-only.net https://httpcache1.dna.contentdelivery.net https://*.dna.contentdelivery.net https://ems.dimu.org; object-src 'self'; script-src 'self' blob: https://*.stortinget.no https://static.hotjar.com https://script.hotjar.com https://www.googletagmanager.com/gtm.js 'unsafe-eval' https://stortinget.matomo.cloud https://*.qbrick.com https://*.dna.contentdelivery.net https://*.dna.qbrick.com https://siteimproveanalytics.com; script-src-elem 'self' 'unsafe-inline' https://openseadragon.github.io https://cdnjs.cloudflare.com https://*.cookiebot.eu https://*.cookiebot.com https://static.hotjar.com https://script.hotjar.com http://ajax.googleapis.com/ajax/libs/jquery/ https://www.googletagmanager.com https://www.gstatic.com https://www.google.com/recaptcha/ https://stortinget.matomo.cloud https://cdn.matomo.cloud/stortinget.matomo.cloud/ https://matomojs.trackify.info/ https://*.qbrick.com https://ssl.p.jwpcdn.com https://ssl.essens.no https://cdn.tiny.cloud https://siteimproveanalytics.com https://static.hotjar.com/; script-src-attr 'self' 'unsafe-inline'; style-src 'self' https://*.stortinget.no https://static.hotjar.com https://script.hotjar.com https://cdn.tiny.cloud; style-src-elem 'self' 'unsafe-inline' https://cdn.tiny.cloud https://play2.qbrick.com; style-src-attr 'self' 'unsafe-inline'; worker-src 'self' blob:; report-to main-endpoint; report-uri /api/CspReports/ReportAsync;"
+        ],
+        [
+          "request-context",
+          "appId=cid-v1:8e438a5b-7c4f-40c3-9a98-a564863acd5c"
+        ],
+        [
+          "access-control-expose-headers",
+          "Request-Context"
+        ],
+        [
+          "strict-transport-security",
+          "max-age=63072000; includeSubDomains; preload"
+        ],
+        [
+          "x-content-type-options",
+          "nosniff"
+        ],
+        [
+          "referrer-policy",
+          "strict-origin-when-cross-origin"
+        ],
+        [
+          "permissions-policy",
+          "camera=(), microphone=(), geolocation=()"
+        ],
+        [
+          "x-frame-options",
+          "SAMEORIGIN"
+        ],
+        [
+          "date",
+          "Thu, 29 Oct 2026 16:24:45 GMT"
+        ],
+        [
+          "content-length",
+          "25471530"
+        ],
+        [
+          "Set-Cookie",
+          "BIGipServer~prod_Frontend~www.stortinget.no_pool_443=319626924.47873.0000; path=/; Httponly; Secure"
+        ]
+      ],
+      "body_complete": true,
+      "archive": "vote-ref210624-a1.hop2.gz",
+      "bytes": 25471530,
+      "sha256": "4e4e66f1602241026943c81a5469792fcdf1a1acf244a0518f2e58f880cc125d",
+      "archive_bytes": 670225,
+      "archive_sha256": "2484354c65ebba6ee39d3eeb2d212f5446907af41c1c30e7000b883060e1f972",
+      "completed_utc": "2026-10-29T16:26:14.405053+00:00"
+    }
+  ],
+  "final_url": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2023-2024/refs-202324-06-21/?m=5",
+  "status": 200,
+  "completed_utc": "2026-10-29T16:26:14.405053+00:00"
+}

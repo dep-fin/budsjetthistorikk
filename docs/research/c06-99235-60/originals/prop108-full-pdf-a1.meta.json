@@ -1,0 +1,115 @@
+{
+  "id": "prop108-full-pdf-a1",
+  "requested_url": "https://www.regjeringen.no/contentassets/72f8fa759ffe4adcb12d6020a729e541/nn-no/pdfs/prp202320240108000dddpdfs.pdf",
+  "started_utc": "2026-10-29T16:26:20.953255+00:00",
+  "request_headers": {
+    "User-Agent": "budsjetthistorikk-research/60",
+    "Accept-Encoding": "identity"
+  },
+  "representation": "HTTP response entity bytes as read by urllib; transfer framing/TLS excluded; Accept-Encoding identity; no decompression or text/line-ending normalization. Each HTTP hop has its own capture. Local gzip is an archive, not HTTP Content-Encoding.",
+  "state": "complete",
+  "hops": [
+    {
+      "url": "https://www.regjeringen.no/contentassets/72f8fa759ffe4adcb12d6020a729e541/nn-no/pdfs/prp202320240108000dddpdfs.pdf",
+      "started_utc": "2026-10-29T16:26:20.954409+00:00",
+      "state": "complete",
+      "status": 200,
+      "response_headers": [
+        [
+          "Date",
+          "Thu, 29 Oct 2026 16:26:21 GMT"
+        ],
+        [
+          "Content-Type",
+          "application/pdf"
+        ],
+        [
+          "Content-Length",
+          "21320082"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Accept-Ranges",
+          "bytes"
+        ],
+        [
+          "cache-control",
+          "public"
+        ],
+        [
+          "etag",
+          "\"1dab80d898eb212\""
+        ],
+        [
+          "expires",
+          "Thu, 29 Oct 2026 16:31:21 GMT"
+        ],
+        [
+          "Last-Modified",
+          "Thu, 06 Jun 2024 12:32:03 GMT"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=15552000"
+        ],
+        [
+          "Request-Context",
+          "appId=cid-v1:6f4928bd-f664-43ef-97e9-3ba28bae17d8"
+        ],
+        [
+          "X-XSS-Protection",
+          "1; mode=block"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "X-Frame-Options",
+          "SAMEORIGIN"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer, same-origin"
+        ],
+        [
+          "Permissions-Policy",
+          "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+        ],
+        [
+          "Vary",
+          "accept-encoding"
+        ],
+        [
+          "cf-cache-status",
+          "REVALIDATED"
+        ],
+        [
+          "Server",
+          "cloudflare"
+        ],
+        [
+          "CF-RAY",
+          "a5238a9c0ca553db-CPH"
+        ],
+        [
+          "alt-svc",
+          "h3=\":443\"; ma=86400"
+        ]
+      ],
+      "body_complete": true,
+      "archive": "prop108-full-pdf-a1.hop0.gz",
+      "bytes": 21320082,
+      "sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "archive_bytes": 19639345,
+      "archive_sha256": "fa29cb64f7d63be173d28353a4f3abfebb87c25aa9f30e850d291fb80888e7bb",
+      "completed_utc": "2026-10-29T16:26:50.476509+00:00"
+    }
+  ],
+  "final_url": "https://www.regjeringen.no/contentassets/72f8fa759ffe4adcb12d6020a729e541/nn-no/pdfs/prp202320240108000dddpdfs.pdf",
+  "status": 200,
+  "completed_utc": "2026-10-29T16:26:50.476509+00:00"
+}

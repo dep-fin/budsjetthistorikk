@@ -1,0 +1,57 @@
+{
+  "schema": "c06-candidate-followup-1",
+  "base_commit": "49cc6e44851cf74e0aaea4eb333419e5598bfd95",
+  "origin": "R2 cross-reference C06, not one of K3's 67 historical candidate occurrences",
+  "identity": {
+    "session": "2023-2024",
+    "ordinal_1based": 114,
+    "case_id": "99235",
+    "recommendation_id": "16526"
+  },
+  "historical_candidate_membership": false,
+  "additive_status": "investigated_institutional_relevance_and_date_clarified_no_new_documented_monetary_effect",
+  "selected_accounts": [
+    "1429/1",
+    "1429/22"
+  ],
+  "budget_year": 2024,
+  "evidence_ids": [
+    "IDX114",
+    "CASE",
+    "RA-LO",
+    "RA-YS",
+    "VOTE-time",
+    "VOTE21",
+    "D853",
+    "D854",
+    "D855",
+    "D856"
+  ],
+  "date_result": "Debate20June, vote/adoption21June; contradictory retrospective20June statements retained with unknown cause.",
+  "post1_result": "No separate C06 post allocation or new adopted event; old 2796000 estimate retains independent proposal role.",
+  "post22_result": "No inherited/1 explanation; actual C06 post application unknown.",
+  "historical_files_rewritten": false,
+  "historical_candidate_totals_recomputed": false,
+  "historical_totals": {
+    "index_occurrences": 67,
+    "unique_cases": 66,
+    "open_index_occurrences": 60,
+    "open_unique_cases": 59,
+    "decision_candidates": 25,
+    "no_dictionary_hit_decisions": 2158
+  },
+  "global_gaps": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+  ],
+  "selected_monetary_events": 5,
+  "selected_decision_fields": 11,
+  "year_coverage": "partial",
+  "professional_annual_balance_approval": false,
+  "product_adoption": false
+}

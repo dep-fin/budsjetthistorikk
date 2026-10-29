@@ -1,0 +1,259 @@
+{
+  "schema": "c06-post-review-local-checks-1",
+  "research_candidate": "9eb27cebf7ca4a99aeb30fa32245e41314e0d295",
+  "base": "49cc6e44851cf74e0aaea4eb333419e5598bfd95",
+  "reason": "Single J02 precision correction and additive review evidence integration; formatting/lint of new Standards helper only. Historical reports/results retained.",
+  "environment": {
+    "PYTHONPATH": ".local/python-tools",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONIOENCODING": "utf-8"
+  },
+  "original_standards_helper_expected_lint_failure": {
+    "id": "original-standards-helper-lint",
+    "argv": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "ruff",
+      "check",
+      "--stdin-filename",
+      "docs\\research\\c06-99235-60\\reviews\\standards\\check_candidate.py",
+      "-"
+    ],
+    "started_utc": "2026-10-29T17:25:54.429393+00:00",
+    "completed_utc": "2026-10-29T17:25:54.522357+00:00",
+    "elapsed_seconds": 0.094,
+    "exit_code": 1,
+    "output": "docs\\research\\c06-99235-60\\reviews\\standards\\check_candidate.py:64:101: E501 Line too long (176 > 100)\n   |\n62 | … \"reviews/\")],\n63 | …\n64 | … No source-semantic verification, builder verifier, product suite, CI, security audit or merge claim.\"\n   |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ E501\n65 | …\n66 | …\n   |\n\ndocs\\research\\c06-99235-60\\reviews\\standards\\check_candidate.py:67:101: E501 Line too long (110 > 100)\n   |\n65 |     }\n66 |     output = Path(__file__).with_name(\"candidate-checks.json\")\n67 |     output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + \"\\n\", encoding=\"utf-8\", newline=\"\\n\")\n   |                                                                                                     ^^^^^^^^^^ E501\n68 |     print(json.dumps({\"changed_paths\": len(changed), \"preserved_base_files\": len(protected), \"python_files\": len(python_files), \"json_…\n   |\n\ndocs\\research\\c06-99235-60\\reviews\\standards\\check_candidate.py:68:101: E501 Line too long (175 > 100)\n   |\n66 | …\n67 | …\\n\", encoding=\"utf-8\", newline=\"\\n\")\n68 | …\": len(protected), \"python_files\": len(python_files), \"json_files\": len(json_files), \"failures\": 0}))\n   |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ E501\n   |\n\nFound 3 errors.\n",
+    "raw_captured_output_sha256": "6dfc72f01a36bb4867171969ce86102771b2697d0092d2bef7fe0e6c7e854291",
+    "representation": "UTF-8 decoded combined process stdout/stderr; raw pipe bytes hash separately recorded"
+  },
+  "checks": [
+    {
+      "id": "transport-probes",
+      "argv": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "docs\\research\\c06-99235-60\\test_acquire.py"
+      ],
+      "started_utc": "2026-10-29T17:25:54.537683+00:00",
+      "completed_utc": "2026-10-29T17:25:54.839695+00:00",
+      "elapsed_seconds": 0.313,
+      "exit_code": 0,
+      "output": "test_allowed (__main__.BoundaryTests.test_allowed) ... ok\r\ntest_complete_error_body_preserved (__main__.BoundaryTests.test_complete_error_body_preserved) ... ok\r\ntest_every_redirect_rejected_before_next_request (__main__.BoundaryTests.test_every_redirect_rejected_before_next_request) ... ok\r\ntest_existing_attempt_not_overwritten (__main__.BoundaryTests.test_existing_attempt_not_overwritten) ... ok\r\ntest_identifier_rejected_before_request (__main__.BoundaryTests.test_identifier_rejected_before_request) ... ok\r\ntest_partial_body_preserved (__main__.BoundaryTests.test_partial_body_preserved) ... ok\r\ntest_relative_and_second_redirect (__main__.BoundaryTests.test_relative_and_second_redirect) ... ok\r\ntest_start_rejected_before_request (__main__.BoundaryTests.test_start_rejected_before_request) ... ok\r\ntest_urllib_redirect_policy_never_follows_automatically (__main__.BoundaryTests.test_urllib_redirect_policy_never_follows_automatically) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 9 tests in 0.074s\r\n\r\nOK\r\n",
+      "raw_captured_output_sha256": "2076fd93c85b05fe6cfbbcb01778a777df902c9b2e5ce1678f2280dab9346486",
+      "representation": "UTF-8 decoded combined process stdout/stderr; raw pipe bytes hash separately recorded"
+    },
+    {
+      "id": "ruff-check",
+      "argv": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "."
+      ],
+      "started_utc": "2026-10-29T17:25:54.537683+00:00",
+      "completed_utc": "2026-10-29T17:25:54.693387+00:00",
+      "elapsed_seconds": 0.156,
+      "exit_code": 0,
+      "output": "All checks passed!\n",
+      "raw_captured_output_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+      "representation": "UTF-8 decoded combined process stdout/stderr; raw pipe bytes hash separately recorded"
+    },
+    {
+      "id": "ruff-format",
+      "argv": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "."
+      ],
+      "started_utc": "2026-10-29T17:25:54.537683+00:00",
+      "completed_utc": "2026-10-29T17:25:54.686148+00:00",
+      "elapsed_seconds": 0.156,
+      "exit_code": 0,
+      "output": "163 files already formatted\n",
+      "raw_captured_output_sha256": "27b0eb549ee60b2db607fc774f8030ac1994dcb38c3fd6db8e5ef09861482a03",
+      "representation": "UTF-8 decoded combined process stdout/stderr; raw pipe bytes hash separately recorded"
+    },
+    {
+      "id": "mypy-configured",
+      "argv": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "mypy"
+      ],
+      "started_utc": "2026-10-29T17:25:54.537683+00:00",
+      "completed_utc": "2026-10-29T17:25:55.304960+00:00",
+      "elapsed_seconds": 0.766,
+      "exit_code": 0,
+      "output": "Success: no issues found in 81 source files\r\n",
+      "raw_captured_output_sha256": "60c92654ddacb9d85dc1d458bf7bed88f6d0af396d0de4dd228d77c8fff3026e",
+      "representation": "UTF-8 decoded combined process stdout/stderr; raw pipe bytes hash separately recorded"
+    },
+    {
+      "id": "mypy-new-integration-helper",
+      "argv": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "mypy",
+        "docs\\research\\c06-99235-60\\reviews\\integration\\verify_integration.py"
+      ],
+      "started_utc": "2026-10-29T17:25:54.686148+00:00",
+      "completed_utc": "2026-10-29T17:25:55.073162+00:00",
+      "elapsed_seconds": 0.391,
+      "exit_code": 0,
+      "output": "Success: no issues found in 1 source file\r\n",
+      "raw_captured_output_sha256": "8e63ae22e8213e327a5e9cbd584067681681bd8ef7f25c869877887ccdcfc4ff",
+      "representation": "UTF-8 decoded combined process stdout/stderr; raw pipe bytes hash separately recorded"
+    },
+    {
+      "id": "git-diff-check",
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "started_utc": "2026-10-29T17:25:54.693387+00:00",
+      "completed_utc": "2026-10-29T17:25:54.755665+00:00",
+      "elapsed_seconds": 0.063,
+      "exit_code": 0,
+      "output": "",
+      "raw_captured_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "representation": "UTF-8 decoded combined process stdout/stderr; raw pipe bytes hash separately recorded"
+    },
+    {
+      "id": "manifest-before-verification",
+      "argv": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "docs\\research\\c06-99235-60\\refresh_manifest.py"
+      ],
+      "started_utc": "2026-10-29T17:25:55.304960+00:00",
+      "completed_utc": "2026-10-29T17:25:55.435210+00:00",
+      "elapsed_seconds": 0.14,
+      "exit_code": 0,
+      "output": "{\"files\": 73, \"bytes\": 22742994}\r\n",
+      "raw_captured_output_sha256": "82e5fae03f4afae5fa635ef07a5006308fd62c0bf22a81f1f766ae7ba036a56b",
+      "representation": "UTF-8 decoded combined process stdout/stderr; raw pipe bytes hash separately recorded"
+    },
+    {
+      "id": "verification-refresh",
+      "argv": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "docs\\research\\c06-99235-60\\verify.py"
+      ],
+      "started_utc": "2026-10-29T17:25:55.435210+00:00",
+      "completed_utc": "2026-10-29T17:26:11.856482+00:00",
+      "elapsed_seconds": 16.422,
+      "exit_code": 0,
+      "output": "{\r\n  \"schema\": \"c06-offline-verification-1\",\r\n  \"checked_utc\": \"2026-10-29T17:26:11.785813+00:00\",\r\n  \"base_commit\": \"49cc6e44851cf74e0aaea4eb333419e5598bfd95\",\r\n  \"runtime\": \"3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]\",\r\n  \"checks\": {\r\n    \"context_issues\": 1,\r\n    \"published_contract_time\": 1,\r\n    \"attempt_count\": 1,\r\n    \"complete_attempt_count\": 1,\r\n    \"metadata_bytes\": 16,\r\n    \"metadata_hash\": 16,\r\n    \"contract_before_every_attempt\": 16,\r\n    \"attempt_time_order\": 16,\r\n    \"allowed_start_url\": 16,\r\n    \"request_headers\": 16,\r\n    \"hop_url_binding\": 21,\r\n    \"documented_no_response_dns_failure\": 1,\r\n    \"archive_binding\": 20,\r\n    \"entity_binding\": 20,\r\n    \"complete_observed_hop\": 20,\r\n    \"identity_entity\": 20,\r\n    \"content_length\": 13,\r\n    \"final_url_status\": 15,\r\n    \"complete_xml\": 4,\r\n    \"redirect_to_next_validated_hop\": 5,\r\n    \"complete_html_end\": 10,\r\n    \"complete_pdf_envelope\": 1,\r\n    \"all_original_attempt_files_in_manifest\": 1,\r\n    \"reused_file\": 18,\r\n    \"reused_entity\": 7,\r\n    \"complete_pdf_image_inventory\": 1,\r\n    \"pdf_and_appendix_extent\": 1,\r\n    \"both_own_appendices\": 1,\r\n    \"ocr_extent_and_limit\": 1,\r\n    \"ocr_all_embedded_pages\": 1,\r\n    \"all_appendix_pages_journaled\": 1,\r\n    \"page_journal_binding\": 130,\r\n    \"page_ocr_binding\": 130,\r\n    \"explicit_visual_review_extent\": 1,\r\n    \"unique_evidence\": 1,\r\n    \"evidence_source_hash\": 69,\r\n    \"unique_exact_xpath\": 69,\r\n    \"exact_derived_text\": 69,\r\n    \"visual_pdf_hash\": 18,\r\n    \"visual_locator_binding\": 18,\r\n    \"two_session_entity_hashes\": 4,\r\n    \"complete_canonical_decisions_equal\": 4,\r\n    \"canonical_hash\": 4,\r\n    \"four_stage_text_equality\": 4,\r\n    \"government_wording_preserved\": 4,\r\n    \"precise_vote_time\": 1,\r\n    \"debate_to_next_day_vote\": 1,\r\n    \"voting_block_identity_outcome\": 1,\r\n    \"contradictory_retrospective_statement_retained\": 4,\r\n    \"all_curated_references_resolve\": 28,\r\n    \"historical_67_66\": 1,\r\n    \"99235_not_historical_candidate\": 1,\r\n    \"R1_R7_unchanged\": 1,\r\n    \"no_new_product_event\": 1,\r\n    \"preservation_base\": 1,\r\n    \"all_base_files_except_additive_pointers\": 1,\r\n    \"exact_protected_checkout_bytes\": 1070,\r\n    \"protected_git_representation\": 1070,\r\n    \"only_authorized_changed_paths\": 1,\r\n    \"complete_ci_and_90_minutes_preserved\": 1,\r\n    \"json_parsed\": 37,\r\n    \"local_markdown_target\": 172,\r\n    \"delivery_manifest_complete_inventory\": 1,\r\n    \"delivery_file_hash\": 73\r\n  },\r\n  \"total_checks\": 3273,\r\n  \"failures\": 0,\r\n  \"git_revision\": null,\r\n  \"boundary\": \"Builder offline checks only. No new HTTP, independent review/audit, full product suite, Linux CI, publication or merge. Visual paraphrases are image-bound but require independent reading.\"\r\n}\r\n",
+      "raw_captured_output_sha256": "e686cb181e748d27c55ee83dfae00e179f4267ce01a43fa9a67589fd2657ecad",
+      "representation": "UTF-8 decoded combined process stdout/stderr; raw pipe bytes hash separately recorded"
+    },
+    {
+      "id": "manifest-after-verification",
+      "argv": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "docs\\research\\c06-99235-60\\refresh_manifest.py"
+      ],
+      "started_utc": "2026-10-29T17:26:11.857481+00:00",
+      "completed_utc": "2026-10-29T17:26:11.986551+00:00",
+      "elapsed_seconds": 0.125,
+      "exit_code": 0,
+      "output": "{\"files\": 73, \"bytes\": 22742994}\r\n",
+      "raw_captured_output_sha256": "82e5fae03f4afae5fa635ef07a5006308fd62c0bf22a81f1f766ae7ba036a56b",
+      "representation": "UTF-8 decoded combined process stdout/stderr; raw pipe bytes hash separately recorded"
+    },
+    {
+      "id": "verification-final",
+      "argv": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "docs\\research\\c06-99235-60\\verify.py"
+      ],
+      "started_utc": "2026-10-29T17:26:11.986551+00:00",
+      "completed_utc": "2026-10-29T17:26:28.423632+00:00",
+      "elapsed_seconds": 16.438,
+      "exit_code": 0,
+      "output": "{\r\n  \"schema\": \"c06-offline-verification-1\",\r\n  \"checked_utc\": \"2026-10-29T17:26:28.353056+00:00\",\r\n  \"base_commit\": \"49cc6e44851cf74e0aaea4eb333419e5598bfd95\",\r\n  \"runtime\": \"3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]\",\r\n  \"checks\": {\r\n    \"context_issues\": 1,\r\n    \"published_contract_time\": 1,\r\n    \"attempt_count\": 1,\r\n    \"complete_attempt_count\": 1,\r\n    \"metadata_bytes\": 16,\r\n    \"metadata_hash\": 16,\r\n    \"contract_before_every_attempt\": 16,\r\n    \"attempt_time_order\": 16,\r\n    \"allowed_start_url\": 16,\r\n    \"request_headers\": 16,\r\n    \"hop_url_binding\": 21,\r\n    \"documented_no_response_dns_failure\": 1,\r\n    \"archive_binding\": 20,\r\n    \"entity_binding\": 20,\r\n    \"complete_observed_hop\": 20,\r\n    \"identity_entity\": 20,\r\n    \"content_length\": 13,\r\n    \"final_url_status\": 15,\r\n    \"complete_xml\": 4,\r\n    \"redirect_to_next_validated_hop\": 5,\r\n    \"complete_html_end\": 10,\r\n    \"complete_pdf_envelope\": 1,\r\n    \"all_original_attempt_files_in_manifest\": 1,\r\n    \"reused_file\": 18,\r\n    \"reused_entity\": 7,\r\n    \"complete_pdf_image_inventory\": 1,\r\n    \"pdf_and_appendix_extent\": 1,\r\n    \"both_own_appendices\": 1,\r\n    \"ocr_extent_and_limit\": 1,\r\n    \"ocr_all_embedded_pages\": 1,\r\n    \"all_appendix_pages_journaled\": 1,\r\n    \"page_journal_binding\": 130,\r\n    \"page_ocr_binding\": 130,\r\n    \"explicit_visual_review_extent\": 1,\r\n    \"unique_evidence\": 1,\r\n    \"evidence_source_hash\": 69,\r\n    \"unique_exact_xpath\": 69,\r\n    \"exact_derived_text\": 69,\r\n    \"visual_pdf_hash\": 18,\r\n    \"visual_locator_binding\": 18,\r\n    \"two_session_entity_hashes\": 4,\r\n    \"complete_canonical_decisions_equal\": 4,\r\n    \"canonical_hash\": 4,\r\n    \"four_stage_text_equality\": 4,\r\n    \"government_wording_preserved\": 4,\r\n    \"precise_vote_time\": 1,\r\n    \"debate_to_next_day_vote\": 1,\r\n    \"voting_block_identity_outcome\": 1,\r\n    \"contradictory_retrospective_statement_retained\": 4,\r\n    \"all_curated_references_resolve\": 28,\r\n    \"historical_67_66\": 1,\r\n    \"99235_not_historical_candidate\": 1,\r\n    \"R1_R7_unchanged\": 1,\r\n    \"no_new_product_event\": 1,\r\n    \"preservation_base\": 1,\r\n    \"all_base_files_except_additive_pointers\": 1,\r\n    \"exact_protected_checkout_bytes\": 1070,\r\n    \"protected_git_representation\": 1070,\r\n    \"only_authorized_changed_paths\": 1,\r\n    \"complete_ci_and_90_minutes_preserved\": 1,\r\n    \"json_parsed\": 37,\r\n    \"local_markdown_target\": 172,\r\n    \"delivery_manifest_complete_inventory\": 1,\r\n    \"delivery_file_hash\": 73\r\n  },\r\n  \"total_checks\": 3273,\r\n  \"failures\": 0,\r\n  \"git_revision\": null,\r\n  \"boundary\": \"Builder offline checks only. No new HTTP, independent review/audit, full product suite, Linux CI, publication or merge. Visual paraphrases are image-bound but require independent reading.\"\r\n}\r\n",
+      "raw_captured_output_sha256": "e15b081e0f1f41b7be63aee818f3e8f131239198fa13e7b226b5d2feb61abc3e",
+      "representation": "UTF-8 decoded combined process stdout/stderr; raw pipe bytes hash separately recorded"
+    },
+    {
+      "id": "integration-final",
+      "argv": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "docs\\research\\c06-99235-60\\reviews\\integration\\verify_integration.py"
+      ],
+      "started_utc": "2026-10-29T17:26:28.423632+00:00",
+      "completed_utc": "2026-10-29T17:26:46.718939+00:00",
+      "elapsed_seconds": 18.297,
+      "exit_code": 0,
+      "output": "{\r\n  \"schema\": \"c06-post-review-integration-1\",\r\n  \"checked_utc\": \"2026-10-29T17:26:46.693227+00:00\",\r\n  \"research_candidate\": \"9eb27cebf7ca4a99aeb30fa32245e41314e0d295\",\r\n  \"research_candidate_tree\": \"60dfabaec4e7c022e30c6a6389a622790fad11f5\",\r\n  \"base\": \"49cc6e44851cf74e0aaea4eb333419e5598bfd95\",\r\n  \"historical_review_files_preserved\": 15,\r\n  \"standards_helper_identical_ast\": true,\r\n  \"standards_fixed_candidate_result_identical_except_timestamp\": true,\r\n  \"standards_helper_stdout\": {\r\n    \"changed_paths\": 74,\r\n    \"preserved_base_files\": 1070,\r\n    \"python_files\": 6,\r\n    \"json_files\": 37,\r\n    \"failures\": 0\r\n  },\r\n  \"J02_only_byte_replacement\": {\r\n    \"before\": \"14 nøkkelsider er lest visuelt\",\r\n    \"after\": \"18 nøkkelsider er lest visuelt\"\r\n  },\r\n  \"unchanged_visual_pages\": [\r\n    11,\r\n    12,\r\n    13,\r\n    14,\r\n    16,\r\n    39,\r\n    40,\r\n    50,\r\n    69,\r\n    77,\r\n    78,\r\n    79,\r\n    80,\r\n    82,\r\n    105,\r\n    106,\r\n    116,\r\n    135\r\n  ],\r\n  \"unchanged_candidate_files\": 1138,\r\n  \"changed_research_candidate_paths\": [\r\n    \"docs/research/c06-99235-60/OVERLEVERING.md\",\r\n    \"docs/research/c06-99235-60/README.md\",\r\n    \"docs/research/c06-99235-60/cross-reference-journal.json\",\r\n    \"docs/research/c06-99235-60/delivery-manifest.json\",\r\n    \"docs/research/c06-99235-60/reproduksjon.md\",\r\n    \"docs/research/c06-99235-60/verification.json\"\r\n  ],\r\n  \"review_evidence_files\": [\r\n    {\r\n      \"path\": \"integration/check_candidate.py.original\",\r\n      \"bytes\": 2967,\r\n      \"sha256\": \"3be9e5b97ee774b635dc563150deaf79c2a51bd59b4544cd8632086ba0649950\"\r\n    },\r\n    {\r\n      \"path\": \"integration/original-review-files.json\",\r\n      \"bytes\": 3004,\r\n      \"sha256\": \"b9f9f32b030dbe8db06c851177d2873ed8bb98e19591a7015b844de535031702\"\r\n    },\r\n    {\r\n      \"path\": \"integration/verify_integration.py\",\r\n      \"bytes\": 6076,\r\n      \"sha256\": \"ceae2feca16449f1350ade55dc91a51650ac975f9f09856318e13f2b5d6007ab\"\r\n    },\r\n    {\r\n      \"path\": \"README.md\",\r\n      \"bytes\": 2358,\r\n      \"sha256\": \"402c23b5f97f6808f643b80b365ce0caf68b090e9d69fcecab5508ed714bf471\"\r\n    },\r\n    {\r\n      \"path\": \"security/builder-transport-tests.txt\",\r\n      \"bytes\": 1209,\r\n      \"sha256\": \"8e93b64599b77e6de852e4a2be2f6f23d21584221f01cd68ceba692097fe16b7\"\r\n    },\r\n    {\r\n      \"path\": \"security/builder-verify-current.json\",\r\n      \"bytes\": 2812,\r\n      \"sha256\": \"8649bb23d217c46de5ee8a10ce8110a016c05c23c9a347f6af6fa81fec06f699\"\r\n    },\r\n    {\r\n      \"path\": \"security/README.md\",\r\n      \"bytes\": 10195,\r\n      \"sha256\": \"f98df9ab00f3f5a06ac692d314dcff365f7209082e8305eeea21680ddce1fe18\"\r\n    },\r\n    {\r\n      \"path\": \"security/security-results.json\",\r\n      \"bytes\": 6279,\r\n      \"sha256\": \"2aec63227b4a3613d38ff45549d1fea619cac39acb59e7c844ec72778262aae6\"\r\n    },\r\n    {\r\n      \"path\": \"security/security_checks.py\",\r\n      \"bytes\": 27175,\r\n      \"sha256\": \"74e74633d97bd5eed8c62457ef405a5fb73d71a8d00db928bee3a4029ee87a9a\"\r\n    },\r\n    {\r\n      \"path\": \"source/independent_check.py\",\r\n      \"bytes\": 17987,\r\n      \"sha256\": \"9aff7bc0cf0108aeaf6c7b4c695785f6ca992bfb5e3c560ef69682563f23c28d\"\r\n    },\r\n    {\r\n      \"path\": \"source/README.md\",\r\n      \"bytes\": 11745,\r\n      \"sha256\": \"92b20abf90241669b91edce53def70bfd82e44385094eccafa60e494f7eafadd\"\r\n    },\r\n    {\r\n      \"path\": \"source/result.json\",\r\n      \"bytes\": 309679,\r\n      \"sha256\": \"dff7d0b1a6d95796029920d026d0bebc71c8ea68c0173a8b9971deba97c21c71\"\r\n    },\r\n    {\r\n      \"path\": \"source/runtime-result.json\",\r\n      \"bytes\": 1978,\r\n      \"sha256\": \"ce0cae617de76e0adcb9b86ef5b3021427be0be7d5ecdf1a2ca054ded9318cf6\"\r\n    },\r\n    {\r\n      \"path\": \"spec/README.md\",\r\n      \"bytes\": 2621,\r\n      \"sha256\": \"5c1b9b623cd4c376d7456f486a54c9edc764fcbbe4be9facfcf3c6af2dcd86e7\"\r\n    },\r\n    {\r\n      \"path\": \"spec/results.json\",\r\n      \"bytes\": 70641,\r\n      \"sha256\": \"be044c970cfceca9415b22a5f24ed4dd362931abd171c61b7fa5be6ca7e38ff5\"\r\n    },\r\n    {\r\n      \"path\": \"spec/verify_spec.py\",\r\n      \"bytes\": 8381,\r\n      \"sha256\": \"46242a8e4cab7285f9bab08181025c67c41da3fb0e0e6308b1b199201e2d4c30\"\r\n    },\r\n    {\r\n      \"path\": \"standards/candidate-checks.json\",\r\n      \"bytes\": 5575,\r\n      \"sha256\": \"95ddc6d2f13c5b8a3d77781e974ff2fa2f20c488e98dd66b9f20f1d19086be25\"\r\n    },\r\n    {\r\n      \"path\": \"standards/check_candidate.py\",\r\n      \"bytes\": 3191,\r\n      \"sha256\": \"de5064a1efd71b5e64294696feb4d440b2765e20958fef0998fe85d4ff97127c\"\r\n    },\r\n    {\r\n      \"path\": \"standards/README.md\",\r\n      \"bytes\": 2417,\r\n      \"sha256\": \"c8801b85a93e74fe3181289d6869fcaaef684035051d342cdf69a23bca6703b2\"\r\n    }\r\n  ],\r\n  \"failures\": 0,\r\n  \"boundary\": \"Additive working-file integration after the four fixed-9eb reviews. No original reviewer result/report rewritten. No new independent review, candidate commit, HTTP, full suite, Linux CI, PR or merge claimed. The subsequent committed candidate requires a bounded independent recheck.\"\r\n}\r\n",
+      "raw_captured_output_sha256": "246802bbb6f7245976bf2c0c4aaaf24002670952748b8473cc385d4a209ba85b",
+      "representation": "UTF-8 decoded combined process stdout/stderr; raw pipe bytes hash separately recorded"
+    }
+  ],
+  "failures": 0,
+  "boundary": "Working-file checks after four fixed-9eb reviews. No full suite, new HTTP/source reading, independent final-candidate attestation, candidate commit, PR, full Linux CI or merge. Configured mypy covers 81 product sources; new typed integration helper additionally checked alone. Existing historical reviewer scripts retain their original typing scope.",
+  "produced_control_artifacts": [
+    {
+      "path": "docs/research/c06-99235-60/verification.json",
+      "bytes": 2661,
+      "sha256": "68101e543c8ee6a45eaf8431b58d7db4061e8c1310ddd62f174862aa3d3ac06a",
+      "representation": "UTF-8/LF artifact bytes; subprocess stdout raw-pipe hash is a distinct representation"
+    },
+    {
+      "path": "docs/research/c06-99235-60/delivery-manifest.json",
+      "bytes": 17399,
+      "sha256": "181eab2a56f2b8ec2931977afde4207646ee8d559c7c239361e427bd1080c2b3",
+      "representation": "UTF-8/LF artifact bytes; subprocess stdout raw-pipe hash is a distinct representation"
+    },
+    {
+      "path": "docs/research/c06-99235-60/reviews/integration/result.json",
+      "bytes": 4726,
+      "sha256": "a29bd40027f4c3852f99c7faa90b645ed69d0afb7a795c48ac0ee492228b935f",
+      "representation": "UTF-8/LF artifact bytes; subprocess stdout raw-pipe hash is a distinct representation"
+    }
+  ],
+  "current_file_delta_from_research_candidate": {
+    "modified": [
+      "docs/research/c06-99235-60/OVERLEVERING.md",
+      "docs/research/c06-99235-60/README.md",
+      "docs/research/c06-99235-60/cross-reference-journal.json",
+      "docs/research/c06-99235-60/delivery-manifest.json",
+      "docs/research/c06-99235-60/reproduksjon.md",
+      "docs/research/c06-99235-60/verification.json"
+    ],
+    "added_review_files": [
+      "docs/research/c06-99235-60/reviews/README.md",
+      "docs/research/c06-99235-60/reviews/integration/check_candidate.py.original",
+      "docs/research/c06-99235-60/reviews/integration/checks.json",
+      "docs/research/c06-99235-60/reviews/integration/original-review-files.json",
+      "docs/research/c06-99235-60/reviews/integration/result.json",
+      "docs/research/c06-99235-60/reviews/integration/verify_integration.py",
+      "docs/research/c06-99235-60/reviews/security/README.md",
+      "docs/research/c06-99235-60/reviews/security/builder-transport-tests.txt",
+      "docs/research/c06-99235-60/reviews/security/builder-verify-current.json",
+      "docs/research/c06-99235-60/reviews/security/security-results.json",
+      "docs/research/c06-99235-60/reviews/security/security_checks.py",
+      "docs/research/c06-99235-60/reviews/source/README.md",
+      "docs/research/c06-99235-60/reviews/source/independent_check.py",
+      "docs/research/c06-99235-60/reviews/source/result.json",
+      "docs/research/c06-99235-60/reviews/source/runtime-result.json",
+      "docs/research/c06-99235-60/reviews/spec/README.md",
+      "docs/research/c06-99235-60/reviews/spec/results.json",
+      "docs/research/c06-99235-60/reviews/spec/verify_spec.py",
+      "docs/research/c06-99235-60/reviews/standards/README.md",
+      "docs/research/c06-99235-60/reviews/standards/candidate-checks.json",
+      "docs/research/c06-99235-60/reviews/standards/check_candidate.py"
+    ],
+    "modified_count": 6,
+    "added_count": 21,
+    "representation": "Working-file snapshot before staging/commit. The 15 review files already existed untracked at integration start; six further review integration files were added."
+  },
+  "execution_notes": [
+    "An initial integration-runner pipe decode used the Windows default encoding; final recorded commands explicitly set PYTHONIOENCODING=utf-8. Only generated verification/result JSON uses UTF-8/LF; raw captured process-output hashes are separate. No source original or historical reviewer output was normalized.",
+    "Git blob checking tries exact file bytes before Git clean-filter fallback, preserving older CSV blobs that already contain CRLF."
+  ]
+}

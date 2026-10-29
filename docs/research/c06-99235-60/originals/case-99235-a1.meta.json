@@ -1,0 +1,23 @@
+{
+  "id": "case-99235-a1",
+  "requested_url": "https://data.stortinget.no/eksport/sak?sakid=99235",
+  "started_utc": "2026-10-29T16:23:37.455698+00:00",
+  "request_headers": {
+    "User-Agent": "budsjetthistorikk-research/60",
+    "Accept-Encoding": "identity"
+  },
+  "representation": "HTTP response entity bytes as read by urllib; transfer framing/TLS excluded; Accept-Encoding identity; no decompression or text/line-ending normalization. Each HTTP hop has its own capture. Local gzip is an archive, not HTTP Content-Encoding.",
+  "state": "transport_failed",
+  "hops": [
+    {
+      "url": "https://data.stortinget.no/eksport/sak?sakid=99235",
+      "started_utc": "2026-10-29T16:23:37.456699+00:00",
+      "state": "transport_failed",
+      "body_complete": false,
+      "error": "URLError(gaierror(11001, 'getaddrinfo failed'))",
+      "completed_utc": "2026-10-29T16:23:37.483861+00:00"
+    }
+  ],
+  "error": "URLError(gaierror(11001, 'getaddrinfo failed'))",
+  "completed_utc": "2026-10-29T16:23:37.484676+00:00"
+}

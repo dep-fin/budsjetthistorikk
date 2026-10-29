@@ -1,0 +1,85 @@
+{
+  "schema": "c06-original-review-evidence-1",
+  "research_candidate": "9eb27cebf7ca4a99aeb30fa32245e41314e0d295",
+  "research_candidate_tree": "60dfabaec4e7c022e30c6a6389a622790fad11f5",
+  "base": "49cc6e44851cf74e0aaea4eb333419e5598bfd95",
+  "files": [
+    {
+      "path": "security/builder-transport-tests.txt",
+      "bytes": 1209,
+      "sha256": "8e93b64599b77e6de852e4a2be2f6f23d21584221f01cd68ceba692097fe16b7"
+    },
+    {
+      "path": "security/builder-verify-current.json",
+      "bytes": 2812,
+      "sha256": "8649bb23d217c46de5ee8a10ce8110a016c05c23c9a347f6af6fa81fec06f699"
+    },
+    {
+      "path": "security/README.md",
+      "bytes": 10195,
+      "sha256": "f98df9ab00f3f5a06ac692d314dcff365f7209082e8305eeea21680ddce1fe18"
+    },
+    {
+      "path": "security/security-results.json",
+      "bytes": 6279,
+      "sha256": "2aec63227b4a3613d38ff45549d1fea619cac39acb59e7c844ec72778262aae6"
+    },
+    {
+      "path": "security/security_checks.py",
+      "bytes": 27175,
+      "sha256": "74e74633d97bd5eed8c62457ef405a5fb73d71a8d00db928bee3a4029ee87a9a"
+    },
+    {
+      "path": "source/independent_check.py",
+      "bytes": 17987,
+      "sha256": "9aff7bc0cf0108aeaf6c7b4c695785f6ca992bfb5e3c560ef69682563f23c28d"
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 11745,
+      "sha256": "92b20abf90241669b91edce53def70bfd82e44385094eccafa60e494f7eafadd"
+    },
+    {
+      "path": "source/result.json",
+      "bytes": 309679,
+      "sha256": "dff7d0b1a6d95796029920d026d0bebc71c8ea68c0173a8b9971deba97c21c71"
+    },
+    {
+      "path": "source/runtime-result.json",
+      "bytes": 1978,
+      "sha256": "ce0cae617de76e0adcb9b86ef5b3021427be0be7d5ecdf1a2ca054ded9318cf6"
+    },
+    {
+      "path": "spec/README.md",
+      "bytes": 2621,
+      "sha256": "5c1b9b623cd4c376d7456f486a54c9edc764fcbbe4be9facfcf3c6af2dcd86e7"
+    },
+    {
+      "path": "spec/results.json",
+      "bytes": 70641,
+      "sha256": "be044c970cfceca9415b22a5f24ed4dd362931abd171c61b7fa5be6ca7e38ff5"
+    },
+    {
+      "path": "spec/verify_spec.py",
+      "bytes": 8381,
+      "sha256": "46242a8e4cab7285f9bab08181025c67c41da3fb0e0e6308b1b199201e2d4c30"
+    },
+    {
+      "path": "standards/candidate-checks.json",
+      "bytes": 5575,
+      "sha256": "95ddc6d2f13c5b8a3d77781e974ff2fa2f20c488e98dd66b9f20f1d19086be25"
+    },
+    {
+      "path": "standards/check_candidate.py",
+      "bytes": 2967,
+      "sha256": "3be9e5b97ee774b635dc563150deaf79c2a51bd59b4544cd8632086ba0649950",
+      "original_copy": "integration/check_candidate.py.original"
+    },
+    {
+      "path": "standards/README.md",
+      "bytes": 2417,
+      "sha256": "c8801b85a93e74fe3181289d6869fcaaef684035051d342cdf69a23bca6703b2"
+    }
+  ],
+  "boundary": "Original four independent review evidence files before integration. Reports/results remain unchanged. Only the Standards helper may receive whitespace/literal-line formatting with identical AST and bounded control result; its original bytes are separately retained."
+}

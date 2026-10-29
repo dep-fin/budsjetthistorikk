@@ -1,0 +1,1155 @@
+{
+  "schema": "c06-evidence-1",
+  "evidence": [
+    {
+      "id": "IDX114",
+      "source_key": "K3-index",
+      "path": "docs/research/k3-arsinventar-50/originals/saker-2023-2024.xml.gz",
+      "source_sha256": "da94a88bb3be19f41e0980ee41852c81369084cec151e3434822a40e721e1e78",
+      "xpath": "/*/*[3]/*[114]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": null,
+      "text": "2026-10-28T12:31:26.4075136+01:00 1.6 2023-2024 proposisjon 2026-10-28T12:31:26.4075136+01:00 1.6 false 155 44 Statens personalpolitikk 2026-10-28T12:31:26.4075136+01:00 1.6 false 5 95 Lønn og inntekt Prop. 108 S (2023-2024), Innst. 442 S (2023-2024) 99235 16526 innstilling_s 2026-10-28T12:00:50.78569+01:00 1.6 KOMMFORV Kommunal- og forvaltningskomiteen Utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m. 99235 2026-10-28T12:31:26.4075136+01:00 1.6 Vågslid 1986-03-17T00:00:00 Lene LVA kvinne 2026-10-28T03:09:41.4687648+01:00 1.6 false Te Telemark 2026-10-28T01:00:19.4062868+01:00 1.6 A Arbeiderpartiet true false 2024-06-13T00:00:00 behandlet Utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m. alminneligsak",
+      "role": "index_identity_not_post_link",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "CASE",
+      "source_key": "case-99235-a2",
+      "path": "docs/research/c06-99235-60/originals/case-99235-a2.hop0.gz",
+      "source_sha256": "fc125f3fb6d4f77464f99033f5c2afe04e6345272baa0445fa61ddef3036749c",
+      "xpath": "/*",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": null,
+      "text": "2026-10-29T17:23:45.3182408+01:00 1.6 proposisjon 2026-10-29T16:45:12.9289426+01:00 1.6 false 155 44 Statens personalpolitikk 2026-10-29T16:45:12.9289426+01:00 1.6 false 5 95 Lønn og inntekt true Prop. 108 S (2023-2024), Innst. 442 S (2023-2024) 99235 Innstilling fra kommunal- og forvaltningskomiteen om Utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m. 2026-10-29T16:01:28.1370942+01:00 1.6 KOMMFORV Kommunal- og forvaltningskomiteen Utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m. Stortinget har handsama ein proposisjon om utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024. Stortinget samtykker i at: -Kongen på vegner av staten kan bringe tvistar i samband med hovudtariffoppgjeret i staten 2024 inn for Rikslønsnemnda i samsvar med tjenestetvistloven § 31 andre ledd. -medlemane av Akademikerne og Unio får utbetalt løn i samsvar med avgjerda til Rikslønsnemnda. -etter at det endelege resultatet av lønsoppgjeret i det statlege tariffområdet ligg føre, får medlemar av LO Stat og YS Stat utbetalt løn i samsvar med møteboka til Riksmeklaren datert 24. mai 2024, jf. vedlegg 1 og 2 i Prop. 108 S (2023–2024), gitt at LO Stat og/eller YS Stat har fått ja i avrøystinga hos sine medlemar. -dersom det blir nei i avrøystinga hos medlemar av LO Stat og/eller YS Stat, og tvisten blir avgjort i Rikslønsnemnda, får medlemane av LO Stat og/eller YS Stat utbetalt løn i samsvar med avgjerda til Rikslønsnemnda. 2026-10-29T17:23:45.5056511+01:00 1.6 Prop. 108 S (2023-2024) http://www.regjeringen.no/id/PRP202320240108000DDDEPIS regjering proposisjon 2026-10-29T17:23:45.5056511+01:00 1.6 refs-202324-06-07 Stortingsreferat 07.06.2024 //www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-07/referatsaker/ referat storting 2026-10-29T17:23:45.5056511+01:00 1.6 inns-202324-442s Innst. 442 S (2023-2024) //www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2023-2024/inns-202324-442s/ innstilling storting 2026-10-29T17:23:46.1463229+01:00 1.6 refs-202324-06-20 Stortingsreferat 20.06.2024 //www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-20/15 referat storting 2026-10-29T17:23:46.1463229+01:00 1.6 refs-202324-06-21 Stortingsreferat 21.06.2024 //www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2023-2024/refs-202324-06-21/voteringer#200624-15 referat storting 108 2026-10-29T17:23:45.3182408+01:00 1.6 2023-2024 2026-10-29T17:23:45.5056511+01:00 1.6 KPRPFORS KForslag fra Regjeringen 2026-10-29T17:23:45.5056511+01:00 1.6 SAK Forslag 2026-10-29T17:23:45.5056511+01:00 1.6 01.01.0001 00:00:00 FRADEP 10000 1 2026-10-29T17:23:45.5056511+01:00 1.6 01.01.0001 00:00:00 SAK 20000 1 2026-10-29T17:23:45.5056511+01:00 1.6 07.06.2024 00:00:00 FREMMET 30000 1 2026-10-29T17:23:45.5056511+01:00 1.6 07.06.2024 00:00:00 REFS http://www.stortinget.no/stid/2023/si240607.html 40010 1 1 false 2026-10-29T17:23:45.5056511+01:00 1.6 KOMBEH Komitebehandling 2026-10-29T17:23:45.5056511+01:00 1.6 07.06.2024 00:00:00 SENDT 50000 2 2026-10-29T17:23:45.5056511+01:00 1.6 01.01.0001 00:00:00 KOMITE 60000 2 2026-10-29T17:23:45.5056511+01:00 1.6 01.01.0001 00:00:00 ORDFORER 90000 2 2026-10-29T17:23:45.5056511+01:00 1.6 13.06.2024 00:00:00 AVGITT http://www.stortinget.no/inns/2023/inns-202324-442.html 110000 2 2 false 2026-10-29T17:23:45.5056511+01:00 1.6 DEBATT Debatt og vedtak 2026-10-29T17:23:45.5056511+01:00 1.6 20.06.2024 00:00:00 BEHS http://www.stortinget.no/stid/2023/si240620-15.html 130000 3 2026-10-29T17:23:45.5056511+01:00 1.6 21.06.2024 00:00:00 VOT 135500 3 2026-10-29T17:23:45.5056511+01:00 1.6 01.01.0001 00:00:00 VEDTAK 135600 3 3 false 2026-10-29T16:45:12.9289426+01:00 1.6 Vågslid 1986-03-17T00:00:00 Lene LVA kvinne 2026-10-29T05:45:19.6296141+01:00 1.6 false Te Telemark 2026-10-29T01:00:20.1603349+01:00 1.6 A Arbeiderpartiet true false behandlet Utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m. alminneligsak Vedtak i samsvar med innstillingen",
+      "role": "complete_case_metadata",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "CASE-chronology",
+      "source_key": "case-99235-a2",
+      "path": "docs/research/c06-99235-60/originals/case-99235-a2.hop0.gz",
+      "source_sha256": "fc125f3fb6d4f77464f99033f5c2afe04e6345272baa0445fa61ddef3036749c",
+      "xpath": "/*/*[18]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": null,
+      "text": "2026-10-29T17:23:45.5056511+01:00 1.6 KPRPFORS KForslag fra Regjeringen 2026-10-29T17:23:45.5056511+01:00 1.6 SAK Forslag 2026-10-29T17:23:45.5056511+01:00 1.6 01.01.0001 00:00:00 FRADEP 10000 1 2026-10-29T17:23:45.5056511+01:00 1.6 01.01.0001 00:00:00 SAK 20000 1 2026-10-29T17:23:45.5056511+01:00 1.6 07.06.2024 00:00:00 FREMMET 30000 1 2026-10-29T17:23:45.5056511+01:00 1.6 07.06.2024 00:00:00 REFS http://www.stortinget.no/stid/2023/si240607.html 40010 1 1 false 2026-10-29T17:23:45.5056511+01:00 1.6 KOMBEH Komitebehandling 2026-10-29T17:23:45.5056511+01:00 1.6 07.06.2024 00:00:00 SENDT 50000 2 2026-10-29T17:23:45.5056511+01:00 1.6 01.01.0001 00:00:00 KOMITE 60000 2 2026-10-29T17:23:45.5056511+01:00 1.6 01.01.0001 00:00:00 ORDFORER 90000 2 2026-10-29T17:23:45.5056511+01:00 1.6 13.06.2024 00:00:00 AVGITT http://www.stortinget.no/inns/2023/inns-202324-442.html 110000 2 2 false 2026-10-29T17:23:45.5056511+01:00 1.6 DEBATT Debatt og vedtak 2026-10-29T17:23:45.5056511+01:00 1.6 20.06.2024 00:00:00 BEHS http://www.stortinget.no/stid/2023/si240620-15.html 130000 3 2026-10-29T17:23:45.5056511+01:00 1.6 21.06.2024 00:00:00 VOT 135500 3 2026-10-29T17:23:45.5056511+01:00 1.6 01.01.0001 00:00:00 VEDTAK 135600 3 3 false",
+      "role": "debate20_vote21",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "VOTE-API",
+      "source_key": "votes-99235-a1",
+      "path": "docs/research/c06-99235-60/originals/votes-99235-a1.hop0.gz",
+      "source_sha256": "e6ccb25afc31bd9c04dfb334dbf4cbeb2e22da070d92c7737c836df60fb41865",
+      "xpath": "/*/*[4]/*",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": null,
+      "text": "2026-10-29T17:24:07.8811205+01:00 1.6 -1 -1 -1 -1 1 15 false 100 false 2026-10-29T17:24:07.8811205+01:00 1.6 Gharahkhani 1982-09-22T00:00:00 Masud MASG mann 2026-10-29T05:45:19.6296141+01:00 1.6 false Bu Buskerud 2026-10-29T01:00:20.1603349+01:00 1.6 A Arbeiderpartiet true false 99235 true 23490 enstemmig_vedtatt Enstemmig vedtatt Romertallene I, II, III og IV. 2024-06-21T14:11:27.147",
+      "role": "23490_21_june_unanimous_sentinels",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "VOTE-time",
+      "source_key": "votes-99235-a1",
+      "path": "docs/research/c06-99235-60/originals/votes-99235-a1.hop0.gz",
+      "source_sha256": "e6ccb25afc31bd9c04dfb334dbf4cbeb2e22da070d92c7737c836df60fb41865",
+      "xpath": "/*/*[4]/*/*[20]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": null,
+      "text": "2024-06-21T14:11:27.147",
+      "role": "source_local_timestamp_no_timezone_added",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "VOTE-decision-map",
+      "source_key": "decisions-23490-a1",
+      "path": "docs/research/c06-99235-60/originals/decisions-23490-a1.hop0.gz",
+      "source_sha256": "24e750ce5b55da069e02d2be7757b522fa0c8111dcc7b2f38a16d28201e0658e",
+      "xpath": "/*/*[4]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": null,
+      "text": "2026-10-29T17:25:28.4139626+01:00 1.6 Andre vedtak 853 (Komiteens tilråding I. ) 2026-10-29T17:25:28.4139626+01:00 1.6 Andre vedtak 854 (Komiteens tilråding II. ) 2026-10-29T17:25:28.4139626+01:00 1.6 Andre vedtak 855 (Komiteens tilråding III. ) 2026-10-29T17:25:28.4139626+01:00 1.6 Andre vedtak 856 (Komiteens tilråding IV. )",
+      "role": "I_to_IV_to_853_856",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "P108-ch1",
+      "source_key": "prop108-ch1-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-ch1-a1.hop0.gz",
+      "source_sha256": "e99b9f38f7994e90c5c695c7ff11064eb0a5d235ddb7e4afa8b495cc7d732f23",
+      "xpath": "/html/body/main/div/div[3]/div[3]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "1 Innleiing Digitaliserings- og forvaltningsdepartementet legg med dette fram tilråding om utbetaling av nye løningar til arbeidstakarar i det statlege tariffområdet våren 2024.",
+      "role": "government_original_complete_chapter",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "P108-ch2",
+      "source_key": "prop108-ch2-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-ch2-a1.hop0.gz",
+      "source_sha256": "3ae9eb6c5b154840e0d30cf8d4a015b31e7277d6d6e22aa647f2954a192426d9",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "2 Lønsforhandlingane i det statlege tariffområdet våren 2024 Forhandlingane mellom staten ved Digitaliserings- og forvaltningsdepartementet og hovudsamanslutningane Akademikerne, LO Stat, Unio og YS Stat om nye hovudtariffavtalar i staten for perioden 1. mai 2024 til 30. april 2026, blei innleia 22. april 2024. Forhandlingane heldt fram til 30. april. Akademikerne, kravde forhandlingane avslutta kl. 12.05, Unio kravde forhandlingane avslutta kl. 12.10, LO Stat kravde forhandlingane avslutta kl. 12.20 og YS Stat kravde forhandlingane avslutta kl. 12.24. Riksmeklaren blei varsla om brotet med alle hovudsamanslutningane, i samsvar med lov av 18. juli 1958 om offentlige tjenestetvister (tjenestetvistloven) § 14. Meklinga mellom staten på den eine sida og Akademikerne, LO Stat, Unio og YS Stat på den andre, blei opna i møte hos Riksmeklaren 2. mai. Den 15. og 16. mai kravde Akademikerne, LO Stat, Unio og YS Stat meklinga avslutta i samsvar med tenestetvistlova § 17. Om morgonen den 24. mai 2024 kl. 07.15 blei meklinga avslutta mellom staten ved Digitaliserings- og forvaltningsdepartementet og Akademikerne og Unio utan at Riksmeklaren fann grunnlag for å leggje fram noko meklingsforslag. Akademikerne og Unio tok deretter medlemar ut i streik. Same dag kl. 08.20 blei staten ved Digitaliserings- og forvaltningsdepartementet og LO Stat og YS Stat einige om nye hovudtariffavtalar (1. mai 2024 – 30. april 2026) slik det går fram av møteboka til Riksmeklar av 24. mai 2024, jf. vedlegg 1 og 2. LO Stat og YS Stat orienterte også om at dei tilrådde meklingsresultatet og ville sende det ut til avrøysting. Svarfristen for avrøystinga er sett til 20. juni 2024. Akademikerne og Unio varsla opptrapping av streiken frå den 3. juni og frå den 5. juni 2024. Regjeringa vedtok den 2. juni 2024 at den skulle leggje fram forslag til lov om tvungen lønsnemnd i tvisten mellom Akademikerne og staten ved Digitaliserings- og forvaltningsdepartementet i tariffoppgjeret 2024, og at tvisten skulle avgjerast av Rikslønsnemnda. Akademikerne avslutta streiken den 2. juni 2024. Streiken mellom Unio og staten heldt fram. Den 5. juni 2024 vedtok regjeringa at den skulle leggje fram forslag til lov om tvungen lønsnemnd i tvisten mellom Unio og staten ved Digitaliserings- og forvaltningsdepartementet, og at tvisten skulle avgjerast av Rikslønsnemnda. Unio avslutta streiken den 5. juni 2024. Staten ved Digitaliserings- og forvaltningsdepartementet har fremja krav om likelydande hovudtariffavtalar i lønsoppgjeret i staten i 2024 for å sikre lik løn for likt arbeid, uavhengig av fagforeiningstilknyting. Departementet vil vente på ei avgjerd i Rikslønsnemnda før ny løn utbetalast til statlege arbeidstakarar. Dei nødvendige løyvingane som dei nye hovudtariffavtalane vil medføre, vil det bli fremja forslag om for Stortinget i haustsesjonen 2024. Dersom LO Stat og/eller YS Stat røyster nei i avrøystinga om nye hovudtariffavtalar, ber departementet om samtykke frå Stortinget til at Kongen på vegner av staten kan bringe tvistar i samband med hovudtariffoppgjeret i staten 2024 inn for Rikslønsnemnda i samsvar med tenestetvistlova § 31 andre ledd.",
+      "role": "government_original_complete_chapter",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "P108-ch3",
+      "source_key": "prop108-ch3-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-ch3-a1.hop0.gz",
+      "source_sha256": "e3ec889ce59b18d1a13075750a4a913fdefac4f152095ef2f3ead46f7b687843",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Tilråding Digitaliserings- og forvaltningsdepartementet tilrår: At Dykkar Majestet godkjenner og skriv under eit framlagt forslag til proposisjon til Stortinget om utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m. Vi HARALD, Noregs Konge, stadfester: Stortinget blir bedt om å gjere vedtak om utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m. i samsvar med eit vedlagt forslag.",
+      "role": "government_original_complete_chapter",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "P108-ch4",
+      "source_key": "prop108-ch4-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-ch4-a1.hop0.gz",
+      "source_sha256": "5a01b60a79be0ef249092deb5c0dcd7faf31276f07b761eef09e54f7321a3867",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "I Stortinget samtykker i at Kongen på vegner av staten kan bringe tvistar i samband med hovudtariffoppgjeret i staten 2024 inn for Rikslønsnemnda i samsvar med tenestetvistlova § 31 andre ledd. II Stortinget samtykker i at medlemane av Akademikerne og Unio får utbetalt løn i samsvar med avgjerda til Rikslønsnemnda. III Etter at det endelege resultatet av lønsoppgjeret i det statlege tariffområdet ligg føre, samtykker Stortinget til at medlemar av LO Stat og YS Stat får utbetalt løn i samsvar med møteboka til Riksmeklaren datert 24. mai 2024, jf. vedlegg 1 og 2, gitt at LO Stat og/eller YS Stat har fått ja i avrøystinga hos sine medlemar. IV Stortinget samtykker i at dersom det blir nei i avrøystinga hos medlemar av LO Stat og/eller YS Stat, og tvisten blir avgjort i Rikslønsnemnda, får medlemane av LO Stat og/eller YS Stat utbetalt løn i samsvar med avgjerda til Rikslønsnemnda.",
+      "role": "government_original_complete_chapter",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "P108-2-p1",
+      "source_key": "prop108-ch2-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-ch2-a1.hop0.gz",
+      "source_sha256": "3ae9eb6c5b154840e0d30cf8d4a015b31e7277d6d6e22aa647f2954a192426d9",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/p[1]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Forhandlingane mellom staten ved Digitaliserings- og forvaltningsdepartementet og hovudsamanslutningane Akademikerne, LO Stat, Unio og YS Stat om nye hovudtariffavtalar i staten for perioden 1. mai 2024 til 30. april 2026, blei innleia 22. april 2024. Forhandlingane heldt fram til 30. april. Akademikerne, kravde forhandlingane avslutta kl. 12.05, Unio kravde forhandlingane avslutta kl. 12.10, LO Stat kravde forhandlingane avslutta kl. 12.20 og YS Stat kravde forhandlingane avslutta kl. 12.24.",
+      "role": "government_context",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "P108-2-p2",
+      "source_key": "prop108-ch2-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-ch2-a1.hop0.gz",
+      "source_sha256": "3ae9eb6c5b154840e0d30cf8d4a015b31e7277d6d6e22aa647f2954a192426d9",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/p[2]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Riksmeklaren blei varsla om brotet med alle hovudsamanslutningane, i samsvar med lov av 18. juli 1958 om offentlige tjenestetvister (tjenestetvistloven) § 14. Meklinga mellom staten på den eine sida og Akademikerne, LO Stat, Unio og YS Stat på den andre, blei opna i møte hos Riksmeklaren 2. mai.",
+      "role": "government_context",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "P108-2-p3",
+      "source_key": "prop108-ch2-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-ch2-a1.hop0.gz",
+      "source_sha256": "3ae9eb6c5b154840e0d30cf8d4a015b31e7277d6d6e22aa647f2954a192426d9",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/p[3]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Den 15. og 16. mai kravde Akademikerne, LO Stat, Unio og YS Stat meklinga avslutta i samsvar med tenestetvistlova § 17.",
+      "role": "government_context",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "P108-2-p4",
+      "source_key": "prop108-ch2-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-ch2-a1.hop0.gz",
+      "source_sha256": "3ae9eb6c5b154840e0d30cf8d4a015b31e7277d6d6e22aa647f2954a192426d9",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/p[4]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Om morgonen den 24. mai 2024 kl. 07.15 blei meklinga avslutta mellom staten ved Digitaliserings- og forvaltningsdepartementet og Akademikerne og Unio utan at Riksmeklaren fann grunnlag for å leggje fram noko meklingsforslag. Akademikerne og Unio tok deretter medlemar ut i streik. Same dag kl. 08.20 blei staten ved Digitaliserings- og forvaltningsdepartementet og LO Stat og YS Stat einige om nye hovudtariffavtalar (1. mai 2024 – 30. april 2026) slik det går fram av møteboka til Riksmeklar av 24. mai 2024, jf. vedlegg 1 og 2. LO Stat og YS Stat orienterte også om at dei tilrådde meklingsresultatet og ville sende det ut til avrøysting. Svarfristen for avrøystinga er sett til 20. juni 2024.",
+      "role": "government_context",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "P108-2-p5",
+      "source_key": "prop108-ch2-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-ch2-a1.hop0.gz",
+      "source_sha256": "3ae9eb6c5b154840e0d30cf8d4a015b31e7277d6d6e22aa647f2954a192426d9",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/p[5]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Akademikerne og Unio varsla opptrapping av streiken frå den 3. juni og frå den 5. juni 2024. Regjeringa vedtok den 2. juni 2024 at den skulle leggje fram forslag til lov om tvungen lønsnemnd i tvisten mellom Akademikerne og staten ved Digitaliserings- og forvaltningsdepartementet i tariffoppgjeret 2024, og at tvisten skulle avgjerast av Rikslønsnemnda. Akademikerne avslutta streiken den 2. juni 2024. Streiken mellom Unio og staten heldt fram. Den 5. juni 2024 vedtok regjeringa at den skulle leggje fram forslag til lov om tvungen lønsnemnd i tvisten mellom Unio og staten ved Digitaliserings- og forvaltningsdepartementet, og at tvisten skulle avgjerast av Rikslønsnemnda. Unio avslutta streiken den 5. juni 2024.",
+      "role": "government_context",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "P108-2-p6",
+      "source_key": "prop108-ch2-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-ch2-a1.hop0.gz",
+      "source_sha256": "3ae9eb6c5b154840e0d30cf8d4a015b31e7277d6d6e22aa647f2954a192426d9",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/p[6]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Staten ved Digitaliserings- og forvaltningsdepartementet har fremja krav om likelydande hovudtariffavtalar i lønsoppgjeret i staten i 2024 for å sikre lik løn for likt arbeid, uavhengig av fagforeiningstilknyting. Departementet vil vente på ei avgjerd i Rikslønsnemnda før ny løn utbetalast til statlege arbeidstakarar.",
+      "role": "government_context",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "P108-2-p7",
+      "source_key": "prop108-ch2-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-ch2-a1.hop0.gz",
+      "source_sha256": "3ae9eb6c5b154840e0d30cf8d4a015b31e7277d6d6e22aa647f2954a192426d9",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/p[7]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Dei nødvendige løyvingane som dei nye hovudtariffavtalane vil medføre, vil det bli fremja forslag om for Stortinget i haustsesjonen 2024.",
+      "role": "government_context",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "P108-2-p8",
+      "source_key": "prop108-ch2-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-ch2-a1.hop0.gz",
+      "source_sha256": "3ae9eb6c5b154840e0d30cf8d4a015b31e7277d6d6e22aa647f2954a192426d9",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/p[8]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Dersom LO Stat og/eller YS Stat røyster nei i avrøystinga om nye hovudtariffavtalar, ber departementet om samtykke frå Stortinget til at Kongen på vegner av staten kan bringe tvistar i samband med hovudtariffoppgjeret i staten 2024 inn for Rikslønsnemnda i samsvar med tenestetvistlova § 31 andre ledd.",
+      "role": "government_context",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "P108-proposal-1",
+      "source_key": "prop108-ch4-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-ch4-a1.hop0.gz",
+      "source_sha256": "5a01b60a79be0ef249092deb5c0dcd7faf31276f07b761eef09e54f7321a3867",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[1]/p",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Stortinget samtykker i at Kongen på vegner av staten kan bringe tvistar i samband med hovudtariffoppgjeret i staten 2024 inn for Rikslønsnemnda i samsvar med tenestetvistlova § 31 andre ledd.",
+      "role": "government_proposal_not_appropriation",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "P108-proposal-2",
+      "source_key": "prop108-ch4-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-ch4-a1.hop0.gz",
+      "source_sha256": "5a01b60a79be0ef249092deb5c0dcd7faf31276f07b761eef09e54f7321a3867",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[2]/p",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Stortinget samtykker i at medlemane av Akademikerne og Unio får utbetalt løn i samsvar med avgjerda til Rikslønsnemnda.",
+      "role": "government_proposal_not_appropriation",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "P108-proposal-3",
+      "source_key": "prop108-ch4-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-ch4-a1.hop0.gz",
+      "source_sha256": "5a01b60a79be0ef249092deb5c0dcd7faf31276f07b761eef09e54f7321a3867",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[3]/p",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Etter at det endelege resultatet av lønsoppgjeret i det statlege tariffområdet ligg føre, samtykker Stortinget til at medlemar av LO Stat og YS Stat får utbetalt løn i samsvar med møteboka til Riksmeklaren datert 24. mai 2024, jf. vedlegg 1 og 2, gitt at LO Stat og/eller YS Stat har fått ja i avrøystinga hos sine medlemar.",
+      "role": "government_proposal_not_appropriation",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "P108-proposal-4",
+      "source_key": "prop108-ch4-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-ch4-a1.hop0.gz",
+      "source_sha256": "5a01b60a79be0ef249092deb5c0dcd7faf31276f07b761eef09e54f7321a3867",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/div[4]/p[1]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Stortinget samtykker i at dersom det blir nei i avrøystinga hos medlemar av LO Stat og/eller YS Stat, og tvisten blir avgjort i Rikslønsnemnda, får medlemane av LO Stat og/eller YS Stat utbetalt løn i samsvar med avgjerda til Rikslønsnemnda.",
+      "role": "government_proposal_not_appropriation",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "P108-app1-HTML",
+      "source_key": "prop108-ch5-appendix1-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-ch5-appendix1-a1.hop0.gz",
+      "source_sha256": "da0c8ae83c7f5c411792fe328d8510af23e57634b889906a7a944707a91d56ee",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "1 LO Stat Figur 1.1 Figur 1.2 Figur 1.3 Figur 1.4 Figur 1.5 Figur 1.6 Figur 1.7 Figur 1.8 Figur 1.9 Figur 1.10 Figur 1.11 Figur 1.12 Figur 1.13 Figur 1.14 Figur 1.15 Figur 1.16 Figur 1.17 Figur 1.18 Figur 1.19 Figur 1.20 Figur 1.21 Figur 1.22 Figur 1.23 Figur 1.24 Figur 1.25 Figur 1.26 Figur 1.27 Figur 1.28 Figur 1.29 Figur 1.30 Figur 1.31 Figur 1.32 Figur 1.33 Figur 1.34 Figur 1.35 Figur 1.36 Figur 1.37 Figur 1.38 Figur 1.39 Figur 1.40 Figur 1.41 Figur 1.42 Figur 1.43 Figur 1.44 Figur 1.45 Figur 1.46 Figur 1.47 Figur 1.48 Figur 1.49 Figur 1.50 Figur 1.51 Figur 1.52 Figur 1.53 Figur 1.54 Figur 1.55 Figur 1.56 Figur 1.57 Figur 1.58 Figur 1.59 Figur 1.60 Figur 1.61 Figur 1.62 Figur 1.63 Figur 1.64 Figur 1.65",
+      "role": "appendix_image_catalogue_not_image_text",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "P108-app2-HTML",
+      "source_key": "prop108-ch6-appendix2-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-ch6-appendix2-a1.hop0.gz",
+      "source_sha256": "8714e14ae83b754edb2d160094f6933a9f8c25494a033565f7f5bb6a473190cc",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "2 YS Stat Figur 2.1 Figur 2.2 Figur 2.3 Figur 2.4 Figur 2.5 Figur 2.6 Figur 2.7 Figur 2.8 Figur 2.9 Figur 2.10 Figur 2.11 Figur 2.12 Figur 2.13 Figur 2.14 Figur 2.15 Figur 2.16 Figur 2.17 Figur 2.18 Figur 2.19 Figur 2.20 Figur 2.21 Figur 2.22 Figur 2.23 Figur 2.24 Figur 2.25 Figur 2.26 Figur 2.27 Figur 2.28 Figur 2.29 Figur 2.30 Figur 2.31 Figur 2.32 Figur 2.33 Figur 2.34 Figur 2.35 Figur 2.36 Figur 2.37 Figur 2.38 Figur 2.39 Figur 2.40 Figur 2.41 Figur 2.42 Figur 2.43 Figur 2.44 Figur 2.45 Figur 2.46 Figur 2.47 Figur 2.48 Figur 2.49 Figur 2.50 Figur 2.51 Figur 2.52 Figur 2.53 Figur 2.54 Figur 2.55 Figur 2.56 Figur 2.57 Figur 2.58 Figur 2.59 Figur 2.60 Figur 2.61 Figur 2.62 Figur 2.63 Figur 2.64 Figur 2.65",
+      "role": "appendix_image_catalogue_not_image_text",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "I442-m1",
+      "source_key": "inns442-all-a1",
+      "path": "docs/research/c06-99235-60/originals/inns442-all-a1.hop0.gz",
+      "source_sha256": "b65fc116bfac76ce873f11349bbf6b513f6152d85515d171c9076f8e44a57400",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[1]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Innledning Digitaliserings- og forvaltningsdepartementet legg i proposisjonen fram tilråding om utbetaling av nye løningar til arbeidstakarar i det statlege tariffområdet våren 2024. I proposisjonen blir det gjort greie for forhandlingane mellom staten ved Digitaliserings- og forvaltningsdepartementet og hovudsamanslutningane Akademikerne, LO Stat, Unio og YS Stat om nye hovudtariffavtalar i staten for perioden 1. mai 2024 til 30. april 2026. Det blir vidare gjort greie for brotet i forhandlingane og meklinga til Riksmeklaren. Vidare blir det gjort greie for at Akademikerne og Unio tok ut medlemar i streik. I proposisjonen blir det også gjort greie for semja mellom staten ved Digitaliserings- og forvaltningsdepartementet og LO Stat og YS Stat slik det går fram av møteboka til Riksmeklar av 24. mai 2024, jf. vedlegg 1 og 2 i proposisjonen, og om tilråding av resultatet og om avrøysting. Vidare blir det i proposisjonen vist til at regjeringa vedtok at ho skulle leggje fram forslag til lov om tvungen lønsnemnd i tvistane mellom Akademikerne og Unio og staten ved Digitaliserings- og forvaltningsdepartementet, og at tvistane skulle avgjerast av Rikslønsnemnda. Det går fram av proposisjonen at staten ved Digitaliserings- og forvaltningsdepartementet har fremja krav om likelydande hovudtariffavtalar i lønsoppgjeret i staten i 2024 for å sikre lik løn for likt arbeid, uavhengig av fagforeiningstilknyting. Departementet vil vente på ei avgjerd i Rikslønsnemnda før ny løn blir utbetalt til statlege arbeidstakarar. Det blir i proposisjonen vist til at dei nødvendige løyvingane som dei nye hovudtariffavtalane vil medføre, vil det bli fremja forslag om for Stortinget i haustsesjonen 2024. Dersom LO Stat og/eller YS Stat røystar nei i avrøystinga om nye hovudtariffavtalar, ber departementet om samtykke frå Stortinget til at Kongen på vegner av staten kan bringe tvistar i samband med hovudtariffoppgjeret i staten 2024 inn for Rikslønsnemnda i samsvar med tjenestetvistloven § 31 andre ledd. Det blir vist til proposisjonen for nærare omtale.",
+      "role": "committee_summary_comments_recommendation",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "I442-m2",
+      "source_key": "inns442-all-a1",
+      "path": "docs/research/c06-99235-60/originals/inns442-all-a1.hop0.gz",
+      "source_sha256": "b65fc116bfac76ce873f11349bbf6b513f6152d85515d171c9076f8e44a57400",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[2]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Komiteens merknader Komiteen, medlemmene fra Arbeiderpartiet, Lise Christoffersen, Siri Gåsemyr Staalesen, Terje Sørvik og lederen Lene Vågslid, fra Høyre, Mudassar Kapur, Anne Kristine Linnestad og Mari Holm Lønseth, fra Senterpartiet, Heidi Greni og Kathrine Kleveland, fra Fremskrittspartiet, Per-Willy Amundsen og Erlend Wiborg, fra Sosialistisk Venstreparti, Kim Thoresen, og fra Rødt, Tobias Drevland Lund , viser til Prop. 108 S (2023–2024) Utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m. Komiteen viser til at forhandlingene mellom staten ved Digitaliserings- og forvaltningsdepartementet og hovedsammenslutningene Akademikerne, LO Stat, Unio og YS Stat om nye hovedtariffavtaler i staten for perioden 1. mai 2024 til 30. april 2026 ble innledet 22. april 2024. Forhandlingene fortsatte til 30. april da samtlige hovedsammenslutninger krevde forhandlingene avsluttet. Meklingen mellom staten på den ene siden, og Akademikerne, LO Stat, Unio og YS Stat på den andre, ble åpnet i møte hos Riksmekleren 2. mai. Den 15. og 16. mai krevde Akademikerne, LO Stat, Unio og YS Stat meklingen avsluttet i samsvar med tjenestetvistloven § 17. Komiteen viser til at meklingen mellom staten ved Digitaliserings- og forvaltningsdepartementet og Akademikerne og Unio ble avsluttet 24. mai uten at Riksmekleren fant grunnlag for å legge frem et meklingsforslag. Akademikerne og Unio tok deretter medlemmer ut i streik. Komiteen viser til at staten ved Digitaliserings- og forvaltningsdepartementet og LO Stat og YS Stat samme dag ble enige om nye hovedtariffavtaler for perioden 1. mai 2024 til 30. april 2026. LO Stat og YS Stat orienterte samtidig om at de tilrådde meklingsresultatet og ville sende det ut til avstemming. Svarfristen for avstemmingen er satt til 20. juni 2024. Komiteen viser til at Akademikerne og Unio varslet opptrapping av streiken fra 3. juni og fra 4. juni 2024. Regjeringen vedtok 2. juni 2024 at den skulle legge frem forslag til lov om tvungen lønnsnemnd i tvisten mellom Akademikerne og staten ved Digitaliserings- og forvaltningsdepartementet i tariffoppgjøret 2024 og at tvisten skulle avgjøres i Rikslønnsnemnda. Streiken ble avsluttet samme dag. Komiteen merker seg at Digitaliserings- og forvaltningsdepartementet vil vente på en avgjørelse i Rikslønnsnemnda før ny lønn utbetales til statlige arbeidstakere. De nødvendige bevilgningene som de nye hovedtariffavtalene vil medføre, vil derfor bli fremmet for Stortinget i høstsesjonen 2024. Komiteen viser til at regjeringen 5. juni 2024 vedtok at den skulle legge frem forslag til tvungen lønnsnemnd i tvisten mellom Unio og staten ved Digitaliserings- og forvaltningsdepartementet og at tvisten skulle avgjøres av Rikslønnsnemnda. Unio avsluttet streiken samme dag. Komiteen viser til at departementet ber om samtykke fra Stortinget til at Kongen på vegne av staten kan bringe tvister i forbindelse med hovedtariffoppgjøret i staten 2024 inn for Rikslønnsnemnda, dersom LO Stat eller YS Stat stemmer nei i avstemmingen om nye hovedtariffavtaler, jf. tjenestetvistloven § 31 annet ledd. Komiteen vil uttrykke tillit til lønnsnemndsystemet som en viktig del av den norske lønnsdannelsen og at eventuelle endringer i sammensetning eller oppgaver må gjøres uavhengig av konkrete konflikter og i samråd med alle arbeidslivets parter. Komiteens medlemmer fra Høyre viser til at konflikten mellom staten som arbeidsgiver og arbeidstakerorganisasjonene Unio og Akademikerne baserer seg på en uenighet om de nevnte arbeidstakerorganisasjonene skal få beholde sin egen tariffavtale. Videre vil disse medlemmer vise til at Akademikerne fikk gjennomslag for å ha sin egen tariffavtale i 2016 og at Unio senere sluttet seg til denne tariffavtalen. Disse medlemmer mener det er svært viktig at man rekrutterer og beholder høyt kvalifisert arbeidskraft i offentlig sektor og at muligheten til lokale oppgjør derfor har vært et viktig verktøy for å bidra til dette. Derfor mener disse medlemmer det har fungert godt med to tariffavtaler i staten. Etter disse medlemmers mening er et viktig bidrag til denne konflikten at Arbeiderpartiet, Senterpartiet, Sosialistisk Venstreparti, Rødt og Miljøpartiet De Grønne i 2022, jf. Innst. 466 S (2021–2022) og Prop. 128 S (2021–2022), vedtok å starte et arbeid for å oppnå likelydende hovedtariffavtaler til hovedoppgjøret i 2024. Etter disse medlemmers mening var dette en politisering av trepartssamarbeidet som har bidratt til å øke konfliktnivået i lønnsoppgjøret. Disse medlemmer viser til at regjeringen har grepet inn med tvungen lønnsnemnd i denne konflikten. Disse medlemmer har i den sammenheng merket seg at Unio uttrykker mistillit til Rikslønnsnemnda og ber Stortinget nedsette en ny nemnd i behandlingen av deres konflikt med staten. Komiteens flertall, medlemmene fra Arbeiderpartiet, Senterpartiet, Sosialistisk Venstreparti og Rødt , viser til at det ikke er riktig slik Høyre hevder, at Stortinget i 2022 vedtok at staten og arbeidstakerorganisasjonene skulle gå over til en felles tariffavtale innen lønnsoppgjøret i 2024, men at det skulle gjøres et forberedende arbeid med mål om å oppnå likelydende avtaler. Flertallet viser til anmodningsvedtak fattet av Stortinget i forbindelse med behandlingen av Prop. 128 S (2021–2022), jf. romertallsvedtak VII og VIII i Innst. 466 S (2021–2022): «Stortinget ber regjeringen sette ned et lønnsutvalg som ser på lønnssystemet i staten og legger fram sine anbefalinger i god tid før hovedforhandlingene i 2024 begynner.» og «Stortinget ber regjeringen starte et arbeid for å oppnå likelydende hovedtariffavtaler til hovedoppgjøret i 2024.» Komiteens medlemmer fra Arbeiderpartiet og Senterpartiet viser videre til Innst. 494 S (2022–2023) hvor Arbeiderpartiet og Senterpartiet har følgende merknad som presiserer at det er partene som eier hovedtariffavtalen og som må komme frem til løsningene: «Videre viser komiteens flertall til at man allerede i fjor gjorde tiltak i hovedtariffavtalene som gjør avtalene mer like. Komiteens flertall vil oppfordre partene til å videreføre denne samordningen, slik at man på sikt kan få én hovedtariffavtale igjen i staten. Det er partene som eier hovedtariffavtalene, og det er de som må finne frem til de gode løsningene.» Komiteens flertall, medlemmene fra Arbeiderpartiet, Senterpartiet og Rødt , mener dagens situasjon med to avtaler i staten innebærer større lønnsforskjeller i samfunnet og utfordrer prinsippet om lik lønn for likt arbeid. Flertallet står derfor fast ved et langsiktig mål om én felles avtale. Komiteens medlemmer fra Fremskrittspartiet viser til at konflikten mellom staten som arbeidsgiver og arbeidstakerorganisasjonene Unio og Akademikerne skyldes regjeringens og LO sitt ønske om å frata Unio og Akademikerne deres mulighet til å ha egen tariffavtale. Konflikten er etter disse medlemmers meninger politisk skapt, noe som er meget uheldig. Disse medlemmer deler også Unio sin bekymring knyttet til sammensetningen av Rikslønnsnemnda, all den tid en av deres motparter i denne konflikten, LO, har en fast representant i nemnda.",
+      "role": "committee_summary_comments_recommendation",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "I442-m3",
+      "source_key": "inns442-all-a1",
+      "path": "docs/research/c06-99235-60/originals/inns442-all-a1.hop0.gz",
+      "source_sha256": "b65fc116bfac76ce873f11349bbf6b513f6152d85515d171c9076f8e44a57400",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[3]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Komiteens tilråding Komiteens tilråding fremmes av en samlet komité. Komiteen har for øvrig ingen merknader, viser til proposisjonen og rår Stortinget til å gjøre følgende vedtak: I Stortinget samtykker i at Kongen på vegner av staten kan bringe tvistar i samband med hovudtariffoppgjeret i staten 2024 inn for Rikslønsnemnda i samsvar med tjenestetvistloven § 31 andre ledd. II Stortinget samtykker i at medlemane av Akademikerne og Unio får utbetalt løn i samsvar med avgjerda til Rikslønsnemnda. III Etter at det endelege resultatet av lønsoppgjeret i det statlege tariffområdet ligg føre, samtykker Stortinget til at medlemar av LO Stat og YS Stat får utbetalt løn i samsvar med møteboka til Riksmeklaren datert 24. mai 2024, jf. vedlegg 1 og 2 i Prop. 108 S (2023–2024), gitt at LO Stat og/eller YS Stat har fått ja i avrøystinga hos sine medlemar. IV Stortinget samtykker i at dersom det blir nei i avrøystinga hos medlemar av LO Stat og/eller YS Stat, og tvisten blir avgjort i Rikslønsnemnda, får medlemane av LO Stat og/eller YS Stat utbetalt løn i samsvar med avgjerda til Rikslønsnemnda.",
+      "role": "committee_summary_comments_recommendation",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "DEBATE20",
+      "source_key": "debate-200624-sak15-a1",
+      "path": "docs/research/c06-99235-60/originals/debate-200624-sak15-a1.hop2.gz",
+      "source_sha256": "eb11d60f28586fa36fd8f3efbafcbbd3eaece66fe4558b1218203b19ff70fa29",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div[1]/div[5]/div/div/div/div/div/div/div[1]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Presidenten [ 15:56:45 ]: Etter ønske fra kommunal- og forvaltningskomiteen vil presidenten ordne debatten slik: 3 minutter til hver partigruppe og 3 minutter til medlemmer av regjeringen. Videre vil det – innenfor den fordelte taletid – bli gitt anledning til inntil fem replikker med svar etter innlegg fra medlemmer av regjeringen, og de som måtte tegne seg på talerlisten utover den fordelte taletid, får også en taletid på inntil 3 minutter. Heidi Greni (Sp) [ 15:57:07 ] : Jeg er vikar for saksordføreren, og på vegne av saksordføreren og komitélederen vil jeg takke for samarbeidet i denne saken. I perioden 22. april–30. april i år forhandlet hovedsammenslutningene Akademikerne, LO Stat, Unio og YS Stat om nye hovedtariffavtaler i staten for perioden 1. mai 2024 til 30. april 2026. Forhandlingene endte med mekling, som ble avsluttet 15. og 16. mai i samsvar med tjenestetvistloven § 17. Akademikerne og Unio tok medlemmene ut i streik etter at det 24. mai ble klart at det ikke var grunnlag for å fremme et meklingsforslag. Samtidig ble staten ved Digitaliserings- og forvaltningsdepartementet enige med LO Stat og YS Stat om nye tariffavtaler. Tilrådinga fra meklingsresultatet ble sendt til avstemning. Akademikerne og Unio varslet en opptrapping av streiken fra 3. og 4. juni, og regjeringen vedtok 2. juni å fremme forslag til lov om tvungen lønnsnemnd, og at tvisten mellom Akademikerne og staten ved Digitaliserings- og forvaltningsdepartementet skal avgjøres i Rikslønnsnemnda. Streiken ble avsluttet samme dag. Regjeringen vedtok 5. juni samme vedtak for tvisten mellom Unio og staten. Komiteens tilråding i saken er fra en samlet komité, om at Stortinget samtykker i at Kongen på vegne av staten kan bringe tvister i forbindelse med hovedtariffoppgjøret i staten 2024 inn for Rikslønnsnemnda Stortinget samtykker i at medlemmene av Akademikerne og Unio får utbetalt lønn i samsvar med beslutningen til Rikslønnsnemnda Stortinget samtykker i at medlemmer av LO Stat og YS får utbetalt lønn i samsvar med møteboka til Riksmekleren, datert 24. mai 2024, gitt at de i avstemningen i disse arbeidstakerorganisasjonene får ja dersom avstemningen resulterer i nei, samtykker Stortinget i at tvister mellom staten og LO Stat eller YS Stat avgjøres i Rikslønnsnemnda, og at medlemmene får utbetalt lønn i samsvar med avgjørelsen til Rikslønnsnemnda Det har i etterkant av at innstillingen ble lagt fram, blitt kjent at flertallet av medlemmene i LO Stat stemte nei til årets resultat av lønnsoppgjøret. YS Stat har sagt ja til lønnsoppgjøret. Avslutningsvis vil jeg trekke fram at en samlet komité i innstillingen uttrykker tillit til lønnsnemndssystemet som en viktig del av den norske lønnsdannelsen, og at eventuelle endringer i sammensetning eller oppgaver må gjøres uavhengig av konkrete konflikter og i samsvar med alle arbeidslivets parter. Anne Kristine Linnestad (H) [ 16:00:15 ] : Denne proposisjonen handler om utbetaling av lønn. Selve lønnsnemndsaken ble debattert tidligere denne uken. La meg allikevel si at denne saken er knyttet til forhandlingene mellom staten ved Digitaliserings- og forvaltningsdepartementet og hovedsammenslutningene Akademikerne, LO Stat, Unio og YS Stat om nye hovedtariffavtaler i staten for perioden 1. mai 2024–30. april 2026. I 2016 fikk Akademikerne gjennomslag for sin egen tariffavtale, og i 2022, under dagens regjering, ble det opprettet en egen likelydende avtale med både Unio og Akademikerne. Høyre mener det har fungert godt med to tariffavtaler i staten. Det har vært et viktig verktøy for å rekruttere og beholde høyt kvalifisert arbeidskraft i offentlig sektor, og muligheten til lokale oppgjør har vært et viktig verktøy for å bidra til dette. Konfliktene som resulterte i streik i denne saken, baserer seg som kjent på uenighet om Unio og Akademikerne skal få beholde sin egen tariffavtale eller ikke. Høyre mener at et viktig bidrag til denne konflikten er at Arbeiderpartiet, Senterpartiet, Sosialistisk Venstreparti, Rødt og Miljøpartiet De Grønne i 2022 vedtok å starte et arbeid for å oppnå likelydende hovedtariffavtaler til hovedoppgjøret i 2024. Dette er etter vår mening en politisering av trepartssamarbeidet og har bidratt til å øke konfliktnivået i lønnsoppgjøret. Denne streiken ble, som kjent, avsluttet etter at arbeids- og inkluderingsminister Tonje Brenna grep inn med tvungen lønnsnemnd og sa at tvistene skulle avgjøres i Rikslønnsnemnda. Høyre har registrert at Unio gjennom media har ytret ønske om at Stortinget skal ta grep og sørge for en endret sammensetning av Rikslønnsnemnda når avgjørelsen om Unio og Akademikernes hovedtariffavtale skal fattes. Høyre har tillit til det norske forhandlingssystemet og prosessen Rikslønnsnemnda fører i slike saker. Rikslønnsnemnda spiller en sentral rolle i det norske tariffsystemet, og vi mener derfor det ville være svært skadelig om Stortinget skulle gjøre endringer eller utskiftinger midt i en pågående arbeidskonflikt. Skal det gjøres endringer i sammensetning eller oppgaver, må det gjøres i samråd med alle partene og utenom pågående saker i nemnda. Denne proposisjonen handler, som sagt, om utbetaling av lønn, og Høyre støtter innholdet i proposisjonen. Statsråd Karianne O. Tung [ 16:02:59 ] : Statens mål i dette lønnsoppgjøret er likelydende hovedtariffavtaler, et oppgjør innenfor en ansvarlig økonomi i tråd med frontfaget, og å sørge for kontroll med lønnsutviklingen i staten. Jeg får meldinger om at ulike avtaler fører til lønnsforskjeller som kun er avhengig av hvilken fagforening du er medlem av. En slik utvikling kan ikke jeg forsvare. Staten har derfor i dette lønnsoppgjøret lagt fram et likt tilbud til alle de fire hovedsammenslutningene. Dessverre ble vi ikke enige med Akademikerne og Unio, og vi fikk en konflikt i staten for første gang siden 2012. Denne uken kom resultatet av uravstemningen som viser at LO Stat sa nei og forkastet forhandlingsresultatet mellom staten og LO Stat. Nå har vi sammen bedt Rikslønnsnemnda om å løse tvisten. YS Stat stemte ja, og jeg er glad for at vi nå har en avtale med dem. Tilbudet som staten har lagt på bordet til alle hovedsammenslutningene i dette oppgjøret, er et godt kompromiss som vil ivareta hovedsammenslutningenes ulike interesser, de statlige virksomhetenes behov samt sikre alle ansatte en lønnsutvikling. Komiteens medlemmer fra Høyre og Fremskrittspartiet viser til at konflikten med Akademikerne og Unio skyldes at regjeringen vil frata Akademikerne og Unio muligheten til å ha sin egen tariffavtale. Det stemmer ikke. Staten inngår fire hovedtariffavtaler, én med hver av hovedsammenslutningene, og disse reforhandles annethvert år. I mediene har jeg også sett påstander om at det ikke er ført reelle forhandlinger i årets lønnsoppgjør. La meg være helt tydelig: Staten har forhandlet og har også beveget seg underveis i forhandlingene. Så er det sånn at partene har ulike posisjoner, og man blir ikke alltid enige. Jeg respekterer retten til arbeidskamp og forholder meg til at Rikslønnsnemnda nå skal løse tvistene. Resultatet som nemnda kommer fram til, må alle partene respektere. Lønnsoppgjørene i Norge er basert på frontfagmodellen. Frontfagmodellen bidrar til å sikre vår konkurranseevne og gir et godt grunnlag for å sikre høy sysselsetting og lav arbeidsledighet. Årslønnsøkningen i frontfaget er i år anslått til 5,2 pst. Statens tilbud var i tråd med dette. Inntil avgjørelsene i Rikslønnsnemnda foreligger, er lønnsoppgjøret ikke avsluttet, og iverksettelsen av lønnsoppgjøret må derfor vente. Jeg er ellers veldig glad for at komiteen støtter forslagene som regjeringen har lagt fram. Presidenten [ 16:05:37 ]: Flere har ikke bedt om ordet til sak nr. 15. Votering, se fredag 21. juni",
+      "role": "complete_case15_debate",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "DEBATE20-date",
+      "source_key": "debate-200624-sak15-a1",
+      "path": "docs/research/c06-99235-60/originals/debate-200624-sak15-a1.hop2.gz",
+      "source_sha256": "eb11d60f28586fa36fd8f3efbafcbbd3eaece66fe4558b1218203b19ff70fa29",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div[1]/div[1]/div/div/div/div[1]/div/time",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "20.06.2024",
+      "role": "meeting_date",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "DEBATE20-vote-link",
+      "source_key": "debate-200624-sak15-a1",
+      "path": "docs/research/c06-99235-60/originals/debate-200624-sak15-a1.hop2.gz",
+      "source_sha256": "eb11d60f28586fa36fd8f3efbafcbbd3eaece66fe4558b1218203b19ff70fa29",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div[1]/div[5]/div/div/div/div/div/div/div[1]/a",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Votering, se fredag 21. juni",
+      "role": "explicit_following_day_vote_reference",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "VOTE21",
+      "source_key": "vote-ref210624-a1",
+      "path": "docs/research/c06-99235-60/originals/vote-ref210624-a1.hop2.gz",
+      "source_sha256": "4e4e66f1602241026943c81a5469792fcdf1a1acf244a0518f2e58f880cc125d",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[5]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Votering i sak nr. 15, debattert 20. juni 2024 Innstilling fra kommunal- og forvaltningskomiteen om Utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m. (Innst. 442 S (2023–2024), jf. Prop. 108 S (2023–2024)) Debatt i sak nr. 15, torsdag 20. juni Komiteen hadde innstilt til Stortinget å gjøre følgende vedtak: I Stortinget samtykker i at Kongen på vegner av staten kan bringe tvistar i samband med hovudtariffoppgjeret i staten 2024 inn for Rikslønsnemnda i samsvar med tjenestetvistloven § 31 andre ledd. II Stortinget samtykker i at medlemane av Akademikerne og Unio får utbetalt løn i samsvar med avgjerda til Rikslønsnemnda. III Etter at det endelege resultatet av lønsoppgjeret i det statlege tariffområdet ligg føre, samtykker Stortinget til at medlemar av LO Stat og YS Stat får utbetalt løn i samsvar med møteboka til Riksmeklaren datert 24. mai 2024, jf. vedlegg 1 og 2 i Prop. 108 S (2023–2024), gitt at LO Stat og/eller YS Stat har fått ja i avrøystinga hos sine medlemar. IV Stortinget samtykker i at dersom det blir nei i avrøystinga hos medlemar av LO Stat og/eller YS Stat, og tvisten blir avgjort i Rikslønsnemnda, får medlemane av LO Stat og/eller YS Stat utbetalt løn i samsvar med avgjerda til Rikslønsnemnda. Votering: Komiteens innstilling ble enstemmig vedtatt. Presidenten: Stortinget voterer så over sakene på dagens kart.",
+      "role": "complete_case15_voting_block",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "VOTE21-date",
+      "source_key": "vote-ref210624-a1",
+      "path": "docs/research/c06-99235-60/originals/vote-ref210624-a1.hop2.gz",
+      "source_sha256": "4e4e66f1602241026943c81a5469792fcdf1a1acf244a0518f2e58f880cc125d",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[1]/div/div/div/div[1]/div/time",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "21.06.2024",
+      "role": "meeting_date",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "VOTE21-start",
+      "source_key": "vote-ref210624-a1",
+      "path": "docs/research/c06-99235-60/originals/vote-ref210624-a1.hop2.gz",
+      "source_sha256": "4e4e66f1602241026943c81a5469792fcdf1a1acf244a0518f2e58f880cc125d",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[2]/p/span/time",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "14:01:04",
+      "role": "meeting_start_not_case_vote_time",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "I442-i",
+      "source_key": "inns442-all-a1",
+      "path": "docs/research/c06-99235-60/originals/inns442-all-a1.hop0.gz",
+      "source_sha256": "b65fc116bfac76ce873f11349bbf6b513f6152d85515d171c9076f8e44a57400",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[3]/div[1]/div[2]/div/div[2]/p",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Stortinget samtykker i at Kongen på vegner av staten kan bringe tvistar i samband med hovudtariffoppgjeret i staten 2024 inn for Rikslønsnemnda i samsvar med tjenestetvistloven § 31 andre ledd.",
+      "role": "committee_recommendation",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "F-1",
+      "source_key": "proposals-23490-a1",
+      "path": "docs/research/c06-99235-60/originals/proposals-23490-a1.hop0.gz",
+      "source_sha256": "674ee1d86b88dec146eb04abcb6e6907559799b8a26b0ccdfe55586b3cf8595e",
+      "xpath": "/*/*[4]/*[1]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": "s:forslag_tekst",
+      "text": "Stortinget samtykker i at Kongen på vegner av staten kan bringe tvistar i samband med hovudtariffoppgjeret i staten 2024 inn for Rikslønsnemnda i samsvar med tjenestetvistloven § 31 andre ledd.",
+      "role": "proposal_40075780_40075783",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "VF-1",
+      "source_key": "proposals-23490-a1",
+      "path": "docs/research/c06-99235-60/originals/proposals-23490-a1.hop0.gz",
+      "source_sha256": "674ee1d86b88dec146eb04abcb6e6907559799b8a26b0ccdfe55586b3cf8595e",
+      "xpath": "/*/*[4]/*[1]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": null,
+      "text": "2026-10-29T17:25:27.9886147+01:00 1.6 Komiteens tilråding romertall I. Komiteens tilråding I. 40075780 0 <div class='strtngt_vedtaks'> <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='i'> <p class='strtngt_a type_innrykk'> Stortinget samtykker i at Kongen på vegner av staten kan bringe tvistar i samband med hovudtariffoppgjeret i staten 2024 inn for Rikslønsnemnda i samsvar med tjenestetvistloven § 31 andre ledd. </p> </div> </div> tilraading",
+      "role": "complete_proposal_metadata",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "V21-1",
+      "source_key": "vote-ref210624-a1",
+      "path": "docs/research/c06-99235-60/originals/vote-ref210624-a1.hop2.gz",
+      "source_sha256": "4e4e66f1602241026943c81a5469792fcdf1a1acf244a0518f2e58f880cc125d",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[5]/div[2]/div[1]/p",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Stortinget samtykker i at Kongen på vegner av staten kan bringe tvistar i samband med hovudtariffoppgjeret i staten 2024 inn for Rikslønsnemnda i samsvar med tjenestetvistloven § 31 andre ledd.",
+      "role": "voted_recommendation",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "I442-ii",
+      "source_key": "inns442-all-a1",
+      "path": "docs/research/c06-99235-60/originals/inns442-all-a1.hop0.gz",
+      "source_sha256": "b65fc116bfac76ce873f11349bbf6b513f6152d85515d171c9076f8e44a57400",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[3]/div[1]/div[2]/div/div[3]/p",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Stortinget samtykker i at medlemane av Akademikerne og Unio får utbetalt løn i samsvar med avgjerda til Rikslønsnemnda.",
+      "role": "committee_recommendation",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "F-2",
+      "source_key": "proposals-23490-a1",
+      "path": "docs/research/c06-99235-60/originals/proposals-23490-a1.hop0.gz",
+      "source_sha256": "674ee1d86b88dec146eb04abcb6e6907559799b8a26b0ccdfe55586b3cf8595e",
+      "xpath": "/*/*[4]/*[2]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": "s:forslag_tekst",
+      "text": "Stortinget samtykker i at medlemane av Akademikerne og Unio får utbetalt løn i samsvar med avgjerda til Rikslønsnemnda.",
+      "role": "proposal_40075780_40075783",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "VF-2",
+      "source_key": "proposals-23490-a1",
+      "path": "docs/research/c06-99235-60/originals/proposals-23490-a1.hop0.gz",
+      "source_sha256": "674ee1d86b88dec146eb04abcb6e6907559799b8a26b0ccdfe55586b3cf8595e",
+      "xpath": "/*/*[4]/*[2]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": null,
+      "text": "2026-10-29T17:25:27.9886147+01:00 1.6 Komiteens tilråding romertall II. Komiteens tilråding II. 40075781 0 <div class='strtngt_vedtaks'> <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='ii'> <p class='strtngt_a type_innrykk'> Stortinget samtykker i at medlemane av Akademikerne og Unio får utbetalt løn i samsvar med avgjerda til Rikslønsnemnda. </p> </div> </div> tilraading",
+      "role": "complete_proposal_metadata",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "V21-2",
+      "source_key": "vote-ref210624-a1",
+      "path": "docs/research/c06-99235-60/originals/vote-ref210624-a1.hop2.gz",
+      "source_sha256": "4e4e66f1602241026943c81a5469792fcdf1a1acf244a0518f2e58f880cc125d",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[5]/div[2]/div[2]/p",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Stortinget samtykker i at medlemane av Akademikerne og Unio får utbetalt løn i samsvar med avgjerda til Rikslønsnemnda.",
+      "role": "voted_recommendation",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "I442-iii",
+      "source_key": "inns442-all-a1",
+      "path": "docs/research/c06-99235-60/originals/inns442-all-a1.hop0.gz",
+      "source_sha256": "b65fc116bfac76ce873f11349bbf6b513f6152d85515d171c9076f8e44a57400",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[3]/div[1]/div[2]/div/div[4]/p",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Etter at det endelege resultatet av lønsoppgjeret i det statlege tariffområdet ligg føre, samtykker Stortinget til at medlemar av LO Stat og YS Stat får utbetalt løn i samsvar med møteboka til Riksmeklaren datert 24. mai 2024, jf. vedlegg 1 og 2 i Prop. 108 S (2023–2024), gitt at LO Stat og/eller YS Stat har fått ja i avrøystinga hos sine medlemar.",
+      "role": "committee_recommendation",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "F-3",
+      "source_key": "proposals-23490-a1",
+      "path": "docs/research/c06-99235-60/originals/proposals-23490-a1.hop0.gz",
+      "source_sha256": "674ee1d86b88dec146eb04abcb6e6907559799b8a26b0ccdfe55586b3cf8595e",
+      "xpath": "/*/*[4]/*[3]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": "s:forslag_tekst",
+      "text": "Etter at det endelege resultatet av lønsoppgjeret i det statlege tariffområdet ligg føre, samtykker Stortinget til at medlemar av LO Stat og YS Stat får utbetalt løn i samsvar med møteboka til Riksmeklaren datert 24. mai 2024, jf. vedlegg 1 og 2 i Prop. 108 S (2023–2024), gitt at LO Stat og/eller YS Stat har fått ja i avrøystinga hos sine medlemar.",
+      "role": "proposal_40075780_40075783",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "VF-3",
+      "source_key": "proposals-23490-a1",
+      "path": "docs/research/c06-99235-60/originals/proposals-23490-a1.hop0.gz",
+      "source_sha256": "674ee1d86b88dec146eb04abcb6e6907559799b8a26b0ccdfe55586b3cf8595e",
+      "xpath": "/*/*[4]/*[3]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": null,
+      "text": "2026-10-29T17:25:27.9886147+01:00 1.6 Komiteens tilråding romertall III. Komiteens tilråding III. 40075782 0 <div class='strtngt_vedtaks'> <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='iii'> <p class='strtngt_a type_innrykk'> Etter at det endelege resultatet av lønsoppgjeret i det statlege tariffområdet ligg føre, samtykker Stortinget til at medlemar av LO Stat og YS Stat får utbetalt løn i samsvar med møteboka til Riksmeklaren datert 24. mai 2024, jf. vedlegg 1 og 2 i Prop. 108 S (2023–2024), gitt at LO Stat og/eller YS Stat har fått ja i avrøystinga hos sine medlemar. </p> </div> </div> tilraading",
+      "role": "complete_proposal_metadata",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "V21-3",
+      "source_key": "vote-ref210624-a1",
+      "path": "docs/research/c06-99235-60/originals/vote-ref210624-a1.hop2.gz",
+      "source_sha256": "4e4e66f1602241026943c81a5469792fcdf1a1acf244a0518f2e58f880cc125d",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[5]/div[2]/div[3]/p",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Etter at det endelege resultatet av lønsoppgjeret i det statlege tariffområdet ligg føre, samtykker Stortinget til at medlemar av LO Stat og YS Stat får utbetalt løn i samsvar med møteboka til Riksmeklaren datert 24. mai 2024, jf. vedlegg 1 og 2 i Prop. 108 S (2023–2024), gitt at LO Stat og/eller YS Stat har fått ja i avrøystinga hos sine medlemar.",
+      "role": "voted_recommendation",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "I442-iv",
+      "source_key": "inns442-all-a1",
+      "path": "docs/research/c06-99235-60/originals/inns442-all-a1.hop0.gz",
+      "source_sha256": "b65fc116bfac76ce873f11349bbf6b513f6152d85515d171c9076f8e44a57400",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[3]/div[1]/div[2]/div/div[5]/p",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Stortinget samtykker i at dersom det blir nei i avrøystinga hos medlemar av LO Stat og/eller YS Stat, og tvisten blir avgjort i Rikslønsnemnda, får medlemane av LO Stat og/eller YS Stat utbetalt løn i samsvar med avgjerda til Rikslønsnemnda.",
+      "role": "committee_recommendation",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "F-4",
+      "source_key": "proposals-23490-a1",
+      "path": "docs/research/c06-99235-60/originals/proposals-23490-a1.hop0.gz",
+      "source_sha256": "674ee1d86b88dec146eb04abcb6e6907559799b8a26b0ccdfe55586b3cf8595e",
+      "xpath": "/*/*[4]/*[4]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": "s:forslag_tekst",
+      "text": "Stortinget samtykker i at dersom det blir nei i avrøystinga hos medlemar av LO Stat og/eller YS Stat, og tvisten blir avgjort i Rikslønsnemnda, får medlemane av LO Stat og/eller YS Stat utbetalt løn i samsvar med avgjerda til Rikslønsnemnda.",
+      "role": "proposal_40075780_40075783",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "VF-4",
+      "source_key": "proposals-23490-a1",
+      "path": "docs/research/c06-99235-60/originals/proposals-23490-a1.hop0.gz",
+      "source_sha256": "674ee1d86b88dec146eb04abcb6e6907559799b8a26b0ccdfe55586b3cf8595e",
+      "xpath": "/*/*[4]/*[4]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": null,
+      "text": "2026-10-29T17:25:27.9886147+01:00 1.6 Komiteens tilråding romertall IV. Komiteens tilråding IV. 40075783 0 <div class='strtngt_vedtaks'> <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='iv'> <p class='strtngt_a type_innrykk'> Stortinget samtykker i at dersom det blir nei i avrøystinga hos medlemar av LO Stat og/eller YS Stat, og tvisten blir avgjort i Rikslønsnemnda, får medlemane av LO Stat og/eller YS Stat utbetalt løn i samsvar med avgjerda til Rikslønsnemnda. </p> </div> </div> tilraading",
+      "role": "complete_proposal_metadata",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "V21-4",
+      "source_key": "vote-ref210624-a1",
+      "path": "docs/research/c06-99235-60/originals/vote-ref210624-a1.hop2.gz",
+      "source_sha256": "4e4e66f1602241026943c81a5469792fcdf1a1acf244a0518f2e58f880cc125d",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[4]/div/div/div/div/div/div/div[1]/div[5]/div[2]/div[4]/p[1]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Stortinget samtykker i at dersom det blir nei i avrøystinga hos medlemar av LO Stat og/eller YS Stat, og tvisten blir avgjort i Rikslønsnemnda, får medlemane av LO Stat og/eller YS Stat utbetalt løn i samsvar med avgjerda til Rikslønsnemnda.",
+      "role": "voted_recommendation",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "D853",
+      "source_key": "K3-decisions",
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+      "source_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "xpath": "/*/*[4]/*[641]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": null,
+      "text": "40033712 99235 //www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=99235 2024-06-21T00:00:00 //www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40033712&p=99235 853 <div class='strtngt_vedtaks'> <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='i'> <p class='strtngt_a type_innrykk'> Stortinget samtykker i at Kongen på vegner av staten kan bringe tvistar i samband med hovudtariffoppgjeret i staten 2024 inn for Rikslønsnemnda i samsvar med tjenestetvistloven § 31 andre ledd. </p> </div> </div> Utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m. ANNET Allminnelige vedtak",
+      "role": "complete_final_decision",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "D853-text",
+      "source_key": "K3-decisions",
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+      "source_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "xpath": "/*/*[4]/*[641]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": "s:stortingsvedtak_tekst",
+      "text": "Stortinget samtykker i at Kongen på vegner av staten kan bringe tvistar i samband med hovudtariffoppgjeret i staten 2024 inn for Rikslønsnemnda i samsvar med tjenestetvistloven § 31 andre ledd.",
+      "role": "final_consent_not_post_amount",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "D853-date",
+      "source_key": "K3-decisions",
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+      "source_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "xpath": "/*/*[4]/*[641]/*[4]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": null,
+      "text": "2024-06-21T00:00:00",
+      "role": "21_june_source_date",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "D854",
+      "source_key": "K3-decisions",
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+      "source_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "xpath": "/*/*[4]/*[642]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": null,
+      "text": "40033713 99235 //www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=99235 2024-06-21T00:00:00 //www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40033713&p=99235 854 <div class='strtngt_vedtaks'> <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='ii'> <p class='strtngt_a type_innrykk'> Stortinget samtykker i at medlemane av Akademikerne og Unio får utbetalt løn i samsvar med avgjerda til Rikslønsnemnda. </p> </div> </div> Utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m. ANNET Allminnelige vedtak",
+      "role": "complete_final_decision",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "D854-text",
+      "source_key": "K3-decisions",
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+      "source_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "xpath": "/*/*[4]/*[642]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": "s:stortingsvedtak_tekst",
+      "text": "Stortinget samtykker i at medlemane av Akademikerne og Unio får utbetalt løn i samsvar med avgjerda til Rikslønsnemnda.",
+      "role": "final_consent_not_post_amount",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "D854-date",
+      "source_key": "K3-decisions",
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+      "source_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "xpath": "/*/*[4]/*[642]/*[4]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": null,
+      "text": "2024-06-21T00:00:00",
+      "role": "21_june_source_date",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "D855",
+      "source_key": "K3-decisions",
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+      "source_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "xpath": "/*/*[4]/*[643]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": null,
+      "text": "40033714 99235 //www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=99235 2024-06-21T00:00:00 //www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40033714&p=99235 855 <div class='strtngt_vedtaks'> <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='iii'> <p class='strtngt_a type_innrykk'> Etter at det endelege resultatet av lønsoppgjeret i det statlege tariffområdet ligg føre, samtykker Stortinget til at medlemar av LO Stat og YS Stat får utbetalt løn i samsvar med møteboka til Riksmeklaren datert 24. mai 2024, jf. vedlegg 1 og 2 i Prop. 108 S (2023–2024), gitt at LO Stat og/eller YS Stat har fått ja i avrøystinga hos sine medlemar. </p> </div> </div> Utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m. ANNET Allminnelige vedtak",
+      "role": "complete_final_decision",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "D855-text",
+      "source_key": "K3-decisions",
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+      "source_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "xpath": "/*/*[4]/*[643]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": "s:stortingsvedtak_tekst",
+      "text": "Etter at det endelege resultatet av lønsoppgjeret i det statlege tariffområdet ligg føre, samtykker Stortinget til at medlemar av LO Stat og YS Stat får utbetalt løn i samsvar med møteboka til Riksmeklaren datert 24. mai 2024, jf. vedlegg 1 og 2 i Prop. 108 S (2023–2024), gitt at LO Stat og/eller YS Stat har fått ja i avrøystinga hos sine medlemar.",
+      "role": "final_consent_not_post_amount",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "D855-date",
+      "source_key": "K3-decisions",
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+      "source_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "xpath": "/*/*[4]/*[643]/*[4]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": null,
+      "text": "2024-06-21T00:00:00",
+      "role": "21_june_source_date",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "D856",
+      "source_key": "K3-decisions",
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+      "source_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "xpath": "/*/*[4]/*[644]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": null,
+      "text": "40033715 99235 //www.stortinget.no/no/Saker-og-publikasjoner/Saker/Sak/?p=99235 2024-06-21T00:00:00 //www.stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?did=40033715&p=99235 856 <div class='strtngt_vedtaks'> <div class='strtngt_romertallseksjon' data-strtngt-romertallseksjon-romertall='iv'> <p class='strtngt_a type_innrykk'> Stortinget samtykker i at dersom det blir nei i avrøystinga hos medlemar av LO Stat og/eller YS Stat, og tvisten blir avgjort i Rikslønsnemnda, får medlemane av LO Stat og/eller YS Stat utbetalt løn i samsvar med avgjerda til Rikslønsnemnda. </p> </div> </div> Utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m. ANNET Allminnelige vedtak",
+      "role": "complete_final_decision",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "D856-text",
+      "source_key": "K3-decisions",
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+      "source_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "xpath": "/*/*[4]/*[644]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": "s:stortingsvedtak_tekst",
+      "text": "Stortinget samtykker i at dersom det blir nei i avrøystinga hos medlemar av LO Stat og/eller YS Stat, og tvisten blir avgjort i Rikslønsnemnda, får medlemane av LO Stat og/eller YS Stat utbetalt løn i samsvar med avgjerda til Rikslønsnemnda.",
+      "role": "final_consent_not_post_amount",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "D856-date",
+      "source_key": "K3-decisions",
+      "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+      "source_sha256": "f9efbdc2f45fa68053fa78ddd21227913fa54a652e4425275809267460c10f1c",
+      "xpath": "/*/*[4]/*[644]/*[4]",
+      "namespaces": {
+        "s": "http://data.stortinget.no"
+      },
+      "inner_html_field": null,
+      "text": "2024-06-21T00:00:00",
+      "role": "21_june_source_date",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "R2-date-p2",
+      "source_key": "R2-date-prop",
+      "path": "docs/research/r2-101000-54/originals/prop34-ch2.html.gz",
+      "source_sha256": "69eecaca528e82dea7967656a41ac56880fe906036e20988428ac8aff88810b5",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div[2]/p[2]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Medlemane i LO Stat røysta den 17. juni 2024 nei i si avrøysting om ny hovudtariffavtale. LO Stat og staten blei same dag samde om frivillig lønsnemnd. Stortinget samtykka 20. juni 2024 til at Kongen på vegner av staten kan bringe tvistar i samband med hovudtariffoppgjeret i staten 2024 inn for Rikslønsnemnda i samsvar med tenestetvistlova § 31 annet ledd, jf. Stortingets vedtak 853.",
+      "role": "retrospective_20_june_statement",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "R2-date-p8",
+      "source_key": "R2-date-prop",
+      "path": "docs/research/r2-101000-54/originals/prop34-ch2.html.gz",
+      "source_sha256": "69eecaca528e82dea7967656a41ac56880fe906036e20988428ac8aff88810b5",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div[2]/p[8]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Stortinget samtykka 20. juni 2024 til at medlemane av Akademikerne, LO Stat og Unio får utbetalt løn i samsvar med avgjerda til Rikslønsnemnda, jf. Stortingets vedtak 854 og 856.",
+      "role": "retrospective_20_june_statement",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "R2-date-p9",
+      "source_key": "R2-date-prop",
+      "path": "docs/research/r2-101000-54/originals/prop34-ch2.html.gz",
+      "source_sha256": "69eecaca528e82dea7967656a41ac56880fe906036e20988428ac8aff88810b5",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div[2]/p[9]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Stortinget samtykka 20. juni 2024 til at medlemane av YS Stat får utbetalt løn i samsvar med møteboka til Riksmeklaren datert 24. mai 2024, jf. vedlegg 1 og 2, etter at det endelege resultatet av lønsoppgjeret i det statlege tariffområdet ligg føre, jf. Stortingets vedtak 855.",
+      "role": "retrospective_20_june_statement",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "R2-date-I91",
+      "source_key": "R2-date-inns",
+      "path": "docs/research/r2-101000-54/originals/inns91-all.html.gz",
+      "source_sha256": "745a24367b3b93979f19b8ef2396cdfed5edf1d80ef887f648b459728e57e8ea",
+      "xpath": "/html/body/div[2]/div/main/div[2]/div/div[7]/div/div/div/div[3]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "Lønnsforhandlingene i det statlige tariffområdet 2024 Komiteen viser til proposisjonens omtale av lønnsforhandlingene i det statlige tariffområdet for 2024. Komiteen viser til at Stortinget 20. juni 2024 samtykket til at medlemmene av YS Stat får utbetalt lønn i samsvar med møteboken til Riksmekleren datert 24. mai 2024, jf. vedlegg 1 og 2, etter at det endelige resultatet av lønnsoppgjøret i det statlige tariffområdet foreligger, jf. Prop. 108 S (2023–2024) Utbetaling av nye løningar for arbeidstakarar i det statlege tariffområdet 2024 m.m., Innst. 442 S (2023–2024) og vedtak nr. 855 (2023–2024). Komiteen viser videre til at LO Stat og staten 17. juni 2024 ble enige om frivillig lønnsnemd. Stortinget samtykket 20. juni 2024 til at Kongen på vegne av staten kan bringe tvister i forbindelse med hovedtariffoppgjøret i staten 2024 inn for Rikslønsnemnda i samsvar med tjenestetvistloven § 31 annet ledd, jf. Stortingets vedtak 853 (2023–2024). Komiteen viser til at Akademikerne og Unio ikke kom til enighet med staten i meklingen og tok sine medlemmer ut i streik. Streiken ble avsluttet med tvungen lønnsnemnd 2. juni 2024 for Akademikerne og 5. juni 2024 for Unio. Komiteen viser til at avgjørelser i interessetvistene mellom Akademikerne og Unio og staten og LO Stat og staten, forelå 20. november 2024. Nemnda bestemte at Akademikerne og Unio sine avtaler fra forrige periode skal videreføres. Nemnda bestemte videre at LO Stat skal ha den avtalen som YS Stat ble enig med staten om under meklingen. Komiteens flertall, medlemmene fra Arbeiderpartiet, Senterpartiet, Sosialistisk Venstreparti og Rødt, viser til at de nøytrale medlemmene i Rikslønnsnemnda hadde forståelse for statens synspunkt om behovet for en samordnet lønnsdannelse i staten. Flertallet vil videre fremheve at de nevnte medlemmene av nemnda mente at en slik endring av hovedtariffavtalen som staten nedla påstand om, herunder fire likelydende avtaler for det statlige tariffområdet, bør finne sin avklaring og løsning gjennom forhandlinger mellom partene. Flertallet viser til at frontfaget legger rammen for lønnsoppgjørene i det statlige tariffområdet. Flertallet vil i den forbindelse understreke statens ansvar for å sikre en samordnet og koordinert lønnsdannelse i det statlige tariffområdet. Flertallet viser til Fafo-rapport 2024:12 Utredning av konsekvenser av ulike hovedtariffavtaler i staten. Flertallet mener dagens situasjon med ulike avtaler må følges nøye for å hindre at ansatte får ulik lønn for likt arbeid avhengig av hvor de er organisert. Komiteens medlemmer fra Høyre og Fremskrittspartiet påpeker at organisasjons- og forhandlingsfrihet er grunnleggende i det norske samfunnet, og at det er arbeidsgivers ansvar å ta vare på alle sine ansatte, både organiserte og uorganiserte. Disse medlemmer påpeker også at staten forhandler med flere parter, og at det derfor er grunnlag for flere tariffavtaler, og at staten har rettslig adgang til å ha flere tariffavtaler. Disse medlemmer bemerker at det å pålegge staten å inngå likelydende hovedtariffavtaler vil være å gripe inn i den enkelte organisasjons selvstendige forhandlingsrett og partenes avtalefrihet. Komiteens medlem fra Rødt viser til årets forhandlinger mellom staten ved Digitaliserings- og forvaltningsdepartementet (DFD) og hovedsammenslutningene for statsansatte, Akademikerne, LO Stat, Unio og YS Stat, om ny hovedtariffavtale i staten for perioden 1. mai 2024 til 30. april 2026. Staten som arbeidsgiverpart er i en særstilling fordi tariffoppgjørene i staten er en del av regjeringens inntektspolitikk. Gjennom inntektspolitikken har regjeringen et overordnet nasjonalt ansvar for lønnsutviklingen og sysselsettingen. Stortinget har i tjenestetvistloven satt rammer for å oppnå en koordinert lønnsdannelse i staten. Hovedsammenslutningene er gjennom tjenestetvistloven gitt en dominerende posisjon på arbeidstakersiden. Regjeringen Bondevik II understreket dette da loven ble endret i 2002. Formålet med lovendringsforslagene var å «… opprettholde og styrke hovedsammenslutningenes posisjon i det statlige tarifforhandlingssystemet.» (Ot.prp. nr. 38 (2001–2002), side 4). Et av hovedformålene med tjenestetvistlovens strenge krav til forhandlingsrett var å sikre så stor representativitet at hovedsammenslutningene, gjennom koordinering av lønnskrav fra sine medlemsorganisasjoner, gjorde det mulig for staten å gjennomføre en ansvarlig lønnspolitikk basert på en helhetlig tenkning fra alle parter. Regulering gjennom hovedtariffavtaler bygger på forutsetningen om at det skal finne sted en felles regulering av alminnelige lønns- og arbeidsvilkår. Dette medlem mener det er et sentralt synspunkt at reguleringen for de forskjellige gruppene av statsansatte sees i sammenheng. Allerede i Innst. 417 (2015–2016) påpekte et mindretall i kommunal- og forvaltningskomiteen at ulikelydende tariffavtaler i staten kunne medføre et effektivitetstap. Dette medlem vil likevel påpeke at staten sin egen undersøkelse blant statlige arbeidsgivere («Arbeidsgiverbarometeret») viser at dette har skjedd. Dette medlem viser til at det er ressurskrevende og tar tid å gjennomføre flere forskjellige forhandlinger. Det har videre oppstått lokal uenighet om forskjellsbehandling pga. organisasjonstilknytning. Teknisk beregningsutvalg (TBU) for 2023 viser et betydelig merforbruk av virksomhetenes driftsmidler, ut over avtalt disponibel ramme. Dette gjelder for begge avtalemodellene. Statens beregningsutvalg (SBU) for 2023 viser at ulikelydende tariffavtaler har ført til økt bruk av driftsmidler, utenom avtalt disponibel ramme, for å rette opp i utilsiktede konsekvenser av ulikelydende tariffavtaler. Dette medlem er videre bekymret for at dagens situasjon med ulikelydende tariffavtaler bryter mot likebehandlingsprinsippet, ufravikelighetsprinsippet og aktivitets- og redegjørelsesplikten. Dette medlem merker seg at det i årets oppgjør fra statens side ble fremmet identiske krav og tilbud overfor de fire hovedsammenslutningene i forhandlingene, med en klar målsetting om å oppnå likelydende avtaler. Dette medlem konstaterer at det kun ble inngått avtale om ny hovedtariffavtale med én av hovedsammenslutningene. Dette medlem tar Rikslønnsnemndas kjennelser i sakene 2-24, 3-24 og 4-24 til etterretning, herunder nemndas føringer til alle partene – både om at partene raskt samler seg om likelydende hovedtariffavtaler, og at øvrige krav henvises til forhandlinger mellom partene.",
+      "role": "retrospective_20_june_statement",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "R2-compensation-context",
+      "source_key": "R2-method",
+      "path": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.gz",
+      "source_sha256": "7a7c42ae4c3e466cddd5bf4a5b97d93ee84f0c47667f737e74cdbd47e018c6b9",
+      "xpath": "/html/body/main/div/div[3]/div[3]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "5 Lønnsoppgjøret 2024 – virkninger for 2024-budsjettet Normalt blir kompensasjon til statlige, bruttobudsjetterte virksomheter innarbeidet av Finansdepartementet på fullmakt fra Stortinget, etter at de sentrale lønnsoppgjørene i staten er gjennomført og før nysalderingen. Rikslønnsnemnda har nylig avgjort tvistene i hovedoppgjøret for 2024 for tre av de fire hovedsammenslutningene i staten. YS Stat kom til enighet med staten i vår, men også iverksettelsen av deres tariffavtale har avventet Rikslønnsnemndas kjennelser. Som følge av at kjennelsene fra Rikslønnsnemnda foreligger så sent på året, vil store deler av etterbetalingen av lønnsoppgjøret for 2024 sannsynligvis ikke kunne utbetales innen utgangen av året. Dette skyldes blant annet at virksomhetene først må gjennomføre lokale forhandlinger. Kompensasjonen for lønnsoppgjøret dekker også virkningen på virksomhetenes pensjonspremieutgifter. Denne vil bli hensyntatt gjennom Statens pensjonskasses premieberegning, som for 2024 faktureres i henhold til prognose og vil bli regnskapsført av virksomhetene i 2024. Av hensyn til ovennevnte og forutsigbarhet for virksomhetene, er det innarbeidet et anslag på virkningen av lønnsoppgjøret i forbindelse med nysalderingen av budsjettet. Det er brukt samme metode som tidligere år, og anslaget er basert på den avtalen staten har med YS Stat, i likhet med kompensasjonen som er gitt i 2025-budsjettet. Virkningen av lønnsoppgjøret for den enkelte budsjettpost, som er foreslått i departementenes omgrupperingsproposisjoner, fremgår av vedlegg 4. Samlet anslås virkningen av lønnsoppgjøret i staten til 2,6 mrd. kroner i 2024. Det er uklart hvilke virksomheter som vil klare å gjennomføre lokale forhandlinger og utbetale lønnsoppgjøret i år. I de tilfeller etterbetalingen av lønnsoppgjøret skyves til 2025, vil virksomhetene få mindreutgifter i 2024 sammenlignet med tildelt budsjett. Ubrukte mindreutgifter kan overføres til 2025, begrenset oppad til maksimalt 5 prosent av driftsbevilgningen, jf. bevilgningsreglementet § 5. Finansdepartementet varslet i forberedelsene til nysalderingen at en ville vurdere avbøtende tiltak for å sørge for at eventuell ubenyttet lønnskompensasjon for 2024 også er tilgjengelig i 2025. Det foreslås at maksimalgrensen for overføring av ubrukte driftsbevilgninger til 2025 økes utover 5 prosent-grensen for å unngå at overført beløp skal bli avkortet som følge av økte mindreutgifter knyttet til lønnsoppgjøret. Det foreslås også at virksomheter som ikke rekker å utbetale lønnsoppgjøret i 2024, som minimum får fastsatt en overføring som tilsvarer kompensasjonsbeløpet. Forslagene vil ivareta at alle virksomhetene har dekning for etterbetaling som skyves til 2025. Se forslag til romertallsvedtak. I de tilfeller hvor etterbetalingen skyves til 2025, vil en konsekvens være at etterbetalingen vil inngå i skattepliktig inntekt i 2025. Det kan bety at enkelte kan få økt skatt dersom en kommer over trinnsatser. Det kan også oppstå ulemper i tilfeller der personer mottar ytelser som avkortes mot inntekt, og inntekten i 2025, som følge av forsinket lønnsoppgjør, blir høyere enn den ellers ville vært. Det kan for eksempel gjelde ulike typer pensjoner, trygder eller andre ytelser fra SPK eller Nav.",
+      "role": "known_autumn_context_no_reopened_case",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "R2-compensation-292",
+      "source_key": "R2-appendix4",
+      "path": "docs/research/r2-101000-54/originals/prop36-ch11.html.gz",
+      "source_sha256": "0c88959a60162ed44a9dcf54871e03c8479fd779f5ea5e01948c270b25517586",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[292]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "1429 Riksantikvaren:",
+      "role": "old_independent_1429_1_estimate_not_C06_allocation",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "R2-compensation-293",
+      "source_key": "R2-appendix4",
+      "path": "docs/research/r2-101000-54/originals/prop36-ch11.html.gz",
+      "source_sha256": "0c88959a60162ed44a9dcf54871e03c8479fd779f5ea5e01948c270b25517586",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[293]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "1 Driftsutgifter 2 796 000",
+      "role": "old_independent_1429_1_estimate_not_C06_allocation",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "R2-compensation-294",
+      "source_key": "R2-appendix4",
+      "path": "docs/research/r2-101000-54/originals/prop36-ch11.html.gz",
+      "source_sha256": "0c88959a60162ed44a9dcf54871e03c8479fd779f5ea5e01948c270b25517586",
+      "xpath": "/html/body/main/div/div[3]/div[3]/div/div/table/tbody/tr[294]",
+      "namespaces": {},
+      "inner_html_field": null,
+      "text": "1471 Norsk Polarinstitutt:",
+      "role": "old_independent_1429_1_estimate_not_C06_allocation",
+      "text_representation": "UTF-8 HTML/XML parse, descendant itertext joined, Unicode whitespace collapsed"
+    },
+    {
+      "id": "Meetingbook-LO",
+      "source_key": "prop108-full-pdf-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-full-pdf-a1.hop0.gz",
+      "source_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "pdf_page_1based": 11,
+      "appendix": 1,
+      "figure_ordinal": 1,
+      "image_index": 0,
+      "image_sha256": "307e2275f267533c9b92228d71fdeedc76fccef498ce316cb51aa76ddcd56707",
+      "visual_locator": "heading_and_parties",
+      "text": "Riksmeklarens møtebok, sak 2024-026 og 2024-027; LO STAT og YS STAT; staten v/ Digitaliserings- og forvaltningsdepartementet",
+      "role": "visual_observation_or_explicit_manual_paraphrase",
+      "text_representation": "Manually read original embedded JPEG. Not exact-text XPath or OCR equality."
+    },
+    {
+      "id": "Response-LO",
+      "source_key": "prop108-full-pdf-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-full-pdf-a1.hop0.gz",
+      "source_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "pdf_page_1based": 12,
+      "appendix": 1,
+      "figure_ordinal": 2,
+      "image_index": 0,
+      "image_sha256": "9d5e230bcefd4bbcee7abbbda6044901475fe340316e018d9586d1b8824c1145",
+      "visual_locator": "meetingbook_last_paragraphs",
+      "text": "Svarfrist vart sett til 20. juni 2024. Meklinga vart avslutta kl. 08.20.",
+      "role": "visual_observation_or_explicit_manual_paraphrase",
+      "text_representation": "Manually read original embedded JPEG. Not exact-text XPath or OCR equality."
+    },
+    {
+      "id": "Economy-LO",
+      "source_key": "prop108-full-pdf-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-full-pdf-a1.hop0.gz",
+      "source_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "pdf_page_1based": 13,
+      "appendix": 1,
+      "figure_ordinal": 3,
+      "image_index": 0,
+      "image_sha256": "93f79f295b13e993b7fef45388d3233476dcd237acc06540203d9dca5c7422ff",
+      "visual_locator": "protocol_Economy_paragraphs_manual_paraphrase",
+      "text": "Berekna årslønsvekst 2023–2024 5,2 prosent; lønnsglidning 0,8 prosent; overheng 2,5 prosent; 75 prosent lokalt; 25 prosent sentralt; generelt tillegg 0,75 prosent; virkning 1. mai 2024.",
+      "role": "visual_observation_or_explicit_manual_paraphrase",
+      "text_representation": "Manually read original embedded JPEG. Not exact-text XPath or OCR equality."
+    },
+    {
+      "id": "Scope-LO",
+      "source_key": "prop108-full-pdf-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-full-pdf-a1.hop0.gz",
+      "source_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "pdf_page_1based": 14,
+      "appendix": 1,
+      "figure_ordinal": 4,
+      "image_index": 0,
+      "image_sha256": "e9cf5a97e9ce3867c6ac5b31d243bb66ab45b2c1e9505c6c130949eb156c43ad",
+      "visual_locator": "tariff_page1_sections_1.1.1_to_1.1.3_manual_paraphrase",
+      "text": "Hovedtariffavtalen 1. mai 2024–30. april 2026; staten ved DFD og LO Stat; 1.1.2 omfang, 1.1.3 stillinger utenfor hovedtariffavtalen.",
+      "role": "visual_observation_or_explicit_manual_paraphrase",
+      "text_representation": "Manually read original embedded JPEG. Not exact-text XPath or OCR equality."
+    },
+    {
+      "id": "Negotiation-LO",
+      "source_key": "prop108-full-pdf-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-full-pdf-a1.hop0.gz",
+      "source_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "pdf_page_1based": 16,
+      "appendix": 1,
+      "figure_ordinal": 6,
+      "image_index": 0,
+      "image_sha256": "592cae6f41d58dbb74c2a13c30acfb52d0da0dffa438d8ce62b9fb79ffb1f276",
+      "visual_locator": "tariff_page3_section_2.2_first_paragraph",
+      "text": "Forhandlingene skal for tariffperioden føres slik vedlegg 2 viser.",
+      "role": "visual_observation_or_explicit_manual_paraphrase",
+      "text_representation": "Manually read original embedded JPEG. Not exact-text XPath or OCR equality."
+    },
+    {
+      "id": "False-1429-LO",
+      "source_key": "prop108-full-pdf-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-full-pdf-a1.hop0.gz",
+      "source_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "pdf_page_1based": 50,
+      "appendix": 1,
+      "figure_ordinal": 40,
+      "image_index": 0,
+      "image_sha256": "a35e0c0ec8f3aa703ab52eb2b251d5082c976d7b7bff470072b58e472824ed46",
+      "visual_locator": "tariff_page37_plan90.910_Stillingskode_1429_not_budget_chapter",
+      "text": "1429 Aspirant 357 000",
+      "role": "visual_observation_or_explicit_manual_paraphrase",
+      "text_representation": "Manually read original embedded JPEG. Not exact-text XPath or OCR equality."
+    },
+    {
+      "id": "RA-LO",
+      "source_key": "prop108-full-pdf-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-full-pdf-a1.hop0.gz",
+      "source_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "pdf_page_1based": 69,
+      "appendix": 1,
+      "figure_ordinal": 59,
+      "image_index": 0,
+      "image_sha256": "6f943f4f84ae1f97279206c0c64efe956430e240866d0b3b4bed57a04aac2ec7",
+      "visual_locator": "tariff_page56_internal_appendix2_KLD_block_both_columns_manual_transcription",
+      "text": "Klima- og miljødepartementet: Virksomhet Riksantikvaren → Forhandlingssted Riksantikvaren",
+      "role": "visual_observation_or_explicit_manual_paraphrase",
+      "text_representation": "Manually read original embedded JPEG. Not exact-text XPath or OCR equality."
+    },
+    {
+      "id": "Meetingbook-YS",
+      "source_key": "prop108-full-pdf-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-full-pdf-a1.hop0.gz",
+      "source_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "pdf_page_1based": 77,
+      "appendix": 2,
+      "figure_ordinal": 1,
+      "image_index": 0,
+      "image_sha256": "3139b1c5bd6ac974c7218980f9be9ddd6a97492aad21d221d337eed7297cc442",
+      "visual_locator": "heading_and_parties",
+      "text": "Riksmeklarens møtebok, sak 2024-026 og 2024-027; LO STAT og YS STAT; staten v/ Digitaliserings- og forvaltningsdepartementet",
+      "role": "visual_observation_or_explicit_manual_paraphrase",
+      "text_representation": "Manually read original embedded JPEG. Not exact-text XPath or OCR equality."
+    },
+    {
+      "id": "Response-YS",
+      "source_key": "prop108-full-pdf-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-full-pdf-a1.hop0.gz",
+      "source_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "pdf_page_1based": 78,
+      "appendix": 2,
+      "figure_ordinal": 2,
+      "image_index": 0,
+      "image_sha256": "a0517501261d83976c91a7cc0d7c077f9dca6bc52af416dd86b2d8e99ebf13ee",
+      "visual_locator": "meetingbook_last_paragraphs",
+      "text": "Svarfrist vart sett til 20. juni 2024. Meklinga vart avslutta kl. 08.20.",
+      "role": "visual_observation_or_explicit_manual_paraphrase",
+      "text_representation": "Manually read original embedded JPEG. Not exact-text XPath or OCR equality."
+    },
+    {
+      "id": "Economy-YS",
+      "source_key": "prop108-full-pdf-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-full-pdf-a1.hop0.gz",
+      "source_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "pdf_page_1based": 79,
+      "appendix": 2,
+      "figure_ordinal": 3,
+      "image_index": 0,
+      "image_sha256": "426e5aac7290aee0031f8af76a5f0247c1475636bd787add736ffa4dafbf935f",
+      "visual_locator": "protocol_Economy_paragraphs_manual_paraphrase",
+      "text": "Berekna årslønsvekst 2023–2024 5,2 prosent; lønnsglidning 0,8 prosent; overheng 2,5 prosent; 75 prosent lokalt; 25 prosent sentralt; generelt tillegg 0,75 prosent; virkning 1. mai 2024.",
+      "role": "visual_observation_or_explicit_manual_paraphrase",
+      "text_representation": "Manually read original embedded JPEG. Not exact-text XPath or OCR equality."
+    },
+    {
+      "id": "Scope-YS",
+      "source_key": "prop108-full-pdf-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-full-pdf-a1.hop0.gz",
+      "source_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "pdf_page_1based": 80,
+      "appendix": 2,
+      "figure_ordinal": 4,
+      "image_index": 0,
+      "image_sha256": "3633242dde5d6085f55a2e28dd278a7b84d219b9ea8fdc7fcad0d14816b63062",
+      "visual_locator": "tariff_page1_sections_1.1.1_to_1.1.3_manual_paraphrase",
+      "text": "Hovedtariffavtalen 1. mai 2024–30. april 2026; staten ved DFD og YS Stat; 1.1.2 omfang, 1.1.3 stillinger utenfor hovedtariffavtalen.",
+      "role": "visual_observation_or_explicit_manual_paraphrase",
+      "text_representation": "Manually read original embedded JPEG. Not exact-text XPath or OCR equality."
+    },
+    {
+      "id": "Negotiation-YS",
+      "source_key": "prop108-full-pdf-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-full-pdf-a1.hop0.gz",
+      "source_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "pdf_page_1based": 82,
+      "appendix": 2,
+      "figure_ordinal": 6,
+      "image_index": 0,
+      "image_sha256": "5a119504e661ee2db15d5207d233811521bdd4d5e3c477e39290cdea1fbfeb2b",
+      "visual_locator": "tariff_page3_section_2.2_first_paragraph",
+      "text": "Forhandlingene skal for tariffperioden føres slik vedlegg 2 viser.",
+      "role": "visual_observation_or_explicit_manual_paraphrase",
+      "text_representation": "Manually read original embedded JPEG. Not exact-text XPath or OCR equality."
+    },
+    {
+      "id": "False-1429-YS",
+      "source_key": "prop108-full-pdf-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-full-pdf-a1.hop0.gz",
+      "source_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "pdf_page_1based": 116,
+      "appendix": 2,
+      "figure_ordinal": 40,
+      "image_index": 0,
+      "image_sha256": "a3da37da516c277e4336580297b8e4804df40e9fc1b48753d9f18f1d44762c4a",
+      "visual_locator": "tariff_page37_plan90.910_Stillingskode_1429_not_budget_chapter",
+      "text": "1429 Aspirant 357 000",
+      "role": "visual_observation_or_explicit_manual_paraphrase",
+      "text_representation": "Manually read original embedded JPEG. Not exact-text XPath or OCR equality."
+    },
+    {
+      "id": "RA-YS",
+      "source_key": "prop108-full-pdf-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-full-pdf-a1.hop0.gz",
+      "source_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "pdf_page_1based": 135,
+      "appendix": 2,
+      "figure_ordinal": 59,
+      "image_index": 0,
+      "image_sha256": "c254e0b7889c15080f99f5966a5fd163f9b6e70198a9bd0eeb0ed5f5e9d83372",
+      "visual_locator": "tariff_page56_internal_appendix2_KLD_block_both_columns_manual_transcription",
+      "text": "Klima- og miljødepartementet: Virksomhet Riksantikvaren → Forhandlingssted Riksantikvaren",
+      "role": "visual_observation_or_explicit_manual_paraphrase",
+      "text_representation": "Manually read original embedded JPEG. Not exact-text XPath or OCR equality."
+    },
+    {
+      "id": "OU-LO",
+      "source_key": "prop108-full-pdf-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-full-pdf-a1.hop0.gz",
+      "source_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "pdf_page_1based": 39,
+      "appendix": 1,
+      "figure_ordinal": 29,
+      "image_index": 0,
+      "image_sha256": "53311699d2a6b4dbeb9847ce5451c882053db5b8025fe76dea9df188ae5d625b",
+      "visual_locator": "tariff_page26_sections5.1_5.2_5.3.1_manual_paraphrase",
+      "text": "§5.2: OU 0,24 % av lønnsmassen; trekk kr400 per arbeidstaker; resten arbeidsgiver. §5.3.1: 7 millioner til felles opplæring. Boliglån inntil2,3 millioner i §5.1 er en annen rolle.",
+      "role": "visual_observation_or_explicit_manual_paraphrase",
+      "text_representation": "Manually read original embedded JPEG. Not exact-text XPath or OCR equality."
+    },
+    {
+      "id": "Competence-LO",
+      "source_key": "prop108-full-pdf-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-full-pdf-a1.hop0.gz",
+      "source_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "pdf_page_1based": 40,
+      "appendix": 1,
+      "figure_ordinal": 30,
+      "image_index": 0,
+      "image_sha256": "240cdcaef203381142b8a0535d7c79a56ec59148152597551c40d37d7c071672",
+      "visual_locator": "tariff_page27_sections5.3.2_5.3.3_5.4_manual_paraphrase",
+      "text": "§5.3.2: 26 millioner til kompetanse; sentrale tiltak, søknadsbasert ordning og lederopplæring. DFØ behandler/innstiller søknader og utbetaler. §5.4: 4 millioner til omstilling. Ingen navngitt Riksantikvaren-tildeling i disse bestemmelsene.",
+      "role": "visual_observation_or_explicit_manual_paraphrase",
+      "text_representation": "Manually read original embedded JPEG. Not exact-text XPath or OCR equality."
+    },
+    {
+      "id": "OU-YS",
+      "source_key": "prop108-full-pdf-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-full-pdf-a1.hop0.gz",
+      "source_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "pdf_page_1based": 105,
+      "appendix": 2,
+      "figure_ordinal": 29,
+      "image_index": 0,
+      "image_sha256": "fb8949d61b67b3932246e1e7bdc845c083ca261c0aaeb8d5a125b328b8d247f0",
+      "visual_locator": "tariff_page26_sections5.1_5.2_5.3.1_manual_paraphrase",
+      "text": "§5.2: OU 0,24 % av lønnsmassen; trekk kr400 per arbeidstaker; resten arbeidsgiver. §5.3.1: 7 millioner til felles opplæring. Boliglån inntil2,3 millioner i §5.1 er en annen rolle.",
+      "role": "visual_observation_or_explicit_manual_paraphrase",
+      "text_representation": "Manually read original embedded JPEG. Not exact-text XPath or OCR equality."
+    },
+    {
+      "id": "Competence-YS",
+      "source_key": "prop108-full-pdf-a1",
+      "path": "docs/research/c06-99235-60/originals/prop108-full-pdf-a1.hop0.gz",
+      "source_sha256": "8fc583f4a20882d95ada3c36359a19c29ceb22cee51c6c572d948e63dbb8a419",
+      "pdf_page_1based": 106,
+      "appendix": 2,
+      "figure_ordinal": 30,
+      "image_index": 0,
+      "image_sha256": "8ffa27d626c90f1c86a437644838f4024bc8b42d70ab8c69a005f750710e0a53",
+      "visual_locator": "tariff_page27_sections5.3.2_5.3.3_5.4_manual_paraphrase",
+      "text": "§5.3.2: 26 millioner til kompetanse; sentrale tiltak, søknadsbasert ordning og lederopplæring. DFØ behandler/innstiller søknader og utbetaler. §5.4: 4 millioner til omstilling. Ingen navngitt Riksantikvaren-tildeling i disse bestemmelsene.",
+      "role": "visual_observation_or_explicit_manual_paraphrase",
+      "text_representation": "Manually read original embedded JPEG. Not exact-text XPath or OCR equality."
+    }
+  ]
+}
