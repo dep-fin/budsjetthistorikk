@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\p2-r2-adopsjon\.local\review-spec-56\check_archives.py", line 18, in <module>
+    raw=(arch/row['path']).read_bytes()
+              ~~~^^^^^^^^
+KeyError: 'path'

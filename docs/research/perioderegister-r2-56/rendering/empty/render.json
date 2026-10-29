@@ -1,0 +1,44 @@
+{
+  "input": ".local/p2-acceptance-52ba019/empty.xlsx",
+  "readOnly": true,
+  "nativeExcel": false,
+  "views": [
+    {
+      "sheetName": "Forløp",
+      "range": "A1:K12",
+      "file": ".local\\p2-render-empty\\forlop.png"
+    },
+    {
+      "sheetName": "Forløp",
+      "range": "S1:W4",
+      "file": ".local\\p2-render-empty\\forskningskolonner.png"
+    },
+    {
+      "sheetName": "Dekning og avvik",
+      "range": "A1:B16",
+      "file": ".local\\p2-render-empty\\dekning.png"
+    },
+    {
+      "sheetName": "Dekning og avvik",
+      "range": "A17:B23",
+      "file": ".local\\p2-render-empty\\globale-hull.png"
+    },
+    {
+      "sheetName": "Dokumenter",
+      "range": "A1:L6",
+      "file": ".local\\p2-render-empty\\dokumentinventar.png"
+    },
+    {
+      "sheetName": "Omtale",
+      "range": "B1:I5",
+      "file": ".local\\p2-render-empty\\omtale.png"
+    },
+    {
+      "sheetName": "Dekning og avvik",
+      "range": "A151:B153",
+      "file": ".local\\p2-render-empty\\separat-status-og-rest.png"
+    }
+  ],
+  "sheets": "{\"kind\":\"sheet\",\"id\":\"ws/f19w49\",\"name\":\"Forløp\",\"index\":0,\"range\":\"A1:Z1\",\"address\":\"A1:Z1\"}\n{\"kind\":\"sheet\",\"id\":\"ws/2wzarn\",\"name\":\"Dokumenter\",\"index\":1,\"range\":\"A1:Q2273\",\"address\":\"A1:Q2273\"}\n{\"kind\":\"sheet\",\"id\":\"ws/0xiawe\",\"name\":\"Omtale\",\"index\":2,\"range\":\"A1:N260\",\"address\":\"A1:N260\"}\n{\"kind\":\"sheet\",\"id\":\"ws/4cw475\",\"name\":\"Sammenligninger\",\"index\":3,\"range\":\"A1:N1\",\"address\":\"A1:N1\"}\n{\"kind\":\"sheet\",\"id\":\"ws/9u2xye\",\"name\":\"Dekning og avvik\",\"index\":4,\"range\":\"A1:B163\",\"address\":\"A1:B163\"}\n{\"kind\":\"sheet\",\"id\":\"ws/h0ncts\",\"name\":\"Kontroll\",\"index\":5,\"range\":\"A1:K716\",\"address\":\"A1:K716\"}\n{\"kind\":\"sheet\",\"id\":\"ws/ddcw8w\",\"name\":\"Offlinegrunnlag\",\"index\":6,\"range\":\"A1:B895\",\"address\":\"A1:B895\"}",
+  "researchInspection": "{\"kind\":\"table\",\"sheet\":\"Forløp\",\"address\":\"S1:Z30\",\"rows\":30,\"cols\":8,\"values\":[[\"R2-funn\",\"Forskningsverdi\",\"Verdiens rolle/enhet\",\"Betinget konto\",\"Overføringsmål\",\"Kildebelegg-ID-er\",\"Representasjon SHA-256\",\"Bevisgrense/råverdi\"],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null]]}"
+}

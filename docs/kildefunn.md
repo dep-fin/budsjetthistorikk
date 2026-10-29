@@ -412,3 +412,14 @@ for utsatt etterbetaling. Det navngir ikke 1429; faktisk bruk og beløp er ukjen
 Post 22 arver ingen lønnsforklaring. **Konsekvens:** les [kildebevisene og den
 presise restgrensen](research/r2-101000-54/README.md) før videre kobling.
 K3/P1, fem/elleve og delvis årsdekning beholdes uendret.
+
+## P2: additiv R2-status og separate forskningsverdier – 29. oktober 2026
+
+Den separate [P2-kontrakten](perioderegister-r2.md) adopterer akkurat de
+kontrollerte R2-funnene i et nytt opt-in-format. Én uendret typet P1-basis
+bevarer historiske kandidater, ID-er og dekning. Ny hovedsaksoppfølging av
+101000 ligger i et eget kildebundet statusobjekt; historiske 67/66/60/25
+og R1–R7 beregnes ikke om. 74 eksakte belegg og C01–C12 følger begge
+innganger og selvforsynte filer. Regneporten får fortsatt bare de gamle
+monetære observasjonene. [Kilde-/filkontrollen](research/perioderegister-r2-56/README.md)
+angir faktisk kandidat, kontroller og bevisgrenser; gjeldende levering står i #56.

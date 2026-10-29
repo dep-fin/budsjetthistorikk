@@ -1,0 +1,87 @@
+{
+  "tests": [
+    {
+      "synthetic": true,
+      "attack": "duplicate-member",
+      "rejection": "Excel-arkiv overstiger ressursgrense eller har duplikater",
+      "sha256": "d87db4f1778bd389af3e54d79a1c6c82432c48287c71a5b8a94ab97070aaef4a"
+    },
+    {
+      "synthetic": true,
+      "attack": "traversal",
+      "rejection": "Excel-arkiv har uventet innhold eller kompresjonsgrense",
+      "sha256": "845f21e1aec24b03f9828eed38ea3eac8683feec902c5336ab6e55a7be52f474"
+    },
+    {
+      "synthetic": true,
+      "attack": "formula",
+      "rejection": "Excel-ark har ubundet XML-innhold eller ressursgrense",
+      "sha256": "907e7fdb6195bdf4881f321ef75a3d7cb267584658283b9b68f64f8e78832f4d"
+    },
+    {
+      "synthetic": true,
+      "attack": "external-relationship",
+      "rejection": "Ugyldig Excel-arkrelasjon",
+      "sha256": "417cd95a5a9fbed547ed462d0b5f4bd7e3dc6766041a0588854830bc29a229cd"
+    },
+    {
+      "synthetic": true,
+      "attack": "root-relationship",
+      "rejection": "P1-Excel har ugyldig lokal pakkrelasjon: _rels/.rels",
+      "sha256": "4e8de0495ae965d1af7eea31527640fb87a93191b4b787a1ea9a2dde643a10ad"
+    },
+    {
+      "synthetic": true,
+      "attack": "content-type",
+      "rejection": "P1-Excel har feil deklarerte innholdstyper",
+      "sha256": "ed41e923ed7a73c118a377f6a4d65a4d63f5936f2d3f840066349d7bc4b68eb8"
+    },
+    {
+      "synthetic": true,
+      "attack": "raw-style",
+      "rejection": "P1-Excel avviker i rå OOXML-stilprofil",
+      "sha256": "5d0a4b2392c727e25cdd2524b3d35c257fcdca5559f25acc953bbb97d1806e99"
+    },
+    {
+      "synthetic": true,
+      "attack": "huge-dimension",
+      "rejection": "Excel-cellepeker overstiger ressursgrense",
+      "sha256": "7f13c03bb3ad7319053126d9ff4f48d70a1277f7c85d2a2bcb8338bf8b7e2a50"
+    },
+    {
+      "synthetic": true,
+      "attack": "member-limit",
+      "rejection": "Excel-arkiv overstiger ressursgrense eller har duplikater",
+      "sha256": "886bb3af60a347459501066679d2b604ff58549ff250adbad323ae3dc90d72ee"
+    },
+    {
+      "synthetic": true,
+      "attack": "doctype",
+      "rejection": "DOCTYPE er ikke tillatt i Excel",
+      "sha256": "41525eed528743057586170678dc11d06f68aa63e51b427b0f8593b8a1751ea6"
+    },
+    {
+      "synthetic": true,
+      "attack": "expanded-limit",
+      "rejection": "Excel-arkiv overstiger ressursgrense eller har duplikater",
+      "sha256": "f0fb2470aa8ad3952caf85ed4d3b977f687e665243f832404dd70ad36eeb68eb"
+    },
+    {
+      "synthetic": true,
+      "attack": "duplicate-json",
+      "rejection": "Duplisert JSON-felt i frosset rapport"
+    },
+    {
+      "synthetic": true,
+      "attack": "nan",
+      "rejection": "Ugyldig JSON-tall i frosset rapport"
+    },
+    {
+      "synthetic": true,
+      "attack": "report-limit",
+      "rejection": "P2-rapport overstiger 64 MiB"
+    }
+  ],
+  "rejected": 14,
+  "errors": 0
+}

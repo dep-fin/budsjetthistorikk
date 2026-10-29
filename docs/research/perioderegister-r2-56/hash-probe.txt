@@ -1,0 +1,86 @@
+"""Kontroller selvhash og ID-referanser i de faktisk forgiftede filene, uten semantisk leser."""
+import argparse
+import hashlib
+import json
+from pathlib import Path
+
+from analyse import perioderegister_r2 as p2
+from analyse.komitepilot import legacy_payloads, legacy_report
+from innlesning.observations import identity
+from innlesning.perioderegister_r2 import shared_sources
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--root", type=Path, required=True)
+parser.add_argument("--output", type=Path, required=True)
+args = parser.parse_args()
+assert not args.output.exists()
+good = p2.read_json(args.root / "both.json")
+old = good.basis.p1_basis.t4_basis
+prior = legacy_report(old.legacy_json)
+shared = shared_sources(good.basis.p1_basis, legacy_payloads(old.legacy_json), prior.basis if prior else None)
+old_sources = {sid for sid, _, _ in shared.values()}
+old_payloads = {hashlib.sha256(raw).hexdigest() for _, raw, _ in shared.values()}
+old_docs = {d.id for d in p2.contents(good.basis).documents if d.id not in {d.id for d in good.basis.documents}}
+namespaces = {
+    "sources": "periodekilde-r2-1", "evidence": "periodebevis-r2-1",
+    "documents": "periodedokument-r2-1", "inventory": "periodeinventar-r2-1",
+    "statements": "periodeutsagn-r2-1", "relations": "perioderelasjon-r2-1",
+    "findings": "periodefunn-r2-1", "status_updates": "periodestatus-r2-1",
+    "cross_references": "periodekryssreferanse-r2-1",
+}
+records = []
+for path in sorted((args.root / "negative").glob("*.json")):
+    raw = path.read_bytes()
+    report = json.loads(raw)["report"]
+    basis = report["basis"]
+    count = 0
+    for collection, namespace in namespaces.items():
+        for row in basis[collection]:
+            assert row["id"] == identity(namespace, {**row, "id": ""}), (path.name, collection)
+            count += 1
+    assert basis["id"] == identity("periodegrunnlag-r2-1", {**basis, "id": ""})
+    assert report["id"] == identity("perioderegister-r2-1", {**report, "id": ""})
+    old_basis = basis["p1_basis"]
+    old_namespaces = {
+        "sources": "periodekilde-1", "evidence": "periodebevis-1",
+        "documents": "periodedokument-1", "inventory": "periodeinventar-1",
+        "statements": "periodeutsagn-1", "relations": "perioderelasjon-1",
+        "entries": "periodeledd-1", "case_candidates": "periodesakskandidat-1",
+        "decision_candidates": "periodevedtakskandidat-1", "gaps": "periodehull-1",
+    }
+    for collection, namespace in old_namespaces.items():
+        for row in old_basis[collection]:
+            assert row["id"] == identity(namespace, {**row, "id": ""}), (path.name, collection)
+    assert old_basis["id"] == identity("periodegrunnlag-1", {**old_basis, "id": ""})
+    sources = old_sources | {s["id"] for s in basis["sources"]}
+    payloads = old_payloads | {p["id"] for p in basis["payloads"]}
+    docs = old_docs | {d["id"] for d in basis["documents"]}
+    evidence = {e["id"] for e in basis["evidence"]}
+    for row in basis["sources"]:
+        assert row["payload_id"] is None or row["payload_id"] in payloads
+    for row in basis["documents"]:
+        assert set(row["source_ids"]) <= sources
+    for row in basis["evidence"]:
+        assert row["source_id"] in sources
+    for row in basis["statements"] + basis["inventory"]:
+        assert row["document_id"] in docs and row["source_id"] in sources
+    for row in basis["relations"]:
+        assert row["from_id"] in docs and row["to_id"] in docs
+        assert set(row["evidence_ids"]) <= evidence
+    for row in basis["findings"]:
+        assert row["document_id"] in docs and set(row["evidence_ids"]) <= evidence
+    for row in basis["status_updates"]:
+        assert row["case_candidate_id"] in {c["id"] for c in basis["p1_basis"]["case_candidates"]}
+        assert set(row["evidence_ids"]) <= evidence
+    for row in basis["cross_references"]:
+        assert set(row["evidence_ids"]) <= evidence
+    view = report["view"]
+    assert set(view["finding_ids"]) <= {f["id"] for f in basis["findings"]}
+    assert set(view["document_ids"]) <= docs
+    assert set(view["status_update_ids"]) <= {s["id"] for s in basis["status_updates"]}
+    assert set(view["cross_reference_ids"]) <= {c["id"] for c in basis["cross_references"]}
+    records.append({"mutation": path.stem, "sha256": hashlib.sha256(raw).hexdigest(),
+                    "self_hashes_valid": count + 2, "references_valid": True})
+assert len(records) == 26
+args.output.write_text(json.dumps({"files": records, "errors": 0}, ensure_ascii=False, indent=2), encoding="utf8")
+print(json.dumps({"files": len(records), "self_hashes_and_references_valid": True, "errors": 0}))

@@ -1,0 +1,52 @@
+{
+  "commands": [
+    {
+      "name": "post-fix-ruff",
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "."
+      ],
+      "exit_code": 0,
+      "seconds": 0.203
+    },
+    {
+      "name": "post-fix-format",
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "."
+      ],
+      "exit_code": 0,
+      "seconds": 0.125
+    },
+    {
+      "name": "post-fix-mypy",
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "mypy"
+      ],
+      "exit_code": 0,
+      "seconds": 5.5
+    },
+    {
+      "name": "post-fix-p2",
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "pytest",
+        "tests/test_perioderegister_r2.py",
+        "-q",
+        "--basetemp=.local/p2-after-control-fix-tmp"
+      ],
+      "exit_code": 0,
+      "seconds": 178.547
+    }
+  ]
+}

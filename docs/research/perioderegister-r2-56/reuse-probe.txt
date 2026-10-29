@@ -1,0 +1,63 @@
+"""Mål fysiske base64-kildefelt separat fra ID-/digestreferanser og arvede kapsler."""
+import argparse
+import base64
+import hashlib
+import json
+from collections import Counter
+from pathlib import Path
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--new", type=Path, required=True)
+parser.add_argument("--output", type=Path, required=True)
+args = parser.parse_args()
+assert not args.output.exists()
+report = json.loads(args.new.read_text("utf8"))["report"]
+
+def measure(value):
+    rows = []
+    def walk(node, path):
+        if isinstance(node, dict):
+            for key, item in node.items():
+                name = path + "/" + key
+                if key.endswith("_base64") and isinstance(item, str):
+                    raw = base64.b64decode(item, validate=True)
+                    rows.append({"path": name, "sha256": hashlib.sha256(raw).hexdigest(),
+                                 "decoded_bytes": len(raw), "base64_characters": len(item)})
+                elif key.endswith("_json") and isinstance(item, str) and item.startswith(("{", "[")):
+                    try:
+                        nested = json.loads(item)
+                    except ValueError:
+                        pass
+                    else:
+                        walk(nested, name + "/<decoded-json>")
+                else:
+                    walk(item, name)
+        elif isinstance(node, list):
+            for n, item in enumerate(node):
+                walk(item, path + "/" + str(n))
+    walk(value, "")
+    counts = Counter(r["sha256"] for r in rows)
+    unique = {r["sha256"]: r["decoded_bytes"] for r in rows}
+    return {"physical_base64_fields": len(rows), "unique_decoded_digests": len(unique),
+            "decoded_bytes_with_occurrences": sum(r["decoded_bytes"] for r in rows),
+            "unique_decoded_bytes": sum(unique.values()),
+            "duplicate_decoded_bytes": sum(r["decoded_bytes"] for r in rows) - sum(unique.values()),
+            "base64_characters": sum(r["base64_characters"] for r in rows),
+            "repeated_digests": [{"sha256": digest, "occurrences": count, "decoded_bytes_each": unique[digest]}
+                                 for digest, count in sorted(counts.items()) if count > 1],
+            "fields": rows}
+
+new = measure({"payloads": report["basis"]["payloads"]})
+old = measure(report["basis"]["p1_basis"])
+capsule = measure(json.loads(report["basis"]["p1_basis"]["t4_basis"]["legacy_json"]))
+assert new["physical_base64_fields"] == new["unique_decoded_digests"]
+assert not {r["sha256"] for r in new["fields"]} & {r["sha256"] for r in old["fields"]}
+result = {"scope": "Physical fields ending _base64; nested *_json strings are decoded and counted per stored occurrence. No gzip expansion or semantic object count is implied.",
+          "new": new, "inherited_p1_basis": old, "inherited_literal_t1_capsule": capsule,
+          "new_raw_overlap_with_inherited": 0,
+          "new_reference_payloads": sum(p["content_base64"] is None for p in report["basis"]["payloads"]),
+          "new_source_ids": len(report["basis"]["sources"]), "errors": 0}
+args.output.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding="utf8")
+print(json.dumps({"new_physical":new["physical_base64_fields"], "new_duplicate_bytes":new["duplicate_decoded_bytes"],
+                  "inherited_physical":old["physical_base64_fields"], "inherited_unique":old["unique_decoded_digests"],
+                  "inherited_duplicate_decoded_bytes":old["duplicate_decoded_bytes"], "errors":0}))

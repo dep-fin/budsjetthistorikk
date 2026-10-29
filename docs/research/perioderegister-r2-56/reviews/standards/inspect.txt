@@ -1,0 +1,74 @@
+import ast
+import gzip
+import hashlib
+import json
+import subprocess
+from pathlib import Path
+
+BASE='c041ad8ed3e2f8316896b6ff2364d3470024a992'
+HEAD='c2a55be0dd64b3f7617dc20453cc8cfdd9b44167'
+OUT=Path('.local/review-standards-56')
+def git(*args):
+    return subprocess.check_output(['git', *args])
+def sha(raw):
+    return hashlib.sha256(raw).hexdigest()
+def exact_json(raw):
+    def pairs(items):
+        result={}
+        for key,value in items:
+            assert key not in result, key
+            result[key]=value
+        return result
+    def constant(value):
+        raise AssertionError(value)
+    return json.loads(raw,object_pairs_hook=pairs,parse_constant=constant)
+assert git('rev-parse','HEAD').decode().strip()==HEAD
+changed=git('diff','--name-only',BASE+'...'+HEAD).decode().splitlines()
+manifest=exact_json(Path('docs/research/perioderegister-r2-56/delivery-manifest.json').read_bytes())
+assert set(r['path'] for r in manifest['files'])==set(changed)-{'docs/research/perioderegister-r2-56/delivery-manifest.json'}
+verified=[]
+for row in manifest['files']:
+    raw=Path(row['path']).read_bytes()
+    if row['representation']=='utf-8-lf':
+        raw=raw.replace(b'\r\n',b'\n')
+    assert (len(raw),sha(raw))==(row['bytes'],row['sha256']),row['path']
+    blob=git('show',HEAD+':'+row['path'])
+    assert raw==blob,row['path']
+    assert git('rev-parse',HEAD+':'+row['path']).decode().strip()==row['expected_git_blob']
+    verified.append(row['path'])
+module=ast.parse(Path('innlesning/perioderegister_r2_catalog.py').read_text('utf8'))
+cat_node=next(n for n in module.body if isinstance(n,ast.AnnAssign))
+catalog=ast.literal_eval(cat_node.value)
+for name,(pin,count,expanded_pin,expanded_count,record) in catalog.items():
+    raw=Path(name).read_bytes()
+    assert (len(raw),sha(raw))==(count,pin),name
+    assert raw==git('show',HEAD+':'+name),name
+    assert raw==git('show',BASE+':'+name),name
+    if name.endswith('.gz'):
+        body=gzip.decompress(raw)
+        assert (len(body),sha(body))==(expanded_count,expanded_pin),name
+    if record not in {'register','gjenbrukt'}:
+        exact_json(record)
+json_files=[p for p in changed if p.endswith('.json')]
+for name in json_files:
+    exact_json(Path(name).read_bytes())
+for name in changed:
+    if name.startswith('innlesning/') and name.endswith('.py'):
+        tree=ast.parse(Path(name).read_text('utf8'))
+        assert not any((isinstance(n,ast.ImportFrom) and (n.module or '').startswith('analyse')) or (isinstance(n,ast.Import) and any(a.name.startswith('analyse') for a in n.names)) for n in ast.walk(tree)),name
+protected=git('ls-tree','-r','--name-only',BASE,'innlesning','analyse','drift','tests','docs/research/k3-arsinventar-50','docs/research/perioderegister-52','docs/research/r2-101000-54','.github','requirements.txt','requirements-dev.txt','pyproject.toml').decode().splitlines()
+assert not git('diff',BASE,HEAD,'--',*protected)
+old=exact_json(Path('docs/research/perioderegister-r2-56/candidate-code-before-control-fix.json').read_bytes())
+new=exact_json(Path('docs/research/perioderegister-r2-56/candidate-code.json').read_bytes())
+changes=[]
+old_rows={r['path']:r for r in old['files']}
+for row in new['files']:
+    raw=Path(row['path']).read_bytes()
+    assert (len(raw),sha(raw))==(row['bytes'],row['sha256']),row['path']
+    if row['sha256']!=old_rows[row['path']]['sha256']:
+        changes.append(row['path'])
+assert changes==['ops/perioderegister_r2_proeve.py']
+verification=exact_json(Path('docs/research/perioderegister-r2-56/verification.json').read_bytes())
+result={'base':BASE,'head':HEAD,'changed_files':len(changed),'manifest_bindings_verified':len(verified),'catalog_files_exact_vs_disk_head_base':len(catalog),'changed_json_without_duplicate_keys_or_nonfinite_numbers':len(json_files),'protected_previous_files_unchanged':len(protected),'code_files':len(new['files']),'post_full_suite_changes':changes,'verification_top_level':list(verification),'limitations':['Existing full-suite and broad acceptance logs read but not rerun in this hash inspection.','No native Excel or Linux CI execution.']}
+(OUT/'inspection.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf8')
+print(json.dumps(result,ensure_ascii=False))

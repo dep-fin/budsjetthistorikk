@@ -1,0 +1,15 @@
+{
+  "command": "python -m pytest tests/test_perioderegister_r2.py tests/test_perioderegister.py tests/test_fleraarspilot.py -q --basetemp=.local/p2-targeted-tmp",
+  "exit_code": 0,
+  "passed": 101,
+  "seconds": 1319.26,
+  "scope": "P2 file before five additional persistent semantic Excel cases; those five ran separately",
+  "supplement": {
+    "command": "python -m pytest tests/test_perioderegister_r2.py -q -k rehashed_excel_pairs --basetemp=.local/p2-semantic-targeted-tmp",
+    "exit_code": 0,
+    "passed": 5,
+    "deselected": 20,
+    "seconds": 68.33
+  },
+  "full_suite": "one complete unfiltered invocation recorded separately in commands.json"
+}

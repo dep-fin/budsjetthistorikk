@@ -1,0 +1,81 @@
+{
+  "python": "3.12.14",
+  "pytest": "8.3.5",
+  "openpyxl": "3.1.5",
+  "lxml": [
+    6,
+    1,
+    3,
+    0
+  ],
+  "libxml2_runtime": [
+    2,
+    11,
+    9
+  ],
+  "libxml2_compiled": [
+    2,
+    11,
+    9
+  ],
+  "commands": [
+    {
+      "name": "ruff",
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "."
+      ],
+      "started_utc": "2026-10-29T10:12:34.430897+00:00",
+      "exit_code": 0,
+      "seconds": 0.172,
+      "log": "docs\\research\\perioderegister-r2-56\\checks\\ruff.log"
+    },
+    {
+      "name": "format",
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "."
+      ],
+      "started_utc": "2026-10-29T10:12:34.599828+00:00",
+      "exit_code": 0,
+      "seconds": 0.141,
+      "log": "docs\\research\\perioderegister-r2-56\\checks\\format.log"
+    },
+    {
+      "name": "mypy",
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "mypy"
+      ],
+      "started_utc": "2026-10-29T10:12:34.739234+00:00",
+      "exit_code": 0,
+      "seconds": 1.109,
+      "log": "docs\\research\\perioderegister-r2-56\\checks\\mypy.log"
+    },
+    {
+      "name": "full-suite",
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "pytest",
+        "-vv",
+        "--durations=20",
+        "--basetemp=.local/p2-full-suite-final-tmp"
+      ],
+      "started_utc": "2026-10-29T10:12:35.849441+00:00",
+      "exit_code": 0,
+      "seconds": 2924.625,
+      "log": "docs\\research\\perioderegister-r2-56\\checks\\full-suite.log"
+    }
+  ],
+  "code_bindings_unchanged_before_after": true,
+  "head_after": "52ba0197fb2ca55dcca7e315bfb0f86fe77cbaf3"
+}

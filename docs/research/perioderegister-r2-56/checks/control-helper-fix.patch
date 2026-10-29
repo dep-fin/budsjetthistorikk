@@ -1,0 +1,11 @@
+--- before/ops/perioderegister_r2_proeve.py
++++ after/ops/perioderegister_r2_proeve.py
+@@ -475,7 +475,7 @@
+         with sqlite3.connect(database) as connection:
+             assert connection.execute("PRAGMA user_version").fetchone()[0] == 5
+         trio = {
+-            o.amount_meaning: o.normalized_kr
++            o.meaning: o.amount_kr
+             for o in extracted.observations
+             if o.chapter == "700" and o.post == "1"
+         }

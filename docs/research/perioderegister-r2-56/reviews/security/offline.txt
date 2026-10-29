@@ -1,0 +1,43 @@
+"""Run official CLI in empty cwd with absent original root and blocked I/O APIs."""
+import hashlib
+import json
+import os
+from pathlib import Path
+import subprocess
+import sys
+
+root=Path.cwd().resolve()
+out=root/'.local/security-56'
+working=out/'offline-working'
+working.mkdir()
+code=r'''
+import hashlib,json,socket,sqlite3,sys
+from pathlib import Path
+def forbidden(*args,**kwargs): raise AssertionError('audit offline socket/SQLite forbidden')
+socket.create_connection=forbidden
+socket.socket.connect=forbidden
+socket.socket.connect_ex=forbidden
+sqlite3.connect=forbidden
+import runpy
+sys.argv=['analyse.perioderegister_r2','--frosset',sys.argv[1],'--rot',sys.argv[2],'--dokument','vedtak429','--json',sys.argv[3],'--excel',sys.argv[4],'--originaler',sys.argv[5]]
+runpy.run_module('analyse.perioderegister_r2',run_name='__main__')
+from analyse.perioderegister_r2 import read_json
+from analyse.perioderegister_r2_excel import read_excel
+report=read_json(Path(sys.argv[sys.argv.index('--json')+1]))
+assert report==read_excel(Path(sys.argv[sys.argv.index('--excel')+1]))
+assert not report.view.p1.monetary.adopted_event_ids
+assert (len(report.view.p1.case_candidate_ids),len(report.view.p1.decision_candidate_ids),len(report.view.p1.gap_ids))==(67,25,7)
+originals=Path(sys.argv[sys.argv.index('--originaler')+1])
+index=json.loads((originals/'index.json').read_text('utf8'))
+for digest,count in index['payloads'].items():
+    raw=(originals/(digest+'.bin')).read_bytes()
+    assert len(raw)==count and hashlib.sha256(raw).hexdigest()==digest
+print(json.dumps({'same_json_xlsx':True,'raw_digests_verified':len(index['payloads']),'event_count':0,'global':[67,25,7]}))
+'''
+env=dict(os.environ)
+env['PYTHONPATH']=os.pathsep.join((str(root),str((root/'../p1-perioderegister/.local/python').resolve())))
+args=[sys.executable,'-c',code,str(out/'inputs/both.json'),str(working/'absent-source-root'),str(out/'offline.json'),str(out/'offline.xlsx'),str(out/'offline-originals')]
+result=subprocess.run(args,cwd=working,env=env,capture_output=True,text=True,encoding='utf8',timeout=300)
+(out/'offline-cli.json').write_text(json.dumps(dict(returncode=result.returncode,stdout=result.stdout,stderr=result.stderr,cwd=str(working),socket_and_sqlite_blocked=True,original_root_absent=True),indent=2),encoding='utf8')
+print(result.returncode,result.stdout,result.stderr)
+assert result.returncode==0

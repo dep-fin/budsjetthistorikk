@@ -18,6 +18,8 @@ Før K3-perioderegister eller perioderegister-1: les [P1-kontrakten](docs/period
 
 Før sak 101000, 2024-lønnskompensasjon for 1429 eller overføringsfullmakt 429: les [R2-kildeundersøkelsen](docs/research/r2-101000-54/README.md). Prop. 36 vedlegg 4 har et eget /1-anslag; faktisk fullmaktsbruk og personellvirkning er uavklart. K3/P1s pinnede registre beholdes.
 
+Før perioderegister-r2-1: les [P2-kontrakten](docs/perioderegister-r2.md) og [P2-kilde-/filkontrollen](docs/research/perioderegister-r2-56/README.md). Tre avgrensede R2-grener legges til én uendret P1-basis; historisk kandidatstatus og ny 101000-oppfølging vises separat. Gjeldende leveringsstatus står i #56.
+
 ## Agent skills
 
 ### Issue tracker

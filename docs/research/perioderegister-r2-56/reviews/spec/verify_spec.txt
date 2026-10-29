@@ -1,0 +1,164 @@
+"""Independent #56 specification checks on the pinned candidate; no product edits."""
+import gzip
+import hashlib
+import json
+import subprocess
+import time
+from dataclasses import asdict
+from pathlib import Path
+
+from lxml import etree, html
+from openpyxl import load_workbook
+
+from analyse import perioderegister as p1
+from analyse.perioderegister_r2 import (
+    build_report, contents, go_back, import_basis, open_document,
+    open_accounts, read_json, report_to_json,
+)
+from analyse.perioderegister_r2_excel import export_pair, read_excel
+from innlesning.perioderegister_r2_catalog import CATALOG
+from innlesning.visningspilot_model import PilotSelection
+from ops.perioderegister_r2_proeve import offline, mutate, _book, SHEET_NAMES
+from analyse.omtale_excel_guard import inspect_excel
+from analyse.session_serialization import _decode
+from innlesning.perioderegister_r2_model import Report
+
+ROOT = Path.cwd()
+OUT = ROOT / '.local/review-spec-56'
+PACK = ROOT / 'docs/research/perioderegister-r2-56'
+R2 = ROOT / 'docs/research/r2-101000-54'
+HEAD = 'c2a55be0dd64b3f7617dc20453cc8cfdd9b44167'
+BASE = 'c041ad8ed3e2f8316896b6ff2364d3470024a992'
+result = {'head': HEAD, 'base': BASE, 'checks': [], 'pairs': [], 'negatives': []}
+started = time.monotonic()
+
+def digest(raw):
+    return hashlib.sha256(raw).hexdigest()
+
+def git(*args):
+    return subprocess.check_output(['git', *args])
+
+def check(name, truth=True, **detail):
+    assert truth, (name, detail)
+    result['checks'].append({'name': name, **detail})
+
+def checkpoint():
+    (OUT / 'results.json').write_text(json.dumps(result, ensure_ascii=False, indent=2), 'utf8')
+
+check('pinned-head', git('rev-parse', 'HEAD').decode().strip() == HEAD)
+modified = git('diff', '--name-only', '--diff-filter=M', BASE, HEAD).decode().splitlines()
+check('unchanged-old-product-sources-tests-workflow', set(modified) == {'.gitattributes', 'AGENTS.md', 'docs/kildefunn.md'}, modified=modified)
+for item in json.loads((PACK/'delivery-manifest.json').read_text('utf8'))['files']:
+    raw = (ROOT / item['path']).read_bytes()
+    if item['representation'] == 'utf-8-lf':
+        raw = raw.replace(b'\r\n', b'\n')
+    check('delivery-manifest', len(raw) == item['bytes'] and digest(raw) == item['sha256'], path=item['path'])
+    check('candidate-blob-binding', git('rev-parse', HEAD+':'+item['path']).decode().strip() == item['expected_git_blob'], path=item['path'])
+
+for name, (pin, size, expanded_pin, expanded_size, _) in CATALOG.items():
+    raw = (ROOT/name).read_bytes()
+    check('catalog-byte-binding', digest(raw) == pin and len(raw) == size and git('show', HEAD+':'+name) == raw, path=name)
+    if name.endswith('.gz'):
+        expanded = gzip.decompress(raw)
+        check('catalog-representation-binding', digest(expanded) == expanded_pin and len(expanded) == expanded_size, path=name)
+
+proofs = json.loads((R2/'evidence.json').read_text('utf8'))
+for e in proofs['evidence']:
+    raw = (ROOT/proofs['sources'][e['source']]).read_bytes()
+    if proofs['sources'][e['source']].endswith('.gz'):
+        raw = gzip.decompress(raw)
+    check('evidence-representation', digest(raw) == e['body_sha256'], key=e['id'])
+    tree = etree.fromstring(raw, etree.XMLParser(resolve_entities=False, no_network=True)) if e['kind'] == 'xml' else html.fromstring(raw.decode('utf8'))
+    nodes = tree.xpath(e['xpath'], namespaces=proofs['namespaces'])
+    check('evidence-unique-locator', len(nodes) == 1, key=e['id'])
+    node = nodes[0]
+    if e.get('nested_html_field_xpath'):
+        nested = node.xpath(e['nested_html_field_xpath'], namespaces=proofs['namespaces'])
+        check('evidence-nested-locator', len(nested) == 1, key=e['id'])
+        node = html.fromstring(nested[0].text)
+    norm = lambda n: ' '.join(''.join(n.itertext()).split())
+    check('evidence-text', norm(node) == e['text'], key=e['id'])
+    if 'rows' in e:
+        rows = [[norm(c) for c in row.xpath('./td|./th')] for row in node.xpath('.//tr')]
+        check('evidence-table-cells', rows == e['rows'], key=e['id'])
+checkpoint()
+
+t1 = gzip.decompress((ROOT/'tests/fixtures/t2/authentic-t1.json.gz').read_bytes()).decode()
+basis = import_basis(ROOT, t1_json=t1)
+both = build_report(basis, PilotSelection(years=(2024,), chapters=('1429',)))
+builder = read_json(ROOT/'.local/p2-acceptance-52ba019/both.json')
+check('fresh-import-matches-builder-real-file', both == builder)
+old = p1.read_json(ROOT/'../../outputs/p1-52-973db1f/p1-1429-2024.json')
+check('authentic-old-P1-basis-unchanged', basis.p1_basis == old.basis)
+check('literal-T1-capsule-unchanged', basis.p1_basis.t4_basis.legacy_json == t1)
+check('research-cardinality', (len(basis.evidence), len(basis.findings), len(basis.cross_references), len(basis.status_updates)) == (74,11,12,1))
+findings = {f.key:f for f in basis.findings}
+for row in json.loads((R2/'treatment-ledger.json').read_text('utf8'))['rows']:
+    f = findings[row['id']]
+    for key in ['case_id','budget_year','accounts','post_link','role','status']:
+        actual = asdict(f)[key]
+        if isinstance(actual, tuple): actual = list(actual)
+        check('ledger-field-preserved', actual == row[key], key=row['id']+'.'+key)
+    check('ledger-amounts-preserved', json.loads(f.amounts_json) == row.get('amounts'), key=row['id'])
+    check('ledger-evidence-preserved', [next(e.key for e in basis.evidence if e.id == id) for id in f.evidence_ids] == row['evidence_ids'], key=row['id'])
+check('D230-other-account', findings['D230'].accounts == ('1560/71',))
+check('D231-unknown-application', findings['D231'].amounts_json == 'null' and findings['D231'].accounts == ())
+check('429-conditional-target-unknown-value', findings['FULLMAKT429'].accounts == () and findings['FULLMAKT429'].conditional_accounts == ('1429/1',) and findings['FULLMAKT429'].transfer_target_year == 2025 and findings['FULLMAKT429'].amounts_json == 'null')
+check('global-history-plus-separate-101000', basis.status_updates[0].case_candidate_id == next(c.id for c in basis.p1_basis.case_candidates if c.case_id=='101000' and c.index_session=='2024-2025' and c.ordinal_1based==624))
+check('partial-coverage-unapproved', basis.year_coverage == 'partial' and basis.professional_annual_balance_approval is False)
+
+docs={d.key:d for d in contents(basis).documents}
+cases=[('post1', PilotSelection(years=(2024,), accounts=(('1429','1'),)), (7,3)), ('post22', PilotSelection(years=(2024,), accounts=(('1429','22'),)), (4,2)), ('both',both.selection,(11,5)), ('wrong-year',PilotSelection(years=(2025,),chapters=('1429',)),(0,0)), ('empty',PilotSelection(),(0,0))]
+for key in ['prop34','inns91','vedtak230','vedtak231','vedtak429','prop36']:
+    cases.append((key,PilotSelection(mode='document',document_id=docs[key].id),(0,0)))
+for name, selection, expected in cases:
+    report=build_report(basis,selection)
+    out_json,out_excel=OUT/(name+'.json'),OUT/(name+'.xlsx')
+    export_pair(report,out_json,out_excel)
+    reread=read_json(out_json)
+    check('actual-written-closed-reread-pair', reread==read_excel(out_excel)==report, case=name)
+    check('field-event-count', (len(report.view.p1.monetary.adopted_observation_ids),len(report.view.p1.monetary.adopted_event_ids))==expected,case=name)
+    check('same-global-IDs-all-selections', report.view.p1.gap_ids == tuple(g.id for g in basis.p1_basis.gaps) and report.view.p1.case_candidate_ids == tuple(c.id for c in basis.p1_basis.case_candidates) and report.view.status_update_ids == tuple(s.id for s in basis.status_updates),case=name)
+    keys={f.key for f in basis.findings if f.id in report.view.finding_ids}
+    if name=='post22': check('no-post22-salary-binding', keys=={'O1-OMDISPONERING'})
+    if name in {'empty','wrong-year'}: check('no-wrong-year-or-empty-findings',not keys,case=name)
+    book=load_workbook(out_excel,read_only=True,data_only=False)
+    try:
+        coverage=list(book['Dekning og avvik'].values)
+        check('visible-global-gaps',all(any(str(r[0]).startswith(g.key+' ') for r in coverage) for g in basis.p1_basis.gaps),case=name)
+        check('visible-additive-status', any('hovedsak_undersokt_faktisk_postvirkning_uavklart' in str(r) for r in coverage),case=name)
+        for row in book['Forløp'].iter_rows(min_row=2,values_only=True):
+            if row[18]=='FIN-1429-1': check('visible-estimate-not-adopted',row[6:10]==(None,)*4 and row[19]==2796000 and row[20]=='foreslått kompensasjonsanslag, kroner',case=name)
+            if row[18]=='FULLMAKT429': check('visible-fullmakt-not-actual-money',row[6:10]==(None,)*4 and row[19] is None and row[22]==2025,case=name)
+    finally: book.close()
+    result['pairs'].append({'case':name,'report_id':report.id,'counts':expected,'json_sha256':digest(out_json.read_bytes()),'xlsx_sha256':digest(out_excel.read_bytes())})
+    checkpoint()
+
+for key in ['prop34','inns91','vedtak230','vedtak231','vedtak429','prop36']:
+    doc=open_document(both,docs[key].id)
+    check('account-document-return',go_back(doc)==both,key=key)
+    check('document-account-return',go_back(open_accounts(doc,both.selection))==build_report(basis,doc.selection),key=key)
+check('offline-cli', True, result=offline(OUT,both))
+checkpoint()
+
+for attack in ['wrong-source','role','year','hidden-status','old-identity','o1-exact']:
+    poisoned=mutate(report_to_json(both),attack)
+    frozen=OUT/('negative-'+attack+'.json')
+    excel=OUT/('negative-'+attack+'.xlsx')
+    frozen.write_text(poisoned,'utf8')
+    book=_book(_decode(Report,json.loads(poisoned)['report']),poisoned)
+    try: book.save(excel)
+    finally: book.close()
+    capsule,_=inspect_excel(excel,sheet_names=SHEET_NAMES,snapshot_name='Offlinegrunnlag',max_expanded_bytes=128*1024*1024)
+    check('poisoned-container-before-semantics', capsule==poisoned,attack=attack)
+    errors={}
+    for kind,reader,path in [('json',read_json,frozen),('excel',read_excel,excel)]:
+        try: reader(path)
+        except ValueError as error: errors[kind]=str(error)
+        else: raise AssertionError('semantic attack accepted: '+attack)
+    result['negatives'].append({'attack':attack,'rehashed':True,'container_passed':True,'rejections':errors})
+    checkpoint()
+check('candidate-remains-pinned',git('rev-parse','HEAD').decode().strip()==HEAD)
+result['seconds']=round(time.monotonic()-started,3)
+checkpoint()
+print(json.dumps({'checks':len(result['checks']),'pairs':len(result['pairs']),'negatives':len(result['negatives']),'seconds':result['seconds']}))

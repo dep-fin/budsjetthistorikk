@@ -1,0 +1,347 @@
+[
+  {
+    "path": "docs/research/r2-101000-54/source-manifest.json",
+    "sha256": "76a8f6fd8c835e94de7fceb2c551ff0554091bd5e29a1d86a5a685c9bb234f6c",
+    "bytes": 23318
+  },
+  {
+    "path": "docs/research/r2-101000-54/reused-sources.json",
+    "sha256": "3bf5592e63daa5f76e5236a49e706b43459e3beded608c1d933c4f2d51824aeb",
+    "bytes": 4991
+  },
+  {
+    "path": "docs/research/r2-101000-54/evidence.json",
+    "sha256": "2f25861db698c202b8123e4a04408d80579b7e5368aff707168eefb921a8987b",
+    "bytes": 107617
+  },
+  {
+    "path": "docs/research/r2-101000-54/treatment-ledger.json",
+    "sha256": "4f91263b017daec2692dc65a169346c4d8e621bc15c60b45d1417d457fe5b03f",
+    "bytes": 8865
+  },
+  {
+    "path": "docs/research/r2-101000-54/cross-reference-journal.json",
+    "sha256": "106acc28536cb6ea18c47b397511fb3ec901a4f12bd9f3754be6298c1c379787",
+    "bytes": 6711
+  },
+  {
+    "path": "docs/research/r2-101000-54/source-comparison.json",
+    "sha256": "50a351a641e55f7b6e8cc35c4ba18a2d30673ded38aa5a6b01e4ee19324a4cd6",
+    "bytes": 782
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/inns90-all.html.gz",
+    "sha256": "faeafd4757600c1ed2a4cfe89a6bea8a9fd5ef2c7e35f037caebbf891b7f0279",
+    "bytes": 72270
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/inns90-all.html.meta.json",
+    "sha256": "76ba57f535797c5b1c49b95aeca20a42d833bf46e9db827e75641d0c16b456d9",
+    "bytes": 14749
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/inns91-all.html.gz",
+    "sha256": "906cb7f860e0fda33031b3bd1e53039df6573ea1aa60728ec7b607f277d0509a",
+    "bytes": 26137
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/inns91-all.html.meta.json",
+    "sha256": "6a3383617c6fff74dcc05fa2023ac41b25a5ff083b487ddb4484a31ace120e43",
+    "bytes": 14671
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/inns91.html.gz",
+    "sha256": "90e37ef1b3c386ed094dfc8f443f3249b40f18d6e55f7d57277b15d57e1c03d8",
+    "bytes": 15796
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/inns91.html.meta.json",
+    "sha256": "fe99caf98618ecef2b0fb0598708b2f8d1c5b060ec06f5234a4a7247a035fdd7",
+    "bytes": 14617
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/prop34-ch1.html.gz",
+    "sha256": "0a257ee7c4b050a18d58614a9091e6ebf47361e44ed167146dc7c6bf8c767d24",
+    "bytes": 14917
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/prop34-ch1.html.meta.json",
+    "sha256": "5454c10aafda820fa0c992c31f5c94e687f661998967385ce97513a78535bdc0",
+    "bytes": 10449
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/prop34-ch2.html.gz",
+    "sha256": "076ca6bb305238ed45e36f987387d66d88d44ec40e1f6fa0593733538935152a",
+    "bytes": 16889
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/prop34-ch2.html.meta.json",
+    "sha256": "1b03e914657461a710d4273cb2f6e08c9ae6b4f3685c766e50bd0a49b256fbfb",
+    "bytes": 10448
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/prop34-ch3.html.gz",
+    "sha256": "5b475b659768a691ed488ff81e4f623368cd9b171db3f5861118130a4d6b344d",
+    "bytes": 14817
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/prop34-ch3.html.meta.json",
+    "sha256": "b6fd8fdbb31e603e3a6ad105ab77bb51d31ce2d57701b1a9dd003610b2a9bba2",
+    "bytes": 10449
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/prop34-ch4.html.gz",
+    "sha256": "742501e81a3cd39e5684daad2ec2635a5902fd8a141c51f15b82a57fc957aff3",
+    "bytes": 15075
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/prop34-ch4.html.meta.json",
+    "sha256": "17b74d929a67a5aba598fa91229c0f79025fc521008e366de6c583d0e717afba",
+    "bytes": 10449
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/prop34-ch5.html.gz",
+    "sha256": "7404a53c1104ed5081bbed619b7864eebd0b1ab912b96cb1dc06332bfb02dc23",
+    "bytes": 14900
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/prop34-ch5.html.meta.json",
+    "sha256": "19b698c70c73b4fc33a74ba1ad1483523319033f24c39de41a6421faf27da9e1",
+    "bytes": 10446
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/prop34-root.html.gz",
+    "sha256": "e734ab1b8d3db747697756a38fc7303077943c9adaaf91e485d998bc3ace603b",
+    "bytes": 13402
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/prop34-root.html.meta.json",
+    "sha256": "8c20ca54d38c04e5e5e0a0f7d3df58286c3f34c33df2e199ef59e8c9f2057950",
+    "bytes": 10898
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/prop34.pdf.gz",
+    "sha256": "872911294199008ee91ffa30708f4d06ff2d167f7b07c6a378e1e8b0cc529358",
+    "bytes": 644339
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/prop34.pdf.meta.json",
+    "sha256": "f6171129f9cf2b5f6c09edac42971662fe69f0d086a2958939fe09060e02b938",
+    "bytes": 10770
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/prop36-ch11.html.gz",
+    "sha256": "3d3ba9f7a26eb57d716dbeebee0cf04c5d62900f5fd6bf9ab43fe6f5855f462e",
+    "bytes": 23189
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/prop36-ch11.html.meta.json",
+    "sha256": "e6e6bc58a728bf50343633fb162910ce087bb0948129e5f0b73394f1fd616611",
+    "bytes": 10461
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/prop36-ch7.html.gz",
+    "sha256": "77c484e2356c5b061c7f28ab7cf490ac62c3d1ec19421379799a6c1f91768bba",
+    "bytes": 23152
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/prop36-ch7.html.meta.json",
+    "sha256": "8654a42999cb5cbd5f34b12ac60d25a30593d0f8926481f9ca0b7f45aa361713",
+    "bytes": 10451
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/ref171224-debatt6.html.gz",
+    "sha256": "b326d61b37f36a768b81ef75139d9087881e694727aba4de6dc96b8eaa0ee2e5",
+    "bytes": 44778
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/ref171224-debatt6.html.meta.json",
+    "sha256": "9a3970be69482c8705a885b4a406bada43d370c7e2035070d44b1081b4f697a4",
+    "bytes": 15978
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/ref171224-votering.html.gz",
+    "sha256": "3a13c89e1a701838f3b2f97ab6e019ca5a52396f8dcd29447fb6a0757c4d41db",
+    "bytes": 120772
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/ref171224-votering.html.meta.json",
+    "sha256": "996e044219580068da2d9e994c8302d62989840260e443b15d2eaf796c084edc",
+    "bytes": 16326
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/sak101000-retry.xml.gz",
+    "sha256": "881e4f0a1475ae5b84e8ee01812105d237e6d43445aec09f92996a3e16a29356",
+    "bytes": 1886
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/sak101000-retry.xml.meta.json",
+    "sha256": "8dac15c0b42b9515f033c6a030345134ebc60be53179367833ded7a5181a71e0",
+    "bytes": 11147
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/sak101000.xml.gz",
+    "sha256": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e",
+    "bytes": 20
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/sak101000.xml.meta.json",
+    "sha256": "70d3f45f6b6fb4280734035cc7378e30dc3bb1d7f1acd86845948917065a5333",
+    "bytes": 2808
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/voteringer100289.xml.gz",
+    "sha256": "f7047a69c84afae5c016254f59ae231fddb9c0e750d827b768a7605267f73006",
+    "bytes": 1034
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/voteringer100289.xml.meta.json",
+    "sha256": "780bd386397ca4469121295dbed982d6f2dbc548a5c095e1fcc0a8f6f03079b7",
+    "bytes": 11185
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/voteringer101000.xml.gz",
+    "sha256": "0da129ebd7580d6579a44c9c8d1b90e6756b78dbba99ddad24d5182867d6d7ab",
+    "bytes": 760
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/voteringer101000.xml.meta.json",
+    "sha256": "1f6ee44246446d88960ce32a2063a1492aeb7beb075fc5ff87023db3225cbce0",
+    "bytes": 11180
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.gz",
+    "sha256": "75588c594328f29260ca6426b9876de0f26fcbf99ee08d2a31a4a4ffdbb2de9e",
+    "bytes": 1188
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/voteringsforslag23887.xml.meta.json",
+    "sha256": "9eb1186c802ee7c464d40f9ec56bb5e0ecfa9eb5789ec8c7329c3ccaa9410805",
+    "bytes": 11245
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.gz",
+    "sha256": "d7e55770d963eeda24d2fff5740d4555f3a67f354eeada7f5a3eefe189e8ab21",
+    "bytes": 6745
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/voteringsforslag23945.xml.meta.json",
+    "sha256": "0c89386f8b809b06e16753f1d4f476113d48406a1978d4790aa265f3b48699d6",
+    "bytes": 11254
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.gz",
+    "sha256": "6764821498fd426cb2be8d20cf8dbeb1b75d5e64a4db5f47d9fd798ccfab4530",
+    "bytes": 359
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.meta.json",
+    "sha256": "adac4c3dc185f4a910da807016e2145f4b6d345fd08dcdd3bae694cecc99a3ad",
+    "bytes": 11237
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.gz",
+    "sha256": "3ecb901ca79ef04695ee30c877c56506c3b7600d3724624d67f92f13edbb83b0",
+    "bytes": 373
+  },
+  {
+    "path": "docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.meta.json",
+    "sha256": "d26c6ad211428c842a0b52d76719c6227eaa4eb7a41e6c5cc3e94914a9556b03",
+    "bytes": 11237
+  },
+  {
+    "path": "docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.gz",
+    "sha256": "771741ed9e0ba0ead88f01ecbfd602f1ccf57ce3f7b9136f06aba7fcac81c552",
+    "bytes": 173860
+  },
+  {
+    "path": "docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.meta.json",
+    "sha256": "f452b289fef4ba5f65b074262d5ed7ae23b67ba673d1518c01498fa15842889d",
+    "bytes": 1897
+  },
+  {
+    "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.gz",
+    "sha256": "6f68d7115e982ff0318f3f808bbf01d7c0843f70d0db2f9f2b13a660673630bc",
+    "bytes": 394937
+  },
+  {
+    "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.meta.json",
+    "sha256": "6196ab7c50f0e83c0920675a394226430b1c6501c5bb16910229a85ce27e53e9",
+    "bytes": 2157
+  },
+  {
+    "path": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.gz",
+    "sha256": "5cef652b9d9e22fb89531d30c6710cec8798a5e6b3a4beb3cc05cd3a9ea3e707",
+    "bytes": 18817
+  },
+  {
+    "path": "docs/research/k3-arsinventar-50/originals/prop36-ch5.html.meta.json",
+    "sha256": "1be155df2f7bca78b36641b42cb89d257765bd122b2fc5c3a97c0c03c0f6622f",
+    "bytes": 1703
+  },
+  {
+    "path": "docs/research/k3-arsinventar-50/originals/prop36-ch10.html.gz",
+    "sha256": "a66412db44d1d3e4336f03fe7e4cf4260babf19926a4251e61c4b4bf3c125c19",
+    "bytes": 46423
+  },
+  {
+    "path": "docs/research/k3-arsinventar-50/originals/prop36-ch10.html.meta.json",
+    "sha256": "f2c644f7884c860d846f67fa91fae5130a9d21d0d53a9bb4de77714311004801",
+    "bytes": 1709
+  },
+  {
+    "path": "docs/research/k3-arsinventar-50/originals/prop36-ch13.html.gz",
+    "sha256": "44dfe09c480d78108d2cb63811e5524a14b9e8f7cbb986302a515f6d29ec0832",
+    "bytes": 50601
+  },
+  {
+    "path": "docs/research/k3-arsinventar-50/originals/prop36-ch13.html.meta.json",
+    "sha256": "d408dbb7837021d8f6c1bac1e7eb0e75d4c2d6f2054fb1934b717a50fdadee61",
+    "bytes": 1709
+  },
+  {
+    "path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+    "sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b",
+    "bytes": 391763
+  },
+  {
+    "path": "docs/research/to-visninger-37/originals/aar/session-2024-2025.meta.json",
+    "sha256": "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28",
+    "bytes": 381
+  },
+  {
+    "path": "docs/research/omtale-o1/source-manifest.json",
+    "sha256": "1eaf426d69574726c57c12c6f97f030cae8a797f287ca6922b510af69802eba9",
+    "bytes": 17300
+  },
+  {
+    "path": "docs/research/omtale-o1/originals/prop16s-ch2.html",
+    "sha256": "258d26e6d324bde709bf3d1cb660d7eb6f4248f537d4b0c77e095f17697cf8df",
+    "bytes": 100808
+  },
+  {
+    "path": "docs/research/omtale-o1/originals/prop16s-ch4.html",
+    "sha256": "ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e",
+    "bytes": 118163
+  },
+  {
+    "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+    "sha256": "7cc188e47b82c36df6587e6fff00c63a5bb1127fd2cec92d1730babf9d22fc02",
+    "bytes": 344683
+  },
+  {
+    "path": "docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.meta.json",
+    "sha256": "c190ac47bb552e335bea1fcba2f0eb64e5ae0c2cffcf89a3c0bf5bc0f879a44f",
+    "bytes": 2157
+  },
+  {
+    "path": "docs/research/k3-arsinventar-50/originals/sak100289.xml.gz",
+    "sha256": "da1cd7a0456a2cb91a869c6594e54891aa08429972767947762fd60b327113e6",
+    "bytes": 2207
+  },
+  {
+    "path": "docs/research/k3-arsinventar-50/originals/sak100289.xml.meta.json",
+    "sha256": "aaa0a27cea524fbededf400776c97df1173969258a582bc8ed478fd3762f1aae",
+    "bytes": 1863
+  }
+]

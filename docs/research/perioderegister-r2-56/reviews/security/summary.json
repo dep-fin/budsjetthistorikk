@@ -1,0 +1,116 @@
+{
+  "base": "c041ad8ed3e2f8316896b6ff2364d3470024a992",
+  "head": "c2a55be0dd64b3f7617dc20453cc8cfdd9b44167",
+  "tree": "20f3750b6a30850607c11c4e5047256724dcd423",
+  "main_controls": 63,
+  "status_counts": {
+    "passed": 13,
+    "rejected": 50
+  },
+  "independent_rehashed_json": [
+    {
+      "file": "authorization-actual-use.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "authorization-false-amount.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "authorization-new2025.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "estimate-as-adopted.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "estimate-post22.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "estimate-wrong-year.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "hidden-global-gaps.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "hide-candidates.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "hide-crossrefs.json",
+      "selfhashes_valid": 203
+    },
+    {
+      "file": "hide-status.json",
+      "selfhashes_valid": 214
+    },
+    {
+      "file": "o1-as-exact.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "old-candidate-identity.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "payload-duplicate.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "positive-approval.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "positive-coverage.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "source-bytes.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "status-oldID.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "wrong-actor.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "wrong-decision.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "wrong-locator.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "wrong-proposal.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "wrong-representation.json",
+      "selfhashes_valid": 215
+    },
+    {
+      "file": "wrong-vote.json",
+      "selfhashes_valid": 215
+    }
+  ],
+  "consistent_capsule_negative_xlsx": 4,
+  "offline_cli_returncode": 0,
+  "fresh_ordinary_databases": 4,
+  "required_findings": 0,
+  "optional_findings": 0,
+  "limitations": [
+    "No native Excel",
+    "No fullsuite repeat",
+    "No Linux CI in audit",
+    "No live external exploitation or operations"
+  ],
+  "audit_harness_initial_failure": "ordinary-first-attempt.py used dataset audit; dataset validation rejected before ordinary flow; preserved; corrected fresh v2 controls use supported dataset prove."
+}
