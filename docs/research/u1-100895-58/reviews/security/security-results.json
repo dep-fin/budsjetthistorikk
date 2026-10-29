@@ -1,0 +1,3899 @@
+{
+  "schema": "u1-security-checks-1",
+  "checked_utc": "2026-10-29T14:40:42.777138+00:00",
+  "base_commit": "59485e6bb6e45dacf348451b380cf6ba3b5d8321",
+  "candidate_commit": "e34b2fae67df6417807109e36eaeadc4c40c89fc",
+  "runtime": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "total_checks": 775,
+  "failures": 0,
+  "observations": {
+    "new_archive_maxima": {
+      "archive_bytes": 735115,
+      "response_bytes": 765739,
+      "ratio": 16.36539792387543
+    },
+    "preserved_base_blobs_checked": 627,
+    "changed_files": 52,
+    "redirect_host_guard": "initial URL only; cross-host final URL accepted and recorded",
+    "acquire_resource_limits": "50-second urllib socket timeout; no byte limit or total deadline",
+    "manifest_trust": "repository-reviewed manifests are trusted inputs, not an untrusted-input sandbox"
+  },
+  "checks": [
+    {
+      "name": "fixed_candidate_head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_has_52_authorized_files",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_AGENTS.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/kildefunn.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/.gitattributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/OVERLEVERING.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/acquire.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/candidate-followup.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/context-snapshot.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/contract.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/cross-reference-journal.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/delivery-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/evidence.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/local-checks.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/case100895-retry.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/case100895-retry.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/case100895-voteringer.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/case100895-voteringer.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/case100895.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/case100932.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/case100932.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/case100933.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/case100933.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/inns87-all.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/inns87-all.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/prop21-ch1.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/prop21-ch1.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/prop21-ch2.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/prop21-ch2.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/prop21-ch3.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/prop21-ch3.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/prop21-ch4.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/prop21-ch4.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/prop21.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/prop21.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/prop21.pdf.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/prop21.pdf.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/referat-debatt5.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/referat-debatt5.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/vot23886-forslag.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/vot23886-forslag.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/vot23886-vedtak.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/originals/vot23886-vedtak.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/preserved-files.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/reading-journal.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/reproduksjon.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/reused-sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/source-comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/source-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/table-comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/treatment-ledger.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/verification.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_blob_docs/research/u1-100895-58/verify.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metadata_manifest_identity_case100895-retry.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recorded_https_source_hosts_case100895-retry.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "requests_have_no_auth_or_cookie_case100895-retry.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete_archived_entity_case100895-retry.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metadata_manifest_identity_case100895-voteringer.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recorded_https_source_hosts_case100895-voteringer.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "requests_have_no_auth_or_cookie_case100895-voteringer.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete_archived_entity_case100895-voteringer.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metadata_manifest_identity_case100895.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recorded_https_source_hosts_case100895.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "requests_have_no_auth_or_cookie_case100895.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metadata_manifest_identity_case100932.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recorded_https_source_hosts_case100932.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "requests_have_no_auth_or_cookie_case100932.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete_archived_entity_case100932.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metadata_manifest_identity_case100933.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recorded_https_source_hosts_case100933.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "requests_have_no_auth_or_cookie_case100933.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete_archived_entity_case100933.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metadata_manifest_identity_inns87-all.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recorded_https_source_hosts_inns87-all.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "requests_have_no_auth_or_cookie_inns87-all.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete_archived_entity_inns87-all.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metadata_manifest_identity_prop21-ch1.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recorded_https_source_hosts_prop21-ch1.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "requests_have_no_auth_or_cookie_prop21-ch1.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete_archived_entity_prop21-ch1.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metadata_manifest_identity_prop21-ch2.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recorded_https_source_hosts_prop21-ch2.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "requests_have_no_auth_or_cookie_prop21-ch2.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete_archived_entity_prop21-ch2.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metadata_manifest_identity_prop21-ch3.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recorded_https_source_hosts_prop21-ch3.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "requests_have_no_auth_or_cookie_prop21-ch3.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete_archived_entity_prop21-ch3.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metadata_manifest_identity_prop21-ch4.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recorded_https_source_hosts_prop21-ch4.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "requests_have_no_auth_or_cookie_prop21-ch4.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete_archived_entity_prop21-ch4.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metadata_manifest_identity_prop21.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recorded_https_source_hosts_prop21.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "requests_have_no_auth_or_cookie_prop21.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete_archived_entity_prop21.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metadata_manifest_identity_prop21.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recorded_https_source_hosts_prop21.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "requests_have_no_auth_or_cookie_prop21.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete_archived_entity_prop21.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metadata_manifest_identity_referat-debatt5.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recorded_https_source_hosts_referat-debatt5.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "requests_have_no_auth_or_cookie_referat-debatt5.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete_archived_entity_referat-debatt5.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metadata_manifest_identity_vot23886-forslag.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recorded_https_source_hosts_vot23886-forslag.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "requests_have_no_auth_or_cookie_vot23886-forslag.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete_archived_entity_vot23886-forslag.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metadata_manifest_identity_vot23886-vedtak.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recorded_https_source_hosts_vot23886-vedtak.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "requests_have_no_auth_or_cookie_vot23886-vedtak.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete_archived_entity_vot23886-vedtak.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_886_manifest_paths_contained",
+      "passed": true,
+      "detail": 886
+    },
+    {
+      "name": "all_candidate_paths_regular_not_symlinks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_.gitattributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_.github/ISSUE_TEMPLATE/oppgave.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_.github/ISSUE_TEMPLATE/spesifikasjon.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_.github/pull_request_template.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_.github/workflows/check.yml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_GLOSSARY.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/__init__.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/__main__.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/control_matrix.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/controlled.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/excel.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/extraction_excel.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/fleraarspilot.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/fleraarspilot_excel.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/forlopspilot.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/forlopspilot_excel.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/historical_comparison.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/historical_package.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/historical_pilot.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/history.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/history_excel.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/komitepilot.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/komitepilot_excel.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/omtale.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/omtale_begge.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/omtale_excel_guard.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/omtale_model.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/perioderegister.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/perioderegister_excel.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/perioderegister_r2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/perioderegister_r2_excel.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/preserved_controls.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/saks_history_excel.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/saksdokumenter.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/session.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/session_excel.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/session_reconciliation.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/session_serialization.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/visningspilot.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_analyse/visningspilot_excel.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/datakontrakt.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/perioderegister-r2.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/perioderegister.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/.gitattributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/OVERLEVERING.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/case-candidates.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/case-relations.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/coverage-journal.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/decision-evidence.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/decision-register.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/delivery-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/faktakontroll.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/faktakontroll/rapport-5b6e86c.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/faktakontroll/resultater-5b6e86c.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/known-period-ledger.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/m21.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/neste-snitt.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-forslag22032.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-forslag22032.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-forslag23430-FrP.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-forslag23430-FrP.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-forslag23431-H.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-forslag23431-H.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-forslag23457.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-forslag23457.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-forslag23873.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-forslag23873.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-inns447.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-inns447.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-prop106-ch1.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-prop106-ch1.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-prop106-ch3.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-prop106-ch3.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-tillegg1-ch2.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-tillegg1-ch2.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-tillegg2-ch5.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-tillegg2-ch5.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-vedtak-2023-2024.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-vedtak-2024-2025.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-voteringer100927.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-voteringer100927.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-voteringer95776.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-voteringer95776.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-voteringer98919.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-voteringer98919.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-voteringsvedtak22032.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-voteringsvedtak22032.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-voteringsvedtak23873.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ind-voteringsvedtak23873.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/inns14-202324.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/inns14-202324.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/inns2-202324.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/inns2-202324.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/inns447-202324.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/inns447-202324.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/inns447-inherited.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/inns447-inherited.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/prop1-kld-ch3.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/prop1-kld-ch3.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/prop1-kld-ch6.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/prop1-kld-ch6.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/prop104-ch5.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/prop104-ch5.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/prop106-ch2.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/prop106-ch2.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/prop106-ch4.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/prop106-ch4.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/prop36-ch10.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/prop36-ch10.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/prop36-ch13.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/prop36-ch13.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/prop36-ch5.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/prop36-ch5.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ref191223.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ref191223.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ref210624-vote3-only.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ref210624-vote3-only.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ref210624-vote3.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ref210624-vote3.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ref210624.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/ref210624.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/sak100289.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/sak100289.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/sak95776.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/sak95776.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/sak98918.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/sak98918.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/sak98919.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/sak98919.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/sak99234.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/sak99234.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/saker-2023-2024.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/saker-2023-2024.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/saker-2024-2025.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/tillegg1-ch1.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/tillegg1-ch1.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/tillegg1-ch3.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/tillegg1-ch3.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/tillegg2-ch1.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/tillegg2-ch1.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/tillegg2-ch3.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/tillegg2-ch3.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/tillegg2-ch4.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/tillegg2-ch4.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/voteringsvedtak23457.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/originals/voteringsvedtak23457.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/reproduksjon.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/reused-sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/selected-passages.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/source-comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/source-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/table-locators.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/universe-summary.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/verification.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/k3-arsinventar-50/voting-evidence.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/OVERLEVERING.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/aksept.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/after.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/before.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/bind_candidate.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/candidate.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/format.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/green-root.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/green-root.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/green-style.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/green-style.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/mypy.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/probe-after.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/probe.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/red-root.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/red-root.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/red-style.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/red-style.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/ruff.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/targeted.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/audit-fix/targeted.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/candidate-code.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/checks/file-proof.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/checks/format.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/checks/full-suite-result.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/checks/full-suite.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/checks/full-suite.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/checks/guards.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/checks/mypy.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/checks/navigation.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/checks/ruff.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/delivery-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/guard-probe.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/guard-results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/leveringsporter.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/navigation-probe.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/navigation.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/346/dekning.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/346/dokumenter.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/346/forlop.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/346/fullmakt-inventar.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/346/globale-hull.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/346/indeksinventar.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/346/kontroll.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/346/offline.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/346/omtale.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/346/originalreferanser.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/346/sammenligninger.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/both/dekning.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/both/dokumenter.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/both/forlop-fortsettelse.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/both/forlop.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/both/fullmakt-inventar.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/both/globale-hull.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/both/indeksinventar.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/both/kontroll.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/both/offline.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/both/omtale.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/both/originalreferanser.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/both/sammenligninger.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/empty/dekning.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/empty/dokumenter.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/empty/forlop.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/empty/fullmakt-inventar.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/empty/globale-hull.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/empty/indeksinventar.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/empty/kontroll.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/empty/offline.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/empty/omtale.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/empty/originalreferanser.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/previews/empty/sammenligninger.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/render-346.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/render-both.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/render-empty.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/rendering.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reproduksjon.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/resources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security-recheck/REPORT.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security-recheck/artifact-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security-recheck/bind.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security-recheck/candidate-after.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security-recheck/candidate-before.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security-recheck/recheck.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security-recheck/recheck.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security-recheck/results.jsonl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security-recheck/resume.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security-recheck/summary.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security/REPORT.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security/artifact-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security/audit.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security/candidate.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security/catalog-base-proof.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security/confirm-findings.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security/confirmed-findings.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security/offline-cli.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security/resource-publication-results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security/resource-publication.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/security/results.jsonl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/spec-recheck/probe.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/spec-recheck/rapport.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/spec-recheck/results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/spec-recheck/spec-recheck.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/spec/offline-probe.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/spec/offline-results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/spec/rapport.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/spec/results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/spec/spec-probe.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/standards-recheck/evidence.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/standards-recheck/evidence.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/standards-recheck/final-snapshot.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/standards-recheck/rapport.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/standards-recheck/targeted.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/standards-recheck/targeted.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/standards-recheck/verify-evidence.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/standards/audit-evidence.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/standards/evidence-audit.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/standards/rapport.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/standards/review-notes.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/standards/verified-manifest-files.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/reviews/standards/verified-source-catalog.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/runtime.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/serialized-counts.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/source-findings.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/source-git-proof.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/tdd-journal.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/test-summary.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-52/verification.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/OVERLEVERING.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/aksept.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/archive-recheck.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/candidate-code-before-control-fix.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/candidate-code.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/checks/acceptance-first-attempt.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/checks/acceptance-resume.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/checks/commands.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/checks/control-helper-fix.patch",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/checks/format.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/checks/full-suite.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/checks/hash-probe.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/checks/independence-retry.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/checks/mypy.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/checks/post-fix-commands.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/checks/post-fix-format.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/checks/post-fix-mypy.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/checks/post-fix-p2.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/checks/post-fix-ruff.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/checks/ruff.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/checks/semantic-targeted.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/checks/targeted.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/checks/targeted.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/compatibility-bindings.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/control-correction.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/delivery-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/guards.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/hash-probe.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/hash-probe.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/physical-reuse.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering/both/dekning.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering/both/dokumentinventar.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering/both/foreslatt-anslag.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering/both/forlop.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering/both/forskningskolonner.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering/both/fullmakt429.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering/both/globale-hull.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering/both/omtale.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering/both/render.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering/both/separat-status-og-rest.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering/empty/dekning.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering/empty/dokumentinventar.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering/empty/forlop.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering/empty/forskningskolonner.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering/empty/globale-hull.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering/empty/omtale.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering/empty/render.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/rendering/empty/separat-status-og-rest.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reproduksjon.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reuse-probe.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/security/RAPPORT.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/security/artifact-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/security/audit.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/security/bind.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/security/candidate.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/security/catalog-base.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/security/offline-cli.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/security/offline.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/security/old-boundary.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/security/ordinary-first-attempt.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/security/ordinary.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/security/ordinary.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/security/results.jsonl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/security/review-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/security/summary.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/spec/RAPPORT.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/spec/archive-and-independence-results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/spec/archive-and-independence.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/spec/archive-first-attempt.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/spec/check_archives.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/spec/pytest-first-attempt.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/spec/pytest.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/spec/replayed-negative-hashes.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/spec/replayed-negative-hashes.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/spec/results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/spec/supplement.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/spec/verify-spec.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/spec/verify_spec.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/standards/RAPPORT.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/standards/archive-inspection.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/standards/archive-inspection.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/standards/inspect.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/standards/inspection.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/reviews/standards/pytest.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/source-findings.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/tdd-journal.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/perioderegister-r2-56/verification.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/.gitattributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/OVERLEVERING.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/ci-recovery/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/ci-recovery/github-evidence.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/ci-recovery/local-checks.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/ci-recovery/log-excerpts.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/ci-recovery/prior-bindings.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/ci-recovery/recovery-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/ci-recovery/reproduction-results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/context-snapshot.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/cross-reference-journal.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/delivery-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/evidence.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/inns90-all.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/inns90-all.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/inns91-all.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/inns91-all.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/inns91.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/inns91.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/prop34-ch1.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/prop34-ch1.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/prop34-ch2.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/prop34-ch2.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/prop34-ch3.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/prop34-ch3.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/prop34-ch4.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/prop34-ch4.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/prop34-ch5.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/prop34-ch5.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/prop34-root.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/prop34-root.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/prop34.pdf.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/prop34.pdf.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/prop36-ch11.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/prop36-ch11.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/prop36-ch7.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/prop36-ch7.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/ref171224-debatt6.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/ref171224-debatt6.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/ref171224-votering.html.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/ref171224-votering.html.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/sak101000-retry.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/sak101000-retry.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/sak101000.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/sak101000.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/voteringer100289.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/voteringer100289.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/voteringer101000.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/voteringer101000.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/voteringsforslag23887.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/voteringsforslag23887.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/voteringsforslag23945.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/voteringsforslag23945.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/voteringsvedtak23887.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/originals/voteringsvedtak23945.xml.meta.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/pdf-check.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reproduksjon.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reused-sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/final-artifacts/RAPPORT.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/final-artifacts/publication-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/security/REPORT.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/security/audit_checks.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/security/candidate.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/security/checks.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/security/results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/source-control/RAPPORT.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/source-control/candidate-comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/source-control/results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/source-control/verify_sources.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/spec/KONTROLLBEVIS.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/spec/RAPPORT.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/spec/builder-replay.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/spec/independent-results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/spec/live-context-comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/spec/replay_builder_check.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/spec/source-replay.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/spec/verify_spec.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/standards/RAPPORT.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/standards/reproduction-results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/standards/results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/standards/review_checks.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/reviews/standards/source-recheck/results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/source-comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/source-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/treatment-ledger.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_docs/research/r2-101000-54/verification.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_drift/__init__.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_drift/__main__.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_drift/artifacts.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_drift/config.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_drift/locking.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_drift/notifications.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_drift/runner.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_drift/schedule.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_drift/sessions.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_drift/store.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_drift/windows.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/__init__.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/__main__.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/controls.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/fleraarspilot.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/fleraarspilot_model.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/forlopspilot.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/forlopspilot_model.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/historical_excel.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/historical_xlsx.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/http.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/ingestion.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/komitepilot.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/komitepilot_model.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/legacy_html.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/maintenance.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/maintenance_store.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/model.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/observations.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/omtale.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/organization_register.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/perioderegister.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/perioderegister_catalog.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/perioderegister_model.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/perioderegister_r2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/perioderegister_r2_catalog.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/perioderegister_r2_model.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/registers.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/saksdokumenter.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/source_attempts.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/storage.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/storting_v2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/sync.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/visningspilot.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/visningspilot_model.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/visningspilot_vedtak.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_innlesning/workfiles.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_pyproject.toml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_requirements-dev.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_requirements.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/create_b3_fixtures.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/create_b4_fixtures.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/create_b6_fixtures.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/create_b8_fixtures.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/create_b9_legacy_fixture.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/create_fixture.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/40033944.derived.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/40033944.metadata.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40032850.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40032850.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40033025.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40033025.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40033719.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40033719.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40033805.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40033805.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40034064.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40034064.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40034226.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40034226.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40034287.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40034287.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40034385.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40034385.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40034443.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40034443.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40035422.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40035422.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40035429.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40035429.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40036289.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/40036289.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b3/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b4/40032763.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b4/40032763.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b4/40032791.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b4/40032791.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b4/40032976.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b4/40032976.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b4/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b5/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b5/referat-5538.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b5/referat-5538.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b6/40034048.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b6/40034048.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b6/40034229.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b6/40034229.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b6/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b8/40034049.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b8/40034049.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b8/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b8/sak-100889.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b8/sak-100889.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b8/sak-100927.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b8/sak-100927.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b9/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b9/legacy-b8.json.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b9/legacy-b8.manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/b9/legacy-b8.xlsx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/historical-v1.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/historical-v1.sql",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/historical-v2.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/historical-v2.sql",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/synthetic-history-v1.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/synthetic-history-v1.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/t2/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/t2/authentic-t1.json.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/fixtures/t2/authentic-t1.provenance.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b1.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b3.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b3_cli.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b4.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b4_review.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b5_cli.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b5_controls.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b5_register.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b5_safety.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b5_workfiles.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b6.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b6_authentic.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b6_cli.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b6_controls.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b6_reconciliation.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b7.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b7_authentic.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b7_controlled.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b7_frozen.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b7_github.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b7_operations.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b7_sessions.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b8.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_b9.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_cli.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_control_matrix.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_fleraarspilot.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_forlopspilot.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_historical_cli.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_historical_controls.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_historical_excel.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_http.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_komitepilot.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_legacy_html_newlines.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_omtale.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_omtale_o2b.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_perioderegister.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_perioderegister_r2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pinned_base_blob_tests/test_visningspilot.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "originals_have_no_unmanifested_files",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_high_confidence_credential_patterns",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "identifier_reject_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "identifier_reject_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "identifier_reject_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "identifier_reject_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "identifier_reject_4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "identifier_reject_5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "identifier_reject_6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "identifier_reject_7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "identifier_reject_8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "identifier_reject_9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "identifier_reject_10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "url_reject_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "url_reject_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "url_reject_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "url_reject_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "url_reject_4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "url_reject_5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "url_reject_6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture_preserves_complete_entity_bytes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate_capture_rejected_before_network_no_clobber",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport_failure_keeps_attempt_without_fabricated_body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "partial_response_never_marked_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "http_error_body_archived_as_error_not_success",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "redirect_limit_observed_without_network",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "xml_external_file_entity_not_expanded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "xml_internal_entity_not_expanded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "html_only_parsed_to_data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "xpath_has_no_document_function",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tampering_rejected_transport_metadata_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tampering_rejected_response_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tampering_rejected_evidence_exact_text",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "boundary": "Offline synthetic negatives plus candidate/base Git-blob checks; no source HTTP or product suite."
+}
