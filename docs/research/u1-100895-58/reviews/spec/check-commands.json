@@ -1,0 +1,36 @@
+[
+  {
+    "command": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "ruff",
+      "check",
+      "docs\\research\\u1-100895-58\\reviews\\spec\\check_spec.py"
+    ],
+    "exit_code": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "ruff",
+      "format",
+      "--check",
+      "docs\\research\\u1-100895-58\\reviews\\spec\\check_spec.py"
+    ],
+    "exit_code": 0,
+    "stdout": "1 file already formatted\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs\\research\\u1-100895-58\\reviews\\spec\\check_spec.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\r\n  \"candidate\": \"e34b2fae67df6417807109e36eaeadc4c40c89fc\",\r\n  \"base\": \"59485e6bb6e45dacf348451b380cf6ba3b5d8321\",\r\n  \"checked_utc\": \"2026-10-29T14:34:46.960789+00:00\",\r\n  \"checks\": {\r\n    \"fixed_base\": 1,\r\n    \"fixed_candidate\": 1,\r\n    \"candidate_file_count\": 1,\r\n    \"scope_only\": 1,\r\n    \"research_is_additive\": 1,\r\n    \"protected_git_blobs\": 627,\r\n    \"candidate_manifest_blob\": 51,\r\n    \"manifest_matches_candidate\": 1,\r\n    \"manifest_transport_matches_sidecar\": 15,\r\n    \"metadata_digest\": 15,\r\n    \"authorization_before_attempt\": 15,\r\n    \"complete_source_digest\": 14,\r\n    \"failed_attempt_without_source\": 1,\r\n    \"exact_locator_unique\": 163,\r\n    \"exact_locator_digest\": 163,\r\n    \"exact_locator_text\": 163,\r\n    \"independent_table_structure\": 116,\r\n    \"independent_table_direction\": 116,\r\n    \"independent_before_after_has_change\": 116,\r\n    \"independent_arithmetic\": 116,\r\n    \"independent_no_unfinished_row\": 5,\r\n    \"independent_sister_split\": 1,\r\n    \"no_target_money_or_C05_money_row\": 1,\r\n    \"table_inventory_complete\": 5,\r\n    \"all_treatment_money_equal\": 4,\r\n    \"case_identity\": 1,\r\n    \"case_explicit_exclusions\": 1,\r\n    \"sister_identity_only\": 2,\r\n    \"four_proposals\": 1,\r\n    \"roman_to_decision\": 4,\r\n    \"decision_object_identity\": 4,\r\n    \"full_authority_proposal_to_decision\": 3,\r\n    \"authority_year_and_role\": 2,\r\n    \"C05_scope_and_year\": 1,\r\n    \"single_unanimous_vote\": 1,\r\n    \"raw_vote_sentinels\": 1,\r\n    \"separate_journal_inventory\": 1,\r\n    \"ledger_not_adopted\": 1,\r\n    \"journal_locators_bound\": 25,\r\n    \"historical_candidate_identity\": 1,\r\n    \"historical_status_untouched\": 1,\r\n    \"five_eleven_and_R_gaps\": 1,\r\n    \"no_annual_or_product_adoption\": 1\r\n  },\r\n  \"total\": 1765,\r\n  \"failures\": 0,\r\n  \"independently_discovered_money_rows\": {\r\n    \"proposal\": 32,\r\n    \"committee\": 21,\r\n    \"vote_proposal\": 21,\r\n    \"voting_record\": 21,\r\n    \"decision226\": 21\r\n  },\r\n  \"boundary\": \"Frozen Git blobs; no new HTTP, product tests, full CI, publication or merge. Semantic reading is reported separately.\"\r\n}\r\n",
+    "stderr": ""
+  }
+]

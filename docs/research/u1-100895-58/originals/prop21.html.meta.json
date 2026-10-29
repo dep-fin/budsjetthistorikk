@@ -1,0 +1,97 @@
+{
+  "id": "prop21.html",
+  "requested_url": "https://www.regjeringen.no/id/PRP202420250021000DDDEPIS",
+  "started_utc": "2026-10-29T13:48:22.145336+00:00",
+  "request_headers": {
+    "User-Agent": "budsjetthistorikk-research/58",
+    "Accept-Encoding": "identity"
+  },
+  "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+  "state": "complete",
+  "status": 200,
+  "final_url": "https://www.regjeringen.no/no/dokumenter/prop.-21-s-20242025/id3075447/",
+  "response_headers": [
+    [
+      "Date",
+      "Thu, 29 Oct 2026 13:48:26 GMT"
+    ],
+    [
+      "Content-Type",
+      "text/html; charset=utf-8"
+    ],
+    [
+      "Transfer-Encoding",
+      "chunked"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Cache-Control",
+      "public,max-age=15"
+    ],
+    [
+      "Set-Cookie",
+      "ARRAffinity=0b17d7779bdc507d6fcbe2b107dc4869465425adfabb4b2a5c7f00a3182edbbb;Path=/;HttpOnly;Secure;Domain=www.regjeringen.no"
+    ],
+    [
+      "Set-Cookie",
+      "ARRAffinitySameSite=0b17d7779bdc507d6fcbe2b107dc4869465425adfabb4b2a5c7f00a3182edbbb;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.regjeringen.no"
+    ],
+    [
+      "Strict-Transport-Security",
+      "max-age=15552000"
+    ],
+    [
+      "Request-Context",
+      "appId=cid-v1:6f4928bd-f664-43ef-97e9-3ba28bae17d8"
+    ],
+    [
+      "X-XSS-Protection",
+      "1; mode=block"
+    ],
+    [
+      "X-Content-Type-Options",
+      "nosniff"
+    ],
+    [
+      "X-Frame-Options",
+      "SAMEORIGIN"
+    ],
+    [
+      "Referrer-Policy",
+      "no-referrer, same-origin"
+    ],
+    [
+      "Permissions-Policy",
+      "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+    ],
+    [
+      "Vary",
+      "accept-encoding"
+    ],
+    [
+      "cf-cache-status",
+      "BYPASS"
+    ],
+    [
+      "Server",
+      "cloudflare"
+    ],
+    [
+      "CF-RAY",
+      "a522a34b8d400ee3-CPH"
+    ],
+    [
+      "alt-svc",
+      "h3=\":443\"; ma=86400"
+    ]
+  ],
+  "bytes": 54425,
+  "sha256": "2094a154c05ead394466abf93c4b7a3521d743034cc1761959e63af893f39979",
+  "archive": "prop21.html.gz",
+  "archive_sha256": "9f900c0e620f9863937ea43a50ac57a9d135588757cd004abe68f40b06f147d0",
+  "archive_bytes": 12770,
+  "completed_utc": "2026-10-29T13:48:27.566827+00:00"
+}

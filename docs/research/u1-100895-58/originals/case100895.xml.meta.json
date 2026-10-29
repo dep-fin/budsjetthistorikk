@@ -1,0 +1,13 @@
+{
+  "id": "case100895.xml",
+  "requested_url": "https://data.stortinget.no/eksport/sak?sakid=100895",
+  "started_utc": "2026-10-29T13:47:47.447344+00:00",
+  "request_headers": {
+    "User-Agent": "budsjetthistorikk-research/58",
+    "Accept-Encoding": "identity"
+  },
+  "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+  "state": "transport_failed",
+  "error": "URLError(gaierror(11001, 'getaddrinfo failed'))",
+  "completed_utc": "2026-10-29T13:47:47.492823+00:00"
+}

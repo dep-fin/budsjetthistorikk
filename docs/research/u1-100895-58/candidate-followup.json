@@ -1,0 +1,56 @@
+{
+  "schema": "u1-candidate-followup-1",
+  "base_commit": "59485e6bb6e45dacf348451b380cf6ba3b5d8321",
+  "historical_source": "docs/research/k3-arsinventar-50/case-candidates.json",
+  "historical_identity": {
+    "session": "2024-2025",
+    "ordinal_1based": 616,
+    "case_id": "100895",
+    "recommendation_id": "16627"
+  },
+  "historical_status": "open_title_candidate",
+  "additive_status": "investigated_no_new_documented_1429_effect",
+  "budget_year": 2024,
+  "selected_accounts": [
+    "1429/1",
+    "1429/22"
+  ],
+  "direct_result": "226/229 har dokumentert annet postomfang; 227/228 andre formål og 2025-fullmakt. Ingen ny 1429-bevilgningshendelse.",
+  "indirect_result": "Ingen dokumentert 1429-postkobling innen undersøkt grunnlag. Faktiske virksomhetsvirkninger av andre poster/tjenester ogfullmaktsbruk er uavklart.",
+  "c05_result": "Lokal henvisning fulgt til vedtatt 229/40034097 på 1560/71. Faktisk bruk og overført beløp ukjent.",
+  "evidence_ids": [
+    "IDX616",
+    "P21-ch2",
+    "I87-m3",
+    "D-text-226",
+    "D-text-227",
+    "D-text-228",
+    "D-text-229",
+    "P21-OU",
+    "P21-Storwartz",
+    "Storwartz-counterpart"
+  ],
+  "historical_files_rewritten": false,
+  "historical_candidate_totals_recomputed": false,
+  "historical_totals": {
+    "index_occurrences": 67,
+    "unique_cases": 66,
+    "open_index_occurrences": 60,
+    "decision_candidates": 25,
+    "no_dictionary_hit_decisions": 2158
+  },
+  "global_gaps": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+  ],
+  "selected_monetary_events": 5,
+  "selected_decision_fields": 11,
+  "year_coverage": "partial",
+  "professional_annual_balance_approval": false,
+  "product_adoption": false
+}

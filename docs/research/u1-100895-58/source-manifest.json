@@ -1,0 +1,1479 @@
+{
+  "schema": "u1-source-manifest-1",
+  "base_commit": "59485e6bb6e45dacf348451b380cf6ba3b5d8321",
+  "rule": "Response entity bytes, no normalization; separate deterministic gzip archive. Failed DNS has no archive/response bytes. Each request has its own times.",
+  "sources": [
+    {
+      "id": "case100895-retry.xml",
+      "requested_url": "https://data.stortinget.no/eksport/sak?sakid=100895",
+      "started_utc": "2026-10-29T13:47:56.257215+00:00",
+      "request_headers": {
+        "User-Agent": "budsjetthistorikk-research/58",
+        "Accept-Encoding": "identity"
+      },
+      "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+      "state": "complete",
+      "status": 200,
+      "final_url": "https://data.stortinget.no/eksport/sak?sakid=100895",
+      "response_headers": [
+        [
+          "Cache-Control",
+          "public"
+        ],
+        [
+          "Content-Type",
+          "text/xml; charset=utf-8"
+        ],
+        [
+          "Expires",
+          "Thu, 29 Oct 2026 13:45:56 GMT"
+        ],
+        [
+          "Server",
+          "Microsoft-IIS/10.0"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=16070400; includeSubDomains"
+        ],
+        [
+          "Access-Control-Allow-Headers",
+          "content-type"
+        ],
+        [
+          "Access-Control-Allow-Origin",
+          "*"
+        ],
+        [
+          "X-Frame-Options",
+          "sameorigin"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer-when-downgrade"
+        ],
+        [
+          "Arr-Disable-Session-Affinity",
+          "true"
+        ],
+        [
+          "X-AspNet-Version",
+          "4.0.30319"
+        ],
+        [
+          "Request-Context",
+          "appId=cid-v1:f65c3fc2-55cc-4cb3-a6ec-85c3923903b8"
+        ],
+        [
+          "Access-Control-Expose-Headers",
+          "Request-Context"
+        ],
+        [
+          "X-Frame-Options",
+          "sameorigin"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "Feature-Policy",
+          "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer"
+        ],
+        [
+          "Date",
+          "Thu, 29 Oct 2026 13:47:56 GMT"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Length",
+          "16255"
+        ]
+      ],
+      "bytes": 16255,
+      "sha256": "3db6660d24337fb9e4474085dc20a985c94f7ba9c16bf928e3ee40a85c719805",
+      "archive": "originals/case100895-retry.xml.gz",
+      "archive_sha256": "f60762a4732369771255f7e0f2ef0b979bc9827ef2b04e7e9cdefbc1c2ff0ad4",
+      "archive_bytes": 2124,
+      "completed_utc": "2026-10-29T13:47:56.732455+00:00",
+      "metadata": "originals/case100895-retry.xml.meta.json",
+      "metadata_bytes": 2351,
+      "metadata_sha256": "a7835427fbab0e7d900e24f0930abe9f3eb8fa5bd45e6960417d3054bdb1decd"
+    },
+    {
+      "id": "case100895-voteringer.xml",
+      "requested_url": "https://data.stortinget.no/eksport/voteringer?sakid=100895",
+      "started_utc": "2026-10-29T13:48:34.148752+00:00",
+      "request_headers": {
+        "User-Agent": "budsjetthistorikk-research/58",
+        "Accept-Encoding": "identity"
+      },
+      "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+      "state": "complete",
+      "status": 200,
+      "final_url": "https://data.stortinget.no/eksport/voteringer?sakid=100895",
+      "response_headers": [
+        [
+          "Cache-Control",
+          "public"
+        ],
+        [
+          "Content-Type",
+          "text/xml; charset=utf-8"
+        ],
+        [
+          "Expires",
+          "Thu, 29 Oct 2026 13:46:34 GMT"
+        ],
+        [
+          "Server",
+          "Microsoft-IIS/10.0"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=16070400; includeSubDomains"
+        ],
+        [
+          "Access-Control-Allow-Headers",
+          "content-type"
+        ],
+        [
+          "Access-Control-Allow-Origin",
+          "*"
+        ],
+        [
+          "X-Frame-Options",
+          "sameorigin"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer-when-downgrade"
+        ],
+        [
+          "Arr-Disable-Session-Affinity",
+          "true"
+        ],
+        [
+          "X-AspNet-Version",
+          "4.0.30319"
+        ],
+        [
+          "Request-Context",
+          "appId=cid-v1:f65c3fc2-55cc-4cb3-a6ec-85c3923903b8"
+        ],
+        [
+          "Access-Control-Expose-Headers",
+          "Request-Context"
+        ],
+        [
+          "X-Frame-Options",
+          "sameorigin"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "Feature-Policy",
+          "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer"
+        ],
+        [
+          "Date",
+          "Thu, 29 Oct 2026 13:48:33 GMT"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Length",
+          "2328"
+        ]
+      ],
+      "bytes": 2328,
+      "sha256": "333fa5cbb8878dc7b6e1a71b6e3f0d4bedc9de08371f1fd1d294ff7e1dd26886",
+      "archive": "originals/case100895-voteringer.xml.gz",
+      "archive_sha256": "1a8ad8be2ebcb6352bf7d1e201adf16e60004666a363352e2537b20ef889e49c",
+      "archive_bytes": 768,
+      "completed_utc": "2026-10-29T13:48:34.337442+00:00",
+      "metadata": "originals/case100895-voteringer.xml.meta.json",
+      "metadata_bytes": 2372,
+      "metadata_sha256": "c678fde6d58952bef70f040ef47b4577d8c1a7269862b3da939fdcffe08dfcaf"
+    },
+    {
+      "id": "case100895.xml",
+      "requested_url": "https://data.stortinget.no/eksport/sak?sakid=100895",
+      "started_utc": "2026-10-29T13:47:47.447344+00:00",
+      "request_headers": {
+        "User-Agent": "budsjetthistorikk-research/58",
+        "Accept-Encoding": "identity"
+      },
+      "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+      "state": "transport_failed",
+      "error": "URLError(gaierror(11001, 'getaddrinfo failed'))",
+      "completed_utc": "2026-10-29T13:47:47.492823+00:00",
+      "metadata": "originals/case100895.xml.meta.json",
+      "metadata_bytes": 573,
+      "metadata_sha256": "10a6c69663bff63b531041267cfc597870b30722c9c8ea63dd062dee3120074e"
+    },
+    {
+      "id": "case100932.xml",
+      "requested_url": "https://data.stortinget.no/eksport/sak?sakid=100932",
+      "started_utc": "2026-10-29T13:48:32.967686+00:00",
+      "request_headers": {
+        "User-Agent": "budsjetthistorikk-research/58",
+        "Accept-Encoding": "identity"
+      },
+      "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+      "state": "complete",
+      "status": 200,
+      "final_url": "https://data.stortinget.no/eksport/sak?sakid=100932",
+      "response_headers": [
+        [
+          "Cache-Control",
+          "public"
+        ],
+        [
+          "Content-Type",
+          "text/xml; charset=utf-8"
+        ],
+        [
+          "Expires",
+          "Thu, 29 Oct 2026 13:46:33 GMT"
+        ],
+        [
+          "Server",
+          "Microsoft-IIS/10.0"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=16070400; includeSubDomains"
+        ],
+        [
+          "Access-Control-Allow-Headers",
+          "content-type"
+        ],
+        [
+          "Access-Control-Allow-Origin",
+          "*"
+        ],
+        [
+          "X-Frame-Options",
+          "sameorigin"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer-when-downgrade"
+        ],
+        [
+          "Arr-Disable-Session-Affinity",
+          "true"
+        ],
+        [
+          "X-AspNet-Version",
+          "4.0.30319"
+        ],
+        [
+          "Request-Context",
+          "appId=cid-v1:f65c3fc2-55cc-4cb3-a6ec-85c3923903b8"
+        ],
+        [
+          "Access-Control-Expose-Headers",
+          "Request-Context"
+        ],
+        [
+          "X-Frame-Options",
+          "sameorigin"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "Feature-Policy",
+          "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer"
+        ],
+        [
+          "Date",
+          "Thu, 29 Oct 2026 13:48:32 GMT"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Length",
+          "15295"
+        ]
+      ],
+      "bytes": 15295,
+      "sha256": "1042cd94ed1846580eaa5b28dd70e529cb9e0595e96439b837ee09b1b6d3e0d1",
+      "archive": "originals/case100932.xml.gz",
+      "archive_sha256": "512309f2311a1f6593825d336185908d1028e6c86c559dc658727987e3c3f082",
+      "archive_bytes": 2165,
+      "completed_utc": "2026-10-29T13:48:33.155116+00:00",
+      "metadata": "originals/case100932.xml.meta.json",
+      "metadata_bytes": 2339,
+      "metadata_sha256": "cf4ef83d4af4587cd63cf1003a12a70344886d4d6a4f3e56fd9d4468351b1697"
+    },
+    {
+      "id": "case100933.xml",
+      "requested_url": "https://data.stortinget.no/eksport/sak?sakid=100933",
+      "started_utc": "2026-10-29T13:48:33.281254+00:00",
+      "request_headers": {
+        "User-Agent": "budsjetthistorikk-research/58",
+        "Accept-Encoding": "identity"
+      },
+      "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+      "state": "complete",
+      "status": 200,
+      "final_url": "https://data.stortinget.no/eksport/sak?sakid=100933",
+      "response_headers": [
+        [
+          "Cache-Control",
+          "public"
+        ],
+        [
+          "Content-Type",
+          "text/xml; charset=utf-8"
+        ],
+        [
+          "Expires",
+          "Thu, 29 Oct 2026 13:46:33 GMT"
+        ],
+        [
+          "Server",
+          "Microsoft-IIS/10.0"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=16070400; includeSubDomains"
+        ],
+        [
+          "Access-Control-Allow-Headers",
+          "content-type"
+        ],
+        [
+          "Access-Control-Allow-Origin",
+          "*"
+        ],
+        [
+          "X-Frame-Options",
+          "sameorigin"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer-when-downgrade"
+        ],
+        [
+          "Arr-Disable-Session-Affinity",
+          "true"
+        ],
+        [
+          "X-AspNet-Version",
+          "4.0.30319"
+        ],
+        [
+          "Request-Context",
+          "appId=cid-v1:f65c3fc2-55cc-4cb3-a6ec-85c3923903b8"
+        ],
+        [
+          "Access-Control-Expose-Headers",
+          "Request-Context"
+        ],
+        [
+          "X-Frame-Options",
+          "sameorigin"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "Feature-Policy",
+          "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer"
+        ],
+        [
+          "Date",
+          "Thu, 29 Oct 2026 13:48:33 GMT"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Length",
+          "13910"
+        ]
+      ],
+      "bytes": 13910,
+      "sha256": "7313c36724a8ec8868ef574e443354057a9675816b87d110a7b170e2848ce6aa",
+      "archive": "originals/case100933.xml.gz",
+      "archive_sha256": "22f3b742ae0ba01082b0e86cfb6c87bd3684274c4d60824ee363502aa6219596",
+      "archive_bytes": 2144,
+      "completed_utc": "2026-10-29T13:48:34.033114+00:00",
+      "metadata": "originals/case100933.xml.meta.json",
+      "metadata_bytes": 2339,
+      "metadata_sha256": "252e5bbfcc7424c61ce2acd358d706a41bcfc9ea5db460c2c706d5107dc0fada"
+    },
+    {
+      "id": "inns87-all.html",
+      "requested_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-087s/?all=true",
+      "started_utc": "2026-10-29T13:48:27.691560+00:00",
+      "request_headers": {
+        "User-Agent": "budsjetthistorikk-research/58",
+        "Accept-Encoding": "identity"
+      },
+      "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+      "state": "complete",
+      "status": 200,
+      "final_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2024-2025/inns-202425-087s/?all=true",
+      "response_headers": [
+        [
+          "cache-control",
+          "public, must-revalidate, max-age=61811"
+        ],
+        [
+          "content-type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "expires",
+          "Fri, 30 Oct 2026 06:58:41 GMT"
+        ],
+        [
+          "last-modified",
+          "Thu, 29 Oct 2026 13:48:30 GMT"
+        ],
+        [
+          "etag",
+          "\"v1-ac26f66fb7db8e3eee279a88\""
+        ],
+        [
+          "vary",
+          "*"
+        ],
+        [
+          "set-cookie",
+          "ASP.NET_SessionId=x334fvrytljr1qcncwtsj3k2; path=/; secure; HttpOnly; SameSite=Lax"
+        ],
+        [
+          "reporting-endpoints",
+          "main-endpoint=\"/api/CspReports/ReportAsync\""
+        ],
+        [
+          "content-security-policy",
+          "default-src 'self'; child-src 'self' https://*.stortinget.no; connect-src 'self' https://*.stortinget.no https://*.cookiebot.eu https://*.cookiebot.com https://siteimproveanalytics.com https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com https://www.google.com/recaptcha/ https://stortinget.matomo.cloud https://api.dimu.org https://*.snl.no/api/ https://snl.no/api/ https://api.flickr.com/services/rest/ https://*.qbrick.com wss://*.qbrick.com https://*.dna.ip-only.net https://httpcache1.dna.ip-only.net https://ssl.p.jwpcdn.com/player/ https://*.essens.no https://cdn.tiny.cloud https://qdms.dimu.org https://httpcache1.dna.contentdelivery.net https://www.googletagmanager.com https://openseadragon.github.io https://*.dna.contentdelivery.net https://*.dna.qbrick.com https://ems.dimu.org; font-src 'self' data: https://*.stortinget.no https://script.hotjar.com https://*.qbrick.com https://siteimproveanalytics.com https://ssl.p.jwpcdn.com; frame-src 'self' https://*.stortinget.no https://*.cookiebot.eu https://*.cookiebot.com https://www.google.com/ https://*.qbrick.com https://siteimproveanalytics.com; img-src 'self' data: blob: https://*.stortinget.no https://*.cookiebot.eu https://*.cookiebot.com https://*.usercentrics.eu https://static.hotjar.com https://script.hotjar.com https://survey-images.hotjar.com https://www.googletagmanager.com/ https://mm.dimu.org/image/ http://licensebuttons.net/p/mark/1.0/80x15.png https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png https://*.static.flickr.com https://*.dna.ip-only.net https://prd.jwpltx.com https://*.amazonaws.com https://sp.tinymce.com https://ssl.essens.no https://play2.qbrick.com https://www.stortinget.no https://*.siteimproveanalytics.io https://*.dna.contentdelivery.net https://ems.dimu.org https://stortinget.matomo.cloud; manifest-src 'self'; media-src 'self' blob: https://*.stortinget.no https://*.dna.ip-only.net https://httpcache1.dna.contentdelivery.net https://*.dna.contentdelivery.net https://ems.dimu.org; object-src 'self'; script-src 'self' blob: https://*.stortinget.no https://static.hotjar.com https://script.hotjar.com https://www.googletagmanager.com/gtm.js 'unsafe-eval' https://stortinget.matomo.cloud https://*.qbrick.com https://*.dna.contentdelivery.net https://*.dna.qbrick.com https://siteimproveanalytics.com; script-src-elem 'self' 'unsafe-inline' https://openseadragon.github.io https://cdnjs.cloudflare.com https://*.cookiebot.eu https://*.cookiebot.com https://static.hotjar.com https://script.hotjar.com http://ajax.googleapis.com/ajax/libs/jquery/ https://www.googletagmanager.com https://www.gstatic.com https://www.google.com/recaptcha/ https://stortinget.matomo.cloud https://cdn.matomo.cloud/stortinget.matomo.cloud/ https://matomojs.trackify.info/ https://*.qbrick.com https://ssl.p.jwpcdn.com https://ssl.essens.no https://cdn.tiny.cloud https://siteimproveanalytics.com https://static.hotjar.com/; script-src-attr 'self' 'unsafe-inline'; style-src 'self' https://*.stortinget.no https://static.hotjar.com https://script.hotjar.com https://cdn.tiny.cloud; style-src-elem 'self' 'unsafe-inline' https://cdn.tiny.cloud https://play2.qbrick.com; style-src-attr 'self' 'unsafe-inline'; worker-src 'self' blob:; report-to main-endpoint; report-uri /api/CspReports/ReportAsync;"
+        ],
+        [
+          "request-context",
+          "appId=cid-v1:8e438a5b-7c4f-40c3-9a98-a564863acd5c"
+        ],
+        [
+          "access-control-expose-headers",
+          "Request-Context"
+        ],
+        [
+          "strict-transport-security",
+          "max-age=63072000; includeSubDomains; preload"
+        ],
+        [
+          "x-content-type-options",
+          "nosniff"
+        ],
+        [
+          "referrer-policy",
+          "strict-origin-when-cross-origin"
+        ],
+        [
+          "permissions-policy",
+          "camera=(), microphone=(), geolocation=()"
+        ],
+        [
+          "x-frame-options",
+          "SAMEORIGIN"
+        ],
+        [
+          "date",
+          "Thu, 29 Oct 2026 13:48:30 GMT"
+        ],
+        [
+          "content-length",
+          "205616"
+        ],
+        [
+          "Set-Cookie",
+          "BIGipServer~prod_Frontend~www.stortinget.no_pool_443=302849708.47873.0000; path=/; Httponly; Secure"
+        ]
+      ],
+      "bytes": 205616,
+      "sha256": "b8bef1fb5ba13df1ed9601ac45576e6066523c05fb177adac286ba1c14cfeb62",
+      "archive": "originals/inns87-all.html.gz",
+      "archive_sha256": "983d46ce0dbf8131bc293864cf410536cbc1cbaa26a203f872c9dc82af8d6471",
+      "archive_bytes": 23165,
+      "completed_utc": "2026-10-29T13:48:32.849909+00:00",
+      "metadata": "originals/inns87-all.html.meta.json",
+      "metadata_bytes": 5803,
+      "metadata_sha256": "12ff5eff3309bd95627b71d722d98cb749cc64a82294c9f41f0455e4d388ccd8"
+    },
+    {
+      "id": "prop21-ch1.html",
+      "requested_url": "https://www.regjeringen.no/no/dokumenter/prop.-21-s-20242025/id3075447/?ch=1",
+      "started_utc": "2026-10-29T13:49:06.609353+00:00",
+      "request_headers": {
+        "User-Agent": "budsjetthistorikk-research/58",
+        "Accept-Encoding": "identity"
+      },
+      "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+      "state": "complete",
+      "status": 200,
+      "final_url": "https://www.regjeringen.no/no/dokumenter/prop.-21-s-20242025/id3075447/?ch=1",
+      "response_headers": [
+        [
+          "Date",
+          "Thu, 29 Oct 2026 13:49:07 GMT"
+        ],
+        [
+          "Content-Type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "Transfer-Encoding",
+          "chunked"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Cache-Control",
+          "public,max-age=15"
+        ],
+        [
+          "Set-Cookie",
+          "ARRAffinity=4ab65a0346cca8a3aa76d4918984fb5bba5a7ce0188d2e173bcc9dbcb1d36bd2;Path=/;HttpOnly;Secure;Domain=www.regjeringen.no"
+        ],
+        [
+          "Set-Cookie",
+          "ARRAffinitySameSite=4ab65a0346cca8a3aa76d4918984fb5bba5a7ce0188d2e173bcc9dbcb1d36bd2;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.regjeringen.no"
+        ],
+        [
+          "Vary",
+          "accept-encoding"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=15552000"
+        ],
+        [
+          "Request-Context",
+          "appId=cid-v1:6f4928bd-f664-43ef-97e9-3ba28bae17d8"
+        ],
+        [
+          "X-XSS-Protection",
+          "1; mode=block"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "X-Frame-Options",
+          "SAMEORIGIN"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer, same-origin"
+        ],
+        [
+          "Permissions-Policy",
+          "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+        ],
+        [
+          "cf-cache-status",
+          "BYPASS"
+        ],
+        [
+          "Server",
+          "cloudflare"
+        ],
+        [
+          "CF-RAY",
+          "a522a4468aaa1a87-CPH"
+        ],
+        [
+          "alt-svc",
+          "h3=\":443\"; ma=86400"
+        ]
+      ],
+      "bytes": 79268,
+      "sha256": "a5ce21806de9a22a444dffad26021337ad13dc59456162603ef25442583cdb43",
+      "archive": "originals/prop21-ch1.html.gz",
+      "archive_sha256": "a0bb3132a1885e2ba3b4cd1654faaad087bd6218baddbdf2c221548bdd04adeb",
+      "archive_bytes": 16170,
+      "completed_utc": "2026-10-29T13:49:06.960307+00:00",
+      "metadata": "originals/prop21-ch1.html.meta.json",
+      "metadata_bytes": 2418,
+      "metadata_sha256": "2fe1a40c4179419f5ca5ca160964438efa4172e4c6e377517f5af35fb4268100"
+    },
+    {
+      "id": "prop21-ch2.html",
+      "requested_url": "https://www.regjeringen.no/no/dokumenter/prop.-21-s-20242025/id3075447/?ch=2",
+      "started_utc": "2026-10-29T13:49:38.060427+00:00",
+      "request_headers": {
+        "User-Agent": "budsjetthistorikk-research/58",
+        "Accept-Encoding": "identity"
+      },
+      "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+      "state": "complete",
+      "status": 200,
+      "final_url": "https://www.regjeringen.no/no/dokumenter/prop.-21-s-20242025/id3075447/?ch=2",
+      "response_headers": [
+        [
+          "Date",
+          "Thu, 29 Oct 2026 13:49:38 GMT"
+        ],
+        [
+          "Content-Type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "Transfer-Encoding",
+          "chunked"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Cache-Control",
+          "public,max-age=15"
+        ],
+        [
+          "Set-Cookie",
+          "ARRAffinity=840e9decf1990e96921a12ab61510682796166f08e3928c475cb1e22400e99fe;Path=/;HttpOnly;Secure;Domain=www.regjeringen.no"
+        ],
+        [
+          "Set-Cookie",
+          "ARRAffinitySameSite=840e9decf1990e96921a12ab61510682796166f08e3928c475cb1e22400e99fe;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.regjeringen.no"
+        ],
+        [
+          "Vary",
+          "accept-encoding"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=15552000"
+        ],
+        [
+          "Request-Context",
+          "appId=cid-v1:6f4928bd-f664-43ef-97e9-3ba28bae17d8"
+        ],
+        [
+          "X-XSS-Protection",
+          "1; mode=block"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "X-Frame-Options",
+          "SAMEORIGIN"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer, same-origin"
+        ],
+        [
+          "Permissions-Policy",
+          "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+        ],
+        [
+          "cf-cache-status",
+          "BYPASS"
+        ],
+        [
+          "Server",
+          "cloudflare"
+        ],
+        [
+          "CF-RAY",
+          "a522a50be976b354-CPH"
+        ],
+        [
+          "alt-svc",
+          "h3=\":443\"; ma=86400"
+        ]
+      ],
+      "bytes": 111246,
+      "sha256": "4332f64be69700978585ef33ae0a75aeb73994b1c3a2ba2928f22605612208dd",
+      "archive": "originals/prop21-ch2.html.gz",
+      "archive_sha256": "88fc3ab57d1e466d2062a41698ea5dd294f9a37b31b89d4a08a34ad3c754dd17",
+      "archive_bytes": 24208,
+      "completed_utc": "2026-10-29T13:49:39.807909+00:00",
+      "metadata": "originals/prop21-ch2.html.meta.json",
+      "metadata_bytes": 2419,
+      "metadata_sha256": "27108b0a033a5bcf57d3dda70e9f8f4eae6d2e5701a3ce5d4e0d96eceb41ac51"
+    },
+    {
+      "id": "prop21-ch3.html",
+      "requested_url": "https://www.regjeringen.no/no/dokumenter/prop.-21-s-20242025/id3075447/?ch=3",
+      "started_utc": "2026-10-29T13:49:39.928533+00:00",
+      "request_headers": {
+        "User-Agent": "budsjetthistorikk-research/58",
+        "Accept-Encoding": "identity"
+      },
+      "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+      "state": "complete",
+      "status": 200,
+      "final_url": "https://www.regjeringen.no/no/dokumenter/prop.-21-s-20242025/id3075447/?ch=3",
+      "response_headers": [
+        [
+          "Date",
+          "Thu, 29 Oct 2026 13:49:41 GMT"
+        ],
+        [
+          "Content-Type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "Transfer-Encoding",
+          "chunked"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Cache-Control",
+          "public,max-age=15"
+        ],
+        [
+          "Set-Cookie",
+          "ARRAffinity=f7a339e552b408f55b8e6e319dc836bb00141ae75da7404e698db60116fd5efd;Path=/;HttpOnly;Secure;Domain=www.regjeringen.no"
+        ],
+        [
+          "Set-Cookie",
+          "ARRAffinitySameSite=f7a339e552b408f55b8e6e319dc836bb00141ae75da7404e698db60116fd5efd;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.regjeringen.no"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=15552000"
+        ],
+        [
+          "Request-Context",
+          "appId=cid-v1:6f4928bd-f664-43ef-97e9-3ba28bae17d8"
+        ],
+        [
+          "X-XSS-Protection",
+          "1; mode=block"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "X-Frame-Options",
+          "SAMEORIGIN"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer, same-origin"
+        ],
+        [
+          "Permissions-Policy",
+          "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+        ],
+        [
+          "Vary",
+          "accept-encoding"
+        ],
+        [
+          "cf-cache-status",
+          "BYPASS"
+        ],
+        [
+          "Server",
+          "cloudflare"
+        ],
+        [
+          "CF-RAY",
+          "a522a51e9c68042d-CPH"
+        ],
+        [
+          "alt-svc",
+          "h3=\":443\"; ma=86400"
+        ]
+      ],
+      "bytes": 80096,
+      "sha256": "3d4c6dbc2ca064507a7d805ebca7873c18671597f643f73473c9bdfc10897895",
+      "archive": "originals/prop21-ch3.html.gz",
+      "archive_sha256": "11b43556d901843de37740bb9751cbdc7208add8290926128d7e2c9c33985f2d",
+      "archive_bytes": 16336,
+      "completed_utc": "2026-10-29T13:49:42.531512+00:00",
+      "metadata": "originals/prop21-ch3.html.meta.json",
+      "metadata_bytes": 2418,
+      "metadata_sha256": "738617cb654e095dd6d53b346c3cd5a96c5df99f110ee0f205783759d020392a"
+    },
+    {
+      "id": "prop21-ch4.html",
+      "requested_url": "https://www.regjeringen.no/no/dokumenter/prop.-21-s-20242025/id3075447/?ch=4",
+      "started_utc": "2026-10-29T13:49:42.656375+00:00",
+      "request_headers": {
+        "User-Agent": "budsjetthistorikk-research/58",
+        "Accept-Encoding": "identity"
+      },
+      "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+      "state": "complete",
+      "status": 200,
+      "final_url": "https://www.regjeringen.no/no/dokumenter/prop.-21-s-20242025/id3075447/?ch=4",
+      "response_headers": [
+        [
+          "Date",
+          "Thu, 29 Oct 2026 13:49:43 GMT"
+        ],
+        [
+          "Content-Type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "Transfer-Encoding",
+          "chunked"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Cache-Control",
+          "public,max-age=15"
+        ],
+        [
+          "Set-Cookie",
+          "ARRAffinity=0b17d7779bdc507d6fcbe2b107dc4869465425adfabb4b2a5c7f00a3182edbbb;Path=/;HttpOnly;Secure;Domain=www.regjeringen.no"
+        ],
+        [
+          "Set-Cookie",
+          "ARRAffinitySameSite=0b17d7779bdc507d6fcbe2b107dc4869465425adfabb4b2a5c7f00a3182edbbb;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.regjeringen.no"
+        ],
+        [
+          "Vary",
+          "accept-encoding"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=15552000"
+        ],
+        [
+          "Request-Context",
+          "appId=cid-v1:6f4928bd-f664-43ef-97e9-3ba28bae17d8"
+        ],
+        [
+          "X-XSS-Protection",
+          "1; mode=block"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "X-Frame-Options",
+          "SAMEORIGIN"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer, same-origin"
+        ],
+        [
+          "Permissions-Policy",
+          "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+        ],
+        [
+          "cf-cache-status",
+          "BYPASS"
+        ],
+        [
+          "Server",
+          "cloudflare"
+        ],
+        [
+          "CF-RAY",
+          "a522a52859a9b893-CPH"
+        ],
+        [
+          "alt-svc",
+          "h3=\":443\"; ma=86400"
+        ]
+      ],
+      "bytes": 112839,
+      "sha256": "92bcc742857fcdaaf21b897004099892eb1e368ddb2dc9eb4f4e73d6c517db60",
+      "archive": "originals/prop21-ch4.html.gz",
+      "archive_sha256": "68f062e9e2b8ba3de9939cbb43a5d1e67b0441ee1e5e4e3fb679c6427e59a5a3",
+      "archive_bytes": 18080,
+      "completed_utc": "2026-10-29T13:49:44.076346+00:00",
+      "metadata": "originals/prop21-ch4.html.meta.json",
+      "metadata_bytes": 2419,
+      "metadata_sha256": "f616ffa489b43e3e375d52d219a4b61f92a559b60ef946ec26896c9dc82925cd"
+    },
+    {
+      "id": "prop21.html",
+      "requested_url": "https://www.regjeringen.no/id/PRP202420250021000DDDEPIS",
+      "started_utc": "2026-10-29T13:48:22.145336+00:00",
+      "request_headers": {
+        "User-Agent": "budsjetthistorikk-research/58",
+        "Accept-Encoding": "identity"
+      },
+      "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+      "state": "complete",
+      "status": 200,
+      "final_url": "https://www.regjeringen.no/no/dokumenter/prop.-21-s-20242025/id3075447/",
+      "response_headers": [
+        [
+          "Date",
+          "Thu, 29 Oct 2026 13:48:26 GMT"
+        ],
+        [
+          "Content-Type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "Transfer-Encoding",
+          "chunked"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Cache-Control",
+          "public,max-age=15"
+        ],
+        [
+          "Set-Cookie",
+          "ARRAffinity=0b17d7779bdc507d6fcbe2b107dc4869465425adfabb4b2a5c7f00a3182edbbb;Path=/;HttpOnly;Secure;Domain=www.regjeringen.no"
+        ],
+        [
+          "Set-Cookie",
+          "ARRAffinitySameSite=0b17d7779bdc507d6fcbe2b107dc4869465425adfabb4b2a5c7f00a3182edbbb;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.regjeringen.no"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=15552000"
+        ],
+        [
+          "Request-Context",
+          "appId=cid-v1:6f4928bd-f664-43ef-97e9-3ba28bae17d8"
+        ],
+        [
+          "X-XSS-Protection",
+          "1; mode=block"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "X-Frame-Options",
+          "SAMEORIGIN"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer, same-origin"
+        ],
+        [
+          "Permissions-Policy",
+          "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+        ],
+        [
+          "Vary",
+          "accept-encoding"
+        ],
+        [
+          "cf-cache-status",
+          "BYPASS"
+        ],
+        [
+          "Server",
+          "cloudflare"
+        ],
+        [
+          "CF-RAY",
+          "a522a34b8d400ee3-CPH"
+        ],
+        [
+          "alt-svc",
+          "h3=\":443\"; ma=86400"
+        ]
+      ],
+      "bytes": 54425,
+      "sha256": "2094a154c05ead394466abf93c4b7a3521d743034cc1761959e63af893f39979",
+      "archive": "originals/prop21.html.gz",
+      "archive_sha256": "9f900c0e620f9863937ea43a50ac57a9d135588757cd004abe68f40b06f147d0",
+      "archive_bytes": 12770,
+      "completed_utc": "2026-10-29T13:48:27.566827+00:00",
+      "metadata": "originals/prop21.html.meta.json",
+      "metadata_bytes": 2384,
+      "metadata_sha256": "350fb0779aecc5957b5e5d58b6d4f098e63c9d351fd24050b54e73b36fead291"
+    },
+    {
+      "id": "prop21.pdf",
+      "requested_url": "https://www.regjeringen.no/contentassets/91cc396c3fc2455ab6cca42f058f90a8/nn-no/pdfs/prp202420250021000dddpdfs.pdf",
+      "started_utc": "2026-10-29T13:49:07.073002+00:00",
+      "request_headers": {
+        "User-Agent": "budsjetthistorikk-research/58",
+        "Accept-Encoding": "identity"
+      },
+      "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+      "state": "complete",
+      "status": 200,
+      "final_url": "https://www.regjeringen.no/contentassets/91cc396c3fc2455ab6cca42f058f90a8/nn-no/pdfs/prp202420250021000dddpdfs.pdf",
+      "response_headers": [
+        [
+          "Date",
+          "Thu, 29 Oct 2026 13:49:07 GMT"
+        ],
+        [
+          "Content-Type",
+          "application/pdf"
+        ],
+        [
+          "Content-Length",
+          "765739"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Accept-Ranges",
+          "bytes"
+        ],
+        [
+          "cache-control",
+          "public"
+        ],
+        [
+          "etag",
+          "\"1db3b36e1c17d2b\""
+        ],
+        [
+          "expires",
+          "Thu, 29 Oct 2026 13:54:07 GMT"
+        ],
+        [
+          "Last-Modified",
+          "Wed, 20 Nov 2024 10:28:04 GMT"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=15552000"
+        ],
+        [
+          "Request-Context",
+          "appId=cid-v1:6f4928bd-f664-43ef-97e9-3ba28bae17d8"
+        ],
+        [
+          "X-XSS-Protection",
+          "1; mode=block"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "X-Frame-Options",
+          "SAMEORIGIN"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer, same-origin"
+        ],
+        [
+          "Permissions-Policy",
+          "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+        ],
+        [
+          "Vary",
+          "accept-encoding"
+        ],
+        [
+          "cf-cache-status",
+          "REVALIDATED"
+        ],
+        [
+          "Server",
+          "cloudflare"
+        ],
+        [
+          "CF-RAY",
+          "a522a4495d465419-CPH"
+        ],
+        [
+          "alt-svc",
+          "h3=\":443\"; ma=86400"
+        ]
+      ],
+      "bytes": 765739,
+      "sha256": "570215aa21c723b4a16c7fa52f4614625efad51a295875226523b0238641b8ef",
+      "archive": "originals/prop21.pdf.gz",
+      "archive_sha256": "a8c08a8ebf43fe21eb3dfdf8b28887a1627c1da94f83ecc3ddc3dce7fe17ac7d",
+      "archive_bytes": 735115,
+      "completed_utc": "2026-10-29T13:49:07.887139+00:00",
+      "metadata": "originals/prop21.pdf.meta.json",
+      "metadata_bytes": 2358,
+      "metadata_sha256": "bcc9557fba81cc9b16ddce0868e8e5ae631f89192daa6a3af664ad00a2bffe78"
+    },
+    {
+      "id": "referat-debatt5.html",
+      "requested_url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2024-2025/refs-202425-12-17/5",
+      "started_utc": "2026-10-29T13:48:34.445571+00:00",
+      "request_headers": {
+        "User-Agent": "budsjetthistorikk-research/58",
+        "Accept-Encoding": "identity"
+      },
+      "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+      "state": "complete",
+      "status": 200,
+      "final_url": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2024-2025/refs-202425-12-17/?m=5",
+      "response_headers": [
+        [
+          "cache-control",
+          "public, must-revalidate, max-age=76494"
+        ],
+        [
+          "content-type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "expires",
+          "Fri, 30 Oct 2026 11:03:31 GMT"
+        ],
+        [
+          "last-modified",
+          "Thu, 29 Oct 2026 13:48:34 GMT"
+        ],
+        [
+          "etag",
+          "\"v1-10af79f589148f67166a0c1e\""
+        ],
+        [
+          "vary",
+          "*"
+        ],
+        [
+          "set-cookie",
+          "ASP.NET_SessionId=ndb3fjgndzcbxly2pgq0fzwh; path=/; secure; HttpOnly; SameSite=Lax"
+        ],
+        [
+          "reporting-endpoints",
+          "main-endpoint=\"/api/CspReports/ReportAsync\""
+        ],
+        [
+          "content-security-policy",
+          "default-src 'self'; child-src 'self' https://*.stortinget.no; connect-src 'self' https://*.stortinget.no https://*.cookiebot.eu https://*.cookiebot.com https://siteimproveanalytics.com https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com https://www.google.com/recaptcha/ https://stortinget.matomo.cloud https://api.dimu.org https://*.snl.no/api/ https://snl.no/api/ https://api.flickr.com/services/rest/ https://*.qbrick.com wss://*.qbrick.com https://*.dna.ip-only.net https://httpcache1.dna.ip-only.net https://ssl.p.jwpcdn.com/player/ https://*.essens.no https://cdn.tiny.cloud https://qdms.dimu.org https://httpcache1.dna.contentdelivery.net https://www.googletagmanager.com https://openseadragon.github.io https://*.dna.contentdelivery.net https://*.dna.qbrick.com https://ems.dimu.org; font-src 'self' data: https://*.stortinget.no https://script.hotjar.com https://*.qbrick.com https://siteimproveanalytics.com https://ssl.p.jwpcdn.com; frame-src 'self' https://*.stortinget.no https://*.cookiebot.eu https://*.cookiebot.com https://www.google.com/ https://*.qbrick.com https://siteimproveanalytics.com; img-src 'self' data: blob: https://*.stortinget.no https://*.cookiebot.eu https://*.cookiebot.com https://*.usercentrics.eu https://static.hotjar.com https://script.hotjar.com https://survey-images.hotjar.com https://www.googletagmanager.com/ https://mm.dimu.org/image/ http://licensebuttons.net/p/mark/1.0/80x15.png https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png https://*.static.flickr.com https://*.dna.ip-only.net https://prd.jwpltx.com https://*.amazonaws.com https://sp.tinymce.com https://ssl.essens.no https://play2.qbrick.com https://www.stortinget.no https://*.siteimproveanalytics.io https://*.dna.contentdelivery.net https://ems.dimu.org https://stortinget.matomo.cloud; manifest-src 'self'; media-src 'self' blob: https://*.stortinget.no https://*.dna.ip-only.net https://httpcache1.dna.contentdelivery.net https://*.dna.contentdelivery.net https://ems.dimu.org; object-src 'self'; script-src 'self' blob: https://*.stortinget.no https://static.hotjar.com https://script.hotjar.com https://www.googletagmanager.com/gtm.js 'unsafe-eval' https://stortinget.matomo.cloud https://*.qbrick.com https://*.dna.contentdelivery.net https://*.dna.qbrick.com https://siteimproveanalytics.com; script-src-elem 'self' 'unsafe-inline' https://openseadragon.github.io https://cdnjs.cloudflare.com https://*.cookiebot.eu https://*.cookiebot.com https://static.hotjar.com https://script.hotjar.com http://ajax.googleapis.com/ajax/libs/jquery/ https://www.googletagmanager.com https://www.gstatic.com https://www.google.com/recaptcha/ https://stortinget.matomo.cloud https://cdn.matomo.cloud/stortinget.matomo.cloud/ https://matomojs.trackify.info/ https://*.qbrick.com https://ssl.p.jwpcdn.com https://ssl.essens.no https://cdn.tiny.cloud https://siteimproveanalytics.com https://static.hotjar.com/; script-src-attr 'self' 'unsafe-inline'; style-src 'self' https://*.stortinget.no https://static.hotjar.com https://script.hotjar.com https://cdn.tiny.cloud; style-src-elem 'self' 'unsafe-inline' https://cdn.tiny.cloud https://play2.qbrick.com; style-src-attr 'self' 'unsafe-inline'; worker-src 'self' blob:; report-to main-endpoint; report-uri /api/CspReports/ReportAsync;"
+        ],
+        [
+          "request-context",
+          "appId=cid-v1:8e438a5b-7c4f-40c3-9a98-a564863acd5c"
+        ],
+        [
+          "access-control-expose-headers",
+          "Request-Context"
+        ],
+        [
+          "strict-transport-security",
+          "max-age=63072000; includeSubDomains; preload"
+        ],
+        [
+          "x-content-type-options",
+          "nosniff"
+        ],
+        [
+          "referrer-policy",
+          "strict-origin-when-cross-origin"
+        ],
+        [
+          "permissions-policy",
+          "camera=(), microphone=(), geolocation=()"
+        ],
+        [
+          "x-frame-options",
+          "SAMEORIGIN"
+        ],
+        [
+          "date",
+          "Thu, 29 Oct 2026 13:48:36 GMT"
+        ],
+        [
+          "content-length",
+          "360321"
+        ],
+        [
+          "Set-Cookie",
+          "BIGipServer~prod_Frontend~www.stortinget.no_pool_443=302849708.47873.0000; path=/; Httponly; Secure"
+        ]
+      ],
+      "bytes": 360321,
+      "sha256": "11b867f78c82bb98fbf7ed5b3ae33529034cc9d5616cc47152ab8844c8565bc5",
+      "archive": "originals/referat-debatt5.html.gz",
+      "archive_sha256": "4c300b6b0e64713774824102e57874544b3514014fdc3e66e344cfdcc0486be8",
+      "archive_bytes": 32427,
+      "completed_utc": "2026-10-29T13:48:37.470171+00:00",
+      "metadata": "originals/referat-debatt5.html.meta.json",
+      "metadata_bytes": 5794,
+      "metadata_sha256": "d96e845e9c79c2a73f3b8ff369706b3226e142f4112c8d00b75cf5c88e3900c3"
+    },
+    {
+      "id": "vot23886-forslag.xml",
+      "requested_url": "https://data.stortinget.no/eksport/voteringsforslag?voteringid=23886",
+      "started_utc": "2026-10-29T13:49:07.993108+00:00",
+      "request_headers": {
+        "User-Agent": "budsjetthistorikk-research/58",
+        "Accept-Encoding": "identity"
+      },
+      "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+      "state": "complete",
+      "status": 200,
+      "final_url": "https://data.stortinget.no/eksport/voteringsforslag?voteringid=23886",
+      "response_headers": [
+        [
+          "Cache-Control",
+          "public"
+        ],
+        [
+          "Content-Type",
+          "text/xml; charset=utf-8"
+        ],
+        [
+          "Expires",
+          "Thu, 29 Oct 2026 13:47:08 GMT"
+        ],
+        [
+          "Server",
+          "Microsoft-IIS/10.0"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=16070400; includeSubDomains"
+        ],
+        [
+          "Access-Control-Allow-Headers",
+          "content-type"
+        ],
+        [
+          "Access-Control-Allow-Origin",
+          "*"
+        ],
+        [
+          "X-Frame-Options",
+          "sameorigin"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer-when-downgrade"
+        ],
+        [
+          "Arr-Disable-Session-Affinity",
+          "true"
+        ],
+        [
+          "X-AspNet-Version",
+          "4.0.30319"
+        ],
+        [
+          "Request-Context",
+          "appId=cid-v1:f65c3fc2-55cc-4cb3-a6ec-85c3923903b8"
+        ],
+        [
+          "Access-Control-Expose-Headers",
+          "Request-Context"
+        ],
+        [
+          "X-Frame-Options",
+          "sameorigin"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "Feature-Policy",
+          "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer"
+        ],
+        [
+          "Date",
+          "Thu, 29 Oct 2026 13:49:08 GMT"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Length",
+          "47296"
+        ]
+      ],
+      "bytes": 47296,
+      "sha256": "35a0f934b3d17692c08f9d2a81c93b79850b6349daa53486f782aa3a7b8baaf1",
+      "archive": "originals/vot23886-forslag.xml.gz",
+      "archive_sha256": "85077832e2b8486206b4472da52fb51216366286fccffda00f45f84569c79aea",
+      "archive_bytes": 2890,
+      "completed_utc": "2026-10-29T13:49:08.440451+00:00",
+      "metadata": "originals/vot23886-forslag.xml.meta.json",
+      "metadata_bytes": 2385,
+      "metadata_sha256": "8d05d0602ae08cc017cd84825fd67814bae1dd7152fb36751f287b618306fbc2"
+    },
+    {
+      "id": "vot23886-vedtak.xml",
+      "requested_url": "https://data.stortinget.no/eksport/voteringsvedtak?voteringid=23886",
+      "started_utc": "2026-10-29T13:49:08.554889+00:00",
+      "request_headers": {
+        "User-Agent": "budsjetthistorikk-research/58",
+        "Accept-Encoding": "identity"
+      },
+      "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+      "state": "complete",
+      "status": 200,
+      "final_url": "https://data.stortinget.no/eksport/voteringsvedtak?voteringid=23886",
+      "response_headers": [
+        [
+          "Cache-Control",
+          "public"
+        ],
+        [
+          "Content-Type",
+          "text/xml; charset=utf-8"
+        ],
+        [
+          "Expires",
+          "Thu, 29 Oct 2026 13:47:08 GMT"
+        ],
+        [
+          "Server",
+          "Microsoft-IIS/10.0"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=16070400; includeSubDomains"
+        ],
+        [
+          "Access-Control-Allow-Headers",
+          "content-type"
+        ],
+        [
+          "Access-Control-Allow-Origin",
+          "*"
+        ],
+        [
+          "X-Frame-Options",
+          "sameorigin"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer-when-downgrade"
+        ],
+        [
+          "Arr-Disable-Session-Affinity",
+          "true"
+        ],
+        [
+          "X-AspNet-Version",
+          "4.0.30319"
+        ],
+        [
+          "Request-Context",
+          "appId=cid-v1:f65c3fc2-55cc-4cb3-a6ec-85c3923903b8"
+        ],
+        [
+          "Access-Control-Expose-Headers",
+          "Request-Context"
+        ],
+        [
+          "X-Frame-Options",
+          "sameorigin"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "Feature-Policy",
+          "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer"
+        ],
+        [
+          "Date",
+          "Thu, 29 Oct 2026 13:49:08 GMT"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Length",
+          "1948"
+        ]
+      ],
+      "bytes": 1948,
+      "sha256": "8a5ca45756e2f8973e4f86f6e81ac1822fd99bb877b23b9ed8adc942d1622482",
+      "archive": "originals/vot23886-vedtak.xml.gz",
+      "archive_sha256": "d7fc21c245d49c7ac22296ebbdcdfc086c9b0743ba10c20ae7549858de4b6105",
+      "archive_bytes": 380,
+      "completed_utc": "2026-10-29T13:49:08.708273+00:00",
+      "metadata": "originals/vot23886-vedtak.xml.meta.json",
+      "metadata_bytes": 2378,
+      "metadata_sha256": "ba3d20465197000041933de152d823d9fb4d0c4f20695dba64a92e67b0948ec4"
+    }
+  ]
+}

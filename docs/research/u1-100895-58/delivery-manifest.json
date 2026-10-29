@@ -1,0 +1,313 @@
+{
+  "schema": "u1-delivery-manifest-1",
+  "base_commit": "59485e6bb6e45dacf348451b380cf6ba3b5d8321",
+  "boundary": "Builder research files and two additive pointers. Manifest itself and independent reviews excluded. No commit/CI/merge attestation.",
+  "files": [
+    {
+      "path": "docs/research/u1-100895-58/.gitattributes",
+      "representation": "exact-bytes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "docs/research/u1-100895-58/acquire.py",
+      "representation": "exact-bytes",
+      "bytes": 2912,
+      "sha256": "3c4d302d16a984ab30072f183e6266da1edfd46b59154cba1db7b97780942cc6"
+    },
+    {
+      "path": "docs/research/u1-100895-58/candidate-followup.json",
+      "representation": "exact-bytes",
+      "bytes": 1703,
+      "sha256": "bc8fd8f2a3b6574e380c9fed4ae12628c71b8885eb3cc58c6bbf7444c33afd45"
+    },
+    {
+      "path": "docs/research/u1-100895-58/context-snapshot.json",
+      "representation": "exact-bytes",
+      "bytes": 281982,
+      "sha256": "45f14e1c19ebd0eafc80b686e43a71955a6bc14591fa8835f2e8c996221170c2"
+    },
+    {
+      "path": "docs/research/u1-100895-58/contract.md",
+      "representation": "exact-bytes",
+      "bytes": 2081,
+      "sha256": "77fb368a590b1fa73f1b5a27a3f0eb3f949ead1bd5f78fbca031d77a2a601932"
+    },
+    {
+      "path": "docs/research/u1-100895-58/cross-reference-journal.json",
+      "representation": "exact-bytes",
+      "bytes": 6182,
+      "sha256": "6d433204bbc19b3a37fa4522a2fa8c25716aaf6c00114756d2396af95b6b5940"
+    },
+    {
+      "path": "docs/research/u1-100895-58/evidence.json",
+      "representation": "exact-bytes",
+      "bytes": 230033,
+      "sha256": "20d9bc0779afaa56d3e0d1d07b90c6179e5b7da330da6377f34b0f0a10629881"
+    },
+    {
+      "path": "docs/research/u1-100895-58/local-checks.json",
+      "representation": "exact-bytes",
+      "bytes": 1745,
+      "sha256": "468e2dd8ec98e73a2c843aec3953439c34e583b243fa62cf104d052a4bf38157"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/case100895-retry.xml.gz",
+      "representation": "exact-bytes",
+      "bytes": 2124,
+      "sha256": "f60762a4732369771255f7e0f2ef0b979bc9827ef2b04e7e9cdefbc1c2ff0ad4"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/case100895-retry.xml.meta.json",
+      "representation": "exact-bytes",
+      "bytes": 2351,
+      "sha256": "a7835427fbab0e7d900e24f0930abe9f3eb8fa5bd45e6960417d3054bdb1decd"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/case100895-voteringer.xml.gz",
+      "representation": "exact-bytes",
+      "bytes": 768,
+      "sha256": "1a8ad8be2ebcb6352bf7d1e201adf16e60004666a363352e2537b20ef889e49c"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/case100895-voteringer.xml.meta.json",
+      "representation": "exact-bytes",
+      "bytes": 2372,
+      "sha256": "c678fde6d58952bef70f040ef47b4577d8c1a7269862b3da939fdcffe08dfcaf"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/case100895.xml.meta.json",
+      "representation": "exact-bytes",
+      "bytes": 573,
+      "sha256": "10a6c69663bff63b531041267cfc597870b30722c9c8ea63dd062dee3120074e"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/case100932.xml.gz",
+      "representation": "exact-bytes",
+      "bytes": 2165,
+      "sha256": "512309f2311a1f6593825d336185908d1028e6c86c559dc658727987e3c3f082"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/case100932.xml.meta.json",
+      "representation": "exact-bytes",
+      "bytes": 2339,
+      "sha256": "cf4ef83d4af4587cd63cf1003a12a70344886d4d6a4f3e56fd9d4468351b1697"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/case100933.xml.gz",
+      "representation": "exact-bytes",
+      "bytes": 2144,
+      "sha256": "22f3b742ae0ba01082b0e86cfb6c87bd3684274c4d60824ee363502aa6219596"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/case100933.xml.meta.json",
+      "representation": "exact-bytes",
+      "bytes": 2339,
+      "sha256": "252e5bbfcc7424c61ce2acd358d706a41bcfc9ea5db460c2c706d5107dc0fada"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/inns87-all.html.gz",
+      "representation": "exact-bytes",
+      "bytes": 23165,
+      "sha256": "983d46ce0dbf8131bc293864cf410536cbc1cbaa26a203f872c9dc82af8d6471"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/inns87-all.html.meta.json",
+      "representation": "exact-bytes",
+      "bytes": 5803,
+      "sha256": "12ff5eff3309bd95627b71d722d98cb749cc64a82294c9f41f0455e4d388ccd8"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/prop21-ch1.html.gz",
+      "representation": "exact-bytes",
+      "bytes": 16170,
+      "sha256": "a0bb3132a1885e2ba3b4cd1654faaad087bd6218baddbdf2c221548bdd04adeb"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/prop21-ch1.html.meta.json",
+      "representation": "exact-bytes",
+      "bytes": 2418,
+      "sha256": "2fe1a40c4179419f5ca5ca160964438efa4172e4c6e377517f5af35fb4268100"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/prop21-ch2.html.gz",
+      "representation": "exact-bytes",
+      "bytes": 24208,
+      "sha256": "88fc3ab57d1e466d2062a41698ea5dd294f9a37b31b89d4a08a34ad3c754dd17"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/prop21-ch2.html.meta.json",
+      "representation": "exact-bytes",
+      "bytes": 2419,
+      "sha256": "27108b0a033a5bcf57d3dda70e9f8f4eae6d2e5701a3ce5d4e0d96eceb41ac51"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/prop21-ch3.html.gz",
+      "representation": "exact-bytes",
+      "bytes": 16336,
+      "sha256": "11b43556d901843de37740bb9751cbdc7208add8290926128d7e2c9c33985f2d"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/prop21-ch3.html.meta.json",
+      "representation": "exact-bytes",
+      "bytes": 2418,
+      "sha256": "738617cb654e095dd6d53b346c3cd5a96c5df99f110ee0f205783759d020392a"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/prop21-ch4.html.gz",
+      "representation": "exact-bytes",
+      "bytes": 18080,
+      "sha256": "68f062e9e2b8ba3de9939cbb43a5d1e67b0441ee1e5e4e3fb679c6427e59a5a3"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/prop21-ch4.html.meta.json",
+      "representation": "exact-bytes",
+      "bytes": 2419,
+      "sha256": "f616ffa489b43e3e375d52d219a4b61f92a559b60ef946ec26896c9dc82925cd"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/prop21.html.gz",
+      "representation": "exact-bytes",
+      "bytes": 12770,
+      "sha256": "9f900c0e620f9863937ea43a50ac57a9d135588757cd004abe68f40b06f147d0"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/prop21.html.meta.json",
+      "representation": "exact-bytes",
+      "bytes": 2384,
+      "sha256": "350fb0779aecc5957b5e5d58b6d4f098e63c9d351fd24050b54e73b36fead291"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/prop21.pdf.gz",
+      "representation": "exact-bytes",
+      "bytes": 735115,
+      "sha256": "a8c08a8ebf43fe21eb3dfdf8b28887a1627c1da94f83ecc3ddc3dce7fe17ac7d"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/prop21.pdf.meta.json",
+      "representation": "exact-bytes",
+      "bytes": 2358,
+      "sha256": "bcc9557fba81cc9b16ddce0868e8e5ae631f89192daa6a3af664ad00a2bffe78"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/referat-debatt5.html.gz",
+      "representation": "exact-bytes",
+      "bytes": 32427,
+      "sha256": "4c300b6b0e64713774824102e57874544b3514014fdc3e66e344cfdcc0486be8"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/referat-debatt5.html.meta.json",
+      "representation": "exact-bytes",
+      "bytes": 5794,
+      "sha256": "d96e845e9c79c2a73f3b8ff369706b3226e142f4112c8d00b75cf5c88e3900c3"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/vot23886-forslag.xml.gz",
+      "representation": "exact-bytes",
+      "bytes": 2890,
+      "sha256": "85077832e2b8486206b4472da52fb51216366286fccffda00f45f84569c79aea"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/vot23886-forslag.xml.meta.json",
+      "representation": "exact-bytes",
+      "bytes": 2385,
+      "sha256": "8d05d0602ae08cc017cd84825fd67814bae1dd7152fb36751f287b618306fbc2"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/vot23886-vedtak.xml.gz",
+      "representation": "exact-bytes",
+      "bytes": 380,
+      "sha256": "d7fc21c245d49c7ac22296ebbdcdfc086c9b0743ba10c20ae7549858de4b6105"
+    },
+    {
+      "path": "docs/research/u1-100895-58/originals/vot23886-vedtak.xml.meta.json",
+      "representation": "exact-bytes",
+      "bytes": 2378,
+      "sha256": "ba3d20465197000041933de152d823d9fb4d0c4f20695dba64a92e67b0948ec4"
+    },
+    {
+      "path": "docs/research/u1-100895-58/OVERLEVERING.md",
+      "representation": "exact-bytes",
+      "bytes": 1874,
+      "sha256": "8ea85f843ab81c4e8b4a9654f284973995c0bee3c613210dec38e1b84128d479"
+    },
+    {
+      "path": "docs/research/u1-100895-58/preserved-files.json",
+      "representation": "exact-bytes",
+      "bytes": 277710,
+      "sha256": "6d9850576f3ad97a191f89e6cc1effda9ce0903b53b0d0387033d866f6ce64e4"
+    },
+    {
+      "path": "docs/research/u1-100895-58/reading-journal.md",
+      "representation": "exact-bytes",
+      "bytes": 5311,
+      "sha256": "405ef8174707d31d53b7bd8b240ba6a636da6feffd2e1a1db6f863771c999e4e"
+    },
+    {
+      "path": "docs/research/u1-100895-58/README.md",
+      "representation": "exact-bytes",
+      "bytes": 8163,
+      "sha256": "b83c6480ab8419c9e5aed0822226658c035d1d94e008bbfeec7fc6ed5a8a3503"
+    },
+    {
+      "path": "docs/research/u1-100895-58/reproduksjon.md",
+      "representation": "exact-bytes",
+      "bytes": 3846,
+      "sha256": "f7a20486f1ff3723434c1b7ec4f91ca5e2a415389ae2556639efa76b5398119c"
+    },
+    {
+      "path": "docs/research/u1-100895-58/reused-sources.json",
+      "representation": "exact-bytes",
+      "bytes": 4295,
+      "sha256": "12311263beabe510277747e6ab4b0a8a8b6e0ff2ed0e4fed72729cb824f2a1ec"
+    },
+    {
+      "path": "docs/research/u1-100895-58/source-comparison.json",
+      "representation": "exact-bytes",
+      "bytes": 1965,
+      "sha256": "9a185b3a18e6fe8a8d8743bb1103bdd12e6b7e22feb65872f8798a0fcda9b8cc"
+    },
+    {
+      "path": "docs/research/u1-100895-58/source-manifest.json",
+      "representation": "exact-bytes",
+      "bytes": 49613,
+      "sha256": "c1ed5adf37b94dfff5d1785d18f92c7452833a6c0dcf67ab001ed8dae6b0bfd5"
+    },
+    {
+      "path": "docs/research/u1-100895-58/table-comparison.json",
+      "representation": "exact-bytes",
+      "bytes": 99183,
+      "sha256": "7ef8682968d8d76b2938e8affe4e0db4cf21ac280ac8e3db3f553d0dc8729e42"
+    },
+    {
+      "path": "docs/research/u1-100895-58/treatment-ledger.json",
+      "representation": "exact-bytes",
+      "bytes": 10894,
+      "sha256": "d7d2d36d12e765bfdef768e499cec52385d92286614a6cf29971f04110dbeb0a"
+    },
+    {
+      "path": "docs/research/u1-100895-58/verification.json",
+      "representation": "exact-bytes",
+      "bytes": 2373,
+      "sha256": "09c7eb65fe76c1da2c81010ce44359a753b82ac65d514888a0b68cc0143e70e5"
+    },
+    {
+      "path": "docs/research/u1-100895-58/verify.py",
+      "representation": "exact-bytes",
+      "bytes": 13326,
+      "sha256": "0276c45b70ad8d88f73deef307275d6b41a91ad1db9f1a675b34b795c22c500a"
+    },
+    {
+      "path": "AGENTS.md",
+      "representation": "utf-8-lf",
+      "bytes": 8176,
+      "sha256": "a5c5f5194a4fbe8a890517e3a42824705205d44e33fdc3d6b5f314b7f6ef4fac"
+    },
+    {
+      "path": "docs/kildefunn.md",
+      "representation": "utf-8-lf",
+      "bytes": 63368,
+      "sha256": "e81fc872541af8a8b5a2403d53a48bc029fbc3fa4f682bf4e56b7c9d94e111de"
+    }
+  ]
+}

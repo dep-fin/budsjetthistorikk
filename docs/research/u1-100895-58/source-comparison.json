@@ -1,0 +1,61 @@
+{
+  "schema": "u1-source-comparison-1",
+  "comparisons": [
+    {
+      "number": 226,
+      "id": "40034094",
+      "case_id": "100895",
+      "canonicalization": "lxml C14N1.0 inclusive, comments false; element only, tail excluded",
+      "canonical_bytes": 41578,
+      "canonical_sha256": "b6fac2a55dd4b3da902cc49241384f9a9f249c80e53a71a810ded1cf7f58c89b",
+      "equal": true,
+      "sources": [
+        "K3-decisions",
+        "old-decisions"
+      ],
+      "xpath": "//s:stortingsvedtak[s:stortingsvedtak_nummer=\"226\"]"
+    },
+    {
+      "number": 227,
+      "id": "40034095",
+      "case_id": "100895",
+      "canonicalization": "lxml C14N1.0 inclusive, comments false; element only, tail excluded",
+      "canonical_bytes": 1847,
+      "canonical_sha256": "6137fda2dea560dec84451065b8b42f84a9dc53a3b0017a7cb19f7bbf37b39ff",
+      "equal": true,
+      "sources": [
+        "K3-decisions",
+        "old-decisions"
+      ],
+      "xpath": "//s:stortingsvedtak[s:stortingsvedtak_nummer=\"227\"]"
+    },
+    {
+      "number": 228,
+      "id": "40034096",
+      "case_id": "100895",
+      "canonicalization": "lxml C14N1.0 inclusive, comments false; element only, tail excluded",
+      "canonical_bytes": 1886,
+      "canonical_sha256": "8de658ff6d2130daea3525e7caae10aa90d1c347006ec6cb6c227ee5e8cab073",
+      "equal": true,
+      "sources": [
+        "K3-decisions",
+        "old-decisions"
+      ],
+      "xpath": "//s:stortingsvedtak[s:stortingsvedtak_nummer=\"228\"]"
+    },
+    {
+      "number": 229,
+      "id": "40034097",
+      "case_id": "100895",
+      "canonicalization": "lxml C14N1.0 inclusive, comments false; element only, tail excluded",
+      "canonical_bytes": 1448,
+      "canonical_sha256": "59ef1d9686c0be95b1a777ed58641c79a200c062af537d98ee6ce8c776b09067",
+      "equal": true,
+      "sources": [
+        "K3-decisions",
+        "old-decisions"
+      ],
+      "xpath": "//s:stortingsvedtak[s:stortingsvedtak_nummer=\"229\"]"
+    }
+  ]
+}

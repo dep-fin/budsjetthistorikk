@@ -1,0 +1,59 @@
+{
+  "schema": "u1-local-checks-1",
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\.venv\\Scripts\\python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "."
+      ],
+      "started_utc": "2026-10-29T14:09:20.785184+00:00",
+      "completed_utc": "2026-10-29T14:09:20.920497+00:00",
+      "exit_code": 0,
+      "stdout": "All checks passed!\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\.venv\\Scripts\\python.exe",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "."
+      ],
+      "started_utc": "2026-10-29T14:09:20.920497+00:00",
+      "completed_utc": "2026-10-29T14:09:21.054659+00:00",
+      "exit_code": 0,
+      "stdout": "149 files already formatted\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\.venv\\Scripts\\python.exe",
+        "-m",
+        "mypy"
+      ],
+      "started_utc": "2026-10-29T14:09:21.054659+00:00",
+      "completed_utc": "2026-10-29T14:09:27.205853+00:00",
+      "exit_code": 0,
+      "stdout": "Success: no issues found in 81 source files\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "started_utc": "2026-10-29T14:09:27.205853+00:00",
+      "completed_utc": "2026-10-29T14:09:27.260000+00:00",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "boundary": "Full repository static checks and tracked whitespace. No local full pytest; unchanged full Linux CI remains orchestrator gate."
+}

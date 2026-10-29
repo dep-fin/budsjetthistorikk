@@ -1,0 +1,105 @@
+{
+  "id": "prop21.pdf",
+  "requested_url": "https://www.regjeringen.no/contentassets/91cc396c3fc2455ab6cca42f058f90a8/nn-no/pdfs/prp202420250021000dddpdfs.pdf",
+  "started_utc": "2026-10-29T13:49:07.073002+00:00",
+  "request_headers": {
+    "User-Agent": "budsjetthistorikk-research/58",
+    "Accept-Encoding": "identity"
+  },
+  "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+  "state": "complete",
+  "status": 200,
+  "final_url": "https://www.regjeringen.no/contentassets/91cc396c3fc2455ab6cca42f058f90a8/nn-no/pdfs/prp202420250021000dddpdfs.pdf",
+  "response_headers": [
+    [
+      "Date",
+      "Thu, 29 Oct 2026 13:49:07 GMT"
+    ],
+    [
+      "Content-Type",
+      "application/pdf"
+    ],
+    [
+      "Content-Length",
+      "765739"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Accept-Ranges",
+      "bytes"
+    ],
+    [
+      "cache-control",
+      "public"
+    ],
+    [
+      "etag",
+      "\"1db3b36e1c17d2b\""
+    ],
+    [
+      "expires",
+      "Thu, 29 Oct 2026 13:54:07 GMT"
+    ],
+    [
+      "Last-Modified",
+      "Wed, 20 Nov 2024 10:28:04 GMT"
+    ],
+    [
+      "Strict-Transport-Security",
+      "max-age=15552000"
+    ],
+    [
+      "Request-Context",
+      "appId=cid-v1:6f4928bd-f664-43ef-97e9-3ba28bae17d8"
+    ],
+    [
+      "X-XSS-Protection",
+      "1; mode=block"
+    ],
+    [
+      "X-Content-Type-Options",
+      "nosniff"
+    ],
+    [
+      "X-Frame-Options",
+      "SAMEORIGIN"
+    ],
+    [
+      "Referrer-Policy",
+      "no-referrer, same-origin"
+    ],
+    [
+      "Permissions-Policy",
+      "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+    ],
+    [
+      "Vary",
+      "accept-encoding"
+    ],
+    [
+      "cf-cache-status",
+      "REVALIDATED"
+    ],
+    [
+      "Server",
+      "cloudflare"
+    ],
+    [
+      "CF-RAY",
+      "a522a4495d465419-CPH"
+    ],
+    [
+      "alt-svc",
+      "h3=\":443\"; ma=86400"
+    ]
+  ],
+  "bytes": 765739,
+  "sha256": "570215aa21c723b4a16c7fa52f4614625efad51a295875226523b0238641b8ef",
+  "archive": "prop21.pdf.gz",
+  "archive_sha256": "a8c08a8ebf43fe21eb3dfdf8b28887a1627c1da94f83ecc3ddc3dce7fe17ac7d",
+  "archive_bytes": 735115,
+  "completed_utc": "2026-10-29T13:49:07.887139+00:00"
+}

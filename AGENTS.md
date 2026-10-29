@@ -20,6 +20,8 @@ Før sak 101000, 2024-lønnskompensasjon for 1429 eller overføringsfullmakt 429
 
 Før perioderegister-r2-1: les [P2-kontrakten](docs/perioderegister-r2.md) og [P2-kilde-/filkontrollen](docs/research/perioderegister-r2-56/README.md). Tre avgrensede R2-grener legges til én uendret P1-basis; historisk kandidatstatus og ny 101000-oppfølging vises separat. Gjeldende leveringsstatus står i #56.
 
+Før sak 100895 eller R2s C05: les [U1-kildeundersøkelsen](docs/research/u1-100895-58/README.md). 229 gjelder stikkord på 1560/71; ingen ny dokumentert 1429-postvirkning. Søstersakene og faktisk fullmaktsbruk har egne bevisgrenser. Pinnede registre beholdes.
+
 ## Agent skills
 
 ### Issue tracker

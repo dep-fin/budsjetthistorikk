@@ -1,0 +1,105 @@
+{
+  "id": "vot23886-forslag.xml",
+  "requested_url": "https://data.stortinget.no/eksport/voteringsforslag?voteringid=23886",
+  "started_utc": "2026-10-29T13:49:07.993108+00:00",
+  "request_headers": {
+    "User-Agent": "budsjetthistorikk-research/58",
+    "Accept-Encoding": "identity"
+  },
+  "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+  "state": "complete",
+  "status": 200,
+  "final_url": "https://data.stortinget.no/eksport/voteringsforslag?voteringid=23886",
+  "response_headers": [
+    [
+      "Cache-Control",
+      "public"
+    ],
+    [
+      "Content-Type",
+      "text/xml; charset=utf-8"
+    ],
+    [
+      "Expires",
+      "Thu, 29 Oct 2026 13:47:08 GMT"
+    ],
+    [
+      "Server",
+      "Microsoft-IIS/10.0"
+    ],
+    [
+      "Strict-Transport-Security",
+      "max-age=16070400; includeSubDomains"
+    ],
+    [
+      "Access-Control-Allow-Headers",
+      "content-type"
+    ],
+    [
+      "Access-Control-Allow-Origin",
+      "*"
+    ],
+    [
+      "X-Frame-Options",
+      "sameorigin"
+    ],
+    [
+      "X-Content-Type-Options",
+      "nosniff"
+    ],
+    [
+      "Referrer-Policy",
+      "no-referrer-when-downgrade"
+    ],
+    [
+      "Arr-Disable-Session-Affinity",
+      "true"
+    ],
+    [
+      "X-AspNet-Version",
+      "4.0.30319"
+    ],
+    [
+      "Request-Context",
+      "appId=cid-v1:f65c3fc2-55cc-4cb3-a6ec-85c3923903b8"
+    ],
+    [
+      "Access-Control-Expose-Headers",
+      "Request-Context"
+    ],
+    [
+      "X-Frame-Options",
+      "sameorigin"
+    ],
+    [
+      "X-Content-Type-Options",
+      "nosniff"
+    ],
+    [
+      "Feature-Policy",
+      "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
+    ],
+    [
+      "Referrer-Policy",
+      "no-referrer"
+    ],
+    [
+      "Date",
+      "Thu, 29 Oct 2026 13:49:08 GMT"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Content-Length",
+      "47296"
+    ]
+  ],
+  "bytes": 47296,
+  "sha256": "35a0f934b3d17692c08f9d2a81c93b79850b6349daa53486f782aa3a7b8baaf1",
+  "archive": "vot23886-forslag.xml.gz",
+  "archive_sha256": "85077832e2b8486206b4472da52fb51216366286fccffda00f45f84569c79aea",
+  "archive_bytes": 2890,
+  "completed_utc": "2026-10-29T13:49:08.440451+00:00"
+}

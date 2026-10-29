@@ -1,0 +1,308 @@
+{
+  "schema": "u1-treatment-ledger-1",
+  "base_commit": "59485e6bb6e45dacf348451b380cf6ba3b5d8321",
+  "boundary": "Forskning om 100895/C05;ingen produktadopsjon, årsaksept eller faktisk 231/429-undersøkelse.",
+  "rows": [
+    {
+      "id": "U01",
+      "budget_year": null,
+      "accounts": [],
+      "role": "saksidentitet_og_forgrening",
+      "status": "undersøkt_hovedsak_og_avgrenset_søsteridentitet",
+      "evidence_ids": [
+        "IDX616",
+        "case100895-retry.xml",
+        "case100932.xml",
+        "case100933.xml",
+        "I87-m1"
+      ],
+      "finding": "100895/16627 er Prop. 21 unntatt 1541/1542/1543/1565/4565/5579/5607. 100932 går til Innst. 88 med 1541/1542/1543/5579; 100933 til Innst. 99 med 1565/4565/5607. Felles proposisjon er ikke felles postomfang.",
+      "product_adoption": false,
+      "professional_approval": "none"
+    },
+    {
+      "id": "U02",
+      "budget_year": 2024,
+      "accounts": [],
+      "role": "fulltekst_og_tabellinventar",
+      "status": "komplett_primærlesing_av_valgt_sak",
+      "evidence_ids": [
+        "P21-ch1",
+        "P21-ch2",
+        "P21-ch3",
+        "P21-ch4",
+        "I87-m1",
+        "I87-m2",
+        "I87-m3",
+        "DEBATT5",
+        "VOTE5"
+      ],
+      "finding": "Alle fire publiserte proposisjonskapitler, hele Innst. 87, debatt 5, hele voteringsblokken og fire vedtaksordlyder er lest. Forslagstabell 32 konti deles i 21 hovedsak og 11 søsterkonti; alle 21 hovedsakstrioer er eksakt like i fem behandlingsrepresentasjoner. Dette er kildekontroll, ingen produktadapter eller årsaksept.",
+      "product_adoption": false,
+      "professional_approval": "none"
+    },
+    {
+      "id": "U03",
+      "budget_year": 2024,
+      "accounts": [
+        "1500/1",
+        "1510/1",
+        "1510/22",
+        "1511/30",
+        "1520/1",
+        "1530/33",
+        "1530/36",
+        "1530/45",
+        "1531/1",
+        "1533/1",
+        "1533/45",
+        "1540/1",
+        "1550/1",
+        "1551/1",
+        "1560/72",
+        "2445/31",
+        "2445/34",
+        "2445/39",
+        "2445/45",
+        "4510/2",
+        "4510/3"
+      ],
+      "role": "vedtatt_bevilgningsendring_på_andre_konti",
+      "decision_number": 226,
+      "decision_api_id": "40034094",
+      "status": "dokumentert_annet_postomfang",
+      "evidence_ids": [
+        "P21-roman-1",
+        "I87-i",
+        "F-1",
+        "VOTE5",
+        "D-226",
+        "D-text-226"
+      ],
+      "finding": "226 s uttømmende lokale tabell har 21 før/endring/etter-trioer på navngitte andre konti. Ingen av de 21 er 1429/1 eller/22. Konklusjonen bygger på avgrenset fulltekst/tabell/vedtaksledd, ikke departementstittel eller søkeordfravær.",
+      "product_adoption": false,
+      "professional_approval": "none"
+    },
+    {
+      "id": "U04",
+      "budget_year": 2024,
+      "accounts": [
+        "1551/1"
+      ],
+      "role": "postspesifikk_stikkord_og_bevilgningskontekst",
+      "status": "dokumentert_annet_postomfang",
+      "evidence_ids": [
+        "P21-PVN",
+        "P21-roman-1",
+        "I87-i",
+        "D-text-226"
+      ],
+      "finding": "Personvernnemndas sakskostnader og usikker utbetaling i 2024 begrunner «kan overførast» i 1551/1-raden. Denne tabellens stikkord er eget annet postomfang og må ikke forveksles med IVs 1560/71.",
+      "product_adoption": false,
+      "professional_approval": "none"
+    },
+    {
+      "id": "U05",
+      "budget_year": 2024,
+      "accounts": [
+        "1560/71"
+      ],
+      "role": "regjeringsforslag_stikkordfullmakt",
+      "status": "C05_fulgt_til_komplett_behandling",
+      "evidence_ids": [
+        "C05-origin",
+        "P21-OU",
+        "P21-roman-4"
+      ],
+      "finding": "OU-midler til opplæring og utvikling av tillitsvalgte skal kunne utbetales til hovedsammenslutningene i 2025 etter tvistene i 2024. Tilskuddspost 1560/71 og angitt mottaker-/formålsomfang gir ingen dokumentert fordeling av 1429 s lønnskompensasjon.",
+      "product_adoption": false,
+      "professional_approval": "none"
+    },
+    {
+      "id": "U06",
+      "budget_year": 2024,
+      "target_year": 2025,
+      "accounts": [
+        "1560/71"
+      ],
+      "role": "vedtatt_stikkordfullmakt",
+      "decision_number": 229,
+      "decision_api_id": "40034097",
+      "proposal_id": "40077037",
+      "vote_id": "23886",
+      "status": "vedtatt_annet_postomfang_faktisk_bruk_uavklart",
+      "amount": null,
+      "evidence_ids": [
+        "P21-OU",
+        "I87-iv",
+        "F-4",
+        "case100895-voteringer.xml",
+        "vot23886-vedtak.xml",
+        "VOTE5",
+        "D-229",
+        "D-text-229"
+      ],
+      "finding": "IV → forslag 40077037 → votering 23886 → 229 gir DFD adgang i 2024 til å føye «kan overførast» til 1560/71. Intet tallfestet bevilgningsbeløp på 1429 og ingen generell FIN-overføringsfullmakt. Faktisk overført beløp/bruk er uavklart; ingen ny 2025-bevilgning opprettes.",
+      "product_adoption": false,
+      "professional_approval": "none"
+    },
+    {
+      "id": "U07",
+      "budget_year": 2024,
+      "accounts": [
+        "1560/72"
+      ],
+      "role": "vedtatt_annen_post_enn_C05",
+      "decision_number": 226,
+      "before": 44500000,
+      "delta": 7000000,
+      "after": 51500000,
+      "unit": "kroner",
+      "status": "dokumentert_annet_postomfang",
+      "evidence_ids": [
+        "P21-pensions",
+        "P21-roman-1",
+        "I87-i",
+        "D-text-226"
+      ],
+      "finding": "Pensjonskostnader for tjenestemannsorganisasjoner på 1560/72 er en annen post enn 1560/71. Økningen 7 mill. gjøres ikke til 1429-kompensasjon eller en ekstraC05-beløpshendelse.",
+      "product_adoption": false,
+      "professional_approval": "none"
+    },
+    {
+      "id": "U08",
+      "budget_year": 2025,
+      "accounts": [],
+      "role": "forpliktelsesfullmakt_med_kostnadsramme",
+      "decision_number": 227,
+      "decision_api_id": "40034095",
+      "proposal_id": "40077035",
+      "cost_frame_mill_kroner": 8531,
+      "price_date": "2025-07-01",
+      "status": "dokumentert_annet_formål_og_årsomfang",
+      "amount": null,
+      "evidence_ids": [
+        "P21-others",
+        "P21-roman-2",
+        "I87-ii",
+        "F-2",
+        "D-227",
+        "D-text-227"
+      ],
+      "finding": "Nytt regjeringskvartal byggetrinn 2 delI; oppstart/bestilling i 2025 og senere forpliktelser innen kostnadsramme. Ramme er ingen 2024-bevilgningsendring på 1429; dokumentets 2024-tittel styrer ikke fullmaktens år.",
+      "product_adoption": false,
+      "professional_approval": "none"
+    },
+    {
+      "id": "U09",
+      "budget_year": 2025,
+      "accounts": [],
+      "role": "forpliktelsesfullmakt_med_kostnadsramme",
+      "decision_number": 228,
+      "decision_api_id": "40034096",
+      "proposal_id": "40077036",
+      "cost_frame_mill_kroner": 627,
+      "price_date": "2025-07-01",
+      "status": "dokumentert_annet_formål_og_årsomfang",
+      "amount": null,
+      "evidence_ids": [
+        "P21-others",
+        "P21-roman-3",
+        "I87-iii",
+        "F-3",
+        "D-228",
+        "D-text-228"
+      ],
+      "finding": "Brukerutstyr til nytt regjeringskvartal byggetrinn 2 delI; 2025 og senere forpliktelser. Ingen ny 1429-/2024-bevilgning.",
+      "product_adoption": false,
+      "professional_approval": "none"
+    },
+    {
+      "id": "U10",
+      "budget_year": 2024,
+      "accounts": [
+        "1533/45",
+        "1400/21"
+      ],
+      "role": "dokumentert_forslagsrelasjon_mellom_poster",
+      "status": "lokal_motpost_undersøkt_ingen_belagt1429_kobling",
+      "evidence_ids": [
+        "P21-Storwartz",
+        "Storwartz-counterpart",
+        "Storwartz-chapter",
+        "Storwartz-post",
+        "D-text-226"
+      ],
+      "finding": "Rassikring Øvre Storwartz/Røros: Prop. 21 angir+10, 8 mill. 1533/45 mot 1400/21 med KLD som oppdragsgiver og Statsbygg som utfører. Prop. 16 s bevarte#kap 2-p 2 bekrefter rammeoverføringens lokale motpost. Dennes samlede−8, 8 mill. har også+2 mill. fra 1400/76. Kulturminnetema/KLD er ikke bevis for 1429/1 eller/22. Ingen ny full undersøkelse av Prop. 16 eller dens sluttvedtak hevdes.",
+      "product_adoption": false,
+      "professional_approval": "none"
+    },
+    {
+      "id": "U11",
+      "budget_year": 2024,
+      "accounts": [],
+      "role": "behandlingsutfall_og_endringsgrense",
+      "vote_id": "23886",
+      "status": "samlet_tilråding_enstemmig_vedtatt",
+      "evidence_ids": [
+        "I87-m2",
+        "I87-m3",
+        "DEBATT5",
+        "VOTE5",
+        "F-1",
+        "F-2",
+        "F-3",
+        "F-4",
+        "case100895-voteringer.xml",
+        "vot23886-vedtak.xml"
+      ],
+      "finding": "Samlet komité støtter regjeringens forslag. Sak 5: Ingen har bedt om ordet. En registrert votering 17. 12. 2024 kl 19:29:01. 44 gjelderI–IV, enstemmig. APIets−1 er ukjente/sentinel stemmetall, ikke 0 eller et oppfunnet antall. Fire tilrådingsforslag er avstemt; ingen ytterligere fremsatt/endret forslag er funnet innen dette komplette behandlingsgrunnlaget. Generell ekstern forslags-/versjonshistorikk er ikke lukket.",
+      "product_adoption": false,
+      "professional_approval": "none"
+    },
+    {
+      "id": "U12",
+      "budget_year": 2024,
+      "accounts": [
+        "1429/1",
+        "1429/22"
+      ],
+      "role": "avgrenset_postkonklusjon",
+      "status": "ingen_ny_dokumentert_direkte_eller_indirekte_postvirkning",
+      "new_selected_monetary_events": 0,
+      "evidence_ids": [
+        "P21-ch2",
+        "P21-ch4",
+        "I87-m3",
+        "D-text-226",
+        "D-text-227",
+        "D-text-228",
+        "D-text-229",
+        "P21-OU",
+        "P21-Storwartz",
+        "Storwartz-counterpart"
+      ],
+      "finding": "Kildene dokumenterer andre konkrete post-/formåls-/årsomfang. Ingen ny direkte 1429-bevilgningshendelse eller dokumentert indirekte postkobling er etablert. Faktiske virkninger av sentrale tjenester, eiendomsprosjekter, OU-tilskudd eller pensjonsordninger for Riksantikvaren er ikke dokumentert her og gjøres ikke til generell eksklusjon eller nullvirkning.",
+      "product_adoption": false,
+      "professional_approval": "none"
+    },
+    {
+      "id": "U13",
+      "budget_year": 2024,
+      "accounts": [
+        "1429/1"
+      ],
+      "role": "gjenbrukt_kjent_kontekst_uten_ny_adopsjon",
+      "status": "tidligere_R2_funn_uendret",
+      "evidence_ids": [
+        "I87-m2",
+        "FIN-salary-context",
+        "FIN-1429-chapter",
+        "FIN-1429-block"
+      ],
+      "finding": "Innst. 87 s generelle Prop. 36-henvisning gjenbruker allerede undersøkt lønnskontekst. R2/P2 s selvstendige foreslåtte/1-anslag 2796000 beholdes; det er ikke en ny verdi eller enC05-fordeling. 101000 og faktisk 231/429-anvendelse er ikke gjenåpnet.",
+      "product_adoption": false,
+      "professional_approval": "none"
+    }
+  ]
+}

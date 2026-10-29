@@ -1,0 +1,97 @@
+{
+  "id": "prop21-ch3.html",
+  "requested_url": "https://www.regjeringen.no/no/dokumenter/prop.-21-s-20242025/id3075447/?ch=3",
+  "started_utc": "2026-10-29T13:49:39.928533+00:00",
+  "request_headers": {
+    "User-Agent": "budsjetthistorikk-research/58",
+    "Accept-Encoding": "identity"
+  },
+  "representation": "HTTP response entity bytes read by Python urllib; transfer framing and TLS excluded; no text normalization; Accept-Encoding identity",
+  "state": "complete",
+  "status": 200,
+  "final_url": "https://www.regjeringen.no/no/dokumenter/prop.-21-s-20242025/id3075447/?ch=3",
+  "response_headers": [
+    [
+      "Date",
+      "Thu, 29 Oct 2026 13:49:41 GMT"
+    ],
+    [
+      "Content-Type",
+      "text/html; charset=utf-8"
+    ],
+    [
+      "Transfer-Encoding",
+      "chunked"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Cache-Control",
+      "public,max-age=15"
+    ],
+    [
+      "Set-Cookie",
+      "ARRAffinity=f7a339e552b408f55b8e6e319dc836bb00141ae75da7404e698db60116fd5efd;Path=/;HttpOnly;Secure;Domain=www.regjeringen.no"
+    ],
+    [
+      "Set-Cookie",
+      "ARRAffinitySameSite=f7a339e552b408f55b8e6e319dc836bb00141ae75da7404e698db60116fd5efd;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.regjeringen.no"
+    ],
+    [
+      "Strict-Transport-Security",
+      "max-age=15552000"
+    ],
+    [
+      "Request-Context",
+      "appId=cid-v1:6f4928bd-f664-43ef-97e9-3ba28bae17d8"
+    ],
+    [
+      "X-XSS-Protection",
+      "1; mode=block"
+    ],
+    [
+      "X-Content-Type-Options",
+      "nosniff"
+    ],
+    [
+      "X-Frame-Options",
+      "SAMEORIGIN"
+    ],
+    [
+      "Referrer-Policy",
+      "no-referrer, same-origin"
+    ],
+    [
+      "Permissions-Policy",
+      "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+    ],
+    [
+      "Vary",
+      "accept-encoding"
+    ],
+    [
+      "cf-cache-status",
+      "BYPASS"
+    ],
+    [
+      "Server",
+      "cloudflare"
+    ],
+    [
+      "CF-RAY",
+      "a522a51e9c68042d-CPH"
+    ],
+    [
+      "alt-svc",
+      "h3=\":443\"; ma=86400"
+    ]
+  ],
+  "bytes": 80096,
+  "sha256": "3d4c6dbc2ca064507a7d805ebca7873c18671597f643f73473c9bdfc10897895",
+  "archive": "prop21-ch3.html.gz",
+  "archive_sha256": "11b43556d901843de37740bb9751cbdc7208add8290926128d7e2c9c33985f2d",
+  "archive_bytes": 16336,
+  "completed_utc": "2026-10-29T13:49:42.531512+00:00"
+}

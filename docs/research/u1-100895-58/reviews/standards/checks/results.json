@@ -1,0 +1,93 @@
+{
+  "schema": "u1-standards-checks-1",
+  "base_commit": "59485e6bb6e45dacf348451b380cf6ba3b5d8321",
+  "candidate_commit": "e34b2fae67df6417807109e36eaeadc4c40c89fc",
+  "checked_utc": "2026-10-29T14:30:25.496611+00:00",
+  "changed_file_count": 52,
+  "candidate_checkout_mismatches": [],
+  "parsed_python_files": 2,
+  "commands": [
+    {
+      "command": [
+        "git",
+        "rev-parse",
+        "59485e6bb6e45dacf348451b380cf6ba3b5d8321",
+        "e34b2fae67df6417807109e36eaeadc4c40c89fc"
+      ],
+      "started_utc": "2026-10-29T14:30:21.030362+00:00",
+      "completed_utc": "2026-10-29T14:30:21.082820+00:00",
+      "exit_code": 0,
+      "stdout": "59485e6bb6e45dacf348451b380cf6ba3b5d8321\ne34b2fae67df6417807109e36eaeadc4c40c89fc\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "log",
+        "59485e6bb6e45dacf348451b380cf6ba3b5d8321..e34b2fae67df6417807109e36eaeadc4c40c89fc",
+        "--oneline"
+      ],
+      "started_utc": "2026-10-29T14:30:21.082820+00:00",
+      "completed_utc": "2026-10-29T14:30:21.139126+00:00",
+      "exit_code": 0,
+      "stdout": "e34b2fa docs: undersøk sak 100895 og C05 for 1429 i 2024 (#58)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "59485e6bb6e45dacf348451b380cf6ba3b5d8321...e34b2fae67df6417807109e36eaeadc4c40c89fc"
+      ],
+      "started_utc": "2026-10-29T14:30:21.139126+00:00",
+      "completed_utc": "2026-10-29T14:30:21.205465+00:00",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "docs/research/u1-100895-58/verify.py"
+      ],
+      "started_utc": "2026-10-29T14:30:21.205465+00:00",
+      "completed_utc": "2026-10-29T14:30:22.368377+00:00",
+      "exit_code": 0,
+      "stdout": "{\n  \"schema\": \"u1-verification-1\",\n  \"checked_utc\": \"2026-10-29T14:30:22.315045+00:00\",\n  \"base_commit\": \"59485e6bb6e45dacf348451b380cf6ba3b5d8321\",\n  \"runtime\": \"3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]\",\n  \"lxml\": [\n    6,\n    1,\n    3,\n    0\n  ],\n  \"checks\": {\n    \"transport_attempt_count\": 1,\n    \"complete_response_count\": 1,\n    \"transport_metadata_size\": 15,\n    \"transport_metadata_hash\": 15,\n    \"contract_before_source_work\": 15,\n    \"transport_time_order\": 15,\n    \"archive_size\": 14,\n    \"archive_hash\": 14,\n    \"response_size\": 14,\n    \"response_hash\": 14,\n    \"http_200\": 14,\n    \"http_content_length\": 9,\n    \"entity_representation\": 14,\n    \"complete_xml\": 6,\n    \"recorded_dns_failure\": 1,\n    \"no_fabricated_response\": 1,\n    \"complete_html_end\": 7,\n    \"complete_pdf_envelope\": 1,\n    \"reused_file\": 16,\n    \"reused_body_size\": 7,\n    \"reused_body_hash\": 7,\n    \"unique_evidence_ids\": 1,\n    \"evidence_source_hash\": 163,\n    \"evidence_unique_xpath\": 163,\n    \"evidence_exact_text\": 163,\n    \"table_unique_cell\": 116,\n    \"table_delta_raw\": 116,\n    \"table_before_after_raw\": 116,\n    \"table_monetary_syntax\": 116,\n    \"table_values\": 116,\n    \"table_arithmetic\": 116,\n    \"table_raw_post\": 116,\n    \"table_raw_meaning\": 116,\n    \"account_identity\": 116,\n    \"table_chapter_context\": 116,\n    \"table_outer_object\": 42,\n    \"full_proposal_and_split\": 1,\n    \"all_selected_stage_triples_equal\": 4,\n    \"stikkord_not_monetary_row\": 1,\n    \"unique_canonical_decision\": 8,\n    \"canonical_decision_id\": 8,\n    \"canonical_decision_case\": 8,\n    \"complete_canonical_decisions_equal\": 4,\n    \"canonical_size\": 4,\n    \"canonical_hash\": 4,\n    \"ledger_evidence_reference\": 120,\n    \"C05_scope\": 1,\n    \"cost_frame_year\": 1,\n    \"four_exact_proposal_ids\": 1,\n    \"four_exact_decision_mappings\": 1,\n    \"C05_roman_mapping\": 1,\n    \"C05_proposal_content\": 1,\n    \"unanimous_vote\": 1,\n    \"five_eleven_preserved\": 1,\n    \"no_annual_adoption\": 1,\n    \"preserved_declared_text_representation\": 163,\n    \"preserved_exact_byte_file\": 464,\n    \"only_authorized_scope_changed\": 1,\n    \"local_markdown_target\": 130,\n    \"delivery_manifest_inventory\": 1,\n    \"delivery_file\": 51\n  },\n  \"total_checks\": 2874,\n  \"failures\": 0,\n  \"boundary\": \"Offline source/locator/table/file checks; no new HTTP, product import, independent review, full CI or merge.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\.venv\\Scripts\\python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "docs/research/u1-100895-58/acquire.py",
+        "docs/research/u1-100895-58/verify.py"
+      ],
+      "started_utc": "2026-10-29T14:30:22.368377+00:00",
+      "completed_utc": "2026-10-29T14:30:22.550713+00:00",
+      "exit_code": 0,
+      "stdout": "All checks passed!\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\p1-perioderegister\\.venv\\Scripts\\python.exe",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "docs/research/u1-100895-58/acquire.py",
+        "docs/research/u1-100895-58/verify.py"
+      ],
+      "started_utc": "2026-10-29T14:30:22.550713+00:00",
+      "completed_utc": "2026-10-29T14:30:22.727403+00:00",
+      "exit_code": 0,
+      "stdout": "2 files already formatted\n",
+      "stderr": ""
+    }
+  ],
+  "boundary": "Standards review and bounded offline checks only. No new HTTP, product import, full test suite, full CI, semantic source attestation, security audit, publish or merge."
+}
