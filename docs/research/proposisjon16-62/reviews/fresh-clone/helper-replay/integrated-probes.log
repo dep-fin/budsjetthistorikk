@@ -1,0 +1,73 @@
+valid_roundtrip_capsule_counts PASS 105 added; 111 proposed; 123/6/2 union; old capsule equal
+legacy_gzip_unchanged PASS 
+strict_json_duplicate PASS Duplisert JSON-felt i frosset rapport
+strict_json_extra PASS Ukjent T5-konvolutt
+strict_json_bool_int PASS Feil type i rapportfelt
+strict_json_float_int PASS Feil type i rapportfelt
+strict_json_NaN PASS Ugyldig JSON-tall i frosset rapport
+strict_json_Infinity PASS Ugyldig JSON-tall i frosset rapport
+strict_json_negative_Infinity PASS Ugyldig JSON-tall i frosset rapport
+semantic_json_zero_amount PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_xlsx_zero_amount PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_json_zero_null PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_xlsx_zero_null PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_json_role PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_xlsx_role PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_json_year PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_xlsx_year PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_json_meaning PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_xlsx_meaning PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_json_step PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_xlsx_step PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_json_author PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_xlsx_author PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_json_raw_value PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_xlsx_raw_value PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_json_old_step PASS Visningsgrunnlaget avviker fra sine originaler/regler
+semantic_xlsx_old_step PASS Visningsgrunnlaget avviker fra sine originaler/regler
+semantic_json_branch_leak PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_xlsx_branch_leak PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_json_split_frame PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_xlsx_split_frame PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_json_false_coverage PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_xlsx_false_coverage PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_json_hidden_gaps PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_xlsx_hidden_gaps PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_json_binding PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+semantic_xlsx_binding PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+typed_original_reconstruct PASS 
+typed_rehashed_money PASS T5: basis avviker fra originaler, gammel identitet eller dekning
+typed_rehashed_false_verified_source PASS T5: kildekatalogens rolle/hash/status avviker
+typed_invalid_base64 PASS Ugyldig pilotbase64
+typed_oversize_base64 PASS Pilotbase64 overstiger bytegrensen
+unpinned_gzip_not_decompressed PASS 
+forged_verified_gzip_rejected PASS Pilotkildens status/rolle/identitet avviker fra katalogen
+xlsx_external_relationship PASS Ugyldig Excel-arkrelasjon
+xlsx_worksheet_doctype PASS DOCTYPE er ikke tillatt i Excel
+xlsx_hidden_sheet PASS T5-Excel har endret synlighet/oppsett: Forløp
+xlsx_unwanted_member PASS Excel-arkiv har uventet innhold eller kompresjonsgrense
+xlsx_style_invisible PASS P1-Excel avviker i rå OOXML-stilprofil
+xlsx_cell_formula PASS Excel-ark har ubundet XML-innhold eller ressursgrense
+xlsx_numeric_as_text PASS T5-Excel avviker i celle/stil/lenke: Forløp!G4
+xlsx_duplicate_cell PASS Excel-celler overstiger grense eller har feil rekkefølge
+C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\zipfile\__init__.py:1625: UserWarning: Duplicate name: 'xl/workbook.xml'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+xlsx_duplicate_member PASS Excel-arkiv overstiger ressursgrense eller har duplikater
+xlsx_declared_expanded_limit PASS Excel-arkiv overstiger ressursgrense eller har duplikater
+json_file_limit PASS T5-rapport overstiger 64 MiB
+theme_integrity ACCEPTED-ALTERATION Only theme dk1 changed to FFFFFF; accepted equal report; T5 status/binding fonts use theme=1 on unfilled cells
+offline_readers_no_network_sqlite PASS 
+no_clobber_json PASS Velg nytt T5-JSON-filnavn
+no_clobber_excel PASS Velg nytt T5-Excel-filnavn
+no_clobber_existing_hashes PASS 
+original_recovery PASS raw exported bytes compared where source repository path exists
+no_clobber_original_directory PASS [WinError 183] Cannot create a file when that file already exists: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-work\\integrated-probes\\originals'
+offline_cli PASS 
+atomic_no_clobber_race PASS [WinError 183] Cannot create a file when that file already exists: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-work\\integrated-probes\\tmp6_8141e4.json' -> 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-work\\integrated-probes\\publication-race.json'
+atomic_no_clobber_race_preserves_winner PASS 
+arbitrary_formula_like_long_text_literal PASS public manual-relation text, >60000 chars, actual JSON/XLSX roundtrip and ordered continuation
+ordinary_registration_missing PASS actual sync, raw storage, v2 interpretation, SQLite, analysis and XLSX
+ordinary_registration_failed PASS actual sync, raw storage, v2 interpretation, SQLite, analysis and XLSX
+ordinary_registration_corrupt PASS actual sync, raw storage, v2 interpretation, SQLite, analysis and XLSX
+ordinary_registration_contradictory PASS actual sync, raw storage, v2 interpretation, SQLite, analysis and XLSX
+{"output": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-work\\integrated-probes", "probes": 70, "unexpected_acceptances": ["theme_integrity"]}

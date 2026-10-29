@@ -1,0 +1,133 @@
+{
+  "candidate": "a08fc28dc33fa4244814dc29fbeeb5b87d4e804d",
+  "candidate_tree": "1f32d2e81f8ff76fb3365d9c0fa6592fbb64eb39",
+  "base": "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+  "working_changes_from_candidate": [],
+  "reader_inputs": [
+    {
+      "path": "analyse/proposisjon16_excel.py",
+      "bytes": 16652,
+      "sha256": "3f2a902567e1408ffb01fef625b38e98e334896b89979cdd6661caf565d4177e"
+    },
+    {
+      "path": "tests/test_proposisjon16.py",
+      "bytes": 29531,
+      "sha256": "b25f47bfa067f3a65d22f94ccc955e11880d621a6f3d1781fa0e7ca44b89a272"
+    }
+  ],
+  "existing_valid_exports": [
+    {
+      "name": "inntekt-null.xlsx",
+      "bytes": 2887284,
+      "sha256": "01378c912dd2fd5defe30fc72247858bb7aef101c02f44e6543ff83638226465",
+      "report_id": "03c4811ac324c92b134c54c7f8352dd915095e49315ea95382dc3771c37aadac"
+    }
+  ],
+  "new_valid_export": {
+    "bytes": 2887283,
+    "sha256": "e4e89940f63c92ac2d8be9ed17ac617dbfa14471310d66750381856a0311827d"
+  },
+  "numeric_zero_preserved": true,
+  "new_export_theme_unchanged": true,
+  "affected_cells": [
+    {
+      "sheet": "Inventar",
+      "cell": "M2",
+      "value": "[\"c48895cb1cc2fdc3a440505f7b4ce36697ca5cde0248781aef817f9445913e1c\",\"a90040fdefba20698c18f91e0b9905f0f4d2be5591183c248b9f346c36300d1c\",\"ea8d6f4f071e36f938eed1405957089279fe0aa9846410698cf81bc9130434e2\"]"
+    },
+    {
+      "sheet": "Inventar",
+      "cell": "N2",
+      "value": "strukturert_T5"
+    },
+    {
+      "sheet": "Kontoer",
+      "cell": "H2",
+      "value": "strukturert_T5"
+    }
+  ],
+  "theme_probes": [
+    {
+      "mutation": "srgb-white",
+      "changed_parts": [
+        "xl/theme/theme1.xml"
+      ],
+      "container_valid_capsule_unchanged": true,
+      "outcome": "rejected",
+      "detail": "T5-Excel har endret tema for farger/skrift",
+      "bytes": 2887258,
+      "sha256": "56b451b607d060a76074981f7b6564a520c6bcd76ca7c7886a1168c147d666e4"
+    },
+    {
+      "mutation": "system-white",
+      "changed_parts": [
+        "xl/theme/theme1.xml"
+      ],
+      "container_valid_capsule_unchanged": true,
+      "outcome": "rejected",
+      "detail": "T5-Excel har endret tema for farger/skrift",
+      "bytes": 2887261,
+      "sha256": "2a8d84927ea97cb4c23adda6b6382a4a4c75ae7e77c19f5b55e4aa0387aeb58d"
+    },
+    {
+      "mutation": "minor-font",
+      "changed_parts": [
+        "xl/theme/theme1.xml"
+      ],
+      "container_valid_capsule_unchanged": true,
+      "outcome": "rejected",
+      "detail": "T5-Excel har endret tema for farger/skrift",
+      "bytes": 2887268,
+      "sha256": "65092302204098a59f867ed537fbdebd351229305a45fb8a8643d11786503be5"
+    }
+  ],
+  "preserved_paths": [
+    "docs/research/proposisjon16-62/reviews/security/artifact-checks.json",
+    "docs/research/proposisjon16-62/reviews/security/artifact_checks.py",
+    "docs/research/proposisjon16-62/reviews/security/probes.py",
+    "docs/research/proposisjon16-62/reviews/security/rapport.md",
+    "docs/research/proposisjon16-62/reviews/security/results-final.json",
+    "docs/research/proposisjon16-62/reviews/security/results.json",
+    "docs/research/proposisjon16-62/reviews/security/verify_outcomes.py",
+    "docs/research/proposisjon16-62/reviews/source/cli-control.json",
+    "docs/research/proposisjon16-62/reviews/source/cli-offline.log",
+    "docs/research/proposisjon16-62/reviews/source/cli-t1.log",
+    "docs/research/proposisjon16-62/reviews/source/independent-check.log",
+    "docs/research/proposisjon16-62/reviews/source/independent-control.json",
+    "docs/research/proposisjon16-62/reviews/source/independent_check.py",
+    "docs/research/proposisjon16-62/reviews/source/pytest-selected.log",
+    "docs/research/proposisjon16-62/reviews/source/render-control.json",
+    "docs/research/proposisjon16-62/reviews/source/render.log",
+    "docs/research/proposisjon16-62/reviews/source/render_actual.mjs",
+    "docs/research/proposisjon16-62/reviews/source/report.md",
+    "docs/research/proposisjon16-62/reviews/source/visual/1533-Forløp-B1-K5.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-Forløp-B1-K5.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-Fullmakter-A1-F10.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-Fullmakter-L1-L10.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-Grenbevis-A1-G9.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-Inventar-L1-N6.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-Kontoer-A1-H6.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-T5-dekning-B1-G2.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/tekst-Fullmakter-A1-F10.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/tekst-Fullmakter-L1-L10.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/tekst-Utvalg-A1-B12.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/tomt-Utvalg-A1-B12.png",
+    "docs/research/proposisjon16-62/reviews/source/visual/utgift-Forløp-B1-K5.png",
+    "docs/research/proposisjon16-62/reviews/spec/controls.json",
+    "docs/research/proposisjon16-62/reviews/spec/controls.py",
+    "docs/research/proposisjon16-62/reviews/spec/pytest-targeted.log",
+    "docs/research/proposisjon16-62/reviews/spec/report.md",
+    "docs/research/proposisjon16-62/reviews/standards/controls.json",
+    "docs/research/proposisjon16-62/reviews/standards/controls.py",
+    "docs/research/proposisjon16-62/reviews/standards/REPORT.md",
+    "docs/research/proposisjon16-62/visual/delt-ramme.png",
+    "docs/research/proposisjon16-62/visual/grenstatus.png",
+    "docs/research/proposisjon16-62/visual/historisk-og-gjeldende.png",
+    "docs/research/proposisjon16-62/visual/inntekt-null.png",
+    "docs/research/proposisjon16-62/visual/tabell-dekning.png",
+    "docs/research/proposisjon16-62/visual/tekstkonto.png",
+    "docs/research/proposisjon16-62/visual/tomt.png",
+    "docs/research/proposisjon16-62/visual/utgift.png",
+    "tests/fixtures/t2/authentic-t1.json.gz"
+  ]
+}

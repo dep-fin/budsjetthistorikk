@@ -1,0 +1,192 @@
+{
+  "candidate": "a08fc28dc33fa4244814dc29fbeeb5b87d4e804d",
+  "counts": {
+    "proposal_fields": 111,
+    "new_fields": 105,
+    "groups": 37,
+    "accounts": 45,
+    "union_fields": 123,
+    "adopted_fields": 6,
+    "monetary_events": 2
+  },
+  "t1_entire_basis_exact": true,
+  "typed_zero_and_excel_numeric_zero": true,
+  "shared_frame_only_once": true,
+  "no_1533_branch_leakage": true,
+  "cli_pairs": [
+    {
+      "name": "cli-zero",
+      "fields": 3,
+      "basis_identity": true,
+      "json_xlsx_equal": true,
+      "sha256": {
+        ".json": "efc8ab01302141e2d0125e516361cf95551b0317fa179111a4771528fddde142",
+        ".xlsx": "fc9317a772289fe0135b02036ce4adee34d5f1547cbb9725ad5830befb00f70f"
+      }
+    },
+    {
+      "name": "cli-offline",
+      "fields": 111,
+      "basis_identity": true,
+      "json_xlsx_equal": true,
+      "sha256": {
+        ".json": "af3ee1d76a91a34c4782dc948accb322cd44bff03bc960542a194cce82b23c67",
+        ".xlsx": "ae1e39e6703c396cf6e235c960f73d7d64ec3b88ba1cce5d44d24f6d7727ff88"
+      }
+    }
+  ],
+  "originals": [
+    {
+      "path": "t1/docs/research/omtale-o1/originals/prop16s-ch4.html",
+      "bytes": 118163,
+      "sha256": "ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e",
+      "both_exports_identical": true
+    },
+    {
+      "path": "t1/docs/research/omtale-o1/originals/inns81s.html",
+      "bytes": 107925,
+      "sha256": "e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95",
+      "both_exports_identical": true
+    },
+    {
+      "path": "t1/docs/research/visningspilot-41/originals/session-2024-2025-9cfe.xml.gz",
+      "bytes": 394936,
+      "sha256": "7502f2f565048f1b0954cb4cb132183d0bc5ec362ba74e14de877df36003a7d4",
+      "both_exports_identical": true
+    },
+    {
+      "path": "t1/docs/research/visningspilot-41/originals/session-2024-2025-9cfe.meta.json",
+      "bytes": 763,
+      "sha256": "cf9397ad44be04796cf3ed95765cddb165b0193fe071b4e1a6b629566aa82363",
+      "both_exports_identical": true
+    },
+    {
+      "path": "t1/tests/fixtures/b8/40034049.xml",
+      "bytes": 1692,
+      "sha256": "5f253a556d2ac512570899252b396bc38f068de5f4bd6820178e7de8ce41f3eb",
+      "both_exports_identical": true
+    },
+    {
+      "path": "t1/tests/fixtures/b8/40034049.json",
+      "bytes": 706,
+      "sha256": "6e0e37551b00da15c262e8ba2e40e8b21abba96d3b47acc57e41b908024d9def",
+      "both_exports_identical": true
+    },
+    {
+      "path": "t1/tests/fixtures/b8/sak-100889.xml",
+      "bytes": 15888,
+      "sha256": "3a8f0918a3fcce90bf2c93f3ce972c3de7277c76e27e5ef563d6c43384cf2af2",
+      "both_exports_identical": true
+    },
+    {
+      "path": "t1/tests/fixtures/b8/sak-100889.json",
+      "bytes": 1563,
+      "sha256": "67033cce596b33ccb7f2cd459a6df7af98d44836292f0675d308797a888ba04c",
+      "both_exports_identical": true
+    },
+    {
+      "path": "t1/docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+      "bytes": 391763,
+      "sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b",
+      "both_exports_identical": true
+    },
+    {
+      "path": "t1/docs/research/to-visninger-37/originals/aar/session-2024-2025.meta.json",
+      "bytes": 381,
+      "sha256": "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28",
+      "both_exports_identical": true
+    },
+    {
+      "path": "t1/docs/research/to-visninger-37/originals/forgrening/inns95s.html",
+      "bytes": 283123,
+      "sha256": "ae61227fa83adf04fb45956b1bd714a75592bbc1d6c70da300e554afef806aa6",
+      "both_exports_identical": true
+    },
+    {
+      "path": "t1/docs/research/to-visninger-37/originals/forgrening/inns95s.pdf",
+      "bytes": 382025,
+      "sha256": "7a78167c7eafc500938e4ac39d8ed9febec1f6e7e6ce337acc4b7a58d0d14635",
+      "both_exports_identical": true
+    },
+    {
+      "path": "t1/docs/research/to-visninger-37/originals/forgrening/manifest.json",
+      "bytes": 24955,
+      "sha256": "6b2dd282d4c1bffff15063907bc6c3d5948279c7898f7caf7291d7a140de6816",
+      "both_exports_identical": true
+    },
+    {
+      "path": "o2b/originals/prop16s.pdf",
+      "bytes": 733075,
+      "sha256": "677716056269c07b8ec81bcae91d814b975123791635548281038d9beb3aa5db",
+      "both_exports_identical": true
+    },
+    {
+      "path": "o2b/originals/prop16s-ch2.html",
+      "bytes": 100808,
+      "sha256": "258d26e6d324bde709bf3d1cb660d7eb6f4248f537d4b0c77e095f17697cf8df",
+      "both_exports_identical": true
+    },
+    {
+      "path": "o2b/originals/prop16s-ch4.html",
+      "bytes": 118163,
+      "sha256": "ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e",
+      "both_exports_identical": true
+    },
+    {
+      "path": "o2b/originals/inns81s.pdf",
+      "bytes": 331688,
+      "sha256": "5a29d0553991759d8ddc234899647e9e6b5e1f2885bf13edccfb26105a6be496",
+      "both_exports_identical": true
+    },
+    {
+      "path": "o2b/originals/inns81s.html",
+      "bytes": 107925,
+      "sha256": "e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95",
+      "both_exports_identical": true
+    },
+    {
+      "path": "o2b/originals/votering-161224.html",
+      "bytes": 2094710,
+      "sha256": "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5",
+      "both_exports_identical": true
+    },
+    {
+      "path": "o2b/b6/40034048.xml",
+      "bytes": 6058,
+      "sha256": "2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850",
+      "both_exports_identical": true
+    },
+    {
+      "path": "o2b/b6/40034048.json",
+      "bytes": 786,
+      "sha256": "1b43cc3e77fb8b216d3d0bd2d51739c4200b38aabcdac907afcdf47d0218a79b",
+      "both_exports_identical": true
+    },
+    {
+      "path": "o2b/b8/sak-100927.xml",
+      "bytes": 12383,
+      "sha256": "2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27",
+      "both_exports_identical": true
+    },
+    {
+      "path": "o2b/b8/sak-100927.json",
+      "bytes": 1560,
+      "sha256": "07b85b79438fa1cfcc8774c36291fc28d0cfdc7d429ca82e1e5810bca89ac895",
+      "both_exports_identical": true
+    },
+    {
+      "path": "docs/research/to-visninger-37/originals/forgrening/inns95s-20261022-reused.html",
+      "bytes": 283141,
+      "sha256": "1f159a3ca1df3e0bc35617644d0b36f7c92fd5684947f6eca5510595af533a03",
+      "both_exports_identical": true
+    },
+    {
+      "path": "docs/research/to-visninger-37/originals/forgrening/reused-inns95-manifest.json",
+      "bytes": 1082,
+      "sha256": "8fc18d92f651e3d075bb4bf86498aff90eee3033297db920b32da83a4019bc4d",
+      "both_exports_identical": true
+    }
+  ],
+  "old_document_coverage": "delvis_1429",
+  "checkout_status": ""
+}

@@ -1,0 +1,21 @@
+{
+  "command": [
+    "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "analyse.proposisjon16",
+    "--t1",
+    ".local/cli-t1.json",
+    "--rot",
+    ".",
+    "--aar",
+    "2024",
+    "--konto",
+    "4400/2",
+    "--json",
+    ".local/cli-zero.json",
+    "--excel",
+    ".local/cli-zero.xlsx"
+  ],
+  "exit_code": 0,
+  "seconds": 6.641
+}

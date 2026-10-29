@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\t5-prop16\.local\fresh-github-20261030\docs\research\proposisjon16-62\reviews\source\independent_check.py", line 520, in <module>
+    main()
+  File "C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\t5-prop16\.local\fresh-github-20261030\docs\research\proposisjon16-62\reviews\source\independent_check.py", line 501, in main
+    evidence.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
+  File "C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1047, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marti\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\source-old-target\\docs\\research\\proposisjon16-62\\reviews\\source\\independent-control.json'

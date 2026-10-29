@@ -1,0 +1,43 @@
+[
+  {
+    "attempt": "Initial GitHub clone without escalation",
+    "exit_code": 1,
+    "output": "Cloning into '.local/fresh-github-20261030'...\nfatal: unable to access 'https://github.com/depmartin/budsjetthistorikk.git/': Could not resolve host: github.com",
+    "resolution": "Same network clone with require_escalated completed; no local objects supplied"
+  },
+  {
+    "attempt": "Initial replay wrapper",
+    "exit_code": 1,
+    "output": "FileExistsError [WinError 183]: fresh-evidence already exists",
+    "resolution": "Temporary wrapper changed mkdir to exist_ok=True; no delivered code changed"
+  },
+  {
+    "attempt": "GitHub issue comments initial connector arguments",
+    "output": "repo_full_name [required]: Missing required property",
+    "resolution": "Correct repo_full_name supplied; both comments read"
+  },
+  {
+    "attempt": "Original compare before representation map",
+    "exit_code": 1,
+    "evidence": "compare-before.log",
+    "resolution": "Published 344-map applied only to isolated archive; unchanged compare then passed"
+  },
+  {
+    "attempt": "Unmodified security-fix/probe on current integrated root",
+    "exit_code": 1,
+    "evidence": "theme-published-probe.log",
+    "resolution": "Historical four helper bindings require archives. Current exact reader independently rejects all three; published probe passes in isolated 344-map + four archive-path representation."
+  },
+  {
+    "attempt": "Independent source control first old archive",
+    "exit_code": 1,
+    "evidence": "first-independent-source.log",
+    "resolution": "Created absent documentary reviews/source directory in isolated old archive; same published helper passed."
+  },
+  {
+    "attempt": "Own temporary API summary",
+    "exit_code": 1,
+    "evidence": "public-api-checks-first-failure.log",
+    "resolution": "Corrected temporary harness event lookup to public view.adopted_event_ids; no product change"
+  }
+]

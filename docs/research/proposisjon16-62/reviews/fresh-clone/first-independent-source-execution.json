@@ -1,0 +1,17 @@
+{
+  "command": [
+    "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\docs\\research\\proposisjon16-62\\reviews\\source\\independent_check.py",
+    "--root",
+    "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\source-old-target",
+    "--candidate",
+    "4ddda7953431ac9f6ae861d800a33229121e54db",
+    "--base",
+    "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+    "--output",
+    ".local/source-export"
+  ],
+  "exit_code": 1,
+  "seconds": 143.36,
+  "isolated_archive_target": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\source-old-target"
+}

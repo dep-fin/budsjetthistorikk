@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\t5-prop16\.local\fresh-github-20261030\docs\research\proposisjon16-62\reviews\integration\compare_evidence.py", line 254, in <module>
+    main()
+  File "C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\t5-prop16\.local\fresh-github-20261030\docs\research\proposisjon16-62\reviews\integration\compare_evidence.py", line 127, in main
+    assert actual == {k: row[k] for k in ("bytes", "sha256")}, row["path"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: .gitattributes

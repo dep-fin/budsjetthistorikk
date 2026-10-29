@@ -1,0 +1,25 @@
+{
+  "candidate": "a08fc28dc33fa4244814dc29fbeeb5b87d4e804d",
+  "reader_sha256": "3f2a902567e1408ffb01fef625b38e98e334896b89979cdd6661caf565d4177e",
+  "working_reader_is_exact_published_blob": true,
+  "results": [
+    {
+      "mutation": "srgb-white",
+      "rejected": true,
+      "error": "T5-Excel har endret tema for farger/skrift",
+      "sha256": "7f74b0289596441740270b0356a0b723be97bf032e99be0f0b34eb13270781d8"
+    },
+    {
+      "mutation": "system-white",
+      "rejected": true,
+      "error": "T5-Excel har endret tema for farger/skrift",
+      "sha256": "d465eac43af3ac698ad94277c6d637e47d7068c594e7caae8a080db201238c4b"
+    },
+    {
+      "mutation": "minor-font",
+      "rejected": true,
+      "error": "T5-Excel har endret tema for farger/skrift",
+      "sha256": "eff519348afdb86bc5c0713fe10be04087fd4d9ea20a56cfd2b029905cc669d6"
+    }
+  ]
+}

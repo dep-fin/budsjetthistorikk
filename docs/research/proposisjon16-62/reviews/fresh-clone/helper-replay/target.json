@@ -1,0 +1,28 @@
+{
+  "candidate": "4ddda7953431ac9f6ae861d800a33229121e54db",
+  "tree": "df0eed6d6e8a0b2a07962e641ae05d1194a3304d",
+  "base": "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+  "target": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-work\\target",
+  "git_archive_sha256": "caeab7487323c77e06e31aee033c5ceb0bc2fd82d15929d1965a887340df8e93",
+  "candidate_reader": {
+    "bytes": 16496,
+    "sha256": "bd0fe777cb4b9f569f6c42a0f24bc5eec2ff040c36c78ef741ef8357ede2fafd"
+  },
+  "source_working_reader": {
+    "bytes": 16652,
+    "sha256": "3f2a902567e1408ffb01fef625b38e98e334896b89979cdd6661caf565d4177e"
+  },
+  "source_working_reader_is_target": false,
+  "source_index_before": {
+    "bytes": 163687,
+    "sha256": "56857970d66f1aa79a79a78a67700cc516e6bc498d199528502cdf469548bd12"
+  },
+  "source_index_after": {
+    "bytes": 163687,
+    "sha256": "56857970d66f1aa79a79a78a67700cc516e6bc498d199528502cdf469548bd12"
+  },
+  "source_working_reader_after": {
+    "bytes": 16652,
+    "sha256": "3f2a902567e1408ffb01fef625b38e98e334896b89979cdd6661caf565d4177e"
+  }
+}

@@ -1,0 +1,3104 @@
+{
+  "archive_sha256": "db33eae595904f5f19136cd8ff10400ff51651ca5c2f8650d5678107b2a46f97",
+  "target": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-replay-root",
+  "checked": 344,
+  "materialized": 342,
+  "rows": [
+    {
+      "path": ".gitattributes",
+      "materialized": true,
+      "binding": {
+        "bytes": 4179,
+        "sha256": "0a2c7ae44ce44f046ea261e440608248316176d38fcd4afb10c895617d747986",
+        "git_blob_sha1": "319b0f7d0dd43b768573c429a83ed46509aab281"
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/oppgave.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 549,
+        "sha256": "cd5c671d8217655a8d4e64b635c959e471907a26f0a0696cc59b8b81155a0304",
+        "git_blob_sha1": "7c337149fe76acd37c13bca554d7ae530ccfa35d"
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/spesifikasjon.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 532,
+        "sha256": "67fd04d0aa3d4f8c32321527a9299490e3a514d7ec1a5d68e6e0886e320ca7cc",
+        "git_blob_sha1": "33c9059c05942aeee67f7983964671efdff437df"
+      }
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 237,
+        "sha256": "37a1e2cfd993dc1d75443cc76055c3edbe7d0accbeca11abfde723a3269decf0",
+        "git_blob_sha1": "62a2b6913eef6715fc5ecf9f33d062afae78204b"
+      }
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "materialized": true,
+      "binding": {
+        "bytes": 750,
+        "sha256": "fde3129e2682c37929ba74c9a6391a0d146d719b5d258f804cccbdcfbb82e73a",
+        "git_blob_sha1": "43666e04879a4ac60be5ddc8b63e2b2170b72c73"
+      }
+    },
+    {
+      "path": ".gitignore",
+      "materialized": true,
+      "binding": {
+        "bytes": 149,
+        "sha256": "b90092ab2a708c35e8d8b240683a2a0604e80cf6187dab5089f672de9fc15048",
+        "git_blob_sha1": "820c2fa411bc608851b89fa796be60e8f1928670"
+      }
+    },
+    {
+      "path": "AGENTS.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 9034,
+        "sha256": "463cc191b848ad0a1b8eeb59feca54d2ffdbfcc72d141dfbc61ea14b0e7a4b80",
+        "git_blob_sha1": "d4bc288372883f866203fab41e2ae15756e8ddc2"
+      }
+    },
+    {
+      "path": "analyse/__init__.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 970,
+        "sha256": "b9c43d279046738a535b3b27e594f3b958dfb664a20214129bd20453facc219c",
+        "git_blob_sha1": "b83feee111a03619daa315d3b3394e100d102c90"
+      }
+    },
+    {
+      "path": "analyse/__main__.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 7164,
+        "sha256": "21edd7f4a41cebb67ca4627e6e9605ee5f7493b2db933f8c8998bf125c56b021",
+        "git_blob_sha1": "5ef1816753f47fd5ce5bd15b95a0e164da3361b7"
+      }
+    },
+    {
+      "path": "analyse/control_matrix.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 18971,
+        "sha256": "13fe42753e860f3f619717a5529ee44ca3b8e8ed40473fb1c57c690baeff514d",
+        "git_blob_sha1": "3e2da98ed73b119fc83042ec2c2d745dbb0d4674"
+      }
+    },
+    {
+      "path": "analyse/controlled.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 17106,
+        "sha256": "d3a8edf4154bf6a67b5d01e9d7235472a75b8905e892dc3f4e2305958992afe2",
+        "git_blob_sha1": "1c6952b28c352bbb793d2409ba8f2bbc4fd4d3b2"
+      }
+    },
+    {
+      "path": "analyse/excel.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 12274,
+        "sha256": "889c89ede39e95ac308fd98abb4de8620bd898b01cf34177737e1adbd74726f0",
+        "git_blob_sha1": "e86a5c17a187f4ed16416605e34fde73e3f17408"
+      }
+    },
+    {
+      "path": "analyse/extraction_excel.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 12967,
+        "sha256": "f334fcc88fcdefc9ef4b43d1c89233114f639317d712fdebe30e7e636c89d15b",
+        "git_blob_sha1": "adbc5f76ca17220ab0274d9ca0f70c918f92cd7f"
+      }
+    },
+    {
+      "path": "analyse/fleraarspilot.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 11324,
+        "sha256": "07da4379ebd6a193b5e7351948946eb065b8ec8c0b2088dea5ddeb60be16c9c4",
+        "git_blob_sha1": "8bf230e5b87eb9d30adddd7729a0b0de1b0febac"
+      }
+    },
+    {
+      "path": "analyse/fleraarspilot_excel.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 28266,
+        "sha256": "553e4209fe6c065a8bdd3ea8a4c8d2ab7c185628d6ba7071ad056bf128385bb5",
+        "git_blob_sha1": "571bba62ac805006ed8d1773d8b0a8ca3f7933fb"
+      }
+    },
+    {
+      "path": "analyse/forlopspilot.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 13918,
+        "sha256": "93b237d84ca10b3cce3235ff1d6d09944318d73fcf67dd9ee93020def9e372a9",
+        "git_blob_sha1": "cb501e925281afcba2f4545b1b4169b3f702abac"
+      }
+    },
+    {
+      "path": "analyse/forlopspilot_excel.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 27695,
+        "sha256": "1f10dc1ace2a22240c8c52fa6f01859330ec6ad4384ee8861288cd7f3a6b7e62",
+        "git_blob_sha1": "a2ee2b86b8af4866d8cfa5ddf5bf16727b3ef3b6"
+      }
+    },
+    {
+      "path": "analyse/historical_comparison.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 14551,
+        "sha256": "47ee512f4becf10f5aba1a98b5634bf10046955c8c3ccfa160b4fa60bd01a342",
+        "git_blob_sha1": "2111327b7b4ea4f7a3b35b98acb12d7a6f8c4294"
+      }
+    },
+    {
+      "path": "analyse/historical_package.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 16877,
+        "sha256": "770fceaa4d464ab18a888b18f846f48d12627cdfdddcb32acfd0211284ad3dfd",
+        "git_blob_sha1": "356c09a66ee8d4465931cd7657d07b0e9f67d47d"
+      }
+    },
+    {
+      "path": "analyse/historical_pilot.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 25358,
+        "sha256": "378308b447267cee05067a0a227ee7a7807300b821826acd313553b5bc428712",
+        "git_blob_sha1": "cbd63b318b62dae3fdb2a80a53d3ec0b20bc28d5"
+      }
+    },
+    {
+      "path": "analyse/history.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 21022,
+        "sha256": "a838d1c93e3de8678c1409ca7d534cb77b5126a035eec722e90fab12d7693779",
+        "git_blob_sha1": "eb28d66914704a32a356c580daba442711f73191"
+      }
+    },
+    {
+      "path": "analyse/history_excel.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 9033,
+        "sha256": "fa1db80f51bf9b8aff2826e00f4e641edef7dd39bbf9b0737f72e176ede04fcb",
+        "git_blob_sha1": "21b86266fe64d1807f31ded27b4140f89c71268e"
+      }
+    },
+    {
+      "path": "analyse/komitepilot.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 14957,
+        "sha256": "74a046e2d95f47859bc7672d5c2196abec5c89f39ec11dc56749cff4db5e5be3",
+        "git_blob_sha1": "39592861c652f9cdd4715af48aaa1d1c6eefaa5c"
+      }
+    },
+    {
+      "path": "analyse/komitepilot_excel.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 24874,
+        "sha256": "8d565aa9c8e5fc8ddf6cf635be6a63baddc6408a8e688a0e5a84c0252aed219e",
+        "git_blob_sha1": "4abe743a76a54b88698a790dc36264f5ed9c6d6e"
+      }
+    },
+    {
+      "path": "analyse/omtale.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 36016,
+        "sha256": "28ee5787a7caccdb1c37819a979c9afcb221f781906d6a087367c92fce34d5ef",
+        "git_blob_sha1": "ee0e8c75381500a5533be2ce6e1c130600a18351"
+      }
+    },
+    {
+      "path": "analyse/omtale_begge.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 11478,
+        "sha256": "7073e8fad707a20bd2b23419fd5066242b867b8712745c3324032a27a4fe0116",
+        "git_blob_sha1": "fca4230e6d6783c2dcef8ff74bb5fe257048eaf6"
+      }
+    },
+    {
+      "path": "analyse/omtale_excel_guard.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 22907,
+        "sha256": "ac3ef5ede1025d194f06775507794f2b3780aa98383a839d26e0d1b11654f37c",
+        "git_blob_sha1": "90debf33ec120959b85952276be4667e109e579a"
+      }
+    },
+    {
+      "path": "analyse/omtale_model.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 768,
+        "sha256": "f030e3f36f9a47ec85c11612fdf6a0149343e03d0b756ede76245faad269abb2",
+        "git_blob_sha1": "f6d1d40999782037f05d1ba203716eaca5f93fbc"
+      }
+    },
+    {
+      "path": "analyse/perioderegister.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 10934,
+        "sha256": "bd58bc5c785a519b9701ad04cafe336b4b66a30c76ad96baf3da38468c9d5e44",
+        "git_blob_sha1": "87437ff739e83a77773f90ab82f018a93da864d4"
+      }
+    },
+    {
+      "path": "analyse/perioderegister_excel.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 26501,
+        "sha256": "4451dc7c44b3167f4fc053a8a634745221d5e152a4c712699b56ee7e4b18e4d6",
+        "git_blob_sha1": "34317b7f0c29bbe6e7e86a831a0b381bf8c04e61"
+      }
+    },
+    {
+      "path": "analyse/perioderegister_r2.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 10395,
+        "sha256": "86208dc4eef283e24162021d1e3670d4e2aa383056a2ab39dfa8ef8eda4bebb6",
+        "git_blob_sha1": "381c01473af57d13366b257f463385264fb51d4c"
+      }
+    },
+    {
+      "path": "analyse/perioderegister_r2_excel.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 20243,
+        "sha256": "f1ee5533bbd071673113ed310784b0705f8d92fb2eb72dceb4f0fa90f96fe19b",
+        "git_blob_sha1": "ffdc1e9350b9eef7463b26c8d83c20317bace76c"
+      }
+    },
+    {
+      "path": "analyse/preserved_controls.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 6806,
+        "sha256": "3c69e7d6c69239cc5b2b4022e88e4b4ef2118500c3598ca98b887a7d1a255a16",
+        "git_blob_sha1": "4da9df88ff37bbab617f36f615d6fbcdd0ce776c"
+      }
+    },
+    {
+      "path": "analyse/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 6717,
+        "sha256": "c8d4798f2b3bd19af8b284edebb6e10ec6c805e65784a93a0daf544c72aa6869",
+        "git_blob_sha1": "65f2e0a9e04e21c9e2f5551e5194fbcc676a5e9e"
+      }
+    },
+    {
+      "path": "analyse/saks_history_excel.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 19455,
+        "sha256": "621aacf4fdc9332338d9e8732900921d9086f7fe260dfa8b86393695edb404bc",
+        "git_blob_sha1": "4c06164dfc56bd115b82482fb6857a1bf54787e8"
+      }
+    },
+    {
+      "path": "analyse/saksdokumenter.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 32930,
+        "sha256": "198e283cf6a78149a9930ad5bfafb6143656275e3c758b363919e12268592132",
+        "git_blob_sha1": "92bd38128c4f63b9c2da99b8cf86e131b591ef2c"
+      }
+    },
+    {
+      "path": "analyse/session.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 29892,
+        "sha256": "889d577edff5ddb7052a1dd2f9e65ef12e89b056ec15162985582fd600f6fae2",
+        "git_blob_sha1": "fc02cf73ebc27ea9d57f45061909a13be4bccf6f"
+      }
+    },
+    {
+      "path": "analyse/session_excel.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 22440,
+        "sha256": "613a2d36c271f1c3a7d651aa65150692bf70dc4577148b3b81289e07953ed2d7",
+        "git_blob_sha1": "f53b11f0c799ffe466842a69b3f674c300399ca2"
+      }
+    },
+    {
+      "path": "analyse/session_reconciliation.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 15252,
+        "sha256": "baa7b88928c2f7fe1ab7c86f87c01b40baff6e4cd491894cbb0688d02fd2f2d2",
+        "git_blob_sha1": "632b8ce4a20ddbc8cd5666731ff8d568ba0d7732"
+      }
+    },
+    {
+      "path": "analyse/session_serialization.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 3492,
+        "sha256": "f79811b5278f53933cc97ff3ece2476b1978c6befad97272f1ba6cd887999201",
+        "git_blob_sha1": "36a85de6990b213afdb016ff8db1e60c325fa2e3"
+      }
+    },
+    {
+      "path": "analyse/visningspilot.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 17920,
+        "sha256": "1313f0ab2ad560e90589f39b47a719ecc30edefb548b3d7f8d3525781182a636",
+        "git_blob_sha1": "162b2dbcb23fc75dc99dfb9a3575856188a5657c"
+      }
+    },
+    {
+      "path": "analyse/visningspilot_excel.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 22905,
+        "sha256": "7490a38af1ad9f1a858fe77461c5ee0dc01060d91f36bc96516bcb2d8619838a",
+        "git_blob_sha1": "3e14a6d9ed4b2f1aba40e30682dfab5322ae46b5"
+      }
+    },
+    {
+      "path": "docs/adr/0001-lokal-innlesning.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 2323,
+        "sha256": "3934f35ea7702ddc437467a77c5bf3010b8826f3aa8b0ca423e598481f3da799",
+        "git_blob_sha1": "c36de5062e9924d8e53e4a465f871a6682b83ae7"
+      }
+    },
+    {
+      "path": "docs/adr/0002-kildeobservasjoner.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 1678,
+        "sha256": "5431747ef0ba0b97ecae4e5bc13aea6cc120b9963fbedbc7d77bff4997746ca7",
+        "git_blob_sha1": "d96be442150ddd20a2369496218fb390a4341c7e"
+      }
+    },
+    {
+      "path": "docs/adr/0003-felles-belopsobservasjoner.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 1102,
+        "sha256": "1c88ef3fb46d0cddfe0deee7459d19cdbd7156acd92dc5a7d02e8c5c0057e487",
+        "git_blob_sha1": "5b46347459a148722c69815217b9f2faad684a91"
+      }
+    },
+    {
+      "path": "docs/adr/0004-b3-lagring-og-utvalg.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 2708,
+        "sha256": "1b4c85dd462173ef5e119f847c27e5e67ed0779005952eacd64aba1f9c229bd1",
+        "git_blob_sha1": "ff4fce56364755e9a809edcb2f9513c1f87351e8"
+      }
+    },
+    {
+      "path": "docs/adr/0005-b4-tolkning-og-registersnapshot.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 2951,
+        "sha256": "0ec6b4b571c2e7524c99193cb02b7ec5e336f1e71cf2a09660106219b7456037",
+        "git_blob_sha1": "b678f6d883bc23ecb7d8a460c6cab47000e0f281"
+      }
+    },
+    {
+      "path": "docs/adr/0006-b5-register-og-faglig-kontroll.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 5718,
+        "sha256": "c5ea45205c7811def6cefdc35f2d36d2bd3a06437841bc2afddb82d662fe9496",
+        "git_blob_sha1": "0015d12868e795174ef487de436b69affbe9d705"
+      }
+    },
+    {
+      "path": "docs/adr/0007-b6-eksplisitt-sesjonseksport.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 3021,
+        "sha256": "d0d07b6d183d0edde29cb1c78526ab1a7f534554265d42651c5267a8a904a2fd",
+        "git_blob_sha1": "a575528d9b34853c4cc0d1f14185f42e92088857"
+      }
+    },
+    {
+      "path": "docs/adr/0008-b7-varig-datojobb-og-outbox.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 6312,
+        "sha256": "ba07d04d59dd242400974e7f55faed3b2e00760af7285db53d21f80f91fe06c9",
+        "git_blob_sha1": "59bc0d673e6f0dc23afe5a2cdb85cc4a913ee3c2"
+      }
+    },
+    {
+      "path": "docs/adr/0009-historisk-pilotpakke.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 5602,
+        "sha256": "7741beabcfe0350ef92eadca143aa94b66b07ea31d36848a44d7ec788aa4e56b",
+        "git_blob_sha1": "43aec55cf63de77b2e0a55a93e1453e9c0bd8738"
+      }
+    },
+    {
+      "path": "docs/adr/0010-saksdokumenter-og-frosset-v2.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 3979,
+        "sha256": "82ebb15850f19dbdd96f3a4bb73e1ca989482247c23061b8dd860186d5ac81be",
+        "git_blob_sha1": "db0e65b1274a8b7e700d851d65dde45effa87fdc"
+      }
+    },
+    {
+      "path": "docs/adr/0011-filbasert-visningspilot.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 1415,
+        "sha256": "1f6d31bdc8cd8026a3dfade03e9f5c33e3898feda7f8bb4a4832e58356c49da6",
+        "git_blob_sha1": "89bb5449eddb284484be1feb96fa1f8451852d7b"
+      }
+    },
+    {
+      "path": "docs/agents/domain.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 744,
+        "sha256": "5c1e9b38e0c4e1747409ae8395ede942109e933a15b6e046027c0a372f46c6b5",
+        "git_blob_sha1": "efe82752c8fce24397914f31e53f1687add6d349"
+      }
+    },
+    {
+      "path": "docs/agents/issue-tracker.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 1445,
+        "sha256": "1a8d6b3bbf94b7b1edc5f01ca57bd0ce1a55acc8ef527614e8f9b42fbfc98406",
+        "git_blob_sha1": "dfac48f476f776fb27f2054ef8e052c1da1b2305"
+      }
+    },
+    {
+      "path": "docs/ansvarsdeling.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 2563,
+        "sha256": "d6cf817a352cf50dc24ddccca285dca816f786c23d8c5995aa0e79a544fcaa6a",
+        "git_blob_sha1": "0bf739e8df782363641909e72cd10a0a6e41bc57"
+      }
+    },
+    {
+      "path": "docs/arbeidsflyt.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 6864,
+        "sha256": "04b29e6fff5ad473cb54d04942b3bce7307d177b93a7a79948ae72408abf55c6",
+        "git_blob_sha1": "d9d9af73bc9d312e573150930f9fa5437dc69fd0"
+      }
+    },
+    {
+      "path": "docs/b5-arbeidsfiler.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 10959,
+        "sha256": "ab3d46c343515b559581b3f7a19a3c471621ecc897e2891b2716623d99473e5a",
+        "git_blob_sha1": "e5b7339c688b7cba054daff0b60570e8d9485f6a"
+      }
+    },
+    {
+      "path": "docs/b6-sesjonsuttrekk.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 13412,
+        "sha256": "b64cba3fba43775e79e8c696de6ba4385c4473aa32051250d183f228c8d3ecf6",
+        "git_blob_sha1": "e96fe4a92e8f9184663153c897efe87cff2043b7"
+      }
+    },
+    {
+      "path": "docs/b7-drift.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 10745,
+        "sha256": "78be0ab7339eb66e7538c6ad6596f929efa734c4e6145e75bc36f5863171f255",
+        "git_blob_sha1": "3c98cd452ecd1bbaa903d6444701404d4eaae15d"
+      }
+    },
+    {
+      "path": "docs/b8-saksdokumenter.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 5656,
+        "sha256": "af317bf93d7429d055ea766a63d04ae9d81bd3517d19b510a3f86e1de4b1d80a",
+        "git_blob_sha1": "5f1b698b8342670ba62adfa13abea108aad0aedb"
+      }
+    },
+    {
+      "path": "docs/b9-historikk.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 5531,
+        "sha256": "974ba4ca54a4fb84f6a116fb56f3db59bfc74d20032d1d40f133eeefb01324cb",
+        "git_blob_sha1": "cb3822706d9bbc88102fc11e2b815ef8b0136a7a"
+      }
+    },
+    {
+      "path": "docs/datakontrakt.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 54024,
+        "sha256": "92102d2f07858ae36cf48a29024c5d70fc53b37d0c76da639b3133b2addc05c4",
+        "git_blob_sha1": "9c666a7471ed1cbaa70a8eb94bb40b08b9c9adee"
+      }
+    },
+    {
+      "path": "docs/departementsregister.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 6337,
+        "sha256": "8b0858160cef84dc3274d71ee0849d4f77159107ebbd5d50452a2e8a1312b202",
+        "git_blob_sha1": "9810d95339fd9887fe46213f21925a2cfc5fb70d"
+      }
+    },
+    {
+      "path": "docs/faggrunnlag.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 5023,
+        "sha256": "3a17426d720f208798231eb42db1f60a5624fdd02dabe5dac8b50871bbec5580",
+        "git_blob_sha1": "8b3eff44dc8239fca7e593044086ce9c3d26505e"
+      }
+    },
+    {
+      "path": "docs/fleraarspilot.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 8090,
+        "sha256": "a8bda505b2716b19d67045f760c449575498e1165eaf6ccb72df0c6b8c919b1e",
+        "git_blob_sha1": "3541c270a583e8708aef751f9b500b7986e813af"
+      }
+    },
+    {
+      "path": "docs/forlopspilot.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 6468,
+        "sha256": "46bed091003776242429371da288e0871e8beb0b7515252653f17cdef4ecebf8",
+        "git_blob_sha1": "b3978c7ece107ef62dfc0b43241d81a7eda35cfe"
+      }
+    },
+    {
+      "path": "docs/historisk-pilot.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 10841,
+        "sha256": "e21d8e79c1659a2503529c58886b470eaa4b3c68b7f26183ab16e687bf7d032f",
+        "git_blob_sha1": "a0fce2f81c1fbf294f182598ceaf63d3f14f751a"
+      }
+    },
+    {
+      "path": "docs/kildefunn.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 66019,
+        "sha256": "39f6af59c8d9c1040a6cd42054c499871dac7b1624bf56d19b8ceb30f796b3c6",
+        "git_blob_sha1": "c23538b0d4b03fd6fb7ece6b8372f7ae7845ee8b"
+      }
+    },
+    {
+      "path": "docs/kilder.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 3974,
+        "sha256": "7564891f9e297f6546da7109d605838320ebff972d4cb64fc55fa83b19fa8d99",
+        "git_blob_sha1": "3e6019cfeecf96080dbb78d123b90974bd9a7f82"
+      }
+    },
+    {
+      "path": "docs/komitepilot.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 5250,
+        "sha256": "0d1f814e1ba8401e228bb9ac9987f4d786c401508e1d8c81ce2998b62f8ac024",
+        "git_blob_sha1": "420dd5063d155daa8c522319d4b4fd30c4235bb6"
+      }
+    },
+    {
+      "path": "docs/krav.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 18376,
+        "sha256": "da18fb219038a60a65e72a6f2ce982d37bc8cb49710300955ad0174c09c6d0ac",
+        "git_blob_sha1": "9f13459be5f1b78bb9f95f9a5861dd0191b3af54"
+      }
+    },
+    {
+      "path": "docs/leveranseplan.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 11006,
+        "sha256": "d588aed8678b0258687cd6773c897c8bf0122dae647e4d3c1568dfb355a8c9b9",
+        "git_blob_sha1": "4621f91f19c0c2aa7e92a40bd9d68b901fb2d5f5"
+      }
+    },
+    {
+      "path": "docs/observasjonsformat.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 16631,
+        "sha256": "d58f63c04b39151fb852cb28a2a4e9d67b6779198f6cf85fe8fc5892c82e1d7e",
+        "git_blob_sha1": "8de30e83102d7e18d735b5fb48593f4e131eeaf0"
+      }
+    },
+    {
+      "path": "docs/omtale-pilot.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 15699,
+        "sha256": "e4533c28ba6d76a0d42e27912fb57e7de2303768bff552c1a1ec92a7aaea24a5",
+        "git_blob_sha1": "d73d0408d70ae55dc9912c031f93207a47959a3a"
+      }
+    },
+    {
+      "path": "docs/omtale-plan.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 21303,
+        "sha256": "3daa3c5f9e1e4054f3c60708d0994e5f69d8b868d74221a0da43cba764068da9",
+        "git_blob_sha1": "5cf131a930e65ef45c36dbc84ec4b7e4482f4f40"
+      }
+    },
+    {
+      "path": "docs/perioderegister-r2.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 16617,
+        "sha256": "8c9239519c6a30fc5484114677bf481e6b30f27ff5c4fa2a064596e59d6e7b44",
+        "git_blob_sha1": "937c511153f2db5139774f547134cbaa5bc96fab"
+      }
+    },
+    {
+      "path": "docs/perioderegister.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 14699,
+        "sha256": "71e77d46c684bc4ea26379329929ae26b17f7ed8d88af1161f6fc928c18f802e",
+        "git_blob_sha1": "0c7a4e8bac2ff48c5d5e9c519a9e2e6c9144dfb6"
+      }
+    },
+    {
+      "path": "docs/pilotplan-historisk-excel.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 31885,
+        "sha256": "e61639ce91baea53b344f1b919cb109e37da64b6cddec8230a4edc713bd63ccb",
+        "git_blob_sha1": "cc0f8d43bbd5b887ad0d2fe524b4ac0aae3eccd8"
+      }
+    },
+    {
+      "path": "docs/research/b6/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 5419,
+        "sha256": "aa36ba3f3db2f221d01241cb34508cc70d616a893d71b5976144aaac8592172e",
+        "git_blob_sha1": "57a0ca25b2207bb529c685cd5dffcdfcc30a4b62"
+      }
+    },
+    {
+      "path": "docs/research/b7/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 7922,
+        "sha256": "2ef4dcb84e6148257f6ce0c2defdf441a897e44c6ee12ae7b0cf4771608bc195",
+        "git_blob_sha1": "35e56e143c35feea62c6b92a3be5a80675dccea5"
+      }
+    },
+    {
+      "path": "docs/research/b8/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 15011,
+        "sha256": "cc824a0dbf6ceb16902f759b0fbcc743f0b959761be365cf531c8d3654473709",
+        "git_blob_sha1": "e9f5540792811c2d956a954a00fd08a6234e34ec"
+      }
+    },
+    {
+      "path": "docs/research/b8/source-observations.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 13387,
+        "sha256": "547f67a8bc3bcbc9629757ec71c732d6b092530e71bded52f48152712a884036",
+        "git_blob_sha1": "f37c40c26c28a23222839c9279f1217a64261fe2"
+      }
+    },
+    {
+      "path": "docs/research/b8/verification.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 3517,
+        "sha256": "d249299c0b1ab896b961935c1e78ed63dbc5cddce075c770dbd8ea0864354aa4",
+        "git_blob_sha1": "be062c03a1d875d35de59a9f2f01ed2213315a3a"
+      }
+    },
+    {
+      "path": "docs/research/b9/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 13734,
+        "sha256": "2ff15b2ccb8f157aabe0a04fad6da0dbebf15d50b160a785c4f04f31582dd91a",
+        "git_blob_sha1": "ba48e2bd0a463647039c924c78e01e96c0f40b91"
+      }
+    },
+    {
+      "path": "docs/research/b9/verification.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 15306,
+        "sha256": "bc25ffd57404616af4a6d86c393a306971dc039fbb63d83f2aef4d86dc6308d8",
+        "git_blob_sha1": "f2ee69418cb7041299426872e207b3b0f1e840a6"
+      }
+    },
+    {
+      "path": "docs/research/faner-og-kildedeling/evidence.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 300476,
+        "sha256": "55de0e57e48299ab5ab93a8793cf8220f30236cd973f40ee596f4d719f6e9c0d",
+        "git_blob_sha1": "19cb3f4951db2e876ddc75d269f01858402beecf"
+      }
+    },
+    {
+      "path": "docs/research/faner-og-kildedeling/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 35863,
+        "sha256": "c0e8daeb614a783c16da3b118532b0962dea678f271fb9e52e2649d1fa7975ff",
+        "git_blob_sha1": "30968b19b1fd4bea4e676a00f384368265e4d0bb"
+      }
+    },
+    {
+      "path": "docs/research/fleraarspilot-48/aksept.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 3653,
+        "sha256": "53285be0005f34183a938fa34a7621ea26bd4726119aa2600715d83a85443d59",
+        "git_blob_sha1": "8c348c2ba78a62a61278369fee5bac0e7500d821"
+      }
+    },
+    {
+      "path": "docs/research/fleraarspilot-48/ci-budget.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 987,
+        "sha256": "3fc619b0bc5af0319a4c551ee068415211c1f13680510f5ef67dc71a1ff6183a",
+        "git_blob_sha1": "0463546532fce89ba5c9f1ab2878fbd0fa3e07fb"
+      }
+    },
+    {
+      "path": "docs/research/fleraarspilot-48/ci-measurement.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 1572,
+        "sha256": "f8e18bf5ca0c342bac560ce0457f82a2e3eb7b1a7403feef04dce73bb7aac14a",
+        "git_blob_sha1": "9cc253caac8ae6671c6f6b5f9a9aca75c8628991"
+      }
+    },
+    {
+      "path": "docs/research/fleraarspilot-48/OVERLEVERING.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 5989,
+        "sha256": "558041ae3803662c25e15586970e23df47799804bb1fe31f852a5f49459eb846",
+        "git_blob_sha1": "84b385291bb8c03579dcc1f06631449979c26818"
+      }
+    },
+    {
+      "path": "docs/research/fleraarspilot-48/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 4789,
+        "sha256": "23eeb8f059d4a7a6b1a19b49a85c13361d18e01b0dd15f013ae6e1f9e4d739f5",
+        "git_blob_sha1": "93c3576e65c9ae29335de421430eb9030ccbc50e"
+      }
+    },
+    {
+      "path": "docs/research/fleraarspilot-48/source-findings.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 3228,
+        "sha256": "d58a8be8a3158f9a679287c24cba47836aec3e7464d7cff149d265c98bddf2fc",
+        "git_blob_sha1": "6c62e88362ce5bdb3cbda9708aff5f9c3ce6abc5"
+      }
+    },
+    {
+      "path": "docs/research/fleraarspilot-48/tdd-journal.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 2673,
+        "sha256": "5047d488ee158c474fcbf138fced0c7f5cc91fb2c310b5b32e02b9b90a8c4eae",
+        "git_blob_sha1": "e3fac08a90bfc891410f470f85ca322adf55ef32"
+      }
+    },
+    {
+      "path": "docs/research/forlopspilot-46/aksept.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 5088,
+        "sha256": "34346a868268b125c539ac1c0878f0ef450293f726ac335ac429a38935e28ac8",
+        "git_blob_sha1": "06f7a59782d5f1a7fc981f38e29d5c23b0324f43"
+      }
+    },
+    {
+      "path": "docs/research/forlopspilot-46/ci-budget.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 2278,
+        "sha256": "ae543299e43901ad16445a7555b0f4e158b5c52ac9b2d27ca52f85b03e0cc22a",
+        "git_blob_sha1": "34f856e3e4e6e995e4076fc880025f7c87344163"
+      }
+    },
+    {
+      "path": "docs/research/forlopspilot-46/OVERLEVERING.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 7089,
+        "sha256": "f6e9b17bdb16ee40ac108410d2c3ce82836747677efa33d9f2786891269c4e04",
+        "git_blob_sha1": "26b48488a2a2e1d5057bc8c87181d4c3e68b511b"
+      }
+    },
+    {
+      "path": "docs/research/forlopspilot-46/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 7897,
+        "sha256": "f6fe11dec49b987c12765068635cd70aa8b359f00444127e7624db4f617e859a",
+        "git_blob_sha1": "69150f6f4b450c89c24dca997858b9f50694588e"
+      }
+    },
+    {
+      "path": "docs/research/forlopspilot-46/source-findings.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 14480,
+        "sha256": "0536c02d4db4c92185bff8f511753238889e54471b9ffc11cd074f83b2a3e70c",
+        "git_blob_sha1": "66313ae2bbb3903ce6d3a8c4aef6493a88156435"
+      }
+    },
+    {
+      "path": "docs/research/forlopspilot-46/tdd-journal.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 4648,
+        "sha256": "8d78a1ede845bee667610453d79af49ff32f75e62e5f32a9efcfd2c4771a886e",
+        "git_blob_sha1": "76c0c6fd62cc59a05e9366884cd911bdb18660ea"
+      }
+    },
+    {
+      "path": "docs/research/historisk-excel/modellvurdering.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 17590,
+        "sha256": "7e06f13fa26e053b103ea06737a572a6ee18eb72fef7b74006fa694a270657fd",
+        "git_blob_sha1": "811d72b4313909ebbf54a1940f200ca413cda8b4"
+      }
+    },
+    {
+      "path": "docs/research/historisk-excel/p13-p2/decisions.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 18632,
+        "sha256": "ea7206e7997a17dc754213fa65a638a36a77affb4d44c009538f58893f37cc04",
+        "git_blob_sha1": "82f5ecaf9af8f3b3c30f171a0072450e9b5e7ba0"
+      }
+    },
+    {
+      "path": "docs/research/historisk-excel/p13-p2/precision.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 18703,
+        "sha256": "dd8cb56a9e661cbc92b8a811126fe6c84e0c91a27a30a4a074fea09c4e24ec18",
+        "git_blob_sha1": "83fd1a17765ead920b593010df4f2b613399bb38"
+      }
+    },
+    {
+      "path": "docs/research/historisk-excel/p13-p2/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 10338,
+        "sha256": "ab248e5695565f00ea6659e1b81121039d9ce57d743b3bc6280f793b8749828f",
+        "git_blob_sha1": "ba6bf2f82c1a29908cd5b319efa9db26cea9c6e2"
+      }
+    },
+    {
+      "path": "docs/research/historisk-excel/p13-p2/stages.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 21667,
+        "sha256": "6f9891264968dcb524fdc5c526a64f6c6f159d2ff1b9a66374374b311ee75a38",
+        "git_blob_sha1": "32b8dce7099db5d8dfbfbb2af8f5d07cc1870861"
+      }
+    },
+    {
+      "path": "docs/research/historisk-excel/pilot2024.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 18934,
+        "sha256": "b5b3490238681d65a6628cf84d79ea64a69ea49bd49dcd44ac83a395ce4a41ef",
+        "git_blob_sha1": "a02930b0dabd5fb5d6f552a7b9e146de7d437437"
+      }
+    },
+    {
+      "path": "docs/research/historisk-excel/pilotkontroll/avvik.csv",
+      "materialized": true,
+      "binding": {
+        "bytes": 25024,
+        "sha256": "5e58d83778d5c0767f6cb63324d23d598f62ed409051f5af4db85938f94a7401",
+        "git_blob_sha1": "a9e21f0cdd7c67d68115e9d4a3f60e18f702ad84"
+      }
+    },
+    {
+      "path": "docs/research/historisk-excel/pilotkontroll/komponentkontroll.csv",
+      "materialized": true,
+      "binding": {
+        "bytes": 3152,
+        "sha256": "776ed0c424073569570e6a8a208efb4abb4225fbfd2478e87ccc13894d3ab467",
+        "git_blob_sha1": "8a571d7bb81a50bbcd0babc87fe635d05bbe45ae"
+      }
+    },
+    {
+      "path": "docs/research/historisk-excel/pilotkontroll/kontrollgrunnlag.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 17635,
+        "sha256": "fddb95750708f0c0bef31ffbfb24b8276b9f8442066fa40d50006bbb3345762c",
+        "git_blob_sha1": "da6ecfe5dc487b78e6fce7079395b26c1581dd77"
+      }
+    },
+    {
+      "path": "docs/research/historisk-excel/pilotkontroll.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 27836,
+        "sha256": "4d2847e81dd02ef4f5199668cb64446ea53a32949d71dd405768545a5dfece17",
+        "git_blob_sha1": "003d099c30579cabd6eb3773ffdbec39b9efeb8a"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/aar/component_ledger.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 4272,
+        "sha256": "3dbbed444d09c2df691bdda2ffdb20586d3cf721bfcc2c0dde4718eee3512dea",
+        "git_blob_sha1": "0cc455cfdd0f679213d9d32fbaae4e92fdc9333c"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/aar/decision_inventory.csv",
+      "materialized": false,
+      "binding": {
+        "bytes": 11829,
+        "sha256": "6e7a1676d372798d37c5877d2ebcc2b7275354e482833ecac4ed83c54c8b820e",
+        "git_blob_sha1": "122c825d7263a4be2c99bf372b3d014280651718"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/aar/description_inventory.csv",
+      "materialized": false,
+      "binding": {
+        "bytes": 3911,
+        "sha256": "3f267dddbd26434febd976c9a5b9940d40362d0fbedb567485857342871be56e",
+        "git_blob_sha1": "397eb0e78b3f011e3c06dd42f74b0bd2a36901f8"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/aar/input_manifest.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 5270,
+        "sha256": "65bcd4c8dbe3d5212f4dda669a2a5530e4ac8133ad1f2855652d1e429fc7a973",
+        "git_blob_sha1": "0fefc21f7bc2e49e6b9749aa54687ce747e7a15b"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/aar/metrics.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 1070,
+        "sha256": "237e47a85cdfa0a7301c577fb3b973c6025670c961e63f2dca395480778322d7",
+        "git_blob_sha1": "8b80c76755794e7bf880b695abfb45c62e7f8fd4"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/aar/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 31794,
+        "sha256": "e404935f7dc74a4ea645a10e28ef280cac682e728a47f3acc10f6d8ae896f255",
+        "git_blob_sha1": "2308e9bb80db5d82f2e260f59a4d1320425dc0a9"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/aar/residual_ledger.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 1881,
+        "sha256": "c299f34f37656d4874e515d5267591597ff0cdf79c3f9f2fb3aa442d139a8fb7",
+        "git_blob_sha1": "300e3dc42dcd79c0d6fb3f975fb6b38fc204053e"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/aar/verification.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 502,
+        "sha256": "0f69c2a392d6c6c8438b3003f7bdd73da96621c160b0e0dd68dedd2705978ab6",
+        "git_blob_sha1": "23c828ca3308a3935104b0d6c6c9fc0448c6ea69"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/aar/web_manifest.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 1464,
+        "sha256": "75aedf95fb3baf2e8fe2dd683da405774fea1d912781bd1db2b4141b0a98a158",
+        "git_blob_sha1": "738a9433dd990e970577a480ef4e514535cb8d98"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/api-kontroller.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 2439,
+        "sha256": "3ed2242a0069dd963ea9051e7df2984224bbc54098883331d86ae94a8ca6d2ab",
+        "git_blob_sha1": "df991a6c405f231a133a28f7d003d0ad86b107f5"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/api.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 32184,
+        "sha256": "1e9da94fead299d37eaa489e2f7e8a4a00b279992e773d95f6af0b3ef52dbf1a",
+        "git_blob_sha1": "301b09cf0741f405f6e785ddfeb9b904a959d00c"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/byggestart.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 14851,
+        "sha256": "d9b96b39fc7240cffdd2454471dbc93f5732a3c442487eff89482131f0af5b96",
+        "git_blob_sha1": "662c6a697e8acb8c7751adbd913d532080b49662"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/dobling/controls.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 9438,
+        "sha256": "cf3a8737baf1423c4eaf1c56f2369dfa04a1afb53cda3bab327c40e9574c8b95",
+        "git_blob_sha1": "c7b36c22db40e00cf8f23cf717fb2191e49d4632"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/dobling/fetch-manifest.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 7781,
+        "sha256": "d7657018b7f338a7cdd93546d8fd32b7467c763862b8311b765e819e9939342a",
+        "git_blob_sha1": "b2c7ed36858ed2c890d81c1c9a4e0830636cfa09"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/dobling/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 16906,
+        "sha256": "bb68d0e0c7a6311b097c392a8f74b93141ba0e96a35cd993efecf4d0a2d34c69",
+        "git_blob_sha1": "c2f2dfd734f7e7f134f109ec9c5df10fb97820cd"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/dobling/tildelingsbrev-nettobservasjon.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 1866,
+        "sha256": "f1012c583ac36710358fce0c2591ff930f93bad9fce26d6ef022934ed0dcb45e",
+        "git_blob_sha1": "49f0f95fe972c96e56d3124f91ebdaa242d27e1f"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/finansiering/kildemetadata.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 7748,
+        "sha256": "26666299ce986865e4f8b1e6096c9632b3f9985ed1c9ed36b621b3ce55bf3292",
+        "git_blob_sha1": "12d55f63d97a84bf317e6f6d2b8520a3706a7cd5"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/finansiering/kontrollutfall.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 2415,
+        "sha256": "b52b2593c5f25d283b92af971c291a4aed3c6b16598cc6926448de22add3ab7e",
+        "git_blob_sha1": "f3fae5967c77f5a245c129edbd31c82bfa670bbc"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/finansiering/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 13989,
+        "sha256": "3315e9c288c5f8d54be11400c92e75648d5a341566e9e97a6c5b60f2e58b5786",
+        "git_blob_sha1": "847815454cd05fe11b7f6eb76ff7d0cbfcf09e67"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/initiativ-fasit.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 634,
+        "sha256": "26dd28a95e1336bb85e9b5abc7f67ba95f250d7af98dcbbb1e1b96f97a5169cf",
+        "git_blob_sha1": "41c2c0538020df2c80a29335f801f205dd3266ae"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/initiativ-hentinger.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 6827,
+        "sha256": "dc22febc4f9889880d08a4ac845c11aa031ab0bd75625db93b8732e1214f69b1",
+        "git_blob_sha1": "6930dad9174a3ac9ed283238a56e79d2708edb3e"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/kildeversjon-kontroller.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 2726,
+        "sha256": "ae3fad7279fdd50c2070c15a1dceae7df8163cfa4cd68ba430879f74dbd5e8ac",
+        "git_blob_sha1": "31c2096a8886b990284d5cfb1125b94278f4f352"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/kontroll-avstemming.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 17664,
+        "sha256": "8a4aa169cea8e001348ee2b1c05773138bf582f62b977656e6ab82f2dd0622e5",
+        "git_blob_sha1": "c04db9ba17b46eb8991a60ca9bd02f2096f8d1af"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/kontroll-filhashes.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 4204,
+        "sha256": "a7697e138b97e532b5eb1cd0b24f1e1e2b5e875ce5602b2c9e5e80f9c39c9ac3",
+        "git_blob_sha1": "3a76f92c7747c08182f2b205fd65cf2d82d7449c"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/kontrollkilder.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 16400,
+        "sha256": "deb330a3416fbd1e17002f3b5ea837d04f980ed63140c5e6dba64bd6ec905ef1",
+        "git_blob_sha1": "c2d5f6ee34d364b25e0be6570703ff20b1fc1324"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/ny-katalogpost.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 8904,
+        "sha256": "b98a14496425118c135a0637a65dcccafe1d6e4c0f7dda966c88a5c4726ba7a0",
+        "git_blob_sha1": "59c6e696d647572389da12ad847c9602b2db261e"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/proever/40033805.html.txt",
+      "materialized": true,
+      "binding": {
+        "bytes": 3223,
+        "sha256": "a6be503d5439bbc830fe1e7c6c2fda45a6f39955100149888082de8432f73123",
+        "git_blob_sha1": "e241d0350975726a0697eaf9f6665fd4d477b4a5"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/proever/40033944.html.txt",
+      "materialized": true,
+      "binding": {
+        "bytes": 11663,
+        "sha256": "70c132f464e3c7643f7773ff2d17e28d637f7a5d4432554e69aed4d5ad59c5f6",
+        "git_blob_sha1": "b404a921efcfd6c2b03bd65daf10eeb8b6310afc"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 4724,
+        "sha256": "4c66706d1dc93ebffe0954fa399b2de4ec0c11f68dd5241daad2a2148669e25c",
+        "git_blob_sha1": "009d8fb3a5aebeeef876704fbe3be7c0227722e3"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/selvstendig-api-vedtak.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 7658,
+        "sha256": "2d4c459e836fe95b14730eeb4ea7935dd131b9b3e225e567e3e7a1852130e3a4",
+        "git_blob_sha1": "107a3f3aea23da847f894bb216321295433e51f4"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/selvstendig-bevilgning.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 10428,
+        "sha256": "74c65613030ea5b9c379902315e8a1ebf7c7d537dfaea9de7af6e89339d6e2a0",
+        "git_blob_sha1": "ff26f67fe9afe0aea7eca843aa9751fc17ffe8e3"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/selvstendig-fasit.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 1508,
+        "sha256": "af082fe8ca28857f58e42632734bcde68e02ab376b1d556372f7b59ff9647f15",
+        "git_blob_sha1": "f637c6ddd00e8b6ca66d5527de098b8d6869f99e"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/selvstendig-hentinger.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 7365,
+        "sha256": "1997d5111cded1451d4b598b2b240e53b1bc3011febaecf812f8869a0d076b58",
+        "git_blob_sha1": "911954dc4e3e5496d7ef199c8cad12f8d745d885"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/selvstendig-saksgraph.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 5439,
+        "sha256": "5a399b7ec10b7e942396c9acc4de53261770854bd35bf757fa5c21e3a1cebdde",
+        "git_blob_sha1": "4f07750d7462108d18d4445ea9b78f315ee7e261"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/statsrekneskap2024-henting.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 682,
+        "sha256": "80c74578eda49777ce5a1a42e065804756469a0338b10cd54486b7b9c8805509",
+        "git_blob_sha1": "8e42e23d873befd0b075e59718a4cfad43c0139a"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/statsrekneskap2024-kontroller.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 75990,
+        "sha256": "8e1a51e12ff7c0a5578e55b29c59fcf7ecfa2ba1c9dd3daf0e3f7b71f1401621",
+        "git_blob_sha1": "f32dc03fd95a9fc5c5d813da922b39363bf06aad"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/stortingsinitiativ.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 34461,
+        "sha256": "461c2412ba1c2599dcdb65a2ff037e5657155a73e50dd17abfe0c0b8ad7879bb",
+        "git_blob_sha1": "dcd1721a9fa01caf675adcfbfe55862e412c2288"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/syntetisk-rettelse.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 8018,
+        "sha256": "8ce817b3bdfe47176eaea8e4df06c7a521ade0fd79bfc4a58e6f6c98977a43e7",
+        "git_blob_sha1": "251c09ae002d2fbaa3795d5379cc37499ce57102"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/varig-kildegrunnlag.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 18716,
+        "sha256": "9d80162342e3d52938a2c857c7794e3c0209c6b945b64b84ee8279fde19badaf",
+        "git_blob_sha1": "08fd8dfbd0665ddec7369a39a7790ab72e80b66b"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/vedtak599/fetch-manifest.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 8363,
+        "sha256": "07a696d6957cd589f9dabdd5da8d22416b7b6dcf4c878fc02ee910f0deeef611",
+        "git_blob_sha1": "71b25d0c7de7d72b69c77abac7fa14e3e4a5e165"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/vedtak599/fixture-normalized.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 4301,
+        "sha256": "888dd56d19f5f745cfbb3b0795a466937c10c2796e293f2962b585ca3f3d0069",
+        "git_blob_sha1": "ba1f2268c5542811bb94ed503506460947e6a572"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/vedtak599/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 14632,
+        "sha256": "e48a4e73b905a4dd6da682433f294785cfb0835c83a6bb2da8c47df095a1a43a",
+        "git_blob_sha1": "4eb090735320794af7b44449ba3bbdf83b408c85"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/vedtak599/source-checks.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 276,
+        "sha256": "4df60780f186654ccea30ae2581db50b87ca2e7dc3424b10d48e67f79b197c87",
+        "git_blob_sha1": "5416bfcaa370995a7187c57b0ee04b9964ccefc0"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/vedtak599/source-comparison.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 4742,
+        "sha256": "af84c58d150287abcecc1cdbdf47447bc1fb99fb47cc7fa80fcfed42ae50cb2e",
+        "git_blob_sha1": "20c2f234d8b1f1d4bb5ed5ebb3ecbb3f4304e8dc"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/vedtak599/vedtak591.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 1032,
+        "sha256": "b88f931866a035e655d3fc069978e9e2d637f5f55dc6f6a7db6ce2a51aa333d3",
+        "git_blob_sha1": "570cae0a012575f117fa0ae07c8d304a19e77e63"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/vedtak599/vedtak592.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 1042,
+        "sha256": "99c7eb89b5b8f29576d19028eb042595c81bb3ecf6eddabe217ca5bef65dbd07",
+        "git_blob_sha1": "ee04c0bc03e539a346217cfd3138b486e7c250e0"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/vedtak599/vedtak593.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 1035,
+        "sha256": "4967ddfbd1e81f83e607dddaeacd8f86c77d0c3354297fe8221cf6ded4443b04",
+        "git_blob_sha1": "09081ba50d3b5b20e47f355be7c73def0451feb2"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/vedtak599/vedtak594.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 1031,
+        "sha256": "ad9b977d1be61e309a6a40dd821098149b03826a05af6dbd843f4799f0804a24",
+        "git_blob_sha1": "ece08c9cf5a59db904e1fb38a912ef52aa8ecd66"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/vedtak599/vedtak595.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 1019,
+        "sha256": "6c2096dd9938cac643143134fa67fe7c6a22dc735706393dcee8d1cd4061207c",
+        "git_blob_sha1": "61dd6bfa8c50f5d11e8e92747b05e8c9109e6216"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/vedtak599/vedtak596.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 1023,
+        "sha256": "80b1d7755d88c31255002e1f03dcb82c225cf665017a95c28adf623e4a9fa896",
+        "git_blob_sha1": "22ad1c895971bb249722d8c76060cc4209a3374a"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/vedtak599/vedtak597.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 1029,
+        "sha256": "643087a790dbb7fac8565609cc822ee435506f4ea4c53c2f6c8c353791b5d4e8",
+        "git_blob_sha1": "162eee1d5f9ebe7f2c8288b73263fd898f109180"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/vedtak599/vedtak598.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 2785,
+        "sha256": "3960168205633b5d752b2070207051a39ef292da8b248727cdba7ae53e458b9d",
+        "git_blob_sha1": "5e627de5eba61e324053bdf212a77c8663f4c3d5"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/vedtak599/vedtak599.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 6187,
+        "sha256": "4a04e887245a8ebb3ad511a4c560f0a7d83f0fe9f3581c0aeaabf561add4cf90",
+        "git_blob_sha1": "84805177b201c41c4133f2a3cbe44a1d7710f2b6"
+      }
+    },
+    {
+      "path": "docs/research/issue-2/vedtak599/vedtak600.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 1054,
+        "sha256": "17a15c5017b398ec4bf74ee907624c3e575a7a10ef05af6d19e901dd5adaa401",
+        "git_blob_sha1": "6c29e5db8a9e3bdf9fc54ecfef349d5026d1f4f2"
+      }
+    },
+    {
+      "path": "docs/research/komitepilot-44/ci-newlines.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 5659,
+        "sha256": "b5b98ea5854f49fd4b3a5db8220d0cf40386fc59c2f7097c1fa191f6f8cc35ea",
+        "git_blob_sha1": "9821d22cbb481ad91d3b40aa9d995aa6b1a11e5c"
+      }
+    },
+    {
+      "path": "docs/research/komitepilot-44/ci-newlines.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 7838,
+        "sha256": "762f2b4a639ce839cca6fe5720e79e7870432b23afdfc5758ee6c96fa219511f",
+        "git_blob_sha1": "2542c64e340d6544a55dfb8fdb5a6b0f76b7a516"
+      }
+    },
+    {
+      "path": "docs/research/komitepilot-44/ci-old-compatibility.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 5423,
+        "sha256": "af3d3a6b859e90b257f33643a24ca9e76abbd73e93d040f3e05639ca8e0d9746",
+        "git_blob_sha1": "3d36dc73a64f64aa7346ad007d72d85cbb6a103c"
+      }
+    },
+    {
+      "path": "docs/research/komitepilot-44/OVERLEVERING.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 6846,
+        "sha256": "ac0c1955b19f8a681f4088ad9c56d9fd224ccec53f64e00f43b3e1bee98ba1ed",
+        "git_blob_sha1": "34feb5afd99138fec288fab74f6f81aba3f93cd1"
+      }
+    },
+    {
+      "path": "docs/research/komitepilot-44/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 7980,
+        "sha256": "b211d7bc3aca262d7a3c6f49dd55e93196ea8347ebba55816ac8753de2d7a21d",
+        "git_blob_sha1": "3bcbe833adcc4b4958c0f39027acac57f131078f"
+      }
+    },
+    {
+      "path": "docs/research/omtale-o1/hent-originaler.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 2644,
+        "sha256": "3c33654e4a51526ee9405f3b7a4b07827466636fce30f39e52092ad844fcad93",
+        "git_blob_sha1": "1a4e29499ee99a74e036761a0075342199c79c53"
+      }
+    },
+    {
+      "path": "docs/research/omtale-o1/komite-kontroll.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 5343,
+        "sha256": "f28c3017bdc593729019c25f87625e4317dd192cfdfd92f5e9a0900f8932cfcf",
+        "git_blob_sha1": "0d5d82743afcb4910920db91f2b8cf535c770198"
+      }
+    },
+    {
+      "path": "docs/research/omtale-o1/kontroller-kilder.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 2648,
+        "sha256": "b818c8ccfdbb78f92838de7aa766ceb161d1694d3c3b41f754628c1c47b3ba8b",
+        "git_blob_sha1": "31f77da0f1ec33798f9eb661f609a0f8b8ddcdc1"
+      }
+    },
+    {
+      "path": "docs/research/omtale-o1/o2-forslag.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 10878,
+        "sha256": "d03d3431de0174c88f25414679141ed226a57c016b455b23dca6c592ddb6d514",
+        "git_blob_sha1": "92e5c14ac9ff14b91237c48fde9ea87d6dda26b4"
+      }
+    },
+    {
+      "path": "docs/research/omtale-o1/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 15154,
+        "sha256": "2b4fda2ffa9b84a27904dc7abee80c115baaf2559988e02f695672f9540123f1",
+        "git_blob_sha1": "57c15689552351f589409774732b3af74907d89b"
+      }
+    },
+    {
+      "path": "docs/research/omtale-o2a/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 8082,
+        "sha256": "748105ce87bbf063d5b78552a15fec2caf54b352ac0171c60c0d4bc41a01998a",
+        "git_blob_sha1": "e0a115557863279522418866f0c52c92a57c3d1c"
+      }
+    },
+    {
+      "path": "docs/research/omtale-o2a/retting-etterkontroll2.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 23539,
+        "sha256": "eddbd22c9b85a2e733e3b5d68c9b8daa844bbd343e39051407e5289115a8abba",
+        "git_blob_sha1": "2e2f28453a0bbec1ac61664a51524aa2aebcf154"
+      }
+    },
+    {
+      "path": "docs/research/omtale-o2a/retting-etterkontroll2.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 7190,
+        "sha256": "1b850e0ebd20772fb795c63a3fa9d6b509849631027711c7d61cb7865c739b31",
+        "git_blob_sha1": "19b5dda9725bedc71e65e0fc7ecf548fe13e6e7f"
+      }
+    },
+    {
+      "path": "docs/research/omtale-o2a/retting-finalaudit.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 26491,
+        "sha256": "6631e5953ca21fa4efa4a4eb32816d18035005bf86452398a1c78062c2031e8a",
+        "git_blob_sha1": "b91347b98c3ef4f184e0ea860cf40afc1cb34635"
+      }
+    },
+    {
+      "path": "docs/research/omtale-o2a/retting-finalaudit.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 5575,
+        "sha256": "49661342315299ab9f7b146b11445be2aac7d119782f012a9b93667d471c0596",
+        "git_blob_sha1": "c39c60276106f9ef932930f0c0a44e0324b78a02"
+      }
+    },
+    {
+      "path": "docs/research/omtale-o2a/retting-review-audit.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 9045,
+        "sha256": "c701c649ecdea818ba459d64cd555b44aee360b7073b1d4ee252f473e279a046",
+        "git_blob_sha1": "fed14901206fef874e55440231d834326046fce8"
+      }
+    },
+    {
+      "path": "docs/research/omtale-o2a/retting-review-audit.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 7002,
+        "sha256": "120517a1e2272434519751656f540e5563e3d9bcad1e919da0a637d98ae49b41",
+        "git_blob_sha1": "6a0b7e39ae22ade710c5ed3775d1afe2bc10473f"
+      }
+    },
+    {
+      "path": "docs/research/omtale-o2a/verification.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 9198,
+        "sha256": "232291b0c79926d6ebdc7091fe0fd57a2f717dce1228ccad7ca2b505daaae3d9",
+        "git_blob_sha1": "5820b652f15e98609af21e709f00076e6190fb1e"
+      }
+    },
+    {
+      "path": "docs/research/omtale-o2b/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 10038,
+        "sha256": "5a97d5db16a8098aa7b5145de09c81d18f3f86196e3bb71c227986ec795c7993",
+        "git_blob_sha1": "b8232966c37c84a289c0bfcde9899378974199f3"
+      }
+    },
+    {
+      "path": "docs/research/omtale-o2b/verification.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 25580,
+        "sha256": "c950720947c3e66e84b95d0e18563ab13d6151ae4cccf2caacabd17e6c07cb0e",
+        "git_blob_sha1": "b554ec86878bae393e4b8ac01fdc00172965d9c0"
+      }
+    },
+    {
+      "path": "docs/research/perioderegister-52/aksept.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 3667,
+        "sha256": "9f476e7be36cce34ebb4a955c945103c13cac85250dc7a727b81bf25ecbcc0f2",
+        "git_blob_sha1": "fa4bf9e0dc9ee896abae17ee52488b55e2df23b8"
+      }
+    },
+    {
+      "path": "docs/research/perioderegister-52/guard-probe.txt",
+      "materialized": true,
+      "binding": {
+        "bytes": 3601,
+        "sha256": "ad20ad46e0777125172b80a3c56f119b4e4b6668cff76118688423f038875af5",
+        "git_blob_sha1": "ed41645361cf78281c5ed5fea81f0747cf8fdd1f"
+      }
+    },
+    {
+      "path": "docs/research/perioderegister-52/leveringsporter.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 3951,
+        "sha256": "e90c91fdbf70a71374e6d4f214e84fe1ed55d7ab9f02527d9b84792086c9a386",
+        "git_blob_sha1": "750bbb65171dac19e0b7eb4211dceded7ba0e18b"
+      }
+    },
+    {
+      "path": "docs/research/perioderegister-52/navigation-probe.txt",
+      "materialized": true,
+      "binding": {
+        "bytes": 1690,
+        "sha256": "4b464cf9422f6c5e03f52659fb5967f720e742ba61f6ce12090a60f77eadaae2",
+        "git_blob_sha1": "7c9d2ec99d5bbf0d167ebff9ee9152ac727c0db6"
+      }
+    },
+    {
+      "path": "docs/research/perioderegister-52/OVERLEVERING.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 3989,
+        "sha256": "0a017365304223d39d843b1597e8d441b6c62b1c5ba1decd7536cbf538d48af2",
+        "git_blob_sha1": "4b46880e53d29a8768ce08c259757371ad9497b0"
+      }
+    },
+    {
+      "path": "docs/research/perioderegister-52/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 3518,
+        "sha256": "0e33298c1c534259d88f9b85bc5f2f3729c79cdb2a2c5b20f592564d20dcc900",
+        "git_blob_sha1": "fa5d83a789a1958d3aa15d480a2bcc3b98fb7b23"
+      }
+    },
+    {
+      "path": "docs/research/perioderegister-52/reproduksjon.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 4862,
+        "sha256": "6f0a25903320b66521506f4b09444ef34efe74a6183e1e54ec46346067c783e9",
+        "git_blob_sha1": "3f844a13e102bd96e2b31d85dc2f9d3fa6a2bac5"
+      }
+    },
+    {
+      "path": "docs/research/perioderegister-52/source-findings.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 3262,
+        "sha256": "47e847738a2136eb35727cbb876985144ac2684ed6ac610b55a18b8b0a224dad",
+        "git_blob_sha1": "57f15f5ced77ce918ee4264ba9f2f2a5299557ae"
+      }
+    },
+    {
+      "path": "docs/research/perioderegister-52/tdd-journal.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 4339,
+        "sha256": "68fb6124bc6256c9cd8ede1458a5197a0fb0a69a85a521456c471d85191a8a96",
+        "git_blob_sha1": "03c842a86101cd22a9d62b28b62caa16152ba8cc"
+      }
+    },
+    {
+      "path": "docs/research/to-visninger-37/eksisterende-grunnlag.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 36477,
+        "sha256": "2c5e175b7c06573de9dc812f174bb4659685d6b7a4e34411d24274b0be8a065b",
+        "git_blob_sha1": "fe1df1f7cb9ce96790ce25ec7a107b88e4571b4c"
+      }
+    },
+    {
+      "path": "docs/research/to-visninger-37/forgrening.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 21476,
+        "sha256": "b1132e00581263c07b2587e910b2f171dd66877e5a55571ed7e02e06eebc7556",
+        "git_blob_sha1": "c6e04818dfc68438fb2241ad2a8a590e0241922b"
+      }
+    },
+    {
+      "path": "docs/research/to-visninger-37/komiteendring.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 17375,
+        "sha256": "f243911e70b7352ef1ec72c7bf71856b9bc5c7609fb632becc2f14bac358f745",
+        "git_blob_sha1": "8a86b23a711ea3215dd6567dcdada8ec9c9ff7e9"
+      }
+    },
+    {
+      "path": "docs/research/to-visninger-37/konto-aar.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 23447,
+        "sha256": "194a918ce5faf02224e61316fd6259a516247060e59305a177c361a65d1bdab5",
+        "git_blob_sha1": "67338209773a9a8bf8bceddd198cc80cbd5b118d"
+      }
+    },
+    {
+      "path": "docs/research/to-visninger-37/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 8075,
+        "sha256": "8f0b3192a6b15c7ebc49ce746591cdef6cb9368eb468ac23355e4586dacbed87",
+        "git_blob_sha1": "34ad83871e9bf9c072d47bcb989270c7ff52b9e3"
+      }
+    },
+    {
+      "path": "docs/research/to-visninger-37/testmatrise.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 12962,
+        "sha256": "45dab4dfc5c12c9553defcb448cdae8204c332e621370a560f45836d589eb847",
+        "git_blob_sha1": "b04493a2fba64a2b168debf691183c9d5db9a7a9"
+      }
+    },
+    {
+      "path": "docs/research/to-visninger-37/tickets/01-innst81-to-innganger.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 3732,
+        "sha256": "d3121e8b35a959e7339d7ce1dae8fadad7000265c17a4e4312bc1a29a90796bc",
+        "git_blob_sha1": "68aa29c7b934f2922cde654682901b000a164cc8"
+      }
+    },
+    {
+      "path": "docs/research/to-visninger-37/tickets/02-komiteendring-315-78.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 2829,
+        "sha256": "8bed741c60efcd209fe93a93537628ae534068631942cdc52e429f0190ddb399",
+        "git_blob_sha1": "c3e6ee7259ff8e91ba34dffd8af89cf3ec512eb8"
+      }
+    },
+    {
+      "path": "docs/research/to-visninger-37/tickets/03-2024-flere-runder.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 2774,
+        "sha256": "f587fef4a7cfe8c64b8495230ff18eb6d9c59e7ed9702733a4ff260f37e1b15b",
+        "git_blob_sha1": "0eac34317b7e17926cef98e7ee9251c94dcc3469"
+      }
+    },
+    {
+      "path": "docs/research/to-visninger-37/tickets/04-separate-aar.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 2203,
+        "sha256": "aafc093f8dd85dc6c8799031ad40718f21cf974eba088c37c37d2ed7de94a264",
+        "git_blob_sha1": "b3a80be202be08de7f87ada786da55d8928dd75c"
+      }
+    },
+    {
+      "path": "docs/research/to-visninger-37/tickets/05-hel-proposisjon16.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 2729,
+        "sha256": "f3a229779193d79e7eec9935697ed1b615891e1867d08edfd63de930dbf08308",
+        "git_blob_sha1": "78a0cb234b6c4b1fb4cc1c8039ac6c09739d8399"
+      }
+    },
+    {
+      "path": "docs/research/to-visninger-37/tickets/06-hel-innstilling95.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 3180,
+        "sha256": "21ea43b79e74c9657160e445107c62940d24bf84eef0107ecc6aa3d779834628",
+        "git_blob_sha1": "45b2b76d99d977ad51408366c5b538c5e4507ac5"
+      }
+    },
+    {
+      "path": "docs/research/to-visninger-37/tickets/07-kildeport-parallelle-forslag.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 1507,
+        "sha256": "d3bbfe0081818f3ad3d9c054b7450df60b8c596ece653f6858c3bce61f6eac81",
+        "git_blob_sha1": "c2fa5832e78de0887b53edd0f2eed89d7efc464c"
+      }
+    },
+    {
+      "path": "docs/research/to-visninger-37/tickets/08-kildeport-kontinuitet.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 1605,
+        "sha256": "2263905ac94ceedc303164a4db1381c3c71b857edc7e2a38e4faf1402a4ae5ec",
+        "git_blob_sha1": "f36709046118a7a76c7219b98aa1f02daa86c336"
+      }
+    },
+    {
+      "path": "docs/research/to-visninger-37/tickets/09-kildeport-arsinventar.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 1798,
+        "sha256": "6baddc8c9fc06a7700e849f9547b4d3018a9213dd98bb5e91529e279c8e06e74",
+        "git_blob_sha1": "7a895bbf3ab5553f33c3a6ba52a7405ff0124516"
+      }
+    },
+    {
+      "path": "docs/research/to-visninger-37/tickets/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 4250,
+        "sha256": "4e658d88f8d959a71c078ea4c92c8bf17027e0d34fd9d6d8ce408d7b3328638f",
+        "git_blob_sha1": "eb6d0e55880394c2ef8f64581fafe7085e864131"
+      }
+    },
+    {
+      "path": "docs/research/visningspilot-41/kontroller-forelder.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 1490,
+        "sha256": "0175967ef90d776acae855e7460808c8a3a9dfb4d21b143fc3324c22ff665388",
+        "git_blob_sha1": "fb3eb873535ca05a92a11dda3aec0c7bee34e340"
+      }
+    },
+    {
+      "path": "docs/research/visningspilot-41/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 13909,
+        "sha256": "a5da58b7f009476f23385adf9413a4ed59bae2da82d6d3b670ec7f39206ec3d7",
+        "git_blob_sha1": "b3f292c08cdd452bf8b44e16990fbf22c304764f"
+      }
+    },
+    {
+      "path": "docs/to-visninger.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 14746,
+        "sha256": "bb79529eea8c797806adda325f46af55957eb3ea0c57457b2ac4550603bb62fa",
+        "git_blob_sha1": "8c478d386685f1379e1b47e7157e9c282f043753"
+      }
+    },
+    {
+      "path": "docs/visningspilot-plan.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 10934,
+        "sha256": "5d0fd1d9d3d60755760c0c980523e035fcc895e00f5fdc54e7cd3ab28aa92f69",
+        "git_blob_sha1": "2dc7cbdb7477357ab9b104df8b2c094e0c184fd5"
+      }
+    },
+    {
+      "path": "docs/visningspilot.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 11292,
+        "sha256": "dd34a0edbefbe1f7911610724bb140d77d78f212df222245a538840dd00ba3b9",
+        "git_blob_sha1": "10fcccaf1965e0017127c006d5f9fcf7097babe9"
+      }
+    },
+    {
+      "path": "drift/__init__.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 274,
+        "sha256": "ddd46a299c30246496d8c510714fc46521978217b7220d2179a0b2df5cdabe1c",
+        "git_blob_sha1": "a744c98c43137ef3918df0fed87d1eed58735199"
+      }
+    },
+    {
+      "path": "drift/__main__.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 3396,
+        "sha256": "5f7c3df8475c17b100ffbc79916b7449c12b698aecf790ee71c5ab7646c0e17c",
+        "git_blob_sha1": "fd22b25e857abc851e15bed2240139a92c9aeb99"
+      }
+    },
+    {
+      "path": "drift/artifacts.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 989,
+        "sha256": "938b475de8921accf03f0d0c47eb64d8a26ac13991c5e99f876aa39a50d27106",
+        "git_blob_sha1": "d33686b113ecec94db74c40b16477238c36990f8"
+      }
+    },
+    {
+      "path": "drift/config.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 2769,
+        "sha256": "6fccd08a53c10c892f0d3655eb1d726be4e9a7e6c2eaf0cb1beefa3ff27de267",
+        "git_blob_sha1": "0fcbbf814a1cef9bad37cd612375de5e548299ba"
+      }
+    },
+    {
+      "path": "drift/locking.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 1367,
+        "sha256": "7d49bdcb0328d409ad7203cdd17f5691bbf469584f51b7c4ca66a3a0976da266",
+        "git_blob_sha1": "8ced49add8ebc31ab85965b910dd0c53eb5ceab7"
+      }
+    },
+    {
+      "path": "drift/notifications.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 7256,
+        "sha256": "e024a380a3e4bed18c3703864c526e796113e44722e859d35e38027ae9c375e5",
+        "git_blob_sha1": "430f80b8886b9791d72faacfc9f86370aac35305"
+      }
+    },
+    {
+      "path": "drift/runner.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 20030,
+        "sha256": "80a63c756cad1b7cff1bc40b72e09a9241ebfe2a8ceee1456ac640149bf94716",
+        "git_blob_sha1": "f5ce6a98dce91887a9a90f2c9c121653eb9dc3c6"
+      }
+    },
+    {
+      "path": "drift/schedule.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 671,
+        "sha256": "2fd82c73fb7c79205dddd2fd8248b8521f4f8a508087197caaf05ab3cd3f9b78",
+        "git_blob_sha1": "e2c193c3a5024d10bb33e4860eb11ee03b3a5708"
+      }
+    },
+    {
+      "path": "drift/sessions.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 4277,
+        "sha256": "05217880981daa4ad38e5ffbd4eba7cf6f6395e5a83f74f77695fc6101ed3d4e",
+        "git_blob_sha1": "61fe6d723753f990493f43681d557c14708400e8"
+      }
+    },
+    {
+      "path": "drift/store.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 12689,
+        "sha256": "02e298e8062ad6ee9d05913e0fcc1b85fdba639129304be9c4e3b6c4e2cb499b",
+        "git_blob_sha1": "2e0e4b8e39983dd1965bb137728963e3955098bc"
+      }
+    },
+    {
+      "path": "drift/windows.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 2482,
+        "sha256": "d9ab5bced7a9543a89935b8285173f194befe137b897740601d9645ac3caf522",
+        "git_blob_sha1": "b24e57d264a32db10214c767aa207bba1b602ae3"
+      }
+    },
+    {
+      "path": "GLOSSARY.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 7814,
+        "sha256": "45cb019a9ac43ca4469e6af0ade2f1a48552052c9b383d9645b1bd743e9f510e",
+        "git_blob_sha1": "d489660288efd9e8a8dca48f10a6fdc7d138b932"
+      }
+    },
+    {
+      "path": "innlesning/__init__.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 1789,
+        "sha256": "fcd18735e62b4536fe116e2883c3ed1699a24edd256a4bc8c9951b3fa5d474ee",
+        "git_blob_sha1": "d8788fedda19aaa8f412d1c72bb41c1223a7c631"
+      }
+    },
+    {
+      "path": "innlesning/__main__.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 12292,
+        "sha256": "07ce384656a79f51bd7020296b6dfc4a332d1c558c7d9487d4011efca74e026a",
+        "git_blob_sha1": "4ff6fc06110c02f03fc87f23cca43f38a5216f2a"
+      }
+    },
+    {
+      "path": "innlesning/controls.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 28499,
+        "sha256": "01f720a0e72f9090e10b7f2dea38de4a0d954e2138a442e846e78c34e92a75e3",
+        "git_blob_sha1": "a5e62dcbb45f054d6bf7182d626c4d9d650c3621"
+      }
+    },
+    {
+      "path": "innlesning/fleraarspilot.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 16704,
+        "sha256": "5600c10f6fdb0da92cb43bf6c90982cff8c3f15a9620a9070c680d9de67b5112",
+        "git_blob_sha1": "a9c83b9d84e609012532171687d594b2c642df45"
+      }
+    },
+    {
+      "path": "innlesning/fleraarspilot_model.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 660,
+        "sha256": "2927173fc8fc65a61ce5e3a39a84365103da5403da69c807dbdfe0e0044fc1bb",
+        "git_blob_sha1": "d6bea40bb1c77257de6818b9a660aa8a4d62626b"
+      }
+    },
+    {
+      "path": "innlesning/forlopspilot.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 25814,
+        "sha256": "6fb4289cfee70c00dc30b3307494c566bd7e3a468625f783ce396b1351d5f77e",
+        "git_blob_sha1": "f4f955aee592bafa3259f8371df3a77e39703ab8"
+      }
+    },
+    {
+      "path": "innlesning/forlopspilot_model.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 1453,
+        "sha256": "b19cbb065b3c243135c6b080a21fa10069d817bf7b14958c8764aa51e73b4998",
+        "git_blob_sha1": "af6abca3eb2eb640a2ec1a08a545447dfe84ec0e"
+      }
+    },
+    {
+      "path": "innlesning/historical_excel.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 31204,
+        "sha256": "cf80a37490d207f408c3b68b122358a00270d9cc5e7c92f84a90b0f2dee20e46",
+        "git_blob_sha1": "1f014bb1fecaa1abd80fbb55bfee1daabda71be6"
+      }
+    },
+    {
+      "path": "innlesning/historical_xlsx.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 21861,
+        "sha256": "e6016c112479017034acf24ad3b0786df1b112023ee452d34e4c3bc38843dc8a",
+        "git_blob_sha1": "9447703b096d9a354e169dc4240fca38c2813416"
+      }
+    },
+    {
+      "path": "innlesning/http.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 1748,
+        "sha256": "b715dea407ad29d83ee7b6c949951d4dccbbafe1179380c6b11d97bf6c61674a",
+        "git_blob_sha1": "5ef803dcb1d90413226217f7a4d242bc46fee3a5"
+      }
+    },
+    {
+      "path": "innlesning/ingestion.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 10180,
+        "sha256": "7ec8e4352d2ecc8c323ddb1d07cf4faec3ef7517af036cde5a04ddee27b51460",
+        "git_blob_sha1": "9c11b67dd3067b06a2887ac737cbb8d2d7155dee"
+      }
+    },
+    {
+      "path": "innlesning/komitepilot.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 34515,
+        "sha256": "d1b2e0d19b688de2021819d77c5a96a16a173e34cb7e5f4997dfc93686afa4ca",
+        "git_blob_sha1": "0ecd0161e318d0e585b81d66342689908fb58ea9"
+      }
+    },
+    {
+      "path": "innlesning/komitepilot_model.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 1469,
+        "sha256": "3e557f42308a39fcf663b249cc56372bbff6329ac6597d736f148485cad28078",
+        "git_blob_sha1": "7467593a86133a12b15e3245d04664a98c67923d"
+      }
+    },
+    {
+      "path": "innlesning/legacy_html.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 1680,
+        "sha256": "6d4d7f59b9ef82560fe25eceed60b3ad569d67e28961449621da3d072d960f97",
+        "git_blob_sha1": "73a2d42362d80725fb9828e266998cc705a7ab31"
+      }
+    },
+    {
+      "path": "innlesning/maintenance.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 9267,
+        "sha256": "b6a2b00ebcffdebdded5b52489b44de8b4e87e868a90f223af87bc53c9d30842",
+        "git_blob_sha1": "56b8d3995eff2ddda39cdcfcbc84674628499e22"
+      }
+    },
+    {
+      "path": "innlesning/maintenance_store.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 5929,
+        "sha256": "2325c027839eba102825ff78e7b44f6a57ceeba09b10010c93c0cc1c0e0eeb8b",
+        "git_blob_sha1": "99781455dd433137d41237ead32a906090524043"
+      }
+    },
+    {
+      "path": "innlesning/model.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 1660,
+        "sha256": "951ccf337eb7faf92bf407473b3ba1df6c996167b8139617fe21e7d7ea8ae55a",
+        "git_blob_sha1": "b22541a6ffb1bf6cb40c8918040afd449c54783a"
+      }
+    },
+    {
+      "path": "innlesning/observations.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 33967,
+        "sha256": "a2d3aabb73e0fb244620532fe4fbdc826a01d067b40fd39ec1dedc22c676ae7a",
+        "git_blob_sha1": "a5871e6d144990f1668ffbcfcd865aedae2affa3"
+      }
+    },
+    {
+      "path": "innlesning/omtale.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 22557,
+        "sha256": "dc2e423dc41ae28f4585bf54d3bd11fd24209da8d02edac9e5e272ee04ef3ce1",
+        "git_blob_sha1": "71499da2be3cebfece848210f086750eb6235d5d"
+      }
+    },
+    {
+      "path": "innlesning/organization_register.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 3186,
+        "sha256": "7ae27776445735cd1fc90fa7e664c9577291994ea64c1e2254e6fa344eb6e9f0",
+        "git_blob_sha1": "9d8e324779c196f162ae5f03daa7deae7175866f"
+      }
+    },
+    {
+      "path": "innlesning/perioderegister.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 32507,
+        "sha256": "4fb5c639fa1d9447eef94bd36cc5a1f4cf74765def1e2e2f8884b670e62b827a",
+        "git_blob_sha1": "b25a7351e849b471d55601fa7b30560210d90f29"
+      }
+    },
+    {
+      "path": "innlesning/perioderegister_catalog.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 125690,
+        "sha256": "5217cf54f368c952dc2fa27330817b0690b8af664487fc5f95504e9e1ee54d3e",
+        "git_blob_sha1": "a47c963bb053c6695e69564273802f3fdedaeaf4"
+      }
+    },
+    {
+      "path": "innlesning/perioderegister_model.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 3151,
+        "sha256": "ccc3344150460b2a1170db950438a2de2c8b465baed6d21bd664639335f84aac",
+        "git_blob_sha1": "ae6a97d6c7b921f086592411fcaa9c5229149efb"
+      }
+    },
+    {
+      "path": "innlesning/perioderegister_r2.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 27681,
+        "sha256": "a1ee519d15306be686d2c645f2a2288dcd7a37177fc0a31644cc15017b02d53d",
+        "git_blob_sha1": "d788e081f274b8e4c96f5346ef4f070b1d8b3bd1"
+      }
+    },
+    {
+      "path": "innlesning/perioderegister_r2_catalog.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 66557,
+        "sha256": "cd094f84cc4383018c32fafbe6cdb822819cbd73db65950b4abf38c596dd60d0",
+        "git_blob_sha1": "5a27011f62064951817fffcba3d366386af102c8"
+      }
+    },
+    {
+      "path": "innlesning/perioderegister_r2_model.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 2783,
+        "sha256": "1873f0be2ba27052daec92d5885209ea65adde6a2cb7784f266e06ad0ddaa98a",
+        "git_blob_sha1": "8bbcac0af268e70a6ff4ad92dba16c6e847291af"
+      }
+    },
+    {
+      "path": "innlesning/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 5826,
+        "sha256": "d375dfdc8d64c07298e1036078a392dee161692155ad73df7b3eda057daddfd6",
+        "git_blob_sha1": "3ffacf60a9cc45101575b65b00335341a6c05789"
+      }
+    },
+    {
+      "path": "innlesning/registers.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 17363,
+        "sha256": "031e45808a8666ebda63822e045591c4134ca6ad73ad0523a707e05b3e93f2ea",
+        "git_blob_sha1": "cd6acfc0fbfc03b1be9c195b3d60a8627b741f1c"
+      }
+    },
+    {
+      "path": "innlesning/saksdokumenter.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 35563,
+        "sha256": "ee87447926c21dd3283e075048f5546ec8221c63bcbcae19c0a0138750416d6a",
+        "git_blob_sha1": "c686ffa6af16adc8364c49336a8d69a7344861e3"
+      }
+    },
+    {
+      "path": "innlesning/source_attempts.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 7112,
+        "sha256": "8d25153668b75caab83a90c37c53bdfad8b30d9315d75c35c3daea33af2013c6",
+        "git_blob_sha1": "2876ed8b01a0677d1f825e7e1aa6defa7c95e133"
+      }
+    },
+    {
+      "path": "innlesning/storage.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 6594,
+        "sha256": "3a5a6074e639735c9e60991e57eef71e04b7f73701693a8355cf04be48b8697f",
+        "git_blob_sha1": "24c40ea59aa44aee2b56c07ea5f938590f4c43e3"
+      }
+    },
+    {
+      "path": "innlesning/storting_v2.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 20725,
+        "sha256": "b9c9f3d0993ce66236a591b07bffbed132668b899035c86e09b9f63b7b3821b3",
+        "git_blob_sha1": "ad564d0643c74cc6aba1d1ffd6f44a1c94e4a953"
+      }
+    },
+    {
+      "path": "innlesning/sync.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 35343,
+        "sha256": "36466ccc8d753a24c004cc1805c07c80aa566cb701ce2b6bcd1aea65d17b801a",
+        "git_blob_sha1": "789c6cf9ec5645109769d4766c9f252551a7bfba"
+      }
+    },
+    {
+      "path": "innlesning/visningspilot.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 45382,
+        "sha256": "e6a698d3f2e4ffe275c1c7c4f6e97c95023b0971bbe4a3b2403b51ac4a198e12",
+        "git_blob_sha1": "14fd9cb33dc45bcc4ea43d1b1d1d6c80ec1ddd56"
+      }
+    },
+    {
+      "path": "innlesning/visningspilot_model.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 3619,
+        "sha256": "951675aad3ba2e3261c816151bf7dbfa2a709c0baa86261fb0a6228d640914eb",
+        "git_blob_sha1": "fb357e42ca4c92e7bab27e42dea096a7e49087ef"
+      }
+    },
+    {
+      "path": "innlesning/visningspilot_vedtak.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 6788,
+        "sha256": "fd52372a4c496ba9603db00cf1ee49f117543a5019c010735e43acdcdc9e7422",
+        "git_blob_sha1": "a1ce013fc115a6b40b7b952ebe870e7058072a57"
+      }
+    },
+    {
+      "path": "innlesning/workfiles.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 12613,
+        "sha256": "665f034301800ce5a9d83b71b6bae3b02906c2a338cd339eb12f8eab00c807b7",
+        "git_blob_sha1": "364bd721af31d84ccbd22f5cc5ac4049e3001eb3"
+      }
+    },
+    {
+      "path": "ops/daily.example.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 470,
+        "sha256": "3d470173073128ffe347f697c23d4f3a2dc948d1f2d3cc2671958c739f20c223",
+        "git_blob_sha1": "6c73567f374bc7266b82e62bcd628e2ad6ee577d"
+      }
+    },
+    {
+      "path": "ops/fleraarspilot_proeve.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 21770,
+        "sha256": "82156475619a0ef3e399bd9c150e172884a18954a5ff09ce6a6350502880201e",
+        "git_blob_sha1": "d57a7470a8ea443f330a53234b934dba148e9cd9"
+      }
+    },
+    {
+      "path": "ops/forlopspilot_proeve.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 21425,
+        "sha256": "a019b865716efce43e5351340e5296f4560a6271d240f77d5a02440790bc5672",
+        "git_blob_sha1": "084c7bccf46acf7c6594cb0639aad2577a6fb3dc"
+      }
+    },
+    {
+      "path": "ops/komitepilot_proeve.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 15735,
+        "sha256": "b8e2489a8053b1bbd496ba0ccf4304fdbbe2021c7d976062f935c37a7eb1859b",
+        "git_blob_sha1": "6d7b538544edbe2797a0b85915c5884c0330094b"
+      }
+    },
+    {
+      "path": "ops/omtale_begge_proeve.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 6777,
+        "sha256": "badebb2593a3dd544d26c043bf5c312b0874fd5288379a60cd378377740cbb90",
+        "git_blob_sha1": "c884f57edf775041c526a0f13fa4f13f8dacb5d5"
+      }
+    },
+    {
+      "path": "ops/omtale_proeve.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 4223,
+        "sha256": "8f3fd37d29902dcfd62b2334c9d3d22b5183686b7c3d5c18633a9258c1c1ee9d",
+        "git_blob_sha1": "09f38d31d30a052907cce36f38ba67c3b2250469"
+      }
+    },
+    {
+      "path": "ops/perioderegister_proeve.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 25220,
+        "sha256": "43f605cf6e56c50b9f23bf2cbe3ec7f7d51cd77c46494c7927e30cab99d0d6d9",
+        "git_blob_sha1": "75b1881856e308d4634846faa3168549c0da86fa"
+      }
+    },
+    {
+      "path": "ops/perioderegister_r2_bindings.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 4537,
+        "sha256": "fee9eb7a7fc42a80dd6a07c9b85d4ed48e7a43b3140a62ef538a549ede30ad79",
+        "git_blob_sha1": "1a0f674b0212317eb4aae70d6dc7bcbc99c9189a"
+      }
+    },
+    {
+      "path": "ops/perioderegister_r2_guards.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 5974,
+        "sha256": "0125a49471206ea4a45c4bf0c0a6fb195f1917363670deb16b1d26a142dd77f2",
+        "git_blob_sha1": "e4fe17be96f04af066562421b5fb8597b6461c2b"
+      }
+    },
+    {
+      "path": "ops/perioderegister_r2_proeve.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 26227,
+        "sha256": "8dc903b2b3bdcd30cf5848a76ab0740cfde1767ebad71a5038c4ab2d0521fd74",
+        "git_blob_sha1": "11a2c495d68f7be4e978fae2a39e6af39959c0fb"
+      }
+    },
+    {
+      "path": "ops/render_fleraarspilot.mjs",
+      "materialized": true,
+      "binding": {
+        "bytes": 2255,
+        "sha256": "7eeae77a6277254659094a294d49de072a6abd9db8be05a7d72f86e94cfaa249",
+        "git_blob_sha1": "67f329ac3afe4b29724ab032f8cc606894a8dc13"
+      }
+    },
+    {
+      "path": "ops/render_forlopspilot.mjs",
+      "materialized": true,
+      "binding": {
+        "bytes": 2186,
+        "sha256": "9b0a410d83a27444ec3bd941975f76bcdf2f7471aefd127f747dc0df2b73f66b",
+        "git_blob_sha1": "80b4f657b74621f4d4db43ac84307612d06361aa"
+      }
+    },
+    {
+      "path": "ops/render_komitepilot.mjs",
+      "materialized": true,
+      "binding": {
+        "bytes": 1827,
+        "sha256": "823e41ce0262ef31df8dfdd80c3be41caa9eff0cc7842bf769f15e2296548413",
+        "git_blob_sha1": "90366f333607d6a482137f71c4a39175059c633b"
+      }
+    },
+    {
+      "path": "ops/render_perioderegister.mjs",
+      "materialized": true,
+      "binding": {
+        "bytes": 2641,
+        "sha256": "5871c64f30fa0f61ccd4a70633afd81e1aea3f49a355b0124bea37ceb3210817",
+        "git_blob_sha1": "096165be1ab79f129b58a6c870ed4a8a81bee3a9"
+      }
+    },
+    {
+      "path": "ops/render_perioderegister_r2.mjs",
+      "materialized": true,
+      "binding": {
+        "bytes": 2656,
+        "sha256": "01ff87f6022b3e8d78094a8c2cbbf40ed3d102423ac88da0bdbfb6ed76792467",
+        "git_blob_sha1": "529e99cc75876ce7591db43495fe53cc0723fa04"
+      }
+    },
+    {
+      "path": "ops/visningspilot_proeve.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 19514,
+        "sha256": "a9c3aa4a4911cbe1cf6a1a1d12f3c90dc11bf58551aa7e0c832df90432e41594",
+        "git_blob_sha1": "99cf803a3d6985906276b24a33122fffa07c0091"
+      }
+    },
+    {
+      "path": "ops/windows-task.ps1",
+      "materialized": true,
+      "binding": {
+        "bytes": 3050,
+        "sha256": "9ec3c6533636b3855ac2406a69c454e7302d15bd1639c31b1fcbf6bee0d484f1",
+        "git_blob_sha1": "97525c92fd6695a6688a679612851089dd113648"
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "materialized": true,
+      "binding": {
+        "bytes": 286,
+        "sha256": "1baf42577315a8f25d10b9f656ee18b78ab3ec23e95dc260e95b85cad75f7929",
+        "git_blob_sha1": "8a12fb945802bf05969e87836c715449a4115417"
+      }
+    },
+    {
+      "path": "README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 16896,
+        "sha256": "9cd384ec74cf155fd0610588fb92b03f4f597885283b8046472aa261f76ca7ba",
+        "git_blob_sha1": "7539a8aeb72001cabfc443f8112cae79f95f8e78"
+      }
+    },
+    {
+      "path": "requirements-dev.txt",
+      "materialized": true,
+      "binding": {
+        "bytes": 119,
+        "sha256": "00f6570ba694c0abf21a0a563af6bf50e44decd2805e36c7138b5a61d4a3d214",
+        "git_blob_sha1": "e0add77c2f1055a0e8c7eddb9db045923acb25e0"
+      }
+    },
+    {
+      "path": "requirements.txt",
+      "materialized": true,
+      "binding": {
+        "bytes": 61,
+        "sha256": "372d2f9ae163900e88a75d4836c6f4ef7361a5c2aa66e02cb9c9601d6594fd66",
+        "git_blob_sha1": "8fc97e8ef70d3aab0b6da4cb0dcf63cbfbdaf494"
+      }
+    },
+    {
+      "path": "tests/create_b3_fixtures.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 3234,
+        "sha256": "7a08785483d7e81e39baa4e598c0da0412ddbf9d6bad81f032a40dd179a01ac2",
+        "git_blob_sha1": "9ee91a67fa94da4991049e71e4cfa1afe6a50681"
+      }
+    },
+    {
+      "path": "tests/create_b4_fixtures.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 2076,
+        "sha256": "609160cae898ad062e83204b21847ab8030b9d0570a9591b4da55b59bf24b734",
+        "git_blob_sha1": "8d55544d736bc0754a21ec656d2511e91de81ea8"
+      }
+    },
+    {
+      "path": "tests/create_b6_fixtures.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 2330,
+        "sha256": "253d15e7a085b9109192fc5880c7d9469d24bc2e5838b32bdfcbd2f91f1d1d1a",
+        "git_blob_sha1": "2ab6f30354225a168b041944a9f2ec8a453138fb"
+      }
+    },
+    {
+      "path": "tests/create_b8_fixtures.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 1830,
+        "sha256": "93f2e190bc0001ba7bde6ecd46ea6ed142fb53061fe99a1fb8fea3a0a6f9dd81",
+        "git_blob_sha1": "b7a54bdcf8bdb149892e5a7a10f80fee544b0f4e"
+      }
+    },
+    {
+      "path": "tests/create_b9_legacy_fixture.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 3543,
+        "sha256": "19c216b953e012f6dac25c2c2b4339d6db52f789ad18f6b8f5f315ed19a93acf",
+        "git_blob_sha1": "b8e8ff8cf7747a941481b3b8695c9a9f3b3af4c0"
+      }
+    },
+    {
+      "path": "tests/create_fixture.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 1648,
+        "sha256": "40c18d63bd53c8860f53e116721e5965514c87ff4ba773f353d14d5d6a23a286",
+        "git_blob_sha1": "4d91e3222993b615be61f35281fcc70ea7fd6b4a"
+      }
+    },
+    {
+      "path": "tests/fixtures/b3/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 2805,
+        "sha256": "df5f00b594381809cd7d9ab1eb404ffa6fa2aa29009c8d0e3f6b139c598e0c90",
+        "git_blob_sha1": "7cee5c35de0843df21cb51105e1e88be9d90d09d"
+      }
+    },
+    {
+      "path": "tests/fixtures/b4/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 2070,
+        "sha256": "431d07046981ce622f40576d3c5c6e4dcc7e1ab2317b52310e90be19f42aeaad",
+        "git_blob_sha1": "db6d08b9940eb9b5fd90d41403f266394d07b154"
+      }
+    },
+    {
+      "path": "tests/fixtures/b5/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 1050,
+        "sha256": "bdea684d7f407cec7103fe819241bbbfbd9bc3165b7fdf087fcb6a979410cbc2",
+        "git_blob_sha1": "d67b7d6ff99789e6b0543d958957f35702dfb228"
+      }
+    },
+    {
+      "path": "tests/fixtures/b6/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 1703,
+        "sha256": "1565362bd5df43c0acdcca5dc9bb2104e78c9af597484330af52dad9de8ce35a",
+        "git_blob_sha1": "595cb8bc45224793dc9c2e79a5116a095aaeb42f"
+      }
+    },
+    {
+      "path": "tests/fixtures/b8/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 2883,
+        "sha256": "27cc6a19c0ffedcbf4a21beba6572f00927626273ec0311c337b026ad92664c3",
+        "git_blob_sha1": "bad1a3d032e43b9c783773fc4c94c1877c1eb4cf"
+      }
+    },
+    {
+      "path": "tests/fixtures/b9/legacy-b8.manifest.json",
+      "materialized": true,
+      "binding": {
+        "bytes": 1037,
+        "sha256": "6903af149f8a4571192addd75ebaeff380329d47b8819656f29aaca4b9e6cf48",
+        "git_blob_sha1": "084ee449edd9658de7feeae6b3c142f601e42ec6"
+      }
+    },
+    {
+      "path": "tests/fixtures/b9/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 3191,
+        "sha256": "f5aaed4ccad5d522704d16a8c6e3c02424ffc35b49a69bf4769988d673a9d287",
+        "git_blob_sha1": "f3db0835e8edb6dbc250353fb87c641b270101dd"
+      }
+    },
+    {
+      "path": "tests/fixtures/historical-v1.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 780,
+        "sha256": "36ea938e9e372cda0c3d88cff4237076dd65f21f23730862bff6d91e76fc5aa1",
+        "git_blob_sha1": "015af0560b9ecab99737367d755ef6572a4f7bf0"
+      }
+    },
+    {
+      "path": "tests/fixtures/historical-v1.sql",
+      "materialized": true,
+      "binding": {
+        "bytes": 195171,
+        "sha256": "c0e22e852b885cbbeda5a4e26b41404c87b4171fe93a6e004a161da1fe420d08",
+        "git_blob_sha1": "9c1665cfd67c85536ccd226ee3704328f21ce72c"
+      }
+    },
+    {
+      "path": "tests/fixtures/historical-v2.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 767,
+        "sha256": "db0990eda1ddd258ae0c3d6acaaebd2914fcb30639a2186a1812ba4a3ca7a5b1",
+        "git_blob_sha1": "8e688022de73cc82cffe4a5a41a4706b25b48977"
+      }
+    },
+    {
+      "path": "tests/fixtures/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 2294,
+        "sha256": "d200cd0801f20328b078a6749bb2215affa33a4dc4f244cb1b9938ce18c6f195",
+        "git_blob_sha1": "bbc8348e6c519b77bb9b16d05e5af9d0a9f1c5f3"
+      }
+    },
+    {
+      "path": "tests/fixtures/synthetic-history-v1.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 1126,
+        "sha256": "acb789ca6b55912ef3da37768995da77f66adc0a76dd740a1278cd1b4e72443d",
+        "git_blob_sha1": "9f9f614e4a7f5dfe4ce1e014cc16cb000f823f82"
+      }
+    },
+    {
+      "path": "tests/fixtures/t2/README.md",
+      "materialized": true,
+      "binding": {
+        "bytes": 820,
+        "sha256": "566b38754deaf51f8969abe8f5424c85b4f99244a7b8b54975f11c45fd2005f9",
+        "git_blob_sha1": "f8b08895197bcee541e5d9401c1b949bbe994e79"
+      }
+    },
+    {
+      "path": "tests/test_b1.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 13422,
+        "sha256": "37860c52a2dea77ea5fef89726ecfd5810cc9c43ae305523772095fce31ce622",
+        "git_blob_sha1": "62f0d0208c969c8cc0f52e05ce2b11f81ac77210"
+      }
+    },
+    {
+      "path": "tests/test_b2.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 29852,
+        "sha256": "5261e91bfaf30dd7d35ef576c83380e951462feba14eef9d522279dabb38147d",
+        "git_blob_sha1": "ccf67119c84e27587f32fb718b842de66da92627"
+      }
+    },
+    {
+      "path": "tests/test_b3.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 45458,
+        "sha256": "fec3ed12202053fa7508c79ea8e30417465c5b7f01861801a9ced1c119da0805",
+        "git_blob_sha1": "6e2af680b73ace33904fff4dae46a696b0244da1"
+      }
+    },
+    {
+      "path": "tests/test_b3_cli.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 2566,
+        "sha256": "d7584b59c8a1124b79664b2c4b303fccc688c20f4a902871bd0c06b014e7135c",
+        "git_blob_sha1": "ea43adc13b0a19561a4a378b4602265d64b099b6"
+      }
+    },
+    {
+      "path": "tests/test_b4.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 26451,
+        "sha256": "3e74273d032713fe59615643b3f48ebd0aab44ff18c399649aa30729af8405b2",
+        "git_blob_sha1": "8f66c72d389e6806448be251f1aa7be600a54ec3"
+      }
+    },
+    {
+      "path": "tests/test_b4_review.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 15966,
+        "sha256": "4adfe62d5ed6cd520858700bfc41b46f79e2d82961b60f451ca9efbfc746ec87",
+        "git_blob_sha1": "ef83dbc5b1610a7ba65f36257073c9b1607e5632"
+      }
+    },
+    {
+      "path": "tests/test_b5_cli.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 5946,
+        "sha256": "3113188d1e6d4f99dd8952c469276eabeea6ee05da5658f6ee2832f6de9644eb",
+        "git_blob_sha1": "6dd14667507a94a5081e69404b587627dc486f7e"
+      }
+    },
+    {
+      "path": "tests/test_b5_controls.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 20231,
+        "sha256": "3943324c4ea512da11044df6f820beb45825b681b8497e5c2978fa999848b558",
+        "git_blob_sha1": "5f29344ffe97e4ef50cd0ced4d0b35d8209a67d8"
+      }
+    },
+    {
+      "path": "tests/test_b5_register.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 10179,
+        "sha256": "e6165a8f374212fa95476a8dae2c74b387a4c6e4128ed04563df12f1d9751298",
+        "git_blob_sha1": "0fbcaacc496ecdfb076fafa858b97303e138d802"
+      }
+    },
+    {
+      "path": "tests/test_b5_safety.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 5327,
+        "sha256": "f80adf8af83b2ca671ac031292b013db64fa67a528d3c0a59a4538411beae532",
+        "git_blob_sha1": "85cc68e8536f1ef1ed6a0e1f7a4a4bc6fba7509c"
+      }
+    },
+    {
+      "path": "tests/test_b5_workfiles.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 9465,
+        "sha256": "d70ce897de7f9adff4c2e305961f0b81046a787b45febf13d7f1d8b5e9cc6a05",
+        "git_blob_sha1": "c78681fd0c293bf05364e1ed58cb4015829f8c88"
+      }
+    },
+    {
+      "path": "tests/test_b6.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 15197,
+        "sha256": "988fd17448456424d71b83dfb438615bc5a414578acac0bf6032350e09370592",
+        "git_blob_sha1": "c2c2a8f1ad5fd98b1e2f9eb56e83ce6c3b663645"
+      }
+    },
+    {
+      "path": "tests/test_b6_authentic.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 3783,
+        "sha256": "8277e606a9f6afcec7af93cf026164d12a25a7f96083c6d199ca7b947f6871e8",
+        "git_blob_sha1": "830a250989be31ea17165cc547390a51386543ad"
+      }
+    },
+    {
+      "path": "tests/test_b6_cli.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 4400,
+        "sha256": "ff358e628e12f5f79900f6ca867538f384117b61e73515ff9f91a37409a8b5a1",
+        "git_blob_sha1": "9c34221b084714bf1be3357f606c028211930856"
+      }
+    },
+    {
+      "path": "tests/test_b6_controls.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 17273,
+        "sha256": "33272f380d8e64576473b80cf79a00983f2025f80a9feb4e8ef6774bfb00034e",
+        "git_blob_sha1": "8e09f3dec435b56bffd27681e8c1982713dc8660"
+      }
+    },
+    {
+      "path": "tests/test_b6_reconciliation.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 7927,
+        "sha256": "7dd5389d7014348f0840d51d536a18b84ee3db195b2a685c9f83309787085bd8",
+        "git_blob_sha1": "a0a4165cbc3e683a0bc14a75b8c3d9085a83ceeb"
+      }
+    },
+    {
+      "path": "tests/test_b7.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 14265,
+        "sha256": "52723e01c3b23dfd3edd88f69ac8639f63af2c65159db1519a0c9d3678d894b9",
+        "git_blob_sha1": "4649caa2f15b0c0e9d17870a8cd9dd21a92af264"
+      }
+    },
+    {
+      "path": "tests/test_b7_authentic.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 5729,
+        "sha256": "e852ddc72828aa60e2fae45ce9c33f9a0d5a4186f43dc9fcfab9880ad7a4db96",
+        "git_blob_sha1": "c253de2f46f7040d804967a2c4b42530a84afa61"
+      }
+    },
+    {
+      "path": "tests/test_b7_controlled.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 12219,
+        "sha256": "becf4d02a9361c7b77ffac5e0e5fe8c0d56b8478ab09ead59530dfa36e9271c8",
+        "git_blob_sha1": "578ac13be60107ebc5e00e2fb204c8e2252f64eb"
+      }
+    },
+    {
+      "path": "tests/test_b7_frozen.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 1421,
+        "sha256": "1d39efc8aed40b6186a6f2f555ba4e7bf7ffb7aad5b0169caf4866cd29cf15b8",
+        "git_blob_sha1": "5775f9b449c5c6d19fca1efb1fdd0d79ddcf08a5"
+      }
+    },
+    {
+      "path": "tests/test_b7_github.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 5254,
+        "sha256": "b869a9972abb84128b84b769d6c58da3c3f22b482de34dc87911cf2dbf5a49f3",
+        "git_blob_sha1": "94710b6daef8459017b662341950fcf2ce961aa6"
+      }
+    },
+    {
+      "path": "tests/test_b7_operations.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 9988,
+        "sha256": "4a1bf444e044b52ca76c7552ec6d9efc47e4935d13f8355fcecb74e0bf92aa3b",
+        "git_blob_sha1": "f333daaee4f578b0fab7df463d833790dd2c4b40"
+      }
+    },
+    {
+      "path": "tests/test_b7_sessions.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 9288,
+        "sha256": "88e6ccb801a57633afcd46a82c182a1eea75bb5c5676e355d3fc59b627331680",
+        "git_blob_sha1": "cbd0bfa5caae0e6ba424e9d1b908057f5b1565c2"
+      }
+    },
+    {
+      "path": "tests/test_b8.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 43817,
+        "sha256": "b4d74e7b9720122a8ffccd429c59077ba0b6fbba08548f220616037b9496ca99",
+        "git_blob_sha1": "19d670af9f23a29b976f37ba8f39d2e0f27bd2a0"
+      }
+    },
+    {
+      "path": "tests/test_b9.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 30689,
+        "sha256": "bf68715cf6199858f29ab9d32380c5332b2acd9daed21fa17daa8c024d88967f",
+        "git_blob_sha1": "ca8522d3d711b80f6de20569dde4b17ce10ec2d6"
+      }
+    },
+    {
+      "path": "tests/test_cli.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 4775,
+        "sha256": "5c87390c586efa2939d91bc0c54ea7a3c8215116be870953c25bdaf75efa2d70",
+        "git_blob_sha1": "b7af91a34eca799b2b6e609fcc46d42aaa8a4198"
+      }
+    },
+    {
+      "path": "tests/test_control_matrix.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 24038,
+        "sha256": "6899b101703b4b4c32910e5e814856e215dd41673dc5f8744877083dc1f93d3a",
+        "git_blob_sha1": "4928979a48c9c1073e300d1d81f73a38be0cb7fe"
+      }
+    },
+    {
+      "path": "tests/test_fleraarspilot.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 13222,
+        "sha256": "82962d875ea6a686eca4786390461aa084b88334b73368dadd7a2e0e41f49c61",
+        "git_blob_sha1": "2f2ccac76aec3b50f512482c9a880e16a547086f"
+      }
+    },
+    {
+      "path": "tests/test_forlopspilot.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 18762,
+        "sha256": "a79519df0dc70a5bf8401240da57f3da7e4981685920a3cbcd81c0396a493477",
+        "git_blob_sha1": "51691b6f1bd36acff360a15e5f6c62369aae8150"
+      }
+    },
+    {
+      "path": "tests/test_historical_cli.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 6013,
+        "sha256": "4c7ba4fae20a612be1e76b745a94896cc88914cfcc8f5c29967b5485fa83bb92",
+        "git_blob_sha1": "930a97df581f70dc979ff6f02e0429816b0c0d71"
+      }
+    },
+    {
+      "path": "tests/test_historical_controls.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 12902,
+        "sha256": "a9e091965d4e4cc40584169995a4d25cc1e38ed2fbf345c0ca36f9454a6e6451",
+        "git_blob_sha1": "b7e26827b4453d67974f2abaa7440a863f9b3537"
+      }
+    },
+    {
+      "path": "tests/test_historical_excel.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 30400,
+        "sha256": "903e2bd96cf8beab26acd882da075efaf5719a40559ce32c083e92bb2cd7739f",
+        "git_blob_sha1": "cf52487a3ddda246afe8bcaaff0a5d404361f0c7"
+      }
+    },
+    {
+      "path": "tests/test_http.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 1995,
+        "sha256": "0e6896456dfffd2401cc1e481d10ca4d322cd5b1597de5d1019108b3a17f9feb",
+        "git_blob_sha1": "8c4232a9a31f504e54ba7ac0f8bac505805d5e54"
+      }
+    },
+    {
+      "path": "tests/test_komitepilot.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 22577,
+        "sha256": "03522cbec1783862d7466e7b0cc175b39daf8e569180ed9546a42d92d55e9e94",
+        "git_blob_sha1": "054ebc84e65fb63df8b21e950fff1d22f965faf9"
+      }
+    },
+    {
+      "path": "tests/test_legacy_html_newlines.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 2831,
+        "sha256": "eb9f595dba7159d43b53e6b0eef9eab4be6d4f327e3f2c929f70ae2728b4473c",
+        "git_blob_sha1": "82580bd303049caccff388688ed0a6e9ec5f315c"
+      }
+    },
+    {
+      "path": "tests/test_omtale.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 41328,
+        "sha256": "053b5bd9f1faf7bc59a5e4676dd8273e72a476432ff7b62a6a59e26e5ec850d5",
+        "git_blob_sha1": "f393b860a1d7a94337abf308a6873a6d208b1dbe"
+      }
+    },
+    {
+      "path": "tests/test_omtale_o2b.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 12865,
+        "sha256": "6094732ab053b5e5a61812429cc22c32b34a638427af2adffffedfc648d016ba",
+        "git_blob_sha1": "bbd9018ec3afc89ce04492de713a7f5c85fd3924"
+      }
+    },
+    {
+      "path": "tests/test_perioderegister.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 18960,
+        "sha256": "af36cdd7bbe504cc1ae33e3c04ce685beedd55b546f00e59db4b93147a0290bf",
+        "git_blob_sha1": "56228d7ede9ed4690443a35b184d2fc1859028cd"
+      }
+    },
+    {
+      "path": "tests/test_perioderegister_r2.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 12523,
+        "sha256": "305dee74fea6c77cc36b5204a5a230883ea4b1ce349bb7521c2647f93a1bd014",
+        "git_blob_sha1": "1c4430603a936f4ea0a449a36f1292c12c61ac06"
+      }
+    },
+    {
+      "path": "tests/test_visningspilot.py",
+      "materialized": true,
+      "binding": {
+        "bytes": 39695,
+        "sha256": "7ebdf13dfb0bb4bd8719afdffa064cab96fb82f9ebd9f57f958eba91e8cd9ff1",
+        "git_blob_sha1": "4e7fed9dca239f0139a46a54c9e5652a57c8f363"
+      }
+    }
+  ]
+}
