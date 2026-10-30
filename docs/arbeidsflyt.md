@@ -8,6 +8,16 @@ Metodegrunnlaget er versjonsfestet til [Matt Pococks skills, revisjon 5beb35b](h
 
 Bruk grilling i runder. Be om beslutninger som har avklarte forutsetninger, og gi anbefalinger. Agenten undersøker fakta. Oppdater kravgrunnlaget etter brukerens svar. Avslutt intervjuet når brukeren har bekreftet den samlede forståelsen. [Grilling](https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/productivity/grilling/SKILL.md)
 
+## Løpende tekniske avklaringer
+
+[Avklaringslisten #65](https://github.com/depmartin/budsjetthistorikk/issues/65) er autoritativ sjekkliste for tekniske forutsetninger, med nivå 1 før berørt utviklingssteg og nivå 2 før ordinær drift. Les listen og relevante kommentarer ved planlegging og før arbeid som kan berøre forutsetningene. Den holdes åpen gjennom prosjektet; åpne punkter blokkerer bare arbeid som faktisk trenger svaret.
+
+Når prosjekteier eller systemansvarlig gir et svar, oppdater punktet i samme økt med beslutning, dato, besluttende rolle, omfang og kilde/referanse. Svar som bare finnes i chat gjengis som en offentlig publiserbar beslutningsoppsummering med dato og rolle. Kryss av først når tilstrekkelig avklaring er dokumentert for angitt bruk; delvise svar beholder en presis åpen rest. Antakelser og anbefalinger er ikke beslutninger.
+
+Legg nye nødvendige avklaringer inn straks de oppdages, med neste ledige A-nummer, ansvarlig rolle, betydning og tidspunkt/konkret avhengighet. Undersøk tekniske fakta før de sendes videre som spørsmål. Bevar ID-er og tidligere beslutninger; flytt behov til riktig nivå, eller åpne et avklart punkt igjen ved endrede forutsetninger med dato og begrunnelse.
+
+Hent siste issue-tekst og relevante kommentarer før oppdatering, bevar andres endringer og les resultatet tilbake etter lagring. Oppdater også berørte krav, spesifikasjoner, driftsdokumentasjon og eventuelt ADR. Før overlevering skal mottatte svar og nye avklaringer være ført. Hemmeligheter og intern informasjon skal ikke publiseres i det offentlige registeret. Vedlikeholdet skjer i aktive prosjektøkter; det er ingen bakgrunnsautomatisering.
+
 ## 2 Samle en spesifikasjon
 
 Sammenfatt avklarte behov med problem, løsning, brukerhistorier, implementeringsbeslutninger, testbeslutninger og avgrensninger. Spesifikasjonen skal beskrive ønsket atferd. Dokumenter hvilke tester og kontrollgrunnlag som er avtalt. En spekulasjon blir ikke et godkjent krav ved at den skrives inn i spesifikasjonen.

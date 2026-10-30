@@ -76,6 +76,8 @@ Ved innlesningsfeil eller uttrekk som krever kontroll opprettes en GitHub-issue.
 
 ## Gjenstående bekreftelser
 
+[Avklaringslisten #65](https://github.com/depmartin/budsjetthistorikk/issues/65) samler løpende tekniske spørsmål i to nivåer, med ansvarlig rolle, behovstidspunkt, beslutningsbelegg og avkryssing. Den oppdateres ved nye svar og nødvendige avklaringer etter [arbeidsflytens vedlikeholdsregler](arbeidsflyt.md#løpende-tekniske-avklaringer). Allerede godkjente valg og øvrige produktkrav består.
+
 Samlet spesifikasjon, testgrenser og ticketoppdeling er godkjent av prosjekteieren 20. oktober 2026. Byggetickets er publisert som #4–#10. Kildeundersøkelsen #2 er levert i PR #11. Teknologiforslaget og byggemandatet for det smale B1-snittet er godkjent med «Gjør som du foreslår».
 
 Gjenstående tekniske avklaringer:
