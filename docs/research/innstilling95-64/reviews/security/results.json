@@ -1,0 +1,1000 @@
+{
+  "base": "9616fbe6a8ab15eec696f34de76888565a784f8f",
+  "head": "fc9b676ce6e2f361433f2562bcdf91930302c21e",
+  "tree": "93fee86f5b117c076136dd95d8d48b32fe1d1316",
+  "results": [
+    {
+      "name": "valid_public_read_and_authentic_legacy",
+      "expected": "pass",
+      "result": "pass",
+      "detail": {
+        "fields": 339,
+        "adopted_fields": 114,
+        "events": 38,
+        "typed_legacy_equal": true
+      },
+      "seconds": 5.39
+    },
+    {
+      "name": "all_base_blobs_preserved_except_additive_agents",
+      "expected": "pass",
+      "result": "pass",
+      "detail": {
+        "base_files": 1410,
+        "unchanged": 1409,
+        "only_changed": [
+          "AGENTS.md"
+        ]
+      },
+      "seconds": 0.11
+    },
+    {
+      "name": "offline_originals_and_six_recipes",
+      "expected": "pass",
+      "result": "pass",
+      "detail": {
+        "actual_export_files": 42,
+        "reconstructed_xml": 6,
+        "byte_exact": true
+      },
+      "seconds": 0.515
+    },
+    {
+      "name": "original_directory_no_clobber",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "FileExistsError",
+        "message": "[WinError 183] Cannot create a file when that file already exists: '.local\\\\t6-security-audit02\\\\originals'"
+      },
+      "seconds": 0.188
+    },
+    {
+      "name": "semantic_json_amount",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.656
+    },
+    {
+      "name": "semantic_xlsx_amount",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.516
+    },
+    {
+      "name": "semantic_json_arithmetic",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.656
+    },
+    {
+      "name": "semantic_xlsx_arithmetic",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.609
+    },
+    {
+      "name": "semantic_json_role",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.688
+    },
+    {
+      "name": "semantic_xlsx_role",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.515
+    },
+    {
+      "name": "semantic_json_author",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.656
+    },
+    {
+      "name": "semantic_xlsx_author",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.547
+    },
+    {
+      "name": "semantic_json_year",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.609
+    },
+    {
+      "name": "semantic_xlsx_year",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.547
+    },
+    {
+      "name": "semantic_json_account",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.656
+    },
+    {
+      "name": "semantic_xlsx_account",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.5
+    },
+    {
+      "name": "semantic_json_meaning",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.656
+    },
+    {
+      "name": "semantic_xlsx_meaning",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.5
+    },
+    {
+      "name": "semantic_json_currency",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.657
+    },
+    {
+      "name": "semantic_xlsx_currency",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.5
+    },
+    {
+      "name": "semantic_json_multiplier",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.703
+    },
+    {
+      "name": "semantic_xlsx_multiplier",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.515
+    },
+    {
+      "name": "semantic_json_round",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.656
+    },
+    {
+      "name": "semantic_xlsx_round",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.531
+    },
+    {
+      "name": "semantic_json_scope",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.64
+    },
+    {
+      "name": "semantic_xlsx_scope",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.532
+    },
+    {
+      "name": "semantic_json_sourceunit",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.641
+    },
+    {
+      "name": "semantic_xlsx_sourceunit",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.547
+    },
+    {
+      "name": "semantic_json_raw",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.64
+    },
+    {
+      "name": "semantic_xlsx_raw",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.5
+    },
+    {
+      "name": "semantic_json_pointer",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.61
+    },
+    {
+      "name": "semantic_xlsx_pointer",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.5
+    },
+    {
+      "name": "semantic_json_monetary",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.641
+    },
+    {
+      "name": "semantic_xlsx_monetary",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.515
+    },
+    {
+      "name": "semantic_json_null32",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.656
+    },
+    {
+      "name": "semantic_xlsx_null32",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.5
+    },
+    {
+      "name": "semantic_json_frame",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.625
+    },
+    {
+      "name": "semantic_xlsx_frame",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.5
+    },
+    {
+      "name": "semantic_json_roman",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.672
+    },
+    {
+      "name": "semantic_xlsx_roman",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.5
+    },
+    {
+      "name": "semantic_json_authorization_role",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.656
+    },
+    {
+      "name": "semantic_xlsx_authorization_role",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.5
+    },
+    {
+      "name": "semantic_json_branch",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.609
+    },
+    {
+      "name": "semantic_xlsx_branch",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.5
+    },
+    {
+      "name": "semantic_json_coverage",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.656
+    },
+    {
+      "name": "semantic_xlsx_coverage",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.563
+    },
+    {
+      "name": "semantic_json_hidden",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.687
+    },
+    {
+      "name": "semantic_xlsx_hidden",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.531
+    },
+    {
+      "name": "semantic_json_correction",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.641
+    },
+    {
+      "name": "semantic_xlsx_correction",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.5
+    },
+    {
+      "name": "semantic_json_old",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Visningsgrunnlaget avviker fra sine originaler/regler"
+      },
+      "seconds": 0.656
+    },
+    {
+      "name": "semantic_xlsx_old",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Visningsgrunnlaget avviker fra sine originaler/regler"
+      },
+      "seconds": 0.657
+    },
+    {
+      "name": "semantic_json_recipe",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.687
+    },
+    {
+      "name": "semantic_xlsx_recipe",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+      },
+      "seconds": 0.5
+    },
+    {
+      "name": "xlsx_theme_white",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6-Excel har endret tema for farger/skrift"
+      },
+      "seconds": 0.25
+    },
+    {
+      "name": "xlsx_theme_wingdings",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6-Excel har endret tema for farger/skrift"
+      },
+      "seconds": 0.219
+    },
+    {
+      "name": "xlsx_theme_bom",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6-Excel har endret tema for farger/skrift"
+      },
+      "seconds": 0.203
+    },
+    {
+      "name": "xlsx_path_traversal",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Excel-arkiv har uventet innhold eller kompresjonsgrense"
+      },
+      "seconds": 0.016
+    },
+    {
+      "name": "xlsx_unknown_member",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Excel-arkiv har uventet innhold eller kompresjonsgrense"
+      },
+      "seconds": 0.407
+    },
+    {
+      "name": "xlsx_doctype",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "DOCTYPE er ikke tillatt i Excel"
+      },
+      "seconds": 0.016
+    },
+    {
+      "name": "xlsx_worksheet_doctype",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "DOCTYPE er ikke tillatt i Excel"
+      },
+      "seconds": 0.0
+    },
+    {
+      "name": "xlsx_external_theme",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Ugyldig Excel-arkrelasjon"
+      },
+      "seconds": 0.016
+    },
+    {
+      "name": "xlsx_numeric_as_string",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Excel har uventet celletype"
+      },
+      "seconds": 0.015
+    },
+    {
+      "name": "xlsx_formula",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Excel-ark har ubundet XML-innhold eller ressursgrense"
+      },
+      "seconds": 0.031
+    },
+    {
+      "name": "xlsx_hidden_sheet",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6-Excel har endret synlighet/oppsett: Forløp"
+      },
+      "seconds": 2.125
+    },
+    {
+      "name": "xlsx_hidden_row",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Excel-ark har uventede XML-attributter"
+      },
+      "seconds": 0.016
+    },
+    {
+      "name": "xlsx_style_applyfont",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "P1-Excel avviker i rå OOXML-stilprofil"
+      },
+      "seconds": 1.953
+    },
+    {
+      "name": "xlsx_oversized_coordinate",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Excel-cellepeker overstiger ressursgrense"
+      },
+      "seconds": 0.016
+    },
+    {
+      "name": "xlsx_extra_cell_attribute",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Excel-ark har uventede XML-attributter"
+      },
+      "seconds": 0.015
+    },
+    {
+      "name": "xlsx_changed_print_margins",
+      "expected": "observe",
+      "result": "pass",
+      "detail": {
+        "report_id": "1c05cbb90ff6c5182157658ad6f9ca0b6b7a0d7c41c533236ea18733bffb6ca1"
+      },
+      "seconds": 4.859
+    },
+    {
+      "name": "xlsx_changed_outline_direction",
+      "expected": "observe",
+      "result": "pass",
+      "detail": {
+        "report_id": "1c05cbb90ff6c5182157658ad6f9ca0b6b7a0d7c41c533236ea18733bffb6ca1"
+      },
+      "seconds": 4.891
+    },
+    {
+      "name": "xlsx_internal_hyperlink",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6-Excel avviker i celle/stil/lenke: Forløp!B2"
+      },
+      "seconds": 2.156
+    },
+    {
+      "name": "xlsx_external_hyperlink",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "P1-Excel har uventede pakkrelasjoner"
+      },
+      "seconds": 0.219
+    },
+    {
+      "name": "xlsx_number_format_hide",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "P1-Excel avviker i rå OOXML-stilprofil"
+      },
+      "seconds": 1.937
+    },
+    {
+      "name": "xlsx_white_font",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "P1-Excel avviker i rå OOXML-stilprofil"
+      },
+      "seconds": 1.922
+    },
+    {
+      "name": "xlsx_zero_row_height",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6-Excel har endret synlighet/oppsett: T6-dekning"
+      },
+      "seconds": 4.812
+    },
+    {
+      "name": "xlsx_chunk_index",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Feil delrekkefølge i omtalegrunnlag"
+      },
+      "seconds": 0.125
+    },
+    {
+      "name": "json_duplicate_key",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Duplisert JSON-felt i frosset rapport"
+      },
+      "seconds": 0.0
+    },
+    {
+      "name": "json_nan",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Ugyldig JSON-tall i frosset rapport"
+      },
+      "seconds": 0.0
+    },
+    {
+      "name": "json_infinity",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Ugyldig JSON-tall i frosset rapport"
+      },
+      "seconds": 0.0
+    },
+    {
+      "name": "json_extra_key",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Ukjent T6-konvolutt"
+      },
+      "seconds": 0.031
+    },
+    {
+      "name": "json_deep",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Ukjent T6-konvolutt"
+      },
+      "seconds": 0.0
+    },
+    {
+      "name": "json_boundary64",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "JSONDecodeError",
+        "message": "Expecting value: line 1 column 67108865 (char 67108864)"
+      },
+      "seconds": 0.125
+    },
+    {
+      "name": "json_over64",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6-rapport overstiger 64 MiB"
+      },
+      "seconds": 0.016
+    },
+    {
+      "name": "json_bool_as_int",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Feil type i rapportfelt"
+      },
+      "seconds": 0.109
+    },
+    {
+      "name": "payload_exact16",
+      "expected": "pass",
+      "result": "pass",
+      "detail": {
+        "length": 16777216
+      },
+      "seconds": 0.031
+    },
+    {
+      "name": "payload_over16",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Pilotkildens faktiske byte/hash avviker"
+      },
+      "seconds": 0.031
+    },
+    {
+      "name": "payload_invalid_base64",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Ugyldig pilotbase64"
+      },
+      "seconds": 0.0
+    },
+    {
+      "name": "gzip_over32_bounded_parent",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: feil vedtaksforelder eller foreldermetadata"
+      },
+      "seconds": 0.032
+    },
+    {
+      "name": "zip_exact_expansion_gate",
+      "expected": "pass",
+      "result": "pass",
+      "detail": {
+        "snapshot_bytes": 16871640,
+        "expanded_bytes": 20326597
+      },
+      "seconds": 0.187
+    },
+    {
+      "name": "zip_over_expansion_gate",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Excel-arkiv overstiger ressursgrense eller har duplikater"
+      },
+      "seconds": 0.0
+    },
+    {
+      "name": "zip_duplicate_member",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Excel-arkiv overstiger ressursgrense eller har duplikater"
+      },
+      "seconds": 0.016
+    },
+    {
+      "name": "zip_declared_over128",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "Excel-arkiv overstiger ressursgrense eller har duplikater"
+      },
+      "seconds": 0.016
+    },
+    {
+      "name": "json_existing_no_clobber",
+      "expected": "pass",
+      "result": "pass",
+      "detail": {
+        "unchanged_existing_bytes": true,
+        "simulated_publish_collision": false
+      },
+      "seconds": 0.015
+    },
+    {
+      "name": "json_publish_race_no_clobber",
+      "expected": "pass",
+      "result": "pass",
+      "detail": {
+        "unchanged_existing_bytes": true,
+        "simulated_publish_collision": true
+      },
+      "seconds": 1.063
+    },
+    {
+      "name": "excel_existing_no_clobber",
+      "expected": "pass",
+      "result": "pass",
+      "detail": {
+        "unchanged_existing_bytes": true,
+        "simulated_publish_collision": false
+      },
+      "seconds": 0.015
+    },
+    {
+      "name": "excel_publish_race_no_clobber",
+      "expected": "pass",
+      "result": "pass",
+      "detail": {
+        "unchanged_existing_bytes": true,
+        "simulated_publish_collision": true
+      },
+      "seconds": 6.657
+    },
+    {
+      "name": "original_traversal_rejected_before_write",
+      "expected": "reject",
+      "result": "rejected",
+      "detail": {
+        "error": "ValueError",
+        "message": "T6: ukjent eller manglende kildekatalog"
+      },
+      "seconds": 0.0
+    },
+    {
+      "name": "cold_offline_public_read",
+      "expected": "pass",
+      "result": "pass",
+      "detail": {
+        "network_and_sqlite_forbidden": true,
+        "cold_caches": true
+      },
+      "seconds": 5.828
+    }
+  ]
+}

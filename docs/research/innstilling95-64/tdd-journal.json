@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-30",
+  "base": "9616fbe6a8ab15eec696f34de76888565a784f8f",
+  "scope": "Avtalte offentlige grenser i #64; ingen egen samlet review eller audit fra byggeren.",
+  "slices": [
+    {
+      "boundary": "originaler -> typed basis/reconstruct",
+      "red": "Testen ble skrevet før modell/adapter. Første launcher manglet pytest; etablert PYTHONPATH ble gjenbrukt. Første utførte prøve avviste API-typen fordi navn ble brukt i stedet for id.",
+      "green": "Korrekt faktisk API-type/id=ANNET, seks byteeksakte utdrag, 216 nye felt og 16 fullmaktspunkter bestod."
+    },
+    {
+      "boundary": "typed basis -> begge innganger/navigation/JSON",
+      "red": "Offentlig analysemodul manglet (ImportError).",
+      "green": "Samme basis339 og38 hendelser, post32s tre hull, tre ekte inntektsnuller og begge returer bestod."
+    },
+    {
+      "boundary": "faktisk JSON/XLSX -> lesere/originaler",
+      "red": "Første eksport kalte gammel T5-grense; deretter avdekket gammelt sorteringskrav en konto uten kode.",
+      "green": "Egen T6-grense og konto-uavhengig regnskapsregel i eget fullmaktsinventar gav skrevet/lukket/gjenlest par og seks byteeksakte XML-originaler."
+    },
+    {
+      "boundary": "fysisk presentasjon etter utvidet fullmaktstelling",
+      "red": "Den faktiske CLI-eksporten ble avvist for ubundet celleområde etter tre nye Utvalg-rader.",
+      "green": "Filterområdet følger alle15 rader. Begge faktiske CLI-inputveier og tre nye par er gjenlest."
+    },
+    {
+      "boundary": "uavhengig originalfasit og semantiske/presentasjonsfeil",
+      "red": "Første kontrollutvalgs literal utelot1482; en eksplisitt basetemp hadde manglende forelder. Dette var kontrolloppsettsfeil og er ikke rapportert som produktfunn.",
+      "green": "Retting av kontrollutvalg/forelderkatalog; alle216 felt mot uavhengig fasit. 38 av39 tidligere seamtester bestod, eneste feil var den allerede rettede utvalgsliteralen. Fire ekstra målrettede original-/legacy-/JSON-/payloadprøver og seks ressursprøver bestod. Hele sluttkjøringens43 T6-prøver bestod; samlet suite har eget kontrollutfall."
+    },
+    {
+      "boundary": "manglende plenumkilde -> rå og strukturert dekning",
+      "red": "Med bevart vedtaks-XML, men manglende plenum-HTML, hevdet359 fullmaktsinventar. Den nye prøven feilet med fullmaktsinventar != ikke_strukturert (1 failed, 2.83s).",
+      "green": "Rå dekning beholdes komplett_rekonstruert; strukturert dekning blir ikke_strukturert. Prøven skriver og gjenleser begge filformatene: 1 passed, 12.69s, og bestod igjen i hele sluttkjøringen."
+    },
+    {
+      "boundary": "visuell skilling mellom lange ID-er og manglende forskjeller",
+      "red": "Faktisk post32-rendring viste at lange ID-er kunne flyte inn i tomme forskjellsceller.",
+      "green": "Bare T6-skriverens sammenligningskolonner fikk tekstbryting, bredde og radhøyde. De seks nye tilleggsrendringene er inspisert; alle43 T6-prøver bestod etter endringen i den avsluttende fullkjøringen."
+    }
+  ],
+  "full_suite_policy": "Tre tidligere delkjøringer ble avbrutt mens kandidaten ble ferdigstilt; ingen er rapportert som bestått sluttport. Den avsluttende hele suite har eget kontrollutfall, uendret testutvalg og ingen konfigurasjonslettelser. Den siste visuelle rettingen var på disk før T6-modulene ble importert i sluttkjøringen; alle43 T6-prøver ble utført mot denne koden."
+}

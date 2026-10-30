@@ -1,0 +1,32 @@
+{
+  "base": "9616fbe6a8ab15eec696f34de76888565a784f8f",
+  "head": "fc9b676ce6e2f361433f2562bcdf91930302c21e",
+  "tree": "93fee86f5b117c076136dd95d8d48b32fe1d1316",
+  "groups": 99,
+  "unexpected": [],
+  "observed_only": [
+    {
+      "name": "xlsx_changed_print_margins",
+      "expected": "observe",
+      "result": "pass",
+      "detail": {
+        "report_id": "1c05cbb90ff6c5182157658ad6f9ca0b6b7a0d7c41c533236ea18733bffb6ca1"
+      },
+      "seconds": 4.859
+    },
+    {
+      "name": "xlsx_changed_outline_direction",
+      "expected": "observe",
+      "result": "pass",
+      "detail": {
+        "report_id": "1c05cbb90ff6c5182157658ad6f9ca0b6b7a0d7c41c533236ea18733bffb6ca1"
+      },
+      "seconds": 4.891
+    }
+  ],
+  "input_hashes_unchanged": {
+    ".local\\full-acceptance\\t6-files0\\tomt.json": "1470e36977353447315cfbf1505921a66f9a742eb124a79f49a941b55a1fd7e3",
+    ".local\\full-acceptance\\t6-files0\\tomt.xlsx": "da08fab6b099a4a49de31f6bdfb526b9f9306bb0edde9f0ea10035396d64c197"
+  },
+  "tracked_worktree_diff_unchanged": true
+}

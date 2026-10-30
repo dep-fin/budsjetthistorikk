@@ -1,0 +1,8 @@
+{
+  "source": "docs/research/proposisjon16-62/source-control.json: pairs inntekt-null",
+  "source_base": "9616fbe6a8ab15eec696f34de76888565a784f8f",
+  "raw_sha256": "efc8ab01302141e2d0125e516361cf95551b0317fa179111a4771528fddde142",
+  "raw_bytes": 8522150,
+  "gzip_sha256": "a0b9d31ec80878094adf4b903c51905beed0c68ad16ec3c2030464c2ab952232",
+  "note": "Tidligere faktisk eksport, ikke regenerert fra dagens adapter."
+}

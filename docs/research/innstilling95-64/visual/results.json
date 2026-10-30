@@ -1,0 +1,101 @@
+{
+  "input": ".local/reviewable-cli/inns95.xlsx",
+  "ranges": [
+    {
+      "sheetName": "Forløp",
+      "range": "B1:K6",
+      "file": "Forløp.png",
+      "status": "rendered"
+    },
+    {
+      "sheetName": "Dokumenter",
+      "range": "B1:G7",
+      "file": "Dokumenter.png",
+      "status": "rendered"
+    },
+    {
+      "sheetName": "Kontoer",
+      "range": "A1:H5",
+      "file": "Kontoer.png",
+      "status": "rendered"
+    },
+    {
+      "sheetName": "Inventar",
+      "range": "B1:H5",
+      "file": "Inventar.png",
+      "status": "rendered"
+    },
+    {
+      "sheetName": "Fulltekst",
+      "range": "E1:K3",
+      "file": "Fulltekst.png",
+      "status": "rendered"
+    },
+    {
+      "sheetName": "Beløpsgrunnlag",
+      "range": "B1:J5",
+      "file": "Beløpsgrunnlag.png",
+      "status": "rendered"
+    },
+    {
+      "sheetName": "Relasjoner",
+      "range": "A1:G4",
+      "file": "Relasjoner.png",
+      "status": "rendered"
+    },
+    {
+      "sheetName": "Sammenligninger",
+      "range": "B1:J5",
+      "file": "Sammenligninger.png",
+      "status": "rendered"
+    },
+    {
+      "sheetName": "Dekning",
+      "range": "A1:B7",
+      "file": "Dekning.png",
+      "status": "rendered"
+    },
+    {
+      "sheetName": "Originaler",
+      "range": "B1:H5",
+      "file": "Originaler.png",
+      "status": "rendered"
+    },
+    {
+      "sheetName": "Utvalg",
+      "range": "A1:B12",
+      "file": "Utvalg.png",
+      "status": "rendered"
+    },
+    {
+      "sheetName": "Visningsgrunnlag",
+      "range": "A1:B2",
+      "file": "Visningsgrunnlag.png",
+      "status": "rendered"
+    },
+    {
+      "sheetName": "Fullmakter",
+      "range": "A10:F18",
+      "file": "Fullmakter.png",
+      "status": "rendered"
+    },
+    {
+      "sheetName": "Grenbevis",
+      "range": "A1:G4",
+      "file": "Grenbevis.png",
+      "status": "rendered"
+    },
+    {
+      "sheetName": "T6-dekning",
+      "range": "B1:G4",
+      "file": "T6-dekning.png",
+      "status": "rendered"
+    },
+    {
+      "sheetName": "Oppskrifter",
+      "range": "B1:K4",
+      "file": "Oppskrifter.png",
+      "status": "rendered"
+    }
+  ]
+}

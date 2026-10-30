@@ -1,0 +1,44 @@
+[
+  {
+    "input": ".local\\reviewable-cli\\null.xlsx",
+    "sheetName": "Forløp",
+    "range": "B1:K10",
+    "file": "null-Forløp-B1-K10.png",
+    "status": "rendered"
+  },
+  {
+    "input": ".local\\reviewable-cli\\null.xlsx",
+    "sheetName": "Utvalg",
+    "range": "A7:B15",
+    "file": "null-Utvalg-A7-B15.png",
+    "status": "rendered"
+  },
+  {
+    "input": ".local\\reviewable-cli\\inns95.xlsx",
+    "sheetName": "Sammenligninger",
+    "range": "B68:J73",
+    "file": "inns95-Sammenligninger-B68-J73.png",
+    "status": "rendered"
+  },
+  {
+    "input": ".local\\reviewable-cli\\inns95.xlsx",
+    "sheetName": "Fullmakter",
+    "range": "A19:F26",
+    "file": "inns95-Fullmakter-A19-F26.png",
+    "status": "rendered"
+  },
+  {
+    "input": ".local\\reviewable-cli\\inns95.xlsx",
+    "sheetName": "Fullmakter",
+    "range": "L10:M18",
+    "file": "inns95-Fullmakter-L10-M18.png",
+    "status": "rendered"
+  },
+  {
+    "input": ".local\\reviewable-cli\\vedtak359.xlsx",
+    "sheetName": "Forløp",
+    "range": "B1:K5",
+    "file": "vedtak359-Forløp-B1-K5.png",
+    "status": "rendered"
+  }
+]

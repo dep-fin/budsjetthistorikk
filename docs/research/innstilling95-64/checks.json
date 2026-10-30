@@ -1,0 +1,181 @@
+{
+  "format": "t6-local-checks-1",
+  "completed_utc": "2026-10-30T10:29:17.337024+00:00",
+  "base": "9616fbe6a8ab15eec696f34de76888565a784f8f",
+  "base_tree": "13caacd265a9a53ba0d077a65e488224d2d1b992",
+  "branch": "codex/t6-innstilling95",
+  "basis_id": "3c10e042ad953e3ad9e47e6eee4c41ffe0d4744e36ef126538cb4b109396eccb",
+  "kernel_sha256": "07515de3553d22f8fc7795ee265625d76c0caa94336569c777396011d2b0b8fa",
+  "git_candidate": "Ingen commit eller samlet Git-kandidat er laget av byggeren.",
+  "pytest": {
+    "command": "python -u -m pytest -vv --durations=20 --basetemp .local/full-acceptance",
+    "collected": 1307,
+    "passed": 1305,
+    "skipped": 2,
+    "failed": 0,
+    "seconds": 3596.85,
+    "t6_passed": 43,
+    "existing_skips": [
+      "test_b7_operations.py::test_symbolic_database_path_uses_same_os_lock_as_canonical_file: Windows-kontoen mangler symlink-rettighet",
+      "test_historical_cli.py::test_public_runner_protects_control_reference_aliases[hardlink]: hardlink utilgjengelig på verten"
+    ],
+    "selection_and_configuration": "Hele uendrede testutvalget og prosjektkonfigurasjonen. Ingen tester ble fjernet eller lagt til skip for leveransen.",
+    "run_history": "Tre tidligere delkjøringer ble avbrutt mens kandidaten ble ferdigstilt. Bare denne hele sluttkjøringen er rapportert som bestått.",
+    "last_presentation_edit": "Endringen var på disk før T6-modulene ble importert i denne sluttkjøringen. Alle43 T6-prøver kjørte etter endringen."
+  },
+  "static": {
+    "ruff": {
+      "command": "python -m ruff check .",
+      "result": "All checks passed!"
+    },
+    "format": {
+      "command": "python -m ruff format --check .",
+      "files": 185,
+      "result": "passed"
+    },
+    "mypy": {
+      "command": "python -m mypy",
+      "source_files": 89,
+      "result": "passed"
+    },
+    "git_diff_check": "passed"
+  },
+  "reproduction": {
+    "actual_pairs": 28,
+    "pytest_pairs": 25,
+    "additional_pairs": [
+      "cross-pair",
+      "begge1429",
+      "hele-unionen"
+    ],
+    "command": "python ops/innstilling95_proeve.py --existing .local/full-acceptance/t6-files0 --legacy-t5 .local/input-t5.json --output .local/reproduction-final",
+    "input_t5": "Autentisk eldre T5-fil, nøyaktig dekompresjon av tests/fixtures/t6/authentic-t5.json.gz.",
+    "oracle_fields_compared": 216,
+    "oracle_is_product_input": false,
+    "oracle_check": "node docs/research/innstilling95-64/independent/oracle.cjs --check",
+    "oracle_sha256": "6fd8f0c2fb119771fccff1f61e22785fb9e4ac01fe706723934d2f7d07e473b1",
+    "counts": [
+      339,
+      114,
+      38
+    ],
+    "exact_raw_originals": 35,
+    "reconstructed_xml": 6,
+    "all_original_files_including_index": 42,
+    "actual_cli_pairs": 3,
+    "visually_inspected_ranges": 22
+  },
+  "runtime": {
+    "os": "Windows",
+    "python": "3.12.14",
+    "pytest": "8.3.5",
+    "openpyxl": "3.1.5",
+    "ruff": "0.11.0",
+    "mypy": "1.15.0",
+    "lxml": "6.1.3",
+    "libxml2_runtime": "2.11.9",
+    "artifact_bundle": "26.1026.10807"
+  },
+  "base_preservation": {
+    "tracked_files": 1410,
+    "changed_tracked_files": [
+      "AGENTS.md"
+    ],
+    "staged_files": 0,
+    "old_product_and_fixtures_and_ci": "unchanged"
+  },
+  "logs": {
+    "checks/pytest-full.log": {
+      "bytes": 185818,
+      "sha256_raw": "f163936ae926deb8e04f5fba1f906dc8d4258a77a3c44104dce69c8df0dad402"
+    },
+    "checks/ruff.log": {
+      "bytes": 20,
+      "sha256_raw": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0"
+    },
+    "checks/format.log": {
+      "bytes": 29,
+      "sha256_raw": "61c73d9ddf0d2d11b7e1d2d371bc148bffee086b4552a8c0981f2b65e103b513"
+    },
+    "checks/mypy.log": {
+      "bytes": 45,
+      "sha256_raw": "1c13773bc21d8ae3a759614f3a828d16af7aa66d04f93c4daeeb51d5d6be16c1"
+    },
+    "checks/reproduction.log": {
+      "bytes": 44,
+      "sha256_raw": "26637816ad21b3b101db8e2ea56c62b915df8b39a19dd6e5bf2af7520b083e03"
+    },
+    "checks/oracle.log": {
+      "bytes": 493,
+      "sha256_raw": "22eb89e3902a11b76dd0af28aca82ffafa426b45703e740cb34dcf18a2b771c7"
+    },
+    "checks/plenum-red.log": {
+      "bytes": 2082,
+      "sha256_raw": "8de490a233b7f8971858d41687877961177a6fc5df36c558aeb4b6ef53dbd35a"
+    },
+    "checks/plenum-green.log": {
+      "bytes": 101,
+      "sha256_raw": "9be959729ca996bc0531669b083404993da8dda8b123b2814f8db67f71c667cf"
+    },
+    "checks/resource-targeted.log": {
+      "bytes": 100,
+      "sha256_raw": "8e144a36893ff47098752dd9cf4ceb43e97fe24a3c617dc22439982ee3ef8b7d"
+    },
+    "checks/extra-targeted.log": {
+      "bytes": 100,
+      "sha256_raw": "9874856982c4947d349f036c61b45ba682ebe152ed8295f3061b11581d2f4299"
+    }
+  },
+  "artifacts": {
+    "acceptance.json": {
+      "bytes": 11829,
+      "sha256_raw": "2963ece79ccc86ef95971e3e1a22f2129c2dd5af36d78d6df99097f8a214ba3a"
+    },
+    "source-control.json": {
+      "bytes": 18547,
+      "sha256_raw": "e9f1be757a9e718205e32e4bdec6b7fe4cd0aabc039b29f6a200a623180d7f1a"
+    },
+    "original-retrieval.json": {
+      "bytes": 10120,
+      "sha256_raw": "d9d941ede732065b8de4c67bbaff668a775d401eb310dc8a6e7ec4a98ac6ec21"
+    },
+    "local-candidate.json": {
+      "bytes": 5756,
+      "sha256_raw": "d5e51edc7f9d1f88001f87daaa6af5b6d16bdaca4d5e03a47e8bd1d5cefb8044"
+    },
+    "tdd-journal.json": {
+      "bytes": 3418,
+      "sha256_raw": "d29e2d189b13679d5173f449aa93d1451e7e04c827502080691c848d494e1474"
+    },
+    "excel-qa.md": {
+      "bytes": 2980,
+      "sha256_raw": "06e0548eac84ab5e47a22dd5b1d0e5f5cbc6b3c5c9d54c0047a2eeb8d80845ab"
+    },
+    "visual/results.json": {
+      "bytes": 2136,
+      "sha256_raw": "22f4c7550fe6b28bcbfeda822dd342107d81a9896bd8760c061f77956b9cc14e"
+    },
+    "visual-extra/results.json": {
+      "bytes": 1099,
+      "sha256_raw": "9a7828782e1b512944eb5808f8722ca411a0174ed074cbdd8e041fd62ee47f96"
+    }
+  },
+  "limits": [
+    "Native Excel og norsk Excel-lokalisering er ikke prøvd; visuell kontroll er22 områder fra faktisk skrevne filer.",
+    "Uberiktiget95 og selve rettelsesmeldingen mangler; ingen semantisk rettelseshistorikk utledes av byteforskjeller.",
+    "Helårsdekning, kontokontinuitet, årsbalanse og all tekst faglig avklart er ikke etablert.",
+    "Dette er lokal bygging, ikke uavhengig samlet review eller sikkerhetsaudit."
+  ],
+  "pending_orchestrator_ports": [
+    "Frys og publiser konkret Git-kandidat.",
+    "Uavhengig samlet Standards/Spec-review og separat sikkerhetsaudit.",
+    "Offentlig fersk-klon-reproduksjon mot frosset kandidat.",
+    "Hele uendrede Linux-CI-utvalget innen gjeldende90minuttersgrense.",
+    "Godkjent PR/CI/merge og kilde-/GitHub-bevis."
+  ],
+  "untouched_open_issues": [
+    10,
+    32,
+    37
+  ]
+}

@@ -28,6 +28,8 @@ Før proposisjon16-1 eller hele Prop. 16 S-tabellen: les [T5-kontrakten](docs/pr
 
 ## Agent skills
 
+Før `innstilling95-1` eller hele 95/359–364: les [T6-kontrakten](docs/innstilling95.md) og [T6-kontrollen](docs/research/innstilling95-64/README.md). Én uendret T5/T1-kapsel bevares; 216 nye felt og fem separate fullmaktsvedtak gir union339/114/38. Gamle statusfelt er historiske, aktuell dekning er eget overlay. Uberiktiget95/rettelsesmeldingen og faglig helårsdekning er fortsatt hull; faktisk levering følger #64.
+
 ### Issue tracker
 
 Arbeid og spesifikasjoner ligger i GitHub Issues for depmartin/budsjetthistorikk. Før issue- eller PR-arbeid: les [issue tracker](docs/agents/issue-tracker.md).

@@ -1,0 +1,130 @@
+{
+  "format": "local-candidate-files-1",
+  "base": "9616fbe6a8ab15eec696f34de76888565a784f8f",
+  "base_tree": "13caacd265a9a53ba0d077a65e488224d2d1b992",
+  "basis_id": "3c10e042ad953e3ad9e47e6eee4c41ffe0d4744e36ef126538cb4b109396eccb",
+  "scope": "Produktkode, kontrakt, test/reproduksjon og uendrede uavhengige/legacy-innganger; ikke et Git-commit eller et komplett Git-tre.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 9461,
+      "sha256_raw": "d223d47072481e219c6efc687925561df657593443ee59c315008b4f9907753a",
+      "sha256_lf": "36efe4db8a17654b5105fc1a071aefa6c03f7711685fbf748a06b2c9e9e1589d",
+      "crlf_count": 73,
+      "git_filtered_blob": "0d137f1cfd131cbe68180bf46c8e8e9c430ba240"
+    },
+    {
+      "path": "analyse/innstilling95.py",
+      "bytes": 11111,
+      "sha256_raw": "9955cdfdffff3bfbf3d69c9cc55c5c623302f553409be6bc226af08cf3a33f5e",
+      "sha256_lf": "5d71dc026c1c911c996b916e90438f3ab98af6ecb0bbfa106d5a1c9bfef6b106",
+      "crlf_count": 275,
+      "git_filtered_blob": "78d7dfb15555a3d80e3e2b495148ff49453bbe7d"
+    },
+    {
+      "path": "analyse/innstilling95_excel.py",
+      "bytes": 22257,
+      "sha256_raw": "7bb7f52a295386bd6689207d2f14acb49607abf018819e1a70ca252fe21c30f9",
+      "sha256_lf": "118178eb68a03e3f970b9b898700c9414ae18cc25108dbe49f404168725d278b",
+      "crlf_count": 552,
+      "git_filtered_blob": "c79780e50347b48d7b959edbfdcfb336002ce51d"
+    },
+    {
+      "path": "docs/innstilling95.md",
+      "bytes": 8698,
+      "sha256_raw": "215380529c90670c1ce481bc55e64fe45227e451a6ec892f2c7be423e321bf25",
+      "sha256_lf": "215380529c90670c1ce481bc55e64fe45227e451a6ec892f2c7be423e321bf25",
+      "crlf_count": 0,
+      "git_filtered_blob": "ec7857a053d323aad4fd0918a0b4f4ab0a4a8369"
+    },
+    {
+      "path": "docs/research/innstilling95-64/.gitattributes",
+      "bytes": 270,
+      "sha256_raw": "a0280925200c5e28062fdf54607b0da33b5086fb4cd424953a7bd3540a3998ca",
+      "sha256_lf": "a0280925200c5e28062fdf54607b0da33b5086fb4cd424953a7bd3540a3998ca",
+      "crlf_count": 0,
+      "git_filtered_blob": "05a388b33c00613a3760e3bde42415706363c3ac"
+    },
+    {
+      "path": "docs/research/innstilling95-64/independent/README.md",
+      "bytes": 8597,
+      "sha256_raw": "548d51f9dd197536abb063d1716b57d11110248f4cc1119ee6b425996e4e469c",
+      "sha256_lf": "548d51f9dd197536abb063d1716b57d11110248f4cc1119ee6b425996e4e469c",
+      "crlf_count": 0,
+      "git_filtered_blob": "1e62e3c40b6ca47d2dfdbb9a033c8e9137b2b69b"
+    },
+    {
+      "path": "docs/research/innstilling95-64/independent/oracle.cjs",
+      "bytes": 18999,
+      "sha256_raw": "f73567978229eb6e78657b0daedec56b35b996a16a0d4dd1697799d793947c97",
+      "sha256_lf": "f73567978229eb6e78657b0daedec56b35b996a16a0d4dd1697799d793947c97",
+      "crlf_count": 0,
+      "git_filtered_blob": "c9e0b90b58cdfc4f4c4d3112eb4d969163a6e8ca"
+    },
+    {
+      "path": "docs/research/innstilling95-64/independent/original-fields.json",
+      "bytes": 861917,
+      "sha256_raw": "6fd8f0c2fb119771fccff1f61e22785fb9e4ac01fe706723934d2f7d07e473b1",
+      "sha256_lf": "6fd8f0c2fb119771fccff1f61e22785fb9e4ac01fe706723934d2f7d07e473b1",
+      "crlf_count": 0,
+      "git_filtered_blob": "bb1d6b5221140ab11317e63e339d326208e789c4"
+    },
+    {
+      "path": "innlesning/innstilling95.py",
+      "bytes": 34405,
+      "sha256_raw": "75db552a6b45ac47900b2e69da208309e56cb0e1d0c8e687778c70f439ad5aaa",
+      "sha256_lf": "75db552a6b45ac47900b2e69da208309e56cb0e1d0c8e687778c70f439ad5aaa",
+      "crlf_count": 0,
+      "git_filtered_blob": "9c5dd2959491beade11ba76dd0becf7ebcade8cf"
+    },
+    {
+      "path": "innlesning/innstilling95_model.py",
+      "bytes": 1818,
+      "sha256_raw": "85478c38ea2030e3dad512f0b5c1d2b3a2df6ba7247c8af93a3bcd8857d845fa",
+      "sha256_lf": "85478c38ea2030e3dad512f0b5c1d2b3a2df6ba7247c8af93a3bcd8857d845fa",
+      "crlf_count": 0,
+      "git_filtered_blob": "87dccb570748aab05fa0cd9d404fed6c9dfe052d"
+    },
+    {
+      "path": "ops/innstilling95_proeve.py",
+      "bytes": 8926,
+      "sha256_raw": "312cfd1466aa4724f057b222766b0582986f3d132e138849cdc2f6277cd49be0",
+      "sha256_lf": "312cfd1466aa4724f057b222766b0582986f3d132e138849cdc2f6277cd49be0",
+      "crlf_count": 0,
+      "git_filtered_blob": "a3f0d6017686feae59641ad6ec0cd800c32fbfcd"
+    },
+    {
+      "path": "tests/fixtures/t6/.gitattributes",
+      "bytes": 30,
+      "sha256_raw": "015f4099f8aa87077a6fd003d84549be585f2a8ccbb079eaf997811a842c04a9",
+      "sha256_lf": "015f4099f8aa87077a6fd003d84549be585f2a8ccbb079eaf997811a842c04a9",
+      "crlf_count": 0,
+      "git_filtered_blob": "b956603a853b02b6f878f5cb59b4e6aed42534f4"
+    },
+    {
+      "path": "tests/fixtures/t6/authentic-t5.json.gz",
+      "bytes": 2725790,
+      "sha256_raw": "a0b9d31ec80878094adf4b903c51905beed0c68ad16ec3c2030464c2ab952232",
+      "sha256_lf": null,
+      "crlf_count": null,
+      "git_filtered_blob": "35108467745de542465967014c67a1039406ca1e"
+    },
+    {
+      "path": "tests/fixtures/t6/authentic-t5.meta.json",
+      "bytes": 419,
+      "sha256_raw": "b07c423ac8e04ebe8685ef82ce317ffd11a2e818a17d062868bd6206cee4303b",
+      "sha256_lf": "b07c423ac8e04ebe8685ef82ce317ffd11a2e818a17d062868bd6206cee4303b",
+      "crlf_count": 0,
+      "git_filtered_blob": "63c2da755c9c622f5351102ce7cb6bd620a399f6"
+    },
+    {
+      "path": "tests/test_innstilling95.py",
+      "bytes": 27256,
+      "sha256_raw": "bf0c00c09da8302c2b3edda41894b8b389ef4977f68fe50ff09c8b356fcb1262",
+      "sha256_lf": "bf0c00c09da8302c2b3edda41894b8b389ef4977f68fe50ff09c8b356fcb1262",
+      "crlf_count": 0,
+      "git_filtered_blob": "500e2b852f29c2cf8173af8efea18dc9416b8486"
+    }
+  ],
+  "kernel_sha256": "07515de3553d22f8fc7795ee265625d76c0caa94336569c777396011d2b0b8fa"
+}
