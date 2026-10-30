@@ -1,0 +1,48 @@
+[
+  {
+    "name": "new_public_pair_written_closed_reread",
+    "result": "pass",
+    "json_sha256": "1470e36977353447315cfbf1505921a66f9a742eb124a79f49a941b55a1fd7e3",
+    "xlsx_sha256": "ff0d643bb66bf7691ea12e2dbc535cb34b61b025fae3c3916b0ad96e405b2853"
+  },
+  {
+    "name": "source_verified_json",
+    "result": "rejected",
+    "message": "T6: kilderolle/hash/status avviker"
+  },
+  {
+    "name": "source_verified_xlsx",
+    "result": "rejected",
+    "message": "T6: kilderolle/hash/status avviker"
+  },
+  {
+    "name": "source_expected_pin_json",
+    "result": "rejected",
+    "message": "T6: kilderolle/hash/status avviker"
+  },
+  {
+    "name": "source_expected_pin_xlsx",
+    "result": "rejected",
+    "message": "T6: kilderolle/hash/status avviker"
+  },
+  {
+    "name": "new_step_json",
+    "result": "rejected",
+    "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+  },
+  {
+    "name": "new_step_xlsx",
+    "result": "rejected",
+    "message": "T6: basis avviker fra originaler, identitet, roller eller dekning"
+  },
+  {
+    "name": "old_step_json",
+    "result": "rejected",
+    "message": "Visningsgrunnlaget avviker fra sine originaler/regler"
+  },
+  {
+    "name": "old_step_xlsx",
+    "result": "rejected",
+    "message": "Visningsgrunnlaget avviker fra sine originaler/regler"
+  }
+]

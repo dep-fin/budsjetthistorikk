@@ -1,0 +1,33 @@
+F                                                                        [100%]
+================================== FAILURES ===================================
+_ test_missing_plenum_keeps_raw_decision_but_never_claims_authorization_coverage _
+
+tmp_path = WindowsPath('C:/Users/marti/Documents/ChatGPT/Budsjetthistorikk/work/t6-innstilling95/.local/plenum-red/test_missing_plenum_keeps_raw_0')
+t5_basis = Basis(id='f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7', rule='prop16-tabell-1', t1_basis=PilotBas...opsimport', 'inns95_to_beriktigede_html:lik_hovedtekst_ukjent_rettelseshistorikk'), version='proposisjonsgrunnlag16-1')
+
+    def test_missing_plenum_keeps_raw_decision_but_never_claims_authorization_coverage(tmp_path, t5_basis):
+        from analyse import innstilling95 as t6
+        from analyse.innstilling95_excel import export_pair, read_excel
+        from analyse.proposisjon16 import build_report, report_to_json
+        from innlesning.innstilling95 import ROOT, SOURCE_CATALOG
+        from innlesning.visningspilot_model import PilotSelection
+    
+        for name in SOURCE_CATALOG:
+            if name == "votering-181224.html":
+                continue
+            path = tmp_path / ROOT / name
+            path.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(ROOT + name, path)
+        basis = t6.import_basis(report_to_json(build_report(t5_basis, PilotSelection())), tmp_path)
+        document = next(d for d in basis.documents if d.key == "vedtak359")
+        assert document.raw_coverage == "komplett_rekonstruert"
+>       assert document.structured_coverage == "ikke_strukturert"
+E       AssertionError: assert 'fullmaktsinventar' == 'ikke_strukturert'
+E         
+E         - ikke_strukturert
+E         + fullmaktsinventar
+
+tests\test_innstilling95.py:692: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_innstilling95.py::test_missing_plenum_keeps_raw_decision_but_never_claims_authorization_coverage
+1 failed in 2.83s

@@ -1,0 +1,304 @@
+{
+  "base": "9616fbe6a8ab15eec696f34de76888565a784f8f",
+  "basis_id": "3c10e042ad953e3ad9e47e6eee4c41ffe0d4744e36ef126538cb4b109396eccb",
+  "old_t5_basis_id": "f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7",
+  "global_fields": 339,
+  "adopted_fields": 114,
+  "events": 38,
+  "recipes": [
+    "vedtak359",
+    "vedtak360",
+    "vedtak361",
+    "vedtak362",
+    "vedtak363",
+    "vedtak364"
+  ],
+  "pairs": [
+    {
+      "case": "post32",
+      "report_id": "4099d2cb16231ef81585c5cfb5ef5e01c9eb9f4491834db0086371fcc2554e5a",
+      "fields": 6,
+      "adopted_fields": 3,
+      "events": 1,
+      "comparisons": 6,
+      "json_sha256": "1f92a40451fa4eb290d7f68d243ad912128c8ec50251c9ecd3f0dc16f845b82c",
+      "xlsx_sha256": "fe604c1e06bc9a60ef9aace0e1da41ff7bde5755962de21e70380297150f73b0"
+    },
+    {
+      "case": "utgift",
+      "report_id": "2b879101194914ce438c1430b4f1265ea9dbedc3bb530c278bef1e98420d30ca",
+      "fields": 9,
+      "adopted_fields": 3,
+      "events": 1,
+      "comparisons": 6,
+      "json_sha256": "2a5262df490227ebcd1798f9638c96e05535572fa42b53bf407061bc96716b39",
+      "xlsx_sha256": "45234dadec78576a54c733cb67585d9a6090e8719ea080a81f5957964e383c03"
+    },
+    {
+      "case": "null",
+      "report_id": "dfb639da9fc3a55f8428c5ab3c034b5d9f120bfa4d0cd0fbdfe3db762249102d",
+      "fields": 9,
+      "adopted_fields": 3,
+      "events": 1,
+      "comparisons": 6,
+      "json_sha256": "44974d6c470360b309b3c6788e9cd0958a3b346342ecc6164d15e6b2aab1b6db",
+      "xlsx_sha256": "b929e1c530d0e706ca3597cde72858ea22f28f84c3736e5bc19063c7f4dcf514"
+    },
+    {
+      "case": "fullmakt",
+      "report_id": "27bfdb18c9daa617e9e7363de2c0eff0dbfe4532b95b118f873b2cbbaef0cc74",
+      "fields": 0,
+      "adopted_fields": 0,
+      "events": 0,
+      "comparisons": 0,
+      "json_sha256": "0a55f538da561ff1e396b439c443d49705ffc39e30c6a13ef64bf7531b603088",
+      "xlsx_sha256": "fb7751de64ae22f9cb66e8fd9912d13fd890d5948b608c7c9fbb7ef3fec57d56"
+    },
+    {
+      "case": "delt-ramme",
+      "report_id": "274b6e1828ec85581e3e820a6f3d3244e5d02895f5cf49417e3f6741d1b212ab",
+      "fields": 9,
+      "adopted_fields": 3,
+      "events": 1,
+      "comparisons": 6,
+      "json_sha256": "f647483688c856f9190e132aa94188c0515c23a4f47ec3606f228b538bff9eab",
+      "xlsx_sha256": "b8e1162392f34a592b03354c854ec9555afafc1a71d680eae15f1947f7769ba0"
+    },
+    {
+      "case": "1429-1",
+      "report_id": "566f3004dcdd010ea3b3613579cc1a7343f95a63dab08708d84c28953175e656",
+      "fields": 9,
+      "adopted_fields": 3,
+      "events": 1,
+      "comparisons": 6,
+      "json_sha256": "18beb1e581729a01e3315879819e3b4f362eeca852730404500bc17ad56a231d",
+      "xlsx_sha256": "444d704252220b9e332d02c63873b09444783cfa5c0929ffabc22c8c7a79cba3"
+    },
+    {
+      "case": "1429-22",
+      "report_id": "893827cf157f1cd1926c83888bea217d0c47e76cfa6a817711d94669a6d53d62",
+      "fields": 9,
+      "adopted_fields": 3,
+      "events": 1,
+      "comparisons": 6,
+      "json_sha256": "2b5f8851fcf409256a79d7d81f1b1a22f2b83df0227bdb0bf7cbde5b24e9d1a8",
+      "xlsx_sha256": "3da46e973346b1490e13ac1d14f29f83dce53258b0fdc7d1a3be491be36f59cb"
+    },
+    {
+      "case": "1429-60",
+      "report_id": "b23201d91aea813c6b740d99026ca0f8cf60225a1351049599f4d8975618edb8",
+      "fields": 0,
+      "adopted_fields": 0,
+      "events": 0,
+      "comparisons": 0,
+      "json_sha256": "0e3bd97cadc43b3e25eb514f041287426c91893fa7b17419d112cd23e0e103e6",
+      "xlsx_sha256": "7aa2377e3112f4cdbad7a918744808cc1b662cd274a9ed32b7be839cd6cf4c30"
+    },
+    {
+      "case": "1533-45",
+      "report_id": "84764cb1d3d607fb516c8bcc3f980e05fac5a66913a3505489c0f2e6e2e1bef6",
+      "fields": 0,
+      "adopted_fields": 0,
+      "events": 0,
+      "comparisons": 0,
+      "json_sha256": "979de778fe97b9e18b899883a3a76264c7758bd840a9fa39ea4fa1f5ef6d10c3",
+      "xlsx_sha256": "79ccb3a61c85ec68888e4feab80dd8a256b134a2797a713139a58bb6225ab918"
+    },
+    {
+      "case": "flere",
+      "report_id": "ce5332b1c9a5ca46d86330b0ddf8f718afe7afb0d711962a9e711232462a3277",
+      "fields": 33,
+      "adopted_fields": 12,
+      "events": 4,
+      "comparisons": 24,
+      "json_sha256": "d44252ba8f4b1cb530b6c17c1b65f80a36ec4782f3005038700e0d46158a3c6b",
+      "xlsx_sha256": "16bb88c800d14e7d4b7e6b5f011db4a0d97baff86c42b5fb0ec307ac62a6dee2"
+    },
+    {
+      "case": "kapittel",
+      "report_id": "e2d0d4e03bc543b6215b38d4b7de4a7680a777e4fe7a3f2ea1d5d7d4ea02b6c0",
+      "fields": 18,
+      "adopted_fields": 6,
+      "events": 2,
+      "comparisons": 12,
+      "json_sha256": "e3e6495156df86b3aef8e7dcb1a3a9ba32c7a8eb4ce8f8cf52a47d7dd78f9b4a",
+      "xlsx_sha256": "345fa62f3265b2f29e7ea685c85f1c18b0277b40ade136bdddb8470ab810e434"
+    },
+    {
+      "case": "tomt",
+      "report_id": "1c05cbb90ff6c5182157658ad6f9ca0b6b7a0d7c41c533236ea18733bffb6ca1",
+      "fields": 0,
+      "adopted_fields": 0,
+      "events": 0,
+      "comparisons": 0,
+      "json_sha256": "1470e36977353447315cfbf1505921a66f9a742eb124a79f49a941b55a1fd7e3",
+      "xlsx_sha256": "da08fab6b099a4a49de31f6bdfb526b9f9306bb0edde9f0ea10035396d64c197"
+    },
+    {
+      "case": "mangler",
+      "report_id": "d8588c3d14dd628c51b0f666f10cff4a8d8b6063abd8a8a4524ee546f10605bb",
+      "fields": 0,
+      "adopted_fields": 0,
+      "events": 0,
+      "comparisons": 0,
+      "json_sha256": "2f6efbaad287e793fcd582aa75a7b77e8178bee339b9ed86b9a4e0e58ca623ad",
+      "xlsx_sha256": "c4d5ea78098f7408e7d76569cd10eb7947e76a24039f2ce66527774000e0fe6a"
+    },
+    {
+      "case": "feil-aar",
+      "report_id": "99db5db89f807974a9013ea02178c37318fac7c3fb58c7452604009f4826cbaf",
+      "fields": 0,
+      "adopted_fields": 0,
+      "events": 0,
+      "comparisons": 0,
+      "json_sha256": "56d08cfdc5a4e5466b78c75f534f3e06e33f726da144cc77363739bba4bbc510",
+      "xlsx_sha256": "0a438825908ded077874b799ec5cb306d25076ffa9c137b308f6a8625a9723a8"
+    },
+    {
+      "case": "uten-aar",
+      "report_id": "db2d6aa2aad35d80fcbf47ee2dfd69d19d3399e2a860a76a23a9bde47c267343",
+      "fields": 0,
+      "adopted_fields": 0,
+      "events": 0,
+      "comparisons": 0,
+      "json_sha256": "45f05e42c36ef25444d0c1165e80361d507a72cac2c45330ecbdcf898a1288ae",
+      "xlsx_sha256": "d76bfde475ce807baaaecd6a828d4b90584112404dd3aaa40b550477be0b3f1e"
+    },
+    {
+      "case": "cross-pair",
+      "report_id": "f5cb3936b7ab7dd5fc6a6f1401e23ce9d5042694eee5a1d424ed2ec7d0e6c90e",
+      "fields": 18,
+      "adopted_fields": 6,
+      "events": 2,
+      "comparisons": 12,
+      "json_sha256": "0fe77c1d653171cfd77eca643e052429cb780a2f03c672ff70f20b6a0864c10a",
+      "xlsx_sha256": "4e7fb436bde27d34cd9d135cb2731a002251b8ffe904729ba8f29518b7a2538c"
+    },
+    {
+      "case": "begge1429",
+      "report_id": "6b76c58d20dd1a736130bb24e68bb94f01c2079a2ab21926a7c189d9026e57f0",
+      "fields": 18,
+      "adopted_fields": 6,
+      "events": 2,
+      "comparisons": 12,
+      "json_sha256": "46dad6d2e9337a06da678e39c9c46a95a8302a5784f9eeb2c002b94b13af1a41",
+      "xlsx_sha256": "fb4ec9c76fed891d02056d2e5e310d35ac1c66ee2d5505af6cc9b9799a537fc2"
+    },
+    {
+      "case": "hele-unionen",
+      "report_id": "6b33de701566d7b8d690eaf1942eb13dc4cdfedf57184b0f043cae00b31c4aed",
+      "fields": 339,
+      "adopted_fields": 114,
+      "events": 38,
+      "comparisons": 228,
+      "json_sha256": "4ca2b2d6f432b06156d8b37c7984aa33d1319391370510d6e409e8c33e016bcd",
+      "xlsx_sha256": "174960147d7137d188ba4a2bc534d2a79a81a4b1185856ebd6af4938d9140c76"
+    },
+    {
+      "case": "prop16",
+      "report_id": "7252965d4d962afa4bdee80fd12d760d2d77348f806c68748cc2d3a863630978",
+      "fields": 111,
+      "adopted_fields": 0,
+      "events": 0,
+      "comparisons": 222,
+      "json_sha256": "4bc4f1a9b0f66688b7eb8ebe4238424381cc96f64692291db6f02874974d27d7",
+      "xlsx_sha256": "c8f6fdd18af98a84784737504764dc6b9e25400e2ac8e36b7a4bcd8283bbeb14"
+    },
+    {
+      "case": "inns95",
+      "report_id": "3809d271665adb0467457a6b75f56ea663cd1df9ee964fcae6cbb6310613e9dc",
+      "fields": 108,
+      "adopted_fields": 0,
+      "events": 0,
+      "comparisons": 216,
+      "json_sha256": "4a113c2e5cead0742dc3faf1c9b1d7a4f99ecaedcb685aea53d97014f188ef0f",
+      "xlsx_sha256": "465a5a47177f9ae693cedeefaba4fc0bd6b77c1d9f67b583ce144f7697481f50"
+    },
+    {
+      "case": "vedtak359",
+      "report_id": "b72bb57d55589a6a978ca2cbc5d1fb6818f9312591ba743b2f105f1c9ca549c1",
+      "fields": 108,
+      "adopted_fields": 108,
+      "events": 36,
+      "comparisons": 216,
+      "json_sha256": "588b294bc149335843869920a1d275c8471167ba6269a80c8b2a143e76620076",
+      "xlsx_sha256": "215a1425c75c29b5663bfee2edf948bdb1ac75a214219da5d34aa39e64e5214c"
+    },
+    {
+      "case": "vedtak360",
+      "report_id": "e17033b9bbbb09850fac66450026b330803caf19928e5cd990031ad74cf6ae33",
+      "fields": 0,
+      "adopted_fields": 0,
+      "events": 0,
+      "comparisons": 6,
+      "json_sha256": "65e1ce8b3cfdb2cee691a8dc251d247cb1243cd205891c2e7a4be1aa61861aaf",
+      "xlsx_sha256": "fe06535a4c58f9c4b92967067a9b948cefc5437ca8f13f79acc50d3bb2504399"
+    },
+    {
+      "case": "vedtak361",
+      "report_id": "31f893df4477e5cbe49b2c5d3e6528a404587537a591b7f2c013d67f2710936b",
+      "fields": 0,
+      "adopted_fields": 0,
+      "events": 0,
+      "comparisons": 12,
+      "json_sha256": "70cf15235f01134b64a88c515a3e61a6ff05ab343e2b3094a1a14dd4ea31d6d8",
+      "xlsx_sha256": "c9b700eaf6917cbec52b5d4f04131a4f3ec39376e4d2534ae96892fb5b4ec3c8"
+    },
+    {
+      "case": "vedtak362",
+      "report_id": "9c799f6749487f3c1c7952aafe61c0c80ecca9f7a2c53a5c5372fb4bf9e57446",
+      "fields": 0,
+      "adopted_fields": 0,
+      "events": 0,
+      "comparisons": 6,
+      "json_sha256": "f6c471ce636fb84b3057311b40f7a545125fe7012ab85b0389f0f1d1a21fa931",
+      "xlsx_sha256": "3ba68831b38cdd9b9f5a17f5acffc859f20d07121d628fc93ecf4c0b30028f47"
+    },
+    {
+      "case": "vedtak363",
+      "report_id": "b2d267233014a63930a797fb3bd4654e898a977b643c0ea7e14a69ec5c5f3d60",
+      "fields": 0,
+      "adopted_fields": 0,
+      "events": 0,
+      "comparisons": 0,
+      "json_sha256": "1785c892834fb2a664f137b016f28197651d4c97757285747ed1a950d25491f2",
+      "xlsx_sha256": "5125b6e4a30f9b134a1f6a91099d49f3b620a18e5318f3aebf4853f83e530649"
+    },
+    {
+      "case": "vedtak364",
+      "report_id": "2beaecc00173d02ec422b369065cfdf7faab3b49a62ac5249f6a0ee432e59550",
+      "fields": 0,
+      "adopted_fields": 0,
+      "events": 0,
+      "comparisons": 12,
+      "json_sha256": "54dbf9effea5b00ecb53e5a2e99bb6ade10090f8b9cff8dedc58e2fbcc145cf5",
+      "xlsx_sha256": "3e70e1c35ce96a00e2e483ebbc9ad9c212af4a1f8ccfe87d93ac46cd4ead0177"
+    },
+    {
+      "case": "konto-dokument",
+      "report_id": "2b66f292b6c414f49a99d8f1f4b980000be6f816c1361c3c190478f46e88b767",
+      "fields": 108,
+      "adopted_fields": 0,
+      "events": 0,
+      "comparisons": 216,
+      "json_sha256": "c4cd677827a494d757a8b99b6ec33dc437fa736ada683c952833af51f23e03ab",
+      "xlsx_sha256": "e38fd81292ede0e69d528a493c5b0b5697cb83485a93743ba482472f26fcd653"
+    },
+    {
+      "case": "dokument-konto",
+      "report_id": "59ce08f4a9254da3c60c12419e9275829ee2a6e36c7bb99c79d2c78fadcc8783",
+      "fields": 33,
+      "adopted_fields": 12,
+      "events": 4,
+      "comparisons": 24,
+      "json_sha256": "0117274c70eca5d922d4bf39f6d91e0e8383369d0c72119d7c4758ffc0deee19",
+      "xlsx_sha256": "70a5bd651a7695e73d21cabc776f579e8a5f75678a08ecc8dee1fd91d89e4656"
+    }
+  ],
+  "legacy_t5": {
+    "sha256": "efc8ab01302141e2d0125e516361cf95551b0317fa179111a4771528fddde142",
+    "report_id": "03c4811ac324c92b134c54c7f8352dd915095e49315ea95382dc3771c37aadac",
+    "basis_id": "f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7"
+  },
+  "limits": "Native Excel, full faglig teksttolkning, kontinuitet og årsdekning er ikke prøvd/etablert."
+}

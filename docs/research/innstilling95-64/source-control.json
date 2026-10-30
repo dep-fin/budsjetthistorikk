@@ -1,0 +1,474 @@
+{
+  "base": "9616fbe6a8ab15eec696f34de76888565a784f8f",
+  "basis_id": "3c10e042ad953e3ad9e47e6eee4c41ffe0d4744e36ef126538cb4b109396eccb",
+  "sources": [
+    {
+      "capsule": "T1",
+      "id": "aab97decb38cba854df58cdfc26326b2e90a7ecd34bd55ee38937069188e7d87",
+      "name": "docs/research/omtale-o1/originals/prop16s-ch4.html",
+      "sha256": "ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e",
+      "bytes": 118163,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T1",
+      "id": "ed5d05e6068206c49001e334cbb8a2a7b6b1ce38f857a5aca90e2fec1c8324b8",
+      "name": "docs/research/omtale-o1/originals/inns81s.html",
+      "sha256": "e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95",
+      "bytes": 107925,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T1",
+      "id": "39c97eea0927aafe1ea19a37ee149e49134ed7d21aa7783b79bb231ca843681d",
+      "name": "docs/research/visningspilot-41/originals/session-2024-2025-9cfe.xml.gz",
+      "sha256": "7502f2f565048f1b0954cb4cb132183d0bc5ec362ba74e14de877df36003a7d4",
+      "bytes": 394936,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T1",
+      "id": "c990429b504876bf9fb1411dc14b4f65d0739a4418b8fce53225ea86d96b0d19",
+      "name": "docs/research/visningspilot-41/originals/session-2024-2025-9cfe.meta.json",
+      "sha256": "cf9397ad44be04796cf3ed95765cddb165b0193fe071b4e1a6b629566aa82363",
+      "bytes": 763,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T1",
+      "id": "b39df7ff5644a07e88244c7e3386a6b4785aa2d1ab0a7c7fa9e7d2e651592bdc",
+      "name": "tests/fixtures/b8/40034049.xml",
+      "sha256": "5f253a556d2ac512570899252b396bc38f068de5f4bd6820178e7de8ce41f3eb",
+      "bytes": 1692,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T1",
+      "id": "2119b4e87856a57b2c21666854b00319653bd3ed574b7cbca31f4cbc7400c3cd",
+      "name": "tests/fixtures/b8/40034049.json",
+      "sha256": "6e0e37551b00da15c262e8ba2e40e8b21abba96d3b47acc57e41b908024d9def",
+      "bytes": 706,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T1",
+      "id": "bb25de82211d23a70c7a5be793a4ac41b933518d5429619daa8a1ce2a934d12d",
+      "name": "tests/fixtures/b8/sak-100889.xml",
+      "sha256": "3a8f0918a3fcce90bf2c93f3ce972c3de7277c76e27e5ef563d6c43384cf2af2",
+      "bytes": 15888,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T1",
+      "id": "7c6eb4267b05f6c457404cbb8a118d62489bf4523efc0c96eac7ac1a6339bf64",
+      "name": "tests/fixtures/b8/sak-100889.json",
+      "sha256": "67033cce596b33ccb7f2cd459a6df7af98d44836292f0675d308797a888ba04c",
+      "bytes": 1563,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T1",
+      "id": "8df02a830c028bc0162f87f2504dabc7f3b4b7000144c33afeae0deafe258af4",
+      "name": "docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+      "sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b",
+      "bytes": 391763,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T1",
+      "id": "b73e5076694be94783f9fc34fc8045f5f547578b3247440ca7ac88e7dac3276c",
+      "name": "docs/research/to-visninger-37/originals/aar/session-2024-2025.meta.json",
+      "sha256": "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28",
+      "bytes": 381,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T1",
+      "id": "41caef6806639d6e5195a14bf93914b7e7fc0630156b98a3a662d6f089e6e2ec",
+      "name": "docs/research/to-visninger-37/originals/forgrening/inns95s.html",
+      "sha256": "ae61227fa83adf04fb45956b1bd714a75592bbc1d6c70da300e554afef806aa6",
+      "bytes": 283123,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T1",
+      "id": "6c1152b1f3749223b031b6942ae80a7996c8e74399743489edd0a99f303c9ed8",
+      "name": "docs/research/to-visninger-37/originals/forgrening/inns95s.pdf",
+      "sha256": "7a78167c7eafc500938e4ac39d8ed9febec1f6e7e6ce337acc4b7a58d0d14635",
+      "bytes": 382025,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T1",
+      "id": "66f18ef3838ccaf3b3428689ff05916b35b3b5cc5ea08927503077c1b57ae2d3",
+      "name": "docs/research/to-visninger-37/originals/forgrening/manifest.json",
+      "sha256": "6b2dd282d4c1bffff15063907bc6c3d5948279c7898f7caf7291d7a140de6816",
+      "bytes": 24955,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T5",
+      "id": "25ea190e25266442b1035e02580280ef82af8fa3bf30902f27834419784f1241",
+      "name": "docs/research/to-visninger-37/originals/forgrening/inns95s-20261022-reused.html",
+      "sha256": "1f159a3ca1df3e0bc35617644d0b36f7c92fd5684947f6eca5510595af533a03",
+      "bytes": 283141,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T5",
+      "id": "b9d912929114d782bdfeffc76e634d7406269093bc3d74b4f22bc7870c3dc0a5",
+      "name": "docs/research/to-visninger-37/originals/forgrening/reused-inns95-manifest.json",
+      "sha256": "8fc18d92f651e3d075bb4bf86498aff90eee3033297db920b32da83a4019bc4d",
+      "bytes": 1082,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T6",
+      "id": "d75f5cb6c3320563fee90eaee0522933db0a15befb82f972065f8e3c96c4b6c7",
+      "name": "docs/research/to-visninger-37/originals/forgrening/40034220.json",
+      "sha256": "51ce336742b445f6fa23945029d7814e51b7e3eb838e65c4f438d3b87524abc5",
+      "bytes": 1456,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T6",
+      "id": "a7f2dc0aef617f87d14ff554c72009aea389451522cd8dcd7d6e9f895ac8a7ca",
+      "name": "docs/research/to-visninger-37/originals/forgrening/40034221.json",
+      "sha256": "4413b8cb072a3a164b8d2572352ff13752e67810cf896f9c5996801f55e3ca31",
+      "bytes": 1454,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T6",
+      "id": "82c0938ff10053912ed303112d274ffa0c7c40f18afab125ac06cbff12f10583",
+      "name": "docs/research/to-visninger-37/originals/forgrening/40034222.json",
+      "sha256": "698e198a59f7afd29a5f55e6c8dbdeeb796adf00dbe7dc2764324ba66a930804",
+      "bytes": 1454,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T6",
+      "id": "39daf322d4c1338093601fe4d462a237406c8af25c898dd74fa787feeb196ff6",
+      "name": "docs/research/to-visninger-37/originals/forgrening/40034223.json",
+      "sha256": "7e9b5607935fa4944ae50e9afc3e6bd7daba64f45a5455543d468eddc83031f3",
+      "bytes": 1454,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T6",
+      "id": "dabd01335598441836a647e59b604b32ffd42deeecd2937fda2b2abfc07c342b",
+      "name": "docs/research/to-visninger-37/originals/forgrening/40034224.json",
+      "sha256": "a61a7e140440bff8ec149b3e862d6d764958f27dc66d88a0a9fc9f7fef401c79",
+      "bytes": 1454,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T6",
+      "id": "259ffb9592eab5b28526b90dfaac82c1cd4875d36f2068bae618d8a61ee8d8c8",
+      "name": "docs/research/to-visninger-37/originals/forgrening/40034225.json",
+      "sha256": "504bf16ba6184409c17b20b907461b52ec6ef7f3354553b4cefec1b89a6a62cb",
+      "bytes": 1454,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T6",
+      "id": "31c72572abe03d7456e754472ef36c853f54d380138ae957c690d1f3978bd16a",
+      "name": "docs/research/to-visninger-37/originals/forgrening/sak-100889.xml",
+      "sha256": "435985bb9cc454d32f4b5c2e0df1e07ef48146dfdb2bf4a456db4df091f00859",
+      "bytes": 15910,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T6",
+      "id": "c2c174127782b5fdfb394c438573676875281554cdcc7baa7f46e15cc2d92ef8",
+      "name": "docs/research/to-visninger-37/originals/forgrening/sak-100889.html",
+      "sha256": "279943f8df41d5ae940284c11fd6773b52921f45e093265c046c55b888a2026b",
+      "bytes": 74624,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T6",
+      "id": "537a9d498abb29f44384f84609f2d244be328fe5a1965e56e2a40664e2752bda",
+      "name": "docs/research/to-visninger-37/originals/forgrening/vedtak-100889.html",
+      "sha256": "f58ec94336da10d04046e09683bf83d6a72d3a2ddbf42a7b106f194472ef72f3",
+      "bytes": 215031,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "T6",
+      "id": "b069c9edef206ea62004f77cc087ff6f4b54fa0052ac5637b9e84a6f44a41699",
+      "name": "docs/research/to-visninger-37/originals/forgrening/votering-181224.html",
+      "sha256": "88553153fd4011b6b3aa041c7899701bd7f7a938f2ad1984aecd4c441d24a9d9",
+      "bytes": 4800053,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "O2b",
+      "id": "5c8046ad716224d9b080953af160cafa9d3296c3a61426c88fdbf4aadf3d02cb",
+      "name": "originals/prop16s.pdf",
+      "sha256": "677716056269c07b8ec81bcae91d814b975123791635548281038d9beb3aa5db",
+      "bytes": 733075,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "O2b",
+      "id": "9a40e5843d48464663d42d7a40766ca9c051ae7fd281a9a30302fe12adc8ba7a",
+      "name": "originals/prop16s-ch2.html",
+      "sha256": "258d26e6d324bde709bf3d1cb660d7eb6f4248f537d4b0c77e095f17697cf8df",
+      "bytes": 100808,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "O2b",
+      "id": "8b0d20fcb8fc46377fb63a2cd344ed0c738171d94175042a40dfd9925427ee12",
+      "name": "originals/prop16s-ch4.html",
+      "sha256": "ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e",
+      "bytes": 118163,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "O2b",
+      "id": "66b1ac40f314bf1351412472140b1d401695702ddda6c662c628feb4edfdc09b",
+      "name": "originals/inns81s.pdf",
+      "sha256": "5a29d0553991759d8ddc234899647e9e6b5e1f2885bf13edccfb26105a6be496",
+      "bytes": 331688,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "O2b",
+      "id": "90b3f2e4d5ddb98cdbb99317d309bc467c2d942ac10d0c90f17449a006cb3e6a",
+      "name": "originals/inns81s.html",
+      "sha256": "e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95",
+      "bytes": 107925,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "O2b",
+      "id": "345c7de0a957509c0377afba25b4b8e00ce2cdff0e031739ff63f39a2a42bfae",
+      "name": "originals/votering-161224.html",
+      "sha256": "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5",
+      "bytes": 2094710,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "O2b",
+      "id": "17f4597f0ce41800b34cfa6d104d12cc0686500513134919de091a1f0df62893",
+      "name": "b6/40034048.xml",
+      "sha256": "2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850",
+      "bytes": 6058,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "O2b",
+      "id": "896d2e461a9eb45eae711d7de26f2cde3536a23640c589077edc9e88ed6b8443",
+      "name": "b6/40034048.json",
+      "sha256": "1b43cc3e77fb8b216d3d0bd2d51739c4200b38aabcdac907afcdf47d0218a79b",
+      "bytes": 786,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "O2b",
+      "id": "187e546aeefd24b139ff7b84f079c43a478d9723319ac9cfd1dd1757a3a66e67",
+      "name": "b8/sak-100927.xml",
+      "sha256": "2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27",
+      "bytes": 12383,
+      "status": "kildeverifisert"
+    },
+    {
+      "capsule": "O2b",
+      "id": "4399d9bbccc49be1076598e1570dccdae9790455fced1c5f03d58970c03fd732",
+      "name": "b8/sak-100927.json",
+      "sha256": "07b85b79438fa1cfcc8774c36291fc28d0cfdc7d429ca82e1e5810bca89ac895",
+      "bytes": 1560,
+      "status": "kildeverifisert"
+    }
+  ],
+  "recipes": [
+    {
+      "recipe": {
+        "id": "f200e37c7bee99317f7bb5220f7743b3571a7b042d6f4a29c2363f1bfa85dca5",
+        "document_key": "vedtak359",
+        "parent_source_id": "8df02a830c028bc0162f87f2504dabc7f3b4b7000144c33afeae0deafe258af4",
+        "sidecar_source_id": "d75f5cb6c3320563fee90eaee0522933db0a15befb82f972065f8e3c96c4b6c7",
+        "object_start": 2172545,
+        "object_end": 2237039,
+        "prefix_bytes": 317,
+        "suffix_start": 7479886,
+        "separator_base64": "",
+        "expected_sha256": "d4c473bf1ee95ec3edacce490586c0df5ec233d356e4c236fd9d765704b00490",
+        "expected_bytes": 64868,
+        "status": "kildeverifisert"
+      },
+      "actual_sha256": "d4c473bf1ee95ec3edacce490586c0df5ec233d356e4c236fd9d765704b00490",
+      "actual_bytes": 64868
+    },
+    {
+      "recipe": {
+        "id": "d04f3e77ffb8c963313729829923fda1becd5773787cb593ad3e19c2d2d78e50",
+        "document_key": "vedtak360",
+        "parent_source_id": "8df02a830c028bc0162f87f2504dabc7f3b4b7000144c33afeae0deafe258af4",
+        "sidecar_source_id": "a7f2dc0aef617f87d14ff554c72009aea389451522cd8dcd7d6e9f895ac8a7ca",
+        "object_start": 2237041,
+        "object_end": 2238534,
+        "prefix_bytes": 317,
+        "suffix_start": 7479886,
+        "separator_base64": "",
+        "expected_sha256": "5523b3b70066f58a19c2a57dad37c4b83d601b28cbfbbcc8afb07c99f275cfd1",
+        "expected_bytes": 1867,
+        "status": "kildeverifisert"
+      },
+      "actual_sha256": "5523b3b70066f58a19c2a57dad37c4b83d601b28cbfbbcc8afb07c99f275cfd1",
+      "actual_bytes": 1867
+    },
+    {
+      "recipe": {
+        "id": "395161b74dbe0ac6d336d1c9df436a9595da76f99a5d91eaa20cbe2fd8cc7306",
+        "document_key": "vedtak361",
+        "parent_source_id": "8df02a830c028bc0162f87f2504dabc7f3b4b7000144c33afeae0deafe258af4",
+        "sidecar_source_id": "82c0938ff10053912ed303112d274ffa0c7c40f18afab125ac06cbff12f10583",
+        "object_start": 2238536,
+        "object_end": 2243116,
+        "prefix_bytes": 317,
+        "suffix_start": 7479886,
+        "separator_base64": "",
+        "expected_sha256": "cdc501f41586cfda1116f280f940c508314556c1e18552a68de842aae53ad162",
+        "expected_bytes": 4954,
+        "status": "kildeverifisert"
+      },
+      "actual_sha256": "cdc501f41586cfda1116f280f940c508314556c1e18552a68de842aae53ad162",
+      "actual_bytes": 4954
+    },
+    {
+      "recipe": {
+        "id": "2a134afadfc2585fd4cbf06d3861c67a6b4e4bbe20685633c93d4b172aab91ea",
+        "document_key": "vedtak362",
+        "parent_source_id": "8df02a830c028bc0162f87f2504dabc7f3b4b7000144c33afeae0deafe258af4",
+        "sidecar_source_id": "39daf322d4c1338093601fe4d462a237406c8af25c898dd74fa787feeb196ff6",
+        "object_start": 2243118,
+        "object_end": 2244633,
+        "prefix_bytes": 317,
+        "suffix_start": 7479886,
+        "separator_base64": "",
+        "expected_sha256": "9225b91c98f49b7b4f3006285848b0ca6021c335a220393be8dbc514787a53eb",
+        "expected_bytes": 1889,
+        "status": "kildeverifisert"
+      },
+      "actual_sha256": "9225b91c98f49b7b4f3006285848b0ca6021c335a220393be8dbc514787a53eb",
+      "actual_bytes": 1889
+    },
+    {
+      "recipe": {
+        "id": "95317894304c6802ef1f025f8a40d7207f3fdfe5078f70f927d153880f642b0c",
+        "document_key": "vedtak363",
+        "parent_source_id": "8df02a830c028bc0162f87f2504dabc7f3b4b7000144c33afeae0deafe258af4",
+        "sidecar_source_id": "dabd01335598441836a647e59b604b32ffd42deeecd2937fda2b2abfc07c342b",
+        "object_start": 2244635,
+        "object_end": 2246531,
+        "prefix_bytes": 317,
+        "suffix_start": 7479886,
+        "separator_base64": "",
+        "expected_sha256": "216186f2993d0844c81ac3a46f995df2a262a0afb930e2f44da27134aebc0fd6",
+        "expected_bytes": 2270,
+        "status": "kildeverifisert"
+      },
+      "actual_sha256": "216186f2993d0844c81ac3a46f995df2a262a0afb930e2f44da27134aebc0fd6",
+      "actual_bytes": 2270
+    },
+    {
+      "recipe": {
+        "id": "99db19a0388c788ecf34b0293e25e4daae5210ef2bdd6df513f373701eed764c",
+        "document_key": "vedtak364",
+        "parent_source_id": "8df02a830c028bc0162f87f2504dabc7f3b4b7000144c33afeae0deafe258af4",
+        "sidecar_source_id": "259ffb9592eab5b28526b90dfaac82c1cd4875d36f2068bae618d8a61ee8d8c8",
+        "object_start": 2246533,
+        "object_end": 2248874,
+        "prefix_bytes": 317,
+        "suffix_start": 7479886,
+        "separator_base64": "",
+        "expected_sha256": "e41f0de65ee6aeb438005af7b4f1230ad1268e7c5545bc8b027cae20b0e14dcd",
+        "expected_bytes": 2715,
+        "status": "kildeverifisert"
+      },
+      "actual_sha256": "e41f0de65ee6aeb438005af7b4f1230ad1268e7c5545bc8b027cae20b0e14dcd",
+      "actual_bytes": 2715
+    }
+  ],
+  "cli_pairs": [
+    {
+      "case": "inns95",
+      "basis_id": "3c10e042ad953e3ad9e47e6eee4c41ffe0d4744e36ef126538cb4b109396eccb",
+      "report_id": "3809d271665adb0467457a6b75f56ea663cd1df9ee964fcae6cbb6310613e9dc",
+      "counts": [
+        108,
+        0,
+        0
+      ],
+      "files": [
+        {
+          "name": "inns95.json",
+          "bytes": 16975774,
+          "sha256": "4a113c2e5cead0742dc3faf1c9b1d7a4f99ecaedcb685aea53d97014f188ef0f"
+        },
+        {
+          "name": "inns95.xlsx",
+          "bytes": 3663777,
+          "sha256": "5380749c5d8abb4973c9f2619869fe26a0a04af9bc7ba9f6fec82d9559583c55"
+        }
+      ]
+    },
+    {
+      "case": "vedtak359",
+      "basis_id": "3c10e042ad953e3ad9e47e6eee4c41ffe0d4744e36ef126538cb4b109396eccb",
+      "report_id": "b72bb57d55589a6a978ca2cbc5d1fb6818f9312591ba743b2f105f1c9ca549c1",
+      "counts": [
+        108,
+        108,
+        36
+      ],
+      "files": [
+        {
+          "name": "vedtak359.json",
+          "bytes": 16983410,
+          "sha256": "588b294bc149335843869920a1d275c8471167ba6269a80c8b2a143e76620076"
+        },
+        {
+          "name": "vedtak359.xlsx",
+          "bytes": 3667879,
+          "sha256": "8e8ddd98077d54db9c5ea5d65e2e6fe0100d5411a4e562abfefc87419ca90a2a"
+        }
+      ]
+    },
+    {
+      "case": "null",
+      "basis_id": "3c10e042ad953e3ad9e47e6eee4c41ffe0d4744e36ef126538cb4b109396eccb",
+      "report_id": "dfb639da9fc3a55f8428c5ab3c034b5d9f120bfa4d0cd0fbdfe3db762249102d",
+      "counts": [
+        9,
+        3,
+        1
+      ],
+      "files": [
+        {
+          "name": "null.json",
+          "bytes": 16875553,
+          "sha256": "44974d6c470360b309b3c6788e9cd0958a3b346342ecc6164d15e6b2aab1b6db"
+        },
+        {
+          "name": "null.xlsx",
+          "bytes": 3583755,
+          "sha256": "6ed04fee5cb0a8b4151c2efb873a6297eaa621edeb00e2dda3ca534bf45f4230"
+        }
+      ]
+    }
+  ],
+  "tracked_base_files": 1410,
+  "changed_tracked_files": [
+    "AGENTS.md"
+  ],
+  "old_t5_basis_id": "f5a7a071d35e58642c5872cc658eb2abd4b37c266227e2fb2c2f0df21a7713c7",
+  "old_t1_basis_id": "e1a32cd17ebe3d96bff66a4c302e72fc95af28d6d3fa6d8f09d07ff84b06ba5c",
+  "new_observations": 216,
+  "authorization_points": 16,
+  "new_formal_authorizations": 5,
+  "original_export_files": 42
+}
