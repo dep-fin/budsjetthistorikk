@@ -1,0 +1,13 @@
+{
+  "schema": "t5-control-integration-final-check-1",
+  "head": "d46589cb9e99338e44fc805ee9882006ba657fd0",
+  "baseline_bindings_verified": 1270,
+  "unchanged_current_paths": 1266,
+  "unchanged_archived_originals": 4,
+  "git_index_unchanged": true,
+  "git_index": {
+    "bytes": 146170,
+    "sha256": "5767fae00d0df83cf907ee86c8d72ff5999e387b2a0c95754d566d4b9e936c52"
+  },
+  "note": "No new product/test precondition, source, writer, guard, old report/result, security-fix package or delivery-manifest changes. All baseline raw-byte bindings checked, with only the four mapped original-helper substitutions."
+}

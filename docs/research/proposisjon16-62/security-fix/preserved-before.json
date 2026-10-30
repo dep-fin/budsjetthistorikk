@@ -1,0 +1,237 @@
+[
+  {
+    "path": "docs/research/proposisjon16-62/reviews/security/artifact-checks.json",
+    "bytes": 5759,
+    "sha256": "d486576a7b81743219f7939b4f83fed1f366f0282e1d0bf5551b44129bc23b7a"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/security/artifact_checks.py",
+    "bytes": 3398,
+    "sha256": "6787c8917149b207201596afed940deb75e6d5abf92af300b0315ad45a69d761"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/security/probes.py",
+    "bytes": 22848,
+    "sha256": "381eb401386728d046e412a19fd7d8c8c14a25ea0ee7cb732050468305ba2e7a"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/security/rapport.md",
+    "bytes": 9353,
+    "sha256": "b0424c9d2ed192387e33c17b5c15a47beb673380f71c70cb0206b3cf2adb19ff"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/security/results-final.json",
+    "bytes": 18481,
+    "sha256": "ba1cef7560246499d1601577ce120b91e7d005869c30936c9245fb7d41b8374d"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/security/results.json",
+    "bytes": 18416,
+    "sha256": "930f8278a29f4c7fc15fbfd69ccc59eac854e689c693bba68a239469415773d7"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/security/verify_outcomes.py",
+    "bytes": 5516,
+    "sha256": "ab28d3df593e8d7111144ed268394e732afe32a20b441d29f34e3d945babe675"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/cli-control.json",
+    "bytes": 698,
+    "sha256": "8178b27aad059edfd5b0b1562278355b08a5ed6373c1477d99da7ca4e4a0a452"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/cli-offline.log",
+    "bytes": 402,
+    "sha256": "a2a40a72a646df8d6e527a8af9279c977bea1ec123a746e829c92818450b2950"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/cli-t1.log",
+    "bytes": 400,
+    "sha256": "b5528656dacdfb47f5ed442270c758b184cabe2ec4d6780aa87787adb260ad37"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/independent-check.log",
+    "bytes": 357,
+    "sha256": "cf1a1da0328f654cd83261cd1a39b0991d2cb4bed0023e9c439ce2f9f7a45577"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/independent-control.json",
+    "bytes": 68966,
+    "sha256": "cbcecc7401dc56eae9346648ec1277ddc3690993293fd9ed5b97ee509e4b20b8"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/independent_check.py",
+    "bytes": 22479,
+    "sha256": "4a014ab6c2c139ed44097c33669edf6c2b7d0b9d86ce7a0dceffbbe1015e8201"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/pytest-selected.log",
+    "bytes": 127,
+    "sha256": "bc682e5cab571357eb17ddb1c5cc0870d936593ecebd57114a7bea124c691193"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/render-control.json",
+    "bytes": 5521,
+    "sha256": "a8f91f04b769c7cabc0e5bb7f9a115b084967360b7f830cde6c13863b340d34a"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/render.log",
+    "bytes": 160,
+    "sha256": "435027d155c02029c2409cfc9d8bca2693c403301f37bd1050971a0dbe5bf43b"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/render_actual.mjs",
+    "bytes": 2845,
+    "sha256": "7c2be03fac28631d1d7b7893002dc22267174de201f0154be259e65239b90575"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/report.md",
+    "bytes": 10870,
+    "sha256": "50ad65e9e157cdad29ce879db85a5964914a87cd25543accd074b14ff5602852"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/visual/1533-Forløp-B1-K5.png",
+    "bytes": 17266,
+    "sha256": "c32f6d316a1ce7196ecb2780c5e4945e16cbc3783bb0e14a2f33a80e29838d00"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-Forløp-B1-K5.png",
+    "bytes": 53795,
+    "sha256": "c0148da6ba4b22795ef9377c4e2fabd8fd4dbe873a3dd68d3c80de191f884347"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-Fullmakter-A1-F10.png",
+    "bytes": 75747,
+    "sha256": "59e3735c410ef23e42ab0cb01f6e4b2b50266f29358aaade33d1e157f2d804a9"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-Fullmakter-L1-L10.png",
+    "bytes": 12830,
+    "sha256": "28ae3077bfd958e8e8518990b49c9109fff99ee96ec74a4e61b83d73ef68404a"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-Grenbevis-A1-G9.png",
+    "bytes": 100422,
+    "sha256": "40144a249c92f1483353a68f335f6f4c393432f62291748e656879eaf70eb3b6"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-Inventar-L1-N6.png",
+    "bytes": 117359,
+    "sha256": "78c6969d1c4da1fdb6ec589f1a0f3bff205378ca357e167c3c72f7a6fedb60ea"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-Kontoer-A1-H6.png",
+    "bytes": 136024,
+    "sha256": "705cc7e2090817381eef206d3ff3b65147e12fc2780aab828b05ed0d57e5848a"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/visual/inntekt-null-T5-dekning-B1-G2.png",
+    "bytes": 26618,
+    "sha256": "08276bd60c302114a6dd5bc54bf811c860065b72a795aeb3079d013fba4ec0f5"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/visual/tekst-Fullmakter-A1-F10.png",
+    "bytes": 75747,
+    "sha256": "59e3735c410ef23e42ab0cb01f6e4b2b50266f29358aaade33d1e157f2d804a9"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/visual/tekst-Fullmakter-L1-L10.png",
+    "bytes": 12828,
+    "sha256": "f1582a5419a9f2528a1bd2e726342fc2c956279e3bcf5093db6813a7236b91ed"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/visual/tekst-Utvalg-A1-B12.png",
+    "bytes": 58411,
+    "sha256": "209e9dfc38982a89c21f692f6c4124c910b46e3aae701d3288c8a837c79d367f"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/visual/tomt-Utvalg-A1-B12.png",
+    "bytes": 57997,
+    "sha256": "98f11ab235c8e87b51739093aa8f31390642863ecfeb2b27fba7217ef75a5e76"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/source/visual/utgift-Forløp-B1-K5.png",
+    "bytes": 55350,
+    "sha256": "4d3f22c4f5513ff63f4a2d6ba583286b353f79ddf73d3fdb3bb677ed39f99789"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/spec/controls.json",
+    "bytes": 30707,
+    "sha256": "78d061eefe48fef7cc5ddf42c3d7f0bf31407d1ba29c2bbeca1af5c28df7553f"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/spec/controls.py",
+    "bytes": 10214,
+    "sha256": "f28a32449a32dccf88607eda08045c2ee6e64768613e89d7d3ee860973d6ea1b"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/spec/pytest-targeted.log",
+    "bytes": 602,
+    "sha256": "e7293d87b1da240ab3757d3c9840c371a6ca840b932fae340834c0387b4e7c4c"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/spec/report.md",
+    "bytes": 2216,
+    "sha256": "dd811aadad49868183deb4610cb97be4ffd16e55c32fe80086efc435d1e3b77a"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/standards/controls.json",
+    "bytes": 3556,
+    "sha256": "8490476c45c1a5750881297e3a262817e10cc880582a8b6c5a31acf56fd2a01d"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/standards/controls.py",
+    "bytes": 4194,
+    "sha256": "3278c7877fda6895fcd0c887d139bb08adca975983a9d94b7ac7cdfd8c1f80cb"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/reviews/standards/REPORT.md",
+    "bytes": 2700,
+    "sha256": "4f1823b728f5423510b5590d4f333d42f5dceb14277f2fc069072d355c9638bd"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/visual/delt-ramme.png",
+    "bytes": 75747,
+    "sha256": "59e3735c410ef23e42ab0cb01f6e4b2b50266f29358aaade33d1e157f2d804a9"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/visual/grenstatus.png",
+    "bytes": 100422,
+    "sha256": "40144a249c92f1483353a68f335f6f4c393432f62291748e656879eaf70eb3b6"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/visual/historisk-og-gjeldende.png",
+    "bytes": 136024,
+    "sha256": "705cc7e2090817381eef206d3ff3b65147e12fc2780aab828b05ed0d57e5848a"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/visual/inntekt-null.png",
+    "bytes": 53795,
+    "sha256": "c0148da6ba4b22795ef9377c4e2fabd8fd4dbe873a3dd68d3c80de191f884347"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/visual/tabell-dekning.png",
+    "bytes": 26618,
+    "sha256": "08276bd60c302114a6dd5bc54bf811c860065b72a795aeb3079d013fba4ec0f5"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/visual/tekstkonto.png",
+    "bytes": 58411,
+    "sha256": "209e9dfc38982a89c21f692f6c4124c910b46e3aae701d3288c8a837c79d367f"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/visual/tomt.png",
+    "bytes": 57997,
+    "sha256": "98f11ab235c8e87b51739093aa8f31390642863ecfeb2b27fba7217ef75a5e76"
+  },
+  {
+    "path": "docs/research/proposisjon16-62/visual/utgift.png",
+    "bytes": 55350,
+    "sha256": "4d3f22c4f5513ff63f4a2d6ba583286b353f79ddf73d3fdb3bb677ed39f99789"
+  },
+  {
+    "path": "tests/fixtures/t2/authentic-t1.json.gz",
+    "bytes": 2650562,
+    "sha256": "629c3561cca6f0ab2a5644958c7ae6590dd70775d688f40e134bda449e8982a6"
+  }
+]

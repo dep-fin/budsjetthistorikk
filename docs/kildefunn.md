@@ -465,3 +465,18 @@ i lønnsplanen er ikke budsjettkapittel 1429. /22 arver ingen /1-forklaring.
 før videre dato-/lønns-/postkobling. 99235 ligger utenfor K3s historiske
 67 kandidater; C06 føres additivt uten nye monetære hendelser, omberegnede
 kandidattall, endrede pinnefiler eller lukking av R1–R7.
+
+## T5: Prop. 16 S-tabellen og gjeldende strukturdekning – 29. oktober 2026
+
+Den uendrede kapittel 4-HTML-en gir 37 forslagstrioer/111 felt i 15 kapitler,
+med 27 utgifts- og 10 inntektstrioer. Hele referanseinventaret har 45 kontoer
+og omfatter også 1533. 4400/2s etternivå er observert heltallsnull. II–VI har
+ni atomiske inventarpunkter; IVs 16,3 mill. er én delt ramme for tre kontoer.
+Grenene skiller 1429/81 fra øvrige tabellgrupper/95 og V.3 fra V.1–2.
+1533/45 får ingen automatisk 95-gren. De to bevarte beriktigede 95-HTML-
+responsene har egne råhasher og lik hovedtekst, uten kjent rettelseshistorikk.
+
+**Konsekvens:** [T5-kontrakten](proposisjon16.md) og [kilde-/filbevisene](research/proposisjon16-62/README.md)
+skiller gjeldende 111-feltsdekning fra historisk T1-avvik i én uendret kapsel.
+Gamle ID-er består; 105 nye forslagfelt gir ingen nye vedtatte hendelser.
+95-beløp, full tekstsemantikk, helårsdekning og faglig godkjenning er åpne.

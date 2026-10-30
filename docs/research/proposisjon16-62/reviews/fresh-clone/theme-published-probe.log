@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\t5-prop16\.local\fresh-github-20261030\docs\research\proposisjon16-62\security-fix\probe.py", line 165, in <module>
+    main()
+  File "C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\t5-prop16\.local\fresh-github-20261030\docs\research\proposisjon16-62\security-fix\probe.py", line 139, in main
+    assert digest(root / entry["path"]) == {k: entry[k] for k in ("bytes", "sha256")}, (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: docs/research/proposisjon16-62/reviews/security/artifact_checks.py

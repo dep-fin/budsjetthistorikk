@@ -1,0 +1,71 @@
+--- docs/research/proposisjon16-62/reviews/security/artifact_checks.py.original
++++ docs/research/proposisjon16-62/reviews/security/artifact_checks.py
+@@ -31,14 +31,20 @@
+     a = p.parse_args()
+     root, output = a.root.resolve(), a.output.resolve()
+     assert not output.exists()
++
+     def git(*args):
+         return subprocess.check_output(["git", "-C", str(root), *args])
++
+     candidate = git("rev-parse", "--verify", a.candidate + "^{commit}").decode().strip()
+     base = git("rev-parse", "--verify", a.base + "^{commit}").decode().strip()
++
+     def blob(name):
+         return git("show", candidate + ":" + name)
++
+     path = "docs/research/proposisjon16-62/"
+-    manifest = json.loads(blob(path + "delivery-manifest.json"), object_pairs_hook=strict, parse_constant=constant)
++    manifest = json.loads(
++        blob(path + "delivery-manifest.json"), object_pairs_hook=strict, parse_constant=constant
++    )
+     bound = []
+     for entry in manifest["files"]:
+         raw = blob(entry["path"])
+@@ -46,7 +52,10 @@
+             assert b"\r" not in raw
+         assert len(raw) == entry["bytes"], entry["path"]
+         assert hashlib.sha256(raw).hexdigest() == entry["sha256"], entry["path"]
+-        assert hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest() == entry["git_blob_sha1"]
++        assert (
++            hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
++            == entry["git_blob_sha1"]
++        )
+         bound.append(entry["path"])
+     added = git("diff", "--name-only", base, candidate).decode().splitlines()
+     checked_json, checked_png = [], []
+@@ -61,8 +70,8 @@
+             offset, chunks = 8, []
+             while offset < len(raw):
+                 length = struct.unpack_from(">I", raw, offset)[0]
+-                kind = raw[offset + 4:offset + 8]
+-                data = raw[offset + 8:offset + 8 + length]
++                kind = raw[offset + 4 : offset + 8]
++                data = raw[offset + 8 : offset + 8 + length]
+                 crc = struct.unpack_from(">I", raw, offset + 8 + length)[0]
+                 assert zlib.crc32(kind + data) == crc
+                 if kind == b"IHDR":
+@@ -72,11 +81,20 @@
+                 offset += length + 12
+             assert offset == len(raw) and chunks[-1] == "IEND"
+             checked_png.append({"path": name, "width": width, "height": height, "chunks": chunks})
+-    result = {"candidate": candidate, "base": base,
++    result = {
++        "candidate": candidate,
++        "base": base,
+         "tree": git("rev-parse", candidate + "^{tree}").decode().strip(),
+-        "manifest_entries_match_git_bytes": bound, "strict_json": checked_json, "png": checked_png}
++        "manifest_entries_match_git_bytes": bound,
++        "strict_json": checked_json,
++        "png": checked_png,
++    }
+     output.write_text(json.dumps(result, ensure_ascii=False, indent=2), "utf8")
+-    print(json.dumps({"manifest_entries": len(bound), "json": len(checked_json), "png": len(checked_png)}))
++    print(
++        json.dumps(
++            {"manifest_entries": len(bound), "json": len(checked_json), "png": len(checked_png)}
++        )
++    )
+ 
+ 
+ if __name__ == "__main__":

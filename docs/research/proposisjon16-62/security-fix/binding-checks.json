@@ -1,0 +1,18 @@
+{
+  "starting_candidate": "d46589cb9e99338e44fc805ee9882006ba657fd0",
+  "starting_tree": "df0eed6d6e8a0b2a07962e641ae05d1194a3304d",
+  "base": "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+  "delivery_bindings_checked": 35,
+  "historical_paths_checked": 47,
+  "changed_base_files": [
+    "AGENTS.md",
+    "docs/kildefunn.md"
+  ],
+  "changed_candidate_files": [
+    "analyse/proposisjon16_excel.py",
+    "docs/proposisjon16.md",
+    "docs/research/proposisjon16-62/delivery-manifest.json",
+    "tests/test_proposisjon16.py"
+  ],
+  "staged_files": []
+}

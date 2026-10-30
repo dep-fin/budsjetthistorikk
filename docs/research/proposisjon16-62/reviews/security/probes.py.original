@@ -1,0 +1,435 @@
+"""Independent local T5 security probes; no production edits or network.
+
+Run from a checkout containing --candidate's tracked files. Candidate may be a
+published equivalent commit with the same tree. All arguments are explicit.
+"""
+
+from __future__ import annotations
+
+import argparse
+import base64
+import gzip
+import hashlib
+import json
+import os
+import socket
+import sqlite3
+import struct
+import subprocess
+import sys
+from dataclasses import asdict, replace
+from pathlib import Path
+from zipfile import ZIP_DEFLATED, ZipFile
+
+
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("--root", type=Path, required=True)
+    p.add_argument("--candidate", required=True)
+    p.add_argument("--base", required=True)
+    p.add_argument("--output", type=Path, required=True)
+    args = p.parse_args()
+    root = args.root.resolve()
+    output = args.output.resolve()
+    output.mkdir(parents=True, exist_ok=False)
+    os.chdir(root)
+    sys.path.insert(0, str(root))
+
+    def git(*a):
+        return subprocess.check_output(["git", "-C", str(root), *a], text=True).strip()
+
+    candidate = git("rev-parse", "--verify", args.candidate + "^{commit}")
+    base = git("rev-parse", "--verify", args.base + "^{commit}")
+    tree = git("rev-parse", candidate + "^{tree}")
+    subprocess.run(["git", "-C", str(root), "diff", "--quiet", candidate], check=True)
+
+    def inventory(ref):
+        return {line.split("\t", 1)[1]: line.split("\t", 1)[0].split()[2]
+                for line in git("ls-tree", "-r", ref).splitlines()}
+
+    before, after = inventory(base), inventory(candidate)
+    changed = [n for n in before if after.get(n) != before[n]]
+    assert changed == ["AGENTS.md", "docs/kildefunn.md"]
+    assert len(before) - len(changed) == 1181
+    results = {
+        "candidate": candidate, "tree": tree, "base": base,
+        "base_files": len(before), "unchanged_base_files": 1181,
+        "changed_base_files": changed, "probes": [],
+    }
+
+    def record(name, passed, detail="", **extra):
+        row = {"name": name, "passed": bool(passed), "detail": detail, **extra}
+        results["probes"].append(row)
+        (output / "results.json").write_text(json.dumps(results, ensure_ascii=False, indent=2), "utf8")
+        print(name, "PASS" if passed else "ACCEPTED-ALTERATION", detail, flush=True)
+
+    def rejection(name, call, *, semantic=False):
+        try:
+            call()
+        except (ValueError, OSError) as e:
+            message = str(e)
+            if semantic:
+                assert "avviker" in message, (name, message)
+            record(name, True, message)
+        else:
+            record(name, False, "reader accepted altered input")
+
+    from lxml import etree
+    from openpyxl import load_workbook
+    from analyse import proposisjon16 as t5, visningspilot as t1
+    from analyse.omtale_excel_guard import inspect_excel
+    from analyse.proposisjon16_excel import (
+        SHEET_NAMES, _book, export_excel, export_originals, export_pair, read_excel,
+    )
+    from innlesning import proposisjon16 as adapter
+    from innlesning.observations import encode
+    from innlesning.omtale import identified
+    from innlesning.proposisjon16_model import FORMAT
+    from innlesning.visningspilot import _source as t1_source, structure_basis as t1_structure
+    from innlesning.visningspilot_model import PilotSelection
+
+    for module in (t5, adapter):
+        assert Path(module.__file__).resolve().is_relative_to(root)
+    old_bytes = (root / "tests/fixtures/t2/authentic-t1.json.gz").read_bytes()
+    old = t1.report_from_json(gzip.decompress(old_bytes).decode())
+    old_frozen = t1.report_to_json(old)
+    basis = t5.import_basis(old_frozen, root)
+    report = t5.build_report(basis, PilotSelection(years=(2024,), accounts=(("4400", "2"),)))
+    frozen, excel = output / "clean.json", output / "clean.xlsx"
+    export_pair(report, frozen, excel)
+    raw = frozen.read_text("utf8")
+    whole = t5.contents(basis)
+    union = t5.build_report(basis, PilotSelection(years=(2024,),
+        chapters=tuple(sorted({o.chapter for o in whole.observations}))))
+    counts = [len(union.view.observation_ids), len(union.view.adopted_observation_ids),
+              len(union.view.adopted_event_ids)]
+    record("valid_roundtrip_capsule_counts", t5.read_json(frozen) == read_excel(excel) == report
+           and basis.t1_basis == old.basis and len(basis.observations) == 105
+           and len(whole.observations) == 123 and counts == [123, 6, 2],
+           "105 added; 111 proposed; 123/6/2 union; old capsule equal",
+           counts=counts)
+    record("legacy_gzip_unchanged", hashlib.sha256(old_bytes).hexdigest() ==
+           "629c3561cca6f0ab2a5644958c7ae6590dd70775d688f40e134bda449e8982a6")
+
+    strict = {
+        "duplicate": raw.replace('"format":', '"format":"proposisjon16-1","format":', 1),
+        "extra": raw[:-1] + ',"unexpected":1}',
+        "bool_int": raw.replace('"table_fields":111', '"table_fields":true', 1),
+        "float_int": raw.replace('"table_fields":111', '"table_fields":111.0', 1),
+        "NaN": raw.replace('"table_fields":111', '"table_fields":NaN', 1),
+        "Infinity": raw.replace('"table_fields":111', '"table_fields":Infinity', 1),
+        "negative_Infinity": raw.replace('"table_fields":111', '"table_fields":-Infinity', 1),
+    }
+    for name, text in strict.items():
+        assert text != raw
+        rejection("strict_json_" + name, lambda text=text: t5.report_from_json(text))
+
+    def wrap(b):
+        return identified(FORMAT, replace(report, basis=identified("proposisjonsgrunnlag16-1", b)))
+
+    i = next(i for i, o in enumerate(basis.observations)
+             if (o.chapter, o.post, o.meaning) == ("4400", "2", "etter_belop"))
+    zero = basis.observations[i]
+    poisons = {}
+    for name, change in {
+        "zero_amount": {"amount_kr": 1},
+        "zero_null": {"amount_kr": None},
+        "role": {"figure_type": "stortingsvedtak"},
+        "year": {"budget_year": 2025},
+        "meaning": {"meaning": "endring"},
+        "step": {"step_id": "synthetic-attacker-step"},
+        "author": {"proposal_author": "Stortinget"},
+        "raw_value": {"raw_value": "999"},
+    }.items():
+        rows = list(basis.observations)
+        rows[i] = replace(zero, **change)
+        poisons[name] = wrap(replace(basis, observations=tuple(rows)))
+    old_rows = tuple(replace(o, step_id="synthetic-old-step")
+                     if o.figure_type == "stortingsvedtak" else o for o in basis.t1_basis.observations)
+    poisons["old_step"] = wrap(replace(basis, t1_basis=identified(
+        "visningsgrunnlag-1", replace(basis.t1_basis, observations=old_rows))))
+    b = identified("proposisjonsgren16-1", replace(basis.branches[1],
+        accounts=basis.branches[1].accounts + ("1533/45",)))
+    poisons["branch_leak"] = wrap(replace(basis, branches=(basis.branches[0], b, *basis.branches[2:])))
+    a = next(a for a in basis.authorizations if a.roman == "IV")
+    split = tuple(identified("proposisjonsfullmakt16-1", replace(a, accounts=(account,)))
+                  for account in a.accounts)
+    poisons["split_frame"] = wrap(replace(basis,
+        authorizations=tuple(o for o in basis.authorizations if o != a) + split))
+    c = identified("proposisjonsdekning16-1", replace(basis.coverage[0],
+        status="full_semantikk_og_årsdekning", scope="hele_dokumentet"))
+    poisons["false_coverage"] = wrap(replace(basis, coverage=(c,)))
+    poisons["hidden_gaps"] = wrap(replace(basis, issues=()))
+    bad_binding = identified("proposisjonsbinding16-1", replace(basis.bindings[0], observation_ids=()))
+    poisons["binding"] = wrap(replace(basis, bindings=(bad_binding, *basis.bindings[1:])))
+    for name, poisoned in poisons.items():
+        text = encode({"format": FORMAT, "report": asdict(poisoned)})
+        path = output / ("semantic-" + name + ".json")
+        path.write_text(text, "utf8")
+        rejection("semantic_json_" + name, lambda path=path: t5.read_json(path), semantic=True)
+        book = _book(poisoned, text)
+        path = output / ("semantic-" + name + ".xlsx")
+        book.save(path)
+        book.close()
+        extracted, _ = inspect_excel(path, sheet_names=SHEET_NAMES,
+            snapshot_name="Visningsgrunnlag", max_expanded_bytes=128 * 1024 * 1024)
+        assert extracted == text
+        rejection("semantic_xlsx_" + name, lambda path=path: read_excel(path), semantic=True)
+
+    prepared = t1.source_input(basis.t1_basis.o2b_json)
+    record("typed_original_reconstruct", adapter.structure_basis(
+        basis.t1_basis, prepared, basis.sources) == basis)
+    rejection("typed_rehashed_money", lambda: adapter.validate_basis(poisons["zero_amount"].basis, prepared), semantic=True)
+    source = basis.sources[0]
+    fake = replace(source, content_base64=base64.b64encode(b"synthetic false HTML").decode(),
+        sha256=hashlib.sha256(b"synthetic false HTML").hexdigest(), byte_count=20)
+    fake = identified("proposisjonskilde16-1", fake)
+    rejection("typed_rehashed_false_verified_source", lambda: adapter.structure_basis(
+        basis.t1_basis, prepared, (fake, basis.sources[1])))
+    fake = identified("proposisjonskilde16-1", replace(source, content_base64="%%invalid%%"))
+    rejection("typed_invalid_base64", lambda: adapter.structure_basis(
+        basis.t1_basis, prepared, (fake, basis.sources[1])))
+    fake = identified("proposisjonskilde16-1", replace(source,
+        content_base64="A" * (4 * ((16 * 1024 * 1024 + 2) // 3) + 4)))
+    rejection("typed_oversize_base64", lambda: adapter.structure_basis(
+        basis.t1_basis, prepared, (fake, basis.sources[1])))
+
+    bomb = gzip.compress(b"x" * (32 * 1024 * 1024 + 1))
+    old_parent = next(s for s in basis.t1_basis.sources
+                      if s.document_key == "forelder2024" and s.media_type == "application/gzip")
+    contradictory = t1_source(old_parent.name, bomb, old_parent.metadata_json)
+    old_sources = tuple(contradictory if s.id == old_parent.id else s
+                        for s in basis.t1_basis.sources)
+    gzip_class = gzip.GzipFile
+    def bounded_pin_check(*a, **k):
+        if k.get("fileobj") is not None and k["fileobj"].getvalue() == bomb:
+            raise AssertionError("unpinned gzip was decompressed")
+        return gzip_class(*a, **k)
+    try:
+        gzip.GzipFile = bounded_pin_check
+        degraded_t1 = t1_structure(prepared, old_sources)
+        degraded_t5 = adapter.structure_basis(degraded_t1, prepared, basis.sources)
+        record("unpinned_gzip_not_decompressed", contradictory.status == "motstrid"
+               and any("motstrid" in s for s in degraded_t1.issues)
+               and all(b.status == "uavklart" for b in degraded_t5.branches if b.case_id == "100889"))
+    finally:
+        gzip.GzipFile = gzip_class
+    forged = identified("visningskilde-1", replace(contradictory, status="kildeverifisert"))
+    rejection("forged_verified_gzip_rejected", lambda: t1_structure(prepared, tuple(
+        forged if s.id == old_parent.id else s for s in basis.t1_basis.sources)))
+
+    with ZipFile(excel) as z:
+        clean_parts = {name: z.read(name) for name in z.namelist()}
+    ns = {"s": "http://schemas.openxmlformats.org/spreadsheetml/2006/main",
+          "a": "http://schemas.openxmlformats.org/drawingml/2006/main"}
+
+    def archive(name, mutation):
+        parts = dict(clean_parts)
+        mutation(parts)
+        path = output / (name + ".xlsx")
+        with ZipFile(path, "w", ZIP_DEFLATED) as z:
+            for key, value in parts.items():
+                z.writestr(key, value)
+        return path
+
+    def xml(parts, name, mutation):
+        node = etree.fromstring(parts[name])
+        mutation(node)
+        parts[name] = etree.tostring(node)
+
+    alterations = {
+        "external_relationship": lambda d: xml(d, "xl/_rels/workbook.xml.rels",
+            lambda n: n[0].set("TargetMode", "External")),
+        "worksheet_doctype": lambda d: d.__setitem__("xl/worksheets/sheet1.xml",
+            b'<!DOCTYPE worksheet [<!ENTITY e SYSTEM "file:///nonexistent">]>' + d["xl/worksheets/sheet1.xml"]),
+        "hidden_sheet": lambda d: xml(d, "xl/workbook.xml",
+            lambda n: n.find("s:sheets", ns)[0].set("state", "hidden")),
+        "unwanted_member": lambda d: d.__setitem__("../outside.bin", b"synthetic"),
+        "style_invisible": lambda d: xml(d, "xl/styles.xml",
+            lambda n: n.find("s:fonts/s:font/s:color", ns).set("rgb", "FFFFFF")),
+        "cell_formula": lambda d: xml(d, "xl/worksheets/sheet1.xml",
+            lambda n: etree.SubElement(n.find(".//s:c[@r='G2']", ns), "{" + ns["s"] + "}f").__setattr__("text", "1+1")),
+        "numeric_as_text": lambda d: xml(d, "xl/worksheets/sheet1.xml",
+            lambda n: n.find(".//s:c[@r='G4']", ns).set("t", "inlineStr")),
+        "duplicate_cell": lambda d: xml(d, "xl/worksheets/sheet1.xml",
+            lambda n: n.find(".//s:row[@r='2']", ns).append(etree.fromstring(
+                etree.tostring(n.find(".//s:c[@r='G2']", ns))))),
+    }
+    for name, mutation in alterations.items():
+        path = archive("container-" + name, mutation)
+        rejection("xlsx_" + name, lambda path=path: read_excel(path))
+    duplicate = output / "duplicate-member.xlsx"
+    with ZipFile(duplicate, "w", ZIP_DEFLATED) as z:
+        for name, value in clean_parts.items():
+            z.writestr(name, value)
+        z.writestr("xl/workbook.xml", clean_parts["xl/workbook.xml"])
+    rejection("xlsx_duplicate_member", lambda: read_excel(duplicate))
+
+    expanded = bytearray(excel.read_bytes())
+    start = expanded.find(b"PK\x01\x02")
+    assert start >= 0
+    struct.pack_into("<I", expanded, start + 24, 129 * 1024 * 1024)
+    oversized = output / "oversize-declared.xlsx"
+    oversized.write_bytes(expanded)
+    rejection("xlsx_declared_expanded_limit", lambda: read_excel(oversized))
+    oversized = output / "oversize.json"
+    with oversized.open("wb") as f:
+        f.seek(64 * 1024 * 1024)
+        f.write(b"x")
+    rejection("json_file_limit", lambda: t5.read_json(oversized))
+    oversized.unlink()
+
+    def theme_white(parts):
+        def mutate(n):
+            dark = n.find(".//a:clrScheme/a:dk1", ns)
+            for child in list(dark):
+                dark.remove(child)
+            etree.SubElement(dark, "{" + ns["a"] + "}srgbClr", val="FFFFFF")
+        xml(parts, "xl/theme/theme1.xml", mutate)
+
+    theme = archive("accepted-theme-white", theme_white)
+    theme_result = read_excel(theme)
+    book = load_workbook(theme)
+    theme_cells = []
+    for title, coordinate in (("Inventar", "M2"), ("Inventar", "N2"), ("Kontoer", "H2")):
+        cell = book[title][coordinate]
+        theme_cells.append({"sheet": title, "cell": coordinate, "value": cell.value,
+            "font_type": cell.font.color.type, "font_theme": cell.font.color.theme,
+            "fill": cell.fill.patternType})
+    book.close()
+    record("theme_integrity", False,
+        "Only theme dk1 changed to FFFFFF; accepted equal report; T5 status/binding fonts use theme=1 on unfilled cells",
+        report_equal=theme_result == report, affected=theme_cells,
+        changed_parts=[n for n in clean_parts if n == "xl/theme/theme1.xml"])
+
+    # No actual socket/SQLite use is allowed during both public offline readers.
+    original_socket, original_connect = socket.socket, sqlite3.connect
+    def deny(*a, **k):
+        raise AssertionError("offline reader attempted network/SQLite")
+    try:
+        for name, module in list(sys.modules.items()):
+            if name.startswith(("analyse.", "innlesning.")) and module is not None:
+                for value in vars(module).values():
+                    clear = getattr(value, "cache_clear", None)
+                    if clear is not None:
+                        clear()
+        socket.socket, sqlite3.connect = deny, deny
+        record("offline_readers_no_network_sqlite", t5.read_json(frozen) == read_excel(excel) == report)
+    finally:
+        socket.socket, sqlite3.connect = original_socket, original_connect
+    hashes = {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in (frozen, excel)}
+    rejection("no_clobber_json", lambda: t5.export_json(report, frozen))
+    rejection("no_clobber_excel", lambda: export_excel(report, excel))
+    record("no_clobber_existing_hashes", hashes == {
+        p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in (frozen, excel)})
+    originals = output / "originals"
+    export_originals(report, originals)
+    missing = []
+    original_files = list(originals.rglob("*"))
+    compared = 0
+    for name in original_files:
+        if name.is_file() and name.name != "index.json":
+            relative = name.relative_to(originals).as_posix()
+            if relative.startswith("t1/"):
+                expected = root / relative[3:]
+            elif relative.startswith("o2b/"):
+                expected = root / "docs/research/omtale-o1" / relative[4:]
+            else:
+                expected = root / relative
+            if expected.exists():
+                compared += 1
+                if name.read_bytes() != expected.read_bytes():
+                    missing.append(relative)
+    record("original_recovery", not missing, "raw exported bytes compared where source repository path exists",
+        files=sum(n.is_file() for n in original_files), repository_files_compared=compared, mismatches=missing)
+    rejection("no_clobber_original_directory", lambda: export_originals(report, originals))
+
+    offline = subprocess.run([sys.executable, "-m", "analyse.proposisjon16", "--frosset", str(frozen),
+        "--rot", str(output / "does-not-exist"), "--json", str(output / "offline-cli.json"),
+        "--excel", str(output / "offline-cli.xlsx")], capture_output=True, text=True, encoding="utf8")
+    record("offline_cli", offline.returncode == 0 and t5.read_json(output / "offline-cli.json") == report,
+           offline.stderr)
+
+    race_path = output / "publication-race.json"
+    publisher = t5._publish
+    def race(temporary, destination):
+        destination.write_bytes(b"existing destination won the race")
+        return publisher(temporary, destination)
+    before_temporary = set(output.glob("tmp*.json"))
+    try:
+        t5._publish = race
+        rejection("atomic_no_clobber_race", lambda: t5.export_json(report, race_path))
+        record("atomic_no_clobber_race_preserves_winner", race_path.read_bytes() == b"existing destination won the race"
+               and set(output.glob("tmp*.json")) == before_temporary)
+    finally:
+        t5._publish = publisher
+
+    # Legitimate arbitrary reviewer text enters through the old public API.
+    from analyse.omtale import report_from_json as read_o2, report_to_json as freeze_o2
+    from analyse.omtale_begge import propose_relation
+    old_o2 = read_o2(old.basis.o2b_json)
+    reason = '=HYPERLINK("https://example.invalid","synthetic")\n' + "øæå synthetic untrusted text " * 2300
+    manual = propose_relation(old_o2, section_id=old_o2.basis.sections[1].id,
+        event_id=old_o2.relations[0].event_id, evidence_ids=(old_o2.basis.sections[1].id,), reason=reason)
+    manual_t1 = t1.build_report(t1.import_basis(freeze_o2(manual), root), PilotSelection())
+    manual_t5 = t5.build_report(t5.import_basis(t1.report_to_json(manual_t1), root), PilotSelection())
+    long_json, long_excel = output / "literal-long.json", output / "literal-long.xlsx"
+    export_pair(manual_t5, long_json, long_excel)
+    book = load_workbook(long_excel)
+    try:
+        literal = all(c.data_type != "f" for sh in book for row in sh for c in row)
+        continuation = "Relasjoner fortsettelse" in book.sheetnames
+    finally:
+        book.close()
+    record("arbitrary_formula_like_long_text_literal", literal and continuation
+           and any(r.reason == reason for r in read_o2(manual_t5.basis.t1_basis.o2b_json).relations)
+           and t5.read_json(long_json) == read_excel(long_excel) == manual_t5,
+           "public manual-relation text, >60000 chars, actual JSON/XLSX roundtrip and ordered continuation")
+
+    # Actual ordinary decision registration after four degraded T5 imports.
+    import shutil
+    for condition in ("missing", "failed", "corrupt", "contradictory"):
+        optional = output / ("optional-" + condition)
+        for name in adapter.SOURCE_CATALOG:
+            target = optional / name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(root / name, target)
+        target = optional / next(iter(adapter.SOURCE_CATALOG))
+        if condition == "missing":
+            target.unlink()
+        elif condition == "failed":
+            target.unlink()
+            target.mkdir()
+        elif condition == "corrupt":
+            target.write_bytes(b"synthetic corrupt HTML")
+        else:
+            target.write_bytes(target.read_bytes().replace(b"1429", b"1420"))
+        degraded = t5.import_basis(old_frozen, optional)
+        assert degraded.sources[0].status == ("mangler" if condition in {"missing", "failed"} else "motstrid")
+        database = output / ("ordinary-" + condition + ".sqlite")
+        def cli(*a):
+            run = subprocess.run([sys.executable, "-m", *a], capture_output=True,
+                                 text=True, encoding="utf8", check=False)
+            assert run.returncode in (0, 2), run.stderr
+            return json.loads(run.stdout)
+        sync = cli("innlesning", "synkroniser", "--database", str(database),
+            "--sesjon", "2024-2025", "--historisk-proeve", "--vedtak-id", "40034229",
+            "--response", "tests/fixtures/b6/40034229.xml", "--metadata", "tests/fixtures/b6/40034229.json")
+        extraction = cli("innlesning", "tolk", "--database", str(database), "--revisjon",
+                        sync["vedtak"][0]["revision_id"], "--tolkning", "storting-belop-v2")["belopsuttrekk"]
+        ordinary_excel = output / ("ordinary-" + condition + ".xlsx")
+        cli("analyse", "--database", str(database), "--belopsuttrekk", extraction, "--excel", str(ordinary_excel))
+        from innlesning.observations import read_extraction
+        extracted = read_extraction(database, extraction)
+        record("ordinary_registration_" + condition, not sync["feil"] and len(extracted.observations) == 222
+               and len({o.step_id for o in extracted.observations}) == 74 and ordinary_excel.exists(),
+               "actual sync, raw storage, v2 interpretation, SQLite, analysis and XLSX")
+    results["probe_count"] = len(results["probes"])
+    results["unexpected_acceptances"] = [r["name"] for r in results["probes"] if not r["passed"]]
+    (output / "results.json").write_text(json.dumps(results, ensure_ascii=False, indent=2), "utf8")
+    print(json.dumps({"output": str(output), "probes": results["probe_count"],
+        "unexpected_acceptances": results["unexpected_acceptances"]}), flush=True)
+
+
+if __name__ == "__main__":
+    main()

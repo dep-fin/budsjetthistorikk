@@ -1,0 +1,2 @@
+# Den additive bytekontrollen binder eksakte UTF-8/LF- og raabyte.
+** -text whitespace=cr-at-eol

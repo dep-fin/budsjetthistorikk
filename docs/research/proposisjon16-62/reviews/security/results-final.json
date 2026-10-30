@@ -1,0 +1,577 @@
+{
+  "candidate": "d46589cb9e99338e44fc805ee9882006ba657fd0",
+  "tree": "df0eed6d6e8a0b2a07962e641ae05d1194a3304d",
+  "base": "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+  "base_files": 1183,
+  "unchanged_base_files": 1181,
+  "changed_base_files": [
+    "AGENTS.md",
+    "docs/kildefunn.md"
+  ],
+  "probes": [
+    {
+      "name": "valid_roundtrip_capsule_counts",
+      "passed": true,
+      "detail": "105 added; 111 proposed; 123/6/2 union; old capsule equal",
+      "counts": [
+        123,
+        6,
+        2
+      ]
+    },
+    {
+      "name": "legacy_gzip_unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "strict_json_duplicate",
+      "passed": true,
+      "detail": "Duplisert JSON-felt i frosset rapport"
+    },
+    {
+      "name": "strict_json_extra",
+      "passed": true,
+      "detail": "Ukjent T5-konvolutt"
+    },
+    {
+      "name": "strict_json_bool_int",
+      "passed": true,
+      "detail": "Feil type i rapportfelt"
+    },
+    {
+      "name": "strict_json_float_int",
+      "passed": true,
+      "detail": "Feil type i rapportfelt"
+    },
+    {
+      "name": "strict_json_NaN",
+      "passed": true,
+      "detail": "Ugyldig JSON-tall i frosset rapport"
+    },
+    {
+      "name": "strict_json_Infinity",
+      "passed": true,
+      "detail": "Ugyldig JSON-tall i frosset rapport"
+    },
+    {
+      "name": "strict_json_negative_Infinity",
+      "passed": true,
+      "detail": "Ugyldig JSON-tall i frosset rapport"
+    },
+    {
+      "name": "semantic_json_zero_amount",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_xlsx_zero_amount",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_json_zero_null",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_xlsx_zero_null",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_json_role",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_xlsx_role",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_json_year",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_xlsx_year",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_json_meaning",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_xlsx_meaning",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_json_step",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_xlsx_step",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_json_author",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_xlsx_author",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_json_raw_value",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_xlsx_raw_value",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_json_old_step",
+      "passed": true,
+      "detail": "Visningsgrunnlaget avviker fra sine originaler/regler"
+    },
+    {
+      "name": "semantic_xlsx_old_step",
+      "passed": true,
+      "detail": "Visningsgrunnlaget avviker fra sine originaler/regler"
+    },
+    {
+      "name": "semantic_json_branch_leak",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_xlsx_branch_leak",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_json_split_frame",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_xlsx_split_frame",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_json_false_coverage",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_xlsx_false_coverage",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_json_hidden_gaps",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_xlsx_hidden_gaps",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_json_binding",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "semantic_xlsx_binding",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "typed_original_reconstruct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "typed_rehashed_money",
+      "passed": true,
+      "detail": "T5: basis avviker fra originaler, gammel identitet eller dekning"
+    },
+    {
+      "name": "typed_rehashed_false_verified_source",
+      "passed": true,
+      "detail": "T5: kildekatalogens rolle/hash/status avviker"
+    },
+    {
+      "name": "typed_invalid_base64",
+      "passed": true,
+      "detail": "Ugyldig pilotbase64"
+    },
+    {
+      "name": "typed_oversize_base64",
+      "passed": true,
+      "detail": "Pilotbase64 overstiger bytegrensen"
+    },
+    {
+      "name": "unpinned_gzip_not_decompressed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "forged_verified_gzip_rejected",
+      "passed": true,
+      "detail": "Pilotkildens status/rolle/identitet avviker fra katalogen"
+    },
+    {
+      "name": "xlsx_external_relationship",
+      "passed": true,
+      "detail": "Ugyldig Excel-arkrelasjon"
+    },
+    {
+      "name": "xlsx_worksheet_doctype",
+      "passed": true,
+      "detail": "DOCTYPE er ikke tillatt i Excel"
+    },
+    {
+      "name": "xlsx_hidden_sheet",
+      "passed": true,
+      "detail": "T5-Excel har endret synlighet/oppsett: Forløp"
+    },
+    {
+      "name": "xlsx_unwanted_member",
+      "passed": true,
+      "detail": "Excel-arkiv har uventet innhold eller kompresjonsgrense"
+    },
+    {
+      "name": "xlsx_style_invisible",
+      "passed": true,
+      "detail": "P1-Excel avviker i rå OOXML-stilprofil"
+    },
+    {
+      "name": "xlsx_cell_formula",
+      "passed": true,
+      "detail": "Excel-ark har ubundet XML-innhold eller ressursgrense"
+    },
+    {
+      "name": "xlsx_numeric_as_text",
+      "passed": true,
+      "detail": "T5-Excel avviker i celle/stil/lenke: Forløp!G4"
+    },
+    {
+      "name": "xlsx_duplicate_cell",
+      "passed": true,
+      "detail": "Excel-celler overstiger grense eller har feil rekkefølge"
+    },
+    {
+      "name": "xlsx_duplicate_member",
+      "passed": true,
+      "detail": "Excel-arkiv overstiger ressursgrense eller har duplikater"
+    },
+    {
+      "name": "xlsx_declared_expanded_limit",
+      "passed": true,
+      "detail": "Excel-arkiv overstiger ressursgrense eller har duplikater"
+    },
+    {
+      "name": "json_file_limit",
+      "passed": true,
+      "detail": "T5-rapport overstiger 64 MiB"
+    },
+    {
+      "name": "theme_integrity",
+      "passed": false,
+      "detail": "Only theme dk1 changed to FFFFFF; accepted equal report; T5 status/binding fonts use theme=1 on unfilled cells",
+      "report_equal": true,
+      "affected": [
+        {
+          "sheet": "Inventar",
+          "cell": "M2",
+          "value": "[\"c48895cb1cc2fdc3a440505f7b4ce36697ca5cde0248781aef817f9445913e1c\",\"a90040fdefba20698c18f91e0b9905f0f4d2be5591183c248b9f346c36300d1c\",\"ea8d6f4f071e36f938eed1405957089279fe0aa9846410698cf81bc9130434e2\"]",
+          "font_type": "theme",
+          "font_theme": 1,
+          "fill": null
+        },
+        {
+          "sheet": "Inventar",
+          "cell": "N2",
+          "value": "strukturert_T5",
+          "font_type": "theme",
+          "font_theme": 1,
+          "fill": null
+        },
+        {
+          "sheet": "Kontoer",
+          "cell": "H2",
+          "value": "strukturert_T5",
+          "font_type": "theme",
+          "font_theme": 1,
+          "fill": null
+        }
+      ],
+      "changed_parts": [
+        "xl/theme/theme1.xml"
+      ]
+    },
+    {
+      "name": "offline_readers_no_network_sqlite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_clobber_json",
+      "passed": true,
+      "detail": "Velg nytt T5-JSON-filnavn"
+    },
+    {
+      "name": "no_clobber_excel",
+      "passed": true,
+      "detail": "Velg nytt T5-Excel-filnavn"
+    },
+    {
+      "name": "no_clobber_existing_hashes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "original_recovery",
+      "passed": true,
+      "detail": "raw exported bytes compared where source repository path exists",
+      "files": 26,
+      "repository_files_compared": 21,
+      "mismatches": []
+    },
+    {
+      "name": "no_clobber_original_directory",
+      "passed": true,
+      "detail": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\security\\\\audit-2\\\\originals'"
+    },
+    {
+      "name": "offline_cli",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "atomic_no_clobber_race",
+      "passed": true,
+      "detail": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\security\\\\audit-2\\\\tmpg_lszsiq.json' -> 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\security\\\\audit-2\\\\publication-race.json'"
+    },
+    {
+      "name": "atomic_no_clobber_race_preserves_winner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "arbitrary_formula_like_long_text_literal",
+      "passed": true,
+      "detail": "public manual-relation text, >60000 chars, actual JSON/XLSX roundtrip and ordered continuation"
+    },
+    {
+      "name": "ordinary_registration_missing",
+      "passed": true,
+      "detail": "actual sync, raw storage, v2 interpretation, SQLite, analysis and XLSX"
+    },
+    {
+      "name": "ordinary_registration_failed",
+      "passed": true,
+      "detail": "actual sync, raw storage, v2 interpretation, SQLite, analysis and XLSX"
+    },
+    {
+      "name": "ordinary_registration_corrupt",
+      "passed": true,
+      "detail": "actual sync, raw storage, v2 interpretation, SQLite, analysis and XLSX"
+    },
+    {
+      "name": "ordinary_registration_contradictory",
+      "passed": true,
+      "detail": "actual sync, raw storage, v2 interpretation, SQLite, analysis and XLSX"
+    }
+  ],
+  "probe_count": 70,
+  "unexpected_acceptances": [
+    "theme_integrity"
+  ],
+  "cold_offline_caches_cleared_and_socket_sqlite_denied": true,
+  "harness_corrections": [
+    {
+      "name": "valid_roundtrip_capsule_counts",
+      "previous_counts": [
+        123,
+        6,
+        0
+      ],
+      "reason": "Count adopted events through public view; legacy AmountObservation.event_id is null."
+    },
+    {
+      "name": "arbitrary_formula_like_long_text_literal",
+      "previous_passed": false,
+      "reason": "Compare decoded relation reason; raw nested JSON escapes quotes and newline."
+    }
+  ],
+  "original_payloads_rechecked": [
+    {
+      "path": "t1/docs/research/omtale-o1/originals/prop16s-ch4.html",
+      "sha256": "ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e",
+      "bytes": 118163
+    },
+    {
+      "path": "t1/docs/research/omtale-o1/originals/inns81s.html",
+      "sha256": "e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95",
+      "bytes": 107925
+    },
+    {
+      "path": "t1/docs/research/visningspilot-41/originals/session-2024-2025-9cfe.xml.gz",
+      "sha256": "7502f2f565048f1b0954cb4cb132183d0bc5ec362ba74e14de877df36003a7d4",
+      "bytes": 394936
+    },
+    {
+      "path": "t1/docs/research/visningspilot-41/originals/session-2024-2025-9cfe.meta.json",
+      "sha256": "cf9397ad44be04796cf3ed95765cddb165b0193fe071b4e1a6b629566aa82363",
+      "bytes": 763
+    },
+    {
+      "path": "t1/tests/fixtures/b8/40034049.xml",
+      "sha256": "5f253a556d2ac512570899252b396bc38f068de5f4bd6820178e7de8ce41f3eb",
+      "bytes": 1692
+    },
+    {
+      "path": "t1/tests/fixtures/b8/40034049.json",
+      "sha256": "6e0e37551b00da15c262e8ba2e40e8b21abba96d3b47acc57e41b908024d9def",
+      "bytes": 706
+    },
+    {
+      "path": "t1/tests/fixtures/b8/sak-100889.xml",
+      "sha256": "3a8f0918a3fcce90bf2c93f3ce972c3de7277c76e27e5ef563d6c43384cf2af2",
+      "bytes": 15888
+    },
+    {
+      "path": "t1/tests/fixtures/b8/sak-100889.json",
+      "sha256": "67033cce596b33ccb7f2cd459a6df7af98d44836292f0675d308797a888ba04c",
+      "bytes": 1563
+    },
+    {
+      "path": "t1/docs/research/to-visninger-37/originals/aar/session-2024-2025.xml.gz",
+      "sha256": "1ea276a5730a5196f4def7471e0bf6ae51a7878a4eac86922cc87a9a71200a6b",
+      "bytes": 391763
+    },
+    {
+      "path": "t1/docs/research/to-visninger-37/originals/aar/session-2024-2025.meta.json",
+      "sha256": "4ccc151e0ddd84c11b9c5e973c67762a6470a7bb5f2cd59a542d2847e6c5cd28",
+      "bytes": 381
+    },
+    {
+      "path": "t1/docs/research/to-visninger-37/originals/forgrening/inns95s.html",
+      "sha256": "ae61227fa83adf04fb45956b1bd714a75592bbc1d6c70da300e554afef806aa6",
+      "bytes": 283123
+    },
+    {
+      "path": "t1/docs/research/to-visninger-37/originals/forgrening/inns95s.pdf",
+      "sha256": "7a78167c7eafc500938e4ac39d8ed9febec1f6e7e6ce337acc4b7a58d0d14635",
+      "bytes": 382025
+    },
+    {
+      "path": "t1/docs/research/to-visninger-37/originals/forgrening/manifest.json",
+      "sha256": "6b2dd282d4c1bffff15063907bc6c3d5948279c7898f7caf7291d7a140de6816",
+      "bytes": 24955
+    },
+    {
+      "path": "o2b/originals/prop16s.pdf",
+      "sha256": "677716056269c07b8ec81bcae91d814b975123791635548281038d9beb3aa5db",
+      "bytes": 733075
+    },
+    {
+      "path": "o2b/originals/prop16s-ch2.html",
+      "sha256": "258d26e6d324bde709bf3d1cb660d7eb6f4248f537d4b0c77e095f17697cf8df",
+      "bytes": 100808
+    },
+    {
+      "path": "o2b/originals/prop16s-ch4.html",
+      "sha256": "ff1c53688a155c2cb9d8d37a8d40550e56b5c5c1d2d171c30519ef49227eca5e",
+      "bytes": 118163
+    },
+    {
+      "path": "o2b/originals/inns81s.pdf",
+      "sha256": "5a29d0553991759d8ddc234899647e9e6b5e1f2885bf13edccfb26105a6be496",
+      "bytes": 331688
+    },
+    {
+      "path": "o2b/originals/inns81s.html",
+      "sha256": "e7069d74e911fb868812bb34f68b41d210b4e33035c1317cbedd296ac1101e95",
+      "bytes": 107925
+    },
+    {
+      "path": "o2b/originals/votering-161224.html",
+      "sha256": "22170a60f769e89642b2e52525899903020de25938aa2b566ea28d11f85fb2e5",
+      "bytes": 2094710
+    },
+    {
+      "path": "o2b/b6/40034048.xml",
+      "sha256": "2a540261f110b761a0213516c8ad72844d0285744ca0f1cdd4cb1afce06f0850",
+      "bytes": 6058
+    },
+    {
+      "path": "o2b/b6/40034048.json",
+      "sha256": "1b43cc3e77fb8b216d3d0bd2d51739c4200b38aabcdac907afcdf47d0218a79b",
+      "bytes": 786
+    },
+    {
+      "path": "o2b/b8/sak-100927.xml",
+      "sha256": "2ee25b327b78772523d56317c752e35f5134eef60db9536f6dea3c94ad8fed27",
+      "bytes": 12383
+    },
+    {
+      "path": "o2b/b8/sak-100927.json",
+      "sha256": "07b85b79438fa1cfcc8774c36291fc28d0cfdc7d429ca82e1e5810bca89ac895",
+      "bytes": 1560
+    },
+    {
+      "path": "docs/research/to-visninger-37/originals/forgrening/inns95s-20261022-reused.html",
+      "sha256": "1f159a3ca1df3e0bc35617644d0b36f7c92fd5684947f6eca5510595af533a03",
+      "bytes": 283141
+    },
+    {
+      "path": "docs/research/to-visninger-37/originals/forgrening/reused-inns95-manifest.json",
+      "sha256": "8fc18d92f651e3d075bb4bf86498aff90eee3033297db920b32da83a4019bc4d",
+      "bytes": 1082
+    }
+  ],
+  "pass_count": 69,
+  "artifacts": [
+    {
+      "name": "clean.json",
+      "bytes": 8522150,
+      "sha256": "efc8ab01302141e2d0125e516361cf95551b0317fa179111a4771528fddde142"
+    },
+    {
+      "name": "clean.xlsx",
+      "bytes": 2887281,
+      "sha256": "c30bb39fafebac2cefd83535ad5600396729c1c0bc89ad7e11ffbaa753424f8f"
+    },
+    {
+      "name": "accepted-theme-white.xlsx",
+      "bytes": 2887255,
+      "sha256": "3bae3531dd5d8701fdc017a7c18c59ff557c44c943d6a5927f3699d173096523"
+    },
+    {
+      "name": "literal-long.json",
+      "bytes": 8743325,
+      "sha256": "77ea9e469d06ddf5765331ad8a0d9cd3536d7c71d16f3c259a4ceb22f841b1ec"
+    },
+    {
+      "name": "literal-long.xlsx",
+      "bytes": 2892983,
+      "sha256": "12c83128bfd37326fe97c3913fbca3707d1d560acbf064e3ae70883cf5e888c8"
+    }
+  ]
+}

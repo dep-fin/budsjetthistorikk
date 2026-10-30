@@ -1,0 +1,91 @@
+{
+  "schema": "t5-standards-object-controls-1",
+  "base": "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+  "candidate": "d46589cb9e99338e44fc805ee9882006ba657fd0",
+  "tree": "df0eed6d6e8a0b2a07962e641ae05d1194a3304d",
+  "diff_command": "git diff 2f4ee30c9d8074076fc8042e208c4a4b6345db6b...d46589cb9e99338e44fc805ee9882006ba657fd0",
+  "base_files": 1183,
+  "unchanged_base_files": 1181,
+  "changed_base_files": [
+    "AGENTS.md",
+    "docs/kildefunn.md"
+  ],
+  "additive_context_lines": {
+    "AGENTS.md": 2,
+    "docs/kildefunn.md": 15
+  },
+  "changed_file_count": 36,
+  "delivery_manifest_files_verified": [
+    "AGENTS.md",
+    "analyse/proposisjon16.py",
+    "analyse/proposisjon16_excel.py",
+    "docs/kildefunn.md",
+    "docs/proposisjon16.md",
+    "docs/research/proposisjon16-62/README.md",
+    "docs/research/proposisjon16-62/akseptmatrise.md",
+    "docs/research/proposisjon16-62/excel-qa.md",
+    "docs/research/proposisjon16-62/kildebevis.md",
+    "docs/research/proposisjon16-62/kompatibilitetsbevis.md",
+    "docs/research/proposisjon16-62/kontrollutfall.md",
+    "docs/research/proposisjon16-62/original-recovery.json",
+    "docs/research/proposisjon16-62/preservation.json",
+    "docs/research/proposisjon16-62/raw-source-controls.json",
+    "docs/research/proposisjon16-62/reader-recheck.json",
+    "docs/research/proposisjon16-62/reproduksjon.md",
+    "docs/research/proposisjon16-62/source-control.json",
+    "docs/research/proposisjon16-62/source-manifest.json",
+    "docs/research/proposisjon16-62/static-checks.log",
+    "docs/research/proposisjon16-62/tdd-journal.json",
+    "docs/research/proposisjon16-62/tests-33.log",
+    "docs/research/proposisjon16-62/tests-extra-2.log",
+    "docs/research/proposisjon16-62/tests-final-35.log",
+    "docs/research/proposisjon16-62/visual/delt-ramme.png",
+    "docs/research/proposisjon16-62/visual/grenstatus.png",
+    "docs/research/proposisjon16-62/visual/historisk-og-gjeldende.png",
+    "docs/research/proposisjon16-62/visual/inntekt-null.png",
+    "docs/research/proposisjon16-62/visual/tabell-dekning.png",
+    "docs/research/proposisjon16-62/visual/tekstkonto.png",
+    "docs/research/proposisjon16-62/visual/tomt.png",
+    "docs/research/proposisjon16-62/visual/utgift.png",
+    "innlesning/proposisjon16.py",
+    "innlesning/proposisjon16_model.py",
+    "ops/proposisjon16_proeve.py",
+    "tests/test_proposisjon16.py"
+  ],
+  "new_python_files": [
+    "analyse/proposisjon16.py",
+    "analyse/proposisjon16_excel.py",
+    "innlesning/proposisjon16.py",
+    "innlesning/proposisjon16_model.py",
+    "ops/proposisjon16_proeve.py",
+    "tests/test_proposisjon16.py"
+  ],
+  "new_ingestion_imports": {
+    "innlesning/proposisjon16.py": [
+      "base64",
+      "gzip",
+      "hashlib",
+      "io",
+      "json",
+      "re",
+      "functools",
+      "pathlib",
+      "lxml",
+      ".legacy_html",
+      ".observations",
+      ".omtale",
+      ".proposisjon16_model",
+      ".visningspilot",
+      ".visningspilot",
+      ".visningspilot_model"
+    ],
+    "innlesning/proposisjon16_model.py": [
+      "dataclasses",
+      ".observations",
+      ".visningspilot_model"
+    ]
+  },
+  "additional_named_standards_files": [],
+  "checks": "PASS: existing blobs preserved except additive context pointers; manifest bytes/SHA256/Git blobs match; new ingestion modules have no analysis import",
+  "limits": "Git-object and AST checks only; no product execution, visual QA, full suite, CI or merge verification"
+}

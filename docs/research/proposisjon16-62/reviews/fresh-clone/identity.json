@@ -1,0 +1,55 @@
+{
+  "remote": "origin\thttps://github.com/depmartin/budsjetthistorikk.git (fetch)\norigin\thttps://github.com/depmartin/budsjetthistorikk.git (push)\n",
+  "config": "core.repositoryformatversion=0\ncore.filemode=false\ncore.bare=false\ncore.logallrefupdates=true\ncore.symlinks=false\ncore.ignorecase=true\nremote.origin.url=https://github.com/depmartin/budsjetthistorikk.git\nremote.origin.fetch=+refs/heads/codex/t5-prop16:refs/remotes/origin/codex/t5-prop16\nbranch.codex/t5-prop16.remote=origin\nbranch.codex/t5-prop16.merge=refs/heads/codex/t5-prop16\n",
+  "alternates_exists": false,
+  "objects": [
+    {
+      "sha": "4ddda7953431ac9f6ae861d800a33229121e54db",
+      "tree": "df0eed6d6e8a0b2a07962e641ae05d1194a3304d",
+      "parents": "2f4ee30c9d8074076fc8042e208c4a4b6345db6b"
+    },
+    {
+      "sha": "ea91dc9c7a30c55e7a5f9c75b7381fc7a2d33d11",
+      "tree": "225382d23bf776a8c9ee1a81a8d27de90e1b8620",
+      "parents": "4ddda7953431ac9f6ae861d800a33229121e54db"
+    },
+    {
+      "sha": "a08fc28dc33fa4244814dc29fbeeb5b87d4e804d",
+      "tree": "1f32d2e81f8ff76fb3365d9c0fa6592fbb64eb39",
+      "parents": "ea91dc9c7a30c55e7a5f9c75b7381fc7a2d33d11"
+    }
+  ],
+  "missing_local_candidates": [
+    {
+      "sha": "d46589cb9e99338e44fc805ee9882006ba657fd0",
+      "exit_code": 128,
+      "stderr": "fatal: Not a valid object name d46589cb9e99338e44fc805ee9882006ba657fd0^{commit}\n"
+    },
+    {
+      "sha": "95ed8e60052d7731bb99386db572ba607c6b36a2",
+      "exit_code": 128,
+      "stderr": "fatal: Not a valid object name 95ed8e60052d7731bb99386db572ba607c6b36a2^{commit}\n"
+    },
+    {
+      "sha": "cd240e3b2f4846081d1f658faf0caec9cf4a7186",
+      "exit_code": 128,
+      "stderr": "fatal: Not a valid object name cd240e3b2f4846081d1f658faf0caec9cf4a7186^{commit}\n"
+    }
+  ],
+  "ancestry": [
+    {
+      "base_is_ancestor_of": "4ddda7953431ac9f6ae861d800a33229121e54db",
+      "exit_code": 0
+    },
+    {
+      "base_is_ancestor_of": "ea91dc9c7a30c55e7a5f9c75b7381fc7a2d33d11",
+      "exit_code": 0
+    },
+    {
+      "base_is_ancestor_of": "a08fc28dc33fa4244814dc29fbeeb5b87d4e804d",
+      "exit_code": 0
+    }
+  ],
+  "checkout_status_before": "",
+  "clone_command": "git -c core.autocrlf=false clone --no-local --single-branch --branch codex/t5-prop16 https://github.com/depmartin/budsjetthistorikk.git .local/fresh-github-20261030"
+}

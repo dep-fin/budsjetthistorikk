@@ -1,0 +1,51 @@
+{
+  "command": [
+    "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\docs\\research\\proposisjon16-62\\security-fix\\probe.py",
+    "--root",
+    "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\theme-historical-representation",
+    "--candidate",
+    "a08fc28dc33fa4244814dc29fbeeb5b87d4e804d",
+    "--base",
+    "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+    "--exports",
+    "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\theme-single-pair",
+    "--output",
+    "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-theme-retargeted",
+    "--expect",
+    "rejected"
+  ],
+  "exit_code": 0,
+  "seconds": 14.703,
+  "representation": "published 344 map plus four archived pre-integration helpers at their historical paths, in isolated temporary archive; product is current a08",
+  "archives": [
+    {
+      "path": "docs/research/proposisjon16-62/reviews/security/artifact_checks.py",
+      "bytes": 3398,
+      "sha256": "6787c8917149b207201596afed940deb75e6d5abf92af300b0315ad45a69d761",
+      "git_blob_sha1": "f68a113dc5180efa2d4d6358c8fe193f4bbe7d77",
+      "original_path": "docs/research/proposisjon16-62/reviews/security/artifact_checks.py.original"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/security/probes.py",
+      "bytes": 22848,
+      "sha256": "381eb401386728d046e412a19fd7d8c8c14a25ea0ee7cb732050468305ba2e7a",
+      "git_blob_sha1": "82a218342d17986a555ab34c1639aa277b67e32b",
+      "original_path": "docs/research/proposisjon16-62/reviews/security/probes.py.original"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/security/verify_outcomes.py",
+      "bytes": 5516,
+      "sha256": "ab28d3df593e8d7111144ed268394e732afe32a20b441d29f34e3d945babe675",
+      "git_blob_sha1": "1fc525ebbb4a9b7cd55b56025491d7d8128ef759",
+      "original_path": "docs/research/proposisjon16-62/reviews/security/verify_outcomes.py.original"
+    },
+    {
+      "path": "docs/research/proposisjon16-62/reviews/standards/controls.py",
+      "bytes": 4194,
+      "sha256": "3278c7877fda6895fcd0c887d139bb08adca975983a9d94b7ac7cdfd8c1f80cb",
+      "git_blob_sha1": "3d1b490a7013ab265ac0540eb2669074f885c230",
+      "original_path": "docs/research/proposisjon16-62/reviews/standards/controls.py.original"
+    }
+  ]
+}

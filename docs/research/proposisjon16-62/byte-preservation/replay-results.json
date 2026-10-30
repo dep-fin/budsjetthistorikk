@@ -1,0 +1,117 @@
+{
+  "schema": "t5-concrete-compare-evidence-replay-1",
+  "before_archive": {
+    "bytes": 50574943,
+    "sha256": "b6927e6a3ea862f517fd0dfc76b4894023c82df1aa8df30865c3df260891a277",
+    "git_blob_sha1": "ad5379148b2a596c9c72916f825d52acc05cf31b"
+  },
+  "before": {
+    "name": "compare-before",
+    "started_utc": "2026-10-29T22:35:50.717839+00:00",
+    "command": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\docs\\research\\proposisjon16-62\\reviews\\integration\\compare_evidence.py",
+      "--root",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\replay-before",
+      "--candidate",
+      "d46589cb9e99338e44fc805ee9882006ba657fd0",
+      "--base",
+      "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+      "--replay",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\docs\\research\\proposisjon16-62\\reviews\\integration\\replay",
+      "--output",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\compare-before"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\r\n  File \"C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\docs\\research\\proposisjon16-62\\reviews\\integration\\compare_evidence.py\", line 254, in <module>\r\n    main()\r\n  File \"C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\docs\\research\\proposisjon16-62\\reviews\\integration\\compare_evidence.py\", line 127, in main\r\n    assert actual == {k: row[k] for k in (\"bytes\", \"sha256\")}, row[\"path\"]\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nAssertionError: .gitattributes\r\n"
+  },
+  "corrected_controls_archive": {
+    "bytes": 50586447,
+    "sha256": "2c16860ed75f025cdc2f55df9a73ae33e3643b9debcac90e1c0cbf21a7bf2083",
+    "git_blob_sha1": "461775f54068724042e3e9f6f440110f2b470b12"
+  },
+  "corrected_controls_without_historical_representation_map": {
+    "name": "compare-after-before-materialization-v2",
+    "started_utc": "2026-10-29T22:37:15.915319+00:00",
+    "command": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\replay-after-v2\\docs\\research\\proposisjon16-62\\reviews\\integration\\compare_evidence.py",
+      "--root",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\replay-after-v2",
+      "--candidate",
+      "d46589cb9e99338e44fc805ee9882006ba657fd0",
+      "--base",
+      "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+      "--replay",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\replay-after-v2\\docs\\research\\proposisjon16-62\\reviews\\integration\\replay",
+      "--output",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\compare-after-before-materialization-v2"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\r\n  File \"C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\replay-after-v2\\docs\\research\\proposisjon16-62\\reviews\\integration\\compare_evidence.py\", line 254, in <module>\r\n    main()\r\n  File \"C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\replay-after-v2\\docs\\research\\proposisjon16-62\\reviews\\integration\\compare_evidence.py\", line 127, in main\r\n    assert actual == {k: row[k] for k in (\"bytes\", \"sha256\")}, row[\"path\"]\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nAssertionError: .gitattributes\r\n"
+  },
+  "after_historical_representation_materialization": {
+    "name": "compare-after-v2",
+    "started_utc": "2026-10-29T22:37:22.134294+00:00",
+    "command": [
+      "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\replay-after-v2\\docs\\research\\proposisjon16-62\\reviews\\integration\\compare_evidence.py",
+      "--root",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\replay-after-v2",
+      "--candidate",
+      "d46589cb9e99338e44fc805ee9882006ba657fd0",
+      "--base",
+      "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+      "--replay",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\replay-after-v2\\docs\\research\\proposisjon16-62\\reviews\\integration\\replay",
+      "--output",
+      "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\compare-after-v2"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"preserved\": 1270, \"comparisons\": [{\"helper\": \"artifact-checks\", \"all_remaining_fields_equal\": true}, {\"helper\": \"standards\", \"all_remaining_fields_equal\": true}, {\"helper\": \"probes\", \"all_remaining_fields_equal\": true}, {\"helper\": \"verified\", \"all_remaining_fields_equal\": true}]}\r\n",
+    "stderr": ""
+  },
+  "materialization": {
+    "changed_count": 342,
+    "already_historical_count": 2,
+    "already_historical_paths": [
+      "docs/research/issue-2/aar/decision_inventory.csv",
+      "docs/research/issue-2/aar/description_inventory.csv"
+    ]
+  },
+  "preservation": {
+    "baseline_bindings": 1270,
+    "current_paths_byte_identical": 1266,
+    "archived_helper_paths_byte_identical": 4,
+    "historical_security_fix_preserved_before_bindings": 47,
+    "historical_security_fix_manifest_bindings": 18,
+    "helper_path_map": {
+      "docs/research/proposisjon16-62/reviews/security/artifact_checks.py": "docs/research/proposisjon16-62/reviews/security/artifact_checks.py.original",
+      "docs/research/proposisjon16-62/reviews/security/probes.py": "docs/research/proposisjon16-62/reviews/security/probes.py.original",
+      "docs/research/proposisjon16-62/reviews/security/verify_outcomes.py": "docs/research/proposisjon16-62/reviews/security/verify_outcomes.py.original",
+      "docs/research/proposisjon16-62/reviews/standards/controls.py": "docs/research/proposisjon16-62/reviews/standards/controls.py.original"
+    },
+    "note": "Security-fix path bindings describe the state before helper integration; the four helper entries are verified at their exact .original archives."
+  },
+  "comparisons": [
+    {
+      "helper": "artifact-checks",
+      "all_remaining_fields_equal": true
+    },
+    {
+      "helper": "standards",
+      "all_remaining_fields_equal": true
+    },
+    {
+      "helper": "probes",
+      "all_remaining_fields_equal": true
+    },
+    {
+      "helper": "verified",
+      "all_remaining_fields_equal": true
+    }
+  ],
+  "limits": "First concrete comparison reuses the preserved historical generated XLSX at target.json absolute paths. Portable execution is a separate fresh helper replay below."
+}

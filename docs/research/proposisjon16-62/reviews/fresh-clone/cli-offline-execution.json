@@ -1,0 +1,21 @@
+{
+  "command": [
+    "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "analyse.proposisjon16",
+    "--frosset",
+    ".local/fresh-exports/hele-prop.json",
+    "--rot",
+    ".local/absent-source-root",
+    "--dokument",
+    "prop16",
+    "--json",
+    ".local/cli-offline.json",
+    "--excel",
+    ".local/cli-offline.xlsx",
+    "--originaler",
+    ".local/cli-originals"
+  ],
+  "exit_code": 0,
+  "seconds": 8.062
+}

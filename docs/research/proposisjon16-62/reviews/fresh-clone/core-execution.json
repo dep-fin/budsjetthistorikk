@@ -1,0 +1,17 @@
+{
+  "command": [
+    "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "ops.proposisjon16_proeve",
+    "--root",
+    ".",
+    "--output",
+    ".local/fresh-exports",
+    "--base",
+    "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+    "--candidate",
+    "a08fc28dc33fa4244814dc29fbeeb5b87d4e804d"
+  ],
+  "exit_code": 0,
+  "seconds": 117.094
+}

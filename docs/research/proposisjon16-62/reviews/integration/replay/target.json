@@ -1,0 +1,28 @@
+{
+  "candidate": "d46589cb9e99338e44fc805ee9882006ba657fd0",
+  "tree": "df0eed6d6e8a0b2a07962e641ae05d1194a3304d",
+  "base": "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+  "target": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\control-integration\\target",
+  "git_archive_sha256": "a4222e1076d53ddf338aee0fc063d9916986e5a7e6151946ba9c7860cb1791c4",
+  "candidate_reader": {
+    "bytes": 16496,
+    "sha256": "bd0fe777cb4b9f569f6c42a0f24bc5eec2ff040c36c78ef741ef8357ede2fafd"
+  },
+  "source_working_reader": {
+    "bytes": 16652,
+    "sha256": "3f2a902567e1408ffb01fef625b38e98e334896b89979cdd6661caf565d4177e"
+  },
+  "source_working_reader_is_target": false,
+  "source_index_before": {
+    "bytes": 146170,
+    "sha256": "5767fae00d0df83cf907ee86c8d72ff5999e387b2a0c95754d566d4b9e936c52"
+  },
+  "source_index_after": {
+    "bytes": 146170,
+    "sha256": "5767fae00d0df83cf907ee86c8d72ff5999e387b2a0c95754d566d4b9e936c52"
+  },
+  "source_working_reader_after": {
+    "bytes": 16652,
+    "sha256": "3f2a902567e1408ffb01fef625b38e98e334896b89979cdd6661caf565d4177e"
+  }
+}

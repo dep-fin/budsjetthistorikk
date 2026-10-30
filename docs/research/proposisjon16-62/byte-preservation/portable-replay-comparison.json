@@ -1,0 +1,330 @@
+{
+  "candidate": "d46589cb9e99338e44fc805ee9882006ba657fd0",
+  "base": "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+  "tree": "df0eed6d6e8a0b2a07962e641ae05d1194a3304d",
+  "comparisons": [
+    {
+      "helper": "artifact-checks",
+      "all_remaining_fields_equal": true
+    },
+    {
+      "helper": "standards",
+      "all_remaining_fields_equal": true
+    },
+    {
+      "helper": "probes",
+      "all_remaining_fields_equal": true
+    },
+    {
+      "helper": "verified",
+      "all_remaining_fields_equal": true
+    }
+  ],
+  "path_and_temporary_filename_substitutions": [
+    {
+      "variant": "original",
+      "pointer": "/probes/61/detail",
+      "before": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\byte-preservation\\\\portable-generated\\\\original-probes\\\\originals'",
+      "after": "[WinError 183] Cannot create a file when that file already exists: '<ARTIFACTS>\\\\originals'"
+    },
+    {
+      "variant": "original",
+      "pointer": "/probes/63/detail",
+      "before": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\byte-preservation\\\\portable-generated\\\\original-probes\\\\tmppjzwmdv6.json' -> 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\byte-preservation\\\\portable-generated\\\\original-probes\\\\publication-race.json'",
+      "after": "[WinError 183] Cannot create a file when that file already exists: '<TEMP_JSON>' -> '<ARTIFACTS>\\\\publication-race.json'"
+    },
+    {
+      "variant": "integrated",
+      "pointer": "/probes/61/detail",
+      "before": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\byte-preservation\\\\portable-generated\\\\integrated-probes\\\\originals'",
+      "after": "[WinError 183] Cannot create a file when that file already exists: '<ARTIFACTS>\\\\originals'"
+    },
+    {
+      "variant": "integrated",
+      "pointer": "/probes/63/detail",
+      "before": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\byte-preservation\\\\portable-generated\\\\integrated-probes\\\\tmp4g63upu7.json' -> 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\byte-preservation\\\\portable-generated\\\\integrated-probes\\\\publication-race.json'",
+      "after": "[WinError 183] Cannot create a file when that file already exists: '<TEMP_JSON>' -> '<ARTIFACTS>\\\\publication-race.json'"
+    },
+    {
+      "variant": "original",
+      "pointer": "/probes/61/detail",
+      "before": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\byte-preservation\\\\portable-generated\\\\original-probes\\\\originals'",
+      "after": "[WinError 183] Cannot create a file when that file already exists: '<ARTIFACTS>\\\\originals'"
+    },
+    {
+      "variant": "original",
+      "pointer": "/probes/63/detail",
+      "before": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\byte-preservation\\\\portable-generated\\\\original-probes\\\\tmppjzwmdv6.json' -> 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\byte-preservation\\\\portable-generated\\\\original-probes\\\\publication-race.json'",
+      "after": "[WinError 183] Cannot create a file when that file already exists: '<TEMP_JSON>' -> '<ARTIFACTS>\\\\publication-race.json'"
+    },
+    {
+      "variant": "integrated",
+      "pointer": "/probes/61/detail",
+      "before": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\byte-preservation\\\\portable-generated\\\\integrated-probes\\\\originals'",
+      "after": "[WinError 183] Cannot create a file when that file already exists: '<ARTIFACTS>\\\\originals'"
+    },
+    {
+      "variant": "integrated",
+      "pointer": "/probes/63/detail",
+      "before": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\byte-preservation\\\\portable-generated\\\\integrated-probes\\\\tmp4g63upu7.json' -> 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\byte-preservation\\\\portable-generated\\\\integrated-probes\\\\publication-race.json'",
+      "after": "[WinError 183] Cannot create a file when that file already exists: '<TEMP_JSON>' -> '<ARTIFACTS>\\\\publication-race.json'"
+    }
+  ],
+  "excluded_generated_xlsx_artifact_fields": [
+    {
+      "variant": "original",
+      "pointer": "/artifacts/1/sha256",
+      "name": "clean.xlsx",
+      "sha256": "502f8cb06d89a6c85d354db7cb28bdf17abb99660db009127c13ae691ce1112c"
+    },
+    {
+      "variant": "original",
+      "pointer": "/artifacts/1/bytes",
+      "name": "clean.xlsx",
+      "bytes": 2887285
+    },
+    {
+      "variant": "original",
+      "pointer": "/artifacts/2/sha256",
+      "name": "accepted-theme-white.xlsx",
+      "sha256": "68554d7188b12ba9d54ec940118e043a969f22ed2383d1760b0f6130f676dfdb"
+    },
+    {
+      "variant": "original",
+      "pointer": "/artifacts/2/bytes",
+      "name": "accepted-theme-white.xlsx",
+      "bytes": 2887259
+    },
+    {
+      "variant": "original",
+      "pointer": "/artifacts/4/sha256",
+      "name": "literal-long.xlsx",
+      "sha256": "2214ac5e66af5128ea4a6ce6725cf9739cc7a7e3561a60f1746dcebf5bad3223"
+    },
+    {
+      "variant": "original",
+      "pointer": "/artifacts/4/bytes",
+      "name": "literal-long.xlsx",
+      "bytes": 2892984
+    },
+    {
+      "variant": "integrated",
+      "pointer": "/artifacts/1/sha256",
+      "name": "clean.xlsx",
+      "sha256": "1893b3e36c72adafa5fda07d2086fef23d354b85876ca9dabf3b529671140849"
+    },
+    {
+      "variant": "integrated",
+      "pointer": "/artifacts/1/bytes",
+      "name": "clean.xlsx",
+      "bytes": 2887284
+    },
+    {
+      "variant": "integrated",
+      "pointer": "/artifacts/2/sha256",
+      "name": "accepted-theme-white.xlsx",
+      "sha256": "36de2be7c841ac6b85123723a5fdd86c5f4b6ecc44c4a95e697800e187171737"
+    },
+    {
+      "variant": "integrated",
+      "pointer": "/artifacts/2/bytes",
+      "name": "accepted-theme-white.xlsx",
+      "bytes": 2887258
+    },
+    {
+      "variant": "integrated",
+      "pointer": "/artifacts/4/sha256",
+      "name": "literal-long.xlsx",
+      "sha256": "73b1b1fdceb606edd380941009c66bb0ca62423fe9e51cf0ca907da9788f85f0"
+    },
+    {
+      "variant": "integrated",
+      "pointer": "/artifacts/4/bytes",
+      "name": "literal-long.xlsx",
+      "bytes": 2892983
+    }
+  ],
+  "executions": [
+    {
+      "variant": "original",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\artifact_checks.py.original",
+      "helper_binding": {
+        "bytes": 3398,
+        "sha256": "6787c8917149b207201596afed940deb75e6d5abf92af300b0315ad45a69d761"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\artifact_checks.py.original",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\target",
+        "--candidate",
+        "d46589cb9e99338e44fc805ee9882006ba657fd0",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\original-artifact-checks.json"
+      ],
+      "exit_code": 0,
+      "seconds": 2.672
+    },
+    {
+      "variant": "original",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\standards\\controls.py.original",
+      "helper_binding": {
+        "bytes": 4194,
+        "sha256": "3278c7877fda6895fcd0c887d139bb08adca975983a9d94b7ac7cdfd8c1f80cb"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\standards\\controls.py.original",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\target",
+        "--candidate",
+        "d46589cb9e99338e44fc805ee9882006ba657fd0",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\original-standards.json"
+      ],
+      "exit_code": 0,
+      "seconds": 2.109
+    },
+    {
+      "variant": "original",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\probes.py.original",
+      "helper_binding": {
+        "bytes": 22848,
+        "sha256": "381eb401386728d046e412a19fd7d8c8c14a25ea0ee7cb732050468305ba2e7a"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\probes.py.original",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\target",
+        "--candidate",
+        "d46589cb9e99338e44fc805ee9882006ba657fd0",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\original-probes"
+      ],
+      "exit_code": 0,
+      "seconds": 88.547
+    },
+    {
+      "variant": "original",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\verify_outcomes.py.original",
+      "helper_binding": {
+        "bytes": 5516,
+        "sha256": "ab28d3df593e8d7111144ed268394e732afe32a20b441d29f34e3d945babe675"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\verify_outcomes.py.original",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\target",
+        "--candidate",
+        "d46589cb9e99338e44fc805ee9882006ba657fd0",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--artifacts",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\original-probes",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\original-verified.json"
+      ],
+      "exit_code": 0,
+      "seconds": 13.031
+    },
+    {
+      "variant": "integrated",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\artifact_checks.py",
+      "helper_binding": {
+        "bytes": 3531,
+        "sha256": "05fd1a270b1d9f684af660fce41b5a07b711d9f737831c812dca8ca76b9ec3f6"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\artifact_checks.py",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\target",
+        "--candidate",
+        "d46589cb9e99338e44fc805ee9882006ba657fd0",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\integrated-artifact-checks.json"
+      ],
+      "exit_code": 0,
+      "seconds": 2.719
+    },
+    {
+      "variant": "integrated",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\standards\\controls.py",
+      "helper_binding": {
+        "bytes": 4471,
+        "sha256": "b38f5fb4b289fb3d247731ee9ca56d0b4b472cb9dd782f8b58bd9d42ad382b15"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\standards\\controls.py",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\target",
+        "--candidate",
+        "d46589cb9e99338e44fc805ee9882006ba657fd0",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\integrated-standards.json"
+      ],
+      "exit_code": 0,
+      "seconds": 2.25
+    },
+    {
+      "variant": "integrated",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\probes.py",
+      "helper_binding": {
+        "bytes": 24912,
+        "sha256": "49361b5d21a5a32c6c02f7410812f2b4e1eb420f02e1acdaeca49406afc1b93f"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\probes.py",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\target",
+        "--candidate",
+        "d46589cb9e99338e44fc805ee9882006ba657fd0",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\integrated-probes"
+      ],
+      "exit_code": 0,
+      "seconds": 86.156
+    },
+    {
+      "variant": "integrated",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\verify_outcomes.py",
+      "helper_binding": {
+        "bytes": 6117,
+        "sha256": "3c5858b8187b6d7b783deeeae36dd8d1a0e2c231157ab35fb355689d2dbca115"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\experiment-v2\\git-add-true\\docs\\research\\proposisjon16-62\\reviews\\security\\verify_outcomes.py",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\target",
+        "--candidate",
+        "d46589cb9e99338e44fc805ee9882006ba657fd0",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--artifacts",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-generated\\integrated-probes",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\byte-preservation\\portable-replay\\integrated-verified.json"
+      ],
+      "exit_code": 0,
+      "seconds": 13.015
+    }
+  ],
+  "limits": "Helper equivalence on the historical candidate only. No new security acceptance of the P2-fixed working tree."
+}

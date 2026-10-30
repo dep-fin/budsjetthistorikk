@@ -1,0 +1,8 @@
+......................................                                   [100%]
+============================= slowest 5 durations =============================
+49.07s setup    tests/test_proposisjon16.py::test_complete_saved_pairs_preserve_selection_counts_and_legacy
+31.22s call     tests/test_proposisjon16.py::test_complete_saved_pairs_preserve_selection_counts_and_legacy
+9.71s call     tests/test_proposisjon16.py::test_offline_cli_originals_no_clobber_and_strict_json
+9.50s call     tests/test_proposisjon16.py::test_long_formula_like_legacy_text_stays_literal_and_lossless_in_t5
+7.69s call     tests/test_proposisjon16.py::test_observed_income_zero_is_numeric_and_visible_in_saved_pair
+38 passed in 172.24s (0:02:52)

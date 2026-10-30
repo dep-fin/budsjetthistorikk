@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\marti\Documents\ChatGPT\Budsjetthistorikk\work\t5-prop16\.local\fresh-github-20261030\.local\public_fresh.py", line 16, in <module>
+    assert len({x.id for x in data.events if x.id in t5.read_json(r/'.local/fresh-exports/begge.json').view.adopted_event_ids})==2
+                              ^^^^^^^^^^^
+AttributeError: 'PilotBasis' object has no attribute 'events'

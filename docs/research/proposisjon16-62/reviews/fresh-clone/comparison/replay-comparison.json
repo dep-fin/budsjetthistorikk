@@ -1,0 +1,306 @@
+{
+  "candidate": "4ddda7953431ac9f6ae861d800a33229121e54db",
+  "base": "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+  "tree": "df0eed6d6e8a0b2a07962e641ae05d1194a3304d",
+  "comparisons": [
+    {
+      "helper": "artifact-checks",
+      "all_remaining_fields_equal": true
+    },
+    {
+      "helper": "standards",
+      "all_remaining_fields_equal": true
+    },
+    {
+      "helper": "probes",
+      "all_remaining_fields_equal": true
+    },
+    {
+      "helper": "verified",
+      "all_remaining_fields_equal": true
+    }
+  ],
+  "path_and_temporary_filename_substitutions": [
+    {
+      "variant": "original",
+      "pointer": "/probes/61/detail",
+      "before": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\fresh-github-20261030\\\\.local\\\\fresh-helper-work\\\\original-probes\\\\originals'",
+      "after": "[WinError 183] Cannot create a file when that file already exists: '<ARTIFACTS>\\\\originals'"
+    },
+    {
+      "variant": "original",
+      "pointer": "/probes/63/detail",
+      "before": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\fresh-github-20261030\\\\.local\\\\fresh-helper-work\\\\original-probes\\\\tmpwvtiojhq.json' -> 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\fresh-github-20261030\\\\.local\\\\fresh-helper-work\\\\original-probes\\\\publication-race.json'",
+      "after": "[WinError 183] Cannot create a file when that file already exists: '<TEMP_JSON>' -> '<ARTIFACTS>\\\\publication-race.json'"
+    },
+    {
+      "variant": "integrated",
+      "pointer": "/probes/61/detail",
+      "before": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\fresh-github-20261030\\\\.local\\\\fresh-helper-work\\\\integrated-probes\\\\originals'",
+      "after": "[WinError 183] Cannot create a file when that file already exists: '<ARTIFACTS>\\\\originals'"
+    },
+    {
+      "variant": "integrated",
+      "pointer": "/probes/63/detail",
+      "before": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\fresh-github-20261030\\\\.local\\\\fresh-helper-work\\\\integrated-probes\\\\tmp6_8141e4.json' -> 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\fresh-github-20261030\\\\.local\\\\fresh-helper-work\\\\integrated-probes\\\\publication-race.json'",
+      "after": "[WinError 183] Cannot create a file when that file already exists: '<TEMP_JSON>' -> '<ARTIFACTS>\\\\publication-race.json'"
+    },
+    {
+      "variant": "original",
+      "pointer": "/probes/61/detail",
+      "before": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\fresh-github-20261030\\\\.local\\\\fresh-helper-work\\\\original-probes\\\\originals'",
+      "after": "[WinError 183] Cannot create a file when that file already exists: '<ARTIFACTS>\\\\originals'"
+    },
+    {
+      "variant": "original",
+      "pointer": "/probes/63/detail",
+      "before": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\fresh-github-20261030\\\\.local\\\\fresh-helper-work\\\\original-probes\\\\tmpwvtiojhq.json' -> 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\fresh-github-20261030\\\\.local\\\\fresh-helper-work\\\\original-probes\\\\publication-race.json'",
+      "after": "[WinError 183] Cannot create a file when that file already exists: '<TEMP_JSON>' -> '<ARTIFACTS>\\\\publication-race.json'"
+    },
+    {
+      "variant": "integrated",
+      "pointer": "/probes/61/detail",
+      "before": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\fresh-github-20261030\\\\.local\\\\fresh-helper-work\\\\integrated-probes\\\\originals'",
+      "after": "[WinError 183] Cannot create a file when that file already exists: '<ARTIFACTS>\\\\originals'"
+    },
+    {
+      "variant": "integrated",
+      "pointer": "/probes/63/detail",
+      "before": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\fresh-github-20261030\\\\.local\\\\fresh-helper-work\\\\integrated-probes\\\\tmp6_8141e4.json' -> 'C:\\\\Users\\\\marti\\\\Documents\\\\ChatGPT\\\\Budsjetthistorikk\\\\work\\\\t5-prop16\\\\.local\\\\fresh-github-20261030\\\\.local\\\\fresh-helper-work\\\\integrated-probes\\\\publication-race.json'",
+      "after": "[WinError 183] Cannot create a file when that file already exists: '<TEMP_JSON>' -> '<ARTIFACTS>\\\\publication-race.json'"
+    }
+  ],
+  "excluded_generated_xlsx_artifact_fields": [
+    {
+      "variant": "original",
+      "pointer": "/artifacts/1/sha256",
+      "name": "clean.xlsx",
+      "sha256": "1915ec3b0d69fc0f4bccdeec0371612269e13d5ad8e7a19a86be4c1ab1ddac13"
+    },
+    {
+      "variant": "original",
+      "pointer": "/artifacts/2/sha256",
+      "name": "accepted-theme-white.xlsx",
+      "sha256": "f2866903487d8e83fe2cd2f59fa105908674d5c384175f1a3ecb44f9b8f64101"
+    },
+    {
+      "variant": "original",
+      "pointer": "/artifacts/4/sha256",
+      "name": "literal-long.xlsx",
+      "sha256": "f7a8afaf0a5643ddc8a549901fd94fe01ebf8da2ed5818cdf2b37230a1f4b832"
+    },
+    {
+      "variant": "original",
+      "pointer": "/artifacts/4/bytes",
+      "name": "literal-long.xlsx",
+      "bytes": 2892984
+    },
+    {
+      "variant": "integrated",
+      "pointer": "/artifacts/1/sha256",
+      "name": "clean.xlsx",
+      "sha256": "3a6680e1c59e045376c6707e424dd1f3e61e8f053a17e0fd8910d9d15ab56baf"
+    },
+    {
+      "variant": "integrated",
+      "pointer": "/artifacts/2/sha256",
+      "name": "accepted-theme-white.xlsx",
+      "sha256": "26049fbb88d7d6bd9fd2d792117c3b337f2dbde49b9fa9c0417b5e3ba01dd6fb"
+    },
+    {
+      "variant": "integrated",
+      "pointer": "/artifacts/4/sha256",
+      "name": "literal-long.xlsx",
+      "sha256": "2b4b4472c14676be68b913c5a3e53666fd2fb96b57143b6512ff9a91c6706060"
+    },
+    {
+      "variant": "integrated",
+      "pointer": "/artifacts/4/bytes",
+      "name": "literal-long.xlsx",
+      "bytes": 2892983
+    }
+  ],
+  "executions": [
+    {
+      "variant": "original",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\docs\\research\\proposisjon16-62\\reviews\\security\\artifact_checks.py.original",
+      "helper_binding": {
+        "bytes": 3398,
+        "sha256": "6787c8917149b207201596afed940deb75e6d5abf92af300b0315ad45a69d761"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\docs\\research\\proposisjon16-62\\reviews\\security\\artifact_checks.py.original",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-work\\target",
+        "--candidate",
+        "4ddda7953431ac9f6ae861d800a33229121e54db",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-ledgers\\original-artifact-checks.json"
+      ],
+      "exit_code": 0,
+      "seconds": 2.531
+    },
+    {
+      "variant": "original",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\docs\\research\\proposisjon16-62\\reviews\\standards\\controls.py.original",
+      "helper_binding": {
+        "bytes": 4194,
+        "sha256": "3278c7877fda6895fcd0c887d139bb08adca975983a9d94b7ac7cdfd8c1f80cb"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\docs\\research\\proposisjon16-62\\reviews\\standards\\controls.py.original",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-work\\target",
+        "--candidate",
+        "4ddda7953431ac9f6ae861d800a33229121e54db",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-ledgers\\original-standards.json"
+      ],
+      "exit_code": 0,
+      "seconds": 2.11
+    },
+    {
+      "variant": "original",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\docs\\research\\proposisjon16-62\\reviews\\security\\probes.py.original",
+      "helper_binding": {
+        "bytes": 22848,
+        "sha256": "381eb401386728d046e412a19fd7d8c8c14a25ea0ee7cb732050468305ba2e7a"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\docs\\research\\proposisjon16-62\\reviews\\security\\probes.py.original",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-work\\target",
+        "--candidate",
+        "4ddda7953431ac9f6ae861d800a33229121e54db",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-work\\original-probes"
+      ],
+      "exit_code": 0,
+      "seconds": 88.765
+    },
+    {
+      "variant": "original",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\docs\\research\\proposisjon16-62\\reviews\\security\\verify_outcomes.py.original",
+      "helper_binding": {
+        "bytes": 5516,
+        "sha256": "ab28d3df593e8d7111144ed268394e732afe32a20b441d29f34e3d945babe675"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\docs\\research\\proposisjon16-62\\reviews\\security\\verify_outcomes.py.original",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-work\\target",
+        "--candidate",
+        "4ddda7953431ac9f6ae861d800a33229121e54db",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--artifacts",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-work\\original-probes",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-ledgers\\original-verified.json"
+      ],
+      "exit_code": 0,
+      "seconds": 13.125
+    },
+    {
+      "variant": "integrated",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\docs\\research\\proposisjon16-62\\reviews\\security\\artifact_checks.py",
+      "helper_binding": {
+        "bytes": 3531,
+        "sha256": "05fd1a270b1d9f684af660fce41b5a07b711d9f737831c812dca8ca76b9ec3f6"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\docs\\research\\proposisjon16-62\\reviews\\security\\artifact_checks.py",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-work\\target",
+        "--candidate",
+        "4ddda7953431ac9f6ae861d800a33229121e54db",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-ledgers\\integrated-artifact-checks.json"
+      ],
+      "exit_code": 0,
+      "seconds": 2.719
+    },
+    {
+      "variant": "integrated",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\docs\\research\\proposisjon16-62\\reviews\\standards\\controls.py",
+      "helper_binding": {
+        "bytes": 4471,
+        "sha256": "b38f5fb4b289fb3d247731ee9ca56d0b4b472cb9dd782f8b58bd9d42ad382b15"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\docs\\research\\proposisjon16-62\\reviews\\standards\\controls.py",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-work\\target",
+        "--candidate",
+        "4ddda7953431ac9f6ae861d800a33229121e54db",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-ledgers\\integrated-standards.json"
+      ],
+      "exit_code": 0,
+      "seconds": 2.141
+    },
+    {
+      "variant": "integrated",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\docs\\research\\proposisjon16-62\\reviews\\security\\probes.py",
+      "helper_binding": {
+        "bytes": 24912,
+        "sha256": "49361b5d21a5a32c6c02f7410812f2b4e1eb420f02e1acdaeca49406afc1b93f"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\docs\\research\\proposisjon16-62\\reviews\\security\\probes.py",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-work\\target",
+        "--candidate",
+        "4ddda7953431ac9f6ae861d800a33229121e54db",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-work\\integrated-probes"
+      ],
+      "exit_code": 0,
+      "seconds": 87.484
+    },
+    {
+      "variant": "integrated",
+      "helper": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\docs\\research\\proposisjon16-62\\reviews\\security\\verify_outcomes.py",
+      "helper_binding": {
+        "bytes": 6117,
+        "sha256": "3c5858b8187b6d7b783deeeae36dd8d1a0e2c231157ab35fb355689d2dbca115"
+      },
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\docs\\research\\proposisjon16-62\\reviews\\security\\verify_outcomes.py",
+        "--root",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-work\\target",
+        "--candidate",
+        "4ddda7953431ac9f6ae861d800a33229121e54db",
+        "--base",
+        "2f4ee30c9d8074076fc8042e208c4a4b6345db6b",
+        "--artifacts",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-work\\integrated-probes",
+        "--output",
+        "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\t5-prop16\\.local\\fresh-github-20261030\\.local\\fresh-helper-ledgers\\integrated-verified.json"
+      ],
+      "exit_code": 0,
+      "seconds": 12.984
+    }
+  ],
+  "limits": "Helper equivalence on the historical candidate only. No new security acceptance of the P2-fixed working tree."
+}

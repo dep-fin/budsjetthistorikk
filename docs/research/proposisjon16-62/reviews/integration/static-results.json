@@ -1,0 +1,45 @@
+{
+  "python": "3.12.14",
+  "pythonpath": "C:\\Users\\marti\\Documents\\ChatGPT\\Budsjetthistorikk\\work\\c06-99235\\.local\\python-tools",
+  "versions": {
+    "ruff": "ruff 0.11.0",
+    "mypy": "mypy 1.15.0 (compiled: yes)"
+  },
+  "results": [
+    {
+      "name": "ruff-all",
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "."
+      ],
+      "exit_code": 0,
+      "seconds": 0.109
+    },
+    {
+      "name": "format-all",
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "."
+      ],
+      "exit_code": 0,
+      "seconds": 0.125
+    },
+    {
+      "name": "mypy",
+      "command": [
+        "C:\\Users\\marti\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "mypy"
+      ],
+      "exit_code": 0,
+      "seconds": 0.734
+    }
+  ]
+}
